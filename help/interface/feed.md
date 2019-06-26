@@ -1,12 +1,12 @@
 ---
 description: Experience Cloud Feed を使用してアセットや Analytics レポートを共有または直接投稿する方法を説明します。
 keywords: コアサービス
-seo-description: Experience Cloudフィードを使用して、アセットやAdobe Analyticsレポートを他のユーザーと直接共有または投稿する方法について説明します。
-seo-title: フィード
+seo-description: Experience Cloud Feed を使用してアセットや Adobe Analytics レポートを共有または直接投稿する方法を説明します。
+seo-title: Feed
 solution: Experience Cloud
-title: フィード
+title: Feed
 uuid: 7ff327d1-5a74-49fb-8c3c-729034818ebc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -22,7 +22,7 @@ Experience Cloud への初回ログイン時には、Feed に何も表示され�
 
 Feed の設定には次のものが含まれます。
 
-* **トピック:All\&lt; organization name\&gt;:** 自分と共有されているすべての投稿と、アクセス権を持つすべての投稿が表示されます。
+* **トピック：すべての \&lt;組織名\&gt;：** 共有している投稿とアクセス可能な投稿をすべて表示します。
 * **トピックを管理：** トピックをフォロー、フォロー解除または提案できます。管理者は、トピックを承認、拒否、非アクティブ化および作成することもできます。
 * **新しい投稿：** グループメンバーが表示できる投稿を作成します。
 * **すべての投稿：** フィード内のすべての投稿を表示します。
@@ -36,10 +36,10 @@ Feed の設定には次のものが含まれます。
 
 1. Adobe ID を使用して Experience Cloud に[ログイン](admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0)します。
 
-1. Reports &amp; Analytics に移動し、[プロジェクトを作成](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/freeform_overview.html)します。
+1. Reports &amp; Analytics に移動してから、[プロジェクトを作成](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/?f=freeform_overview)します。
 
-1. **[!UICONTROL その他]** / **[!UICONTROL 共有]** をクリックします。
+1. **[!UICONTROL その他]**／**[!UICONTROL 共有]** をクリックします。
 
    ![](assets/share_report.png)
 
-1. 共有ウィンドウで、受信者を追加し、 **[!UICONTROL 「共有]**」をクリックします。
+1. 共有ウィンドウで受信者を追加し、「**[!UICONTROL 共有]**」をクリックします。
