@@ -5,8 +5,8 @@ seo-description: 組織の概要と、ソリューションアカウントの Ex
 seo-title: 組織とアカウントのリンク
 solution: 'Marketing Cloud '
 title: 組織とアカウントのリンク
-uuid: ae47ad18- ac33-4efa-8b68-2bfaf77397aa
-translation-type: tm+mt
+uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
+translation-type: ht
 source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
 
 # 組織とアカウントのリンク
 
-組織の管理およびソリューションアカウントのExperience Cloudへのリンクについて説明します。
+組織管理の概要と、ソリューションアカウントの Experience Cloud へのリンクについて説明します。
 
 <!-- accounts-experience-cloud.xml -->
 
@@ -22,15 +22,15 @@ source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
 
 *組織*とは、管理者がグループおよびユーザーを設定し、Experience Cloud でのシングルサインオンを制御するために使用するエンティティです。組織は、すべての Experience Cloud 製品およびソリューションをまたいだログイン会社のように機能します。ほとんどの場合、組織は、会社名です。ただし、会社は多数の組織を持つことができます。
 
-また、サポートを受けるために組織 ID を特定することが必要になる場合もあります。**[!UICONTROL 組織]メニューを使用して、自分が正しい組織に属していることを確認したり、組織を切り替えたりできます。**
+また、サポートを受けるために組織 ID を特定することが必要になる場合もあります。**[!UICONTROL 組織]** メニューを使用して、自分が正しい組織に属していることを確認したり、組織を切り替えたりできます。
 
-![Step Result](assets/organization-switch.png)
+![手順の結果](assets/organization-switch.png)
 
 ## 組織 ID を見つける {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
-**組織ID** は、プロビジョニングされたExperience Cloud会社に関連付けられているIDです。この ID は 24 文字の英数字から成る文字列で、その後に @AdobeOrg（必須）が続きます。
+**組織 ID：** プロビジョニングされた Experience Cloud の会社に関連付けられた ID。この ID は 24 文字の英数字から成る文字列で、その後に @AdobeOrg（必須）が続きます。
 
-組織IDを表示するには、Experience Cloudランディングページに移動するか（ ![](assets/menu-icon.png)）、または（）をクリックして、「管理」をクリック **[!UICONTROL ]** します。組織IDは、&quot;Experience [!UICONTROL Cloudの概要」] ページまたは [!UICONTROL 管理] ページの下部にあります。
+組織 ID を表示するには、Experience Cloud ランディングページに移動するか、（![](assets/menu-icon.png)）をクリックしてから、「**[!UICONTROL 管理]**」をクリックします。組織 ID は、[!UICONTROL Experience Cloud 使用の手引き]ページまたは[!UICONTROL 管理]ページの下部にあります。
 
 ![](assets/administration-page.png)
 
@@ -40,7 +40,7 @@ source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
 
 1. Experience Cloud への招待メールに記載されている手順に従います。
 1. Adobe ID または Enterprise ID を使用してログインします。
-1. ソリューションセレクターをクリックします。（ ![](assets/menu-icon.png)）.
+1. ソリューションセレクター（![](assets/menu-icon.png)）をクリックします。
 
    ![](assets/solutions-active.png)
 
@@ -50,13 +50,13 @@ source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
    ![](assets/analytics-link-accounts.png)
 
    このタイプのメッセージは、ユーザーが適切なグループに属している（かつソリューションに対する権限を持っている）ものの、そのアカウントの資格情報をまだ Adobe ID にリンクしていない場合に表示されます。
-1. 「アカウント **[!UICONTROL ]** にリンク」をクリックして、資格情報を入力します。
+1. 「**[!UICONTROL アカウントにリンク]**」をクリックし、資格情報を設定します。
 
 ## デフォルトの組織とランディングページを指定する {#concept_6A191B42A9874A9780882903BA18F071}
 
 ログイン時に使用するデフォルトの組織およびランディングページを指定できます。
 
-プロファイルで、「プロファイル **[!UICONTROL を編集」をクリック]** します。
+自分のプロファイルで、「**[!UICONTROL プロファイルを編集]**」をクリックします。
 
 ![](assets/edit-profile.png)
 
@@ -68,7 +68,7 @@ source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
 
 アカウントのリンクに起因する問題に関するヘルプです。
 
-一般的に、アカウントのリンクは、Adobe ID が以前のユーザーにリンクされていることが原因で失敗します。アカウントのリンクに失敗した場合、次のことができます。
+一般的に、アカウントのリンクは、Adobe ID が以前のユーザーにリンクされていることが原因で失敗します。アカウントのリンクに失敗した場合は、
 
-* [アドビサポートに問い合わせる](https://helpx.adobe.com/marketing-cloud/contact-support.html)。
+* [アドビサポートへお問い合わせ](https://helpx.adobe.com/jp/marketing-cloud/contact-support.html)ください。
 * 問題の解決前でも、標準ログインを使用してソリューションにアクセスする。
