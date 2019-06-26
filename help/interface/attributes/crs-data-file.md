@@ -5,8 +5,8 @@ seo-description: 顧客属性を Experience Cloud にアップロードするた
 seo-title: 顧客属性のデータファイルおよびデータソースについて
 solution: Experience Cloud
 title: 顧客属性のデータファイルおよびデータソースについて
-uuid: 9dd0e364-889b-45db- b190-85c0930a101e
-translation-type: tm+mt
+uuid: 9dd0e364-889b-45db-b190-85c0930a101e
+translation-type: ht
 source-git-commit: bae7ac2bc620fc0f9ac149f7dce84fa70e1355c9
 
 ---
@@ -16,9 +16,9 @@ source-git-commit: bae7ac2bc620fc0f9ac149f7dce84fa70e1355c9
 
 顧客属性を Experience Cloud にアップロードするためのデータファイル要件および複数のデータソースに関する情報です。
 
-企業内の CRM データや同様のデータを入手する必要があります。Experience Cloudにアップロードするデータは [!DNL .csv] 、ファイルである必要があります。FTPまたはsFTP経由でアップロードする場合は [!DNL .fin] 、ファイルもアップロードします。
+企業内の CRM データや同様のデータを入手する必要があります。Experience Cloud にアップロードするデータは [!DNL .csv] ファイルでなければなりません。FTP や sFTP を利用してアップロードする場合は、[!DNL .fin] ファイルもアップロードします。
 
-顧客属性は、1日に数ファイルを処理するように設計されています。多数の小さなファイルを処理することの問題を軽減するために、同じ組織からの30分以内に送信されたファイルは、優先順位の低いキューにルーティングされます。
+顧客属性は、1 日に数ファイルを処理するように設計されています。小さなファイルを多数処理することで発生する問題を軽減するために、同じ組織から 30 分以内に送信されたファイルは、優先順位の低いキューにルーティングされます。
 
 <!-- <p>Articulate difference between this and SAINT. </p> -->
 
@@ -49,7 +49,7 @@ source-git-commit: bae7ac2bc620fc0f9ac149f7dce84fa70e1355c9
 </table>
 
 
-## 属性データファイルに関する要件 {#section_169FBF5B7BBA47CE825B7A330CF3FE98}
+## 属性データファイルの要件 {#section_169FBF5B7BBA47CE825B7A330CF3FE98}
 
 
 
@@ -81,7 +81,7 @@ CSV ファイルは次の形式に準拠する必要があります。
   </tr> 
   <tr> 
    <td colname="col1"> <p>顧客 ID 列 </p> </td> 
-   <td colname="col2"> <p> 1 列目は一意の顧客 ID でなければなりません。使用する ID は、Experience Cloud ID サービスに渡される ID に対応している必要があります。 </p> <p>Analytics の場合、prop または eVar に格納されている ID です。 </p> <p>Target の場合、setCustomerID 値です（<a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics と Target - 顧客 ID の同期</a>を参照してください）。 </p> <p> この顧客 ID は、データベース内の各ユーザーを表すために CRM で使用する一意の識別子です。残りの列は CRM からの属性です。アップロードする属性の数を選択します。 </p> <p>列の見出しには読みやすく、わかりやすい名前を使用することが推奨されますが、必須ではありません。アップロード後におこなうスキーマの検証の際に、アップロードされた行と列にわかりやすい名前を対応付けることができます。 </p> <p> <b>顧客 ID について</b> </p> <p>通常、企業は、CRM システムからの顧客 ID を使用します。この ID は、ユーザーのログイン時に <span class="codeph">setCustomerIDs</span> 呼び出しを使用して設定されます。また、この ID は、Experience Cloud にアップロードされる CRM ファイルのキーとしても使用されます。An<a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local">エイリアス ID</a> は、エイリアスデータが格納される Audience Manager のデータストアの識別子です。システムは、エイリアスをこのデータストアに（setCustomerIDs を使用して）送信します。CRM ファイルは、このデータストアのデータに適用されます。 </p> <p><span class="codeph">setCustomerIDs</span> 情報については、<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html" format="https" scope="external">顧客 ID と認証の状態</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> 1 列目は一意の顧客 ID でなければなりません。使用する ID は、Experience Cloud ID サービスに渡される ID に対応している必要があります。 </p> <p>Analytics の場合、prop または eVar に格納されている ID です。 </p> <p>Target の場合、setCustomerID 値です（<a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics と Target - 顧客 ID の同期</a>を参照してください）。 </p> <p> この顧客 ID は、データベース内の各ユーザーを表すために CRM で使用する一意の識別子です。残りの列は CRM からの属性です。アップロードする属性の数を選択します。 </p> <p>列の見出しには読みやすく、わかりやすい名前を使用することが推奨されますが、必須ではありません。アップロード後におこなうスキーマの検証の際に、アップロードされた行と列にわかりやすい名前を対応付けることができます。 </p> <p> <b>顧客 ID について</b> </p> <p>通常、企業は、CRM システムからの顧客 ID を使用します。この ID は、ユーザーのログイン時に <span class="codeph">setCustomerIDs</span> 呼び出しを使用して設定されます。また、この ID は、Experience Cloud にアップロードされる CRM ファイルのキーとしても使用されます。 <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local">エイリアス ID</a> は、エイリアスデータが格納される Audience Manager のデータストアの識別子です。システムは、エイリアスをこのデータストアに（setCustomerIDs を使用して）送信します。CRM ファイルは、このデータストアのデータに適用されます。 </p> <p><span class="codeph">setCustomerIDs</span> 情報については、<a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/?f=mcvid-authenticated-state" format="https" scope="external">顧客 ID と認証の状態</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2 列目以降の見出しと列 </p> </td> 
@@ -113,19 +113,19 @@ CSV ファイルは次の形式に準拠する必要があります。
    <td colname="col1"> <p>FTP に関するガイドラインとサイズ制限 </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_E157EE6F98914EADA0C103D1D1E705D3"> 
-      <li id="li_84FBD455DD164A28AC16F4A5AB19E4B3">FTPの最大ファイルサイズ制限は、アップロードごとに4GBです。 </li> 
-      <li>アップロードごとの最小ファイルサイズ制限10MB。 </li>
-      <li>1時間ごとに1つのファイルをアップロードできます。 </li>
+      <li id="li_84FBD455DD164A28AC16F4A5AB19E4B3">FTP のファイルサイズの上限は、各アップロードで 4 GB です。 </li> 
+      <li>ファイルサイズの下限は、各アップロードで 10 MB です。 </li>
+      <li>30 分ごとに 1 つのファイルをアップロードできます。 </li>
       <li id="li_B69A20C51D824727AA99C1F6F78537A4"> <span class="filepath">.csv</span>（および <span class="filepath">.fin</span>）ファイルを FTP サイトのルートフォルダーにアップロードする必要があります。 </li> 
      </ul> </p> <p> <p>重要：FTP アカウントの合計許容量は 40 GB です。処理されたデータを削除するのは、ユーザーの責任です。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ファイル要件 </p> </td> 
-   <td colname="col2"> <p> 各属性ソースには、コンマで区切った同数のフィールドが含まれる必要があります。 </p> <p> 改行、二重引用符またはコンマを含むフィールドは引用符で囲む必要があります。 </p> <p> フィールド内の二重引用符文字は、バックスラッシュ（\）を使用してエスケープする必要があります。 </p> <p> 空白の列には  <span class="term"> null </span>. </p> </td> 
+   <td colname="col2"> <p> 各属性ソースには、コンマで区切った同数のフィールドが含まれる必要があります。 </p> <p> 改行、二重引用符またはコンマを含むフィールドは引用符で囲む必要があります。 </p> <p> フィールド内の二重引用符文字は、バックスラッシュ（\）を使用してエスケープする必要があります。 </p> <p> 空白の列は<span class="term"> Null </span> として保存されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>複数ファイル </p> </td> 
-   <td colname="col2"> <p>顧客属性データをアップロードするときに、連続してアップロードする複数のファイルがある場合、特にファイルが大きい場合は、前のファイルをアップロードする前に前のファイルが処理されていることを確認してください。これを監視するには、以前のファイルが顧客属性FTPアカウント内の処理済みフォルダーまたは失敗フォルダーに移動されたタイミングをチェックします。 </p> <p> 大きなファイルを小さなファイルに分割し、それらをすばやく送信することは、次のファイルを送信する前に各ファイルが完全に処理されない限り、処理速度が低下する可能性があります。 </p> </td> 
+   <td colname="col1"> <p>複数のファイル </p> </td> 
+   <td colname="col2"> <p>顧客属性データをアップロードする際、連続してアップロードする複数のファイルがある場合（特にファイルが大きい場合）は、前のファイルが処理されていることを確認してから次のファイルをアップロードするようにしてください。これを監視するには、前のファイルが顧客属性 FTP アカウント内の処理済みフォルダーまたは失敗フォルダーに移動したタイミングを確認します。 </p> <p> 大きなファイルを小さなファイルに分割し、それらを短時間で連続して送信すると、次のファイルを送信する前に各ファイルが完全に処理されない限り、処理速度が低下する可能性があります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>文字エンコーディング </p> </td> 
@@ -160,8 +160,8 @@ Visitor.setCustomerIDs({
 });
 ```
 
-（詳しくは、[顧客 ID および認証の状態](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids)を参照してください。）
+（詳しくは、[顧客 ID と認証状態](https://marketing.adobe.com/resources/help/ja_JP/mcvid/?f=mcvid_customer_ids)を参照してください。）
 
-**[!UICONTROL Experience Cloud]** / **[!UICONTROL ユーザー]** / **[!UICONTROL 顧客属性]**:
+**[!UICONTROL Experience Cloud]**／**[!UICONTROL People]**／**[!UICONTROL 顧客属性]** で：
 
 上記の顧客 ID に対応する一意のエイリアス ID を使用して、2 つの顧客属性ソースを作成します。この手法を使用すると、同じ参照 ID を複数の顧客属性ソースに送信できます。
