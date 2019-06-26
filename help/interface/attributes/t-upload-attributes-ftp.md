@@ -5,8 +5,8 @@ seo-description: ドラッグ＆ドロップを使用してアップロード、
 seo-title: オプション - FTP を使用したデータファイルのアップロード
 solution: Experience Cloud
 title: オプション - FTP を使用したデータファイルのアップロード
-uuid: 5df565dd- b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: tm+mt
+uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
+translation-type: ht
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -16,17 +16,17 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ドラッグ＆ドロップを使用してアップロード、または FTP を利用して顧客属性データを Experience Cloud にアップロードできます。
 
-Experience Cloud に顧客属性ソースと FTP アカウントを作成したら、データをアップロードできます。属性ソースごとに 1 つの FTP アカウントを作成できます。アップロードしたファイルは、そのアカウントのルートフォルダーに保存されます。データは [!DNL .csv] 、アップロードが完了したことを示す2番目 [!DNL .fin] のファイルを含む形式でなければなりません。
+Experience Cloud に顧客属性ソースと FTP アカウントを作成したら、データをアップロードできます。属性ソースごとに 1 つの FTP アカウントを作成できます。アップロードしたファイルは、そのアカウントのルートフォルダーに保存されます。データは [!DNL .csv] 形式にする必要があります。2 つ目の [!DNL .fin] ファイルは、アップロードが完了したことを示します。
 
 >[!IMPORTANT]
 >
->顧客属性をアップロードする [ためのデータファイル要件を確認して](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) から、ファイルをアップロードしてください。
+>[顧客属性をアップロードするためのデータファイル要件](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)を確認してください。
 
 
 顧客属性 FTP サイトへのファイルアップロードは、FTP または SFTP を使用しておこなうことができます。
 
 * SFTP 接続をサポートしているクライアントが必要です。
-* [こちら](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/?f=ftp_sftp_cert_auth)で説明しているように、ユーザー名／パスワードを使用して、またはパスワードを使用せずに、SFTP で接続できます。
+* [こちら](https://marketing.adobe.com/resources/help/ja_JP/whitepapers/ftp/?f=ftp_sftp_cert_auth)で説明しているように、ユーザー名／パスワードを使用、またはパスワードを使用せずに SFTP に接続できます。
 
 
 
@@ -39,17 +39,17 @@ Experience Cloud に顧客属性ソースと FTP アカウントを作成した�
 <p>Workflow: Drag and drop, validate schema, configure subscription, save/activate. </p> -->
 **FTP を使用してデータファイルをアップロードするには**
 
-1. [顧客属性ソースの作成とデータファイルのアップロード...](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78).
+1. [顧客属性ソースを作成し、データファイルをアップロードします](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)。
 
-   [!DNL ftp. adobe. com/<sftpname>] を参照してください。
+   FTP サイトにログインしていることを [!DNL ftp.adobe.com/<sftpname>] で確認します。
 
-1. **[!UICONTROL アクション]** / **[!UICONTROL ファイルのアップロードをクリック]** します。
+1. **[!UICONTROL アクション]**／**[!UICONTROL ファイルのアップロード]** をクリックします。
 
-1. [!DNL .fin] ファイルをアップロードして、ファイルを取得できるようにします。
+1. ファイルを取得できるように、[!DNL .fin] ファイルをアップロードします。
 
-   ファイルタイプ [!DNL .fin] はユーザーが作成し、アップロードが完了したことを伝えるものです。空のメモ帳ファイルでもかまいません。例えば、アップロード [!DNL crs123.csv]する場合はアップロード [!DNL crs123.fin]します。
+   ファイルタイプ [!DNL .fin] は、ユーザーによって作成されるもので、アップロードが完了したことを示す合図です。空のメモ帳ファイルでもかまいません。例えば、[!DNL crs123.csv] をアップロードする場合は、[!DNL crs123.fin] もアップロードします。
 
    アップロードに成功すると、どちらのファイルも **processed** というフォルダーに移動されます。
 
 
-   ファイル名と構造に関する重要情報については、[顧客属性をアップロードするためのデータファイル要件](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)」を参照してください。
+   ファイル名と構造に関する重要情報については、[顧客属性をアップロードするためのデータファイル要件](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)を参照してください。
