@@ -5,8 +5,8 @@ seo-description: Experience Cloud で属性ルールを使用して、オーデ�
 seo-title: オーディエンスの作成
 solution: Experience Cloud
 title: オーディエンスの作成
-uuid: 7e622539-296e-4ff3-93b0- ec1c08b35429
-translation-type: tm+mt
+uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
+translation-type: ht
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -31,19 +31,18 @@ Experience Cloud で属性ルールを使用して、オーディエンスを作
 
 >[!NOTE]
 >
->オーディエンスは、指定した期間のデータ収集後に完全に定義されます。
-次の例は、複合オーディエンスのルールを作成する方法を示したものです。このオーディエンスは、次のもので構成されます。
+>オーディエンスが完全に定義されるのは、指定されたデータ収集期間の終了後です。次の例は、複合オーディエンスのルールを作成する方法を示したものです。このオーディエンスは、次のもので構成されます。
 
 * ページデータまたは Analytics の生データから得られる Home &amp; Garden セクション
-* に公開された [!DNL Adobe Analytics] セグメント [から派生したChromeおよびSafari](../audience-library/audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) ユーザー [!DNL Experience Cloud]。
+* [!DNL Experience Cloud] に[公開](../audience-library/audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A)された [!DNL Adobe Analytics] セグメントから得られる Chrome ユーザーと Safari ユーザー。
 
 
    ![](assets/audience_create.png)
 
-1. で [!DNL Experience Cloud]**[!UICONTROL 、人物]** / **[!UICONTROL オーディエンスライブラリ]** をクリックします。
-1. [!UICONTROL オーディエンス] ページで、 **[!UICONTROL 「新規]**」をクリックします。 ![](assets/add_icon_small.png)
+1. [!DNL Experience Cloud] で、**[!UICONTROL People]**／**[!UICONTROL オーディエンスライブラリ]** をクリックします。
+1. [!UICONTROL オーディエンス]ページで、「**[!UICONTROL 新規]**」をクリックします。![](assets/add_icon_small.png)
 
-![Step Result](assets/audience_create_new.png)
+![手順の結果](assets/audience_create_new.png)
 
 1. [!UICONTROL 新しいオーディエンスを作成]ページで、タイトルと説明を指定します。
 1. 「[!UICONTROL ルール]」で、属性のソースを選択します。
@@ -52,32 +51,32 @@ Experience Cloud で属性ルールを使用して、オーディエンスを作
 
    >[!NOTE]
    >
-   >キャッシュにより、Analyticsで削除されたレポートスイートは、削除がExperience Cloudに表示されるまで12時間かかります。
+   >キャッシュの影響により、Analytics で削除したレポートスイートが Experience Cloud に反映されるまで 12 時間かかります。
 
-* **[!UICONTROL Experience Cloud:]**[!DNL Experience Cloud] ソースから派生する属性データ。例えば、[!DNL Analytics] で作成したオーディエンスセグメントからのデータや、[!DNL Audience Manager] からのデータです。
+* **[!UICONTROL Experience Cloud：]**[!DNL Experience Cloud] Experience Cloud ソースから抽出された属性データ。例えば、[!DNL Analytics] で作成したオーディエンスセグメントからのデータや、[!DNL Audience Manager] からのデータです。
 
 1. オーディエンスルールを定義します。
 
 >[!NOTE]
 >
->オーディエンスルールを定義する際には、実装変数を理解する必要があります。
+>オーディエンスルールを定義する場合は、実装変数について理解している必要があります。
 
-[!UICONTROL 「ルール]」で *`Home & Garden`* 、属性の選択を次のように定義します。
+「[!UICONTROL ルール]」で、*`Home & Garden`* 属性の選択肢を定義します。
 
 * **[!UICONTROL 属性のソース：]** Analytics 生データ
 * **[!UICONTROL レポートスイート：]** レポートスイート 31
-* Dimension= **[!UICONTROL Store（Merch）（v6）]** &gt; **[!UICONTROL Equals]** &gt; **[!UICONTROL Home&amp; Garden]**
+* ディメンション = **[!UICONTROL Store (Merch) (v6)]**／**[!UICONTROL 次の値と等しい]**／**[!UICONTROL ホーム&amp;ガーデン]**
 
    ![](assets/home_garden.png)
 
-   *ChromeおよびSafariの訪問者* は、Analyticsから共有されたオーディエンスセグメントです。
+   *Chrome および Safari の訪問者*は、Analytics から共有されたオーディエンスセグメントです。
 
 * **[!UICONTROL 属性のソース：]** Experience Cloud
-* **[!UICONTROL ディメンション：]** Chrome &amp; Safari Visitors
+* **[!UICONTROL ディメンション：]** Chrome および Safari の訪問者
 
    ![](assets/chrome_safari.png)
 
-   比較する場合、 *&quot;OR* 」ルールを追加して、「テラスと家具」などのサイトセクションへのすべての訪問者を表示できます。
+   比較のために、*OR* ルールを追加して、「Patio &amp; Furniture」などのサイトセクションへのすべての訪問者を確認することもできます。
 
    ![](assets/audiences_rule_patio.png)
 
@@ -93,6 +92,6 @@ Experience Cloud で属性ルールを使用して、オーディエンスを作
 
 特定期間のデータ収集が終了すると、円は結合されて、定義されたオーディエンスを表示します。
 
-1. ルールを定義したら **[!UICONTROL 、「保存]**」をクリックします。
+1. ルールを定義したら、「**[!UICONTROL 保存]**」をクリックします。
 
 オーディエンスを保存すると、他のソリューションで使用できるようになります。例えば、Target のアクティビティに共有オーディエンスを含めることができます。
