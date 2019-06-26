@@ -3,8 +3,8 @@ description: 1 つまたは複数のレポートスイートを組織にマッ�
 seo-description: 1 つまたは複数のレポートスイートを組織にマッピングする方法について説明します。
 seo-title: 組織へのレポートスイートのマッピング
 title: 組織へのレポートスイートのマッピング
-uuid: b983d5a6- b3d0-4137- ac53- bc5681d3e58b
-translation-type: tm+mt
+uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
+translation-type: ht
 source-git-commit: d9d6cebc0e9e14eac2471dc79b91276a154e35e0
 
 ---
@@ -26,35 +26,35 @@ Experience Cloud サービス（Experience Cloud ID サービスや People コ�
 
 指定したレポートスイートへのアクセス権を持つ組織のログイン会社の Analytics 管理者権限を持っていない場合、その組織はグレー表示されます。
 
-## レポートスイートの組織へのマッピング {#task_23993FE78DF6455FA8D7BE60686EA16C}
+## 組織へのレポートスイートのマッピング {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. **[!UICONTROL Experience Cloud]** / **[!UICONTROL 管理]** / **[!UICONTROL レポートスイートのマッピングをクリックします]**
+1. **[!UICONTROL Experience Cloud]**／**[!UICONTROL 管理]**／**[!UICONTROL レポートのスイートマッピング]** をクリックします。
 
-   [ダイレクト URL](https://audience.marketing.adobe.com/rsmapping/ui.html) を使用することもできます。
+   また、[ダイレクト URL](https://audience.marketing.adobe.com/rsmapping/ui.html) を使用することもできます。
 
-1. 各レポートスイートにアクセスできるログイン会社を表示するには、 **[!UICONTROL [表示]をクリック]** します。
+1. 各レポートスイートにアクセスできるログイン会社を確認するには、「**[!UICONTROL 表示可能なログイン会社名]**」をクリックします。
 
    この画面は、十分な情報に基づいてマッピングをおこなえるようにすることを目的としています。
 
-1. レポートスイートの横にある「**[!UICONTROL マッピングされた組織]」列のドロップダウンリストをクリックし、マッピングする組織を選択します。**
+1. レポートスイートの横にある「**[!UICONTROL マッピングされた組織]**」列のドロップダウンリストをクリックし、マッピングする組織を選択します。
 
-   Experience Cloud組織の選択に関するヒントについては、次の節を参照してください。
+   Experience Cloud 組織の選択に関するヒントについては、次の節を参照してください。
 
-## 複数のレポートスイートの組織へのマッピング {#task_94955B0D8ABA4CB1A38746ECF8E32711}
+## 組織に複数のレポートスイートをマッピングする{#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
-1. **[!UICONTROL Experience Cloud]** / **[!UICONTROL 管理]** / **[!UICONTROL レポートスイートのマッピングをクリック]** します。
+1. **[!UICONTROL Experience Cloud]**／**[!UICONTROL 管理]**／**[!UICONTROL レポートのスイートマッピング]** をクリックします。
 
-   [ダイレクト URL](https://audience.marketing.adobe.com/rsmapping/ui.html) を使用することもできます。
+   また、[ダイレクト URL](https://audience.marketing.adobe.com/rsmapping/ui.html) を使用することもできます。
 
 1. マッピングするレポートスイートを選択します。
 
    ![](assets/rs-mapping-multiple.png)
 
-1. 組織（この例ではOutdoors Inc）を選択し、 **[!UICONTROL 「選択]**」をクリックします。
+1. 組織（この例では Outdoors Inc）を選択し、「**[!UICONTROL 選択]**」をクリックします。
 
-   Experience Cloud組織の選択に関するヒントについては、次の節を参照してください。
+   Experience Cloud 組織の選択に関するヒントについては、次の節を参照してください。
 
-1. 「マッピング **[!UICONTROL を保存」をクリック]** します。
+1. 「**[!UICONTROL マッピングを保存]**」をクリックします。
 
 ## Experience Cloud 組織の選択に関するヒント {#mapping-tips}
 
@@ -62,13 +62,14 @@ Experience Cloud サービス（Experience Cloud ID サービスや People コ�
 
 **どの組織を選択すべきか**
 
-既に Experience Cloud ID サービスがレポートスイートにデプロイされている場合は、レポートスイートマッピングツールで選択する組織と、サイト上の [!DNL visitorAPI.js] ファイルで指定されている組織が同じであることを確認します。[Experience Cloud ID サービスのテストと検証](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html)の指示に従えば、訪問者 ID サービスで使用されている組織 ID を確認できます。
+既に Experience Cloud ID サービスがレポートスイートにデプロイされている場合は、レポートスイートマッピングツールで選択する組織と、サイト上の [!DNL visitorAPI.js] ファイルで指定されている組織が同じであることを確認します。[Test and Verify the Experience Cloud ID サービスのテストと検証](https://marketing.adobe.com/resources/help/ja_JP/mcvid/?f=mcvid-test-verify)の指示に従えば、訪問者 ID サービスで使用されている組織 ID を確認できます。
 
 レポートスイート用のデータを収集するサイト上にまだ訪問者 ID サービスがデプロイされておらず、今後 Experience Cloud 訪問者 ID サービスをデプロイする予定がある場合は、レポートスイートマッピングツールで選択した組織と一致するようにデプロイをおこなう必要があります。
 
 **一部の組織がグレー表示されている理由**
 
-これは、グレー表示されているレポートスイートにマッピングするために必要な権限が不足していることを示しています。次の例をご覧ください。![](assets/rs-mapping.png)この図では、青色の鍵が管理権限を示しています。グレーの線は可視性を示しています。
+これは、グレー表示されているレポートスイートにマッピングするために必要な権限が不足していることを示しています。次の例をご覧ください。
+![](assets/rs-mapping.png)この図では、青色の鍵が管理権限を示しています。グレーの線は可視性を示しています。
 
 このユーザーは、2 つの Experience Cloud 組織にアクセスできます。このユーザーは以下の操作を実行しました。
 
@@ -90,7 +91,7 @@ Experience Cloud サービス（Experience Cloud ID サービスや People コ�
 
 **レポートスイートのドロップダウンリストに見覚えのない組織が表示されている場合はどうすればよいですか。**
 
-すべてのレポートスイートにマッピングする権限がない場合でも、レポートスイートをマッピングできる*可能な**組織がリストに表示されます。リスト内でグレー表示されている組織にレポートスイートをマッピングする必要があるかどうかがわからない場合は、組織の Experience Cloud 管理者に問い合わせてください。
+マッピング権限を持っていないレポートスイートがあったとしても、リストにはレポートスイートをマッピングできる可能性のあるすべての組織が表示されます。リスト内でグレー表示されている組織にレポートスイートをマッピングする必要があるかどうかがわからない場合は、組織の Experience Cloud 管理者に問い合わせてください。
 
 **レポートスイートの「表示可能なログイン会社名」列に見覚えのないログイン会社が表示されている場合はどうすればよいですか。**
 
@@ -106,7 +107,7 @@ Experience Cloud サービス（Experience Cloud ID サービスや People コ�
 
 **Experience Cloud 組織の組織 ID しかわからない場合、組織 ID に対応する名前を調べるには、どうすればよいですか。**
 
-組織名は「[組織とアカウントの設定](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=organizations)」で確認できます。
+組織名は、[組織とアカウントの設定](https://marketing.adobe.com/resources/help/ja_JP/mcloud/?f=organizations)で確認できます。
 
 **「マッピング日」列に日付が表示されています。誰がこのマッピングを実行したのでしょうか。**
 
