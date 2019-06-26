@@ -6,7 +6,7 @@ seo-title: 顧客属性
 solution: Experience Cloud
 title: 顧客属性
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -16,36 +16,36 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ## 概要
 
-Experience Cloudの [!UICONTROL 顧客属性] 機能はここにあります。
+Experience Cloud の [!UICONTROL 顧客属性]機能は次の場所にあります。
 
-**[!UICONTROL 人]** / **[!UICONTROL 顧客属性]**
+**[!UICONTROL People]**／**[!UICONTROL 顧客属性]**
 
-エンタープライズ顧客データを顧客関係管理（CRM）データベースに取り込んでいる場合は、そのデータを Experience Cloud の顧客属性データソースにアップロードできます。アップロードが完了したら、の [!DNL Adobe Analytics] データを活用 [!DNL Adobe Target]します。
+エンタープライズ顧客データを顧客関係管理（CRM）データベースに取り込んでいる場合は、そのデータを Experience Cloud の顧客属性データソースにアップロードできます。アップロード後は、データを [!DNL Adobe Analytics] と [!DNL Adobe Target] で利用できます。
 
 ![](assets/custom_reports.png)
 
 ## 顧客属性をアップロードするための前提条件 {#section_BD38693AFBF34926BA28E964963B4EA0}
 
 
-* **ソリューションの有効化:**[コアサービスのソリューションを有効](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)にします。
+* **ソリューションの有効化：** [コアサービス向けにソリューションを有効化](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)します。
 
-* **グループのメンバーシップ：** 顧客属性データをアップロードするには、ユーザーは、  [顧客属性グループ](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)のメンバーである必要があります。また、Adobe Analytics グループまたは Adobe Target グループのいずれかに属している必要もあります。
+* **グループのメンバーシップ：** 顧客属性データをアップロードするには、ユーザーは、[顧客属性グループ](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)のメンバーである必要があります。また、Adobe Analytics グループまたは Adobe Target グループのいずれかに属している必要もあります。
 
-   会社が顧客属性にアクセスできるかどうかを知るには、管理者が [!DNL Experience Cloud] ログイン [!DNL Experience Cloud]する必要があります。**[!UICONTROL 管理]** /管理コンソール **[!UICONTROL の起動]** / **[!UICONTROL グループに移動]** します。*顧客属性がグループの1つとし* て表示される場合は、開始する準備ができています。
+   自社が顧客属性にアクセスできるかどうかを知るには、 [!DNL Experience Cloud] 管理者が、[!DNL Experience Cloud] にログインする必要があります。**[!UICONTROL 管理]**／**[!UICONTROL Admin Console を起動]**／**[!UICONTROL グループ]** に移動します。グループの 1 つとして*顧客属性*がある場合は、すぐに始めることができます。
 
-   顧客属性グループに追加されたユーザーには、Experience Cloudインターフェイスの左側に [!UICONTROL 顧客属性] メニュー項目が表示されます。
+   顧客属性グループに追加されたユーザーには、Experience Cloud インターフェイスの左側に[!UICONTROL 顧客属性]メニュー項目が表示されます。
 
 * **ターゲット mbox：** 顧客属性には、mbox.js バージョン 58 以降が必要です。
 
 
-   [mbox.js の実装](https://marketing.adobe.com/resources/help/en_US/target/ov/t_mbox_download.html)を参照してください。
+   [Mbox.js の実装](https://marketing.adobe.com/resources/help/ja_JP/target/ov/?f=t_mbox_download)を参照してください。
 
 * **at.js：** すべてのバージョン。
 
 
 
 
-## 企業顧客データとは何ですか? {#section_6F34C29F11414842AA57D2B1248FA3C6}
+## 企業顧客データとは{#section_6F34C29F11414842AA57D2B1248FA3C6}
 
 企業データは様々なシステムに分散されています。企業データは複雑で、そのデータが持つ意味は人によって異なることがあります。このデータには、メンバーシップ、忠誠度、年齢、性別、所有する製品、興味、ライフタイム値などの情報が含まれます。
 
@@ -53,9 +53,9 @@ Experience Cloudの [!UICONTROL 顧客属性] 機能はここにあります。
 
 ![](assets/01_crs_usecase.png)
 
-作成したデータファイルは **[!UICONTROL 、Experience Cloud]** / **[!UICONTROL 顧客属性で作成した顧客属性ソースにアップロード]** できます。
+作成したデータファイルは、**[!UICONTROL Experience Cloud]**／**[!UICONTROL 顧客属性]** を選択して作成する顧客属性ソースにアップロードできます。
 
-このワークフローについて詳しくは、「顧客属性データ [](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) のアップロード」を参照してください。
+このワークフローについては、[顧客属性データのアップロード](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)を参照してください。
 
 ## ソリューションの使用例 {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
