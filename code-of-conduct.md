@@ -1,6 +1,6 @@
 ---
 source-git-commit: 04d71f56f9e7147ac91a3135ac2df04cb1eea37a
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # アドビ行動規範
@@ -45,4 +45,5 @@ translation-type: tm+mt
 
 ## 帰属
 
-本行動規範は、次のサイトにある [Contributor Covenant](https://contributor-covenant.org) バージョン 1.4 をもとに作成されました。[https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
+本行動規範は、次のサイトにある [Contributor Covenant](https://contributor-covenant.org)、バージョン 1.4 を元に作成されました。
+[https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
