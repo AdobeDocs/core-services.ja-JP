@@ -2,17 +2,17 @@
 description: Adobe Experience Cloud でアップロードされて使用される、個人情報（PII）に関する配慮とベストプラクティスです。
 keywords: 顧客属性;コアサービス
 seo-description: Adobe Experience Cloud でアップロードされて使用される、個人情報（PII）に関する配慮とベストプラクティスです。
-seo-title: プライバシーに関する考慮事項-顧客属性
+seo-title: プライバシーに関する配慮 - 顧客属性
 solution: Experience Cloud
-title: プライバシーに関する考慮事項-顧客属性
-uuid: 5666dc4e-55fa-4196-9985- cf530cfb9247
-translation-type: tm+mt
+title: プライバシーに関する配慮 - 顧客属性
+uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
+translation-type: ht
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
 
 
-# プライバシーに関する考慮事項-顧客属性
+# プライバシーに関する配慮 - 顧客属性
 
 Adobe Experience Cloud でアップロードされて使用される、個人情報（PII）に関する配慮とベストプラクティスです。
 
