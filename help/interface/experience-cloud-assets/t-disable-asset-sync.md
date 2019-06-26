@@ -5,8 +5,8 @@ seo-description: Creative Cloud Files フォルダー内にある共有 Experien
 seo-title: 共有フォルダーの同期の無効化
 solution: Experience Cloud
 title: 共有フォルダーの同期の無効化
-uuid: 17c42b39-614c-45e4- bfb1- c6cb2fd66150
-translation-type: tm+mt
+uuid: 17c42b39-614c-45e4-bfb1-c6cb2fd66150
+translation-type: ht
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -18,12 +18,12 @@ Creative Cloud Files フォルダー内にある共有 Experience Cloud フォ�
 
 >[!NOTE]
 >
->所有しているフォルダのみを非同期化できます。
+>同期解除できるのは、所有しているフォルダーだけです。
 <p class="head"> <b>Windows</b> </p>
 
 1. エクスプローラーを開きます。
 
-1. 「お気に入り」の下の **[!UICONTROL Creative Cloud Files]** フォルダーを右クリックし、「同期する共有フォルダー **[!UICONTROL を選択」をクリック]** します。
+1. 「お気に入り」の下の「**[!UICONTROL Creative Cloud ファイル]**」フォルダーを右クリックし、「**[!UICONTROL 同期する共有フォルダーを選択]**」をクリックします。
 
    ![](assets/select_sync_folders.png)
 
@@ -35,7 +35,7 @@ Creative Cloud Files フォルダー内にある共有 Experience Cloud フォ�
 
 1. ユーザーフォルダーに移動します。
 
-1. Controlキーを押しながら **[!UICONTROL Creative Cloud Files]** をクリックし、同期する共有フォルダー **[!UICONTROL を選択をクリック]** します。
+1. Ctrl キーを押しながら「**[!UICONTROL Creative Cloud ファイル]**」をクリックし、「**[!UICONTROL 同期する共有フォルダーを選択]**」をクリックします。
 
    ![](assets/select_sync_folders_mac.png)
 
