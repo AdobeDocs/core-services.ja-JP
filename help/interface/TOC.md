@@ -3,8 +3,8 @@ audience: end-user
 user-guide-title: コアサービスユーザーガイド
 user-guide-url: https://www.adobe.com/jp
 index: true
-translation-type: ht
-source-git-commit: ea102e402ee942d00f0525000f3ebd7ee19a4392
+translation-type: tm+mt
+source-git-commit: 8c3a614bbb81601d8f906f6f69256a9df8edfd56
 
 ---
 
@@ -27,8 +27,8 @@ source-git-commit: ea102e402ee942d00f0525000f3ebd7ee19a4392
    + [コンテンツの埋め込み](admin-getting-started/oembed.md)
 + Activation {#activation}
    + [Activation の概要](activation/activation.md)
-   + [Launch ユーザーガイド](https://marketing.adobe.com/resources/help/ja_JP/experience-cloud/launch/)
-   + [DTM ユーザーガイド](https://marketing.adobe.com/resources/help/ja_JP/dtm/)
+   + [ユーザーガイドの起動](https://docs.adobe.com/content/help/en/launch/using/overview.html)
+   + [DTMユーザーガイド](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
 + Assets {#assets}
    + [Assets の概要](experience-cloud-assets/experience-cloud-assets.md)
@@ -59,7 +59,7 @@ source-git-commit: ea102e402ee942d00f0525000f3ebd7ee19a4392
    + [累積リリースノート](marketing-cloud-interface/release-notes.md)
 + [Exchange Marketplace](exchange.md)
 + [Feed](feed.md)
-+ [Mobile Services](https://marketing.adobe.com/resources/help/ja_JP/mobile/)
++ [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 + その他のリソース {#more-resources}
    + [フォーラム](https://forums.adobe.com/community/experience-cloud)
    + [用語](terms.md)
