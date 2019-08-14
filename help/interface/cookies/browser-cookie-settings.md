@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
+source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
 
@@ -36,10 +36,3 @@ source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 法律および規制手引きでは、エンドユーザーが cookie をブロックするアクションはプロファイルをオプトアウトするアクションと同じであるとされています。この機能を有効にすると、すべての cookie をブロックするように設定されているデスクトップブラウザーから収集されたデータは、Analytics のレポートから除外されます。その Web ブラウザーがアドビの認識外のものである場合は、収集されたデータが Analytics のレポートに含まれます。
 
 世界中の立法関係者が（手引きと合意の両方において）、ブラウザーの cookie 設定はプロファイリングの対象から外れたいというユーザーの意思を示すものであると言明しています。具体的に言うと、サードパーティ cookie をブロックするブラウザー設定はサードパーティ（クロスサイト）トラッキングからのオプトアウトを表明するものであり、すべての cookie をブロックする設定はすべてのトラッキングからのオプトアウトを表明するものであると多くの立法関係者が述べています。ブラウザーの cookie 設定を迂回する手段としてサーバー側の識別情報（IP アドレスやユーザーエージェント）を利用する方法もありますが、こうした手法はユーザーの選択に背くものであると一部の立法関係者は考えています。
-
-<!--
-<p>Awaiting content from Vinay May 20 2015 </p>
-<p>https://wiki.corp.adobe.com/display/omtrcache/Inferred+Opt+Out </p>
-<p>https://wiki.corp.adobe.com/display/omtrplatform/Auto-opt-out+For+Users+Who+Block+Cookies </p>
--->
-
