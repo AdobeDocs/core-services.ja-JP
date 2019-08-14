@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c24b266eda9aae1e86a58ac473fa339f7eb26efe
+source-git-commit: 7428f95c3e06e6bad1290540789e203608e113e4
 
 ---
 
@@ -18,10 +18,6 @@ source-git-commit: c24b266eda9aae1e86a58ac473fa339f7eb26efe
 # Survey の cookie{#survey-cookies}
 
 Survey では、異なるブラウザーからの要求を区別する目的と、顧客感情をよりよく理解するために役立つ情報を保存する目的で cookie を使用します。
-
-* [cookie 名：s_sv_sid](../cookies/cookies-survey.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
-* [cookie 名：s_sv_s1](../cookies/cookies-survey.md#section-14ad50dfcd7342f9ac80283b1f0d3400)
-* [cookie 名：s_sv_p1](../cookies/cookies-survey.md#section-05d1c52c478541609f4a18a9c1eb032f)
 
 ## cookie 名：s_sv_sid {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
