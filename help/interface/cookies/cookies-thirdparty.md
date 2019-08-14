@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
+source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
 
@@ -23,12 +23,8 @@ source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 **Adobe Analytics および Target**
 
-<!--
-Test
--->
-
 * ファーストパーティ実装をお使いのお客様への影響はほとんどありません。
-* ファーストパーティ実装をお使いでないお客様も、[訪問者 ID サービス](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_service)を実装すれば、ファーストパーティ実装を使用しなくても、ID cookie をファーストパーティ cookie として保存できます。
+* Customers that are not using first-party implementation can implement the [Experience Platform ID Service](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html) to store the ID cookie as a first-party cookie without a first-party implementation.
 
 **Adobe Experience Manager**
 
