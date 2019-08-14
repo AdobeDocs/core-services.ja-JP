@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c24b266eda9aae1e86a58ac473fa339f7eb26efe
+source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
 
@@ -19,16 +19,7 @@ source-git-commit: c24b266eda9aae1e86a58ac473fa339f7eb26efe
 
 Audience Manager はいくつかのシンプルな cookie を利用して様々な機能を実行します。これらの機能には、ID の割り当て、データ呼び出しの記録、エラーの追跡、cookie を設定できるかどうかのテストなどがあります。このセクションでは、Audience Manager によって設定される各種の cookie について説明します。
 
-内容：
-
-<ul class="simplelist"> 
- <li> <a href="../cookies/cookies-am.md#section-089407f3e2fe4f489b97164df3cd036c" format="dita" scope="local"> demdex cookie </a> </li> 
- <li> <a href="../cookies/cookies-am.md#section-a71050d788d54350adc6b3f6ebf32398" format="dita" scope="local"> dextp cookie </a> </li> 
- <li> <a href="../cookies/cookies-am.md#section-670ae9e671874576b528b46e8a1d24ac" format="dita" scope="local"> dstjs cookie </a> </li> 
- <li> <a href="../cookies/cookies-am.md#section-0d1fea09c83249dfa944cc028a8ef840" format="dita" scope="local"> _dp cookie </a> </li> 
-</ul>
-
-## demdex cookie {#section-089407f3e2fe4f489b97164df3cd036c}
+**demdex cookie**
 
 <table id="table_1CCF7EA2BC9E421F8DEECA5F611E33F6"> 
  <thead> 
@@ -57,7 +48,7 @@ Audience Manager はいくつかのシンプルな cookie を利用して様々�
  </tbody> 
 </table>
 
-## dextp cookie {#section-a71050d788d54350adc6b3f6ebf32398}
+**dextp cookie**
 
 <table id="table_7343C9C9ADD24D3FA693ECC76E4A4045"> 
  <thead> 
@@ -90,7 +81,7 @@ Audience Manager はいくつかのシンプルな cookie を利用して様々�
  </tbody> 
 </table>
 
-**dextp cookie のデータ構文**
+dextp cookie のデータ構文:
 
 次の表に、データ文字列内の位置を基準として [!DNL dextp] cookie の要素を示します。
 
@@ -125,7 +116,7 @@ Audience Manager はいくつかのシンプルな cookie を利用して様々�
  </tbody> 
 </table>
 
-## dst cookie {#section-670ae9e671874576b528b46e8a1d24ac}
+**dst cookie**
 
 <table id="table_83AE9B6350C6408BAECD9FCF33022B98"> 
  <thead> 
@@ -158,14 +149,6 @@ Audience Manager はいくつかのシンプルな cookie を利用して様々�
  </tbody> 
 </table>
 
-## _dp cookie {#section-0d1fea09c83249dfa944cc028a8ef840}
+**_dp cookie**
 
 これは一時的な cookie です。[!DNL Audience Manager] cookieを設定しようとすると [!DNL _dp] 、サードパーティコンテキストでdemdex. netドメイン内の他のcookieを設定できるかどうかを判断できます。When [!DNL _dp] is set it contains a value of 1. [!DNL Audience Manager] この値を読み取り、即座にcookieを削除します。[!DNL _dp] cookieが存在しない場合、cookieを設定できない [!DNL Audience Manager] ことを認識しています。
-
->[!MORE_LIKE_THIS]
->
->* [demdex ドメインの呼び出しについて](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html)
->* [アドビプライバシーセンター](http://www.adobe.com/privacy.html)
->* [Audience Manager のデータセキュリティとプライバシー](https://marketing.adobe.com/resources/help/en_US/aam/c_data_security_and_privacy.html)
->* [Audience Manager のプライバシーとデータ保持についてよくある質問](https://marketing.adobe.com/resources/help/en_US/aam/faq_privacy.html)
-
