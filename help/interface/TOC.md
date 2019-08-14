@@ -4,7 +4,7 @@ user-guide-title: コアサービスユーザーガイド
 user-guide-url: https://www.adobe.com/jp
 index: true
 translation-type: tm+mt
-source-git-commit: 8c3a614bbb81601d8f906f6f69256a9df8edfd56
+source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
 
@@ -18,6 +18,21 @@ source-git-commit: 8c3a614bbb81601d8f906f6f69256a9df8edfd56
    + [組織へのレポートスイートのマッピング](core-services/report-suite-mapping.md)
    + [Experience Cloud の新しいクラウド名について](solutions-core-services.md)
 + [Experience Cloud の統合](marketing-cloud-integrations.md)
++ Experience Cloud cookies {#ec-cookies}
+   + [コホートの概要](cookies/cookies-privacy.md)
+   + [ファーストパーティcookie](cookies/cookies-first-party.md)
+   + [Analytics cookie](cookies/cookies-analytics.md)
+   + [Audience ManagerのCookie](cookies/cookies-am.md)
+   + [data connectors cookie](cookies/cookies-dc.md)
+   + [Data WorkbenchのCookie](cookies/cookies-insight.md)
+   + [Experience Cloud cookie](cookies/cookies-mc.md)
+   + [広告クラウドのcookie](cookies/cookies-advertising-cloud.md)
+   + [Scene7のcookie](cookies/cookies-s7.md)
+   + [Cookieの検索とプロモーション](cookies/cookies-snp.md)
+   + [Survey cookie](cookies/cookies-survey.md)
+   + [TargetのCookie](cookies/cookies-target.md)
+   + [ブラウザー cookie のプライバシー設定の有効化](cookies/browser-cookie-settings.md)
+   + [サードパーティ cookie のサポートに対する変更がお客様に及ぼす影響](cookies/cookies-thirdparty.md)
 + ユーザーと製品を管理する {#manage-users-and-products}
    + [Experience Cloud ユーザーと製品の管理](admin-getting-started/admin-getting-started.md)
    + [よくある質問](admin-getting-started/faq.md)
