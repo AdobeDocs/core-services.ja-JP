@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 Data Workbench では、急速に変遷していく大量のデータをリアルタイムで分析する目的で cookie を使用します。
 
-## cookie 名：v1st {#section-5d50a078de444d12b7d927d68ff3b679}
+**cookie 名：v1st**
 
 | 属性 | 説明 |
 |---|---|
