@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 Adobe Experience Cloudは、Experience Cloudソリューション全体で使用される訪問者IDを保存するためにcookieを使用します。
 
-## Cookie名:s_ ecid {#section-32fd753c3fa54452acd62b021434919a}
+**Cookie名:s_ ecid**
 
 <table id="table_FF4C70D3D4CC425BA65162D5A9504F7D"> 
  <thead> 
@@ -52,7 +52,7 @@ Adobe Experience Cloudは、Experience Cloudソリューション全体で使用
  </tbody> 
 </table>
 
-## cookie 名：AMCV_###@AdobeOrg {#section-a12aa2a9296940ae82d8921b381b8fb0}
+**cookie 名：AMCV_###@AdobeOrg**
 
 [エクスペリエンスプラットフォームIDサービス](https://docs.adobe.com/content/help/en/id-service/using/home.html) では、JavaScriptを使用して、現在のWebサイトのドメインの `AMCV_###@AdobeOrg` cookieに一意の訪問者IDを保存します。ここで `###` 、ランダムな文字列を表します。例：`AMCV_1FD6776A524453CC0A490D44%40AdobeOrg`。[cookie と Marketing Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)も参照してください。
 
