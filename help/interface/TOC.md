@@ -4,7 +4,7 @@ user-guide-title: コアサービスユーザーガイド
 user-guide-url: https://www.adobe.com/jp
 index: true
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: b6096f49df48b6c15157237f559c324e21715dcd
 
 ---
 
@@ -29,7 +29,6 @@ source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
    + [広告クラウドのcookie](cookies/cookies-advertising-cloud.md)
    + [Scene7のcookie](cookies/cookies-s7.md)
    + [Cookieの検索とプロモーション](cookies/cookies-snp.md)
-   + [Survey cookie](cookies/cookies-survey.md)
    + [TargetのCookie](cookies/cookies-target.md)
    + [ブラウザー cookie のプライバシー設定の有効化](cookies/browser-cookie-settings.md)
    + [サードパーティ cookie のサポートに対する変更がお客様に及ぼす影響](cookies/cookies-thirdparty.md)
