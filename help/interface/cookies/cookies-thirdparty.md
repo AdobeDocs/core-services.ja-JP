@@ -10,31 +10,31 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
 
 ---
 
 
-# サードパーティ cookie のサポートに対する変更がお客様に及ぼす影響{#how-changes-to-third-party-cookie-support-impacts-customers}
+# サードパーティcookieのサポートに対するお客様への変更の影響{#how-changes-to-third-party-cookie-support-impacts-customers}
 
 様々なブラウザーでサードパーティ cookie のサポートが制限され始めている状況を受け、アドビでは Adobe Experience Cloud ソリューション全体にわたり、お客様のニーズとプライバシーのバランスを慎重に考慮した新しいソリューションの開発に取り組んでいます。
 
 サードパーティ cookie のサポートが Adobe Experience Cloud ソリューションの現在の実装環境に及ぼす影響を以下に示します。
 
-**Adobe Analytics および Target**
+## Adobe AnalyticsおよびAdobe Target
 
-* ファーストパーティ実装をお使いのお客様への影響はほとんどありません。
+* [ファーストパーティの導入](/help/interface/cookies/cookies-first-party.md) をお持ちのお客様は、ほとんど影響を受けません。
 * Customers that are not using first-party implementation can implement the [Experience Platform ID Service](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html) to store the ID cookie as a first-party cookie without a first-party implementation.
 
-**Adobe Experience Manager**
+## Adobe Experience Manager
 
-* Adobe Experience Manager はお客様のドメイン内でのみ稼働し、サードパーティ cookie とのインタラクションがほとんど発生しないので、影響はほとんどありません。
+* Adobe Experience Managerは顧客のドメイン内で完全に動作するので、サードパーティcookieとのやり取りが最小限になり、影響を最小限に抑えることができます。
 
-**Adobe Social**
+## Adobe Social
 
 * 最新バージョンのコードを使用している限り、Social への影響はありません。
 
-**Adobe Media Manager**
+## Adobe Advertising Cloud
 
 * 検索:
 
