@@ -39,9 +39,12 @@ Adobe Managed Certificateプログラムを使用すると、ファーストパ�
 
 ファーストパーティcookie用の新しいファーストパーティSSL証明書を実装する方法を次に示します。
 
-1. [ファーストパーティcookieリクエストフォーム](/help/interface/cookies/assets/FPC_Request_Form.xlsx) に入力し、アドビ管理プログラムでファーストパーティcookieの設定を要求するチケットを開きます。例が記載されたフォーム内の各フィールドに記入します。
+1. ![アドビ管理プログラムでファーストパーティcookieの設定を要求するリクエストフォーム](assets/FPC_Request_Form.xlsx) に入力し、カスタマーケアがチケットを開きます。例が記載されたフォーム内の各フィールドに記入します。
 
-1. CNAMEレコードを作成します（下記の手順を参照）。チケットを受信すると、FPSSLスペシャリストはCNAMEレコードのペアを提供する必要があります。これらのレコードは、アドビが証明書を購入する前に、会社のDNSサーバー上で設定する必要があります。CNAMESは、次のようになります。 **セキュリティ保護** 済み-例えば、ホスト名 `smetrics.example.com` は次を参照します。 `example.com.ssl.d1.omtrdc.net`を参照してください。**セキュリティで保護されていない** -例えば、ホスト名 `metrics.example.com` は次を参照します。 `example.com.d1.omtrdc.net`を参照してください。
+1. CNAMEレコードを作成します（下記の手順を参照）。チケットを受信すると、FPSSLスペシャリストはCNAMEレコードのペアを提供する必要があります。これらのレコードは、アドビが証明書を購入する前に、会社のDNSサーバー上で設定する必要があります。CNAMESは、次のようになります。
+
+* **セキュリティ保護** 済み-例えば、ホスト名 `smetrics.example.com` は次を参照します。 `example.com.ssl.d1.omtrdc.net`を参照してください。
+* **セキュリティで保護されていない** -例えば、ホスト名 `metrics.example.com` は次を参照します。 `example.com.d1.omtrdc.net`を参照してください。
 
 1. これらのCNAMEを設定すると、アドビの実稼働サーバーに証明書を購入してインストールするDigicgerと連携します。既存の実装がある場合は、訪問者の移行を考慮して既存の訪問者を維持する必要があります。証明書がアドビの実稼働環境にプッシュされた後、トラッキングサーバー変数を新しいホスト名に更新できます。つまり、サイトがセキュリティで保護されていない（https）場合は、を更新 `s.trackingServer`します。サイトがセキュア（https）の場合、両方 `s.trackingServer` の変数と `s.trackingServerSecure` 変数を更新します。
 
@@ -106,9 +109,9 @@ CNAME レコードが正しく設定されていないか、有効でない場�
 
 サイト上のコードを編集してファーストパーティcookieを利用する前に、以下の前提条件を満たしてください。
 
-* 前述の"Adobe Managed Certificate Programの実装手順」で説明されているように、SSL証明書をリクエストします。
-* CNAMEレコードを作成します（上記を参照）。
-* ホスト名のping（上記を参照）。
+* "Adobe Managed Certificate Programの実装手順」の説明に従って、SSL証明書をリクエストします。
+* CNAMEレコードを作成します。
+* ホスト名のpingを参照してください。
 
 ホスト名がAdobeデータ収集サーバーに応答して転送されることを確認したら、実装を変更して、独自のデータ収集ホスト名を指定できます。
 
@@ -116,7 +119,6 @@ CNAME レコードが正しく設定されていないか、有効でない場�
 1. コードバージョンを更新する場合は、`s_code.js/AppMeasurement.js` ファイル全体を新しいバージョンに置き換え、すべてのプラグインやカスタマイズ（作成した場合）を置き換えます。**または**、ファーストパーティcookieに関連するコードのみを更新する場合は、s. trackingServer変数とs. trackingServerSecure（SSLを使用する場合）変数を探し、新しいデータ収集ホスト名を指定します。Using mysite.com as an example:`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
 
 1. 更新したコアJavaScriptファイルをサイトにアップロードします。
-
 1. 長期間の実装からファーストパーティcookieに移行する場合、または別のファーストパーティ収集ホスト名に変更する場合は、前のドメインから新しいドメインに訪問者を移行することをお勧めします。
 
 "Analytics導入ガイド»の?«訪問者の移行?[](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html)
