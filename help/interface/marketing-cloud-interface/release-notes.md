@@ -6,8 +6,8 @@ seo-title: 累積リリースノート
 solution: Experience Cloud
 title: 累積リリースノート
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: ht
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+translation-type: tm+mt
+source-git-commit: 75831abe44d04902691325add2338381754f98ec
 
 ---
 
@@ -18,9 +18,25 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 
 ドキュメントの更新のリストについては、[Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784) を参照してください。
 
-すべてのソリューションを対象とするリリースノートについては、[Experience Cloud リリースノート](https://marketing.adobe.com/resources/help/ja_JP/whatsnew/)を参照してください。
+すべてのソリューションを対象とするリリースノートについては、[Experience Cloud リリースノート](https://marketing.adobe.com/resources/help/en_US/whatsnew/)を参照してください。
+
+## 2019年8月-
+
+* Experience Cloud ログイン中に一部のユーザーがログアウトされる問題を修正しました。（MCUI-6908）
+* Experience Cloud ログイン機能のパフォーマンスを向上させ、待ち時間を短縮しました。（MCUI-6854、MCUI-6869、MCUI-6883）
+* インターフェイスの外観を更新しました。（MCUI-6861、MCUI-6911、MCUI-6862）
+* Experience Cloud の [!UICONTROL Triggers] で、[!UICONTROL トリガー]定義の _Like_ 句が正常に動作しない問題を修正しました。（MCUI-6611）
+
+## 2019年4月-
+
+* アプリを切り替えるメニューに Marketo が追加され、ブランディングが Experience Platform に更新されました。（MCUI-6529）
+* Experience Cloud ホームが更新され、フィードおよび管理ページへのリンクが含まれるようになりました。（MCUI-6682）
+* [!UICONTROL トリガー]の定義の問題が修正され、「like」条件を正しく使用できるようになりました。（MCUI-6611）
+* 顧客属性が改善され、サブスクリプション設定が適切にログに記録されるようになりました。（MCUI-6519）
 
 ## リリース 19.1.1 - 2019 年 1 月 18 日
+
+**注意：** 2019 年 3 月から、Experience Cloud インターフェイスで Internet Explorer 11 がサポートされなくなります。
 
 * ヘルプ検索で結果が表示されない問題を修正しました。（MCUI-1670）
 * Triggers における eVar 管理の問題を修正し、改善しました。（MCUI-6400）
@@ -100,9 +116,9 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 
 >[!NOTE]
 >
->Microsoft は Internet Explorer 8、9、および 10 の[サポートを終了](https://microsoft.com/ja-jp/WindowsForBusiness/End-of-IE-support)します。そのため、今後アドビでは、Internet Explorer のこれらのバージョンに対して報告された問題は修正しません。
+>Microsoft は、Internet Explorer 8、9 および 10 の[サポートを終了](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support)します。そのため、今後アドビでは、Internet Explorer のこれらのバージョンに対して報告された問題は修正しません。
 
-## リリース 15.10 - 2015 年 10 月 15 日{#section_68123833D3634BD3A473C12862BF9606}
+## リリース 15.10 - 2015 年 10 月 15 日 {#section_68123833D3634BD3A473C12862BF9606}
 
 **既知の問題**
 
@@ -116,7 +132,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 * オーディエンスライブラリで、オーディエンス共有が Analytics でセグメント化できなかった問題を修正しました。この問題が原因で、「データを収集中」（0 オーディエンス）と表示されていました。この問題を避けるために、セグメントあたりのオーディエンスメンバーが 50,000 人未満になるようにセグメントサイズを維持することをお勧めします。（MAC-25788）
 * 顧客属性のスキーマを編集ページで表示名を変更すると Content Aware（500）エラーが発生していた問題を修正しました。（MAC-25589、AN-103834）
 
-## リリース 15.7 - 2015 年 7 月 23 日{#section_2683A152176944E48EF6C943892975B7}
+## リリース 15.7 - 2015 年 7 月 23 日 {#section_2683A152176944E48EF6C943892975B7}
 
 * スキーマを表示 / 編集ページ（顧客属性）で指定された属性の説明が Analytics レポートで更新されなかった問題を修正しました。（MAC-25985）
 * アップロードしたアセットのサムネールが表示されない問題を修正しました。（MAC-25863）
@@ -128,7 +144,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 
 既知の問題によって、Audience Manager のアカウントが重複して自動生成され、ユーザーの Experience Cloud ID に自動的にリンクされることがあります。この問題は、アカウントをリンクする前に Audience Manager にアクセスしようとすると発生します。Audience Manager にアクセスする前に、Audience Manager アカウントを Experience Cloud にリンクすることをお勧めします。（MAC-25640）
 
-## リリース 15.6.1 - 2015 年 6 月 12 日{#section_AD2019F8D2F84C9EB2B0533FAACF7043}
+## リリース 15.6.1 - 2015 年 6 月 12 日 {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
 
 情報がありません
 
@@ -155,7 +171,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 </table>
 
 * 一部の顧客の顧客属性を同期できなかった問題を修正しました。
-* [Adobe Target 製品ドキュメント](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/) ページが日本語で表示されない問題を修正しました。
+* [Adobe Target 製品ドキュメント](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/)ページが日本語で表示されなかった問題を修正しました。
 * [!DNL Creative Cloud] と [!DNL Experience Cloud] の間のコメントで日本語のテキストが使用できなかった問題を修正しました。
 
 ## リリース 15.4.1 - 2015 年 4 月 9 日 {#section_75634120CC934B3381EDEA7F6F976F0A}
@@ -244,7 +260,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 * [!UICONTROL 新しいオーディエンスを作成]ページの「[!UICONTROL ルール]」の下に追加（プラス）アイコンが表示されなかった問題を修正しました。
 * Experience Cloud インターフェイスが強化され、Internet Explorer 9 をサポートするようになりました。
 
-## リリース 15.1.1 - 2015 年 1 月 16 日{#section_F1A352E928AF432E94CC0A289C345184}
+## リリース 15.1.1 - 2015 年 1 月 16 日 {#section_F1A352E928AF432E94CC0A289C345184}
 
 [!DNL Adobe Experience Cloud] のコラボレーションおよび共有インターフェイスの新機能および修正点です。
 
@@ -284,7 +300,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 * 共有オーディエンスを有効にした後、Analytics レポートスイート内でのオーディエンスの作成がうまくいかなくなることがあります。
 * ボードへのアセットのアップロードで問題が発生する場合があります。
 
-## リリース 14.11.1 - 2014 年 11 月 14 日{#section_A6CF1D4F27B9496892A89C983EB39102}
+## リリース 14.11.1 - 2014 年 11 月 14 日 {#section_A6CF1D4F27B9496892A89C983EB39102}
 
 既知の問題:
 
@@ -297,7 +313,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 * 多くのユーザーが同時に使用すると [!DNL Experience Cloud] インターフェイスのパフォーマンスが低下する可能性があります。
 * Adobe Experience Manager から Creative Cloud への同期が機能していません。
 
-## リリース 14.10.1 - 2014 年 10 月 17 日{#section_E3A0F4423B814707AA3745E083500835}
+## リリース 14.10.1 - 2014 年 10 月 17 日 {#section_E3A0F4423B814707AA3745E083500835}
 
 [!DNL Adobe Experience Cloud] のコラボレーションおよび共有インターフェイスの新機能および修正点です。
 
@@ -410,7 +426,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 
 なし
 
-## リリース 14.6.1 - 2014 年 6 月 20 日{#marketing_cloud_interface}
+## リリース 14.6.1 - 2014 年 6 月 20 日 {#marketing_cloud_interface}
 
 [!DNL Adobe Experience Cloud] のコラボレーションおよび共有インターフェイスの新機能および修正点です。
 
@@ -496,7 +512,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 * ユーザーがボードで PowerPoint ファイルを共有できなかった問題を修正しました。
 * 一部のユーザーで、Internet Explorer 10 での表示レイアウトが他のブラウザーに比べて劣っていた問題を修正しました。
 
-## リリース 14.4.1 - 2014 年 4 月 23 日{#section_E2A699764E744D2E8D418E9A3D40AF6B}
+## リリース 14.4.1 - 2014 年 4 月 23 日 {#section_E2A699764E744D2E8D418E9A3D40AF6B}
 
 <table id="table_D95C0DC64F2A4B47BAC83E504CFD6825"> 
  <thead> 
@@ -577,7 +593,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 * 一部の PNG ファイルは、カードにレンダリングできません。
 * ベータフィードバックが送信できません。
 
-## リリース 14.2.1 - 2014 年 2 月 25 日{#section_5AD81B0737C843AFB4BE9C4420D70EB3}
+## リリース 14.2.1 - 2014 年 2 月 25 日 {#section_5AD81B0737C843AFB4BE9C4420D70EB3}
 
 <table id="table_DFAB002358C94A17A7F91DAB323A488F"> 
  <thead> 
