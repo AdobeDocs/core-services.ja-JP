@@ -4,14 +4,14 @@ user-guide-title: コアサービスユーザーガイド
 user-guide-url: https://www.adobe.com/jp
 index: true
 translation-type: tm+mt
-source-git-commit: b6096f49df48b6c15157237f559c324e21715dcd
+source-git-commit: 75831abe44d04902691325add2338381754f98ec
 
 ---
 
 
 # コアサービスユーザーガイド{#interface}
 
-+ [Experience Cloud とコアサービスのヘルプ](experience-cloud.md)
++ [Experience Cloudとコアサービスのヘルプ](experience-cloud.md)
 + コアサービスについて {#about-core-services}
    + [コアサービスの概要](core-services-landing.md)
    + [コアサービス向けにソリューションを有効化](core-services/core-services.md)
@@ -69,7 +69,7 @@ source-git-commit: b6096f49df48b6c15157237f559c324e21715dcd
    + [スキーマの更新](attributes/t-update-schema.md)
    + [プライバシーに関する配慮 - 顧客属性](attributes/privacy-mac.md)
 + リリースノート {#release-notes}
-   + [Experience Cloud の新機能](marketing-cloud-interface/marketing-cloud-interface.md)
+   + [Experience Cloud の新機能](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
    + [累積リリースノート](marketing-cloud-interface/release-notes.md)
 + [Exchange Marketplace](exchange.md)
 + [Feed](feed.md)
