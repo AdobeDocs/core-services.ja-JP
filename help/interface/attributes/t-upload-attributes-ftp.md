@@ -6,8 +6,8 @@ seo-title: オプション - FTP を使用したデータファイルのアッ�
 solution: Experience Cloud
 title: オプション - FTP を使用したデータファイルのアップロード
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: ht
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+translation-type: tm+mt
+source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ドラッグ＆ドロップを使用してアップロード、または FTP を利用して顧客属性データを Experience Cloud にアップロードできます。
 
-Experience Cloud に顧客属性ソースと FTP アカウントを作成したら、データをアップロードできます。属性ソースごとに 1 つの FTP アカウントを作成できます。アップロードしたファイルは、そのアカウントのルートフォルダーに保存されます。データは [!DNL .csv] 形式にする必要があります。2 つ目の [!DNL .fin] ファイルは、アップロードが完了したことを示します。
+Experience Cloud に顧客属性ソースと FTP アカウントを作成したら、データをアップロードできます。属性ソースごとに 1 つの FTP アカウントを作成できます。アップロードしたファイルは、そのアカウントのルートフォルダーに保存されます。データは `.csv` 形式にする必要があります。2 つ目の `.fin` ファイルは、アップロードが完了したことを示します。
 
 >[!IMPORTANT]
 >
@@ -26,7 +26,7 @@ Experience Cloud に顧客属性ソースと FTP アカウントを作成した�
 顧客属性 FTP サイトへのファイルアップロードは、FTP または SFTP を使用しておこなうことができます。
 
 * SFTP 接続をサポートしているクライアントが必要です。
-* [こちら](https://marketing.adobe.com/resources/help/ja_JP/whitepapers/ftp/?f=ftp_sftp_cert_auth)で説明しているように、ユーザー名／パスワードを使用、またはパスワードを使用せずに SFTP に接続できます。
+* [こちら](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/?f=ftp_sftp_cert_auth)で説明しているように、ユーザー名／パスワードを使用して、またはパスワードを使用せずに、SFTP で接続できます。
 
 
 
@@ -43,13 +43,13 @@ Experience Cloud に顧客属性ソースと FTP アカウントを作成した�
 
    FTP サイトにログインしていることを [!DNL ftp.adobe.com/<sftpname>] で確認します。
 
-1. **[!UICONTROL アクション]**／**[!UICONTROL ファイルのアップロード]** をクリックします。
+1. **[!UICONTROL アクション]**／**[!UICONTROL ファイルのアップロード]**&#x200B;をクリックします。
 
-1. ファイルを取得できるように、[!DNL .fin] ファイルをアップロードします。
+1. ファイルを取得できるように、`.fin` ファイルをアップロードします。
 
-   ファイルタイプ [!DNL .fin] は、ユーザーによって作成されるもので、アップロードが完了したことを示す合図です。空のメモ帳ファイルでもかまいません。例えば、[!DNL crs123.csv] をアップロードする場合は、[!DNL crs123.fin] もアップロードします。
+   ファイルタイプ `.fin` は、ユーザーによって作成されるもので、アップロードが完了したことを示す合図です。空のメモ帳ファイルでもかまいません。例えば、[!DNL crs123.csv] をアップロードする場合は、[!DNL crs123.fin] もアップロードします。
 
    アップロードに成功すると、どちらのファイルも **processed** というフォルダーに移動されます。
 
 
-   ファイル名と構造に関する重要情報については、[顧客属性をアップロードするためのデータファイル要件](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)を参照してください。
+   詳しくは、[顧客属性をアップロードするためのデータファイル要件](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)を参照してください。
