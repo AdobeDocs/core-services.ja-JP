@@ -6,8 +6,8 @@ seo-title: オーディエンスの作成
 solution: Experience Cloud
 title: オーディエンスの作成
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: ht
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+translation-type: tm+mt
+source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
 
@@ -39,7 +39,7 @@ Experience Cloud で属性ルールを使用して、オーディエンスを作
 
    ![](assets/audience_create.png)
 
-1. [!DNL Experience Cloud] で、**[!UICONTROL People]**／**[!UICONTROL オーディエンスライブラリ]** をクリックします。
+1. In the [!DNL Experience Cloud], under [!DNL Experience Platform], click **[!UICONTROL People]** &gt; **[!UICONTROL Audience Library]**.
 1. [!UICONTROL オーディエンス]ページで、「**[!UICONTROL 新規]**」をクリックします。![](assets/add_icon_small.png)
 
 ![手順の結果](assets/audience_create_new.png)
@@ -64,12 +64,12 @@ Experience Cloud で属性ルールを使用して、オーディエンスを作
 「[!UICONTROL ルール]」で、*`Home & Garden`* 属性の選択肢を定義します。
 
 * **[!UICONTROL 属性のソース：]** Analytics 生データ
-* **[!UICONTROL レポートスイート：]** レポートスイート 31
+* **[!UICONTROL レポートスイート：]**&#x200B;レポートスイート 31
 * ディメンション = **[!UICONTROL Store (Merch) (v6)]**／**[!UICONTROL 次の値と等しい]**／**[!UICONTROL ホーム&amp;ガーデン]**
 
    ![](assets/home_garden.png)
 
-   *Chrome および Safari の訪問者*は、Analytics から共有されたオーディエンスセグメントです。
+   *Chrome および Safari の訪問者*&#x200B;は、Analytics から共有されたオーディエンスセグメントです。
 
 * **[!UICONTROL 属性のソース：]** Experience Cloud
 * **[!UICONTROL ディメンション：]** Chrome および Safari の訪問者
