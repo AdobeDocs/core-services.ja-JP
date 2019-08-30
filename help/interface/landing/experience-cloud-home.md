@@ -13,7 +13,7 @@ source-git-commit: 5f30d2584cec9cae16066b6ed2a750a48aaf2920
 
 Adobe Experience Cloudのヘルプと製品ドキュメントです。
 
-**Experience Cloudヘルプ**
+## Experience Cloudヘルプ
 
 * [Experience Cloudリリースノート](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) （すべての製品）
 * [Experience Cloudインターフェイスおよびコアサービスヘルプ](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)
@@ -25,7 +25,7 @@ Adobe Experience Cloudのヘルプと製品ドキュメントです。
 * [Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html)
 * [一般データ保護規則（GDPR）API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 
-**Analytics ヘルプ**
+## Analytics ヘルプ
 
 * [Analytics ヘルプホーム](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
 * [ツール](https://docs.adobe.com/content/help/en/analytics/analyze/home.html)
@@ -38,30 +38,30 @@ Adobe Experience Cloudのヘルプと製品ドキュメントです。
 * [Media Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
 * [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)
 
-**Audience Manager ヘルプ**
+## Audience Manager ヘルプ
 
 * [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/)
 * [Audience Manager管理者](https://marketing.adobe.com/resources/help/en_US/aam/admin/index.html)
 
-**Targetヘルプ**
+## Targetヘルプ
 
 * [Targetリリースノート](https://docs.adobe.com/content/help/en/target/using/release-notes/release-notes.html)
 * [Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)
 
-**Experience Managerヘルプ**
+## Experience Managerヘルプ
 
 * [Experience Managerラーニングとサポート](https://helpx.adobe.com/support/experience-manager.html)
 
-**キャンペーンヘルプ**
+## キャンペーンヘルプ
 
 * Campaign Standard: [Documentation](https://helpx.adobe.com/support/campaign/standard.html) - [Release Notes](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
 * Campaign Classic: [Documentation](https://helpx.adobe.com/support/campaign/classic.html) - [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 
-**Primetimeヘルプ**
+## Primetimeヘルプ
 
 * [Primetimeヘルプ](http://help.adobe.com/en_US/primetime/)
 
-**Advertising Cloudヘルプ**
+## Advertising Cloudヘルプ
 
 Help for the Advertising Cloud is available in the product by clicking the **Help** icon (?) をクリックします。
 
