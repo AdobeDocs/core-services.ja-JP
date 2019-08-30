@@ -4,7 +4,7 @@ seo-title: Adobe Experience Cloudのソリューションに関するヘルプ�
 description: Adobe Experience Cloudのソリューションに関するヘルプおよび製品ドキュメントです。
 seo-description: Experience Cloudヘルプ
 translation-type: tm+mt
-source-git-commit: 2231240b6697d95ad448cb21c55368ecbe13a517
+source-git-commit: 5f30d2584cec9cae16066b6ed2a750a48aaf2920
 
 ---
 
@@ -41,12 +41,12 @@ Adobe Experience Cloudのヘルプと製品ドキュメントです。
 **Audience Manager ヘルプ**
 
 * [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/)
-* Audience Manager管理者
+* [Audience Manager管理者](https://marketing.adobe.com/resources/help/en_US/aam/admin/index.html)
 
 **Targetヘルプ**
 
 * [Targetリリースノート](https://docs.adobe.com/content/help/en/target/using/release-notes/release-notes.html)
-* [Target ](https://docs.adobe.com/content/help/en/target/using/target-home.html)
+* [Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)
 
 **Experience Managerヘルプ**
 
