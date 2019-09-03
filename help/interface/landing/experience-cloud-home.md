@@ -4,7 +4,7 @@ seo-title: Adobe Experience Cloudのソリューションに関するヘルプ�
 description: Adobe Experience Cloudのソリューションに関するヘルプおよび製品ドキュメントです。
 seo-description: Experience Cloudヘルプ
 translation-type: tm+mt
-source-git-commit: 247c11a53752c953ef70f51b2888c548a1ff471b
+source-git-commit: bdeec0dfde7c5415c921aaea4303f3f08c6894e9
 
 ---
 
@@ -13,9 +13,7 @@ source-git-commit: 247c11a53752c953ef70f51b2888c548a1ff471b
 
 Adobe Experience Cloudのヘルプと製品ドキュメントです。
 
-![](assets/experience_cloud_appicon_32.png)
-
-## Experience Cloudヘルプ
+## ![](assets/experience_cloud_appicon_32.png) Experience Cloudヘルプ
 
 * [Experience Cloudリリースノート](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) （すべての製品）
 * [Experience Cloudインターフェイスおよびコアサービスヘルプ](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)
