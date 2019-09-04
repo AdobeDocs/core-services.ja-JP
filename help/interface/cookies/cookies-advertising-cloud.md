@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: 0172e141dfad5ec323e1b6c330a02f3cc723a2db
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 広告クラウドは、広告エンゲージメントイベントをコンバージョンイベントにマッピングし、潜在的にその情報を使用して広告入札を最適化するために、cookieを使用します。
 
-Cookie名:_ reb
+## Cookie名:_ reb
 
 <table id="table_821F8EBE91F244CBA72B0975B961B908"> 
  <thead> 
@@ -50,7 +50,7 @@ Cookie名:_ reb
  </tbody> 
 </table>
 
-Cookie名:adcloud
+## Cookie名:adcloud
 
 <table id="table_D7CD238736BC4571883F92F47673F57C"> 
  <thead> 
@@ -83,7 +83,7 @@ Cookie名:adcloud
  </tbody> 
 </table>
 
-Cookie名:ev_ sync_*
+## Cookie名:ev_ sync_*
 
 （ev_ sync_ ax， ev_ sync_ bk， ev_ sync_ dd， ev_ sync_ fs， ev_ sync_ x， ev_ sync_ x， ev_ sync_ pm， ev_ sync_ pm， ev_ sync_ tm， ev_ sync_ tm， ev_ sync_ yh）
 
@@ -118,7 +118,7 @@ Cookie名:ev_ sync_*
  </tbody> 
 </table>
 
-Cookie名:everest_ g_ v2
+## Cookie名:everest_ g_ v2
 
 <table id="table_04043292A43B41B69EAF17AF4E217C69"> 
  <thead> 
@@ -151,7 +151,7 @@ Cookie名:everest_ g_ v2
  </tbody> 
 </table>
 
-Cookie名:everest_ session_ v2
+## Cookie名:everest_ session_ v2
 
 <table id="table_1A3AE4CA71304ADB943CB1F64BE695F5"> 
  <thead> 
@@ -184,7 +184,7 @@ Cookie名:everest_ session_ v2
  </tbody> 
 </table>
 
-Cookie名:ev_ tm
+## Cookie名:ev_ tm
 
 <table id="table_6C4D9DCFA4BF4FB2BD445E027550955F"> 
  <thead> 
@@ -217,7 +217,7 @@ Cookie名:ev_ tm
  </tbody> 
 </table>
 
-Cookie名:_ tepe
+## Cookie名:_ tepe
 
 <table id="table_28C2B62595E240D5A3C3E0BE147748C1"> 
  <thead> 
