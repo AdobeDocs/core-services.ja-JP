@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0172e141dfad5ec323e1b6c330a02f3cc723a2db
+source-git-commit: 4273ac4e98516e496a26dd83fe72c5197e876896
 
 ---
 
@@ -29,11 +29,11 @@ source-git-commit: 0172e141dfad5ec323e1b6c330a02f3cc723a2db
  <tbody> 
   <tr> 
    <td colname="col1"> <p>保存される情報 </p> </td> 
-   <td colname="col2"> <p>表示クリックのIDおよびタイムスタンプ（yyyymmdd形式） </p> </td> 
+   <td colname="col2"> <p>表示クリックのIDおよびタイムスタンプ（yyyymmdd形式）</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>有効期限 </p> </td> 
-   <td colname="col2"> <p>15分/p&gt; </p> </td> 
+   <td colname="col2"> <p>15 分</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>用途 </p> </td> 
@@ -50,6 +50,39 @@ source-git-commit: 0172e141dfad5ec323e1b6c330a02f3cc723a2db
  </tbody> 
 </table>
 
+## Cookie名:_ tepe
+
+<table id="table_28C2B62595E240D5A3C3E0BE147748C1"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> 属性 </th> 
+   <th colname="col2" class="entry"> 説明 </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p>保存される情報 </p> </td> 
+   <td colname="col2"> <p>広告クラウドDSPトラッキングを使用した広告エンゲージメントのエンコードされたIDとタイムスタンプ </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>有効期限 </p> </td> 
+   <td colname="col2"> <p>1 年 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>用途 </p> </td> 
+   <td colname="col2"> <p>広告を使用してユーザーのエンゲージメントを格納するサードパーティCookie（「最後に表示した広告xyz123（2016年6月30日）」など） </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>場所 </p> </td> 
+   <td colname="col2"> <p>everesttech.net </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Size </p> </td> 
+   <td colname="col2"> <p>変数;データはエンコードされ、通常1KB未満 </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ## Cookie名:adcloud
 
 <table id="table_D7CD238736BC4571883F92F47673F57C"> 
@@ -62,7 +95,7 @@ source-git-commit: 0172e141dfad5ec323e1b6c330a02f3cc723a2db
  <tbody> 
   <tr> 
    <td colname="col1"> <p>保存される情報 </p> </td> 
-   <td colname="col2"> <p>サーファーID、広告主のWebサイトへの最後の訪問およびサーファーの最後の検索クリックに対するタイムスタンプ、およびユーザーが広告/p&gt;をクリックしたときに作成されたef_ id </p> </td> 
+   <td colname="col2"> <p>サーファーID、広告主のWebサイトへの最後の訪問のタイムスタンプ、およびユーザーが広告をクリックしたときに作成されたef_ IDのタイムスタンプ</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>有効期限 </p> </td> 
@@ -216,37 +249,3 @@ source-git-commit: 0172e141dfad5ec323e1b6c330a02f3cc723a2db
   </tr> 
  </tbody> 
 </table>
-
-## Cookie名:_ tepe
-
-<table id="table_28C2B62595E240D5A3C3E0BE147748C1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 属性 </th> 
-   <th colname="col2" class="entry"> 説明 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>保存される情報 </p> </td> 
-   <td colname="col2"> <p>広告クラウドDSPトラッキングを使用した広告エンゲージメントのエンコードされたIDとタイムスタンプ </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>有効期限 </p> </td> 
-   <td colname="col2"> <p>1 年 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>用途 </p> </td> 
-   <td colname="col2"> <p>広告を使用してユーザーのエンゲージメントを格納するサードパーティCookie（「最後に表示した広告xyz123（2016年6月30日）」など） </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>場所 </p> </td> 
-   <td colname="col2"> <p>everesttech.net </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Size </p> </td> 
-   <td colname="col2"> <p>変数;データはエンコードされ、通常1KB未満 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
