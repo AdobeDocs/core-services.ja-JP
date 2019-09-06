@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4273ac4e98516e496a26dd83fe72c5197e876896
+source-git-commit: b6950426a81f22757387b297f349377d34865842
 
 ---
 
@@ -16,6 +16,39 @@ source-git-commit: 4273ac4e98516e496a26dd83fe72c5197e876896
 # 広告クラウドのcookie{#advertising-cloud-cookies}
 
 広告クラウドは、広告エンゲージメントイベントをコンバージョンイベントにマッピングし、潜在的にその情報を使用して広告入札を最適化するために、cookieを使用します。
+
+## Cookie名:id_ adcloud
+
+<table id="id_adcloud"> 
+<thead> 
+<tr> 
+<th colname="col1" class="entry"> 属性 </th> 
+<th colname="col2" class="entry"> 説明 </th> 
+</tr> 
+</thead>
+<tbody> 
+<tr> 
+<td colname="col1"> <p>保存される情報 </p> </td> 
+<td colname="col2"> <p>Surfer ID </p> </td> 
+</tr> 
+<tr> 
+<td colname="col1"> <p>有効期限 </p> </td> 
+<td colname="col2"> <p>91日 </p> </td> 
+</tr> 
+<tr> 
+<td colname="col1"> <p>用途 </p> </td> 
+<td colname="col2"> <p>cookieはファーストパーティドメインで設定されますが、まだ使用されていません </p> </td> 
+</tr> 
+<tr> 
+<td colname="col1"> <p>場所 </p> </td> 
+<td colname="col2"> <p>広告主のトップレベルドメイン（example.comなど） </p> </td> 
+</tr> 
+<tr> 
+<td colname="col1"> <p>Size </p> </td> 
+<td colname="col2"> <p>16 バイト </p> </td> 
+</tr> 
+</tbody> 
+</table>
 
 ## Cookie名:_ reb
 
