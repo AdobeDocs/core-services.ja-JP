@@ -2,9 +2,9 @@
 title: Experience Cloud製品ドキュメント
 seo-title: Adobe Experience Cloudのソリューションに関するヘルプおよび製品ドキュメントです。
 description: Adobe Experience Cloudのソリューションに関するヘルプおよび製品ドキュメントです。
-seo-description: Experience Cloudヘルプ
+seo-description: Experience Cloud help
 translation-type: tm+mt
-source-git-commit: 20837ba5fe7e455fae11c60d77e5f998d3fe4861
+source-git-commit: f920b588fc76ad04a46b01657f9a78e1a84a1efb
 
 ---
 
@@ -12,6 +12,12 @@ source-git-commit: 20837ba5fe7e455fae11c60d77e5f998d3fe4861
 # Adobe Experience Cloud製品ドキュメント
 
 Adobe Experience Cloudのヘルプと製品ドキュメントです。
+
+## リリースノート、ビデオ、コミュニティフォーラム
+
+* [毎月リリースノートを受け取るには、"Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) 」を購読してください。
+* 製品に関するビデオ：製品に関するビデオは、[Adobe Video Learning](https://helpx.adobe.com/experience-cloud/tutorials.html) で視聴できます。
+* Experience League:ガイド付き学習については [、Adobe Experience Suite](https://landing.adobe.com/experience-league/) にアクセスしてください。
 
 ## ![Experience Cloudヘルプ](assets/experience_cloud_appicon_32.png) Experience Cloudヘルプ
 
