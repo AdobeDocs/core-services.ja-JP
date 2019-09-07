@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b6950426a81f22757387b297f349377d34865842
+source-git-commit: dfb43724e2fcc36d54ddfee33cfcae66eba8710f
 
 ---
 
@@ -279,6 +279,39 @@ source-git-commit: b6950426a81f22757387b297f349377d34865842
   <tr> 
    <td colname="col1"> <p>Size </p> </td> 
    <td colname="col2"> <p>~20 バイト </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Cookie名:id_ adcloud
+
+<table> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> 属性 </th> 
+   <th colname="col2" class="entry"> 説明 </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p>保存される情報 </p> </td> 
+   <td colname="col2"> <p>Surfer ID </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>有効期限 </p> </td> 
+   <td colname="col2"> <p>91日 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>用途 </p> </td> 
+   <td colname="col2"> <p>cookieはファーストパーティドメインで設定されますが、まだ使用されていません </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>場所 </p> </td> 
+   <td colname="col2"> <p>広告主のトップレベルドメイン（example.comなど） </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Size </p> </td> 
+   <td colname="col2"> <p>16 バイト </p> </td> 
   </tr> 
  </tbody> 
 </table>
