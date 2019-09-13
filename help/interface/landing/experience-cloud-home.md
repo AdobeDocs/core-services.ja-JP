@@ -2,9 +2,9 @@
 title: Experience Cloud製品ドキュメント
 seo-title: Adobe Experience Cloudのソリューションに関するヘルプおよび製品ドキュメントです。
 description: Adobe Experience Cloudのソリューションに関するヘルプおよび製品ドキュメントです。
-seo-description: Experience Cloud help
+seo-description: Experience Cloudヘルプ
 translation-type: tm+mt
-source-git-commit: f920b588fc76ad04a46b01657f9a78e1a84a1efb
+source-git-commit: 7e09e666cf9102ab02bab85b5546f9dc6f2ca635
 
 ---
 
@@ -46,8 +46,7 @@ Adobe Experience Cloudのヘルプと製品ドキュメントです。
 
 ## ![Audience Managerヘルプ](assets/mc_audiencemanager_32.png) のAudience Managerヘルプ
 
-* [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/)
-* [Audience Manager管理者](https://marketing.adobe.com/resources/help/en_US/aam/admin/index.html)
+* [Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)
 
 ## ![Targetヘルプ](assets/mc_target_32.png) ターゲットヘルプ
 
