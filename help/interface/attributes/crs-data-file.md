@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 顧客属性のデータファイルおよびデータソースについて
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
+source-git-commit: a231e39dd97eb441d67fdf35bd7e5328bcfe0359
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .csv </span> </p> </td> 
-   <td colname="col2"> <p>値をコンマで区切って入力したファイル（Excel で作成するファイルなど）。これは、顧客属性データを含むファイルです。 </p> <p> <b>命名規則：</b>ファイル名拡張子に空白文字が含まれていないことを確認してください。 </p> </td> 
+   <td colname="col2"> <p>値をコンマで区切って入力したファイル（Excel で作成するファイルなど）。これは、顧客属性データを含むファイルです。 </p> <p> <b></b> 命名規則：ファイル名の拡張子に空白文字や、「。」、「。.」、「/」、「:」のいずれも含まれていないことを確認します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
