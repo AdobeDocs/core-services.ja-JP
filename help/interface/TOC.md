@@ -2,17 +2,18 @@
 audience: end-user
 user-guide-title: コアサービスユーザーガイド
 user-guide-url: https://www.adobe.com/jp
+product: コアサービス
 index: true
 translation-type: tm+mt
-source-git-commit: fa601ff80430f38fc0d8303f9c833778ad1f8cd5
+source-git-commit: 4bc85987882f7def7555351aad2bc344de8c2130
 
 ---
 
 
 # コアサービスユーザーガイド{#interface}
 
-+ [Experience Cloud製品ドキュメント](landing/experience-cloud-home.md)
-+ [Experience Cloudとコアサービスのヘルプ](experience-cloud.md)
++ [Experience cloud製品ドキュメント](landing/experience-cloud-home.md)
++ [Experience cloudとコアサービスのヘルプ](experience-cloud.md)
 + コアサービスについて {#about-core-services}
    + [コアサービスの概要](core-services-landing.md)
    + [コアサービス向けにソリューションを有効化](core-services/core-services.md)
@@ -20,16 +21,16 @@ source-git-commit: fa601ff80430f38fc0d8303f9c833778ad1f8cd5
    + [Experience Cloud の新しいクラウド名について](solutions-core-services.md)
 + [Experience Cloud の統合](marketing-cloud-integrations.md)
 + Experience Cloud cookies {#ec-cookies}
-   + [コホートの概要](cookies/cookies-privacy.md)
+   + [cookieの概要](cookies/cookies-privacy.md)
    + [ファーストパーティcookie](cookies/cookies-first-party.md)
-   + [Analytics cookie](cookies/cookies-analytics.md)
+   + [Analyticsのcookie](cookies/cookies-analytics.md)
    + [Audience ManagerのCookie](cookies/cookies-am.md)
-   + [data connectors cookie](cookies/cookies-dc.md)
+   + [Data ConnectorsのCookie](cookies/cookies-dc.md)
    + [Data WorkbenchのCookie](cookies/cookies-insight.md)
    + [Experience Cloud cookie](cookies/cookies-mc.md)
-   + [広告クラウドのcookie](cookies/cookies-advertising-cloud.md)
-   + [Scene7のcookie](cookies/cookies-s7.md)
-   + [Cookieの検索とプロモーション](cookies/cookies-snp.md)
+   + [Advertising Cloud cookie](cookies/cookies-advertising-cloud.md)
+   + [Scene7 cookie](cookies/cookies-s7.md)
+   + [Search and Promote cookie](cookies/cookies-snp.md)
    + [TargetのCookie](cookies/cookies-target.md)
    + [ブラウザー cookie のプライバシー設定の有効化](cookies/browser-cookie-settings.md)
    + [サードパーティ cookie のサポートに対する変更がお客様に及ぼす影響](cookies/cookies-thirdparty.md)
