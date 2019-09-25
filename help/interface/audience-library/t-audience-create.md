@@ -6,7 +6,7 @@ seo-title: オーディエンスの作成
 solution: Experience Cloud
 title: オーディエンスの作成
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -39,15 +39,15 @@ Experience Cloud で属性ルールを使用して、オーディエンスを作
 
    ![](assets/audience_create.png)
 
-1. In the [!DNL Experience Cloud], under [!DNL Experience Platform], click **[!UICONTROL People]** &gt; **[!UICONTROL Audience Library]**.
-1. [!UICONTROL オーディエンス]ページで、「**[!UICONTROL 新規]**」をクリックします。![](assets/add_icon_small.png)
+1. [!DNL Experience Cloud] の [!DNL Experience Platform] で、**[!UICONTROL People]**／**[!UICONTROL オーディエンスライブラリ]**&#x200B;をクリックします。
+1. [!UICONTROL オーディエンス]ページで、「**[!UICONTROL 新規]**」をクリックします。 ![](assets/add_icon_small.png)
 
 ![手順の結果](assets/audience_create_new.png)
 
 1. [!UICONTROL 新しいオーディエンスを作成]ページで、タイトルと説明を指定します。
 1. 「[!UICONTROL ルール]」で、属性のソースを選択します。
 
-* **[!UICONTROL リアルタイム Analytics データ：]**（生データ）リアルタイムの Analytics イメージリクエストから得られる属性データであり、eVar やイベントなどのデータが含まれます。この属性ソースを使用する場合は、レポートスイートを選択し、含めるディメンションまたはイベントを定義する必要があります。このレポートスイートの選択により、レポートスイートで使用された変数構造が提供されます。
+* **[!UICONTROL Real-Time Analytics データ：]**（生データ）Real-Time Analytics イメージリクエストから得られる属性データであり、eVar やイベントなどのデータが含まれます。この属性ソースを使用する場合は、レポートスイートを選択し、含めるディメンションまたはイベントを定義する必要があります。このレポートスイートの選択により、レポートスイートで使用された変数構造が提供されます。
 
    >[!NOTE]
    >
