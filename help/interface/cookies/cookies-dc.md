@@ -3,13 +3,13 @@ description: Data Connectors では、複数の広告チャネルにわたって
 keywords: cookie;プライバシー
 seo-description: Data Connectors では、複数の広告チャネルにわたってキャンペーンとコンバージョンの最適化されたパフォーマンス指標を広告主に提供することを目的に cookie を使用します。
 seo-title: Data Connectors の cookie
-solution: Marketing Cloud、Analytics、Target、Social
+solution: Experience Cloud,Analytics,Target,Social
 title: Data Connectors の cookie
-uuid: 5d27ba66- e640-4513- befc-69e8502de941
+uuid: 5d27ba66-e640-4513-befc-69e8502de941
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
