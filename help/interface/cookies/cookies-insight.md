@@ -3,13 +3,13 @@ description: Data Workbench では、急速に変遷していく大量のデー�
 keywords: cookie;プライバシー
 seo-description: Data Workbench では、急速に変遷していく大量のデータをリアルタイムで分析する目的で cookie を使用します。
 seo-title: Data Workbench の cookie
-solution: Marketing Cloud、Analytics、Target、Social
+solution: Experience Cloud,Analytics,Target,Social
 title: Data Workbench の cookie
-uuid: c15013f4- c47d-4950- aa19- be9afd25cd5f
+uuid: c15013f4-c47d-4950-aa19-be9afd25cd5f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
