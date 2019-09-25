@@ -1,15 +1,15 @@
 ---
-description: Adobe Experience Cloudは、Experience Cloudソリューション全体で使用される訪問者IDを保存するためにcookieを使用します。
+description: Adobe Experience Cloud で訪問者 ID を保存するために使用される cookie は、様々な Experience Cloud ソリューションで利用されます。
 keywords: cookie;プライバシー
-seo-description: Adobe Experience Cloudは、Experience Cloudソリューション全体で使用される訪問者IDを保存するためにcookieを使用します。
+seo-description: Adobe Experience Cloud で訪問者 ID を保存するために使用される cookie は、様々な Experience Cloud ソリューションで利用されます。
 seo-title: Experience Cloud の cookie
-solution: Marketing Cloud、Analytics、Target、Social
+solution: Experience Cloud,Analytics,Target,Social
 title: Experience Cloud の cookie
-uuid: a4788c1c-0402-4fc8- b894- cd24fa794f4f
+uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
@@ -17,9 +17,9 @@ source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 # Experience Cloud の cookie{#experience-cloud-cookies}
 
-Adobe Experience Cloudは、Experience Cloudソリューション全体で使用される訪問者IDを保存するためにcookieを使用します。
+Adobe Experience Cloud で訪問者 ID を保存するために使用される cookie は、様々な Experience Cloud ソリューションで利用されます。
 
-**Cookie名:s_ ecid**
+**cookie 名：s_ecid**
 
 <table id="table_FF4C70D3D4CC425BA65162D5A9504F7D"> 
  <thead> 
@@ -31,7 +31,7 @@ Adobe Experience Cloudは、Experience Cloudソリューション全体で使用
  <tbody> 
   <tr> 
    <td colname="col1"> <p>保存される情報 </p> </td> 
-   <td colname="col2"> <p> Experience Cloud ID（ECID）またはMIDのコピーが含まれます。MIDは、この構文に続くキーと値のペアに格納されています。s_ ecid= MCMID|&lt; ECID&gt; </p> </td> 
+   <td colname="col2"> <p> Experience Cloud ID（ECID）または MID のコピーが含まれます。MID は、s_ecid=MCMID|&lt;ECID&gt; という構文に従うキーと値のペアとして保存されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 有効期限 </p> </td> 
@@ -39,14 +39,14 @@ Adobe Experience Cloudは、Experience Cloudソリューション全体で使用
   </tr> 
   <tr> 
    <td colname="col1"> <p> 用途 </p> </td> 
-   <td colname="col2"> <p>このcookieは、AMCV cookieがクライアントによって設定された後に、顧客のドメインによって設定されます。このcookieの目的は、1^ st^パーティ状態で永続的なIDトラッキングを許可し、AMCV cookieの有効期限が切れた場合に参照IDとして使用されることです。詳しくは、こちらのAMCV cookieを確認してください。 </p> </td> 
+   <td colname="col2"> <p>この cookie は、AMCV cookie がクライアントで設定された後に、お客様のドメインで設定されます。この cookie の目的は、ファーストパーティ状態の永続的 ID トラッキングを許可し、AMCV cookie の有効期限が切れた場合に参照 IDとして使用することです。詳しくは、こちらの AMCV cookie を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 場所 </p> </td> 
-   <td colname="col2"> <p>CNAMEのお客様のみ。3^ d^パーティシナリオに適用されません。cookieはドメインに保存され、CNAMEとAnalyticsイメージリクエストで使用されるドメインと同じドメインに保存されます。 </p> </td> 
+   <td colname="col2"> <p>CNAME のお客様のみ。サードパーティのシナリオには適用されません。Cookie はお使いのドメインに保存され、同じドメインが CNAME および Analytics イメージリクエストで使用されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> Size </p> </td> 
+   <td colname="col1"> <p> サイズ </p> </td> 
    <td colname="col2"> <p>45 バイト </p> </td> 
   </tr> 
  </tbody> 
@@ -54,7 +54,7 @@ Adobe Experience Cloudは、Experience Cloudソリューション全体で使用
 
 **cookie 名：AMCV_###@AdobeOrg**
 
-[エクスペリエンスプラットフォームIDサービス](https://docs.adobe.com/content/help/en/id-service/using/home.html) では、JavaScriptを使用して、現在のWebサイトのドメインの `AMCV_###@AdobeOrg` cookieに一意の訪問者IDを保存します。ここで `###` 、ランダムな文字列を表します。例：`AMCV_1FD6776A524453CC0A490D44%40AdobeOrg`。[cookie と Marketing Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)も参照してください。
+[Experience Platform ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html) では、JavaScript を使用して現在の Web サイトのドメインの`AMCV_###@AdobeOrg` cookie に一意の訪問者 ID を保存します（`###` にはランダムな文字列が入ります）。例：`AMCV_1FD6776A524453CC0A490D44%40AdobeOrg`。[cookie と ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/cookies.html)も参照してください。
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
@@ -78,7 +78,7 @@ Adobe Experience Cloudは、Experience Cloudソリューション全体で使用
   </tr> 
   <tr> 
    <td colname="col1"> <p> 場所 </p> </td> 
-   <td colname="col2"> <p> この cookie は（イメージ要求のドメインではなく）Web サイトのドメインに保存されます。 </p> </td> 
+   <td colname="col2"> <p> この cookie は（イメージリクエストのドメインではなく）Web サイトのドメインに保存されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> サイズ </p> </td> 
