@@ -3,11 +3,11 @@ description: Adobe Experience Cloud に含まれる多くのサービスでは c
 seo-description: Adobe Experience Cloud に含まれる多くのサービスでは cookie が使用されています。cookie は、Web サイトから Web ブラウザーに提供されるデータの一部です。このデータはブラウザーによって保存され、後で提供元の Web サイトに返されます。この動作は、以後その Web サイトに対してページや画像の要求が発行されるたびに繰り返されます。
 seo-title: Experience Cloud で使用される cookie
 title: Experience Cloud で使用される cookie
-uuid: 4255a13a-917b-4b5f- a7d4-4b2e7521d189
+uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
@@ -21,6 +21,6 @@ cookie の使用目的は、その Web サイトにアクセスして一連の�
 
 >[!NOTE]
 >
->法律、条例、自主規制により、コンピュータやその他のウェブ接続デバイスに情報を保存または取得する前に、訪問者からの同意を得ることが必要になる場合があります。顧問弁護士にご相談の上、法律、条例、自主規制などによって適用される cookie の利用制限について確認されることをお勧めします。
+>コンピューターや Web 対応デバイスに情報を保存したり、それらを取得したりする行為については、法律や条例、自主規制などにより、事前にユーザーの同意を得ることが義務づけられている場合があります。顧問弁護士にご相談の上、法律、条例、自主規制などによって適用される cookie の利用制限について確認されることをお勧めします。
 
 このドキュメントは、Adobe Digital Marketing Suite で使用されている cookie について説明し、使用上必要な同意事項について、理解していただくためのものです。
