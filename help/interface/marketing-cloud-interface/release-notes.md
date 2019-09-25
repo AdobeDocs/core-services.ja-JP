@@ -6,7 +6,7 @@ seo-title: 累積リリースノート
 solution: Experience Cloud
 title: 累積リリースノート
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75831abe44d04902691325add2338381754f98ec
 
 ---
@@ -18,16 +18,16 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 
 ドキュメントの更新のリストについては、[Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784) を参照してください。
 
-すべてのソリューションを対象とするリリースノートについては、[Experience Cloud リリースノート](https://marketing.adobe.com/resources/help/en_US/whatsnew/)を参照してください。
+すべてのソリューションを対象とするリリースノートについては、[Experience Cloud リリースノート](https://marketing.adobe.com/resources/help/ja_JP/whatsnew/)を参照してください。
 
-## 2019年8月-
+## 2019 年 8 月
 
 * Experience Cloud ログイン中に一部のユーザーがログアウトされる問題を修正しました。（MCUI-6908）
-* Experience Cloud ログイン機能のパフォーマンスを向上させ、待ち時間を短縮しました。（MCUI-6854、MCUI-6869、MCUI-6883）
+* Experience Cloud ログイン機能のパフォーマンスを向上させ、待ち時間を短縮できるよう改善しました。（MCUI-6854、MCUI-6869、MCUI-6883）
 * インターフェイスの外観を更新しました。（MCUI-6861、MCUI-6911、MCUI-6862）
 * Experience Cloud の [!UICONTROL Triggers] で、[!UICONTROL トリガー]定義の _Like_ 句が正常に動作しない問題を修正しました。（MCUI-6611）
 
-## 2019年4月-
+## 2019 年 4月
 
 * アプリを切り替えるメニューに Marketo が追加され、ブランディングが Experience Platform に更新されました。（MCUI-6529）
 * Experience Cloud ホームが更新され、フィードおよび管理ページへのリンクが含まれるようになりました。（MCUI-6682）
@@ -116,7 +116,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 
 >[!NOTE]
 >
->Microsoft は、Internet Explorer 8、9 および 10 の[サポートを終了](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support)します。そのため、今後アドビでは、Internet Explorer のこれらのバージョンに対して報告された問題は修正しません。
+>Microsoft は Internet Explorer 8、9、および 10 の[サポートを終了](https://microsoft.com/ja-jp/WindowsForBusiness/End-of-IE-support)します。そのため、今後アドビでは、Internet Explorer のこれらのバージョンに対して報告された問題は修正しません。
 
 ## リリース 15.10 - 2015 年 10 月 15 日 {#section_68123833D3634BD3A473C12862BF9606}
 
@@ -171,7 +171,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 </table>
 
 * 一部の顧客の顧客属性を同期できなかった問題を修正しました。
-* [Adobe Target 製品ドキュメント](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/)ページが日本語で表示されなかった問題を修正しました。
+* [Adobe Target 製品ドキュメント](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/) ページが日本語で表示されない問題を修正しました。
 * [!DNL Creative Cloud] と [!DNL Experience Cloud] の間のコメントで日本語のテキストが使用できなかった問題を修正しました。
 
 ## リリース 15.4.1 - 2015 年 4 月 9 日 {#section_75634120CC934B3381EDEA7F6F976F0A}
@@ -442,7 +442,8 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
  <tbody> 
   <tr> 
    <td colname="col1"> <p>  オーディエンスの「<span class="wintitle">保存</span>」ボタン </p> </td> 
-   <td colname="col2"> <p>オーディエンスを作成する際、<span class="wintitle">新しいオーディエンスを作成</span>ページの必須フィールドがすべて入力されるまで「<span class="wintitle">保存</span>」ボタンは有効になりません。<!--MAC-19712 --></p> </td> 
+   <td colname="col2"> <p>オーディエンスを作成する際、<span class="wintitle">新しいオーディエンスを作成</span>ページの必須フィールドがすべて入力されるまで「<span class="wintitle">保存</span>」ボタンは有効になりません。 
+     <!--MAC-19712 --></p> </td> 
   </tr> 
  </tbody> 
 </table>
