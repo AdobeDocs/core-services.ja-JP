@@ -6,7 +6,7 @@ seo-title: 顧客属性
 solution: Experience Cloud
 title: 顧客属性
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ## 概要
 
-[!UICONTROL 顧客属性] を検索するには **[!DNL Experience Platform]****[!UICONTROL 、ユーザー]** / **[!UICONTROL 顧客属性に移動します]**
+[!UICONTROL 顧客属性]を探すには、**[!DNL Experience Platform]**／**[!UICONTROL People]**／**[!UICONTROL 顧客属性]**&#x200B;に移動します。
 
 エンタープライズ顧客データを顧客関係管理（CRM）データベースに取り込んでいる場合は、そのデータを Experience Cloud の顧客属性データソースにアップロードできます。アップロード後は、データを [!DNL Adobe Analytics] と [!DNL Adobe Target] で利用できます。
 
@@ -36,14 +36,14 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 * **ターゲット mbox：**&#x200B;顧客属性には、mbox.js バージョン 58 以降が必要です。
 
 
-   [mbox.js の実装](https://marketing.adobe.com/resources/help/en_US/target/ov/t_mbox_download.html)を参照してください。
+   [Mbox.js の実装](https://marketing.adobe.com/resources/help/ja_JP/target/ov/?f=t_mbox_download)を参照してください。
 
 * **at.js：**&#x200B;すべてのバージョン。
 
 
 
 
-## 企業顧客データとは{#section_6F34C29F11414842AA57D2B1248FA3C6}
+## 企業顧客データとは {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
 企業データは様々なシステムに分散されています。企業データは複雑で、そのデータが持つ意味は人によって異なることがあります。このデータには、メンバーシップ、忠誠度、年齢、性別、所有する製品、興味、ライフタイム値などの情報が含まれます。
 
