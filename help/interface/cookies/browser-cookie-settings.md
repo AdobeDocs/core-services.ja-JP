@@ -3,13 +3,13 @@ description: デスクトップまたはモバイルブラウザーですべて�
 keywords: cookie;プライバシー
 seo-description: デスクトップまたはモバイルブラウザーですべての cookie をブロックしているユーザーを削除します。
 seo-title: ブラウザー cookie のプライバシー設定の有効化
-solution: Marketing Cloud、Analytics、Target、Social
+solution: Experience Cloud,Analytics,Target,Social
 title: ブラウザー cookie のプライバシー設定の有効化
-uuid: f6a56e8b- b021-49db-8eb4-6c14af0c7243
+uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
@@ -21,15 +21,15 @@ source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 この設定をおこなうと、ユーザーがブラウザーの cookie 設定ですべての cookie をブロックしている場合に、Analytics の処理を停止したいというユーザーの意向を尊重することができます。
 
-1. **[!UICONTROL 管理ツール]** / **[!UICONTROL レポートスイートに移動]**&#x200B;します。
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Privacy Settings]**.
-1. **[!UICONTROL プライバシー設定]** を有効にする（デスクトップまたはモバイル用）。
+1. **[!UICONTROL 管理ツール]**／**[!UICONTROL レポートスイート]**&#x200B;の順に移動します。
+1. **[!UICONTROL 設定を編集]**／**[!UICONTROL 一般]**／**[!UICONTROL プライバシー設定]**&#x200B;の順にクリックします。
+1. （デスクトップまたはモバイルに対して）「**[!UICONTROL プライバシー設定]**」を有効にします。
 
    この機能を有効にすると、すべての cookie をブロックするように設定されているデスクトップブラウザーから収集されたデータは、Analytics のレポートから除外されます。そのブラウザーがアドビの認識外のものである場合は、収集されたデータが Analytics のレポートに含まれます。
 
 >[!IMPORTANT]
 >
->多くのモバイルアプリ（FacebookやTwitter用のアプリブラウザーなど）は、標準モバイルブラウザーとして表示できますが、すべてのCookieを許可しないことに注意してください。この機能を有効にすると、モバイルトラフィックの多くが Analytics のレポートから除外される可能性があります。
+>多くのモバイルアプリ（Facebook や Twitter のアプリ内ブラウザーなど）は正規のモバイルブラウザーとして表示されますが、cookie を許可していません。この機能を有効にすると、モバイルトラフィックの多くが Analytics のレポートから除外される可能性があります。
 
 **ブラウザーのプライバシー設定について**
 
