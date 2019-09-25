@@ -3,13 +3,13 @@ description: Search&Promote では、訪問者の検索意図を理解し、予�
 keywords: cookie;プライバシー
 seo-description: Search&Promote では、訪問者の検索意図を理解し、予測する目的で cookie を使用します。
 seo-title: Search&Promote の cookie
-solution: Marketing Cloud、Analytics、Target、Social
+solution: Experience Cloud,Analytics,Target,Social
 title: Search&Promote の cookie
-uuid: 65bf24e0-0564-4dc2- b652-9fd9db57d23f
+uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
