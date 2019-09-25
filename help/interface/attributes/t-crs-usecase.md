@@ -6,7 +6,7 @@ seo-title: 顧客属性ソースの作成とデータファイルのアップロ
 solution: Experience Cloud
 title: 顧客属性ソースの作成とデータファイルのアップロード
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 # 顧客属性ソースの作成とデータファイルのアップロード
 
-顧客属性ソース（CSVおよびFINファイル）を作成し、データをアップロードします。準備できたら、データソースをアクティブ化できます。データソースがアクティブになったら、属性データを Analytics と Target で共有します。
+顧客属性ソース（CSV および FIN ファイル）を作成してデータをアップロードします。準備できたら、データソースをアクティブ化できます。データソースがアクティブになったら、属性データを Analytics と Target で共有します。
 
 ## 顧客属性のワークフロー {#concept_BF0AF88E9EF841219ED4D10754CD7154}
 
@@ -75,7 +75,7 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
 
 
 1. [!DNL Experience Cloud] で、メニュー ![](assets/menu-icon.png) アイコンをクリックします。
-1. で **[!DNL Experience Platform]****[!UICONTROL 、人物]** / **[!UICONTROL 顧客属性]**&#x200B;をクリックします。
+1. **[!DNL Experience Platform]** で、**[!UICONTROL People]**／**[!UICONTROL 顧客属性]**&#x200B;をクリックします。
 
    [!UICONTROL 顧客属性]ページでは、既存の属性データソースを管理したり、編集したりできます。
 
@@ -94,9 +94,9 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
 
       エイリアス ID は、追加の顧客 ID 値を設定する方法と一致させる必要があります。以下に例を示します。
 
-      * **Dynamic Tag Management:** エイリアスIDは、Experience *Cloud* IDサービスツールの [!UICONTROL 「顧客設定]」の「統合コード [」の値に対応しています。](https://marketing.adobe.com/resources/help/en_US/dtm/?f=macid)
+      * **Dynamic Tag Management：** [Experience Cloud ID サービス](https://marketing.adobe.com/resources/help/ja_JP/dtm/?f=macid)ツールの「[!UICONTROL 顧客設定]」の「*統合コード*」の値に対応したエイリアス ID。
 
-      * **訪問者 API：**&#x200B;エイリアス ID は、各訪問者と関連付けることができる追加の[顧客 ID](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids) に対応しています。
+      * **訪問者 API：**&#x200B;各訪問者と関連付けることができる[顧客 ID ](https://marketing.adobe.com/resources/help/ja_JP/mcvid/?f=mcvid_customer_ids) に応じたエイリアス ID。
 
          例：*crm_id* の場合：
 
@@ -106,14 +106,14 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
          ```
 
 
-      * **iOS:** エイリアスIDは、visitorSyncIdentifiers ** の ["idType"に対応しています。識別子](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=methods)を使用します。
+      * **iOS：**&#x200B;エイリアス ID は [visitorSyncIdentifiers:identifiers](https://marketing.adobe.com/resources/help/ja_JP/mobile/ios/?f=methods) の *idType* に対応しています。
 
          以下に例を示します。
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
 
-      * **Android：**&#x200B;エイリアス ID は、*syncIdentifiers* の ["idType"](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=methods)。
+      * **Android：**&#x200B;エイリアス ID は、[syncIdentifiers](https://marketing.adobe.com/resources/help/ja_JP/mobile/android/?f=methods) の *idType* に対応しています。
 
          以下に例を示します。
 
@@ -153,13 +153,13 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
 
 ## スキーマの検証 {#task_404AAC411B0D4E129AB3AC8B7BE85859}
 
-検証プロセスでは、アップロードした属性（文字列、整数、数値など）に表示名と説明を設定できます。また、スキーマを更新して属性を削除することもできます。
+検証プロセスでは、アップロードした属性（文字列、整数、数値など）に表示名と説明をマッピングできます。また、スキーマを更新して属性を削除することもできます。
 
 [スキーマの検証](../attributes/validate-schema.md#concept_B3A01A15D04E4F998118E09B3A9B5043)を参照してください。
 
 属性を削除するには、[（オプション）スキーマの更新（属性の削除）](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C)を参照してください。
 
-## （オプション）スキーマの更新（属性の削除）{#task_6568898BB7C44A42ABFB86532B89063C}
+## （オプション）スキーマの更新（属性の削除） {#task_6568898BB7C44A42ABFB86532B89063C}
 
 スキーマの属性を削除したり属性を置換したりする方法。
 
@@ -175,13 +175,13 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
 
 **属性ソースを有効化するには**
 
-新しい顧客属性ソースを作成（または顧客属性ソースを[編集]）ページで「[!UICONTROL アクティブにする]」見出しを探し、「**[!UICONTROL アクティブ]**」をクリックします。
+[!UICONTROL 新しい顧客属性ソースを作成[または]顧客属性ソースを編集]ページで、[!UICONTROL アクティブにする]見出しを探し、「**[!UICONTROL アクティブ]**」をクリックします。
 
 ![手順の結果](assets/activate_attribute_source.png)
 
 ## Adobe Analytics での顧客属性の使用 {#task_7EB0680540CE4B65911B2C779210915D}
 
-現在 
+現在
 <keyword>
 Adobe Analytics
 </keyword>などのソリューションで利用可能なデータを使用すれば、データについてレポートおよび分析し、マーケティングキャンペーンで適切なアクションをおこなうことができます。
@@ -192,7 +192,7 @@ Adobe Analytics
 
 セグメントを Experience Cloud に公開すると、Experience Cloud オーディエンスと Audience Manager で利用できるようになります。
 
-詳しくは、Analytics ヘルプの[顧客属性レポート](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes)を参照してください。
+詳しくは、Analytics ヘルプの[顧客属性レポート](https://marketing.adobe.com/resources/help/ja_JP/reference/?f=reports_customer_attributes)を参照してください。
 
 ## Adobe Target での顧客属性の使用 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
@@ -200,4 +200,4 @@ Target では、オーディエンスの作成時に「訪問者プロファイ�
 
 ![](assets/crs-add-attribute-target.png)
 
-Target ヘルプの[新しいオーディエンスの作成](https://marketing.adobe.com/resources/help/en_US/target/target/?f=t_creating_a_new_audience)を参照してください。
+Target ヘルプの[新しいオーディエンスの作成](https://marketing.adobe.com/resources/help/ja_JP/target/target/?f=t_creating_a_new_audience)を参照してください。
