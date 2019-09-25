@@ -3,13 +3,13 @@ description: Target では、オンラインコンテンツのテスト機能を
 keywords: cookie;プライバシー
 seo-description: Target では、オンラインコンテンツのテスト機能を実現する目的と、より関連性の高いコンテンツを訪問者に対して表示する目的で、Web サイト運用者向けに cookie を使用します。
 seo-title: Target の cookie
-solution: Marketing Cloud、Analytics、Target、Social
+solution: Experience Cloud,Analytics,Target,Social
 title: Target の cookie
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
@@ -23,7 +23,7 @@ cookie の期間を除き、必要に応じてこれらの設定を変更でき�
 
 >[!NOTE]
 >
->Targetユーザーは、カスタマイズされたサードパーティCookieを作成することもできます。
+>Target ユーザーは、カスタマイズされたサードパーティ cookie を作成することもできます。
 
 <table id="table_54B402C6E19C4A70B1E27BC9DFF776EB"> 
  <thead> 
@@ -54,7 +54,7 @@ cookie の期間を除き、必要に応じてこれらの設定を変更でき�
 
 >[!NOTE]
 >
->If any of your domain names include a country code, such as [!DNL mycompany.co.uk], work with your Client Services to configure your [!DNL mbox.js] to support this.
+>いずれかのドメイン名に国コードが含まれている場合は（例：[!DNL mycompany.co.uk]）、クライアントサービスにお問い合わせのうえ、ご使用のドメインをサポートするように [!DNL mbox.js] を設定してください。
 
 cookie には、訪問者が Target キャンペーンをエクスペリエンスとして体験する方法を管理するための様々な値が保持されています。
 
