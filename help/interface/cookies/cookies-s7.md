@@ -3,13 +3,13 @@ description: Scene7 では、ブラウザーにダイナミックメディアを
 keywords: cookie;プライバシー
 seo-description: Scene7 では、ブラウザーにダイナミックメディアを配信するために役立つ情報を保存する目的で cookie を使用します。
 seo-title: Scene7 の cookie
-solution: Marketing Cloud、Analytics、Target、Social
+solution: Experience Cloud,Analytics,Target,Social
 title: Scene7 の cookie
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
@@ -40,7 +40,7 @@ AS2 Flash をベースとする eCatalog ビューア向けの cookie には次�
 | 保存される情報 | セッション cookie を設定します。IPS ImageServer に組み込まれる AuthFilter（IS、IR、および SWF／スキンとビデオのコンテキスト）では、この cookie がアクセス認証用に使用されます。これが存在する場合、HTTP 要求は通過が許可され、存在しない場合は未承認で戻されます。 |
 | 有効期限 | この cookie はセッション cookie です。Scene7 IPS [!DNL web.xml] で、現在のセッションの有効期限は 45 分に設定されています。 |
 
-**Cookie名:s7js. flyout. InfoMessage. displayed`assetId`. state**
+**cookie 名：s7js.flyout.InfoMessage.displayed`assetId`.state**
 
 <table id="table_6835D64C5D464A049F576621F2BE3FAD"> 
  <thead> 
@@ -61,7 +61,7 @@ AS2 Flash をベースとする eCatalog ビューア向けの cookie には次�
  </tbody> 
 </table>
 
-**Cookie名:s7js. flyout. InfoMessage. displayed`assetId`_ idx`id`. ant**
+**cookie 名：s7js.flyout.InfoMessage.displayed`assetId`_idx`id`.ant**
 
 ブラウザー cookie は、従来形式のビューアでは状態情報およびノート注釈データの保存に使用されます。また、マルチスクリーン DHTML フライアウトでは、メッセージインジケーターをセッションに特化させる目的に使用されます。
 
