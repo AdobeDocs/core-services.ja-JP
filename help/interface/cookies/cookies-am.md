@@ -3,13 +3,13 @@ description: Audience Manager はいくつかのシンプルな cookie を利用
 keywords: cookie
 seo-description: Audience Manager はいくつかのシンプルな cookie を利用して様々な機能を実行します。これらの機能には、ID の割り当て、データ呼び出しの記録、エラーの追跡、cookie を設定できるかどうかのテストなどがあります。このセクションでは、Audience Manager によって設定される各種の cookie について説明します。
 seo-title: Audience Manager の cookie
-solution: Marketing Cloud， Audience Manager
+solution: Experience Cloud,Audience Manager
 title: Audience Manager の cookie
-uuid: 8b384c38- b85a-4e93- b00e-41a9d3ae2b21
+uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
@@ -31,11 +31,11 @@ Audience Manager はいくつかのシンプルな cookie を利用して様々�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>目的</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword">Audience Manager</span> は、サイト訪問者に一意の ID を割り当てることを目的としてこの cookie を設定します。<span class="keyword">Audience Manger</span> は <span class="wintitle">demdex</span> cookie を利用して、訪問者の識別、ID の同期、セグメント化、モデリング、レポート作成などの基本的な機能を実行します。 </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> は、サイト訪問者に一意の ID を割り当てることを目的としてこの cookie を設定します。<span class="keyword">Audience Manger</span> は <span class="wintitle">demdex</span> cookie を利用して、訪問者の識別、ID の同期、セグメント化、モデリング、レポート作成などの基本的な機能を実行します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>コンテンツ</b> </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">demdex</span> cookie には次のような形式で一意のユーザー ID（UUID）が書き込まれます。 </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/ids-in-aam.html" format="https" scope="external">Audience Manager の ID のインデックス</a>も参照してください。 </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">demdex</span> cookie には次のような形式で一意のユーザー ID（UUID）が書き込まれます。 </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external">Audience Manager の ID のインデックス</a>も参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>その他の属性</b> </p> </td> 
@@ -66,7 +66,7 @@ Audience Manager はいくつかのシンプルな cookie を利用して様々�
    <td colname="col1"> <p> <b>コンテンツ</b> </p> </td> 
    <td colname="col2"> <p><span class="wintitle">dextp</span> cookie には、データプロバイダー名または ID と UNIX UTC タイムスタンプがパイプ区切り形式で書き込まれます。次の例に含まれる斜体の部分には実際の情報が入ります。<i></i> </p> <p> 
      <ul id="ul_80D0BC3FCF06470991E12712401D784A"> 
-      <li id="li_03747A433CEB4756A26CD866E716B89D">以前の形式：<span class="codeph"><span class="varname"> データプロバイダー名 </span>-1490307822097| <span class="varname"> データプロバイダー名 </span>-1490307822038 </span> </li> 
+      <li id="li_03747A433CEB4756A26CD866E716B89D">以前の形式：<span class="codeph"><span class="varname"> ここにデータプロバイダー名 </span>-1490307822097| <span class="varname"> ここにデータプロバイダー名 </span>-1490307822038 </span> </li> 
       <li id="li_79E7000E82DB4ADA9E9887B017343B2D">新しい形式：<span class="codeph">21-1-1490307821616|544-1-1490307821793|3-1-1490307821852|420-1-1490307822038| </span> </li> 
      </ul> </p> <p>下にある dextp のデータ構文セクションも参照してください。 </p> </td> 
   </tr> 
@@ -81,7 +81,7 @@ Audience Manager はいくつかのシンプルな cookie を利用して様々�
  </tbody> 
 </table>
 
-dextp cookie のデータ構文:
+dextp cookie のデータ構文：
 
 次の表に、データ文字列内の位置を基準として [!DNL dextp] cookie の要素を示します。
 
@@ -97,12 +97,12 @@ dextp cookie のデータ構文:
    <td colname="col1"> <p> <b>1 つ目または 2 つ目</b> </p> </td> 
    <td colname="col2"> <p>データプロバイダー名または ID の位置は、以前の形式の cookie と新しい形式の cookie とで異なります。 </p> <p> <b>以前の形式：</b> </p> <p> 
      <ul id="ul_5BFBF40E3FE849CA859030F2D070FDF6"> 
-      <li id="li_E8F4DC0CB15B472ABE9892B3A61D7F77">構文：<span class="codeph"><span class="varname"> データプロバイダー名 </span> - <span class="varname"> UNIX UTCタイムスタンプ </span></span> </li> 
-      <li id="li_7CD8B101156140F49EA97B18E9591402">Example: <span class="codeph"> dataProvider1 - 1490307822038 </span> </li> 
+      <li id="li_E8F4DC0CB15B472ABE9892B3A61D7F77">構文：<span class="codeph"><span class="varname"> データプロバイダー名 </span> - <span class="varname"> UNIX UTC タイムスタンプ </span> </span> </li> 
+      <li id="li_7CD8B101156140F49EA97B18E9591402">例：<span class="codeph"> dataProvider1 - 1490307822038 </span> </li> 
      </ul> </p> <p>以前の形式の cookie では、判読可能な名前を使用してデータプロバイダーが識別されます。 </p> <p> <b>新しい形式：</b> </p> <p> 
      <ul id="ul_AC6225CA781746148C125F21DFED1ED9"> 
-      <li id="li_29C4B52E398B4EA28944980A15B05A57">構文：<span class="codeph"><span class="varname"> データプロバイダーID </span> -1|2- <span class="varname"> UNIX UTCタイムスタンプ </span></span> </li> 
-      <li id="li_3BF30CA5FED242DF96E0B54AFC64B06F">例: <span class="codeph"> 123345-1-1490307822038 </span> </li> 
+      <li id="li_29C4B52E398B4EA28944980A15B05A57">構文：<span class="codeph"><span class="varname"> データプロバイダー ID </span> - 1|2 - <span class="varname"> UNIX UTC タイムスタンプ </span> </span> </li> 
+      <li id="li_3BF30CA5FED242DF96E0B54AFC64B06F">例：<span class="codeph"> 123345 - 1 - 1490307822038 </span> </li> 
      </ul> </p> <p>新しい形式の cookie： </p> <p> 
      <ul id="ul_F05A91A455FA44C7A71186C0C9E31630"> 
       <li id="li_A8C9638173684359BABC4207845A4F48">判読可能なデータプロバイダー名が数値形式の ID に置き換えられます。 </li> 
@@ -128,13 +128,13 @@ dextp cookie のデータ構文:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>目的</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword">Audience Manager</span> は、特定の<a href="https://marketing.adobe.com/resources/help/en_US/aam/c_destinations.html" format="https" scope="external">宛先</a>へのデータ送信中にエラーが発生すると、この cookie を設定します。 </p> </td> 
+   <td colname="col2"> <p> <span class="keyword">Audience Manager</span> は、<a href="https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/destinations/destinations.translate.html#purposes" format="https" scope="external">宛先</a>へのデータ送信中にエラーが発生すると、この cookie を設定します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>コンテンツ</b> </p> </td> 
-   <td colname="col2"> <p> <span class="wintitle">DST</span> cookie には、宛先の ID と UNIX UTC タイムスタンプのセットがパイプ区切り形式で書き込まれます。次の例に含まれる斜体の部分には実際の情報が入ります。<i></i> </p> <p> 
+   <td colname="col2"> <p> <span class="wintitle">DST</span> cookie には、宛先の ID と UNIX タイムスタンプのセットがパイプ区切り形式で書き込まれます。次の例に含まれる斜体の部分には実際の情報が入ります。<i></i> </p> <p> 
      <ul id="ul_CE98076A02DA413486C1D341E9806889"> 
-      <li id="li_850209D956644749B98C7A208C825C15">構文: <span class="codeph"><span class="varname"> リンク先ID </span> - <span class="varname"> UNIX UTCタイムスタンプ </span></span> </li> 
+      <li id="li_850209D956644749B98C7A208C825C15">構文：<span class="codeph"> <span class="varname"> destination ID </span> - <span class="varname"> UNIX UTC タイムスタンプ </span> </span> </li> 
       <li id="li_4A22152C70844733982230EBF7B9EB78">例：<span class="codeph">067797-1490349684|1010788-1490349692|1067797-1490349692 </span> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -151,4 +151,4 @@ dextp cookie のデータ構文:
 
 **_dp cookie**
 
-これは一時的な cookie です。[!DNL Audience Manager] cookieを設定しようとすると [!DNL _dp] 、サードパーティコンテキストでdemdex. netドメイン内の他のcookieを設定できるかどうかを判断できます。When [!DNL _dp] is set it contains a value of 1. [!DNL Audience Manager] この値を読み取り、即座にcookieを削除します。[!DNL _dp] cookieが存在しない場合、cookieを設定できない [!DNL Audience Manager] ことを認識しています。
+これは一時的な cookie です。[!DNL Audience Manager] は、demdex.net ドメインにサードパーティのコンテキストで他の cookie を設定できるかどうかを確認することを目的として [!DNL _dp] cookie の設定を試みます。設定に成功した場合は、[!DNL _dp] に値 1 が書き込まれます。[!DNL Audience Manager] はこの値を読み取ると、即座にこの cookie を削除します。[!DNL _dp] cookie が存在しない場合、[!DNL Audience Manager] は cookie を設定できないものと判断します。
