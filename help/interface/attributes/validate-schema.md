@@ -6,7 +6,7 @@ seo-title: スキーマの検証
 solution: Experience Cloud
 title: スキーマの検証
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -51,7 +51,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 Experience Cloud に顧客属性ソースと FTP アカウントを作成したら、FTP を使用してデータをアップロードすることもできます。属性ソースごとに 1 つの FTP アカウントを作成できます。アップロードしたファイルは、そのアカウントのルートフォルダーに保存されます。データは .csv 形式にする必要があります。2 つ目の .fin ファイルは、アップロードが完了したことを示します。
 
-文字列、整数および数値に適用する名前は、[!DNL Analytics] 指標の作成に使用されます。詳しくは、[!DNL Analytics] ヘルプの[顧客属性レポート](https://marketing.adobe.com/resources/help/ja_JP/reference/?f=reports_customer_attributes)を参照してください。
+文字列、整数および数値に適用する名前は、[!DNL Analytics] 指標の作成に使用されます。詳しくは、 ヘルプの[顧客属性レポート](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes)を参照してください。[!DNL Analytics]
 
 * **[!UICONTROL 属性：]**&#x200B;アップロードされた `.csv` ファイルから読み出された属性データ。
 
