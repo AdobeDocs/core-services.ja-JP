@@ -6,7 +6,7 @@ seo-title: よくある質問、制限事項、ベストプラクティス
 solution: Experience Cloud
 title: よくある質問、制限事項、ベストプラクティス
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 08c2caa1e0e5ca5c487294e9ce33600dde9c9a1e
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 08c2caa1e0e5ca5c487294e9ce33600dde9c9a1e
 Analytics と Target の顧客属性に関してよくある質問とベストプラクティスを紹介します。
 
 
-## ベストプラクティスと制限事項{#section_7F5189B3DAA84EE6865B91D2026EE05A}
+## ベストプラクティスと制限事項 {#section_7F5189B3DAA84EE6865B91D2026EE05A}
 
 顧客属性を使用する際のガイダンスと制限事項
 
@@ -27,7 +27,7 @@ Analytics と Target の顧客属性に関してよくある質問とベスト�
 | カスタム Analytics ID（s.visitorID） | 顧客 ID を設定するときに  s.visitorID を使用すると、Analytics でユーザーを特定しやすくなります。しかし、s.visitorID を使用して訪問者を特定する場合は、ID サービスを用いて Analytics データをエクスポートまたはインポートする統合機能を使用できません。<br>これには共有オーディエンス、Analytics for Target（A4T）、顧客属性などが該当しますが、これらに限定されません。<br>これらの統合機能では、カスタム Analytics ID の設定はサポート対象外となります。 |
 | Analytics での文字の長さの制限 | Analytics サブスクリプションの作成時には、アップロードするファイルのフィールド長が 255 文字以下になるように切り詰められます。 |
 
-## 顧客属性に関する FAQ{#section_E47866EEA83348E09FE43CEC5E44C461}
+## 顧客属性に関する FAQ {#section_E47866EEA83348E09FE43CEC5E44C461}
 
 <table id="table_88631069013B408EBB0A810657662B36"> 
  <thead> 
@@ -95,7 +95,7 @@ Analytics と Target の顧客属性に関してよくある質問とベスト�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>（Target のみ）</b>顧客属性から Adobe Target にデータをアップロードすると、Target の訪問者プロファイルの有効期間が延びますか。 </p> </td> 
-   <td colname="col2"> <p>はい。Adobe Target ヘルプの<a href="https://marketing.adobe.com/resources/help/ja_JP/target/ov/?f=c_visitor_profile_lifetime" format="https" scope="external">訪問者プロファイルの有効期間</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>はい。Adobe Target ヘルプの<a href="https://marketing.adobe.com/resources/help/en_US/target/ov/?f=c_visitor_profile_lifetime" format="https" scope="external">訪問者プロファイルの有効期間</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>（Target のみ）</b>訪問者が顧客 ID によって特定された後すぐ、顧客属性にアップロードされたデータをターゲットにできますか。 </p> </td> 
