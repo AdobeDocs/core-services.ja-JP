@@ -6,7 +6,7 @@ seo-title: ログインとプロファイル設定の管理
 solution: 'Marketing Cloud '
 title: ログインとプロファイル設定の管理
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -42,13 +42,13 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 | 要素 | 説明 |
 |--- |--- |
-| [Admin Console の基本](https://helpx.adobe.com/jp/marketing-cloud/how-to/first-time-setup.html) | Experience Cloud ソリューションの使用を開始するために必要な最初の手順について説明します。 |
-| [ID の設定](https://helpx.adobe.com/jp/enterprise/using/set-up-identity.html) | エンドユーザーを認証する ID システムを定義および設定します。 |
-| [ユーザー管理](https://helpx.adobe.com/jp/enterprise/using/users.html) | Admin Console へのログインと Experience Cloud ユーザーの権限および製品プロファイルの管理について説明します。 |
+| [Admin Console の基本](https://helpx.adobe.com/marketing-cloud/how-to/first-time-setup.html) | Experience Cloud ソリューションの使用を開始するために必要な最初の手順について説明します。 |
+| [ID の設定](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | エンドユーザーを認証する ID システムを定義および設定します。 |
+| [ユーザー管理](https://helpx.adobe.com/enterprise/using/users.html) | Admin Console へのログインと Experience Cloud ユーザーの権限および製品プロファイルの管理について説明します。 |
 | [Admin Console を起動](../admin-getting-started/admin-getting-started.md) | Admin Console では、アドビのユーザーと製品の使用権限を組織全体にわたって一元的に管理できます。<br>[ダイレクトリンク](https://adminconsole.adobe.com)を使用して Admin Console にログインすることもできます。 |
 | [Creative Cloud ユーザーの管理](../experience-cloud-assets/t-admin-add-cc-user.md) | Experience Cloud Assets では、Creative Cloud を使用して、デザイナーや他のクリエイティブ担当者とフォルダー上での共有、同期、共同作業をおこなえます。組織と共同作業することを承認された Creative Cloud ユーザーの管理はここでおこなえます。 |
-| [レポートスイートをマッピング](../core-services/core-services.md) | （Analytics のみ）Experience Cloud のコアサービスは個々のレポートスイートではなく組織に関連付けられています。これらのサービスを正しく機能させるには、各 Analytics レポートスイートを組織にマッピングする必要があります。（この作業は[コアサービス向けに Analytics を有効化](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)するワークフローの一部です）。 |
-| [組織 ID](../admin-getting-started/organizations.md) | *組織 ID* は管理ページの下部に表示されています。この ID は、プロビジョニングした Experience Cloud 会社に関連付けられている ID です。この ID は 24 文字の英数字から成る文字列で、その後に @AdobeOrg（必須）が続きます。 |
+| [レポートスイートをマッピング](../core-services/core-services.md) | （Analytics のみ）Experience Cloud のコアサービスは個々のレポートスイートではなく組織に関連付けられています。これらのサービスを正しく機能させるには、各 Analytics レポートスイートを組織にマッピングする必要があります（この作業は[コアサービス向けに Analytics を有効化](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)するワークフローの一部です）。 |
+| [Organization ID](../admin-getting-started/organizations.md) | *組織 ID* は管理ページの下部に表示されています。この ID は、プロビジョニングした Experience Cloud 会社に関連付けられている ID です。この ID は 24 文字の英数字から成る文字列で、その後に @AdobeOrg（必須）が続きます。 |
 
 ## Experience Cloud へのログイン（ユーザー）{#task_1BFE87E20DCB44078CAC82F3CD44B985}
 
@@ -58,7 +58,7 @@ Experience Cloud での非管理者ユーザーのログインに関するヘル
 1. Experience Cloud で自分の[組織](../admin-getting-started/getting-started-experience-cloud.md#concept_384D169B0B724B799D573B8ECB5C39BF)のプロビジョニングが完了していることを管理者に確認します。
 
 
-1. [Adobe Experience Cloud](https://marketing.adobe.com/)（[!DNL marketing.adobe.com]）に移動します。
+1. [Adobe Experience Cloud](https://marketing.adobe.com)（[!DNL marketing.adobe.com]）に移動します。
 1. 「**[!UICONTROL Adobe ID でログイン]**」をクリックします。
 
    Experience Cloud 管理者に問い合わせてアカウントのタイプ（Adobe ID または Enterprise ID）を確認してください。
@@ -85,7 +85,7 @@ Experience Cloud での非管理者ユーザーのログインに関するヘル
 
 システムのアップデート、メンテナンス、投稿、メンションおよび共有アセットについての通知を（電子メールまたは製品内で）受け取ります。また、顧客属性のアップロードステータスなどの通知を受け取りたい製品やソリューションを指定することもできます。
 
-「通知」に移動するには、**[!UICONTROL 通知]** アイコン（![](assets/notifications-icon.png)）をクリックし、次に **[!UICONTROL 設定]** アイコン（![](assets/icon_edit_board.png)）をクリックします。
+「通知」に移動するには、**[!UICONTROL 通知]**&#x200B;アイコン（![](assets/notifications-icon.png)）をクリックし、次に&#x200B;**[!UICONTROL 設定]**&#x200B;アイコン（![](assets/icon_edit_board.png)）をクリックします。
 
 メッセージタイプの重要度を基に通知の表示を並べ替えることができます。通知を検索することもできます。また、次のこともできます。
 
@@ -115,7 +115,7 @@ Experience Cloud での非管理者ユーザーのログインに関するヘル
  <li id="li_17B0B176FF85435FB7EDD4317BC18201">Property has been published </li> 
 </ul> -->
 
-## プロファイルおよびパスワードの管理{#task_7B89F4F38E5A4C4EB0FF842953856382}
+## プロファイルおよびパスワードの管理 {#task_7B89F4F38E5A4C4EB0FF842953856382}
 
 Experience Cloud プロファイルを編集し、デフォルトの組織やランディングページなどを指定することができます。
 
@@ -128,7 +128,7 @@ Experience Cloud プロファイルを編集し、デフォルトの組織やラ
 
    プロファイルとパスワードページで、「個人の詳細情報」の各フィールドおよびオプションを設定します。
 
-## パスワードの復元{#task_46541A2806164CB1A4AE8239604E4EB1}
+## パスワードの復元 {#task_46541A2806164CB1A4AE8239604E4EB1}
 
 1. ソリューションのログインページに移動します。
 1. 「**[!UICONTROL パスワードを忘れた場合]**」をクリックします。
@@ -153,7 +153,7 @@ Experience Cloud プロファイルを編集し、デフォルトの組織やラ
 
 >[!NOTE]
 >
->`destURL` パラメーターで渡す URL は事前にエンコードする必要があります（[URL デコーダー／エンコーダー](https://meyerweb.com/eric/tools/dencoder/)などのエンコーダーサイトを使用できます）。
+>`destURL` パラメーターで渡す URL は事前にエンコードする必要があります(Encoder sites like [URL Decoder / Encoder](https://meyerweb.com/eric/tools/dencoder/) are available.)
 
 | パラメーター | 説明 | 例 | 必須／オプション |
 |--- |--- |--- |--- |
