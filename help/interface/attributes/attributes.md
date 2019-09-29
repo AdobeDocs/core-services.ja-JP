@@ -6,7 +6,7 @@ seo-title: 顧客属性
 solution: Experience Cloud
 title: 顧客属性
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -36,7 +36,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 * **ターゲット mbox：**&#x200B;顧客属性には、mbox.js バージョン 58 以降が必要です。
 
 
-   [Mbox.js の実装](https://marketing.adobe.com/resources/help/ja_JP/target/ov/?f=t_mbox_download)を参照してください。
+   [mbox.js の実装](https://marketing.adobe.com/resources/help/en_US/target/ov/t_mbox_download.html)を参照してください。
 
 * **at.js：**&#x200B;すべてのバージョン。
 
