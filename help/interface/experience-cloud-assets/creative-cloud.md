@@ -6,7 +6,7 @@ seo-title: Experience Cloud フォルダーおよびアセットの Creative Clo
 solution: Experience Cloud
 title: Experience Cloud フォルダーおよびアセットの Creative Cloud との共有
 uuid: 2bb002a6-e08e-402b-8df0-ecb21ab74490
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -30,12 +30,12 @@ Creative Cloud のユーザーがアセットにアクセスするには、事�
 
 [!DNL Adobe Target] でアクティビティを作成すると、コンテンツライブラリ内の画像の指定時に共有画像アセットを使用できるようになります。
 
-詳しくは、[!DNL Target] ヘルプの [コンテンツライブラリ](https://marketing.adobe.com/resources/help/ja_JP/target/target/?f=c_manage_content)を参照してください。
+[ ヘルプの](https://marketing.adobe.com/resources/help/en_US/target/target/?f=c_manage_content)コンテンツライブラリ[!DNL Target]を参照してください。
 
 ## Adobe Social とのアセットの共有について {#section_96BFBB9FF3074B2AB49A9B7932DB25EF}
 
 [!DNL Adobe Social] では、[!UICONTROL 投稿]時に[!UICONTROL アセットセレクター]を使用して共有画像アセットを挿入できます。フォルダーを検索したり、そのフォルダーを参照したり、Facebook や Twitter の投稿にアセットを添付したりできます。
 
-[!DNL Social] ヘルプの[投稿者ページ](https://marketing.adobe.com/resources/help/ja_JP/social/?f=c_pub_publisher)を参照してください。
+[ ヘルプの](https://marketing.adobe.com/resources/help/en_US/social/?f=c_pub_publisher)投稿ページ[!DNL Social]を参照してください。
 
 共有フォルダーとアセットはクラウド間で自動的に同期されます。
