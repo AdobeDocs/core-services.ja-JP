@@ -5,7 +5,7 @@ seo-title: Assets
 solution: Experience Cloud
 title: Assets
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -53,7 +53,7 @@ Experience Cloud Assets は、ソリューション全体で共有できるマ�
 
 ![](assets/asset-tools.png)
 
-## アセットを編集する{#section_CD3C55A9D4574455B94D0955391C8FEC}
+## アセットを編集する {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
 アセットの編集機能には次のものが含まれます。
 
@@ -85,7 +85,7 @@ Experience Cloud Assets は、ソリューション全体で共有できるマ�
 
 ## アセットをフルスクリーン表示、ズームする {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-**[!UICONTROL 表示]**／**[!UICONTROL 画像]** をクリックして、アセット画像全体を表示し、ズームを有効にします。
+**[!UICONTROL 表示]**／**[!UICONTROL 画像]**&#x200B;をクリックして、アセット画像全体を表示し、ズームを有効にします。
 
 ![](assets/asset-zoom.png)
 
@@ -93,7 +93,7 @@ Experience Cloud Assets は、ソリューション全体で共有できるマ�
 
 プロパティ付きのカードビュー、リストビューおよび列ビューのいずれかを選択して、アセットをより容易に見つけることができます。
 
-**[!UICONTROL 表示]**／**[!UICONTROL プロパティ]** をクリックして、アセットのプロパティを表示します。
+**[!UICONTROL 表示]**／**[!UICONTROL プロパティ]**&#x200B;をクリックして、アセットのプロパティを表示します。
 
 ![](assets/asset-properties.png)
 
@@ -101,6 +101,6 @@ Experience Cloud Assets は、ソリューション全体で共有できるマ�
 
 ユーザー数、使用されているストレージおよびアセット合計数を表示します。
 
-**[!UICONTROL ツール]**／**[!UICONTROL レポート]**／**[!UICONTROL 使用状況レポート]** をクリックします。
+**[!UICONTROL ツール]**／**[!UICONTROL レポート]**／**[!UICONTROL 使用状況レポート]**&#x200B;をクリックします。
 
-![](assets/assets-usage-report.pn
+![](assets/assets-usage-report.png)
