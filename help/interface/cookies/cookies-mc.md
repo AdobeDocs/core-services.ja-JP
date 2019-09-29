@@ -9,7 +9,7 @@ uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 index: y
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
@@ -54,7 +54,7 @@ Adobe Experience Cloud で訪問者 ID を保存するために使用される c
 
 **cookie 名：AMCV_###@AdobeOrg**
 
-[Experience Platform ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html) では、JavaScript を使用して現在の Web サイトのドメインの`AMCV_###@AdobeOrg` cookie に一意の訪問者 ID を保存します（`###` にはランダムな文字列が入ります）。例：`AMCV_1FD6776A524453CC0A490D44%40AdobeOrg`。[cookie と ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/cookies.html)も参照してください。
+The [Experience Platform ID Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) uses JavaScript to store a unique visitor ID in an `AMCV_###@AdobeOrg` cookie on the domain of the current website, where `###` represents a random string of characters. 例：`AMCV_1FD6776A524453CC0A490D44%40AdobeOrg`。[cookie と Marketing Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)も参照してください。
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
@@ -74,7 +74,7 @@ Adobe Experience Cloud で訪問者 ID を保存するために使用される c
   </tr> 
   <tr> 
    <td colname="col1"> <p> 用途 </p> </td> 
-   <td colname="col2"> <p> この cookie は、個別訪問者を特定するために使用します。 </p> </td> 
+   <td colname="col2"> <p> この cookie は、 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 場所 </p> </td> 
