@@ -10,28 +10,28 @@ source-git-commit: 4bc85987882f7def7555351aad2bc344de8c2130
 ---
 
 
-# コアサービスユーザーガイド{#interface}
+# コアサービスユーザーガイド {#interface}
 
-+ [Experience cloud製品ドキュメント](landing/experience-cloud-home.md)
-+ [Experience cloudとコアサービスのヘルプ](experience-cloud.md)
++ [Experience Cloud 製品ドキュメント](landing/experience-cloud-home.md)
++ [Experience Cloud とコアサービスのヘルプ](experience-cloud.md)
 + コアサービスについて {#about-core-services}
    + [コアサービスの概要](core-services-landing.md)
    + [コアサービス向けにソリューションを有効化](core-services/core-services.md)
    + [組織へのレポートスイートのマッピング](core-services/report-suite-mapping.md)
    + [Experience Cloud の新しいクラウド名について](solutions-core-services.md)
 + [Experience Cloud の統合](marketing-cloud-integrations.md)
-+ Experience Cloud cookies {#ec-cookies}
-   + [cookieの概要](cookies/cookies-privacy.md)
-   + [ファーストパーティcookie](cookies/cookies-first-party.md)
-   + [Analyticsのcookie](cookies/cookies-analytics.md)
-   + [Audience ManagerのCookie](cookies/cookies-am.md)
-   + [Data ConnectorsのCookie](cookies/cookies-dc.md)
-   + [Data WorkbenchのCookie](cookies/cookies-insight.md)
-   + [Experience Cloud cookie](cookies/cookies-mc.md)
-   + [Advertising Cloud cookie](cookies/cookies-advertising-cloud.md)
-   + [Scene7 cookie](cookies/cookies-s7.md)
-   + [Search and Promote cookie](cookies/cookies-snp.md)
-   + [TargetのCookie](cookies/cookies-target.md)
++ Experience Cloud の cookie {#ec-cookies}
+   + [cookie の概要](cookies/cookies-privacy.md)
+   + [ファーストパーティ cookie](cookies/cookies-first-party.md)
+   + [Analytics の cookie](cookies/cookies-analytics.md)
+   + [Audience Manager の cookie](cookies/cookies-am.md)
+   + [Data Connectors の cookie](cookies/cookies-dc.md)
+   + [Data Workbench の cookie](cookies/cookies-insight.md)
+   + [Experience Cloud の cookie](cookies/cookies-mc.md)
+   + [Advertising Cloud の cookie](cookies/cookies-advertising-cloud.md)
+   + [Scene7 の cookie](cookies/cookies-s7.md)
+   + [Search&amp;Promote の cookie](cookies/cookies-snp.md)
+   + [Target の cookie](cookies/cookies-target.md)
    + [ブラウザー cookie のプライバシー設定の有効化](cookies/browser-cookie-settings.md)
    + [サードパーティ cookie のサポートに対する変更がお客様に及ぼす影響](cookies/cookies-thirdparty.md)
 + ユーザーと製品を管理する {#manage-users-and-products}
@@ -56,7 +56,7 @@ source-git-commit: 4bc85987882f7def7555351aad2bc344de8c2130
    + [共有フォルダーの同期の無効化](experience-cloud-assets/t-disable-asset-sync.md)
    + [アセットファイルを共有するための要件](experience-cloud-assets/assets-file-reqs.md)
    + [共有フォルダーの動作](experience-cloud-assets/asset-behavior.md)
-+ オーディエンス{#audiences}
++ オーディエンス {#audiences}
    + [オーディエンスの概要](audience-library/audience-library.md)
    + [オーディエンスの作成](audience-library/t-audience-create.md)
    + [Analytics オーディエンスセグメントの公開](audience-library/t-publish-audience-segment.md)
