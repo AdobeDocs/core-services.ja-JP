@@ -6,7 +6,7 @@ seo-title: オプション - FTP を使用したデータファイルのアッ�
 solution: Experience Cloud
 title: オプション - FTP を使用したデータファイルのアップロード
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -26,7 +26,7 @@ Experience Cloud に顧客属性ソースと FTP アカウントを作成した�
 顧客属性 FTP サイトへのファイルアップロードは、FTP または SFTP を使用しておこなうことができます。
 
 * SFTP 接続をサポートしているクライアントが必要です。
-* [こちら](https://marketing.adobe.com/resources/help/ja_JP/whitepapers/ftp/?f=ftp_sftp_cert_auth)で説明しているように、ユーザー名／パスワードを使用、またはパスワードを使用せずに SFTP に接続できます。
+* [こちら](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/?f=ftp_sftp_cert_auth)で説明しているように、ユーザー名／パスワードを使用して、またはパスワードを使用せずに、SFTP で接続できます。
 
 
 
