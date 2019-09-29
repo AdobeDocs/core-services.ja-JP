@@ -9,7 +9,7 @@ uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 index: y
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
@@ -35,7 +35,7 @@ Audience Manager はいくつかのシンプルな cookie を利用して様々�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>コンテンツ</b> </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">demdex</span> cookie には次のような形式で一意のユーザー ID（UUID）が書き込まれます。 </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external">Audience Manager の ID のインデックス</a>も参照してください。 </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">demdex</span> cookie には次のような形式で一意のユーザー ID（UUID）が書き込まれます。 </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/ids-in-aam.html" format="https" scope="external">Audience Manager の ID のインデックス</a>も参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>その他の属性</b> </p> </td> 
@@ -66,7 +66,7 @@ Audience Manager はいくつかのシンプルな cookie を利用して様々�
    <td colname="col1"> <p> <b>コンテンツ</b> </p> </td> 
    <td colname="col2"> <p><span class="wintitle">dextp</span> cookie には、データプロバイダー名または ID と UNIX UTC タイムスタンプがパイプ区切り形式で書き込まれます。次の例に含まれる斜体の部分には実際の情報が入ります。<i></i> </p> <p> 
      <ul id="ul_80D0BC3FCF06470991E12712401D784A"> 
-      <li id="li_03747A433CEB4756A26CD866E716B89D">以前の形式：<span class="codeph"><span class="varname"> ここにデータプロバイダー名 </span>-1490307822097| <span class="varname"> ここにデータプロバイダー名 </span>-1490307822038 </span> </li> 
+      <li id="li_03747A433CEB4756A26CD866E716B89D">Old style: <span class="codeph"> <span class="varname"> data provider name here </span>-1490307822097| <span class="varname"> data provider name here </span>-1490307822038 </span> </li> 
       <li id="li_79E7000E82DB4ADA9E9887B017343B2D">新しい形式：<span class="codeph">21-1-1490307821616|544-1-1490307821793|3-1-1490307821852|420-1-1490307822038| </span> </li> 
      </ul> </p> <p>下にある dextp のデータ構文セクションも参照してください。 </p> </td> 
   </tr> 
@@ -128,7 +128,7 @@ dextp cookie のデータ構文：
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>目的</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword">Audience Manager</span> は、<a href="https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/destinations/destinations.translate.html#purposes" format="https" scope="external">宛先</a>へのデータ送信中にエラーが発生すると、この cookie を設定します。 </p> </td> 
+   <td colname="col2"> <p> <span class="keyword">Audience Manager</span> は、<a href="https://marketing.adobe.com/resources/help/en_US/aam/c_destinations.html" format="https" scope="external">宛先</a>へのデータ送信中にエラーが発生すると、この cookie を設定します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>コンテンツ</b> </p> </td> 
