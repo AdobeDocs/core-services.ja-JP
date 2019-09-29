@@ -6,7 +6,7 @@ seo-title: Experience Cloud の新機能
 solution: Experience Cloud
 title: Experience Cloud の新機能
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -55,7 +55,7 @@ Experience Cloud の新機能と更新の概要を示します。
 
 * Federated ID を使用してワークスペースのリンクへアクセスしている間、画面が空白になっていた問題を修正しました。（CORE-11620）
 
-## 2018 年 5 月 11 日{#section_498AF78DA17C4720AA0F32B51493E550}
+## 2018 年 5 月 10 日 {#section_498AF78DA17C4720AA0F32B51493E550}
 
 [!DNL Adobe Experience Cloud] インターフェイスの新機能および修正点です。
 
@@ -73,13 +73,13 @@ Experience Cloud の新機能と更新の概要を示します。
 
 通知用のダイジェスト電子メールに、定期メンテナンス／製品アップデートに関するメンテナンス通知の多くが記載されていません。すべてのメンテナンス通知がダイジェスト電子メールに確実に記載されるよう、現在対応を進めております。
 
-## 2017 年 8 月 9 日{#section_2313A875454044F490B418506DD24593}
+## 2017 年 8 月 8 日 {#section_2313A875454044F490B418506DD24593}
 
 | 機能 | 説明 |
 |--- |--- |
 | 通知 - 詳細設定 | [顧客属性](../attributes/attributes.md)のアップロードについての通知など、製品およびソリューションのイベントとアクティビティに関する通知を有効にできます。 |
 | 通知 - メンテナンス通知 | 通知の設定では、製品とソリューションのメンテナンスに関する通知を有効にできます。 |
-| Experience Cloud ソリューション向け Admin Console | Experience Cloud の新規のお客様は、Admin Console を利用することで組織全体にわたってアドビ製品の使用権限を一元的に管理できます。<br>Admin Console へのユーザー管理の移行は段階的に進められます。移行が必要になると、アドビからお客様（システム管理者の皆様）に連絡させていただきます。<br>Analytics 管理者は、[Analytics の移行](https://marketing.adobe.com/resources/help/ja_JP/experience-cloud/admin-console/analytics-migration/) を参照してください。 |
+| Experience Cloud ソリューション向け Admin Console | Experience Cloud の新規のお客様は、Admin Console を利用することで組織全体にわたってアドビ製品の使用権限を一元的に管理できます。<br>Admin Console へのユーザー管理の移行は段階的に進められます。移行が必要になると、アドビからお客様（システム管理者の皆様）に連絡させていただきます。<br>Analytics 管理者向けの情報については、[Analytics の移行](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)を参照してください。 |
 
 ## 2017 年 5 月 23 日 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
 
