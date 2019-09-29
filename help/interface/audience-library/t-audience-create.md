@@ -6,7 +6,7 @@ seo-title: オーディエンスの作成
 solution: Experience Cloud
 title: オーディエンスの作成
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
