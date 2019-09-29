@@ -9,7 +9,7 @@ uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
 index: y
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
 
 ---
@@ -68,7 +68,7 @@ Adobe Analytics では、異なるブラウザーからの要求を区別する�
 |--- |--- |
 | 保存される情報 | 一意の訪問者 ID 日時スタンプ |
 | 有効期限 | 2 年 |
-| 用途 | この cookie は、個別訪問者を特定するために使用します。 |
+| 用途 | この cookie は、 |
 | 場所 | この cookie は、イメージリクエストのドメインに保存されます。そのドメインとは、サードパーティ cookie を使用していれば多くの場合は 2O7.net であり、ファーストパーティ cookie を使用していれば自社のドメインになります。 |
 | サイズ | 44 バイト |
 
