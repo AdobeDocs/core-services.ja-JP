@@ -5,7 +5,7 @@ seo-title: 様々なソリューションおよびサービスによる DNS プ�
 solution: Experience Cloud
 title: 様々なソリューションおよびサービスによる DNS プリフェッチの使用
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -30,7 +30,7 @@ DNS プリフェッチはページ上に埋め込まれている静的リンク�
 
 ## DNS プリフェッチのコードサンプル {#section_E886F7B2861E48BA9EF3D8B3CE32B345}
 
-以下のサンプルは、各種 [!DNL Experience Cloud] ソリューションおよびサービスに対する DNS プリフェッチの呼び出し方法を示しています。一部のプリフェッチ呼び出しには[!DNL Adobe]組織 ID またはトラッキングサーバー情報が必要です。各サンプル内の*斜体*で記述されたコードは変数のプレースホルダーを表しています。これらの部分は、自分の [!DNL Adobe] パートナー ID、顧客コード、トラッキングサーバー情報などに置き換えます。
+以下のサンプルは、各種 [!DNL Experience Cloud] ソリューションおよびサービスに対する DNS プリフェッチの呼び出し方法を示しています。一部のプリフェッチ呼び出しには[!DNL Adobe]組織 ID またはトラッキングサーバー情報が必要です。各サンプル内の&#x200B;*斜体*&#x200B;で記述されたコードは変数のプレースホルダーを表しています。これらの部分は、自分の [!DNL Adobe] パートナー ID、顧客コード、トラッキングサーバー情報などに置き換えます。
 
 * **Analytics：** `<link rel="dns-prefetch" href="//insert tracking server name here">`。
 
