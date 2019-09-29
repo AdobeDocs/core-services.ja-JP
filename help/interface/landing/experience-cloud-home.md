@@ -1,28 +1,28 @@
 ---
-title: Experience Cloud製品ドキュメント
-seo-title: Adobe Experience Cloudのソリューションに関するヘルプおよび製品ドキュメントです。
-description: Adobe Experience Cloudのソリューションに関するヘルプおよび製品ドキュメントです。
-seo-description: Experience Cloudヘルプ
+title: Experience Cloud 製品ドキュメント
+seo-title: Adobe Experience Cloud のソリューションに関するヘルプおよび製品ドキュメントです。
+description: Adobe Experience Cloud のソリューションに関するヘルプおよび製品ドキュメントです。
+seo-description: Experience Cloud ヘルプ
 translation-type: tm+mt
 source-git-commit: 7e09e666cf9102ab02bab85b5546f9dc6f2ca635
 
 ---
 
 
-# Adobe Experience Cloud製品ドキュメント
+# Adobe Experience Cloud 製品ドキュメント
 
-Adobe Experience Cloudのヘルプと製品ドキュメントです。
+Adobe Experience Cloud に関するヘルプおよび製品ドキュメントです。
 
-## リリースノート、ビデオ、コミュニティフォーラム
+## リリースノート、ビデオおよびコミュニティフォーラム
 
-* [毎月リリースノートを受け取るには、"Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) 」を購読してください。
+* Subscribe to the [Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) to receive release notes each month.
 * 製品に関するビデオ：製品に関するビデオは、[Adobe Video Learning](https://helpx.adobe.com/experience-cloud/tutorials.html) で視聴できます。
-* Experience League:ガイド付き学習については [、Adobe Experience Suite](https://landing.adobe.com/experience-league/) にアクセスしてください。
+* Experience League: Visit the [Adobe Experience League](https://landing.adobe.com/experience-league/) for guided learning.
 
-## ![Experience Cloudヘルプ](assets/experience_cloud_appicon_32.png) Experience Cloudヘルプ
+## ![Experience Cloud ヘルプ](assets/experience_cloud_appicon_32.png) Experience Cloud ヘルプ
 
-* [Experience Cloudリリースノート](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) （すべての製品）
-* [Experience Cloudインターフェイスおよびコアサービスヘルプ](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)
+* [Experience cloudリリースノート](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) （すべての製品）
+* [Experience cloudインターフェイスとコアサービスのヘルプ](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)
 * [ユーザーと製品の管理](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)
 * [Experience Cloud ID サービス](https://docs.adobe.com/content/help/en/id-service/using/home.html)
 * [顧客属性](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html)
@@ -31,7 +31,7 @@ Adobe Experience Cloudのヘルプと製品ドキュメントです。
 * [Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html)
 * [一般データ保護規則（GDPR）API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 
-## ![Analyticsヘルプ](assets/mc_analytics_32.png) 分析ヘルプ
+## ![Analytics ヘルプ](assets/mc_analytics_32.png) Analytics ヘルプ
 
 * [Analytics ヘルプホーム](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
 * [ツール](https://docs.adobe.com/content/help/en/analytics/analyze/home.html)
@@ -44,34 +44,34 @@ Adobe Experience Cloudのヘルプと製品ドキュメントです。
 * [Media Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
 * [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)
 
-## ![Audience Managerヘルプ](assets/mc_audiencemanager_32.png) のAudience Managerヘルプ
+## ![Audience Manager ヘルプ](assets/mc_audiencemanager_32.png) Audience Manager ヘルプ
 
 * [Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)
 
-## ![Targetヘルプ](assets/mc_target_32.png) ターゲットヘルプ
+## ![Target ヘルプ](assets/mc_target_32.png) Target ヘルプ
 
-* [Targetリリースノート](https://docs.adobe.com/content/help/en/target/using/release-notes/release-notes.html)
+* [Targetのリリースノート](https://docs.adobe.com/content/help/en/target/using/release-notes/release-notes.html)
 * [Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)
 
-## ![Experience Managerヘルプ](assets/mc_experiencemanager_32.png) Experience Managerヘルプ
+## ![Experience Manager ヘルプ](assets/mc_experiencemanager_32.png) Experience Manager ヘルプ
 
 * [Experience Managerラーニングとサポート](https://helpx.adobe.com/support/experience-manager.html)
 
-## ![キャンペーンヘルプ](assets/mc_campaign_32.png) キャンペーンヘルプ
+## ![Campaign ヘルプ](assets/mc_campaign_32.png) Campaign ヘルプ
 
 * Campaign Standard: [Documentation](https://helpx.adobe.com/support/campaign/standard.html) - [Release Notes](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
 * Campaign Classic: [Documentation](https://helpx.adobe.com/support/campaign/classic.html) - [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 
-## ![Primetimeヘルプ](assets/primetime_app_32.png) Primetimeヘルプ
+## ![Primetime ヘルプ](assets/primetime_app_32.png) Primetime ヘルプ
 
 * [Primetimeヘルプ](http://help.adobe.com/en_US/primetime/)
 
-## ![Advertising Cloudヘルプ](assets/advertisingcloud_appicon_32.png) 広告クラウドヘルプ
+## ![Advertising Cloud ヘルプ](assets/advertisingcloud_appicon_32.png) Advertising Cloud ヘルプ
 
-Help for the Advertising Cloud is available in the product by clicking the **Help** icon (?) をクリックします。
+Advertising Cloud のヘルプは、ページの上部にある&#x200B;**ヘルプ**&#x200B;アイコン（?）をクリックすることで、製品内で利用できます。
 
-## その他のExperience Cloudリソース
+## 追加の Experience Cloud リソース
 
-* [カスタマーケアにお問い合わせください](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [カスタマーケアへのお問い合わせ](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [コミュニティフォーラム](https://forums.adobe.com/community/experience-cloud)
 * [Experience League](https://landing.adobe.com/experience-league/)
