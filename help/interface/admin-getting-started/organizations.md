@@ -6,7 +6,7 @@ seo-title: 組織とアカウントのリンク
 solution: 'Marketing Cloud '
 title: 組織とアカウントのリンク
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
 
 ---
@@ -20,15 +20,15 @@ source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
 
 ## 組織を特定する {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
-*組織*とは、管理者がグループおよびユーザーを設定し、Experience Cloud でのシングルサインオンを制御するために使用するエンティティです。組織は、すべての Experience Cloud 製品およびソリューションをまたいだログイン会社のように機能します。ほとんどの場合、組織は、会社名です。ただし、会社は多数の組織を持つことができます。
+*組織*&#x200B;とは、管理者がグループおよびユーザーを設定し、Experience Cloud でのシングルサインオンを制御するために使用するエンティティです。組織は、すべての Experience Cloud 製品およびソリューションをまたいだログイン会社のように機能します。ほとんどの場合、組織は、会社名です。ただし、会社は多数の組織を持つことができます。
 
-また、サポートを受けるために組織 ID を特定することが必要になる場合もあります。**[!UICONTROL 組織]** メニューを使用して、自分が正しい組織に属していることを確認したり、組織を切り替えたりできます。
+また、サポートを受けるために組織 ID を特定することが必要になる場合もあります。**[!UICONTROL 組織]**&#x200B;メニューを使用して、自分が正しい組織に属していることを確認したり、組織を切り替えたりできます。
 
 ![手順の結果](assets/organization-switch.png)
 
 ## 組織 ID を見つける {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
-**組織 ID：** プロビジョニングされた Experience Cloud の会社に関連付けられた ID。この ID は 24 文字の英数字から成る文字列で、その後に @AdobeOrg（必須）が続きます。
+**組織 ID：**&#x200B;プロビジョニングされた Experience Cloud の会社に関連付けられた ID。この ID は 24 文字の英数字から成る文字列で、その後に @AdobeOrg（必須）が続きます。
 
 組織 ID を表示するには、Experience Cloud ランディングページに移動するか、（![](assets/menu-icon.png)）をクリックしてから、「**[!UICONTROL 管理]**」をクリックします。組織 ID は、[!UICONTROL Experience Cloud 使用の手引き]ページまたは[!UICONTROL 管理]ページの下部にあります。
 
@@ -70,5 +70,5 @@ source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
 
 一般的に、アカウントのリンクは、Adobe ID が以前のユーザーにリンクされていることが原因で失敗します。アカウントのリンクに失敗した場合は、
 
-* [アドビサポートへお問い合わせ](https://helpx.adobe.com/jp/marketing-cloud/contact-support.html)ください。
+* [アドビサポートに問い合わせる](https://helpx.adobe.com/marketing-cloud/contact-support.html)。
 * 問題の解決前でも、標準ログインを使用してソリューションにアクセスする。
