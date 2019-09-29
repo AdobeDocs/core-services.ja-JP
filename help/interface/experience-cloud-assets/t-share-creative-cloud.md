@@ -6,7 +6,7 @@ seo-title: Experience Cloud アセットフォルダーの共有
 solution: Experience Cloud
 title: Experience Cloud アセットフォルダーの共有
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -49,8 +49,8 @@ Creative Cloud ユーザーと Experience Cloud アセットフォルダーを�
 
 Creative Cloud ユーザーをすべて削除すると、そのフォルダーの共有が解除され、Creative Cloud ユーザーがアクセスできなくなります。共有アセットを使用するその他の方法には、以下のものがあります。
 
-* ソーシャル投稿の場合、[!UICONTROL  の]セットセレクター[!DNL Adobe Social]でアセットを使用する。[投稿者ページ](https://marketing.adobe.com/resources/help/ja_JP/social/?f=c_pub_publisher)を参照してください。
-* アクティビティの画像については、[!DNL Adobe Target] の[コンテンツライブラリ](https://marketing.adobe.com/resources/help/ja_JP/target/target/?f=c_manage_content)でアセットを読み込むか、入れ替えます。
+* ソーシャル投稿の場合、[!UICONTROL  の]セットセレクター[!DNL Adobe Social]でアセットを使用する。[投稿者ページ](https://marketing.adobe.com/resources/help/en_US/social/?f=c_pub_publisher)を参照してください。
+* アクティビティの画像の場合、[ の](https://marketing.adobe.com/resources/help/en_US/target/target/?f=c_manage_content)コンテンツライブラリ[!DNL Adobe Target]でアセットをロードまたはスワップする。
 
 Creative Cloud にフォルダーを共有すると、フォルダー上に Creative Cloud のロゴが表示されます。
 
@@ -58,6 +58,6 @@ Creative Cloud にフォルダーを共有すると、フォルダー上に Crea
 
 関連するヘルプ：
 
-* [Creative Cloud ヘルプ - ファイルの管理と同期](https://helpx.adobe.com/jp/creative-cloud/help/sync-files.html)
-* [Creative Cloud ヘルプ - 他のユーザーとの共同作業](https://helpx.adobe.com/jp/creative-cloud/help/collaboration.html)
-* [Creative Cloud Help - 共同作業に関する FAQ](https://helpx.adobe.com/jp/creative-cloud/help/collaboration-faq.html)
+* [Creative Cloud ヘルプ - ファイルの管理と同期](https://helpx.adobe.com/creative-cloud/help/sync-files.html)
+* [Creative Cloud ヘルプ - 他のユーザーとの共同作業](https://helpx.adobe.com/creative-cloud/help/collaboration.html)
+* [Creative Cloud ヘルプ - コラボレーションの FAQ](https://helpx.adobe.com/creative-cloud/help/collaboration-faq.html)
