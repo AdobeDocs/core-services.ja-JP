@@ -6,7 +6,7 @@ seo-title: 累積リリースノート
 solution: Experience Cloud
 title: 累積リリースノート
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 75831abe44d04902691325add2338381754f98ec
 
 ---
@@ -18,7 +18,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 
 ドキュメントの更新のリストについては、[Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784) を参照してください。
 
-すべてのソリューションを対象とするリリースノートについては、[Experience Cloud リリースノート](https://marketing.adobe.com/resources/help/ja_JP/whatsnew/)を参照してください。
+すべてのソリューションを対象とするリリースノートについては、[Experience Cloud リリースノート](https://marketing.adobe.com/resources/help/en_US/whatsnew/)を参照してください。
 
 ## 2019 年 8 月
 
@@ -116,7 +116,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 
 >[!NOTE]
 >
->Microsoft は Internet Explorer 8、9、および 10 の[サポートを終了](https://microsoft.com/ja-jp/WindowsForBusiness/End-of-IE-support)します。そのため、今後アドビでは、Internet Explorer のこれらのバージョンに対して報告された問題は修正しません。
+>Microsoft は、Internet Explorer 8、9 および 10 の[サポートを終了](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support)します。そのため、今後アドビでは、Internet Explorer のこれらのバージョンに対して報告された問題は修正しません。
 
 ## リリース 15.10 - 2015 年 10 月 15 日 {#section_68123833D3634BD3A473C12862BF9606}
 
@@ -162,7 +162,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
    <td colname="col1"> <p> </p> </td> 
    <td colname="col2"> <p>左側のナビゲーションメニューが更新、整理され、すべてのコアサービスとソリューションにアクセスできるようになりました。重要な変更点を次に示します。 </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
-     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">「<span class="term">オーディエンスライブラリ</span>」メニューと「<span class="term">顧客属性</span>」メニューの選択は、<span class="term">オーディエンス</span>の下に移動されました。 </li> 
+     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">「「<span class="term">オーディエンスライブラリ</span>」メニューと「<span class="term">顧客属性</span>」メニューの選択は、<span class="term">オーディエンス</span>の下に移動されました。 </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4"><span class="term">Exchange</span> へのリンクは、ヘルプドロップダウンメニューから左側のナビゲーションパネルに移動されました。 </li> 
      <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term">ソリューション</span>は削除されました。ナビゲーションパネルの下側から、すべてのソリューションを起動できます。 </li> 
     </ul> </td> 
@@ -171,7 +171,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 </table>
 
 * 一部の顧客の顧客属性を同期できなかった問題を修正しました。
-* [Adobe Target 製品ドキュメント](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/) ページが日本語で表示されない問題を修正しました。
+* [Adobe Target 製品ドキュメント](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/)ページが日本語で表示されなかった問題を修正しました。
 * [!DNL Creative Cloud] と [!DNL Experience Cloud] の間のコメントで日本語のテキストが使用できなかった問題を修正しました。
 
 ## リリース 15.4.1 - 2015 年 4 月 9 日 {#section_75634120CC934B3381EDEA7F6F976F0A}
