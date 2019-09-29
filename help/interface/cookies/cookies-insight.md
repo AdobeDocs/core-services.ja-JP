@@ -9,7 +9,7 @@ uuid: c15013f4-c47d-4950-aa19-be9afd25cd5f
 index: y
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
@@ -25,7 +25,7 @@ Data Workbench では、急速に変遷していく大量のデータをリア�
 |---|---|
 | 保存される情報 | 一意の訪問者 ID 日時スタンプ |
 | 有効期限 | これは、永続的な cookie です。 |
-| 用途 | この cookie は、個別訪問者を特定するために使用します。 |
+| 用途 | この cookie は、。 |
 | 場所 | この cookie は該当ページのドメインに保存されます。 |
 | サイズ | 8 バイト、または、「name =」部分（v1st=）が含まれる場合 13 バイト |
 
