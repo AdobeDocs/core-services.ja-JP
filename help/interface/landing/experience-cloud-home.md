@@ -4,7 +4,7 @@ seo-title: Adobe Experience Cloud のソリューションに関するヘルプ�
 description: Adobe Experience Cloud のソリューションに関するヘルプおよび製品ドキュメントです。
 seo-description: Experience Cloud ヘルプ
 translation-type: tm+mt
-source-git-commit: 7e09e666cf9102ab02bab85b5546f9dc6f2ca635
+source-git-commit: 6711229e3423de0040fa89c49d481ffa1e2f0a08
 
 ---
 
@@ -18,6 +18,7 @@ Adobe Experience Cloud に関するヘルプおよび製品ドキュメントで
 * Subscribe to the [Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) to receive release notes each month.
 * 製品に関するビデオ：製品に関するビデオは、[Adobe Video Learning](https://helpx.adobe.com/experience-cloud/tutorials.html) で視聴できます。
 * Experience League: Visit the [Adobe Experience League](https://landing.adobe.com/experience-league/) for guided learning.
+* Experience cloudヘルプセンター
 
 ## ![Experience Cloud ヘルプ](assets/experience_cloud_appicon_32.png) Experience Cloud ヘルプ
 
@@ -59,8 +60,8 @@ Adobe Experience Cloud に関するヘルプおよび製品ドキュメントで
 
 ## ![Campaign ヘルプ](assets/mc_campaign_32.png) Campaign ヘルプ
 
-* Campaign Standard: [Documentation](https://helpx.adobe.com/support/campaign/standard.html) - [Release Notes](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
-* Campaign Classic: [Documentation](https://helpx.adobe.com/support/campaign/classic.html) - [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+* Campaign Standard：[ドキュメント](https://helpx.adobe.com/support/campaign/standard.html) - [リリースノート](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [ハウツービデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
+* Campaign Classic：[ドキュメント](https://helpx.adobe.com/support/campaign/classic.html) - [リリースノート](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [ハウツービデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 
 ## ![Primetime ヘルプ](assets/primetime_app_32.png) Primetime ヘルプ
 
