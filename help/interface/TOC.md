@@ -2,10 +2,9 @@
 audience: end-user
 user-guide-title: コアサービスユーザーガイド
 user-guide-url: https://www.adobe.com/jp
-product: コアサービス
 index: true
 translation-type: tm+mt
-source-git-commit: 4bc85987882f7def7555351aad2bc344de8c2130
+source-git-commit: 6711229e3423de0040fa89c49d481ffa1e2f0a08
 
 ---
 
