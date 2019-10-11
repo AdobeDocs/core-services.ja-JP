@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 顧客属性のデータファイルおよびデータソースについて
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: a231e39dd97eb441d67fdf35bd7e5328bcfe0359
+source-git-commit: 6711229e3423de0040fa89c49d481ffa1e2f0a08
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: a231e39dd97eb441d67fdf35bd7e5328bcfe0359
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .csv </span> </p> </td> 
-   <td colname="col2"> <p>値をコンマで区切って入力したファイル（Excel で作成するファイルなど）。これは、顧客属性データを含むファイルです。 </p> <p> <b></b> 命名規則：ファイル名の拡張子に空白文字や、「。」、「。.」、「/」、「:」のいずれも含まれていないことを確認します。 </p> </td> 
+   <td colname="col2"> <p>値をコンマで区切って入力したファイル（Excel で作成するファイルなど）。これは、顧客属性データを含むファイルです。 </p> <p> <b>命名規則：</b>ファイル名拡張子に空白文字が含まれていないことを確認してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
@@ -91,8 +91,8 @@ CSV ファイルは次の形式に準拠する必要があります。
    <td colname="col1"> <p>属性の制限 </p> </td> 
    <td colname="col2"> <p>数百の <span class="filepath">.csv</span> 列を Experience Cloud の顧客属性サービスにアップロードできます。ただし、サブスクリプションを設定して属性を選択する場合、所有するソリューションに応じて、次の制限が適用されます。 </p> <p> 
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
-      <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b>：合計 3 件 </li> 
-      <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b>：レポートスイートあたり 200 件 </li> 
+      <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard：</b>合計 3 件 </li> 
+      <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium：</b>レポートスイートあたり 200 件 </li> 
       <li id="li_8C891FE3D1EF49FA9F81E2E32CD0B9CA"> <b>Target Standard：</b>5 件 </li> 
       <li id="li_2B66D43023F34EA685CE2C38A9250CEA"> <b>Target Premium：</b>200 件 </li> 
      </ul> </p> </td> 
@@ -121,7 +121,7 @@ CSV ファイルは次の形式に準拠する必要があります。
   </tr> 
   <tr> 
    <td colname="col1"> <p>ファイル要件 </p> </td> 
-   <td colname="col2"> <p> 各属性ソースには、コンマで区切った同数のフィールドが含まれる必要があります。 </p> <p> 改行、二重引用符またはコンマを含むフィールドは引用符で囲む必要があります。 </p> <p> フィールド内の二重引用符文字は、バックスラッシュ（\）を使用してエスケープする必要があります。 </p> <p> 空白の列は<span class="term"> Null </span> として保存されます。 </p> </td> 
+   <td colname="col2"> <p> 各属性ソースには、コンマで区切った同数のフィールドが含まれる必要があります。 </p> <p> 改行、二重引用符またはコンマを含むフィールドは引用符で囲む必要があります。 </p> <p> フィールド内の二重引用符文字は、バックスラッシュ（\）を使用してエスケープする必要があります。 </p> <p> 空白の列は<span class="term">Null</span> として保存されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>複数のファイル </p> </td> 
