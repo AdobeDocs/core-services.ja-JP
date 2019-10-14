@@ -4,14 +4,13 @@ user-guide-title: コアサービスユーザーガイド
 user-guide-url: https://www.adobe.com/jp
 index: true
 translation-type: tm+mt
-source-git-commit: 6711229e3423de0040fa89c49d481ffa1e2f0a08
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
 
 # コアサービスユーザーガイド {#interface}
 
-+ [Experience Cloud 製品ドキュメント](landing/experience-cloud-home.md)
 + [Experience Cloud とコアサービスのヘルプ](experience-cloud.md)
 + コアサービスについて {#about-core-services}
    + [コアサービスの概要](core-services-landing.md)
