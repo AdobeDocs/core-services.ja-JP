@@ -1,61 +1,114 @@
 ---
-description: Experience Cloud には、アドビが提供するデジタルマーケティングソリューションおよびサービスが統合されています。Experience Cloud は、クラウドソリューションやコアサービスにすばやくアクセスできる直感的なインターフェイスでもあります。
+description: Adobe Experience cloudのセルフヘルプ、製品ドキュメントおよび技術ドキュメント。 Experience Cloud には、アドビが提供するデジタルマーケティングソリューションおよびサービスが統合されています。
 keywords: コアサービス
-seo-description: Experience Cloud には、アドビが提供するデジタルマーケティングソリューションおよびサービスが統合されています。Experience Cloud は、クラウドソリューションやコアサービスにすばやくアクセスできる直感的なインターフェイスでもあります。
-seo-title: Experience Cloud とコアサービスのヘルプ
-solution: Experience Cloud
+seo-description: このページでは、Experience cloudのセルフヘルプ、製品ドキュメント、および技術ドキュメントを提供します。
+seo-title: Adobe Experience cloudおよびコアサービスのヘルプと製品ドキュメント。
+solution: Adobe Experience Cloud
 title: Experience Cloud とコアサービスのヘルプ
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: fa601ff80430f38fc0d8303f9c833778ad1f8cd5
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
 
-# Experience Cloud とコアサービスのヘルプ
+# Experience cloudおよびコアサービス製品ドキュメント
 
-Experience Cloud には、アドビが提供するデジタルマーケティングソリューションおよびサービスが統合されています。Experience Cloud は、クラウドソリューションやコアサービスにすばやくアクセスできる直感的なインターフェイスでもあります。
+このページでは、Adobe Experience cloudのソリューションおよびサービスに関するセルフヘルプ、サポート、技術および製品ドキュメントを提供します。 Experience Cloud には、アドビが提供するデジタルマーケティングソリューションおよびサービスが統合されています。Experience Cloud は、クラウドソリューションやコアサービスにすばやくアクセスできる直感的なインターフェイスでもあります。
 
-すべてのソリューションヘルプにアクセスするには、[Experience Cloud 製品 ドキュメント](landing/experience-cloud-home.md)を参照してください。
+## リリースノートとコミュニティリソース
 
-![](assets/experience-cloud-core-services.png)
+リリースノート、ビデオ、コミュニティフォーラムおよびサポート：
 
-## コアサービス製品ドキュメント
+* [Experience cloudリリースノート](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) — すべての製品
+* [Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) — 購読して、毎月リリースノートを受け取る)
+* [アドビのビデオ学習](https://helpx.adobe.com/experience-cloud/tutorials.html)
+* [Adobe Experience League](https://landing.adobe.com/experience-league/) — ガイド付き学習
+* [カスタマーケアへのお問い合わせ](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [コミュニティフォーラム](https://forums.adobe.com/community/experience-cloud)
+* [Experience Cloud のラーニングとサポート](https://helpx.adobe.com/support/experience-cloud.html)
+* [アドビトレーニングおよびチュートリアル](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Adobe Customer Experience Blog](https://theblog.adobe.com/customer-experience/) （ブログ）
+* [コアサービスの概要](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/)（ブログ）
 
-| サービス | 説明 |
-|--- |--- |
-| [Activation](activation/activation.md) | Activation は、Experience Cloud ソリューションの実装とデプロイを可能にするコアサービスです。以下のようなものがあります。<ul><li>[Launch, by Adobe](https://docs.adobelaunch.com/) （最新のtag managementソリューション）</li><li>[Dynamic Tag Manager](https://marketing.adobe.com/resources/help/en_US/dtm/)</li><li>[Triggers](activation/triggers.md)</li><li>[Auditor](https://marketing.adobe.com/resources/help/en_US/auditor/)</li><li>[Experience Cloud デバッガー](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/)</li></ul> |
-| [管理](admin-getting-started/admin-getting-started.md) | Experience Cloud のユーザー権限と製品プロファイルを管理します。 |
-| [Assets](experience-cloud-assets/experience-cloud-assets.md) | Experience Cloud Assets は、ソリューション全体で共有できるマーケティング用アセットの一元管理ツールです。 |
-| [Exchange](https://experiencecloud.adobeexchange.com/) | 拡張機能やスクリプトなどを使用して Adobe Experience Cloud の機能を拡張します。検索バーで検索したり、製品やアプリのタイプで並べ替えたりすることができます。 |
-| [Feed](feed.md) | Experience Cloud Feed を使用してアセットや Analytics レポートを他のユーザーと直接共有したり投稿したりします。 |
-| [Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/) | Mobile Services により、モバイルアプリ用の各ソリューションが Adobe Experience Cloud 上で統合されます。これにより、アプリの利用状況を把握し、改善につなげることができます。 |
-| [People](audience-library/audience-library.md) | オーディエンスライブラリでは、オーディエンスを作成したり、既存のオーディエンスを組み合わせて複合オーディエンスを作成したり、共有しているすべてのオーディエンスを表示したりできます。<br>[顧客属性](attributes/attributes.md)では、企業顧客データを Experience Cloud にアップロードすることもできます。 |
+## ![Experience cloudヘルプ](assets/experience_cloud_appicon_32.png) Experience cloudおよびコアサービスヘルプ
 
-## 管理と有効化
+プロファイル、オーディエンス、顧客属性、Experience Cloud IDサービス、Adobe mobileなどに関するヘルプ。
+
+* [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
+* [オーディエンス](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
+* [Assets](experience-cloud-assets/experience-cloud-assets.md)
+* [顧客属性](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html)
+* [Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html)
+* [Dynamic Tag Management](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
+* [Exchange](https://experiencecloud.adobeexchange.com/)
+* [Experience Cloud ID サービス](https://docs.adobe.com/content/help/en/id-service/using/home.html)
+* [Experience Platform Launch](https://docs.adobelaunch.com/)
+* [Experience Cloud デバッガー](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/)
+* [Feed](feed.md)
+* [一般データ保護規則（GDPR）API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
+
+### 管理と有効化
+
+ユーザーと製品の管理：
 
 * [ユーザーおよび製品の管理](admin-getting-started/admin-getting-started.md)（Admin Console）
 * [コアサービス向けにソリューションを有効化](core-services/core-services.md)
 * [よくある質問](admin-getting-started/admin-getting-started.md)
 * [組織とアカウントのリンク](admin-getting-started/organizations.md)
-* [Experience Cloud ID サービス](https://marketing.adobe.com/resources/help/en_US/mcvid/)
 * [統合](marketing-cloud-integrations.md)
-* [Adobe Target と Experience Cloud の統合](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_integrating_target_with_mac.html)
+* [Adobe Target と Experience Cloud の統合](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
 * [Experience Cloud のプライバシーとセキュリティの概要](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [Adobe Experience cloudのプロファイル管理](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/) （ブログ）
 * [DNS プリフェッチ](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
-## リリースノート
+## ![Analyticsヘルプ](assets/mc_analytics_32.png) Analyticsヘルプ
 
-* [Experience Cloud の新機能](marketing-cloud-interface/marketing-cloud-interface.md#concept_9A4370BD59744928BDC9F87E978798B3)
-* [リリースノート - 修正点のまとめ](marketing-cloud-interface/release-notes.md#concept_F5C9FF69A5B44395BB5FA0552F4E9175)
+Web解析、マーケティングおよびクロスチャネル分析、アトリビューションおよび予測分析：
 
-## コミュニティリソースとブログ
+* [Analytics ヘルプホーム](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
+* [ツール](https://docs.adobe.com/content/help/en/analytics/analyze/home.html)
+* [Admin](https://docs.adobe.com/content/help/en/analytics/admin/home.html)
+* [実装](https://docs.adobe.com/content/help/en/analytics/implementation/home.html)
+* [コンポーネント](https://docs.adobe.com/content/help/en/analytics/components/home.html)
+* [エクスポート](https://docs.adobe.com/content/help/en/analytics/export/home.html)
+* [インポート](https://docs.adobe.com/content/help/en/analytics/import/home.html)
+* [統合](https://docs.adobe.com/content/help/en/analytics/integration/home.html)
+* [Media Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
+* [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)
 
-* [Experience Cloud のラーニングとサポート](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [サポートへのお問い合わせ](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Experience Cloud コミュニティ](https://forums.adobe.com/community/experience-cloud)
-* [アドビトレーニングおよびチュートリアル](https://helpx.adobe.com/learning.html?promoid=KAUDK)
-* [Adobe Customer Experience Blog](https://theblog.adobe.com/customer-experience/) （ブログ）
-* [コアサービスの概要](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/)（ブログ）
+## ![Audience Managerヘルプ](assets/mc_audiencemanager_32.png) Audience Managerヘルプ
+
+データ管理プラットフォーム，オーディエンスのセグメント化，オーディエンスのインサイト，リアルタイムアクション：
+
+* [Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)
+
+## ![Target Help](assets/mc_target_32.png) targetヘルプ
+
+A/Bと多変量分析テスト、オムニチャネルのパーソナライゼーション、AIによる自動化と拡張：
+
+* [Targetのリリースノート](https://docs.adobe.com/content/help/en/target/using/release-notes/release-notes.html)
+* [Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)
+
+## ![Experience Managerヘルプ](assets/mc_experiencemanager_32.png) Experience Managerヘルプ
+
+コンテンツ管理システム、デジタルアセット管理、デジタル登録とフォーム、マネージドサービス：
+
+* [Experience Managerラーニングとサポート](https://helpx.adobe.com/support/experience-manager.html)
+
+## ![Campaign Help](assets/mc_campaign_32.png) Campaignヘルプ
+
+電子メールマーケティング、顧客ジャーニー、オムニチャネルマーケティング：
+
+* Campaign Standard：[ドキュメント](https://helpx.adobe.com/support/campaign/standard.html) - [リリースノート](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [ハウツービデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
+* Campaign Classic：[ドキュメント](https://helpx.adobe.com/support/campaign/classic.html) - [リリースノート](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [ハウツービデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+
+## ![Advertising cloudヘルプ](assets/advertisingcloud_appicon_32.png) Advertising cloudヘルプ
+
+デマンドサイドプラットフォーム、検索マーケティング管理、テレビ広告、クリエイティブ管理。
+
+Advertising Cloud のヘルプは、ページの上部にある&#x200B;**ヘルプ**&#x200B;アイコン（?）をクリックすることで、製品内で利用できます。
+
+## ![Primetimeヘルプ](assets/primetime_app_32.png) Primetimeヘルプ
+
+* [Primetimeヘルプ](http://help.adobe.com/en_US/primetime/)
