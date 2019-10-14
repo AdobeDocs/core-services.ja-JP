@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: よくある質問、制限事項、ベストプラクティス
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 08c2caa1e0e5ca5c487294e9ce33600dde9c9a1e
+source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
 
 ---
 
@@ -54,8 +54,8 @@ Analytics と Target の顧客属性に関してよくある質問とベスト�
    <td colname="col1"> <p> 使用できる顧客属性はいくつありますか。 </p> </td> 
    <td colname="col2"> <p>数百の <span class="filepath">.csv</span> 列を顧客属性サービスにアップロードできます。ただし、サブスクリプションを設定して属性を選択する場合、所有するソリューションに応じて、次の制限が適用されます。 </p> <p> 
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
-      <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b>：合計 3 件 </li> 
-      <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b>：レポートスイートあたり 200 件 </li> 
+      <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard：</b>合計 3 件 </li> 
+      <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium：</b>レポートスイートあたり 200 件 </li> 
       <li id="li_8C891FE3D1EF49FA9F81E2E32CD0B9CA"> <b>Target Standard：</b>5 件 </li> 
       <li id="li_2B66D43023F34EA685CE2C38A9250CEA"> <b>Target Premium：</b>200 件 </li> 
      </ul> </p> </td> 
@@ -86,7 +86,7 @@ Analytics と Target の顧客属性に関してよくある質問とベスト�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>（Target のみ）</b>顧客属性機能と Target の一括プロファイル API にはどのような違いがありますか。 </p> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/test-target/r-profile-update" format="https" scope="external">一括プロファイル API</a> を使用すると、API を介して、Target プロファイルを個別または一括で直接更新できます。この機能は顧客属性に似ていますが、次のような大きな違いもあります。 </p> 
+   <td colname="col2"> <p> <a href="https://www.adobe.io/apis/experiencecloud/target.html" format="https" scope="external">一括プロファイル API</a> を使用すると、API を介して、Target プロファイルを個別または一括で直接更新できます。この機能は顧客属性に似ていますが、次のような大きな違いもあります。 </p> 
     <ul id="ul_5AAA4A8497C04F50A8AAA9F776BB868E"> 
      <li id="li_B20AEA397F3B4C86A1140CDA61ABD575">プロファイル API は REST API 呼び出しで、顧客属性は FTP を使用します。 </li> 
      <li id="li_7FBE428EF5D34B6AA09B6368E8210344">Target のプロファイル API は、Experience Cloud 全体ではなく、Target に対してのみデータを送信します。 </li> 
@@ -95,7 +95,7 @@ Analytics と Target の顧客属性に関してよくある質問とベスト�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>（Target のみ）</b>顧客属性から Adobe Target にデータをアップロードすると、Target の訪問者プロファイルの有効期間が延びますか。 </p> </td> 
-   <td colname="col2"> <p>はい。Adobe Target ヘルプの<a href="https://marketing.adobe.com/resources/help/en_US/target/ov/?f=c_visitor_profile_lifetime" format="https" scope="external">訪問者プロファイルの有効期間</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>はい。Adobe Target ヘルプの<a href="https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/visitor-profile.html" format="https" scope="external">訪問者プロファイルの有効期間</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>（Target のみ）</b>訪問者が顧客 ID によって特定された後すぐ、顧客属性にアップロードされたデータをターゲットにできますか。 </p> </td> 
