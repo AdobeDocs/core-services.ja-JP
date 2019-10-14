@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Experience Cloud フォルダーおよびアセットの Creative Cloud との共有
 uuid: 2bb002a6-e08e-402b-8df0-ecb21ab74490
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -28,14 +28,6 @@ Creative Cloud のユーザーがアセットにアクセスするには、事�
 
 ## Adobe Target とのアセットの共有について {#section_B7CD64CAB35D43A4B12957B304072DC9}
 
-[!DNL Adobe Target] でアクティビティを作成すると、コンテンツライブラリ内の画像の指定時に共有画像アセットを使用できるようになります。
+When creating activities in [!DNL Adobe Target], you can use a shared image asset when swapping images in the [!UICONTROL Offers Library].
 
-[ ヘルプの](https://marketing.adobe.com/resources/help/en_US/target/target/?f=c_manage_content)コンテンツライブラリ[!DNL Target]を参照してください。
-
-## Adobe Social とのアセットの共有について {#section_96BFBB9FF3074B2AB49A9B7932DB25EF}
-
-[!DNL Adobe Social] では、[!UICONTROL 投稿]時に[!UICONTROL アセットセレクター]を使用して共有画像アセットを挿入できます。フォルダーを検索したり、そのフォルダーを参照したり、Facebook や Twitter の投稿にアセットを添付したりできます。
-
-[ ヘルプの](https://marketing.adobe.com/resources/help/en_US/social/?f=c_pub_publisher)投稿ページ[!DNL Social]を参照してください。
-
-共有フォルダーとアセットはクラウド間で自動的に同期されます。
+詳しくは、 [ヘルプのオファー](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) ライブラリを参照 [!DNL Target] してください。
