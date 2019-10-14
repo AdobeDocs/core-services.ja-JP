@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Experience Cloud アセットフォルダーの共有
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -49,8 +49,8 @@ Creative Cloud ユーザーと Experience Cloud アセットフォルダーを�
 
 Creative Cloud ユーザーをすべて削除すると、そのフォルダーの共有が解除され、Creative Cloud ユーザーがアクセスできなくなります。共有アセットを使用するその他の方法には、以下のものがあります。
 
-* ソーシャル投稿の場合、[!UICONTROL  の]セットセレクター[!DNL Adobe Social]でアセットを使用する。[投稿者ページ](https://marketing.adobe.com/resources/help/en_US/social/?f=c_pub_publisher)を参照してください。
-* アクティビティの画像の場合、[ の](https://marketing.adobe.com/resources/help/en_US/target/target/?f=c_manage_content)コンテンツライブラリ[!DNL Adobe Target]でアセットをロードまたはスワップする。
+* ソーシャル投稿の場合、[!UICONTROL  の]セットセレクター[!DNL Adobe Social]でアセットを使用する。
+* Load or swap assets in the [Offers Library](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) in [!DNL Adobe Target] for images in activities.
 
 Creative Cloud にフォルダーを共有すると、フォルダー上に Creative Cloud のロゴが表示されます。
 
