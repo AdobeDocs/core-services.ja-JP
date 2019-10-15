@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Experience Cloud とコアサービスのヘルプ
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: bc0c6b6b4a4f3ed5ddc3d6020ac1afb6828a73d5
 
 ---
 
@@ -17,8 +17,6 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 このページでは、Adobe Experience cloudのソリューションおよびサービスに関するセルフヘルプ、サポート、技術および製品ドキュメントを提供します。 Experience Cloud には、アドビが提供するデジタルマーケティングソリューションおよびサービスが統合されています。Experience Cloud は、クラウドソリューションやコアサービスにすばやくアクセスできる直感的なインターフェイスでもあります。
 
 ## リリースノートとコミュニティリソース
-
-リリースノート、ビデオ、コミュニティフォーラムおよびサポート：
 
 * [Experience cloudリリースノート](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) — すべての製品
 * [Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) — 購読して、毎月リリースノートを受け取る)
@@ -32,8 +30,6 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 * [コアサービスの概要](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/)（ブログ）
 
 ## ![Experience cloudヘルプ](assets/experience_cloud_appicon_32.png) Experience cloudおよびコアサービスヘルプ
-
-プロファイル、オーディエンス、顧客属性、Experience Cloud IDサービス、Adobe mobileなどに関するヘルプ。
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * [オーディエンス](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
@@ -50,8 +46,6 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ### 管理と有効化
 
-ユーザーと製品の管理：
-
 * [ユーザーおよび製品の管理](admin-getting-started/admin-getting-started.md)（Admin Console）
 * [コアサービス向けにソリューションを有効化](core-services/core-services.md)
 * [よくある質問](admin-getting-started/admin-getting-started.md)
@@ -63,8 +57,6 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 * [DNS プリフェッチ](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
 ## ![Analyticsヘルプ](assets/mc_analytics_32.png) Analyticsヘルプ
-
-Web解析、マーケティングおよびクロスチャネル分析、アトリビューションおよび予測分析：
 
 * [Analytics ヘルプホーム](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
 * [ツール](https://docs.adobe.com/content/help/en/analytics/analyze/home.html)
@@ -79,33 +71,23 @@ Web解析、マーケティングおよびクロスチャネル分析、アト�
 
 ## ![Audience Managerヘルプ](assets/mc_audiencemanager_32.png) Audience Managerヘルプ
 
-データ管理プラットフォーム，オーディエンスのセグメント化，オーディエンスのインサイト，リアルタイムアクション：
-
 * [Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)
 
 ## ![Target Help](assets/mc_target_32.png) targetヘルプ
-
-A/Bと多変量分析テスト、オムニチャネルのパーソナライゼーション、AIによる自動化と拡張：
 
 * [Targetのリリースノート](https://docs.adobe.com/content/help/en/target/using/release-notes/release-notes.html)
 * [Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)
 
 ## ![Experience Managerヘルプ](assets/mc_experiencemanager_32.png) Experience Managerヘルプ
 
-コンテンツ管理システム、デジタルアセット管理、デジタル登録とフォーム、マネージドサービス：
-
 * [Experience Managerラーニングとサポート](https://helpx.adobe.com/support/experience-manager.html)
 
 ## ![Campaign Help](assets/mc_campaign_32.png) Campaignヘルプ
-
-電子メールマーケティング、顧客ジャーニー、オムニチャネルマーケティング：
 
 * Campaign Standard：[ドキュメント](https://helpx.adobe.com/support/campaign/standard.html) - [リリースノート](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [ハウツービデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
 * Campaign Classic：[ドキュメント](https://helpx.adobe.com/support/campaign/classic.html) - [リリースノート](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [ハウツービデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 
 ## ![Advertising cloudヘルプ](assets/advertisingcloud_appicon_32.png) Advertising cloudヘルプ
-
-デマンドサイドプラットフォーム、検索マーケティング管理、テレビ広告、クリエイティブ管理。
 
 Advertising Cloud のヘルプは、ページの上部にある&#x200B;**ヘルプ**&#x200B;アイコン（?）をクリックすることで、製品内で利用できます。
 
