@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 用語
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 ---
 
@@ -35,4 +35,4 @@ Experience Cloud ユーザー向けの用語リファレンスと、これらの
 | 製品プロファイル | [製品およびプロファイルの管理](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)を参照してください。 | 製品またはサービスを利用する資格をユーザーに付与するには、そのユーザーを製品プロファイルに追加する必要があります。製品管理者は、購入されたプランに製品プロファイルを関連付けることによって製品プロファイルにライセンスを割り当てます。<br>ユーザーには複数の製品プロファイルを割り当てることができ、各プロファイルで異なるライセンスをユーザーに付与することができます。ユーザーの最終的な資格は、そのユーザーに割り当てられた各製品プロファイルで付与されているライセンスをすべて合わせたものとなります。 |
 | スケジュール | Adobe Story の一連のシーンや、ColdFusion でスケジュールされたタスクを指すことがあります。 | Experience Cloud では、スケジュールはキャンペーン、チャネルおよびアクティビティのアクティブ化の開始日（年、月、日）と終了日を指します。アクティビティのスケジュールは、分単位の精度があります。スケジュールを変更すると、カードが作成されます。<br> 以下に例を示します。<ul><li>キャンペーンスケジュール</li><li>チャネルスケジュール</li><li>アクティビティスケジュール</li></ul> |
 | 共有 | Creative Cloud では、ファイルを外部の様々なプラットフォーム（ソーシャル、コミュニティ、電子メールなど）にまたがって共有できます。 | Experience Cloud では、インターフェイス内部のボード内で、カードのみをアセットとして共有できます。共有は、サイトにログインしているユーザーのみが利用できます。 |
-| ソリューション | 特別な用法はありません。 | Experience Cloud では、Analytics、Social、Target などの製品を指します。<br>「Experience Cloud の新しいクラウド名について（solutions-core-services.md）」を参照してください。 |
+| ソリューション | 特別な用法はありません。 | Experience Cloud では、Analytics、Social、Target などの製品を指します。<br>Experience cloudの [新しいクラウド名についてを参照してください](solutions-core-services.md)。 |
