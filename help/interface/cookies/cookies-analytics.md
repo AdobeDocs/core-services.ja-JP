@@ -6,11 +6,8 @@ seo-title: Analytics の cookie
 solution: Experience Cloud,Analytics,Target,Social
 title: Analytics の cookie
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3cc39f5c19c444f23564ff7549d801e958995271
+source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 ---
 
@@ -36,7 +33,7 @@ Adobe Analytics では、異なるブラウザーからの要求を区別する�
 
 | 属性 | 説明 |
 |--- |--- |
-| 保存される情報 | Experience Cloud ID（ECID）または MID のコピーが含まれます。MID は、s_ecid=MCMID という構文に従うキーと値のペアとして保存されます。 | <ECID> |
+| 保存される情報 | Experience Cloud ID（ECID）または MID のコピーが含まれます。MID は、s_ecid=MCMID という構文に従うキーと値のペアとして保存されます。 | `<ECID>` |
 | 有効期限 | 2 年 |
 | 用途 | この cookie は、AMCV cookie がクライアントで設定された後に、お客様のドメインで設定されます。この cookie の目的は、ファーストパーティ状態の永続的 ID トラッキングを許可し、AMCV cookie の有効期限が切れた場合に参照 IDとして使用することです。詳しくは、こちらの AMCV cookie を参照してください。 |
 | 場所 | CNAME のお客様のみ。サードパーティのシナリオには適用されません。Cookie はお使いのドメインに保存され、同じドメインが CNAME および Analytics イメージリクエストで使用されます。 |
@@ -56,7 +53,7 @@ Adobe Analytics では、異なるブラウザーからの要求を区別する�
 
 | 属性 | 説明 |
 |--- |--- |
-| 保存される情報 | この cookie は、ClickMap 機能と Activity Map 機能が有効になっている場合に JavaScript によって設定され、読み取られます。ユーザーが直前にクリックしたリンクに関する情報が含まれています。 |
+| 保存される情報 | このcookieは、ClickMap機能またはActivity map機能が有効な場合に、JavaScriptコードによって設定され、読み取られます。ユーザーがクリックした前のリンクに関する情報が含まれます。 |
 | 有効期限 | この cookie はセッション cookie で、ブラウザーを閉じると有効期限が切れます。 |
 | 用途 | すべてのアカウントに対して 1 つの cookie のみ |
 | ロケーション | この cookie はページのドメインに保存されます。 |
@@ -69,7 +66,7 @@ Adobe Analytics では、異なるブラウザーからの要求を区別する�
 | 保存される情報 | 一意の訪問者 ID 日時スタンプ |
 | 有効期限 | 2 年 |
 | 用途 | この cookie は、 |
-| ロケーション | この cookie は、イメージリクエストのドメインに保存されます。そのドメインとは、サードパーティ cookie を使用していれば多くの場合は 2O7.net であり、ファーストパーティ cookie を使用していれば自社のドメインになります。 |
+| ロケーション | このcookieはイメージリクエストのドメイン（サードパーティcookieを使用している場合は通常、2o7.netまたはomtrdc.netの下の顧客固有のサブドメイン）に保存されます。また、ドメインでファーストパーティcookieを使用している場合も同様です。 |
 | サイズ | 44 バイト |
 
 >[!NOTE]
@@ -81,8 +78,8 @@ Adobe Analytics では、異なるブラウザーからの要求を区別する�
 | 属性 | 説明 |
 |--- |--- |
 | 保存される情報 | 予備として使用される一意の訪問者 ID 日時スタンプ |
-| 有効期限 | 5 年 |
-| 用途 | この cookie は、サードパーティ cookie が制限されていて標準の s_vi cookie を設定できない場合に、個別訪問者を特定するために使用します。ファーストパーティ cookie が使用される環境では使用しません。 |
+| 有効期限 | 2 年 |
+| 用途 | この cookie は、サードパーティ cookie が制限されていて標準の `s_vi` cookie を設定できない場合に使用します。ファーストパーティ cookie が使用される環境では使用しません。 |
 | ロケーション | この cookie はファーストパーティ cookie として会社のドメインに保存されます。 |
 | サイズ | 33 バイト |
 
@@ -98,7 +95,7 @@ Adobe Analytics では、異なるブラウザーからの要求を区別する�
 | s_cc (JavaScript) | × | × | 未設定 |
 | s_sq(JavaScript) | × | × | 未設定 |
 
-*注意：単一のCNAMEを使用して複数のドメインまたはプロパティで追跡する場合、SameSiteを「なし」に設定する必要があります。 Analytics cookieの設定の変更については、カスタマーケアにお問い合わせください。*
+>[!NOTE] 単一のCNAMEを使用して複数のドメインまたはプロパティで追跡する場合は、のSameSiteを「なし」に設定する必要がありま `s_vi`す。 Analytics cookieの設定の変更については、カスタマーケアにお問い合わせください。
 
 ## プラグインで設定される cookie {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
