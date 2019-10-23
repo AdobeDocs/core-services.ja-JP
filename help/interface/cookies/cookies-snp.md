@@ -6,11 +6,8 @@ seo-title: Search&Promote の cookie
 solution: Experience Cloud,Analytics,Target,Social
 title: Search&Promote の cookie
 uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 ---
 
@@ -53,7 +50,7 @@ Search&amp;Promote では、訪問者の検索意図を理解し、予測する�
    <td colname="col2"> <p>検索エンジンで、直近 n 回の検索時に入力された語句をユーザーに対して表示するために使用されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> 場所 </p> </td> 
+   <td colname="col1"> <p> ロケーション </p> </td> 
    <td colname="col2"> <p>ブラウザーによって異なります。ユーザーのブラウザーに設定されているデフォルトの場所に cookie が保存されます。 </p> </td> 
   </tr> 
   <tr> 
