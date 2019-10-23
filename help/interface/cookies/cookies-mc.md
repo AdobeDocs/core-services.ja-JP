@@ -6,11 +6,8 @@ seo-title: Experience Cloud の cookie
 solution: Experience Cloud,Analytics,Target,Social
 title: Experience Cloud の cookie
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
+source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 ---
 
@@ -77,7 +74,7 @@ The [Experience Platform ID Service](https://docs.adobe.com/content/help/en/id-s
    <td colname="col2"> <p> この cookie は、 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> 場所 </p> </td> 
+   <td colname="col1"> <p> ロケーション </p> </td> 
    <td colname="col2"> <p> この cookie は（イメージリクエストのドメインではなく）Web サイトのドメインに保存されます。 </p> </td> 
   </tr> 
   <tr> 
