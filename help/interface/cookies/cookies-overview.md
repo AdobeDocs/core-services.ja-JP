@@ -4,11 +4,8 @@ seo-description: Adobe Experience Cloud に含まれる多くのサービスで�
 seo-title: Experience Cloud で使用される cookie
 title: Experience Cloud で使用される cookie
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 ---
 
