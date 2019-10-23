@@ -8,7 +8,7 @@ title: ファーストパーティ cookie
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2bdc4b7287ccacfc4d968278b2c3ffdaeddfc105
+source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Managed Certificate Program を利用すると、ファーストパーテ�
 
 1. [ファーストパーティ cookie リクエストフォーム](/help/interface/cookies/assets/FPC_Request_Form.xlsx)に入力して、チケットを開き、Adobe Managed プログラムでファーストパーティ cookie の設定をカスタマーケアにリクエストします。例が記載されたフォーム内の各フィールドに記入します。
 
-1. CNAME レコードを作成します（以下の手順を参照）。チケットを受け取ったら、FPSSL スペシャリストは CNAME レコードのペアをお客様に提供する必要があります。これらのレコードは、アドビが代理で証明書を購入する前に、会社の DNS サーバーで設定される必要があります。CNAME は次のようになります。**セキュア** - 例えば、ホスト名 `smetrics.example.com` が`example.com.ssl.d1.omtrdc.net` を指します。**非セキュア** - 例えば、ホスト名 `metrics.example.com` が `example.com.d1.omtrdc.net` を指します。
+1. CNAME レコードを作成します（以下の手順を参照）。チケットを受け取ったら、カスタマーケア担当者からCNAMEレコードのペアが提供されます。 これらのレコードは、アドビが代理で証明書を購入する前に、会社の DNS サーバーで設定される必要があります。CNAME は次のようになります。**セキュア** - 例えば、ホスト名 `smetrics.example.com` が`example.com.ssl.d1.omtrdc.net` を指します。**非セキュア** - 例えば、ホスト名 `metrics.example.com` が `example.com.d1.omtrdc.net` を指します。
 
 1. これらの CNAME が設定されると、アドビは DigiCert と連携して証明書を購入し、アドビの実稼動サーバーにインストールします。既存の実装がある場合、既存の訪問者を維持するために、訪問者の移行を検討する必要があります。証明書がアドビの実稼動環境にプッシュされてライブになると、トラッキングサーバー変数を新しいホスト名に更新できます。つまり、サイトが安全（https）でない場合、`s.trackingServer` を更新します。サイトが安全（https）な場合、`s.trackingServer` と `s.trackingServerSecure` の両方の変数を更新します。
 
@@ -119,6 +119,6 @@ CNAME レコードが正しく設定されていないか、有効でない場�
 
 1. 長期にわたる実装からファーストパーティ cookie に移動する場合、または異なるファーストパーティ収集ホスト名に変更する場合、以前のドメインから新しいドメインに訪問者を移行することをお勧めします。
 
-See [Visitor Migration](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) in the Analytics Implementation Guide.
+Analytics導入ガ [イドの訪問者の移行](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) （英語のみ）を参照してください。
 
 コア JavaScript ファイルをアップロードすると、ファーストパーティ cookie によるデータ収集用の設定がすべておこなわれます。アップロード後の数時間は、Analytics レポートを監視し、通常どおりデータ収集がおこなわれているかを確認することをお勧めします。通常どおりおこなわれていない場合、上記のすべての手順が完了していることを確認し、組織のサポート対象ユーザーの中からカスタマーケアにお問い合わせください。
