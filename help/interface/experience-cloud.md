@@ -7,12 +7,14 @@ solution: Adobe Experience Cloud
 title: Experience Cloud とコアサービスのヘルプ
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 5acb6229c1263b81bdfd95c03df2179a5cd8a890
+source-git-commit: 9916e005e391e516bad282615a3e9be58f725909
 
 ---
 
 
 # Experience cloudおよびコアサービス製品ドキュメント
+
+![Experience Cloud](assets/banner.png)
 
 このページでは、Adobe Experience cloudのソリューションおよびサービスに関するセルフヘルプ、サポート、技術および製品ドキュメントを提供します。 Experience Cloud には、アドビが提供するデジタルマーケティングソリューションおよびサービスが統合されています。Experience Cloud は、クラウドソリューションやコアサービスにすばやくアクセスできる直感的なインターフェイスでもあります。
 
@@ -29,7 +31,7 @@ source-git-commit: 5acb6229c1263b81bdfd95c03df2179a5cd8a890
 * [Adobe Customer Experience Blog](https://theblog.adobe.com/customer-experience/) （ブログ）
 * [コアサービスの概要](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/)（ブログ）
 
-## ![Experience cloudヘルプ](assets/experience_cloud_appicon_32.png) Experience cloudおよびコアサービスヘルプ
+## Experience Cloud とコアサービスのヘルプ
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * [オーディエンス](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
@@ -44,7 +46,7 @@ source-git-commit: 5acb6229c1263b81bdfd95c03df2179a5cd8a890
 * [Feed](feed.md)
 * [一般データ保護規則（GDPR）API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 
-### 管理と有効化
+## 管理と有効化
 
 * [ユーザーおよび製品の管理](admin-getting-started/admin-getting-started.md)（Admin Console）
 * [コアサービス向けにソリューションを有効化](core-services/core-services.md)
@@ -55,42 +57,3 @@ source-git-commit: 5acb6229c1263b81bdfd95c03df2179a5cd8a890
 * [Experience Cloud のプライバシーとセキュリティの概要](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [Adobe Experience cloudのプロファイル管理](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/) （ブログ）
 * [DNS プリフェッチ](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
-
-## ![Analyticsヘルプ](assets/mc_analytics_32.png) Analyticsヘルプ
-
-* [Analytics ヘルプホーム](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
-* [ツール](https://docs.adobe.com/content/help/en/analytics/analyze/home.html)
-* [Admin](https://docs.adobe.com/content/help/en/analytics/admin/home.html)
-* [実装](https://docs.adobe.com/content/help/en/analytics/implementation/home.html)
-* [コンポーネント](https://docs.adobe.com/content/help/en/analytics/components/home.html)
-* [エクスポート](https://docs.adobe.com/content/help/en/analytics/export/home.html)
-* [インポート](https://docs.adobe.com/content/help/en/analytics/import/home.html)
-* [統合](https://docs.adobe.com/content/help/en/analytics/integration/home.html)
-* [Media Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
-* [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)
-
-## ![Audience Managerヘルプ](assets/mc_audiencemanager_32.png) Audience Managerヘルプ
-
-* [Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)
-
-## ![Target Help](assets/mc_target_32.png) targetヘルプ
-
-* [Target リリースノート](https://docs.adobe.com/content/help/en/target/using/release-notes/release-notes.html)
-* [Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)
-
-## ![Experience Managerヘルプ](assets/mc_experiencemanager_32.png) Experience Managerヘルプ
-
-* [Experience Manager のラーニングとサポート](https://helpx.adobe.com/support/experience-manager.html)
-
-## ![Campaign Help](assets/mc_campaign_32.png) Campaignヘルプ
-
-* Campaign Standard：[ドキュメント](https://helpx.adobe.com/support/campaign/standard.html) - [リリースノート](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [ハウツービデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
-* Campaign Classic：[ドキュメント](https://helpx.adobe.com/support/campaign/classic.html) - [リリースノート](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [ハウツービデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
-
-## ![Advertising cloudヘルプ](assets/advertisingcloud_appicon_32.png) Advertising cloudヘルプ
-
-Advertising Cloud のヘルプは、ページの上部にある&#x200B;**ヘルプ**&#x200B;アイコン（?）をクリックすることで、製品内で利用できます。
-
-## ![Primetimeヘルプ](assets/primetime_app_32.png) Primetimeヘルプ
-
-* [Primetime ヘルプ](http://help.adobe.com/en_US/primetime/)
