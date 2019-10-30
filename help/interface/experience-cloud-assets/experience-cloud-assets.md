@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Assets
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 4eb9f90cf44eb5cc9c6d3898a32c5415f82b8030
 
 ---
 
@@ -76,6 +76,8 @@ Experience Cloud Assets は、ソリューション全体で共有できるマ�
 ![](assets/assets-annotate.png)
 
 ## アセットをフィードと共有する {#section_2CD53A99600D4A3D9AA82C3CDA666E6B}
+
+**Experience cloudフィードは、2019年11月1日からサポートされなくなり、2019年12月までに廃止されます。**
 
 ツールバーから「**[!UICONTROL 共有]**」をクリックして、アセットを[フィード](../feed.md#concept_9256B8768A294009A777282DD8719213)形式で他の Experience Cloud ユーザーと共有します。
 
