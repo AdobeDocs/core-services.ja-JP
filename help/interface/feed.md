@@ -7,12 +7,14 @@ solution: Experience Cloud
 title: Feed
 uuid: 7ff327d1-5a74-49fb-8c3c-729034818ebc
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: d39758702a37d16d6c4aeeb4f21863dcbc175523
 
 ---
 
 
 # Feed
+
+**Experience cloudフィードは、2019年11月1日からサポートされなくなり、2019年12月までに廃止されます。**
 
 Experience Cloud Feed を使用してアセットや Analytics レポートを共有または直接投稿する方法を説明します。
 
@@ -31,6 +33,8 @@ Feed の設定には次のものが含まれます。
 * **お気に入り：**&#x200B;お気に入りとしてマークされている投稿を表示します。
 
 ## Analytics プロジェクトを Feed に共有 {#section_F2BDF9FEF4394686BAC5051CBE913EE5}
+
+**Experience cloudフィードは、2019年11月1日からサポートされなくなり、2019年12月までに廃止されます。**
 
 [!UICONTROL Reports &amp; Analytics] から Experience Cloud Feed にレポートを共有できます。
 
