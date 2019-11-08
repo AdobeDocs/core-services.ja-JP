@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Experience Cloud とコアサービスのヘルプ
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 9916e005e391e516bad282615a3e9be58f725909
+source-git-commit: 61261e280f08fafcaae2b14a2ab210c3786cb370
 
 ---
 
@@ -21,12 +21,12 @@ source-git-commit: 9916e005e391e516bad282615a3e9be58f725909
 ## リリースノートとコミュニティリソース
 
 * [Experience cloudリリースノート](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) — すべての製品
+* [ヘルプホーム — Experience cloudラーニングとサポート](https://helpx.adobe.com/support/experience-cloud.html)
 * [Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) — 購読して、毎月リリースノートを受け取る)
 * [アドビのビデオ学習](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)
 * [Adobe Experience League](https://landing.adobe.com/experience-league/) — ガイド付き学習
 * [カスタマーケアにお問い合わせください](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [コミュニティフォーラム](https://forums.adobe.com/community/experience-cloud)
-* [Experience Cloud のラーニングとサポート](https://helpx.adobe.com/support/experience-cloud.html)
 * [アドビトレーニングおよびチュートリアル](https://helpx.adobe.com/learning.html?promoid=KAUDK)
 * [Adobe Customer Experience Blog](https://theblog.adobe.com/customer-experience/) （ブログ）
 * [コアサービスの概要](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/)（ブログ）
