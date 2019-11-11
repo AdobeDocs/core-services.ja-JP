@@ -8,7 +8,7 @@ title: ファーストパーティ cookie
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: 90123ac9194d180a6a8ae59a273a6a6154ea8d96
 
 ---
 
@@ -70,9 +70,9 @@ SSL 証明書は毎年期限が切れます。つまり、アドビは毎年、�
 FPC スペシャリストから、設定されたホスト名とホスト名で指定する必要のある CNAME が提供されます。以下に例を示します。
 
 * **SSL ホスト名**：`smetrics.mysite.com`
-* **SSL CNAME**:`mysite.com.ssl.d1.sc.omtrdc.net`
+* **SSL CNAME**:`mysite.com.ssl.sc.omtrdc.net`
 * **非 SSL ホスト名**：`metrics.mysite.com`
-* **非 SSL CNAME**：`mysite.com.d1.sc.omtrdc.net`
+* **非 SSL CNAME**：`mysite.com.sc.omtrdc.net`
 
 実装コードが変更されない限り、この手順がデータ収集に影響を及ぼすことはなく、実装コードの更新後はいつでもおこなうことができます。
 
