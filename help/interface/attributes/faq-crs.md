@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: よくある質問、制限事項、ベストプラクティス
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
+source-git-commit: b8363f024a09e07d26f6c0d0255e2675f7ef1a9a
 
 ---
 
@@ -52,13 +52,17 @@ Analytics と Target の顧客属性に関してよくある質問とベスト�
   </tr> 
   <tr> 
    <td colname="col1"> <p> 使用できる顧客属性はいくつありますか。 </p> </td> 
-   <td colname="col2"> <p>数百の <span class="filepath">.csv</span> 列を顧客属性サービスにアップロードできます。ただし、サブスクリプションを設定して属性を選択する場合、所有するソリューションに応じて、次の制限が適用されます。 </p> <p> 
-     <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
-      <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard：</b>合計 3 件 </li> 
-      <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium：</b>レポートスイートあたり 200 件 </li> 
-      <li id="li_8C891FE3D1EF49FA9F81E2E32CD0B9CA"> <b>Target Standard：</b>5 件 </li> 
-      <li id="li_2B66D43023F34EA685CE2C38A9250CEA"> <b>Target Premium：</b>200 件 </li> 
-     </ul> </p> </td> 
+   <td colname="col2"> <p>数百の <span class="filepath">.csv</span> 列を顧客属性サービスにアップロードできます。ただし、購読を設定して属性を選択する場合は、所有するソリューションに応じて、次の制限が（レポートスイートごとに）適用されます。</p> <p> 
+     <ul>
+     <li>Foundation：0 件</li>
+     <li>Select：3 件</li>
+     <li>Prime：15 件</li>
+     <li>Ultimate：200 件</li>
+     <li>Standard：合計 3 件</li>
+     <li>プレミアム：200</li>
+     <li>Target Standard：5 件</li>
+     <li>Target Premium：200 件</li></ul>
+     </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud ID サービスへの移行は必須ですか。 </p> </td> 
@@ -103,4 +107,3 @@ Analytics と Target の顧客属性に関してよくある質問とベスト�
   </tr> 
  </tbody> 
 </table>
-
