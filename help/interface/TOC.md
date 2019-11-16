@@ -1,10 +1,10 @@
 ---
 audience: end-user
-user-guide-title: コアサービスユーザーガイド
-user-guide-url: https://www.adobe.com/jp
+user-guide-title: Core Services User Guide
+user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: bc0c6b6b4a4f3ed5ddc3d6020ac1afb6828a73d5
+source-git-commit: f9839c39c52bc10ab641df094dc444b642986974
 
 ---
 
@@ -19,8 +19,8 @@ source-git-commit: bc0c6b6b4a4f3ed5ddc3d6020ac1afb6828a73d5
    + [Experience Cloud の新しいクラウド名について](solutions-core-services.md)
 + [Experience Cloud の統合](marketing-cloud-integrations.md)
 + Experience Cloud の cookie {#ec-cookies}
-   + [cookie の概要](cookies/cookies-privacy.md)
-   + [ファーストパーティ cookie](cookies/cookies-first-party.md)
+   + [Experience Cloud cookieの概要](cookies/cookies-privacy.md)
+   + [Experience cloudのファーストパーティcookie](cookies/cookies-first-party.md)
    + [Analytics の cookie](cookies/cookies-analytics.md)
    + [Audience Manager の cookie](cookies/cookies-am.md)
    + [Data Connectors の cookie](cookies/cookies-dc.md)
@@ -32,20 +32,20 @@ source-git-commit: bc0c6b6b4a4f3ed5ddc3d6020ac1afb6828a73d5
    + [Target の cookie](cookies/cookies-target.md)
    + [ブラウザー cookie のプライバシー設定の有効化](cookies/browser-cookie-settings.md)
    + [サードパーティ cookie のサポートに対する変更がお客様に及ぼす影響](cookies/cookies-thirdparty.md)
-+ ユーザーと製品を管理する {#manage-users-and-products}
++ ユーザーおよび製品の管理 {#manage-users-and-products}
    + [Experience Cloud ユーザーと製品の管理](admin-getting-started/admin-getting-started.md)
    + [よくある質問](admin-getting-started/faq.md)
    + [ログインとプロファイル設定の管理](admin-getting-started/getting-started-experience-cloud.md)
    + [組織とアカウントのリンク](admin-getting-started/organizations.md)
    + [Analytics Premium および Experience Cloud へのアップグレード](admin-getting-started/upgrade-to-analytics-premium.md)
    + [コンテンツの埋め込み](admin-getting-started/oembed.md)
-+ Activation {#activation}
++ Experience Cloud Activation {#activation}
    + [Activation の概要](activation/activation.md)
-   + [ユーザーガイドの起動](https://docs.adobe.com/content/help/en/launch/using/overview.html)
-   + [DTMユーザーガイド](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
+   + [Launch ユーザーガイド](https://docs.adobe.com/content/help/en/launch/using/overview.html)
+   + [Dynamic Tag Managerユーザーガイド](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
-+ Assets {#assets}
-   + [Assets の概要](experience-cloud-assets/experience-cloud-assets.md)
++ Experience Cloud assets {#assets}
+   + [Experience cloudアセットの概要](experience-cloud-assets/experience-cloud-assets.md)
    + [Experience Cloud フォルダーおよびアセットの Creative Cloud との共有](experience-cloud-assets/creative-cloud.md)
    + [Creative Cloud ユーザーの管理](experience-cloud-assets/t-admin-add-cc-user.md)
    + [Experience Cloud アセットフォルダーの共有](experience-cloud-assets/t-share-creative-cloud.md)
@@ -54,11 +54,11 @@ source-git-commit: bc0c6b6b4a4f3ed5ddc3d6020ac1afb6828a73d5
    + [共有フォルダーの同期の無効化](experience-cloud-assets/t-disable-asset-sync.md)
    + [アセットファイルを共有するための要件](experience-cloud-assets/assets-file-reqs.md)
    + [共有フォルダーの動作](experience-cloud-assets/asset-behavior.md)
-+ オーディエンス {#audiences}
++ Experience cloudのオーディエンス {#audiences}
    + [オーディエンスの概要](audience-library/audience-library.md)
    + [オーディエンスの作成](audience-library/t-audience-create.md)
    + [Analytics オーディエンスセグメントの公開](audience-library/t-publish-audience-segment.md)
-+ 顧客属性 {#customer-attributes}
++ Experience cloudの顧客属性 {#customer-attributes}
    + [顧客属性の概要](attributes/attributes.md)
    + [よくある質問、制限事項、ベストプラクティス](attributes/faq-crs.md)
    + [顧客属性のデータファイルおよびデータソースについて](attributes/crs-data-file.md)
@@ -68,11 +68,11 @@ source-git-commit: bc0c6b6b4a4f3ed5ddc3d6020ac1afb6828a73d5
    + [サブスクリプションの設定](attributes/subscription.md)
    + [スキーマの更新](attributes/t-update-schema.md)
    + [プライバシーに関する配慮 - 顧客属性](attributes/privacy-mac.md)
-+ リリースノート {#release-notes}
++ Experience cloudのリリースノート {#release-notes}
    + [Experience Cloud の新機能](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
    + [累積リリースノート](marketing-cloud-interface/release-notes.md)
 + [Exchange Marketplace](exchange.md)
-+ [Feed](feed.md)
++ [Experience cloudフィード](feed.md)
 + [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 + その他のリソース {#more-resources}
    + [フォーラム](https://forums.adobe.com/community/experience-cloud)
