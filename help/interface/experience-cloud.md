@@ -1,38 +1,36 @@
 ---
 description: Adobe Experience cloudのセルフヘルプ、製品ドキュメントおよび技術ドキュメント。 Experience Cloud には、アドビが提供するデジタルマーケティングソリューションおよびサービスが統合されています。
-keywords: コアサービス
+keywords: core services
 seo-description: このページでは、Experience cloudのセルフヘルプ、製品ドキュメント、および技術ドキュメントを提供します。
 seo-title: Adobe Experience cloudおよびコアサービスのヘルプと製品ドキュメント。
 solution: Adobe Experience Cloud
 title: Experience Cloud とコアサービスのヘルプ
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 61261e280f08fafcaae2b14a2ab210c3786cb370
+source-git-commit: 57709e5ab93c55dd62b568d77ce2be31f35b920d
 
 ---
 
 
-# Experience cloudおよびコアサービス製品ドキュメント
+# Experience Cloud およびコアサービス製品ドキュメント
 
 ![Experience Cloud](assets/banner.png)
 
 このページでは、Adobe Experience cloudのソリューションおよびサービスに関するセルフヘルプ、サポート、技術および製品ドキュメントを提供します。 Experience Cloud には、アドビが提供するデジタルマーケティングソリューションおよびサービスが統合されています。Experience Cloud は、クラウドソリューションやコアサービスにすばやくアクセスできる直感的なインターフェイスでもあります。
 
-## リリースノートとコミュニティリソース
+## 何を学びたいの？
 
-* [Experience cloudリリースノート](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) — すべての製品
-* [ヘルプホーム — Experience cloudラーニングとサポート](https://helpx.adobe.com/support/experience-cloud.html)
-* [Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) — 購読して、毎月リリースノートを受け取る)
-* [アドビのビデオ学習](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)
-* [Adobe Experience League](https://landing.adobe.com/experience-league/) — ガイド付き学習
-* [カスタマーケアにお問い合わせください](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [コミュニティフォーラム](https://forums.adobe.com/community/experience-cloud)
-* [アドビトレーニングおよびチュートリアル](https://helpx.adobe.com/learning.html?promoid=KAUDK)
-* [Adobe Customer Experience Blog](https://theblog.adobe.com/customer-experience/) （ブログ）
+* [リリースノートと製品のアップデート](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) - Experience cloudの新機能および購読してアップデートを入手
+* [コアサービスの実装に関するチュートリアル](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) — コアサービスに関するビデオとチュートリアルの参照
+* [Experience Leagueのエキスパートヘルプ](https://landing.adobe.com/experience-league/) — エキスパートやコミュニティからガイド付きの学習を受ける
+* [教育機関とトレーニング](https://helpx.adobe.com/learning.html?promoid=KAUDK) — アドビの製品を最大限に活用するためにアドビと連携
+* [Customer Experience Blog](https://theblog.adobe.com/customer-experience/) - Experience cloudブログを読む
+* [すべての製品のヘルプ](https://helpx.adobe.com/support/experience-cloud.html) - Experience cloudラーニングとサポートでヘルプを参照
+* [カスタマーケア](https://helpx.adobe.com/contact/enterprise-support.ec.html) — アドビカスタマーケアへのお問い合わせ
+
+## コアサービス製品ドキュメント
+
 * [コアサービスの概要](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/)（ブログ）
-
-## Experience Cloud とコアサービスのヘルプ
-
 * [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * [オーディエンス](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
 * [Assets](experience-cloud-assets/experience-cloud-assets.md)
