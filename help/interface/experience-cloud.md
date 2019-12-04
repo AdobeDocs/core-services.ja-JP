@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Experience Cloud とコアサービスのヘルプ
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 57709e5ab93c55dd62b568d77ce2be31f35b920d
+source-git-commit: 23a181998da438d775233235300845febf9c22c6
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 57709e5ab93c55dd62b568d77ce2be31f35b920d
 * [Experience Leagueのエキスパートヘルプ](https://landing.adobe.com/experience-league/) — エキスパートやコミュニティからガイド付きの学習を受ける
 * [教育機関とトレーニング](https://helpx.adobe.com/learning.html?promoid=KAUDK) — アドビの製品を最大限に活用するためにアドビと連携
 * [Customer Experience Blog](https://theblog.adobe.com/customer-experience/) - Experience cloudブログを読む
-* [すべての製品のヘルプ](https://helpx.adobe.com/support/experience-cloud.html) - Experience cloudラーニングとサポートでヘルプを参照
+* [すべてのExperience cloudソリューションの製品ドキュメント](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html) - Experience cloudラーニングとサポートでヘルプを参照
 * [カスタマーケア](https://helpx.adobe.com/contact/enterprise-support.ec.html) — アドビカスタマーケアへのお問い合わせ
 
 ## コアサービス製品ドキュメント
