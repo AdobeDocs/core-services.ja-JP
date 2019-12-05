@@ -8,7 +8,7 @@ title: ファーストパーティ cookie
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9dcf5f0e5aad3e18448b72f39fb0c0af0c84d733
+source-git-commit: 3cb4d346d07e1625e95e3737230f03a02b45afb2
 
 ---
 
@@ -109,7 +109,7 @@ CNAME レコードが正しく設定されていないか、有効でない場�
 
 サイトのコードを編集してファーストパーティ cookie を使用できるようにする前に、次の前提条件を満たします。
 
-* SSL証明書を要求します。この手順は、 *Adobe Managed Certificate Programのクラスの実装の節で説* 明し *た手順に従って行います。*
+* SSL証明書を要求します。この手順は、 *Adobe Managed Certificate Programの* Implement（実装）の節で説明した手順に従っ [て行います](#adobe-managed-certificate-program)。
 * CNAME レコードを作成します（上記を参照）。
 * ホスト名に対してpingを実行します（上記を参照）。
 
