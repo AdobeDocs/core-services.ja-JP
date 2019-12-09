@@ -1,13 +1,13 @@
 ---
 description: ' Exchange Marketplace にアクセスすると、各種の連携ツールの検索、参照、選択、支払いおよびダウンロードをおこなえます。Data Connectors、アドビのコア製品のカスタム設定、サードパーティアプリケーション、レポートなどが含まれます。'
-keywords: コアサービス
+keywords: core services
 seo-description: ' Exchange Marketplace にアクセスすると、各種の連携ツールの検索、参照、選択、支払いおよびダウンロードをおこなえます。Data Connectors、アドビのコア製品のカスタム設定、サードパーティアプリケーション、レポートなどが含まれます。'
 seo-title: Exchange Marketplace
 solution: Experience Cloud
 title: Exchange Marketplace
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
 translation-type: tm+mt
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -35,4 +35,4 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 * カテゴリ、会社、タイプ、ユーザー、その他で検索およびフィルタリングします。
 
-詳しくは、[Experience Cloud Exchange](https://marketing.adobe.com/exchange) を参照してください。
+詳しくは、[Experience Cloud Exchange](https://exchange.adobe.com/experiencecloud.html) を参照してください。
