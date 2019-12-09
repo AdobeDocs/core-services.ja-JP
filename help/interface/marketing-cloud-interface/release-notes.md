@@ -1,13 +1,13 @@
 ---
 description: Experience Cloud インターフェイスの機能、リリースノートおよび既知の問題です。
-keywords: コアサービス
+keywords: core services
 seo-description: Experience Cloud インターフェイスの機能、リリースノートおよび既知の問題です。
 seo-title: 累積リリースノート
 solution: Experience Cloud
 title: 累積リリースノート
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: 75831abe44d04902691325add2338381754f98ec
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -18,7 +18,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 
 ドキュメントの更新のリストについては、[Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784) を参照してください。
 
-すべてのソリューションを対象とするリリースノートについては、[Experience Cloud リリースノート](https://marketing.adobe.com/resources/help/en_US/whatsnew/)を参照してください。
+すべてのソリューションを対象とするリリースノートについては、[Experience Cloud リリースノート](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)を参照してください。
 
 ## 2019 年 8 月
 
@@ -162,7 +162,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
    <td colname="col1"> <p> </p> </td> 
    <td colname="col2"> <p>左側のナビゲーションメニューが更新、整理され、すべてのコアサービスとソリューションにアクセスできるようになりました。重要な変更点を次に示します。 </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
-     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">「「<span class="term">オーディエンスライブラリ</span>」メニューと「<span class="term">顧客属性</span>」メニューの選択は、<span class="term">オーディエンス</span>の下に移動されました。 </li> 
+     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">Folio Builder「<span class="term">オーディエンスライブラリ</span>」メニューと「<span class="term">顧客属性</span>」メニューの選択は、<span class="term">オーディエンス</span>の下に移動されました。 </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4"><span class="term">Exchange</span> へのリンクは、ヘルプドロップダウンメニューから左側のナビゲーションパネルに移動されました。 </li> 
      <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term">ソリューション</span>は削除されました。ナビゲーションパネルの下側から、すべてのソリューションを起動できます。 </li> 
     </ul> </td> 
@@ -171,7 +171,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 </table>
 
 * 一部の顧客の顧客属性を同期できなかった問題を修正しました。
-* [Adobe Target 製品ドキュメント](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/)ページが日本語で表示されなかった問題を修正しました。
+* [Adobe Target 製品ドキュメント](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)ページが日本語で表示されなかった問題を修正しました。
 * [!DNL Creative Cloud] と [!DNL Experience Cloud] の間のコメントで日本語のテキストが使用できなかった問題を修正しました。
 
 ## リリース 15.4.1 - 2015 年 4 月 9 日 {#section_75634120CC934B3381EDEA7F6F976F0A}
@@ -355,7 +355,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 
 **修正点および改善点**
 
-* [!DNL marketing.adobe.com] に移動した場合のログイン操作が、アドビの Creative Cloud ログインと一致するようになりました。
+* [!DNL experiencecloud.adobe.com] に移動した場合のログイン操作が、アドビの Creative Cloud ログインと一致するようになりました。
 * 組織を管理ページ上のリンク操作（招待を受け取った後）が各ソリューションで共通になりました。
 
 **既知の問題**
