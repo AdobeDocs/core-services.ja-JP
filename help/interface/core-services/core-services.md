@@ -1,13 +1,13 @@
 ---
 description: Experience Cloud を実装して管理者になります。このプロセスでは、顧客属性やオーディエンスなどのコアサービス機能向けにソリューションを最新化します。
-keywords: コアサービス;顧客属性
+keywords: core services;customer attributes
 seo-description: Experience Cloud を実装して管理者になります。このプロセスでは、顧客属性やオーディエンスなどのコアサービス機能向けにソリューションを最新化します。
 seo-title: コアサービス向けに Experience Cloud ソリューションを有効化
 solution: Experience Cloud
 title: コアサービス向けにソリューションを有効化
 uuid: 5820060f-9b18-4339-81e0-401d964f7a03
 translation-type: tm+mt
-source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -32,7 +32,7 @@ Experience Cloud に加入するために必要なことを次に示します。
 
 >[!NOTE]
 >
->For Target, [migrate to at.js from mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov2/t_target-migrate-atjs.html).
+>For Target, [migrate to at.js from mbox.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html).
 
 ![](assets/step2_icon.png)実装を最新化して管理者のプロビジョニングをおこなう。
 
@@ -116,11 +116,11 @@ Target では、[!DNL mbox3rdpartyid] として顧客 ID を取得し、それ�
 
 この顧客 ID を、顧客 ID が認識される個々の [!DNL Analytics] サーバー呼び出しに対して設定する必要があります。
 
-**モバイル SDK**
+### モバイル SDK
 
 *Android* / [iOS](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)[](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html) mobileアプリケーションで追加の顧客IDを設定する方法の構文例については、「Experience Cloud IDサービス」の節を参照してください。
 
-**履歴データの属性の有効化**
+### 履歴データの属性の有効化
 
 顧客属性データは、訪問者のログイン後に使用可能になります。まだ最新の Experience Cloud ID サービスを実装していない場合でも、顧客 ID を prop または eVar で履歴追跡していれば、Experience Cloud へのログイン履歴を送信するプロセスを要求できます。このプロセスを使用すると、顧客属性の使用をすぐに開始できます。
 
