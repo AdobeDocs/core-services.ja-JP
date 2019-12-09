@@ -1,13 +1,13 @@
 ---
 description: Admin Console へのログインと Experience Cloud ユーザーの権限および製品プロファイルの管理について説明します。
-keywords: コアサービス
+keywords: core services
 seo-description: Admin Console へのログインと Experience Cloud ユーザーの権限および製品プロファイルの管理について説明します。
 seo-title: Experience Cloud ユーザーと製品の管理
 solution: Marketing Cloud
 title: Experience Cloud ユーザーと製品の管理
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -39,7 +39,7 @@ Experience Cloud ユーザー管理の最新機能について説明します。
 
 Creative Cloud および Document Cloud の[管理ユーザーガイド](https://helpx.adobe.com/enterprise/using/users.html)。[ID タイプの管理](https://helpx.adobe.com/enterprise/help/identity.html)など、Experience Cloud のユーザー管理に関連する情報も含まれています。
 
-[ログインとプロファイル設定の管理](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0) - パスワード、組織、および通知の管理について説明します。
+[サインインとプロファイル設定の管理](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0) - パスワード、組織、および通知の管理について説明します。
 
 ## 製品プロファイルとグループ {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
@@ -63,18 +63,18 @@ Analytics 管理者がユーザーアカウントを Analytics User Management �
 
 アカウントの移行は、顧客ごとに段階的に実施しています。既存のユーザーアカウントを&#x200B;**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;から Admin Console へ移行する順番が来た顧客には、アドビから通知し、サポートを提供します。
 
-移行後、ユーザーはそれぞれの Adobe ID（または Enterprise ID）を使用してログインし、Experience Cloud ソリューションおよびサービスへ認証を [marketing.adobe.com](https://marketing.adobe.com) / でおこないます。従来のログイン（[!DNL my.omniture.com] および [!DNL sc.omniture.com]）でログインしようとしたユーザーは、[!DNL marketing.adobe.com] にリダイレクトされます。
+After the migration, users sign in using their Adobe ID (or Enterprise ID) and authenticate to their Experience Cloud solutions and services at [experiencecloud.adobe.com](https://experiencecloud.adobe.com). 従来のログイン（[!DNL my.omniture.com] および [!DNL sc.omniture.com]）でログインしようとしたユーザーは、[!DNL experiencecloud.adobe.com] にリダイレクトされます。
 
 **関連するヘルプ**
 
-[Analytics ユーザー ID の移行](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)
+[Analytics ユーザー ID の移行](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
 
 ## Target - 製品プロファイルとワークスペース {#section_3860AF177C9E4C7E9C390D36A414F353}
 
 Target では、ワークスペースが製品プロファイルになります。組織でワークスペースを使用すると、特定のユーザーセットを特定のプロパティセットに割り当てることができます。多くの点で、ワークスペースは Adobe Analytics のレポートスイートに似ています。
 
 以下を参照してください。
-* [Enterprise ユーザーの権限](https://marketing.adobe.com/resources/help/en_US/target/target/property_channel.html)
+* [Enterprise ユーザーの権限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
 * [製品およびプロファイルの管理](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
 * ビデオ：[Adobe Admin Console で Target ワークスペースを設定する方法](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
@@ -90,19 +90,19 @@ Campaign の&#x200B;*テナント*&#x200B;は、Admin Console の製品ページ
 
 Experience Platform Launch は、Admin Console の製品ページに表示されます。Launch 製品プロファイルには、他のソリューションやコアサービスを含めることができます。
 
-See [User Management](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/user-management.html) for information about user permissions in the Admin Console and set up Launch-specific options, including assigning rights to profiles.
+See [User Management](https://docs.adobelaunch.com/launch-reference/administration/user-permissions) for information about user permissions in the Admin Console and set up Launch-specific options, including assigning rights to profiles.
 
 ## Dynamic Tag Manager {#section_3A41CF2BD5994B9891537D063571D4ED}
 
 Dynamic Tag Management へのユーザー招待、ユーザーの役割の割り当て、グループへのユーザーの追加
 
-See [Users and Permissions](https://marketing.adobe.com/resources/help/en_US/dtm/users.html) for information about how to invite users to Dynamic Tag Management and assign user roles and add users to groups.
+See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html) for information about how to invite users to Dynamic Tag Management and assign user roles and add users to groups.
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
 Audience Manager ユーザーを作成し、グループに割り当てます。制限（特性、セグメント、リンク先、AlgoModel）を表示することもできます。
 
-Audience Managerヘル [プの管理](https://marketing.adobe.com/resources/help/en_US/aam/c_administration.html) （英語のみ）を参照してください。
+Audience Managerヘル [プの管理](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html) （英語のみ）を参照してください。
 
 ## Experience Cloud 製品の管理 {#task_16335111C52D40E9BAC73D0699584DBF}
 
@@ -118,7 +118,7 @@ Audience Managerヘル [プの管理](https://marketing.adobe.com/resources/help
 詳しくは、以下のヘルプ情報を参照してください。
 
 * [製品およびプロファイルの管理](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* Target ヘルプの [Enterprise ユーザーの権限](https://marketing.adobe.com/resources/help/en_US/target/target/property_channel.html)
+* Target ヘルプの [Enterprise ユーザーの権限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
 * ビデオ：[Adobe Admin Console で Target ワークスペースを設定する方法](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## 製品プロファイルへの Analytics アクセス権限の割り当て {#task_040673FE3E3E429B9531FBCB8B6A4391}
