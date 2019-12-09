@@ -5,7 +5,7 @@ seo-title: 組織へのレポートスイートのマッピング
 title: 組織へのレポートスイートのマッピング
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -19,7 +19,6 @@ Experience Cloud サービス（Experience Cloud ID サービスや People コ�
 * Experience Cloud 組織をレポートスイート用の主要組織として設定します。
 * レポートスイートにアクセスできるユーザーは変更されません（アクセスが可能かどうかは引き続き各ユーザーの Adobe Analytics ログインアカウントによって決定されます）。
 
-
 **要件**
 
 マッピングをおこなうには、マッピングしたいレポートスイートへのアクセス権を持つログイン会社の Analytics 管理者であることが必要です。また、このアカウントが [Experience Cloud 組織にリンクされている](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)ことが、その組織にレポートスイートをマッピングするうえで必須となります。
@@ -29,8 +28,6 @@ Experience Cloud サービス（Experience Cloud ID サービスや People コ�
 ## 組織へのレポートスイートのマッピング {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
 1. **[!UICONTROL Experience Cloud]**／**[!UICONTROL 管理]**／**[!UICONTROL レポートのスイートマッピング]**&#x200B;をクリックします。
-
-   [ダイレクト URL](https://audience.marketing.adobe.com/rsmapping/ui.html) を使用することもできます。
 
 1. 各レポートスイートにアクセスできるログイン会社を確認するには、「**[!UICONTROL 表示可能なログイン会社名]**」をクリックします。
 
@@ -43,8 +40,6 @@ Experience Cloud サービス（Experience Cloud ID サービスや People コ�
 ## 組織に複数のレポートスイートをマッピングする{#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
 1. **[!UICONTROL Experience Cloud]**／**[!UICONTROL 管理]**／**[!UICONTROL レポートのスイートマッピング]**&#x200B;をクリックします。
-
-   [ダイレクト URL](https://audience.marketing.adobe.com/rsmapping/ui.html) を使用することもできます。
 
 1. マッピングするレポートスイートを選択します。
 
@@ -62,7 +57,7 @@ Experience Cloud サービス（Experience Cloud ID サービスや People コ�
 
 **どの組織を選択すべきか**
 
-既に Experience Cloud ID サービスがレポートスイートにデプロイされている場合は、レポートスイートマッピングツールで選択する組織と、サイト上の [!DNL visitorAPI.js] ファイルで指定されている組織が同じであることを確認します。[Experience Cloud ID サービスのテストと検証](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html)の指示に従えば、訪問者 ID サービスで使用されている組織 ID を確認できます。
+既に Experience Cloud ID サービスがレポートスイートにデプロイされている場合は、レポートスイートマッピングツールで選択する組織と、サイト上の [!DNL visitorAPI.js] ファイルで指定されている組織が同じであることを確認します。[Experience Cloud ID サービスのテストと検証](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html)の指示に従えば、訪問者 ID サービスで使用されている組織 ID を確認できます。
 
 レポートスイート用のデータを収集するサイト上にまだ訪問者 ID サービスがデプロイされておらず、今後 Experience Cloud 訪問者 ID サービスをデプロイする予定がある場合は、レポートスイートマッピングツールで選択した組織と一致するようにデプロイをおこなう必要があります。
 
