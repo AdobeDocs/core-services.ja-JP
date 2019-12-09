@@ -1,13 +1,13 @@
 ---
 description: Audience Manager はいくつかのシンプルな cookie を利用して様々な機能を実行します。これらの機能には、ID の割り当て、データ呼び出しの記録、エラーの追跡、cookie を設定できるかどうかのテストなどがあります。このセクションでは、Audience Manager によって設定される各種の cookie について説明します。
-keywords: cookie
+keywords: cookies
 seo-description: Audience Manager はいくつかのシンプルな cookie を利用して様々な機能を実行します。これらの機能には、ID の割り当て、データ呼び出しの記録、エラーの追跡、cookie を設定できるかどうかのテストなどがあります。このセクションでは、Audience Manager によって設定される各種の cookie について説明します。
 seo-title: Audience Manager の cookie
-solution: Experience Cloud,Audience Manager
+solution: Marketing Cloud,Audience Manager
 title: Audience Manager の cookie
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -32,7 +32,7 @@ Audience Manager はいくつかのシンプルな cookie を利用して様々�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>コンテンツ</b> </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">demdex</span> cookie には次のような形式で一意のユーザー ID（UUID）が書き込まれます。 </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/ids-in-aam.html" format="https" scope="external">Audience Manager の ID のインデックス</a>も参照してください。 </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">demdex</span> cookie には次のような形式で一意のユーザー ID（UUID）が書き込まれます。 </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external">Audience Manager の ID のインデックス</a>も参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>その他の属性</b> </p> </td> 
@@ -125,7 +125,7 @@ dextp cookie のデータ構文：
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>目的</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword">Audience Manager</span> は、<a href="https://marketing.adobe.com/resources/help/en_US/aam/c_destinations.html" format="https" scope="external">宛先</a>へのデータ送信中にエラーが発生すると、この cookie を設定します。 </p> </td> 
+   <td colname="col2"> <p> <span class="keyword">Audience Manager</span> は、<a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/destinations.html#purposes" format="https" scope="external">宛先</a>へのデータ送信中にエラーが発生すると、この cookie を設定します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>コンテンツ</b> </p> </td> 
