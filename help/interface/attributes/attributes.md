@@ -1,13 +1,13 @@
 ---
 description: Experience Cloud への顧客属性のアップロードの概要とそのための前提条件に関する情報です。
-keywords: コアサービス;顧客属性
+keywords: core services;customer attributes
 seo-description: Experience Cloud への顧客属性のアップロードの概要とそのための前提条件に関する情報です。
 seo-title: 顧客属性
 solution: Experience Cloud
 title: 顧客属性
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -36,12 +36,9 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 * **ターゲット mbox：**&#x200B;顧客属性には、mbox.js バージョン 58 以降が必要です。
 
 
-   [mbox.js の実装](https://marketing.adobe.com/resources/help/en_US/target/ov/t_mbox_download.html)を参照してください。
+   [mbox.js の実装](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html)を参照してください。
 
 * **at.js：**&#x200B;すべてのバージョン。
-
-
-
 
 ## 企業顧客データとは {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
