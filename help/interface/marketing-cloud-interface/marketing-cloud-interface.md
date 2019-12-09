@@ -1,13 +1,13 @@
 ---
 description: Experience Cloud の新機能と更新の概要を示します。
-keywords: コアサービス
+keywords: core services
 seo-description: Experience Cloud の新機能と更新の概要を示します。
 seo-title: Experience Cloud の新機能
 solution: Experience Cloud
 title: Experience Cloud の新機能
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -39,7 +39,7 @@ Experience Cloud の新機能と更新の概要を示します。
 * 一部の環境において新規テナントのプロビジョニングを妨げていた問題を修正しました。（CORE-15509）
 
 
-* [!DNL marketing.adobe.com]（保護された接続）ではなく [!DNL experiencecloud.adobe.com] で [!DNL http] にアクセスすると、ユーザーが [!DNL https] にリダイレクトされる問題を修正しました。（CORE-15587）
+* [!DNL experiencecloud.adobe.com]（保護された接続）ではなく [!DNL experiencecloud.adobe.com] で [!DNL http] にアクセスすると、ユーザーが [!DNL https] にリダイレクトされる問題を修正しました。（CORE-15587）
 * 一部の新規テナントに対する通知を妨げていた問題を修正しました。（CORE-15240）
 
 ## 2018 年 6 月 15 日 {#section_7ABC327992CB46B0B8E4A631B8B68899}
@@ -79,7 +79,7 @@ Experience Cloud の新機能と更新の概要を示します。
 |--- |--- |
 | 通知 - 詳細設定 | [顧客属性](../attributes/attributes.md)のアップロードについての通知など、製品およびソリューションのイベントとアクティビティに関する通知を有効にできます。 |
 | 通知 - メンテナンス通知 | 通知の設定では、製品とソリューションのメンテナンスに関する通知を有効にできます。 |
-| Experience Cloud ソリューション向け Admin Console | Experience Cloud の新規のお客様は、Admin Console を利用することで組織全体にわたってアドビ製品の使用権限を一元的に管理できます。<br>Admin Console へのユーザー管理の移行は段階的に進められます。移行が必要になると、アドビからお客様（システム管理者の皆様）に連絡させていただきます。<br>Analytics 管理者向けの情報については、[Analytics の移行](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)を参照してください。 |
+| Experience Cloud ソリューション向け Admin Console | Experience Cloud の新規のお客様は、Admin Console を利用することで組織全体にわたってアドビ製品の使用権限を一元的に管理できます。<br>Admin Console へのユーザー管理の移行は段階的に進められます。移行が必要になると、アドビからお客様（システム管理者の皆様）に連絡させていただきます。<br>Analytics 管理者向けの情報については、[Analytics の移行](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)を参照してください。 |
 
 ## 2017 年 5 月 23 日 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
 
