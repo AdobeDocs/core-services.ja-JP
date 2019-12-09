@@ -1,13 +1,13 @@
 ---
 description: Experience Cloud へのログイン、パスワードおよび通知の管理、デフォルトのランディングページの指定について、それぞれの方法を説明します。
-keywords: コアサービス
+keywords: core services
 seo-description: Experience Cloud へのログイン、パスワードおよび通知の管理、デフォルトのランディングページの指定について、それぞれの方法を説明します。
 seo-title: ログインとプロファイル設定の管理
-solution: 'Marketing Cloud '
+solution: Marketing Cloud
 title: ログインとプロファイル設定の管理
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -58,7 +58,7 @@ Experience Cloud での非管理者ユーザーのログインに関するヘル
 1. Experience Cloud で自分の[組織](../admin-getting-started/getting-started-experience-cloud.md#concept_384D169B0B724B799D573B8ECB5C39BF)のプロビジョニングが完了していることを管理者に確認します。
 
 
-1. [Adobe Experience Cloud](https://marketing.adobe.com)（[!DNL marketing.adobe.com]）に移動します。
+1. [Adobe Experience Cloud](https://experiencecloud.adobe.com)（[!DNL experiencecloud.adobe.com]）に移動します。
 1. 「**[!UICONTROL Adobe ID でログイン]**」をクリックします。
 
    Experience Cloud 管理者に問い合わせてアカウントのタイプ（Adobe ID または Enterprise ID）を確認してください。
@@ -141,15 +141,13 @@ Experience Cloud プロファイルを編集し、デフォルトの組織やラ
 
 必要に応じ、Experience Cloud インターフェイスで提供される認証機能を使用して、ソリューション内の特定のページにログインすることもできます。
 
+### URL テンプレート
 
-<!-- mac-deep-linking.xml -->
-**URL テンプレート**
-
-[!DNL https://<tenantId>.marketing.adobe.com/<solutionname>?destURL=<fullURL>]
+`https://<tenantId>.experiencecloud.adobe.com/<solutionname>?destURL=<fullURL>`
 
 サンプル URL：
 
-[!DNL https://aem62tenant.marketing.adobe.com/analytics?destURL=https%3A%2F%2Fsc.omniture.com%2Freports%2F11562.html]
+`https://aem62tenant.experiencecloud.adobe.com/analytics?destURL=https%3A%2F%2Fsc.omniture.com%2Freports%2F11562.html`
 
 >[!NOTE]
 >
