@@ -1,13 +1,13 @@
 ---
 description: Experience Cloud 管理者向けのよくある質問と回答です。
-keywords: コアサービス
+keywords: core services
 seo-description: Experience Cloud 管理者向けのよくある質問と回答です。
 seo-title: よくある質問
 solution: Experience Cloud
 title: よくある質問
 uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
 translation-type: tm+mt
-source-git-commit: 9c9b5250ec4143b396623341ecfeb61244469754
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -22,7 +22,7 @@ Experience Cloud 管理者向けのよくある質問と回答です。
 
 
 1. [Experience Cloud に加入して管理者になる](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [Dynamic Tag Manager](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354)（または新しい [Launch, by Adobe](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/)）を使用して Experience Cloud ID サービスを実装する
+1. [Dynamic Tag Manager](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354)（または新しい [Launch, by Adobe](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html)）を使用して Experience Cloud ID サービスを実装する
 1. [レポートスイートを Experience Cloud 組織にマッピングする](../core-services/core-services.md#concept_apg_zq2_rw)
 1. [（Analytics のみ）Analytics AppMeasurement コードを最新化する](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [（Target のみ）Adobe Target の実装を最新化する](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
@@ -62,7 +62,7 @@ Experience Cloud でのプロビジョニングには次のような利点があ
 
 * ユーザーの使用権限と製品の管理は [Adobe Admin Console](https://adminconsole.adobe.com/enterprise)（製品リンク）でおこないます。
 
-* **重要：** Analytics 管理ツールから Admin Console へのユーザー ID の移行に関する Analytics 管理者向けの詳細情報については、[Admin Console での Analytics ユーザーの管理](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)を参照してください。
+* **重要：** Analytics 管理ツールから Admin Console へのユーザー ID の移行に関する Analytics 管理者向けの詳細情報については、[Admin Console での Analytics ユーザーの管理](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)を参照してください。
 
 **ユーザーが Experience Cloud にログインできない場合、管理者はどのように対処しますか。**
 
@@ -82,7 +82,7 @@ Admin Console 管理者はユーザーにアクセス権を付与できます。
 
 **組織とは**
 
-*組織*&#x200B;とは、管理者がグループおよびユーザーを設定し、Experience Cloud でのシングルサインオンを制御するために使用するエンティティです。組織は、すべての Experience Cloud 製品およびソリューションをまたいだログイン会社のように機能します。ほとんどの場合、組織は、会社名です。ただし、会社は多数の組織を持つことができます。
+** 組織は、管理者がグループおよびユーザーの設定や、Experience Cloud でのシングルサインオンの制御をおこなえるエンティティです。組織は、すべての Experience Cloud 製品およびソリューションをまたいだログイン会社のように機能します。ほとんどの場合、組織は、会社名です。ただし、会社は多数の組織を持つことができます。
 
 **IMS 組織 ID はどこにありますか。**
 
