@@ -1,6 +1,6 @@
 ---
 description: 管理者は、Analytics Premium へのアップグレード時の要件と推奨事項について学習できます。また、Experience Cloud 管理者としてヘルプ情報を検索できる場所についても学習できます。
-keywords: アップグレード
+keywords: upgrading
 seo-description: 管理者は、Analytics Premium へのアップグレード時の要件と推奨事項について学習できます。また、Experience Cloud 管理者としてヘルプ情報を検索できる場所についても学習できます。
 seo-title: Analytics Premium および Experience Cloud へのアップグレード
 solution: Experience Cloud
@@ -8,7 +8,7 @@ title: Analytics Premium および Experience Cloud へのアップグレード
 topic: Premium
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 translation-type: tm+mt
-source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Analytics Premium にアップグレードすると、Data Warehouse、Ad 
 Analytics Premium では、次のことができます。
 
 * 250 個のコンバージョン変数（eVars）へのアクセス
-* [モバイルアプリ分析](https://marketing.adobe.com/resources/help/en_US/mobile/)
+* [モバイルアプリ分析](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * Data Workbench（ビジュアルデータクエリ、ルールに基づくアトリビューション、クロスチャネル分析）
 
 >[!NOTE]
@@ -81,9 +81,9 @@ Customer 360 へのアップグレードにより、[Analytics Premium](../admin
 
 Analytics Standard と Premium のユーザーは Experience Cloud およびコアサービスを利用できます。ただし、「[はじめに - コアサービスのソリューションを有効にする](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)」に記載されている実装の最新化に従っていることが前提です（このプロセスにより、実装を最新化できます。また、Experience Cloud の管理者になることもできます）。
 
-Experience Cloud に加入したら、[!DNL marketing.adobe.com] から Experience Cloud にログインして、コアサービス（顧客属性、オーディエンスおよびモバイルアプリ分析を含む）の利用を開始することができます。
+Experience Cloud に加入したら、[!DNL experiencecloud.adobe.com] から Experience Cloud にログインして、コアサービス（顧客属性、オーディエンスおよびモバイルアプリ分析を含む）の利用を開始することができます。
 
-**ユーザーとグループの管理**
+### ユーザーとグループの管理
 
 ユーザーの管理は [Adobe Admin Console](https://helpx.adobe.com/enterprise/help/aedash.html)（製品リンク）でおこないます。
 
