@@ -1,13 +1,13 @@
 ---
 description: オーディエンスマーケティングアクティビティ用に、Analytics オーディエンスセグメントを Experience Cloud と Adobe Target に公開します。
-keywords: コアサービス
+keywords: core services
 seo-description: オーディエンスマーケティングアクティビティ用に、Analytics オーディエンスセグメントを Experience Cloud と Adobe Target に公開します。
 seo-title: Analytics オーディエンスセグメントの公開
 solution: Experience Cloud
 title: Analytics オーディエンスセグメントの公開
 uuid: 4201dc22-4b79-457c-a614-949bba087617
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 オーディエンスマーケティングアクティビティ用に、Analytics オーディエンスセグメントを Experience Cloud と Adobe Target に公開します。
 
-1. Analytics で[セグメントを構築](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html)します。
+1. Analytics で[セグメントを構築](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html)します。
 1. セグメントビルダーで、「**[!UICONTROL このセグメントを Experience Cloud に公開します]**」オプションを有効にします。
 
    ![](assets/ec_audience_example.png)
