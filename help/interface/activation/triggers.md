@@ -1,13 +1,13 @@
 ---
 description: Experience Cloud Triggers の設定方法。
-keywords: 統合;Triggers
+keywords: integrations;Triggers
 seo-description: Experience Cloud Triggers の設定方法。
 seo-title: Triggers
-solution: 'Marketing Cloud '
+solution: Marketing Cloud
 title: Triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 translation-type: tm+mt
-source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -57,7 +57,7 @@ source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
    |--- |--- |
    | 名前 | このトリガーのわかりやすい名前。 |
    | 説明 | このトリガーの説明、使い方など。 |
-   | レポートスイート | このトリガーに使用する Analytics [レポートスイート](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html)。この設定は、使用するレポートデータを特定します。 |
+   | レポートスイート | このトリガーに使用する Analytics [レポートスイート](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-reports-report-suites.html)。この設定は、使用するレポートデータを特定します。 |
    | 訪問には次を含める必要があります<br>訪問に次を含めることはできません<br>次のアクションがなかった後のトリガー<br>含めるメタデータ | 条件または発生してほしい訪問者の行動、および発生してほしくない行動を定義できます。例えば、シンプルな買い物かご放棄トリガーのルールは、次のようになります。<ul><li>訪問には次を含める必要があります：買い物かごへの追加（指標）と存在（特定の製品の表示またはブラウザータイプなどのディメンションでルールをさらに洗練させることができます）。</li><li>訪問に次を含めることはできません：チェックアウト。</li><li>次のアクションがなかった後のトリガー：10 分。</li><li>含めるメタデータ：訪問者の行動に関連する特定のキャンペーンディメンションまたは変数を追加できます。このフィールドは、Adobe Campaign で適切なリマーケティング電子メールを構築するのに便利です。</li></ul><br>ルールにとって重要な条件に応じて、コンテナ内またはコンテナ間で「ANY」、「AND」または「OR」論理を指定できます。 |
    | コンテナ | コンテナは、トリガーを定義するルール、条件またはフィルターを設定および保存する場所です。同時にイベントを発生させたい場合、イベントを同じコンテナに配置します。つまり、各コンテナは、ヒットレベルで別々に処理されます。例えば、2 つのコンテナが AND 演算子で結合されている場合、2 つのヒットが要件を満たすタイミングを満たすルールを期待できます。 |
    | この次に新しいセッションを開始 | セッション開始およびセッション終了イベントのトリガーを作成します。 |
