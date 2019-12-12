@@ -1,6 +1,7 @@
 ---
 cloud: experience-cloud
 product: core-services
+solution: Core Services
 solution-title: コアサービス
 solution-hub-url: https://helpx.adobe.com/jp/support/experience-cloud/core-services.html
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
@@ -10,7 +11,7 @@ tutorials-title: チュートリアル
 tutorials-url: https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/core-services.en
 translation-type: tm+mt
-source-git-commit: ef7f3ea5f42cef8d254080cc33994f4607cfed88
+source-git-commit: bf1f018ad1815518b5b5ecaf4552803b8d04a6c9
 
 ---
 
@@ -28,7 +29,7 @@ metadata. md ファイルにはリポジトリ内のユーザーガイド TOC.md
 | getting-started-url | Helpx 開始ページへのリンク |
 | tutorials-title | チュートリアルが適切でない場合はほとんど使用されません |
 | tutorials-url | ビデオチュートリアル（ヘルプチュートリアルまたは KT チュートリアル）へのリンク |
-| mini-toc-levels | 右パネルに表示される見出しレベルの数を指定します。デフォルトは 2 です。 |
+| mini-toc-levels | 右パネルに表示される見出しレベルの数を指定します。デフォルトは 2 です |
 | git-repo | コラボレーションリポジトリの場所を指定します。公開ドキュメントに github.com のミラーを使用 |
 
 TOC.md ファイル内
