@@ -5,7 +5,7 @@ seo-title: Advertising Cloud の cookie
 title: Advertising Cloud の cookie
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: d7d1a659bbdbc7a4221243d88410492351ab9055
 
 ---
 
@@ -13,39 +13,6 @@ source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 # Advertising Cloud の cookie {#advertising-cloud-cookies}
 
 Advertising Cloud では、広告エンゲージメントイベントをコンバージョンイベントにマッピングしたり、その情報を使用して広告入札を最適化するために、cookie が使用されます。
-
-## cookie 名：id_adcloud
-
-<table id="id_adcloud"> 
-<thead> 
-<tr> 
-<th colname="col1" class="entry"> 属性 </th> 
-<th colname="col2" class="entry"> 説明 </th> 
-</tr> 
-</thead>
-<tbody> 
-<tr> 
-<td colname="col1"> <p>保存される情報 </p> </td> 
-<td colname="col2"> <p>サーファー ID </p> </td> 
-</tr> 
-<tr> 
-<td colname="col1"> <p>有効期限 </p> </td> 
-<td colname="col2"> <p>91 日 </p> </td> 
-</tr> 
-<tr> 
-<td colname="col1"> <p>用途 </p> </td> 
-<td colname="col2"> <p>この cookie はファーストパーティドメインに設定されますが、まだ使用されていません </p> </td> 
-</tr> 
-<tr> 
-<td colname="col1"> <p>場所 </p> </td> 
-<td colname="col2"> <p>広告主のトップレベルドメイン（example.com など） </p> </td> 
-</tr> 
-<tr> 
-<td colname="col1"> <p>サイズ </p> </td> 
-<td colname="col2"> <p>16 バイト </p> </td> 
-</tr> 
-</tbody> 
-</table>
 
 ## cookie 名：_lcc
 
@@ -125,7 +92,7 @@ Advertising Cloud では、広告エンゲージメントイベントをコン�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>保存される情報 </p> </td> 
-   <td colname="col2"> <p>サーファー ID、サーファーの広告主の Web サイトへの最後の訪問のタイムスタンプおよびサーファーの最後の検索クリックのタイムスタンプ、ユーザーが広告をクリックした際に作成された ef_id</p> </td> 
+   <td colname="col2"> <p>広告主のWebサイトへのサーファーの最後の訪問のタイムスタンプ、およびユーザーが広告をクリックしたときに作成されたef_id</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>有効期限 </p> </td> 
