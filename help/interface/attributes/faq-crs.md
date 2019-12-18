@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: よくある質問、制限事項、ベストプラクティス
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 5151026cf3ccf004d7fd311913b2cac1a272ff8d
+source-git-commit: d978c3bdd5a2632787f58339a9554cd8ffa2ec11
 
 ---
 
@@ -16,7 +16,6 @@ source-git-commit: 5151026cf3ccf004d7fd311913b2cac1a272ff8d
 
 Analytics と Target の顧客属性に関してよくある質問とベストプラクティスを紹介します。
 
-
 ## ベストプラクティスと制限事項 {#section_7F5189B3DAA84EE6865B91D2026EE05A}
 
 顧客属性を使用する際のガイダンスと制限事項
@@ -24,7 +23,7 @@ Analytics と Target の顧客属性に関してよくある質問とベスト�
 | 問題 | 説明 |
 |--- |--- |
 | 顧客属性サブスクリプションに関する制限事項 | Analytics Premium にアップグレードすると、追加の属性を使用できるようになるまでに 24 時間の遅延が生じます。この遅延の間に、属性サブスクリプションの上限に関連するエラーが発生することがあります。 |
-| 毎日の頻度のアップロード制限 | 顧客属性の更新は、1日に1回のみ行うことをお勧めします。 同じプロファイルのセットに対して別の顧客プロファイルデータファイルをアップロードするには、24時間以上待つ必要があります。 |
+| 毎日の頻度のアップロード制限 | 顧客属性の更新は、1日に1回のみ行うことをお勧めします。 同じプロファイルのセットに対して別の顧客プロファイルデータファイルをアップロードするには、少なくとも24時間待つ必要があります。 |
 | カスタム Analytics ID（s.visitorID） | 顧客 ID を設定するときに  s.visitorID を使用すると、Analytics でユーザーを特定しやすくなります。しかし、s.visitorID を使用して訪問者を特定する場合は、ID サービスを用いて Analytics データをエクスポートまたはインポートする統合機能を使用できません。<br>これには共有オーディエンス、Analytics for Target（A4T）、顧客属性などが該当しますが、これらに限定されません。<br>これらの統合機能では、カスタム Analytics ID の設定はサポート対象外となります。 |
 | Analytics での文字の長さの制限 | Analytics サブスクリプションの作成時には、アップロードするファイルのフィールド長が 255 文字以下になるように切り詰められます。 |
 
@@ -48,7 +47,7 @@ Analytics と Target の顧客属性に関してよくある質問とベスト�
     <ol id="ol_1FACEF0990B6486B8DE86245D17695A8"> 
      <li id="li_F0C1542853684F8591FDC1B441D31A56"> <p>プロビジョニングを受けます。 </p> <p>既に <b>Analytics</b> ユーザーになっている場合は、そのユーザーを顧客属性用にアドビがプロビジョニングします。<b>Target</b> のみを使用していて、Analytics を所有していない場合は、コアサービス用のプロビジョニングをカスタマーケアに依頼する必要があります。 </p> </li> 
      <li id="li_444FEDEE4B7244F79BA847662F5B17CB"> <p>CRM チームに連絡します。Analytics や Experience Cloud 全体で使用すると興味深い結果が得られそうな顧客データの種類を見極めます。 </p> </li> 
-     <li id="li_32D4AAF8C29748A78801A0E1BFB37AF5"> <p>コアサービスを実装します。 </p> <p>コアサービスの実装を最新化する手順については、<a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">はじめに - コアサービス向けにソリューションを有効化</a>を参照してください（重要な情報については、顧客 ID の同期に関する節を参照してください）。 </p> </li> 
+     <li id="li_32D4AAF8C29748A78801A0E1BFB37AF5"> <p>コアサービスを実装します。 </p> <p>詳しくは、<a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">はじめに - コアサービス向けにソリューションを有効化</a>を参照してください（重要な情報については、顧客 ID の同期に関する節を参照してください）。 </p> </li> 
     </ol> <p> <b>注意：</b>コアサービスの実装に関する管理者向けの FAQ については、<a href="../admin-getting-started/faq.md#concept_13219B4E51784577B6FF78AAA203DE91" format="dita" scope="local">こちら</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
