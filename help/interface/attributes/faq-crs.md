@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: よくある質問、制限事項、ベストプラクティス
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: d978c3bdd5a2632787f58339a9554cd8ffa2ec11
+source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
 
 ---
 
@@ -23,8 +23,9 @@ Analytics と Target の顧客属性に関してよくある質問とベスト�
 | 問題 | 説明 |
 |--- |--- |
 | 顧客属性サブスクリプションに関する制限事項 | Analytics Premium にアップグレードすると、追加の属性を使用できるようになるまでに 24 時間の遅延が生じます。この遅延の間に、属性サブスクリプションの上限に関連するエラーが発生することがあります。 |
+| 同じデバイスでの複数のログイン | 顧客属性を使用して顧客プロファイルをデータソースにアップロードする場合、同じデバイス（つまり、同じExperience Cloud ID）を共有するユーザーに対しては、アドビでは推奨しています。 そうすると、デバイス上で存続するECIDサービスが、同じExperience Cloud IDで複数のユーザーをリンクする原因となり、予期しない結果が生じる場合がありま [!DNL Target]す。 **** 注意：Mobileの場合、ECIDはMobileアプリのインストール後に永久的に使用されます。新しいECIDを生成するには、アプリを再インストールする必要があります。 Webの場合、ブラウザーのCookieがクリアされた後に新しいECIDが生成されます。 |
 | 毎日の頻度のアップロード制限 | 顧客属性の更新は、1日に1回のみ行うことをお勧めします。 同じプロファイルのセットに対して別の顧客プロファイルデータファイルをアップロードするには、少なくとも24時間待つ必要があります。 |
-| カスタム Analytics ID（s.visitorID） | 顧客 ID を設定するときに  s.visitorID を使用すると、Analytics でユーザーを特定しやすくなります。しかし、s.visitorID を使用して訪問者を特定する場合は、ID サービスを用いて Analytics データをエクスポートまたはインポートする統合機能を使用できません。<br>これには共有オーディエンス、Analytics for Target（A4T）、顧客属性などが該当しますが、これらに限定されません。<br>これらの統合機能では、カスタム Analytics ID の設定はサポート対象外となります。 |
+| Custom Analytics ID (`s.visitorID`) | `s.visitorID` を使用して顧客 ID を設定すると、Analytics でユーザーを特定しやすくなります。ただし、IDサービスを使用してAnalyticsデータを書き出したり読み込んだりする統合は、訪問者が `s.visitorID.`<br>This includes、Analytics for Target(A4T)および顧客属性を使用して識別された場合は機能しません。<br>これらの統合機能では、カスタム Analytics ID の設定はサポート対象外となります。 |
 | Analytics での文字の長さの制限 | Analytics サブスクリプションの作成時には、アップロードするファイルのフィールド長が 255 文字以下になるように切り詰められます。 |
 
 ## 顧客属性に関する FAQ {#section_E47866EEA83348E09FE43CEC5E44C461}
