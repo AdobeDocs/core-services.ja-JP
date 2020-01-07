@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 累積リリースノート
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
 
 ---
 
@@ -19,6 +19,10 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 ドキュメントの更新のリストについては、[Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784) を参照してください。
 
 すべてのソリューションを対象とするリリースノートについては、[Experience Cloud リリースノート](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)を参照してください。
+
+## 2020年1月～1月
+
+* フィードページは2019年12月に廃止されました。 製品内の廃止のお知らせを探してください。（MCUI-10039）
 
 ## 2019 年 8 月
 
@@ -95,7 +99,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 
 **既知の問題**
 
-**[!UICONTROL Experience Cloud]**／**[!UICONTROL Activation]** インターフェイスで Dynamic Tag Management にアクセスすると、Dynamic Tag Management アカウントが Experience Cloud（Adobe ID）にリンクされず、Dynamic Tag Management にログインできません。この問題を回避するには、ブラウザーの新しいタブで [!DNL dtm.adobe.com] に直接アクセスしてください。
+**[!UICONTROL Experience Cloud]**／**[!UICONTROL  Activation]** で Dynamic Tag Management にアクセスすると、Dynamic Tag Management アカウントが Experience Cloud（Adobe ID）にリンクされず、Dynamic Tag Management にログインできません。この問題を回避するには、ブラウザーの新しいタブで [!DNL dtm.adobe.com] に直接アクセスしてください。
 
 ## リリース 16.1 - 2016 年 1 月 22 日 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
@@ -443,6 +447,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
   <tr> 
    <td colname="col1"> <p>  オーディエンスの「<span class="wintitle">保存</span>」ボタン </p> </td> 
    <td colname="col2"> <p>オーディエンスを作成する際、<span class="wintitle">新しいオーディエンスを作成</span>ページの必須フィールドがすべて入力されるまで「<span class="wintitle">保存</span>」ボタンは有効になりません。 
+      
      <!--MAC-19712 --></p> </td> 
   </tr> 
  </tbody> 
@@ -574,7 +579,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 * Experience Cloud Assets での画像の削除で、その画像が Adobe Target Essentials で使用されていても警告が表示されません。
 * [!DNL Analytics] からカードを更新すると、展開されたカードでグラフが空になることがあります。
 * すべての権限および権限付与の変更を有効にするには、ユーザーはログアウトしてからログインし直す必要があります。
-* *`Remember me`* が選択されていない場合、ユーザーは 15 分後にログアウトされます。
+* *`Remember me`*が選択されていない場合、ユーザーは 15 分後にログアウトされます。
 * [!DNL Analytics] ソリューションランディングページでフォーマットエラーが表示されます。
 * アセットカード表示のコメントリンクをクリックできません。
 * 多くのユーザーが同時に使用すると、Experience Cloud インターフェイスのパフォーマンスが遅くなる可能性があります。
