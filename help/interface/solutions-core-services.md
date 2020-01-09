@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Experience Cloud の新しいクラウド名について
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
+source-git-commit: 85bda02326437776baa9503bcc1100c26d48bce4
 
 ---
 
@@ -114,6 +114,10 @@ Adobe Primetime は、オーディエンス向けにパーソナライズされ�
 | [Activation](activation/activation.md) | タグ管理システム（Experience Platform Launch および Dynamic Tag Management）<br>Triggers を使用すると、Adobe Campaign で Adobe Analytics のインサイトに基づいてリアルタイムでアクションを実行できます。 |
 | [管理](admin-getting-started/admin-getting-started.md) | アドビが提供するすべてのクラウドとソリューションにわたってユーザーと製品使用権限を管理します。 |
 | [Assets](experience-cloud-assets/experience-cloud-assets.md) | すべてのデジタルアセットの保存、同期、共有を一元的に容易におこなうことで、時間を節約して、より一貫したカスタマーエクスペリエンスを提供します。 |
+| [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) |  Launch は、アドビが提供する次世代タグ管理機能です。Launch は、顧客体験の実現に必要なすべての分析、マーケティングおよび広告のタグをデプロイおよび管理するためのシンプルな手段を提供します。 |
+| [旅のオーケストレーション](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) | イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築します。 [!UICONTROL Jargeny Orchestrationは] 、Experience Platformと統合されたアプリケーションサービスです。 |
+| [ロケーションサービス](https://docs.adobe.com/content/help/en/places/using/home.html) | Adobe Experience Platform Location Service(Location Service)は、場所を認識するモバイルアプリで、柔軟な目標地点(POI)データベースを含む豊富で使いやすいSDKインターフェイスを使用して、場所のコンテキストを理解できるようにする地域サービスです。 |
+| オファー | オファー管理では、Experience Cloud のすべてのチャネルでオファーの作成、管理および決定をおこなえます。 |
 | [Exchange](exchange.md) | アプリを介して、Digital Marketing の機能強化の検索、参照、選択、支払いおよびダウンロードをおこないます。 |
 | [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | Adobe Mobile Services により、モバイルアプリ用の各ソリューションが Experience Cloud 上で統合されます。これにより、アプリの利用状況を把握し、改善につなげることができます。 |
 | People | Experience Cloud ソリューションにあるアドビのデータとアドビ以外のデータを結び付けることで、顧客一人ひとりの包括ビューを作成できます。タッチポイントにわたるやり取りから、彼らにとって最も重要なことを見つけ出します。一般的でないデバイスから訪問した場合に、常連顧客を認識します。さらに、ターゲット化されたマーケティング活動のために、ユーザーをオーディエンスにグループ分けします。<br>[オーディエンス](audience-library/audience-library.md) - 様々なタイプの顧客をオーディエンスに分類した後、Marketing Cloud ソリューション全体でオーディエンスを共有します。<br>[顧客属性](attributes/attributes.md) - Marketing Cloud 外で収集した顧客情報を連結できる機能強化。<br>[デバイスグラフ](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) - 世界で最も人気のあるブランドとの連携を通じて、新しいデバイスからアクセスしている既存顧客を認識します（ベータ版では、Marketing Cloud Device Co-op の会員専用です）。 |
