@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: よくある質問
 uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
 
 ---
 
@@ -47,7 +47,7 @@ Experience Cloud インターフェイスが提供する機能は、ビジネス
 
 [アドビサポートに問い合わせてください](https://helpx.adobe.com/marketing-cloud/contact-support.html)。
 
-***`provisioning`*とは**
+***`provisioning`*?**
 
 Experience Cloud でのプロビジョニングには次のような利点があります。
 
@@ -115,7 +115,3 @@ Admin Console 管理者はユーザーにアクセス権を付与できます。
 **Social を利用していないのに Social と表示されるのはなぜですか。**
 
 Adobe Social は、Analytics と共に購入できる製品です。そのため、Analytics を利用していると、Social も表示されますが、購入しない限りアクセスできません。
-
-**レポートやキャンペーンを Experience Cloud と共有するにはどのようにしますか。**
-
-[フィード](../feed.md#concept_9256B8768A294009A777282DD8719213)で共有できるアセットの例として、Analytics レポートや Target キャンペーンがあります。
