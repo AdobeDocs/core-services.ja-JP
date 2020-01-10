@@ -4,7 +4,7 @@ user-guide-title: Core Services User Guide
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
+source-git-commit: a5978f89b6a0b877bbc5a248bf8b68d03aa51127
 
 ---
 
@@ -68,6 +68,13 @@ source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
    + [サブスクリプションの設定](attributes/subscription.md)
    + [スキーマの更新](attributes/t-update-schema.md)
    + [プライバシーに関する配慮 - 顧客属性](attributes/privacy-mac.md)
++ オファーの管理 {#offer-management}
+   + [オファー管理の概要](offer-management/getting-started.md)
+   + [オファー管理ワークフロー](offer-management/offer-management-workflow.md)
+   + [オファー](offer-management/offers.md)
+   + [ラベル](offer-management/labels.md)
+   + [プレースメント](offer-management/placements.md)
+   + [Campaign](offer-management/campaign.md)
 + Experience cloudのリリースノート {#release-notes}
    + [Experience Cloud の新機能](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
    + [累積リリースノート](marketing-cloud-interface/release-notes.md)
