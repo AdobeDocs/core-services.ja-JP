@@ -7,7 +7,7 @@ solution: Marketing Cloud
 title: Experience Cloud ユーザーと製品の管理
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 6040c4d2f052c561958624296c8e62c8230ae820
 
 ---
 
@@ -33,7 +33,7 @@ Experience Cloud ユーザー管理の最新機能について説明します。
 1. Navigate to [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
 1. [Adobe ID または Enterprise ID](https://helpx.adobe.com/enterprise/help/identity.html) とパスワードを入力します。
 
-または、Experience Cloud メニュー（![](assets/menu-icon.png)）で&#x200B;**[!UICONTROL 管理]**／**[!UICONTROL Admin Console を起動]**&#x200B;をクリックします。
+または、Experience Cloud メニュー（![](assets/menu-icon.png)）で「**[!UICONTROL 管理]**／**[!UICONTROL  Admin Console を起動]**」をクリックします。
 
 **関連するヘルプ**
 
@@ -61,7 +61,7 @@ Analytics のユーザー権限および製品権限は、Admin Console で管�
 
 Analytics 管理者がユーザーアカウントを Analytics User Management から [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/) / へ移行する際に役立つ Analytics ユーザー ID 移行ツールを入手できます。
 
-アカウントの移行は、顧客ごとに段階的に実施しています。既存のユーザーアカウントを&#x200B;**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;から Admin Console へ移行する順番が来た顧客には、アドビから通知し、サポートを提供します。
+アカウントの移行は、顧客ごとに段階的に実施しています。既存のユーザーアカウントを「**[!UICONTROL 管理ツール]**／**[!UICONTROL &#x200B;ユーザー管理]**」から Admin Console へ移行する順番が来た顧客には、アドビから通知し、サポートを提供します。
 
 After the migration, users sign in using their Adobe ID (or Enterprise ID) and authenticate to their Experience Cloud solutions and services at [experiencecloud.adobe.com](https://experiencecloud.adobe.com). 従来のログイン（[!DNL my.omniture.com] および [!DNL sc.omniture.com]）でログインしようとしたユーザーは、[!DNL experiencecloud.adobe.com] にリダイレクトされます。
 
@@ -110,10 +110,10 @@ Audience Managerヘル [プの管理](https://docs.adobe.com/content/help/en/dtm
 
 ユーザーを組織に招待する場合は、そのユーザーに製品および製品プロファイルへのアクセス権を付与することができます。ユーザーに制限付き管理権限を委任することもできます。同様に、ユーザーグループを作成し、そのグループを製品プロファイルに追加することによって、アクセス権を有効にすることもできます。
 
-1. In the [Admin Console](https://adminconsole.adobe.com/enterprise/), click **[!UICONTROL Products]**.
+1. [Admin Console](https://adminconsole.adobe.com/enterprise/) で「**[!UICONTROL 製品]**」をクリックします。
 1. 「**[!UICONTROL 新しいプロファイル]**」をクリックします。
 1. プロファイルの詳細を設定し、「**[!UICONTROL 次へ]**」をクリックします。
-1. 「**[!UICONTROL 完了]**」をクリックします。
+1. **[!UICONTROL 完了]**をクリックします。
 
 詳しくは、以下のヘルプ情報を参照してください。
 
@@ -127,7 +127,7 @@ Audience Managerヘル [プの管理](https://docs.adobe.com/content/help/en/dtm
 
 例えば、特定の指標やディメンション（eVar を含む）およびセグメントや計算指標の作成などの機能に対する権限を持つ、複数の Analytics ツール（[!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、および [!UICONTROL Report Builder]）が含まれる製品プロファイルを作成できます。
 
-1. [Admin Console](https://adminconsole.adobe.com/enterprise) にログインしてから、「**[!UICONTROL 製品]**」（または製品名）をクリックします。
+1. [Admin Console](https://adminconsole.adobe.com/enterprise) にサインインし、「**[!UICONTROL 製品]**」（または自分の製品名）をクリックします。
 1. 製品プロファイルで、「**[!UICONTROL 権限]**」をクリックします（管理者のみクリックできます）。
 1. プロファイルの権限の設定：
 
@@ -154,21 +154,24 @@ Admin Console では、組織内の他のユーザーに管理権限を制限付
 1. Admin Console で「**[!UICONTROL ユーザー]**」をクリックしてから、ユーザー名をクリックします。
 1. 「**[!UICONTROL 管理権限を編集]**」をクリックします。
 1. ユーザーの管理権限を設定します。
-1. 「**[!UICONTROL 次へ]**」をクリックして設定を確認し、「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL 次へ]**」をクリックして設定を確認し、「**[!UICONTROL &#x200B;保存]**」をクリックします。
 
 ## サポートされているブラウザーと必要システム構成 {#concept_CDC4371EB9BF433E9534F8716DC8A088}
 
 Experience Cloud でサポートされているブラウザーは次のとおりです。
 
-**Experience Cloud コアサービス**
+Experience cloudでサポートされるブラウザーには、以下が含まれます。
 
-* Microsoft の最新の Internet Explorer（Microsoft による Internet Explorer 8、9、10 の[サポートは既に終了しています](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support)。そのため、今後アドビでは、Internet Explorer のこれらのバージョンに対して報告された問題は修正しません）。
-* Google Chrome
-* Mozilla Firefox
-* Apple Safari
+* [!DNL Microsoft Edge] (Microsoftは、 [Internet Explorer](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) 8、9および10のサポートを終了しました。 そのため、今後アドビでは、Internet Explorer のこれらのバージョンに対して報告された問題は修正しません）。
+* [!DNL Google Chrome]
+* [!DNL Firefox]
+* [!DNL Safari]
+* [!DNL Opera]
+
+**** 注意：Experience cloudインターフェイスはこれらのブラウザーをサポートしていますが、個々のソリューションがすべてのブラウザーをサポートしているわけではありません。 (例えば、 [Analyticsはサポートし](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) ません [!DNL Opera]。 [Targetはサポートしていま](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html)[!DNL Safari]せん。)
 
 **ソリューションと製品の要件**
 
-* [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) （Adobe Socialを含む）
+* [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html)
 * [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
 * [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html)
