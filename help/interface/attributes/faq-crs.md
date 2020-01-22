@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: よくある質問、制限事項、ベストプラクティス
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
+source-git-commit: f89a6c6704c9f499e6aa2ab38b2f5f9496ccdda5
 
 ---
 
@@ -48,7 +48,7 @@ Analytics と Target の顧客属性に関してよくある質問とベスト�
     <ol id="ol_1FACEF0990B6486B8DE86245D17695A8"> 
      <li id="li_F0C1542853684F8591FDC1B441D31A56"> <p>プロビジョニングを受けます。 </p> <p>既に <b>Analytics</b> ユーザーになっている場合は、そのユーザーを顧客属性用にアドビがプロビジョニングします。<b>Target</b> のみを使用していて、Analytics を所有していない場合は、コアサービス用のプロビジョニングをカスタマーケアに依頼する必要があります。 </p> </li> 
      <li id="li_444FEDEE4B7244F79BA847662F5B17CB"> <p>CRM チームに連絡します。Analytics や Experience Cloud 全体で使用すると興味深い結果が得られそうな顧客データの種類を見極めます。 </p> </li> 
-     <li id="li_32D4AAF8C29748A78801A0E1BFB37AF5"> <p>コアサービスを実装します。 </p> <p>詳しくは、<a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">はじめに - コアサービス向けにソリューションを有効化</a>を参照してください（重要な情報については、顧客 ID の同期に関する節を参照してください）。 </p> </li> 
+     <li id="li_32D4AAF8C29748A78801A0E1BFB37AF5"> <p>コアサービスを実装します。 </p> <p>コアサービスの実装を最新化する手順については、<a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">はじめに - コアサービス向けにソリューションを有効化</a>を参照してください（重要な情報については、顧客 ID の同期に関する節を参照してください）。 </p> </li> 
     </ol> <p> <b>注意：</b>コアサービスの実装に関する管理者向けの FAQ については、<a href="../admin-getting-started/faq.md#concept_13219B4E51784577B6FF78AAA203DE91" format="dita" scope="local">こちら</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
@@ -105,6 +105,11 @@ Analytics と Target の顧客属性に関してよくある質問とベスト�
   <tr> 
    <td colname="col1"> <p> <b>（Target のみ）</b>訪問者が顧客 ID によって特定された後すぐ、顧客属性にアップロードされたデータをターゲットにできますか。 </p> </td> 
    <td colname="col2"> <p>はい。 </p> <p>mbox サードパーティ ID を含む Target へのサーバーコール時に、すべての顧客属性データを使用できます。 </p> </td> 
+  </tr> 
+    <tr> 
+   <td colname="col1"> <p> <b> （Targetのみ）</b> 「同期ステータス」列は、顧客属性ソースにアップロードされたファイルを表しますか。 </p> </td> 
+   <td colname="col2"> <p> Targetが公開および同期したレコードの数は、特定の属性ファイルに対して同期ステータスアイコンをクリックすると表示できます。 「同期%」は、Targetで同期されたプロファイルの%を指定するリアルタイム指標です。 </p> <p> <b></b> 注意：属性がTargetと同期されるまで、最大24時間かかる場合があります。 </p>
+ </td> 
   </tr> 
  </tbody> 
 </table>
