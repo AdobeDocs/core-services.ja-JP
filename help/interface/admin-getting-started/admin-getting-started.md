@@ -1,9 +1,9 @@
 ---
-description: Admin Console へのログインと Experience Cloud ユーザーの権限および製品プロファイルの管理について説明します。
+description: 管理コンソールへのサインイン、Experience cloudユーザー権限と製品プロファイルの管理、ブラウザーサポートについて説明します。
 keywords: core services
-seo-description: Admin Console へのログインと Experience Cloud ユーザーの権限および製品プロファイルの管理について説明します。
+seo-description: 管理コンソールへのサインイン、Experience cloudユーザー権限と製品プロファイルの管理、ブラウザーサポートについて説明します。
 seo-title: Experience Cloud ユーザーと製品の管理
-solution: Marketing Cloud
+solution: Experience Cloud
 title: Experience Cloud ユーザーと製品の管理
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
@@ -14,7 +14,7 @@ source-git-commit: 6040c4d2f052c561958624296c8e62c8230ae820
 
 # Experience Cloud ユーザーと製品の管理 {#topic_3FCB4099640647E3B2411ADBFCE81909}
 
-Admin Console へのログインと Experience Cloud ユーザーの権限および製品プロファイルの管理について説明します。
+管理コンソールへのサインイン、Experience cloudユーザー権限と製品プロファイルの管理、ブラウザーサポートについて説明します。
 
 >[!IMPORTANT]
 >
