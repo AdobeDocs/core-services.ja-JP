@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Experience Cloud とコアサービスのヘルプ
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
+source-git-commit: e2cfce353d4b1f21c08b7ddf76e491c6aeba03ba
 
 ---
 
@@ -20,12 +20,12 @@ source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
 
 ## 何を学びたいの？
 
+* [すべてのExperience cloudソリューションの製品ドキュメント](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html) - Experience cloudラーニングとサポートでヘルプを参照
 * [リリースノートと製品のアップデート](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) - Experience cloudの新機能および購読してアップデートを入手
 * [コアサービスの実装に関するチュートリアル](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) — コアサービスに関するビデオとチュートリアルの参照
 * [Experience Leagueのエキスパートヘルプ](https://landing.adobe.com/experience-league/) — エキスパートやコミュニティからガイド付きの学習を受ける
 * [教育機関とトレーニング](https://helpx.adobe.com/learning.html?promoid=KAUDK) — アドビの製品を最大限に活用するためにアドビと連携
 * [Customer Experience Blog](https://theblog.adobe.com/customer-experience/) - Experience cloudブログを読む
-* [すべてのExperience cloudソリューションの製品ドキュメント](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html) - Experience cloudラーニングとサポートでヘルプを参照
 * [カスタマーケア](https://helpx.adobe.com/contact/enterprise-support.ec.html) — アドビカスタマーケアへのお問い合わせ
 
 ## コアサービス製品ドキュメント
