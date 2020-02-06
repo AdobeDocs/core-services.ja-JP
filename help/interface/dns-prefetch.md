@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: 様々なソリューションおよびサービスによる DNS プリフェッチの使用
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -38,7 +38,7 @@ DNS プリフェッチはページ上に埋め込まれている静的リンク�
 
 * **Audience Manager：** `<link rel="dns-prefetch" href="//dpm.demdex.net">`。
 
-* **Experience Cloud ID サービス：** `<link rel="dns-prefetch" href="//fast. *`ここにパートナー ID を挿入する`*.demdex.net">`
+* **** Experience Cloud IDサービス：ここに `<link rel="dns-prefetch" href="//fast. *`パートナーIDを挿入`*.demdex.net">`
 
 * **Dynamic Tag Manager**（DTM）：必須ではありません。ページが読み込まれるとすぐに DTM リンクが使用可能になります。
 
