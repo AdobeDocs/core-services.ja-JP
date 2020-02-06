@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: よくある質問
 uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
 translation-type: tm+mt
-source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -22,7 +22,7 @@ Experience Cloud 管理者向けのよくある質問と回答です。
 
 
 1. [Experience Cloud に加入して管理者になる](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [Dynamic Tag Manager](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354)（または新しい [Launch, by Adobe](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html)）を使用して Experience Cloud ID サービスを実装する
+1. [Dynamic Tag Manager](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) (またはアドビによる新しい [起動](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html))を使用したExperience Cloud IDサービスの実装
 1. [レポートスイートを Experience Cloud 組織にマッピングする](../core-services/core-services.md#concept_apg_zq2_rw)
 1. [（Analytics のみ）Analytics AppMeasurement コードを最新化する](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [（Target のみ）Adobe Target の実装を最新化する](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
