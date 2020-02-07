@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Experience Cloud ユーザーと製品の管理
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: 6040c4d2f052c561958624296c8e62c8230ae820
+source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
 
 ---
 
@@ -33,7 +33,7 @@ Experience Cloud ユーザー管理の最新機能について説明します。
 1. Navigate to [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
 1. [Adobe ID または Enterprise ID](https://helpx.adobe.com/enterprise/help/identity.html) とパスワードを入力します。
 
-または、Experience Cloud メニュー（![](assets/menu-icon.png)）で「**[!UICONTROL 管理]**／**[!UICONTROL  Admin Console を起動]**」をクリックします。
+または、Experience Cloud メニュー（![](assets/menu-icon.png)）で「**[!UICONTROL 管理]**／**[!UICONTROL Admin Console を起動]**」をクリックします。
 
 **関連するヘルプ**
 
@@ -61,7 +61,7 @@ Analytics のユーザー権限および製品権限は、Admin Console で管�
 
 Analytics 管理者がユーザーアカウントを Analytics User Management から [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/) / へ移行する際に役立つ Analytics ユーザー ID 移行ツールを入手できます。
 
-アカウントの移行は、顧客ごとに段階的に実施しています。既存のユーザーアカウントを「**[!UICONTROL 管理ツール]**／**[!UICONTROL &#x200B;ユーザー管理]**」から Admin Console へ移行する順番が来た顧客には、アドビから通知し、サポートを提供します。
+アカウントの移行は、顧客ごとに段階的に実施しています。既存のユーザーアカウントを「**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**」から Admin Console へ移行する順番が来た顧客には、アドビから通知し、サポートを提供します。
 
 After the migration, users sign in using their Adobe ID (or Enterprise ID) and authenticate to their Experience Cloud solutions and services at [experiencecloud.adobe.com](https://experiencecloud.adobe.com). 従来のログイン（[!DNL my.omniture.com] および [!DNL sc.omniture.com]）でログインしようとしたユーザーは、[!DNL experiencecloud.adobe.com] にリダイレクトされます。
 
@@ -88,7 +88,7 @@ Campaign の&#x200B;*テナント*&#x200B;は、Admin Console の製品ページ
 
 ## Experience Platform Launch {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Experience Platform Launch は、Admin Console の製品ページに表示されます。Launch 製品プロファイルには、他のソリューションやコアサービスを含めることができます。
+Experience Platform Launch は、Admin Console の製品ページに表示されます。起動製品プロファイルに他のソリューションやサービスを含めることができます。
 
 See [User Management](https://docs.adobelaunch.com/launch-reference/administration/user-permissions) for information about user permissions in the Admin Console and set up Launch-specific options, including assigning rights to profiles.
 
@@ -113,7 +113,7 @@ Audience Managerヘル [プの管理](https://docs.adobe.com/content/help/en/dtm
 1. [Admin Console](https://adminconsole.adobe.com/enterprise/) で「**[!UICONTROL 製品]**」をクリックします。
 1. 「**[!UICONTROL 新しいプロファイル]**」をクリックします。
 1. プロファイルの詳細を設定し、「**[!UICONTROL 次へ]**」をクリックします。
-1. **[!UICONTROL 完了]**をクリックします。
+1. **[!UICONTROL 完了]** をクリックします。
 
 詳しくは、以下のヘルプ情報を参照してください。
 
@@ -154,7 +154,7 @@ Admin Console では、組織内の他のユーザーに管理権限を制限付
 1. Admin Console で「**[!UICONTROL ユーザー]**」をクリックしてから、ユーザー名をクリックします。
 1. 「**[!UICONTROL 管理権限を編集]**」をクリックします。
 1. ユーザーの管理権限を設定します。
-1. 「**[!UICONTROL 次へ]**」をクリックして設定を確認し、「**[!UICONTROL &#x200B;保存]**」をクリックします。
+1. 「**[!UICONTROL 次へ]**」をクリックして設定を確認し、「**[!UICONTROL 保存]**」をクリックします。
 
 ## サポートされているブラウザーと必要システム構成 {#concept_CDC4371EB9BF433E9534F8716DC8A088}
 
@@ -168,7 +168,7 @@ Experience cloudでサポートされるブラウザーには、以下が含ま�
 * [!DNL Safari]
 * [!DNL Opera]
 
-**** 注意：Experience cloudインターフェイスはこれらのブラウザーをサポートしていますが、個々のソリューションがすべてのブラウザーをサポートしているわけではありません。 (例えば、 [Analyticsはサポートし](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) ません [!DNL Opera]。 [Targetはサポートしていま](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html)[!DNL Safari]せん。)
+**メモ：** Experience Cloud インターフェイスはこれらのブラウザーをサポートしていますが、個々のソリューションがすべてのブラウザーに対応しているわけではありません。（例えば、[Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) は [!DNL Opera] をサポートしておらず、[Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) は [!DNL Safari] をサポートしていません。）
 
 **ソリューションと製品の要件**
 
