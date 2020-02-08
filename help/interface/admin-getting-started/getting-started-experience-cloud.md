@@ -7,14 +7,14 @@ solution: Marketing Cloud
 title: ログインとプロファイル設定の管理
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
 
 ---
 
 
 # ログインとプロファイル設定の管理
 
-個別のソリューションではなく Experience Cloud にログインすることにより、所有しているすべてのソリューションおよびコアサービスへのシングルサインオンが可能となります。Experience Cloud へのログイン、パスワードおよび通知の管理、デフォルトのランディングページの指定について、それぞれの方法を説明します。
+（単一のソリューションにサインインするのではなく）Experience cloudにサインインすると、所有するすべてのソリューションおよびサービスに対するシングルサインオンが可能になります。 Experience Cloud へのログイン、パスワードおよび通知の管理、デフォルトのランディングページの指定について、それぞれの方法を説明します。
 
 <!-- t_sign_in.xml -->
 
