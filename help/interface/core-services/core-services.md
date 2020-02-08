@@ -62,7 +62,6 @@ Experience Cloud メニューナビゲーションに「**[!UICONTROL 管理]**�
 
 Experience Cloud にログインするには、次のことが必要です。
 
-
 1. Adobe ID を持っている。
 1. Sign in at [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
 1. エンタープライズグループにマッピングされているソリューショングループに属する。
