@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: よくある質問、制限事項、ベストプラクティス
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: f89a6c6704c9f499e6aa2ab38b2f5f9496ccdda5
+source-git-commit: e5bc3afea458d85421ab86ae87a65ebe4e88bb75
 
 ---
 
@@ -71,7 +71,7 @@ Analytics と Target の顧客属性に関してよくある質問とベスト�
      <ul id="ul_9C473434B5DA4C6299AAB209DEDFCDE7"> 
       <li id="li_8BC10EB2825F4ADF8CA61F71D4994A28"> <b>Adobe Analytics</b>：強く推奨されます。 </li> 
       <li id="li_56F518E3F3DF4C93B6F7EF3B40ACC52F"> <b>Adobe Target</b>：必要です。 </li> 
-     </ul> </p> <p>ID サービスを使用すると、リアルタイムオーディエンス、Target 最新化、Analytics 統合、ビデオハートビート追跡など、最新の Experience Cloud 機能を利用できる機会が広がります。 </p> <p>詳しくは、<a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> コアサービス - ソリューションを有効にする方法</a>を参照してください。 </p> <p> <b>メモ</b>：The <span class="term"> Experience Cloud ID サービス</span>は、以前<span class="term"> Analytics 訪問者 ID サービス</span>と呼ばれていたサービスの実装を最新化したものです。 </p> </td> 
+     </ul> </p> <p>ID サービスを使用すると、リアルタイムオーディエンス、Target 最新化、Analytics 統合、ビデオハートビート追跡など、最新の Experience Cloud 機能を利用できる機会が広がります。 </p> <p>詳しくは、<a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> コアサービス - ソリューションを有効にする方法</a>を参照してください。 </p> <p> <b>注意</b>:Experience Cloud IDサービス <span class="term"> は</span> 、以前の <span class="term"> Analytics訪問者IDサービスと呼ばれていた、最新の実装です</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>顧客属性機能と Adobe Audience Manager にはどのような関係がありますか。 </p> </td> 
@@ -111,5 +111,17 @@ Analytics と Target の顧客属性に関してよくある質問とベスト�
    <td colname="col2"> <p> Targetが公開および同期したレコードの数は、特定の属性ファイルに対して同期ステータスアイコンをクリックすると表示できます。 「同期%」は、Targetで同期されたプロファイルの%を指定するリアルタイム指標です。 </p> <p> <b></b> 注意：属性がTargetと同期されるまで、最大24時間かかる場合があります。 </p>
  </td> 
   </tr> 
- </tbody> 
+<tr>
+	<td colname="col1"> <p> 顧客属性ソースでは、ファイルのアップロード指標は何を表しますか。 </p> </td>
+	<td colname="col2"> <p> 次の指標を使用して、顧客属性にアップロードされた属性のステータスを確認できます。 </p>
+		<ul>
+			<li> <b> レコード：属 </b> 性ファイル内のレコード数。 </li>
+			<li> <b> 新しいレコード：属性 </b> ファイルに存在する新しいレコードの数。 </li>
+			<li> <b> 更新されたレコード：顧客属 </b> 性に既に存在し、ファイル内の値が更新されているレコードの数。 </li>
+			<li> <b> すべてのデータ（レコード）:顧客属 </b> 性に正常にアップロードされたレコードの合計数です。 </li>
+		</ul>
+	</td>
+</tr>
+
+</tbody> 
 </table>
