@@ -6,7 +6,7 @@ seo-title: Experience cloudユーザーとユーザーの詳細の表示
 solution: Experience Cloud
 title: 'Experience cloudユーザーとユーザーの詳細の表示 '
 translation-type: tm+mt
-source-git-commit: deb341153e980a003a818f51e417275974ea49e8
+source-git-commit: b2a3ead0bb616d87340aabca4113a4e3f9ed34bc
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: deb341153e980a003a818f51e417275974ea49e8
 | [!UICONTROL Email] | ユーザーに関連付けられている電子メールアドレス。 列の並べ替えはA->Z、Z->Aです。 |
 | [!UICONTROL ID Type] | ユーザーのアカウントのIDタイプ。 フィルターを適用して、特定のIDタイプを表示できます。 詳しく [は、「IDタイプの管理](https://helpx.adobe.com/enterprise/using/identity.html) 」を参照してください。 |
 | [!UICONTROL ソリューション] | ユーザーがアクセスできるExperience cloudソリューションの概要です。 特定のソリューションアクセス権を持つユーザーのリストを絞り込むために、フィルターを適用できます。 |
-| [!UICONTROL 最後のログイン] | Experience cloudへの最新のユーザーログインの日時。 この列は、昇順または降順で並べ替えることができます。 <br> **** 重要：最後のログインデータは日付値の30日前まで保持されないので、ユーザーは最後のログイン前後に何の情報も持っていないように見える場合があります。 [!UICONTROL (DATE)時点で] — ユーザーの最後のログインデータは365日間保持されます。 この情報を使用して、Experience cloudの現在のログインアクティビティを表示できますが、非アクティブなアカウントに対するアクションは実行できません。 また、最近作成したユーザーには、最後のログインステータスがない場合があります。 |
+| [!UICONTROL 最後のログイン] | Experience cloudへの最新のユーザーログインの日時。 この列は、昇順または降順で並べ替えることができます。 <br> **** 重要：2020年1月13日以降、ユーザーの最後のログインデータは365日間保持されます。 この情報は、Experience cloudの現在のログインアクティビティを示すためのものであり、2020年1月13日より前に非アクティブなアカウントに対してアクションを実行することをお勧めするものではありません。 |
 
 ## ユーザーリスト表示のカスタマイズ
 
