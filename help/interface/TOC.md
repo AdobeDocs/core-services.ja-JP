@@ -4,7 +4,7 @@ user-guide-title: Core Services User Guide
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 5212c12572bda2261b877f2033569cdb2eb90e27
+source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 ---
 
@@ -33,8 +33,8 @@ source-git-commit: 5212c12572bda2261b877f2033569cdb2eb90e27
    + [ブラウザー cookie のプライバシー設定の有効化](cookies/browser-cookie-settings.md)
    + [サードパーティ cookie のサポートに対する変更がお客様に及ぼす影響](cookies/cookies-thirdparty.md)
 + ユーザーおよび製品の管理 {#manage-users-and-products}
-   + [Experience Cloud ユーザーと製品の管理](admin-getting-started/admin-getting-started.md)
-   + [管理ツール](admin-getting-started/admin-tool-experience-cloud.md)
+   + [Experience cloudのユーザーと製品の管理（管理コンソール）](admin-getting-started/admin-getting-started.md)
+   + [Experience cloudユーザーの詳細を表示（管理ツール）](admin-getting-started/admin-tool-experience-cloud.md)
    + [よくある質問](admin-getting-started/faq.md)
    + [ログインとプロファイル設定の管理](admin-getting-started/getting-started-experience-cloud.md)
    + [組織とアカウントのリンク](admin-getting-started/organizations.md)
