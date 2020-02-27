@@ -1,13 +1,13 @@
 ---
 description: 検証プロセスでは、アップロードした属性（文字列、整数、数値など）に表示名と説明をマッピングできます。これらの設定に基づいてスキーマが作成されます。このスキーマは、このデータソースに今後アップロードされるすべてのデータの検証に使用されます。このマッピングプロセスによって元のデータが変更されることはありません。
-keywords: 顧客属性;コアサービス
+keywords: customer attributes;core services
 seo-description: 検証プロセスでは、アップロードした属性（文字列、整数、数値など）に表示名と説明をマッピングできます。これらの設定に基づいてスキーマが作成されます。このスキーマは、このデータソースに今後アップロードされるすべてのデータの検証に使用されます。このマッピングプロセスによって元のデータが変更されることはありません。
 seo-title: スキーマの検証
 solution: Experience Cloud
 title: スキーマの検証
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -32,11 +32,11 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 * **[!UICONTROL スキーマを表示 / 編集：]**&#x200B;次の手順で説明するように、表示名を属性データにマッピングします。
 
-* **[!UICONTROL FTP のセットアップ：]** [FTP を使用してデータをアップロードします](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)。
+* **[!UICONTROL FTP のセットアップ：]**[ FTP を使用してデータをアップロードします](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)。
 
 * **[!UICONTROL ID 検索：]**`.csv` から顧客 ID（CID）を入力して、その ID の Experience Cloud 情報を検索します。この機能は、訪問者に対して属性データが表示されない理由をトラブルシューティングするのに役立ちます。
 
-   * **[!UICONTROL MCID（Experience Cloud ID）：]**&#x200B;最新の Experience Cloud ID サービスを使用している場合に表示されます。MCID サービスを使用しているが、ここに ID がリストされない場合、Experience Cloud はその CID のエイリアスを受け取っていません。つまり、その訪問者がログインしていないか、実装がその ID を渡していません。
+   * **** MCID(Experience Cloud ID):最新のExperience Cloud IDサービスを使用している場合に表示されます。 MCID サービスを使用しているが、ここに ID がリストされない場合、Experience Cloud はその CID のエイリアスを受け取っていません。つまり、その訪問者がログインしていないか、実装がその ID を渡していません。
 
    * **[!UICONTROL CID（顧客 ID）：]**&#x200B;この CID と関連付けられている属性。prop または eVar を使用して CID（AVID）をアップロードし、属性は表示されるが AVID は表示されない場合は、訪問者がサイトにログインしていないことを意味します。
 
