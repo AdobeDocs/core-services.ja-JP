@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 顧客属性のデータファイルおよびデータソースについて
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -133,7 +133,7 @@ CSV ファイルは次の形式に準拠する必要があります。
   </tr> 
    <tr> 
    <td colname="col1"> <p>履歴データ </p> </td> 
-   <td colname="col2"> <p> 顧客属性は、基になる Analytics の訪問者プロファイルに結び付けられています。このため、顧客属性は、Analytics にその訪問者プロファイルが存在している間ずっと、訪問者に関連付けられます。これには、顧客が最初にログインする前の行動も含まれます。 </p> <p> Data Warehouse のバックフィル手法を使用している場合、データは Analytics ID（AID）に基づく post_visid_high/low に結び付けられます。Experience Cloud ID サービスを使用している場合、データは Experience Cloud ID（MID）に基づく post_visid_high/low に結び付けられます。 </p> </td> 
+   <td colname="col2"> <p> 顧客属性は、基になる Analytics の訪問者プロファイルに結び付けられています。このため、顧客属性は、Analytics にその訪問者プロファイルが存在している間ずっと、訪問者に関連付けられます。これには、顧客が最初にログインする前の行動も含まれます。 </p> <p> Data Warehouse のバックフィル手法を使用している場合、データは Analytics ID（AID）に基づく post_visid_high/low に結び付けられます。Experience Cloud IDサービスを使用している場合、データはExperience Cloud ID(MID)に基づくpost_visid_high/lowに結び付けられます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>データフィード </p> </td> 
@@ -162,6 +162,6 @@ Visitor.setCustomerIDs({
 
 （詳しくは、[顧客 ID および認証の状態](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)を参照してください。）
 
-**[!UICONTROL Experience Cloud]**／**[!UICONTROL People]**／**[!UICONTROL 顧客属性]**&#x200B;で：
+In the **[!UICONTROL Experience Cloud]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**:
 
 上記の顧客 ID に対応する一意のエイリアス ID を使用して、2 つの顧客属性ソースを作成します。この手法を使用すると、同じ参照 ID を複数の顧客属性ソースに送信できます。
