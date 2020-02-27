@@ -5,8 +5,9 @@ seo-description: Experience cloud管理ツールについて説明します。Ex
 seo-title: Experience cloudユーザーとユーザーの詳細の表示
 solution: Experience Cloud
 title: 'Experience cloudユーザーとユーザーの詳細の表示 '
+index: true
 translation-type: tm+mt
-source-git-commit: b2a3ead0bb616d87340aabca4113a4e3f9ed34bc
+source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 ---
 
@@ -15,11 +16,13 @@ source-git-commit: b2a3ead0bb616d87340aabca4113a4e3f9ed34bc
 
 管理者は、Experience cloud管理ツールを使用して、すべてのExperience cloudユーザーの並べ替え可能なフィルター可能なリストを表示できます。 各ユーザーの詳細ページには、ユーザーの製品アクセス、ロール、および最後にアクセスした情報に関する重要な詳細が含まれています。  
 
-1. Log in to <https://experience.adobe.com/>.
+1. Log in to `https://experience.adobe.com/.`
 
    ![](assets/admin-tool.png)
 
-1. Experience cloudホームで、管理ツールをクリ **[!UICONTROL ックします。]** (または、ホームページのURLでhomeを _admin_ に置き換 _えます_)。
+1. Experience cloudホームで、管理ツールをクリ **[!UICONTROL ックします。]**
+
+    (または、ホームページのURLでhomeを _admin_ に置き換 _えます_)。
 
    ユーザ [!UICONTROL ーページ] が表示されます。
 
