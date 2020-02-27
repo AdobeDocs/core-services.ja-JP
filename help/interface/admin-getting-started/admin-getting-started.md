@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Experience Cloud ユーザーと製品の管理
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
+source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 ---
 
@@ -88,7 +88,7 @@ Campaign の&#x200B;*テナント*&#x200B;は、Admin Console の製品ページ
 
 ## Experience Platform Launch {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Experience Platform Launch は、Admin Console の製品ページに表示されます。起動製品プロファイルに他のソリューションやサービスを含めることができます。
+エクスペリエンスプラットフォームの起動は、管理コンソールの製品ページに表示されます。 起動製品プロファイルに他のソリューションやサービスを含めることができます。
 
 See [User Management](https://docs.adobelaunch.com/launch-reference/administration/user-permissions) for information about user permissions in the Admin Console and set up Launch-specific options, including assigning rights to profiles.
 
@@ -168,7 +168,7 @@ Experience cloudでサポートされるブラウザーには、以下が含ま�
 * [!DNL Safari]
 * [!DNL Opera]
 
-**メモ：** Experience Cloud インターフェイスはこれらのブラウザーをサポートしていますが、個々のソリューションがすべてのブラウザーに対応しているわけではありません。（例えば、[Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) は [!DNL Opera] をサポートしておらず、[Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) は [!DNL Safari] をサポートしていません。）
+**メモ：** Experience Cloud インターフェイスはこれらのブラウザーをサポートしていますが、個々のソリューションがすべてのブラウザーに対応しているわけではありません（例えば、[Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) は [!DNL Opera] をサポートしておらず、[Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) は [!DNL Safari] をサポートしていません）。
 
 **ソリューションと製品の要件**
 
