@@ -1,7 +1,7 @@
 ---
-description: 管理コンソールへのサインイン、Experience cloudユーザー権限と製品プロファイルの管理、ブラウザーサポートについて説明します。
+description: 管理コンソールへのサインイン、Experience Cloudユーザー権限と製品プロファイルの管理、およびブラウザーサポートについて説明します。
 keywords: core services
-seo-description: 管理コンソールへのサインイン、Experience cloudユーザー権限と製品プロファイルの管理、ブラウザーサポートについて説明します。
+seo-description: 管理コンソールへのサインイン、Experience Cloudユーザー権限と製品プロファイルの管理、およびブラウザーサポートについて説明します。
 seo-title: Experience Cloud ユーザーと製品の管理
 solution: Experience Cloud
 title: Experience Cloud ユーザーと製品の管理
@@ -14,7 +14,7 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 # Experience Cloud ユーザーと製品の管理 {#topic_3FCB4099640647E3B2411ADBFCE81909}
 
-管理コンソールへのサインイン、Experience cloudユーザー権限と製品プロファイルの管理、ブラウザーサポートについて説明します。
+管理コンソールへのサインイン、Experience Cloudユーザー権限と製品プロファイルの管理、およびブラウザーサポートについて説明します。
 
 >[!IMPORTANT]
 >
@@ -84,7 +84,7 @@ Campaign の&#x200B;*テナント*&#x200B;は、Admin Console の製品ページ
 
 *セキュリティグループ*&#x200B;は製品プロファイルとして表示されます。
 
-セキュリテ [ィグループとセキュリティグループへのユーザーの割り当てについては](https://helpx.adobe.com/campaign/standard/administration/using/managing-groups-and-users.html) 、「グループとユーザーの管理」を参照してください。
+セキュリテ [ィグループとセキュリティグループへの](https://helpx.adobe.com/campaign/standard/administration/using/managing-groups-and-users.html) 「ユーザーの割り当て」の詳細は、「グループとユーザーの管理」を参照してください。
 
 ## Experience Platform Launch {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
@@ -102,7 +102,7 @@ See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/adm
 
 Audience Manager ユーザーを作成し、グループに割り当てます。制限（特性、セグメント、リンク先、AlgoModel）を表示することもできます。
 
-Audience Managerヘル [プの管理](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html) （英語のみ）を参照してください。
+Audience Managerヘル [プの](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html) 「管理」を参照してください。
 
 ## Experience Cloud 製品の管理 {#task_16335111C52D40E9BAC73D0699584DBF}
 
@@ -160,9 +160,9 @@ Admin Console では、組織内の他のユーザーに管理権限を制限付
 
 Experience Cloud でサポートされているブラウザーは次のとおりです。
 
-Experience cloudでサポートされるブラウザーには、以下が含まれます。
+Experience Cloudでサポートされるブラウザーには、次のものがあります。
 
-* [!DNL Microsoft Edge] (Microsoftは、 [Internet Explorer](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) 8、9および10のサポートを終了しました。 そのため、今後アドビでは、Internet Explorer のこれらのバージョンに対して報告された問題は修正しません）。
+* [!DNL Microsoft Edge] (Microsoftは、 [Internet Explorer](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) 8、9、10のサポートを終了しました。 そのため、今後アドビでは、Internet Explorer のこれらのバージョンに対して報告された問題は修正しません）。
 * [!DNL Google Chrome]
 * [!DNL Firefox]
 * [!DNL Safari]
