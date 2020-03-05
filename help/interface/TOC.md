@@ -11,7 +11,7 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 # コアサービスユーザーガイド {#interface}
 
-+ [Experience cloudおよびコアサービス製品ドキュメント](experience-cloud.md)
++ [Experience Cloudとコアサービス製品ドキュメント](experience-cloud.md)
 + コアサービスについて {#about-core-services}
    + [コアサービスの概要](core-services-landing.md)
    + [コアサービス向けにソリューションを有効化](core-services/core-services.md)
@@ -20,7 +20,7 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 + [Experience Cloud の統合](marketing-cloud-integrations.md)
 + Experience Cloud の cookie {#ec-cookies}
    + [Experience Cloud cookieの概要](cookies/cookies-privacy.md)
-   + [Experience cloudのファーストパーティcookie](cookies/cookies-first-party.md)
+   + [Experience Cloudのファーストパーティcookie](cookies/cookies-first-party.md)
    + [Analytics の cookie](cookies/cookies-analytics.md)
    + [Audience Manager の cookie](cookies/cookies-am.md)
    + [Data Connectors の cookie](cookies/cookies-dc.md)
@@ -33,8 +33,8 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
    + [ブラウザー cookie のプライバシー設定の有効化](cookies/browser-cookie-settings.md)
    + [サードパーティ cookie のサポートに対する変更がお客様に及ぼす影響](cookies/cookies-thirdparty.md)
 + ユーザーおよび製品の管理 {#manage-users-and-products}
-   + [Experience cloudのユーザーと製品の管理（管理コンソール）](admin-getting-started/admin-getting-started.md)
-   + [Experience cloudユーザーの詳細を表示（管理ツール）](admin-getting-started/admin-tool-experience-cloud.md)
+   + [Experience Cloudのユーザーと製品の管理（管理コンソール）](admin-getting-started/admin-getting-started.md)
+   + [Experience Cloudユーザーの詳細の表示（管理ツール）](admin-getting-started/admin-tool-experience-cloud.md)
    + [よくある質問](admin-getting-started/faq.md)
    + [ログインとプロファイル設定の管理](admin-getting-started/getting-started-experience-cloud.md)
    + [組織とアカウントのリンク](admin-getting-started/organizations.md)
@@ -46,7 +46,7 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
    + [Dynamic Tag Managerユーザーガイド](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
 + Experience Cloud assets {#assets}
-   + [Experience cloudアセットの概要](experience-cloud-assets/experience-cloud-assets.md)
+   + [Experience Cloudアセットの概要](experience-cloud-assets/experience-cloud-assets.md)
    + [Experience Cloud フォルダーおよびアセットの Creative Cloud との共有](experience-cloud-assets/creative-cloud.md)
    + [Creative Cloud ユーザーの管理](experience-cloud-assets/t-admin-add-cc-user.md)
    + [Experience Cloud アセットフォルダーの共有](experience-cloud-assets/t-share-creative-cloud.md)
@@ -55,11 +55,11 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
    + [共有フォルダーの同期の無効化](experience-cloud-assets/t-disable-asset-sync.md)
    + [アセットファイルを共有するための要件](experience-cloud-assets/assets-file-reqs.md)
    + [共有フォルダーの動作](experience-cloud-assets/asset-behavior.md)
-+ Experience cloudのオーディエンス {#audiences}
++ Experience Cloudのオーディエンス {#audiences}
    + [オーディエンスの概要](audience-library/audience-library.md)
    + [オーディエンスの作成](audience-library/t-audience-create.md)
    + [Analytics オーディエンスセグメントの公開](audience-library/t-publish-audience-segment.md)
-+ Experience cloudの顧客属性 {#customer-attributes}
++ Experience Cloudの顧客属性 {#customer-attributes}
    + [顧客属性の概要](attributes/attributes.md)
    + [よくある質問、制限事項、ベストプラクティス](attributes/faq-crs.md)
    + [顧客属性のデータファイルおよびデータソースについて](attributes/crs-data-file.md)
@@ -71,12 +71,12 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
    + [プライバシーに関する配慮 - 顧客属性](attributes/privacy-mac.md)
 + オファーの管理 {#offer-management}
    + [オファー管理の概要](offer-management/getting-started.md)
-   + [オファー管理ワークフロー](offer-management/offer-management-workflow.md)
+   + [オファー管理のワークフロー](offer-management/offer-management-workflow.md)
    + [オファー](offer-management/offers.md)
    + [ラベル](offer-management/labels.md)
    + [プレースメント](offer-management/placements.md)
    + [Campaign](offer-management/campaign.md)
-+ Experience cloudのリリースノート {#release-notes}
++ Experience Cloudのリリースノート {#release-notes}
    + [Experience Cloud の新機能](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
    + [累積リリースノート](marketing-cloud-interface/release-notes.md)
 + [Exchange Marketplace](exchange.md)
