@@ -61,7 +61,7 @@ Analytics での作業を開始するには、以下の手順に従います。
 1. [Adobe Analytics 使用の手引き](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html)で説明されている手順に従い、最初の Analytics レポートスイート（データリポジトリ）を作成します。
 1. 次に、 [Experience Platform Launchを使用してAnalyticsコードを導入します](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html)。
 
-エクスペリエンスプラットフォームの起動は、次世代のタグ管理で、すべての分析、マーケティングおよび広告タグをシンプルに導入および管理できます。
+エクスペリエンスプラットフォームの起動は、次世代のタグ管理で、すべてのAnalytics、マーケティングおよび広告タグを簡単に導入および管理できます。
 
 関連トピック:
 
@@ -114,8 +114,8 @@ Adobe Primetime は、オーディエンス向けにパーソナライズされ�
 | [Activation](activation/activation.md) | tag managementシステム（エクスペリエンスプラットフォームの起動とDynamic Tag Management）。<br>Triggers を使用すると、Adobe Campaign で Adobe Analytics のインサイトに基づいてリアルタイムでアクションを実行できます。 |
 | [管理](admin-getting-started/admin-getting-started.md) | アドビが提供するすべてのクラウドとソリューションにわたってユーザーと製品使用権限を管理します。 |
 | [Assets](experience-cloud-assets/experience-cloud-assets.md) | すべてのデジタルアセットの保存、同期、共有を一元的に容易におこなうことで、時間を節約して、より一貫したカスタマーエクスペリエンスを提供します。 |
-| [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) |  Launch は、アドビが提供する次世代タグ管理機能です。Launch は、顧客体験の実現に必要なすべての分析、マーケティングおよび広告のタグをデプロイおよび管理するためのシンプルな手段を提供します。 |
-| [旅のオーケストレーション](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) | イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築します。 [!UICONTROL Jargeny Orchestrationは] 、Experience Platformと統合されたアプリケーションサービスです。 |
+| [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) |  Launch は、アドビが提供する次世代タグ管理機能です。 Launch は、顧客体験の実現に必要なすべての分析、マーケティングおよび広告のタグをデプロイおよび管理するためのシンプルな手段を提供します。 |
+| [旅のオーケストレーション](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) | イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムのオーケストレーションの使用例を構築します。 [!UICONTROL Jargeny Orchestrationは] 、Experience Platformと統合されたアプリケーションサービスです。 |
 | [ロケーションサービス](https://docs.adobe.com/content/help/en/places/using/home.html) | Adobe Experience Platform Location Service(Location Service)は、場所を認識するモバイルアプリで、柔軟な目標地点(POI)データベースを含む豊富で使いやすいSDKインターフェイスを使用して、場所のコンテキストを理解できるようにする地域サービスです。 |
 | オファー | オファー管理では、Experience Cloud のすべてのチャネルでオファーの作成、管理および決定をおこなえます。 |
 | [Exchange](exchange.md) | アプリを介して、Digital Marketing の機能強化の検索、参照、選択、支払いおよびダウンロードをおこないます。 |
