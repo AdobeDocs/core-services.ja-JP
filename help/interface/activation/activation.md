@@ -40,7 +40,7 @@ Dynamic Tag Management の使用を開始するには、「**[!UICONTROL Activat
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external">Experience Cloud ID サービスの導入ガイド </a> </p> </td> 
-   <td colname="col2"> <p>Experience Cloud IDサービスは、Experience cloudソリューション全体（顧客属性、オーディエンス共有、トリガーなど）のコア機能を有効にします。 ID サービスを実装して、これらの機能を活用することを強くお勧めします。 </p> </td> 
+   <td colname="col2"> <p>Experience Cloud IDサービスは、Experience Cloudソリューション（顧客属性、オーディエンス共有、トリガーなど）全体のコア機能を有効にします。 ID サービスを実装して、これらの機能を活用することを強くお勧めします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html" format="https" scope="external"> Dynamic Tag Management 製品ドキュメント </a> </p> </td> 
@@ -69,7 +69,7 @@ Dynamic Tag Management の導入に関して不明点がある場合は、Adobe 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Adobe Campaign での Triggers の使用 </p> </td> 
-   <td colname="col2"> <p> Adobe Campaign Standard 16.7では、新しいTriggerサービスとの統合が導入されています。 このサービスを使用すると、ビジネスユーザーは、Adobe Analyticsでキャプチャされたオンライン行動データに基づいてトリガーを簡単に定義できます。 トリガーを定義すれば、Adobe Campaign で使用して、エンゲージメントおよびコンバージョンを推進するリマーケティングメッセージをサポートできます。そのまま使用できるこの新機能によって、マーケターは、買い物かごの放棄、ページビュー、ビデオの視聴などのオンラインイベントに基づいて、適切なタイミングでリマーケティングメッセージをトリガーできます。 </p> </td> 
+   <td colname="col2"> <p> Adobe Campaign Standard 16.7では、新しいTriggerサービスとの統合が導入されています。 このサービスを使用すると、ビジネスユーザーは、Adobe Analyticsで取り込まれたオンライン行動データに基づいてトリガーを簡単に定義できます。 トリガーを定義すれば、Adobe Campaign で使用して、エンゲージメントおよびコンバージョンを推進するリマーケティングメッセージをサポートできます。そのまま使用できるこの新機能によって、マーケターは、買い物かごの放棄、ページビュー、ビデオの視聴などのオンラインイベントに基づいて、適切なタイミングでリマーケティングメッセージをトリガーできます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,4 +79,4 @@ Dynamic Tag Management の導入に関して不明点がある場合は、Adobe 
 
 Chrome 用 Adobe Experience Cloud Debugger 拡張機能は Web ページを調べ、ユーザーが Experience Cloud ソリューションの実装方法に関する問題を見つけられるようサポートします。
 
-ヘルプに [ついては、Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html) （Experience cloudデバッガー）を参照してください。
+ヘルプにつ [いては、Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html) （Experience Cloudデバッガー）を参照してください。
