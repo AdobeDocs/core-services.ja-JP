@@ -116,7 +116,7 @@ Experience Cloud ソリューションや他の外部システムのデータを
 
 Experience Cloud Activation ソリューションを使用して、Experience Cloud ソリューションの設定とデバッグをおこないます。
 
-1. Use [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) or [Dynamic Tag Management](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) to insert code that activates [Adobe Experience Cloud solutions](solutions-core-services.md#topic_BD726D3A649E4FC49063029E86B70C62) on your pages.
+1. [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) または [Dynamic Tag Management](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) を使用して、 [](solutions-core-services.md#topic_BD726D3A649E4FC49063029E86B70C62) Adobe Experience Cloudソリューションをページ上でアクティブにするコードを挿入します。
 1. [Adobe Cloud Platform Auditor](https://docs.adobe.com/content/help/en/auditor/using/overview.html) を使用して実装をテストします。
 
 Adobe Experience Cloud Debugger 拡張機能を使用して、Auditor によって検出された問題をデバッグしたり、実装に関する他の情報を調べたりします。
