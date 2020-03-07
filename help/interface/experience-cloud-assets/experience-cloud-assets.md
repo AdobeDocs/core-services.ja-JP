@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Assets
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
+source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
 
 ---
 
@@ -35,7 +35,6 @@ Experience Cloud Assets は、ソリューション全体で共有できるマ�
 * [アセットを編集する](../experience-cloud-assets/experience-cloud-assets.md#section_CD3C55A9D4574455B94D0955391C8FEC)
 * [アセットを検索する](../experience-cloud-assets/experience-cloud-assets.md#section_50FE049010B446FC9640AA6A30E5A730)
 * [アセットに注釈を付ける](../experience-cloud-assets/experience-cloud-assets.md#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A)
-* [アセットをフィードと共有する](../experience-cloud-assets/experience-cloud-assets.md#section_2CD53A99600D4A3D9AA82C3CDA666E6B)
 * [アセットをフルスクリーン表示、ズームする](../experience-cloud-assets/experience-cloud-assets.md#section_A9F50D7D6BE341A2AB8244A4E42A4EF7)
 * [アセットプロパティを表示する](../experience-cloud-assets/experience-cloud-assets.md#section_FED28711DAB14E1BBEEA7CA890EE9573)
 * [使用状況レポートを実行する](../experience-cloud-assets/experience-cloud-assets.md#section_15D782FFB8D74CF4A735116CC03AD902)
@@ -75,19 +74,9 @@ Experience Cloud Assets は、ソリューション全体で共有できるマ�
 
 ![](assets/assets-annotate.png)
 
-<!-- ## Share an asset to your feed {#section_2CD53A99600D4A3D9AA82C3CDA666E6B}
-
-**Experience Cloud Feed will no longer be supported starting Nov 01, 2019 and shall be deprecated by Dec, 2019.**
-
-Click **[!UICONTROL Share]** from the toolbar to share the asset as [feed](../feed.md#concept_9256B8768A294009A777282DD8719213) to other Experience Cloud users. 
-
-![](assets/assets-share-card.png) 
-
-Sharing displays the image on your Feed page and with whomever you have shared the card.  -->
-
 ## アセットをフルスクリーン表示、ズームする {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-**[!UICONTROL 表示]**／**[!UICONTROL &#x200B;画像]**をクリックして、アセット画像全体を表示し、ズームを有効にします。
+**[!UICONTROL 表示]**／**[!UICONTROL 画像]**&#x200B;をクリックして、アセット画像全体を表示し、ズームを有効にします。
 
 ![](assets/asset-zoom.png)
 
@@ -95,7 +84,7 @@ Sharing displays the image on your Feed page and with whomever you have shared t
 
 プロパティ付きのカードビュー、リストビューおよび列ビューのいずれかを選択して、アセットをより容易に見つけることができます。
 
-**[!UICONTROL ビュー]**／**[!UICONTROL &#x200B;プロパティ]**をクリックして、アセットのプロパティを表示します。
+**[!UICONTROL ビュー]**／**[!UICONTROL プロパティ]**&#x200B;をクリックして、アセットのプロパティを表示します。
 
 ![](assets/asset-properties.png)
 
@@ -103,6 +92,6 @@ Sharing displays the image on your Feed page and with whomever you have shared t
 
 ユーザー数、使用されているストレージおよびアセット合計数を表示します。
 
-**[!UICONTROL ツール]**／**[!UICONTROL &#x200B;レポート]**／**[!UICONTROL 使用状況レポート]**をクリックします。
+**[!UICONTROL ツール]**／**[!UICONTROL レポート]**／**[!UICONTROL 使用状況レポート]**&#x200B;をクリックします。
 
 ![](assets/assets-usage-report.png)
