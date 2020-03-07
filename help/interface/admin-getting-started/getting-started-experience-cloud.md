@@ -7,14 +7,14 @@ solution: Marketing Cloud
 title: ログインとプロファイル設定の管理
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
+source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
 
 ---
 
 
 # ログインとプロファイル設定の管理
 
-（単一のソリューションにサインインするのではなく）Experience cloudにサインインすると、所有するすべてのソリューションおよびサービスに対するシングルサインオンが可能になります。 Experience Cloud へのログイン、パスワードおよび通知の管理、デフォルトのランディングページの指定について、それぞれの方法を説明します。
+（単一のソリューションにサインインする代わりに）Experience Cloudにサインインすると、お客様が所有するすべてのソリューションおよびサービスに対するシングルサインオンが可能になります。 Experience Cloud へのログイン、パスワードおよび通知の管理、デフォルトのランディングページの指定について、それぞれの方法を説明します。
 
 <!-- t_sign_in.xml -->
 
@@ -63,7 +63,7 @@ Experience Cloud での非管理者ユーザーのログインに関するヘル
 
    Experience Cloud 管理者に問い合わせてアカウントのタイプ（Adobe ID または Enterprise ID）を確認してください。
 
-1. フィードページ（またはデフォルトのランディングページ）で、セレクターアイコン（![](assets/menu-icon.png)）をクリックしてプルダウンメニューにアクセスします。
+1. ランディングページで、セレクターアイコンをクリッ ![](assets/menu-icon.png) クして、プルダウンメニューにアクセスします。
 
    ![](assets/experience-cloud-core-services.png)
 
