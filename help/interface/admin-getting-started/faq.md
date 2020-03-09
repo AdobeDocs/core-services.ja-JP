@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: よくある質問
 uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
 translation-type: tm+mt
-source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
+source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
 
 ---
 
@@ -20,7 +20,6 @@ Experience Cloud 管理者向けのよくある質問と回答です。
 
 コアサービスのプロビジョニングがまだおこなわれていない場合は、以下の方法について説明した[コアサービス向けにソリューションを有効化](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)を参照してください。
 
-
 1. [Experience Cloud に加入して管理者になる](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Dynamic Tag Manager](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) (または新しいExperience Platform Launch [](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html))を使用したExperience Cloud IDサービスの実装
 1. [レポートスイートを Experience Cloud 組織にマッピングする](../core-services/core-services.md#concept_apg_zq2_rw)
@@ -29,9 +28,6 @@ Experience Cloud 管理者向けのよくある質問と回答です。
 1. [コアサービスの実装を確認する](../core-services/core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [ユーザーと製品を管理する](../core-services/core-services.md#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
 1. [コアサービスの使用を開始する](../core-services/core-services.md#section_960C06093623462E8EA247B3E97274A1)
-
-
-
 
 さらにサポートが必要な場合は、[アドビサポートにお問い合わせください](https://helpx.adobe.com/marketing-cloud/contact-support.html)。
 
@@ -47,7 +43,7 @@ Experience Cloud インターフェイスが提供する機能は、ビジネス
 
 [アドビサポートに問い合わせてください](https://helpx.adobe.com/marketing-cloud/contact-support.html)。
 
-***`provisioning`*?**
+**プロビジョニン&#x200B;_グとは_**
 
 Experience Cloud でのプロビジョニングには次のような利点があります。
 
