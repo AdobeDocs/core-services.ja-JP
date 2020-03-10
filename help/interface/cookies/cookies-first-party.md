@@ -8,7 +8,7 @@ title: ファーストパーティ cookie
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 620bd7a749080356913ab56a2fca9f4049276938
+source-git-commit: edbe58ffbaeadd2e223ef1567ec9060ab4073f1e
 
 ---
 
@@ -26,7 +26,7 @@ Analytics は、イメージリクエストとブラウザーセッション間�
 
 Experience Cloud IDサービスで最初のオプションを使用する場合でも、AppleのITPではファーストパーティcookieが短時間のみ有効となるので、2番目のオプションと組み合わせて使用すると最適です。
 
-CNAMEを使用する2番目のオプションでは、サイトにプロトコルを使用したセキュリティで保護されたページがある場合、ファーストパーティcookieを実装するために、アドビと協力してSSL証明書を取得できます。 `https:` 2020年後半にHTTP収集のサポートを終了する予定なので、データ収集にはHTTPSのみを使用することを強くお勧めします。
+CNAMEを使用する2つ目のオプションでは、サイトにHTTPSプロトコルを使用したセキュリティで保護されたページがある場合、ファーストパーティcookieを実装するために、アドビと協力してSSL証明書を取得できます。 2020年後半にHTTP収集のサポートを終了する予定なので、データ収集にはHTTPSのみを使用することを強くお勧めします。
 
 SSL 証明書の発行プロセスは、多くの場合、わかりにくく、時間がかかる可能性があります。結果として、アドビは、業界最先端の証明機関（CA）である DigiCert とのパートナーシップを構築し、これらの証明書の購入および管理を自動化する統合プロセスを策定しました。
 
@@ -44,13 +44,21 @@ Adobe Managed Certificate Program を利用すると、ファーストパーテ�
 
 1. [ファーストパーティ cookie リクエストフォーム](/help/interface/cookies/assets/FPC_Request_Form.xlsx)に入力して、チケットを開き、Adobe Managed プログラムでファーストパーティ cookie の設定をカスタマーケアにリクエストします。例が記載されたフォーム内の各フィールドに記入します。
 
-1. CNAME レコードを作成します（以下の手順を参照）。チケットを受け取ったら、カスタマーケア担当者からCNAMEレコードのペアが提供されます。 これらのレコードは、アドビが代理で証明書を購入する前に、会社の DNS サーバーで設定される必要があります。CNAME は次のようになります。**セキュア** - 例えば、ホスト名 `smetrics.example.com` が`example.com.ssl.d1.omtrdc.net` を指します。**非セキュア** - 例えば、ホスト名 `metrics.example.com` が `example.com.d1.omtrdc.net` を指します。
+1. CNAME レコードを作成します（以下の手順を参照）。
 
-1. これらの CNAME が設定されると、アドビは DigiCert と連携して証明書を購入し、アドビの実稼動サーバーにインストールします。既存の実装がある場合、既存の訪問者を維持するために、訪問者の移行を検討する必要があります。証明書がアドビの実稼動環境にプッシュされてライブになると、トラッキングサーバー変数を新しいホスト名に更新できます。つまり、サイトが安全（https）でない場合、`s.trackingServer` を更新します。サイトが安全（https）な場合、`s.trackingServer` と `s.trackingServerSecure` の両方の変数を更新します。
+   チケットを受け取ったら、カスタマーケア担当者からCNAMEレコードのペアが提供されます。 これらのレコードは、アドビが代理で証明書を購入する前に、会社の DNS サーバーで設定される必要があります。CNAMESは次のようになります。
 
-1. ホスト名転送の検証（以下を参照）
+   **セキュア** — 例えば、ホスト名は次を指 `smetrics.example.com` し示します。 `example.com.ssl.d1.omtrdc.net`.
 
-1. 実装コードを更新します（以下を参照）。
+   **非セキュア** - 例えば、ホスト名 `metrics.example.com` が `example.com.d1.omtrdc.net` を指します。
+
+1. これらの CNAME が設定されると、アドビは DigiCert と連携して証明書を購入し、アドビの実稼動サーバーにインストールします。
+
+   既存の導入環境がある場合は、既存の訪問者を維持するために訪問者の移行を検討する必要があります。 証明書がアドビの実稼働環境にプッシュされた後、トラッキングサーバー変数を新しいホスト名に更新できます。 Meaning, if the site is not secure (HTTP), update the `s.trackingServer`. If the site is secure (HTTPS), update both `s.trackingServer` and `s.trackingServerSecure` variables.
+
+1. [ホスト名転送の検証](#validate) （以下を参照）。
+
+1. [導入コードの更新](#update) （以下を参照）。
 
 ### メンテナンスと更新
 
@@ -79,47 +87,36 @@ FPC スペシャリストから、設定されたホスト名とホスト名で�
 
 実装コードが変更されない限り、この手順がデータ収集に影響を及ぼすことはなく、実装コードの更新後はいつでもおこなうことができます。
 
->[!N注意：] Experience Cloud訪問者IDサービスは、ファーストパーティcookieを有効にするCNAMEの設定の代わりに使用できますが、Apple ITPの最近の変更により、Experience Cloud IDサービスを使用している場合でも、CNAMEを割り当てることをお勧めします。
+>[!N注意：]
+>Experience Cloud訪問者IDサービスは、ファーストパーティcookieを有効にするCNAMEの設定の代わりに使用できますが、Apple ITPの最近の変更により、Experience Cloud IDサービスを使用している場合でも、CNAMEを割り当てることをお勧めします。
 
-## ホスト名転送の検証
+## ホスト名転送の検証 {#validate}
 
-ブラウザで、をクリックしま <https://sstats.adobe.com/_check>す。
+ホスト名は、を使用して検証できま <https://sstats.adobe.com/_check>す。 CNAMEが設定され、証明書がインストールされている場合は、ブラウザーを使用して検証を行うことができます。 ただし、証明書がインストールされていない場合は、セキュリティ警告が表示されます。
 
-戻ってきたはず `SUCCESS` です。 証明書が購入されていない場合は、エラーが表示されます。
+**カールを使用して検証**
 
-検証用のコマンドラ [!DNL curl] インツールとしても使用できます。
+アドビでは、コマンドラ [!DNL curl] インからを使用することをお勧めします。 (Windowsを使用している場合は、次の場所からインストールする必要があ [!DNL curl] ります。 <https://curl.haxx.se/windows/>)
 
-1. を使用する場合は、 [!DNL Windows]curl (<https://curl.haxx.se/windows/>)をインストールします。
-1. CNAMEに引き続き証明書が必要な場合は、コマンドラ `curl -k https://sstats.adobe.com/_check` インに入力します。
-1. 証明書が完成した場合は、と入力しま `curl https://sstats.adobe.com/_check`す。
+CNAMEをお持ちで、証明書がインストールされていない場合は、次を実行します。`curl -k https://sstats.adobe.com/_check`回答： `SUCCESS`
 
-戻ってきたはず `SUCCESS` です。
+(**注意：** この値によ `-k` り、セキュリティ警告が無効になります)。
 
-<!-- ## Ping the hostname
+CNAMEが設定され、証明書がインストールされている場合は、次の手順を実行します。`curl https://sstats.adobe.com/_check`回答：成功
 
-Ping the hostname to ensure correct forwarding. All hostnames must respond to a ping to prevent data loss.
+**nslookupを使用した検証**
 
-After CNAME records are properly configured, and Adobe has confirmed installation of the certificate, open a command prompt and ping your hostname(s). Using `mysite.com` as an example: `ping metrics.mysite.com`
+nslookupを使用して検証できます。 `mysite.com` を使用すると、 のようになります。
 
-If everything is successfully set up, it will return something similar to the following:
+コマンドプロンプトを開き、 `nslookup metrics.mysite.com`
 
-```Pinging mysite.com.112.2o7.net [66.235.132.232] with 32 bytes of data:
-Reply from 66.235.132.232: bytes=32 time=19ms TTL=246
-Reply from 66.235.132.232: bytes=32 time=19ms TTL=246
-Reply from 66.235.132.232: bytes=32 time=19ms TTL=246
-Reply from 66.235.132.232: bytes=32 time=19ms TTL=246
+すべてが正常に設定された場合は、次のようなリターンが表示されます。
 
-Ping statistics for 66.235.132.232: Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
-Approximate round trip times in milli-seconds: Minimum = 19ms, Maximum = 19ms, Average = 19ms
-```
+nslookup metrics.mysite.comServer: hiodsibxvip01.corp.adobe.comAddress: 10.50.112.247
 
-If the CNAME records are not correctly set up or not active, it will return the following:
+権限のない回答：名前：   metrics.mysite.comAddress: 64.136.20.37
 
-`Ping request could not find the host. Please check the name and try again.`
-
->[!Note:] If you are using `https:// protocol`, ping will only respond after the upload date specified by the FPC specialist. In addition, be sure to ping the secure hostname and non-secure hostname to ensure that both are working correctly before updating your implementation. -->
-
-## 実装コードの更新
+## 実装コードの更新 {#update}
 
 サイトのコードを編集してファーストパーティ cookie を使用できるようにする前に、次の前提条件を満たします。
 
