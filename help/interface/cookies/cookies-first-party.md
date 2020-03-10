@@ -8,29 +8,29 @@ title: ファーストパーティ cookie
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
+source-git-commit: 620bd7a749080356913ab56a2fca9f4049276938
 
 ---
 
 
 # ファーストパーティ cookie について
 
-Analytics は、イメージリクエストとブラウザーセッション間で保持されない変数およびコンポーネントの情報を提供するために、cookie を使用します。アドビがホストするドメインから発生するこれらの無害なcookieは、サードパーティcookieと呼ばれます。
+Analytics は、イメージリクエストとブラウザーセッション間で保持されない変数およびコンポーネントの情報を提供するために、cookie を使用します。アドビがホストするドメインから発行されるこれらの無害なcookieは、サードパーティcookieと呼ばれます。
 
 ブラウザーやスパイウェア駆除アプリケーションの多くは、サードパーティ cookie を拒否し、削除するよう設計されています。この cookie には、Analytics のデータ収集で使用される cookie も含まれます。訪問者のWebサイトとの関わり方の追跡をサポートするには、ファーストパーティcookieを実装します。
 
-ファーストパーティcookieを実装するには、次の2つのオプションを使用できます。
+ファーストパーティcookieの実装には、次の2つのオプションを使用できます。
 
 * Experience Platform ID サービス。この ID サービスは、JavaScript を使用してファーストパーティコンテキストに cookie を設定できます。
-* アドビがホストするドメインにCNAMEエイリアスを設定するための、会社のDNSサーバー上のDNSエントリ。 様々なアドビ製品がCNAMEの使用をサポートしていますが、すべての場合、CNAMEは特定の顧客の信頼できるファーストパーティエンドポイントを作成するために使用され、その顧客が所有します。 顧客が複数のドメインを制御する場合は、1つのCNAMEエンドポイントを使用してドメイン間でユーザーを追跡できますが、CNAMEのドメイン外のすべてのドメインにサードパーティcookieが必要なので、サードパーティcookieがブロックされても機能しません。 Adobe CNAMEを使用して、異なる顧客が所有するドメイン間で個々のCNAMEやデバイスを追跡することはありません。
+* アドビがホストするドメインにCNAMEエイリアスを設定するための、会社のDNSサーバー上のDNSエントリ。 様々なアドビ製品がCNAMEの使用をサポートしていますが、すべての場合、CNAMEは特定の顧客の信頼できるファーストパーティエンドポイントの作成に使用され、その顧客が所有します。 顧客が複数のドメインを管理する場合、1つのCNAMEエンドポイントを使用してドメイン間でユーザーを追跡できますが、CNAMEのドメイン外のすべてのドメインにサードパーティcookieが必要なので、サードパーティcookieがブロックされても機能しないのでお勧めしません。 Adobe CNAMEは、異なる顧客が所有するドメイン間で個々のCNAMEやデバイスを追跡するためには使用されません。
 
-Experience Cloud IDサービスで最初のオプションを使用する場合でも、AppleのITPはファーストパーティcookieを短時間のみ有効にするので、2番目のオプションと組み合わせて使用すると最適です。
+Experience Cloud IDサービスで最初のオプションを使用する場合でも、AppleのITPではファーストパーティcookieが短時間のみ有効となるので、2番目のオプションと組み合わせて使用すると最適です。
 
-CNAMEを使用する2つ目の方法では、サイトにプロトコルを使用したセキュリティで保護されたページがある場合、ファーストパーティcookieを実装するために、アドビと協力してSSL証明書を取得できます。 `https:` 2020年後半にHTTP収集のサポートを終了する予定なので、データ収集にはHTTPSのみを使用することを強くお勧めします。
+CNAMEを使用する2番目のオプションでは、サイトにプロトコルを使用したセキュリティで保護されたページがある場合、ファーストパーティcookieを実装するために、アドビと協力してSSL証明書を取得できます。 `https:` 2020年後半にHTTP収集のサポートを終了する予定なので、データ収集にはHTTPSのみを使用することを強くお勧めします。
 
 SSL 証明書の発行プロセスは、多くの場合、わかりにくく、時間がかかる可能性があります。結果として、アドビは、業界最先端の証明機関（CA）である DigiCert とのパートナーシップを構築し、これらの証明書の購入および管理を自動化する統合プロセスを策定しました。
 
-お客様の権限を使用して、アドビは CA と連携し、お客様用に新しい SHA-2 SSL 証明書を発行、デプロイおよび管理します。アドビはこの証明書を引き続き管理し、予期しない有効期限切れ、失効またはセキュリティ上の問題が発生した場合でも、組織のセキュアコレクションの可用性を脅かさないようにします。
+お客様の権限を使用して、アドビは CA と連携し、お客様用に新しい SHA-2 SSL 証明書を発行、デプロイおよび管理します。アドビはこの証明書を引き続き管理し、予期しない有効期限切れ、失効、またはセキュリティ上の問題が発生した場合でも、組織のセキュアコレクションの可用性を脅かさないようにします。
 
 ## Adobe Managed Certificate Program
 
@@ -48,13 +48,13 @@ Adobe Managed Certificate Program を利用すると、ファーストパーテ�
 
 1. これらの CNAME が設定されると、アドビは DigiCert と連携して証明書を購入し、アドビの実稼動サーバーにインストールします。既存の実装がある場合、既存の訪問者を維持するために、訪問者の移行を検討する必要があります。証明書がアドビの実稼動環境にプッシュされてライブになると、トラッキングサーバー変数を新しいホスト名に更新できます。つまり、サイトが安全（https）でない場合、`s.trackingServer` を更新します。サイトが安全（https）な場合、`s.trackingServer` と `s.trackingServerSecure` の両方の変数を更新します。
 
-1. ホスト名を ping します（以下を参照）。
+1. ホスト名転送の検証（以下を参照）
 
 1. 実装コードを更新します（以下を参照）。
 
 ### メンテナンスと更新
 
-SSL 証明書は毎年期限が切れます。つまり、アドビは毎年、各実装用に新しい証明書を購入する必要があります。組織内のすべてのサポート対象ユーザーは、実装の有効期限が近づくたびに電子メール通知を受け取ります。アドビがホスト名を更新するには、サポート対象ユーザーの1人がアドビからの電子メールに返信し、有効期限が切れるホスト名をデータ収集に引き続き使用する予定であることを示す必要があります。 その時点で、アドビは自動的に新しい証明書を購入およびインストールします。
+SSL 証明書は毎年期限が切れます。つまり、アドビは毎年、各実装用に新しい証明書を購入する必要があります。組織内のすべてのサポート対象ユーザーは、実装の有効期限が近づくたびに電子メール通知を受け取ります。アドビがホスト名を更新するには、サポート対象ユーザーの1人がアドビからの電子メールに返信し、データ収集用に有効期限切れのホスト名を引き続き使用する予定であることを示す必要があります。 その時点で、アドビは自動的に新しい証明書を購入およびインストールします。
 
 ### よくある質問
 
@@ -64,7 +64,7 @@ SSL 証明書は毎年期限が切れます。つまり、アドビは毎年、�
 | **ドメイン用の証明書をアドビはどのようにしたら購入できますか？** | 証明書は、特定のホスト名（例えば、smetrics.example.com）がアドビが所有するホスト名を指すようにお客様が指定する際にのみ、購入できます。これは、基本的に、このホスト名をアドビに委任し、アドビが代理で証明書を購入することを許可するということです。 |
 | **証明書の失効を要求できますか？** | はい、ドメインの所有者として、お客様はアドビに証明書の失効を要求する資格があります。必要なのは、チケットを開いてカスタマーケアにこれの実行を依頼するだけです。 |
 | **この証明書は SHA-2 暗号化を使用しますか？** | はい、アドビは DigiCert と連携して SHA-2 証明書を発行します。 |
-| **追加費用が発生しますか？** | いいえ。アドビは、現在のAdobe Digital Experienceのすべてのお客様に対して、追加費用なしでこのサービスを提供しています。 |
+| **追加費用が発生しますか？** | いいえ。アドビは、現在のすべてのAdobe Digital Experienceのお客様に対し、追加費用なしで本サービスを提供しています。 |
 
 ## CNAME レコードの作成
 
@@ -79,15 +79,29 @@ FPC スペシャリストから、設定されたホスト名とホスト名で�
 
 実装コードが変更されない限り、この手順がデータ収集に影響を及ぼすことはなく、実装コードの更新後はいつでもおこなうことができます。
 
->[!N] 注意：Experience cloud訪問者IDサービスは、ファーストパーティcookieを有効にするCNAMEを設定する代わりに使用できますが、Apple ITPの最近の変更により、Experience Cloud IDサービスを使用する場合でもCNAMEを割り当てることをお勧めします。
+>[!N注意：] Experience Cloud訪問者IDサービスは、ファーストパーティcookieを有効にするCNAMEの設定の代わりに使用できますが、Apple ITPの最近の変更により、Experience Cloud IDサービスを使用している場合でも、CNAMEを割り当てることをお勧めします。
 
-## ホスト名の ping
+## ホスト名転送の検証
 
-ホスト名を ping して、正しく転送していることを確認します。すべてのホスト名は、データ損失を避けるために ping に応答する必要があります。
+ブラウザで、をクリックしま <https://sstats.adobe.com/_check>す。
 
-CNAME レコードが適切に設定され、アドビが証明書のインストールを確認したら、コマンドプロンプトを開いてホスト名を ping します。`mysite.com` を使用すると、`ping metrics.mysite.com` のようになります。
+戻ってきたはず `SUCCESS` です。 証明書が購入されていない場合は、エラーが表示されます。
 
-すべてが正しく設定されていれば、次のような応答が返されます。
+検証用のコマンドラ [!DNL curl] インツールとしても使用できます。
+
+1. を使用する場合は、 [!DNL Windows]curl (<https://curl.haxx.se/windows/>)をインストールします。
+1. CNAMEに引き続き証明書が必要な場合は、コマンドラ `curl -k https://sstats.adobe.com/_check` インに入力します。
+1. 証明書が完成した場合は、と入力しま `curl https://sstats.adobe.com/_check`す。
+
+戻ってきたはず `SUCCESS` です。
+
+<!-- ## Ping the hostname
+
+Ping the hostname to ensure correct forwarding. All hostnames must respond to a ping to prevent data loss.
+
+After CNAME records are properly configured, and Adobe has confirmed installation of the certificate, open a command prompt and ping your hostname(s). Using `mysite.com` as an example: `ping metrics.mysite.com`
+
+If everything is successfully set up, it will return something similar to the following:
 
 ```Pinging mysite.com.112.2o7.net [66.235.132.232] with 32 bytes of data:
 Reply from 66.235.132.232: bytes=32 time=19ms TTL=246
@@ -99,19 +113,19 @@ Ping statistics for 66.235.132.232: Packets: Sent = 4, Received = 4, Lost = 0 (0
 Approximate round trip times in milli-seconds: Minimum = 19ms, Maximum = 19ms, Average = 19ms
 ```
 
-CNAME レコードが正しく設定されていないか、有効でない場合は、次のような応答が返されます。
+If the CNAME records are not correctly set up or not active, it will return the following:
 
 `Ping request could not find the host. Please check the name and try again.`
 
->[!N注意：]`https:// protocol` を使用している場合、FPC スペシャリストが指定したアップロード日の後でしか ping は応答しません。また、実装を更新する前に、必ず保護されたホスト名と保護されていないホスト名でpingを実行し、両方が正しく動作することを確認してください。
+>[!Note:] If you are using `https:// protocol`, ping will only respond after the upload date specified by the FPC specialist. In addition, be sure to ping the secure hostname and non-secure hostname to ensure that both are working correctly before updating your implementation. -->
 
 ## 実装コードの更新
 
 サイトのコードを編集してファーストパーティ cookie を使用できるようにする前に、次の前提条件を満たします。
 
-* SSL証明書を要求します。この手順は、 *Adobe Managed Certificate Programの* Implement（実装）の節で説明した手順に従っ [て行います](#adobe-managed-certificate-program)。
+* SSL証明書を要求します。上記のAdobe Managed Certificate Programの ** Implement [（実装）の節で説明した手](#adobe-managed-certificate-program)順に従います。
 * CNAME レコードを作成します（上記を参照）。
-* ホスト名に対してpingを実行します（上記を参照）。
+* ホスト名を検証します（上記を参照）。
 
 ホスト名がアドビのデータ収集サーバーに応答し、転送することを確認したら、実装を変更して独自のデータ収集ホスト名を指定できます。
 
