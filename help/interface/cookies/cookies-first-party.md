@@ -8,7 +8,7 @@ title: ファーストパーティ cookie
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: edbe58ffbaeadd2e223ef1567ec9060ab4073f1e
+source-git-commit: 2b44385e32752c7d80322de092d1ac230edfcd01
 
 ---
 
@@ -92,29 +92,41 @@ FPC スペシャリストから、設定されたホスト名とホスト名で�
 
 ## ホスト名転送の検証 {#validate}
 
-ホスト名は、を使用して検証できま <https://sstats.adobe.com/_check>す。 CNAMEが設定され、証明書がインストールされている場合は、ブラウザーを使用して検証を行うことができます。 ただし、証明書がインストールされていない場合は、セキュリティ警告が表示されます。
+検証には、次の方法を使用できます。
 
-**カールを使用して検証**
+**ブラウザーの検証**
 
-アドビでは、コマンドラ [!DNL curl] インからを使用することをお勧めします。 (Windowsを使用している場合は、次の場所からインストールする必要があ [!DNL curl] ります。 <https://curl.haxx.se/windows/>)
+CNAMEが設定され、証明書がインストールされている場合は、次の検証にブラウザーを使用できます。
+
+<https://sstats.adobe.com/_check>。
+
+注意：証明書がインストールされていない場合は、セキュリティ警告が表示されます。
+
+**次を使用して検証[!DNL curl]**
+
+アドビでは、コマンドラインから[!DNL [curl](https://curl.haxx.se/)]を使用することをお勧めします。 (ユーザ[!DNL Windows] ーは次の場所からインス [!DNL curl] トールできます： <https://curl.haxx.se/windows/>)
 
 CNAMEをお持ちで、証明書がインストールされていない場合は、次を実行します。`curl -k https://sstats.adobe.com/_check`回答： `SUCCESS`
 
-(**注意：** この値によ `-k` り、セキュリティ警告が無効になります)。
+(この値によ `-k` り、セキュリティ警告が無効になります)。
 
-CNAMEが設定され、証明書がインストールされている場合は、次の手順を実行します。`curl https://sstats.adobe.com/_check`回答：成功
+CNAMEが設定され、証明書がインストールされている場合は、次の手順を実行します。`curl https://sstats.adobe.com/_check`回答： `SUCCESS`
 
-**nslookupを使用した検証**
+**次を使用して検証[!DNL nslookup]**
 
-nslookupを使用して検証できます。 `mysite.com` を使用すると、 のようになります。
-
-コマンドプロンプトを開き、 `nslookup metrics.mysite.com`
+検証に使用で `nslookup` きます。 例とし `mysite.com`てを使用し、コマンドプロンプトを開いて、 `nslookup metrics.mysite.com`
 
 すべてが正常に設定された場合は、次のようなリターンが表示されます。
 
-nslookup metrics.mysite.comServer: hiodsibxvip01.corp.adobe.comAddress: 10.50.112.247
+```
+nslookup metrics.mysite.com
+Server:  hiodsibxvip01.corp.adobe.com
+Address:  10.50.112.247
 
-権限のない回答：名前：   metrics.mysite.comAddress: 64.136.20.37
+Non-authoritative answer:
+Name:    metrics.mysite.com
+Address:  64.136.20.37
+```
 
 ## 実装コードの更新 {#update}
 
