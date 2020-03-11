@@ -8,7 +8,7 @@ title: ファーストパーティ cookie
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b44385e32752c7d80322de092d1ac230edfcd01
+source-git-commit: d4ebe537c4a0da1f24c5cd48e73ec9567d13fb30
 
 ---
 
@@ -94,15 +94,15 @@ FPC スペシャリストから、設定されたホスト名とホスト名で�
 
 検証には、次の方法を使用できます。
 
-**ブラウザーの検証**
+### ブラウザーを使用した検証
 
 CNAMEが設定され、証明書がインストールされている場合は、次の検証にブラウザーを使用できます。
 
-<https://sstats.adobe.com/_check>。
+`https://sstats.adobe.com/_check`
 
-注意：証明書がインストールされていない場合は、セキュリティ警告が表示されます。
+**注意：** 証明書がインストールされていない場合は、セキュリティ警告が表示されます。
 
-**次を使用して検証[!DNL curl]**
+### 次を使用して検証 [!DNL curl]
 
 アドビでは、コマンドラインから[!DNL [curl](https://curl.haxx.se/)]を使用することをお勧めします。 (ユーザ[!DNL Windows] ーは次の場所からインス [!DNL curl] トールできます： <https://curl.haxx.se/windows/>)
 
@@ -112,7 +112,7 @@ CNAMEをお持ちで、証明書がインストールされていない場合は
 
 CNAMEが設定され、証明書がインストールされている場合は、次の手順を実行します。`curl https://sstats.adobe.com/_check`回答： `SUCCESS`
 
-**次を使用して検証[!DNL nslookup]**
+### 次を使用して検証 [!DNL nslookup]
 
 検証に使用で `nslookup` きます。 例とし `mysite.com`てを使用し、コマンドプロンプトを開いて、 `nslookup metrics.mysite.com`
 
