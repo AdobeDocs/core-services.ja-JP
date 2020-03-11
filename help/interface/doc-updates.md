@@ -1,13 +1,13 @@
 ---
 description: Experience Cloud ヘルプの更新に関する情報です。
-keywords: コアサービス
+keywords: core services
 seo-description: Experience Cloud ヘルプの更新に関する情報です。
 seo-title: ドキュメントの更新 - Experience Cloud
 solution: Experience Cloud
 title: ドキュメントの更新 - Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 6f7a1a91174e18f8c4eec17d7a1868660e3a9429
 
 ---
 
@@ -15,6 +15,14 @@ source-git-commit: af5339fe58ce884345804574c209907d6504a483
 # ドキュメントの更新 - Experience Cloud
 
 Experience Cloud ヘルプの更新に関する情報です。
+
+**更新日：3/10/2020**
+
+ファースト [パーティcookieのセクションで](cookies/cookies-first-party.md#validate) 、「ホスト名転送の検証」を更新しました。
+
+**更新日：2020年2月20日**
+
+View [Experience Cloudユーザーの詳細を追加しました（管理ツール）](admin-getting-started/admin-tool-experience-cloud.md)。
 
 **更新：2018 年 9 月 6 日**
 
