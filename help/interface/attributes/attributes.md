@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 顧客属性
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: c59fe8c13defc8572d9c8776d0ca376d76fec794
+source-git-commit: d27bbed21f472b6fee275d58a67203895922aee0
 
 ---
 
@@ -36,7 +36,7 @@ To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platfo
 * **顧客属性には、Adobe Target**[!DNL at.js] （任意のバージョン） [!DNL mbox.js] またはバージョン58以降が必要です。
 
 
-   at.js [のデプロイ方法](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.htmlまたは [Mbox.jsの実装](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html))を参照してください。
+   at.js [または](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) Mbox.js実装のデプロイ方法を参照してください [](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html)。
 
 ## What is enterprise customer data? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
