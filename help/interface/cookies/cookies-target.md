@@ -1,13 +1,13 @@
 ---
 description: Target では、オンラインコンテンツのテスト機能を実現する目的と、より関連性の高いコンテンツを訪問者に対して表示する目的で、Web サイト運用者向けに cookie を使用します。
-keywords: cookie;プライバシー
+keywords: cookies;privacy
 seo-description: Target では、オンラインコンテンツのテスト機能を実現する目的と、より関連性の高いコンテンツを訪問者に対して表示する目的で、Web サイト運用者向けに cookie を使用します。
 seo-title: Target の cookie
-solution: Experience Cloud,Analytics,Target,Social
+solution: Marketing Cloud,Analytics,Target,Social
 title: Target の cookie
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: 29d8f983cf6961b3e567e672ee803e12b330fee7
 
 ---
 
@@ -44,7 +44,7 @@ cookie の期間を除き、必要に応じてこれらの設定を変更でき�
   </tr> 
   <tr> 
    <td colname="col1"> <p>cookie の期間 </p> </td> 
-   <td colname="col2"> <p>cookie が訪問者のブラウザーに残る期間は、訪問者が最後にログインしてから 2 週間です。cookie の期間は変更できません。 </p> </td> 
+   <td colname="col2"> <p>cookieは、訪問者の最後のログインから2年間、訪問者のブラウザーに残ります。 cookie の期間は変更できません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
