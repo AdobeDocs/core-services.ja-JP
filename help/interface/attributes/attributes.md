@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 顧客属性
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
+source-git-commit: c59fe8c13defc8572d9c8776d0ca376d76fec794
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
 
 ## 概要
 
-To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platform]**>**[!UICONTROL  People]** > **[!UICONTROL Customer Attributes]**
+To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
 
 エンタープライズ顧客データを顧客関係管理（CRM）データベースに取り込んでいる場合は、そのデータを Experience Cloud の顧客属性データソースにアップロードできます。アップロード後は、データを [!DNL Adobe Analytics] と [!DNL Adobe Target] で利用できます。
 
@@ -29,16 +29,14 @@ To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platfo
 
 * **グループのメンバーシップ：**&#x200B;顧客属性データをアップロードするには、ユーザーは、[顧客属性グループ](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)のメンバーである必要があります。また、Adobe Analytics グループまたは Adobe Target グループのいずれかに属している必要もあります。
 
-   自社が顧客属性にアクセスできるかどうかを知るには、 [!DNL Experience Cloud] 管理者が、[!DNL Experience Cloud] にログインする必要があります。**[!UICONTROL 管理]**／**[!UICONTROL  Admin Console を起動]**／**[!UICONTROL グループ]**に移動します。グループの 1 つとして&#x200B;*顧客属性*がある場合は、すぐに始めることができます。
+   自社が顧客属性にアクセスできるかどうかを知るには、 [!DNL Experience Cloud] 管理者が、[!DNL Experience Cloud] にログインする必要があります。**[!UICONTROL 管理]**／**[!UICONTROL Admin Console を起動]**／**[!UICONTROL グループ]**&#x200B;に移動します。グループの 1 つとして&#x200B;*顧客属性*&#x200B;がある場合は、すぐに始めることができます。
 
    顧客属性グループに追加されたユーザーには、Experience Cloud インターフェイスの左側に[!UICONTROL 顧客属性]メニュー項目が表示されます。
 
-* **ターゲット mbox：**&#x200B;顧客属性には、mbox.js バージョン 58 以降が必要です。
+* **顧客属性には、Adobe Target**[!DNL at.js] （任意のバージョン） [!DNL mbox.js] またはバージョン58以降が必要です。
 
 
-   [mbox.js の実装](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html)を参照してください。
-
-* **at.js：**&#x200B;すべてのバージョン。
+   at.js [のデプロイ方法](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.htmlまたは [Mbox.jsの実装](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html))を参照してください。
 
 ## What is enterprise customer data? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
@@ -48,7 +46,7 @@ To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platfo
 
 ![](assets/01_crs_usecase.png)
 
-作成したデータファイルは、**[!UICONTROL Experience Cloud]**／**[!UICONTROL &#x200B;顧客属性]**を選択して作成する顧客属性ソースにアップロードできます。
+作成したデータファイルは、**[!UICONTROL Experience Cloud]**／**[!UICONTROL 顧客属性]**&#x200B;を選択して作成する顧客属性ソースにアップロードできます。
 
 このワークフローについては、[顧客属性データのアップロード](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)を参照してください。
 
