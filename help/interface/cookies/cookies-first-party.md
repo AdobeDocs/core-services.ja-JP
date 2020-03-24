@@ -8,7 +8,7 @@ title: ファーストパーティ cookie
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 64d35205275317e46072e7239b52863bf3b34e12
+source-git-commit: b6ef7f0b7ef3b43b437524b20cee940889c26ba8
 
 ---
 
@@ -88,6 +88,7 @@ FPC スペシャリストから、設定されたホスト名とホスト名で�
 実装コードが変更されない限り、この手順がデータ収集に影響を及ぼすことはなく、実装コードの更新後はいつでもおこなうことができます。
 
 >[!N注意：]
+>
 >Experience Cloud訪問者IDサービスは、ファーストパーティcookieを有効にするCNAMEの設定の代わりに使用できますが、Apple ITPの最近の変更により、Experience Cloud IDサービスを使用している場合でも、CNAMEを割り当てることをお勧めします。
 
 ## ホスト名転送の検証 {#validate}
@@ -100,7 +101,9 @@ CNAMEが設定され、証明書がインストールされている場合は、
 
 `https://sstats.adobe.com/_check`
 
-**注意：** 証明書がインストールされていない場合は、セキュリティ警告が表示されます。
+>[!N注意：]
+>
+>証明書がインストールされていない場合は、セキュリティ警告が表示されます。
 
 ### 次を使用して検証 [!DNL curl]
 
