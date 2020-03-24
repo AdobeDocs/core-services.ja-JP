@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Experience Cloud ユーザーと製品の管理
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
+source-git-commit: 14d6e0ae15b023ad4dd3f8aca0606f26b39a21e9
 
 ---
 
@@ -16,9 +16,11 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 管理コンソールへのサインイン、Experience Cloudユーザー権限と製品プロファイルの管理、およびブラウザーサポートについて説明します。
 
+<!-- Beginning April 16, 2020, new organizations created in the Admin Console will block Adobe ID (type 1) identity types. Starting 16 Apr 2020 , newly created orgs will block the addition of Adobe ID/Type1 accounts.Migration for Orgs that have CCE/DX overlapping contracts will happen starting on  26 Apr 2020 (Gov't & Commercial Orgs) (~600 Orgs) Majority of EC customers will be migrated after July 2020. (~15k Orgs)https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM-->
+
 >[!IMPORTANT]
 >
->Admin Console でのユーザー管理には、新しい用語、インターフェイスおよびナビゲーションが導入されています。ここでは、それらの変更について説明するとともに、追加のヘルプリソースへのリンクも示します。このヘルプは、すべての Adobe Cloud 製品を対象とする[管理ユーザーガイド](https://helpx.adobe.com/enterprise/managing/user-guide.html)を補足するものです。
+>Admin Console でのユーザー管理には、新しい用語、インターフェイスおよびナビゲーションが導入されています。ここでは、それらの変更について説明するとともに、追加のヘルプリソースへのリンクも示します。This help supplements the information in the [Enterprise Administration User Guide](https://helpx.adobe.com/enterprise/managing/user-guide.html) for all Adobe cloud products.
 
 ## Experience Cloud ユーザー管理の新機能 {#concept_06A0A13362F644FB90F947238407637A}
 
@@ -26,26 +28,26 @@ Experience Cloud ユーザー管理の最新機能について説明します。
 
 ## Admin Console へのログイン {#section_705072FD4EBE4B70BC69EC81F2BB8669}
 
-これまでソリューションでおこなっていた管理者によるユーザー管理の方法が変更されました。今後は、Experience Cloud のユーザーおよび製品を Admin Console で管理します。
+管理者は、ソリューションでユーザーを管理しなくなりました。 Experience Cloudのユーザーと製品の管理が、管理コンソールで行われるようになりました。
 
 **Admin Console にログインするには**
 
 1. Navigate to [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
-1. [Adobe ID または Enterprise ID](https://helpx.adobe.com/enterprise/help/identity.html) とパスワードを入力します。
+1. Adobe IDまたは [Enterprise IDとパスワードを入力します](https://helpx.adobe.com/enterprise/help/identity.html) 。
 
-または、Experience Cloud メニュー（![](assets/menu-icon.png)）で「**[!UICONTROL 管理]**／**[!UICONTROL Admin Console を起動]**」をクリックします。
+Alternatively, from the Experience Cloud menu ( ![](assets/menu-icon.png)), click **[!UICONTROL Administration]** > **[!UICONTROL Launch Admin Console]**.
 
 **関連するヘルプ**
 
-Creative Cloud および Document Cloud の[管理ユーザーガイド](https://helpx.adobe.com/enterprise/using/users.html)。[ID タイプの管理](https://helpx.adobe.com/enterprise/help/identity.html)など、Experience Cloud のユーザー管理に関連する情報も含まれています。
+[Creative CloudおよびDocument Cloudの管理](https://helpx.adobe.com/enterprise/using/users.html) ユーザーガイドを参照してください。 IDタイプの管理など、Experience Cloudのユーザー管理に関連する情 [報があります](https://helpx.adobe.com/enterprise/help/identity.html)。
 
-[サインインとプロファイル設定の管理](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0) - パスワード、組織、および通知の管理について説明します。
+[ログインとプロファイル設定の管理](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0) - パスワード、組織、および通知の管理について説明します。
 
-## 製品プロファイルとグループ {#section_AB50558124D541CF80A0D3D76D35A4BF}
+## 製品のプロファイルとグループ {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
-製品プロファイルの追加は、ソリューション製品およびサービスの従来の管理方法（グループを使用）が変更されたことを示しています。Admin Console では、権限はユーザーに割り当てることができる製品およびサービスのグループである製品プロファイルを基礎とします。
+製品プロファイルの追加は、ソリューション製品やサービスの以前の管理方法（グループを使用）からの移行を示します。 管理コンソールでは、権限は製品プロファイルに基づいて決まります。製品プロファイルは、ユーザーに割り当て可能な製品とサービスのグループです。
 
-例えば、Analytics では、Analysis Workspace や Report Builder などのレポートツールをレポートスイート、指標、ディメンションなどとともに 1 つのコレクションにまとめることができます。ユーザーを製品プロファイルに追加することにより、ユーザーに権限を割り当てることができます。詳しくは、[製品プロファイルへの Analytics アクセス権限の割り当て](../admin-getting-started/admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391)を参照してください。
+例えば、Analyticsでは、Analysis WorkspaceやReport Builderなどのレポートツールのコレクションと、レポートスイート、指標、ディメンションなどを設定できます。 ユーザーを製品プロファイルに追加することで、ユーザーに権限を付与できます。 See [Assign Analytics access permissions to a product profile](../admin-getting-started/admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391).
 
 **関連するヘルプ**
 
@@ -61,28 +63,28 @@ Analytics のユーザー権限および製品権限は、Admin Console で管�
 
 Analytics 管理者がユーザーアカウントを Analytics User Management から [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/) / へ移行する際に役立つ Analytics ユーザー ID 移行ツールを入手できます。
 
-アカウントの移行は、顧客ごとに段階的に実施しています。既存のユーザーアカウントを「**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**」から Admin Console へ移行する順番が来た顧客には、アドビから通知し、サポートを提供します。
+アカウントの移行は、顧客ごとに段階的に実施しています。Adobe will notify and assist you when it is your time to migrate existing user accounts from **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** to the Admin Console.
 
 After the migration, users sign in using their Adobe ID (or Enterprise ID) and authenticate to their Experience Cloud solutions and services at [experiencecloud.adobe.com](https://experiencecloud.adobe.com). 従来のログイン（[!DNL my.omniture.com] および [!DNL sc.omniture.com]）でログインしようとしたユーザーは、[!DNL experiencecloud.adobe.com] にリダイレクトされます。
 
 **関連するヘルプ**
 
-[Analytics ユーザー ID の移行](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
+[AnalyticsユーザーIDの移行](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
 
 ## Target - 製品プロファイルとワークスペース {#section_3860AF177C9E4C7E9C390D36A414F353}
 
-Target では、ワークスペースが製品プロファイルになります。組織でワークスペースを使用すると、特定のユーザーセットを特定のプロパティセットに割り当てることができます。多くの点で、ワークスペースは Adobe Analytics のレポートスイートに似ています。
+Targetでは、ワークスペースは製品プロファイルです。 組織は、特定のユーザーのセットを特定のプロパティのセットに割り当てることができます。 多くの点で、ワークスペースは Adobe Analytics のレポートスイートに似ています。
 
 以下を参照してください。
-* [Enterprise ユーザーの権限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
-* [製品およびプロファイルの管理](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* ビデオ：[Adobe Admin Console で Target ワークスペースを設定する方法](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [Enterprise User Permissions](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
+* [製品とプロファイルの管理](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
+* ビデオ：Adobe管理 [コンソールでのTargetワークスペースの設定方法](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Campaign - 製品プロファイル、テナント、セキュリティグループ {#section_09CDF75366444CF5810CF321B7C712F3}
 
 Campaign の&#x200B;*テナント*&#x200B;は、Admin Console の製品ページでは&#x200B;*製品*&#x200B;として表示されます。
 
-*セキュリティグループ*&#x200B;は製品プロファイルとして表示されます。
+*セキュリティグループは* 、製品プロファイルとして表示されます。
 
 セキュリテ [ィグループとセキュリティグループへの](https://helpx.adobe.com/campaign/standard/administration/using/managing-groups-and-users.html) 「ユーザーの割り当て」の詳細は、「グループとユーザーの管理」を参照してください。
 
@@ -90,7 +92,7 @@ Campaign の&#x200B;*テナント*&#x200B;は、Admin Console の製品ページ
 
 エクスペリエンスプラットフォームの起動は、管理コンソールの製品ページに表示されます。 起動製品プロファイルに他のソリューションやサービスを含めることができます。
 
-See [User Management](https://docs.adobelaunch.com/launch-reference/administration/user-permissions) for information about user permissions in the Admin Console and set up Launch-specific options, including assigning rights to profiles.
+管理コン [ソールでのユーザー権限、およびプロファイルへの権限の割り当てを含む起動固有のオプションの設定については、「ユーザー管理](https://docs.adobelaunch.com/launch-reference/administration/user-permissions) 」を参照してください。
 
 ## Dynamic Tag Manager {#section_3A41CF2BD5994B9891537D063571D4ED}
 
@@ -100,7 +102,7 @@ See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/adm
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
-Audience Manager ユーザーを作成し、グループに割り当てます。制限（特性、セグメント、リンク先、AlgoModel）を表示することもできます。
+Audience Managerユーザーを作成し、グループに割り当てます。 制限（特性、セグメント、宛先およびAlgoModel）を表示することもできます。
 
 Audience Managerヘル [プの](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html) 「管理」を参照してください。
 
@@ -108,18 +110,18 @@ Audience Managerヘル [プの](https://docs.adobe.com/content/help/en/dtm/using
 
 製品プロファイルを作成し、権限グループに割り当てます。
 
-ユーザーを組織に招待する場合は、そのユーザーに製品および製品プロファイルへのアクセス権を付与することができます。ユーザーに制限付き管理権限を委任することもできます。同様に、ユーザーグループを作成し、そのグループを製品プロファイルに追加することによって、アクセス権を有効にすることもできます。
+ユーザーを組織に招待する場合、製品と製品プロファイルへのアクセスをユーザーに付与できます。 また、制限付き管理権限をユーザーに委任することもできます。 同様に、ユーザーグループを作成し、そのグループを製品プロファイルに追加してアクセスを有効にすることもできます。
 
-1. [Admin Console](https://adminconsole.adobe.com/enterprise/) で「**[!UICONTROL 製品]**」をクリックします。
+1. In the [Admin Console](https://adminconsole.adobe.com/enterprise/), click **[!UICONTROL Products]**.
 1. 「**[!UICONTROL 新しいプロファイル]**」をクリックします。
 1. プロファイルの詳細を設定し、「**[!UICONTROL 次へ]**」をクリックします。
 1. **[!UICONTROL 完了]** をクリックします。
 
-詳しくは、以下のヘルプ情報を参照してください。
+その他のヘルプは、次のURLを参照してください。
 
-* [製品およびプロファイルの管理](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* Target ヘルプの [Enterprise ユーザーの権限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
-* ビデオ：[Adobe Admin Console で Target ワークスペースを設定する方法](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [製品とプロファイルの管理](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
+* [Targetヘルプの「エンタープライズ](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) ・ユーザー権限」を参照してください。
+* ビデオ：Adobe管理 [コンソールでのTargetワークスペースの設定方法](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## 製品プロファイルへの Analytics アクセス権限の割り当て {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
@@ -127,29 +129,29 @@ Audience Managerヘル [プの](https://docs.adobe.com/content/help/en/dtm/using
 
 例えば、特定の指標やディメンション（eVar を含む）およびセグメントや計算指標の作成などの機能に対する権限を持つ、複数の Analytics ツール（[!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、および [!UICONTROL Report Builder]）が含まれる製品プロファイルを作成できます。
 
-1. [Admin Console](https://adminconsole.adobe.com/enterprise) にサインインし、「**[!UICONTROL 製品]**」（または自分の製品名）をクリックします。
+1. Sign in to the [Admin Console](https://adminconsole.adobe.com/enterprise), then click **[!UICONTROL Products]** (or click your product name).
 1. 製品プロファイルで、「**[!UICONTROL 権限]**」をクリックします（管理者のみクリックできます）。
 1. プロファイルの権限の設定：
 
 | 要素 | 説明 |
 |--- |--- |
-| レポートスイート | 特定のレポートスイートに対する権限を有効にします。 |
-| 指標 | トラフィック、コンバージョン、カスタムイベント、ソリューションイベントおよびコンテンツ対応などに対する権限を有効にします。 |
+| レポートスイート | 特定のレポートスイートに対する権限の有効化 |
+| 指標 | トラフィック、コンバージョン、カスタムイベント、ソリューションイベント、コンテンツ対応などの権限を有効にします。 |
 | ディメンション | eVar、トラフィックレポート、ソリューションレポートおよびパスレポートを含む、詳細なレベルでユーザーアクセスをカスタマイズします。 |
-| レポートスイートツール | Web サービス、レポートスイートの管理、ツールとレポート、およびダッシュボードの項目に対するユーザー権限を有効にします。 |
+| レポートスイートツール | Webサービス、レポートスイートの管理、ツールとレポート、およびダッシュボードの項目に関するユーザー権限を有効にします。 |
 | Analytics ツール | 一般的な項目（課金、ログなど）、会社の管理、ツール、Web サービスへのアクセス、Report Builder および Data Connectors の統合に関するユーザー権限を有効にします。Admin Console のカスタマイズカテゴリのカンパニー設定は、Analytics ツールに移動されました。 |
 
 ## ユーザーへの管理者ロールの委任 {#task_3A072C4AA9734BC59FFA7E015271BC7E}
 
-Admin Console では、組織内の他のユーザーに管理権限を制限付きで委任できます。委任された管理者ロールでは、エンドユーザーに対するソフトウェアアクセスを管理したり、デプロイ機能へのアクセスを提供したりできます。また、サポート代行者としての役割を果たすこともできます。
+管理コンソールでは、制限付き管理権限を組織内の他のユーザーに委任できます。 委任された役割を使用すると、エンドユーザーに対するソフトウェアアクセスの管理、アクセス展開機能の提供、およびサポート委任としての機能をユーザーに提供できます。
 
-例えば、次のことができます。
+例えば、次の操作が可能です。
 
-* クリエイティブディレクターが Creative Cloud へのアクセス権を付与できるようにする。
-* マーケティングディレクターが Experience Cloud へのアクセス権を付与できるようにする。
-* 管理者ロールと副管理者ロールを切り離して、お互いのロールを侵さないようにします。
+* クリエイティブディレクターがCreative Cloudへのアクセスを許可する。
+* マーケティングディレクターがExperience Cloudへのアクセスを許可します。
+* この2つの役割を別々にして、お互いの役割を超えないようにします。
 
-副管理者ロールを使用すると、必要以上の機能を提供することなく、複数の人に同時に管理を委任できます。
+これらの役割を使用すると、必要以上の機能を提供することなく、同時に他のユーザーに管理を委任できます。
 
 1. Admin Console で「**[!UICONTROL ユーザー]**」をクリックしてから、ユーザー名をクリックします。
 1. 「**[!UICONTROL 管理権限を編集]**」をクリックします。
@@ -158,11 +160,11 @@ Admin Console では、組織内の他のユーザーに管理権限を制限付
 
 ## サポートされているブラウザーと必要システム構成 {#concept_CDC4371EB9BF433E9534F8716DC8A088}
 
-Experience Cloud でサポートされているブラウザーは次のとおりです。
+Experience Cloudでサポートされるブラウザー。
 
 Experience Cloudでサポートされるブラウザーには、次のものがあります。
 
-* [!DNL Microsoft Edge] (Microsoftは、 [Internet Explorer](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) 8、9、10のサポートを終了しました。 そのため、今後アドビでは、Internet Explorer のこれらのバージョンに対して報告された問題は修正しません）。
+* [!DNL Microsoft Edge] (Microsoftは、 [Internet Explorer](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) 8、9、10のサポートを終了しました。 したがって、アドビでは、これらの特定のバージョンのInternet Explorerに関して報告された問題を修正しません)。
 * [!DNL Google Chrome]
 * [!DNL Firefox]
 * [!DNL Safari]
