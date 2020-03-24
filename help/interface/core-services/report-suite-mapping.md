@@ -5,7 +5,7 @@ seo-title: 組織へのレポートスイートのマッピング
 title: 組織へのレポートスイートのマッピング
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
+source-git-commit: b6ef7f0b7ef3b43b437524b20cee940889c26ba8
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 1 つまたは複数のレポートスイートを組織にマッピングする方法について説明します。
 
-Experience cloudサービス（Experience Cloud IDサービスやPeopleコアサービスなど）は、個々のレポートスイートではなく組織に関連付けられます。 これらのサービスを正しく機能させるには、各 Analytics レポートスイートを組織にマッピングする必要があります。マッピングプロセスは以下のように実行されます。
+Experience Cloudサービス（Experience Cloud IDサービスやPeopleコアサービスなど）は、個々のレポートスイートではなく、組織に関連付けられます。 これらのサービスを正しく機能させるには、各 Analytics レポートスイートを組織にマッピングする必要があります。マッピングプロセスは以下のように実行されます。
 
 * Experience Cloud 組織をレポートスイート用の主要組織として設定します。
 * レポートスイートにアクセスできるユーザーは変更されません（アクセスが可能かどうかは引き続き各ユーザーの Adobe Analytics ログインアカウントによって決定されます）。
@@ -27,7 +27,7 @@ Experience cloudサービス（Experience Cloud IDサービスやPeopleコアサ
 
 ## 組織へのレポートスイートのマッピング {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. Click **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administration]** > **[!UICONTROL Report Suite Mapping]**
+1. **[!UICONTROL Experience Cloud]** /管理/レポー **[!UICONTROL トスイ]****[!UICONTROL ートのマッピングをクリックします]**
 
 1. 各レポートスイートにアクセスできるログイン会社を確認するには、「**[!UICONTROL 表示可能なログイン会社名]**」をクリックします。
 
@@ -64,19 +64,23 @@ If the Experience Cloud ID Service is currently deployed on the report suite, en
 **一部の組織がグレー表示されている理由**
 
 これは、グレー表示されているレポートスイートにマッピングするために必要な権限が不足していることを示しています。次の例をご覧ください。
-![](assets/rs-mapping.png)この図では、青色の鍵が管理権限を示しています。グレーの線は可視性を示しています。
+
+
+![](assets/rs-mapping.png)
+
+この図では、青色の鍵が管理権限を示しています。グレーの線は可視性を示しています。
 
 このユーザーは、2 つの Experience Cloud 組織にアクセスできます。このユーザーは以下の操作を実行しました。
 
-* Analytics ログイン会社「chapek」内の自分の管理者アカウントを Experience Cloud 組織「Chapek Corp」の自分のアカウントにリンクした。
-* Analytics ログイン会社「doohan」内の自分の非管理者アカウントを Experience Cloud 組織「Chapek Corp」の自分のアカウントにリンクした。
+* Linked his admin account in the [!UICONTROL chapek] Analytics login company to his [!UICONTROL Chapek] Corp Experience Cloud organization account.
+* Linked his non-admin account in the [!UICONTROL doohan] Analytics login company to his [!UICONTROL Chapek] Corp Experience Cloud organization account.
 * Analytics ログイン会社「nigel」内の自分の非管理者アカウントを Experience Cloud 組織「Nigel Inc」の自分のアカウントにリンクした。
 
 以下は、これらのレポートスイートに関して実行できるマッピングアクションと実行できないマッピングアクションを一覧にまとめたものです。
 
-* このユーザーはリンクされている Analytics ログイン会社（chapek）の管理者であり、このユーザーのアカウントはこの組織にリンクされているので、chapek-prod レポートスイートを Chapek Corp 組織にマッピングできます。
-* このユーザーは nigel-prod レポートスイートを表示できるログイン会社の管理者ではないので、このレポートスイートをリンクすることはできません。
-* このユーザーは Experience Cloud 組織にリンクされているログイン会社（chapek）の管理者なので（Analytics ログイン会社「doohan」の管理者ではないという点に注意）、doohan-prod レポートスイートを Chapek Corp にマッピングできます。このユーザーは実行できませんが、doohan-prod レポートスイートは Experience Cloud 組織「Nigel Inc」にもマッピングできるという点を認識しておくことが重要です。その場合、両方の Experience Cloud 組織がリストに表示されますが、Nigel Inc はグレー表示されます。マッピングをおこなう前に、このユーザーはログイン会社「nigel」の管理者に問い合わせて、マッピングに最適な候補はどちらの組織なのかを判断する必要があります。最初にレポートスイートを作成するときに使用した組織とは異なる組織を選択した場合、UI には「競合の可能性」警告が表示されます。
+* [!UICONTROL このユーザーはリンクされたAnalyticsログイン会社(] chapek [!UICONTROL )の管理者で、アカウントはこの組織にリンクされているので、Chapek-prodレポートスイートは] ChapekCorp組織にマッピングできます。
+* [!UICONTROL このユーザーは nigel-prod レポートスイートを表示できるログイン会社の管理者ではないので、このレポートスイートをリンクすることはできません。]
+* [!UICONTROL Doohan-prod] report suiteは、Experience Cloud組織にリンクされているログイン会社( [!UICONTROL chapek] )の管理者なので、Chapek Corpにマッピングできます（Doohan Analyticsログイン会社の管理者ではないことに注意）。 It is important to be aware that the [!UICONTROL doohan-prod] report suite is also eligible to be mapped to the Nigel Inc Experience Cloud org, even though this user cannot perform that mapping. In this case, both Experience Cloud organizations are displayed in the list, but [!UICONTROL Nigel Inc] is grayed out. マッピングをおこなう前に、このユーザーはログイン会社「nigel」の管理者に問い合わせて、マッピングに最適な候補はどちらの組織なのかを判断する必要があります。最初にレポートスイートを作成するときに使用した組織とは異なる組織を選択した場合、UI には「競合の可能性」警告が表示されます。
 
 ## よくある質問 {#section_099E485805994C929FF9C9F75219BEE1}
 
