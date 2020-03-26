@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 顧客属性
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: d27bbed21f472b6fee275d58a67203895922aee0
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -27,9 +27,9 @@ To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platfo
 
 * **ソリューションの有効化：** [コアサービス向けにソリューションを有効化](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)します。
 
-* **グループのメンバーシップ：**&#x200B;顧客属性データをアップロードするには、ユーザーは、[顧客属性グループ](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)のメンバーである必要があります。また、Adobe Analytics グループまたは Adobe Target グループのいずれかに属している必要もあります。
+* **グループのメンバーシップ：**&#x200B;顧客属性データをアップロードするには、ユーザーは、 顧客属 [性グループ](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)。 また、Adobe AnalyticsグループまたはAdobe Targetグループのいずれかに属している必要があります。
 
-   自社が顧客属性にアクセスできるかどうかを知るには、 [!DNL Experience Cloud] 管理者が、[!DNL Experience Cloud] にログインする必要があります。**[!UICONTROL 管理]**／**[!UICONTROL Admin Console を起動]**／**[!UICONTROL グループ]**&#x200B;に移動します。グループの 1 つとして&#x200B;*顧客属性*&#x200B;がある場合は、すぐに始めることができます。
+   自社が顧客属性にアクセスできるかどうかを知るには、 [!DNL Experience Cloud] 管理者が、[!DNL Experience Cloud] にログインする必要があります。Navigate to **[!UICONTROL Administration]** > **[!UICONTROL Launch Admin Console]** > **[!UICONTROL Groups]**. グループの 1 つとして&#x200B;*顧客属性*&#x200B;がある場合は、すぐに始めることができます。
 
    顧客属性グループに追加されたユーザーには、Experience Cloud インターフェイスの左側に[!UICONTROL 顧客属性]メニュー項目が表示されます。
 
@@ -40,23 +40,23 @@ To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platfo
 
 ## What is enterprise customer data? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
-企業データは様々なシステムに分散されています。企業データは複雑で、そのデータが持つ意味は人によって異なることがあります。このデータには、メンバーシップ、忠誠度、年齢、性別、所有する製品、興味、ライフタイム値などの情報が含まれます。
+企業データは他のシステムに存在します。 複雑で、人によって意味が異なる場合もあります。 このデータには、メンバーシップ、忠誠度、年齢、性別、所有する製品、興味、ライフタイム値などの情報が含まれます。
 
-次に示すのは、製品の購読者データを示すデータファイルの例です。このデータには、メンバー ID、購入製品、最も頻繁に利用されている製品などの情報が含まれています。
+次の図は、メンバーID、権利付与済み製品、最も頻繁に起動する製品など、製品の購読者データを示すデータファイルの例です。
 
 ![](assets/01_crs_usecase.png)
 
-作成したデータファイルは、**[!UICONTROL Experience Cloud]**／**[!UICONTROL 顧客属性]**&#x200B;を選択して作成する顧客属性ソースにアップロードできます。
+After you create the data file, you can upload it to the customer attribute source that you create in **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer Attributes]**.
 
 このワークフローについては、[顧客属性データのアップロード](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)を参照してください。
 
 ## ソリューションの使用例 {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
-データを Experience Cloud にアップロードした後は、そのデータをカスタマイズし、レポート、セグメント化、アクティビティおよびキャンペーンで利用するためにソリューションで共有できます。
+データがExperience Cloudに保存されたら、そのデータをカスタマイズして、レポート、セグメント化、アクティビティおよびキャンペーンのソリューションと共有できます。
 
 以下に例を示します。
 
-| ソリューション | メリットと使用例 |
+| ソリューション | 利点と使用例 |
 |--- |--- |
-| Adobe Analytics | マーケターとアナリストは、次のことを把握できます。<ul><li>ゴールドレベルの顧客に最も効果的なオンラインキャンペーン。</li><li>ゴールドレベルの顧客が検索している製品と、プラチナレベルの顧客が検索している製品の違い。</li><li>サイトを再設計すると、古い顧客のコンバージョン率が向上するか。</li><li>ライフタイム値が低い顧客がサイトで調べる傾向にある製品は何か。</li></ul> |
-| Adobe Target | Target ユーザーは、属性データを利用して次のことができます。<ul><li>ロイヤルティクラブメンバー専用の特別割引とオファーを表示する。</li><li>高級志向の顧客により高価な製品を勧める。</li><li>既に電子メールを受け取っている顧客に対し、通常は電子メールのサインアップ用に確保されているスペースにアップセルのオファーを表示する。</li></ul> |
+| Adobe Analytics | マーケターとアナリストは、次のことを理解できます。<ul><li>ゴールドレベルの顧客に対して最も効果的なオンラインキャンペーン。</li><li>ゴールドレベルの顧客が検索する製品と、プラチナレベルの顧客が検索する製品。</li><li>サイトの再設計が、古い顧客のコンバージョン率に良い影響を与えているか。</li><li>ライフタイム値が低い顧客がサイトで調べる傾向にある商品はどれか。</li></ul> |
+| Adobe Target | 属性データを使用すると、Adobe Targetユーザーは次のことができます。<ul><li>ロイヤルティクラブメンバーに特別割引とオファーを表示します。</li><li>高級顧客に対して、より高価な商品をレコメンデーションします。</li><li>既に電子メールを受け取っている顧客の場合、通常は電子メールのサインアップ用に確保されているスペースにアップセルオファーを表示します。</li></ul> |
