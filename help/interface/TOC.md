@@ -4,7 +4,7 @@ user-guide-title: Core Services User Guide
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -27,11 +27,11 @@ source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
    + [Data Workbench の cookie](cookies/cookies-insight.md)
    + [Experience Cloud の cookie](cookies/cookies-mc.md)
    + [Advertising Cloud の cookie](cookies/cookies-advertising-cloud.md)
-   + [Scene7 の cookie](cookies/cookies-s7.md)
-   + [Search&amp;Promote の cookie](cookies/cookies-snp.md)
-   + [Target の cookie](cookies/cookies-target.md)
+   + [[!DNL Scene7] cookie](cookies/cookies-s7.md)
+   + [[!DNL Search and Promote] cookie](cookies/cookies-snp.md)
+   + [[!DNLターゲット] cookie](cookies/cookies-target.md)
    + [ブラウザー cookie のプライバシー設定の有効化](cookies/browser-cookie-settings.md)
-   + [サードパーティ cookie のサポートに対する変更がお客様に及ぼす影響](cookies/cookies-thirdparty.md)
+   + [サードパーティcookieのサポートに対する変更が顧客に与える影響](cookies/cookies-thirdparty.md)
 + ユーザーおよび製品の管理 {#manage-users-and-products}
    + [Experience Cloudのユーザーと製品の管理（管理コンソール）](admin-getting-started/admin-getting-started.md)
    + [Experience Cloudユーザーの詳細の表示（管理ツール）](admin-getting-started/admin-tool-experience-cloud.md)
@@ -68,12 +68,12 @@ source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
    + [サブスクリプションの設定](attributes/subscription.md)
    + [スキーマの更新](attributes/t-update-schema.md)
    + [プライバシーに関する配慮 - 顧客属性](attributes/privacy-mac.md)
-+ オファーの管理 {#offer-management}
++ オファー管理 {#offer-management}
    + [オファー管理の概要](offer-management/getting-started.md)
    + [オファー管理のワークフロー](offer-management/offer-management-workflow.md)
    + [オファー](offer-management/offers.md)
    + [ラベル](offer-management/labels.md)
-   + [プレースメント](offer-management/placements.md)
+   + [配置](offer-management/placements.md)
    + [Campaign](offer-management/campaign.md)
 + Experience Cloudのリリースノート {#release-notes}
    + [Experience Cloud の新機能](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
