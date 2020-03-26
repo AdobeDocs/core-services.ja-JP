@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: よくある質問
 uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
 translation-type: tm+mt
-source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -23,54 +23,54 @@ Experience Cloud 管理者向けのよくある質問と回答です。
 1. [Experience Cloud に加入して管理者になる](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Dynamic Tag Manager](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) (または新しいExperience Platform Launch [](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html))を使用したExperience Cloud IDサービスの実装
 1. [レポートスイートを Experience Cloud 組織にマッピングする](../core-services/core-services.md#concept_apg_zq2_rw)
-1. [（Analytics のみ）Analytics AppMeasurement コードを最新化する](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
-1. [（Target のみ）Adobe Target の実装を最新化する](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
-1. [コアサービスの実装を確認する](../core-services/core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
+1. [（Analyticsのみ）Analytics AppMeasurementコードの最新化](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
+1. [（Adobe Targetのみ）Adobe Targetの実装の最新化](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
+1. [コアサービスの実装の確認](../core-services/core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [ユーザーと製品を管理する](../core-services/core-services.md#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
 1. [コアサービスの使用を開始する](../core-services/core-services.md#section_960C06093623462E8EA247B3E97274A1)
 
-さらにサポートが必要な場合は、[アドビサポートにお問い合わせください](https://helpx.adobe.com/marketing-cloud/contact-support.html)。
+詳しくは、アドビサポート [にお問い合わせください](https://helpx.adobe.com/marketing-cloud/contact-support.html)。
 
 **Experience Cloud にアクセスするには料金がかかりますか。**
 
-いいえ。Experience Cloud の利用に追加料金はかかりません。ただし、コアサービスによっては追加コストがかかる場合があります。
+いいえ。Experience Cloudは追加料金なしで含まれます。 ただし、一部のコアサービスには追加のコストがかかる場合があります。
 
 **Experience Cloud インターフェイスを利用してログインしなければならないのはなぜですか。**
 
-Experience Cloud インターフェイスが提供する機能は、ビジネスに新しい価値をもたらします。また、これは将来的にはソリューションへの標準的なアクセス方法となり、個々のソリューションのログインに代わって使用されるようになります。今から Experience Cloud を利用したログインを使用すると、今後の移行をよりスムーズにおこなうことができます。
+Experience Cloudインターフェイスが提供する機能は、ビジネスに新しい価値をもたらします。 また、これ以降、ソリューションにアクセスする際の標準的なパスとなり、個々のソリューションのログインフローが他のソリューションに置き換えられます。 Experience Cloud経由でログインすると、後でスムーズな移行が可能になります。
 
 **移行に関する問題を解決するにはどのようにしますか。**
 
-[アドビサポートに問い合わせてください](https://helpx.adobe.com/marketing-cloud/contact-support.html)。
+[アドビサポートにお問い合わせ](https://helpx.adobe.com/marketing-cloud/contact-support.html)。
 
 **プロビジョニン&#x200B;_グとは_**
 
 Experience Cloud でのプロビジョニングには次のような利点があります。
 
 * ユーザーが [!DNL Experience Cloud] にログインし、各ソリューションを利用できる。
-* People など、Experience Cloud を介して提供される機能の使用を開始できる。
-* ソリューションごとの煩雑なログインプロセスを改善できるようになる。
-* ソリューションへのアクセス制御を保持できる。
+* ユーザーは、Experience Cloudを通じて利用できる機能（人など）の使用を開始できます。
+* ソリューション固有のログインプロセスを廃止する準備が整います。
+* ソリューションへのアクセス制御を維持できます。
 
 **ユーザーや製品プロファイルを管理するにはどうすればよいですか。**
 
-* 詳しくは、[Admin Console ユーザーガイド](https://helpx.adobe.com/enterprise/administering/user-guide.html)を参照してください。
+* ヘルプについては [、『管理コンソールユーザガイド](https://helpx.adobe.com/enterprise/administering/user-guide.html) 』を参照してください。
 
 * ユーザーの使用権限と製品の管理は [Adobe Admin Console](https://adminconsole.adobe.com/enterprise)（製品リンク）でおこないます。
 
-* **重要：** Analytics 管理ツールから Admin Console へのユーザー ID の移行に関する Analytics 管理者向けの詳細情報については、[Admin Console での Analytics ユーザーの管理](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)を参照してください。
+* **重要：** Analyticsの管理者は、管理コンソ [ールでのAnalyticsユーザーの管理を参照して](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html) 、Analytics管理ツールから管理コンソールへのユーザーIDの移行について確認してください。
 
 **ユーザーが Experience Cloud にログインできない場合、管理者はどのように対処しますか。**
 
-Admin Console 管理者はユーザーにアクセス権を付与できます。ユーザーにはログイン手順が記載された電子メールが送信されます。
+管理コンソール管理者は、ユーザーにアクセス権を付与できます。 ユーザーには、ログイン手順が記載された電子メールが送信されます。
 
-会社としてのプロビジョニングが完了していることを確認するために、[アドビサポートへの問い合わせ](https://helpx.adobe.com/marketing-cloud/contact-support.html)が必要になる場合もあります。
+You might need to [Contact Adobe Support](https://helpx.adobe.com/marketing-cloud/contact-support.html) to verify that your company has been fully provisioned.
 
 **アカウントのリンクはどこで管理できますか。**
 
 ユーザーによっては、ソリューション（Analytics）アカウントを Adobe ID または Enterprise ID にリンクすることが必要になる場合があります。
 
-[ソリューションアカウントを Adobe ID にリンクする](../admin-getting-started/organizations.md#task_FD389E78640848919E247AC5E95B8369)を参照してください。
+See [Link a solution account to an Adobe ID](../admin-getting-started/organizations.md#task_FD389E78640848919E247AC5E95B8369).
 
 **ユーザーアカウントプロファイルと組織を管理するにはどうすればよいですか。**
 
@@ -78,7 +78,7 @@ Admin Console 管理者はユーザーにアクセス権を付与できます。
 
 **組織とは**
 
-** 組織は、管理者がグループおよびユーザーの設定や、Experience Cloud でのシングルサインオンの制御をおこなえるエンティティです。組織は、すべての Experience Cloud 製品およびソリューションをまたいだログイン会社のように機能します。ほとんどの場合、組織は、会社名です。ただし、会社は多数の組織を持つことができます。
+** 組織は、管理者がグループおよびユーザーの設定や、Experience Cloud でのシングルサインオンの制御をおこなえるエンティティです。組織は、すべての Experience Cloud 製品およびソリューションをまたいだログイン会社のように機能します。ほとんどの場合、組織は会社名です。 ただし、会社には多くの組織を持つことができます。
 
 **IMS 組織 ID はどこにありますか。**
 
@@ -86,7 +86,7 @@ Admin Console 管理者はユーザーにアクセス権を付与できます。
 
 組織 ID は、Experience Cloud ランディングページおよび[Admin Console ランディングページ](https://adminconsole.adobe.com)に表示されます。
 
-また、管理者が特定の組織の Admin Console（[https://adminconsole.adobe.com](https://adminconsole.adobe.com#) に移動）にログインすれば、その URL で IMS 組織 ID を確認できます。
+Alternatively, administrators can log into the Admin console (Navigate to [https://adminconsole.adobe.com](https://adminconsole.adobe.com#)) for a specific organization, and you will be able to see your IMS org ID in the URL.
 
 例として、次の URL を見てみましょう。
 
@@ -98,16 +98,16 @@ Admin Console 管理者はユーザーにアクセス権を付与できます。
 
 **ユーザーが会社を辞めた場合、管理者はどのように対処する必要がありますか。**
 
-そのユーザーのアクセスをソリューション自体から削除する必要があります。アクセス権を削除されたユーザーは、その製品に対して Experience Cloud からのアクセスも、直接ログインによるアクセスもできなくなります。また、そのユーザーを Experience Cloud レベルで削除する必要もあります。
+そのユーザーのアクセスをソリューション自体から削除する必要があります。ユーザーは、Experience Cloudから、または直接ログインして、製品にアクセスできなくなります。 また、Experience Cloudレベルでも削除する必要があります。
 
 **Adobe ID とは何ですか。**
 
-[ID タイプ](https://helpx.adobe.com/enterprise/help/identity.html)を参照してください。
+「IDタイ [プ」を参照](https://helpx.adobe.com/enterprise/help/identity.html)。
 
 **ユーザーに代わって管理者がソリューションアカウントをリンクできますか。**
 
-いいえ。ユーザー自身がソリューションをユーザー名とパスワードにリンクする必要があります。
+いいえ。ユーザーは、自分のソリューションをユーザー名とパスワードにリンクする必要があります。
 
 **Social を利用していないのに Social と表示されるのはなぜですか。**
 
-Adobe Social は、Analytics と共に購入できる製品です。そのため、Analytics を利用していると、Social も表示されますが、購入しない限りアクセスできません。
+Adobe Socialは、Analyticsと共に販売できる製品です。 したがって、Analyticsをお持ちの場合はこのソリューションが表示されますが、購入しない限りアクセスできません。
