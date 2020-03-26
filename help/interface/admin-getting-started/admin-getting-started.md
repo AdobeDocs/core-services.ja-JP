@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Experience Cloud ユーザーと製品の管理
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: fda58ef3a32af684482662ee462764b1b92f5cb2
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -86,14 +86,14 @@ After the migration, users sign in using their Adobe ID (or Enterprise ID) and a
 
 [AnalyticsユーザーIDの移行](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
 
-## Target - 製品プロファイルとワークスペース {#section_3860AF177C9E4C7E9C390D36A414F353}
+## Adobe Target - product profiles vs workspaces {#section_3860AF177C9E4C7E9C390D36A414F353}
 
-Targetでは、ワークスペースは製品プロファイルです。 組織は、特定のユーザーのセットを特定のプロパティのセットに割り当てることができます。 多くの点で、ワークスペースは Adobe Analytics のレポートスイートに似ています。
+Adobe Targetでは、ワークスペースは製品プロファイルです。 組織は、特定のユーザーのセットを特定のプロパティのセットに割り当てることができます。 多くの点で、ワークスペースは Adobe Analytics のレポートスイートに似ています。
 
 以下を参照してください。
 * [Enterprise User Permissions](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
 * [製品とプロファイルの管理](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* ビデオ：Adobe管理 [コンソールでのTargetワークスペースの設定方法](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* ビデオ：Adobe管 [理コンソールでのAdobe Targetワークスペースの設定方法](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Campaign - 製品プロファイル、テナント、セキュリティグループ {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -135,8 +135,8 @@ Audience Managerヘル [プの](https://docs.adobe.com/content/help/en/dtm/using
 その他のヘルプは、次のURLを参照してください。
 
 * [製品とプロファイルの管理](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* [Targetヘルプの「エンタープライズ](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) ・ユーザー権限」を参照してください。
-* ビデオ：Adobe管理 [コンソールでのTargetワークスペースの設定方法](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [Adobe Targetヘルプの](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) 「エンタープライズユーザー権限」を参照してください。
+* ビデオ：Adobe管 [理コンソールでのAdobe Targetワークスペースの設定方法](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## 製品プロファイルへの Analytics アクセス権限の割り当て {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
@@ -152,7 +152,7 @@ Audience Managerヘル [プの](https://docs.adobe.com/content/help/en/dtm/using
 |--- |--- |
 | レポートスイート | 特定のレポートスイートに対する権限の有効化 |
 | 指標 | トラフィック、コンバージョン、カスタムイベント、ソリューションイベント、コンテンツ対応などの権限を有効にします。 |
-| ディメンション | eVar、トラフィックレポート、ソリューションレポートおよびパスレポートを含む、詳細なレベルでユーザーアクセスをカスタマイズします。 |
+| ディメンション | eVar、トラフィックレポート、ソリューションレポート、パスレポートなど、詳細なレベルでユーザーアクセスをカスタマイズします。 |
 | レポートスイートツール | Webサービス、レポートスイートの管理、ツールとレポート、およびダッシュボードの項目に関するユーザー権限を有効にします。 |
 | Analytics ツール | 一般的な項目（課金、ログなど）、会社の管理、ツール、Web サービスへのアクセス、Report Builder および Data Connectors の統合に関するユーザー権限を有効にします。Admin Console のカスタマイズカテゴリのカンパニー設定は、Analytics ツールに移動されました。 |
 
@@ -177,7 +177,7 @@ Audience Managerヘル [プの](https://docs.adobe.com/content/help/en/dtm/using
 
 Experience Cloudでサポートされるブラウザー。
 
-Experience Cloudでサポートされるブラウザーには、次のものがあります。
+Experience Cloudでサポートされるブラウザーは次のとおりです。
 
 * [!DNL Microsoft Edge] (Microsoftは、 [Internet Explorer](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) 8、9、10のサポートを終了しました。 したがって、アドビでは、これらの特定のバージョンのInternet Explorerに関して報告された問題を修正しません)。
 * [!DNL Google Chrome]
@@ -185,7 +185,7 @@ Experience Cloudでサポートされるブラウザーには、次のものが�
 * [!DNL Safari]
 * [!DNL Opera]
 
-**メモ：** Experience Cloud インターフェイスはこれらのブラウザーをサポートしていますが、個々のソリューションがすべてのブラウザーに対応しているわけではありません（例えば、[Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) は [!DNL Opera] をサポートしておらず、[Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) は [!DNL Safari] をサポートしていません）。
+**メモ：** Experience Cloud インターフェイスはこれらのブラウザーをサポートしていますが、個々のソリューションがすべてのブラウザーに対応しているわけではありません(For example, [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) does not support [!DNL Opera], and [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) does not support [!DNL Safari].)
 
 **ソリューションと製品の要件**
 
