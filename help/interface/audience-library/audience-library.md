@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Audiences
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
-source-git-commit: 14d6e0ae15b023ad4dd3f8aca0606f26b39a21e9
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -39,14 +39,14 @@ source-git-commit: 14d6e0ae15b023ad4dd3f8aca0606f26b39a21e9
 | Experience Cloud オーディエンス | [オーディエンスライブラリ](../audience-library/audience-library.md)インターフェイスで直接、オーディエンスを作成、管理、共有します。次のことができます。<ul><li>生の分析属性を使用したリアルタイムオーディエンスの使用</li><li>オーディエンスを組み合わせて、リアルタイムデータと履歴データを結合した複合オーディエンスを作成</li><li>推定オーディエンスサイズのグラフィカルな表示</li></ul><br>作成するオーディエンスのタイプに関する提案については、以下を参照してください。 [Experience Cloudオーディエンス](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html)。 |
 | Analytics | セグメンテーションでは、セグメントを構築してレポートスイートと組み合わせ、[Experience Cloud にセグメントを公開](../audience-library/audience-library.md)できます。公開したセグメントは[オーディエンス](../audience-library/audience-library.md)ページに表示されます。また、オーディエンスは、Adobe Target によって提供されるキャンペーンエクスペリエンスの対象オーディエンスとして使用したり、Audience Manager で使用したりできます。Once an audience is shared from Analytics, and selected for use in an active campaign, all the visitor profiles who met the segment definition criteria for the past 90 days are sent to the Experience Cloud [!UICONTROL Audience Services] platform. 共有オーディエンスの制限が75に増加しました。 AnalyticsからExperience Cloudに共有されるオーディエンスは、2,000万人を超える一意のメンバーを超えることはできません。 また、キャッシュのため、Analyticsで削除されたレポートスイートは、Experience Cloudに削除が表示されるまで12時間かかります。 |
 | Mobile Services | デバイスタイプレポートのサンバースト視覚化を使用して、モバ [!UICONTROL イルトラフィックを分析] 。 |
-| Target | The [ID service](https://docs.adobe.com/content/help/en/id-service/using/home.html) unifies visitor IDs and data into a single, actionable profile for use across solutions. 「[Experience Cloud に公開](../audience-library/audience-library.md)」チェックボックスを Adobe Analytics でセグメント作成処理中にオンにすると、Adobe Target のカスタムオーディエンスライブラリ内でセグメントを使用できるようになります。Analytics または Audience Manager で作成されたセグメントは、Target のアクティビティで使用できます。例えば、Analytics コンバージョン指標および Analytics で作成されたオーディエンスセグメントに基づいてキャンペーンアクティビティを作成できます。 |
+| [!DNL Target] | The [ID service](https://docs.adobe.com/content/help/en/id-service/using/home.html) unifies visitor IDs and data into a single, actionable profile for use across solutions. 「[Experience Cloud に公開](../audience-library/audience-library.md)」チェックボックスを Adobe Analytics でセグメント作成処理中にオンにすると、Adobe Target のカスタムオーディエンスライブラリ内でセグメントを使用できるようになります。A segment created in Analytics or Audience Manager can be used for activities in  [!DNL Target].  例えば、Analytics コンバージョン指標および Analytics で作成されたオーディエンスセグメントに基づいてキャンペーンアクティビティを作成できます。 |
 | Audience Manager | 共有オーディエンスは、Audience Managerのセグメント化で使用できます。 Experience Cloud オーディエンスはすべて、Audience Manager でネイティブに使用できます。Audience Manager は以下に対応しています。<ul><li>ソリューションワークフローでの共有方法と使用方法に関するビルトインの自動化</li><li>オフサイトの宛先</li><li>類似モデリング</li></ul> |
 | キャンペーン | <ul><li>別の Adobe Experience Cloud ソリューションから Adobe Campaign に共有オーディエンスを読み込む。</li><li>共有オーディエンスの形式で受信者リストを書き出す。 これらの共有オーディエンスは、使用する様々なAdobe Experience Cloudソリューションで使用できます。</li></ul> |
 | Media Manager | オーディエンスをターゲットとして使用します。 |
 
 >[!IMPORTANT]
 >
->訪問者がAnalyticsから共有されたオーディエンスの資格を得ると、その情報がTarget、Ad Cloud、Campaign Standardでアクション可能になるまでに4 ～ 8時間の遅延が発生します。
+>Once a visitor qualifies for the audience shared from Analytics, there is a 4-8 hour delay before that information is actionable in [!DNL Target], Ad Cloud, and Campaign Standard.
 
 ## その他のヘルプ情報 - 質問、ガイダンス、使用例 {#section_C7F151644D8A45F7B6FC54F58845635D}
 
