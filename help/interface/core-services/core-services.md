@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: コアサービス向けにソリューションを有効化
 uuid: 5820060f-9b18-4339-81e0-401d964f7a03
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 979520e2f0e015180a3b51d4b0b88b96b72301a3
 
 ---
 
@@ -199,7 +199,7 @@ Users that are added to the [!UICONTROL Customer Attributes] group will see the 
 
 ![](assets/menu-audiences-shell.png)
 
-### [!UICONTROL 人] / [!UICONTROl顧客属性]
+### [!UICONTROL 人物] /顧 [!UICONTROL 客属性]
 
 エンタープライズ顧客データを顧客関係管理（CRM）データベースに取り込んでいる場合は、そのデータを Experience Cloud の顧客属性データソースにアップロードできます。アップロード後は、データを [!DNL Adobe Analytics] と [!DNL Adobe Target] で利用できます。
 
