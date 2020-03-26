@@ -1,13 +1,13 @@
 ---
-description: Experience CloudとCreative Cloudの間でフォルダーとアセットを共有します。 共有アセットの共同作業、注釈の追加、SocialやTargetなどのExperience Cloudソリューションでの使用を行います。 共有フォルダーはExperience Cloudから作成されている必要があります。
+description: Experience CloudとCreative Cloudの間でフォルダーとアセットを共有します。 共有アセットの共同作業、注釈の追加、Adobe SocialやAdobe TargetなどのExperience Cloudソリューションでの使用を行います。 共有フォルダーはExperience Cloudから作成されている必要があります。
 keywords: asset sharing;Creative Cloud;core services
-seo-description: Experience CloudとCreative Cloudの間でフォルダーとアセットを共有します。 共有アセットの共同作業、注釈の追加、SocialやTargetなどのExperience Cloudソリューションでの使用を行います。 共有フォルダーはExperience Cloudから作成されている必要があります。
+seo-description: Experience CloudとCreative Cloudの間でフォルダーとアセットを共有します。 共有アセットの共同作業、注釈の追加、Adobe SocialやAdobe TargetなどのExperience Cloudソリューションでの使用を行います。 共有フォルダーはExperience Cloudから作成されている必要があります。
 seo-title: Experience Cloud フォルダーおよびアセットの Creative Cloud との共有
 solution: Experience Cloud
 title: Experience Cloud フォルダーおよびアセットの Creative Cloud との共有
 uuid: 2bb002a6-e08e-402b-8df0-ecb21ab74490
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 979520e2f0e015180a3b51d4b0b88b96b72301a3
 
 ---
 
