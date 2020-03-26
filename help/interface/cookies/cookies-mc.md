@@ -3,11 +3,11 @@ description: Adobe Experience Cloud で訪問者 ID を保存するために使�
 keywords: cookies;privacy
 seo-description: Adobe Experience Cloud で訪問者 ID を保存するために使用される cookie は、様々な Experience Cloud ソリューションで利用されます。
 seo-title: Experience Cloud の cookie
-solution: Marketing Cloud,Analytics,Target,Social
+solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Experience Cloud の cookie
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 translation-type: tm+mt
-source-git-commit: f9839c39c52bc10ab641df094dc444b642986974
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -32,11 +32,11 @@ Adobe Experience Cloud で訪問者 ID を保存するために使用される c
   </tr> 
   <tr> 
    <td colname="col1"> <p> 有効期限 </p> </td> 
-   <td colname="col2"> <p>2 年 </p> </td> 
+   <td colname="col2"> <p>2年 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 用途 </p> </td> 
-   <td colname="col2"> <p>この cookie は、AMCV cookie がクライアントで設定された後に、お客様のドメインで設定されます。このcookieの目的は、ファーストパーティ状態での永続的なID追跡を許可することであり、AMCV cookieの有効期限が切れた場合に参照IDとして使用されます。 詳しくは、こちらの AMCV cookie を参照してください。 </p> </td> 
+   <td colname="col2"> <p>この cookie は、AMCV cookie がクライアントで設定された後に、お客様のドメインで設定されます。このcookieの目的は、ファーストパーティ状態での永続的なID追跡を許可することで、AMCV cookieの有効期限が切れた場合に参照IDとして使用されます。 詳しくは、こちらの AMCV cookie を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 場所 </p> </td> 
@@ -51,9 +51,9 @@ Adobe Experience Cloud で訪問者 ID を保存するために使用される c
 
 **cookie 名：AMCV_###@AdobeOrg**
 
-[Experience Platform IDサービスは](https://docs.adobe.com/content/help/en/id-service/using/home.html) 、JavaScriptを使用して、現在のWebサイトのドメイン上の `AMCV_###@AdobeOrg` cookieに一意の訪問者IDを保存します。ここで、 `###` は、次のようなランダムな文字列を表します。 `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+[Experience Platform IDサービスは](https://docs.adobe.com/content/help/en/id-service/using/home.html) 、JavaScriptを使用して、現在のWebサイトのドメイン上の `AMCV_###@AdobeOrg` cookieに一意の訪問者IDを格納します。このcookieは、 `###` 次のような文字列をランダムに表します。 `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-[cookie と Marketing Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)も参照してください。
+See also, [Cookies and the ID Service](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html).
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
@@ -65,11 +65,11 @@ Adobe Experience Cloud で訪問者 ID を保存するために使用される c
  <tbody> 
   <tr> 
    <td colname="col1"> <p>保存される情報 </p> </td> 
-   <td colname="col2"> <p> Experience Cloud ソリューションで使用される一意の訪問者 ID </p> </td> 
+   <td colname="col2"> <p> Experience Cloudソリューションで使用される一意の訪問者ID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 有効期限 </p> </td> 
-   <td colname="col2"> <p> 2 年 </p> </td> 
+   <td colname="col2"> <p> 2年 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 用途 </p> </td> 
@@ -81,7 +81,7 @@ Adobe Experience Cloud で訪問者 ID を保存するために使用される c
   </tr> 
   <tr> 
    <td colname="col1"> <p> サイズ </p> </td> 
-   <td colname="col2"> <p> この cookie の長さは状況に応じて変化しますが、通常は 200 バイト程度になります。 </p> </td> 
+   <td colname="col2"> <p> 多くのお客様は、このcookieの長さが約200バイトであると考えています。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
