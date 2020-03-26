@@ -1,29 +1,29 @@
 ---
-description: ソリューションのデータソースと、サブスクリプションの設定について説明します。サブスクリプションを設定することで、Experience Cloud とソリューション（Analytics と Target）の間で顧客属性データをやり取りできるようになります。
-keywords: 顧客属性;コアサービス
-seo-description: ソリューションのデータソースと、サブスクリプションの設定について説明します。サブスクリプションを設定することで、Experience Cloud とソリューション（Analytics と Target）の間で顧客属性データをやり取りできるようになります。
+description: ソリューションのデータソースと、購読の設定について説明します。 購読を使用すると、Experience Cloudとソリューション（AnalyticsとTarget）の間の顧客属性データフローを有効にできます。
+keywords: customer attributes;core services
+seo-description: ソリューションのデータソースと、購読の設定について説明します。 購読を使用すると、Experience Cloudとソリューション（AnalyticsとTarget）の間の顧客属性データフローを有効にできます。
 seo-title: サブスクリプションの設定
 solution: Experience Cloud
 title: サブスクリプションの設定
 uuid: f74a8155-0a21-46b3-9b1e-4c838f72f24f
 translation-type: tm+mt
-source-git-commit: b8363f024a09e07d26f6c0d0255e2675f7ef1a9a
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
 
 # サブスクリプションの設定
 
-ソリューションのデータソースと、サブスクリプションの設定について説明します。サブスクリプションを設定することで、Experience Cloud とソリューション（Analytics と Target）の間で顧客属性データをやり取りできるようになります。
+ソリューションのデータソースと、購読の設定について説明します。 購読を使用すると、Experience Cloudとソリューション(Analyticsと [!DNL Target])の間で顧客属性データのフローを有効にできます。
 
-例えば、Adobe Analytics を購読すると、レポート内で属性データが有効になります。Adobe Target を使用している場合は、ターゲティングとセグメント化用に顧客属性をアップロードできます。
+例えば、Adobe Analyticsの購読により、レポートで属性データが有効になります。 Adobe Targetを使用する場合は、ターゲット設定とセグメント化のために顧客属性をアップロードできます。
 
-**[!UICONTROL 顧客属性ソース]**／**[!UICONTROL 新しい顧客属性ソースを作成]**／**[!UICONTROL 新規]**
+**[!UICONTROL 顧客属性ソース]** /新 **[!UICONTROL 規顧客属性ソースの作成]** / **[!UICONTROL 新規]**
 
 ![](assets/configure_subscription_page.png)
 
 | 要素 | 説明 |
 |--- |--- |
-| ソリューション | **Adobe Analytics**<br>「Analytics」を選択し、属性データを受け取るレポートスイートおよび含める属性を指定します。<br>**Adobe Target**<br>ターゲティングとセグメント化用に顧客属性をアップロードできます。この機能は、属性データに基づいてテストのターゲットを設定する場合、または Analytics でのセグメント化でデータを使用できるようにする場合に便利です。<br>訪問者のアップロード済み顧客属性データは、**Target**／**オーディエンス**&#x200B;を選択してログイン時に使用できます。<br>複数のデータソースがサポートされています。Web サイト上で[顧客 ID を設定](../core-services/core-services.md)する場合は、少なくとも 1 つのエイリアスが Target にサブスクライブされていることを確認します。 |
-| レポートスイート（Analytics） | Analytics のレポートスイート。<br>1 つの属性ソース内で Analytics の購読に追加できるレポートスイートの合計は最大 10 です。含めるレポートスイートを選択する際は、以下のアドバイスを考慮してください。<ul><li>認証済みの共通の顧客セットを持つレポートスイートを選択する。あるレポートスイートの認証済み顧客が別のレポートスイートの認証済み顧客と重ならない場合は、これらのレポートスイートを異なる属性ソースに分けてください。</li><li>可能であれば、1 つの属性ソースに含まれるレポートスイートのトラフィック量は同じにする。</li></ul><br>認証済みの共通の顧客セットを持つレポートスイートが 10 以上ある場合は、追加の顧客属性ソースを設定して、それぞれを最大 10 レポートスイートにすることができます。 |
-| 含める属性（Analytics と Target） | ソリューションに送信する属性。 <br>購読を設定して属性を選択する場合、所有するソリューションに _応じて、レポートスイート_ ごとに次の制限が適用されます。<ul><li>Foundation：0 件</li><li>Select：3 件</li><li>Prime：15 件</li><li>Ultimate：200 件</li><li>Standard：合計 3 件</li><li>Premium：レポートスイートあたり 200 件</li><li>Target Standard：5 件</li><li>Target Premium：200 件</li></ul><br>**注意：** Analytics Premium にアップグレードすると、追加の属性を使用できるようになるまでに 24 時間の遅延が生じます。この遅延の間に、属性サブスクリプションの上限に関連するエラーが発生することがあります。 |
+| ソリューション | **Adobe Analytics **<br>「Analytics」を選択し、属性データを受け取るレポートスイートおよび含める属性を指定します。<br>**Adobe Target**<br>ターゲティングとセグメント化用に顧客属性をアップロードできます。この機能は、属性データに基づいてテストのターゲットを設定する場合、または Analytics でのセグメント化でデータを使用できるようにする場合に便利です。<br>訪問者のアップロードされた顧客属性データは、/オーディエンスでログイン時に&#x200B;**[!DNL Target]**使用で**&#x200B;きます&#x200B;**。<br>複数のデータソースがサポートされています。When you[set customer IDs](../core-services/core-services.md)on your website, verify that at least one of the aliases is subscribed to[!DNL Target]. |
+| レポートスイート（Analytics） | Analytics のレポートスイート。<br>1 つの属性ソース内で Analytics の購読に追加できるレポートスイートの合計は最大 10 です。含めるレポートスイートを選択する際は、以下の提案を考慮します。<ul><li>認証済みの共通の顧客セットを持つレポートスイートを選択します。 あるレポートスイートの認証済み顧客が別のレポートスイートの認証済み顧客と重複しない場合は、これらのレポートスイートを異なる属性ソースに分けます。</li><li>可能であれば、属性ソースに含まれるレポートスイートのトラフィック量は同じにする必要があります。</li></ul><br>認証済みの共通の顧客セットを持つレポートスイートが 10 以上ある場合は、追加の顧客属性ソースを設定して、それぞれを最大 10 レポートスイートにすることができます。 |
+| 含める属性 (Analyticsおよび [!DNL Target]) | ソリューションに送信する属性。 <br>購読を設定し、属性を選択する場合、所有するソリューシ _ョンに応じて_ 、レポートスイートごとに次の制限が適用されます。<ul><li>Foundation：0 件</li><li>Select：3 件</li><li>Prime：15 件</li><li>Ultimate：200 件</li><li>Standard：合計 3 件</li><li>Premium：レポートスイートあたり 200 件</li><li>[!DNL Target] 標準：5</li><li>[!DNL Target] プレミアム：200</li></ul><br>**注意：**Analytics Premium にアップグレードすると、追加の属性を使用できるようになるまでに 24 時間の遅延が生じます。この遅延の間に、属性サブスクリプションの上限に関連するエラーが発生することがあります。 |
