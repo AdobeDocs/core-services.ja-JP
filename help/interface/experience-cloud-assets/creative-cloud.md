@@ -1,20 +1,19 @@
 ---
-description: Experience CloudとCreative Cloudの間でフォルダーとアセットを共有します。 共有アセットの共同作業、注釈の追加、Adobe SocialやAdobe TargetなどのExperience Cloudソリューションでの使用を行います。 共有フォルダーはExperience Cloudから作成されている必要があります。
+description: Experience CloudとCreative Cloudの間でフォルダーとアセットを共有します。 共有アセットの共同作業、注釈の追加、Adobe SocialやAdobe Experience Cloudソリューションでの使用を行います。ターゲット 共有フォルダーはExperience Cloudから作成されている必要があります。
 keywords: asset sharing;Creative Cloud;core services
-seo-description: Experience CloudとCreative Cloudの間でフォルダーとアセットを共有します。 共有アセットの共同作業、注釈の追加、Adobe SocialやAdobe TargetなどのExperience Cloudソリューションでの使用を行います。 共有フォルダーはExperience Cloudから作成されている必要があります。
+seo-description: Experience CloudとCreative Cloudの間でフォルダーとアセットを共有します。 共有アセットの共同作業、注釈の追加、Adobe SocialやAdobe Experience Cloudソリューションでの使用を行います。ターゲット 共有フォルダーはExperience Cloudから作成されている必要があります。
 seo-title: Experience Cloud フォルダーおよびアセットの Creative Cloud との共有
 solution: Experience Cloud
 title: Experience Cloud フォルダーおよびアセットの Creative Cloud との共有
-uuid: 2bb002a6-e08e-402b-8df0-ecb21ab74490
 translation-type: tm+mt
-source-git-commit: 979520e2f0e015180a3b51d4b0b88b96b72301a3
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
 # Experience Cloud フォルダーおよびアセットの Creative Cloud との共有
 
-Experience CloudとCreative Cloudの間でフォルダーとアセットを共有します。 共有アセットの共同作業、注釈の追加、Adobe SocialやAdobe TargetなどのExperience Cloudソリューションでの使用を行います。 共有フォルダーはExperience Cloudから作成されている必要があります。
+Experience CloudとCreative Cloudの間でフォルダーとアセットを共有します。 共有アセットの共同作業、注釈の追加、Adobe SocialやAdobe Experience Cloudソリューションでの使用を行います。ターゲット 共有フォルダーはExperience Cloudから作成されている必要があります。
 
 ## 共有の利点 {#section_4AA9939F38064280BB181D5F9E1FDEEE}
 
@@ -30,4 +29,4 @@ Creative Cloudユーザーは、アセットにアクセスする前に、Experi
 
 When creating activities in [!DNL Adobe Target], you can use a shared image asset when swapping images in the [!UICONTROL Offers Library].
 
-ヘルプのオ [ファーライブラリ](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) を参照し [!DNL Target] てください。
+ヘルプの [オファー](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) ・ライブラリを参照 [!DNL Target] してください。
