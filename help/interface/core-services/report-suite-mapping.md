@@ -5,7 +5,7 @@ seo-title: 組織へのレポートスイートのマッピング
 title: 組織へのレポートスイートのマッピング
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: b6ef7f0b7ef3b43b437524b20cee940889c26ba8
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -14,14 +14,14 @@ source-git-commit: b6ef7f0b7ef3b43b437524b20cee940889c26ba8
 
 1 つまたは複数のレポートスイートを組織にマッピングする方法について説明します。
 
-Experience Cloudサービス（Experience Cloud IDサービスやPeopleコアサービスなど）は、個々のレポートスイートではなく、組織に関連付けられます。 これらのサービスを正しく機能させるには、各 Analytics レポートスイートを組織にマッピングする必要があります。マッピングプロセスは以下のように実行されます。
+Experience Cloudサービス（Experience Cloud IDサービスやPeopleコアサービスなど）は、個々のレポートスイートではなく、組織に関連付けられます。 これらのサービスを正しく機能させるには、各 Analytics レポートスイートを組織にマッピングする必要があります。マッピングプロセス：
 
-* Experience Cloud 組織をレポートスイート用の主要組織として設定します。
-* レポートスイートにアクセスできるユーザーは変更されません（アクセスが可能かどうかは引き続き各ユーザーの Adobe Analytics ログインアカウントによって決定されます）。
+* Experience Cloud組織をレポートスイートのプライマリ組織として設定します。
+* レポートスイートにアクセスできるユーザーは変更されません（アクセスは、各ユーザーのAdobe Analyticsログインアカウントによって決まります）。
 
-**要件**
+## 要件
 
-マッピングをおこなうには、マッピングしたいレポートスイートへのアクセス権を持つログイン会社の Analytics 管理者であることが必要です。また、このアカウントが [Experience Cloud 組織にリンクされている](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)ことが、その組織にレポートスイートをマッピングするうえで必須となります。
+マッピングするレポートスイートにアクセスできるログイン会社のAnalytics管理者である必要があります。 さらに、レポートスイートをその組 [織にマッピングするには](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) 、このアカウントをExperience Cloud組織にリンクする必要があります。
 
 指定したレポートスイートへのアクセス権を持つ組織のログイン会社の Analytics 管理者権限を持っていない場合、その組織はグレー表示されます。
 
@@ -39,7 +39,7 @@ Experience Cloudサービス（Experience Cloud IDサービスやPeopleコアサ
 
 ## 組織に複数のレポートスイートをマッピングする{#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
-1. **[!UICONTROL Experience Cloud]**／**[!UICONTROL 管理]**／**[!UICONTROL Report Suite Mapping]** をクリックします。
+1. **[!UICONTROL Experience Cloud]** /管理/レポー **[!UICONTROL トスイ]** ートのマッピングをクリックします ****。
 
 1. マッピングするレポートスイートを選択します。
 
@@ -53,61 +53,61 @@ Experience Cloudサービス（Experience Cloud IDサービスやPeopleコアサ
 
 ## Experience Cloud 組織の選択に関するヒント {#mapping-tips}
 
-この節では、レポートスイートをマッピングする必要がある Experience Cloud 組織を選択するうえで役立つヒントを紹介します。
+この節では、レポートスイートのマッピング先のExperience Cloud組織を選択する際に役立つヒントについて説明します。
 
-**どの組織を選択すべきか**
+### 私はどの組織を選べばよいですか？
 
-If the Experience Cloud ID Service is currently deployed on the report suite, ensure the organization you select in the Report Suite Mapping tool is the same organization specified in the [!DNL visitorAPI.js] file on your site. [Experience Cloud ID サービスのテストと検証](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html)の指示に従えば、訪問者 ID サービスで使用されている組織 ID を確認できます。
+If the Experience Cloud ID Service is currently deployed on the report suite, ensure the organization you select in the Report Suite Mapping tool is the same organization specified in the [!DNL visitorAPI.js] file on your site. You can use the instructions in [Test and Verify the Experience Cloud ID Service](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html) to find the org ID that is being used by the Visitor ID service.
 
-レポートスイート用のデータを収集するサイト上にまだ訪問者 ID サービスがデプロイされておらず、今後 Experience Cloud 訪問者 ID サービスをデプロイする予定がある場合は、レポートスイートマッピングツールで選択した組織と一致するようにデプロイをおこなう必要があります。
+訪問者IDサービスが、レポートスイートのデータを収集するサイトにまだ導入されていない場合、将来Experience Cloud訪問者IDサービスを導入する場合は、導入が、レポートスイートマッピングツールで選択した組織と一致することを確認する必要があります。
 
-**一部の組織がグレー表示されている理由**
+### 一部の組織が灰色表示になっているのはなぜですか。
 
-これは、グレー表示されているレポートスイートにマッピングするために必要な権限が不足していることを示しています。次の例をご覧ください。
+これは、灰色表示のレポートスイートにマッピングする権限がないことを示します。 次の例をご覧ください。
 
 
 ![](assets/rs-mapping.png)
 
-この図では、青色の鍵が管理権限を示しています。グレーの線は可視性を示しています。
+この図では、青色の鍵が管理権限を示しています。灰色の線は表示/非表示を示します。
 
-このユーザーは、2 つの Experience Cloud 組織にアクセスできます。このユーザーは以下の操作を実行しました。
+このユーザーは、2つのExperience Cloud組織にアクセスできます。 彼は次のことを行った。
 
-* Linked his admin account in the [!UICONTROL chapek] Analytics login company to his [!UICONTROL Chapek] Corp Experience Cloud organization account.
-* Linked his non-admin account in the [!UICONTROL doohan] Analytics login company to his [!UICONTROL Chapek] Corp Experience Cloud organization account.
-* Analytics ログイン会社「nigel」内の自分の非管理者アカウントを Experience Cloud 組織「Nigel Inc」の自分のアカウントにリンクした。
+* Chapek [!UICONTROL Analyticsログイン会社の管理者アカウントを] Chapek  Corp Experience Cloud組織アカウントにリンクしました。
+* Doohan [!UICONTROL Analyticsログイン会社の管理者以外のアカウントを] Chapek  Corp Experience Cloud組織のアカウントにリンクしました。
+* Nigel Analyticsログイン会社の管理者以外のアカウントをNigel Inc Experience Cloud組織のアカウントにリンクしました。
 
-以下は、これらのレポートスイートに関して実行できるマッピングアクションと実行できないマッピングアクションを一覧にまとめたものです。
+次のポイントリストは、このユーザーがこれらのレポートスイートに対して実行できるマッピング操作と実行できないマッピング操作です。
 
-* [!UICONTROL このユーザーはリンクされたAnalyticsログイン会社(] chapek [!UICONTROL )の管理者で、アカウントはこの組織にリンクされているので、Chapek-prodレポートスイートは] ChapekCorp組織にマッピングできます。
-* [!UICONTROL このユーザーは nigel-prod レポートスイートを表示できるログイン会社の管理者ではないので、このレポートスイートをリンクすることはできません。]
-* [!UICONTROL Doohan-prod] report suiteは、Experience Cloud組織にリンクされているログイン会社( [!UICONTROL chapek] )の管理者なので、Chapek Corpにマッピングできます（Doohan Analyticsログイン会社の管理者ではないことに注意）。 It is important to be aware that the [!UICONTROL doohan-prod] report suite is also eligible to be mapped to the Nigel Inc Experience Cloud org, even though this user cannot perform that mapping. In this case, both Experience Cloud organizations are displayed in the list, but [!UICONTROL Nigel Inc] is grayed out. マッピングをおこなう前に、このユーザーはログイン会社「nigel」の管理者に問い合わせて、マッピングに最適な候補はどちらの組織なのかを判断する必要があります。最初にレポートスイートを作成するときに使用した組織とは異なる組織を選択した場合、UI には「競合の可能性」警告が表示されます。
+* [!UICONTROL このユーザーはAnalyticsのリンクされたログイン会社(] chapek [!UICONTROL )の管理者で、アカウントはこの組織にリンクされているので、Chapek-prodレポートスイートは] ChapekCorp組織にマッピングできます。
+* [!UICONTROL このレポートスイートは] 、このレポートスイートが表示されるログイン会社の管理者ではないので、Nigel-prodレポートスイートをこのユーザーがリンクすることはできません。
+* [!UICONTROL Doohan] -prodレポートスイートは、Experience Cloud組織にリンクされたログイン会社( [!UICONTROL chapek] )の管理者であるため、Chapek Corpにマッピングできます(Doohan Analyticsログイン会社の管理者ではないことに注意)。 Doohan-prod  (Doohan-prod)レポートスイートもNigel Inc Experience Cloud組織にマッピングできる資格があることに注意してください。ただし、このユーザーはこのマッピングを実行できません。 この場合、両方のExperience Cloud組織がリストに表示されますが、 [!UICONTROL Nigel Inc] は灰色表示になっています。 マッピングを行う前に、このユーザーはニジェルのログイン会社の管理者に問い合わせて、マッピングに最も適した組織を判断する必要があります。 UIには、この組織が最初にレポートスイートが作成された組織と異なる組織を選択した場合に、競合の可能性に関する警告が表示されます。
 
 ## よくある質問 {#section_099E485805994C929FF9C9F75219BEE1}
 
-**すべてのレポートスイートが表示されないのはなぜですか。**
+### すべてのレポートスイートが表示されないのはなぜですか。
 
-一部のレポートスイートは別のログイン会社で表示できる場合があります。画面上部にあるドロップダウンリストを使用すると現在のログイン会社を変更できます。
+一部のレポートスイートは、別のログイン会社で表示。 現在のログイン会社は、画面の上部にあるドロップダウンを使用して変更できます。
 
-**レポートスイートのドロップダウンリストに見覚えのない組織が表示されている場合はどうすればよいですか。**
+### レポートスイートの1つのドロップダウンに表示される組織が一部認識されない場合はどうなりますか。
 
-マッピング権限を持っていないレポートスイートがあったとしても、リストにはレポートスイートをマッピングできる可能性のあるすべての組織が表示されます。リスト内でグレー表示されている組織にレポートスイートをマッピングする必要があるかどうかがわからない場合は、組織の Experience Cloud 管理者に問い合わせてください。
+The list shows you all the *possible* organizations your report suite could be mapped to, even you don’t have permission to map to all those report suites. レポートスイートをリスト内の灰色表示のレポートスイートの1つにマッピングする必要があるかどうかがわからない場合は、組織のExperience Cloud管理者に問い合わせて、最適な選択肢を決定してください。
 
-**レポートスイートの「表示可能なログイン会社名」列に見覚えのないログイン会社が表示されている場合はどうすればよいですか。**
+### 「ログイン会社を表示」列にレポートスイート用のログイン会社の一部が表示されない場合はどうなりますか。
 
-そのレポートスイートは別のログイン会社と共有されていて、そのログイン会社は別の Experience Cloud 組織に属していた可能性があります。
+ある時点で、このレポートスイートは別のログイン会社と共有され、別のExperience Cloud組織の一部である可能性がありました。
 
-**「競合の可能性」エラーが表示され、このレポートスイートが別の組織から生成されたものであるというメッセージが表示されたのですが、これは何を意味しますか。どのような点が問題なのでしょうか。**
+### 別の組織が生成するレポートスイートに関する「競合の可能性」エラーは何ですか。 なぜ重要なの？
 
-これは、十分な情報に基づいてレポートスイートのマッピングをおこなえるようにするための通知です。そのレポートスイートが本来は別の組織で作成されたものであり、その組織の方がマッピングに適している可能性があるという点を認識してもらうことが目的です。
+これは、レポートスイートのマッピングに関する十分な情報に基づく決定を行うのに役立つ通知です。 組織がこのレポートスイートに対してより適切である可能性がある場合に備えて、レポートスイートが最初に別の組織の下に作成されたことをお知らせします。
 
-**レポートスイートがマッピングされているかどうかを確認するには、どうすればよいですか。**
+### レポートスイートがマッピングされているかどうかを知る方法を教えてください。
 
-マッピング済みレポートスイートは編集不可能な形式で表示されます。マッピングを変更する必要がある場合は、カスタマーケアまでご連絡ください。
+マップされたレポートスイートは編集不可の形式で表示されます。 マッピングを変更する必要がある場合は、カスタマーケアにお問い合わせください。
 
-**Experience Cloud 組織の組織 ID しかわからない場合、組織 ID に対応する名前を調べるには、どうすればよいですか。**
+### Experience Cloud組織の組織IDのみを知っている場合はどうなりますか？ 組織 ID に対応する名前を調べるには、どうすればよいですか。
 
-組織名は「[組織とアカウントの設定](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html)」で確認できます。
+組織名は、「組織とアカウントの設 [定」で確認できます](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html)。
 
-**「マッピング日」列に日付が表示されています。誰がこのマッピングを実行したのでしょうか。**
+### 「Date Mapped」列に日付が表示されます。 誰が地図を？
 
-Analytics インターフェイスで「レポートスイートの変更ログ」を参照することで、変更をおこなったユーザーのユーザー ID を確認できます。IMS 組織にスイートが関連付けられたことを示すイベントを探してください。
+Analyticsインターフェイスのレポートスイートの変更ログを参照して、変更を加えたユーザーIDを確認できます。 「IMS組織に関連付けられたイベント」を探します。
