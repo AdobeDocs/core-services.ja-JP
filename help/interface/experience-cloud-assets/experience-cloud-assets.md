@@ -1,43 +1,42 @@
 ---
-description: Experience Cloud Assets は、ソリューション全体で共有できるマーケティング用アセットの一元管理ツールです。アセットは、デジタルドキュメント、画像、ビデオまたはオーディオ（またはその一部）で、複数のレンディションを持つことができ、サブアセットを持つことができます（例えば、Photoshop ファイルのレイヤー、PowerPoint ファイルのスライド、PDF のページ、ZIP 内のファイルなど）。
-seo-description: Experience Cloud Assets は、ソリューション全体で共有できるマーケティング用アセットの一元管理ツールです。アセットは、デジタルドキュメント、画像、ビデオまたはオーディオ（またはその一部）で、複数のレンディションを持つことができ、サブアセットを持つことができます（例えば、Photoshop ファイルのレイヤー、PowerPoint ファイルのスライド、PDF のページ、ZIP 内のファイルなど）。
+description: Experience Cloud Assetsは、複数のソリューションで共有できる、マーケティングに対応したアセットの一元管理機能です。 アセットは、複数のレンディションを持つことができ、サブアセット（例えば、Photoshopファイルのレイヤー、PowerPointファイルのスライド、PDFのページ、ZIP内のファイル）を持つことができるデジタルドキュメント、画像、ビデオまたはオーディオ（またはその一部）です。
+seo-description: Experience Cloud Assetsは、複数のソリューションで共有できる、マーケティングに対応したアセットの一元管理機能です。 アセットは、複数のレンディションを持つことができ、サブアセット（例えば、Photoshopファイルのレイヤー、PowerPointファイルのスライド、PDFのページ、ZIP内のファイル）を持つことができるデジタルドキュメント、画像、ビデオまたはオーディオ（またはその一部）です。
 seo-title: Assets
 solution: Experience Cloud
 title: Assets
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
 # Assets
 
-Experience Cloud Assets は、ソリューション全体で共有できるマーケティング用アセットの一元管理ツールです。アセットは、デジタルドキュメント、画像、ビデオまたはオーディオ（またはその一部）で、複数のレンディションを持つことができ、サブアセットを持つことができます（例えば、Photoshop ファイルのレイヤー、PowerPoint ファイルのスライド、PDF のページ、ZIP 内のファイルなど）。
+Experience Cloud Assetsは、複数のソリューションで共有できる、マーケティングに対応したアセットの一元管理機能です。 アセットは、複数のレンディションを持つことができ、サブアセット（例えば、ファイル内のレイヤー、ファイル内のスライド、PDF内のページ、ZIP内のファイル）を持つことができるデジタルドキュメント、画像、ビデオまたはオーディオ（またはその一部）です。 [!DNL Photoshop][!DNL PowerPoint]
 
-<!-- asset.xml -->
-アセットサービスの一例を示します。
+アセットサービスには、次のものが含まれます。
 
-* アセットストレージ、管理インターフェイス、組み込み選択インターフェイス（ソリューションを利用してアクセス）。
+* アセットストレージ、管理インターフェイス、組み込み選択インターフェイス（ソリューションを通じてアクセス）。
 * Creative Cloud、Experience Cloud コラボレーションおよび Experience Cloud ソリューションとの統合。
 
-アセットを使用すると、整合性とブランドコンプライアンスが高まり、市場への投入時間が短縮されます。各ソリューションでワークフローを効率化できます。
+アセットを使用すると、一貫性とブランドコンプライアンスが向上し、市場投入までの時間が短縮されます。 次のソリューションでワークフローを合理化できます。
 
 * **[!DNL Social]**：Facebook、Twitter、LinkedIn、Google+ のソーシャルメディアに投稿します。
 * **[!DNL Target]**：A/B テストと多変量分析テストを設定できます。
 * **[!DNL Media Optimizer]**：様々なチャネルとキャンペーン全体で広告ユニットを作成できます。
 * **[!DNL Campaign]**：アセットを電子メールニュースレターとキャンペーンに配置します。
 
-[!UICONTROL Experience Cloud Assets] では、次のことをおこなえます。
+Experience Cloud Assets [!UICONTROL では]、次のことができます。
 
 * [Experience Cloud Assets への移動](../experience-cloud-assets/experience-cloud-assets.md#section_3657039DD3524F2AA88753BFF4781125)
-* [ツールバーにアクセスする](../experience-cloud-assets/experience-cloud-assets.md#section_EC2E401D225148818F3753248556BE6B)
-* [アセットを編集する](../experience-cloud-assets/experience-cloud-assets.md#section_CD3C55A9D4574455B94D0955391C8FEC)
+* [ツールバーへのアクセス](../experience-cloud-assets/experience-cloud-assets.md#section_EC2E401D225148818F3753248556BE6B)
+* [アセットの編集](../experience-cloud-assets/experience-cloud-assets.md#section_CD3C55A9D4574455B94D0955391C8FEC)
 * [アセットを検索する](../experience-cloud-assets/experience-cloud-assets.md#section_50FE049010B446FC9640AA6A30E5A730)
 * [アセットに注釈を付ける](../experience-cloud-assets/experience-cloud-assets.md#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A)
-* [アセットをフルスクリーン表示、ズームする](../experience-cloud-assets/experience-cloud-assets.md#section_A9F50D7D6BE341A2AB8244A4E42A4EF7)
-* [アセットプロパティを表示する](../experience-cloud-assets/experience-cloud-assets.md#section_FED28711DAB14E1BBEEA7CA890EE9573)
-* [使用状況レポートを実行する](../experience-cloud-assets/experience-cloud-assets.md#section_15D782FFB8D74CF4A735116CC03AD902)
+* [表示のフルスクリーンアセットとズーム](../experience-cloud-assets/experience-cloud-assets.md#section_A9F50D7D6BE341A2AB8244A4E42A4EF7)
+* [表示アセットのプロパティ](../experience-cloud-assets/experience-cloud-assets.md#section_FED28711DAB14E1BBEEA7CA890EE9573)
+* [使用状況レポートの実行](../experience-cloud-assets/experience-cloud-assets.md#section_15D782FFB8D74CF4A735116CC03AD902)
 * [Adobe Experience Manager とのアセットの共有](../experience-cloud-assets/experience-cloud-assets.md#section_45C1B72F4D274F54BC6CCB64D2580AC5)
 
 ## Experience Cloud Assets への移動 {#section_3657039DD3524F2AA88753BFF4781125}
@@ -48,13 +47,13 @@ Experience Cloud Assets は、ソリューション全体で共有できるマ�
 
 アセット（またはアセットディレクトリ）に移動し、「**[!UICONTROL 選択]**」をクリックします。
 
-ツールバーから、検索、タイムライン、レンディション、編集、注釈、ダウンロードなどの機能にすばやくアクセスできます。
+ツールバーを使用すると、検索、タイムライン、レンディション、編集、注釈、ダウンロードなどの機能にすばやくアクセスできます。
 
 ![](assets/asset-tools.png)
 
-## アセットを編集する {#section_CD3C55A9D4574455B94D0955391C8FEC}
+## アセットの編集 {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
-アセットの編集機能には次のものが含まれます。
+アセットを編集すると、次のような機能が有効になります。
 
 * 切り抜き
 * 回転
@@ -76,7 +75,7 @@ Experience Cloud Assets は、ソリューション全体で共有できるマ�
 
 ## アセットをフルスクリーン表示、ズームする {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-**[!UICONTROL 表示]**／**[!UICONTROL 画像]**&#x200B;をクリックして、アセット画像全体を表示し、ズームを有効にします。
+**[!UICONTROL 表示]** /画像をク **[!UICONTROL リックして]** 、アセットの画像全体を表示し、ズームを有効にします。
 
 ![](assets/asset-zoom.png)
 
@@ -84,7 +83,7 @@ Experience Cloud Assets は、ソリューション全体で共有できるマ�
 
 プロパティ付きのカードビュー、リストビューおよび列ビューのいずれかを選択して、アセットをより容易に見つけることができます。
 
-**[!UICONTROL ビュー]**／**[!UICONTROL プロパティ]**&#x200B;をクリックして、アセットのプロパティを表示します。
+**[!UICONTROL 表示]** /プロパ **[!UICONTROL ティをクリックし]** 、アセットのプロパティを表示します。
 
 ![](assets/asset-properties.png)
 
@@ -92,6 +91,6 @@ Experience Cloud Assets は、ソリューション全体で共有できるマ�
 
 ユーザー数、使用されているストレージおよびアセット合計数を表示します。
 
-**[!UICONTROL ツール]**／**[!UICONTROL レポート]**／**[!UICONTROL 使用状況レポート]**&#x200B;をクリックします。
+Click **[!UICONTROL Tools]** > **[!UICONTROL Reports]** > **[!UICONTROL Usage Report]**
 
 ![](assets/assets-usage-report.png)
