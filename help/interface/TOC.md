@@ -4,7 +4,7 @@ user-guide-title: Core Services User Guide
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 # コアサービスユーザーガイド {#interface}
 
 + [Experience Cloudとコアサービス製品ドキュメント](experience-cloud.md)
-+ コアサービスについて {#about-core-services}
++ Experience Cloudのコアサービス {#about-core-services}
    + [コアサービスの概要](core-services-landing.md)
    + [コアサービス向けにソリューションを有効化](core-services/core-services.md)
    + [組織へのレポートスイートのマッピング](core-services/report-suite-mapping.md)
@@ -33,13 +33,13 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
    + [ブラウザー cookie のプライバシー設定の有効化](cookies/browser-cookie-settings.md)
    + [サードパーティcookieのサポートに対する変更が顧客に与える影響](cookies/cookies-thirdparty.md)
 + ユーザーおよび製品の管理 {#manage-users-and-products}
-   + [Experience Cloudのユーザーと製品の管理（管理コンソール）](admin-getting-started/admin-getting-started.md)
-   + [Experience Cloudユーザーの詳細の表示（管理ツール）](admin-getting-started/admin-tool-experience-cloud.md)
+   + [Experience CloudユーザーIDと製品の管理（管理コンソール）](admin-getting-started/admin-getting-started.md)
+   + [表示Experience Cloudユーザーの詳細（管理ツール）](admin-getting-started/admin-tool-experience-cloud.md)
    + [よくある質問](admin-getting-started/faq.md)
    + [ログインとプロファイル設定の管理](admin-getting-started/getting-started-experience-cloud.md)
    + [組織とアカウントのリンク](admin-getting-started/organizations.md)
    + [Analytics Premium および Experience Cloud へのアップグレード](admin-getting-started/upgrade-to-analytics-premium.md)
-+ Experience Cloud Activation {#activation}
++ Experience Cloudアクティベーション {#activation}
    + [Activation の概要](activation/activation.md)
    + [Launch ユーザーガイド](https://docs.adobe.com/content/help/en/launch/using/overview.html)
    + [Dynamic Tag Managerユーザーガイド](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
@@ -69,7 +69,7 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
    + [スキーマの更新](attributes/t-update-schema.md)
    + [プライバシーに関する配慮 - 顧客属性](attributes/privacy-mac.md)
 + オファー管理 {#offer-management}
-   + [オファー管理の概要](offer-management/getting-started.md)
+   + [オファー管理](offer-management/getting-started.md)
    + [オファー管理のワークフロー](offer-management/offer-management-workflow.md)
    + [オファー](offer-management/offers.md)
    + [ラベル](offer-management/labels.md)
