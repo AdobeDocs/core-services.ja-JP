@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 顧客属性のデータファイルおよびデータソースについて
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -20,10 +20,7 @@ CRMまたは企業の類似データにアクセスする必要があります�
 
 顧客属性は、1 日に数ファイルを処理するように設計されています。小さなファイルを多数処理することで発生する問題を軽減するために、同じ組織から 30 分以内に送信されたファイルは、優先順位の低いキューにルーティングされます。
 
-<!-- <p>Articulate difference between this and SAINT. </p> -->
-
 ## 許可されるファイルタイプと命名規則 {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
-
 
 <table id="table_C27955F6B52A45B28BEEAAF14FFC86D8"> 
  <thead> 
@@ -48,16 +45,11 @@ CRMまたは企業の類似データにアクセスする必要があります�
  </tbody> 
 </table>
 
-
 ## 属性データファイルの要件 {#section_169FBF5B7BBA47CE825B7A330CF3FE98}
-
-
 
 **CSVの例**
 
 CSVファイルは、次の形式に従う必要があります。
-
-サンプルCSV:
 
 ![](assets/cvs.png)
 
@@ -81,7 +73,7 @@ CSVファイルは、次の形式に従う必要があります。
   </tr> 
   <tr> 
    <td colname="col1"> <p>顧客ID列 </p> </td> 
-   <td colname="col2"> <p> 最初の列は一意の顧客IDである必要があります。 使用するIDは、Experience Cloud IDサービスに渡されるIDに対応している必要があります。 </p> <p>Analyticsの場合、propまたはeVarに保存されるID。 </p> <p>Targetの場合、setCustomerID値。 (See <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local"> Analytics &amp; Adobe Target - synching the customer ID </a>) </p> <p> この顧客IDは、CRMがデータベース内の各ユーザーに対して使用する一意の識別子です。 残りの列は、CRMから取得された属性です。 アップロードする属性の数を選択します。 </p> <p>列見出しにはわかりやすく読みやすい名前を付けることをお勧めしますが、必須ではありません。 アップロード後におこなうスキーマの検証の際に、アップロードされた行と列にわかりやすい名前をマッピングできます。 </p> <p> <b>顧客IDについて</b> </p> <p>通常、企業はCRMシステムの顧客IDを使用します。 この ID は、ユーザーのログイン時に <span class="codeph">setCustomerIDs</span> 呼び出しを使用して設定されます。このIDは、Experience CloudにアップロードされるCRMファイルのキーとしても使用されます。 An <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> Alias ID </a> is a friendly name for a data store in Audience Manager, where the alias data is stored. システムは、エイリアスを（setCustomerIDsを介して）このデータストアに送信します。 CRMファイルは、そのデータストア内のデータに適用されます。 </p> <p><span class="codeph">setCustomerIDs</span> 情報については、<a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external">顧客 ID と認証の状態</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> 最初の列は一意の顧客IDである必要があります。 使用するIDは、Experience Cloud IDサービスに渡されるIDに対応している必要があります。 </p> <p>Analyticsの場合、propまたはeVarに保存されるID。 </p> <p>ターゲットの場合、setCustomerID値。 (See <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local"> Analytics &amp; Adobe Target - synching the customer ID </a>) </p> <p> この顧客IDは、CRMがデータベース内の各ユーザーに対して使用する一意の識別子です。 残りの列は、CRMから取得された属性です。 アップロードする属性の数を選択します。 </p> <p>列見出しにはわかりやすく読みやすい名前を付けることをお勧めしますが、必須ではありません。 アップロード後におこなうスキーマの検証の際に、アップロードされた行と列にわかりやすい名前をマッピングできます。 </p> <p> <b>顧客IDについて</b> </p> <p>通常、企業はCRMシステムの顧客IDを使用します。 この ID は、ユーザーのログイン時に <span class="codeph">setCustomerIDs</span> 呼び出しを使用して設定されます。このIDは、Experience CloudにアップロードされるCRMファイルのキーとしても使用されます。 An <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> Alias ID </a> is a friendly name for a data store in Audience Manager, where the alias data is stored. システムは、エイリアスを（setCustomerIDsを介して）このデータストアに送信します。 CRMファイルは、そのデータストア内のデータに適用されます。 </p> <p><span class="codeph">setCustomerIDs</span> 情報については、<a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external">顧客 ID と認証の状態</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>後続のヘッダーと列 </p> </td> 
@@ -89,12 +81,12 @@ CSVファイルは、次の形式に従う必要があります。
   </tr> 
   <tr> 
    <td colname="col1"> <p>属性の制限 </p> </td> 
-   <td colname="col2"> <p>数百の <span class="filepath">.csv</span> 列を Experience Cloud の顧客属性サービスにアップロードできます。ただし、購読を設定して属性を選択する場合、所有するソリューションに応じて、次の制限が適用されます。 </p> <p> 
+   <td colname="col2"> <p>数百の <span class="filepath">.csv</span> 列を Experience Cloud の顧客属性サービスにアップロードできます。ただし、購読を設定して属性を選択する場合は、所有するソリューションに応じて次の制限が適用されます。 </p> <p> 
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
       <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard：</b>合計 3 件 </li> 
       <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium：</b>レポートスイートあたり 200 件 </li> 
-      <li id="li_8C891FE3D1EF49FA9F81E2E32CD0B9CA"> <b>Adobe Target Standard:</b> 5 </li> 
-      <li id="li_2B66D43023F34EA685CE2C38A9250CEA"> <b>Adobe Target Premium:</b> 200 </li> 
+      <li id="li_8C891FE3D1EF49FA9F81E2E32CD0B9CA"> <b>Adobeターゲット標準：</b> 5 </li> 
+      <li id="li_2B66D43023F34EA685CE2C38A9250CEA"> <b>Adobeターゲットプレミアム：</b> 200 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -107,7 +99,7 @@ CSVファイルは、次の形式に従う必要があります。
   </tr> 
   <tr> 
    <td colname="col1"> <p>文字制限 </p> </td> 
-   <td colname="col2"> <p>Analyticsサブスクリプションを作成すると、アップロードされたファイルのフィールドの長さが255文字に切り捨てられます。 </p> </td> 
+   <td colname="col2"> <p>Analytics購読を作成すると、アップロードされたファイルのフィールドの長さが255文字に切り捨てられます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>FTPのガイドラインとサイズの制限 </p> </td> 
@@ -121,7 +113,7 @@ CSVファイルは、次の形式に従う必要があります。
   </tr> 
   <tr> 
    <td colname="col1"> <p>ファイル要件 </p> </td> 
-   <td colname="col2"> <p> 各属性ソースには、コンマで区切られた同じ数のフィールドを含める必要があります。 </p> <p> 改行、二重引用符、またはコンマを含むフィールドは引用符で囲む必要があります。 </p> <p> フィールド内の二重引用符文字は、バックスラッシュ(\)を使用してエスケープする必要があります。 </p> <p> 空白の列は<span class="term">Null</span> として保存されます。 </p> </td> 
+   <td colname="col2"> <p> 各属性ソースには、コンマで区切られた同じ数のフィールドを含める必要があります。 </p> <p> 改行、重複引用符またはコンマを含むフィールドは引用符で囲む必要があります。 </p> <p> フィールド内の重複引用符文字は、バックスラッシュ(\)を使用してエスケープする必要があります。 </p> <p> 空白の列は<span class="term">Null</span> として保存されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>複数のファイル </p> </td> 
@@ -133,7 +125,7 @@ CSVファイルは、次の形式に従う必要があります。
   </tr> 
    <tr> 
    <td colname="col1"> <p>履歴データ </p> </td> 
-   <td colname="col2"> <p> 顧客属性は、Analyticsの基になる訪問者プロファイルに結び付けられます。 したがって、顧客属性は、Analyticsでのその訪問者プロファイルの全期間にわたって、訪問者に関連付けられます。 これには、顧客が初めてログインする前に発生した動作も含まれます。 </p> <p> Data Warehouseのバックフィル方式を使用する場合、データはAnalytics ID(AID)に基づくpost_visid_high/lowに結び付けられます。 Experience Cloud IDサービスを使用している場合、データはExperience Cloud ID(MID)に基づくpost_visid_high/lowに結び付けられます。 </p> </td> 
+   <td colname="col2"> <p> 顧客属性は、Analyticsの基になる訪問者プロファイルに結び付けられます。 したがって、顧客属性は、Analyticsでのその訪問者プロファイルの全期間にわたって訪問者に関連付けられます。 これには、顧客が初めてログインする前に発生した動作も含まれます。 </p> <p> Data Warehouseのバックフィル方式を使用する場合、データはAnalytics ID(AID)に基づくpost_visid_high/lowに結び付けられます。 Experience Cloud IDサービスを使用している場合、データはExperience Cloud ID(MID)に基づくpost_visid_high/lowに結び付けられます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>データフィード </p> </td> 
@@ -141,7 +133,6 @@ CSVファイルは、次の形式に従う必要があります。
   </tr> 
  </tbody> 
 </table>
-
 
 ## 複数のデータソースの活用 {#section_76DEB6001C614F4DB8BCC3E5D05088CB}
 
@@ -164,4 +155,4 @@ Visitor.setCustomerIDs({
 
 In the **[!UICONTROL Experience Cloud]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**:
 
-上記の顧客IDに対応する一意のエイリアスIDを使用して、2つの顧客属性ソースを作成します。 この方法を使用すると、同じ参照IDを複数の顧客属性ソースに送信できます
+上記の顧客IDに対応する一意のエイリアスIDを使用して、2つの顧客属性ソースを作成します。 この方法を使用すると、同じ参照IDを複数の顧客属性ソースに送信できます。
