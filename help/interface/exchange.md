@@ -1,38 +1,35 @@
 ---
-description: ' Exchange Marketplace にアクセスすると、各種の連携ツールの検索、参照、選択、支払いおよびダウンロードをおこなえます。Data Connectors、アドビのコア製品のカスタム設定、サードパーティアプリケーション、レポートなどが含まれます。'
+description: Exchange Marketplaceは、Digital Marketingの拡張機能を検索、参照、選択、支払い、ダウンロードできる単一の場所です。 アプリには、Data Connectors、アドビのコア製品のカスタム設定、サードパーティのアプリケーション、レポートが含まれます。
 keywords: core services
-seo-description: ' Exchange Marketplace にアクセスすると、各種の連携ツールの検索、参照、選択、支払いおよびダウンロードをおこなえます。Data Connectors、アドビのコア製品のカスタム設定、サードパーティアプリケーション、レポートなどが含まれます。'
+seo-description: Exchange Marketplaceは、Digital Marketingの拡張機能を検索、参照、選択、支払い、ダウンロードできる単一の場所です。 アプリには、Data Connectors、アドビのコア製品のカスタム設定、サードパーティのアプリケーション、レポートが含まれます。
 seo-title: Exchange Marketplace
 solution: Experience Cloud
 title: Exchange Marketplace
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
 # Exchange Marketplace
 
- Exchange Marketplace にアクセスすると、各種の連携ツールの検索、参照、選択、支払いおよびダウンロードをおこなえます。Data Connectors、アドビのコア製品のカスタム設定、サードパーティアプリケーション、レポートなどが含まれます。
+Exchange Marketplaceは、Digital Marketingの拡張機能を検索、参照、選択、支払い、ダウンロードできる単一の場所です。 アプリには、Data Connectors、アドビのコア製品のカスタム設定、サードパーティのアプリケーション、レポートが含まれます。
 
 **[!UICONTROL Experience Cloud]**／**[!UICONTROL ヘルプ]**／**[!UICONTROL Exchange]**
 
-<!-- <p>https://wiki.corp.adobe.com/display/marketingcloud/Marketing+Cloud+Exchange </p> 
-<p>https://wiki.corp.adobe.com/display/marketingcloud/Marketplace+Implementation#MarketplaceImplementation-Anonymousvsauthenticatedexperience </p> -->
+* SDKのダウンロード、ドキュメントの読み取り、レビュー用のDigital Marketingへのアプリの送信を行います。
 
-* SDK をダウンロードし、ドキュメントを読んで、レビュー用の Digital Marketing にアプリケーションを送信します。
+* お客様は、Digital Marketingの拡張機能を検索、選択およびインストールできます。
 
-* お客様は、Digital Marketing 拡張を検索、選択およびインストールできます。
+* 管理者は、ダウンロードしたアプリケーションを設定できます。
 
-* 管理者は、ダウンロードされたアプリケーションを設定できます。
+* 開発者の提出を確認し、アプリを閲覧し、各アプリに対するコメントや評価を行います。
 
-* 開発者の提出物をレビューし、アプリケーションをブラウズして、各アプリケーションにコメントしたりレーティングを設定したりします。
+* 申し込みを却下または承認します。
 
-* アプリケーションを却下または承認します。
+* Experience Cloudでの投稿を参照してください。
 
-* Experience Cloud で公開します。
+* カテゴリ、会社、タイプ、ユーザーなどで検索およびフィルターします。
 
-* カテゴリ、会社、タイプ、ユーザー、その他で検索およびフィルタリングします。
-
-詳しくは、[Experience Cloud Exchange](https://exchange.adobe.com/experiencecloud.html) を参照してください。
+See [Experience Cloud Exchange](https://exchange.adobe.com/experiencecloud.html) for more information.
