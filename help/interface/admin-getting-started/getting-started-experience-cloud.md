@@ -1,26 +1,20 @@
 ---
 description: Experience Cloud へのログイン、パスワードおよび通知の管理、デフォルトのランディングページの指定について、それぞれの方法を説明します。
-keywords: core services
+keywords: core services, sign in to Experience Cloud
 seo-description: Experience Cloud へのログイン、パスワードおよび通知の管理、デフォルトのランディングページの指定について、それぞれの方法を説明します。
 seo-title: ログインとプロファイル設定の管理
-solution: Marketing Cloud
-title: ログインとプロファイル設定の管理
+solution: Experience Cloud
+title: サインインしてExperience Cloudのプロファイル設定を管理
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
-# ログインとプロファイル設定の管理
+# サインインしてExperience Cloudのプロファイル設定を管理
 
-（単一のソリューションにサインインする代わりに）Experience Cloudにサインインすると、お客様が所有するすべてのソリューションおよびサービスに対するシングルサインオンが可能になります。 Experience Cloud へのログイン、パスワードおよび通知の管理、デフォルトのランディングページの指定について、それぞれの方法を説明します。
-
-<!-- t_sign_in.xml -->
-
-<!-- notifications.xml -->
-
-<!-- t_get_access.xml -->
+（単一のソリューションにサインインする代わりに）Experience Cloudにサインインすると、お客様が所有するすべてのソリューションおよびサービスに対するシングルサインオンが可能になります。 このヘルプでは、Experience Cloudへのサインイン、パスワードと通知の管理、デフォルトのパスワードの指定の方法について説明しています。ランディングページ
 
 >[!IMPORTANT]
 >
@@ -47,8 +41,8 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 | [ユーザー管理](https://helpx.adobe.com/enterprise/using/users.html) | Admin Console へのログインと Experience Cloud ユーザーの権限および製品プロファイルの管理について説明します。 |
 | [Admin Console の起動](../admin-getting-started/admin-getting-started.md) | 管理コンソールは、組織全体でアドビのユーザーと製品の権利を管理するための中央の場所です。<br>[ダイレクトリンク](https://adminconsole.adobe.com)を使用して Admin Console にログインすることもできます。 |
 | [Creative Cloud ユーザーの管理](../experience-cloud-assets/t-admin-add-cc-user.md) | Experience Cloud Assetsを使用すると、マーケティング担当者は、デザイナーやCreative Cloudを使用する他のクリエイティブアセットとフォルダーを共有、同期、コラボレーションできます。 組織との共同作業を承認されたCreative Cloudユーザーを管理できます。 |
-| [レポートスイートをマッピング](../core-services/core-services.md) | （Analyticsのみ）Experience Cloudコアサービスは、個々のレポートスイートではなく組織に関連付けられます。 これらのサービスを正しく機能させるには、各 Analytics レポートスイートを組織にマッピングする必要があります。(このタスクは、コアサービスに対してAnalyticsを有効にするよ [うな幅広いワークフローの一部です](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C))。 |
-| [Organization ID](../admin-getting-started/organizations.md) | 組織 *IDは* 、管理ページの下部にあります。 このIDは、プロビジョニングされたExperience Cloudの会社に関連付けられたIDです。 この ID は 24 文字の英数字から成る文字列で、その後に @AdobeOrg（必須）が続きます。 |
+| [レポートスイートをマッピング](../core-services/core-services.md) | （Analyticsのみ）Experience Cloudコアサービスは、個々のレポートスイートではなく組織に関連付けられます。 これらのサービスを正しく機能させるには、各 Analytics レポートスイートを組織にマッピングする必要があります。(このタスクは、コアサービスに対してAnalyticsを有効にする [ためのより広いワークフローの一部](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C))。 |
+| [Organization ID](../admin-getting-started/organizations.md) | 組織 *IDは* 、管理ページの下部にあります。 このIDは、プロビジョニングされたExperience Cloud会社に関連付けられたIDです。 この ID は 24 文字の英数字から成る文字列で、その後に @AdobeOrg（必須）が続きます。 |
 
 ## Experience Cloud へのログイン（ユーザー）{#task_1BFE87E20DCB44078CAC82F3CD44B985}
 
@@ -63,7 +57,7 @@ Experience Cloud での非管理者ユーザーのログインに関するヘル
 
    Experience Cloud 管理者に問い合わせてアカウントのタイプ（Adobe ID または Enterprise ID）を確認してください。
 
-1. ランディングページで、セレクターアイコンをクリッ ![](assets/menu-icon.png) クして、プルダウンメニューにアクセスします。
+1. ランディングページ上で、セレクターアイコンをクリッ ![](assets/menu-icon.png) クして、プルダウンメニューにアクセスします。
 
    ![](assets/experience-cloud-core-services.png)
 
@@ -126,7 +120,7 @@ Experience Cloud プロファイルを編集し、デフォルトの組織やラ
    ![](assets/edit-profile.png)
 1. 「**[!UICONTROL プロファイルを編集]**」をクリックします。
 
-   プロファイルとパスワードページで、「個人の詳細」のフィールドとオプションに入力します。
+   [プロファイルとパスワード]ページで、[個人の詳細]の下のフィールドとオプションに入力します。
 
 ## パスワードの復元 {#task_46541A2806164CB1A4AE8239604E4EB1}
 
