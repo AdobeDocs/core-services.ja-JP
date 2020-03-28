@@ -7,14 +7,12 @@ solution: Experience Cloud
 title: 顧客属性
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
 # 顧客属性
-
-## 概要
 
 To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
 
@@ -24,17 +22,15 @@ To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platfo
 
 ## 顧客属性をアップロードするための前提条件 {#section_BD38693AFBF34926BA28E964963B4EA0}
 
-
 * **ソリューションの有効化：** [コアサービス向けにソリューションを有効化](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)します。
 
-* **グループのメンバーシップ：**&#x200B;顧客属性データをアップロードするには、ユーザーは、 顧客属 [性グループ](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)。 また、Adobe AnalyticsグループまたはAdobe Targetグループのいずれかに属している必要があります。
+* **グループのメンバーシップ：**&#x200B;顧客属性データをアップロードするには、ユーザーは、 顧客属 [性グループ](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)。 また、Adobe AnalyticsグループまたはAdobeターゲットグループに属している。
 
    自社が顧客属性にアクセスできるかどうかを知るには、 [!DNL Experience Cloud] 管理者が、[!DNL Experience Cloud] にログインする必要があります。Navigate to **[!UICONTROL Administration]** > **[!UICONTROL Launch Admin Console]** > **[!UICONTROL Groups]**. グループの 1 つとして&#x200B;*顧客属性*&#x200B;がある場合は、すぐに始めることができます。
 
    顧客属性グループに追加されたユーザーには、Experience Cloud インターフェイスの左側に[!UICONTROL 顧客属性]メニュー項目が表示されます。
 
-* **顧客属性には、Adobe Target**[!DNL at.js] （任意のバージョン） [!DNL mbox.js] またはバージョン58以降が必要です。
-
+* **顧客属性には** 、Adobeターゲット [!DNL at.js] (任意のバー [!DNL mbox.js] ジョン)またはバージョン58以降が必要です。
 
    at.js [または](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) Mbox.js実装のデプロイ方法を参照してください [](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html)。
 
@@ -58,5 +54,5 @@ After you create the data file, you can upload it to the customer attribute sour
 
 | ソリューション | 利点と使用例 |
 |--- |--- |
-| Adobe Analytics | マーケターとアナリストは、次のことを理解できます。<ul><li>ゴールドレベルの顧客に対して最も効果的なオンラインキャンペーン。</li><li>ゴールドレベルの顧客が検索する製品と、プラチナレベルの顧客が検索する製品。</li><li>サイトの再設計が、古い顧客のコンバージョン率に良い影響を与えているか。</li><li>ライフタイム値が低い顧客がサイトで調べる傾向にある商品はどれか。</li></ul> |
-| Adobe Target | 属性データを使用すると、Adobe Targetユーザーは次のことができます。<ul><li>ロイヤルティクラブメンバーに特別割引とオファーを表示します。</li><li>高級顧客に対して、より高価な商品をレコメンデーションします。</li><li>既に電子メールを受け取っている顧客の場合、通常は電子メールのサインアップ用に確保されているスペースにアップセルオファーを表示します。</li></ul> |
+| Adobe Analytics | マーケターとアナリストは、次のことを理解できます。<ul><li>ゴールドキャンペーンに最も効果的なオンライン顧客。</li><li>ゴールドレベルの顧客が検索する製品と、プラチナレベルの顧客が検索する製品。</li><li>サイトの再設計が、古い顧客のコンバージョン率に良い影響を及ぼしているか。</li><li>ライフタイム値が低い顧客がサイトで調べる傾向にある商品はどれか。</li></ul> |
+| Adobe Target | 属性データを使用すると、アドビのターゲットユーザーは次のことができます。<ul><li>ロイヤルティクラブメンバーに特別割引とオファーを表示</li><li>高級顧客に対して、より高価な商品をレコメンデーションします。</li><li>既に電子メールを受け取っている顧客の場合、通常は電子メールのサインアップ用に予約されているスペースにアップセルオファーを表示します。</li></ul> |
