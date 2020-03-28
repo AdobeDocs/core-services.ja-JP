@@ -1,13 +1,13 @@
 ---
 description: Creative Cloud ユーザーと Experience Cloud アセットフォルダーを共有します。
-keywords: アセットの共有;Creative Cloud;コアサービス
+keywords: asset sharing;Creative Cloud;core services
 seo-description: Creative Cloud ユーザーと Experience Cloud アセットフォルダーを共有します。
 seo-title: Experience Cloud アセットフォルダーの共有
 solution: Experience Cloud
 title: Experience Cloud アセットフォルダーの共有
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -39,7 +39,7 @@ Creative Cloud ユーザーと Experience Cloud アセットフォルダーを�
 
    ![](assets/asset_comment_cc.png)
 
-   Experience Cloud では、画像をクリックしてからタイムラインアイコンをクリックして、画像にコメントを追加します。コメントは、Creative Cloud と Experience Cloud のアセットで同期されます。
+   Experience Cloudで、画像をクリックし、タイムラインアイコンをクリックして、画像にコメントを追加します。 コメントは、Creative CloudとExperience Cloudのアセットに対して同期されます。
 
    ![](assets/asset_comment_mac.png)
 
@@ -47,10 +47,12 @@ Creative Cloud ユーザーと Experience Cloud アセットフォルダーを�
 
 ![](assets/asset_remove_user.png)
 
-Creative Cloud ユーザーをすべて削除すると、そのフォルダーの共有が解除され、Creative Cloud ユーザーがアクセスできなくなります。共有アセットを使用するその他の方法には、以下のものがあります。
+Creative Cloud ユーザーをすべて削除すると、そのフォルダーの共有が解除され、Creative Cloud ユーザーがアクセスできなくなります。
+
+共有アセットを使用するその他の方法には、以下のものがあります。
 
 * ソーシャル投稿の場合、[!UICONTROL  の]セットセレクター[!DNL Adobe Social]でアセットを使用する。
-* Load or swap assets in the [Offers Library](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) in [!DNL Adobe Target] for images in activities.
+* アセットの画像をライブラリに読み込む [か、オファー](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) (画像 [!DNL Adobe Target] の場合)を入れ替えます。
 
 Creative Cloud にフォルダーを共有すると、フォルダー上に Creative Cloud のロゴが表示されます。
 
@@ -58,6 +60,6 @@ Creative Cloud にフォルダーを共有すると、フォルダー上に Crea
 
 関連するヘルプ：
 
-* [Creative Cloud ヘルプ - ファイルの管理と同期](https://helpx.adobe.com/creative-cloud/help/sync-files.html)
-* [Creative Cloud ヘルプ - 他のユーザーとの共同作業](https://helpx.adobe.com/creative-cloud/help/collaboration.html)
-* [Creative Cloud ヘルプ - コラボレーションの FAQ](https://helpx.adobe.com/creative-cloud/help/collaboration-faq.html)
+* [Creative Cloudヘルプ — ファイルの管理と同期](https://helpx.adobe.com/creative-cloud/help/sync-files.html)
+* [Creative Cloudヘルプ — 他のユーザーとの共同作業](https://helpx.adobe.com/creative-cloud/help/collaboration.html)
+* [Creative Cloudヘルプ — コラボレーションに関するFAQ](https://helpx.adobe.com/creative-cloud/help/collaboration-faq.html)
