@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Experience Cloud の新しいクラウド名について
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -70,16 +70,16 @@ Analytics での作業を開始するには、以下の手順に従います。
 
 ![](assets/mc_target_32.png) [Adobe Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)
 
-Adobe Targetは、Analyticsおよび他のExperience Cloudコアサービスと統合されます。 使い始めに役立つトピック：
+アドビのターゲットは、Analyticsおよび他のExperience Cloudコアサービスと統合されます。 使い始めに役立つトピック：
 
-* [Targetの設定](https://docs.adobe.com/content/help/en/target/using/administer/administrating-target.html)
+* [ターゲット](https://docs.adobe.com/content/help/en/target/using/administer/administrating-target.html)
 * [Adobe Target の仕組み](https://docs.adobe.com/content/help/en/target/using/introduction/how-target-works.html)
 * [管理者の最初の手順](https://docs.adobe.com/content/help/en/target/using/administer/start-target.html)
-* [AnalyticsをAdobe Targetのレポートソースとして使用する](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
+* [Analyticsをアドビのレポートソースとして使用するターゲット](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
 
 ![](assets/mc_social_32.png) [Adobe Social](https://docs.adobe.com/content/help/en/social/using/home.html)
 
-Socialは、加入形式のホストソリューションを提供し、ソーシャルメディアの目標を達成し、戦略とパフォーマンスを向上させるのに役立ちます。 ソーシャルリスニング、投稿および分析を可能にする包括的なプラットフォームを使用して、ソーシャルマーケティングを管理できます。
+Socialは、ソーシャルメディアの目標を達成し、戦略とパフォーマンスを向上させるのに役立つ、ホスト型の購読ベースのソリューションを提供します。 ソーシャルリスニング、投稿および分析を可能にする包括的なプラットフォームを使用して、ソーシャルマーケティングを管理できます。
 
 ![](assets/mc_experiencemanager_32.png) [Adobe Experience Manager](https://helpx.adobe.com/support/experience-manager/6-5.html)
 
@@ -97,27 +97,14 @@ Adobe Advertising Cloud は、プログラマティックな広告バイイン�
 
 ![](assets/mc_campaign_32.png) [Adobe Campaign](https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/about-adobe-campaign/campaign-orchestration.html)
 
-Adobe Campaignでは、すべてのオンラインチャネルとオフラインチャネルにわたるキャンペーンの計画、配信、測定を行うことができます。 Adobe Campaign を利用すれば、生産性を高めると共に、顧客に最適なエクスペリエンスを提供できます。
+Adobe Campaignを使用すると、すべてのオンラインチャネルとオフラインイベントでキャンペーンを計画、配信、測定できます。 Adobe Campaign を利用すれば、生産性を高めると共に、顧客に最適なエクスペリエンスを提供できます。
 
 ![](assets/primetime_app_32.png) [Adobe Primetime](https://help.adobe.com/en_US/primetime/)
 
-Adobe Primetimeは複数画面のテレビプラットフォームで、放送担当者が魅力的なテレビや映画のエクスペリエンスを作成し、オーディエンスに合わせてパーソナライズするのに役立ちます。
+Adobe Primetimeは複数画面のTVプラットフォームで、放送者は、あらゆるオーディエンス向けにパーソナライズされた魅力的なテレビや映画のエクスペリエンスを作成できます。
 
 ## コアサービスとは {#concept_38AC4888C3F84694AE4F60311C21B9C2}
 
-[コアサービス](core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)には、オーディエンスのセグメント化、顧客属性のアップロード、共同作業ツールなど、製品実装を簡易化し、クロスソリューションワークフローを実現する各種機能が含まれています。
+[コアサービス](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services-landing.html)には、オーディエンスのセグメント化、顧客属性のアップロード、共同作業ツールなど、製品実装を簡易化し、クロスソリューションワークフローを実現する各種機能が含まれています。
 
 ![](assets/core-services.png)
-
-| コアサービス | 説明 |
-|--- |--- |
-| [Activation](activation/activation.md) | tag managementシステム（エクスペリエンスプラットフォームの起動とDynamic Tag Management）。<br>Triggers を使用すると、Adobe Campaign で Adobe Analytics のインサイトに基づいてリアルタイムでアクションを実行できます。 |
-| [管理](admin-getting-started/admin-getting-started.md) | すべてのアドビのクラウドおよびソリューションにわたって、ユーザーと製品の権利を管理します。 |
-| [Assets](experience-cloud-assets/experience-cloud-assets.md) | すべてのデジタルアセットを一元的に保存、同期、共有し、時間を節約し、より一貫した顧客体験を提供します。 |
-| [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) | [!UICONTROL Experience Platform Launch は、アドビが提供する次世代タグ管理機能です。][!UICONTROL Experience Platform ] Launch は、顧客体験の実現に必要なすべての分析、マーケティングおよび広告のタグをデプロイおよび管理するためのシンプルな手段を提供します。 |
-| [ジャーニーオーケストレーション](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) | イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムのオーケストレーションの使用例を構築します。 [!UICONTROL Jargeny Orchestrationは] 、Experience Platformと統合されたアプリケーションサービスです。 |
-| [ロケーションサービス](https://docs.adobe.com/content/help/en/places/using/home.html) | Adobe [!UICONTROL Experience Platform Location Service] (Location Service)は、場所を認識するモバイルアプリで、豊富で使いやすいSDKインターフェイスを使用し、目標地点(POI)の柔軟なデータベースを含む場所のコンテキストを把握できるようにする、地域サービスです。 |
-| オファー | オファー管理は、Experience Cloudのすべてのチャネルにわたってオファーの作成、管理および判定を提供します。 |
-| [Exchange](exchange.md) | アプリを介して、Digital Marketing の機能強化の検索、参照、選択、支払いおよびダウンロードをおこないます。 |
-| [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | Adobe Mobile Services により、モバイルアプリ用の各ソリューションが Experience Cloud 上で統合されます。これにより、アプリの利用状況を把握し、改善につなげることができます。 |
-| People | Experience Cloudソリューション内のアドビとアドビ以外のデータを結び付けて、個々の顧客の包括的なビューを作成します。 タッチポイント間でやり取りする際に、最も重要な点を把握する。 見慣れないデバイスから訪問した場合に、見慣れた消費者を認識します。 さらに、ターゲットを定めたマーケティング活動のために、ユーザーをオーディエンスにグループ分けします。<br>[オーディエンス](audience-library/audience-library.md) - 様々なタイプの顧客をオーディエンスに分類した後、Marketing Cloud ソリューション全体でオーディエンスを共有します。<br>[顧客属性](attributes/attributes.md) - Marketing Cloud 外で収集した顧客情報を連結できる機能強化。<br>[デバイスグラフ](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) — 世界で最も人気のあるブランドとのコラボレーションにより、不慣れなデバイスの背後にあるなじみのある消費者を認識します。 （ベータ版では、Marketing Cloud Device Co-op の会員専用です）。 |
