@@ -24,18 +24,18 @@ source-git-commit: e54747dc6ff4e52b893924c5e0ebfa91ba824538
 
 Experience Cloud ユーザー管理の最新機能について説明します。
 
-### ビジネスIDタイプ
+<!-- ### Business ID type
 
-アドビでは、ビジネスIDと呼ばれるIDタイプを _導入しています_。 このIDタイプを使用すると、ユーザーと製品の管理を管理しやすくなり、チーム内でのCreative Cloudストレージの使用の柔軟性が向上します（該当する場合）。 アドビでは、ビジネスに使用されるすべてのAdobe ID（個人が所有する）を、（組織が所有する）新しいEnterprise Business IDに移行します。
+Adobe is introducing an identity type called _Business ID_. This identity type improves the control of user and product management. Adobe is migrating all Adobe IDs (owned by individuals) that are used for business to the new enterprise Business IDs owned by your organization.
 
-既存のExperience Cloudのお客様の場合、アドビでは、Adobe IDを持つ管理コンソール上のすべてのユーザーをビジネスIDに移行します。 新規のエンタープライズユーザーまたはグループユーザーの場合は、次のいずれかのIDタイプを使用して、Admin Consoleにユーザーを追加します。ビジネスID、Enterprise ID、またはFederated ID。
+If you are an existing Experience Cloud customer, Adobe will migrate all your users on the Admin Console with Adobe IDs to Business IDs. If you are a new enterprise or teams customer, you will add users to the Admin Console using one of the available identity types: Business ID, Enterprise ID, or Federated ID.
 
-<!-- Beginning May 2020, enterprise admins cannot use the Adobe ID for new organizations created in the Admin Console. Latest: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM -->
+Beginning May 2020, enterprise administrators cannot use the Adobe ID for new organizations created in the Admin Console. Latest: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM
 
-操作方法
+What to do
 
-* Type2eに移行する前に、利用条件(TOU)の変更に同意する必要があります。
-* 複数の組織に属するユーザーは、ログインワークフローでプロファイルの選択画面が表示され、正しい画面を選択する必要があります。 これにより、正しい組織にログインしていることが保証されます。 (移行前にプロファイルが複数の組織のメンバーであった場合は、複数のユーザーを選択できます)。
+* Your users will need to accept Terms of Use (TOU) changes prior to accounts being migrated to Type2e. 
+* Users that belong to multiple organizations might see a Profile Selection screen during the login workflow and need to select the correct one. This ensures that they are logging into the correct organization. (There might be multiple profiles to choose from if a users was a member of multiple organizations before the migration.) -->
 
 ### 管理ツール
 
