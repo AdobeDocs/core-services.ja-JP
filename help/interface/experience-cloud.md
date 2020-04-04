@@ -7,14 +7,14 @@ solution: Adobe Experience Cloud
 title: Experience Cloud とコアサービスのヘルプ
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 3a2bc2faef572328b69f5828749c990a0083bd1f
 
 ---
 
 
 # Experience Cloud およびコアサービス製品ドキュメント
 
-![Experience Cloud](assets/banner.png)
+![Experience Cloud](assets/cloud-pulldown.png)
 
 このページには、Adobe Experience Cloudのソリューションおよびサービスに関するセルフヘルプ、サポート、および技術および製品ドキュメントが含まれています。 Experience Cloudは、アドビのデジタルマーケティングソリューションおよびサービスの統合ファミリーです。 また、クラウドソリューションやコアサービスにすばやくアクセスできる直感的なインターフェイスでもあります。
 
