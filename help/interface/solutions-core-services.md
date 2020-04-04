@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Experience Cloud の新しいクラウド名について
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: 06e508ef47fcd63117a5a885d80b899b562aee61
+source-git-commit: 3a2bc2faef572328b69f5828749c990a0083bd1f
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 06e508ef47fcd63117a5a885d80b899b562aee61
 
 最新のクラウド名と各クラウドのソリューションを以下に示します。
 
-![](assets/experience_cloud_appicon_32.png) [Experience Cloud](https://www.adobe.com/experience-cloud.html?promoid=FZPQZ2HS&mv=other)
+[Experience Cloud](https://www.adobe.com/experience-cloud.html?promoid=FZPQZ2HS&mv=other)
 
 *Marketing Cloud* に代わり、アドビが提供するすべてのデジタルエクスペリエンスソリューションおよびサービスの親クラウドの名称になります。
 
@@ -29,7 +29,7 @@ source-git-commit: 06e508ef47fcd63117a5a885d80b899b562aee61
 >
 >すべてのソリューションインターフェイスが *Enterprise Cloud* にブランド化されるまで、以前の幅広いコンテキストで *Marketing Cloud* への参照を引き続き確認できます。
 
-![](assets/marketingcloud_32.png) [Experience Cloud](https://www.adobe.com/marketing-cloud.html)
+[Marketing Cloud](https://www.adobe.com/marketing-cloud.html)
 
 次のソリューションが含まれます。
 
@@ -39,14 +39,14 @@ source-git-commit: 06e508ef47fcd63117a5a885d80b899b562aee61
 * Adobe Primetime
 * Adobe Social
 
-![](assets/analyticscloud_appicon_32.png) [Analytics Cloud](https://www.adobe.com/data-analytics-cloud.html)
+[Analytics Cloud](https://www.adobe.com/data-analytics-cloud.html)
 
 次のソリューションが含まれます。
 
 * Adobe Analytics
 * Adobe Audience Manager
 
-![](assets/advertisingcloud_appicon_32.png) [Advertising Cloud](https://www.adobe.com/advertising-cloud.html)
+[Advertising Cloud](https://www.adobe.com/advertising-cloud.html)
 
 Media ManagerとTubeMogulが含まれます。
 
@@ -54,7 +54,7 @@ Media ManagerとTubeMogulが含まれます。
 
 以下の情報は、各ソリューションの簡単な説明と、ヘルプ情報へのリンクを提供します。[使用事例レシピは](https://helpx.adobe.com/marketing-cloud/how-to/use-cases.html) 、デジタルマーケティングワークフローの支援にも使用できます。
 
-![](assets/mc_analytics_32.png) [Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
+[Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
 
 Analytics での作業を開始するには、以下の手順に従います。
 
@@ -68,7 +68,7 @@ Analytics での作業を開始するには、以下の手順に従います。
 * [使用する Analytics 製品の検討](https://docs.adobe.com/content/help/en/analytics/admin/admin-overview/which-analytics-tool.html)
 * [Analytics 製品の比較と必要システム構成](https://docs.adobe.com/content/help/en/analytics/admin/admin-overview/analytics-product-comparison.html)
 
-![](assets/mc_target_32.png) [Adobe Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)
+[Adobe Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)
 
 アドビのターゲットは、Analyticsおよび他のExperience Cloudコアサービスと統合されます。 使い始めに役立つトピック：
 
@@ -77,29 +77,25 @@ Analytics での作業を開始するには、以下の手順に従います。
 * [管理者の最初の手順](https://docs.adobe.com/content/help/en/target/using/administer/start-target.html)
 * [Analyticsをアドビのレポートソースとして使用するターゲット](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
 
-![](assets/mc_social_32.png) [Adobe Social](https://docs.adobe.com/content/help/en/social/using/home.html)
-
-Socialは、ソーシャルメディアの目標を達成し、戦略とパフォーマンスを向上させるのに役立つ、ホスト型の購読ベースのソリューションを提供します。 ソーシャルリスニング、投稿および分析を可能にする包括的なプラットフォームを使用して、ソーシャルマーケティングを管理できます。
-
-![](assets/mc_experiencemanager_32.png) [Adobe Experience Manager](https://helpx.adobe.com/support/experience-manager/6-5.html)
+[Adobe Experience Manager](https://helpx.adobe.com/support/experience-manager/6-5.html)
 
 コンテンツ管理ソリューションである Adobe Experience Manager では、Web サイト、モバイルアプリ、コミュニティおよびフォーラムのアセットやコンテンツを容易に管理できます。
 
 ヘルプ [については、Adobe Experience Manager 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html) を参照してください。
 
-![](assets/mc_audiencemanager_32.png) [Adobe Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)
+[Adobe Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)
 
 データ管理プラットフォームである Adobe Audience Manager では、固有のオーディエンスプロファイルを作成し、最も価値のある顧客セグメントをすべてのチャネルで特定しターゲティングできます。
 
-![](assets/mc_optimize_32.png) [Adobe Advertising Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html#adcloud)
+[Adobe Advertising Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html#adcloud)
 
 Adobe Advertising Cloud は、プログラマティックな広告バイイングソリューションです。広告チャネルの最適な組み合わせを予算に基づいて見つけて予測し、オーディエンスにふさわしいコンテンツを自動的に配信できます。
 
-![](assets/mc_campaign_32.png) [Adobe Campaign](https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/about-adobe-campaign/campaign-orchestration.html)
+[Adobe Campaign](https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/about-adobe-campaign/campaign-orchestration.html)
 
 Adobe Campaignを使用すると、すべてのオンラインチャネルとオフラインイベントでキャンペーンを計画、配信、測定できます。 Adobe Campaign を利用すれば、生産性を高めると共に、顧客に最適なエクスペリエンスを提供できます。
 
-![](assets/primetime_app_32.png) [Adobe Primetime](https://help.adobe.com/en_US/primetime/)
+[Adobe Primetime](https://help.adobe.com/en_US/primetime/)
 
 Adobe Primetimeは複数画面のTVプラットフォームで、放送者は、あらゆるオーディエンス向けにパーソナライズされた魅力的なテレビや映画のエクスペリエンスを作成できます。
 
