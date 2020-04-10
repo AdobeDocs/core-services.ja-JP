@@ -1,17 +1,17 @@
 ---
 audience: end-user
-user-guide-title: Core Services User Guide
+user-guide-title: コアサービスユーザーガイド
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
 
 ---
 
 
 # コアサービスユーザーガイド {#interface}
 
-+ [Experience Cloudとコアサービス製品ドキュメント](experience-cloud.md)
++ [Experience Cloudおよびコアサービス製品ドキュメント](experience-cloud.md)
 + Experience Cloudのコアサービス {#about-core-services}
    + [コアサービスの概要](core-services-landing.md)
    + [コアサービス向けにソリューションを有効化](core-services/core-services.md)
@@ -41,8 +41,8 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
    + [Analytics Premium および Experience Cloud へのアップグレード](admin-getting-started/upgrade-to-analytics-premium.md)
 + Experience Cloudアクティベーション {#activation}
    + [Activation の概要](activation/activation.md)
-   + [Launch ユーザーガイド](https://docs.adobe.com/content/help/en/launch/using/overview.html)
-   + [Dynamic Tag Managerユーザーガイド](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
+   + [Launch ユーザーガイド](https://docs.adobe.com/content/help/ja-JP/launch/using/overview.html)
+   + [Dynamic Tag Managerユーザーガイド](https://docs.adobe.com/content/help/ja-JP/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
 + Experience Cloud assets {#assets}
    + [Experience Cloudアセットの概要](experience-cloud-assets/experience-cloud-assets.md)
@@ -76,10 +76,10 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
    + [配置](offer-management/placements.md)
    + [Campaign](offer-management/campaign.md)
 + Experience Cloudのリリースノート {#release-notes}
-   + [Experience Cloud の新機能](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
+   + [Experience Cloud の新機能](https://docs.adobe.com/content/help/ja-JP/release-notes/experience-cloud/current.html)
    + [累積リリースノート](marketing-cloud-interface/release-notes.md)
 + [Exchange Marketplace](exchange.md)
-+ [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
++ [Mobile Services](https://docs.adobe.com/content/help/ja-JP/mobile-services/using/home.html)
 + その他のリソース {#more-resources}
    + [フォーラム](https://forums.adobe.com/community/experience-cloud)
    + [用語](terms.md)
