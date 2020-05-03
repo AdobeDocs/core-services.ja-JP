@@ -1,13 +1,13 @@
 ---
 description: Adobe Experience Cloudのセルフヘルプ、製品ドキュメントおよび技術ドキュメント。 Experience Cloudは、アドビのデジタルマーケティングソリューションおよびサービスの統合ファミリーです。
 keywords: core services
-seo-description: このページには、Experience Cloudのセルフヘルプ、製品ドキュメント、および技術ドキュメントが含まれています。
+seo-description: このページには、Experience Cloudのセルフヘルプ、製品ドキュメントおよび技術ドキュメントが含まれています。
 seo-title: Adobe Experience Cloudおよびコアサービスのヘルプと製品ドキュメント。
 solution: Adobe Experience Cloud
 title: Experience Cloud とコアサービスのヘルプ
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
@@ -16,21 +16,20 @@ source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-このページには、Adobe Experience Cloudのソリューションおよびサービスに関するセルフヘルプ、サポート、および技術および製品ドキュメントが含まれています。 Experience Cloudは、アドビのデジタルマーケティングソリューションおよびサービスの統合ファミリーです。 また、クラウドソリューションやコアサービスにすばやくアクセスできる直感的なインターフェイスでもあります。
+このページには、Adobe Experience Cloudのソリューションおよびサービスに関するセルフヘルプ、サポート、および技術および製品ドキュメントが含まれています。 Experience Cloudは、アドビのデジタルマーケティングソリューションおよびサービスの統合ファミリーです。 また、クラウドソリューションやコアサービスに素早くアクセスできる直感的なインターフェイスでもあります。
 
 ## 何を学びたい？
 
 * [すべてのExperience Cloudソリューションの製品ドキュメント](https://docs.adobe.com/content/help/ja-JP/experience-cloud/user-guides/home.html) - Experience Cloudラーニングとサポートでヘルプを参照
 * [リリースノートと製品のアップデート](https://docs.adobe.com/content/help/ja-JP/release-notes/experience-cloud/current.html) - Experience Cloudの新機能および購読してアップデートを入手
-* [コアサービスの実装に関するチュートリアル](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) — コアサービスに関するビデオとチュートリアルの参照
-* [Experience Leagueのエキスパートサポート](https://landing.adobe.com/experience-league/) — 専門家やコミュニティからのガイド付き学習を利用できます。
-* [教育およびトレーニング](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK) — アドビの製品を最大限に活用するためにアドビと連携
-* [Customer Experience Blog](https://theblog.adobe.com/customer-experience/) - Experience Cloudブログを読む
+* [コアサービスの実装に関するチュートリアル](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) — コアサービスに関するビデオおよびチュートリアルの参照
+* [Experience Leagueのエキスパートヘルプ](https://landing.adobe.com/experience-league/) — 専門家やコミュニティからガイド付きの学習を受ける
+* [教育とトレーニング](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK) — アドビの製品を最大限に活用するためにアドビと連携
+* [Customer Experience Blog](https://theblog.adobe.com/customer-experience/) - Experience Cloudのブログを読む
 * [カスタマーケア](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html) — アドビカスタマーケアへのお問い合わせ
 
-## コアサービス製品ドキュメント
+## Experience Platform 製品ドキュメント
 
-* [コアサービスの概要](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) （ブログ）
 * [Adobe Mobile](https://docs.adobe.com/content/help/ja-JP/mobile-services/using/home.html)
 * [オーディエンス](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/audience-library.html)
 * [Assets](experience-cloud-assets/experience-cloud-assets.md)
@@ -52,5 +51,5 @@ source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
 * [統合](marketing-cloud-integrations.md)
 * [AdobeターゲットとExperience Cloudの統合](https://docs.adobe.com/content/help/ja-JP/target/using/integrate/a4t/a4t.html)
 * [Experience Cloud のプライバシーとセキュリティの概要](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
-* [Adobe Experience Cloudプロファイル管理](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/) （ブログ）
+* [Adobe Experience Cloud](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/) （ブログ）のプロファイル管理
 * [DNS プリフェッチ](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
