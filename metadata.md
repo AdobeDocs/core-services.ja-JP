@@ -1,8 +1,8 @@
 ---
 cloud: experience-cloud
 product: core-services
-solution: Core Services
-solution-title: コアサービス
+solution: Experience Platform
+solution-title: Experience Platform
 solution-hub-url: https://helpx.adobe.com/jp/support/experience-cloud/core-services.html
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: はじめに
@@ -11,12 +11,12 @@ tutorials-title: チュートリアル
 tutorials-url: https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/core-services.en
 translation-type: tm+mt
-source-git-commit: bf1f018ad1815518b5b5ecaf4552803b8d04a6c9
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
 
-# syanai 用のメタデータ
+# 社内用のメタデータ
 
 metadata. md ファイルにはリポジトリ内のユーザーガイド TOC.md ファイルから渡される repo-level メタデータが含まれています。任意のユーザーガイドの metadata.md コンテンツを変更したい場合は、任意の TOC.md ファイル内でおこないます。
 
