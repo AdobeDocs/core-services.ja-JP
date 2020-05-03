@@ -1,17 +1,17 @@
 ---
 audience: end-user
-user-guide-title: コアサービスユーザーガイド
+user-guide-title: Experience Cloudインターフェイスユーザーガイド
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
 
 # コアサービスユーザーガイド {#interface}
 
-+ [Experience Cloudおよびコアサービス製品ドキュメント](experience-cloud.md)
++ [Experience Cloudと製品ドキュメント](experience-cloud.md)
 + Experience Cloudのコアサービス {#about-core-services}
    + [コアサービスの概要](core-services-landing.md)
    + [コアサービス向けにソリューションを有効化](core-services/core-services.md)
@@ -69,7 +69,7 @@ source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
    + [スキーマの更新](attributes/t-update-schema.md)
    + [プライバシーに関する配慮 - 顧客属性](attributes/privacy-mac.md)
 + オファー管理 {#offer-management}
-   + [オファー管理](offer-management/getting-started.md)
+   + [オファー管理の概要](offer-management/getting-started.md)
    + [オファー管理のワークフロー](offer-management/offer-management-workflow.md)
    + [オファー](offer-management/offers.md)
    + [ラベル](offer-management/labels.md)
