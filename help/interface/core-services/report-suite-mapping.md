@@ -5,7 +5,7 @@ seo-title: 組織へのレポートスイートのマッピング
 title: 組織へのレポートスイートのマッピング
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 08e8e5fea4e4e64a195ebe25ae3ef19e849cabc5
 
 ---
 
@@ -13,6 +13,8 @@ source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 # 組織へのレポートスイートのマッピング {#topic_7C4740559EAC4E0FA5F8DEF886B580DA}
 
 1 つまたは複数のレポートスイートを組織にマッピングする方法について説明します。
+
+<!-- May 5 2020: This feature will likely be deprecated in Nov 2020. Any users with outstanding report suites that are not mapped will have 6 months to map their RS. -->
 
 Experience Cloudサービス(Experience Cloud IDサービスや [!UICONTROL People])は、個々のレポートスイートではなく、組織に関連付けられます。 これらのサービスを正しく機能させるには、各 Analytics レポートスイートを組織にマッピングする必要があります。マッピングプロセス：
 
@@ -78,7 +80,7 @@ If the Experience Cloud ID Service is currently deployed on the report suite, en
 
 次のポイントリストは、これらのレポートスイートに関してこのユーザーが実行でき、実行できないマッピング操作を示します。
 
-* [!UICONTROL Chapek] -prod [!UICONTROL report suiteは、] Chapek[!UICONTROL Corp組織にマッピングできます。これは、このユーザーがリンクされたAnalyticsログイン会社(]chapek)の管理者で、アカウントがこの組織にリンクされているからです。
+* [!UICONTROL Chapek] -prodレポートスイートは、 [!UICONTROL Chapek] Corp組織にマッピングできます。これは、このユーザーがリンクされたAnalyticsログイン会社([!UICONTROL chapek])の管理者で、アカウントがこの組織にリンクされているためです。
 * [!UICONTROL Nigel-prod] report suiteは、このレポートスイートが表示されるログイン会社の管理者ではないため、このユーザーはリンクできません。
 * [!UICONTROL Doohan-prod] (Doohan-prod [!UICONTROL )のレポートスイートは、Experience Cloud組織にリンクされたログイン会社(] chapek[!UICONTROL )の管理者なので、]Chapek Corpにマッピングできます(Doohan Analyticsログイン会社の管理者ではないことに注意)。 このユーザーはマッピングを実行できないが、 [!UICONTROL Doohan-prod] （製品版）のレポートスイートもNigel Inc Experience Cloud組織にマッピングできる資格があることに注意してください。 この場合、両方のExperience Cloud組織がリストに表示されますが、 [!UICONTROL Nigel Inc] は灰色表示になっています。 マッピングの前に、このユーザーはニジェルログイン会社の管理者に問い合わせて、マッピングに最適な組織を決定する必要があります。 このIDは、レポートスイートが最初に作成された組織と異なる組織を選択した場合、競合の可能性を示す警告を表示します。
 
