@@ -2,44 +2,44 @@
 title: 一般的なデータ保護規制に対する顧客属性のサポート
 description: 一般的なデータ保護規制に対する顧客属性のサポート
 translation-type: tm+mt
-source-git-commit: 3a86aed0794c3e35cc028e5bfde5dafcb2285fc8
+source-git-commit: 8709449909ce4fbd441d77fb4bbfb0b7758e805d
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 6%
+source-wordcount: '430'
+ht-degree: 1%
 
 ---
 
 
 # 一般的なデータ保護規制に対する顧客属性のサポート
 
+このページでは、お客様の属性がGDPR(General Data Protection Regulation)をサポートする方法を説明します。
 
 >[!IMPORTANT]
 >
->このドキュメントの内容は法的な助言ではなく、その代用になるものでもありません。一般的なデータ保護規則に関するアドバイスについては、法律顧問にお問い合わせください。
+>このドキュメントの内容は、法律上のアドバイスではなく、法的なアドバイスの代わりに使用するものです。 GDPRに関するアドバイスについては、弁護士に相談してください。
 
-2018年5月25日発効の法律、 [GDPR(](https://www.adobe.com/privacy/general-data-protection-regulation/what-is-gdpr.html) General Data Protection Regulation)は、欧州和集合(EU)の国境にあるすべての個人（データ・テーマ）に個人データの制御を与え、国際事業に関する規制環境を簡素化する。 この法律は、オファー商品やサービスを、EUの国境内の個人から、データ管理者の事業所に関係なく個人データの処理を行う際に、その個人データの処理を行う個人データの収集、監視、収集を行う全ての事業者（データ管理者）に適用される。
+2018年5月25日施行の法律である [一般データ保護規則](https://www.adobe.com/privacy/general-data-protection-regulation/what-is-gdpr.html)(General Data Protection Regulation)は、欧州和集合(EU)の国境内にあるすべての個人（データ・サブジェクト）に対して、個人データの管理を行う。 また、国際事業の規制環境も簡素化。 この法律は、オファー商品やサービスを、EUの国境内の個人から、データ管理者の事業所に関係なく個人データの処理を行う際に、その個人データの処理を行う個人データの収集、監視、収集を行う全ての事業者（データ管理者）に適用される。
 
 Adobe Experience Cloudは、顧客に代わって個人データを受け取り、保存する場合のデータプロセッサーの役割を果たします。 データコントローラーは、Adobe Experience Cloudが処理し、お客様に代わって保存する個人データを決定します。
 
-このドキュメントでは、顧客属性がAdobe Experience Platform Privacy Service APIとPrivacy Service UIを使用して、データサブジェクトのGDPRデータアクセスおよび削除権限をどのようにサポートするかを説明します。
+このドキュメントでは、 [!UICONTROL 顧客属性が] 、Adobe Experience Platform Privacy Service APIとPrivacy Service UIを使用して、データサブジェクトのGDPRデータアクセスおよび削除権限をどのようにサポートするかを説明します。
 
 GDPRがお客様のビジネスに与える意味の詳細は、「 [GDPRとお客様のビジネス](https://www.adobe.com/jp/privacy/general-data-protection-regulation.html)」を参照してください。
 
-## 顧客属性に対する要求を送信するために必要な設定
+## 顧客属性の要求を送信するために必要な [!UICONTROL 設定]
 
-顧客属性のデータにアクセスして削除するリクエストを作成するには、次の操作が必要です。
+顧客属性のデータにアクセスして削除するリクエストを作成するには 、次の操作が必要になります。
 
 1. 以下を特定します。
 
-* IMS Org ID
-* 操作するCRSデータソースのエイリアスID
-* アクションを実行するプロファイルのCRM ID
+   * IMS Org ID
+   * 操作するCRSデータソースのエイリアスID
+   * アクションを実行するプロファイルのCRM ID
+   IMS組織IDは、24文字の英数字と共に使用される文字列で、その後に@AdobeOrgが付加されます。 マーケティングチームまたはアドビの内部システム管理者が組織のIMS組織IDを知らない場合は、アドビカスタマーケア(gdprsupport@adobe.com)にお問い合わせください。 プライバシーAPIにリクエストを送信するには、IMS組織IDが必要です。
 
-IMS組織IDは、24文字の英数字と共に使用される文字列で、その後に@AdobeOrgが付加されます。 マーケティングチームまたはアドビの内部システム管理者が組織のIMS組織IDを知らない場合は、アドビカスタマーケア(gdprsupport@adobe.com)にお問い合わせください。 プライバシーAPIにリクエストを送信するには、IMS組織IDが必要です。
+1. プ [!UICONTROL ライバシーサービスでは]、顧客属性にアクセスおよび削除の要求を送信し、既存の要求のステータスを確認できます。
 
-2. アクセス要求や削除要求を顧客属性に送信したり、既存の要求のステータスを確認したりするには、プライバシーサービスUIを使用します。
-
-## 顧客属性JSONリクエストの必須フィールド値
+## [!UICONTROL 顧客属性] JSONリクエストの必須フィールド値
 
 &quot;会社コンテキスト&quot;:
 
@@ -96,7 +96,7 @@ IMS組織IDは、24文字の英数字と共に使用される文字列で、そ�
 }
 ```
 
-## Access要求に対して返されるデータフィールド
+## アクセス要求に対して返されるデータフィールド
 
 ```
 attributes:
