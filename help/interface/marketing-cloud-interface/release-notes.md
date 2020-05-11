@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: 累積リリースノート
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -131,18 +134,18 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
 
 ## リリース 15.9 - 2015 年 9 月 11 日 {#section_BCCE3E7DF62A4FF5A57B9C8FE2A5F37B}
 
-* 顧客属性データをアップロードする際に、Audience Manager API で断続的なタイムアウトが発生するパフォーマンスの問題を修正しました。（MAC-26305）
-* 200個までの顧客属性を購読に追加できない問題を修正しました。 （MAC-26188）
+* 顧客属性データのアップロード時に、断続的なタイムアウトが発生するオーディエンスマネージャーAPIのパフォーマンスの問題を修正しました。 （MAC-26305）
+* 購読に最大200個の顧客属性を追加できない問題を修正しました。 （MAC-26188）
 * オーディエンスライブラリで、オーディエンス共有がAnalyticsセグメント化できなかった問題を修正しました。 この問題が原因で、「データを収集中」(0オーディエンス)が表示されていました。 この問題を回避するには、セグメントあたり50,000オーディエンス未満にセグメントサイズを維持することをお勧めします。 （MAC-25788）
 * 顧客属性のスキーマを編集ページで表示名を変更するとContent Aware(500)エラーが発生する問題を修正しました。 (MAC-25589、AN-103834)
 
 ## Release 15.7 - July 22 2015 {#section_2683A152176944E48EF6C943892975B7}
 
-* 表示/スキーマの編集ページ（顧客属性）で指定した属性の説明がAnalyticsレポートで更新されない問題を修正しました。 （MAC-25985）
+* 表示/スキーマの編集ページ（顧客属性内）で指定した属性の説明がAnalyticsレポートで更新されない問題を修正しました。 （MAC-25985）
 * アップロードされたアセットのサムネールが表示されない問題を修正しました。 （MAC-25863）
 * Reports &amp; Analyticsで作成された新しいセグメントがExperience Cloudオーディエンスで使用できない問題を修正しました。 （MAC-25817）
 * 訪問者IDサービスを使用する場合に、Analyticsからオーディエンスを共有できない問題を修正しました。 (MAC-25788、MAC-25747)
-* 顧客属性でのマルチバイト文字のサポートを追加しました。 （MAC-25552）
+* 顧客属性でマルチバイト文字のサポートが追加されました。 （MAC-25552）
 
 **既知の問題**
 
@@ -174,7 +177,7 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
  </tbody> 
 </table>
 
-* 一部の顧客の顧客属性を同期できなかった問題を修正しました。
+* 一部の顧客の顧客属性が同期できない問題を修正しました。
 * Fixed an issue preventing [Adobe Target Product Documentation](https://docs.adobe.com/content/help/ja-JP/target/using/integrate/a4t/a4t.html) page from displaying in Japanese.
 * [!DNL Creative Cloud] と [!DNL Experience Cloud] の間のコメントで日本語のテキストが使用できなかった問題を修正しました。
 
