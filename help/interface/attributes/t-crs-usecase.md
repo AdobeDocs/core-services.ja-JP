@@ -1,13 +1,16 @@
 ---
 description: 顧客属性ソースを作成してデータをアップロードします。
-keywords: customer attributes;core services
+keywords: Customer Attributes;core services
 seo-description: 顧客属性ソースを作成してデータをアップロードします。
 seo-title: 顧客属性ソースの作成とデータファイルのアップロード
 solution: Experience Cloud
 title: 顧客属性ソースの作成とデータファイルのアップロード
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,8 +31,8 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 データソースがアクティブになると、以下のことが可能になります。
 
-* [Adobe Analytics での顧客属性の使用](../attributes/t-crs-usecase.md#task_7EB0680540CE4B65911B2C779210915D)
-* [Adobe Target での顧客属性の使用](../attributes/t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
+* [Adobe Analyticsでの顧客属性の使用](../attributes/t-crs-usecase.md#task_7EB0680540CE4B65911B2C779210915D)
+* [Adobeターゲットでの顧客属性の使用](../attributes/t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
 
 
 
@@ -86,13 +89,13 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
 
    * **[!UICONTROL 説明：]**（オプション）データ属性ソースの説明。
 
-   * **[!UICONTROL エイリアス ID：]**&#x200B;特定の CRM システムなど、顧客属性データのソースを表します。顧客属性ソースのコードで使用される一意の ID です。ID は一意で、スペースを含まないアルファベットおよびアンダースコアの組み合わせにしてください。Experience Cloud UIで顧客属性ソースのエイリアスIDフィールドに入力する値は、（Dynamic Tag ManagementまたはMobile SDKのJavaScript経由で）実装から渡される値と一致する必要があります。
+   * **[!UICONTROL エイリアス ID：]**&#x200B;特定の CRM システムなど、顧客属性データのソースを表します。顧客属性ソースのコードで使用される一意の ID です。ID は一意で、スペースを含まないアルファベットおよびアンダースコアの組み合わせにしてください。Experience Cloud UIで顧客属性ソースのエイリアスIDフィールドに入力する値は、実装から（Dynamic Tag ManagementまたはMobile SDKのJavaScriptを使用して）渡されている値と一致させる必要があります。
 
-      エイリアスIDは、追加の顧客ID値を設定した特定の領域に対応します。 以下に例を示します。
+      エイリアスIDは、追加の顧客ID値を設定する特定の領域に対応します。 以下に例を示します。
 
-      * **Dynamic Tag Management:** エイリアスIDは、 ** Experience Cloud IDサービスツールの「 [!UICONTROL 顧客設定][」の「統合コ](https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html) ード」の値に対応します。
+      * **Dynamic Tag Management:** エイリアスIDは、 *Experience Cloud IDサービス* ツールの「 [!UICONTROL 顧客設定][](https://docs.adobe.com/content/help/ja-JP/dtm/using/tools/macid.html) 」の下の統合コードの値に対応します。
 
-      * **訪問者API:** エイリアスIDは、各顧客に関連付 [ける追加の顧客](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) IDに対応します。訪問者
+      * **訪問者API:** エイリアスIDは、各訪問者に関連付けることができる追加の [顧客ID](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/authenticated-state.html) 。
 
          例：*crm_id* の場合：
 
@@ -100,13 +103,13 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
          "crm_id":"67312378756723456"
          ```
 
-      * **iOS:** エイリアスIDは、visitorSyncIdentifiers:identifiers *の「idType* 」に [対応します](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)。
+      * **iOS:** エイリアスIDは、visitorSyncIdentifiers:identifiersの *「idType」* に対応しています [](https://docs.adobe.com/content/help/ja-JP/mobile-services/ios/overview.html)。
 
          以下に例を示します。
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android:** エイリアスIDは、 *syncIdentifiersの「idType」に対応* し [ます](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)。
+      * **Android:** エイリアスIDは、 *syncIdentifiersの「idType」に対応し* ます [](https://docs.adobe.com/content/help/ja-JP/mobile-services/android/overview.html)。
 
          以下に例を示します。
 
@@ -120,7 +123,7 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
       >特定のデータファイル要件が存在します。詳しくは、[データファイル要件](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)を参照してください。
 
 
-      ファイルをアップロードすると、このページの「ファイルのアップロード」の見出し [!UICONTROL の下に表データ] が表示されます。 スキーマの検証、購読の設定、またはFTPの設定を行えます。
+      ファイルをアップロードすると、このページの「 [!UICONTROL ファイルのアップロード] 」見出しの下に表データが表示されます。 スキーマの検証、購読の設定、またはFTPの設定を行うことができます。
 
       **ファイルのアップロードのグラフ**
 
@@ -130,7 +133,7 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
 
    * **[!UICONTROL Experience Cloud 訪問者 ID にエイリアスされた顧客提供 ID：]** Experience Cloud 訪問者 ID にエイリアスされた ID の数を表示します。
 
-   * **[!UICONTROL エイリアス数の多い顧客提供 ID：]**&#x200B;エイリアスされた Experience Cloud 訪問者 ID が 500 以上ある、顧客提供 ID の数を表示します。これらの顧客IDは、個人ではなく、何らかの共有ログインを表している可能性が高くなります。 エイリアス数が10,000に達するまで、これらのIDに関連付けられた属性が、最も新しくエイリアスされた500個のExperience Cloud訪問者IDに配信されます。 この時点で、顧客提供IDは無効になり、関連する属性は配布されなくなります。
+   * **[!UICONTROL エイリアス数の多い顧客提供 ID：]**&#x200B;エイリアスされた Experience Cloud 訪問者 ID が 500 以上ある、顧客提供 ID の数を表示します。これらの顧客提供IDは、個人ではなく何らかの共有ログインを表している可能性が最も高くなります。 これらのIDに関連付けられた属性は、エイリアス数が10,000に達するまで、直近にエイリアスされた500個のExperience Cloud訪問者IDに振り分けられます。 その時点で、顧客提供IDは無効になり、関連する属性は振り分けられなくなります。
 
 
 
@@ -151,7 +154,7 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
 
 ## 購読の設定と属性ソースの有効化 {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
-購読を設定すると、Experience Cloudとソリューションの間のデータフローが設定されます。 属性ソースを有効化すると、購読しているソリューションでデータが利用できるようになります。アップロードした顧客レコードは、Webサイトやアプリケーションからの着信ID信号と照合されます。
+購読を設定すると、Experience Cloudとソリューションの間のデータフローが設定されます。 属性ソースを有効化すると、購読しているソリューションでデータが利用できるようになります。アップロードした顧客レコードは、Webサイトやアプリケーションからの入力ID信号と照合されます。
 
 詳しくは、[サブスクリプションの設定](../attributes/subscription.md#concept_ECA3C44FA6D540C89CC04BA3C49E63BF)を参照してください。
 
@@ -161,7 +164,7 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
 
 ![手順の結果](assets/activate_attribute_source.png)
 
-## Adobe Analytics での顧客属性の使用 {#task_7EB0680540CE4B65911B2C779210915D}
+## Use Customer Attributes in Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
 
 現在
 <keyword>
@@ -172,14 +175,14 @@ Adobe Analytics
 
 ![](assets/08_crs_usecase.png)
 
-セグメントを Experience Cloud に公開すると、Experience Cloud オーディエンスと Audience Manager で利用できるようになります。
+セグメントをExperience Cloudに公開すると、Experience Cloudオーディエンスとオーディエンスマネージャーで利用できるようになります。
 
-詳しくは [、Analyticsヘルプの「顧客属性](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) 」レポートを参照してください。
+詳しくは、Analyticsヘルプの「 [顧客属性レポート](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) 」を参照してください。
 
-## Adobe Target での顧客属性の使用 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
+## Use Customer Attributes in Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-[!DNL Target] では、オーディエンスの作成時に「訪問者プロファイル」セクションから顧客属性を選択できます。すべての顧客属性には、リストにプレフィックス [!DNL crs.] が付きます。これらの属性を、必要に応じて他のデータ属性と組み合わせることで、オーディエンスを構築します。
+[!DNL Target] では、オーディエンスの作成時に「訪問者プロファイル」セクションから顧客属性を選択できます。All Customer Attributes will have the prefix [!DNL crs.] in the list. これらの属性を、必要に応じて他のデータ属性と組み合わせることで、オーディエンスを構築します。
 
 ![](assets/crs-add-attribute-target.png)
 
-詳しくは、ヘ [ルプの「新しいオーディエンスの作成](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html) 」を参照し [!DNL Target] てください。
+ヘルプの「新しいオーディエンス [の作成](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html) 」を参照して [!DNL Target] ください。
