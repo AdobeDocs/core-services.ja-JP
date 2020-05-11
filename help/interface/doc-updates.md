@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: ドキュメントの更新 - Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: d5f608401b7496fe044826d13e014c8b3bd9fcba
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 70%
 
 ---
 
@@ -16,13 +19,13 @@ source-git-commit: d5f608401b7496fe044826d13e014c8b3bd9fcba
 
 Experience Cloud製品ドキュメントの更新に関する情報です。
 
-**更新日：3/10/2020**
+**更新日： 2020年3月10日**
 
-ファースト [パーティcookieのセクションで](cookies/cookies-first-party.md#validate) 、「ホスト名転送の検証」を更新しました。
+ファーストパーティcookieの [「ホスト名の転送の](cookies/cookies-first-party.md#validate) 検証」の節を更新しました。
 
-**更新日：2020年2月20日**
+**更新日： 2020年2月20日**
 
-View [Experience Cloudユーザーの詳細を追加しました（管理ツール）](admin-getting-started/admin-tool-experience-cloud.md)。
+Experience Cloudユーザーの詳細（管理ツール）を [表示に追加しました](admin-getting-started/admin-tool-experience-cloud.md)。
 
 **更新：2018 年 9 月 6 日**
 
@@ -30,7 +33,7 @@ View [Experience Cloudユーザーの詳細を追加しました（管理ツー�
 
 **更新：2018 年 6 月 9 日**
 
-複数のファイルのアップロードについての情報を用いて、[顧客属性のデータファイルとデータソースについて](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)を更新しました。
+Updated [About data file and data sources for Customer Attributes](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) with information about uploading multiple files.
 
 **更新：2018 年 6 月 7 日**
 
@@ -74,7 +77,7 @@ View [Experience Cloudユーザーの詳細を追加しました（管理ツー�
 
 **更新：2015 年 1 月 16 日**
 
-「Experience Cloud のユーザーは、Creative Cloud とフォルダーを共有して、アセットとコメントを相互に同期できるようになりました。」という記述を追加しました。詳しくは、[アセットの共有](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68)を参照してください。
+Experience Cloudのユーザーは、Creative Cloudとフォルダーを共有し、アセットとコメントを2つのクラウド間で同期できるようになりました。 詳しくは、 [アセットの共有を参照してください](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68)。
 
 **更新：2014 年 7 月 18 日**
 
