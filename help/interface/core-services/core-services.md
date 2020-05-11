@@ -1,20 +1,23 @@
 ---
 description: Experience Cloudを実装し、管理者になります。 このプロセスでは、顧客属性やオーディエンスなどの機能のソリューションを最新化します。
-keywords: core services;customer attributes
+keywords: core services;Customer Attributes
 seo-description: Experience Cloudを実装し、管理者になります。 このプロセスでは、顧客属性やオーディエンスなどの機能のソリューションを最新化します。
 seo-title: コアサービス向けに Experience Cloud ソリューションを有効化
 solution: Experience Cloud
 title: コアサービス向けにソリューションを有効化
 index: true
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '2358'
+ht-degree: 27%
 
 ---
 
 
 # コアサービス向けにソリューションを有効化
 
-既存のお客様に対しては、ソリューションの実装を最新化し、顧客属性やオーディエンスなどの機能を使用できるようにExperience Cloudを実装する方法を説明します。 これを実現するには、次の操作を行います。
+既存のお客様の場合、ソリューションの実装を最新化し、顧客属性やオーディエンスなどの機能を使用できるようにExperience Cloudを実装する方法を説明します。 これを実現するには、次の操作を行います。
 
 1. [Experience Cloud に加入して管理者になる](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Experience Cloud IDサービスの実装](#section_3C9F6DF37C654D939625BB4D485E4354)
@@ -143,7 +146,7 @@ In [!UICONTROL Dynamic Tag Management], click **[!UICONTROL <Web Property Name>]
 
    >[!IMPORTANT]
    >
-   >すべてのAnalyticsユーザーは、顧客属性などコアサービス用に既にプロビジョニングされています。 Analytics ユーザーになっていないユーザーがいる場合は、そのユーザーのプロビジョニングをカスタマーケアに依頼します。
+   >Analyticsのすべてのお客様は、既に、顧客属性などコアサービス用にプロビジョニングされています。 Analytics ユーザーになっていないユーザーがいる場合は、そのユーザーのプロビジョニングをカスタマーケアに依頼します。
 
 ## 手順 6.コアサービスの実装を確認する {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
