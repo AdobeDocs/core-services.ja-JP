@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: Experience Cloud の統合
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -134,14 +137,14 @@ Adobe Experience Cloud Debugger 拡張機能を使用して、Auditor によっ�
 
 ヘルプ： [AdobeターゲットとExperience Cloudの統合](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/audience-library.html)
 
-Adobe Target と Adobe Analytics およびその他の Experience Cloud ソリューションを統合して、同じデータ、オーディエンス、属性および指標を両方のソリューションで使用できるようにします。
+AdobeターゲットをAdobe Analyticsおよびその他のExperience Cloudソリューションと統合して、同じデータ、オーディエンス、属性および指標を両方のソリューションで使用できるようにします。
 
 **適用可能なソリューションまたはサービス**
 
 * 顧客属性： 顧客属性に対するAdobeターゲットの [購読](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) の設定
 * Experience Cloudオーディエンス: [Experience Cloudオーディエンスライブラリ](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/audience-library.html)
 * Analytics: [Adobe Analytics as the Reporting Source for Adobe Target](https://docs.adobe.com/content/help/ja-JP/target/using/integrate/a4t/a4t.html)
-* Dynamic Tag Management: [DTMを使用したAdobeターゲットの実装のベストプラクティス](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html)
+* Dynamic Tag Management: [DTMを使用したAdobeターゲットの実装のベストプラクティス](https://docs.adobe.com/content/help/ja-JP/dtm/implementing/overview.html)
 * オーディエンスマネージャ： [Adobe Data Integration with Adobeオーディエンスマネージャー](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
 * キャンペーン: [Adobeターゲットとキャンペーンの統合](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
 
