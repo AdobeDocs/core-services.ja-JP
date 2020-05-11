@@ -4,7 +4,10 @@ user-guide-title: Experience Cloudインターフェイスユーザーガイド
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +32,7 @@ source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
    + [Advertising Cloud の cookie](cookies/cookies-advertising-cloud.md)
    + [[!DNL Scene7] cookie](cookies/cookies-s7.md)
    + [[!DNL Search and Promote] cookie](cookies/cookies-snp.md)
-   + [[!DNLターゲット] cookie](cookies/cookies-target.md)
+   + [[!DNL Target] cookie](cookies/cookies-target.md)
    + [ブラウザー cookie のプライバシー設定の有効化](cookies/browser-cookie-settings.md)
    + [サードパーティcookieのサポートに対する変更が顧客に与える影響](cookies/cookies-thirdparty.md)
 + ユーザーおよび製品の管理 {#manage-users-and-products}
@@ -67,7 +70,7 @@ source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
    + [スキーマの検証](attributes/validate-schema.md)
    + [サブスクリプションの設定](attributes/subscription.md)
    + [スキーマの更新](attributes/t-update-schema.md)
-   + [プライバシーに関する配慮 - 顧客属性](attributes/privacy-mac.md)
+   + [プライバシーに関する考慮事項 — 顧客属性](attributes/privacy-mac.md)
 + オファー管理 {#offer-management}
    + [オファー管理の概要](offer-management/getting-started.md)
    + [オファー管理のワークフロー](offer-management/offer-management-workflow.md)
