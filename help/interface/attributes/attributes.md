@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: 顧客属性
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 75d3d045964aa42f7ac6b32b25cfd77aa7f663a9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '456'
+ht-degree: 16%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 0%
 
 * **ソリューションの有効化：** [エクスペリエンスプラットフォームサービスのソリューションを有効にします](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)。
 
-* **グループのメンバーシップ：**&#x200B;顧客属性データをアップロードするには、ユーザーは、 [Customer Attributesグループ](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)。 また、Adobe AnalyticsグループまたはAdobeターゲットグループのいずれかに属している必要があります。
+* **グループのメンバーシップ：** 顧客属性データをアップロードするには、ユーザーが [顧客属性グループのメンバーである必要があります](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)。 また、Adobe AnalyticsグループまたはAdobeターゲットグループのいずれかに属している必要があります。
 
-   To know whether your company has access to Customer Attributes, your [!DNL Experience Cloud] administrator should log into the [!DNL Experience Cloud]. **[!UICONTROL 管理]** /管理コンソールを **[!UICONTROL 起動]** / **[!UICONTROL グループに移動します]**。 グループの 1 つとして&#x200B;*顧客属性*&#x200B;がある場合は、すぐに始めることができます。
+   To know whether your company has access to Customer Attributes, your [!DNL Experience Cloud] administrator should log into the [Experience Cloud](https://experience.adobe.com). **[!UICONTROL 管理]** / **[!UICONTROL 管理コンソール]** / ****&#x200B;製品に移動します。 If *Customer Attributes* displays as one of the [!UICONTROL Product Profiles], you are ready to begin.
 
-   顧客属性グループに追加されたユーザーには、Experience Cloud インターフェイスの左側に[!UICONTROL 顧客属性]メニュー項目が表示されます。
+   Users that are added to the Customer Attributes will see the [!UICONTROL Customer Attributes] menu item on the left side of the Experience Cloud interface.
 
 * **顧客属性には、Adobeターゲット**[!DNL at.js] （任意のバージョン）または [!DNL mbox.js] バージョン58以降が必要です。
 
