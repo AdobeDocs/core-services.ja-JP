@@ -2,17 +2,17 @@
 title: 一般的なデータ保護規制に対する顧客属性のサポート
 description: 一般的なデータ保護規制に対する顧客属性のサポート
 translation-type: tm+mt
-source-git-commit: 8709449909ce4fbd441d77fb4bbfb0b7758e805d
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 一般的なデータ保護規制に対する顧客属性のサポート
 
-このページでは、お客様の属性がGDPR(General Data Protection Regulation)をサポートする方法を説明します。
+このページでは、顧客属性がGDPR(General Data Protection Regulation)をサポートする方法を説明します。
 
 >[!IMPORTANT]
 >
@@ -22,13 +22,13 @@ ht-degree: 1%
 
 Adobe Experience Cloudは、顧客に代わって個人データを受け取り、保存する場合のデータプロセッサーの役割を果たします。 データコントローラーは、Adobe Experience Cloudが処理し、お客様に代わって保存する個人データを決定します。
 
-このドキュメントでは、 [!UICONTROL 顧客属性が] 、Adobe Experience Platform Privacy Service APIとPrivacy Service UIを使用して、データサブジェクトのGDPRデータアクセスおよび削除権限をどのようにサポートするかを説明します。
+このドキュメントでは、 [!UICONTROL 顧客属性] (Customer Attributes)が、Adobe Experience Platform Privacy Service APIとPrivacy Service UIを使用して、データサブジェクトのGDPRデータアクセスおよび削除権をどのようにサポートするかを説明します。
 
 GDPRがお客様のビジネスに与える意味の詳細は、「 [GDPRとお客様のビジネス](https://www.adobe.com/jp/privacy/general-data-protection-regulation.html)」を参照してください。
 
-## 顧客属性の要求を送信するために必要な [!UICONTROL 設定]
+## [!UICONTROL 顧客属性の要求を送信するために必要な設定]
 
-顧客属性のデータにアクセスして削除するリクエストを作成するには 、次の操作が必要になります。
+顧客属性のデータへのアクセスおよび削除をリクエストするに [!UICONTROL は]、次の操作が必要です。
 
 1. 以下を特定します。
 
@@ -37,7 +37,7 @@ GDPRがお客様のビジネスに与える意味の詳細は、「 [GDPRとお�
    * アクションを実行するプロファイルのCRM ID
    IMS組織IDは、24文字の英数字と共に使用される文字列で、その後に@AdobeOrgが付加されます。 マーケティングチームまたはアドビの内部システム管理者が組織のIMS組織IDを知らない場合は、アドビカスタマーケア(gdprsupport@adobe.com)にお問い合わせください。 プライバシーAPIにリクエストを送信するには、IMS組織IDが必要です。
 
-1. プ [!UICONTROL ライバシーサービスでは]、顧客属性にアクセスおよび削除の要求を送信し、既存の要求のステータスを確認できます。
+1. プ [!UICONTROL ライバシーサービスで]、顧客属性にアクセスおよび削除のリクエストを送信し、既存のリクエストのステータスを確認できます。
 
 ## [!UICONTROL 顧客属性] JSONリクエストの必須フィールド値
 
