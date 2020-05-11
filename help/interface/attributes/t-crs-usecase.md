@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: 顧客属性ソースの作成とデータファイルのアップロード
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: af5201da6eac644e150783195bdbc8f93760c3f1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1177'
+ht-degree: 63%
 
 ---
 
@@ -28,23 +28,18 @@ ht-degree: 0%
 1. [スキーマの検証](../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
 1. [購読の設定と属性ソースの有効化](../attributes/t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
 
-
 データソースがアクティブになると、以下のことが可能になります。
 
 * [Adobe Analyticsでの顧客属性の使用](../attributes/t-crs-usecase.md#task_7EB0680540CE4B65911B2C779210915D)
 * [Adobeターゲットでの顧客属性の使用](../attributes/t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
 
-
-
 >[!IMPORTANT]
 >
->この機能にアクセスするには、ユーザーが「顧客属性」製品プロファイル（顧客属性 - デフォルトのアクセス）に割り当てられている必要があります( **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Users]** > ). Users that are added to the Customer Attributes group will see the [!UICONTROL Customer Attributes] menu item in [!UICONTROL Audiences], on the left side of the Experience Cloud interface.
+>この機能にアクセスするには、ユーザーが「顧客属性」製品プロファイル（顧客属性 - デフォルトのアクセス）に割り当てられている必要があります&#x200B;**[!UICONTROL 管理]** / **[!UICONTROL 管理コンソール]** / ****&#x200B;製品に移動します。 If *Customer Attributes* displays as one of the [!UICONTROL Product Profiles], you are ready to begin. Users that are added to the Customer Attributes group will see the [!UICONTROL Customer Attributes] menu on the left side of the Experience Cloud interface.
 >
->ソリューショングループのメンバーシップも必要です。
+>顧客属性機能を使用するには、ユーザーがソリューションレベルのグループ(Analyticsまたは [!DNL Target])に属している必要もあります。
 
-To use the Customer Attributes feature, users must belong to the Adobe Customer Attributes group in user management, and to solution-level groups (Analytics or [!DNL Target]).
-
-[ユーザーとグループ](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)を参照してください。
+See [Manage Experience Cloud users and products](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
 
 ## データファイルの作成 {#task_B5FB8C0649374C7A94C45DCF2878EA1A}
 
@@ -52,12 +47,9 @@ To use the Customer Attributes feature, users must belong to the Adobe Customer 
 
 1. `.csv` を作成します。
 
-
    >[!NOTE]
    >
    >このプロセスの後半で、`.csv` をドラッグ＆ドロップしてファイルをアップロードします。[FTP を使用してアップロード](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)する場合は、`.csv` と同じ名前の `.fin` ファイルも必要です。
-
-
 
    企業顧客データファイルの例：
 
