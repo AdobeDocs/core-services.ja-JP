@@ -2,7 +2,7 @@
 title: カリフォルニア消費者プライバシー法の顧客属性サポート
 description: カリフォルニア消費者プライバシー法の顧客属性サポート
 translation-type: tm+mt
-source-git-commit: 8709449909ce4fbd441d77fb4bbfb0b7758e805d
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 5%
@@ -12,7 +12,7 @@ ht-degree: 5%
 
 # カリフォルニア州消費者プライバシー法の顧客属性サポート
 
-このページでは、カリフォルニア州消費者プライバシー法(CCPA)に対する  顧客属性のサポートについて説明します。
+このページでは、 [!UICONTROL 顧客属性によるカリフォルニア消費者プライバシー法(CCPA)] のサポートについて説明します。
 
 >[!IMPORTANT]
 >
@@ -24,13 +24,13 @@ CCPAはカリフォルニア州の新しいプライバシー法で、2020年1�
 
 Adobe Experience Cloudは、個人サービスプロバイダーへのアクセスと削除の要求の管理など、Experience Cloudの製品とサービスの使用に適用されるCCPAに基づく義務を満たすためのサポートをお客様のビジネスに提供します。
 
-このドキュメントでは、 [!UICONTROL 顧客属性が] 、Adobe Experience Platform Privacy Service APIとPrivacy Service UIを使用して、データサブジェクトのCCPAデータアクセスおよび削除権限をどのようにサポートするかを説明します。
+このドキュメントでは、 [!UICONTROL 顧客属性] (Customer Attributes)が、Adobe Experience Platform Privacy Service APIとPrivacy Service UIを使用して、データサブジェクトのCCPAデータアクセスおよび削除権限をどのようにサポートするかを説明します。
 
 CCPAのアドビプライバシーサービスについて詳しくは、アドビプライバシーセンターを参照して [ください](https://www.adobe.com/privacy/ccpa.html)。
 
-## 顧客属性の要求を送信するために必要な [!UICONTROL 設定]
+## [!UICONTROL 顧客属性の要求を送信するために必要な設定]
 
-顧客属性のデータにアクセスして削除するリクエストを作成するには 、次の操作が必要になります。
+顧客属性のデータへのアクセスおよび削除をリクエストするに [!UICONTROL は]、次の操作が必要です。
 
 1. 以下を特定します。
 
@@ -39,7 +39,7 @@ CCPAのアドビプライバシーサービスについて詳しくは、アド�
    * アクションを実行するプロファイルのCRM ID
    IMS組織IDは、24文字の英数字と共に使用される文字列で、その後に@AdobeOrgが付加されます。 マーケティングチームまたはアドビの内部システム管理者が組織のIMS組織IDを知らない場合は、アドビカスタマーケア(gdprsupport@adobe.com)にお問い合わせください。 プライバシーAPIにリクエストを送信するには、IMS組織IDが必要です。
 
-1. プ [!UICONTROL ライバシーサービスでは]、顧客属性にアクセスおよび削除の要求を送信し、既存の要求のステータスを確認できます。
+1. プ [!UICONTROL ライバシーサービスで]、顧客属性にアクセスおよび削除のリクエストを送信し、既存のリクエストのステータスを確認できます。
 
 ## [!UICONTROL 顧客属性] JSONリクエストの必須フィールド値
 
