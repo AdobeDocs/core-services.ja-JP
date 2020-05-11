@@ -4,17 +4,20 @@ keywords: core services, sign in to Experience Cloud
 seo-description: Experience Cloud へのログイン、パスワードおよび通知の管理、デフォルトのランディングページの指定について、それぞれの方法を説明します。
 seo-title: ログインとプロファイル設定の管理
 solution: Experience Cloud
-title: サインインしてExperience Cloudのプロファイル設定を管理
+title: サインインしてExperience Cloudプロファイル設定を管理する
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# サインインしてExperience Cloudのプロファイル設定を管理
+# サインインしてExperience Cloudプロファイル設定を管理する
 
-（単一のソリューションにサインインする代わりに）Experience Cloudにサインインすると、お客様が所有するすべてのソリューションおよびサービスに対するシングルサインオンが可能になります。 このヘルプでは、Experience Cloudへのサインイン、パスワードと通知の管理、デフォルトのパスワードの指定の方法について説明しています。ランディングページ
+（単一のソリューションにサインインする代わりに）Experience Cloudにサインインすると、所有するすべてのソリューションおよびサービスに対して、シングルサインオンが有効になります。 このヘルプでは、Experience Cloudへのサインイン、パスワードと通知の管理、デフォルトのランディングページの指定の方法について説明します。
 
 >[!IMPORTANT]
 >
@@ -36,13 +39,13 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 | 要素 | 説明 |
 |--- |--- |
-| [管理コンソールの基本](https://helpx.adobe.com/marketing-cloud/how-to/first-time-setup.html) | Experience Cloudソリューションの使用を開始するために必要な最初の手順について説明します。 |
-| [IDの設定](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | エンドユーザーの認証に使用するIDシステムを定義し、設定します。 |
-| [ユーザー管理](https://helpx.adobe.com/enterprise/using/users.html) | Admin Console へのログインと Experience Cloud ユーザーの権限および製品プロファイルの管理について説明します。 |
-| [Admin Console の起動](../admin-getting-started/admin-getting-started.md) | 管理コンソールは、組織全体でアドビのユーザーと製品の権利を管理するための中央の場所です。<br>[ダイレクトリンク](https://adminconsole.adobe.com)を使用して Admin Console にログインすることもできます。 |
-| [Creative Cloud ユーザーの管理](../experience-cloud-assets/t-admin-add-cc-user.md) | Experience Cloud Assetsを使用すると、マーケティング担当者は、デザイナーやCreative Cloudを使用する他のクリエイティブアセットとフォルダーを共有、同期、コラボレーションできます。 組織との共同作業を承認されたCreative Cloudユーザーを管理できます。 |
-| [レポートスイートをマッピング](../core-services/core-services.md) | （Analyticsのみ）Experience Cloudコアサービスは、個々のレポートスイートではなく組織に関連付けられます。 これらのサービスを正しく機能させるには、各 Analytics レポートスイートを組織にマッピングする必要があります。(このタスクは、コアサービスに対してAnalyticsを有効にする [ためのより広いワークフローの一部](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C))。 |
-| [Organization ID](../admin-getting-started/organizations.md) | 組織 *IDは* 、管理ページの下部にあります。 このIDは、プロビジョニングされたExperience Cloud会社に関連付けられたIDです。 この ID は 24 文字の英数字から成る文字列で、その後に @AdobeOrg（必須）が続きます。 |
+| [管理コンソールの基本事項](https://helpx.adobe.com/jp/marketing-cloud/how-to/first-time-setup.html) | Experience Cloudソリューションの使用を開始するために必要な最初の手順について説明します。 |
+| [IDの設定](https://helpx.adobe.com/jp/enterprise/using/set-up-identity.html) | エンドユーザーの認証に使用するIDシステムを定義し、設定します。 |
+| [ユーザー管理](https://helpx.adobe.com/jp/enterprise/using/users.html) | Admin Console へのログインと Experience Cloud ユーザーの権限および製品プロファイルの管理について説明します。 |
+| [Admin Console の起動](../admin-getting-started/admin-getting-started.md) | 管理コンソールは、組織全体でAdobeユーザーと製品の権利を管理するための中央の場所です。<br>[ダイレクトリンク](https://adminconsole.adobe.com)を使用して Admin Console にログインすることもできます。 |
+| [Creative Cloud ユーザーの管理](../experience-cloud-assets/t-admin-add-cc-user.md) | Experience Cloud Assetsを使用すると、マーケターは、Creative Cloudを使用して、デザイナーや他のクリエイティブアセットとフォルダーを共有し、同期して、共同作業を行うことができます。 ここでは、組織とのコラボレーションのために承認されたCreative Cloudユーザーを管理できます。 |
+| [レポートスイートをマッピング](../core-services/core-services.md) | （Analyticsのみ）Experience Cloudコアサービスは、個々のレポートスイートではなく、組織に関連付けられます。 これらのサービスを正しく機能させるには、各 Analytics レポートスイートを組織にマッピングする必要があります。(このタスクは、コアサービスに対してAnalyticsを [有効にする幅広いワークフローの一部](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C))。 |
+| [Organization ID](../admin-getting-started/organizations.md) | 組 *織ID* は、管理ページの下部にあります。 このIDは、プロビジョニングされたExperience Cloud会社に関連付けられたIDです。 この ID は 24 文字の英数字から成る文字列で、その後に @AdobeOrg（必須）が続きます。 |
 
 ## Experience Cloud へのログイン（ユーザー）{#task_1BFE87E20DCB44078CAC82F3CD44B985}
 
@@ -52,12 +55,12 @@ Experience Cloud での非管理者ユーザーのログインに関するヘル
 1. Experience Cloud で自分の[組織](../admin-getting-started/getting-started-experience-cloud.md#concept_384D169B0B724B799D573B8ECB5C39BF)のプロビジョニングが完了していることを管理者に確認します。
 
 
-1. [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com])に移動します。
+1. Navigate to the [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com]).
 1. 「**[!UICONTROL Adobe ID でログイン]**」をクリックします。
 
    Experience Cloud 管理者に問い合わせてアカウントのタイプ（Adobe ID または Enterprise ID）を確認してください。
 
-1. ランディングページ上で、セレクターアイコンをクリッ ![](assets/menu-icon.png) クして、プルダウンメニューにアクセスします。
+1. ランディングページでセレクターアイコンをクリック ![](assets/menu-icon.png) して、プルダウンメニューにアクセスします。
 
    ![](assets/experience-cloud-core-services.png)
 
@@ -77,11 +80,11 @@ Experience Cloud での非管理者ユーザーのログインに関するヘル
 
 ## 通知の有効化 {#concept_0105453AD71847B8BFCAF4A40915F157}
 
-システムの更新、メンテナンス通知、投稿、メンションおよび共有アセットに関する通知を（電子メールまたは製品内で）受け取ります。 顧客属性のアップロードステータスなど、通知の対象とする製品やソリューションを指定することもできます。
+システムの更新、メンテナンス通知、投稿、メンション、アセット共有に関する通知を（電子メールまたは製品内で）受け取ります。 顧客属性のアップロードステータスなど、通知の対象となる製品およびソリューションを指定することもできます。
 
 「通知」に移動するには、**[!UICONTROL 通知]**&#x200B;アイコン（![](assets/notifications-icon.png)）をクリックし、次に&#x200B;**[!UICONTROL 設定]**&#x200B;アイコン（![](assets/icon_edit_board.png)）をクリックします。
 
-自分にとって重要なメッセージタイプに基づいて通知の表示を並べ替えたり、通知を検索したりできます。 また、次の操作も可能です。
+メッセージのタイプに基づいて通知の表示を並べ替えたり、通知を検索したりできます。 また、次のこともできます。
 
 * 自分にとって重要なメッセージの種類で並べ替えます。
 * 通知を検索します。
@@ -120,9 +123,9 @@ Experience Cloud プロファイルを編集し、デフォルトの組織やラ
    ![](assets/edit-profile.png)
 1. 「**[!UICONTROL プロファイルを編集]**」をクリックします。
 
-   [プロファイルとパスワード]ページで、[個人の詳細]の下のフィールドとオプションに入力します。
+   プロファイルとパスワードページの「個人情報」の下のフィールドとオプションに入力します。
 
-## パスワードの復元 {#task_46541A2806164CB1A4AE8239604E4EB1}
+## パスワードを復元する {#task_46541A2806164CB1A4AE8239604E4EB1}
 
 1. ソリューションのログインページに移動します。
 1. 「**[!UICONTROL パスワードを忘れた場合]**」をクリックします。
@@ -133,7 +136,7 @@ Experience Cloud プロファイルを編集し、デフォルトの組織やラ
 
 ## ダイレクトリンクを使用したソリューションログインの設定 {#concept_8BE493A08786469B88B210E13F78FF2F}
 
-オプションで、Experience Cloudインターフェイスで提供される認証を使用して、ソリューションの特定のページにログインできます。
+必要に応じて、Experience Cloudインターフェイスで提供される認証を使用して、ソリューションの特定のページにログインできます。
 
 ### URLテンプレート
 
@@ -151,4 +154,4 @@ Experience Cloud プロファイルを編集し、デフォルトの組織やラ
 |--- |--- |--- |--- |
 | tenantId | ユーザーがログインするテナントの名前。 | aem62tenant | オプション |
 | destURL | ユーザーを呼び出す場所の完全なURL。 | https://sc.omniture.com/x/1_7xxzf | オプション |
-| solutionname | destURLパラメーターの所有者であるMACソリューションの名前。 このパラメーターは、URL の所有主であるソリューションにユーザーがアクセスできることを確認するために使用されます。solutionname と destURL パラメーターが同期しているかどうかの確認はソリューション側でおこなわれます。例：URLにSocialとしてのソリューション名が含まれ、指定されたdestURLが分析URLの場合、ユーザーは分析にアクセスできなくてもURLにリダイレクトされます。 MACでは、destURLの所有者がソリューション名と同期している天気を確認しません。 | analytics | destURLパラメーターを使用する場合は必須です。 |
+| solutionname | destURLパラメーターの所有者であるMACソリューションの名前。 このパラメーターは、URL の所有主であるソリューションにユーザーがアクセスできることを確認するために使用されます。solutionname と destURL パラメーターが同期しているかどうかの確認はソリューション側でおこなわれます。例： URLにsocialとしてソリューション名が含まれ、指定されたdestURLが分析URLの場合、ユーザーは、分析URLにアクセスできなくてもURLにリダイレクトされます。 MACでは、destURLの所有者がソリューション名と同期している天気が確認されません。 | analytics | destURLパラメーターを使用する場合は必須です。 |
