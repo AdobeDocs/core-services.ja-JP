@@ -4,10 +4,10 @@ user-guide-title: Experience Cloudインターフェイスユーザーガイド
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
+source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 68%
+ht-degree: 65%
 
 ---
 
