@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: 累積リリースノート
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3929'
+ht-degree: 58%
 
 ---
 
@@ -22,6 +22,22 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 ドキュメントの更新のリストについては、[Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784) を参照してください。
 
 すべてのソリューションに関するリリースノートについては、 [Experience Cloudリリースノートを参照してください](https://docs.adobe.com/content/help/ja-JP/release-notes/experience-cloud/current.html)。
+
+## 2020年4月～
+
+* Experience Cloud [!UICONTROL フィード]ページは非推奨になりました。（EXC-8505）
+* 新しいブランディング要素を反映するよう、Experience Cloud のログインページが更新されました。（EXC-10747）
+
+## 2020年2月～
+
+| 機能 | 説明 |
+| -----------| ---------- |
+| 管理ツール - ユーザーの詳細を表示 | 管理者は、新しい管理ツールで、すべての Experience Cloud ユーザーとその詳細に関する、並べ替え可能でフィルタリング可能なリストを表示できます。ユーザーの詳細には、ユーザーの製品アクセス、ロール、最終アクセス日が含まれます。詳しくは、[Experience Cloud 管理ツール](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html)のヘルプを参照してください。 |
+
+**修正点**
+
+* **顧客属性：**&#x200B;顧客属性 UI に、Target で同期されたプロファイルの追加のステータスが表示されるようになりました。（MCUI-10231）
+* **Triggers コアサービス：**&#x200B;あまり使用されないので、離脱タイプのトリガーを作成する際の傾向スコア「30 日以内に戻る可能性」が削除されました。（MCUI-10056）
 
 ## 2020年1月～1月
 
