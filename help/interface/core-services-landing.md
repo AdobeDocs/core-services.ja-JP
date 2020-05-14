@@ -6,10 +6,10 @@ solution: Experience Cloud
 title: Experience Cloudコアサービスについて
 index: true
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '565'
+ht-degree: 29%
 
 ---
 
@@ -37,4 +37,4 @@ Adobe Experience Platform は、企業全体のデータやコンテンツを一
 | [オファー](offer-management/getting-started.md) | Experience Cloudのすべてのチャネルを対象にして、意思決定を行い、作成、管理を行います。 [!UICONTROL オファー管理] は、実施要件ルールと複数のコンテンツを各オファーの「オブジェクト」に関連付け、チャネルと場所にこれらのオファーを公開し、各インタラクションで各顧客に最適なオファーを提供できる中央オファーカタログの役割を果たします。 |
 | [Exchange](exchange.md) | アプリを介して、Digital Marketing の機能強化の検索、参照、選択、支払いおよびダウンロードをおこないます。 |
 | [Mobile Services](https://docs.adobe.com/content/help/ja-JP/mobile-services/using/home.html) | Adobe Mobile Services により、モバイルアプリ用の各ソリューションが Experience Cloud 上で統合されます。これにより、アプリの利用状況を把握し、改善につなげることができます。 |
-| People | Experience Cloudソリューション内のアドビデータとアドビ以外のデータを結び付けることで、個々のお客様の包括的な表示を作成できます。 タッチポイントをまたがるやり取りの中で、ユーザーにとって最も重要な点を見つけ出します。 一般的でないデバイスから訪問した場合に、常連顧客を認識します。 さらに、ターゲットを絞ったマーケティング活動のために、オーディエンスをグループ化します。<br>[オーディエンス](audience-library/audience-library.md) — 様々なタイプの顧客をオーディエンスに分類して、Marketing Cloudソリューション全体でオーディエンスを共有します。<br>[顧客属性](attributes/attributes.md) - Marketing Cloud 外で収集した顧客情報を連結できる機能強化。<br>[デバイスグラフ](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) — 世界で最も人気のあるブランドとのコラボレーションにより、一般的でないデバイスの背後にある慣れ親しんだ消費者を認識します。 （ベータ版では、Marketing Cloud Device Co-op の会員専用です）。 |
+| People | Experience Cloudソリューション内のアドビデータとアドビ以外のデータを結び付けることで、個々のお客様の包括的な表示を作成できます。 タッチポイントをまたがるやり取りの中で、ユーザーにとって最も重要な点を見つけ出します。 一般的でないデバイスから訪問した場合に、常連顧客を認識します。 さらに、ターゲットを絞ったマーケティング活動のために、オーディエンスをグループ化します。<br>[オーディエンス](audience-library/audience-library.md) — 様々なタイプの顧客をオーディエンスに分類して、Marketing Cloudソリューション全体でオーディエンスを共有します。<br>[顧客属性](attributes/attributes.md) - Marketing Cloudの外部で収集した顧客情報を結び付けるためのオーディエンスエンリッチメント。<br>[デバイスグラフ](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) — 世界で最も人気のあるブランドとのコラボレーションにより、一般的でないデバイスの背後にある慣れ親しんだ消費者を認識します。 （ベータ版では、Marketing Cloud Device Co-op の会員専用です）。 |
