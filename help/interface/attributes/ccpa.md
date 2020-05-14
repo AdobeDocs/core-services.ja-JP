@@ -2,7 +2,7 @@
 title: カリフォルニア消費者プライバシー法の顧客属性サポート
 description: カリフォルニア消費者プライバシー法の顧客属性サポート
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 5%
@@ -10,7 +10,7 @@ ht-degree: 5%
 ---
 
 
-# カリフォルニア州消費者プライバシー法の顧客属性サポート
+# カリフォルニア州消費者プライバシー法のサポート
 
 このページでは、 [!UICONTROL 顧客属性によるカリフォルニア消費者プライバシー法(CCPA)] のサポートについて説明します。
 
