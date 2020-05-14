@@ -4,10 +4,10 @@ user-guide-title: Experience Cloudインターフェイスユーザーガイド
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '375'
+ht-degree: 68%
 
 ---
 
@@ -70,6 +70,8 @@ ht-degree: 0%
    + [スキーマの検証](attributes/validate-schema.md)
    + [サブスクリプションの設定](attributes/subscription.md)
    + [スキーマの更新](attributes/t-update-schema.md)
+   + [全般的なデータ保護規制のサポート](attributes/gdpr.md)
+   + [カリフォルニア消費者プライバシー法の支援](attributes/ccpa.md)
    + [プライバシーに関する考慮事項 — 顧客属性](attributes/privacy-mac.md)
 + オファー管理 {#offer-management}
    + [オファー管理の概要](offer-management/getting-started.md)
