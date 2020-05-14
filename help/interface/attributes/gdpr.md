@@ -2,10 +2,10 @@
 title: 一般的なデータ保護規制に対する顧客属性のサポート
 description: 一般的なデータ保護規制に対する顧客属性のサポート
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '430'
+ht-degree: 1%
 
 ---
 
