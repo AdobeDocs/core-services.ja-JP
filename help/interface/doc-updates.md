@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: ドキュメントの更新 - Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 39e3b77f19020cffd1bc0218f120f306d676380b
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 70%
+source-wordcount: '251'
+ht-degree: 64%
 
 ---
 
@@ -18,6 +18,17 @@ ht-degree: 70%
 # ドキュメントの更新 - Experience Cloud
 
 Experience Cloud製品ドキュメントの更新に関する情報です。
+
+**更新日： 2020年5月19日**
+
+オファー管理に関するドキュメントが廃止されました。
+
+**更新日： 2020年5月15日**
+
+次のページを追加しました。
+
+* [全般的なデータ保護規制のサポート](attributes/gdpr.md)
+* [カリフォルニア消費者プライバシー法の支援](attributes/ccpa.md)
 
 **更新日： 2020年3月10日**
 
