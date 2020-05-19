@@ -4,10 +4,10 @@ user-guide-title: Experience Cloudインターフェイスユーザーガイド
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
+source-git-commit: 39e3b77f19020cffd1bc0218f120f306d676380b
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 65%
+source-wordcount: '361'
+ht-degree: 67%
 
 ---
 
@@ -73,13 +73,6 @@ ht-degree: 65%
    + [全般的なデータ保護規制のサポート](attributes/gdpr.md)
    + [カリフォルニア消費者プライバシー法の支援](attributes/ccpa.md)
    + [プライバシーに関する考慮事項 — 顧客属性](attributes/privacy-mac.md)
-+ オファー管理 {#offer-management}
-   + [オファー管理の概要](offer-management/getting-started.md)
-   + [オファー管理のワークフロー](offer-management/offer-management-workflow.md)
-   + [オファー](offer-management/offers.md)
-   + [ラベル](offer-management/labels.md)
-   + [配置](offer-management/placements.md)
-   + [Campaign](offer-management/campaign.md)
 + Experience Cloudのリリースノート {#release-notes}
    + [Experience Cloud の新機能](https://docs.adobe.com/content/help/ja-JP/release-notes/experience-cloud/current.html)
    + [累積リリースノート](marketing-cloud-interface/release-notes.md)
