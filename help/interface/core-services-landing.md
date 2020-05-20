@@ -6,10 +6,10 @@ solution: Experience Cloud
 title: Experience Cloudコアサービスについて
 index: true
 translation-type: tm+mt
-source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
+source-git-commit: a8dff138652b34c9532b87a4aae74f9d9f614580
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 29%
+source-wordcount: '511'
+ht-degree: 32%
 
 ---
 
@@ -34,7 +34,6 @@ Adobe Experience Platform は、企業全体のデータやコンテンツを一
 | [Experience Platform Launch](https://docs.adobe.com/content/help/ja-JP/launch/using/overview.html) | [!UICONTROL Experience Platform Launch は、アドビが提供する次世代タグ管理機能です。][!UICONTROL Experience Platform ] Launch は、顧客体験の実現に必要なすべての分析、マーケティングおよび広告のタグをデプロイおよび管理するためのシンプルな手段を提供します。 |
 | [ジャーニーオーケストレーション](https://docs.adobe.com/content/help/ja-JP/journeys/using/journey-orchestration-home.html) | イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築します。 [!UICONTROL Jeurney Orchestration] は、Experience Platformと統合されたアプリケーションサービスです。 |
 | [ロケーションサービス](https://docs.adobe.com/content/help/ja-JP/places/using/home.html) | Adobe [!UICONTROL Experience Platform Location Service] (Location Service)は、場所を認識するモバイルアプリで、豊富で使いやすいSDKインターフェイスを使用し、目標地点(POI)の柔軟なデータベースを利用して、場所のコンテキストを理解できる地域サービスです。 |
-| [オファー](offer-management/getting-started.md) | Experience Cloudのすべてのチャネルを対象にして、意思決定を行い、作成、管理を行います。 [!UICONTROL オファー管理] は、実施要件ルールと複数のコンテンツを各オファーの「オブジェクト」に関連付け、チャネルと場所にこれらのオファーを公開し、各インタラクションで各顧客に最適なオファーを提供できる中央オファーカタログの役割を果たします。 |
 | [Exchange](exchange.md) | アプリを介して、Digital Marketing の機能強化の検索、参照、選択、支払いおよびダウンロードをおこないます。 |
 | [Mobile Services](https://docs.adobe.com/content/help/ja-JP/mobile-services/using/home.html) | Adobe Mobile Services により、モバイルアプリ用の各ソリューションが Experience Cloud 上で統合されます。これにより、アプリの利用状況を把握し、改善につなげることができます。 |
 | People | Experience Cloudソリューション内のアドビデータとアドビ以外のデータを結び付けることで、個々のお客様の包括的な表示を作成できます。 タッチポイントをまたがるやり取りの中で、ユーザーにとって最も重要な点を見つけ出します。 一般的でないデバイスから訪問した場合に、常連顧客を認識します。 さらに、ターゲットを絞ったマーケティング活動のために、オーディエンスをグループ化します。<br>[オーディエンス](audience-library/audience-library.md) — 様々なタイプの顧客をオーディエンスに分類して、Marketing Cloudソリューション全体でオーディエンスを共有します。<br>[顧客属性](attributes/attributes.md) - Marketing Cloudの外部で収集した顧客情報を結び付けるためのオーディエンスエンリッチメント。<br>[デバイスグラフ](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) — 世界で最も人気のあるブランドとのコラボレーションにより、一般的でないデバイスの背後にある慣れ親しんだ消費者を認識します。 （ベータ版では、Marketing Cloud Device Co-op の会員専用です）。 |
