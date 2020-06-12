@@ -1,8 +1,8 @@
 ---
-description: Adobe Experience Cloudのセルフヘルプ、製品ドキュメントおよび技術ドキュメント。 Experience Cloudは、アドビのデジタルマーケティングソリューションおよびサービスの統合ファミリーです。
+description: Adobe Experience Cloud のセルフヘルプ、製品ドキュメント、技術ドキュメントです。Experience Cloud には、アドビが提供するデジタルマーケティングソリューションおよびサービスが統合されています。
 keywords: core services
-seo-description: このページには、Experience Cloudのセルフヘルプ、製品ドキュメントおよび技術ドキュメントが含まれています。
-seo-title: Adobe Experience Cloudおよびコアサービスのヘルプと製品ドキュメント。
+seo-description: このページには、Experience Cloud のセルフヘルプ、製品ドキュメント、技術ドキュメントが含まれています。
+seo-title: Adobe Experience Cloud およびコアサービスのヘルプと製品ドキュメントです。
 solution: Adobe Experience Cloud
 title: Experience Cloud とコアサービスのヘルプ
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: f3d200aede4ca1739c727d799cfdece40bd24a87
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 46%
+ht-degree: 99%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 46%
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-このページには、Adobe Experience Cloudのソリューションおよびサービスに関するセルフヘルプ、サポート、および技術および製品ドキュメントが含まれています。 Experience Cloudは、アドビのデジタルマーケティングソリューションおよびサービスの統合ファミリーです。 また、クラウドソリューションやコアサービスに素早くアクセスできる直感的なインターフェイスでもあります。
+このページには、Adobe Experience Cloud ソリューションおよびサービスのセルフヘルプ、サポート、技術および製品ドキュメントが含まれています。Experience Cloud には、アドビが提供するデジタルマーケティングソリューションおよびサービスが統合されています。また、Experience Cloud は、クラウドソリューションやコアサービスにすばやくアクセスできる直感的なインターフェイスでもあります。
 
-## 何を学びたい？
+## 学習リソース
 
-* [すべてのExperience Cloudソリューションの製品ドキュメント](https://docs.adobe.com/content/help/ja-JP/experience-cloud/user-guides/home.html) - Experience Cloudラーニングとサポートでヘルプを参照
-* [リリースノートと製品のアップデート](https://docs.adobe.com/content/help/ja-JP/release-notes/experience-cloud/current.html) - Experience Cloudの新機能および購読してアップデートを入手
-* [コアサービスの実装に関するチュートリアル](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) — コアサービスに関するビデオおよびチュートリアルの参照
-* [Experience Leagueのエキスパートヘルプ](https://landing.adobe.com/experience-league/) — 専門家やコミュニティからガイド付きの学習を受ける
-* [教育とトレーニング](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK) — アドビの製品を最大限に活用するためにアドビと連携
-* [Customer Experience Blog](https://theblog.adobe.com/customer-experience/) - Experience Cloudのブログを読む
-* [カスタマーケア](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html) — アドビカスタマーケアへのお問い合わせ
+* [すべての Experience Cloud ソリューションの製品ドキュメント](https://docs.adobe.com/content/help/ja-JP/experience-cloud/user-guides/home.html) - Experience Cloud のラーニングとサポートでヘルプを参照する
+* [リリースノートと製品アップデート](https://docs.adobe.com/content/help/ja-JP/release-notes/experience-cloud/current.html) - Experience Cloud の新機能を参照およびサブスクリプションでアップデートを入手する
+* [コアサービスの実装に関するチュートリアル](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) - コアサービスに関するビデオやチュートリアルを参照する
+* [Experience League で提供されるエキスパートヘルプ](https://landing.adobe.com/experience-league/) - 専門家やコミュニティからガイド付きの指導を受ける
+* [教育とトレーニング](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK) - アドビと連携してアドビ製品を最大限に活用する
+* [エクスペリエンスブログ](https://theblog.adobe.com/customer-experience/) - Experience Cloud のブログを読む
+* [カスタマーケア](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html) - アドビカスタマーケアに問い合わせる
 
 ## Experience Platform 製品ドキュメント
 
@@ -48,11 +48,11 @@ ht-degree: 46%
 ## 管理と有効化
 
 * [ユーザーおよび製品の管理](admin-getting-started/admin-getting-started.md)（Admin Console）
-* [コアサービス向けにソリューションを有効化](core-services/core-services.md)
+* [ソリューションのコアサービスへの対応](core-services/core-services.md)
 * [よくある質問](admin-getting-started/admin-getting-started.md)
 * [組織とアカウントのリンク](admin-getting-started/organizations.md)
 * [統合](marketing-cloud-integrations.md)
-* [AdobeターゲットとExperience Cloudの統合](https://docs.adobe.com/content/help/ja-JP/target/using/integrate/a4t/a4t.html)
+* [Adobe Target と Experience Cloud の統合](https://docs.adobe.com/content/help/ja-JP/target/using/integrate/a4t/a4t.html)
 * [Experience Cloud のプライバシーとセキュリティの概要](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
-* [Adobe Experience Cloud](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/) （ブログ）のプロファイル管理
+* [Adobe Experience Cloud でのプロファイル管理](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/)（ブログ）
 * [DNS プリフェッチ](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
