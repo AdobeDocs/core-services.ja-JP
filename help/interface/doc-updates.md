@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: 39e3b77f19020cffd1bc0218f120f306d676380b
 workflow-type: tm+mt
 source-wordcount: '251'
-ht-degree: 64%
+ht-degree: 84%
 
 ---
 
 
 # ドキュメントの更新 - Experience Cloud
 
-Experience Cloud製品ドキュメントの更新に関する情報です。
+Experience Cloud 製品ドキュメントの更新に関する情報です。
 
 **更新日： 2020年5月19日**
 
@@ -30,13 +30,13 @@ Experience Cloud製品ドキュメントの更新に関する情報です。
 * [全般的なデータ保護規制のサポート](attributes/gdpr.md)
 * [カリフォルニア消費者プライバシー法の支援](attributes/ccpa.md)
 
-**更新日： 2020年3月10日**
+**更新：2020 年 3 月 11 日**
 
-ファーストパーティcookieの [「ホスト名の転送の](cookies/cookies-first-party.md#validate) 検証」の節を更新しました。
+ファーストパーティ cookie の節の[ホスト名転送の検証](cookies/cookies-first-party.md#validate)を更新しました。
 
-**更新日： 2020年2月20日**
+**更新：2020 年 2 月 21 日**
 
-Experience Cloudユーザーの詳細（管理ツール）を [表示に追加しました](admin-getting-started/admin-tool-experience-cloud.md)。
+[Experience Cloud ユーザーの詳細の表示（管理ツール）](admin-getting-started/admin-tool-experience-cloud.md)を追加しました。
 
 **更新：2018 年 9 月 6 日**
 
@@ -56,7 +56,7 @@ Updated [About data file and data sources for Customer Attributes](attributes/cr
 
 **更新：2018 年 1 月 18 日**
 
-再構成とリンクの更新
+再構成とリンクの更新。
 
 **更新：2017 年 12 月 30 日**
 
@@ -84,11 +84,11 @@ Updated [About data file and data sources for Customer Attributes](attributes/cr
 
 **更新：2015 年 3 月 3 日**
 
-「[コアサービス向けにソリューションを有効化](core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)」を追加しました。
+「[ソリューションのコアサービスへの対応](core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)」を追加しました。
 
 **更新：2015 年 1 月 16 日**
 
-Experience Cloudのユーザーは、Creative Cloudとフォルダーを共有し、アセットとコメントを2つのクラウド間で同期できるようになりました。 詳しくは、 [アセットの共有を参照してください](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68)。
+「Experience Cloud のユーザーは、Creative Cloud とフォルダーを共有して、アセットとコメントを相互に同期できるようになりました。」という記述を追加しました。[アセットの共有](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68)を参照してください。
 
 **更新：2014 年 7 月 18 日**
 
