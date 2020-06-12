@@ -1,6 +1,6 @@
 ---
 audience: end-user
-user-guide-title: Experience Cloudインターフェイスユーザーガイド
+user-guide-title: Experience Cloud インターフェイスユーザーガイド
 user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services.
 user-guide-url: https://www.adobe.com
 index: true
@@ -8,48 +8,48 @@ translation-type: tm+mt
 source-git-commit: 7a3a14fa8572444513dd0ac4753431f3c33245f0
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 67%
+ht-degree: 88%
 
 ---
 
 
 # コアサービスユーザーガイド {#interface}
 
-+ [Experience Cloudと製品ドキュメント](experience-cloud.md)
-+ Experience Cloudのコアサービス {#about-core-services}
++ [Experience Cloud および製品ドキュメント](experience-cloud.md)
++ Experience Cloud のコアサービス {#about-core-services}
    + [コアサービスの概要](core-services-landing.md)
-   + [コアサービス向けにソリューションを有効化](core-services/core-services.md)
+   + [ソリューションのコアサービスへの対応](core-services/core-services.md)
    + [組織へのレポートスイートのマッピング](core-services/report-suite-mapping.md)
    + [Experience Cloud の新しいクラウド名について](solutions-core-services.md)
 + [Experience Cloud の統合](marketing-cloud-integrations.md)
 + Experience Cloud の cookie {#ec-cookies}
-   + [Experience Cloud cookieの概要](cookies/cookies-privacy.md)
-   + [Experience Cloudのファーストパーティcookie](cookies/cookies-first-party.md)
+   + [Experience Cloud の cookie の概要](cookies/cookies-privacy.md)
+   + [Experience Cloud のファーストパーティ cookie](cookies/cookies-first-party.md)
    + [Analytics の cookie](cookies/cookies-analytics.md)
    + [Audience Manager の cookie](cookies/cookies-am.md)
-   + [Data Connectors の cookie](cookies/cookies-dc.md)
-   + [Data Workbench の cookie](cookies/cookies-insight.md)
+   + [[!UICONTROL Data Connectors] の cookie](cookies/cookies-dc.md)
+   + [[!UICONTROL Data Workbench] の cookie](cookies/cookies-insight.md)
    + [Experience Cloud の cookie](cookies/cookies-mc.md)
    + [Advertising Cloud の cookie](cookies/cookies-advertising-cloud.md)
-   + [[!DNL Scene7] cookie](cookies/cookies-s7.md)
-   + [[!DNL Search and Promote] cookie](cookies/cookies-snp.md)
-   + [[!DNL Target] cookie](cookies/cookies-target.md)
+   + [[!DNL Scene7] cookies](cookies/cookies-s7.md)
+   + [[!DNL Search and Promote] cookies](cookies/cookies-snp.md)
+   + [[!DNL Target] cookies](cookies/cookies-target.md)
    + [ブラウザー cookie のプライバシー設定の有効化](cookies/browser-cookie-settings.md)
-   + [サードパーティcookieのサポートに対する変更が顧客に与える影響](cookies/cookies-thirdparty.md)
+   + [サードパーティ cookie のサポートに対する変更がお客様に及ぼす影響](cookies/cookies-thirdparty.md)
 + ユーザーおよび製品の管理 {#manage-users-and-products}
-   + [Experience CloudユーザーIDと製品の管理（管理コンソール）](admin-getting-started/admin-getting-started.md)
-   + [表示Experience Cloudユーザーの詳細（管理ツール）](admin-getting-started/admin-tool-experience-cloud.md)
+   + [Experience Cloud ユーザー ID および製品の管理（Admin Console）](admin-getting-started/admin-getting-started.md)
+   + [Experience Cloud ユーザーの詳細の表示（管理ツール）](admin-getting-started/admin-tool-experience-cloud.md)
    + [よくある質問](admin-getting-started/faq.md)
    + [ログインとプロファイル設定の管理](admin-getting-started/getting-started-experience-cloud.md)
    + [組織とアカウントのリンク](admin-getting-started/organizations.md)
    + [Analytics Premium および Experience Cloud へのアップグレード](admin-getting-started/upgrade-to-analytics-premium.md)
-+ Experience Cloudアクティベーション {#activation}
++ Experience Cloud のアクティベーション {#activation}
    + [Activation の概要](activation/activation.md)
    + [Launch ユーザーガイド](https://docs.adobe.com/content/help/ja-JP/launch/using/overview.html)
-   + [Dynamic Tag Managerユーザーガイド](https://docs.adobe.com/content/help/ja-JP/dtm/using/dtm-home.html)
+   + [Dynamic Tag Manager ユーザーガイド](https://docs.adobe.com/content/help/ja-JP/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
-+ Experience Cloud assets {#assets}
-   + [Experience Cloudアセットの概要](experience-cloud-assets/experience-cloud-assets.md)
++ Experience Cloud Assets {#assets}
+   + [Experience Cloud Assets の概要](experience-cloud-assets/experience-cloud-assets.md)
    + [Experience Cloud フォルダーおよびアセットの Creative Cloud との共有](experience-cloud-assets/creative-cloud.md)
    + [Creative Cloud ユーザーの管理](experience-cloud-assets/t-admin-add-cc-user.md)
    + [Experience Cloud アセットフォルダーの共有](experience-cloud-assets/t-share-creative-cloud.md)
@@ -58,11 +58,11 @@ ht-degree: 67%
    + [共有フォルダーの同期の無効化](experience-cloud-assets/t-disable-asset-sync.md)
    + [アセットファイルを共有するための要件](experience-cloud-assets/assets-file-reqs.md)
    + [共有フォルダーの動作](experience-cloud-assets/asset-behavior.md)
-+ Experience Cloudのオーディエンス {#audiences}
++ Experience Cloud のオーディエンス {#audiences}
    + [オーディエンスの概要](audience-library/audience-library.md)
    + [オーディエンスの作成](audience-library/t-audience-create.md)
    + [Analytics オーディエンスセグメントの公開](audience-library/t-publish-audience-segment.md)
-+ Experience Cloudの顧客属性 {#customer-attributes}
++ Customer Attributes in Experience Cloud {#customer-attributes}
    + [顧客属性の概要](attributes/attributes.md)
    + [よくある質問、制限事項、ベストプラクティス](attributes/faq-crs.md)
    + [顧客属性のデータファイルおよびデータソースについて](attributes/crs-data-file.md)
@@ -74,7 +74,7 @@ ht-degree: 67%
    + [全般的なデータ保護規制のサポート](attributes/gdpr.md)
    + [カリフォルニア消費者プライバシー法の支援](attributes/ccpa.md)
    + [プライバシーに関する考慮事項 — 顧客属性](attributes/privacy-mac.md)
-+ Experience Cloudのリリースノート {#release-notes}
++ Experience Cloud のリリースノート {#release-notes}
    + [Experience Cloud の新機能](https://docs.adobe.com/content/help/ja-JP/release-notes/experience-cloud/current.html)
    + [累積リリースノート](marketing-cloud-interface/release-notes.md)
 + [Exchange Marketplace](exchange.md)
