@@ -6,8 +6,11 @@ seo-title: 組織とアカウントのリンク
 solution: Marketing Cloud
 title: 組織とアカウントのリンク
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+workflow-type: ht
+source-wordcount: '399'
+ht-degree: 100%
 
 ---
 
@@ -18,9 +21,9 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ## 組織を特定する {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
-** 組織は、管理者がグループおよびユーザーの設定や、Experience Cloud でのシングルサインオンの制御をおこなえるエンティティです。組織は、すべての Experience Cloud 製品およびソリューションをまたいだログイン会社のように機能します。ほとんどの場合、組織は会社名です。 ただし、1つの会社には多くの組織が含まれます。
+*組織は*、管理者がグループおよびユーザーの設定や、Experience Cloud でのシングルサインオンの制御をおこなえるエンティティです。組織は、すべての Experience Cloud 製品およびソリューションをまたいだログイン会社のように機能します。ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。
 
-また、サポートのために組織IDを探す必要がある場合もあります。 **[!UICONTROL 組織]**&#x200B;メニューを使用して、自分が正しい組織に属していることを確認したり、組織を切り替えたりできます。
+また、サポートを受けるために組織 ID を特定することが必要になる場合もあります。**[!UICONTROL 組織]**&#x200B;メニューを使用して、自分が正しい組織に属していることを確認したり、組織を切り替えたりできます。
 
 ![手順の結果](assets/organization-switch.png)
 
@@ -34,7 +37,7 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ## ソリューションアカウントを Adobe ID にリンクする {#task_FD389E78640848919E247AC5E95B8369}
 
-通常、Experience Cloud管理者はソリューションおよびサービスへのアクセスを付与します。 まれに、ソリューションの資格情報をAdobe IDにリンクする必要がある場合があります。
+通常は、Experience Cloud 管理者がソリューションやサービスへのアクセス権を付与します。まれに、ソリューションの資格情報を Adobe ID にリンクすることが必要になる場合があります。
 
 1. Experience Cloud への招待メールに記載されている手順に従います。
 1. Adobe ID または Enterprise ID を使用してログインします。
@@ -64,9 +67,9 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ## アカウントのリンクに関する問題のトラブルシューティング {#concept_DFCB29A3B4834FC59AA29E0BBA301584}
 
-アカウントのリンクに起因する問題に関するヘルプ。
+アカウントのリンクに起因する問題に関するヘルプです。
 
-通常、アカウントのリンクは失敗します。これは、Adobe IDが以前のユーザーにリンクされているためです。 アカウントのリンクに失敗した場合は、
+一般的に、アカウントのリンクは、Adobe ID が以前のユーザーにリンクされていることが原因で失敗します。アカウントのリンクに失敗した場合は、
 
-* [アドビサポートにお問い合わせ](https://helpx.adobe.com/marketing-cloud/contact-support.html)。
-* 問題の解決前でも、標準ログインを使用してソリューションにアクセスする。
+* [アドビサポートにお問い合わせ](https://helpx.adobe.com/jp/marketing-cloud/contact-support.html)ください。
+* 問題の解決前でも、標準ログインを使用してソリューションにアクセスできます。
