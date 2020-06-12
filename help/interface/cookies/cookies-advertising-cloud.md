@@ -4,8 +4,11 @@ seo-description: Advertising Cloud では、広告エンゲージメントイベ
 seo-title: Advertising Cloud の cookie
 title: Advertising Cloud の cookie
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d7d1a659bbdbc7a4221243d88410492351ab9055
+workflow-type: ht
+source-wordcount: '544'
+ht-degree: 100%
 
 ---
 
@@ -92,7 +95,7 @@ Advertising Cloud では、広告エンゲージメントイベントをコン�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>保存される情報 </p> </td> 
-   <td colname="col2"> <p>広告主のWebサイトへのサーファーの最後の訪問のタイムスタンプ、およびユーザーが広告をクリックしたときに作成されたef_id</p> </td> 
+   <td colname="col2"> <p>広告主の Web サイトへのサーファーの最後の訪問のタイムスタンプ、サーファーの最後の検索クリックのタイムスタンプ、ユーザーが広告をクリックした際に作成された ef_id</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>有効期限 </p> </td> 
