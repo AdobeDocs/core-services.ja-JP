@@ -4,11 +4,11 @@ seo-description: 1 つまたは複数のレポートスイートを組織にマ�
 seo-title: 組織へのレポートスイートのマッピング
 title: 組織へのレポートスイートのマッピング
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: ht
-source-git-commit: 08e8e5fea4e4e64a195ebe25ae3ef19e849cabc5
-workflow-type: ht
-source-wordcount: '1154'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
+workflow-type: tm+mt
+source-wordcount: '1174'
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ Experience Cloud サービス（Experience Cloud ID サービスや [!UICONTROL 
 
 ## 組織へのレポートスイートのマッピング {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. **[!UICONTROL Experience Cloud]**／**[!UICONTROL 管理]**／**[!UICONTROL レポートスイートマッピング]**&#x200B;をクリックします。
+1. 「Report Suites for Data Governance」( [!DNL Analytics] / **[!UICONTROL 管理者]** / **** Data Governance [)に移動します(「表示/Manage Report Suite&#39;s Data Governance Setting」を参照)。](https://docs.adobe.com/help/en/analytics/admin/data-governance/gdpr-view-settings.html)
 
 1. 各レポートスイートにアクセスできるログイン会社を確認するには、「**[!UICONTROL 表示可能なログイン会社名]**」をクリックします。
 
