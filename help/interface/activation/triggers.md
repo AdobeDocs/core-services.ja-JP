@@ -7,10 +7,10 @@ solution: Marketing Cloud
 title: Triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 translation-type: tm+mt
-source-git-commit: fb03bf89bcc6ed4438daf18c8415de3052ba8fa4
+source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 96%
+source-wordcount: '668'
+ht-degree: 94%
 
 ---
 
@@ -61,7 +61,7 @@ Triggers を使用すると、主な消費者行動を識別、定義および�
    | この次に新しいセッションを開始 | セッション開始およびセッション終了イベントのトリガーを作成します。 |
 
 5. 「**[!UICONTROL 保存]**」をクリックします。
-6. [!DNL Adobe Campaign] でトリガーを[リアルタイムリマーケティング](https://helpx.adobe.com/jp/support/campaign/standard.html)に使用します。
+6. [!DNL Adobe Campaign] でトリガーを[リアルタイムリマーケティング](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html)に使用します。
 
 ### トリガーの例
 
