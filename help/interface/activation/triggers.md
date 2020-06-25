@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -37,14 +37,14 @@ Triggers を使用すると、主な消費者行動を識別、定義および�
 
 ## Experience Cloud のトリガーの作成 {#task_821F37183AC045E5AC8EED20317598FE}
 
-トリガーを作成し、トリガーの条件を設定します。 例えば、買い物かごの放棄のような指標や製品名のようなディメンションなど、訪問中のトリガーのルールに対する条件を指定できます。ルールを満たすと、トリガーが実行されます。
+トリガーを作成し、トリガーの条件を設定します。例えば、買い物かごの放棄のような指標や製品名のようなディメンションなど、訪問中のトリガーのルールに対する条件を指定できます。ルールを満たすと、トリガーが実行されます。
 
 >[!NOTE]
 >
 >現在、100 トリガーまでという技術的な制限があります。
 
-1. In the Experience Cloud, click ![](assets/menu-icon.png), then click **[!UICONTROL Launch]**.
-2. Locate the [!UICONTROL Triggers] card, then click **[!UICONTROL Manage Triggers]**.
+1. Experience Cloud で ![](assets/menu-icon.png) をクリックし、「**[!UICONTROL Launch]**」をクリックします。
+2. [!UICONTROL Triggers] カードを探し、「**[!UICONTROL トリガーを管理]**」をクリックします。
 3. 「**[!UICONTROL 新しいトリガー]**」をクリックして、トリガーのタイプを指定します。
 
    ![手順の結果](assets/add-trigger.png)
@@ -55,7 +55,7 @@ Triggers を使用すると、主な消費者行動を識別、定義および�
    |--- |--- |
    | 名前 | このトリガーのわかりやすい名前。 |
    | 説明 | このトリガーの説明、使い方など。 |
-   | レポートスイート | このトリガーに使用する Analytics [レポートスイート](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/analytics-basics/ref-reports-report-suites.html)。この設定は、使用するレポートデータを特定します。 |
+   | レポートスイート | このトリガーに使用する Analytics [レポートスイート](https://docs.adobe.com/content/help/ja-JP/analytics/admin/manage-report-suites/report-suites-admin.html)。この設定は、使用するレポートデータを特定します。 |
    | 訪問には次を含める必要があります<br>訪問に次を含めることはできません<br>次のアクションがなかった後のトリガー<br>含めるメタデータ | 条件または発生してほしい訪問者の行動、および発生してほしくない行動を定義できます。例えば、シンプルな買い物かご放棄トリガーのルールは、次のようになります。<ul><li>訪問には次を含める必要があります：買い物かごへの追加（指標）と存在（特定の製品の表示またはブラウザータイプなどのディメンションでルールをさらに洗練させることができます）。</li><li>訪問に次を含めることはできません：チェックアウト。</li><li>次のアクションがなかった後のトリガー：10 分。</li><li>含めるメタデータ：訪問者の行動に関連する特定のキャンペーンディメンションまたは変数を追加できます。このフィールドは、Adobe Campaign で適切なリマーケティング電子メールを構築するのに便利です。</li></ul><br>ルールにとって重要な条件に応じて、コンテナ内またはコンテナ間で「ANY」、「AND」または「OR」論理を指定できます。 |
    | コンテナ | コンテナは、トリガーを定義するルール、条件またはフィルターを設定および保存する場所です。同時にイベントを発生させたい場合、イベントを同じコンテナに配置します。つまり、各コンテナは、ヒットレベルで別々に処理されます。例えば、2 つのコンテナが AND 演算子で結合されている場合、2 つのヒットが要件を満たすタイミングを満たすルールを期待できます。 |
    | この次に新しいセッションを開始 | セッション開始およびセッション終了イベントのトリガーを作成します。 |
