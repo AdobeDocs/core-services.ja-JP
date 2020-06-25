@@ -5,15 +5,19 @@ seo-title: 組織へのレポートスイートのマッピング
 title: 組織へのレポートスイートのマッピング
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
+source-git-commit: 5d987d60a462457afab6c1935095c7ea948b4d65
 workflow-type: tm+mt
-source-wordcount: '1174'
-ht-degree: 97%
+source-wordcount: '1201'
+ht-degree: 95%
 
 ---
 
 
 # 組織へのレポートスイートのマッピング {#topic_7C4740559EAC4E0FA5F8DEF886B580DA}
+
+>[!NOTE]
+>
+>レポートスイートのマッピング機能は、2020年11月に廃止されます。 未処理のレポートスイートは、>準備の中でマッピングしてください。 ご質問があれば、ClientCareにお問い合わせください。
 
 1 つまたは複数のレポートスイートを組織にマッピングする方法について説明します。
 
