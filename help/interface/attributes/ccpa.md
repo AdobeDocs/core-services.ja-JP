@@ -1,72 +1,73 @@
 ---
-title: カリフォルニア消費者プライバシー法の顧客属性サポート
-description: カリフォルニア消費者プライバシー法の顧客属性サポート
-translation-type: tm+mt
+title: カリフォルニア州消費者プライバシー法に対する顧客属性のサポート
+description: カリフォルニア州消費者プライバシー法に対する顧客属性のサポート
+translation-type: ht
 source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
 
-# カリフォルニア州消費者プライバシー法のサポート
+# カリフォルニア州消費者プライバシー法に対する顧客属性のサポート
 
-このページでは、 [!UICONTROL 顧客属性によるカリフォルニア消費者プライバシー法(CCPA)] のサポートについて説明します。
+このページでは、カリフォルニア州消費者プライバシー法（CCPA）に対する[!UICONTROL 顧客属性]のサポートについて説明します。
 
 >[!IMPORTANT]
 >
->このドキュメントの内容は法的な助言ではなく、その代用になるものでもありません。(CCPA)に関するアドバイスについては、弁護士に相談してください。
+>このドキュメントの内容は法的な助言ではなく、その代用になるものでもありません。（CCPA）に関するアドバイスについては、弁護士に相談してください。
 
-CCPAはカリフォルニア州の新しいプライバシー法で、2020年1月1日から有効です。 CCPAは、カリフォルニア州の居住者に対して個人情報に関する新しい権利を提供し、カリフォルニア州でビジネスを行う特定の企業に対してデータ保護の責任を負います。 CCPAは、顧客に対して、個人情報にアクセスしたり削除したりする権利と、第三者に対して個人情報を「販売」すオプトアウトると認められる特定のアクティビティに対する権利を提供します。
+CCPA は 2020 年 1 月 1 日に発効する、カリフォルニア州の新しいプライバシー法です。CCPA は、カリフォルニア州の住民に対して個人情報に関する新しい権利を提供し、カリフォルニア州で事業をおこなう特定の法人に対してはデータ保護の責任を課します。CCPA は消費者に対し、自身の個人情報にアクセスする権利やそれらを削除する権利、および第三者への個人の情報の「売却」にあたる特定の活動をオプトアウトする権利を提供します。
 
-ビジネスの場合、Adobe Experience Cloudが処理し、お客様に代わって保存する個人データを決定します。
+お客様は企業として、Adobe Experience Cloud に処理および保管を委任する個人データを決定します。
 
-Adobe Experience Cloudは、個人サービスプロバイダーへのアクセスと削除の要求の管理など、Experience Cloudの製品とサービスの使用に適用されるCCPAに基づく義務を満たすためのサポートをお客様のビジネスに提供します。
+Adobe Experience Cloud はお客様のサービスプロバイダーとして、Experience Cloud の製品とサービスの使用に適用される、CCPA におけるお客様の義務（個人情報へのアクセスリクエストおよび個人情報の削除リクエストの管理を含む）をお客様が果たせるようサポートを提供します。
 
-このドキュメントでは、 [!UICONTROL 顧客属性] (Customer Attributes)が、Adobe Experience Platform Privacy Service APIとPrivacy Service UIを使用して、データサブジェクトのCCPAデータアクセスおよび削除権限をどのようにサポートするかを説明します。
+このドキュメントでは、[!UICONTROL 顧客属性]が、Adobe Experience Platform Privacy Service API と Privacy Service UI を使用して、データ主体の CCPA データアクセスおよび削除権をどのようにサポートするかについて説明します。
 
-CCPAのアドビプライバシーサービスについて詳しくは、アドビプライバシーセンターを参照して [ください](https://www.adobe.com/privacy/ccpa.html)。
+CCPA のアドビプライバシーサービスについて詳しくは、[アドビプライバシーセンター](https://www.adobe.com/privacy/ccpa.html)を参照してください。
 
-## [!UICONTROL 顧客属性の要求を送信するために必要な設定]
+## [!UICONTROL 顧客属性]のリクエストを送信するために必要な設定
 
-顧客属性のデータへのアクセスおよび削除をリクエストするに [!UICONTROL は]、次の操作が必要です。
+[!UICONTROL 顧客属性]のデータへのアクセスおよび削除をリクエストするには、次の操作が必要です。
 
 1. 以下を特定します。
 
    * IMS Org ID
-   * 操作するCRSデータソースのエイリアスID
-   * アクションを実行するプロファイルのCRM ID
-   IMS組織IDは、24文字の英数字と共に使用される文字列で、その後に@AdobeOrgが付加されます。 マーケティングチームまたはアドビの内部システム管理者が組織のIMS組織IDを知らない場合は、アドビカスタマーケア(gdprsupport@adobe.com)にお問い合わせください。 プライバシーAPIにリクエストを送信するには、IMS組織IDが必要です。
+   * 操作する CRS データソースのエイリアス ID
+   * アクションを実行するプロファイルの CRM ID
 
-1. プ [!UICONTROL ライバシーサービスで]、顧客属性にアクセスおよび削除のリクエストを送信し、既存のリクエストのステータスを確認できます。
+   IMS Org ID は、24 文字の英数字と共に使用される文字列で、末尾に @AdobeOrg が付きます。マーケティングチームまたはアドビの内部システム管理者が組織の IMS Org ID を把握していない場合は、アドビカスタマーケア（gdprsupport@adobe.com）にお問い合わせください。プライバシー API にリクエストを送信するには、IMS Org ID が必要です。
 
-## [!UICONTROL 顧客属性] JSONリクエストの必須フィールド値
+1. [!UICONTROL プライバシーサービス]で、顧客属性にアクセスおよび削除のリクエストを送信し、既存のリクエストのステータスを確認できます。
 
-&quot;会社コンテキスト&quot;:
+## [!UICONTROL 顧客属性] JSON リクエストの必須フィールド値
 
-* &quot;名前空間&quot;: **imsOrgID**
-* &quot;value”: &lt;*your IMS Org ID value*>
+&quot;company context&quot;：
+
+* &quot;namespace&quot;：**imsOrgID**
+* &quot;value&quot;：&lt;*お客様の IMS Org ID 値*>
 
 &quot;users&quot;:
 
-* &quot;key&quot;: &lt;*通常はお客様の名前*>
+* &quot;key&quot;：&lt;*通常はお客様の名前*>
 
-* &quot;action&quot;: **アクセス** または **削除**
+* &quot;action&quot;：**access** または **delete** のいずれか
 
-* &quot;user IDs&quot;:
+* &quot;user IDs&quot;：
 
-   * &quot;名前空間&quot;: &lt;*Alias ID of CRS Data Source*>
+   * &quot;namespace&quot;：&lt;*CRS データソースのエイリアス ID*>
 
-   * &quot;type&quot;: **integrationCode**
+   * &quot;type&quot;：**integrationCode**
 
-   * &quot;value”: &lt;*CRM ID*>
+   * &quot;value&quot;：&lt;*CRM ID*>
 
-* &quot;include&quot;: **CRS** （リクエストに適用されるAdobe製品）
+* &quot;include&quot;：**CRS**（リクエストに適用されるアドビ製品）
 
-* &quot;regulation&quot;: **ccpa** （リクエストに適用されるプライバシー規則）
+* &quot;regulation&quot;：**ccpa**（リクエストに適用されるプライバシー規則）
 
-## JSONリクエストの例
+## JSON リクエストの例
 
 ```
 {
@@ -98,7 +99,7 @@ CCPAのアドビプライバシーサービスについて詳しくは、アド�
 }
 ```
 
-## アクセス要求に対して返されるデータフィールド
+## アクセスリクエストに対して返されるデータフィールド
 
 ```
 attributes:
