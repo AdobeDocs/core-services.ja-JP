@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 323e562d41daa547d488497116cd5ffa783f6426
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 87%
    + [オーディエンスの概要](audience-library/audience-library.md)
    + [オーディエンスの作成](audience-library/t-audience-create.md)
    + [Analytics オーディエンスセグメントの公開](audience-library/t-publish-audience-segment.md)
-+ Customer Attributes in Experience Cloud {#customer-attributes}
++ Experience Cloud の顧客属性 {#customer-attributes}
    + [顧客属性の概要](attributes/attributes.md)
    + [よくある質問、制限事項、ベストプラクティス](attributes/faq-crs.md)
    + [顧客属性のデータファイルおよびデータソースについて](attributes/crs-data-file.md)
@@ -70,9 +70,9 @@ ht-degree: 87%
    + [スキーマの検証](attributes/validate-schema.md)
    + [サブスクリプションの設定](attributes/subscription.md)
    + [スキーマの更新](attributes/t-update-schema.md)
-   + [全般的なデータ保護規制のサポート](attributes/gdpr.md)
-   + [カリフォルニア消費者プライバシー法の支援](attributes/ccpa.md)
-   + [プライバシーに関する考慮事項 — 顧客属性](attributes/privacy-mac.md)
+   + [EU 一般データ保護規則のサポート](attributes/gdpr.md)
+   + [カリフォルニア消費者プライバシー法のサポート](attributes/ccpa.md)
+   + [プライバシーに関する配慮 - 顧客属性](attributes/privacy-mac.md)
 + Experience Cloud のリリースノート {#release-notes}
    + [Experience Cloud の新機能](https://docs.adobe.com/content/help/ja-JP/release-notes/experience-cloud/current.html)
    + [累積リリースノート](marketing-cloud-interface/release-notes.md)
