@@ -5,10 +5,10 @@ user-guide-description: Adobe Experience Cloud services include the People (Audi
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 7a3a14fa8572444513dd0ac4753431f3c33245f0
+source-git-commit: 323e562d41daa547d488497116cd5ffa783f6426
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 88%
+source-wordcount: '356'
+ht-degree: 87%
 
 ---
 
@@ -55,7 +55,6 @@ ht-degree: 88%
    + [Experience Cloud アセットフォルダーの共有](experience-cloud-assets/t-share-creative-cloud.md)
    + [Creative Cloud ブラウザーから共有フォルダーにアセットをアップロード](experience-cloud-assets/t-upload-asset-cc.md)
    + [Creative Cloud デスクトップから共有フォルダーにアセットをアップロード](experience-cloud-assets/t-cc-asset-upload-thor.md)
-   + [共有フォルダーの同期の無効化](experience-cloud-assets/t-disable-asset-sync.md)
    + [アセットファイルを共有するための要件](experience-cloud-assets/assets-file-reqs.md)
    + [共有フォルダーの動作](experience-cloud-assets/asset-behavior.md)
 + Experience Cloud のオーディエンス {#audiences}
