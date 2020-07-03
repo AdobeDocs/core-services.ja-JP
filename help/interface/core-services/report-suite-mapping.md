@@ -4,11 +4,11 @@ seo-description: 1 つまたは複数のレポートスイートを組織にマ�
 seo-title: 組織へのレポートスイートのマッピング
 title: 組織へのレポートスイートのマッピング
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d987d60a462457afab6c1935095c7ea948b4d65
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1201'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->レポートスイートのマッピング機能は、2020年11月に廃止されます。 未処理のレポートスイートは、>準備の中でマッピングしてください。 ご質問があれば、ClientCareにお問い合わせください。
+>レポートスイートのマッピング機能は、2020 年 11 月に廃止されます。未処理のレポートスイートは、準備中にマッピングしてください。ご質問があれば、ClientCare にお問い合わせください。
 
 1 つまたは複数のレポートスイートを組織にマッピングする方法について説明します。
 
@@ -36,7 +36,7 @@ Experience Cloud サービス（Experience Cloud ID サービスや [!UICONTROL 
 
 ## 組織へのレポートスイートのマッピング {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. 「Report Suites for Data Governance」( [!DNL Analytics] / **[!UICONTROL 管理者]** / **** Data Governance [)に移動します(「表示/Manage Report Suite&#39;s Data Governance Setting」を参照)。](https://docs.adobe.com/help/en/analytics/admin/data-governance/gdpr-view-settings.html)
+1. [!DNL Analytics]／**[!UICONTROL 管理]**／**[!UICONTROL データガバナンス]**&#x200B;で、データガバナンス用レポートスイートに移動します（[レポートスイートのデータガバナンス設定の表示／管理](https://docs.adobe.com/help/ja-JP/analytics/admin/data-governance/gdpr-view-settings.html)を参照）。
 
 1. 各レポートスイートにアクセスできるログイン会社を確認するには、「**[!UICONTROL 表示可能なログイン会社名]**」をクリックします。
 
