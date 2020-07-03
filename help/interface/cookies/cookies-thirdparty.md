@@ -6,11 +6,11 @@ seo-title: サードパーティ cookie のサポートに対する変更がお�
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: サードパーティ cookie のサポートに対する変更がお客様に及ぼす影響
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f65132e291ba925ded39d75e92b24cf707d520b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '368'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 91%
 
 ## Adobe Social
 
-* 顧客が最新バージョンのコードを使用している限り、Socialの影響はありません。
+* 最新バージョンのコードを使用している限り、Social への影響はありません。
 
 ## Adobe Advertising Cloud
 
@@ -44,7 +44,7 @@ ht-degree: 91%
 * 表示：
 
    * 現在、表示リマーケティングは全面的にサードパーティ cookie に依存しています。
-   * また、表示は、様々な広告ネットワークcookieを同期に使用できるかどうかに大きく依存しています。
+   * また、各種広告ネットワークの cookie を同期に利用できるかどうかも表示に大きく影響します。
    * 全体的な影響は不明ですが、少なくとも、表示は他のサービスよりも大きく影響を受けます。
    * 現在、アドビは社内だけでなく、広告パートナーとも協力して、広告配信に対する影響の範囲を完全に測定できるように取り組んでいます。
 
