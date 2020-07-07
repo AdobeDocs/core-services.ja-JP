@@ -6,9 +6,9 @@ seo-title: Analytics の cookie
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Analytics の cookie
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: bd118685e1dd65b51a171abdfa4e034dd5b9e181
+workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ Adobe Analytics では、異なるブラウザーからのリクエストを区�
 
 | 属性 | 説明 |
 |--- |--- |
-| 保存される情報 | 一意の訪問者 ID 日時スタンプ |
+| 保存される情報 | 一意の訪問者 ID 日時スタンプ。 |
 | 有効期限 | 2 年 |
 | 用途 | この cookie は、 |
 | 場所 | この cookie は、イメージリクエストのドメインに保存されます。そのドメインは通常、2o7.net（サードパーティ cookie を使用している場合）または omtrdc.net（ファーストパーティ cookie を使用している場合）の下の顧客固有のサブドメインになります。 |
@@ -98,7 +98,9 @@ Analytics cookie のフラグを次の表に示します。
 | s_cc（JavaScript） | × | × | 未設定 |
 | s_sq（JavaScript） | × | × | 未設定 |
 
->[!NOTE]1 つの CNAME を使用して複数のドメインまたはプロパティにわたって追跡する場合、`s_vi` の SameSite は &quot;None&quot; に設定する必要があります。Analytics cookie の設定の変更については、カスタマーケアにお問い合わせください。
+>[!NOTE]
+>
+>1 つの CNAME を使用して複数のドメインまたはプロパティにわたって追跡する場合、`s_vi` の SameSite は &quot;None&quot; に設定する必要があります。Analytics cookie の設定の変更については、カスタマーケアにお問い合わせください。
 
 ## プラグインで設定される cookie {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
