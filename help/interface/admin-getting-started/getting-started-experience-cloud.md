@@ -7,9 +7,9 @@ solution: Experience Cloud
 title: ログインと Experience Cloud プロファイル設定の管理
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '962'
 ht-degree: 97%
 
 ---
@@ -27,14 +27,11 @@ ht-degree: 97%
 
 ログインし、自分が適切な[組織](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)に属していることを確認します。
 
-1. Experience Cloud プルダウンメニュー（![](assets/menu-icon.png)）をクリックしてから、「**[!UICONTROL 管理]**」をクリックします。
+1. Click the Experience Cloud menu ( ![](assets/menu-icon.png)), then click **[!UICONTROL Administration]**.
 
-   ![](assets/admin-link.png)
-
-   「**[!UICONTROL 管理]**」リンクが表示されない場合は、表示されている[組織](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)（この例では Adobe Corp）の Experience Cloud 管理者ではないということになります。管理者になる方法がわからない場合は、カスタマーケアまたは社内の Experience Cloud 管理者にお問い合わせください。
+   If the **[!UICONTROL Administration]** link is not shown, you are not an Experience Cloud administrator for the displayed [organization](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1). 管理者になる方法がわからない場合は、カスタマーケアまたは社内の Experience Cloud 管理者にお問い合わせください。
 1. 「**[!UICONTROL 管理]**」をクリックします。
 
-   ![](assets/admin-landing.png)
 1. 次のいずれかのリンクをクリックして続行します。
 
 | 要素 | 説明 |
@@ -45,7 +42,7 @@ ht-degree: 97%
 | [Admin Console の起動](../admin-getting-started/admin-getting-started.md) | Admin Console では、アドビのユーザーと製品の使用権限を組織全体にわたって一元的に管理できます。<br>[ダイレクトリンク](https://adminconsole.adobe.com)を使用して Admin Console にログインすることもできます。 |
 | [Creative Cloud ユーザーの管理](../experience-cloud-assets/t-admin-add-cc-user.md) | Experience Cloud Assets では、Creative Cloud を使用して、デザイナーや他のクリエイティブ担当者とフォルダー上での共有、同期、共同作業をおこなえます。組織と共同作業することを承認された Creative Cloud ユーザーの管理はここでおこなえます。 |
 | [レポートスイートをマッピング](../core-services/core-services.md) | （Analytics のみ）Experience Cloud のコアサービスは個々のレポートスイートではなく組織に関連付けられています。これらのサービスを正しく機能させるには、各 Analytics レポートスイートを組織にマッピングする必要があります。（この作業は、[Analytics をコアサービスに対応させる](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)ワークフローの一部です）。 |
-| [Organization ID](../admin-getting-started/organizations.md) | *組織 ID* は管理ページの下部に表示されています。この ID は、プロビジョニングした Experience Cloud 会社に関連付けられている ID です。この ID は 24 文字の英数字から成る文字列で、その後に @AdobeOrg（必須）が続きます。 |
+| [組織 ID](../admin-getting-started/organizations.md)   | *組織 ID* は管理ページの下部に表示されています。この ID は、プロビジョニングした Experience Cloud 会社に関連付けられている ID です。この ID は 24 文字の英数字から成る文字列で、その後に @AdobeOrg（必須）が続きます。 |
 
 ## Experience Cloud へのログイン（ユーザー）{#task_1BFE87E20DCB44078CAC82F3CD44B985}
 
@@ -80,7 +77,7 @@ Experience Cloud での非管理者ユーザーのログインに関するヘル
 
 ## 通知の有効化 {#concept_0105453AD71847B8BFCAF4A40915F157}
 
-システムのアップデート、メンテナンス、投稿、メンションおよび共有アセットについての通知を（電子メールまたは製品内で）受け取ります。顧客属性のアップロードステータスなど、通知の対象となる製品およびソリューションを指定することもできます。
+システムのアップデート、メンテナンス、投稿、メンションおよび共有アセットについての通知を（電子メールまたは製品内で）受け取ります。また、顧客属性のアップロードステータスなどの通知を受け取りたい製品やソリューションを指定することもできます。
 
 「通知」に移動するには、**[!UICONTROL 通知]**&#x200B;アイコン（![](assets/notifications-icon.png)）をクリックし、次に&#x200B;**[!UICONTROL 設定]**&#x200B;アイコン（![](assets/icon_edit_board.png)）をクリックします。
 
