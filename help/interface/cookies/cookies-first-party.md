@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: ファーストパーティ cookie
 index: y
 snippet: y
-translation-type: ht
-source-git-commit: b6ef7f0b7ef3b43b437524b20cee940889c26ba8
-workflow-type: ht
-source-wordcount: '1461'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+workflow-type: tm+mt
+source-wordcount: '1464'
+ht-degree: 96%
 
 ---
 
@@ -39,7 +39,7 @@ SSL 証明書の発行プロセスは、多くの場合、わかりにくく、�
 
 Adobe Managed Certificate Program は、ファーストパーティ cookie 用の新しいファーストパーティ SSL 証明書の実装にお勧めのプロセスです。
 
-Adobe Managed Certificate Program を利用すると、ファーストパーティ cookie 用の新しいファーストパーティ SSL 証明書を追加費用なしで実装できます。現在、お客様が管理する独自の SSL 証明書がある場合、Adobe Managed Certificate Program への移行についてアドビカスタマーケアにお問い合わせください。
+Adobe管理証明書プログラムを使用すると、ファーストパーティcookie用の新しいファーストパーティSSL証明書を追加費用なしで（最初の100個のCNAMEに対して）実装できます。 現在、お客様が管理する独自の SSL 証明書がある場合、Adobe Managed Certificate Program への移行についてアドビカスタマーケアにお問い合わせください。
 
 ### 実装方法
 
@@ -72,7 +72,7 @@ SSL 証明書は毎年期限が切れます。つまり、アドビは毎年、�
 | 質問 | 回答 |
 |---|---|
 | **このアイテムは保護されていますか？** | はい、アドビおよび発行する証明機関の外部で証明書や秘密鍵が変更されることがないので、Adobe Managed プログラムは、従来の方法よりも安全です。 |
-| **ドメイン用の証明書をアドビはどのようにしたら購入できますか？** | 証明書は、特定のホスト名（例えば、smetrics.example.com）がアドビが所有するホスト名を指すようにお客様が指定する際にのみ、購入できます。これは、基本的に、このホスト名をアドビに委任し、アドビが代理で証明書を購入することを許可するということです。 |
+| **ドメイン用の証明書をアドビはどのようにしたら購入できますか？** | The certificate can only be purchased when you have pointed the specified hostname (for example, `smetrics.example.com`) to an Adobe owned hostname. これは、基本的に、このホスト名をアドビに委任し、アドビが代理で証明書を購入することを許可するということです。 |
 | **証明書の失効を要求できますか？** | はい、ドメインの所有者として、お客様はアドビに証明書の失効を要求する資格があります。必要なのは、チケットを開いてカスタマーケアにこれの実行を依頼するだけです。 |
 | **この証明書は SHA-2 暗号化を使用しますか？** | はい、アドビは DigiCert と連携して SHA-2 証明書を発行します。 |
 | **追加費用が発生しますか？** | いいえ、アドビは、このサービスを Adobe Digital Experience の現在のすべてのお客様に追加費用なしで提供しています。 |
