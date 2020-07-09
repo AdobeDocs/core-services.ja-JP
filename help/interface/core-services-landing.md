@@ -1,24 +1,24 @@
 ---
-description: Adobe Experience Cloudのユーザーと製品の管理、ユーザー(オーディエンスと顧客属性)、Journey Orchestration、オファー、場所、エクスペリエンスプラットフォームの起動、Mobile Servicesについて説明します。
-seo-description: Adobe Experience Cloudのユーザーと製品の管理、人(オーディエンスおよび顧客属性)、オファー、エクスペリエンスプラットフォームの起動、Mobile Servicesについて説明します。
+description: Adobe Experience Cloud ユーザーおよび製品の管理、People（Audiences と顧客属性）、Journey Orchestration、オファー、Places、Experience Platform Launch、Mobile Services について説明します。
+seo-description: Adobe Experience Cloud ユーザーおよび製品の管理、People（Audiences と顧客属性）、オファー、Experience Platform Launch、Mobile Services について説明します。
 seo-title: Experience Cloud のコアサービスとユーザー管理
 solution: Experience Cloud
 title: Experience Cloud コアサービスについて
 index: true
 translation-type: tm+mt
-source-git-commit: a8dff138652b34c9532b87a4aae74f9d9f614580
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 79%
+source-wordcount: '510'
+ht-degree: 97%
 
 ---
 
 
 # Experience Cloud について {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-Adobe Experience Cloud services include the [!UICONTROL People] (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services. Experience Cloud のユーザーおよび製品の管理に関するヘルプにアクセスすることもできます。
+Adobe Experience Cloud サービスには、[!UICONTROL People]（Audiences と顧客属性）、オファー、Experience Platform Launch、Mobile Services などがあります。Experience Cloud のユーザーおよび製品の管理に関するヘルプにアクセスすることもできます。
 
-Experience Cloud のこれらのサービスにアクセスするには、**[!UICONTROL Experience Platform]** メニュー![](assets/menu-icon.png)をクリックします。
+To access these services in the Experience Cloud, click the **[!UICONTROL Application Selector]** ![](assets/menu-icon.png).
 
 ![](assets/platform-core-services.png)
 
@@ -36,4 +36,4 @@ Adobe Experience Platform は、企業全体のデータやコンテンツを一
 | [ロケーションサービス](https://docs.adobe.com/content/help/ja-JP/places/using/home.html) | Adobe [!UICONTROL Experience Platform ロケーションサービス]（以下、ロケーションサービス）は、ロケーション認識が可能なモバイルアプリで、機能豊富な使いやすい SDK インターフェイスと目標地点（POI）の柔軟なデータベースを使用して場所のコンテキストを理解できるようにする位置情報サービスです。 |
 | [Exchange](exchange.md) | アプリを介して、Digital Marketing の機能強化の検索、参照、選択、支払いおよびダウンロードをおこないます。 |
 | [Mobile Services](https://docs.adobe.com/content/help/ja-JP/mobile-services/using/home.html) | Adobe Mobile Services により、モバイルアプリ用の各ソリューションが Experience Cloud 上で統合されます。これにより、アプリの利用状況を把握し、改善につなげることができます。 |
-| People | Experience Cloud ソリューションにあるアドビのデータとアドビ以外のデータを結び付けることで、顧客一人ひとりの包括ビューを作成できます。様々なタッチポイントにわたるやり取りから、ユーザーにとって最も重要なことを見つけ出します。一般的でないデバイスから訪問した場合に、常連顧客を認識します。さらに、ターゲットを絞ったマーケティング活動のために、オーディエンスをグループ化します。<br>[オーディエンス](audience-library/audience-library.md) — 様々なタイプの顧客をオーディエンスに分類して、Marketing Cloudソリューション全体でオーディエンスを共有します。<br>[顧客属性](attributes/attributes.md) - Marketing Cloudの外部で収集した顧客情報を結び付けるためのオーディエンスエンリッチメント。<br>[デバイスグラフ](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) - 世界有数のブランドと提携して、一般的でないデバイスを使用している常連顧客を認識します（ベータ版では、Experience Cloud Device Co-op の会員専用です）。 |
+| People | Experience Cloud ソリューションにあるアドビのデータとアドビ以外のデータを結び付けることで、顧客一人ひとりの包括ビューを作成できます。様々なタッチポイントにわたるやり取りから、ユーザーにとって最も重要なことを見つけ出します。一般的でないデバイスから訪問した場合に、常連顧客を認識します。さらに、ターゲットを絞ったマーケティング活動のために、ユーザーを Audiences にグループ分けします。<br>[Audiences](audience-library/audience-library.md) - 様々なタイプの顧客を Audiences に分類した後、Experience Cloud ソリューション全体で Audiences を共有します。<br>[顧客属性](attributes/attributes.md) - Experience Cloud 外で収集した顧客情報を連結できる機能強化。<br>[デバイスグラフ](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) - 世界有数のブランドと提携して、一般的でないデバイスを使用している常連顧客を認識します（ベータ版では、Experience Cloud Device Co-op の会員専用です）。 |
