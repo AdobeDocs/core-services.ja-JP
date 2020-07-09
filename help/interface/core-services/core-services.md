@@ -1,23 +1,23 @@
 ---
-description: Experience Cloud を実装して管理者になります。このプロセスでは、顧客属性やオーディエンスなどの機能のソリューションを最新化します。
+description: Experience Cloud を実装して管理者になります。このプロセスでは、顧客属性やオーディエンスなどの機能に対応するようにソリューションを最新化します。
 keywords: core services;Customer Attributes
-seo-description: Experience Cloud を実装して管理者になります。このプロセスでは、顧客属性やオーディエンスなどの機能のソリューションを最新化します。
+seo-description: Experience Cloud を実装して管理者になります。このプロセスでは、顧客属性やオーディエンスなどの機能に対応するようにソリューションを最新化します。
 seo-title: Experience Cloud ソリューションのコアサービスへの対応
 solution: Experience Cloud
 title: ソリューションのコアサービスへの対応
 index: true
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
 workflow-type: tm+mt
 source-wordcount: '2358'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
 # ソリューションのコアサービスへの対応
 
-既存のお客様の場合、ソリューションの実装を最新化し、顧客属性やオーディエンスなどの機能を使用できるようにExperience Cloudを実装する方法を説明します。 その方法として、以下をおこないます。
+ソリューションの実装を最新化し、顧客属性やオーディエンスなどの機能を使用できるように Experience Cloud を実装する方法を、既存のお客様向けに説明します。その方法として、以下をおこないます。
 
 1. [Experience Cloud に加入して管理者になる](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Experience Cloud ID サービスを実装する](#section_3C9F6DF37C654D939625BB4D485E4354)
@@ -85,11 +85,9 @@ Experience Cloud にログインするには、次のことが必要です。
 
 Experience Cloud コアサービスを有効にする方法としては、[!UICONTROL Experience Platform Launch] の [Experience Cloud ID サービス拡張機能](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html)または [!UICONTROL Dynamic Tag Management] の ECID ツールを使用して、Analytics や Adobe Target に対してコアサービスを自動的にアクティブにするのが最も簡単です（Experience Platform Launch の利用を強くお勧めします）。
 
-![](assets/menu-activation-shell.png)
-
 Experience Cloud ID サービス（以前の訪問者 ID）について詳しくは、[こちら](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)を参照してください。
 
-**[!UICONTROL Experience Platform Launch]または[!UICONTROL Dynamic Tag Management]を使用しない場合**
+**[!UICONTROL Experience Platform Launch] または [!UICONTROL Dynamic Tag Management] を使用しない場合**
 
 [!UICONTROL Experience Platform Launch] または [!UICONTROL Dynamic Tag Management] を使用しない場合は、次に示すように、JavaScript デプロイメント（[!DNL VisitorAPI.js]）を使用して ID サービスを手動で実装します。
 
@@ -120,7 +118,7 @@ Adobe Target では、`mbox3rdpartyid` から顧客 ID を取得し、それを 
 
 ### 履歴データの属性の有効化
 
-顧客属性データは、訪問者のログイン後に使用可能になります。まだ最新の Experience Cloud ID サービスを実装していない場合でも、顧客 ID を prop または eVar で履歴追跡していれば、Experience Cloud へのログイン履歴を送信するプロセスを要求できます。このプロセスにより、顧客属性の使用をすぐに開始できます。
+顧客属性データは、訪問者のログイン後に使用可能になります。まだ最新の Experience Cloud ID サービスを実装していない場合でも、顧客 ID を prop または eVar で履歴追跡していれば、Experience Cloud へのログイン履歴を送信するプロセスを要求できます。このプロセスを使用すると、顧客属性の使用をすぐに開始できます。
 
 カスタマーケアに連絡して履歴データを有効にしてください。
 
@@ -136,7 +134,7 @@ Experience Cloud サービス（Experience Cloud ID サービスや [!UICONTROL 
 
 訪問者 API など JavaScript ライブラリを更新して Analytics の実装を最新化することが推奨されます。これをおこなう最も簡単な方法は、Dynamic Tag Management で [!DNL Adobe Analytics] ツールを追加し、設定方法に *`Automatic`* を指定することです。
 
-[!UICONTROL Dynamic Tag Management] で、**[!UICONTROL <Web Property Name>]**／**[!UICONTROL &#x200B;概要&#x200B;]**／**[!UICONTROL &#x200B;ツールを追加&#x200B;]**／**[!UICONTROL  Adobe Analytics ]**をクリックします。デプロイメントについては、Dynamic Tag Management の[Adobe Analytics の設定](https://docs.adobe.com/content/help/ja-JP/dtm/using/tools/analytics-dtm.html)を参照してください。
+[!UICONTROL Dynamic Tag Management] で、**[!UICONTROL <Web Property Name>]** ／ **[!UICONTROL &#x200B;概要&#x200B;]** ／ **[!UICONTROL &#x200B;ツールを追加&#x200B;]** ／ **[!UICONTROL  Adobe Analytics ]** をクリックします。デプロイメントについては、Dynamic Tag Management の [Adobe Analytics の設定](https://docs.adobe.com/content/help/ja-JP/dtm/using/tools/analytics-dtm.html) を参照してください。
 
 ## 手順 5.（Adobe Target のみ）Adobe Target の実装を更新する {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
@@ -146,7 +144,7 @@ Experience Cloud サービス（Experience Cloud ID サービスや [!UICONTROL 
 
    >[!IMPORTANT]
    >
-   >Analyticsのすべてのお客様は、既に、顧客属性などコアサービス用にプロビジョニングされています。 Analytics ユーザーになっていないユーザーがいる場合は、そのユーザーのプロビジョニングをカスタマーケアに依頼します。
+   >すべての Analytics ユーザーは、顧客属性などコアサービスのために既にプロビジョニングされています。Analytics ユーザーになっていないユーザーがいる場合は、そのユーザーのプロビジョニングをカスタマーケアに依頼します。
 
 ## 手順 6.コアサービスの実装を確認する {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
@@ -187,20 +185,11 @@ Experience Cloud ID サービスをデプロイすると、新しい訪問者は
 
 ### 顧客属性
 
-<!-- <p> 
- <note type="important">
-  To use the Customer Attributes feature, users must belong to the 
-  <span class="term"> Adobe Customer Attributes</span> group, and to solution-level groups (Analytics or Adobe Target). 
- </note> </p> 
- -->
-
 [!UICONTROL 顧客属性]グループに追加されたユーザーには、Experience Cloud インターフェイスの左側に「[!UICONTROL 顧客属性]」メニュー項目が表示されます。
 
 ## 手順 8.コアサービスの使用を開始する {#section_960C06093623462E8EA247B3E97274A1}
 
 次の機能を利用します。
-
-![](assets/menu-audiences-shell.png)
 
 ### [!UICONTROL People]／[!UICONTROL 顧客属性]
 
@@ -212,7 +201,7 @@ Experience Cloud ID サービスをデプロイすると、新しい訪問者は
 
 Experience Cloud [!UICONTROL オーディエンス]は、オーディエンスを作成したり、既存のオーディエンスを組み合わせて複合オーディエンスを作成したり、共有しているすべてのオーディエンスを表示したりできるインターフェイスです。
 
-[オーディエンス](../audience-library/audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)を参照してください。
+[Audiences](../audience-library/audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7) を参照してください。
 
 ## データストレージおよびプライバシー開示
 
