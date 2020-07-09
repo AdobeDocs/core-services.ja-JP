@@ -6,9 +6,9 @@ seo-title: Analytics の cookie
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Analytics の cookie
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bd118685e1dd65b51a171abdfa4e034dd5b9e181
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '812'
 ht-degree: 100%
 
@@ -37,10 +37,10 @@ Adobe Analytics では、異なるブラウザーからのリクエストを区�
 | 属性 | 説明 |
 |--- |--- |
 | 保存される情報 | Experience Cloud ID（ECID）または MID のコピーが含まれます。MID は、s_ecid=MCMID という構文に従うキーと値のペアとして保存されます。 | `<ECID>` |
-| 有効期限 | 2 年 |
+| 有効期限 | 2 年。 |
 | 用途 | この cookie は、AMCV cookie がクライアントで設定された後に、お客様のドメインで設定されます。この cookie の目的は、ファーストパーティ状態の永続的 ID トラッキングを許可し、AMCV cookie の有効期限が切れた場合に参照 IDとして使用することです。詳しくは、こちらの AMCV cookie を参照してください。 |
 | 場所 | CNAME のお客様のみ。サードパーティのシナリオには適用されません。Cookie はお使いのドメインに保存され、同じドメインが CNAME および Analytics イメージリクエストで使用されます。 |
-| サイズ | 45 バイト |
+| サイズ | 45 バイト。 |
 
 ## cookie 名：s_cc {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
@@ -48,9 +48,9 @@ Adobe Analytics では、異なるブラウザーからのリクエストを区�
 |--- |--- |
 | 保存される情報 | この cookie は、cookie が有効になっている（「True」に設定されている）かどうかを判断するために JavaScript コードによって設定され、読み取られます。 |
 | 有効期限 | この cookie はセッション cookie で、ブラウザーを閉じると有効期限が切れます。 |
-| 用途 | すべてのアカウントに対して 1 つの cookie のみ |
+| 用途 | すべてのアカウントに対して 1 つの cookie のみ。 |
 | 場所 | この cookie はページのドメインに保存されます。 |
-| サイズ | 4 バイト |
+| サイズ | 4 バイト。 |
 
 ## cookie 名：s_sq {#section-8abfff3a302d494f81a3cfb91e3b09ff}
 
@@ -58,7 +58,7 @@ Adobe Analytics では、異なるブラウザーからのリクエストを区�
 |--- |--- |
 | 保存される情報 | この cookie は、ClickMap 機能や Activity Map 機能が有効になっている場合に JavaScript によって設定され、読み取られます。ユーザーが直前にクリックしたリンクに関する情報が含まれています。 |
 | 有効期限 | この cookie はセッション cookie で、ブラウザーを閉じると有効期限が切れます。 |
-| 用途 | すべてのアカウントに対して 1 つの cookie のみ |
+| 用途 | すべてのアカウントに対して 1 つの cookie のみ。 |
 | 場所 | この cookie はページのドメインに保存されます。 |
 | サイズ | ページ URL サイズによって変わりますが、通常は 100 ～ 200 バイトです。 |
 
@@ -67,10 +67,10 @@ Adobe Analytics では、異なるブラウザーからのリクエストを区�
 | 属性 | 説明 |
 |--- |--- |
 | 保存される情報 | 一意の訪問者 ID 日時スタンプ。 |
-| 有効期限 | 2 年 |
+| 有効期限 | 2 年。 |
 | 用途 | この cookie は、 |
 | 場所 | この cookie は、イメージリクエストのドメインに保存されます。そのドメインは通常、2o7.net（サードパーティ cookie を使用している場合）または omtrdc.net（ファーストパーティ cookie を使用している場合）の下の顧客固有のサブドメインになります。 |
-| サイズ | 44 バイト |
+| サイズ | 44 バイト。 |
 
 >[!NOTE]
 >
@@ -80,11 +80,11 @@ Adobe Analytics では、異なるブラウザーからのリクエストを区�
 
 | 属性 | 説明 |
 |--- |--- |
-| 保存される情報 | 予備として使用される一意の訪問者 ID 日時スタンプ |
-| 有効期限 | 2 年 |
+| 保存される情報 | 予備として使用される一意の訪問者 ID 日時スタンプ。 |
+| 有効期限 | 2 年。 |
 | 用途 | この cookie は、サードパーティ cookie が制限されていて標準の `s_vi` cookie を設定できない場合に、個別訪問者を特定するために使用します。ファーストパーティ cookie が使用される環境では使用しません。 |
 | 場所 | この cookie はファーストパーティ cookie として会社のドメインに保存されます。 |
-| サイズ | 33 バイト |
+| サイズ | 33 バイト。 |
 
 ## cookie のフラグ
 
