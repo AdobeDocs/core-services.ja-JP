@@ -6,9 +6,9 @@ seo-title: Experience Cloud ソリューションのコアサービスへの対�
 solution: Experience Cloud
 title: ソリューションのコアサービスへの対応
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2358'
 ht-degree: 100%
 
@@ -79,7 +79,7 @@ Experience Cloud にログインするには、次のことが必要です。
 
 以下の節では、実装を最新化する方法を説明します。実装を最新化すると、Experience Cloud のコアサービスが有効になります。
 
-## 手順 2：[!UICONTROL Experience Platform Launch] または [!UICONTROL Dynamic Tag Management] を使用して [!UICONTROL Experience Cloud ID サービス]を実装する {#section_3C9F6DF37C654D939625BB4D485E4354}
+## 手順 2.[!UICONTROL Experience Platform Launch] または [!UICONTROL Dynamic Tag Management] を使用して [!UICONTROL Experience Cloud ID サービス]を実装する {#section_3C9F6DF37C654D939625BB4D485E4354}
 
 [!UICONTROL Experience Cloud IDサービス]は、ソリューション間の統合に使用する共通の ID を提供します。[!UICONTROL 顧客属性]を通じてアップロードされた CRM データに基づいて、クロスドメインの訪問者識別と、デバイス／ブラウザー横断的なターゲティングおよびパーソナライズのための手段を提供します。
 
