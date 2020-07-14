@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: ファーストパーティ cookie
 index: y
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1464'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ SSL 証明書の発行プロセスは、多くの場合、わかりにくく、�
 
 Adobe Managed Certificate Program は、ファーストパーティ cookie 用の新しいファーストパーティ SSL 証明書の実装にお勧めのプロセスです。
 
-Adobe管理証明書プログラムを使用すると、ファーストパーティcookie用の新しいファーストパーティSSL証明書を追加費用なしで（最初の100個のCNAMEに対して）実装できます。 現在、お客様が管理する独自の SSL 証明書がある場合、Adobe Managed Certificate Program への移行についてアドビカスタマーケアにお問い合わせください。
+Adobe Managed Certificate Program を利用すると、ファーストパーティ cookie 用の新しいファーストパーティ SSL 証明書を追加費用なしで実装できます（最初の 100 個の CNAME）。現在、お客様が管理する独自の SSL 証明書がある場合、Adobe Managed Certificate Program への移行についてアドビカスタマーケアにお問い合わせください。
 
 ### 実装方法
 
@@ -72,7 +72,7 @@ SSL 証明書は毎年期限が切れます。つまり、アドビは毎年、�
 | 質問 | 回答 |
 |---|---|
 | **このアイテムは保護されていますか？** | はい、アドビおよび発行する証明機関の外部で証明書や秘密鍵が変更されることがないので、Adobe Managed プログラムは、従来の方法よりも安全です。 |
-| **ドメイン用の証明書をアドビはどのようにしたら購入できますか？** | The certificate can only be purchased when you have pointed the specified hostname (for example, `smetrics.example.com`) to an Adobe owned hostname. これは、基本的に、このホスト名をアドビに委任し、アドビが代理で証明書を購入することを許可するということです。 |
+| **ドメイン用の証明書をアドビはどのようにしたら購入できますか？** | 証明書は、特定のホスト名（例えば、`smetrics.example.com`）がアドビが所有するホスト名を指すようにお客様が指定する際にのみ、購入できます。これは、基本的に、このホスト名をアドビに委任し、アドビが代理で証明書を購入することを許可するということです。 |
 | **証明書の失効を要求できますか？** | はい、ドメインの所有者として、お客様はアドビに証明書の失効を要求する資格があります。必要なのは、チケットを開いてカスタマーケアにこれの実行を依頼するだけです。 |
 | **この証明書は SHA-2 暗号化を使用しますか？** | はい、アドビは DigiCert と連携して SHA-2 証明書を発行します。 |
 | **追加費用が発生しますか？** | いいえ、アドビは、このサービスを Adobe Digital Experience の現在のすべてのお客様に追加費用なしで提供しています。 |
@@ -83,10 +83,10 @@ SSL 証明書は毎年期限が切れます。つまり、アドビは毎年、�
 
 FPC スペシャリストから、設定されたホスト名とホスト名で指定する必要のある CNAME が提供されます。以下に例を示します。
 
-* **SSL ホスト名**：`smetrics.mysite.com`
-* **SSL CNAME**:`mysite.com.ssl.sc.omtrdc.net`
-* **非 SSL ホスト名**：`metrics.mysite.com`
-* **非 SSL CNAME**：`mysite.com.sc.omtrdc.net`
+* **SSL ホスト名**： `smetrics.mysite.com`
+* **SSL CNAME**: `mysite.com.ssl.sc.omtrdc.net`
+* **非 SSL ホスト名**： `metrics.mysite.com`
+* **非 SSL CNAME**： `mysite.com.sc.omtrdc.net`
 
 実装コードが変更されない限り、この手順がデータ収集に影響を及ぼすことはなく、実装コードの更新後はいつでもおこなうことができます。
 
@@ -110,7 +110,7 @@ CNAME が設定され、証明書がインストールされている場合は�
 
 ### [!DNL curl] を使用した検証
 
-アドビでは、コマンドラインから [curl](https://curl.haxx.se/) を使用することをお勧めします（[!DNL Windows] ユーザーは <https://curl.haxx.se/windows/> から [!DNL curl] をインストールできます）。
+アドビでは、コマンドラインから [!DNL [curl](https://curl.haxx.se/)] を使用することをお勧めします（[!DNL Windows] ユーザーは <https://curl.haxx.se/windows/> から [!DNL curl] をインストールできます）。
 
 CNAME が設定されていても、証明書がインストールされていない場合は、`curl -k https://sstats.adobe.com/_check` を実行します。応答は `SUCCESS` となります。
 
@@ -155,6 +155,6 @@ Address: 54.187.216.46
 
 1. 長期にわたる実装からファーストパーティ cookie に移動する場合、または異なるファーストパーティ収集ホスト名に変更する場合、以前のドメインから新しいドメインに訪問者を移行することをお勧めします。
 
-詳しくは、Analytics 導入ガイドの[訪問者の移行](https://docs.adobe.com/content/help/ja-JP/analytics/technotes/visitor-identification.html)を参照してください。
+詳しくは、Analytics 導入ガイドの[訪問者の移行](https://docs.adobe.com/content/help/ja-JP/analytics/components/metrics/unique-visitors.html)を参照してください。
 
 コア JavaScript ファイルをアップロードすると、ファーストパーティ cookie によるデータ収集用の設定がすべておこなわれます。アップロード後の数時間は、Analytics レポートを監視し、通常どおりデータ収集がおこなわれているかを確認することをお勧めします。通常どおりおこなわれていない場合、上記のすべての手順が完了していることを確認し、組織のサポート対象ユーザーの中からカスタマーケアにお問い合わせください。
