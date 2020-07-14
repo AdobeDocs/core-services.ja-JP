@@ -6,11 +6,11 @@ seo-title: ログインとプロファイル設定の管理
 solution: Experience Cloud
 title: ログインと Experience Cloud プロファイル設定の管理
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '962'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 97%
 >
 >ユーザーおよび製品管理の更新に関する管理者向けの情報については、[管理](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)を参照してください。
 
-## Experience Cloud へのログイン（管理者）{#task_034FC955031347F3B02B686A09801A08}
+## Experience Cloud へのログイン（管理者） {#task_034FC955031347F3B02B686A09801A08}
 
 ログインし、自分が適切な[組織](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)に属していることを確認します。
 
-1. Click the Experience Cloud menu ( ![](assets/menu-icon.png)), then click **[!UICONTROL Administration]**.
+1. Experience Cloud メニュー（![](assets/menu-icon.png)）をクリックしてから、「**[!UICONTROL 管理]**」をクリックします。
 
-   If the **[!UICONTROL Administration]** link is not shown, you are not an Experience Cloud administrator for the displayed [organization](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1). 管理者になる方法がわからない場合は、カスタマーケアまたは社内の Experience Cloud 管理者にお問い合わせください。
+   「**[!UICONTROL 管理]**」リンクが表示されない場合は、表示されている[組織](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)の Experience Cloud 管理者ではないということになります。管理者になる方法がわからない場合は、カスタマーケアまたは社内の Experience Cloud 管理者にお問い合わせください。
 1. 「**[!UICONTROL 管理]**」をクリックします。
 
 1. 次のいずれかのリンクをクリックして続行します。
@@ -44,7 +44,7 @@ ht-degree: 97%
 | [レポートスイートをマッピング](../core-services/core-services.md) | （Analytics のみ）Experience Cloud のコアサービスは個々のレポートスイートではなく組織に関連付けられています。これらのサービスを正しく機能させるには、各 Analytics レポートスイートを組織にマッピングする必要があります。（この作業は、[Analytics をコアサービスに対応させる](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)ワークフローの一部です）。 |
 | [組織 ID](../admin-getting-started/organizations.md)   | *組織 ID* は管理ページの下部に表示されています。この ID は、プロビジョニングした Experience Cloud 会社に関連付けられている ID です。この ID は 24 文字の英数字から成る文字列で、その後に @AdobeOrg（必須）が続きます。 |
 
-## Experience Cloud へのログイン（ユーザー）{#task_1BFE87E20DCB44078CAC82F3CD44B985}
+## Experience Cloud へのログイン（ユーザー） {#task_1BFE87E20DCB44078CAC82F3CD44B985}
 
 Experience Cloud での非管理者ユーザーのログインに関するヘルプ情報です。
 
@@ -57,7 +57,7 @@ Experience Cloud での非管理者ユーザーのログインに関するヘル
 
    Experience Cloud 管理者に問い合わせてアカウントのタイプ（Adobe ID または Enterprise ID）を確認してください。
 
-1. ランディングページでセレクターアイコン ![](assets/menu-icon.png) をクリックして、プルダウンメニューを開きます。
+1. ランディングページでセレクターアイコン ![](assets/menu-icon.png) をクリックして、プルダウンメニューを開きます。
 
    ![](assets/experience-cloud-core-services.png)
 
