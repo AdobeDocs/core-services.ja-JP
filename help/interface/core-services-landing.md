@@ -5,11 +5,11 @@ seo-title: Experience Cloud のコアサービスとユーザー管理
 solution: Experience Cloud
 title: Experience Cloud コアサービスについて
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '510'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 97%
 
 Adobe Experience Cloud サービスには、[!UICONTROL People]（Audiences と顧客属性）、オファー、Experience Platform Launch、Mobile Services などがあります。Experience Cloud のユーザーおよび製品の管理に関するヘルプにアクセスすることもできます。
 
-To access these services in the Experience Cloud, click the **[!UICONTROL Application Selector]** ![](assets/menu-icon.png).
+Experience Cloud のこれらのサービスにアクセスするには、**[!UICONTROL アプリケーションセレクター]**![](assets/menu-icon.png) をクリックします。
 
 ![](assets/platform-core-services.png)
 
