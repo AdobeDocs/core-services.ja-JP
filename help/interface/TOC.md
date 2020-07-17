@@ -5,15 +5,15 @@ user-guide-description: Adobe Experience Cloud services include the People (Audi
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 323e562d41daa547d488497116cd5ffa783f6426
+source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 
-# コアサービスユーザーガイド {#interface}
+# Experience Cloud interface help {#interface}
 
 + [Experience Cloud および製品ドキュメント](experience-cloud.md)
 + Experience Cloud のコアサービス {#about-core-services}
@@ -43,7 +43,7 @@ ht-degree: 100%
    + [ログインとプロファイル設定の管理](admin-getting-started/getting-started-experience-cloud.md)
    + [組織とアカウントのリンク](admin-getting-started/organizations.md)
    + [Analytics Premium および Experience Cloud へのアップグレード](admin-getting-started/upgrade-to-analytics-premium.md)
-+ Experience Cloud のアクティベーション {#activation}
++ Experience Cloud Activation {#activation}
    + [Activation の概要](activation/activation.md)
    + [Launch ユーザーガイド](https://docs.adobe.com/content/help/ja-JP/launch/using/overview.html)
    + [Dynamic Tag Manager ユーザーガイド](https://docs.adobe.com/content/help/ja-JP/dtm/using/dtm-home.html)
