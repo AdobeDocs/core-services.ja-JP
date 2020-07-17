@@ -7,21 +7,41 @@ solution: Adobe Experience Cloud
 title: Experience Cloud とコアサービスのヘルプ
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: f3d200aede4ca1739c727d799cfdece40bd24a87
+source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 99%
+source-wordcount: '405'
+ht-degree: 94%
 
 ---
 
 
-# Experience Cloud インターフェース製品ドキュメント
+# Experience Cloudインターフェース製品ドキュメント
+
+Experience Cloud には、アドビが提供するデジタルマーケティングソリューションおよびサービスが統合されています。また、Experience Cloud は、クラウドソリューションやコアサービスにすばやくアクセスできる直感的なインターフェイスでもあります。
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-このページには、Adobe Experience Cloud ソリューションおよびサービスのセルフヘルプ、サポート、技術および製品ドキュメントが含まれています。Experience Cloud には、アドビが提供するデジタルマーケティングソリューションおよびサービスが統合されています。また、Experience Cloud は、クラウドソリューションやコアサービスにすばやくアクセスできる直感的なインターフェイスでもあります。
+このページからは、次の機能およびサービスに関する製品ドキュメントにアクセスできます。
 
-## 学習リソース
+* [オーディエンスライブラリ](audience-library/audience-library.md)
+* [顧客属性](attributes/attributes.md)
+* [Triggers](activation/triggers.md)
+* [Experience Cloud Assets](experience-cloud-assets/experience-cloud-assets.md)
+* [Experience Cloud の cookie](cookies/cookies-privacy.md)
+
+## ユーザーと製品の管理
+
+* [ユーザーおよび製品の管理](admin-getting-started/admin-getting-started.md)（Admin Console）
+* [ソリューションのコアサービスへの対応](core-services/core-services.md)
+* [よくある質問](admin-getting-started/admin-getting-started.md)
+* [組織とアカウントのリンク](admin-getting-started/organizations.md)
+* [統合](marketing-cloud-integrations.md)
+* [Adobe Target と Experience Cloud の統合](https://docs.adobe.com/content/help/ja-JP/target/using/integrate/a4t/a4t.html)
+* [Experience Cloud のプライバシーとセキュリティの概要](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
+* [Adobe Experience Cloud でのプロファイル管理](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/)（ブログ）
+* [DNS プリフェッチ](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
+
+## 関連するExperience Cloudのヘルプ
 
 * [すべての Experience Cloud ソリューションの製品ドキュメント](https://docs.adobe.com/content/help/ja-JP/experience-cloud/user-guides/home.html) - Experience Cloud のラーニングとサポートでヘルプを参照する
 * [リリースノートと製品アップデート](https://docs.adobe.com/content/help/ja-JP/release-notes/experience-cloud/current.html) - Experience Cloud の新機能を参照およびサブスクリプションでアップデートを入手する
@@ -45,14 +65,4 @@ ht-degree: 99%
 * [Experience Cloud デバッガー](https://docs.adobe.com/content/help/ja-JP/debugger/using/experience-cloud-debugger.html)
 * [一般データ保護規則（GDPR）API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 
-## 管理と有効化
 
-* [ユーザーおよび製品の管理](admin-getting-started/admin-getting-started.md)（Admin Console）
-* [ソリューションのコアサービスへの対応](core-services/core-services.md)
-* [よくある質問](admin-getting-started/admin-getting-started.md)
-* [組織とアカウントのリンク](admin-getting-started/organizations.md)
-* [統合](marketing-cloud-integrations.md)
-* [Adobe Target と Experience Cloud の統合](https://docs.adobe.com/content/help/ja-JP/target/using/integrate/a4t/a4t.html)
-* [Experience Cloud のプライバシーとセキュリティの概要](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
-* [Adobe Experience Cloud でのプロファイル管理](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/)（ブログ）
-* [DNS プリフェッチ](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
