@@ -5,10 +5,10 @@ user-guide-description: Adobe Experience Cloud services include the People (Audi
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
+source-git-commit: a47dc66b51758ed7e6b465f35375f979b479672f
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 98%
+ht-degree: 94%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 98%
 # Experience Cloud interface help {#interface}
 
 + [Experience Cloud および製品ドキュメント](experience-cloud.md)
-+ Experience Cloud のコアサービス {#about-core-services}
-   + [コアサービスの概要](core-services-landing.md)
-   + [ソリューションのコアサービスへの対応](core-services/core-services.md)
++ Application services in Experience Cloud {#about-core-services}
+   + [アプリケーションサービスの概要](core-services-landing.md)
+   + [クロスソリューションサービスの実装を有効にする](core-services/core-services.md)
    + [組織へのレポートスイートのマッピング](core-services/report-suite-mapping.md)
    + [Experience Cloud の新しいクラウド名について](solutions-core-services.md)
 + [Experience Cloud の統合](marketing-cloud-integrations.md)
