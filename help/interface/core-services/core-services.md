@@ -2,31 +2,33 @@
 description: Experience Cloud を実装して管理者になります。このプロセスでは、顧客属性やオーディエンスなどの機能に対応するようにソリューションを最新化します。
 keywords: core services;Customer Attributes
 seo-description: Experience Cloud を実装して管理者になります。このプロセスでは、顧客属性やオーディエンスなどの機能に対応するようにソリューションを最新化します。
-seo-title: Experience Cloud ソリューションのコアサービスへの対応
+seo-title: 顧客属性やオーディエンスに対するExperience Cloudソリューションの有効化
 solution: Experience Cloud
 title: ソリューションのコアサービスへの対応
 index: true
 translation-type: tm+mt
-source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
+source-git-commit: a47dc66b51758ed7e6b465f35375f979b479672f
 workflow-type: tm+mt
-source-wordcount: '2356'
-ht-degree: 100%
+source-wordcount: '2402'
+ht-degree: 96%
 
 ---
 
 
-# ソリューションのコアサービスへの対応
+# クロスソリューションサービスの実装を有効にする
 
-ソリューションの実装を最新化し、顧客属性やオーディエンスなどの機能を使用できるように Experience Cloud を実装する方法を、既存のお客様向けに説明します。その方法として、以下をおこないます。
+Experience Platform Launchを使用してExperience Cloudを最近実装した場合、顧客属性とExperience Cloudオーディエンスは既に設定されています。 また、Admin Console内のユーザーや製品を管理することもできます。
+
+既存のお客様の場合は、ソリューションの実装を最新化し、Experience Cloudを実装する必要がある場合があります。 これにより、アドビのAnalytics、Audience Manager、Adobe Target全体で顧客属性とオーディエンス機能を活用できます。 その方法として、以下をおこないます。
 
 1. [Experience Cloud に加入して管理者になる](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Experience Cloud ID サービスを実装する](#section_3C9F6DF37C654D939625BB4D485E4354)
 1. [レポートスイートを Experience Cloud 組織にマッピングする](#section_7B08516B01BA421681DF03D0E86CE3BA)
 1. [Analytics の AppMeasurement コードを更新する](#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [Adobe Target の実装を更新する](#section_C2F4493C7A36406DAE2266B429A4BD24)
-1. [コアサービスの実装を確認する](#section_E641782A0F4F44AF8C9C91216BE330D5)
+1. [実装の検証](#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [ユーザーと製品を管理する](#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
-1. [コアサービスの使用を開始する](#section_960C06093623462E8EA247B3E97274A1)
+1. [属性とオーディエンスデータの共有を開始](#section_960C06093623462E8EA247B3E97274A1)
 
 ## 手順 1.Experience Cloud に加入して管理者になる {#section_2423F0BD3DF642658103310EE5EA6154}
 
@@ -187,7 +189,7 @@ Experience Cloud ID サービスをデプロイすると、新しい訪問者は
 
 [!UICONTROL 顧客属性]グループに追加されたユーザーには、Experience Cloud インターフェイスの左側に「[!UICONTROL 顧客属性]」メニュー項目が表示されます。
 
-## 手順 8.コアサービスの使用を開始する {#section_960C06093623462E8EA247B3E97274A1}
+## 手順 8.属性とオーディエンスデータの共有を開始 {#section_960C06093623462E8EA247B3E97274A1}
 
 次の機能を利用します。
 
