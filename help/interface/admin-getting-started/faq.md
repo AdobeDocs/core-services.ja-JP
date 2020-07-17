@@ -2,15 +2,15 @@
 description: Experience Cloud 管理者向けのよくある質問と回答です。
 keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
 seo-description: Experience Cloud 管理者向けのよくある質問と回答です。
-seo-title: よくある質問Experience Cloud コアサービスについて
+seo-title: Experience Cloudコアサービスに関するよくある質問(FAQ)です。
 solution: Adobe Experience Cloud
 title: よくある質問
 index: true
-translation-type: ht
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
-workflow-type: ht
-source-wordcount: '733'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
+workflow-type: tm+mt
+source-wordcount: '731'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ Experience Cloud 管理者向けのよくある質問と回答です。
 1. [レポートスイートを Experience Cloud 組織にマッピングする](../core-services/core-services.md#concept_apg_zq2_rw)
 1. [（Analytics のみ）Analytics AppMeasurement コードを最新化する](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [（Adobe Target のみ）Adobe Target の実装を最新化する](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
-1. [コアサービスの実装を確認する](../core-services/core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
+1. [実装の検証](../core-services/core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [ユーザーと製品を管理する](../core-services/core-services.md#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
 1. [コアサービスの使用を開始する](../core-services/core-services.md#section_960C06093623462E8EA247B3E97274A1)
 
