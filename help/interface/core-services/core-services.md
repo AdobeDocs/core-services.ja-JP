@@ -6,10 +6,10 @@ seo-title: Experience Cloud ソリューションのコアサービスへの対�
 solution: Experience Cloud
 title: ソリューションのコアサービスへの対応
 index: true
-translation-type: ht
-source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: ht
-source-wordcount: '2358'
+translation-type: tm+mt
+source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
+workflow-type: tm+mt
+source-wordcount: '2356'
 ht-degree: 100%
 
 ---
@@ -146,7 +146,7 @@ Experience Cloud サービス（Experience Cloud ID サービスや [!UICONTROL 
    >
    >すべての Analytics ユーザーは、顧客属性などコアサービスのために既にプロビジョニングされています。Analytics ユーザーになっていないユーザーがいる場合は、そのユーザーのプロビジョニングをカスタマーケアに依頼します。
 
-## 手順 6.コアサービスの実装を確認する {#section_E641782A0F4F44AF8C9C91216BE330D5}
+## 手順 6.実装の検証 {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
 Experience Cloud ID サービスがサイトに正しく実装されていることを確認するには、次の手順を実行します。
 
