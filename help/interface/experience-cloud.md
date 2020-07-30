@@ -6,11 +6,11 @@ seo-title: Adobe Experience Cloud およびコアサービスのヘルプと製�
 solution: Adobe Experience Cloud
 title: Experience Cloud とコアサービスのヘルプ
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '405'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Experience Cloud には、アドビが提供するデジタルマーケティン
 * [Experience Cloud Assets](experience-cloud-assets/experience-cloud-assets.md)
 * [Experience Cloud の cookie](cookies/cookies-privacy.md)
 
-## ユーザーと製品の管理
+## ユーザーおよび製品の管理
 
 * [ユーザーおよび製品の管理](admin-getting-started/admin-getting-started.md)（Admin Console）
 * [ソリューションのコアサービスへの対応](core-services/core-services.md)
@@ -41,7 +41,7 @@ Experience Cloud には、アドビが提供するデジタルマーケティン
 * [Adobe Experience Cloud でのプロファイル管理](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/)（ブログ）
 * [DNS プリフェッチ](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
-## 関連するExperience Cloudのヘルプ
+## 関連する Experience Cloud ヘルプ
 
 * [すべての Experience Cloud ソリューションの製品ドキュメント](https://docs.adobe.com/content/help/ja-JP/experience-cloud/user-guides/home.html) - Experience Cloud のラーニングとサポートでヘルプを参照する
 * [リリースノートと製品アップデート](https://docs.adobe.com/content/help/ja-JP/release-notes/experience-cloud/current.html) - Experience Cloud の新機能を参照およびサブスクリプションでアップデートを入手する
