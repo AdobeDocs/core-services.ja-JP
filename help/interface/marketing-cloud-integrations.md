@@ -6,16 +6,16 @@ seo-title: Experience Cloud の統合
 solution: Experience Cloud
 title: Experience Cloud の統合
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1521'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Experience Cloud との統合
+# Experience Cloud の統合
 
 Adobe Experience Cloud は、共通の強力な機能セットを持つ共通のデータプラットフォーム上に構築された、クラス最高の統合ソリューションの包括的なセットです。
 
@@ -33,7 +33,7 @@ Adobe Experience Cloud は、共通の強力な機能セットを持つ共通の
 
 ソリューションまたはサービス：
 
-* アクティベーション-Experience Platform Launch（推奨）またはDynamic Tag Management
+* Activation - Experience Platform Launch（推奨）または Dynamic Tag Management
 * Analytics
 * Target 
 * [Experience Cloud ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)
@@ -42,7 +42,7 @@ Adobe Experience Cloud は、共通の強力な機能セットを持つ共通の
 
 ID サービスは、Experience Cloud のすべてのソリューションで訪問者を識別する永続的な汎用 ID を提供します。このサービスを、Analytics、Audience Manager、Adobe Target、ビデオハートビートなどのサービスや、その他の Experience Cloud のソリューションまたは機能の ID 生成コードの代わりに使用できます。
 
-See [Experience Cloud ID Service](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)
+[Experience Cloud ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)を参照してください。
 
 **適用可能なソリューションまたはサービス**
 
@@ -119,7 +119,7 @@ Experience Cloud ソリューションや他の外部システムのデータを
 
 Experience Cloud Activation ソリューションを使用して、Experience Cloud ソリューションの設定とデバッグをおこないます。
 
-1. [Launch](https://docs.adobe.com/content/help/ja-JP/launch/using/overview.html) または [Dynamic Tag Management](https://docs.adobe.com/content/help/ja-JP/dtm/using/dtm-home.html) を使用して、ページ上で [](solutions-core-services.md#topic_BD726D3A649E4FC49063029E86B70C62)Adobe Experience Cloud ソリューションをアクティベートするコードを挿入します。
+1. [Launch](https://docs.adobe.com/content/help/ja-JP/launch/using/overview.html) または [Dynamic Tag Management](https://docs.adobe.com/content/help/ja-JP/dtm/using/dtm-home.html) を使用して、ページ上で [Adobe Experience Cloud ソリューション](solutions-core-services.md#topic_BD726D3A649E4FC49063029E86B70C62)をアクティベートするコードを挿入します。
 1. [Adobe Cloud Platform Auditor](https://docs.adobe.com/content/help/ja-JP/auditor/using/overview.html) を使用して実装をテストします。
 
 Adobe Experience Cloud Debugger 拡張機能を使用して、Auditor によって検出された問題をデバッグしたり、実装に関する他の情報を調べたりします。
@@ -150,7 +150,7 @@ Adobe Target と Adobe Analytics およびその他の Experience Cloud ソリ�
 
 ## Adobe Experience Manager の統合 {#section_32FB010EF8B4429FBC63C8DC2A9BE98F}
 
-ヘルプ：[ソリューション統合](https://helpx.adobe.com/jp/experience-manager/6-2/sites/administering/user-guide.html?topic=%2Fexperience-manager%2F6-2%2Fsites%2Fadministering%2Fmorehelp%2Fintegration.ug.js)
+ヘルプ：[ソリューション統合](https://helpx.adobe.com/jp/experience-manager/6-2/sites/administering/user-guide.html?topic=/experience-manager/6-2/sites/administering/morehelp/integration.ug.js)
 
 AEM と他のソリューションおよびサードパーティのサービスと統合します。
 
@@ -182,11 +182,11 @@ Adobe Experience Manager（AEM）Assets 内のアセットを Adobe Creative Clo
 
 ## Advertising Cloud {#section_9B1935F8BBC147C89C6DB68A35CB1BAB}
 
-Help (login required): [Integration with Adobe Experience Cloud Solutions and Services](https://enterprise.efrontier.com/CMDashboard/help/internal/concepts_and_features/media_optimizer_integration_with_adobe_marketing_cloud.htm)
+ヘルプ（ログインが必要）：[Adobe Experience Cloud ソリューションおよびサービスとの統合](https://enterprise.efrontier.com/CMDashboard/help/internal/concepts_and_features/media_optimizer_integration_with_adobe_marketing_cloud.htm)
 
 **適用可能なソリューションまたはサービス**
 
-**Analytics** は、サイトエンゲージメントおよびコンバージョンデータを毎日 Media Manager に送信できます（Media Manager では、データを広告の最適化とレポート作成に使用します）。また、Media Manager は、検索エンジンおよびソーシャルネットワークのトラフィックデータを毎日 Analytics に送信できます（Analytics では、Reports &amp; Analytics、Report Builder および Ad Hoc Analysis の各機能でデータを利用できます）。
+**Analytics：** は、サイトエンゲージメントおよびコンバージョンデータを毎日 Media Manager に送信できます（Media Manager では、データを広告の最適化とレポート作成に使用します）。また、Media Manager は、検索エンジンおよびソーシャルネットワークのトラフィックデータを毎日 Analytics に送信できます（Analytics では、Reports &amp; Analytics、Report Builder および Ad Hoc Analysis の各機能でデータを利用できます）。
 
 **Dynamic Tag Manager：**&#x200B;検索、ソーシャル、ディスプレイ広告ランディングページ用に、サードパーティのトラッキングタグに加えて、[Dynamic Tag Manager を使用して、Media Manager のピクセルベースのコンバージョントラッキングタグを作成](https://docs.adobe.com/content/help/ja-JP/dtm/using/tools/media-optimizer.html)できます（また、Media Manager タグを Media Manager 内に直接作成できます）。
 
