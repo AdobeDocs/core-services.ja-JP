@@ -5,26 +5,26 @@ seo-title: Experience Cloud のコアサービスとユーザー管理
 solution: Experience Cloud
 title: Experience Cloud コアサービスについて
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '512'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
 # Experience Cloud について {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-Adobe Experience Cloud services include the [!UICONTROL People] (Audiences and Customer Attributes), Experience Platform Launch, and Mobile Services. また、Experience Cloudのユーザーおよび製品の管理に関するヘルプも参照できます。
+Adobe Experience Cloud サービスには、[!UICONTROL People]（Audiences と顧客属性）、Experience Platform Launch、Mobile Services などがあります。また、Experience Cloud のユーザーおよび製品の管理に関するヘルプも参照できます。
 
-Experience Cloud のこれらのサービスにアクセスするには、**[!UICONTROL アプリケーションセレクター]**![](assets/menu-icon.png) をクリックします。
+Experience Cloud のこれらのサービスにアクセスするには、**[!UICONTROL アプリケーションセレクター]** ![](assets/menu-icon.png) をクリックします。
 
 ![](assets/platform-core-services.png)
 
 >[!NOTE]
 >
->Experience Platformに関する製品ドキュメントは [こちら](https://docs.adobe.com/content/help/ja-JP/experience-platform/landing/home.html)。 [!UICONTROL Experience Platform開発者向けの技術ドキュメントは] 、 [Adobe.ioにあります](https://www.adobe.io/apis/experienceplatform/home/services.html)。
+>Experience Platform に関する製品ドキュメントは[こちら](https://docs.adobe.com/content/help/ja-JP/experience-platform/landing/home.html)を参照してください。[!UICONTROL Experience Platform] 開発者向けの技術ドキュメントは、[Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html) で参照できます。
 
 このヘルプでは、次の製品およびサービスについて説明します。
 
