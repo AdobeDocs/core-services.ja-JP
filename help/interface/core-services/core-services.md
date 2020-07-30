@@ -2,24 +2,24 @@
 description: Experience Cloud を実装して管理者になります。このプロセスでは、顧客属性やオーディエンスなどの機能に対応するようにソリューションを最新化します。
 keywords: core services;Customer Attributes
 seo-description: Experience Cloud を実装して管理者になります。このプロセスでは、顧客属性やオーディエンスなどの機能に対応するようにソリューションを最新化します。
-seo-title: 顧客属性やオーディエンスに対するExperience Cloudソリューションの有効化
+seo-title: 顧客属性やオーディエンスに対する Experience Cloud ソリューションを有効にする
 solution: Experience Cloud
 title: ソリューションのコアサービスへの対応
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a47dc66b51758ed7e6b465f35375f979b479672f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2402'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
 # クロスソリューションサービスの実装を有効にする
 
-Experience Platform Launchを使用してExperience Cloudを最近実装した場合、顧客属性とExperience Cloudオーディエンスは既に設定されています。 また、Admin Console内のユーザーや製品を管理することもできます。
+Experience Platform Launch を使用して Experience Cloud を最近実装した場合、顧客属性と Experience Cloud Audiences は既に設定されています。また、Admin Console でユーザーや製品を管理することもできます。
 
-既存のお客様の場合は、ソリューションの実装を最新化し、Experience Cloudを実装する必要がある場合があります。 これにより、アドビのAnalytics、Audience Manager、Adobe Target全体で顧客属性とオーディエンス機能を活用できます。 その方法として、以下をおこないます。
+既存のお客様の場合は、ソリューションの実装を最新化し、Experience Cloud を実装する必要が出る場合があります。これにより、Adobe Analytics、Audience Manager、Adobe Target 全体で顧客属性とオーディエンス機能を活用できます。その方法として、以下をおこないます。
 
 1. [Experience Cloud に加入して管理者になる](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Experience Cloud ID サービスを実装する](#section_3C9F6DF37C654D939625BB4D485E4354)
@@ -28,7 +28,7 @@ Experience Platform Launchを使用してExperience Cloudを最近実装した�
 1. [Adobe Target の実装を更新する](#section_C2F4493C7A36406DAE2266B429A4BD24)
 1. [実装の検証](#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [ユーザーと製品を管理する](#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
-1. [属性とオーディエンスデータの共有を開始](#section_960C06093623462E8EA247B3E97274A1)
+1. [属性とオーディエンスデータの共有を開始する](#section_960C06093623462E8EA247B3E97274A1)
 
 ## 手順 1.Experience Cloud に加入して管理者になる {#section_2423F0BD3DF642658103310EE5EA6154}
 
@@ -142,7 +142,7 @@ Experience Cloud サービス（Experience Cloud ID サービスや [!UICONTROL 
 
 * [!UICONTROL Experience Platform Launch] で [Adobe Target 拡張機能](https://docs.adobe.com/content/help/ja-JP/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html)を追加してライブラリの検索を自動化することをお勧めします。[!UICONTROL Experience Platform Launch] を使用して、[Experience Cloud ID サービス拡張機能](https://docs.adobe.com/content/help/ja-JP/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html)を Adobe Target（および他のソリューション）に設定することもできます。Adobe Target でコアサービスを使用するには、[!UICONTROL Experience Cloud ID サービス]のアップデートが&#x200B;**必要**&#x200B;です（[!UICONTROL Dynamic Tag Management] を使用する場合は、[Adobe Target ツール](https://docs.adobe.com/content/help/ja-JP/dtm/using/tools/target.html)を追加します。また、[!UICONTROL Dynamic Tag Management] を使用して、Experience Cloud ID サービスを Adobe Target 用にデプロイすることもできます）。
 * [!UICONTROL Experience Platform Launch] または [!UICONTROL Dynamic Tag Management] を使用しない場合は、手動で [mbox ライブラリを更新](https://docs.adobe.com/content/help/ja-JP/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html)します。
-* Adobe Analytics を [!DNL Adobe Target] のレポートソースとして使用するためのアクセスを要求します。[!DNL Target]処理中に同じサーバーコールで と のデータが結合され、これら 2 つのソリューション間で訪問者が接続されます。[!DNL Analytics][Target のための Analytics の実装に関する説明](https://docs.adobe.com/content/help/ja-JP/target/using/integrate/a4t/a4t.html)を参照してください。
+* Adobe Analytics を [!DNL Adobe Target] のレポートソースとして使用するためのアクセスを要求します。処理中に同じサーバーコールで [!DNL Target] と [!DNL Analytics] のデータが結合され、これら 2 つのソリューション間で訪問者が接続されます。[Target のための Analytics の実装に関する説明](https://docs.adobe.com/content/help/ja-JP/target/using/integrate/a4t/a4t.html)を参照してください。
 
    >[!IMPORTANT]
    >
@@ -189,7 +189,7 @@ Experience Cloud ID サービスをデプロイすると、新しい訪問者は
 
 [!UICONTROL 顧客属性]グループに追加されたユーザーには、Experience Cloud インターフェイスの左側に「[!UICONTROL 顧客属性]」メニュー項目が表示されます。
 
-## 手順 8.属性とオーディエンスデータの共有を開始 {#section_960C06093623462E8EA247B3E97274A1}
+## 手順 8.属性とオーディエンスデータの共有を開始する {#section_960C06093623462E8EA247B3E97274A1}
 
 次の機能を利用します。
 
