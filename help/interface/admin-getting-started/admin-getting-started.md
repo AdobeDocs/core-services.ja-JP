@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: Experience Cloud ユーザーと製品の管理
 index: true
 translation-type: tm+mt
-source-git-commit: 01277057733cb921ebfbb7e66a3e34cdd1e21829
+source-git-commit: 1d3f4449f1f3b939e5dc61ad9838475be73f0cfa
 workflow-type: tm+mt
 source-wordcount: '1455'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -29,16 +29,16 @@ Experience Cloud ユーザー管理の最新機能について説明します。
 
 <!-- ### Business ID type
 
-Adobe is introducing an identity type called _Business ID_. This identity type improves the control of user and product management. Adobe is migrating all Adobe IDs (owned by individuals) that are used for business to the new enterprise Business IDs owned by your organization.
+Adobe is introducing an identity type called Business ID. This identity type improves the control of user and product management. Adobe is migrating all Adobe IDs (owned by individuals) that are used for business to the new enterprise Business IDs owned by your organization.
 
-If you are an existing Experience Cloud customer, Adobe will migrate all your users on the Admin Console with Adobe IDs to Business IDs. If you are a new enterprise or teams customer, you will add users to the Admin Console using one of the available identity types: Business ID, Enterprise ID, or Federated ID.
-
-Beginning May 2020, enterprise administrators cannot use the Adobe ID for new organizations created in the Admin Console. Latest: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM
+If you are an existing Experience Cloud customer, Adobe will migrate all your users with Adobe IDs in the Admin Console to Business IDs. If you are a new enterprise or teams customer, you will add users to the Admin Console using one of the available identity types: Business ID, Enterprise ID, or Federated ID.
 
 What to do
 
 * Your users will need to accept Terms of Use (TOU) changes prior to accounts being migrated to Type2e. 
-* Users that belong to multiple organizations might see a Profile Selection screen during the login workflow and need to select the correct one. This ensures that they are logging into the correct organization. (There might be multiple profiles to choose from if a users was a member of multiple organizations before the migration.) -->
+* Users that belong to multiple organizations might see a Profile Selection screen during the login workflow and need to select the correct one. This ensures that they are logging into the correct organization. (There might be multiple profiles to choose from if a user was a member of multiple organizations before the migration.)
+
+Beginning May 2020, enterprise administrators cannot use the Adobe ID for new organizations created in the Admin Console. Latest: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM-->
 
 ### 管理ツール
 
@@ -112,11 +112,11 @@ Experience Platform Launch は、Admin Console の製品ページに表示され
 
 Admin Console のユーザー権限と Launch 固有のオプションの設定（プロファイルへの権限の割り当てなど）については、[ユーザー管理](https://docs.adobe.com/content/help/ja-JP/launch/using/reference/admin/user-permissions.html)を参照してください。
 
-## Adobe Experience Manager as a Cloud Service
+## クラウドサービスとしての Experience Manager
 
-Adobe Enterpriseのお客様は、Adobe Admin ConsoleではIMS組織として表されます。 これは、アドビのお客様がユーザーおよびグループの製品の権利付与を管理するために使用するポータルです。 AEMのお客様は、Adobe Admin Consoleを使用して、製品の権利付与や、AEMに対するクラウドサービスとしてのIMS認証を管理できます。
+法人のお客様は、Adobe Admin Console では IMS 組織として表されます。Admin Console は、アドビのお客様が自社製品に対するユーザーおよびグループの使用権限を管理するために使用するポータルです。AEM のお客様は、Adobe Admin Console を使用して、AEM as a Cloud Service に対する製品の使用権限や IMS 認証を管理できます。
 
-See [IMS Support for AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/ims-support.html#managing-products-and-user-access-in-admin-console).
+[AEM as a Cloud Service の IMS サポート ](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/security/ims-support.html#managing-products-and-user-access-in-admin-console)を参照してください。
 
 ## Dynamic Tag Manager {#section_3A41CF2BD5994B9891537D063571D4ED}
 
