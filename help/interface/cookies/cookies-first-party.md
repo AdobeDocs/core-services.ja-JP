@@ -7,10 +7,10 @@ solution: Experience Cloud,Analytics
 title: ファーストパーティ cookie
 index: y
 snippet: y
-translation-type: ht
-source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: ht
-source-wordcount: '1464'
+translation-type: tm+mt
+source-git-commit: f9e58c6d2054a5d53ea24831bf5979c2fc3dc53b
+workflow-type: tm+mt
+source-wordcount: '1462'
 ht-degree: 100%
 
 ---
@@ -90,7 +90,7 @@ FPC スペシャリストから、設定されたホスト名とホスト名で�
 
 実装コードが変更されない限り、この手順がデータ収集に影響を及ぼすことはなく、実装コードの更新後はいつでもおこなうことができます。
 
->[!N注意]
+>[!NOTE]
 >
 >Experience Cloud 訪問者 ID サービスは、ファーストパーティ cookie を有効にするように CNAME を設定する方法の代替手段となりますが、Apple ITP の最近の変更により、Experience Cloud ID サービスを使用する場合でも CNAME を割り当てることをお勧めします。
 
@@ -104,7 +104,7 @@ CNAME が設定され、証明書がインストールされている場合は�
 
 `https://sstats.adobe.com/_check`
 
->[!N注意：]
+>[!NOTE]
 >
 >証明書がインストールされていない場合は、セキュリティ警告が表示されます。
 
