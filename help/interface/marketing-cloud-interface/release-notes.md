@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: 累積リリースノート
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
+source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
 workflow-type: tm+mt
-source-wordcount: '3929'
-ht-degree: 98%
+source-wordcount: '3968'
+ht-degree: 99%
 
 ---
 
@@ -23,16 +23,22 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 
 すべてのソリューションを対象とするリリースノートについては、[Experience Cloud リリースノート](https://docs.adobe.com/content/help/ja-JP/release-notes/experience-cloud/current.html)を参照してください。
 
-## 2020年4月～
+## 2020年8月～
+
+| 機能 | 説明 |
+| -----------| ---------- |
+| 管理ツール — ポリシー | このページには、組織内のExperience Cloudポリシーの完全なリストが表示されます。 製品、インスタンス、ユーザー、開発者に関する情報を提供します。 ポリシーリストのカスタム表示を検索、並べ替えおよびフィルターできます。 詳しくは、[Experience Cloud 管理ツール](../admin-getting-started/admin-tool-experience-cloud.md)のヘルプを参照してください。 |
+
+## 2020 年 4月
 
 * Experience Cloud [!UICONTROL フィード]ページは非推奨になりました。（EXC-8505）
 * 新しいブランディング要素を反映するよう、Experience Cloud のログインページが更新されました。（EXC-10747）
 
-## 2020年2月～
+## 2020 年 2 月
 
 | 機能 | 説明 |
 | -----------| ---------- |
-| 管理ツール - ユーザーの詳細を表示 | 管理者は、新しい管理ツールで、すべての Experience Cloud ユーザーとその詳細に関する、並べ替え可能でフィルタリング可能なリストを表示できます。ユーザーの詳細には、ユーザーの製品アクセス、ロール、最終アクセス日が含まれます。詳しくは、[Experience Cloud 管理ツール](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html)のヘルプを参照してください。 |
+| 管理ツール - ユーザーの詳細を表示 | 管理者は、新しい管理ツールで、すべての Experience Cloud ユーザーとその詳細に関する、並べ替え可能でフィルタリング可能なリストを表示できます。ユーザーの詳細には、ユーザーの製品アクセス、ロール、最終アクセス日が含まれます。詳しくは、[Experience Cloud 管理ツール](../admin-getting-started/admin-tool-experience-cloud.md)のヘルプを参照してください。 |
 
 **修正点**
 
@@ -52,7 +58,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 
 ## 2019 年 4月
 
-* アプリを切り替えるメニューに Marketo が追加され、ブランディングが Experience Platform に更新されました。（MCUI-6529）
+* アプリを切り替えるメニューに Marketo が追加され、ブランディングが Experience Cloud に更新されました。（MCUI-6529）
 * Experience Cloud ホームが更新され、フィードおよび管理ページへのリンクが含まれるようになりました。（MCUI-6682）
 * [!UICONTROL トリガー]の定義の問題が修正され、「like」条件を正しく使用できるようになりました。（MCUI-6611）
 * 顧客属性が改善され、サブスクリプション設定が適切にログに記録されるようになりました。（MCUI-6519）
@@ -132,7 +138,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
  <tbody> 
   <tr> 
    <td colname="col1"> オーディエンスライブラリのメッセージ </td> 
-   <td colname="col2"> <p> オーディエンスの構築時またはタイムアウトの発生時に、役立つメッセージを表示するようにしました。 </p> <p>例えば、5 つを超えるルールを追加すると、許可されたルールの最大数を超えたことを示すメッセージが表示されます。（MAC-27376、MAC-27375） </p> </td> 
+   <td colname="col2"> <p> オーディエンスライブラリを改善し、ーディエンスの構築時またはタイムアウトの発生時に、役立つメッセージを表示するようにしました。 </p> <p>例えば、5 つを超えるルールを追加すると、許可されたルールの最大数を超えたことを示すメッセージが表示されます。（MAC-27376、MAC-27375） </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -150,18 +156,18 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 
 ## リリース 15.9 - 2015 年 9 月 11 日 {#section_BCCE3E7DF62A4FF5A57B9C8FE2A5F37B}
 
-* 顧客属性データのアップロード時に、断続的なタイムアウトが発生する、Audience Manager APIのパフォーマンスの問題を修正しました。 （MAC-26305）
-* 購読に最大200個の顧客属性を追加できない問題を修正しました。 （MAC-26188）
+* 顧客属性データをアップロードする際に、Audience Manager API で断続的なタイムアウトが発生するパフォーマンスの問題を修正しました。（MAC-26305）
+* 200 個の顧客属性を追加できなかった問題を修正しました。（MAC-26188）
 * オーディエンスライブラリで、オーディエンス共有が Analytics でセグメント化できなかった問題を修正しました。この問題が原因で、「データを収集中」（0 オーディエンス）と表示されていました。この問題を避けるために、セグメントあたりのオーディエンスメンバーが 50,000 人未満になるようにセグメントサイズを維持することをお勧めします。（MAC-25788）
 * 顧客属性のスキーマを編集ページで表示名を変更すると Content Aware（500）エラーが発生していた問題を修正しました。（MAC-25589、AN-103834）
 
 ## リリース 15.7 - 2015 年 7 月 23 日 {#section_2683A152176944E48EF6C943892975B7}
 
-* 表示/スキーマの編集ページ（顧客属性内）で指定した属性の説明がAnalyticsレポートで更新されない問題を修正しました。 （MAC-25985）
+* スキーマを表示 / 編集ページ（顧客属性）で指定された属性の説明が Analytics レポートで更新されなかった問題を修正しました。（MAC-25985）
 * アップロードしたアセットのサムネールが表示されない問題を修正しました。（MAC-25863）
-* Reports &amp; Analytics で作成された新しいセグメントが Experience Cloud オーディエンスで使用できなかった問題を修正しました。（MAC-25817）
+* Reports &amp; Analytics で作成された新しいセグメントが Experience Cloud Audiences で使用できなかった問題を修正しました。（MAC-25817）
 * 訪問者 ID サービスを使用する際に、Analytics からオーディエンスを共有できなかった問題を修正しました。（MAC-25788、MAC-25747）
-* 顧客属性でマルチバイト文字のサポートが追加されました。 （MAC-25552）
+* 顧客属性でのマルチバイト文字のサポートが追加されました。（MAC-25552）
 
 **既知の問題**
 
@@ -185,7 +191,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
    <td colname="col1"> <p> </p> </td> 
    <td colname="col2"> <p>左側のナビゲーションメニューが更新、整理され、すべてのコアサービスとソリューションにアクセスできるようになりました。重要な変更点は次のとおりです。 </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
-     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">「<span class="term">オーディエンスライブラリ</span>」メニューと「<span class="term">顧客属性</span>」メニューの選択は、<span class="term">オーディエンス</span>の下に移動されました。 </li> 
+     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">「<span class="term">オーディエンスライブラリ</span>」メニューと「<span class="term">顧客属性</span>」メニューの選択は、<span class="term">Audiences</span> の下に移動されました。 </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4"><span class="term">Exchange</span> へのリンクは、ヘルプドロップダウンメニューから左側のナビゲーションパネルに移動されました。 </li> 
      <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term">ソリューション</span>は削除されました。ナビゲーションパネルの下側から、すべてのソリューションを起動できます。 </li> 
     </ul> </td> 
@@ -193,7 +199,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
  </tbody> 
 </table>
 
-* 一部の顧客の顧客属性が同期できない問題を修正しました。
+* 一部の顧客の顧客属性を同期できなかった問題を修正しました。
 * [Adobe Target 製品ドキュメント](https://docs.adobe.com/content/help/ja-JP/target/using/integrate/a4t/a4t.html)ページが日本語で表示されなかった問題を修正しました。
 * [!DNL Creative Cloud] と [!DNL Experience Cloud] の間のコメントで日本語のテキストが使用できなかった問題を修正しました。
 
@@ -439,7 +445,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 * ファイルをアップロードした方が、ドラッグ＆ドロップよりも多くのファイルタイプを使用できます。最も良い結果を得るには、[!UICONTROL Assets] を使用してアップロードしてください。
 * [!DNL Search&Promote] リンクが[!UICONTROL 組織と製品へのアクセス]ページから利用できません。
 * [!DNL Exchange] ユーザーは、エクスペリエンスを改善するために Cookie を消去する必要があります。
-* 多くのユーザーが同時に使用すると、[!DNL Experience Cloud] インターフェイスのパフォーマンスが遅くなる可能性があります。
+* 多くのユーザーが同時に使用すると、[!DNL Experience Cloud] インターフェイスのパフォーマンスが遅くなる可能性があった問題を修正しました。
 * [!DNL Experience Cloud] でコンテンツが共有されていない場合、[!DNL Creative Cloud] コンテンツが一部のユーザーのフォルダーから削除されることがあります。
 * 無操作状態が 15 分間続くとログアウトします。また、ある場所でログアウトすると、[!DNL Experience Cloud] からログアウトします。
 * 一部のユーザーは、Audience Manager アカウントを [!DNL Experience Cloud] にリンクできない可能性があります。
@@ -501,8 +507,8 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
    <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span>／<span class="uicontrol">ヘルプ</span>／<span class="uicontrol">Exchange</span></p> <p><span class="keyword">Experience Cloud</span> <span class="wintitle">Exchange</span> にアクセスすると、各種の連携ツールの検索、参照、選択、支払いおよびダウンロードをおこなえます。 </p> <p>Data Connectors、アドビのコア製品のカスタム設定、サードパーティアプリケーション、レポート、<span class="keyword">Experience Cloud</span> カードなどが含まれます。 </p> <p><a href="../exchange.md#concept_E07F16F070544B82B56527A845C41D59" format="dita" scope="local"> Exchange Marketplace</a> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Experience Cloud オーディエンス </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span>／<span class="uicontrol">オーディエンス</span></p> <p> <span class="wintitle">オーディエンス</span>では、セグメントの操作と同様に、オーディエンスを作成、編集および管理できます。例えば、Reports &amp; Analytics でセグメントを作成して、<span class="wintitle">Experience Cloud</span> <span class="wintitle">オーディエンス</span>と共有できます。共有すると、オーディエンスを <span class="keyword">Adobe Target</span> でキャンペーンアクティビティに使用したり、Adobe Audience Manager でセグメント化に使用したりできます。 </p> <p> <p>Target での有効化をリクエストするには、<a href="https://www.adobe.com/go/audiences" format="http" scope="external">https://www.adobe.com/go/audiences</a> にアクセスしてください。 </p> </p> </td> 
+   <td colname="col1"> <p>Experience Cloud Audiences </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud </span>／<span class="uicontrol"> Audiences</span></p> <p> <span class="wintitle">Audiences</span> では、セグメントの操作と同様に、オーディエンスを作成、編集および管理できます。例えば、Reports &amp; Analytics でセグメントを作成して、<span class="wintitle">Experience Cloud</span> <span class="wintitle">Audiences</span> と共有できます。共有すると、オーディエンスを <span class="keyword">Adobe Target</span> でキャンペーンアクティビティに使用したり、Adobe Audience Manager でセグメント化に使用したりできます。 </p> <p> <p>Target での有効化をリクエストするには、<a href="https://www.adobe.com/go/audiences" format="http" scope="external">https://www.adobe.com/go/audiences</a> にアクセスしてください。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
