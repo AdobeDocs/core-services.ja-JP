@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: ドキュメントの更新 - Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: 39e3b77f19020cffd1bc0218f120f306d676380b
+source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 84%
+source-wordcount: '263'
+ht-degree: 95%
 
 ---
 
@@ -19,16 +19,20 @@ ht-degree: 84%
 
 Experience Cloud 製品ドキュメントの更新に関する情報です。
 
-**更新日： 2020年5月19日**
+**更新：2020 年 8 月 20 日**
+
+表示 [Experience Cloudユーザーの詳細（管理ツール）をポリシー情報に更新し](admin-getting-started/admin-tool-experience-cloud.md) ました。
+
+**更新：2020 年 5 月 20 日**
 
 オファー管理に関するドキュメントが廃止されました。
 
-**更新日： 2020年5月15日**
+**更新：2020 年 5 月 16 日**
 
-次のページを追加しました。
+次のページが追加されました：
 
-* [全般的なデータ保護規制のサポート](attributes/gdpr.md)
-* [カリフォルニア消費者プライバシー法の支援](attributes/ccpa.md)
+* [EU 一般データ保護規則のサポート](attributes/gdpr.md)
+* [カリフォルニア消費者プライバシー法のサポート](attributes/ccpa.md)
 
 **更新：2020 年 3 月 11 日**
 
@@ -44,7 +48,7 @@ Experience Cloud 製品ドキュメントの更新に関する情報です。
 
 **更新：2018 年 6 月 9 日**
 
-Updated [About data file and data sources for Customer Attributes](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) with information about uploading multiple files.
+複数のファイルのアップロードについての情報を用いて、[顧客属性のデータファイルとデータソースについて](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)を更新しました。
 
 **更新：2018 年 6 月 7 日**
 
@@ -96,9 +100,9 @@ Updated [About data file and data sources for Customer Attributes](attributes/cr
 
 **更新：2014 年 5 月 23 日**
 
-オーディエンス用のドキュメントが追加されました。
+Audiences 用のドキュメントが追加されました。
 
-[オーディエンス](audience-library/audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)を参照してください。
+[Audiences](audience-library/audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7) を参照してください。
 
 **更新：2014 年 5 月 23 日**
 
