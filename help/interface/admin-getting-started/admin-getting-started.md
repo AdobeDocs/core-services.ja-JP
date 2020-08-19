@@ -6,9 +6,9 @@ seo-title: Experience Cloud ユーザーと製品の管理
 solution: Experience Cloud
 title: Experience Cloud ユーザーと製品の管理
 index: true
-translation-type: ht
-source-git-commit: 1d3f4449f1f3b939e5dc61ad9838475be73f0cfa
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
+workflow-type: tm+mt
 source-wordcount: '1455'
 ht-degree: 100%
 
@@ -94,6 +94,7 @@ Analytics 管理者がユーザーアカウントを Analytics User Management �
 Adobe Target では、ワークスペースが製品プロファイルになります。組織でワークスペースを使用すると、特定のユーザーセットを特定のプロパティセットに割り当てることができます。多くの点で、ワークスペースは Adobe Analytics のレポートスイートに似ています。
 
 以下を参照してください。
+
 * [Enterprise ユーザーの権限](https://docs.adobe.com/content/help/ja-JP/target/using/administer/manage-users/enterprise/property-channel.html)
 * [製品およびプロファイルの管理](https://helpx.adobe.com/jp/enterprise/using/manage-products-and-profiles.html)
 * ビデオ：[Adobe Admin Console で Adobe Target ワークスペースを設定する方法](https://helpx.adobe.com/jp/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
