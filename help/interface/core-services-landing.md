@@ -5,11 +5,11 @@ seo-title: Experience Cloud のコアサービスとユーザー管理
 solution: Experience Cloud
 title: Experience Cloud コアサービスについて
 index: true
-translation-type: ht
-source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: ht
-source-wordcount: '512'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
+workflow-type: tm+mt
+source-wordcount: '516'
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ Experience Cloud のこれらのサービスにアクセスするには、**[!UI
 | [Activation](activation/activation.md) | タグ管理システム（Experience Platform Launch および Dynamic Tag Management）<br>Triggers を使用すると、Adobe Campaign で Adobe Analytics のインサイトに基づいてリアルタイムでアクションを実行できます。 |
 | [管理](admin-getting-started/admin-getting-started.md) | アドビが提供するすべてのクラウドとソリューションにわたってユーザーと製品使用権限を管理します。 |
 | [Assets](experience-cloud-assets/experience-cloud-assets.md) | すべてのデジタルアセットの保存、同期、共有を一元的に容易におこなうことで、時間を節約して、より一貫したカスタマーエクスペリエンスを提供します。 |
-| [Experience Platform Launch](https://docs.adobe.com/content/help/ja-JP/launch/using/overview.html) | [!UICONTROL Experience Platform Launch] は、アドビが提供する次世代タグ管理機能です。[!UICONTROL Experience Platform] Launch は、顧客体験の実現に必要なすべての分析、マーケティングおよび広告のタグをデプロイおよび管理するためのシンプルな手段を提供します。 |
+| [Experience Platform Launch](https://docs.adobe.com/content/help/ja-JP/launch/using/overview.html) | [!UICONTROL Experience Platform Launch] は、サイトやアプリの次世代のデータ収集およびテクノロジー実装です。 [!UICONTROL Experience Platform] Launch は、顧客体験の実現に必要なすべての分析、マーケティングおよび広告のタグをデプロイおよび管理するためのシンプルな手段を提供します。 |
 | [Journey Orchestration](https://docs.adobe.com/content/help/ja-JP/journeys/using/journey-orchestration-home.html) | イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築できます。[!UICONTROL Journey Orchestration] は、Experience Platform と統合されたアプリケーションサービスです。 |
 | [ロケーションサービス](https://docs.adobe.com/content/help/ja-JP/places/using/home.html) | Adobe [!UICONTROL Experience Platform ロケーションサービス]（以下、ロケーションサービス）は、ロケーション認識が可能なモバイルアプリで、機能豊富な使いやすい SDK インターフェイスと目標地点（POI）の柔軟なデータベースを使用して場所のコンテキストを理解できるようにする位置情報サービスです。 |
 | [Exchange](exchange.md) | アプリを介して、Digital Marketing の機能強化の検索、参照、選択、支払いおよびダウンロードをおこないます。 |
