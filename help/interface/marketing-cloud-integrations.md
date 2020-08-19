@@ -6,11 +6,11 @@ seo-title: Experience Cloud の統合
 solution: Experience Cloud
 title: Experience Cloud の統合
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
-translation-type: ht
-source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: ht
-source-wordcount: '1521'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
+workflow-type: tm+mt
+source-wordcount: '1523'
+ht-degree: 98%
 
 ---
 
@@ -119,7 +119,7 @@ Experience Cloud ソリューションや他の外部システムのデータを
 
 Experience Cloud Activation ソリューションを使用して、Experience Cloud ソリューションの設定とデバッグをおこないます。
 
-1. [Launch](https://docs.adobe.com/content/help/ja-JP/launch/using/overview.html) または [Dynamic Tag Management](https://docs.adobe.com/content/help/ja-JP/dtm/using/dtm-home.html) を使用して、ページ上で [Adobe Experience Cloud ソリューション](solutions-core-services.md#topic_BD726D3A649E4FC49063029E86B70C62)をアクティベートするコードを挿入します。
+1. [Experience Platform Launch](https://docs.adobe.com/content/help/ja-JP/launch/using/overview.html) または [Dynamic Tag Management](https://docs.adobe.com/content/help/ja-JP/dtm/using/dtm-home.html) を使用して、ページ上の [](solutions-core-services.md#topic_BD726D3A649E4FC49063029E86B70C62) Adobe Experience Cloudソリューションをアクティブにするコードを挿入します。
 1. [Adobe Cloud Platform Auditor](https://docs.adobe.com/content/help/ja-JP/auditor/using/overview.html) を使用して実装をテストします。
 
 Adobe Experience Cloud Debugger 拡張機能を使用して、Auditor によって検出された問題をデバッグしたり、実装に関する他の情報を調べたりします。
