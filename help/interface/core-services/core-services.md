@@ -6,9 +6,9 @@ seo-title: 顧客属性やオーディエンスに対する Experience Cloud ソ
 solution: Experience Cloud
 title: ソリューションのコアサービスへの対応
 index: true
-translation-type: ht
-source-git-commit: a47dc66b51758ed7e6b465f35375f979b479672f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
+workflow-type: tm+mt
 source-wordcount: '2402'
 ht-degree: 100%
 
