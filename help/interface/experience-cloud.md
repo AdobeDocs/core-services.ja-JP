@@ -6,16 +6,16 @@ seo-title: Adobe Experience Cloud およびコアサービスのヘルプと製�
 solution: Adobe Experience Cloud
 title: Experience Cloud とコアサービスのヘルプ
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: ht
-source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: ht
-source-wordcount: '405'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f3c71939325689efa64f5bb8b3a4ff62bbbebed0
+workflow-type: tm+mt
+source-wordcount: '403'
+ht-degree: 99%
 
 ---
 
 
-# Experience Cloudインターフェース製品ドキュメント
+# Experience Cloud インターフェイスドキュメント
 
 Experience Cloud には、アドビが提供するデジタルマーケティングソリューションおよびサービスが統合されています。また、Experience Cloud は、クラウドソリューションやコアサービスにすばやくアクセスできる直感的なインターフェイスでもあります。
 
@@ -23,9 +23,9 @@ Experience Cloud には、アドビが提供するデジタルマーケティン
 
 このページからは、次の機能およびサービスに関する製品ドキュメントにアクセスできます。
 
-* [オーディエンスライブラリ](audience-library/audience-library.md)
-* [顧客属性](attributes/attributes.md)
-* [Triggers](activation/triggers.md)
+* [[!UICONTROL オーディエンスライブラリ]](audience-library/audience-library.md)
+* [[!UICONTROL 顧客属性]](attributes/attributes.md)
+* [[!UICONTROL Triggers]](activation/triggers.md)
 * [Experience Cloud Assets](experience-cloud-assets/experience-cloud-assets.md)
 * [Experience Cloud の cookie](cookies/cookies-privacy.md)
 
@@ -51,10 +51,10 @@ Experience Cloud には、アドビが提供するデジタルマーケティン
 * [エクスペリエンスブログ](https://theblog.adobe.com/customer-experience/) - Experience Cloud のブログを読む
 * [カスタマーケア](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html) - アドビカスタマーケアに問い合わせる
 
-## Experience Platform 製品ドキュメント
+## Experience Platform ドキュメント
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/ja-JP/mobile-services/using/home.html)
-* [オーディエンス](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/audience-library.html)
+* [[!UICONTROL オーディエンス]](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/audience-library.html)
 * [Assets](experience-cloud-assets/experience-cloud-assets.md)
 * [顧客属性](https://docs.adobe.com/content/help/ja-JP/core-services/interface/customer-attributes/attributes.html)
 * [Device Co-op](https://docs.adobe.com/content/help/ja-JP/device-co-op/using/home.html)
