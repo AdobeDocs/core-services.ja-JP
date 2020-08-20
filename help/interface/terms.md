@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: 用語
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: c00eb57a226945f71307b33afdf147c93334c083
 workflow-type: tm+mt
 source-wordcount: '1474'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -21,12 +21,12 @@ Experience Cloud ユーザー向けの用語リファレンスと、これらの
 
 | 用語 | Creative Cloud | Experience Cloud |
 |--- |----- |---- |
-| アセット | Creative Cloud では通常、アセットは画像ファイルです。<br>Photoshop ファイルのレイヤー、PowerPoint ファイルのスライド、PDF のページおよび ZIP 内のファイルがアセットになることもあります。 | Experience Cloud では、アセットは、デジタルドキュメント、画像、ビデオまたはオーディオで、複数のレンディションを持つことができ、サブアセットを持つことができます。以下に例を示します。<ul><li>ファイル</li><li>ドキュメント</li><li>画像</li><li>ビデオ</li><li>Audioクリップ</li><li>プレゼンテーション</li><li>画像テンプレート</li><li>ビデオテンプレート</li></ul> |
+| アセット | Creative Cloud では通常、アセットは画像ファイルです。<br>Photoshop ファイルのレイヤー、PowerPoint ファイルのスライド、PDF のページおよび ZIP 内のファイルがアセットになることもあります。 | Experience Cloud では、アセットは、デジタルドキュメント、画像、ビデオまたはオーディオで、複数のレンディションを持つことができ、サブアセットを持つことができます。以下に例を示します。<ul><li>ファイル</li><li>ドキュメント</li><li>画像</li><li>Video</li><li>オーディオクリップ</li><li>プレゼンテーション</li><li>画像テンプレート</li><li>ビデオテンプレート</li></ul> |
 | 属性 |  | [セグメント](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/seg-home.html)に適合する顧客の共通点です（Audience Manager の[特性](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/aam-glossary.html#s-t)と似ています）。 |
-| オーディエンス | Creative Cloud では、オーディエンスはビデオを閲覧するユーザーとすることができます。 | Experience Cloudでは、オーディエンスはキャンペーンアクティビティでターゲットできる人の集まりです。<br>オーディエンスのメンバーかどうかは、訪問者のコンテキストに影響を与える一連のルールまたは固定リストに基づいて判断できます。例えば、電子メール登録者のリストや、Facebook グループのメンバーなどです。<br>[Experience Cloudオーディエンスでは](audience-library/audience-library.md)、オーディエンスの作成と管理はセグメントの作成と使用と似ていますが、加えて、Experience Cloudと共有できます。<br>**Adobe **<br>TargetAdobe Targetでは、オーディエンスは、以前はセグメントと呼ばれていました。<br>**Adobe**<br> Analytics Analyticsでは、オーディエンスはWebサイトへの訪問者と見なすことができます。 オーディエンスセグメントを作成し、オーディエンスを Experience Cloud に公開できます。 |
+| オーディエンス | Creative Cloud では、オーディエンスはビデオを閲覧するユーザーとすることができます。 | Experience Cloud では、オーディエンスは、キャンペーンアクティビティの対象となり得る人の集まりです。<br>オーディエンスのメンバーかどうかは、訪問者のコンテキストに影響を与える一連のルールまたは固定リストに基づいて判断できます。例えば、電子メール登録者のリストや、Facebook グループのメンバーなどです。<br>[Experience Cloud Audiences](audience-library/audience-library.md) では、Audiences の作成と管理はセグメントの作成と使用と似ていますが、さらにそれらを Experience Cloud で共有できます。<br>**Adobe Target**<br> Adobe Target では、Audiences は、以前セグメントと呼ばれていました。<br>**Adobe Analytics**<br> Analytics では、Audiences は Web サイトの訪問者と考えることができます。オーディエンスセグメントを作成し、オーディエンスを Experience Cloud に公開できます。 |
 | キャンペーン | Creative Cloud では、キャンペーンは、Creative Cloud 画像アセットを使用するマーケティングキャンペーンのことだと考えられます。 | Experience Cloud では、キャンペーンは、オーディエンスにどのコンテンツを表示するかを決定します。また、コンテンツをどこ（場所）にいつ表示するかを決定します。キャンペーンには具体的な目標があり、それは指標で追跡されます。<br>キャンペーンの実行には、訪問者のコンテキストとキャンペーンのルールセットを一致させ、キャンペーンの展開先チャネルの技術上の制限に従ってコンテンツを配信する必要があります。<br>Adobe Target では、キャンペーンとアクティビティは同義語です。 |
 | チャネル | Creative Cloud では、チャネルは様々な種類の情報を格納するグレースケール画像であることがあります。情報チャネルとカラーチャネルがあります。 | Experience Cloud では、チャネルは、場所の属性またはキャンペーンのアクティビティを指します。<br>Analytics では、マーケティングチャネルは、サイトに訪問者がどのように到達するか（電子メール経由など）を把握するために一般に使用されます。<br> 以下に例を示します。<ul><li>電子メール</li><li>ディスプレイ広告</li><li>SNS</li><li>有料検索</li><li>自然検索</li><li>参照ドメイン</li></ul> |
-| コンテキスト | 通常は、選択または実行中のタスクに関連して使用可能なメニューまたは情報を指します。 | コンテキストは、訪問者の現在のインタラクションの詳細をデジタルプロパティと併せて説明します。コンテキストの例としては、マウスの位置、フォームフィールドの状態、買い物かごの値または使用されているデバイスがあります。<br>[Dynamic Tag Management](https://docs.adobe.com/content/help/ja-JP/dtm/using/dtm-home.html) は、今日の市場で最も堅牢なコンテキスト検出およびサービスアクティブ化機能を備え、プロファイルおよびオーディエンスサービスのコンテキストコンポーネントを提供します。 |
+| コンテキスト | 通常は、選択または実行中のタスクに関連して使用可能なメニューまたは情報を指します。 | コンテキストは、訪問者の現在のインタラクションの詳細をデジタルプロパティと併せて説明します。コンテキストの例としては、マウスの位置、フォームフィールドの状態、買い物かごの値または使用されているデバイスがあります。<br>[Dynamic Tag Management](https://docs.adobe.com/content/help/ja-JP/dtm/using/dtm-home.html) は、今日の市場で最も堅牢なコンテキストアクティベーションおよびサービス検出機能を提供し、プロファイルおよびオーディエンスサービスのコンテキストコンポーネントを提供します。 |
 | 消費者 ID | 特別な用法はありません。 | Device Co-op メンバーが個人を認識するために使用する ID です。この番号はブランドによって割り当てられ、多くの場合 CRM システムで維持管理されます。**注意：**&#x200B;消費者 ID を Experience Cloud に送信する [Experience Cloud ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/about-id-service.html)関数呼び出しである _setCustomerIDs_ と混同しないでください。 |
 | コンテンツ | Creative Cloud では、コンテンツは、ページ上のテキストと画像を指します。この用語は、Creative と Experience Clouds で同じように使用されています。 | Experience Cloud ではコンテンツとはマーケティングコンテンツを指し、特定の目標を達成するためにキャンペーンの一部として使用されることがあります。<br>コンテンツは、特定の場所に使用され、アセットで構成することができます。コンテンツには、構造化されているもの（製品情報など）も、構造化されていないもの（モバイルアプリの Web ページや画面など）もあります。<br> 以下に例を示します。<ul><li>Web ページ</li><li>バナー</li><li>ステータスの更新状況</li><li>コメント</li><li>テキスト広告</li><li>製品情報</li><li>製品レビュー</li><li>フォームデータ</li><li>検索インデックス内のドキュメント</li><li>Social への投稿</li><li>記事</li><li>公開物</li></ul> |
 | ダッシュボード | 特別な用法はありません。 | 複数の主要指標を 1 つのビューで表示するデータ視覚化機能の集まりです。 |
@@ -36,8 +36,8 @@ Experience Cloud ユーザー向けの用語リファレンスと、これらの
 | [!UICONTROL Experience Cloud ID サービス]（ECID） | 特別な用法はありません。 | サイト訪問者に割り当てられる一意の永続的な ID。Experience Platform ID サービスで使用できる特定のエンティティです。[詳細情報...](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html) |
 | [!UICONTROL Experience Platform ID サービス] | 特別な用法はありません。 | ID をリンクするサービス。ユーザーベースのエクスペリエンス管理を実現するための、デバイスリンクサービスです。 |
 | リンク | 特別な用法はありません。リンクは、ハイパーリンクナビゲーションや、フォント、プロパティ、レイヤーなどのアイテムをリンクすることを指します。 | Experience Cloud では、リンクは通常、様々なソリューションアカウントとインターフェイスのリンクを表します。<br>[組織とアカウントのリンク](admin-getting-started/organizations.md)を参照してください。<br>リンクは、他のユーザーに送信される Analytics レポートの標準的な URL を指す場合もあります。 |
-| 場所 | Creative Cloud では、場所はファイルの場所、または開いている画像やドキュメント上の場所を指します。 | Experience Cloud では、場所とは、コンテンツがオーディエンスに表示される場所のことです。オーディエンスとのやり取りがおこなわれる場合もあります。場所とコンテンツの関係は、ある程度静的に固定することも、キャンペーンのルールに従って動的に管理することもできます。場所は必ず、特定のチャネルに属しています。このチャネルによってコンテンツの配信方法と指標の収集方法が決まります。<br> 以下に例を示します。<ul><li>サイト</li><li>プロパティ（Social）</li><li>ディスプレイインベントリ</li><li>ランディングページ</li><li>モバイルアプリ</li><li>スロット（動画）</li></ul> |
-| 指標 | 通常、Creative Cloud では使用されません。 | 主要概念や目標に関する数値の集計です。Analytics では、指標は、ビュー数、クリックスルー数、リロード数、平均滞在時間、数量、注文件数、売上高など、訪問者の行動に関する量的な情報を指します。詳しくは、[指標の説明](https://docs.adobe.com/content/help/ja-JP/analytics/components/variables/metrics/metricslist.html)を参照してください。 |
+| 場所 | Creative Cloud では、場所はファイルの場所、または開いている画像やドキュメント上の場所を指します。 | Experience Cloud では、場所とは、コンテンツがオーディエンスに表示される場所のことです。Audiences とのやり取りがおこなわれる場合もあります。場所とコンテンツの関係は、ある程度静的に固定することも、キャンペーンのルールに従って動的に管理することもできます。場所は必ず、特定のチャネルに属しています。このチャネルによってコンテンツの配信方法と指標の収集方法が決まります。<br> 以下に例を示します。<ul><li>サイト</li><li>プロパティ（Social）</li><li>ディスプレイインベントリ</li><li>ランディングページ</li><li>モバイルアプリ</li><li>スロット（動画）</li></ul> |
+| 指標 | 通常、Creative Cloud では使用されません。 | 主要概念や目標に関する数値の集計です。Analytics では、指標は、ビュー数、クリックスルー数、リロード数、平均滞在時間、数量、注文件数、売上高など、訪問者の行動に関する量的な情報を指します。詳しくは、[指標の説明](https://docs.adobe.com/content/help/ja-JP/analytics/components/metrics/overview.html)を参照してください。 |
 | 組織 | 通常、Creative Cloud では使用されません。 | 組織とは、管理者がユーザーおよび製品を設定し、Experience Cloud でのシングルサインオンを制御するために使用する Experience Cloud エンティティです。多くの場合、課金会社が組織になります。 |
 | ポートフォリオ | 複数のファイルやアセットの集合です。 | キャンペーンのコンテナです。 |
 | 製品プロファイル | [製品およびプロファイルの管理](https://helpx.adobe.com/jp/enterprise/using/manage-products-and-profiles.html)を参照してください。 | 製品またはサービスを利用する資格をユーザーに付与するには、そのユーザーを製品プロファイルに追加する必要があります。製品管理者は、購入されたプランに製品プロファイルを関連付けることによって製品プロファイルにライセンスを割り当てます。<br>ユーザーには複数の製品プロファイルを割り当てることができ、各プロファイルで異なるライセンスをユーザーに付与することができます。ユーザーの最終的な資格は、そのユーザーに割り当てられた各製品プロファイルで付与されているライセンスをすべて合わせたものとなります。 |
