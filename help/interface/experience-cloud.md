@@ -7,10 +7,10 @@ solution: Adobe Experience Cloud
 title: Experience Cloud とコアサービスのヘルプ
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: f3c71939325689efa64f5bb8b3a4ff62bbbebed0
+source-git-commit: 8e165bb47d7e947b817c51e496c3e493cb02d4fc
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 99%
+source-wordcount: '392'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ Experience Cloud には、アドビが提供するデジタルマーケティン
 * [[!UICONTROL オーディエンスライブラリ]](audience-library/audience-library.md)
 * [[!UICONTROL 顧客属性]](attributes/attributes.md)
 * [[!UICONTROL Triggers]](activation/triggers.md)
-* [Experience Cloud Assets](experience-cloud-assets/experience-cloud-assets.md)
+* [[!UICONTROL Experience Cloud Assets]](experience-cloud-assets/experience-cloud-assets.md)
 * [Experience Cloud の cookie](cookies/cookies-privacy.md)
 
 ## ユーザーおよび製品の管理
@@ -37,8 +37,7 @@ Experience Cloud には、アドビが提供するデジタルマーケティン
 * [組織とアカウントのリンク](admin-getting-started/organizations.md)
 * [統合](marketing-cloud-integrations.md)
 * [Adobe Target と Experience Cloud の統合](https://docs.adobe.com/content/help/ja-JP/target/using/integrate/a4t/a4t.html)
-* [Experience Cloud のプライバシーとセキュリティの概要](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
-* [Adobe Experience Cloud でのプロファイル管理](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/)（ブログ）
+* [Experience Cloudのプライバシーとセキュリティの概要](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [DNS プリフェッチ](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
 ## 関連する Experience Cloud ヘルプ
@@ -55,14 +54,11 @@ Experience Cloud には、アドビが提供するデジタルマーケティン
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/ja-JP/mobile-services/using/home.html)
 * [[!UICONTROL オーディエンス]](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/audience-library.html)
-* [Assets](experience-cloud-assets/experience-cloud-assets.md)
-* [顧客属性](https://docs.adobe.com/content/help/ja-JP/core-services/interface/customer-attributes/attributes.html)
+* [[!UICONTROL 顧客属性]](https://docs.adobe.com/content/help/ja-JP/core-services/interface/customer-attributes/attributes.html)
 * [Device Co-op](https://docs.adobe.com/content/help/ja-JP/device-co-op/using/home.html)
-* [Dynamic Tag Management](https://docs.adobe.com/content/help/ja-JP/dtm/using/dtm-home.html)
 * [Exchange](https://experiencecloud.adobeexchange.com/)
 * [Experience Cloud ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)
 * [Experience Platform Launch](https://docs.adobe.com/content/help/ja-JP/launch/using/overview.html)
 * [Experience Cloud デバッガー](https://docs.adobe.com/content/help/ja-JP/debugger/using/experience-cloud-debugger.html)
 * [一般データ保護規則（GDPR）API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
-
-
+* [[!UICONTROL Dynamic Tag Management]](https://docs.adobe.com/content/help/ja-JP/dtm/using/dtm-home.html)
