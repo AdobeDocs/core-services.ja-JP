@@ -6,16 +6,16 @@ seo-title: Adobe Experience Cloud およびコアサービスのヘルプと製�
 solution: Adobe Experience Cloud
 title: Experience Cloud とコアサービスのヘルプ
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8e165bb47d7e947b817c51e496c3e493cb02d4fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '392'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Experience Cloud インターフェイスドキュメント
+# Experience Cloudインターフェイスドキュメント
 
 Experience Cloud には、アドビが提供するデジタルマーケティングソリューションおよびサービスが統合されています。また、Experience Cloud は、クラウドソリューションやコアサービスにすばやくアクセスできる直感的なインターフェイスでもあります。
 
@@ -26,7 +26,7 @@ Experience Cloud には、アドビが提供するデジタルマーケティン
 * [[!UICONTROL オーディエンスライブラリ]](audience-library/audience-library.md)
 * [[!UICONTROL 顧客属性]](attributes/attributes.md)
 * [[!UICONTROL Triggers]](activation/triggers.md)
-* [[!UICONTROL Experience Cloud Assets]](experience-cloud-assets/experience-cloud-assets.md)
+* [Experience Cloud [!UICONTROL Assets]](experience-cloud-assets/experience-cloud-assets.md)
 * [Experience Cloud の cookie](cookies/cookies-privacy.md)
 
 ## ユーザーおよび製品の管理
@@ -37,7 +37,7 @@ Experience Cloud には、アドビが提供するデジタルマーケティン
 * [組織とアカウントのリンク](admin-getting-started/organizations.md)
 * [統合](marketing-cloud-integrations.md)
 * [Adobe Target と Experience Cloud の統合](https://docs.adobe.com/content/help/ja-JP/target/using/integrate/a4t/a4t.html)
-* [Experience Cloudのプライバシーとセキュリティの概要](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
+* [Experience Cloud のプライバシーとセキュリティの概要](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [DNS プリフェッチ](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
 ## 関連する Experience Cloud ヘルプ
