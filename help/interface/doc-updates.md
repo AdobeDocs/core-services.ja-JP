@@ -6,11 +6,11 @@ seo-title: ドキュメントの更新 - Experience Cloud
 solution: Experience Cloud
 title: ドキュメントの更新 - Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '263'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Experience Cloud 製品ドキュメントの更新に関する情報です。
 
 **更新：2020 年 8 月 20 日**
 
-表示 [Experience Cloudユーザーの詳細（管理ツール）をポリシー情報に更新し](admin-getting-started/admin-tool-experience-cloud.md) ました。
+[Experience Cloud ユーザーの詳細の表示（管理ツール）](admin-getting-started/admin-tool-experience-cloud.md)をポリシー情報に更新しました。
 
 **更新：2020 年 5 月 20 日**
 
