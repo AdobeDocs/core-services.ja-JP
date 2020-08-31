@@ -6,9 +6,9 @@ seo-title: Experience Cloud ユーザーと製品の管理
 solution: Experience Cloud
 title: Experience Cloud ユーザーと製品の管理
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1455'
 ht-degree: 100%
 
@@ -121,7 +121,7 @@ Admin Console のユーザー権限と Launch 固有のオプションの設定�
 
 ## Dynamic Tag Manager {#section_3A41CF2BD5994B9891537D063571D4ED}
 
-Dynamic Tag Management へのユーザー招待、ユーザーの役割の割り当て、グループへのユーザーの追加
+Dynamic Tag Management へのユーザー招待、ユーザーの役割の割り当て、グループへのユーザーの追加。
 
 Dynamic Tag Management へのユーザーの招待方法、ユーザーの役割の割り当て方法、およびグループにユーザーを追加する方法については、[ユーザーと権限](https://docs.adobe.com/content/help/ja-JP/dtm/using/admin/users.html)を参照してください。
 
