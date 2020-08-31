@@ -6,11 +6,11 @@ seo-title: 累積リリースノート
 solution: Experience Cloud
 title: 累積リリースノート
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3968'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 
 すべてのソリューションを対象とするリリースノートについては、[Experience Cloud リリースノート](https://docs.adobe.com/content/help/ja-JP/release-notes/experience-cloud/current.html)を参照してください。
 
-## 2020年8月～
+## 2020 年 8 月
 
 | 機能 | 説明 |
 | -----------| ---------- |
-| 管理ツール — ポリシー | このページには、組織内のExperience Cloudポリシーの完全なリストが表示されます。 製品、インスタンス、ユーザー、開発者に関する情報を提供します。 ポリシーリストのカスタム表示を検索、並べ替えおよびフィルターできます。 詳しくは、[Experience Cloud 管理ツール](../admin-getting-started/admin-tool-experience-cloud.md)のヘルプを参照してください。 |
+| 管理ツール — ポリシー | このページには、組織内の Experience Cloud ポリシーの完全なリストが表示されます。製品、インスタンス、ユーザー、デベロッパーに関する情報を提供します。検索、並べ替え、フィルタリングによるポリシーリストのカスタム表示が可能です。詳しくは、[Experience Cloud 管理ツール](../admin-getting-started/admin-tool-experience-cloud.md)のヘルプを参照してください。 |
 
-## 2020 年 4月
+## 2020 年 4 月
 
 * Experience Cloud [!UICONTROL フィード]ページは非推奨になりました。（EXC-8505）
 * 新しいブランディング要素を反映するよう、Experience Cloud のログインページが更新されました。（EXC-10747）
@@ -56,7 +56,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 * インターフェイスの外観を更新しました。（MCUI-6861、MCUI-6911、MCUI-6862）
 * Experience Cloud の [!UICONTROL Triggers] で、[!UICONTROL トリガー]定義の _Like_ 句が正常に動作しない問題を修正しました。（MCUI-6611）
 
-## 2019 年 4月
+## 2019 年 4 月
 
 * アプリを切り替えるメニューに Marketo が追加され、ブランディングが Experience Cloud に更新されました。（MCUI-6529）
 * Experience Cloud ホームが更新され、フィードおよび管理ページへのリンクが含まれるようになりました。（MCUI-6682）
@@ -175,7 +175,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 
 ## リリース 15.6.1 - 2015 年 6 月 12 日 {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
 
-情報がありません
+情報がありません。
 
 ## リリース 15.5.1 - 2015 年 5 月 14 日 {#section_EF197410964E40D294D0D8024738CFBA}
 
