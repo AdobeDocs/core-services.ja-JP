@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: 顧客属性ソースの作成とデータファイルのアップロード
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: af5201da6eac644e150783195bdbc8f93760c3f1
+source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
 workflow-type: tm+mt
 source-wordcount: '1177'
-ht-degree: 89%
+ht-degree: 97%
 
 ---
 
@@ -30,16 +30,16 @@ ht-degree: 89%
 
 データソースがアクティブになると、以下のことが可能になります。
 
-* [Adobe Analyticsでの顧客属性の使用](../attributes/t-crs-usecase.md#task_7EB0680540CE4B65911B2C779210915D)
-* [Adobe Targetでの顧客属性の使用](../attributes/t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
+* [Adobe Analytics での顧客属性の使用](../attributes/t-crs-usecase.md#task_7EB0680540CE4B65911B2C779210915D)
+* [Adobe Target での顧客属性の使用](../attributes/t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
 
 >[!IMPORTANT]
 >
->この機能にアクセスするには、ユーザーが「顧客属性」製品プロファイル（顧客属性 - デフォルトのアクセス）に割り当てられている必要があります&#x200B;**[!UICONTROL 管理]** / **[!UICONTROL 管理コンソール]** / ****&#x200B;製品に移動します。 If *Customer Attributes* displays as one of the [!UICONTROL Product Profiles], you are ready to begin. Users that are added to the Customer Attributes group will see the [!UICONTROL Customer Attributes] menu on the left side of the Experience Cloud interface.
+>この機能にアクセスするには、ユーザーが「顧客属性」製品プロファイル（顧客属性 - デフォルトのアクセス）に割り当てられている必要があります&#x200B;**[!UICONTROL 管理]**／**[!UICONTROL Admin Console]**／**[!UICONTROL グループ]**&#x200B;に移動します。[!UICONTROL 製品プロファイル]の 1 つとして&#x200B;*顧客属性*&#x200B;がある場合は、すぐに始めることができます。顧客属性グループに追加されたユーザーには、Experience Cloud インターフェイスの左側に「[!UICONTROL 顧客属性]」メニューが表示されます。
 >
->顧客属性機能を使用するには、ユーザーがソリューションレベルのグループ(Analyticsまたは [!DNL Target])に属している必要もあります。
+>また、顧客属性機能を使用するには、ユーザーがソリューションレベルのグループ（Analytics または [!DNL Target]）に属している必要があります。
 
-See [Manage Experience Cloud users and products](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
+[Experience Cloud ユーザーと製品の管理](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)を参照してください。
 
 ## データファイルの作成 {#task_B5FB8C0649374C7A94C45DCF2878EA1A}
 
@@ -152,28 +152,25 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
 
 **属性ソースを有効化するには**
 
-[!UICONTROL 新しい顧客属性ソースを作成[または]顧客属性ソースを編集]ページで、[!UICONTROL アクティブにする]見出しを探し、「**[!UICONTROL アクティブ]**」をクリックします。
+[!UICONTROL 新しい顧客属性ソースを作成 [または] 顧客属性ソースを編集]ページで、[!UICONTROL アクティブにする]見出しを探し、「**[!UICONTROL アクティブ]**」をクリックします。
 
 ![手順の結果](assets/activate_attribute_source.png)
 
-## Use Customer Attributes in Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
+## Adobe Analytics での顧客属性の使用{#task_7EB0680540CE4B65911B2C779210915D}
 
-現在
-<keyword>
-Adobe Analytics
-</keyword>などのソリューションで利用可能なデータを使用すれば、データについてレポートおよび分析し、マーケティングキャンペーンで適切なアクションをおこなうことができます。
+Adobe Analyticsなどのソリューションで利用できるデータを使用して、データをレポートし、分析し、マーケティングキャンペーンで適切な対応をとることができます。
 
 以下の例は、アップロードした属性に基づいた [!DNL Analytics] セグメントを示しています。このセグメントは、最も頻繁に起動する製品が Photoshop である [!DNL Photoshop Lightroom] の購読者を示しています。
 
 ![](assets/08_crs_usecase.png)
 
-セグメントをExperience Cloudに公開すると、Experience CloudオーディエンスとAudience Managerで利用できるようになります。
+セグメントを Experience Cloud に公開すると、Experience Cloud Audiences と Audience Manager で利用できるようになります。
 
-詳しくは、Analytics ヘルプの[顧客属性レポート](https://docs.adobe.com/help/ja-JP/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)を参照してください。
+詳しくは、Analytics ヘルプの[顧客属性レポート](https://docs.adobe.com/content/help/ja-JP/core-services/interface/customer-attributes/attributes.html)を参照してください。
 
-## Use Customer Attributes in Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
+## Adobe Target での顧客属性の使用 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-[!DNL Target] では、オーディエンスの作成時に「訪問者プロファイル」セクションから顧客属性を選択できます。All Customer Attributes will have the prefix [!DNL crs.] in the list. これらの属性を、必要に応じて他のデータ属性と組み合わせることで、オーディエンスを構築します。
+[!DNL Target] では、オーディエンスの作成時に「訪問者プロファイル」セクションから顧客属性を選択できます。すべての顧客属性には、リストにプレフィックス [!DNL crs.] が付きます。これらの属性を、必要に応じて他のデータ属性と組み合わせることで、オーディエンスを構築します。
 
 ![](assets/crs-add-attribute-target.png)
 
