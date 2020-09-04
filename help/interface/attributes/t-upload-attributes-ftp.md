@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: オプション - FTP を使用したデータファイルのアップロード
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 85%
+source-wordcount: '293'
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Experience Cloud に顧客属性ソースと FTP アカウントを作成した�
 
 >[!IMPORTANT]
 >
->Review [Data file requirements for uploading Customer Attributes](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) before uploading the file.
+>[顧客属性をアップロードするためのデータファイル要件](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)を確認してください。
 
-顧客属性FTPサイトへのファイルのアップロードは、FTPまたはSFTPを使用して行うことができます。
+顧客属性 FTP サイトへのファイルアップロードは、FTP または SFTP を使用しておこなうことができます。
 
 * SFTP 接続をサポートしているクライアントが必要です。
 * [こちら](https://docs.adobe.com/help/ja-JP/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html)で説明しているように、ユーザー名／パスワードを使用して、またはパスワードを使用せずに、SFTP で接続できます。
@@ -34,7 +34,7 @@ Experience Cloud に顧客属性ソースと FTP アカウントを作成した�
 
 1. [顧客属性ソースを作成し、データファイルをアップロードします](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)。
 
-   FTP サイトにログインしていることを [!DNL ftp.adobe.com/<sftpname>] で確認します。
+   FTP サイトにログインしていることを `ftp.adobe.com/<sftpname>`.
 
 1. **[!UICONTROL アクション]**／**[!UICONTROL ファイルのアップロード]**&#x200B;をクリックします。
 
@@ -44,4 +44,4 @@ Experience Cloud に顧客属性ソースと FTP アカウントを作成した�
 
    アップロードが正常に完了すると、どちらのファイルも **processed** というフォルダーに移動されます。
 
-   See [Data file requirements for uploading Customer Attributes](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) for important information about file names and structure.
+   ファイル名とファイル構造について詳しくは、[顧客属性をアップロードするためのデータファイル要件](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)を参照してください。
