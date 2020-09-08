@@ -6,11 +6,11 @@ seo-title: 顧客属性ソースの作成とデータファイルのアップロ
 solution: Experience Cloud
 title: 顧客属性ソースの作成とデータファイルのアップロード
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1177'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -108,7 +108,7 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
          `identifiers.put(`**`"idType"`**`, "idValue");`
 
          エイリアス ID フィールドおよび顧客 ID に関するデータ処理の詳しい情報については、[複数のデータソースの活用](../attributes/crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)を参照してください。
-   * **[!UICONTROL ファイルのアップロード：]**`.csv` データファイルをドラッグ＆ドロップしたり、FTP を使用してデータをアップロードできます（FTP を使用するには、`.fin` ファイルも必要です）。[FTP を使用したデータのアップロード](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)を参照してください。
+   * **[!UICONTROL ファイルのアップロード：]** `.csv` データファイルをドラッグ＆ドロップしたり、FTP を使用してデータをアップロードできます（FTP を使用するには、`.fin` ファイルも必要です）。[FTP を使用したデータのアップロード](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)を参照してください。
 
       >[!IMPORTANT]
       >
@@ -156,9 +156,9 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
 
 ![手順の結果](assets/activate_attribute_source.png)
 
-## Adobe Analytics での顧客属性の使用{#task_7EB0680540CE4B65911B2C779210915D}
+## Adobe Analytics での顧客属性の使用 {#task_7EB0680540CE4B65911B2C779210915D}
 
-Adobe Analyticsなどのソリューションで利用できるデータを使用して、データをレポートし、分析し、マーケティングキャンペーンで適切な対応をとることができます。
+Adobe Analytics などのソリューションで利用できるデータを使用して、データをレポートし、分析し、マーケティングキャンペーンで適切な対応をとることができます。
 
 以下の例は、アップロードした属性に基づいた [!DNL Analytics] セグメントを示しています。このセグメントは、最も頻繁に起動する製品が Photoshop である [!DNL Photoshop Lightroom] の購読者を示しています。
 
@@ -170,7 +170,7 @@ Adobe Analyticsなどのソリューションで利用できるデータを使�
 
 ## Adobe Target での顧客属性の使用 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-[!DNL Target] では、オーディエンスの作成時に「訪問者プロファイル」セクションから顧客属性を選択できます。すべての顧客属性には、リストにプレフィックス [!DNL crs.] が付きます。これらの属性を、必要に応じて他のデータ属性と組み合わせることで、オーディエンスを構築します。
+[!DNL Target] では、オーディエンスの作成時に「[!UICONTROL 訪問者プロファイル]」セクションから顧客属性を選択できます。すべての顧客属性には、リストにプレフィックス [!DNL crs.] が付きます。これらの属性を、必要に応じて他のデータ属性と組み合わせることで、オーディエンスを構築します。
 
 ![](assets/crs-add-attribute-target.png)
 
