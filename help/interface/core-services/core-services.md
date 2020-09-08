@@ -6,11 +6,11 @@ seo-title: 顧客属性やオーディエンスに対する Experience Cloud ソ
 solution: Experience Cloud
 title: ソリューションのコアサービスへの対応
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2402'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Experience Cloud に加入するために必要なことを次に示します。
 1. 後述の手順に従って [[!UICONTROL Experience Cloud ID サービスをデプロイ]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354)します。
 1. アカウントマネージャーに連絡し、Experience Cloud 用のプロビジョニングプロセスを開始します。
 
-![](assets/step3_icon.png)[!UICONTROL Admin Console] でユーザーと製品を管理する。
+![](assets/step3_icon.png) [!UICONTROL Admin Console] でユーザーと製品を管理する。
 
 ### 管理者ログイン
 
@@ -136,7 +136,7 @@ Experience Cloud サービス（Experience Cloud ID サービスや [!UICONTROL 
 
 訪問者 API など JavaScript ライブラリを更新して Analytics の実装を最新化することが推奨されます。これをおこなう最も簡単な方法は、Dynamic Tag Management で [!DNL Adobe Analytics] ツールを追加し、設定方法に *`Automatic`* を指定することです。
 
-[!UICONTROL Dynamic Tag Management] で、**`<Web Property Name>`** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Analytics]**. デプロイメントについては、Dynamic Tag Management の [Adobe Analytics の設定](https://docs.adobe.com/content/help/ja-JP/dtm/using/tools/analytics-dtm.html) を参照してください。
+[!UICONTROL Dynamic Tag Management] で、**`<Web Property Name>`**／ **[!UICONTROL 概要]** ／ **[!UICONTROL ツールを追加]** ／ **[!UICONTROL Adobe Analytics]** をクリックします。デプロイメントについては、Dynamic Tag Management の [Adobe Analytics の設定](https://docs.adobe.com/content/help/ja-JP/dtm/using/tools/analytics-dtm.html) を参照してください。
 
 ## 手順 5.（Adobe Target のみ）Adobe Target の実装を更新する {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
