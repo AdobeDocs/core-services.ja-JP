@@ -5,9 +5,9 @@ breadcrumb-title: Interface Guide
 user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services.
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1833bae7ecf422e2cddae87df9311a40ecea4a0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
 ht-degree: 100%
 
@@ -32,9 +32,9 @@ ht-degree: 100%
    + [[!UICONTROL Data Workbench] の cookie](cookies/cookies-insight.md)
    + [Experience Cloud の cookie](cookies/cookies-mc.md)
    + [Advertising Cloud の cookie](cookies/cookies-advertising-cloud.md)
-   + [[!DNL Scene7] cookies](cookies/cookies-s7.md)
-   + [[!DNL Search and Promote] cookies](cookies/cookies-snp.md)
-   + [[!DNL Target] cookies](cookies/cookies-target.md)
+   + [[!DNL Scene7]  の cookie](cookies/cookies-s7.md)
+   + [[!DNL Search and Promote]  の cookie](cookies/cookies-snp.md)
+   + [[!DNL Target]  の cookie](cookies/cookies-target.md)
    + [ブラウザー cookie のプライバシー設定の有効化](cookies/browser-cookie-settings.md)
    + [サードパーティ cookie のサポートに対する変更がお客様に及ぼす影響](cookies/cookies-thirdparty.md)
 + ユーザーおよび製品の管理 {#manage-users-and-products}
