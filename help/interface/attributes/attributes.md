@@ -1,23 +1,23 @@
 ---
-description: 顧客属性をExperience Cloudにアップロードする際の概要と前提条件を示します。
+description: Experience Cloud への顧客属性のアップロードの概要とそのための前提条件に関する情報です。
 keywords: core services;Customer Attributes
-seo-description: 顧客属性をExperience Cloudにアップロードする際の概要と前提条件を示します。
+seo-description: Experience Cloud への顧客属性のアップロードの概要とそのための前提条件に関する情報です。
 seo-title: 顧客属性
 solution: Experience Cloud
 title: 顧客属性
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: 75d3d045964aa42f7ac6b32b25cfd77aa7f663a9
+source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 71%
+source-wordcount: '457'
+ht-degree: 100%
 
 ---
 
 
-# 顧客属性
+# 顧客属性 概要
 
-/ **[!DNL Experience Platform]** 人/ **[!UICONTROL 顧客属性に移動します]****[!UICONTROL 。]**
+**[!DNL Experience Platform]**／**[!UICONTROL People]**／**[!UICONTROL 顧客属性]**
 
 エンタープライズ顧客データを顧客関係管理（CRM）データベースに取り込んでいる場合は、そのデータを Experience Cloud の顧客属性データソースにアップロードできます。アップロード後は、データを [!DNL Adobe Analytics] と [!DNL Adobe Target] で利用できます。
 
@@ -25,15 +25,15 @@ ht-degree: 71%
 
 ## 顧客属性をアップロードするための前提条件 {#section_BD38693AFBF34926BA28E964963B4EA0}
 
-* **ソリューションの有効化：** [エクスペリエンスプラットフォームサービスのソリューションを有効にします](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)。
+* **ソリューションのイネーブルメント：**[ソリューションを Experience Platform サービスに対応させます](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)。
 
-* **グループのメンバーシップ：** 顧客属性データをアップロードするには、ユーザーが [顧客属性グループのメンバーである必要があります](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)。 また、Adobe Analytics グループまたは Adobe Target グループのいずれかに属している必要もあります。
+* **グループのメンバーシップ：**&#x200B;顧客属性データをアップロードするには、ユーザーは、[顧客属性グループ](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)のメンバーである必要があります。また、Adobe Analytics グループまたは Adobe Target グループのいずれかに属している必要もあります。
 
-   To know whether your company has access to Customer Attributes, your [!DNL Experience Cloud] administrator should log into the [Experience Cloud](https://experience.adobe.com). **[!UICONTROL 管理]** / **[!UICONTROL 管理コンソール]** / ****&#x200B;製品に移動します。 If *Customer Attributes* displays as one of the [!UICONTROL Product Profiles], you are ready to begin.
+   自社が顧客属性にアクセスできるかどうかを知るには、[!DNL Experience Cloud] 管理者が、[Experience Cloud](https://experience.adobe.com) にログインする必要があります。**[!UICONTROL 管理]**／**[!UICONTROL Admin Console]**／**[!UICONTROL グループ]**&#x200B;に移動します。[!UICONTROL 製品プロファイル]の 1 つとして&#x200B;*顧客属性*&#x200B;がある場合は、すぐに始めることができます。
 
-   Users that are added to the Customer Attributes will see the [!UICONTROL Customer Attributes] menu item on the left side of the Experience Cloud interface.
+   顧客属性に追加されたユーザーには、Experience Cloud インターフェイスの左側に「[!UICONTROL 顧客属性]」メニュー項目が表示されます。
 
-* **顧客属性には、Adobe Target**[!DNL at.js] （任意のバージョン）または [!DNL mbox.js] version 58以降が必要です。
+* 顧客属性には、**Adobe Target** [!DNL at.js]（任意のバージョン）または [!DNL mbox.js] バージョン 58 以降が必要です。
 
    [at.js のデプロイ方法](https://docs.adobe.com/content/help/ja-JP/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html)または [mbox.js の実装](https://docs.adobe.com/content/help/ja-JP/target/using/implement-target/client-side/mbox-implement/mbox-download.html)を参照してください。
 
