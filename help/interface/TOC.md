@@ -1,15 +1,15 @@
 ---
 audience: end-user
-user-guide-title: Experience Cloud インターフェイスユーザーガイド
+user-guide-title: Experience Cloudインターフェイスガイド
 breadcrumb-title: Interface Guide
 user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services.
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: ht
-source-git-commit: 1833bae7ecf422e2cddae87df9311a40ecea4a0e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
+workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -58,8 +58,8 @@ ht-degree: 100%
    + [Creative Cloud デスクトップから共有フォルダーにアセットをアップロード](experience-cloud-assets/t-cc-asset-upload-thor.md)
    + [アセットファイルを共有するための要件](experience-cloud-assets/assets-file-reqs.md)
    + [共有フォルダーの動作](experience-cloud-assets/asset-behavior.md)
-+ Experience Cloud のオーディエンス {#audiences}
-   + [オーディエンスの概要](audience-library/audience-library.md)
++ Experience Cloud Audiences {#audiences}
+   + [Experience Cloudオーディエンスの概要](audience-library/audience-library.md)
    + [オーディエンスの作成](audience-library/t-audience-create.md)
    + [Analytics オーディエンスセグメントの公開](audience-library/t-publish-audience-segment.md)
 + Experience Cloud の顧客属性 {#customer-attributes}
