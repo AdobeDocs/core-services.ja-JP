@@ -3,12 +3,12 @@ description: 様々なブラウザーでサードパーティ cookie のサポ�
 keywords: cookies;privacy
 seo-description: 様々なブラウザーでサードパーティ cookie のサポートが制限され始めている状況を受け、アドビでは Adobe Experience Cloud ソリューション全体にわたり、お客様のニーズとプライバシーのバランスを慎重に考慮した新しいソリューションの開発に取り組んでいます。
 seo-title: サードパーティ cookie のサポートに対する変更がお客様に及ぼす影響
-solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
+solution: Experience Cloud,Analytics,Target
 title: サードパーティ cookie のサポートに対する変更がお客様に及ぼす影響
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
-translation-type: ht
-source-git-commit: f65132e291ba925ded39d75e92b24cf707d520b5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 100%
 
