@@ -3,12 +3,12 @@ description: アドビでは、お客様のプライバシーおよびデータ�
 keywords: cookies;privacy
 seo-description: アドビでは、お客様のプライバシーおよびデータセキュリティを最優先の重要事項と認識して、複数のプライバシー保護関連団体に参加し、また、規制当局や自主規制ルールの運用（Digital Advertising Alliance AdChoices プログラムなど）にも関与しています。こうした活動を通じて、情報の使用方法についての説明と選択肢をお客様に提供するようにしています。
 seo-title: cookie とプライバシーについて
-solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
+solution: Experience Cloud,Analytics,Target
 title: cookie とプライバシーについて
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 100%
 
