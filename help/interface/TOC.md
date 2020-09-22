@@ -1,22 +1,22 @@
 ---
-audience: end-user
-user-guide-title: Experience Cloudインターフェイスガイド
-breadcrumb-title: Interface Guide
-user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and user and product management.
+audience: admin
+user-guide-title: Experience Cloud管理、オーディエンスおよび顧客属性
+breadcrumb-title: Experience Cloud Administration Guide
+user-guide-description: Adobe Experience Cloud Administration Guide includes help on Experience Cloud user and product administration, the Audience Library, Customer Attributes, and Experience Cloud assets.
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: dc1c43ddd5cf0328257cb559ac9706cfd004e631
+source-git-commit: dbcfb3ae9e1a5fb620f6794f42d567641b9ef838
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '366'
+ht-degree: 93%
 
 ---
 
 
-# Experience Cloud Interface Guide {#interface}
+# Experience Cloud管理、オーディエンスおよび顧客属性 {#interface}
 
-+ [Experience Cloudインターフェイスガイド](experience-cloud.md)
++ [Experience Cloud管理者、オーディエンスおよび顧客属性](experience-cloud.md)
 + Experience Cloud のアプリケーションサービス {#about-core-services}
    + [アプリケーションサービスの概要](core-services-landing.md)
    + [クロスソリューションサービスの実装を有効にする](core-services/core-services.md)
