@@ -3,12 +3,12 @@ description: デスクトップまたはモバイルブラウザーですべて�
 keywords: cookies;privacy
 seo-description: デスクトップまたはモバイルブラウザーですべての cookie をブロックしているユーザーを削除します。このプライバシー設定では、Analytics データ収集をオプトアウトするユーザーを除外します。
 seo-title: ブラウザー cookie のプライバシー設定の有効化
-solution: Marketing Cloud,Adobe Analytics,Adobe Target,Adobe Social
+solution: Experience Cloud, Analytics, Target, Social
 title: ブラウザー cookie のプライバシー設定の有効化
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 100%
 
