@@ -3,11 +3,11 @@ description: Adobe Experience Cloud のセルフヘルプ、製品ドキュメ�
 keywords: core services
 seo-description: このページには、Experience Cloud のセルフヘルプ、製品ドキュメント、技術ドキュメントが含まれています。
 seo-title: Adobe Experience Cloud およびコアサービスのヘルプと製品ドキュメントです。
-solution: Adobe Experience Cloud
+solution: Experience Cloud
 title: Experience Cloud とコアサービスのヘルプ
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: dbcfb3ae9e1a5fb620f6794f42d567641b9ef838
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 81%
