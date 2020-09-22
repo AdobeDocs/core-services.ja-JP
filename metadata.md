@@ -1,7 +1,7 @@
 ---
 cloud: experience-cloud
 product: core-services
-solution: Experience Platform
+solution: Experience Cloud
 solution-title: Experience Platform
 solution-hub-url: https://helpx.adobe.com/jp/support/experience-cloud/core-services.html
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
@@ -10,9 +10,9 @@ getting-started-url: https://helpx.adobe.com/jp/experience-cloud-core-services/g
 tutorials-title: チュートリアル
 tutorials-url: https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/core-services.ja-JP
-translation-type: ht
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 # 社内用のメタデータ
 
-metadata. md ファイルにはリポジトリ内のユーザーガイド TOC.md ファイルから渡される repo-level メタデータが含まれています。任意のユーザーガイドの metadata.md コンテンツを変更したい場合は、任意の TOC.md ファイル内でおこないます。
+metadata.md ファイルにはリポジトリー内のユーザーガイド TOC.md ファイルから渡される repo-level メタデータが含まれています。任意のユーザーガイドの metadata.md コンテンツを変更したい場合は、任意の TOC.md ファイル内でおこないます。
 
 | メタデータ | 説明 |
 |--- |--- |
