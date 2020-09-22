@@ -3,12 +3,12 @@ description: Adobe Analytics では、異なるブラウザーからのリクエ
 keywords: cookies;privacy
 seo-description: Adobe Analytics では、異なるブラウザーからのリクエストを区別する目的と、アプリケーションによって後で使用されることがある有用な情報を保存する目的で cookie を使用します。また、閲覧行動と顧客レコードを関連付ける目的にも使用します。
 seo-title: Analytics の cookie
-solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
+solution: Experience Cloud,Analytics,Adobe Target,Adobe Social
 title: Analytics の cookie
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-translation-type: ht
-source-git-commit: bd118685e1dd65b51a171abdfa4e034dd5b9e181
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 100%
 
