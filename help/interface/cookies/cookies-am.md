@@ -3,12 +3,12 @@ description: Audience Manager はいくつかのシンプルな cookie を利用
 keywords: cookies
 seo-description: Audience Manager はいくつかのシンプルな cookie を利用して様々な機能を実行します。これらの機能には、ID の割り当て、データ呼び出しの記録、エラーの追跡、cookie を設定できるかどうかのテストなどがあります。この節では、Audience Manager によって設定される各種の cookie について説明します。
 seo-title: Audience Manager の cookie
-solution: Marketing Cloud,Audience Manager
+solution: Experience Cloud, Audience Manager
 title: Audience Manager の cookie
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 100%
 
