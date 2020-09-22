@@ -3,12 +3,12 @@ description: Experience Cloud 管理者向けのよくある質問と回答で�
 keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
 seo-description: Experience Cloud 管理者向けのよくある質問と回答です。
 seo-title: Experience Cloud コアサービスに関するよくある質問（FAQ）です。
-solution: Adobe Experience Cloud
+solution: Experience Cloud
 title: よくある質問
 index: true
-translation-type: ht
-source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 100%
 
