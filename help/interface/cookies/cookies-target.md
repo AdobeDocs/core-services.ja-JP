@@ -3,12 +3,12 @@ description: Target では、オンラインコンテンツのテスト機能を
 keywords: cookies;privacy
 seo-description: Target では、オンラインコンテンツのテスト機能を実現する目的と、より関連性の高いコンテンツを訪問者に対して表示する目的で、Web サイト運用者向けに cookie を使用します。
 seo-title: Target の cookie
-solution: Marketing Cloud,Analytics,Target,Social
+solution: Experience Cloud,Analytics,Target,Social
 title: Target の cookie
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 100%
 
