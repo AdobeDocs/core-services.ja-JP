@@ -3,12 +3,12 @@ description: 組織の概要と、ソリューションアカウントの Experi
 keywords: core services
 seo-description: 組織の概要と、ソリューションアカウントの Experience Cloud へのリンクについて説明します。
 seo-title: 組織とアカウントのリンク
-solution: Marketing Cloud
+solution: Experience Cloud
 title: 組織とアカウントのリンク
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
-translation-type: ht
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 100%
 
