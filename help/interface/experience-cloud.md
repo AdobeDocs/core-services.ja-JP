@@ -7,9 +7,9 @@ solution: Adobe Experience Cloud
 title: Experience Cloud とコアサービスのヘルプ
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
+source-git-commit: dbcfb3ae9e1a5fb620f6794f42d567641b9ef838
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '434'
 ht-degree: 81%
 
 ---
@@ -21,7 +21,7 @@ Experience Cloud には、アドビが提供するデジタルマーケティン
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-このガイドは、Experience Cloudのユーザーと製品の管理に関する製品ドキュメントと、顧客属性およびExperience Cloudオーディエンス(オーディエンスライブラリ)に関する情報を提供します。 このガイドの記事は次のとおりです。
+『Adobe Experience Cloud管理ガイド』には、Experience Cloudのユーザおよび製品の管理、オーディエンスライブラリ、顧客属性、Experience Cloudアセットに関するヘルプが含まれています。 このガイドの記事は次のとおりです。
 
 * [[!UICONTROL オーディエンスライブラリ]](audience-library/audience-library.md)
 * [[!UICONTROL 顧客属性]](attributes/attributes.md)
