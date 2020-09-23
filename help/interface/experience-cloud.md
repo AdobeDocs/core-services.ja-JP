@@ -1,27 +1,27 @@
 ---
-description: Adobe Experience Cloud のセルフヘルプ、製品ドキュメント、技術ドキュメントです。Experience Cloud には、アドビが提供するデジタルマーケティングソリューションおよびサービスが統合されています。
-keywords: core services
-seo-description: このページには、Experience Cloud のセルフヘルプ、製品ドキュメント、技術ドキュメントが含まれています。
-seo-title: Adobe Experience Cloud およびコアサービスのヘルプと製品ドキュメントです。
-solution: Experience Cloud
-title: Experience Cloud とコアサービスのヘルプ
+description: Adobe Experience Cloud のセルフヘルプ、製品ドキュメント、技術ドキュメントです。Admin Consoleでのユーザーと製品の管理が含まれ、オーディエンスサービスのソリューション、プラットフォームライブラリ、顧客属性、Experience Cloudアセットなどのヘルプを有効にします。
+keywords: platform services
+seo-description: Admin Consoleでのユーザーと製品の管理に関するヘルプ。オーディエンスサービスのソリューションを有効にし、プラットフォームライブラリ、顧客属性、Experience Cloudアセットなどに関するヘルプ。
+seo-title: Adobe Experience Cloudおよびプラットフォームサービスのヘルプと製品ドキュメント。
+solution: Adobe Experience Cloud
+title: Experience Cloudサービスとプラットフォームサービスのヘルプ
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 94%
+source-wordcount: '475'
+ht-degree: 75%
 
 ---
 
 
-# Experience Cloudインターフェイスガイド
+# Experience Cloud管理、オーディエンスおよび顧客属性
 
 Experience Cloud には、アドビが提供するデジタルマーケティングソリューションおよびサービスが統合されています。また、Experience Cloud は、クラウドソリューションやコアサービスにすばやくアクセスできる直感的なインターフェイスでもあります。
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-『Adobe Experience Cloud管理ガイド』には、Experience Cloudのユーザおよび製品の管理、オーディエンスライブラリ、顧客属性、Experience Cloudアセットに関するヘルプが含まれています。 このガイドの記事は次のとおりです。
+このガイドでは、Admin ConsoleのExperience Cloudユーザーと製品管理に関するヘルプにアクセスし、プラットフォームサービスのソリューションを有効にする方法について説明します。 オーディエンスライブラリ、顧客属性、Experience Cloudアセットなどのヘルプにアクセスすることもできます。
 
 * [[!UICONTROL オーディエンスライブラリ]](audience-library/audience-library.md)
 * [[!UICONTROL 顧客属性]](attributes/attributes.md)
