@@ -3,11 +3,11 @@ description: Adobe Experience Cloud のセルフヘルプ、製品ドキュメ�
 keywords: platform services
 seo-description: Admin Consoleでのユーザーと製品の管理に関するヘルプ。オーディエンスサービスのソリューションを有効にし、プラットフォームライブラリ、顧客属性、Experience Cloudアセットなどに関するヘルプ。
 seo-title: Adobe Experience Cloudおよびプラットフォームサービスのヘルプと製品ドキュメント。
-solution: Adobe Experience Cloud
+solution: Experience Cloud
 title: Experience Cloudサービスとプラットフォームサービスのヘルプ
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
+source-git-commit: a32b5e9f8d3bed89b0001a40aa159591880dd84c
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 75%
