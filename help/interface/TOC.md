@@ -1,14 +1,14 @@
 ---
 audience: admin
 user-guide-title: Experience Cloud管理、オーディエンスおよび顧客属性
-breadcrumb-title: Experience Cloud Interface Guide
+breadcrumb-title: Experience Cloud Administration, Audiences, and Customer Attributes
 user-guide-description: Adobe Experience Cloud Administration Guide includes help on Experience Cloud user and product administration, the Audience Library, Customer Attributes, and Experience Cloud assets.
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '367'
 ht-degree: 93%
 
 ---
@@ -32,9 +32,9 @@ ht-degree: 93%
    + [[!UICONTROL Data Workbench] の cookie](cookies/cookies-insight.md)
    + [Experience Cloud の cookie](cookies/cookies-mc.md)
    + [Advertising Cloud の cookie](cookies/cookies-advertising-cloud.md)
-   + [[!DNL Scene7]  の cookie](cookies/cookies-s7.md)
-   + [[!DNL Search and Promote]  の cookie](cookies/cookies-snp.md)
-   + [[!DNL Target]  の cookie](cookies/cookies-target.md)
+   + [[!DNL Scene7] cookies](cookies/cookies-s7.md)
+   + [[!DNL Search and Promote] cookies](cookies/cookies-snp.md)
+   + [[!DNL Target] cookies](cookies/cookies-target.md)
    + [ブラウザー cookie のプライバシー設定の有効化](cookies/browser-cookie-settings.md)
    + [サードパーティ cookie のサポートに対する変更がお客様に及ぼす影響](cookies/cookies-thirdparty.md)
 + ユーザーおよび製品の管理 {#manage-users-and-products}
@@ -58,8 +58,8 @@ ht-degree: 93%
    + [Creative Cloud デスクトップから共有フォルダーにアセットをアップロード](experience-cloud-assets/t-cc-asset-upload-thor.md)
    + [アセットファイルを共有するための要件](experience-cloud-assets/assets-file-reqs.md)
    + [共有フォルダーの動作](experience-cloud-assets/asset-behavior.md)
-+ Experience Cloud Audiences {#audiences}
-   + [Experience Cloudオーディエンスの概要](audience-library/audience-library.md)
++ Experience Cloud Audience Library {#audiences}
+   + [Experience Cloud Audiences の概要](audience-library/audience-library.md)
    + [オーディエンスの作成](audience-library/t-audience-create.md)
    + [Analytics オーディエンスセグメントの公開](audience-library/t-publish-audience-segment.md)
 + Experience Cloud の顧客属性 {#customer-attributes}
