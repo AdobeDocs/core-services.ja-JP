@@ -5,18 +5,18 @@ seo-title: Experience Cloud Audiences の概要
 solution: Experience Cloud
 title: Experience Cloud Audiences の概要
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
-workflow-type: ht
-source-wordcount: '832'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
+workflow-type: tm+mt
+source-wordcount: '837'
+ht-degree: 95%
 
 ---
 
 
 # Experience Cloud Audiences の概要 {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
-オーディエンスは、訪問者の集合（訪問者 ID のリスト）です。アドビのオーディエンスサービスは、訪問者データからオーディエンスセグメントへの変換を管理します。したがって、オーディエンスを作成および管理することは、セグメントを作成および使用することに似ています。また、オーディエンスセグメントを [!DNL Experience Cloud] と共有することもできます。
+オーディエンスは、訪問者の集合（訪問者 ID のリスト）です。Adobeのオーディエンスライブラリを使用すると、訪問者データからオーディエンスセグメントへの変換を管理できます。 As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to products and services in [!DNL Experience Cloud].
 
 ![](assets/audiences.png)
 
