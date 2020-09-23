@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 81%
+ht-degree: 94%
 
 ---
 
 
-# Experience Cloud インターフェイスガイド
+# Experience Cloudインターフェイスガイド
 
 Experience Cloud には、アドビが提供するデジタルマーケティングソリューションおよびサービスが統合されています。また、Experience Cloud は、クラウドソリューションやコアサービスにすばやくアクセスできる直感的なインターフェイスでもあります。
 
@@ -39,7 +39,7 @@ Experience Cloud には、アドビが提供するデジタルマーケティン
 
 ## ガイド
 
-関連するExperience Cloudガイドは次のとおりです。
+関連する Experience Cloud ガイドは次のとおりです。
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/ja-JP/mobile-services/using/home.html)
 * [Device Co-op](https://docs.adobe.com/content/help/ja-JP/device-co-op/using/home.html)
@@ -52,13 +52,13 @@ Experience Cloud には、アドビが提供するデジタルマーケティン
 
 ## チュートリアル
 
-セルフサービスのチュートリアルと、Experience Leagueのクイックハウトスを活用：
+セルフサービスのチュートリアルと、Experience League のクイックハウツーを活用：
 
-* [Experience Leagueのすべてのチュートリアル](https://experienceleague.corp.adobe.com/?lang=en#quick-how-tos)
+* [Experience League のすべてのチュートリアル](https://experienceleague.corp.adobe.com/?lang=en#quick-how-tos)
 * [Experience Platform チュートリアル](https://experienceleague.corp.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en)
 * [リアルタイム顧客データプラットフォーム](https://experienceleague.corp.adobe.com/docs/platform-learn/tutorials/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
 
-## リリースノートおよび関連Experience Cloudヘルプ
+## リリースノートおよび関連する Experience Cloud ヘルプ
 
 * [すべての Experience Cloud ソリューションの製品ドキュメント](https://docs.adobe.com/content/help/ja-JP/experience-cloud/user-guides/home.html) - Experience Cloud のラーニングとサポートでヘルプを参照する
 * [リリースノートと製品アップデート](https://docs.adobe.com/content/help/ja-JP/release-notes/experience-cloud/current.html) - Experience Cloud の新機能を参照およびサブスクリプションでアップデートを入手する
