@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: a32b5e9f8d3bed89b0001a40aa159591880dd84c
 workflow-type: tm+mt
 source-wordcount: '475'
-ht-degree: 75%
+ht-degree: 77%
 
 ---
 
 
-# Experience Cloud管理、オーディエンスおよび顧客属性
+# Experience Cloud 管理、オーディエンスおよび顧客属性
 
 Experience Cloud には、アドビが提供するデジタルマーケティングソリューションおよびサービスが統合されています。また、Experience Cloud は、クラウドソリューションやコアサービスにすばやくアクセスできる直感的なインターフェイスでもあります。
 
