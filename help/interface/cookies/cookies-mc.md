@@ -76,7 +76,7 @@ Adobe Experience Cloud で訪問者 ID を保存するために使用される c
   </tr> 
   <tr> 
    <td colname="col1"> <p> 用途 </p> </td> 
-   <td colname="col2"> <p> この cookie は、 </p> </td> 
+   <td colname="col2"> <p> この cookie は、個別訪問者を特定するために使用します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 場所 </p> </td> 
