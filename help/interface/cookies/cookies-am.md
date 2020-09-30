@@ -64,7 +64,7 @@ Audience Manager はいくつかのシンプルな cookie を利用して様々�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>コンテンツ</b> </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">dextp</span> cookie には、データプロバイダー名または ID と UNIX UTC タイムスタンプがパイプ区切り形式で書き込まれます。次の例に含まれる斜体の部分には実際の情報が入ります。<i></i> </p> <p> 
+   <td colname="col2"> <p><span class="wintitle">dextp</span> cookie には、データプロバイダー名または ID と UNIX UTC タイムスタンプがパイプ区切り形式で書き込まれます。次の例に含まれる<i>斜体</i>の部分には実際の情報が入ります。 </p> <p> 
      <ul id="ul_80D0BC3FCF06470991E12712401D784A"> 
       <li id="li_03747A433CEB4756A26CD866E716B89D">以前の形式：<span class="codeph"><span class="varname"> ここにデータプロバイダー名 </span>-1490307822097| <span class="varname"> ここにデータプロバイダー名 </span>-1490307822038 </span> </li> 
       <li id="li_79E7000E82DB4ADA9E9887B017343B2D">新しい形式：<span class="codeph">21-1-1490307821616|544-1-1490307821793|3-1-1490307821852|420-1-1490307822038| </span> </li> 
@@ -132,7 +132,7 @@ dextp cookie のデータ構文：
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>コンテンツ</b> </p> </td> 
-   <td colname="col2"> <p> <span class="wintitle">DST</span> cookie には、宛先の ID と UNIX タイムスタンプのセットがパイプ区切り形式で書き込まれます。次の例に含まれる斜体の部分には実際の情報が入ります。<i></i> </p> <p> 
+   <td colname="col2"> <p> <span class="wintitle">DST</span> cookie には、宛先の ID と UNIX タイムスタンプのセットがパイプ区切り形式で書き込まれます。次の例に含まれる<i>斜体</i>の部分には実際の情報が入ります。 </p> <p> 
      <ul id="ul_CE98076A02DA413486C1D341E9806889"> 
       <li id="li_850209D956644749B98C7A208C825C15">構文：<span class="codeph"> <span class="varname"> destination ID </span> - <span class="varname"> UNIX UTC タイムスタンプ </span> </span> </li> 
       <li id="li_4A22152C70844733982230EBF7B9EB78">例：<span class="codeph">067797-1490349684|1010788-1490349692|1067797-1490349692 </span> </li> 
