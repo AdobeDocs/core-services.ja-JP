@@ -1,6 +1,6 @@
 ---
 audience: admin
-user-guide-title: Experience Cloud管理、オーディエンスおよび顧客属性
+user-guide-title: Experience Cloud 管理、オーディエンスおよび顧客属性
 breadcrumb-title: Experience Cloud Administration, Audiences, and Customer Attributes
 user-guide-description: Adobe Experience Cloud Administration Guide includes help on Experience Cloud user and product administration, the Audience Library, Customer Attributes, and Experience Cloud assets.
 user-guide-url: https://www.adobe.com
@@ -9,14 +9,14 @@ translation-type: tm+mt
 source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
 
-# Experience Cloud管理、オーディエンスおよび顧客属性 {#interface}
+# Experience Cloud 管理、オーディエンスおよび顧客属性 {#interface}
 
-+ [Experience Cloud管理者、オーディエンスおよび顧客属性](experience-cloud.md)
++ [Experience Cloud 管理者、オーディエンスおよび顧客属性](experience-cloud.md)
 + Experience Cloud のアプリケーションサービス {#about-core-services}
    + [アプリケーションサービスの概要](core-services-landing.md)
    + [クロスソリューションサービスの実装を有効にする](core-services/core-services.md)
