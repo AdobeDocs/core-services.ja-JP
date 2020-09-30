@@ -6,11 +6,11 @@ seo-title: 用語
 solution: Experience Cloud
 title: 用語
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
-translation-type: ht
-source-git-commit: c00eb57a226945f71307b33afdf147c93334c083
-workflow-type: ht
-source-wordcount: '1474'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 34c8fa5bbc7524e2193be688e9cda68e134be467
+workflow-type: tm+mt
+source-wordcount: '1476'
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ Experience Cloud ユーザー向けの用語リファレンスと、これらの
 | キャンペーン | Creative Cloud では、キャンペーンは、Creative Cloud 画像アセットを使用するマーケティングキャンペーンのことだと考えられます。 | Experience Cloud では、キャンペーンは、オーディエンスにどのコンテンツを表示するかを決定します。また、コンテンツをどこ（場所）にいつ表示するかを決定します。キャンペーンには具体的な目標があり、それは指標で追跡されます。<br>キャンペーンの実行には、訪問者のコンテキストとキャンペーンのルールセットを一致させ、キャンペーンの展開先チャネルの技術上の制限に従ってコンテンツを配信する必要があります。<br>Adobe Target では、キャンペーンとアクティビティは同義語です。 |
 | チャネル | Creative Cloud では、チャネルは様々な種類の情報を格納するグレースケール画像であることがあります。情報チャネルとカラーチャネルがあります。 | Experience Cloud では、チャネルは、場所の属性またはキャンペーンのアクティビティを指します。<br>Analytics では、マーケティングチャネルは、サイトに訪問者がどのように到達するか（電子メール経由など）を把握するために一般に使用されます。<br> 以下に例を示します。<ul><li>電子メール</li><li>ディスプレイ広告</li><li>SNS</li><li>有料検索</li><li>自然検索</li><li>参照ドメイン</li></ul> |
 | コンテキスト | 通常は、選択または実行中のタスクに関連して使用可能なメニューまたは情報を指します。 | コンテキストは、訪問者の現在のインタラクションの詳細をデジタルプロパティと併せて説明します。コンテキストの例としては、マウスの位置、フォームフィールドの状態、買い物かごの値または使用されているデバイスがあります。<br>[Dynamic Tag Management](https://docs.adobe.com/content/help/ja-JP/dtm/using/dtm-home.html) は、今日の市場で最も堅牢なコンテキスト検出およびサービスアクティブ化機能を備え、プロファイルおよびオーディエンスサービスのコンテキストコンポーネントを提供します。 |
-| 消費者 ID | 特別な用法はありません。 | Device Co-op メンバーが個人を認識するために使用する ID です。この番号はブランドによって割り当てられ、多くの場合 CRM システムで維持管理されます。**注意：**&#x200B;消費者 ID を Experience Cloud に送信する [Experience Cloud ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/about-id-service.html)関数呼び出しである _setCustomerIDs_ と混同しないでください。 |
+| 消費者 ID | 特別な用法はありません。 | Experience PlatformCo-opグラフメンバーが個人を認識するために使用するID。 この番号はブランドによって割り当てられ、多くの場合 CRM システムで維持管理されます。**注意：**&#x200B;消費者 ID を Experience Cloud に送信する [Experience Cloud ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/about-id-service.html)関数呼び出しである _setCustomerIDs_ と混同しないでください。 |
 | コンテンツ | Creative Cloud では、コンテンツは、ページ上のテキストと画像を指します。この用語は、Creative と Experience Clouds で同じように使用されています。 | Experience Cloud ではコンテンツとはマーケティングコンテンツを指し、特定の目標を達成するためにキャンペーンの一部として使用されることがあります。<br>コンテンツは、特定の場所に使用され、アセットで構成することができます。コンテンツには、構造化されているもの（製品情報など）も、構造化されていないもの（モバイルアプリの Web ページや画面など）もあります。<br> 以下に例を示します。<ul><li>Web ページ</li><li>バナー</li><li>ステータスの更新状況</li><li>コメント</li><li>テキスト広告</li><li>製品情報</li><li>製品レビュー</li><li>フォームデータ</li><li>検索インデックス内のドキュメント</li><li>Social への投稿</li><li>記事</li><li>公開物</li></ul> |
 | ダッシュボード | 特別な用法はありません。 | 複数の主要指標を 1 つのビューで表示するデータ視覚化機能の集まりです。 |
 | データ使用規定 | 特別な用法はありません。 | データ使用メタデータを使用して、アドビの社内プライバシーポリシー、契約上の考慮事項、プライバシーの一般原則に準拠したデータ使用を確実に実現するために、システム（ソリューション、アプリ、サービス、SDK、API など）で規定されるポリシー、システム設計、プラクティス、手順などです。 |
