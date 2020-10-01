@@ -7,10 +7,10 @@ solution: Experience Cloud,Analytics,Target
 title: Experience Cloud の cookie
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 7bd5b20d24d6ed1bcf2ea8cd1555af217013127e
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 100%
+source-wordcount: '368'
+ht-degree: 79%
 
 ---
 
@@ -47,7 +47,11 @@ Adobe Experience Cloud で訪問者 ID を保存するために使用される c
   </tr> 
   <tr> 
    <td colname="col1"> <p> サイズ </p> </td> 
-   <td colname="col2"> <p>45 バイト </p> </td> 
+   <td colname="col2"> <p>45 バイト。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> SameSite=Lax </p> </td> 
+   <td colname="col2"> <p>この設定を持つCookieは、ブラウザーのURLに表示されるドメインがCookieのドメインと一致する場合にのみ送信されます。 これは、ChromeのCookieの新しいデフォルトです。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,6 +89,10 @@ Adobe Experience Cloud で訪問者 ID を保存するために使用される c
   <tr> 
    <td colname="col1"> <p> サイズ </p> </td> 
    <td colname="col2"> <p> この cookie の長さは状況に応じて変化しますが、通常は 200 バイト程度になります。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>値が追加されません。 ChromeのデフォルトはLaxです。 </p> </td> 
+   <td colname="col2"> <p> この設定を持つCookieは、ブラウザーのURLに表示されるドメインがCookieのドメインと一致する場合にのみ送信されます。 これは、ChromeのCookieの新しいデフォルトです。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
