@@ -1,15 +1,15 @@
 ---
 description: Adobe Experience Cloud ユーザーおよび製品の管理、People（Audiences と顧客属性）、Journey Orchestration、オファー、Places、Experience Platform Launch、Mobile Services について説明します。
 seo-description: Adobe Experience Cloud ユーザーおよび製品の管理、People（Audiences と顧客属性）、オファー、Experience Platform Launch、Mobile Services について説明します。
-seo-title: Experience Cloud のコアサービスとユーザー管理
+seo-title: Experience Cloudサービスとユーザー管理
 solution: Experience Cloud
-title: Experience Cloud コアサービスについて
+title: Experience Cloudサービスについて
 index: true
-translation-type: ht
-source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
-workflow-type: ht
-source-wordcount: '516'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+workflow-type: tm+mt
+source-wordcount: '505'
+ht-degree: 98%
 
 ---
 
@@ -38,4 +38,4 @@ Experience Cloud のこれらのサービスにアクセスするには、**[!UI
 | [ロケーションサービス](https://docs.adobe.com/content/help/ja-JP/places/using/home.html) | Adobe [!UICONTROL Experience Platform ロケーションサービス]（以下、ロケーションサービス）は、ロケーション認識が可能なモバイルアプリで、機能豊富な使いやすい SDK インターフェイスと目標地点（POI）の柔軟なデータベースを使用して場所のコンテキストを理解できるようにする位置情報サービスです。 |
 | [Exchange](exchange.md) | アプリを介して、Digital Marketing の機能強化の検索、参照、選択、支払いおよびダウンロードをおこないます。 |
 | [Mobile Services](https://docs.adobe.com/content/help/ja-JP/mobile-services/using/home.html) | Adobe Mobile Services により、モバイルアプリ用の各ソリューションが Experience Cloud 上で統合されます。これにより、アプリの利用状況を把握し、改善につなげることができます。 |
-| People | Experience Cloud ソリューションにあるアドビのデータとアドビ以外のデータを結び付けることで、顧客一人ひとりの包括ビューを作成できます。様々なタッチポイントにわたるやり取りから、ユーザーにとって最も重要なことを見つけ出します。一般的でないデバイスから訪問した場合に、常連顧客を認識します。さらに、ターゲットを絞ったマーケティング活動のために、ユーザーを Audiences にグループ分けします。<br>[Audiences](audience-library/audience-library.md) - 様々なタイプの顧客を Audiences に分類した後、Experience Cloud ソリューション全体で Audiences を共有します。<br>[顧客属性](attributes/attributes.md) - Experience Cloud 外で収集した顧客情報を連結できる機能強化。<br>[デバイスグラフ](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) - 世界有数のブランドと提携して、一般的でないデバイスを使用している常連顧客を認識します（ベータ版では、Experience Cloud Device Co-op の会員専用です）。 |
+| People | Experience Cloud ソリューションにあるアドビのデータとアドビ以外のデータを結び付けることで、顧客一人ひとりの包括ビューを作成できます。様々なタッチポイントにわたるやり取りから、ユーザーにとって最も重要なことを見つけ出します。一般的でないデバイスから訪問した場合に、常連顧客を認識します。さらに、ターゲットを絞ったマーケティング活動のために、ユーザーを Audiences にグループ分けします。<br>[Audiences](audience-library/audience-library.md) - 様々なタイプの顧客を Audiences に分類した後、Experience Cloud ソリューション全体で Audiences を共有します。<br>[顧客属性](attributes/attributes.md) - Experience Cloud 外で収集した顧客情報を連結できる機能強化。<br>[デバイスグラフ](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) - 世界有数のブランドと提携して、一般的でないデバイスを使用している常連顧客を認識します |
