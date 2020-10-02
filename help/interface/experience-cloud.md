@@ -7,15 +7,15 @@ solution: Experience Cloud
 title: Experience Cloudサービスとプラットフォームサービスのヘルプ
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 34c8fa5bbc7524e2193be688e9cda68e134be467
+source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '475'
 ht-degree: 75%
 
 ---
 
 
-# Experience Cloudアプリケーションサービスと管理
+# Experience Cloudサービスと管理
 
 Experience Cloud には、アドビが提供するデジタルマーケティングソリューションおよびサービスが統合されています。また、Experience Cloud は、クラウドソリューションやコアサービスにすばやくアクセスできる直感的なインターフェイスでもあります。
 
