@@ -1,16 +1,16 @@
 ---
-description: Adobe Experience Cloud のセルフヘルプ、製品ドキュメント、技術ドキュメントです。Admin Consoleでのユーザーと製品の管理が含まれ、オーディエンスサービスのソリューション、プラットフォームライブラリ、顧客属性、Experience Cloudアセットなどのヘルプを有効にします。
+description: Adobe Experience Cloud のセルフヘルプ、製品ドキュメント、技術ドキュメントです。Admin Console でのユーザーと製品の管理が含まれ、オーディエンスサービスのソリューション、プラットフォームライブラリ、顧客属性、Experience Cloud アセットなどのヘルプを有効にします。
 keywords: platform services
-seo-description: Admin Consoleでのユーザーと製品の管理に関するヘルプ。オーディエンスサービスのソリューションを有効にし、プラットフォームライブラリ、顧客属性、Experience Cloudアセットなどに関するヘルプ。
-seo-title: Adobe Experience Cloudおよびプラットフォームサービスのヘルプと製品ドキュメント。
+seo-description: Admin Console でのユーザーと製品の管理に関するヘルプ。オーディエンスサービスのソリューションを有効にし、プラットフォームライブラリ、顧客属性、Experience Cloud アセットなどに関するヘルプです。
+seo-title: Adobe Experience Cloud およびプラットフォームサービスのヘルプと製品ドキュメントです。
 solution: Experience Cloud
-title: Experience Cloudサービスとプラットフォームサービスのヘルプ
+title: Experience Cloud とプラットフォームサービスのヘルプ
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
 workflow-type: tm+mt
 source-wordcount: '475'
-ht-degree: 75%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ Experience Cloud には、アドビが提供するデジタルマーケティン
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-このガイドでは、Admin ConsoleのExperience Cloudユーザーと製品管理に関するヘルプにアクセスし、プラットフォームサービスのソリューションを有効にする方法について説明します。 オーディエンスライブラリ、顧客属性、Experience Cloudアセットなどのヘルプにアクセスすることもできます。
+このガイドでは、Admin Console の Experience Cloud ユーザーと製品管理に関するヘルプにアクセスし、プラットフォームサービスのソリューションを有効にする方法について説明します。オーディエンスライブラリ、顧客属性、Experience Cloud アセットなどのヘルプにアクセスすることもできます。
 
 * [[!UICONTROL オーディエンスライブラリ]](audience-library/audience-library.md)
 * [[!UICONTROL 顧客属性]](attributes/attributes.md)
