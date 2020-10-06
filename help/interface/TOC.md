@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
 workflow-type: tm+mt
 source-wordcount: '360'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 92%
    + [Creative Cloud デスクトップから共有フォルダーにアセットをアップロード](experience-cloud-assets/t-cc-asset-upload-thor.md)
    + [アセットファイルを共有するための要件](experience-cloud-assets/assets-file-reqs.md)
    + [共有フォルダーの動作](experience-cloud-assets/asset-behavior.md)
-+ Experience Cloud Audience Library {#audiences}
++ Experience Cloud Audience ライブラリ {#audiences}
    + [Experience Cloud Audiences の概要](audience-library/audience-library.md)
    + [オーディエンスの作成](audience-library/t-audience-create.md)
    + [Analytics オーディエンスセグメントの公開](audience-library/t-publish-audience-segment.md)
