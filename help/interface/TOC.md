@@ -1,24 +1,24 @@
 ---
 audience: admin
-user-guide-title: Experience Cloudサービスと管理
+user-guide-title: Experience Cloud サービスと管理
 breadcrumb-title: Experience Cloud Services and Administration
 user-guide-description: Adobe Experience Cloud Services and Administration Guide includes help on Experience Cloud user and product administration, the Audience Library, Customer Attributes, cookies, and Experience Cloud assets.
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '360'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
-# Experience Cloud Services and Administration {#interface}
+# Experience Cloud サービスと管理 {#interface}
 
-+ [Experience Cloudサービスと管理](experience-cloud.md)
-+ Experience Cloud services {#about-core-services}
-   + [Experience Cloudサービスの概要](core-services-landing.md)
++ [Experience Cloud サービスと管理](experience-cloud.md)
++ Experience Cloud サービス {#about-core-services}
+   + [Experience Cloud サービスの概要](core-services-landing.md)
    + [クロスソリューションサービスの実装を有効にする](core-services/core-services.md)
    + [組織へのレポートスイートのマッピング](core-services/report-suite-mapping.md)
    + [Experience Cloud の新しいクラウド名について](solutions-core-services.md)
