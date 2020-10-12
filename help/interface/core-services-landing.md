@@ -1,15 +1,15 @@
 ---
 description: Adobe Experience Cloud ユーザーおよび製品の管理、People（Audiences と顧客属性）、Journey Orchestration、オファー、Places、Experience Platform Launch、Mobile Services について説明します。
 seo-description: Adobe Experience Cloud ユーザーおよび製品の管理、People（Audiences と顧客属性）、オファー、Experience Platform Launch、Mobile Services について説明します。
-seo-title: Experience Cloudサービスとユーザー管理
+seo-title: Experience Cloud サービスとユーザー管理
 solution: Experience Cloud
-title: Experience Cloudサービスについて
+title: Experience Cloud サービスについて
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '505'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
