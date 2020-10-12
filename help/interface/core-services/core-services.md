@@ -6,16 +6,16 @@ seo-title: 顧客属性やオーディエンスに対する Experience Cloud ソ
 solution: Experience Cloud
 title: ソリューションのコアサービスへの対応
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2403'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Experience Cloudサービスの実装を有効にする
+# Experience Cloud サービスの実装を有効にする
 
 Experience Platform Launch を使用して Experience Cloud を最近実装した場合、顧客属性と Experience Cloud Audiences は既に設定されています。また、Admin Console でユーザーや製品を管理することもできます。
 
