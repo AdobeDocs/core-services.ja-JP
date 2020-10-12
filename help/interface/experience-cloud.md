@@ -6,16 +6,16 @@ seo-title: Adobe Experience Cloud およびプラットフォームサービス�
 solution: Experience Cloud
 title: Experience Cloud とプラットフォームサービスのヘルプ
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Experience Cloudサービスと管理
+# Experience Cloud サービスと管理
 
 Experience Cloud には、アドビが提供するデジタルマーケティングソリューションおよびサービスが統合されています。また、Experience Cloud は、クラウドソリューションやコアサービスにすばやくアクセスできる直感的なインターフェイスでもあります。
 
@@ -42,7 +42,7 @@ Experience Cloud には、アドビが提供するデジタルマーケティン
 関連する Experience Cloud ガイドは次のとおりです。
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/ja-JP/mobile-services/using/home.html)
-* [Experience Platform協力グラフ](https://docs.adobe.com/content/help/ja-JP/device-co-op/using/home.html)
+* [Experience Platform Co-op Graph](https://docs.adobe.com/content/help/ja-JP/device-co-op/using/home.html)
 * [Exchange](https://experiencecloud.adobeexchange.com/)
 * [Experience Cloud ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)
 * [Experience Platform Launch](https://docs.adobe.com/content/help/ja-JP/launch/using/overview.html)
