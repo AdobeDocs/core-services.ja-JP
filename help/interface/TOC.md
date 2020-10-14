@@ -1,15 +1,15 @@
 ---
 audience: admin
 user-guide-title: Experience Cloud サービスと管理
-breadcrumb-title: Experience Cloud Services and Administration
-user-guide-description: Adobe Experience Cloud Services and Administration Guide includes help on Experience Cloud user and product administration, the Audience Library, Customer Attributes, cookies, and Experience Cloud assets.
+breadcrumb-title: Experience Cloud サービスと管理
+user-guide-description: Adobe Experience Cloud サービスおよび管理ガイドには、Experience Cloud のユーザーと製品の管理、オーディエンスライブラリ、顧客属性、Cookie、Experience Cloud アセットに関するヘルプが含まれます。
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: ht
-source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
-workflow-type: ht
-source-wordcount: '360'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
+workflow-type: tm+mt
+source-wordcount: '390'
+ht-degree: 98%
 
 ---
 
@@ -59,11 +59,11 @@ ht-degree: 100%
    + [アセットファイルを共有するための要件](experience-cloud-assets/assets-file-reqs.md)
    + [共有フォルダーの動作](experience-cloud-assets/asset-behavior.md)
 + Experience Cloud Audience ライブラリ {#audiences}
-   + [Experience Cloud Audiences の概要](audience-library/audience-library.md)
+   + [Experience Cloudオーディエンスサービス](audience-library/audience-library.md)
    + [オーディエンスの作成](audience-library/t-audience-create.md)
    + [Analytics オーディエンスセグメントの公開](audience-library/t-publish-audience-segment.md)
-+ Experience Cloud の顧客属性 {#customer-attributes}
-   + [顧客属性の概要](attributes/attributes.md)
++ Experience Cloud Customer Attributes {#customer-attributes}
+   + [Customer Attributesサービス](attributes/attributes.md)
    + [よくある質問、制限事項、ベストプラクティス](attributes/faq-crs.md)
    + [顧客属性のデータファイルおよびデータソースについて](attributes/crs-data-file.md)
    + [顧客属性ソースの作成とデータファイルのアップロード](attributes/t-crs-usecase.md)
