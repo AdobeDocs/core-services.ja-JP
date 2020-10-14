@@ -6,11 +6,11 @@ seo-title: オーディエンスの作成
 solution: Experience Cloud
 title: オーディエンスの作成
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cc523480327172c89d590065e4321cf1d5f9ab6e
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '494'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Experience Cloud で属性ルールを使用して、オーディエンスを作
 * ルールの作成
 * ルールを使用した複合オーディエンスの定義
 
-下の図は、複合オーディエンスの 2 つのルールを表しています。
+次の図は、複合オーディエンスの 2 つのルールを表しています。
 
 ![](assets/audience_sharing.png)
 
@@ -35,7 +35,7 @@ Experience Cloud で属性ルールを使用して、オーディエンスを作
 >
 >オーディエンスが完全に定義されるのは、指定されたデータ収集期間の終了後です。
 
-次の例は、複合オーディエンスのルールを作成する方法を示したものです。このオーディエンスは、次の要素で構成されます。
+次に、複合オーディエンスのルールを作成する方法の例を示します。このオーディエンスは、次のもので構成されます。
 
 * ページデータまたは Analytics の生データから得られる Home &amp; Garden セクション。
 * [!DNL Experience Cloud] に[公開](../audience-library/audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A)された [!DNL Adobe Analytics] セグメントから得られる Chrome ユーザーと Safari ユーザー。
@@ -55,7 +55,7 @@ Experience Cloud で属性ルールを使用して、オーディエンスを作
    >
    >キャッシュの影響により、Analytics で削除したレポートスイートが Experience Cloud に反映されるまで 12 時間かかります。
 
-   * **[!UICONTROL Experience Cloud：]**[!DNL Experience Cloud] Experience Cloud ソースから抽出された属性データ。例えば、[!DNL Analytics] で作成したオーディエンスセグメントからのデータや、[!DNL Audience Manager] からのデータです。
+   * **[!UICONTROL Experience Cloud：]** [!DNL Experience Cloud] Experience Cloud ソースから抽出された属性データ。例えば、[!DNL Analytics] で作成したオーディエンスセグメントからのデータや、[!DNL Audience Manager] からのデータです。
 
 1. オーディエンスルールを定義したあと、「**[!UICONTROL 保存]**」をクリックします。
 
