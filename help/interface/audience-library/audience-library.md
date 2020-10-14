@@ -1,20 +1,20 @@
 ---
-description: Experience Cloud オーディエンスライブラリで、訪問者データからオーディエンスセグメントへの変換を管理します。
-seo-description: Experience Cloud オーディエンスライブラリで、訪問者データからオーディエンスセグメントへの変換を管理します。
-seo-title: Experience Cloud Audiences の概要
+description: Experience Cloudオーディエンスサービスで、訪問者データからオーディエンスセグメントへの変換をします。
+seo-description: Experience Cloudオーディエンスサービスで、訪問者データからオーディエンスセグメントへの変換をします。
+seo-title: Experience Cloudオーディエンスサービス
 solution: Experience Cloud
-title: Experience Cloud Audiences の概要
+title: 'Experience Cloud Audiences '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
-workflow-type: ht
-source-wordcount: '837'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
+workflow-type: tm+mt
+source-wordcount: '835'
+ht-degree: 96%
 
 ---
 
 
-# Experience Cloud Audiences の概要 {#topic_679810123CAA4E0CA4FA3417FB0100C7}
+# Experience Cloud Audiences {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
 オーディエンスは、訪問者の集合（訪問者 ID のリスト）です。アドビのオーディエンスライブラリで、訪問者データからオーディエンスのセグメント化への変換を管理します。したがって、オーディエンスを作成および管理することは、セグメントを作成および使用することに似ています。また、オーディエンスセグメントを [!DNL Experience Cloud] で製品やサービスと共有することもできます。
 
