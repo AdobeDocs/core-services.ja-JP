@@ -2,20 +2,20 @@
 description: Experience Cloud への顧客属性のアップロードの概要とそのための前提条件に関する情報です。
 keywords: core services;Customer Attributes
 seo-description: Experience Cloud への顧客属性のアップロードの概要とそのための前提条件に関する情報です。
-seo-title: Experience Cloud顧客属性サービス
+seo-title: Experience Cloud Customer Attributes サービス
 solution: Experience Cloud
-title: Experience Cloud顧客属性サービス
+title: Experience Cloud Customer Attributes サービス
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# Experience Cloud顧客属性サービス
+# Experience Cloud Customer Attributes サービス
 
 **[!DNL Experience Platform]**／**[!UICONTROL People]**／**[!UICONTROL 顧客属性]**
 
