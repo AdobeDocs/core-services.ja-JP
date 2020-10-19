@@ -1,15 +1,15 @@
 ---
-description: Experience Cloudオーディエンスサービスで、訪問者データからオーディエンスセグメントへの変換をします。
-seo-description: Experience Cloudオーディエンスサービスで、訪問者データからオーディエンスセグメントへの変換をします。
-seo-title: Experience Cloudオーディエンスサービス
+description: Experience Cloud Audiences サービスで、訪問者データからオーディエンスセグメントへの変換を管理します。
+seo-description: Experience Cloud Audiences サービスで、訪問者データからオーディエンスセグメントへの変換を管理します。
+seo-title: Experience Cloud Audiences サービス
 solution: Experience Cloud
 title: 'Experience Cloud Audiences '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '835'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
