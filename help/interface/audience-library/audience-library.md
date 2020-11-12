@@ -5,11 +5,11 @@ seo-title: Experience Cloud Audiences サービス
 solution: Experience Cloud
 title: 'Experience Cloud Audiences '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
-workflow-type: ht
-source-wordcount: '835'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e59e70b4c07a18456d9cd6651ef94029870d65f3
+workflow-type: tm+mt
+source-wordcount: '831'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 **リアルタイムオーディエンスと履歴オーディエンスの比較**
 
-どのオーディエンスも、そのソースを問わず、リアルタイムターゲティングの用途で使用できます。ただし、Analytics から Audience Manager に共有されたオーディエンスは、リアルタイムターゲティング用にはアクセスできません。システムは、オーディエンスを 2 つの方法で評価します。
+どのオーディエンスも、そのソースを問わず、リアルタイムターゲティングの用途で使用できます。ただし、AnalyticsからAudience Managerに共有されたオーディエンスは、リアルタイムターゲティングにはアクセスできません。 システムは、オーディエンスを 2 つの方法で評価します。
 
 * Analytics の履歴オーディエンスは 4 時間ごとに評価されます。処理および共有には、合計で最大 8 時間かかる場合があります。履歴オーディエンスには常にリターン訪問者が含まれます。
 * リアルタイムオーディエンスは Experience Cloud オーディエンスをソースとし、リアルタイムで評価されます。
@@ -72,6 +72,6 @@ Experience Cloud ソリューションでのオーディエンスの使用方法
 | 新規 | [オーディエンスを作成](../audience-library/audience-library.md)します。 |
 | タイトルと説明 | オーディエンスを識別および説明する列見出し。 |
 | 作成者 | オーディエンスセグメントを作成したユーザー。 |
-| ソース | オーディエンスが作成された場所を示します。<ul><li>**Analytics：** Reports &amp; Analytics または Ad Hoc Analysis で作成されてから、[Experience Cloud](../audience-library/audience-library.md) に公開されたセグメント。</li><li>**Experience Cloud：**[Experience Cloud オーディエンスで作成された](../audience-library/audience-library.md)新しいオーディエンス。</li><li>**Audience Manager：** Audience Manager で作成されたオーディエンスは Experience Cloud オーディエンスに自動的に表示されます。</li></ul> |
+| ソース | オーディエンスが作成された場所を示します。<ul><li>**解析：** Adobe Analyticsで作成され、Experience Cloudに [公開されたセグメント](../audience-library/audience-library.md)。</li><li>**Experience Cloud：**[Experience Cloud オーディエンスで作成された](../audience-library/audience-library.md)新しいオーディエンス。</li><li>**Audience Manager：** Audience Manager で作成されたオーディエンスは Experience Cloud オーディエンスに自動的に表示されます。</li></ul> |
 | 現在のサイズ | 現在のオーディエンスのサイズ。 |
 | アクティブ | セグメントのアクティブステータス。 |
