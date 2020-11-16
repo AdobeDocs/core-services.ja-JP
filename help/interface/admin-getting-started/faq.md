@@ -1,23 +1,31 @@
 ---
-description: Experience Cloud 管理者向けのよくある質問と回答です。
+description: Experience Cloudの管理者にとって、ブラウザーのサポート、よくある質問と回答です。
 keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
-seo-description: Experience Cloud 管理者向けのよくある質問と回答です。
+seo-description: Experience Cloudの管理者にとって、ブラウザーのサポート、よくある質問と回答です。
 seo-title: Experience Cloud コアサービスに関するよくある質問（FAQ）です。
 solution: Experience Cloud
 title: よくある質問
 index: true
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: ddf8943a18c9826acfb240192f6a3db987d31a0e
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 100%
+source-wordcount: '780'
+ht-degree: 89%
 
 ---
 
 
 # よくある質問Experience Cloud について
 
-Experience Cloud 管理者向けのよくある質問と回答です。
+Experience Cloudのサポートと、管理者向けのよくある質問と回答について説明します。
+
+## Experience Cloudでサポートされているブラウザは何ですか。
+
+* Microsoft Edge（最新バージョンと最新バージョンの2つ前のバージョン）
+* Google Chrome（最新バージョンと最新バージョンの2つ前）
+* Mozilla Firefox（最新バージョンと最新バージョンの2つ前）
+* Safari（最新バージョンと最新バージョンの2つ前）
+* Opera（現在と過去2つのバージョン）
 
 ## ソリューションがコアサービスに対応しているかどうかを確認するには、どうすればよいですか。
 
