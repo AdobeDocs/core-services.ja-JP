@@ -5,11 +5,11 @@ seo-title: Experience Cloud Audiences サービス
 solution: Experience Cloud
 title: 'Experience Cloud Audiences '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a2dfb2e14fdb7173fb859f45228fb9b1c997e172
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '831'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 * [!DNL Analytics] に公開された [!DNL Experience Cloud] セグメントから
 * 送信元 [!DNL Audience Manager]
 
-**リアルタイムオーディエンスと過去の情報**
+**リアルタイムオーディエンスと履歴オーディエンスの比較**
 
 どのオーディエンスも、そのソースを問わず、リアルタイムターゲティングの用途で使用できます。ただし、Analytics から Audience Manager に共有されたオーディエンスは、リアルタイムターゲティング用にはアクセスできません。システムは、オーディエンスを 2 つの方法で評価します。
 
