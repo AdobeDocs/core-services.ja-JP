@@ -1,21 +1,21 @@
 ---
-description: Experience Cloud への顧客属性のアップロードの概要とそのための前提条件に関する情報です。
-keywords: core services;Customer Attributes
+description: 顧客属性をAdobe Experience Cloudにアップロードする場合の概要と前提条件です。
+keywords: core services;Customer Attributes; Adobe Experience Cloud; Analytics; Target
 seo-description: Experience Cloud への顧客属性のアップロードの概要とそのための前提条件に関する情報です。
 seo-title: Experience Cloud Customer Attributes サービス
 solution: Experience Cloud
-title: Experience Cloud Customer Attributes サービス
+title: Adobe Experience Cloud — 顧客属性サービス
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: ht
-source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
-workflow-type: ht
-source-wordcount: '465'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9763e6f9c2521574e6c4e3d2bc4e96195eeec9f9
+workflow-type: tm+mt
+source-wordcount: '469'
+ht-degree: 94%
 
 ---
 
 
-# Experience Cloud Customer Attributes サービス
+# Adobe Experience Cloudの顧客属性
 
 **[!DNL Experience Platform]**／**[!UICONTROL People]**／**[!UICONTROL 顧客属性]**
 
