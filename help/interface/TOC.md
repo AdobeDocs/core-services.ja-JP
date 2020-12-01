@@ -6,9 +6,9 @@ user-guide-description: Adobe Experience Cloud サービスおよび管理ガイ
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
+source-git-commit: 9763e6f9c2521574e6c4e3d2bc4e96195eeec9f9
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '393'
 ht-degree: 98%
 
 ---
@@ -59,11 +59,11 @@ ht-degree: 98%
    + [アセットファイルを共有するための要件](experience-cloud-assets/assets-file-reqs.md)
    + [共有フォルダーの動作](experience-cloud-assets/asset-behavior.md)
 + Experience Cloud Audience ライブラリ {#audiences}
-   + [Experience Cloudオーディエンスサービス](audience-library/audience-library.md)
+   + [Experience Cloud Audiences サービス](audience-library/audience-library.md)
    + [オーディエンスの作成](audience-library/t-audience-create.md)
    + [Analytics オーディエンスセグメントの公開](audience-library/t-publish-audience-segment.md)
 + Experience Cloud Customer Attributes {#customer-attributes}
-   + [Customer Attributesサービス](attributes/attributes.md)
+   + [Adobe Experience Cloudの顧客属性](attributes/attributes.md)
    + [よくある質問、制限事項、ベストプラクティス](attributes/faq-crs.md)
    + [顧客属性のデータファイルおよびデータソースについて](attributes/crs-data-file.md)
    + [顧客属性ソースの作成とデータファイルのアップロード](attributes/t-crs-usecase.md)
