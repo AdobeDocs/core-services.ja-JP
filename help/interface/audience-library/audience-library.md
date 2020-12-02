@@ -1,30 +1,30 @@
 ---
-description: Experience Cloud Audiences サービスで、訪問者データからオーディエンスセグメントへの変換を管理します。
+description: Adobe Experience Cloudオーディエンスサービスで、訪問者データからオーディエンスセグメントへの変換を管理する方法について説明します。
 seo-description: Experience Cloud Audiences サービスで、訪問者データからオーディエンスセグメントへの変換を管理します。
 seo-title: Experience Cloud Audiences サービス
 solution: Experience Cloud
-title: 'Experience Cloud Audiences '
+title: 'Adobe Experience Cloudオーディエンス '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: a2dfb2e14fdb7173fb859f45228fb9b1c997e172
-workflow-type: ht
-source-wordcount: '831'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e7d297820dbb666308c5906eca01a0c248e35fe3
+workflow-type: tm+mt
+source-wordcount: '832'
+ht-degree: 93%
 
 ---
 
 
 # Experience Cloud Audiences {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
-オーディエンスは、訪問者の集合（訪問者 ID のリスト）です。アドビのオーディエンスライブラリで、訪問者データからオーディエンスのセグメント化への変換を管理します。したがって、オーディエンスを作成および管理することは、セグメントを作成および使用することに似ています。また、オーディエンスセグメントを [!DNL Experience Cloud] で製品やサービスと共有することもできます。
+オーディエンスは、訪問者の集合（訪問者 ID のリスト）です。アドビのオーディエンスライブラリで、訪問者データからオーディエンスのセグメント化への変換を管理します。したがって、オーディエンスの作成と管理は、セグメントの作成と使用に似ています。 オーディエンスセグメントは、の製品やサービスと共有することもでき [!DNL Experience Cloud]ます。
 
 ![](assets/audiences.png)
 
 オーディエンスは、次のような各種ソースから作成または取得できます。
 
 * [!DNL Experience Cloud] で作成される新しいソース
-* [!DNL Analytics] に公開された [!DNL Experience Cloud] セグメントから
-* 送信元 [!DNL Audience Manager]
+* [!DNL Analytics] 公開されたセグメント [!DNL Experience Cloud]
+* [!DNL Audience Manager]
 
 **リアルタイムオーディエンスと履歴オーディエンスの比較**
 
