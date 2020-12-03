@@ -40,7 +40,7 @@ AS2 Flash をベースとする eCatalog ビューア向けの cookie には次�
 | 保存される情報 | セッション cookie を設定します。IPS ImageServer に組み込まれる AuthFilter（IS、IR、および SWF／スキンとビデオのコンテキスト）では、この cookie がアクセス認証用に使用されます。これが存在する場合、HTTP リクエストは通過が許可され、存在しない場合は未承認で戻されます。 |
 | 有効期限 | この cookie はセッション cookie です。Scene7 IPS [!DNL web.xml] で、現在のセッションの有効期限は 45 分に設定されています。 |
 
-**cookie 名：s7js.flyout.InfoMessage.displayed`assetId`.state**
+**cookie 名：s7js.flyout.InfoMessage.displayed `assetId`.state**
 
 <table id="table_6835D64C5D464A049F576621F2BE3FAD"> 
  <thead> 
