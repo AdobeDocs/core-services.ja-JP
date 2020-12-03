@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Dynamic Tag Management の使用を開始するには、「**[!UICONTROL Activat
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external">Experience Cloud ID サービスの導入ガイド </a> </p> </td> 
-   <td colname="col2"> <p>Experience Cloud IDサービスは、Experience Cloudソリューション全体(顧客属性、オーディエンス共有、トリガーなど)のコア機能を有効にします。 ID サービスを実装して、これらの機能を活用することを強くお勧めします。 </p> </td> 
+   <td colname="col2"> <p>Experience Cloud ID サービスをデプロイすると、Experience Cloud ソリューション全体でコア機能（顧客属性、オーディエンス共有、トリガーなど）を利用できるようになります。ID サービスを実装して、これらの機能を活用することを強くお勧めします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/ja-JP/dtm/using/dtm-home.html" format="https" scope="external"> Dynamic Tag Management 製品ドキュメント </a> </p> </td> 
