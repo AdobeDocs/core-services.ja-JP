@@ -5,9 +5,9 @@ seo-description: Experience Cloud と Creative Cloud の間でフォルダーや
 seo-title: Experience Cloud フォルダーおよびアセットの Creative Cloud との共有
 solution: Experience Cloud
 title: Experience Cloud フォルダーおよびアセットの Creative Cloud との共有
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 100%
 
