@@ -9,8 +9,8 @@ index: true
 translation-type: tm+mt
 source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1455'
+ht-degree: 100%
 
 ---
 
@@ -113,7 +113,7 @@ Experience Platform Launch は、Admin Console の製品ページに表示され
 
 Admin Console のユーザー権限と Launch 固有のオプションの設定（プロファイルへの権限の割り当てなど）については、[ユーザー管理](https://docs.adobe.com/content/help/ja-JP/launch/using/reference/admin/user-permissions.html)を参照してください。
 
-## クラウドサービスとしての Experience Manager
+## Experience Manager as a Cloud Service
 
 法人のお客様は、Adobe Admin Console では IMS 組織として表されます。Admin Console は、アドビのお客様が自社製品に対するユーザーおよびグループの使用権限を管理するために使用するポータルです。AEM のお客様は、Adobe Admin Console を使用して、AEM as a Cloud Service に対する製品の使用権限や IMS 認証を管理できます。
 
