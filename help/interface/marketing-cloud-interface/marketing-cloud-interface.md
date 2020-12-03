@@ -6,11 +6,11 @@ seo-title: Experience Cloud の新機能
 solution: Experience Cloud
 title: Experience Cloud の新機能
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '635'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -60,7 +60,7 @@ Experience Cloud の新機能と更新の概要を示します。
 
 
 
-## 2018 年 5 月 11 日 {#section_498AF78DA17C4720AA0F32B51493E550}
+## May 10, 2018 {#section_498AF78DA17C4720AA0F32B51493E550}
 
 [!DNL Adobe Experience Cloud] インターフェイスの新機能および修正点です。
 
@@ -92,7 +92,7 @@ Experience Cloud の新機能と更新の概要を示します。
 | 機能 | 説明 |
 |--- |--- |
 | レポートスイートの一括マッピング | 管理／レポートスイートのマッピングで、複数のレポートスイートを選択して、1 つの組織にマッピングできるようになりました（以前は、個別にマッピングする必要がありました）。<br>[レポートスイートを単一の組織にマッピング](../core-services/core-services.md)すると、Experience Cloud でクロスソリューションの機能とサービスを有効にすることができます。 |
-| Experience Cloud オーディエンスの更新 | **レポートスイートの適用&#x200B;**<br>すべての[オーディエンスルール](../audience-library/t-audience-create.md)にレポートスイートを適用できるようになりました（以前は、ルール定義ごとにレポートスイートを指定する必要がありました）。<br>**Prop と変数**<br>（eVar およびイベント変数に加えて）リアルタイムオーディエンスに Analytics の prop およびデフォルト変数を含めることができるようになりました。 |
+| Experience Cloud オーディエンスの更新 | **レポートスイートの適用**<br>&#x200B;すべての[オーディエンスルール](../audience-library/t-audience-create.md)にレポートスイートを適用できるようになりました（以前は、ルール定義ごとにレポートスイートを指定する必要がありました）。<br>**Prop と変数**<br>（eVar およびイベント変数に加えて）リアルタイムオーディエンスに Analytics の prop およびデフォルト変数を含めることができるようになりました。 |
 
 ## 2016 年 11 月 9 日 - 16.11.1 {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
 
