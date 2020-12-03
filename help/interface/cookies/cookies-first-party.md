@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: ファーストパーティ cookie
 index: y
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b34cec87be58b9a4df3e9b061010689e5db4adb6
-workflow-type: ht
-source-wordcount: '1462'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1460'
+ht-degree: 99%
 
 ---
 
@@ -110,7 +110,7 @@ CNAME が設定され、証明書がインストールされている場合は�
 
 ### [!DNL curl] を使用した検証
 
-アドビでは、コマンドラインから [[!DNL curl]](https://curl.haxx.se/) を使用することをお勧めします（[!DNL Windows] ユーザーは <https://curl.haxx.se/windows/> から [!DNL curl] をインストールできます）。
+Adobe recommends using [[!DNL curl]](https://curl.haxx.se/) from the command line. （[!DNL Windows] ユーザーは <https://curl.haxx.se/windows/> から [!DNL curl] をインストールできます）。
 
 CNAME が設定されていても、証明書がインストールされていない場合は、`curl -k https://sstats.adobe.com/_check` を実行します。応答は `SUCCESS` となります。
 
