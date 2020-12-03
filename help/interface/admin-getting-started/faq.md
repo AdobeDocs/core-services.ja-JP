@@ -6,9 +6,9 @@ seo-title: Experience Cloud コアサービスに関するよくある質問（F
 solution: Experience Cloud
 title: よくある質問
 index: true
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ddf8943a18c9826acfb240192f6a3db987d31a0e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 100%
 
