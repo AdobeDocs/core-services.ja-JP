@@ -5,9 +5,9 @@ seo-title: 様々なソリューションおよびサービスによる DNS プ�
 solution: Experience Cloud
 title: 様々なソリューションおよびサービスによる DNS プリフェッチの使用
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3e86fe7ee638158b5f9d6fa4405caaeb9b092430
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 100%
 
