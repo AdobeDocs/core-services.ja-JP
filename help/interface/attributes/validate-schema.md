@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->検証後にスキーマを更新すると、顧客属性が削除されます。 [スキーマの更新（属性の削除）](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C)を参照してください。
+>検証後にスキーマを更新すると、顧客属性が削除されます。[スキーマの更新（属性の削除）](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C)を参照してください。
 
 **[!UICONTROL 顧客属性ソース]**／**[!UICONTROL 新しい顧客属性ソースを作成]**／**[!UICONTROL スキーマを表示 / 編集]**
 
 ![](assets/view_edit_schema.png)
 
-[!UICONTROL スキーマの検証]ページでは、スキーマの各行は、アップロードされた CSV ファイルの列を表しています。
+[!UICONTROL スキーマの検証] ページでは、スキーマの各行は、アップロードされた CSV ファイルの列を表しています。
 
 ![](assets/06_crs_usecase.png)
 
@@ -47,7 +47,7 @@ ht-degree: 98%
 
 Experience Cloud に顧客属性ソースと FTP アカウントを作成したら、FTP を使用してデータをアップロードすることもできます。属性ソースごとに 1 つの FTP アカウントを作成できます。アップロードしたファイルは、そのアカウントのルートフォルダーに保存されます。データは .csv 形式にする必要があります。2 つ目の .fin ファイルは、アップロードが完了したことを示します。
 
-文字列、整数および数値に適用する名前は、[!DNL Analytics] 指標の作成に使用されます。詳しくは、[!DNL Analytics] ヘルプの[顧客属性レポート](https://docs.adobe.com/help/ja-JP/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)を参照してください。
+文字列、整数および数値に適用する名前は、[!DNL Analytics] 指標の作成に使用されます。詳しくは、[!DNL Analytics] ヘルプの[顧客属性レポート](https://docs.adobe.com/content/help/ja-JP/core-services/interface/customer-attributes/attributes.html)を参照してください。
 
 * **[!UICONTROL 属性：]**&#x200B;アップロードされた `.csv` ファイルから読み出された属性データ。
 
