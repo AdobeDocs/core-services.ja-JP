@@ -4,9 +4,9 @@ seo-description: Advertising Cloud では、広告エンゲージメントイベ
 seo-title: Advertising Cloud の cookie
 title: Advertising Cloud の cookie
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d7d1a659bbdbc7a4221243d88410492351ab9055
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 100%
 
@@ -99,7 +99,7 @@ Advertising Cloud では、広告エンゲージメントイベントをコン�
   </tr> 
   <tr> 
    <td colname="col1"> <p>有効期限 </p> </td> 
-   <td colname="col2"> <p>2 年 </p> </td> 
+   <td colname="col2"> <p>2 年。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>用途 </p> </td> 
@@ -167,7 +167,7 @@ Advertising Cloud では、広告エンゲージメントイベントをコン�
   </tr> 
   <tr> 
    <td colname="col1"> <p>有効期限 </p> </td> 
-   <td colname="col2"> <p>2 年 </p> </td> 
+   <td colname="col2"> <p>2 年。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>用途 </p> </td> 
@@ -233,7 +233,7 @@ Advertising Cloud では、広告エンゲージメントイベントをコン�
   </tr> 
   <tr> 
    <td colname="col1"> <p>有効期限 </p> </td> 
-   <td colname="col2"> <p>2 年 </p> </td> 
+   <td colname="col2"> <p>2 年。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>用途 </p> </td> 
