@@ -1,16 +1,14 @@
 ---
-description: Adobe Analytics では、異なるブラウザーからのリクエストを区別する目的と、アプリケーションによって後で使用されることがある有用な情報を保存する目的で cookie を使用します。また、閲覧行動と顧客レコードを関連付ける目的にも使用します。
+description: Adobe Experience CloudのAdobe Analyticsクッキーについて学びます。
 keywords: cookies;privacy
-seo-description: Adobe Analytics では、異なるブラウザーからのリクエストを区別する目的と、アプリケーションによって後で使用されることがある有用な情報を保存する目的で cookie を使用します。また、閲覧行動と顧客レコードを関連付ける目的にも使用します。
-seo-title: Analytics の cookie
 solution: Experience Cloud,Analytics,Target
-title: Analytics の cookie
+title: Adobe Analyticscookieの使用方法 |Adobe Experience Cloud
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
 translation-type: tm+mt
-source-git-commit: c9d9a69193a877c553db73d230723f1c24dbfed6
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 100%
+source-wordcount: '760'
+ht-degree: 97%
 
 ---
 
