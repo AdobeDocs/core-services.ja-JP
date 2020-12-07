@@ -1,21 +1,19 @@
 ---
 description: ソリューションのデータソースと、サブスクリプションの設定について説明します。サブスクリプションを設定することで、Experience Cloud とソリューション（Analytics と Target）の間で顧客属性データをやり取りできるようになります。
 keywords: Customer Attributes;core services
-seo-description: ソリューションのデータソースと、サブスクリプションの設定について説明します。サブスクリプションを設定することで、Experience Cloud とソリューション（Analytics と Target）の間で顧客属性データをやり取りできるようになります。
-seo-title: サブスクリプションの設定
 solution: Experience Cloud
-title: サブスクリプションの設定
+title: 購読の設定方法 |Adobe Experience Cloud
 uuid: f74a8155-0a21-46b3-9b1e-4c838f72f24f
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 100%
+source-wordcount: '384'
+ht-degree: 96%
 
 ---
 
 
-# サブスクリプションの設定
+# Experience Cloudでの購読の設定方法
 
 ソリューションのデータソースと、サブスクリプションの設定について説明します。サブスクリプションを設定することで、Experience Cloud とソリューション（Analytics と [!DNL Target]）の間で顧客属性データをやり取りできるようになります。
 
