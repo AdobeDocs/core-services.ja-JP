@@ -1,16 +1,14 @@
 ---
-description: アドビでは、お客様のプライバシーおよびデータセキュリティを最優先の重要事項と認識して、複数のプライバシー保護関連団体に参加し、また、規制当局や自主規制ルールの運用（Digital Advertising Alliance AdChoices プログラムなど）にも関与しています。こうした活動を通じて、情報の使用方法についての説明と選択肢をお客様に提供するようにしています。
+description: Adobe Experience CloudのソリューションおよびサービスでのCookieとプライバシーについて説明します。
 keywords: cookies;privacy
-seo-description: アドビでは、お客様のプライバシーおよびデータセキュリティを最優先の重要事項と認識して、複数のプライバシー保護関連団体に参加し、また、規制当局や自主規制ルールの運用（Digital Advertising Alliance AdChoices プログラムなど）にも関与しています。こうした活動を通じて、情報の使用方法についての説明と選択肢をお客様に提供するようにしています。
-seo-title: cookie とプライバシーについて
 solution: Experience Cloud,Analytics,Target
-title: cookie とプライバシーについて
+title: cookieとプライバシーの概要 |Adobe Experience Cloud
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 100%
+source-wordcount: '335'
+ht-degree: 94%
 
 ---
 
