@@ -1,16 +1,14 @@
 ---
-description: Experience Cloud で属性ルールを使用して、オーディエンスを作成し、複合オーディエンスを定義する方法について説明します。
+description: 属性ルールを使用してオーディエンスを作成し、Adobe Experience Cloudで複合オーディエンスを定義する方法を説明します。
 keywords: core services
-seo-description: Experience Cloud で属性ルールを使用して、オーディエンスを作成し、複合オーディエンスを定義する方法について説明します。
-seo-title: オーディエンスの作成
-solution: Experience Cloud
-title: オーディエンスの作成
+solution: Adobe Experience Cloud
+title: オーディエンスの作成 |Adobe Experience Cloud
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 translation-type: tm+mt
-source-git-commit: cc523480327172c89d590065e4321cf1d5f9ab6e
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 100%
+source-wordcount: '475'
+ht-degree: 94%
 
 ---
 
