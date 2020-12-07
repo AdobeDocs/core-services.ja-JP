@@ -1,16 +1,14 @@
 ---
-description: Experience Cloud を実装して管理者になります。このプロセスでは、顧客属性やオーディエンスなどの機能に対応するようにソリューションを最新化します。
+description: Adobe Experience Cloudを導入し、管理者になる方法を学びます。
 keywords: core services;Customer Attributes
-seo-description: Experience Cloud を実装して管理者になります。このプロセスでは、顧客属性やオーディエンスなどの機能に対応するようにソリューションを最新化します。
-seo-title: 顧客属性やオーディエンスに対する Experience Cloud ソリューションを有効にする
 solution: Experience Cloud
-title: ソリューションのコアサービスへの対応
+title: コアサービス向けソリューションの有効化 |Adobe Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '2403'
-ht-degree: 100%
+source-wordcount: '2368'
+ht-degree: 99%
 
 ---
 
