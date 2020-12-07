@@ -1,16 +1,14 @@
 ---
-description: Creative Cloud ユーザーと Experience Cloud アセットフォルダーを共有します。
+description: Experience CloudアセットフォルダーをCreative Cloudユーザーと共有する方法。
 keywords: asset sharing;Creative Cloud;core services
-seo-description: Creative Cloud ユーザーと Experience Cloud アセットフォルダーを共有します。
-seo-title: Experience Cloud アセットフォルダーの共有
 solution: Experience Cloud
-title: Experience Cloud アセットフォルダーの共有
+title: Experience Cloudアセットフォルダーの共有 |Adobe Experience Cloud
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 100%
+source-wordcount: '310'
+ht-degree: 93%
 
 ---
 
