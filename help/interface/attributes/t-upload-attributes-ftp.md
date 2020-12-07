@@ -1,16 +1,14 @@
 ---
 description: ドラッグ＆ドロップを使用してアップロードしない場合は、FTP を利用して顧客属性データを Experience Cloud にアップロードできます。
 keywords: Customer Attributes;core services
-seo-description: ドラッグ＆ドロップを使用してアップロードしない場合は、FTP を利用して顧客属性データを Experience Cloud にアップロードできます。
-seo-title: オプション - FTP を使用したデータファイルのアップロード
 solution: Experience Cloud
-title: オプション - FTP を使用したデータファイルのアップロード
+title: FTPを使用した顧客属性データファイルのアップロード |Adobe Experience Cloud
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
 translation-type: tm+mt
-source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 100%
+source-wordcount: '271'
+ht-degree: 95%
 
 ---
 
