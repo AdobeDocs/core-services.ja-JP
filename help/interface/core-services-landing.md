@@ -1,15 +1,12 @@
 ---
 description: Adobe Experience Cloud ユーザーおよび製品の管理、People（Audiences と顧客属性）、Journey Orchestration、オファー、Places、Experience Platform Launch、Mobile Services について説明します。
-seo-description: Adobe Experience Cloud ユーザーおよび製品の管理、People（Audiences と顧客属性）、オファー、Experience Platform Launch、Mobile Services について説明します。
-seo-title: Experience Cloud サービスとユーザー管理
 solution: Experience Cloud
-title: Experience Cloud サービスについて
-index: true
+title: Experience Cloudサービスの概要 |Adobe Experience Cloud
 translation-type: tm+mt
-source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+source-git-commit: 7dbf1fa59ac856d84309bff6fabe3462bf49ccf1
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +15,9 @@ ht-degree: 100%
 
 Adobe Experience Cloud サービスには、[!UICONTROL People]（Audiences と顧客属性）、Experience Platform Launch、Mobile Services などがあります。また、Experience Cloud のユーザーおよび製品の管理に関するヘルプも参照できます。
 
-Experience Cloud のこれらのサービスにアクセスするには、**[!UICONTROL アプリケーションセレクター]** ![](assets/menu-icon.png) をクリックします。
+To access these services in the Experience Cloud, click the **[!UICONTROL Application Selector]**
+
+![](assets/menu-icon.png)。
 
 ![](assets/platform-core-services.png)
 
