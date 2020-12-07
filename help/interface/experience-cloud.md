@@ -1,16 +1,14 @@
 ---
-description: Adobe Experience Cloud のセルフヘルプ、製品ドキュメント、技術ドキュメントです。Admin Console でのユーザーと製品の管理が含まれ、オーディエンスサービスのソリューション、プラットフォームライブラリ、顧客属性、Experience Cloud アセットなどのヘルプを有効にします。
-keywords: platform services
-seo-description: Admin Console でのユーザーと製品の管理に関するヘルプ。オーディエンスサービスのソリューションを有効にし、プラットフォームライブラリ、顧客属性、Experience Cloud アセットなどに関するヘルプです。
-seo-title: Adobe Experience Cloud およびプラットフォームサービスのヘルプと製品ドキュメントです。
+description: Adobe Admin Consoleでのユーザーと製品の管理、Experience Cloudサービスのソリューションの有効化、オーディエンスライブラリ、顧客属性、Experience Cloudアセットなどについて説明します。
+keywords: Adobe Experience Cloud services, customer attributes, audiences, user and product administration
 solution: Experience Cloud
-title: Experience Cloud とプラットフォームサービスのヘルプ
+title: Experience Cloudサービスと管理 |Adobe Experience Cloud
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 100%
+source-wordcount: '429'
+ht-degree: 91%
 
 ---
 
