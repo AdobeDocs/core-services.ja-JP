@@ -1,16 +1,14 @@
 ---
-description: Exchange Marketplace にアクセスすると、各種の連携ツールの検索、参照、選択、支払いおよびダウンロードをおこなえます。Data Connectors、アドビのコア製品のカスタム設定、サードパーティアプリケーション、レポートなどが含まれます。
+description: Exchange Marketplaceについて説明します。Exchange Marketplaceは、アプリを介してDigital Marketingの拡張機能を検索、参照、選択、支払いおよびダウンロードできる単一の場所です。
 keywords: core services
-seo-description: Exchange Marketplace にアクセスすると、各種の連携ツールの検索、参照、選択、支払いおよびダウンロードをおこなえます。Data Connectors、アドビのコア製品のカスタム設定、サードパーティアプリケーション、レポートなどが含まれます。
-seo-title: Exchange Marketplace
 solution: Experience Cloud
-title: Exchange Marketplace
+title: Exchange Marketplace |Adobe Experience Cloud
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 7dbf1fa59ac856d84309bff6fabe3462bf49ccf1
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
