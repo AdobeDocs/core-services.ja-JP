@@ -1,23 +1,21 @@
 ---
-description: 顧客属性 - Adobe Analytics と Adobe Target に関するよくある質問とベストプラクティスです。
+description: Adobe AnalyticsとAdobe Targetに関する、Adobe Experience Cloudの顧客属性に関するよくある質問(FAQ)です。
 keywords: Customer Attributes
-seo-description: Analytics と Target の顧客属性に関してよくある質問とベストプラクティスを紹介します。
-seo-title: よくある質問、制限事項、ベストプラクティス
-solution: Experience Cloud
-title: 顧客属性 - Adobe Experience Cloud に関するよくある質問
+solution: Adobe Experience Cloud
+title: 顧客属性に関するよくある質問への回答を得る |Adobe Experience Cloud
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 9763e6f9c2521574e6c4e3d2bc4e96195eeec9f9
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 100%
+source-wordcount: '1236'
+ht-degree: 96%
 
 ---
 
 
 # よくある質問、制限事項、ベストプラクティス
 
-Analytics と Target の顧客属性に関してよくある質問とベストプラクティスを紹介します。
+Adobe AnalyticsおよびAdobe Targetの顧客属性に関するよくある質問とベストプラクティスです。
 
 ## ベストプラクティスと制限事項 {#section_7F5189B3DAA84EE6865B91D2026EE05A}
 
