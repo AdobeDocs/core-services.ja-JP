@@ -1,16 +1,14 @@
 ---
-description: 様々なブラウザーでサードパーティ cookie のサポートが制限され始めている状況を受け、アドビでは Adobe Experience Cloud ソリューション全体にわたり、お客様のニーズとプライバシーのバランスを慎重に考慮した新しいソリューションの開発に取り組んでいます。
+description: ブラウザー間でサードパーティcookieのサポートがますます制限されるようになった方法について説明します。
 keywords: cookies;privacy
-seo-description: 様々なブラウザーでサードパーティ cookie のサポートが制限され始めている状況を受け、アドビでは Adobe Experience Cloud ソリューション全体にわたり、お客様のニーズとプライバシーのバランスを慎重に考慮した新しいソリューションの開発に取り組んでいます。
-seo-title: サードパーティ cookie のサポートに対する変更がお客様に及ぼす影響
 solution: Experience Cloud,Analytics,Target
-title: サードパーティ cookie のサポートに対する変更がお客様に及ぼす影響
+title: サードパーティcookieのサポートに対する変更が顧客に与える影響 |Adobe Experience Cloud
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 100%
+source-wordcount: '298'
+ht-degree: 91%
 
 ---
 
