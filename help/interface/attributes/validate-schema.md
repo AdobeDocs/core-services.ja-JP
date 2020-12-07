@@ -1,16 +1,14 @@
 ---
-description: 検証プロセスでは、アップロードした属性（文字列、整数、数値など）に表示名と説明をマッピングできます。これらの設定に基づいてスキーマが作成されます。このスキーマは、このデータソースに今後アップロードされるすべてのデータの検証に使用されます。このマッピングプロセスによって元のデータが変更されることはありません。
-keywords: Customer Attributes;core services
-seo-description: 検証プロセスでは、アップロードした属性（文字列、整数、数値など）に表示名と説明をマッピングできます。これらの設定に基づいてスキーマが作成されます。このスキーマは、このデータソースに今後アップロードされるすべてのデータの検証に使用されます。このマッピングプロセスによって元のデータが変更されることはありません。
-seo-title: スキーマの検証
+description: Adobe Experience Cloudで顧客属性スキーマを検証する方法を説明します。
+keywords: Customer Attributes;Experience Cloud services
 solution: Experience Cloud
-title: スキーマの検証
+title: 顧客属性スキーマの検証方法 |Adobe Experience Cloud
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 100%
+source-wordcount: '467'
+ht-degree: 95%
 
 ---
 
