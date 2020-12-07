@@ -3,12 +3,12 @@ description: 各クラウドのブランド名変更に関する最新情報や�
 seo-description: 各クラウドのブランド名変更に関する最新情報や、インターフェイスへのアクセス方法、各種ソリューションおよびコアサービスのヘルプ情報の参照先について説明します。
 seo-title: Experience Cloud の新しいクラウド名について
 solution: Experience Cloud
-title: Experience Cloud の新しいクラウド名について
+title: Experience Cloud の新しいクラウド名について | Adobe Experience Cloud
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: 3a2bc2faef572328b69f5828749c990a0083bd1f
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '670'
 ht-degree: 100%
 
 ---
