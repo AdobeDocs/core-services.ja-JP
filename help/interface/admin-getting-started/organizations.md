@@ -1,15 +1,13 @@
 ---
 description: 組織の概要と、ソリューションアカウントの Experience Cloud へのリンクについて説明します。
-keywords: core services
-seo-description: 組織の概要と、ソリューションアカウントの Experience Cloud へのリンクについて説明します。
-seo-title: 組織とアカウントのリンク
+keywords: Adobe Experience Cloud services
 solution: Experience Cloud
-title: 組織とアカウントのリンク
+title: 組織とアカウントのリンク | Adobe Experience Cloud
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: dae4bbecc05ed6a78470354f82e4e3cd8f003660
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '388'
 ht-degree: 100%
 
 ---
