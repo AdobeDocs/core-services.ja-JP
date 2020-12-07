@@ -1,16 +1,14 @@
 ---
-description: Search&Promote では、訪問者の検索意図を理解し、予測する目的で cookie を使用します。
+description: Search&Promoteがcookieを使用して訪問者の検索意図を理解し、予測する方法について説明します。
 keywords: cookies;privacy
-seo-description: Search&Promote では、訪問者の検索意図を理解し、予測する目的で cookie を使用します。
-seo-title: Search&Promote の cookie
 solution: Experience Cloud,Analytics,Target
-title: Search&Promote の cookie
+title: Cookieの検索とプロモート |Adobe Experience Cloud
 uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 100%
+source-wordcount: '122'
+ht-degree: 83%
 
 ---
 
