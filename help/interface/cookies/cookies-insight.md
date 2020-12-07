@@ -1,16 +1,14 @@
 ---
-description: Data Workbench では、急速に変遷していく大量のデータをリアルタイムで分析する目的で cookie を使用します。
+description: 急速に進化し続ける大量のデータをリアルタイムで分析するData Workbenchでのcookieの使用方法。
 keywords: cookies;privacy
-seo-description: Data Workbench では、急速に変遷していく大量のデータをリアルタイムで分析する目的で cookie を使用します。
-seo-title: Data Workbench の cookie
 solution: Experience Cloud,Analytics,Target
-title: Data Workbench の cookie
+title: Data WorkbenchCookie |Adobe Experience Cloud
 uuid: c15013f4-c47d-4950-aa19-be9afd25cd5f
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 100%
+source-wordcount: '90'
+ht-degree: 76%
 
 ---
 
