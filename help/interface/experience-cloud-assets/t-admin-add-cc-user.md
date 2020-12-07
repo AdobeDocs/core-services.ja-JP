@@ -1,16 +1,14 @@
 ---
-description: '承認済み Creative Cloud ユーザーを管理する管理ツール。 '
+description: 'Experience Cloudで承認されたCreative Cloudユーザーを管理するための管理ツールについて説明します。 '
 keywords: asset sharing;Creative Cloud;core services
-seo-description: '承認済み Creative Cloud ユーザーを管理する管理ツール。 '
-seo-title: Creative Cloud ユーザーの管理
 solution: Experience Cloud
-title: Creative Cloud ユーザーの管理
+title: Creative Cloudユーザーの管理 |Adobe Experience Cloud
 uuid: 11c4de67-40c5-4438-92fc-e23761be3f18
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 43%
+source-wordcount: '122'
+ht-degree: 25%
 
 ---
 
