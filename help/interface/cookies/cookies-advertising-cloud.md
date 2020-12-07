@@ -1,14 +1,12 @@
 ---
-description: Advertising Cloud では、広告エンゲージメントイベントをコンバージョンイベントにマッピングしたり、その情報を使用して広告入札を最適化するために、cookie が使用されます。
-seo-description: Advertising Cloud では、広告エンゲージメントイベントをコンバージョンイベントにマッピングしたり、その情報を使用して広告入札を最適化するために、cookie が使用されます。
-seo-title: Advertising Cloud の cookie
-title: Advertising Cloud の cookie
+description: 広告エンゲージメントのイベントをコンバージョンイベントにマッピングするためのAdobe Ad Cloudのcookieについて説明します。また、場合によっては、その情報を使用して広告の入札を最適化するためにも使用できます。
+title: Advertising Cloudcookie |Adobe Experience Cloud
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 translation-type: tm+mt
-source-git-commit: d7d1a659bbdbc7a4221243d88410492351ab9055
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 100%
+source-wordcount: '524'
+ht-degree: 94%
 
 ---
 
