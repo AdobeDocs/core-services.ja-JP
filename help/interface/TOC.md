@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 9763e6f9c2521574e6c4e3d2bc4e96195eeec9f9
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 98%
    + [オーディエンスの作成](audience-library/t-audience-create.md)
    + [Analytics オーディエンスセグメントの公開](audience-library/t-publish-audience-segment.md)
 + Experience Cloud Customer Attributes {#customer-attributes}
-   + [Adobe Experience Cloudの顧客属性](attributes/attributes.md)
+   + [Adobe Experience Cloud の顧客属性](attributes/attributes.md)
    + [よくある質問、制限事項、ベストプラクティス](attributes/faq-crs.md)
    + [顧客属性のデータファイルおよびデータソースについて](attributes/crs-data-file.md)
    + [顧客属性ソースの作成とデータファイルのアップロード](attributes/t-crs-usecase.md)
