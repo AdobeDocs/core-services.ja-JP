@@ -1,16 +1,14 @@
 ---
-description: 顧客属性を Experience Cloud にアップロードするためのデータファイル要件および複数のデータソースに関する情報です。
+description: 顧客属性をAdobe Experience Cloudにアップロードするためのデータファイル要件および複数のデータソース。
 keywords: Customer Attributes;core services
-seo-description: 顧客属性を Experience Cloud にアップロードするためのデータファイル要件および複数のデータソースに関する情報です。
-seo-title: 顧客属性のデータファイルおよびデータソースについて
 solution: Experience Cloud
-title: 顧客属性のデータファイルおよびデータソースについて
+title: 顧客属性のデータファイルとデータソースについて説明します。 |Adobe Experience Cloud
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 100%
+source-wordcount: '1199'
+ht-degree: 97%
 
 ---
 
