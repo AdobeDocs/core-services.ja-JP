@@ -1,14 +1,12 @@
 ---
-description: スキーマの属性を削除して置換する方法。
-seo-description: スキーマの属性を削除して置換する方法。
-seo-title: スキーマの更新（属性の削除）
-title: スキーマの更新（属性の削除）
+description: Adobe Experience Cloudのスキーマの属性を削除および置換する方法。
+title: スキーマの更新（属性の削除） |Adobe Experience Cloud
 uuid: a465fa89-6c7f-4c07-aa59-84c968a82917
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 100%
+source-wordcount: '61'
+ht-degree: 63%
 
 ---
 
