@@ -1,14 +1,12 @@
 ---
-description: Adobe Experience Cloud に含まれる多くのサービスでは cookie が使用されています。cookie は、Web サイトから Web ブラウザーに提供されるデータの一部です。このデータはブラウザーによって保存され、後で提供元の Web サイトに返されます。この動作は、以後その Web サイトに対してページや画像の要求が発行されるたびに繰り返されます。
-seo-description: Adobe Experience Cloud に含まれる多くのサービスでは cookie が使用されています。cookie は、Web サイトから Web ブラウザーに提供されるデータの一部です。このデータはブラウザーによって保存され、後で提供元の Web サイトに返されます。この動作は、以後その Web サイトに対してページや画像の要求が発行されるたびに繰り返されます。
-seo-title: Experience Cloud で使用される cookie
-title: Experience Cloud で使用される cookie
+description: Adobe Experience Cloudのソリューションとサービスがcookieをどのように使用するかを説明します。
+title: Experience Cloudでのcookieの使用 |Adobe Experience Cloud
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 100%
+source-wordcount: '177'
+ht-degree: 88%
 
 ---
 
