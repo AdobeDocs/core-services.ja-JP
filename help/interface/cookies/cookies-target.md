@@ -1,16 +1,14 @@
 ---
-description: Target では、オンラインコンテンツのテスト機能を実現する目的と、より関連性の高いコンテンツを訪問者に対して表示する目的で、Web サイト運用者向けに cookie を使用します。
+description: Adobe Targetがcookieを使用して、ウェブサイト運営者に対し、どのオンラインコンテンツやオファーが訪問者により関連性の高いかをテストする方法について説明します。
 keywords: cookies;privacy
-seo-description: Target では、オンラインコンテンツのテスト機能を実現する目的と、より関連性の高いコンテンツを訪問者に対して表示する目的で、Web サイト運用者向けに cookie を使用します。
-seo-title: Target の cookie
 solution: Experience Cloud,Analytics,Target,Social
-title: Target の cookie
+title: Adobe Targetcookieの使用方法 |Adobe Experience Cloud
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 100%
+source-wordcount: '272'
+ht-degree: 87%
 
 ---
 
