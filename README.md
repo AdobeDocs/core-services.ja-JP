@@ -1,16 +1,12 @@
 ---
-source-git-commit: 05854701fc4de2d0657a09a070322944e713bc57
-workflow-type: ht
-translation-type: ht
-source-wordcount: '509'
+source-git-commit: 9ee72351a36bc545665be727120ee9fe639b9c87
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '427'
 ht-degree: 100%
 
 ---
 # 記事の投稿
-
-| EXL-PR | EXL | プレビュー | アクティブ化 | 公開日 | ヘルプ |
-|--- |--- |--- |--- |--- |--- |
-| [![ビルドのステータス](https://docs.ci.corp.adobe.com/view/exl-pr/job/core-services.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/core-services.en_pr-exl/lastBuild/) | [![ビルドのステータス](https://docs.ci.corp.adobe.com/view/exl-pr/job/core-services.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/core-services.en_exl/lastBuild/lastBuild) | [プレビュー URL](https://experienceleague.corp.adobe.com/docs/core-services/interface/experience-cloud.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [ライブ URL](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=en) | [オーサリングガイド](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 アドビのコミュニティや、ドキュメントチーム外部のアドビ従業員からの投稿をお待ちしています。
 
