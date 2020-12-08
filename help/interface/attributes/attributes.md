@@ -1,23 +1,23 @@
 ---
-description: Adobe Experience Cloudの顧客属性を学ぶ。
+description: Adobe Experience CloudのCustomer Attributesサービスと、分析およびターゲットで使用するデータをアップロードする方法について説明します。
 keywords: core services;Customer Attributes; Adobe Experience Cloud; Analytics; Target
 solution: Experience Cloud
-title: Customer Attributesサービス |Adobe Experience Cloud
+title: 顧客属性の使用方法 |Adobe Experience Cloud
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: efa3c21a7d93cf1f81d0529be18235e833b02769
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 96%
+source-wordcount: '487'
+ht-degree: 79%
 
 ---
 
 
-# Adobe Experience Cloud の顧客属性
+# Adobe Experience Cloudでの顧客属性の使用方法
 
-**[!DNL Experience Platform]**／**[!UICONTROL People]**／**[!UICONTROL 顧客属性]**
+Adobe Experience Cloudの顧客属性を使用すると、顧客関係管理(CRM)データベースから取り込んだ企業データをアップロードできます。 データをExperience Cloud内の顧客属性データソースにアップロードし、そのデータをAdobe AnalyticsおよびAdobe Targetで使用できます。
 
-エンタープライズ顧客データを顧客関係管理（CRM）データベースに取り込んでいる場合は、そのデータを Experience Cloud の顧客属性データソースにアップロードできます。アップロード後は、データを [!DNL Adobe Analytics] と [!DNL Adobe Target] で利用できます。
+To locate this feature, navigate to **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
 
 ![](assets/custom_reports.png)
 
@@ -31,7 +31,7 @@ ht-degree: 96%
 
    顧客属性に追加されたユーザーには、Experience Cloud インターフェイスの左側に「[!UICONTROL 顧客属性]」メニュー項目が表示されます。
 
-* 顧客属性には、**Adobe Target** [!DNL at.js]（任意のバージョン）または [!DNL mbox.js] バージョン 58 以降が必要です。
+* 顧客属性には、**Adobe Target** `at.js`（任意のバージョン）または `mbox.js` バージョン 58 以降が必要です。
 
    [at.js のデプロイ方法](https://docs.adobe.com/content/help/ja-JP/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html)または [mbox.js の実装](https://docs.adobe.com/content/help/ja-JP/target/using/implement-target/client-side/mbox-implement/mbox-download.html)を参照してください。
 
@@ -47,7 +47,7 @@ ht-degree: 96%
 
 このワークフローについては、[顧客属性データのアップロード](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)を参照してください。
 
-## ソリューションの使用例 {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
+## Analyticsとターゲットにおける顧客属性の例 {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
 データを Experience Cloud にアップロードした後は、そのデータをカスタマイズし、レポート、セグメント化、アクティビティおよびキャンペーンで利用するためにソリューションで共有できます。
 
