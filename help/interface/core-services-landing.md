@@ -1,11 +1,11 @@
 ---
 description: Adobe Experience Cloud ユーザーおよび製品の管理、People（Audiences と顧客属性）、Journey Orchestration、オファー、Places、Experience Platform Launch、Mobile Services について説明します。
 solution: Experience Cloud
-title: Experience Cloudサービスの概要 |Adobe Experience Cloud
+title: 'Experience Cloudサービスの概要 '
 translation-type: tm+mt
-source-git-commit: dae4bbecc05ed6a78470354f82e4e3cd8f003660
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '476'
 ht-degree: 90%
 
 ---
