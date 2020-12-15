@@ -4,12 +4,12 @@ keywords: core services
 seo-description: Experience Cloud の新機能と更新の概要を示します。
 seo-title: Experience Cloud の新機能
 solution: Experience Cloud
-title: Experience Cloud の新機能 | Adobe Experience Cloud
+title: 'Experience Cloud の新機能 '
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '635'
 ht-degree: 99%
 
 ---
