@@ -2,13 +2,13 @@
 description: Adobe Experience Cloudを導入し、管理者になる方法を学びます。
 keywords: core services;Customer Attributes
 solution: Experience Cloud
-title: コアサービス向けソリューションの有効化 |Adobe Experience Cloud
+title: 'ソリューションのコアサービスへの対応 '
 index: true
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '2368'
-ht-degree: 99%
+source-wordcount: '2362'
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ Experience Platform Launch を使用して Experience Cloud を最近実装し�
 
 ## 手順 1.Experience Cloud に加入して管理者になる {#section_2423F0BD3DF642658103310EE5EA6154}
 
-Experience Cloud に加入するために必要なことを次に示します。
+Experience Cloudに参加するために必要な操作：
 
 ![](assets/step1_icon.png)適切な Adobe Analytics または Adobe Target SKU を持っていることを確認する。
 
@@ -173,7 +173,7 @@ Experience Cloud ID サービスをデプロイすると、新しい訪問者は
 
 例えば、サイトのサポートセクションを別の CMS で管理している場合は、そのセクション用に別の Analytics JavaScript ファイルを使用していることがあります。このサポートサイトに Experience Cloud ID サービスをデプロイする前にメインサイトで Experience Cloud ID をデプロイした場合は、新しい訪問者はサポートセクションの訪問時に従来の Analytics ID を受け取り、両方のサイトセクションへの訪問がそれぞれ異なる訪問としてレポートされます。
 
-複数の JavaScript ファイルまたは他のテクノロジー（Flash など）を使用しているサイトに Experience Cloud ID サービスをデプロイすると、サイトのすべての部分で同時に Experience Cloud ID サービスを有効にする必要があるので、調整の問題が発生する可能性があります。猶予期間を設定することにより、新しい訪問者は ID サービスから引き続き Analytics 訪問者 ID を受け取るので、訪問者 ID サービスを使用するようにアップグレードされていないサイトのセクションでも、訪問者を一貫性のある形で識別できます。
+複数のJavaScriptファイルを使用するサイトや、他のテクノロジー(Flashなど)にExperience CloudIDサービスを導入すると、サイトのすべての部分でExperience CloudIDサービスを同時に有効にする必要があるので、調整の問題が発生する可能性があります。 猶予期間を設定することにより、新しい訪問者は ID サービスから引き続き Analytics 訪問者 ID を受け取るので、訪問者 ID サービスを使用するようにアップグレードされていないサイトのセクションでも、訪問者を一貫性のある形で識別できます。
 
 ## 手順 7.ユーザーと製品を管理する {#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF}
 
@@ -212,7 +212,7 @@ Adobe [!DNL Experience Cloud] 内のリアルタイムのオーディエンス�
 * [!DNL Analytics] キーと値のペア（prop、eVar、リスト変数、その他）。デフォルトでは、ログの行には、IP の最終オクテット（IP アドレスが Adobe [!DNL Analytics] の IP の不明化設定で変更されていないと仮定）を含む IP アドレスが含まれます。
 * Audience Manager に設定されたルールに基づいて訪問者が資格を得る特徴とセグメント。
 * （オプション）お使いの ID のうちの 1 つまたは複数。ID サービスの導入に応じて、CRM ID またはハッシュの電子メールアドレスなど、お使いの ID のうち 1 つまたは複数が送信されることもあります。このデータが Adobe [!DNL Analytics] に送信されると、Adobe Audience Management に転送されます。個人データを Adobe [!DNL Analytics] に提供しないことを推奨します。代わりに、アドビに送付する前に、一方向のハッシュを使用してデータをマスクします。
-* バックエンドのセグメント共有機能を使用した、[!DNL Analytics] から取得されるセグメント。
+* Segments originating in [!DNL Analytics] via the back-end segment sharing capability
 * サードパーティ Cookie がブロックされない場合、demdex.net Cookie が設定されます。`AMCV_###@AdobeOrg` ファーストパーティ Cookie は、常に Experience Cloud ID サービスを使用して設定されます。
 
 これらすべてのデータ要素は、ログファイルの形式で Adobe Audience Manager に配信されます。Audience Manager は、このデータを米国内で処理および格納します。Audience Manager は、このデータを米国外に格納または処理するオプションは提供しません。
