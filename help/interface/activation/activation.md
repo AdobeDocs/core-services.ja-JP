@@ -4,12 +4,12 @@ keywords: core services
 seo-description: Activation には、Experience Platform Launch という最新のタグ管理製品のほか、Dynamic Tag Management（DTM）、および Triggers が含まれています。
 seo-title: Activation
 solution: Experience Cloud
-title: Experience Cloudのアクティベーションサービス |Adobe Experience Cloud
+title: Experience Cloudのアクティベーションサービス
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '438'
 ht-degree: 98%
 
 ---
