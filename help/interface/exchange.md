@@ -2,13 +2,13 @@
 description: Exchange Marketplaceについて説明します。Exchange Marketplaceは、アプリを介してDigital Marketingの拡張機能を検索、参照、選択、支払いおよびダウンロードできる単一の場所です。
 keywords: core services
 solution: Experience Cloud
-title: Exchange Marketplace |Adobe Experience Cloud
+title: 'Exchange Marketplace '
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
 translation-type: tm+mt
-source-git-commit: 7dbf1fa59ac856d84309bff6fabe3462bf49ccf1
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '132'
+ht-degree: 83%
 
 ---
 
