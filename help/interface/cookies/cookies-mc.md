@@ -2,13 +2,13 @@
 description: Adobe Experience Cloud で訪問者 ID を保存するために使用される cookie は、様々な Experience Cloud ソリューションで利用されます。
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
-title: Experience CloudCookie |Adobe Experience Cloud
+title: 'Experience Cloud の cookie '
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 98%
+source-wordcount: '348'
+ht-degree: 100%
 
 ---
 
