@@ -2,13 +2,13 @@
 description: Adobe Experience CloudとCreative Cloudの間でアセットを共有する場合に許可されるファイルの種類とサイズ制限について説明します。
 keywords: asset sharing;Creative Cloud;core services
 solution: Experience Cloud
-title: アセットを共有するためのファイル要件 |Adobe Experience Cloud
+title: 'アセットを共有するためのファイル要件 '
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 34%
+source-wordcount: '122'
+ht-degree: 35%
 
 ---
 
