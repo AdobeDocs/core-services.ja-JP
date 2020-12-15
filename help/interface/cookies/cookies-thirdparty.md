@@ -2,13 +2,13 @@
 description: ブラウザー間でサードパーティcookieのサポートがますます制限されるようになった方法について説明します。
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
-title: サードパーティcookieのサポートに対する変更が顧客に与える影響 |Adobe Experience Cloud
+title: 'サードパーティcookieのサポートに対する変更が顧客に与える影響 '
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 91%
+source-wordcount: '295'
+ht-degree: 92%
 
 ---
 
