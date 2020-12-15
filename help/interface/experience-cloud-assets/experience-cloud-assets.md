@@ -1,13 +1,13 @@
 ---
 description: 複数のソリューションで共有できるExperience Cloudアセットについて説明します。
 solution: Experience Cloud
-title: Experience Cloud資産の概要 |Adobe Experience Cloud
+title: 'Experience Cloud資産の概要 '
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: 2376fa2edf0477515f6e0cfe31af4821c9c6b86c
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 92%
+source-wordcount: '334'
+ht-degree: 93%
 
 ---
 
