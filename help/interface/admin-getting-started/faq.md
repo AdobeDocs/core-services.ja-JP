@@ -2,13 +2,13 @@
 description: ブラウザーのサポートについて説明し、Adobe Experience Cloudの管理者によく寄せられる質問に回答します。
 keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
 solution: Experience Cloud
-title: Experience Cloudに関するよくある質問(FAQ) |Adobe Experience Cloud
+title: 'Experience Cloudに関するよくある質問(FAQ) '
 index: true
 translation-type: tm+mt
-source-git-commit: dae4bbecc05ed6a78470354f82e4e3cd8f003660
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 95%
+source-wordcount: '767'
+ht-degree: 96%
 
 ---
 
