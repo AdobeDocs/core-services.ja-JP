@@ -1,10 +1,10 @@
 ---
-title: EU 一般データ保護規則に対する顧客属性のサポート | Adobe Experience Cloud
+title: 'EU 一般データ保護規則に対する顧客属性のサポート '
 description: 一般的なデータ保護規制に対する顧客属性のサポートについて
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '432'
 ht-degree: 97%
 
 ---
