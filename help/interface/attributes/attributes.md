@@ -2,12 +2,12 @@
 description: Adobe Experience CloudのCustomer Attributesサービスと、分析およびターゲットで使用するデータをアップロードする方法について説明します。
 keywords: core services;Customer Attributes; Adobe Experience Cloud; Analytics; Target
 solution: Experience Cloud
-title: 顧客属性の使用方法 |Adobe Experience Cloud
+title: '顧客属性の使用方法 '
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: aceb1ddf150795cc76f246f8a54e9740ebed8916
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '484'
 ht-degree: 79%
 
 ---
