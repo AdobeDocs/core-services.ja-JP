@@ -1,15 +1,15 @@
 ---
 audience: admin
-user-guide-title: Adobe Experience Cloud事業管理 |Adobe Experience Cloud
+user-guide-title: 'Adobe Experience Cloud事業管理 '
 breadcrumb-title: Experience Cloud サービスと管理
-user-guide-description: Adobe Experience Cloudのユーザーと製品を管理する方法、および顧客属性サービスとオーディエンスライブラリサービスの使用方法について説明します。 CookieとExperience Cloudアセットについても説明します。
+user-guide-description: Adobe Experience Cloud のユーザーと製品を管理する方法、および顧客属性サービスとオーディエンスライブラリサービスの使用方法について説明します。 Cookie と Experience Cloud Assets についても説明します。
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 90%
+source-wordcount: '398'
+ht-degree: 98%
 
 ---
 
