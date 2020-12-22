@@ -55,7 +55,7 @@ Media Manager と TubeMogul が含まれます。
 
 ## ソリューションの概要 {#concept_4F52341A45DC49B2B216824B14D54FDA}
 
-以下の情報は、各ソリューションの簡単な説明と、ヘルプ情報へのリンクを提供します。また、デジタルマーケティングのワークフローに活用できる[使用例のレシピ](https://helpx.adobe.com/marketing-cloud/how-to/use-cases.html)も掲載されています。
+以下の情報は、各ソリューションの簡単な説明と、ヘルプ情報へのリンクを提供します。また、デジタルマーケティングのワークフローに活用できる[使用例のレシピ](https://helpx.adobe.com/jp/marketing-cloud/how-to/use-cases.html)も掲載されています。
 
 [Adobe Analytics](https://docs.adobe.com/content/help/ja-JP/analytics/landing/home.html)
 
@@ -84,7 +84,7 @@ Adobe Target は、Analytics やその他の Experience Cloud コアサービス
 
 コンテンツ管理ソリューションである Adobe Experience Manager では、Web サイト、モバイルアプリ、コミュニティおよびフォーラムのアセットやコンテンツを容易に管理できます。
 
-詳しくは、[Adobe Experience Manager 6.5](https://helpx.adobe.com/jp/support/experience-manager/6-5.html) のページを参照してください。
+詳しくは、[Adobe Experience Manager 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html) のページを参照してください。
 
 [Adobe Audience Manager](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/aam-home.html)
 
