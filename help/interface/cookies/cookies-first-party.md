@@ -1,5 +1,5 @@
 ---
-description: Adobe Analyticsがcookieを使用して、イメージ要求とブラウザーセッション間で保持されない変数やコンポーネントに関する情報を提供する方法について説明します。
+description: Adobe Analytics では Cookie を使用して、イメージリクエストとブラウザーセッション間で保持されない変数およびコンポーネントの情報を提供します。
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics
 title: 'ファーストパーティCookieの使用方法 '
@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '1444'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -108,7 +108,7 @@ CNAME が設定され、証明書がインストールされている場合は�
 
 ### [!DNL curl] を使用した検証
 
-Adobe recommends using [[!DNL curl]](https://curl.haxx.se/) from the command line. （[!DNL Windows] ユーザーは <https://curl.haxx.se/windows/> から [!DNL curl] をインストールできます）。
+コマンドラインから [[!DNL curl]](https://curl.haxx.se/) を使用することをお勧めします。（[!DNL Windows] ユーザーは <https://curl.haxx.se/windows/> から [!DNL curl] をインストールできます）。
 
 CNAME が設定されていても、証明書がインストールされていない場合は、`curl -k https://sstats.adobe.com/_check` を実行します。応答は `SUCCESS` となります。
 
