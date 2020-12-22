@@ -1,5 +1,5 @@
 ---
-description: Adobe Admin Consoleでのユーザーと製品の管理、Experience Cloudサービスのソリューションの有効化、オーディエンスライブラリ、顧客属性、Experience Cloudアセットなどについて説明します。
+description: Adobe Admin Console でのユーザーと製品の管理、Experience Cloud サービス向けのソリューションの有効化、オーディエンスライブラリ、顧客属性、Experience Cloud Assets などについて説明します。
 keywords: Adobe Experience Cloud services, customer attributes, audiences, user and product administration
 solution: Experience Cloud
 title: 'Experience Cloud サービスと管理 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '426'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Experience Cloud には、アドビが提供するデジタルマーケティン
 
 * [すべての Experience Cloud ソリューションの製品ドキュメント](https://docs.adobe.com/content/help/ja-JP/experience-cloud/user-guides/home.html) - Experience Cloud のラーニングとサポートでヘルプを参照する
 * [リリースノートと製品アップデート](https://docs.adobe.com/content/help/ja-JP/release-notes/experience-cloud/current.html) - Experience Cloud の新機能を参照およびサブスクリプションでアップデートを入手する
-* [コアサービスの実装に関するチュートリアル](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) - コアサービスに関するビデオやチュートリアルを参照する
+* [コアサービスの実装に関するチュートリアル](https://docs.adobe.com/content/help/ja-JP/core-services-learn/tutorials/overview.html) - コアサービスに関するビデオやチュートリアルを参照する
 * [Experience League で提供されるエキスパートヘルプ](https://landing.adobe.com/experience-league/) - 専門家やコミュニティからガイド付きの指導を受ける
 * [教育とトレーニング](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK) - アドビと連携してアドビ製品を最大限に活用する
 * [エクスペリエンスブログ](https://theblog.adobe.com/customer-experience/) - Experience Cloud のブログを読む
