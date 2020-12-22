@@ -1,5 +1,5 @@
 ---
-description: Adobe Experience CloudのAudience Managercookieについて説明します。
+description: Adobe Experience Cloud における Audience Manager の Cookie について説明します。
 keywords: cookies
 solution: Experience Cloud, Audience Manager
 title: 'Audience Manager の cookie '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
