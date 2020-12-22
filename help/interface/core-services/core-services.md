@@ -1,5 +1,5 @@
 ---
-description: Adobe Experience Cloudを導入し、管理者になる方法を学びます。
+description: Adobe Experience Cloud を実装し、管理者になる方法について説明します。
 keywords: core services;Customer Attributes
 solution: Experience Cloud
 title: 'ソリューションのコアサービスへの対応 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '2362'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -99,7 +99,7 @@ Experience Cloud ID サービス（以前の訪問者 ID）について詳しく
 
 ## Analytics と Adobe Target - 顧客 ID の同期 {#section_AD473A6A21C1446498E700363F9A8437}
 
-Analytics と [!DNL Target] については、Experience Cloud ID サービスを設定する際に[顧客 ID](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/authenticated-state.html) を Experience Cloud に同期させることを推奨します。
+Analytics と [!DNL Target] については、Experience Cloud ID サービスを設定する際に[顧客 ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) を Experience Cloud に同期させることを推奨します。
 
 Adobe Target では、`mbox3rdpartyid` から顧客 ID を取得し、それを [!DNL Target] に送信する必要があります（[!DNL Target] のヘルプで[顧客属性の操作方法](https://docs.adobe.com/content/help/ja-JP/target/using/audiences/visitor-profiles/working-with-customer-attributes.html)を参照してください）。
 
@@ -212,7 +212,7 @@ Adobe [!DNL Experience Cloud] 内のリアルタイムのオーディエンス�
 * [!DNL Analytics] キーと値のペア（prop、eVar、リスト変数、その他）。デフォルトでは、ログの行には、IP の最終オクテット（IP アドレスが Adobe [!DNL Analytics] の IP の不明化設定で変更されていないと仮定）を含む IP アドレスが含まれます。
 * Audience Manager に設定されたルールに基づいて訪問者が資格を得る特徴とセグメント。
 * （オプション）お使いの ID のうちの 1 つまたは複数。ID サービスの導入に応じて、CRM ID またはハッシュの電子メールアドレスなど、お使いの ID のうち 1 つまたは複数が送信されることもあります。このデータが Adobe [!DNL Analytics] に送信されると、Adobe Audience Management に転送されます。個人データを Adobe [!DNL Analytics] に提供しないことを推奨します。代わりに、アドビに送付する前に、一方向のハッシュを使用してデータをマスクします。
-* Segments originating in [!DNL Analytics] via the back-end segment sharing capability
+* バックエンドセグメント共有機能を介した[!DNL Analytics]からのセグメント
 * サードパーティ Cookie がブロックされない場合、demdex.net Cookie が設定されます。`AMCV_###@AdobeOrg` ファーストパーティ Cookie は、常に Experience Cloud ID サービスを使用して設定されます。
 
 これらすべてのデータ要素は、ログファイルの形式で Adobe Audience Manager に配信されます。Audience Manager は、このデータを米国内で処理および格納します。Audience Manager は、このデータを米国外に格納または処理するオプションは提供しません。
@@ -225,4 +225,4 @@ Adobe [!DNL Experience Cloud] 内のリアルタイムのオーディエンス�
 
 手順については、Adobe Experience Cloud ヘルプの[アドビオプトアウトの導入](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/js/opt-out.html)を参照してください。
 
-クロスドメイントラッキングの有効化については、[データ収集 CNAME およびクロスドメイントラッキング](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/analytics-reference/cname.html)を参照してください。
+クロスドメイントラッキングの有効化については、[データ収集 CNAME およびクロスドメイントラッキング](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html)を参照してください。
