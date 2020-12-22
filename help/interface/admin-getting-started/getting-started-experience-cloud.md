@@ -1,5 +1,5 @@
 ---
-description: Adobe Experience Cloudにサインインする方法、パスワードと通知を管理する方法、および既定のランディングページを指定する方法について説明します。
+description: Adobe Experience Cloud へのログイン、パスワードおよび通知の管理、デフォルトのランディングページの指定を行う方法について説明します。
 keywords: core services, sign in to Experience Cloud
 solution: Experience Cloud
 title: 'ログインと Experience Cloud プロファイル設定の管理 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '937'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
