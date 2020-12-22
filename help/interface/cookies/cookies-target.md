@@ -1,5 +1,5 @@
 ---
-description: Adobe Targetがcookieを使用して、ウェブサイト運営者に対し、どのオンラインコンテンツやオファーが訪問者により関連性の高いかをテストする方法について説明します。
+description: Adobe Target で Cookie を使用して、どのオンラインコンテンツおよびオファーが訪問者に対してより関連性が高いかを web サイトオペレーターがテストできるようにする方法について説明します。
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target,Social
 title: 'Adobe Targetcookieの使用方法 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 88%
+ht-degree: 97%
 
 ---
 
