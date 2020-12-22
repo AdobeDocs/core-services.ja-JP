@@ -1,5 +1,5 @@
 ---
-description: Adobe Experience CloudのAdobe Analyticsクッキーについて学びます。
+description: Adobe Experience Cloud の Adobe Analytics の Cookie について説明します。
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Adobe Analyticscookieの使用方法 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '757'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
