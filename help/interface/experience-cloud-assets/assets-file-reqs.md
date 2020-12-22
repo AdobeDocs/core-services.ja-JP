@@ -1,5 +1,5 @@
 ---
-description: Adobe Experience CloudとCreative Cloudの間でアセットを共有する場合に許可されるファイルの種類とサイズ制限について説明します。
+description: Adobe Experience Cloud と Creative Cloud の間で共有できるアセットのファイルタイプとサイズ制限について説明します。
 keywords: asset sharing;Creative Cloud;core services
 solution: Experience Cloud
 title: 'アセットを共有するためのファイル要件 '
@@ -8,18 +8,18 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '122'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
 
 # アセットを共有するためのファイル要件
 
-Experience CloudとCreative Cloudの間でアセットを共有する場合に許可されるファイルタイプとサイズ制限。
+Experience Cloud と Creative Cloud の間でアセットを共有する際に使用できるファイルタイプとサイズ制限。
 
 ## アップロードが許可されているファイルタイプ {#section_52B6A40BB00B45BC944C01C49B4BB590}
 
-アップロード可能なファイルタイプには、ほとんどの画像、ドキュメント、マルチメディアなどがあります。ア [セット内のファイル形式について詳しくは、「](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal-supported-formats.html) サポートされる形式 [!DNL Experience Cloud] 」を参照してください。
+アップロード可能なファイルタイプには、ほとんどの画像、ドキュメント、マルチメディアなどがあります。[!DNL Experience Cloud] アセット内のファイル形式について詳しくは、「[ サポートされる形式 ](https://helpx.adobe.com/jp/experience-manager/brand-portal/using/brand-portal-supported-formats.html)」を参照してください。
 
 ## ファイルサイズの制限 {#section_410ED8E24DBD4136830AE679C6B10D88}
 
