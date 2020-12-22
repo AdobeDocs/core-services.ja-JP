@@ -1,5 +1,5 @@
 ---
-description: Adobe Experience CloudのソリューションおよびサービスでのCookieとプライバシーについて説明します。
+description: Adobe Experience Cloud のソリューションおよびサービスの Cookie とプライバシーについて説明します。
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'cookieとプライバシーの概要 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
