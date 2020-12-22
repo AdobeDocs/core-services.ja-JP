@@ -1,5 +1,5 @@
 ---
-description: 急速に進化し続ける大量のデータをリアルタイムで分析するData Workbenchでのcookieの使用方法。
+description: Data Workbench で Cookie を使用して、急速に進化する大量のデータをリアルタイムで分析する仕組み。
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Data Workbench の cookie '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '87'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
