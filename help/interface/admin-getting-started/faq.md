@@ -1,19 +1,19 @@
 ---
-description: ブラウザーのサポートについて説明し、Adobe Experience Cloudの管理者によく寄せられる質問に回答します。
+description: ブラウザーのサポートについて説明し、Adobe Experience Cloud の管理者向けに回答されたよくある質問を取得します。
 keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
 solution: Experience Cloud
-title: 'Experience Cloudに関するよくある質問(FAQ) '
+title: 'Experience Cloud に関するよくある質問 '
 index: true
 translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '767'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# Experience Cloudに関するよくある質問(FAQ)
+# Experience Cloud に関するよくある質問
 
 Experience Cloud 管理者向けのブラウザーサポート、よくある質問および回答について説明します。
 
@@ -50,7 +50,7 @@ Experience Cloud インターフェイスが提供する機能は、ビジネス
 
 ## 移行に関する問題を解決するにはどのようにしますか。
 
-[アドビサポートに問い合わせてください](https://helpx.adobe.com/jp/marketing-cloud/contact-support.html)。
+[アドビサポートに問い合わせてください](https://helpx.adobe.com/marketing-cloud/contact-support.html)。
 
 ## _プロビジョニング_&#x200B;の特長について教えてください。
 
@@ -73,7 +73,7 @@ Experience Cloud でのプロビジョニングには次のような利点があ
 
 Admin Console 管理者はユーザーにアクセス権を付与できます。ユーザーにはログイン手順が記載された電子メールが送信されます。
 
-会社としてのプロビジョニングが完了していることを確認するために、[アドビサポートへの問い合わせ](https://helpx.adobe.com/jp/marketing-cloud/contact-support.html)が必要になる場合もあります。
+会社としてのプロビジョニングが完了していることを確認するために、[アドビサポートへの問い合わせ](https://helpx.adobe.com/marketing-cloud/contact-support.html)が必要になる場合もあります。
 
 ## アカウントのリンクはどこで管理できますか。
 
