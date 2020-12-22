@@ -8,12 +8,12 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
 
-# Experience Cloudの顧客属性に関するプライバシーに関する考慮事項
+# Experience Cloud での顧客属性のプライバシーに関する考慮事項
 
 Adobe Experience Cloud でアップロードされて使用される、個人情報（PII）に関する配慮とベストプラクティスです。
 
