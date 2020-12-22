@@ -1,5 +1,5 @@
 ---
-description: DNSプリフェッチを導入して、Adobe Experience Cloudの様々なソリューションやサービスでページ読み込み時間を短縮する方法。
+description: DNS プリフェッチを実装して、Adobe Experience Cloud の様々なソリューションやサービスでページ読み込み時間を短縮する方法。
 solution: Experience Cloud
 title: '様々なソリューションおよびサービスによる DNS プリフェッチの使用 '
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
