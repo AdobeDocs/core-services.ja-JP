@@ -1,5 +1,5 @@
 ---
-description: Adobe Scene7がcookieを使用して、ダイナミックメディアをブラウザーに配信する際に役立つ情報を保存する方法。
+description: Adobe Scene7 で Cookie を使用して、ブラウザーに Dynamic Media を配信する際に使用できる有用な情報を保存する方法。
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Scene7 の cookie '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
