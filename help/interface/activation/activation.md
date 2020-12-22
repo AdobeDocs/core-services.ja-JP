@@ -15,7 +15,7 @@ ht-degree: 98%
 ---
 
 
-# Activation
+# アクティベーション
 
 Activation には、Experience Platform Launch、Dynamic Tag Management（DTM）、および Triggers という最新のタグ管理製品が含まれています。
 
