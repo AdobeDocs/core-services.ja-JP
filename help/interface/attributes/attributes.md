@@ -1,5 +1,5 @@
 ---
-description: Adobe Experience CloudのCustomer Attributesサービスと、分析およびターゲットで使用するデータをアップロードする方法について説明します。
+description: Adobe Experience Cloud の顧客属性サービスと、Analytic および Target で使用するデータをアップロードする方法について説明します。
 keywords: core services;Customer Attributes; Adobe Experience Cloud; Analytics; Target
 solution: Experience Cloud
 title: '顧客属性の使用方法 '
@@ -8,16 +8,16 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 79%
+ht-degree: 98%
 
 ---
 
 
-# Adobe Experience Cloudでの顧客属性の使用方法
+# Adobe Experience Cloud で顧客属性を使用する方法
 
-Adobe Experience Cloudの顧客属性を使用すると、顧客関係管理(CRM)データベースから取り込んだ企業データをアップロードできます。 データをExperience Cloud内の顧客属性データソースにアップロードし、そのデータをAdobe AnalyticsおよびAdobe Targetで使用できます。
+Adobe Experience Cloud で顧客属性を使用すると、顧客関係管理（CRM）データベースから取り込んだ大規模法人データをアップロードできます。データを Experience Cloud の顧客属性データソースにアップロードすると、そのデータを Adobe Analytics および Adobe Target で使用できます。
 
-To locate this feature, navigate to **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
+この機能を探すには、**[!DNL Experience Platform]**／**[!UICONTROL ユーザー]**／**[!UICONTROL 顧客属性]**&#x200B;に移動します。
 
 ![](assets/custom_reports.png)
 
@@ -47,7 +47,7 @@ To locate this feature, navigate to **[!DNL Experience Platform]** > **[!UICONTR
 
 このワークフローについては、[顧客属性データのアップロード](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)を参照してください。
 
-## Analyticsとターゲットにおける顧客属性の例 {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
+## Analytics と Target における顧客属性の例 {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
 データを Experience Cloud にアップロードした後は、そのデータをカスタマイズし、レポート、セグメント化、アクティビティおよびキャンペーンで利用するためにソリューションで共有できます。
 
