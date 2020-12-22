@@ -8,12 +8,12 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
 
-# Experience Cloudでの購読の設定方法
+# Experience Cloud でのサブスクリプションの設定方法
 
 ソリューションのデータソースと、サブスクリプションの設定について説明します。サブスクリプションを設定することで、Experience Cloud とソリューション（Analytics と [!DNL Target]）の間で顧客属性データをやり取りできるようになります。
 
