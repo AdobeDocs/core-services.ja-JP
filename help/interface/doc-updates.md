@@ -1,5 +1,5 @@
 ---
-description: Adobe Experience Cloudヘルプの更新情報です。
+description: Adobe Experience Cloud ヘルプのアップデートに関する情報。
 keywords: Experience Cloud services
 solution: Experience Cloud
 title: 'ドキュメントの更新 - Experience Cloud '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '251'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
