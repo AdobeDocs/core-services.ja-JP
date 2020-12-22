@@ -1,5 +1,5 @@
 ---
-description: Exchange Marketplaceについて説明します。Exchange Marketplaceは、アプリを介してDigital Marketingの拡張機能を検索、参照、選択、支払いおよびダウンロードできる単一の場所です。
+description: アプリを介してデジタルマーケティングエクステンションを検索、参照、選択、支払い、およびダウンロードできる単一の宛先である Exchange Marketplace について説明します。
 keywords: core services
 solution: Experience Cloud
 title: 'Exchange Marketplace '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '132'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
