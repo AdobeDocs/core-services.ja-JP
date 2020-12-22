@@ -1,11 +1,11 @@
 ---
 title: 'EU 一般データ保護規則に対する顧客属性のサポート '
-description: 一般的なデータ保護規制に対する顧客属性のサポートについて
+description: EU 一般データ保護規則に対する顧客属性のサポートについての説明
 translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '432'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
