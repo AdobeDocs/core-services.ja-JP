@@ -1,5 +1,5 @@
 ---
-description: ブラウザー間でサードパーティcookieのサポートがますます制限されるようになった方法について説明します。
+description: ブラウザーでサードパーティ Cookie のサポートがますます制限されるようになっている状況について説明します。
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'サードパーティcookieのサポートに対する変更が顧客に与える影響 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
