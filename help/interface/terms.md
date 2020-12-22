@@ -1,5 +1,5 @@
 ---
-description: Adobe Experience Cloudの用語とCreative Cloudの違いについて説明します。
+description: Adobe Experience Cloud の用語と Creative Cloud での用語の違いについて説明します。
 keywords: asset sharing;audience services;Creative Cloud;core services
 seo-description: 'null'
 seo-title: 用語
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '1489'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Experience Cloud ユーザー向けの用語リファレンスと、これらの
 | ポートフォリオ | 複数のファイルやアセットの集合です。 | キャンペーンのコンテナです。 |
 | 製品プロファイル | [製品およびプロファイルの管理](https://helpx.adobe.com/jp/enterprise/using/manage-products-and-profiles.html)を参照してください。 | 製品またはサービスを利用する資格をユーザーに付与するには、そのユーザーを製品プロファイルに追加する必要があります。製品管理者は、購入されたプランに製品プロファイルを関連付けることによって製品プロファイルにライセンスを割り当てます。<br>ユーザーには複数の製品プロファイルを割り当てることができ、各プロファイルで異なるライセンスをユーザーに付与することができます。ユーザーの最終的な資格は、そのユーザーに割り当てられた各製品プロファイルで付与されているライセンスをすべて合わせたものとなります。 |
 | スケジュール | Adobe Story の一連のシーンや、ColdFusion でスケジュールされたタスクを指すことがあります。 | Experience Cloud では、スケジュールはキャンペーン、チャネルおよびアクティビティのアクティブ化の開始日（年、月、日）と終了日を指します。アクティビティのスケジュールは、分単位の精度があります。スケジュールを変更すると、カードが作成されます。<br> 以下に例を示します。<ul><li>キャンペーンスケジュール</li><li>チャネルスケジュール</li><li>アクティビティスケジュール</li></ul> |
-| セグメント | 該当なし | オーディエンスの適合性を評価する一連のルールの出力です。Analytics では、オプションで[セグメント](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/seg-home.html)を使用して、Experience Cloud に渡すことができるオーディエンスを定義できます。<br>Audience Manager では、セグメントは[特性](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/traits/traits-overview.html)と、訪問者がそのセグメントのメンバーとして含まれるかどうかを評価するすべての条件の集まりです。また、これらの共通の属性を共有する人々の集まりでもあります。 |
+| セグメント | 該当なし | オーディエンスの適合性を評価する一連のルールの出力です。Analytics では、オプションで[セグメント](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html)を使用して、Experience Cloud に渡すことができるオーディエンスを定義できます。<br>Audience Manager では、セグメントは[特性](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/traits/traits-overview.html)と、訪問者がそのセグメントのメンバーとして含まれるかどうかを評価するすべての条件の集まりです。また、これらの共通の属性を共有する人々の集まりでもあります。 |
 | 共有 | Creative Cloud では、ファイルを外部の様々なプラットフォーム（ソーシャル、コミュニティ、電子メールなど）にまたがって共有できます。 | Experience Cloud では、インターフェイス内部のボード内で、カードのみをアセットとして共有できます。共有は、サイトにログインしているユーザーのみが利用できます。 |
 | ソリューション | 特別な用法はありません。 | Experience Cloud のソリューションには、Adobe Analytics、Adobe Social、Adobe Target などの製品があります。<br>[Experience Cloud の新しいクラウド名について](solutions-core-services.md)を参照してください。 |
-| 特性 | 該当なし | キーと値のペア（例：color=blue）です。Audience Manager では、[特性](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/traits/traits-overview.html)を使用してセグメントを作成します。 |
+| 特性 | 該当なし | キーと値のペア（例：color=blue）です。Audience Manager では、[特性](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/traits/traits-overview.html)を使用してセグメントを作成します。 |
