@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '635'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Experience Cloud の新機能と更新の概要を示します。
 
 
 
-## May 10, 2018 {#section_498AF78DA17C4720AA0F32B51493E550}
+## 2018 年 5 月 10 日{#section_498AF78DA17C4720AA0F32B51493E550}
 
 [!DNL Adobe Experience Cloud] インターフェイスの新機能および修正点です。
 
