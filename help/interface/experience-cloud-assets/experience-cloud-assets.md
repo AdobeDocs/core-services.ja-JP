@@ -1,18 +1,18 @@
 ---
-description: 複数のソリューションで共有できるExperience Cloudアセットについて説明します。
+description: 複数のソリューションで共有できる Experience Cloud Assets について説明します。
 solution: Experience Cloud
-title: 'Experience Cloud資産の概要 '
+title: 'Experience Cloud Assets の概要 '
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
-# Experience Cloud資産の概要
+# Experience Cloud Assets の概要
 
 Experience Cloud Assets は、複数のソリューション間で共有できるマーケティング用アセットの単一の一元的なリポジトリを提供します。アセットは、デジタルドキュメント、画像、ビデオ、オーディオのいずれか（またはその一部）で、複数のレンディションを持つことができ、サブアセット（例えば、[!DNL Photoshop] ファイルのレイヤー、[!DNL PowerPoint] ファイルのスライド、PDF のページ、ZIP 内のファイルなど）を持つことができます。
 
