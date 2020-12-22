@@ -1,5 +1,5 @@
 ---
-description: Search&Promoteがcookieを使用して訪問者の検索意図を理解し、予測する方法について説明します。
+description: Search&Promote が Cookie を使用して訪問者の検索意図を理解および予測する方法について説明します。
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Search&Promote の cookie '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Search&amp;Promote では、訪問者の検索意図を理解し、予測する�
   </tr> 
   <tr> 
    <td colname="col1"> <p> 有効期限 </p> </td> 
-   <td colname="col2"> <p>Search&amp;Promote で設定できます（<span class="uicontrol">Design（デザイン）</span>／<span class="uicontrol">Navigation（ナビゲーション）</span>／<span class="uicontrol">Recent Searches（最近の検索）</span>）。cookie の有効期限には次の選択肢があります。 </p> <p> 
+   <td colname="col2"> <p>Search&amp;Promote で設定できます（<span class="uicontrol">Design（デザイン）</span>／<span class="uicontrol">Navigation（ナビゲーション）</span>／<span class="uicontrol">Recent Searches（最近の検索）</span>。cookie の有効期限には次の選択肢があります。 </p> <p> 
      <ul id="ul_28F564A6337D497699D5247F755981B8"> 
       <li id="li_6478BB5AF82341F787F92D03E277DBBB">セッション終了時 </li> 
       <li id="li_AF88B165365D4A63A82CB6ADD4542D66"> 3 時間 </li> 
