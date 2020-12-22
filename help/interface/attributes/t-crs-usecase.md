@@ -1,5 +1,5 @@
 ---
-description: 顧客属性ソースを作成し、Adobe Experience Cloudにアップロードする方法を説明します。
+description: 顧客属性ソースを作成して、Adobe Experience Cloud にアップロードする方法を説明します。
 keywords: Customer Attributes;core services
 solution: Experience Cloud
 title: '顧客属性ソースの作成とデータファイルのアップロード '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '1165'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -135,7 +135,7 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
 
 属性を削除するには、[（オプション）スキーマの更新（属性の削除）](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C)を参照してください。
 
-## （オプション）スキーマの更新（属性の削除）{#task_6568898BB7C44A42ABFB86532B89063C}
+## （オプション）スキーマの更新（属性の削除） {#task_6568898BB7C44A42ABFB86532B89063C}
 
 スキーマの属性を削除したり属性を置換したりする方法。
 
