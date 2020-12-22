@@ -1,5 +1,5 @@
 ---
-description: 'Experience CloudとCreative Cloudの間でフォルダーとアセットを共有する方法を説明します。 '
+description: 'Experience Cloud と Creative Cloud の間でフォルダーとアセットを共有する方法を説明します。 '
 keywords: asset sharing;Creative Cloud;core services
 solution: Experience Cloud
 title: 'Experience Cloud フォルダーおよびアセットの Creative Cloud との共有 '
@@ -7,14 +7,14 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 
 # Experience Cloud フォルダーおよびアセットの Creative Cloud との共有
 
-Experience CloudーとCreative Cloud間でフォルダーとアセットを共有します。 共有アセットで共同作業をしたり、注釈を付けたり、それらを Adobe Social や Adobe Target などの Experience Cloud ソリューションで使用したりできます。共有フォルダーはExperience Cloudから作成する必要があります。
+Experience Cloud と Creative Cloud の間でフォルダーとアセットを共有します。共有アセットで共同作業をしたり、注釈を付けたり、それらを Adobe Social や Adobe Target などの Experience Cloud ソリューションで使用したりできます。共有フォルダーは Experience Cloud から作成する必要があります。
 
 ## 共有の利点 {#section_4AA9939F38064280BB181D5F9E1FDEEE}
 
