@@ -1,5 +1,5 @@
 ---
-description: Adobe Experience Cloudで顧客属性スキーマを検証する方法を説明します。
+description: Adobe Experience Cloud で顧客属性スキーマを検証する方法を説明します。
 keywords: Customer Attributes;Experience Cloud services
 solution: Experience Cloud
 title: '顧客属性スキーマの検証方法 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
