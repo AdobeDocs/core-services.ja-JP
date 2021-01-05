@@ -4,9 +4,9 @@ keywords: core services
 solution: Experience Cloud
 title: '累積リリースノート '
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3954'
 ht-degree: 100%
 
