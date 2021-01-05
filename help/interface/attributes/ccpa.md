@@ -1,9 +1,9 @@
 ---
 title: 'カリフォルニア州消費者プライバシー法に対する顧客属性のサポート '
 description: カリフォルニア州消費者プライバシー法に対する顧客属性のサポート
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
 ht-degree: 100%
 
