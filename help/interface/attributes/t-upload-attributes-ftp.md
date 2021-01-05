@@ -2,13 +2,13 @@
 description: ドラッグ＆ドロップを使用してアップロードしない場合は、FTP を利用して顧客属性データを Experience Cloud にアップロードできます。
 keywords: Customer Attributes;core services
 solution: Experience Cloud
-title: 'FTPを使用した顧客属性データファイルのアップロード '
+title: 'FTP を介した顧客属性データファイルのアップロード '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '268'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Experience Cloud に顧客属性ソースと FTP アカウントを作成した�
 >
 >[顧客属性をアップロードするためのデータファイル要件](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)を確認してください。
 
-顧客属性FTPサイトへのファイルのアップロードは、FTPまたはSFTPを使用して行うことができます。
+顧客属性 FTP サイトへのファイルアップロードは、FTP または SFTP を介して実行できます。
 
 * SFTP 接続をサポートしているクライアントが必要です。
 * [こちら](https://docs.adobe.com/help/ja-JP/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html)で説明しているように、ユーザー名／パスワードを使用して、またはパスワードを使用せずに、SFTP で接続できます。
