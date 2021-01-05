@@ -2,13 +2,13 @@
 description: Adobe Experience Cloud の Adobe Analytics の Cookie について説明します。
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
-title: 'Adobe Analyticscookieの使用方法 '
+title: 'Adobe Analytics での Cookie の使用方法 '
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '757'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
