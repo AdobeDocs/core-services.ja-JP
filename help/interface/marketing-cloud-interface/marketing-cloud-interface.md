@@ -6,9 +6,9 @@ seo-title: Experience Cloud の新機能
 solution: Experience Cloud
 title: 'Experience Cloud の新機能 '
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '635'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ Experience Cloud の新機能と更新の概要を示します。
 
 
 
-## 2018 年 5 月 10 日{#section_498AF78DA17C4720AA0F32B51493E550}
+## 2018 年 5 月 10 日 {#section_498AF78DA17C4720AA0F32B51493E550}
 
 [!DNL Adobe Experience Cloud] インターフェイスの新機能および修正点です。
 
