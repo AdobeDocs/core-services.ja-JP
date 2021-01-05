@@ -4,9 +4,9 @@ keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Experience Cloud の cookie '
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '348'
 ht-degree: 100%
 
