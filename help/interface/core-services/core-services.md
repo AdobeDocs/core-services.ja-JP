@@ -4,11 +4,11 @@ keywords: core services;Customer Attributes
 solution: Experience Cloud
 title: 'ソリューションのコアサービスへの対応 '
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2362'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Experience Platform Launch を使用して Experience Cloud を最近実装し�
 
 ## 手順 1.Experience Cloud に加入して管理者になる {#section_2423F0BD3DF642658103310EE5EA6154}
 
-Experience Cloudに参加するために必要な操作：
+Experience Cloud に参加するために必要なことを次に示します。
 
 ![](assets/step1_icon.png)適切な Adobe Analytics または Adobe Target SKU を持っていることを確認する。
 
@@ -99,7 +99,7 @@ Experience Cloud ID サービス（以前の訪問者 ID）について詳しく
 
 ## Analytics と Adobe Target - 顧客 ID の同期 {#section_AD473A6A21C1446498E700363F9A8437}
 
-Analytics と [!DNL Target] については、Experience Cloud ID サービスを設定する際に[顧客 ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) を Experience Cloud に同期させることを推奨します。
+Analytics と [!DNL Target] については、Experience Cloud ID サービスを設定する際に[顧客 ID](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/authenticated-state.html) を Experience Cloud に同期させることを推奨します。
 
 Adobe Target では、`mbox3rdpartyid` から顧客 ID を取得し、それを [!DNL Target] に送信する必要があります（[!DNL Target] のヘルプで[顧客属性の操作方法](https://docs.adobe.com/content/help/ja-JP/target/using/audiences/visitor-profiles/working-with-customer-attributes.html)を参照してください）。
 
@@ -173,7 +173,7 @@ Experience Cloud ID サービスをデプロイすると、新しい訪問者は
 
 例えば、サイトのサポートセクションを別の CMS で管理している場合は、そのセクション用に別の Analytics JavaScript ファイルを使用していることがあります。このサポートサイトに Experience Cloud ID サービスをデプロイする前にメインサイトで Experience Cloud ID をデプロイした場合は、新しい訪問者はサポートセクションの訪問時に従来の Analytics ID を受け取り、両方のサイトセクションへの訪問がそれぞれ異なる訪問としてレポートされます。
 
-複数のJavaScriptファイルを使用するサイトや、他のテクノロジー(Flashなど)にExperience CloudIDサービスを導入すると、サイトのすべての部分でExperience CloudIDサービスを同時に有効にする必要があるので、調整の問題が発生する可能性があります。 猶予期間を設定することにより、新しい訪問者は ID サービスから引き続き Analytics 訪問者 ID を受け取るので、訪問者 ID サービスを使用するようにアップグレードされていないサイトのセクションでも、訪問者を一貫性のある形で識別できます。
+複数の JavaScript ファイルまたはその他のテクノロジー（Flash など）を使用しているサイトに Experience Cloud ID サービスをデプロイすると、サイトのすべての部分で Experience Cloud ID サービスを同時に有効にする必要があるため、調整の問題が発生する可能性があります。猶予期間を設定することにより、新しい訪問者は ID サービスから引き続き Analytics 訪問者 ID を受け取るので、訪問者 ID サービスを使用するようにアップグレードされていないサイトのセクションでも、訪問者を一貫性のある形で識別できます。
 
 ## 手順 7.ユーザーと製品を管理する {#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF}
 
@@ -212,7 +212,7 @@ Adobe [!DNL Experience Cloud] 内のリアルタイムのオーディエンス�
 * [!DNL Analytics] キーと値のペア（prop、eVar、リスト変数、その他）。デフォルトでは、ログの行には、IP の最終オクテット（IP アドレスが Adobe [!DNL Analytics] の IP の不明化設定で変更されていないと仮定）を含む IP アドレスが含まれます。
 * Audience Manager に設定されたルールに基づいて訪問者が資格を得る特徴とセグメント。
 * （オプション）お使いの ID のうちの 1 つまたは複数。ID サービスの導入に応じて、CRM ID またはハッシュの電子メールアドレスなど、お使いの ID のうち 1 つまたは複数が送信されることもあります。このデータが Adobe [!DNL Analytics] に送信されると、Adobe Audience Management に転送されます。個人データを Adobe [!DNL Analytics] に提供しないことを推奨します。代わりに、アドビに送付する前に、一方向のハッシュを使用してデータをマスクします。
-* バックエンドセグメント共有機能を介した[!DNL Analytics]からのセグメント
+* バックエンドのセグメント共有機能を使用して、[!DNL Analytics] から取得されるセグメント。
 * サードパーティ Cookie がブロックされない場合、demdex.net Cookie が設定されます。`AMCV_###@AdobeOrg` ファーストパーティ Cookie は、常に Experience Cloud ID サービスを使用して設定されます。
 
 これらすべてのデータ要素は、ログファイルの形式で Adobe Audience Manager に配信されます。Audience Manager は、このデータを米国内で処理および格納します。Audience Manager は、このデータを米国外に格納または処理するオプションは提供しません。
@@ -225,4 +225,4 @@ Adobe [!DNL Experience Cloud] 内のリアルタイムのオーディエンス�
 
 手順については、Adobe Experience Cloud ヘルプの[アドビオプトアウトの導入](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/js/opt-out.html)を参照してください。
 
-クロスドメイントラッキングの有効化については、[データ収集 CNAME およびクロスドメイントラッキング](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html)を参照してください。
+クロスドメイントラッキングの有効化については、[データ収集 CNAME およびクロスドメイントラッキング](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/analytics-reference/cname.html)を参照してください。
