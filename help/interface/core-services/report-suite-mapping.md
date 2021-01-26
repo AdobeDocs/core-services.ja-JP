@@ -2,11 +2,11 @@
 description: Experience Cloud で 1 つまたは複数のレポートスイートを組織にマッピングする方法について説明します。
 title: '組織へのレポートスイートのマッピング '
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '1186'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
+workflow-type: tm+mt
+source-wordcount: '1163'
+ht-degree: 98%
 
 ---
 
@@ -15,9 +15,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->レポートスイートのマッピング機能は、2020 年 11 月に廃止されます。未処理のレポートスイートは、準備中にマッピングしてください。ご質問があれば、ClientCare にお問い合わせください。
-
-1 つまたは複数のレポートスイートを組織にマッピングする方法について説明します。
+>2020年11月にレポートスイートのマッピング機能が廃止されました。 ご質問があれば、カスタマーサポートにお問い合わせください。
 
 Experience Cloud サービス（Experience Cloud ID サービスや [!UICONTROL People] など）は、個々のレポートスイートではなく組織に関連付けられています。これらのサービスを正しく機能させるには、各 Analytics レポートスイートを組織にマッピングする必要があります。マッピングプロセスは以下のように実行されます。
 
