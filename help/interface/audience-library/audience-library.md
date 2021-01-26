@@ -3,9 +3,9 @@ solution: Experience Cloud
 type: Documentation
 title: 'Adobe Experience Cloud Audiences '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ad0ea1692ca73fce91af931dc80f0e1dc2347a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '796'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ Experience Cloud ソリューションでのオーディエンスの使用方法
 | ヘルプの内容 | リソース |
 |--- |--- |
 | オーディエンスが見つからない場合 | プロビジョニングが完了していることを確認します。[はじめに - ソリューションのコアサービスへの対応](../core-services/core-services.md)を参照してください。<br>[ここ](https://www.adobe.com/go/audiences)をクリックして Profiles &amp; Audiences へのアクセス権をリクエストします（統合プロビジョニングフォーム）。 |
-| 使用例 | 使用するソリューションの選択については、ナレッジベースで[オーディエンス作成オプション](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html)を参照してください。 |
+| 使用例 | 使用するソリューションの選択については、ナレッジベースで[オーディエンス作成オプション](https://helpx.adobe.com/jp/marketing-cloud-core/kb/People/Audience-Creation-Options.html)を参照してください。 |
 | フォーラム | [オーディエンスフォーラム](https://forums.adobe.com/community/experience-cloud/platform/core-services/people-service/audiences)でも、オーディエンスを利用するうえで役立つ情報を入手できます。 |
 
 ## オーディエンスライブラリのインターフェイス要素 {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
