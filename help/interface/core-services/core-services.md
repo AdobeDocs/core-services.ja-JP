@@ -5,10 +5,10 @@ solution: Experience Cloud
 title: 'ソリューションのコアサービスへの対応 '
 index: true
 translation-type: tm+mt
-source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
+source-git-commit: d8b4f8c5ff963fce48adf7cd312543a98955828c
 workflow-type: tm+mt
-source-wordcount: '2351'
-ht-degree: 96%
+source-wordcount: '2352'
+ht-degree: 95%
 
 ---
 
@@ -32,21 +32,21 @@ Experience Platform Launch を使用して Experience Cloud を最近実装し�
 
 Experience Cloud に参加するために必要なことを次に示します。
 
-![](assets/step1_icon.png)適切な Adobe Analytics または Adobe Target SKU を持っていることを確認する。
+1. 適切な Adobe Analytics または Adobe Target SKU を持っていることを確認する。
 
-* **Adobe Analytics：** Standard または Premium（レガシー [!DNL SiteCatalyst] SKU ではない）。
-* **Adobe Target：** Standard または Premium。
+   * **Adobe Analytics：** Standard または Premium（レガシー [!DNL SiteCatalyst] SKU ではない）。
+   * **Adobe Target：** Standard または Premium。
 
->[!NOTE]
->
->[!DNL Target] の場合は、[!DNL mbox.js] から at.js に移行します。[at.js 1.x から at.js 2.x へのアップグレード](https://docs.adobe.com/content/help/ja-JP/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html)を参照してください。
+   >[!NOTE]
+   >
+   >[!DNL Target] の場合は、[!DNL mbox.js] から at.js に移行します。[at.js 1.x から at.js 2.x へのアップグレード](https://docs.adobe.com/content/help/ja-JP/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html)を参照してください。
 
-![](assets/step2_icon.png)実装を最新化して管理者のプロビジョニングをおこなう。
+1. 実装を最新化して管理者のプロビジョニングをおこなう。
 
-1. 後述の手順に従って [[!UICONTROL Experience Cloud ID サービスをデプロイ]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354)します。
-1. アカウントマネージャーに連絡し、Experience Cloud 用のプロビジョニングプロセスを開始します。
+   * [[!UICONTROL Experience CloudIDサービス]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354)の実装の次の手順に従います。
+   * アカウントマネージャーに連絡し、Experience Cloud 用のプロビジョニングプロセスを開始します。
 
-![](assets/step3_icon.png) [!UICONTROL Admin Console] でユーザーと製品を管理する。
+1.  [!UICONTROL Admin Console] でユーザーと製品を管理する。
 
 ### 管理者ログイン
 
@@ -54,18 +54,18 @@ Experience Cloud に参加するために必要なことを次に示します。
 
 Experience Cloud メニューナビゲーションに「**[!UICONTROL 管理]**」リンクが表示されます。
 
-ヘルプについては、[Experience Cloud ユーザーおよび製品管理](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)を参照してください。
+詳しくは、[Experience Cloudユーザーと製品管理](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)を参照してください。
 
 ### ユーザーログイン
 
 Experience Cloud にログインするには、次のことが必要です。
 
-1. Adobe ID（または会社の Enterprise ID）を持っている。
-1. [experiencecloud.adobe.com](https://experiencecloud.adobe.com) でログインする。
-1. エンタープライズグループにマッピングされているソリューショングループに属する。
-1. 必要に応じて、ソリューションアカウントを Adobe ID にリンクする（以下で説明）。
+* Adobe ID（または会社の Enterprise ID）を持っている。
+* [experiencecloud.adobe.com](https://experiencecloud.adobe.com) でログインする。
+* エンタープライズグループにマッピングされているソリューショングループに属する。
+* 必要に応じて、ソリューションアカウントを Adobe ID にリンクする（以下で説明）。
 
-![](assets/step4_icon.png)オプション：既存のユーザーアカウントのリンク
+### オプション：既存のユーザーアカウントのリンク
 
 ほとんどの場合は、既に Analytics グループなどのソリューショングループのメンバーになっているユーザーが存在するはずですが、このようなグループの管理はこれまで、[!UICONTROL Analytics]／[!UICONTROL 管理ツール]でおこなわれていました。
 
