@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: d8b4f8c5ff963fce48adf7cd312543a98955828c
 workflow-type: tm+mt
 source-wordcount: '2352'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -79,13 +79,13 @@ Experience Cloud にログインするには、次のことが必要です。
 
 以下の節では、実装を最新化する方法を説明します。実装を最新化すると、Experience Cloud のコアサービスが有効になります。
 
-## [!UICONTROL Experience CloudIDサービス] {#section_3C9F6DF37C654D939625BB4D485E4354}を実装します
+## [!UICONTROL Experience Cloud ID サービス] を実装します {#section_3C9F6DF37C654D939625BB4D485E4354}
 
 [!UICONTROL Experience Cloud IDサービス]は、ソリューション間の統合に使用する共通の ID を提供します。[!UICONTROL 顧客属性]を通じてアップロードされた CRM データに基づいて、クロスドメインの訪問者識別と、デバイス／ブラウザー横断的なターゲティングおよびパーソナライズのための手段を提供します。
 
-Experience Cloudコアサービスを有効にする最も簡単な方法は、[!UICONTROL Experience Platform Launch]の[Experience CloudIDサービス拡張子](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=en#extensions-ref)を使用して、AnalyticsとAdobe Target用にコアサービスを自動的にアクティブにすることです。
+Experience Cloud コアサービスを有効にする方法としては、 [!UICONTROL Experience Platform Launch] の[Experience Cloud ID サービス拡張機能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=ja#extensions-ref)を使用して、Analytics や Adobe Target に対してコアサービスを自動的にアクティブにするのが最も簡単です。
 
-Experience Cloud ID サービス（以前の訪問者 ID）について詳しくは、[こちら](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en#intro)を参照してください。
+Experience Cloud ID サービス（以前の訪問者 ID）について詳しくは、[こちら](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=jp#intro)を参照してください。
 
 **[!UICONTROL Experience Platform Launch] または [!UICONTROL Dynamic Tag Management] を使用しない場合**
 
@@ -126,7 +126,7 @@ Adobe Target では、`mbox3rdpartyid` から顧客 ID を取得し、それを 
 
 >[!NOTE]
 >
->2020年11月にレポートスイートのマッピング機能が廃止されました。 ご質問があれば、カスタマーサポートにお問い合わせください。
+>レポートスイートのマッピング機能は、2020 年 11 月に廃止されます。ご質問があれば、カスタマーサポートにお問い合わせください。
 
 Experience Cloud サービス（Experience Cloud ID サービスや [!UICONTROL People サービス]など）は、個々の Analytics レポートスイートではなく Experience Cloud 組織に関連付けられています。これらのサービスを正しく機能させるには、各 Analytics レポートスイートを Experience Cloud 組織にマッピングする必要があります。
 
@@ -134,7 +134,7 @@ Experience Cloud サービス（Experience Cloud ID サービスや [!UICONTROL 
 
 ## Analytics の AppMeasurement コードを更新する {#section_1798D9D0F05C47E29816AC4EEB9A0913}
 
-Analyticsを使用している場合は、地域データ収集(RDC)を使用していることを確認します。 データ収集ドメインが [!DNL omtrdc.net] の場合、または CNAME が [!DNL omtrdc.net] にマッピングされている場合は、RDC を使用しています。詳しくは、[RDC への移行](https://docs.adobe.com/content/help/ja-JP/analytics/technotes/rdc/regional-data-collection.html)を参照してください。ファーストパーティ Cookie を使用している場合、データ収集 CNAME とクロスドメイン追跡については、[CNAME と Experience Cloud ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/analytics-reference/cname.html)を参照してください。
+Analytics を使用している場合は、地域データ収集（RDC）を使用していることを確認します。 データ収集ドメインが [!DNL omtrdc.net] の場合、または CNAME が [!DNL omtrdc.net] にマッピングされている場合は、RDC を使用しています。詳しくは、[RDC への移行](https://docs.adobe.com/content/help/ja-JP/analytics/technotes/rdc/regional-data-collection.html)を参照してください。ファーストパーティ Cookie を使用している場合、データ収集 CNAME とクロスドメイン追跡については、[CNAME と Experience Cloud ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/analytics-reference/cname.html)を参照してください。
 
 訪問者 API など JavaScript ライブラリを更新して Analytics の実装を最新化することが推奨されます。これをおこなう最も簡単な方法は、Dynamic Tag Management で [!DNL Adobe Analytics] ツールを追加し、設定方法に *`Automatic`* を指定することです。
 
