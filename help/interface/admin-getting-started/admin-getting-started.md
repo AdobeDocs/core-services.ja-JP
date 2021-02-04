@@ -1,14 +1,13 @@
 ---
-description: Adobe Admin Console へのログイン、Experience Cloud ユーザー権限と製品プロファイルの管理、ブラウザーのサポートについて説明します。
-keywords: Experience Cloud services
-solution: Experience Cloud
-title: 'ユーザーと製品を管理する方法についての説明 '
+description: Adobe Experience Cloudのユーザー権限と製品プロファイルを管理する方法を確認します。 Adobe Admin ConsoleへのサインインとExperience Cloudのブラウザーサポートについて説明します。
+solution: Admin
+title: 'ユーザーと製品の管理方法 '
 index: true
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '1432'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 119bbd98e78fe55ae30ef874e2125fa196221363
+workflow-type: tm+mt
+source-wordcount: '1421'
+ht-degree: 92%
 
 ---
 
@@ -23,7 +22,7 @@ Admin Console へのログイン、Experience Cloud ユーザーの権限およ�
 
 ## Experience Cloud ユーザー管理の新機能 {#concept_06A0A13362F644FB90F947238407637A}
 
-Experience Cloud ユーザー管理の最新機能について説明します。
+Experience Cloudのユーザーと製品の管理に関する最新の機能について説明します。
 
 <!-- ### Business ID type
 
@@ -44,7 +43,7 @@ Beginning May 2020, enterprise administrators cannot use the Adobe ID for new or
 
 ## Admin Console へのログイン {#section_705072FD4EBE4B70BC69EC81F2BB8669}
 
-これまで管理者がソリューションでおこなっていたユーザー管理は廃止されました。今後は、Experience Cloud のユーザーおよび製品を Admin Console で管理します。
+管理者は、特定の製品ソリューションでユーザーを管理しなくなりました。 今後は、Experience Cloud のユーザーおよび製品を Admin Console で管理します。
 
 Admin Console にログインするには:
 
@@ -55,19 +54,19 @@ Admin Console にログインするには:
 
 **関連するヘルプ**
 
-Creative Cloud および Document Cloud の[管理ユーザーガイド](https://helpx.adobe.com/jp/enterprise/using/users.html)。[ID タイプの管理](https://helpx.adobe.com/jp/enterprise/help/identity.html)など、Experience Cloud のユーザー管理に関連する情報も含まれています。
+Creative Cloud および Document Cloud の[管理ユーザーガイド](https://helpx.adobe.com/jp/enterprise/using/users.html)。[ID タイプの管理](https://helpx.adobe.com/enterprise/help/identity.html)など、Experience Cloud のユーザー管理に関連する情報も含まれています。
 
-[ログインとプロファイル設定の管理](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0) - パスワード、組織、および通知の管理について説明します。
+[ログインとプロファイル設定の管理](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0).
 
 ## 製品プロファイルおよびグループ {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
 製品プロファイルの追加は、ソリューション製品およびサービスの従来の管理方法（グループを使用）が変更されたことを示しています。Admin Console では、権限はユーザーに割り当てることができる製品およびサービスのグループである製品プロファイルを基礎とします。
 
-例えば、Analytics では、Analysis Workspace や Report Builder などのレポートツールをレポートスイート、指標、ディメンションなどと共に 1 つのコレクションにまとめることができます。ユーザーを製品プロファイルに追加することにより、ユーザーに権限を割り当てることができます。[製品プロファイルへの Analytics アクセス権限の割り当て](../admin-getting-started/admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391)を参照してください。
+例えば、Analytics では、Analysis Workspace や Report Builder などのレポートツールをレポートスイート、指標、ディメンションなどと共に 1 つのコレクションにまとめることができます。ユーザーを製品プロファイルに追加することにより、ユーザーに権限を割り当てることができます。このページの[製品プロファイル](../admin-getting-started/admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391)へのAnalyticsアクセス権限の割り当てを参照してください。
 
-**関連するヘルプ**
+**管理権限の委任**
 
-[制限付き管理権限の委任](../admin-getting-started/admin-getting-started.md#task_3A072C4AA9734BC59FFA7E015271BC7E)
+このページの[制限付き管理権限](../admin-getting-started/admin-getting-started.md#task_3A072C4AA9734BC59FFA7E015271BC7E)の委任を参照してください。
 
 ## Analytics {#section_97DE101F92CD494AB073893680992F1A}
 
@@ -117,11 +116,11 @@ Admin Console のユーザー権限と Launch 固有のオプションの設定�
 
 [AEM as a Cloud Service の IMS サポート ](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/security/ims-support.html#managing-products-and-user-access-in-admin-console)を参照してください。
 
-## Dynamic Tag Manager {#section_3A41CF2BD5994B9891537D063571D4ED}
+## Experience Platform Launch{#section_3A41CF2BD5994B9891537D063571D4ED}
 
-Dynamic Tag Management へのユーザー招待、ユーザーの役割の割り当て、グループへのユーザーの追加。
+[!UICONTROL プラットフォームの起動]にユーザーを招待し、ユーザーの役割と権限を割り当てます。
 
-Dynamic Tag Management へのユーザーの招待方法、ユーザーの役割の割り当て方法、およびグループにユーザーを追加する方法については、[ユーザーと権限](https://docs.adobe.com/content/help/ja-JP/dtm/using/admin/users.html)を参照してください。
+「[ユーザー権限](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=en#admin)」を参照してください。
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
@@ -142,9 +141,9 @@ Audience Manager ヘルプの[管理](https://docs.adobe.com/content/help/ja-JP/
 
 詳しくは、以下のヘルプ情報を参照してください。
 
-* [製品およびプロファイルの管理](https://helpx.adobe.com/jp/enterprise/using/manage-products-and-profiles.html)
-* Adobe Target ヘルプの [Enterprise ユーザーの権限](https://docs.adobe.com/content/help/ja-JP/target/using/administer/manage-users/enterprise/property-channel.html)
-* ビデオ：[Adobe Admin Console で Adobe Target ワークスペースを設定する方法](https://helpx.adobe.com/jp/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [製品およびプロファイルの管理](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
+* Adobe Target ヘルプの [Enterprise ユーザーの権限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
+* ビデオ：[Adobe Admin Console で Adobe Target ワークスペースを設定する方法](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## 製品プロファイルへの Analytics アクセス権限の割り当て {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
@@ -195,6 +194,6 @@ Experience Cloud でサポートされているブラウザーは次のとおり
 
 ### 各ソリューションおよび製品の要件
 
-* [Analytics](https://docs.adobe.com/content/help/ja-JP/analytics/admin/sys-reqs.html)
+* [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html)
 * [Report Builder](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
-* [Adobe Target](https://docs.adobe.com/help/ja-JP/target/using/implement-target/before-implement/supported-browsers.html)
+* [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html)
