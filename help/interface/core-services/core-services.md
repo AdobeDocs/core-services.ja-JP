@@ -4,11 +4,11 @@ keywords: core services;Customer Attributes
 solution: Experience Cloud
 title: 'ソリューションのコアサービスへの対応 '
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d8b4f8c5ff963fce48adf7cd312543a98955828c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2352'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Experience Cloud に参加するために必要なことを次に示します。
 
 1. 実装を最新化して管理者のプロビジョニングをおこなう。
 
-   * [[!UICONTROL Experience CloudIDサービス]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354)の実装の次の手順に従います。
+   * 以下の手順（[ [!UICONTROL Experience Cloud ID Service]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354)の実装）に従います。
    * アカウントマネージャーに連絡し、Experience Cloud 用のプロビジョニングプロセスを開始します。
 
 1.  [!UICONTROL Admin Console] でユーザーと製品を管理する。
@@ -54,7 +54,7 @@ Experience Cloud に参加するために必要なことを次に示します。
 
 Experience Cloud メニューナビゲーションに「**[!UICONTROL 管理]**」リンクが表示されます。
 
-詳しくは、[Experience Cloudユーザーと製品管理](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)を参照してください。
+ヘルプについては、[Experience Cloud ユーザーおよび製品管理](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)を参照してください。
 
 ### ユーザーログイン
 
@@ -99,7 +99,7 @@ Experience Cloud ID サービス（以前の訪問者 ID）について詳しく
 
 ### Analytics と Adobe Target - 顧客 ID の同期 {#section_AD473A6A21C1446498E700363F9A8437}
 
-Analytics と [!DNL Target] については、Experience Cloud ID サービスを設定する際に[顧客 ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) を Experience Cloud に同期させることを推奨します。
+Analytics と [!DNL Target] については、Experience Cloud ID サービスを設定する際に[顧客 ID](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/authenticated-state.html) を Experience Cloud に同期させることを推奨します。
 
 Adobe Target では、`mbox3rdpartyid` から顧客 ID を取得し、それを [!DNL Target] に送信する必要があります（[!DNL Target] のヘルプで[顧客属性の操作方法](https://docs.adobe.com/content/help/ja-JP/target/using/audiences/visitor-profiles/working-with-customer-attributes.html)を参照してください）。
 
@@ -227,6 +227,6 @@ Adobe [!DNL Experience Cloud] 内のリアルタイムのオーディエンス�
 
 適切なオプトアウト機能を提供したい場合、サイトへの訪問者は、既存のオプトアウト処理に Audience Manager オプトアウトを追加する必要があります。
 
-手順については、Adobe Experience Cloud ヘルプの[アドビオプトアウトの導入](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/js/opt-out.html)を参照してください。
+手順については、[Adobe Experience Cloud ヘルプのアドビオプトアウトの導入](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/js/opt-out.html)を参照してください。
 
-クロスドメイントラッキングの有効化については、[データ収集 CNAME およびクロスドメイントラッキング](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html)を参照してください。
+クロスドメイントラッキングの有効化については、[データ収集 CNAME およびクロスドメイントラッキング](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/analytics-reference/cname.html)を参照してください。
