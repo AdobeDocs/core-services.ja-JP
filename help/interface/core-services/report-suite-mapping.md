@@ -2,9 +2,9 @@
 description: Experience Cloud で 1 つまたは複数のレポートスイートを組織にマッピングする方法について説明します。
 title: '組織へのレポートスイートのマッピング '
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 100%
 
