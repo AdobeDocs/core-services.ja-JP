@@ -1,13 +1,13 @@
 ---
 description: Adobe Experience Cloud の Adobe Analytics の Cookie について説明します。
-keywords: cookies;privacy
+keywords: cookie;プライバシー
 solution: Experience Cloud,Analytics,Target
 title: 'Adobe Analytics での Cookie の使用方法 '
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '757'
+workflow-type: tm+mt
+source-wordcount: '759'
 ht-degree: 100%
 
 ---
@@ -66,7 +66,7 @@ Adobe Analytics では、異なるブラウザーからのリクエストを区�
 |--- |--- |
 | 保存される情報 | 一意の訪問者 ID 日時スタンプ。 |
 | 有効期限 | 2 年。 |
-| 用途 | この cookie は、個別訪問者を特定するために使用します。 |
+| 用途 | この cookie は、ユニーク訪問者を特定するために使用します。 |
 | 場所 | この cookie は、イメージリクエストのドメインに保存されます。そのドメインは通常、2o7.net（サードパーティ cookie を使用している場合）または omtrdc.net（ファーストパーティ cookie を使用している場合）の下の顧客固有のサブドメインになります。 |
 | サイズ | 44 バイト。 |
 
@@ -80,7 +80,7 @@ Adobe Analytics では、異なるブラウザーからのリクエストを区�
 |--- |--- |
 | 保存される情報 | 予備として使用される一意の訪問者 ID 日時スタンプ。 |
 | 有効期限 | 2 年。 |
-| 用途 | この cookie は、個別訪問者を特定するために使用します。サードパーティ cookie が制限されていて標準の `s_vi` cookie を設定できない場合に、個別訪問者を特定するために使用します。ファーストパーティ cookie が使用される環境では使用しません。 |
+| 用途 | この cookie は、ユニーク訪問者を特定するために使用します。サードパーティ cookie が制限されていて標準の `s_vi` cookie を設定できない場合に、個別訪問者を特定するために使用します。ファーストパーティ cookie が使用される環境では使用しません。 |
 | 場所 | この cookie はファーストパーティ cookie として会社のドメインに保存されます。 |
 | サイズ | 33 バイト。 |
 
