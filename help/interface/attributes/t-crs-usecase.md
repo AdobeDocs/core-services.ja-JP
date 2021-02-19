@@ -1,14 +1,14 @@
 ---
 description: 顧客属性ソースを作成して、Adobe Experience Cloud にアップロードする方法を説明します。
-keywords: Customer Attributes;core services
+keywords: 顧客属性；コアサービス
 solution: Experience Cloud
 title: '顧客属性ソースの作成とデータファイルのアップロード '
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '1165'
-ht-degree: 100%
+source-wordcount: '1169'
+ht-degree: 99%
 
 ---
 
