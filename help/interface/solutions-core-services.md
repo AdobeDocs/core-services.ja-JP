@@ -5,9 +5,9 @@ seo-title: Experience Cloud の新しいクラウド名について
 solution: Experience Cloud
 title: 'Experience Cloud の新しいクラウド名について '
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 100%
 
@@ -84,11 +84,11 @@ Adobe Target は、Analytics やその他の Experience Cloud コアサービス
 
 コンテンツ管理ソリューションである Adobe Experience Manager では、Web サイト、モバイルアプリ、コミュニティおよびフォーラムのアセットやコンテンツを容易に管理できます。
 
-詳しくは、[Adobe Experience Manager 6.5](https://helpx.adobe.com/jp/support/experience-manager/6-5.html) のページを参照してください。
+詳しくは、[Adobe Experience Manager 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html) のページを参照してください。
 
 [Adobe Audience Manager](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/aam-home.html)
 
-データ管理プラットフォームである Adobe Audience Manager では、固有のオーディエンスプロファイルを作成し、最も価値のある顧客セグメントをすべてのチャネルで特定しターゲティングできます。
+データ管理プラットフォームである Adobe Audience Manager では、一意のオーディエンスプロファイルを作成し、最も価値のある顧客セグメントをすべてのチャネルで特定しターゲティングできます。
 
 [Adobe Advertising Cloud](https://docs.adobe.com/content/help/ja-JP/release-notes/experience-cloud/current.html#adcloud)
 
