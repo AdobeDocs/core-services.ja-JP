@@ -1,13 +1,13 @@
 ---
 description: ブラウザーでサードパーティ Cookie のサポートがますます制限されるようになっている状況について説明します。
-keywords: cookies;privacy
+keywords: cookie;プライバシー
 solution: Experience Cloud,Analytics,Target
 title: 'サードパーティ Cookie のサポートに対する変更が顧客に与える影響 '
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '297'
 ht-degree: 100%
 
 ---
