@@ -1,13 +1,13 @@
 ---
 description: アプリを介してデジタルマーケティングエクステンションを検索、参照、選択、支払い、およびダウンロードできる単一の宛先である Exchange Marketplace について説明します。
-keywords: core services
+keywords: コアサービス
 solution: Experience Cloud
 title: 'Exchange Marketplace '
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
 translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '134'
 ht-degree: 100%
 
 ---
