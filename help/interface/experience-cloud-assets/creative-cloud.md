@@ -1,12 +1,12 @@
 ---
 description: 'Experience Cloud と Creative Cloud の間でフォルダーとアセットを共有する方法を説明します。 '
-keywords: asset sharing;Creative Cloud;core services
+keywords: アセットの共有;Creative Cloud;コアサービス
 solution: Experience Cloud
 title: 'Experience Cloud フォルダーおよびアセットの Creative Cloud との共有 '
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '171'
+workflow-type: tm+mt
+source-wordcount: '177'
 ht-degree: 100%
 
 ---
