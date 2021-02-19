@@ -1,15 +1,15 @@
 ---
 description: 管理者は、Analytics Premium へのアップグレード時の要件と推奨事項について学習できます。また、Experience Cloud 管理者としてヘルプ情報を検索できる場所についても学習できます。
-keywords: Adobe Analytics Premium upgrade
+keywords: Adobe Analytics Premiumアップグレード
 solution: Experience Cloud
 title: 'Analytics Premium および Experience Cloud へのアップグレード方法 '
 topic: Premium
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '641'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '645'
+ht-degree: 99%
 
 ---
 
@@ -52,9 +52,9 @@ Predictive Intelligence へのアップグレードにより、[Analytics Premiu
 
 | 製品 | アップグレード |
 |---|---|
-| Reports &amp; Analytics | [貢献度分析](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
+| Reports &amp; Analytics | [貢献度分析](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
 | Data Workbench | オーディエンスの資格と予測マーケティングのためのワークスペース |
-| Analytics Platform | Live Stream（ダッシュボードとトリガー） |
+| Analyticsプラットフォーム | Live Stream（ダッシュボードとトリガー） |
 
 ## Customer 360 {#section_3B2AC245388248688067DC9A48957AFB}
 
@@ -64,7 +64,7 @@ Customer 360 へのアップグレードにより、[Analytics Premium](../admin
 |--- |--- |
 | [顧客属性](../attributes/attributes.md) | 顧客属性（分析およびセグメント共有） |
 | Data Workbench | <ul><li>派生顧客属性</li><li>オーディエンス検出用の事前定義済みワークスペース</li></ul> |
-| Analytics Platform | [顧客属性](../attributes/attributes.md) |
+| Analyticsプラットフォーム | [顧客属性](../attributes/attributes.md) |
 
 ## 高度なアトリビューション {#section_9E4986A8389946CCAA7D003268343296}
 
