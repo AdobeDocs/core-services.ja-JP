@@ -1,13 +1,13 @@
 ---
 description: Experience Cloud インターフェイスの機能、リリースノートおよび既知の問題です。
-keywords: core services
+keywords: コアサービス
 solution: Experience Cloud
 title: '累積リリースノート '
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '3954'
+workflow-type: tm+mt
+source-wordcount: '3956'
 ht-degree: 100%
 
 ---
