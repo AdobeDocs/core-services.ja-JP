@@ -1,9 +1,9 @@
 ---
 title: 'Analytics オーディエンスセグメントの公開 '
 description: オーディエンスマーケティングアクティビティ用に、Adobe Analytics のオーディエンスセグメントを Experience Cloud と Adobe Target に公開する方法。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 100%
 
