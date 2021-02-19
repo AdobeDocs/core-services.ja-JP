@@ -1,14 +1,14 @@
 ---
 description: ドラッグ＆ドロップを使用してアップロードしない場合は、FTP を利用して顧客属性データを Experience Cloud にアップロードできます。
-keywords: Customer Attributes;core services
+keywords: 顧客属性；コアサービス
 solution: Experience Cloud
 title: 'FTP を介した顧客属性データファイルのアップロード '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '268'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 98%
 
 ---
 
