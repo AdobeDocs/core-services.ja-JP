@@ -1,14 +1,14 @@
 ---
 description: Adobe Admin Console でのユーザーと製品の管理、Experience Cloud サービス向けのソリューションの有効化、オーディエンスライブラリ、顧客属性、Experience Cloud Assets などについて説明します。
-keywords: Adobe Experience Cloud services, customer attributes, audiences, user and product administration
+keywords: Adobe Experience Cloudサービス，顧客属性，オーディエンス，ユーザーと製品の管理
 solution: Experience Cloud
 title: 'Experience Cloud サービスと管理 '
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '426'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 97%
 
 ---
 
