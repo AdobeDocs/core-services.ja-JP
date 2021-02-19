@@ -1,13 +1,13 @@
 ---
 description: すべての Experience Cloud ユーザーおよびポリシーの並べ替え可能かつフィルタリング可能なリストを表示できる Experience Cloud 管理ツールについて説明します。
-keywords: core services
+keywords: コアサービス
 solution: Experience Cloud
 title: 'Experience Cloud ユーザーとユーザーの詳細の表示 '
 index: true
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
-workflow-type: ht
-source-wordcount: '1243'
+workflow-type: tm+mt
+source-wordcount: '1245'
 ht-degree: 100%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 100%
 * 名前
 * 電子メール
 * ユーザー名（Federated ID アカウントには、電子メールアドレスとは異なるユーザー名を使用できます）
-* [ID タイプ](https://helpx.adobe.com/jp/enterprise/using/identity.html)
+* [ID タイプ](https://helpx.adobe.com/enterprise/using/identity.html)
 * 国
 * 前回のログイン
 
@@ -106,7 +106,7 @@ ht-degree: 100%
 | [!UICONTROL 製品プロファイル] | 製品プロファイルの名前です。列の並べ替えは A->Z、Z->A で行います。製品プロファイルの名前をクリックして、ポリシーの詳細を表示します。 |
 | [!UICONTROL 製品] | 製品プロファイルに関連付けられている製品です。この列は A から Z、Z から A の順に並べ替えることができます。 |
 | [!UICONTROL インスタンス] | 製品プロファイルに関連付けられたインスタンス（テナント、ログイン会社など）です。一意のインスタンスまたはテナントを持たない製品では、その値に「 — 」が表示されます。この列は A から Z、Z から A の順に並べ替えることができます。 |
-| [!UICONTROL ユーザー数] | 直接割り当てやグループ割り当てなど、製品プロファイルに関連付けられたユーザーの一意の数です。列の並べ替え順は、最小から最大、または最大から最小に設定できます。 |
+| [!UICONTROL ユーザー数] | 直接割り当てやグループ割り当てなど、製品プロファイルに関連付けられたユーザーのユニーク数です。列の並べ替え順は、最小から最大、または最大から最小に設定できます。 |
 | [!UICONTROL デベロッパー数] | 製品のプロファイルに関連付けられているデベロッパー役割の数です。列の並べ替え順は、最小から最大、または最大から最小に設定できます。 |
 
 ## ポリシーリスト表示のカスタマイズ
