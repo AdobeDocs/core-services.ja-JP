@@ -1,13 +1,13 @@
 ---
 description: Adobe Experience Cloud で属性ルールを使用して、オーディエンスの作成や複合オーディエンスの定義をおこなう方法について説明します。
-keywords: core services
+keywords: コアサービス
 solution: Experience Cloud
 title: 'オーディエンスの作成 '
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '472'
+workflow-type: tm+mt
+source-wordcount: '474'
 ht-degree: 100%
 
 ---
