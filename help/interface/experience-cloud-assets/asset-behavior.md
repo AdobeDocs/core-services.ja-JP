@@ -1,13 +1,13 @@
 ---
 description: Experience Cloud で共有フォルダーが移動、削除、および復元されるときの動作方法のルールについて説明します。
-keywords: asset sharing;Creative Cloud;core services
+keywords: アセットの共有;Creative Cloud;コアサービス
 solution: Experience Cloud
 title: '共有フォルダーの動作 '
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
 translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '567'
 ht-degree: 100%
 
 ---
