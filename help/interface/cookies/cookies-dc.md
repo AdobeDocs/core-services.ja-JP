@@ -1,13 +1,13 @@
 ---
 description: Adobe Data Connectors では、複数の広告チャネルを横断して、キャンペーンとコンバージョンの最適化されたパフォーマンス指標を広告主に提供するために Cookie を使用します。
-keywords: cookies;privacy
+keywords: cookie;プライバシー
 solution: Experience Cloud, Analytics, Target
 title: 'Data Connectors の cookie '
 uuid: 5d27ba66-e640-4513-befc-69e8502de941
 translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '74'
 ht-degree: 100%
 
 ---
