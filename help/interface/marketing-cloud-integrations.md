@@ -4,11 +4,15 @@ keywords: 統合
 solution: Experience Cloud
 title: 'Experience Cloud の統合 '
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
+feature: Admin Console
+topic: 管理
+role: 管理者
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '1511'
-ht-degree: 100%
+source-wordcount: '1516'
+ht-degree: 99%
 
 ---
 
