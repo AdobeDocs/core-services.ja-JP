@@ -1,14 +1,18 @@
 ---
-description: デスクトップまたはモバイルブラウザーですべての cookie をブロックしているユーザーを削除します。このプライバシー設定では、Analytics データ収集をオプトアウトするユーザーを除外します。
+description: ブラウザーのCookieのプライバシー設定を有効にする方法を説明します。 デスクトップまたはモバイルブラウザーですべての cookie をブロックしているユーザーを削除できます。
 keywords: cookie;プライバシー
 solution: Experience Cloud, Analytics, Target, Social
-title: 'ブラウザーの Cookie のプライバシー設定を有効にする方法 '
+title: 'ブラウザーCookieのプライバシー設定 '
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
+feature: Cookie
+topic: 管理
+role: 管理者
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
