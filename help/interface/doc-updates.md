@@ -2,13 +2,17 @@
 description: Adobe Experience Cloud ヘルプのアップデートに関する情報。
 keywords: Experience Cloud サービス
 solution: Experience Cloud
-title: 'ドキュメントの更新 - Experience Cloud '
+title: ドキュメントの更新
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
+feature: 「顧客属性、オーディエンスライブラリ、Admin Console、アセット」
+topic: 管理
+role: 管理者
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 100%
+source-wordcount: '262'
+ht-degree: 96%
 
 ---
 
