@@ -4,11 +4,15 @@ keywords: アセットの共有;Creative Cloud;コアサービス
 solution: Experience Cloud
 title: 'Creative Cloud デスクトップから共有フォルダーにアセットをアップロード '
 uuid: 88e97e4d-cf9e-4b26-923b-ee60583cae1a
+feature: Assets
+topic: 管理
+role: 管理者
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 100%
+source-wordcount: '75'
+ht-degree: 98%
 
 ---
 
