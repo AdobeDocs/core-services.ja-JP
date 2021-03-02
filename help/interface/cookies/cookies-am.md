@@ -4,11 +4,15 @@ keywords: cookies
 solution: Experience Cloud, Audience Manager
 title: 'Audience Manager の cookie '
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
+feature: Cookie
+topic: 管理
+role: 管理者
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 100%
+source-wordcount: '613'
+ht-degree: 99%
 
 ---
 
