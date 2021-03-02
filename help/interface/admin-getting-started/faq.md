@@ -4,10 +4,14 @@ keywords: コアサービス，Experience Cloud,Experience Platform, Analytics,�
 solution: Experience Cloud
 title: 'Experience Cloud に関するよくある質問 '
 index: true
+feature: Admin Console
+topic: 管理
+role: 管理者
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '782'
 ht-degree: 98%
 
 ---
