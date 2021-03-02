@@ -4,11 +4,15 @@ keywords: アセットの共有;Creative Cloud;コアサービス
 solution: Experience Cloud
 title: '共有フォルダーの動作 '
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
+feature: Assets
+topic: 管理
+role: 管理者
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 100%
+source-wordcount: '571'
+ht-degree: 99%
 
 ---
 
