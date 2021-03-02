@@ -1,14 +1,18 @@
 ---
-description: すべての Experience Cloud ユーザーおよびポリシーの並べ替え可能かつフィルタリング可能なリストを表示できる Experience Cloud 管理ツールについて説明します。
+description: Experience Cloud管理ツールについて説明します。すべてのExperience Cloudユーザーとポリシーの並べ替え可能でフィルタ可能なリストの表示。
 keywords: コアサービス
 solution: Experience Cloud
 title: 'Experience Cloud ユーザーとユーザーの詳細の表示 '
 index: true
+feature: Admin Console
+topic: 管理
+role: 管理者
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 100%
+source-wordcount: '1249'
+ht-degree: 98%
 
 ---
 
