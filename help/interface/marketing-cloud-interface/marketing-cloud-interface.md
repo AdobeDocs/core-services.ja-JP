@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: 'Experience Cloud の新機能 '
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 100%
+source-wordcount: '638'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ Experience Cloud の新機能と更新の概要を示します。
 
 
 * 検索およびリスト表示の改善を含む、オーディエンスセグメントの作成を強化しました。（CORE-5833、CORE-14278）
-* MAC から Creative Cloud へのフォルダーの共有をブロックする、優先度の高い問題を修正しました。（CORE-16677）
+* 優先度の高いExperience CloudからCreative Cloudへのフォルダ共有がブロックされる問題を修正しました。 （CORE-16677）
 
 ## 2018 年 7 月 20 日 {#section_EBB549EBABB7480884A180237ADCCD02}
 
