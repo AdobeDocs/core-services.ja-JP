@@ -1,11 +1,15 @@
 ---
 title: 'EU 一般データ保護規則に対する顧客属性のサポート '
 description: EU 一般データ保護規則に対する顧客属性のサポートについての説明
+feature: 顧客属性
+topic: 管理
+role: 管理者
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 100%
+source-wordcount: '437'
+ht-degree: 99%
 
 ---
 
