@@ -4,10 +4,14 @@ keywords: Adobe Experience Cloudサービス
 solution: Experience Cloud
 title: '組織とアカウントのリンク '
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
+feature: Admin Console
+topic: 管理
+role: 管理者
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '394'
 ht-degree: 98%
 
 ---
