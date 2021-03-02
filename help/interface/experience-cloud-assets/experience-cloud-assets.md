@@ -4,17 +4,17 @@ solution: Experience Cloud
 title: 'Experience Cloud Assets の概要 '
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 
 # Experience Cloud Assets の概要
 
-Experience Cloud Assets は、複数のソリューション間で共有できるマーケティング用アセットの単一の一元的なリポジトリを提供します。アセットは、デジタルドキュメント、画像、ビデオ、オーディオのいずれか（またはその一部）で、複数のレンディションを持つことができ、サブアセット（例えば、[!DNL Photoshop] ファイルのレイヤー、[!DNL PowerPoint] ファイルのスライド、PDF のページ、ZIP 内のファイルなど）を持つことができます。
+Experience Cloud Assets は、複数のソリューション間で共有できるマーケティング用アセットの単一の一元的なリポジトリを提供します。アセットは、複数のレンディションを持つことができ、サブアセット（例えば、[!DNL Photoshop]ファイルのレイヤー、[!DNL PowerPoint]ファイルのスライド、PDFのページ、ZIP内のファイル）を持つことができるデジタルドキュメント、画像、ビデオまたはオーディオ（またはその一部）です。
 
 アセットサービスには次のものが含まれます。
 
@@ -64,7 +64,7 @@ Experience Cloud Assets は、複数のソリューション間で共有でき�
 
 ## アセットの検索 {#section_50FE049010B446FC9640AA6A30E5A730}
 
-キーワード、ファイルタイプ、サイズ、最終変更日時、公開ステータス、向きおよびスタイルで検索できます。
+キーワード、ファイルの種類、サイズ、最終変更日時、公開ステータス、向き、スタイルで検索できます。
 
 ![](assets/asset-search.png)
 
