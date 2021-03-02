@@ -5,9 +5,9 @@ solution: Experience Cloud
 title: 'ソリューションのコアサービスへの対応 '
 index: true
 translation-type: tm+mt
-source-git-commit: d8b4f8c5ff963fce48adf7cd312543a98955828c
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
 workflow-type: tm+mt
-source-wordcount: '2356'
+source-wordcount: '2357'
 ht-degree: 99%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 Experience Platform Launch を使用して Experience Cloud を最近実装した場合、顧客属性と Experience Cloud Audiences は既に設定されています。また、Admin Console でユーザーや製品を管理することもできます。
 
-既存のお客様の場合は、ソリューションの実装を最新化し、Experience Cloud を実装する必要が出る場合があります。これにより、Adobe Analytics、Audience Manager、Adobe Target 全体で顧客属性とオーディエンス機能を活用できます。その方法として、以下をおこないます。
+既存のお客様の場合は、ソリューションの実装を最新化し、Experience Cloud を実装する必要が出る場合があります。これにより、Adobe Analytics、Audience Manager、Adobe Target 全体で顧客属性とオーディエンス機能を活用できます。この実装を行うには、次の操作を行います。
 
 1. [Experience Cloud に加入して管理者になる](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Experience Cloud ID サービスを実装する](#section_3C9F6DF37C654D939625BB4D485E4354)
