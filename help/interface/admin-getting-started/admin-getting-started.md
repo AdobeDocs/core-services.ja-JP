@@ -1,13 +1,17 @@
 ---
 description: Adobe Experience Cloud のユーザー権限と製品プロファイルを管理する方法を説明します。 Adobe Admin Console へのログインと Experience Cloud のブラウザーサポートについて説明します。
 solution: Admin
-title: 'ユーザーと製品の管理方法 '
+title: 'ユーザーおよび製品の管理 '
 index: true
+feature: Admin Console
+topic: 管理
+role: 管理者
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 119bbd98e78fe55ae30ef874e2125fa196221363
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '1421'
-ht-degree: 100%
+source-wordcount: '1424'
+ht-degree: 99%
 
 ---
 
