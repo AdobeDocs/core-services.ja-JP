@@ -2,14 +2,18 @@
 description: Adobe Analytics では Cookie を使用して、イメージリクエストとブラウザーセッション間で保持されない変数およびコンポーネントの情報を提供します。
 keywords: cookie;プライバシー
 solution: Experience Cloud,Analytics
-title: 'ファーストパーティ Cookie の使用方法 '
+title: '"ファーストパーティ cookie "'
 index: y
 snippet: y
+feature: Cookie
+topic: 管理
+role: 管理者
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '1446'
-ht-degree: 100%
+source-wordcount: '1447'
+ht-degree: 99%
 
 ---
 
