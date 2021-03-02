@@ -1,14 +1,18 @@
 ---
-description: Experience Cloud インターフェイスの機能、リリースノートおよび既知の問題です。
+description: 「顧客属性、オーディエンス、ユーザー管理など、Experience Cloudサービスに関する最新の機能、リリースノートおよび既知の問題です。」
 keywords: コアサービス
 solution: Experience Cloud
 title: '累積リリースノート '
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
+feature: 顧客属性、オーディエンス・ライブラリ、Admin Console
+topic: 管理
+role: 管理者
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '3956'
-ht-degree: 100%
+source-wordcount: '3973'
+ht-degree: 99%
 
 ---
 
