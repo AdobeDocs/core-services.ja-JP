@@ -4,11 +4,15 @@ keywords: cookie;プライバシー
 solution: Experience Cloud,Analytics,Target
 title: 'サードパーティ Cookie のサポートに対する変更が顧客に与える影響 '
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
+feature: Cookie
+topic: 管理
+role: 管理者
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 100%
+source-wordcount: '301'
+ht-degree: 99%
 
 ---
 
