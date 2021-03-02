@@ -5,10 +5,10 @@ solution: Experience Cloud
 title: 'Experience Cloud アセットフォルダーの共有 '
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
@@ -44,13 +44,13 @@ Creative Cloud ユーザーと Experience Cloud アセットフォルダーを�
 
    ![](assets/asset_comment_mac.png)
 
-1. フォルダーの共有を解除するには、「**[!UICONTROL Creative Cloud を使用して共有]**」（[手順 3](../experience-cloud-assets/t-share-creative-cloud.md#step_BA17CFA185284641A9B878BA29551996)と同様）をクリックしてから「X」をクリックしてユーザーを削除し、「**[!UICONTROL 共有]**」をクリックします。
+1. フォルダーの共有を解除するには、「Creative Cloudーを使用して共有&#x200B;]**」をクリックし（[手順3](../experience-cloud-assets/t-share-creative-cloud.md#step_BA17CFA185284641A9B878BA29551996)と同様）、「X」をクリックしてユーザーを削除し、「**[!UICONTROL &#x200B;共有&#x200B;]**」をクリックします。**[!UICONTROL 
 
 ![](assets/asset_remove_user.png)
 
-Creative Cloud ユーザーをすべて削除すると、そのフォルダーの共有が解除され、Creative Cloud ユーザーがアクセスできなくなります。
+すべてのCreative Cloudユーザーを削除すると、フォルダーは非共有になり、Creative Cloudユーザーはアクセスできなくなります。
 
-共有アセットを使用するその他の方法には、以下のものがあります。
+共有アセットを使用する方法の詳細は次のとおりです。
 
 * ソーシャル投稿の場合、[!UICONTROL  の]セットセレクター[!DNL Adobe Social]でアセットを使用する。
 * アクティビティの画像の場合、[!DNL Adobe Target] の[オファーライブラリ](https://docs.adobe.com/help/ja-JP/target/using/experiences/offers/manage-content.html)でアセットを読み込むまたはスワップする。
