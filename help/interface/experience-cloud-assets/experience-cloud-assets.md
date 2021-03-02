@@ -1,13 +1,17 @@
 ---
 description: 複数のソリューションで共有できる Experience Cloud Assets について説明します。
 solution: Experience Cloud
-title: 'Experience Cloud Assets の概要 '
+title: アセットの概要
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
+feature: Assets
+topic: 管理
+role: 管理者
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 83%
+source-wordcount: '336'
+ht-degree: 82%
 
 ---
 
