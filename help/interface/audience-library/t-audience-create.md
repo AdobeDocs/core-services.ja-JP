@@ -5,10 +5,10 @@ solution: Experience Cloud
 title: 'オーディエンスの作成 '
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
 workflow-type: tm+mt
 source-wordcount: '474'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -89,4 +89,4 @@ Experience Cloud で属性ルールを使用して、オーディエンスを作
 
 特定期間のデータ収集が終了すると、円は結合されて、定義されたオーディエンスを表示します。
 
-オーディエンスを保存すると、他のソリューションで使用できるようになります。例えば、Adobe Target のアクティビティに共有オーディエンスを含めることができます。
+オーディエンスを保存すると、他のソリューションで使用できるようになります。例えば、Adobe Targetアクティビティに共有オーディエンスを含めることができます。
