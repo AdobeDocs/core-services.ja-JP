@@ -1,14 +1,18 @@
 ---
-description: Adobe Experience Cloud を実装し、管理者になる方法について説明します。
+description: 「クロスソリューションサービスのためのAdobe AnalyticsとAdobe Targetのソリューションを最新化します。 Experience Cloudサービスを使用して開始する方法を学びます。」
 keywords: コアサービス；顧客属性
 solution: Experience Cloud
-title: 'ソリューションのコアサービスへの対応 '
+title: 「ソリューション間のサービスに対するソリューションの有効化」
 index: true
+feature: 顧客属性
+topic: 管理
+role: 管理者
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '2357'
-ht-degree: 99%
+source-wordcount: '2369'
+ht-degree: 98%
 
 ---
 
