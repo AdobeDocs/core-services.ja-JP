@@ -4,11 +4,15 @@ keywords: アセットの共有;Creative Cloud;コアサービス
 solution: Experience Cloud
 title: 'Creative Cloud ユーザーの管理 '
 uuid: 11c4de67-40c5-4438-92fc-e23761be3f18
+feature: Assets
+topic: 管理
+role: 管理者
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 100%
+source-wordcount: '129'
+ht-degree: 99%
 
 ---
 
