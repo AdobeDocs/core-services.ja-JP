@@ -1,15 +1,15 @@
 ---
-description: 「クロスソリューションサービスのためのAdobe AnalyticsとAdobe Targetのソリューションを最新化します。 Experience Cloudサービスを使用して開始する方法を学びます。」
+description: クロスソリューションサービスのためのAdobe AnalyticsおよびAdobe Targetのソリューションを最新化します。 Experience Cloudサービスを使用する開始方法を説明します。
 keywords: コアサービス；顧客属性
 solution: Experience Cloud
-title: 「ソリューション間のサービスに対するソリューションの有効化」
+title: ソリューション間のサービスに対するソリューションの有効化
 index: true
 feature: 顧客属性
 topic: 管理
 role: 管理者
 level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: 042f7caed2f1bace05f59c6c2824c286a13934fe
 workflow-type: tm+mt
 source-wordcount: '2369'
 ht-degree: 98%
