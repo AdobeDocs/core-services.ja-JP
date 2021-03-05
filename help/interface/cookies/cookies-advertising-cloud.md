@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 6eab2decc39f250d48e3355b8c63c5a0c868944c
 workflow-type: tm+mt
 source-wordcount: '542'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -101,7 +101,7 @@ Advertising Cloud では、広告エンゲージメントイベントをコン�
   </tr> 
   <tr> 
    <td colname="col1"> <p>有効期限 </p> </td> 
-   <td colname="col2"> <p>2021年2月24日以前に設定されたcookieは、730日後に有効期限が切れます。 2021年2月25日以降に設定されたcookieは、364日後に有効期限が切れます。</p> </td> 
+   <td colname="col2"> <p>2021 年 2 月 24 日以前に設定された Cookie は、730 日後に期限切れとなります。2021 年 2 月 25 日以降に設定された Cookie は、364 日後に期限切れとなります。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>用途 </p> </td> 
