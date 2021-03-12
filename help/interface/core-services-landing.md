@@ -2,15 +2,15 @@
 description: Adobe Experience Cloud ユーザーおよび製品の管理、People（Audiences と顧客属性）、Journey Orchestration、オファー、Places、Experience Platform Launch、Mobile Services について説明します。
 solution: Experience Cloud
 title: 'Experience Cloud サービスの概要 '
-feature: 顧客属性、オーディエンス・ライブラリ
+feature: 「顧客属性、オーディエンスライブラリ」
 topic: 管理
 role: 管理者
-level: 経験豊富な
-translation-type: tm+mt
+level: 経験豊富
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
