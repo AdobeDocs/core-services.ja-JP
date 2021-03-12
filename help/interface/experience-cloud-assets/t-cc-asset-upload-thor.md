@@ -7,12 +7,12 @@ uuid: 88e97e4d-cf9e-4b26-923b-ee60583cae1a
 feature: Assets
 topic: 管理
 role: 管理者
-level: 経験豊富な
-translation-type: tm+mt
+level: 経験豊富
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '75'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
