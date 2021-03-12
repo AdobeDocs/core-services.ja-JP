@@ -1,5 +1,5 @@
 ---
-description: Experience Cloudトリガーの設定方法について説明します。
+description: Experience Cloud Triggersーの設定方法について説明します。
 keywords: 統合;Triggers
 seo-description: Experience Cloud Triggers の設定方法。
 seo-title: Triggers
@@ -9,17 +9,17 @@ uuid: dab536e3-1969-4661-919e-5b15f423fecd
 feature: Admin Console
 topic: 管理
 role: 管理者
-level: 経験豊富な
-translation-type: tm+mt
+level: 経験豊富
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '678'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# トリガー
+# Triggers
 
 ## Triggers の概要 {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
