@@ -1,18 +1,18 @@
 ---
-description: ブラウザーのCookieのプライバシー設定を有効にする方法を説明します。 デスクトップまたはモバイルブラウザーですべての cookie をブロックしているユーザーを削除できます。
+description: ブラウザーの Cookie のプライバシー設定を有効にする方法について説明します。デスクトップまたはモバイルブラウザーですべての cookie をブロックしているユーザーを削除できます。
 keywords: cookie;プライバシー
 solution: Experience Cloud, Analytics, Target, Social
-title: 'ブラウザーCookieのプライバシー設定 '
+title: 'ブラウザーの Cookie のプライバシー設定 '
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
 feature: Cookie
 topic: 管理
 role: 管理者
-level: 経験豊富な
-translation-type: tm+mt
+level: 経験豊富
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '304'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
