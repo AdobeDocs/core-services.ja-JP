@@ -1,18 +1,18 @@
 ---
-description: FTPを使用して顧客属性データをExperience Cloudにアップロードする方法を説明します。
-keywords: 顧客属性；コアサービス
+description: FTP 経由で顧客属性データを Experience Cloud にアップロードする方法について説明します。
+keywords: 顧客属性;コアサービス
 solution: Experience Cloud
 title: 'FTP を介した顧客属性データファイルのアップロード '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
 feature: 顧客属性
 topic: 管理
 role: 管理者
-level: 経験豊富な
-translation-type: tm+mt
+level: 経験豊富
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '271'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
