@@ -6,19 +6,19 @@ uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 feature: Assets
 topic: 管理
 role: 管理者
-level: 経験豊富な
-translation-type: tm+mt
+level: 経験豊富
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '336'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 
 # Experience Cloud Assets の概要
 
-Experience Cloud Assets は、複数のソリューション間で共有できるマーケティング用アセットの単一の一元的なリポジトリを提供します。アセットは、複数のレンディションを持つことができ、サブアセット（例えば、[!DNL Photoshop]ファイルのレイヤー、[!DNL PowerPoint]ファイルのスライド、PDFのページ、ZIP内のファイル）を持つことができるデジタルドキュメント、画像、ビデオまたはオーディオ（またはその一部）です。
+Experience Cloud Assets は、複数のソリューション間で共有できるマーケティング用アセットの単一の一元的なリポジトリを提供します。アセットは、デジタルドキュメント、画像、ビデオ、オーディオのいずれか（またはその一部）で、複数のレンディションや、サブアセット（例えば、[!DNL Photoshop] ファイルのレイヤー、[!DNL PowerPoint] ファイルのスライド、PDF のページ、ZIP 内のファイルなど）を持つことができます。
 
 アセットサービスには次のものが含まれます。
 
@@ -68,7 +68,7 @@ Experience Cloud Assets は、複数のソリューション間で共有でき�
 
 ## アセットの検索 {#section_50FE049010B446FC9640AA6A30E5A730}
 
-キーワード、ファイルの種類、サイズ、最終変更日時、公開ステータス、向き、スタイルで検索できます。
+キーワード、ファイルタイプ、サイズ、最終変更日時、公開ステータス、向きおよびスタイルで検索できます。
 
 ![](assets/asset-search.png)
 
