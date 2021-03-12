@@ -1,18 +1,18 @@
 ---
 description: Adobe Experience Cloud における Audience Manager の Cookie について説明します。
-keywords: cookies
+keywords: Cookie
 solution: Experience Cloud, Audience Manager
 title: 'Audience Manager の cookie '
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 feature: Cookie
 topic: 管理
 role: 管理者
-level: 経験豊富な
-translation-type: tm+mt
+level: 経験豊富
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '613'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -99,11 +99,11 @@ dextp cookie のデータ構文：
    <td colname="col1"> <p> <b>1 つ目または 2 つ目</b> </p> </td> 
    <td colname="col2"> <p>データプロバイダー名または ID の位置は、以前の形式の cookie と新しい形式の cookie とで異なります。 </p> <p> <b>以前の形式：</b> </p> <p> 
      <ul id="ul_5BFBF40E3FE849CA859030F2D070FDF6"> 
-      <li id="li_E8F4DC0CB15B472ABE9892B3A61D7F77">構文：<span class="codeph"><span class="varname"> データプロバイダー名 </span> - <span class="varname"> UNIX UTC タイムスタンプ </span> </span> </li> 
+      <li id="li_E8F4DC0CB15B472ABE9892B3A61D7F77">構文：<span class="codeph"> <span class="varname"> データプロバイダー名 </span> - <span class="varname"> UNIX UTC タイムスタンプ </span> </span> </li> 
       <li id="li_7CD8B101156140F49EA97B18E9591402">例：<span class="codeph"> dataProvider1 - 1490307822038 </span> </li> 
      </ul> </p> <p>以前の形式の cookie では、判読可能な名前を使用してデータプロバイダーが識別されます。 </p> <p> <b>新しい形式：</b> </p> <p> 
      <ul id="ul_AC6225CA781746148C125F21DFED1ED9"> 
-      <li id="li_29C4B52E398B4EA28944980A15B05A57">構文：<span class="codeph"><span class="varname"> データプロバイダー ID </span> - 1|2 - <span class="varname"> UNIX UTC タイムスタンプ </span> </span> </li> 
+      <li id="li_29C4B52E398B4EA28944980A15B05A57">構文：<span class="codeph"> <span class="varname"> データプロバイダー ID </span> - 1|2 - <span class="varname"> UNIX UTC タイムスタンプ </span> </span> </li> 
       <li id="li_3BF30CA5FED242DF96E0B54AFC64B06F">例：<span class="codeph"> 123345 - 1 - 1490307822038 </span> </li> 
      </ul> </p> <p>新しい形式の cookie： </p> <p> 
      <ul id="ul_F05A91A455FA44C7A71186C0C9E31630"> 
