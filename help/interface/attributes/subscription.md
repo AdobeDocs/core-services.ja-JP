@@ -1,18 +1,18 @@
 ---
 description: ソリューションのデータソースと、サブスクリプションの設定について説明します。サブスクリプションを設定することで、Experience Cloud とソリューション（Analytics と Target）の間で顧客属性データをやり取りできるようになります。
-keywords: 顧客属性；コアサービス
+keywords: 顧客属性;コアサービス
 solution: Experience Cloud
 title: 'サブスクリプションの設定方法 '
 uuid: f74a8155-0a21-46b3-9b1e-4c838f72f24f
 feature: 顧客属性
 topic: 管理
 role: 管理者
-level: 経験豊富な
-translation-type: tm+mt
+level: 経験豊富
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
