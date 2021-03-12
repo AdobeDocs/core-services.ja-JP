@@ -7,12 +7,12 @@ uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
 feature: Cookie
 topic: 管理
 role: 管理者
-level: 経験豊富な
-translation-type: tm+mt
+level: 経験豊富
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
