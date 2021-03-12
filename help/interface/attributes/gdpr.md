@@ -4,12 +4,12 @@ description: EU 一般データ保護規則に対する顧客属性のサポー�
 feature: 顧客属性
 topic: 管理
 role: 管理者
-level: 経験豊富な
-translation-type: tm+mt
+level: 経験豊富
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 99%
 >
 >このドキュメントの内容は法的な助言ではなく、その代用になるものでもありません。GDPR に関するアドバイスについては、弁護士に相談してください。
 
-2018 年 5 月 25 日施行の法律である [EU 一般データ保護規則](https://www.adobe.com/jp/privacy/general-data-protection-regulation/what-is-gdpr.html)は、欧州連合（EU）圏内にあるすべての個人（データ主体）に対して、自身の個人データを制御する権利を付与します。また、国際ビジネスの規制環境も簡素化します。この法律は、データ管理者の事業拠点に関係なく、個人データが処理される時点において、EU 圏内のユーザーに製品やサービスを提供、それらのユーザーの代理で監視、またはそれらのユーザーの個人データを収集するすべての事業者（データ管理者）に適用されます。
+2018 年 5 月 25 日（PT）施行の法律である [EU 一般データ保護規則](https://www.adobe.com/jp/privacy/general-data-protection-regulation/what-is-gdpr.html)は、欧州連合（EU）圏内にあるすべての個人（データ主体）に対して、自身の個人データを制御する権利を付与します。また、国際ビジネスの規制環境も簡素化します。この法律は、データ管理者の事業拠点に関係なく、個人データが処理される時点において、EU 圏内のユーザーに製品やサービスを提供、それらのユーザーの代理で監視、またはそれらのユーザーの個人データを収集するすべての事業者（データ管理者）に適用されます。
 
 Adobe Experience Cloud は、顧客に代わって受信および保存する個人データのデータ処理者としての役割を果たします。データ管理者であるお客様は、Adobe Experience Cloud に処理および保管を委任する個人データを決めます。
 
