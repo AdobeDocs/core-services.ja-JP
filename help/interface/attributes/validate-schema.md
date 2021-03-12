@@ -1,18 +1,18 @@
 ---
 description: Adobe Experience Cloud で顧客属性スキーマを検証する方法を説明します。
-keywords: 顧客属性；Experience Cloudサービス
+keywords: 顧客属性;Experience Cloud サービス
 solution: Experience Cloud
 title: '顧客属性スキーマの検証方法 '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 feature: 顧客属性
 topic: 管理
 role: 管理者
-level: 経験豊富な
-translation-type: tm+mt
+level: 経験豊富
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '474'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
