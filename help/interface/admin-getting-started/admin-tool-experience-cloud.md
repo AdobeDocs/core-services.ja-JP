@@ -1,5 +1,5 @@
 ---
-description: Experience Cloud管理ツールについて説明します。すべてのExperience Cloudユーザーとポリシーの並べ替え可能でフィルタ可能なリストの表示。
+description: Experience Cloud 管理ツールについて説明します。すべての Experience Cloud ユーザーおよびポリシーの並べ替え可能かつフィルタリング可能なリストを表示します。
 keywords: コアサービス
 solution: Experience Cloud
 title: 'Experience Cloud ユーザーとユーザーの詳細の表示 '
@@ -7,12 +7,12 @@ index: true
 feature: Admin Console
 topic: 管理
 role: 管理者
-level: 経験豊富な
-translation-type: tm+mt
+level: 経験豊富
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1249'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 98%
 | [!UICONTROL E メール] | ユーザーに関連付けられている電子メールアドレスです。この列は A から Z、Z から A の順に並べ替えることができます。 |
 | [!UICONTROL ID タイプ] | ユーザーのアカウントの ID タイプです。フィルターを適用して、特定の ID タイプのみを表示できます。詳しくは、[ID タイプの管理](https://helpx.adobe.com/jp/enterprise/using/identity.html)を参照してください。 |
 | [!UICONTROL ソリューション] | ユーザーがアクセスできる Experience Cloud ソリューションの概要です。フィルターを適用して、特定のソリューションにアクセスできるユーザーのリストのみに絞り込むことができます。 |
-| [!UICONTROL 最終ログイン] | Experience Cloud への最新のユーザーログインの日時です。この列は、昇順または降順に並べ替えることができます。<br> **重要：** 2020 年 1 月 13 日現在、ユーザーの最終ログインデータは 365 日間保持されます。この情報は、Experience Cloud の現在のログインアクティビティを表示するためのものであり、2020 年 1 月 13 日より前に非アクティブになったアカウントに対して何らかのアクションを実行することを推奨するものではありません。 |
+| [!UICONTROL 最終ログイン] | Experience Cloud への最新のユーザーログインの日時です。この列は、昇順または降順に並べ替えることができます。<br> **重要：** 2020 年 1 月 13 日（PT）現在、ユーザーの最終ログインデータは 365 日間保持されます。この情報は、Experience Cloud の現在のログインアクティビティを表示するためのものであり、2020 年 1 月 13 日（PT）より前に非アクティブになったアカウントに対して何らかのアクションを実行することを推奨するものではありません。 |
 
 ## ユーザーリスト表示のカスタマイズ
 
@@ -79,7 +79,7 @@ ht-degree: 98%
 * 名前
 * 電子メール
 * ユーザー名（Federated ID アカウントには、電子メールアドレスとは異なるユーザー名を使用できます）
-* [ID タイプ](https://helpx.adobe.com/enterprise/using/identity.html)
+* [ID タイプ](https://helpx.adobe.com/jp/enterprise/using/identity.html)
 * 国
 * 前回のログイン
 
