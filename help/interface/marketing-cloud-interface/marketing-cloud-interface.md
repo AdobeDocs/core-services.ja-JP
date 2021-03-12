@@ -6,11 +6,11 @@ seo-title: Experience Cloud の新機能
 solution: Experience Cloud
 title: 'Experience Cloud の新機能 '
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '638'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ Experience Cloud の新機能と更新の概要を示します。
 
 
 * 検索およびリスト表示の改善を含む、オーディエンスセグメントの作成を強化しました。（CORE-5833、CORE-14278）
-* 優先度の高いExperience CloudからCreative Cloudへのフォルダ共有がブロックされる問題を修正しました。 （CORE-16677）
+* Experience Cloud から Creative Cloud へのフォルダーの共有をブロックする、優先度の高い問題を修正しました。（CORE-16677）
 
-## 2018 年 7 月 20 日 {#section_EBB549EBABB7480884A180237ADCCD02}
+## 2018 年 7 月 19 日（PT）{#section_EBB549EBABB7480884A180237ADCCD02}
 
 2018 年 7 月の修正点と機能強化です。
 
@@ -45,7 +45,7 @@ Experience Cloud の新機能と更新の概要を示します。
 * [!DNL experiencecloud.adobe.com]（保護された接続）ではなく [!DNL experiencecloud.adobe.com] で [!DNL http] にアクセスすると、ユーザーが [!DNL https] にリダイレクトされる問題を修正しました。（CORE-15587）
 * 一部の新規テナントに対する通知を妨げていた問題を修正しました。（CORE-15240）
 
-## 2018 年 6 月 15 日 {#section_7ABC327992CB46B0B8E4A631B8B68899}
+## 2018 年 6 月 14 日（PT）{#section_7ABC327992CB46B0B8E4A631B8B68899}
 
 2018 年 6 月の修正点と機能強化です。
 
@@ -60,7 +60,7 @@ Experience Cloud の新機能と更新の概要を示します。
 
 
 
-## 2018 年 5 月 10 日 {#section_498AF78DA17C4720AA0F32B51493E550}
+## 2018 年 5 月 10 日（PT）{#section_498AF78DA17C4720AA0F32B51493E550}
 
 [!DNL Adobe Experience Cloud] インターフェイスの新機能および修正点です。
 
@@ -73,13 +73,13 @@ Experience Cloud の新機能と更新の概要を示します。
 * Scene7 アップデートが原因で画像のアップロードが失敗する問題を修正しました。（CORE-12746）
 * TLS 1.0 プロトコルのサポートが廃止されました。このことは、セキュリティの脆弱性除去を目的に PCI によって義務付けられています。（CORE-7695）
 
-## 2017 年 10 月 27 日 {#section_11195859B4094177A939C0561428B525}
+## 2017 年 10 月 26 日（PT）{#section_11195859B4094177A939C0561428B525}
 
 **既知の問題**
 
 通知用のダイジェスト電子メールに、定期メンテナンス／製品アップデートに関するメンテナンス通知の多くが記載されていません。すべてのメンテナンス通知がダイジェスト電子メールに確実に記載されるよう、現在対応を進めております。
 
-## 2017 年 8 月 8 日 {#section_2313A875454044F490B418506DD24593}
+## 2017 年 8 月 8 日（PT）{#section_2313A875454044F490B418506DD24593}
 
 | 機能 | 説明 |
 |--- |--- |
@@ -87,14 +87,14 @@ Experience Cloud の新機能と更新の概要を示します。
 | 通知 - メンテナンス通知 | 通知の設定では、製品とソリューションのメンテナンスに関する通知を有効にできます。 |
 | Experience Cloud ソリューション向け Admin Console | Experience Cloud の新規のお客様は、Admin Console を利用することで組織全体にわたってアドビ製品の使用権限を一元的に管理できます。<br>Admin Console へのユーザー管理の移行は段階的に進められます。移行が必要になると、アドビからお客様（システム管理者の皆様）に連絡させていただきます。<br>Analytics 管理者向けの情報については、[Analytics の移行](https://docs.adobe.com/content/help/ja-JP/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)を参照してください。 |
 
-## 2017 年 5 月 23 日 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
+## 2017 年 5 月 22 日（PT）{#section_242FE649FA1B4BFA88EC6E353D175ACC}
 
 | 機能 | 説明 |
 |--- |--- |
 | レポートスイートの一括マッピング | 管理／レポートスイートのマッピングで、複数のレポートスイートを選択して、1 つの組織にマッピングできるようになりました（以前は、個別にマッピングする必要がありました）。<br>[レポートスイートを単一の組織にマッピング](../core-services/core-services.md)すると、Experience Cloud でクロスソリューションの機能とサービスを有効にすることができます。 |
 | Experience Cloud オーディエンスの更新 | **レポートスイートの適用**<br>&#x200B;すべての[オーディエンスルール](../audience-library/t-audience-create.md)にレポートスイートを適用できるようになりました（以前は、ルール定義ごとにレポートスイートを指定する必要がありました）。<br>**Prop と変数**<br>（eVar およびイベント変数に加えて）リアルタイムオーディエンスに Analytics の prop およびデフォルト変数を含めることができるようになりました。 |
 
-## 2016 年 11 月 9 日 - 16.11.1 {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
+## 2016 年 11 月 9 日（PT）- 16.11.1 {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
 
 | 機能 | 説明 |
 |--- |--- |
