@@ -5,12 +5,12 @@ uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 feature: Cookie
 topic: 管理
 role: 管理者
-level: 経験豊富な
-translation-type: tm+mt
+level: 経験豊富
+translation-type: ht
 source-git-commit: 6eab2decc39f250d48e3355b8c63c5a0c868944c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '542'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Advertising Cloud では、広告エンゲージメントイベントをコン�
   </tr> 
   <tr> 
    <td colname="col1"> <p>用途 </p> </td> 
-   <td colname="col2"> <p>ユーザーエンゲージメントを広告と共に保存するサードパーティ cookie（「2016 年 6 月 30 日に最後に表示された広告 xyz123」など） </p> </td> 
+   <td colname="col2"> <p>ユーザーエンゲージメントを広告と共に保存するサードパーティ cookie（「2016 年 6 月 30 日（PT）に最後に表示された広告 xyz123」など） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>場所 </p> </td> 
@@ -101,7 +101,7 @@ Advertising Cloud では、広告エンゲージメントイベントをコン�
   </tr> 
   <tr> 
    <td colname="col1"> <p>有効期限 </p> </td> 
-   <td colname="col2"> <p>2021 年 2 月 24 日以前に設定された Cookie は、730 日後に期限切れとなります。2021 年 2 月 25 日以降に設定された Cookie は、364 日後に期限切れとなります。</p> </td> 
+   <td colname="col2"> <p>2021 年 2 月 24 日（PT）以前に設定された Cookie は、730 日後に期限切れとなります。2021 年 2 月 25 日（PT）以降に設定された Cookie は、364 日後に期限切れとなります。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>用途 </p> </td> 
