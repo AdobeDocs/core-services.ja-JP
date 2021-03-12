@@ -1,18 +1,18 @@
 ---
-description: 「顧客属性、オーディエンス、ユーザー管理など、Experience Cloudサービスに関する最新の機能、リリースノートおよび既知の問題です。」
+description: 「顧客属性、Audiences、ユーザー管理といった、Experience Cloud サービスの最新の機能、リリースノートおよび既知の問題です。」
 keywords: コアサービス
 solution: Experience Cloud
 title: '累積リリースノート '
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-feature: 顧客属性、オーディエンス・ライブラリ、Admin Console
+feature: 「顧客属性、オーディエンスライブラリ、Admin Console」
 topic: 管理
 role: 管理者
-level: 経験豊富な
-translation-type: tm+mt
+level: 経験豊富
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3973'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -65,14 +65,14 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 * [!UICONTROL トリガー]の定義の問題が修正され、「like」条件を正しく使用できるようになりました。（MCUI-6611）
 * 顧客属性が改善され、サブスクリプション設定が適切にログに記録されるようになりました。（MCUI-6519）
 
-## リリース 19.1.1 - 2019 年 1 月 18 日
+## リリース 19.1.1 - 2019 年 1 月 17 日（PT）
 
 **注意：** 2019 年 3 月から、Experience Cloud インターフェイスで Internet Explorer 11 がサポートされなくなります。
 
 * ヘルプ検索で結果が表示されない問題を修正しました。（MCUI-1670）
 * Triggers における eVar 管理の問題を修正し、改善しました。（MCUI-6400）
 
-## リリース 16.5.1 - 2016 年 5 月 27 日 {#section_3785F182BC13493F84903CA69EB6D0A8}
+## リリース 16.5.1 - 2016 年 5 月 26 日（PT）{#section_3785F182BC13493F84903CA69EB6D0A8}
 
 **機能および改善点**
 
@@ -99,7 +99,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 
 * Assets on Demand から Experience Cloud Feed に共有されたアセットで、サムネールが表示されなかった問題を修正しました。（MAC-29955）
 
-## リリース 16.2 - 2016 年 2 月 19 日 {#section_D9610373116C4D77A38F67815C725EA3}
+## リリース 16.2 - 2016 年 2 月 18 日（PT）{#section_D9610373116C4D77A38F67815C725EA3}
 
 <table id="table_C9B288CF42034F329C3C72D95D22E515"> 
  <thead> 
@@ -128,7 +128,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 
 **[!UICONTROL Experience Cloud]**／**[!UICONTROL Activation]** で Dynamic Tag Management にアクセスすると、Dynamic Tag Management アカウントが Experience Cloud（Adobe ID）にリンクされず、Dynamic Tag Management にログインできません。この問題を回避するには、ブラウザーの新しいタブで [!DNL dtm.adobe.com] に直接アクセスしてください。
 
-## リリース 16.1 - 2016 年 1 月 22 日 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
+## リリース 16.1 - 2016 年 1 月 21 日（PT）{#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
 <table id="table_4223658257DA41C999AC710A10D26771"> 
  <thead> 
@@ -149,21 +149,21 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 >
 >Microsoft は、Internet Explorer 8、9 および 10 の[サポートを終了](https://www.microsoft.com/ja-jp/WindowsForBusiness/End-of-IE-support)します。そのため、今後アドビでは、Internet Explorer のこれらのバージョンに対して報告された問題は修正しません。
 
-## リリース 15.10 - 2015 年 10 月 15 日 {#section_68123833D3634BD3A473C12862BF9606}
+## リリース 15.10 - 2015 年 10 月 14 日（PT）{#section_68123833D3634BD3A473C12862BF9606}
 
 **既知の問題**
 
 * Experience Cloud 経由の SSO で Analytics にアクセスすると、Report Builder にログインできません。この問題は、従来の Analytics 資格情報を使用するお客様には影響しません。
 * Analytics の「レポートへのリンク」機能に関する既知の問題です。お客様が Experience Cloud 経由で Analytics にログインし、レポートを共有しようとすると、SSO ではないログインページに誘導されます。
 
-## リリース 15.9 - 2015 年 9 月 11 日 {#section_BCCE3E7DF62A4FF5A57B9C8FE2A5F37B}
+## リリース 15.9 - 2015 年 9 月 10 日（PT）{#section_BCCE3E7DF62A4FF5A57B9C8FE2A5F37B}
 
 * 顧客属性データをアップロードする際に、Audience Manager API で断続的なタイムアウトが発生するパフォーマンスの問題を修正しました。（MAC-26305）
 * 200 個の顧客属性を追加できなかった問題を修正しました。（MAC-26188）
 * オーディエンスライブラリで、オーディエンス共有が Analytics でセグメント化できなかった問題を修正しました。この問題が原因で、「データを収集中」（0 オーディエンス）と表示されていました。この問題を避けるために、セグメントあたりのオーディエンスメンバーが 50,000 人未満になるようにセグメントサイズを維持することをお勧めします。（MAC-25788）
 * 顧客属性のスキーマを編集ページで表示名を変更すると Content Aware（500）エラーが発生していた問題を修正しました。（MAC-25589、AN-103834）
 
-## リリース 15.7 - 2015 年 7 月 23 日 {#section_2683A152176944E48EF6C943892975B7}
+## リリース 15.7 - 2015 年 7 月 22 日（PT）{#section_2683A152176944E48EF6C943892975B7}
 
 * スキーマを表示 / 編集ページ（顧客属性）で指定された属性の説明が Analytics レポートで更新されなかった問題を修正しました。（MAC-25985）
 * アップロードしたアセットのサムネールが表示されない問題を修正しました。（MAC-25863）
@@ -175,11 +175,11 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 
 既知の問題によって、Audience Manager のアカウントが重複して自動生成され、ユーザーの Experience Cloud ID に自動的にリンクされることがあります。この問題は、アカウントをリンクする前に Audience Manager にアクセスしようとすると発生します。Audience Manager にアクセスする前に、Audience Manager アカウントを Experience Cloud にリンクすることをお勧めします。（MAC-25640）
 
-## リリース 15.6.1 - 2015 年 6 月 12 日 {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
+## リリース 15.6.1 - 2015 年 6 月 11 日（PT）{#section_AD2019F8D2F84C9EB2B0533FAACF7043}
 
 情報がありません。
 
-## リリース 15.5.1 - 2015 年 5 月 14 日 {#section_EF197410964E40D294D0D8024738CFBA}
+## リリース 15.5.1 - 2015 年 5 月 13 日（PT）{#section_EF197410964E40D294D0D8024738CFBA}
 
 <table id="table_14E7B35E06C84A258A21D09691B58354"> 
  <thead> 
@@ -205,7 +205,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 * [Adobe Target 製品ドキュメント](https://docs.adobe.com/content/help/ja-JP/target/using/integrate/a4t/a4t.html)ページが日本語で表示されなかった問題を修正しました。
 * [!DNL Creative Cloud] と [!DNL Experience Cloud] の間のコメントで日本語のテキストが使用できなかった問題を修正しました。
 
-## リリース 15.4.1 - 2015 年 4 月 9 日 {#section_75634120CC934B3381EDEA7F6F976F0A}
+## リリース 15.4.1 - 2015 年 4 月 8 日（PT）{#section_75634120CC934B3381EDEA7F6F976F0A}
 
 <table id="table_3A6FBAE36558425A803B078150862C92"> 
  <thead> 
@@ -235,7 +235,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 * Dynamic Tag Management 組織と Experience Cloud のリンクおよびリンク解除が、新しく作成した Experience Cloud 組織で機能しません。5 月のリリースでこの問題を修正し、正常に機能するよう、作業を進めています。Experience Cloud を使用して Dynamic Tag Management へのシングルサインオンで問題が発生した場合は、[!DNL dtm.adobe.com] での従来のログインを使用してください。
 * 既知の問題により、リンクされた Analytics アカウントによって所有されていないレポートスイートをオーディエンス共有できません。現在、改善に取り組んでいます。
 
-## リリース 15.3.2 - 2015 年 3 月 20 日 {#section_07760FD9CA43497FA8BDCCA990A24BFD}
+## リリース 15.3.2 - 2015 年 3 月 19 日（PT）{#section_07760FD9CA43497FA8BDCCA990A24BFD}
 
 <table id="table_54025DBE2D094FF1BE837BA60816C6DF"> 
  <thead> 
@@ -252,7 +252,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
  </tbody> 
 </table>
 
-## リリース 15.3.1 - 2015 年 3 月 5 日 {#section_57CB69C044DD47BDBC1A1BEC38957551}
+## リリース 15.3.1 - 2015 年 3 月 4 日（PT）{#section_57CB69C044DD47BDBC1A1BEC38957551}
 
 <table id="table_EB3FFBA2DF904546A5185EC9A63BBA98"> 
  <thead> 
@@ -281,7 +281,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
  </tbody> 
 </table>
 
-## リリース 15.2.1 - 2015 年 2 月 20 日 {#section_BC694D5AE16A4E16B44B353ED67947F3}
+## リリース 15.2.1 - 2015 年 2 月 19 日（PT）{#section_BC694D5AE16A4E16B44B353ED67947F3}
 
 修正点：
 
@@ -291,7 +291,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 * [!UICONTROL 新しいオーディエンスを作成]ページの「[!UICONTROL ルール]」の下に追加（プラス）アイコンが表示されなかった問題を修正しました。
 * Experience Cloud インターフェイスが強化され、Internet Explorer 9 をサポートするようになりました。
 
-## リリース 15.1.1 - 2015 年 1 月 16 日 {#section_F1A352E928AF432E94CC0A289C345184}
+## リリース 15.1.1 - 2015 年 1 月 15 日（PT）{#section_F1A352E928AF432E94CC0A289C345184}
 
 [!DNL Adobe Experience Cloud] のコラボレーションおよび共有インターフェイスの新機能および修正点です。
 
@@ -331,7 +331,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 * 共有オーディエンスを有効にした後、Analytics レポートスイート内でのオーディエンスの作成がうまくいかなくなることがあります。
 * ボードへのアセットのアップロードで問題が発生する場合があります。
 
-## リリース 14.11.1 - 2014 年 11 月 14 日 {#section_A6CF1D4F27B9496892A89C983EB39102}
+## リリース 14.11.1 - 2014 年 11 月 13 日（PT）{#section_A6CF1D4F27B9496892A89C983EB39102}
 
 既知の問題:
 
@@ -344,7 +344,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 * 多くのユーザーが同時に使用すると [!DNL Experience Cloud] インターフェイスのパフォーマンスが低下する可能性があります。
 * Adobe Experience Manager から Creative Cloud への同期が機能していません。
 
-## リリース 14.10.1 - 2014 年 10 月 17 日 {#section_E3A0F4423B814707AA3745E083500835}
+## リリース 14.10.1 - 2014 年 10 月 16 日（PT）{#section_E3A0F4423B814707AA3745E083500835}
 
 [!DNL Adobe Experience Cloud] のコラボレーションおよび共有インターフェイスの新機能および修正点です。
 
@@ -382,7 +382,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 * 多くのユーザーが同時に使用すると [!DNL Experience Cloud] インターフェイスのパフォーマンスが低下する可能性があります。
 * [!DNL Search&Promote] リンクが[!UICONTROL 組織と製品へのアクセス]ページから利用できません。
 
-## リリース 14.9.1 - 2014 年 9 月 19 日 {#section_20F156A9CC2F4FC59C4970075C181D3A}
+## リリース 14.9.1 - 2014 年 9 月 18 日（PT）{#section_20F156A9CC2F4FC59C4970075C181D3A}
 
 **修正点および改善点**
 
@@ -401,7 +401,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 * [!DNL Search&Promote] リンクが[!UICONTROL 組織と製品へのアクセス]ページから利用できません。
 * [!DNL Creative Cloud] でコンテンツが共有されていない場合、[!DNL Experience Cloud] コンテンツが一部のユーザーのフォルダーから削除されることがあります。
 
-## リリース 14.8.1 - 2014 年 8 月 22 日 {#section_03BF00F6A95A490C91BCC0A1988FA7AA}
+## リリース 14.8.1 - 2014 年 8 月 21 日（PT）{#section_03BF00F6A95A490C91BCC0A1988FA7AA}
 
 [!DNL Adobe Experience Cloud] のコラボレーションおよび共有インターフェイスの新機能および修正点です。
 
@@ -435,7 +435,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 * [!DNL Search&Promote] リンクが[!UICONTROL 組織と製品へのアクセス]ページから利用できません。
 * [!DNL Creative Cloud] でコンテンツが共有されていない場合、[!DNL Experience Cloud] コンテンツが一部のユーザーのフォルダーから削除されることがあります。
 
-## リリース 14.7.1 - 2014 年 7 月 25 日 {#section_B22D4F830756463DB27BB4D508D9ADD5}
+## リリース 14.7.1 - 2014 年 7 月 24 日（PT）{#section_B22D4F830756463DB27BB4D508D9ADD5}
 
 [!DNL Adobe Experience Cloud] のコラボレーションおよび共有インターフェイスの新機能および修正点です。
 
@@ -457,7 +457,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 
 なし
 
-## リリース 14.6.1 - 2014 年 6 月 20 日 {#marketing_cloud_interface}
+## リリース 14.6.1 - 2014 年 6 月 19 日（PT）{#marketing_cloud_interface}
 
 [!DNL Adobe Experience Cloud] のコラボレーションおよび共有インターフェイスの新機能および修正点です。
 
@@ -494,7 +494,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 
 * アプリケーションへのビデオのアップロードができない問題を修正しました。
 
-## リリース 14.5.1 - 2014 年 5 月 23 日 {#section_7E22B2CB3ABA4D6EAED8CA8EFDE5433E}
+## リリース 14.5.1 - 2014 年 5 月 22 日（PT）{#section_7E22B2CB3ABA4D6EAED8CA8EFDE5433E}
 
 <table id="table_4E4B34EEE3D94D78BA1A1FBC62950559"> 
  <thead> 
@@ -545,7 +545,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 * ユーザーがボードで PowerPoint ファイルを共有できなかった問題を修正しました。
 * 一部のユーザーで、Internet Explorer 10 での表示レイアウトが他のブラウザーに比べて劣っていた問題を修正しました。
 
-## リリース 14.4.1 - 2014 年 4 月 23 日 {#section_E2A699764E744D2E8D418E9A3D40AF6B}
+## リリース 14.4.1 - 2014 年 4 月 22 日（PT）{#section_E2A699764E744D2E8D418E9A3D40AF6B}
 
 <table id="table_D95C0DC64F2A4B47BAC83E504CFD6825"> 
  <thead> 
@@ -592,7 +592,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 * 一部のユーザーで、[!UICONTROL アセットセレクター]のサブフォルダーを展開できない可能性があった問題を修正しました。
 * 一部のユーザーが、[!DNL Experience Cloud] の AdLens ガジェットを共有できなかった問題を修正しました。
 
-## リリース 14.3.1 - 2014 年 3 月 14 日 {#section_5D142E3225E3477A84DC01B8197D39BC}
+## リリース 14.3.1 - 2014 年 3 月 13 日（PT）{#section_5D142E3225E3477A84DC01B8197D39BC}
 
 バージョン 14.3.1 は、速度、安定性およびセキュリティに重点を置いたメンテナンスリリースです。重要な新機能は含まれていません。
 
@@ -626,7 +626,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 * 一部の PNG ファイルは、カードにレンダリングできません。
 * ベータフィードバックを送信できません。
 
-## リリース 14.2.1 - 2014 年 2 月 25 日 {#section_5AD81B0737C843AFB4BE9C4420D70EB3}
+## リリース 14.2.1 - 2014 年 2 月 23 日（PT）{#section_5AD81B0737C843AFB4BE9C4420D70EB3}
 
 <table id="table_DFAB002358C94A17A7F91DAB323A488F"> 
  <thead> 
