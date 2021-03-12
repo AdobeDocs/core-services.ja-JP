@@ -1,5 +1,5 @@
 ---
-description: Experience Platform Launchと呼ばれる最新のタグ管理製品について説明します。
+description: Experience Platform Launch という最新のタグ管理製品について説明します。
 keywords: コアサービス
 seo-description: Activation には、Experience Platform Launch という最新のタグ管理製品のほか、Dynamic Tag Management（DTM）、および Triggers が含まれています。
 seo-title: Activation
@@ -9,17 +9,17 @@ uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 feature: Admin Console
 topic: 管理
 role: 管理者
-level: 経験豊富な
-translation-type: tm+mt
+level: 経験豊富
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# アクティベーション
+# Activation
 
 Activation には、Experience Platform Launch、Dynamic Tag Management（DTM）、および Triggers という最新のタグ管理製品が含まれています。
 
