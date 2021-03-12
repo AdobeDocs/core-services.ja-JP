@@ -3,17 +3,17 @@ description: 各クラウドのブランド名変更に関する最新情報や�
 seo-description: 各クラウドのブランド名変更に関する最新情報や、インターフェイスへのアクセス方法、各種ソリューションおよびコアサービスのヘルプ情報の参照先について説明します。
 seo-title: Experience Cloud の新しいクラウド名について
 solution: Experience Cloud
-title: 'Experience Cloud内のクラウド名について '
+title: 'Experience Cloud のクラウド名について '
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 feature: Admin Console
 topic: 管理
 role: 管理者
-level: 経験豊富な
-translation-type: tm+mt
+level: 経験豊富
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '671'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ Adobe Target は、Analytics やその他の Experience Cloud コアサービス
 
 コンテンツ管理ソリューションである Adobe Experience Manager では、Web サイト、モバイルアプリ、コミュニティおよびフォーラムのアセットやコンテンツを容易に管理できます。
 
-詳しくは、[Adobe Experience Manager 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html) のページを参照してください。
+詳しくは、[Adobe Experience Manager 6.5](https://helpx.adobe.com/jp/support/experience-manager/6-5.html) のページを参照してください。
 
 [Adobe Audience Manager](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/aam-home.html)
 
