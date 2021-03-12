@@ -1,5 +1,5 @@
 ---
-description: IDサービスをExperience Cloudソリューション全体で保存し、使用する方法を説明します。
+description: どのように ID サービスが保存され、Experience Cloud ソリューション全体で使用されるかについて説明します。
 keywords: cookie;プライバシー
 solution: Experience Cloud,Analytics,Target
 title: 'Experience Cloud の cookie '
@@ -7,12 +7,12 @@ uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 feature: Cookie
 topic: 管理
 role: 管理者
-level: 経験豊富な
-translation-type: tm+mt
+level: 経験豊富
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '350'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
