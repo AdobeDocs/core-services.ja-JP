@@ -1,17 +1,17 @@
 ---
-description: DNSプリフェッチを導入して、Experience Cloud内の様々なソリューションやサービスでページ読み込み時間を短縮する方法を学びます。
+description: DNS プリフェッチを実装して、Experience Cloud の様々なソリューションやサービスでページ読み込み時間を短縮する方法について説明します。
 solution: Experience Cloud
 title: '様々なソリューションおよびサービスによる DNS プリフェッチの使用 '
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-feature: 顧客属性、オーディエンス・ライブラリ、Admin Console
+feature: 「顧客属性、オーディエンスライブラリ、Admin Console」
 topic: 管理
 role: 管理者
-level: 経験豊富な
-translation-type: tm+mt
+level: 経験豊富
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
