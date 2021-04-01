@@ -6,10 +6,10 @@ user-guide-description: Adobe Experience Cloudのユーザーと製品を管理�
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
+source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 100%
+source-wordcount: '381'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
    + [クロスソリューションサービスの実装を有効にする](core-services/core-services.md)
    + [組織へのレポートスイートのマッピング](core-services/report-suite-mapping.md)
    + [Experience Cloud の新しいクラウド名について](solutions-core-services.md)
-+ [Experience Cloud の統合](marketing-cloud-integrations.md)
++ [Experience Cloud との統合](marketing-cloud-integrations.md)
 + Experience Cloud の cookie {#ec-cookies}
    + [Experience Cloud の cookie の概要](cookies/cookies-privacy.md)
    + [Experience Cloud のファーストパーティ cookie](cookies/cookies-first-party.md)
@@ -63,8 +63,8 @@ ht-degree: 100%
    + [オーディエンスの作成](audience-library/t-audience-create.md)
    + [Analytics オーディエンスセグメントの公開](audience-library/t-publish-audience-segment.md)
 + Experience Cloud Customer Attributes {#customer-attributes}
-   + [Adobe Experience Cloud の顧客属性](attributes/attributes.md)
-   + [よくある質問、制限事項、ベストプラクティス](attributes/faq-crs.md)
+   + [顧客属性の概要](attributes/attributes.md)
+   + [顧客属性に関するよくある質問(FAQ)](attributes/faq-crs.md)
    + [顧客属性のデータファイルおよびデータソースについて](attributes/crs-data-file.md)
    + [顧客属性ソースの作成とデータファイルのアップロード](attributes/t-crs-usecase.md)
    + [オプション - FTP を使用したデータファイルのアップロード](attributes/t-upload-attributes-ftp.md)
@@ -73,14 +73,12 @@ ht-degree: 100%
    + [スキーマの更新](attributes/t-update-schema.md)
    + [EU 一般データ保護規則のサポート](attributes/gdpr.md)
    + [カリフォルニア消費者プライバシー法のサポート](attributes/ccpa.md)
-   + [プライバシーに関する配慮 - 顧客属性](attributes/privacy-mac.md)
+   + [顧客属性のプライバシーに関する考慮事項](attributes/privacy-mac.md)
 + Experience Cloud のリリースノート {#release-notes}
    + [Experience Cloud の新機能](https://docs.adobe.com/content/help/ja-JP/release-notes/experience-cloud/current.html)
    + [累積リリースノート](marketing-cloud-interface/release-notes.md)
-+ [Exchange Marketplace](exchange.md)
-+ [Mobile Services](https://docs.adobe.com/content/help/ja-JP/mobile-services/using/home.html)
 + その他のリソース {#more-resources}
    + [フォーラム](https://forums.adobe.com/community/experience-cloud)
    + [用語](terms.md)
    + [様々なソリューションおよびサービスによる DNS プリフェッチの使用](dns-prefetch.md)
-   + [ドキュメントの更新 - Experience Cloud](doc-updates.md)
+   + [ドキュメントの更新](doc-updates.md)
