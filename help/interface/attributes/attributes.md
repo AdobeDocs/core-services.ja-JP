@@ -6,16 +6,16 @@ feature: 顧客属性
 role: 管理者
 topic: 管理
 level: 経験豊富
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '488'
+translation-type: tm+mt
+source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
+workflow-type: tm+mt
+source-wordcount: '486'
 ht-degree: 100%
 
 ---
 
 
-# Experience Cloud の顧客属性
+# 顧客属性の概要
 
 Adobe Experience Cloud で顧客属性を使用すると、顧客関係管理（CRM）データベースから取り込んだ大規模法人データをアップロードできます。データを Experience Cloud の顧客属性データソースにアップロードすると、そのデータを Adobe Analytics および Adobe Target で使用できます。
 
