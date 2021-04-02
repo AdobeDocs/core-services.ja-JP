@@ -7,9 +7,9 @@ topic: 管理
 role: 管理者
 level: 経験豊富
 translation-type: tm+mt
-source-git-commit: 28353aab8d473192e2ebee03196cf14929b50892
+source-git-commit: 97117dc558240eabd0687f416ea4be7a45783048
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '469'
 ht-degree: 100%
 
 ---
@@ -37,6 +37,5 @@ Experience Cloud のこれらのサービスにアクセスするには、**[!UI
 | [Experience Platform Launch](https://docs.adobe.com/content/help/ja-JP/launch/using/overview.html) | [!UICONTROL Experience Platform Launch] は、サイトやアプリの次世代のデータ収集およびテクノロジー実装です。[!UICONTROL Experience Platform] Launch は、顧客体験の実現に必要なすべての分析、マーケティングおよび広告のタグをデプロイおよび管理するためのシンプルな手段を提供します。 |
 | [Journey Orchestration](https://docs.adobe.com/content/help/ja-JP/journeys/using/journey-orchestration-home.html) | イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築できます。[!UICONTROL Journey Orchestration] は、Experience Platform と統合されたアプリケーションサービスです。 |
 | [ロケーションサービス](https://docs.adobe.com/content/help/ja-JP/places/using/home.html) | Adobe [!UICONTROL Experience Platform ロケーションサービス]は、ロケーション認識が可能なモバイルアプリで、機能豊富な使いやすい SDK インターフェイスと柔軟な目標地点（POI）のデータベースを使用して場所のコンテキストを理解できるようにする位置情報サービスです。 |
-| [Exchange](exchange.md) | アプリを介して、Digital Marketing の機能強化の検索、参照、選択、支払いおよびダウンロードをおこないます。 |
 | [Mobile Services](https://docs.adobe.com/content/help/ja-JP/mobile-services/using/home.html) | Adobe Mobile Services により、モバイルアプリ用の各ソリューションが Experience Cloud 上で統合されます。これにより、アプリの利用状況を把握し、改善につなげることができます。 |
 | People | Experience Cloud ソリューションにあるアドビのデータとアドビ以外のデータを結び付けることで、顧客一人ひとりの包括ビューを作成できます。様々なタッチポイントにわたるやり取りから、ユーザーにとって最も重要なことを見つけ出します。一般的でないデバイスから訪問した場合に、常連顧客を認識します。さらに、ターゲットを絞ったマーケティング活動のために、ユーザーを Audiences にグループ分けします。<br>[Audiences](audience-library/audience-library.md) - 様々なタイプの顧客を Audiences に分類した後、Experience Cloud ソリューション全体で Audiences を共有します。<br>[顧客属性](attributes/attributes.md) - Experience Cloud 外で収集した顧客情報を連結できる機能強化。<br>[デバイスグラフ](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) - 世界有数のブランドと提携して、一般的でないデバイスを使用している常連顧客を認識します |
