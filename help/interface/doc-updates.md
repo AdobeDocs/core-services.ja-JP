@@ -4,15 +4,15 @@ keywords: Experience Cloud サービス
 solution: Experience Cloud
 title: ドキュメントの更新
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-feature: 「顧客属性、オーディエンスライブラリ、Admin Console、アセット」
+feature: 顧客属性、資産
 topic: 管理
 role: 管理者
 level: 経験豊富
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '262'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 98%
 
 ---
 
