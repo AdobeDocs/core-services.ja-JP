@@ -9,9 +9,9 @@ topic: 管理
 role: 管理者
 level: 経験豊富
 translation-type: tm+mt
-source-git-commit: 28353aab8d473192e2ebee03196cf14929b50892
+source-git-commit: 25c9bb8908ca4df0997aa5bcb8a3039e8207ac29
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '253'
 ht-degree: 100%
 
 ---
@@ -109,7 +109,3 @@ Audiences 用のドキュメントが追加されました。
 **更新：2014 年 5 月 22 日（PT）**
 
 Experience Cloud の管理者になるための情報に関して、[Experience Cloud のユーザーと製品の管理](admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)を更新しました。
-
-**更新：2014 年 5 月 22 日（PT）**
-
-「[Exchange Marketplace](exchange.md#concept_E07F16F070544B82B56527A845C41D59)」を追加しました。
