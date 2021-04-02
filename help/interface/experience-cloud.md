@@ -4,14 +4,14 @@ keywords: Adobe Experience Cloud サービス、顧客属性、オーディエ�
 solution: Experience Cloud
 title: 'Experience Cloud サービスと管理 '
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: 「顧客属性、オーディエンスライブラリ、Admin Console」
+feature: '"顧客属性"'
 topic: 管理
 role: 管理者
 level: 経験豊富
 translation-type: tm+mt
-source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
+source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '443'
 ht-degree: 98%
 
 ---
