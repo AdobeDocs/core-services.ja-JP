@@ -1,4 +1,6 @@
 ---
+title: Experience CloudUIコンポーネントとサービス
+description: UIコンポーネント、ユーザーと製品の管理(Adobe Admin Console、オーディエンスライブラリ、顧客属性、Experience Cloudアセットなど)について説明します。
 cloud: Experience Cloud
 product: core-services
 solution: Experience Cloud Services
@@ -12,10 +14,10 @@ tutorials-title: チュートリアル
 tutorials-url: https://docs.adobe.com/content/help/ja-JP/core-services-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/core-services.ja-JP
 translation-type: tm+mt
-source-git-commit: 6949b419fc4182e09dfa3b473d3a96e56528c629
+source-git-commit: 4a7576d234936ba1dd1a6a1b54a5fd34ddeb24ae
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '200'
+ht-degree: 86%
 
 ---
 
