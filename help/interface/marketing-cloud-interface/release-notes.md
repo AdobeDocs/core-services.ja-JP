@@ -9,9 +9,9 @@ topic: 管理
 role: 管理者
 level: 経験豊富
 translation-type: tm+mt
-source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
+source-git-commit: 97117dc558240eabd0687f416ea4be7a45783048
 workflow-type: tm+mt
-source-wordcount: '3969'
+source-wordcount: '3966'
 ht-degree: 100%
 
 ---
@@ -506,7 +506,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud Exchange </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span>／<span class="uicontrol">ヘルプ</span>／<span class="uicontrol">Exchange</span></p> <p><span class="keyword">Experience Cloud</span> <span class="wintitle">Exchange</span> にアクセスすると、各種の連携ツールの検索、参照、選択、支払いおよびダウンロードをおこなえます。 </p> <p>Data Connectors、アドビのコア製品のカスタム設定、サードパーティアプリケーション、レポート、<span class="keyword">Experience Cloud</span> カードなどが含まれます。 </p> <p><a href="../exchange.md#concept_E07F16F070544B82B56527A845C41D59" format="dita" scope="local"> Exchange Marketplace</a> を参照してください。 </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span>／<span class="uicontrol">ヘルプ</span>／<span class="uicontrol">Exchange</span></p> <p><span class="keyword">Experience Cloud</span> <span class="wintitle">Exchange</span> にアクセスすると、各種の連携ツールの検索、参照、選択、支払いおよびダウンロードをおこなえます。 </p> <p>Data Connectors、アドビのコア製品のカスタム設定、サードパーティアプリケーション、レポート、<span class="keyword">Experience Cloud</span> カードなどが含まれます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud Audiences </p> </td> 
