@@ -6,16 +6,16 @@ title: 'Experience Cloud の統合 '
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 feature: Admin Console
 topic: 管理
-role: 管理者
-level: 経験豊富
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '1516'
-ht-degree: 100%
+role: Administrator
+level: Experienced
+exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
+translation-type: tm+mt
+source-git-commit: f081265eaa759756712c12254b9048c1fddf8e40
+workflow-type: tm+mt
+source-wordcount: '1533'
+ht-degree: 98%
 
 ---
-
 
 # Experience Cloud の統合
 
@@ -38,13 +38,13 @@ Adobe Experience Cloud は、共通の強力な機能セットを持つ共通の
 * Activation - Experience Platform Launch（推奨）または Dynamic Tag Management
 * Analytics
 * Target 
-* [Experience Cloud ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)
+* [Experience Cloud ID サービス](https://docs.adobe.com/content/help/en/id-service/using/home.html)
 
 ## Experience Cloud ID サービス {#section_6ECCCFA2D84D4D4F88C879C799CA9D78}
 
 ID サービスは、Experience Cloud のすべてのソリューションで訪問者を識別する永続的な汎用 ID を提供します。このサービスを、Analytics、Audience Manager、Adobe Target、ビデオハートビートなどのサービスや、その他の Experience Cloud のソリューションまたは機能の ID 生成コードの代わりに使用できます。
 
-[Experience Cloud ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)を参照してください。
+[Experience Cloud ID サービス](https://docs.adobe.com/content/help/en/id-service/using/home.html)を参照してください。
 
 **適用可能なソリューションまたはサービス**
 
@@ -72,6 +72,10 @@ Experience Cloud オーディエンスライブラリでオーディエンスを
 
 ヘルプ：[顧客属性](attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 
+>[!NOTE]
+>
+>顧客属性は従来のコアサービスで、現在はメンテナンス中です。
+
 エンタープライズ顧客データを顧客関係管理（CRM）データベースに取り込んでいる場合は、そのデータを Experience Cloud の顧客属性データソースにアップロードできます。アップロード後は、データを [!DNL Adobe Analytics] と [!DNL Adobe Target] で利用できます。
 
 **適用可能なソリューションまたはサービス**
@@ -82,6 +86,10 @@ Experience Cloud オーディエンスライブラリでオーディエンスを
 ## Experience Cloud Assets {#section_92BC5DFDB0E0499CB0DD34B85E06F79A}
 
 ヘルプ：[Creative Cloud との Experience Cloud フォルダーの共有](https://docs.adobe.com/content/help/ja-JP/core-services/interface/assets/creative-cloud.html)
+
+>[!NOTE]
+>
+>アセットは従来のコアサービスで、現在はメンテナンス中です。
 
 Experience Cloud と Creative Cloud の間でフォルダーやアセットを共有します。共有アセットで共同作業をしたり、注釈を付けたり、それらを [!DNL Social] や [!DNL Target] などの Experience Cloud ソリューションで使用したりできます。
 
@@ -143,11 +151,11 @@ Adobe Target と Adobe Analytics およびその他の Experience Cloud ソリ�
 
 **適用可能なソリューションまたはサービス**
 
-* 顧客属性：顧客属性に対する Adobe Target の[サブスクリプション](https://docs.adobe.com/content/help/ja-JP/core-services/interface/customer-attributes/subscription.html)の設定
-* Experience Cloud Audiences：[Experience Cloud Audience ライブラリ](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/audience-library.html)
+* 顧客属性：顧客属性に対する Adobe Target の[サブスクリプション](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html)の設定
+* Experience Cloud Audiences：[Experience Cloud Audience ライブラリ](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
 * Analytics：[Adobe Target のレポートソースとしての Adobe Analytics](https://docs.adobe.com/content/help/ja-JP/target/using/integrate/a4t/a4t.html)
 * Dynamic Tag Management：[DTM を使用した Adobe Target の実装のベストプラクティス](https://docs.adobe.com/content/help/ja-JP/dtm/implementing/overview.html)
-* Audience Manager：[Adobe Audience Manager との Adobe Target データの統合](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
+* Audience Manager：[Adobe Audience Manager との Adobe Target データの統合](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
 * Campaign：[Adobe Target と Campaign の統合](https://docs.adobe.com/content/help/ja-JP/target/using/integrate/campaign-and-target.html)
 
 ## Adobe Experience Manager の統合 {#section_32FB010EF8B4429FBC63C8DC2A9BE98F}
@@ -158,7 +166,7 @@ AEM と他のソリューションおよびサードパーティのサービス�
 
 **適用可能なソリューションまたはサービス**
 
-* [Analytics](https://helpx.adobe.com/jp/experience-manager/6-2/sites/administering/using/adobeanalytics.html)
+* [解析](https://helpx.adobe.com/jp/experience-manager/6-2/sites/administering/using/adobeanalytics.html)
 * [Analytics と外部プロバイダー](https://helpx.adobe.com/jp/experience-manager/6-2/sites/administering/using/external-providers.html)
 * [Experience Cloud](https://helpx.adobe.com/jp/experience-manager/6-2/sites/administering/using/marketing-cloud.html)
 * [Creative Cloud](https://helpx.adobe.com/jp/experience-manager/6-2/sites/administering/using/creative-cloud.html)
@@ -180,7 +188,7 @@ Adobe Experience Manager（AEM）Assets 内のアセットを Adobe Creative Clo
 
 * AEM
 * Creative Cloud
-* [Experience Cloud](https://helpx.adobe.com/jp/experience-manager/6-2/sites/administering/using/marketing-cloud.html)
+* [Experience Cloud](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud.html)
 
 ## Advertising Cloud {#section_9B1935F8BBC147C89C6DB68A35CB1BAB}
 
@@ -190,9 +198,9 @@ Adobe Experience Manager（AEM）Assets 内のアセットを Adobe Creative Clo
 
 **Analytics：** は、サイトエンゲージメントおよびコンバージョンデータを毎日 Media Manager に送信できます（Media Manager では、データを広告の最適化とレポート作成に使用します）。また、Media Manager は、検索エンジンおよびソーシャルネットワークのトラフィックデータを毎日 Analytics に送信できます（Analytics では、Reports &amp; Analytics、Report Builder および Ad Hoc Analysis の各機能でデータを利用できます）。
 
-**Dynamic Tag Manager：**&#x200B;検索、ソーシャル、ディスプレイ広告ランディングページ用に、サードパーティのトラッキングタグに加えて、[Dynamic Tag Manager を使用して、Media Manager のピクセルベースのコンバージョントラッキングタグを作成](https://docs.adobe.com/content/help/ja-JP/dtm/using/tools/media-optimizer.html)できます（また、Media Manager タグを Media Manager 内に直接作成できます）。
+**Dynamic Tag Manager：**&#x200B;検索、ソーシャル、ディスプレイ広告ランディングページ用に、サードパーティのトラッキングタグに加えて、[Dynamic Tag Manager を使用して、Media Manager のピクセルベースのコンバージョントラッキングタグを作成](https://docs.adobe.com/content/help/en/dtm/using/tools/media-optimizer.html)できます（また、Media Manager タグを Media Manager 内に直接作成できます）。
 
-**Experience Cloud Audiences：**（表示を管理する広告主）任意の [Adobe Experience Cloud Audiences](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/audience-library.html) を、ディスプレイ広告のターゲットとして使用できます。Adobe Experience Cloud で作成した Audiences および Adobe Experience Cloud に公開した Analytics からの Audiences を自動的に使用できます。また、Media Manager アカウントで許可されている場合は、Audience Manager からの Audiences を使用できます。Adobe Experience Cloud と Profiles および Audiences へのアクセスおよび Media Manager と Adobe Experience Cloud Audiences の初期設定について詳しくは、担当のアカウントマネージャーにお問い合わせください。**注意：** Adobe Target も使用する場合、Adobe Experience Cloud に公開した任意の Audiences も Adobe Target でのアクティビティに使用できます。
+**Experience Cloud Audiences：**（表示を管理する広告主）任意の [Adobe Experience Cloud Audiences](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) を、ディスプレイ広告のターゲットとして使用できます。Adobe Experience Cloud で作成した Audiences および Adobe Experience Cloud に公開した Analytics からの Audiences を自動的に使用できます。また、Media Manager アカウントで許可されている場合は、Audience Manager からの Audiences を使用できます。Adobe Experience Cloud と Profiles および Audiences へのアクセスおよび Media Manager と Adobe Experience Cloud Audiences の初期設定について詳しくは、担当のアカウントマネージャーにお問い合わせください。**注意：** Adobe Target も使用する場合、Adobe Experience Cloud に公開した任意の Audiences も Adobe Target でのアクティビティに使用できます。
 
 **Experience Cloud Assets：**（表示を管理する広告主）任意の Adobe Experience Cloud アセットを、新しいディスプレイベータ表示を使用したディスプレイ広告のクリエイティブとして使用できます。Adobe Experience Cloud にアクセスするには、[Adobe Experience Cloud を通じて Media Manager にログイン](https://enterprise-test.efrontier.com/CMDashboard/help/internal/getting_started/t_log_in_from_adobe_marketing_cloud.htm)しておく必要があります。Adobe Experience Cloud へのアクセスについて詳しくは、アカウントマネージャーにお問い合わせください。
 
