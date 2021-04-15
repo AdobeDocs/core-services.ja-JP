@@ -7,16 +7,16 @@ index: y
 snippet: y
 feature: Cookie
 topic: 管理
-role: 管理者
-level: 経験豊富
+role: Administrator
+level: Experienced
+exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
 translation-type: tm+mt
-source-git-commit: 04f23f3b36b246aa1fe6d672aaeef1dc9140ef3a
+source-git-commit: 4e3d6e605df4d1861f1dffb4cde5311eea283ee3
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 95%
+source-wordcount: '1499'
+ht-degree: 86%
 
 ---
-
 
 # ファーストパーティ cookie について
 
@@ -49,23 +49,25 @@ Adobe Managed Certificate Program を利用すると、ファーストパーテ�
 
 次に、ファーストパーティ Cookie 用の新しいファーストパーティ SSL 証明書を実装する方法を示します。
 
-1. [ファーストパーティ cookie リクエストフォーム](/help/interface/cookies/assets/FPC_Request_Form.xlsx)に入力して、チケットを開き、Adobe Managed プログラムでファーストパーティ cookie の設定をカスタマーケアにリクエストします。例が記載されたフォーム内の各フィールドに記入します。
+1. [ファーストパーティ cookie リクエストフォーム](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx)に入力して、チケットを開き、Adobe Managed プログラムでファーストパーティ cookie の設定をカスタマーケアにリクエストします。例が記載されたフォーム内の各フィールドに記入します。
 
-1. CNAME レコードを作成します（以下の手順を参照）。
+2. CNAME レコードを作成します（以下の手順を参照）。
 
-   チケットを受け取ったら、カスタマーケア担当者は CNAME レコードのペアをお客様に提供する必要があります。これらのレコードは、アドビが代理で証明書を購入する前に、会社の DNS サーバーで設定される必要があります。CNAME は例えば次のようになります。
+   チケットを受け取ったら、カスタマーケアの担当者からCNAMEレコードが提供されます。 これらのレコードは、アドビが代理で証明書を購入する前に、会社の DNS サーバーで設定される必要があります。CNAMEは次のようになります。
 
-   **セキュアの場合** - 例えば、ホスト名 `smetrics.example.com` が `example.com.ssl.d1.omtrdc.net` を指します。
+   **セキュアの場合** - 例えば、ホスト名 `smetrics.example.com` が `example.com.adobedc.net` を指します。
 
-   **非セキュアの場合** - 例えば、ホスト名 `metrics.example.com` が `example.com.d1.omtrdc.net` を指します。
+>[!NOTE]
+> 以前は、HTTPS用とHTTP用の2つのCNAMEを設定することをお勧めしました。 トラフィックの暗号化はベストプラクティスであり、ほとんどのブラウザーではHTTPを使用しないので、CNAMEをHTTP用に設定することをお勧めしません。 必要に応じて、次のようになります。
+>    **非セキュア** — ホスト名`metrics.example.com`は次を指します。`example.com.adobedc.net`。
 
-1. これらの CNAME が設定されると、アドビは DigiCert と連携して証明書を購入し、アドビの実稼動サーバーにインストールします。
+1. CNAMEを設定すると、AdobeはDigiCertと連携して、Adobeの実稼働サーバーに証明書を購入してインストールします。
 
    既存の実装がある場合、既存の訪問者を維持するために、訪問者の移行を検討する必要があります。証明書がアドビの実稼動環境にプッシュされてライブになると、トラッキングサーバー変数を新しいホスト名に更新できます。つまり、サイトがセキュアでない場合（HTTP）、`s.trackingServer` を更新します。サイトがセキュアな場合（HTTPS）、`s.trackingServer` と `s.trackingServerSecure` の両方の変数を更新します。
 
-1. [ホスト名転送の検証](#validate)をおこないます（以下を参照）。
+2. [ホスト名転送の検証](#validate)をおこないます（以下を参照）。
 
-1. [実装コードの更新](#update)をおこないます（以下を参照）。
+3. [実装コードの更新](#update)をおこないます（以下を参照）。
 
 ### メンテナンスと更新
 
@@ -76,7 +78,7 @@ SSL 証明書は毎年期限が切れます。つまり、アドビは毎年、�
 | 質問 | 回答 |
 |---|---|
 | **このアイテムは保護されていますか？** | はい、アドビおよび発行する証明機関の外部で証明書や秘密鍵が変更されることがないので、Adobe Managed プログラムは、従来の方法よりも安全です。 |
-| **ドメイン用の証明書をアドビはどのようにしたら購入できますか？** | 証明書は、特定のホスト名（例えば、`smetrics.example.com`）がアドビが所有するホスト名を指すようにお客様が指定する際にのみ、購入できます。これは、基本的に、このホスト名をアドビに委任し、アドビが代理で証明書を購入することを許可するということです。 |
+| **ドメイン用の証明書をアドビはどのようにしたら購入できますか？** | 証明書は、特定のホスト名（例えば、`telemetry.example.com`）がアドビが所有するホスト名を指すようにお客様が指定する際にのみ、購入できます。これは、基本的に、このホスト名をアドビに委任し、アドビが代理で証明書を購入することを許可するということです。 |
 | **証明書の失効を要求できますか？** | はい、ドメインの所有者として、お客様はアドビに証明書の失効を要求する資格があります。必要なのは、チケットを開いてカスタマーケアにこれの実行を依頼するだけです。 |
 | **この証明書は SHA-2 暗号化を使用しますか？** | はい、アドビは DigiCert と連携して SHA-2 証明書を発行します。 |
 | **追加費用が発生しますか？** | いいえ、アドビは、このサービスを Adobe Digital Experience の現在のすべてのお客様に追加費用なしで提供しています。 |
@@ -85,12 +87,16 @@ SSL 証明書は毎年期限が切れます。つまり、アドビは毎年、�
 
 組織のネットワークオペレーションチームは、新しい CNAME レコードを作成することで、DNS サーバーを設定する必要があります。各ホスト名は、アドビのデータ収集サーバーにデータを転送します。
 
-FPC スペシャリストから、設定されたホスト名とホスト名で指定する必要のある CNAME が提供されます。以下に例を示します。
+FPCスペシャリストは、設定済みのホスト名と、それらが指定するCNAMEを提供します。 以下に例を示します。
 
 * **SSL ホスト名**： `smetrics.mysite.com`
-* **SSL CNAME**: `mysite.com.ssl.sc.omtrdc.net`
-* **非 SSL ホスト名**： `metrics.mysite.com`
-* **非 SSL CNAME**： `mysite.com.sc.omtrdc.net`
+* **SSL CNAME**: `mysite.com.adobedc.net`
+
+>[!NOTE]
+> セキュリティで保護されていないを使用する場合は、次のようになります。
+> * **非 SSL ホスト名**： `metrics.mysite.com`
+> * **非 SSL CNAME**： `mysite.com.adobedc.net`
+
 
 実装コードが変更されない限り、この手順がデータ収集に影響を及ぼすことはなく、実装コードの更新後はいつでもおこなうことができます。
 
@@ -106,7 +112,7 @@ FPC スペシャリストから、設定されたホスト名とホスト名で�
 
 CNAME が設定され、証明書がインストールされている場合は、ブラウザーを使用して次のように検証することができます。
 
-`https://sstats.adobe.com/_check`
+`https://smetrics.adobe.com/_check`
 
 >[!NOTE]
 >
@@ -116,24 +122,24 @@ CNAME が設定され、証明書がインストールされている場合は�
 
 コマンドラインから [[!DNL curl]](https://curl.haxx.se/) を使用することをお勧めします。（[!DNL Windows] ユーザーは <https://curl.haxx.se/windows/> から [!DNL curl] をインストールできます）。
 
-CNAME が設定されていても、証明書がインストールされていない場合は、`curl -k https://sstats.adobe.com/_check` を実行します。応答は `SUCCESS` となります。
+CNAME が設定されていても、証明書がインストールされていない場合は、`curl -k https://smetrics.adobe.com/_check` を実行します。応答は `SUCCESS` となります。
 
 （この `-k` 値を指定すると、セキュリティ警告が無効になります）
 
-CNAME が設定されていて、証明書がインストールされている場合は、`curl https://sstats.adobe.com/_check` を実行します。応答は `SUCCESS` となります。
+CNAME が設定されていて、証明書がインストールされている場合は、`curl https://smetrics.adobe.com/_check` を実行します。応答は `SUCCESS` となります。
 
 ### [!DNL nslookup] を使用した検証
 
-`nslookup` を使用して検証できます。例えば、`sstats.adobe.com` を使用する場合は、コマンドプロンプトを開き、`nslookup sstats.adobe.com` と入力します。
+`nslookup` を使用して検証できます。例えば、`smetrics.adobe.com` を使用する場合は、コマンドプロンプトを開き、`nslookup smetrics.adobe.com` と入力します。
 
 すべてが正常に設定されている場合は、次のような応答が表示されます。
 
 ```
-nslookup sstats.adobe.com
+nslookup smetrics.adobe.com
 Server:             10.30.7.247
 Address:     10.30.7.247#53
 
-sstats.adobe.com    canonical name = adobe.com.ssl.d1.sc.omtrdc.net.
+smetrics.adobe.com    canonical name = adobe.com.ssl.d1.sc.omtrdc.net.
 Name:  adobe.com.ssl.d1.sc.omtrdc.net
 Address: 54.218.180.161
 Name:  adobe.com.ssl.d1.sc.omtrdc.net
