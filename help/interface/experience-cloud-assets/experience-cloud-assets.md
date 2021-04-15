@@ -5,18 +5,22 @@ title: アセットの概要
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 feature: Assets
 topic: 管理
-role: 管理者
-level: 経験豊富
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '336'
-ht-degree: 100%
+role: Administrator
+level: Experienced
+exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
+translation-type: tm+mt
+source-git-commit: e8fa9e9dc4de694d37012f6fb45eb8d3527d49f5
+workflow-type: tm+mt
+source-wordcount: '343'
+ht-degree: 97%
 
 ---
 
-
 # Experience Cloud Assets の概要
+
+>[!NOTE]
+>
+>アセットは従来のコアサービスで、現在はメンテナンス中です。
 
 Experience Cloud Assets は、複数のソリューション間で共有できるマーケティング用アセットの単一の一元的なリポジトリを提供します。アセットは、デジタルドキュメント、画像、ビデオ、オーディオのいずれか（またはその一部）で、複数のレンディションや、サブアセット（例えば、[!DNL Photoshop] ファイルのレイヤー、[!DNL PowerPoint] ファイルのスライド、PDF のページ、ZIP 内のファイルなど）を持つことができます。
 
