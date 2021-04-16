@@ -6,84 +6,46 @@ title: 'Adobe Target の cookie  '
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 feature: Cookie
 topic: 管理
-role: 管理者
-level: 経験豊富
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '272'
-ht-degree: 100%
+role: Administrator
+level: Experienced
+exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
+translation-type: tm+mt
+source-git-commit: dcb6fa5d8458995cba66bc2f89c954aa6bcd5923
+workflow-type: tm+mt
+source-wordcount: '410'
+ht-degree: 55%
 
 ---
-
 
 # Adobe Target の cookie {#target-cookies}
 
 Adobe Target では、オンラインコンテンツのテスト機能を実現する目的と、より関連性の高いコンテンツを訪問者に対して表示する目的で、Web サイト運用者向けに cookie を使用します。
 
-cookie の期間を除き、必要に応じてこれらの設定を変更できます。cookie の設定を変更する場合は、アカウント担当者にお問い合わせください。
+cookieの期間を除き、必要に応じてこれらの設定を変更できます。 cookie の設定を変更する場合は、アカウント担当者にお問い合わせください。
 
 >[!NOTE]
 >
 >Adobe Target ユーザーは、カスタマイズされたサードパーティ cookie を作成することもできます。
 
-<table id="table_54B402C6E19C4A70B1E27BC9DFF776EB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 設定 </th> 
-   <th colname="col2" class="entry"> 情報 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>cookie 名 </p> </td> 
-   <td colname="col2"> <p>mbox です。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>cookie ドメイン </p> </td> 
-   <td colname="col2"> <p>mbox を扱うドメインの 2 番目および最上位のレベルです。会社のドメインなので、cookie はファーストパーティ cookie になります。例：<span class="filepath">mycompany.com</span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>サーバードメイン </p> </td> 
-   <td colname="col2"> <p> <span class="filepath">clientcode.tt.omtrdc.net</span>。Adobe Target アカウントのクライアントコードを使用します。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>cookie の期間 </p> </td> 
-   <td colname="col2"> <p>cookie が訪問者のブラウザーに残る期間は、訪問者が最後にログインしてから 2 年間です。cookie の期間は変更できません。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 設定 | 情報 |
+| --- | --- |
+| cookie 名 | mbox です。 |
+| cookie ドメイン | mbox を扱うドメインの 2 番目および最上位のレベルです。会社のドメインなので、cookie はファーストパーティ cookie になります。例：`mycompany.com`。 |
+| サーバードメイン | `clientcode.tt.omtrdc.net`[!DNL Adobe Target]。アカウントのクライアントコードを使用します。 |
+| cookie の期間 | cookie が訪問者のブラウザーに残る期間は、訪問者が最後にログインしてから 2 年間です。cookie の期間は変更できません。 |
+
+
 
 >[!NOTE]
 >
->いずれかのドメイン名に国コードが含まれている場合は（例：[!DNL mycompany.co.uk]）、クライアントサービスにお問い合わせのうえ、ご使用のドメインをサポートするように [!DNL mbox.js] を設定してください。
+>いずれかのドメイン名に国コードが含まれている場合は（例：`mycompany.co.uk`）、クライアントサービスにお問い合わせのうえ、ご使用のドメインをサポートするように [!DNL at.js] を設定してください。
 
 cookie には、訪問者が Adobe Target キャンペーンをエクスペリエンスとして体験する方法を管理するための様々な値が保持されています。
 
-<table id="table_5245F72A2D5A4322B40ABB10B7DFB338"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 値 </th> 
-   <th colname="col2" class="entry"> 定義 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> session ID</span> </p> </td> 
-   <td colname="col2"> <p>ユーザーセッションの一意の ID です。デフォルトでは、30 分間存続します。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> pc ID</span> </p> </td> 
-   <td colname="col2"> <p>訪問者のブラウザーの半永久的な ID です。cookie が手動で削除されるまで存続します。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> check</span> </p> </td> 
-   <td colname="col2"> <p>訪問者が cookie をサポートするかどうかを判別するために使用される簡単なテスト値。訪問者がページをリクエストするたびに設定されます。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> disable</span> </p> </td> 
-   <td colname="col2"> <p>訪問者の読み込み時間が <span class="filepath">mbox.js</span> ファイルで設定されているタイムアウトを超えた場合に設定されます。デフォルトでは、1 時間存続します。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 値 | 定義 |
+| --- | --- |
+| session ID | 特定のユーザーセッションの一意の識別子。 デフォルトでは、セッションは30分間無操作状態が続くと有効期限が切れます。 sessionIdを自分で生成する場合（例えば、サーバー側実装の場合）、以下を確認します。<ul><li>セッションIDには、スペース、疑問符(?)以外の印刷可能な文字列を使用できます )またはスラッシュ(/)を使用します。</li><li>*セッションIDの長さは1 ～ 128文字です。</li><li>特定のセッションの場合、その値は、複数のリクエスト間で同じにする必要があります</li><li>特定の訪問者に対して、どの時点でも並列セッション（別のsessionId）を持つことはできません。</li></ul>エッジクラスター内の特定のノードへのルーティングは、セッションIDを使用して行われます。<ul><li>セッションは、サーバ側で30分間アクティブです。 したがって、`tntId/thirdPartyId`との最後のリクエストから30分以内に、特定の`tntId/thirdPartyId`に対して異なるセッションIDを使用しないでください。 そうしないと、プロファイルに対する変更に一貫性がなく、予測できないことがあります。</li><li>同じセッションIDを複数の`tntIds/thirdPartyIds`と共に使用すると、`tntId/thirdPartyIDs`で識別されるプロファイルに予期しない変更が加えられる可能性があります。</li></ul> |
+| pc ID | 訪問者のブラウザーの半永久的な ID です。cookie が手動で削除されるまで存続します。 |
+| check | 訪問者が cookie をサポートするかどうかを判別するために使用される簡単なテスト値。訪問者がページをリクエストするたびに設定されます。 |
+| disable | 訪問者の読み込み時間がat.jsファイルで設定されているタイムアウトを超えた場合に設定されます。 デフォルトでは、1 時間存続します。 |
 
