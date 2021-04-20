@@ -5,9 +5,9 @@ solution: Experience Cloud
 title: '組織とアカウントのリンク '
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 feature: Admin Console
-topic: 管理
-role: 管理者
-level: 経験豊富
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

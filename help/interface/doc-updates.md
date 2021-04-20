@@ -4,10 +4,10 @@ keywords: Experience Cloud サービス
 solution: Experience Cloud
 title: ドキュメントの更新
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-feature: 顧客属性
-topic: 管理
-role: 管理者
-level: 経験豊富
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 25c9bb8908ca4df0997aa5bcb8a3039e8207ac29
 workflow-type: tm+mt

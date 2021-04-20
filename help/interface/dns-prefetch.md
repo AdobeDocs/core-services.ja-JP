@@ -3,10 +3,10 @@ description: DNS プリフェッチを実装して、Experience Cloud の様々�
 solution: Experience Cloud
 title: '様々なソリューションおよびサービスによる DNS プリフェッチの使用 '
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-feature: 顧客属性
-topic: 管理
-role: 管理者
-level: 経験豊富
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
 workflow-type: tm+mt

@@ -4,10 +4,10 @@ keywords: 顧客属性;コアサービス
 solution: Experience Cloud
 title: 'サブスクリプションの設定方法 '
 uuid: f74a8155-0a21-46b3-9b1e-4c838f72f24f
-feature: 顧客属性
-topic: 管理
-role: 管理者
-level: 経験豊富
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

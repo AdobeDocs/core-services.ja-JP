@@ -4,10 +4,10 @@ keywords: コアサービス;顧客属性
 solution: Experience Cloud
 title: クロスソリューションサービス向けソリューションを有効にする
 index: true
-feature: 顧客属性
-topic: 管理
-role: 管理者
-level: 経験豊富
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 042f7caed2f1bace05f59c6c2824c286a13934fe
 workflow-type: ht

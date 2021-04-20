@@ -4,10 +4,10 @@ keywords: 顧客属性;Experience Cloud サービス
 solution: Experience Cloud
 title: '顧客属性スキーマの検証方法 '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
-feature: 顧客属性
-topic: 管理
-role: 管理者
-level: 経験豊富
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

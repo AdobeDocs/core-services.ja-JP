@@ -4,10 +4,10 @@ keywords: cookie;プライバシー
 solution: Experience Cloud,Analytics,Target
 title: 'Search&Promote の cookie '
 uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
-feature: Cookie
-topic: 管理
-role: 管理者
-level: 経験豊富
+feature: Cookies
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

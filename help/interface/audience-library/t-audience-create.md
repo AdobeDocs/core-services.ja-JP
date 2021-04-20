@@ -4,10 +4,10 @@ keywords: コアサービス
 solution: Experience Cloud
 title: 'オーディエンスの作成 '
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-feature: オーディエンスライブラリ
-topic: 管理
-role: 管理者
-level: 経験豊富
+feature: Audience Library
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

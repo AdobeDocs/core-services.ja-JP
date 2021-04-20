@@ -3,11 +3,11 @@ description: Analytics Premium にアップグレードする際の要件と予�
 keywords: Adobe Analytics Premium へのアップグレード
 solution: Experience Cloud
 title: 'Analytics Premium および Experience Cloud へのアップグレード '
-topic: 管理
+topic: Administration
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 feature: Admin Console
-role: 管理者
-level: 経験豊富
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

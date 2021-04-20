@@ -4,10 +4,10 @@ keywords: cookie;プライバシー
 solution: Experience Cloud,Analytics,Target
 title: 'Data Workbench の cookie '
 uuid: c15013f4-c47d-4950-aa19-be9afd25cd5f
-feature: Cookie
-topic: 管理
-role: 管理者
-level: 経験豊富
+feature: Cookies
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

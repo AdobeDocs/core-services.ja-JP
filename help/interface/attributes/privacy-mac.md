@@ -4,10 +4,10 @@ keywords: 顧客属性;コアサービス
 solution: Experience Cloud
 title: '顧客属性のプライバシーに関する考慮事項 '
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
-feature: 顧客属性
-topic: 管理
-role: 管理者
-level: 経験豊富
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
 workflow-type: tm+mt

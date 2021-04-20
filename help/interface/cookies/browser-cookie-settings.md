@@ -4,10 +4,10 @@ keywords: cookie;プライバシー
 solution: Experience Cloud, Analytics, Target, Social
 title: 'ブラウザーの Cookie のプライバシー設定 '
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
-feature: Cookie
-topic: 管理
-role: 管理者
-level: 経験豊富
+feature: Cookies
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

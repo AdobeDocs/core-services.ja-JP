@@ -5,8 +5,8 @@ solution: Experience Cloud,Analytics
 title: '"ファーストパーティ cookie "'
 index: y
 snippet: y
-feature: Cookie
-topic: 管理
+feature: Cookies
+topic: Administration
 role: Administrator
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
