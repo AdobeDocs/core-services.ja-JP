@@ -5,11 +5,11 @@ breadcrumb-title: Experience Cloud サービスと管理
 user-guide-description: Adobe Experience Cloudのユーザーと製品を管理する方法、および顧客属性サービスとオーディエンスライブラリサービスの使用方法について説明します。 CookieとExperience Cloudアセットについても説明します。
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,8 +33,8 @@ ht-degree: 98%
    + [Experience Cloud の cookie](cookies/cookies-mc.md)
    + [Advertising Cloud の cookie](cookies/cookies-advertising-cloud.md)
    + [[!DNL Scene7] cookies](cookies/cookies-s7.md)
-   + [[!DNL Search and Promote] cookie](cookies/cookies-snp.md)
-   + [[!DNL Target] cookie](cookies/cookies-target.md)
+   + [[!DNL Search and Promote] cookies](cookies/cookies-snp.md)
+   + [[!DNL Target] cookies](cookies/cookies-target.md)
    + [ブラウザー cookie のプライバシー設定の有効化](cookies/browser-cookie-settings.md)
    + [サードパーティ cookie のサポートに対する変更がお客様に及ぼす影響](cookies/cookies-thirdparty.md)
 + ユーザーおよび製品の管理 {#manage-users-and-products}
@@ -64,7 +64,7 @@ ht-degree: 98%
    + [Analytics オーディエンスセグメントの公開](audience-library/t-publish-audience-segment.md)
 + Experience Cloud Customer Attributes {#customer-attributes}
    + [顧客属性の概要](attributes/attributes.md)
-   + [顧客属性に関するよくある質問(FAQ)](attributes/faq-crs.md)
+   + [顧客属性に関するよくある質問（FAQ）](attributes/faq-crs.md)
    + [顧客属性のデータファイルおよびデータソースについて](attributes/crs-data-file.md)
    + [顧客属性ソースの作成とデータファイルのアップロード](attributes/t-crs-usecase.md)
    + [オプション - FTP を使用したデータファイルのアップロード](attributes/t-upload-attributes-ftp.md)
