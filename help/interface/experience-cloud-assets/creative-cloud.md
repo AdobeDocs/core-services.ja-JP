@@ -4,17 +4,17 @@ keywords: アセットの共有;Creative Cloud;コアサービス
 solution: Experience Cloud
 title: 'Experience Cloud フォルダーおよびアセットの Creative Cloud との共有 '
 feature: Assets
-topic: Administration
+topic: 管理
 role: Administrator
 level: Experienced
+exl-id: 41290ea3-86ce-4e9d-8c3c-bbe30c337c4c
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '181'
+source-wordcount: '179'
 ht-degree: 100%
 
 ---
-
 
 # Experience Cloud フォルダーおよびアセットの Creative Cloud との共有
 
