@@ -4,18 +4,18 @@ keywords: 顧客属性;コアサービス
 solution: Experience Cloud
 title: '顧客属性のデータファイルとデータソースについての説明 '
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
-feature: Customer Attributes
-topic: Administration
+feature: 顧客属性
+topic: 管理
 role: Administrator
 level: Experienced
+exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '1205'
+source-wordcount: '1203'
 ht-degree: 100%
 
 ---
-
 
 # 顧客属性のデータファイルおよびデータソースについて
 
