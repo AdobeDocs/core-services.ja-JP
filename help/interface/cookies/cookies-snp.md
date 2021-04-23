@@ -4,18 +4,18 @@ keywords: cookie;プライバシー
 solution: Experience Cloud,Analytics,Target
 title: 'Search&Promote の cookie '
 uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
-feature: Cookies
-topic: Administration
+feature: Cookie
+topic: 管理
 role: Administrator
 level: Experienced
+exl-id: 2e35668d-bf36-4f17-ae44-c2b9313c6c1f
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '125'
+source-wordcount: '123'
 ht-degree: 100%
 
 ---
-
 
 # Search&amp;Promote の cookie {#search-and-promote-cookies}
 
@@ -64,4 +64,3 @@ Search&amp;Promote では、訪問者の検索意図を理解し、予測する�
   </tr> 
  </tbody> 
 </table>
-
