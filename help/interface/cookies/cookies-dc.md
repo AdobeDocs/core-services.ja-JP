@@ -4,18 +4,18 @@ keywords: cookie;プライバシー
 solution: Experience Cloud, Analytics, Target
 title: 'Data Connectors の cookie '
 uuid: 5d27ba66-e640-4513-befc-69e8502de941
-feature: Cookies
-topic: Administration
+feature: Cookie
+topic: 管理
 role: Administrator
 level: Experienced
+exl-id: 54f77e67-1bcf-4d01-b70b-af85bac3f449
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '78'
+source-wordcount: '76'
 ht-degree: 100%
 
 ---
-
 
 # Data Connectors の cookie {#data-connectors-cookies}
 
@@ -39,4 +39,3 @@ Data Connectors では、複数の広告チャネルにわたってキャンペ�
   </tr> 
  </tbody> 
 </table>
-
