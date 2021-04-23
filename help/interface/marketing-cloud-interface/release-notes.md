@@ -4,18 +4,18 @@ keywords: コアサービス
 solution: Experience Cloud
 title: '累積リリースノート '
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-feature: "Customer Attributes"
-topic: Administration
+feature: '"顧客属性"'
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 97117dc558240eabd0687f416ea4be7a45783048
-workflow-type: tm+mt
-source-wordcount: '3966'
+exl-id: b71d144c-a097-4cdb-9721-671519d38aff
+translation-type: ht
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
+workflow-type: ht
+source-wordcount: '3964'
 ht-degree: 100%
 
 ---
-
 
 # 累積リリースノート
 
