@@ -4,17 +4,17 @@ solution: Admin
 title: 'ユーザーおよび製品の管理 '
 index: true
 feature: Admin Console
-topic: Administration
+topic: 管理
 role: Administrator
 level: Experienced
+exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '1424'
+source-wordcount: '1422'
 ht-degree: 100%
 
 ---
-
 
 # Experience Cloud ユーザーと製品の管理 {#topic_3FCB4099640647E3B2411ADBFCE81909}
 
