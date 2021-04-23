@@ -5,17 +5,17 @@ solution: Experience Cloud
 title: 'Experience Cloud ユーザーとユーザーの詳細の表示 '
 index: true
 feature: Admin Console
-topic: Administration
+topic: 管理
 role: Administrator
 level: Experienced
+exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '1249'
+source-wordcount: '1247'
 ht-degree: 100%
 
 ---
-
 
 # 管理ツールでの Experience Cloud ユーザーおよびポリシーの表示
 
