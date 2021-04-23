@@ -1,6 +1,6 @@
 ---
-title: Experience CloudUIコンポーネントとサービス
-description: UIコンポーネント、ユーザーと製品の管理(Adobe Admin Console、オーディエンスライブラリ、顧客属性、Experience Cloudアセットなど)について説明します。
+title: Experience Cloud UI コンポーネントとサービス
+description: UI コンポーネント、ユーザーと製品の管理（Adobe Admin Console、オーディエンスライブラリ、顧客属性、Experience Cloud アセットなど）について説明します。
 cloud: Experience Cloud
 product: experience cloud
 solution: Experience Cloud Services
@@ -17,7 +17,7 @@ translation-type: tm+mt
 source-git-commit: 92879002608cc720b69cb323f9d4c12eee2181d5
 workflow-type: tm+mt
 source-wordcount: '200'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
