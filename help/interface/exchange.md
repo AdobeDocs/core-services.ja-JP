@@ -4,14 +4,14 @@ keywords: コアサービス
 solution: Experience Cloud
 title: 'Exchange Marketplace '
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
-feature: "Customer Attributes"
-topic: Administration
+feature: '"顧客属性"'
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
-workflow-type: tm+mt
-source-wordcount: '139'
+workflow-type: ht
+source-wordcount: '137'
 ht-degree: 100%
 
 ---
