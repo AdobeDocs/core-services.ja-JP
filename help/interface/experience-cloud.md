@@ -4,20 +4,20 @@ keywords: Adobe Experience Cloud サービス、顧客属性、オーディエ�
 solution: Experience Cloud
 title: 'Experience Cloud サービスと管理 '
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: "Customer Attributes"
-topic: Administration
+feature: '"顧客属性"'
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
-workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 98%
+exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
+translation-type: ht
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
+workflow-type: ht
+source-wordcount: '441'
+ht-degree: 100%
 
 ---
 
-
-# Experience Cloudサービスおよび管理ガイド
+# Experience Cloud サービスと管理ガイド
 
 Experience Cloud には、アドビが提供するデジタルマーケティングソリューションおよびサービスが統合されています。また、Experience Cloud は、クラウドソリューションやコアサービスにすばやくアクセスできる直感的なインターフェイスでもあります。
 
