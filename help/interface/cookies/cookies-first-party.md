@@ -5,16 +5,16 @@ solution: Experience Cloud,Analytics
 title: '"ファーストパーティ cookie "'
 index: y
 snippet: y
-feature: Cookies
-topic: Administration
+feature: Cookie
+topic: 管理
 role: Administrator
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
 translation-type: tm+mt
 source-git-commit: 4e3d6e605df4d1861f1dffb4cde5311eea283ee3
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 86%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Analytics は、イメージリクエストとブラウザーセッション間�
 
 >[!NOTE]
 >
->どちらのオプションでも、AppleのIntelligent Tracking Prevention(ITP)プログラムでは、ITPに準拠するブラウザー（MacOSのSafariやiOSおよびiPadOSのすべてのブラウザーを含む）で、ファーストパーティcookieが短期間有効になります。 2020年11月現在、両方のタイプのcookieは7日間の有効期限になっています。 この有効期限は変更される可能性があります。
+>どちらのオプションでも、Apple の Intelligent Tracking Prevention (ITP) プログラムでは、ITP に準拠するブラウザー（macOS の Safari や iOS および iPadOS のすべてのブラウザーを含む）で、ファーストパーティ Cookie が短期間有効になります。2020 年 11 月現在、両方のタイプの Cookie は有効期限が 7 日間です。この有効期限は変更される可能性があります。
 
 CNAME を使用する 2 番目の方法では、HTTPS プロトコルを使用したセキュリティで保護されているページがサイトにある場合は、アドビと協力して SSL 証明書を取得し、ファーストパーティ cookie を実装することができます。アドビでは HTTP によるデータ収集のサポートを 2020 年後半に終了する予定なので、データ収集には HTTPS のみを使用することを強くお勧めします。
 
@@ -102,7 +102,7 @@ FPCスペシャリストは、設定済みのホスト名と、それらが指�
 
 >[!NOTE]
 >
->Experience Cloud訪問者IDサービスは、CNAMEを設定してファーストパーティcookieを有効にする代わりに使用できます。
+>Experience Cloud 訪問者 ID サービスは、ファーストパーティ Cookie を有効にするために、CNAME を設定するための代替手段を提供します。
 
 ## ホスト名転送の検証 {#validate}
 
