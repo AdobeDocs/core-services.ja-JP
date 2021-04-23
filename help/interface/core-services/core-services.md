@@ -4,18 +4,18 @@ keywords: コアサービス;顧客属性
 solution: Experience Cloud
 title: クロスソリューションサービス向けソリューションを有効にする
 index: true
-feature: Customer Attributes
-topic: Administration
+feature: 顧客属性
+topic: 管理
 role: Administrator
 level: Experienced
+exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
 translation-type: ht
-source-git-commit: 042f7caed2f1bace05f59c6c2824c286a13934fe
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '2369'
+source-wordcount: '2367'
 ht-degree: 100%
 
 ---
-
 
 # Experience Cloud サービスの実装を有効にする
 
