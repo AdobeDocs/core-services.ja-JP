@@ -4,18 +4,18 @@ keywords: cookie;プライバシー
 solution: Experience Cloud,Analytics,Target
 title: 'Scene7 の cookie '
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
-feature: Cookies
-topic: Administration
+feature: Cookie
+topic: 管理
 role: Administrator
 level: Experienced
+exl-id: ecb8d17f-f752-44ca-8877-44752c28dc70
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '417'
+source-wordcount: '415'
 ht-degree: 100%
 
 ---
-
 
 # Scene7 の cookie {#scene-cookies}
 
@@ -85,4 +85,3 @@ AS2 Flash をベースとする eCatalog ビューア向けの cookie には次�
   </tr> 
  </tbody> 
 </table>
-
