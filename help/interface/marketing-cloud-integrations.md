@@ -5,7 +5,7 @@ solution: Experience Cloud
 title: 'Experience Cloud の統合 '
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 feature: Admin Console
-topic: Administration
+topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
