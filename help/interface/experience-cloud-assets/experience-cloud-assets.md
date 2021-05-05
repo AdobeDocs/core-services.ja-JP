@@ -8,11 +8,11 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e8fa9e9dc4de694d37012f6fb45eb8d3527d49f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
