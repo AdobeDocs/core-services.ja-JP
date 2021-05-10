@@ -9,11 +9,11 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 30989be46132eef4d8bcf5ccaf3032f0606c7de4
+workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -56,9 +56,9 @@ Experience Cloud には、アドビが提供するデジタルマーケティン
 
 セルフサービスのチュートリアルと、Experience League のクイックハウツーを活用：
 
-* [Experience League のすべてのチュートリアル](https://experienceleague.corp.adobe.com/?lang=en#quick-how-tos)
-* [Experience Platform チュートリアル](https://experienceleague.corp.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en)
-* [リアルタイム顧客データプラットフォーム](https://experienceleague.corp.adobe.com/docs/platform-learn/tutorials/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
+* [Experience League のすべてのチュートリアル](https://experienceleague.adobe.com/?lang=en#quick-how-tos)
+* [Experience Platform チュートリアル](https://experienceleague.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en)
+* [リアルタイム顧客データプラットフォーム](https://experienceleague.adobe.com/docs/platform-learn/tutorials/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
 
 ## リリースノートおよび関連する Experience Cloud ヘルプ
 
