@@ -5,9 +5,8 @@ breadcrumb-title: Experience Cloud サービスと管理
 user-guide-description: Adobe Experience Cloudのユーザーと製品を管理する方法、および顧客属性サービスとオーディエンスライブラリサービスの使用方法について説明します。 CookieとExperience Cloudアセットについても説明します。
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: ht
-source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
-workflow-type: ht
+source-git-commit: 6b6dd0fd0ac51d485877e20bd94322415e80e65e
+workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 100%
 
@@ -22,7 +21,7 @@ ht-degree: 100%
    + [クロスソリューションサービスの実装を有効にする](core-services/core-services.md)
    + [組織へのレポートスイートのマッピング](core-services/report-suite-mapping.md)
    + [Experience Cloud の新しいクラウド名について](solutions-core-services.md)
-+ [Experience Cloud との統合](marketing-cloud-integrations.md)
++ [Experience Cloud の統合](marketing-cloud-integrations.md)
 + Experience Cloud の cookie {#ec-cookies}
    + [Experience Cloud の cookie の概要](cookies/cookies-privacy.md)
    + [Experience Cloud のファーストパーティ cookie](cookies/cookies-first-party.md)
@@ -32,9 +31,9 @@ ht-degree: 100%
    + [[!UICONTROL Data Workbench] の cookie](cookies/cookies-insight.md)
    + [Experience Cloud の cookie](cookies/cookies-mc.md)
    + [Advertising Cloud の cookie](cookies/cookies-advertising-cloud.md)
-   + [[!DNL Scene7] cookies](cookies/cookies-s7.md)
-   + [[!DNL Search and Promote] cookies](cookies/cookies-snp.md)
-   + [[!DNL Target] cookies](cookies/cookies-target.md)
+   + [[!DNL Scene7] Cookie](cookies/cookies-s7.md)
+   + [[!DNL Search and Promote] Cookie](cookies/cookies-snp.md)
+   + [[!DNL Target] Cookie](cookies/cookies-target.md)
    + [ブラウザー cookie のプライバシー設定の有効化](cookies/browser-cookie-settings.md)
    + [サードパーティ cookie のサポートに対する変更がお客様に及ぼす影響](cookies/cookies-thirdparty.md)
 + ユーザーおよび製品の管理 {#manage-users-and-products}
@@ -82,3 +81,4 @@ ht-degree: 100%
    + [用語](terms.md)
    + [様々なソリューションおよびサービスによる DNS プリフェッチの使用](dns-prefetch.md)
    + [ドキュメントの更新](doc-updates.md)
+
