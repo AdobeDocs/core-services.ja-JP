@@ -6,9 +6,9 @@ feature: 「中央インターフェイスコンポーネント」
 topic: 管理
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: c3ce6e07c17e126cd2becdf65c40ccbe9398f012
+source-git-commit: a2fd27582268ae2865e6074b8c84d55f8c31fb8a
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '412'
 ht-degree: 2%
 
 ---
@@ -44,7 +44,7 @@ Experience Cloud検索では、[Experience League](https://experienceleague.adob
 * **[!UICONTROL サポート]:** サポートチケットを作成するか、Twitterを使用してサポートに問い  合わせてください。
 * **[!UICONTROL フィードバック]:** フィードバックを使用してAdobeに連絡し、ご意見をお聞かせください。
 * **[!UICONTROL ステータス]:** に移動して、製品の `https://status.adobe.com/experience_cloud` 運用状況と購読の管 [!UICONTROL 理]を確認します。
-* **[!UICONTROL Developer Connection]:**  [AdobeI/Oへのナビゲーション](adobe.io) と開発者向けドキュメント。
+* **[!UICONTROL Developer Connection]:** 開発者向けドキュメント `adobe.io` に移動してアクセスします。
 
 ## ![](assets/preferences-icon.png) アカウント設定  {#account-menu}
 
