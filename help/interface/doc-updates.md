@@ -9,17 +9,20 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '251'
-ht-degree: 100%
+source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 93%
 
 ---
 
 # ドキュメントの更新 - Experience Cloud
 
 Experience Cloud 製品ドキュメントの更新に関する情報です。
+
+**更新日：5/26/2021**
+
+Experience Cloud、グローバル検索、環境設定、および通知へのアクセスに関するヘルプに[Experience Cloudインターフェイス](experience-cloud-interface.md)を追加しました。
 
 **更新：2020 年 8 月 19 日（PT）**
 
@@ -55,10 +58,6 @@ Experience Cloud 製品ドキュメントの更新に関する情報です。
 **更新：2018 年 6 月 6 日（PT）**
 
 コンテンツおよび画面の一般的な更新。
-
-**更新：2018 年 2 月 6 日（PT）**
-
-[Experience Cloud ユーザーと製品の管理](admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)を更新しました。
 
 **更新：2018 年 1 月 17 日（PT）**
 
@@ -105,7 +104,3 @@ Experience Cloud 製品ドキュメントの更新に関する情報です。
 Audiences 用のドキュメントが追加されました。
 
 [Audiences](audience-library/audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7) を参照してください。
-
-**更新：2014 年 5 月 22 日（PT）**
-
-Experience Cloud の管理者になるための情報に関して、[Experience Cloud のユーザーと製品の管理](admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)を更新しました。
