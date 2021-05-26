@@ -5,10 +5,10 @@ breadcrumb-title: Experience Cloud サービスと管理
 user-guide-description: Adobe Experience Cloudのユーザーと製品を管理する方法、および顧客属性サービスとオーディエンスライブラリサービスの使用方法について説明します。 CookieとExperience Cloudアセットについても説明します。
 user-guide-url: https://www.adobe.com
 index: true
-source-git-commit: c0a01f126e7ccdd8e6f320a449935c282dc1ca8c
+source-git-commit: 35072268615b7a657cdabacfe7dbcd5fd3ffc81f
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 98%
+source-wordcount: '377'
+ht-degree: 100%
 
 ---
 
@@ -16,8 +16,7 @@ ht-degree: 98%
 # Experience Cloud サービスと管理 {#interface}
 
 + [Experience Cloud サービスと管理](experience-cloud.md)
-+ [Experience Cloud中央インターフェイスコンポーネント](experience-cloud-interface.md)
-   + [ログインとプロファイル設定の管理](admin-getting-started/getting-started-experience-cloud.md)
++ [Experience Cloud インターフェイス ](experience-cloud-interface.md)
 + Experience Cloud サービス {#about-core-services}
    + [Experience Cloud サービスの概要](core-services-landing.md)
    + [クロスソリューションサービスの実装を有効にする](core-services/core-services.md)
