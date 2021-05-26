@@ -9,11 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '947'
-ht-degree: 100%
+source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
+workflow-type: tm+mt
+source-wordcount: '944'
+ht-degree: 99%
 
 ---
 
@@ -25,7 +24,7 @@ ht-degree: 100%
 >
 >ユーザーおよび製品管理の更新に関する管理者向けの情報については、[管理](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)を参照してください。
 
-## Experience Cloud へのログイン（管理者） {#task_034FC955031347F3B02B686A09801A08}
+## Experience Cloud へのログイン（管理者）  {#task_034FC955031347F3B02B686A09801A08}
 
 ログインし、自分が適切な[組織](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)に属していることを確認します。
 
@@ -46,12 +45,12 @@ ht-degree: 100%
 | [レポートスイートをマッピング](../core-services/core-services.md) | （Analytics のみ）Experience Cloud のコアサービスは個々のレポートスイートではなく組織に関連付けられています。これらのサービスを正しく機能させるには、各 Analytics レポートスイートを組織にマッピングする必要があります。（この作業は、[Analytics をコアサービスに対応させる](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)ワークフローの一部です）。 |
 | [組織 ID](../admin-getting-started/organizations.md)   | *組織 ID* は管理ページの下部に表示されています。この ID は、プロビジョニングした Experience Cloud 会社に関連付けられている ID です。この ID は 24 文字の英数字から成る文字列で、その後に @AdobeOrg（必須）が続きます。 |
 
-## Experience Cloud へのログイン（ユーザー） {#task_1BFE87E20DCB44078CAC82F3CD44B985}
+## Experience Cloud へのログイン（ユーザー）  {#task_1BFE87E20DCB44078CAC82F3CD44B985}
 
 Experience Cloud での非管理者ユーザーのログインに関するヘルプ情報です。
 
 
-1. Experience Cloud で自分の[組織](../admin-getting-started/getting-started-experience-cloud.md#concept_384D169B0B724B799D573B8ECB5C39BF)のプロビジョニングが完了していることを管理者に確認します。
+1. Experience Cloud で自分の[組織](../admin-getting-started/organizations.md)のプロビジョニングが完了していることを管理者に確認します。
 
 
 1. [Adobe Experience Cloud](https://experiencecloud.adobe.com)（[!DNL experiencecloud.adobe.com]）に移動します。
@@ -115,9 +114,9 @@ Experience Cloud での非管理者ユーザーのログインに関するヘル
 
 Experience Cloud プロファイルを編集し、デフォルトの組織やランディングページなどを指定することができます。
 
-1. [Experience Cloud にログインします](../admin-getting-started/getting-started-experience-cloud.md#task_1BFE87E20DCB44078CAC82F3CD44B985)。
+1. Experience Cloud にサインインする.
 
-1. Experience Cloud メニューから、自分のプロファイルの画像をクリックします。
+1. Experience Cloudで、プロフィール写真をクリックします。
 
    ![](assets/edit-profile.png)
 1. 「**[!UICONTROL プロファイルを編集]**」をクリックします。
