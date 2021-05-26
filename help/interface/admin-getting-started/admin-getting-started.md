@@ -8,10 +8,9 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '1422'
+source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
+workflow-type: tm+mt
+source-wordcount: '1415'
 ht-degree: 100%
 
 ---
@@ -58,9 +57,7 @@ Admin Console にログインするには:
 
 **関連するヘルプ**
 
-Creative Cloud および Document Cloud の[管理ユーザーガイド](https://helpx.adobe.com/jp/enterprise/using/users.html)。[ID タイプの管理](https://helpx.adobe.com/jp/enterprise/help/identity.html)など、Experience Cloud のユーザー管理に関連する情報も含まれています。
-
-[ログインとプロファイル設定の管理](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0).
+Creative Cloud および Document Cloud の[管理ユーザーガイド](https://helpx.adobe.com/jp/enterprise/using/users.html)。[ID タイプの管理](https://helpx.adobe.com/enterprise/help/identity.html)など、Experience Cloud のユーザー管理に関連する情報も含まれています。
 
 ## 製品プロファイルおよびグループ {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
@@ -145,9 +142,9 @@ Audience Manager ヘルプの[管理](https://docs.adobe.com/content/help/ja-JP/
 
 詳しくは、以下のヘルプ情報を参照してください。
 
-* [製品およびプロファイルの管理](https://helpx.adobe.com/jp/enterprise/using/manage-products-and-profiles.html)
-* Adobe Target ヘルプの [Enterprise ユーザーの権限](https://docs.adobe.com/content/help/ja-JP/target/using/administer/manage-users/enterprise/property-channel.html)
-* ビデオ：[Adobe Admin Console で Adobe Target ワークスペースを設定する方法](https://helpx.adobe.com/jp/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [製品およびプロファイルの管理](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
+* Adobe Target ヘルプの [Enterprise ユーザーの権限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
+* ビデオ：[Adobe Admin Console で Adobe Target ワークスペースを設定する方法](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## 製品プロファイルへの Analytics アクセス権限の割り当て {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
@@ -198,6 +195,6 @@ Experience Cloud でサポートされているブラウザーは次のとおり
 
 ### 各ソリューションおよび製品の要件
 
-* [Analytics](https://docs.adobe.com/content/help/ja-JP/analytics/admin/sys-reqs.html)
+* [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html)
 * [Report Builder](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
-* [Adobe Target](https://docs.adobe.com/help/ja-JP/target/using/implement-target/before-implement/supported-browsers.html)
+* [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html)
