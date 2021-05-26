@@ -5,7 +5,7 @@ breadcrumb-title: Experience Cloud サービスと管理
 user-guide-description: Adobe Experience Cloudのユーザーと製品を管理する方法、および顧客属性サービスとオーディエンスライブラリサービスの使用方法について説明します。 CookieとExperience Cloudアセットについても説明します。
 user-guide-url: https://www.adobe.com
 index: true
-source-git-commit: c3ce6e07c17e126cd2becdf65c40ccbe9398f012
+source-git-commit: c0a01f126e7ccdd8e6f320a449935c282dc1ca8c
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 98%
@@ -17,6 +17,7 @@ ht-degree: 98%
 
 + [Experience Cloud サービスと管理](experience-cloud.md)
 + [Experience Cloud中央インターフェイスコンポーネント](experience-cloud-interface.md)
+   + [ログインとプロファイル設定の管理](admin-getting-started/getting-started-experience-cloud.md)
 + Experience Cloud サービス {#about-core-services}
    + [Experience Cloud サービスの概要](core-services-landing.md)
    + [クロスソリューションサービスの実装を有効にする](core-services/core-services.md)
@@ -41,7 +42,7 @@ ht-degree: 98%
    + [Experience Cloud ユーザー ID および製品の管理（Admin Console）](admin-getting-started/admin-getting-started.md)
    + [Experience Cloud ユーザーの詳細の表示（管理ツール）](admin-getting-started/admin-tool-experience-cloud.md)
    + [よくある質問](admin-getting-started/faq.md)
-   + [ログインとプロファイル設定の管理](admin-getting-started/getting-started-experience-cloud.md)
+
    + [組織とアカウントのリンク](admin-getting-started/organizations.md)
    + [Analytics Premium および Experience Cloud へのアップグレード](admin-getting-started/upgrade-to-analytics-premium.md)
 + Experience Cloud Activation {#activation}
