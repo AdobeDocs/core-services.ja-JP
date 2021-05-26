@@ -6,22 +6,34 @@ feature: 「中央インターフェイスコンポーネント」
 topic: 管理
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: a2fd27582268ae2865e6074b8c84d55f8c31fb8a
+source-git-commit: c0a01f126e7ccdd8e6f320a449935c282dc1ca8c
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 2%
+source-wordcount: '464'
+ht-degree: 6%
 
 ---
 
-# Experience Cloud中央インターフェイスコンポーネント
+# Experience Cloud インターフェイス 
 
 Experience Cloudの中央インターフェイスコンポーネントには、次の機能が含まれます。
 
-* アプリケーションとサービスへのアクセス
+* ログインし、アプリケーションとサービスにアクセスする
 * グローバル検索を使用して製品ヘルプとビジネスオブジェクトを検索する
 * アカウント設定（アラート、通知、購読）の管理
 
-## ![](assets/menu-icon.png) Experience Cloud・アプリケーションへのアクセス {#navigation}
+## Experience Cloud にサインインする
+
+ログインし、自分が適切な[組織](admin-getting-started/organizations.md)に属していることを確認します。
+
+1. [Adobe Experience Cloud](https://experiencecloud.adobe.com/exc-content/login.html)に移動します。
+1. 「**[!UICONTROL Adobe IDでログイン]**」をクリックします。
+1. Adobe Experience Cloudで、組織をクリックします。
+
+   ![](assets/organizations-menu.png)
+
+   管理者が、自分が適切な[組織](admin-getting-started/organizations.md)に属していることを確認する際に役立ちます。
+
+## Experience Cloud・アプリケーションへのアクセス {#navigation}
 
 Experience Cloudにサインインすると、統合ヘッダーからすべてのアプリケーション、サービスおよび組織にすばやくアクセスできます。
 
@@ -29,7 +41,7 @@ Experience Cloudにサインインすると、統合ヘッダーからすべて�
 
 ![](assets/platform-core-services.png)
 
-## ![](assets/help-icon.png) Experience Cloudでの検索とサポート {#search}
+## Experience Cloudでの検索とサポート {#search}
 
 Experience Cloud検索では、[Experience League](https://experienceleague.adobe.com/?lang=ja#home)でヘルプ（ドキュメント、チュートリアル、コース）を検索できます。 また、セグメント、データセット、スキーマなどのビジネスオブジェクトを検索することもできます。
 
@@ -46,7 +58,7 @@ Experience Cloud検索では、[Experience League](https://experienceleague.adob
 * **[!UICONTROL ステータス]:** に移動して、製品の `https://status.adobe.com/experience_cloud` 運用状況と購読の管 [!UICONTROL 理]を確認します。
 * **[!UICONTROL Developer Connection]:** 開発者向けドキュメント `adobe.io` に移動してアクセスします。
 
-## ![](assets/preferences-icon.png) アカウント設定  {#account-menu}
+## アカウント設定{#account-menu}
 
 アカウントの環境設定メニューで、次の操作を実行できます。
 
@@ -73,6 +85,10 @@ Experience Cloudの環境設定には、通知、購読、アラートが含ま�
 | [!UICONTROL アラート] | ブラウザーにアラートを表示する通知を選択します。 アラートは、ウィンドウの右上隅に数秒間表示されます。 |
 | Emails | 通知電子メールを受信する頻度を指定します。 （未送信、即時、毎日または毎週）。 |
 
-## ![](assets/notifications.png) 通知とお知らせ
+## 通知とお知らせ
 
-**** 通知とお知 **[!UICONTROL らせ]:** 重要な通知や、Adobeからのお知らせを確認します。通知は、[Experience Cloudの環境設定](#preferences)で設定できます。
+「**[!UICONTROL 通知]**」をクリックすると、重要な通知や、Adobeからのお知らせを表示できます。
+
+![](assets/notifications-menu-small.png)
+
+通知は、[Experience Cloudの環境設定](#preferences)で設定できます。
