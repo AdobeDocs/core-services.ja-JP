@@ -9,11 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 3d12a1b1-c952-4b42-815d-f64b31429cec
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '299'
-ht-degree: 100%
+source-git-commit: ef6196c3096ac7b26633eb4b1b9b2db26237732a
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 84%
 
 ---
 
@@ -25,8 +24,7 @@ ht-degree: 100%
 
 ## Adobe Analytics および Adobe Target
 
-* [ファーストパーティ実装](/help/interface/cookies/cookies-first-party.md)をお使いのお客様への影響はほとんどありません。
-* ファーストパーティ実装を使用していないお客様は、[Experience Platform ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/implementation/implementation-guides.html)を実装して、ID cookie をファーストパーティ実装なしでファーストパーティ cookie として保存できます。
+* 同じサイトアクティビティがファーストパーティcookieのみに依存するので、AnalyticsとTargetはほとんど影響を受けません。 複数のドメインにわたるユーザーアクティビティを理解するには、サードパーティCookieが必要です。 サードパーティCookieがブロックされているブラウザーの場合、Cookieを使用したクロスドメイントラッキングはできません。
 
 ## Adobe Experience Manager
 
@@ -49,8 +47,3 @@ ht-degree: 100%
    * また、各種広告ネットワークの cookie を同期に利用できるかどうかも表示に大きく影響します。
    * 全体的な影響は不明ですが、少なくとも、表示は他のサービスよりも大きく影響を受けます。
    * 現在、アドビは社内だけでなく、広告パートナーとも協力して、広告配信に対する影響の範囲を完全に測定できるように取り組んでいます。
-
-* ソーシャル：
-
-   * Facebook マーケットプレイス広告への影響はありません。
-   * Facebook Exchange（FBX）は表示広告配信と同じ影響を受けます。
