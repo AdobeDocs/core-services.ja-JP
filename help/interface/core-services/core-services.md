@@ -9,11 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '2367'
-ht-degree: 100%
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
+workflow-type: tm+mt
+source-wordcount: '2368'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +23,7 @@ Experience Platform Launch を使用して Experience Cloud を最近実装し�
 既存のお客様の場合は、ソリューションの実装を最新化し、Experience Cloud を実装する必要が出る場合があります。これにより、Adobe Analytics、Audience Manager、Adobe Target 全体で顧客属性とオーディエンス機能を活用できます。この実装を完了するために、以下をおこないます。
 
 1. [Experience Cloud に加入して管理者になる](#section_2423F0BD3DF642658103310EE5EA6154)
-1. [Experience Cloud ID サービスを実装する](#section_3C9F6DF37C654D939625BB4D485E4354)
+1. [Experience Cloud ID サービス を実装します](#section_3C9F6DF37C654D939625BB4D485E4354)
 1. [レポートスイートを Experience Cloud 組織にマッピングする](#section_7B08516B01BA421681DF03D0E86CE3BA)
 1. [Analytics の AppMeasurement コードを更新する](#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [Adobe Target の実装を更新する](#section_C2F4493C7A36406DAE2266B429A4BD24)
@@ -54,9 +53,9 @@ Experience Cloud に参加するために必要なことを次に示します。
 
 ### 管理者ログイン
 
-管理者になると、[experiencecloud.adobe.com](https://experiencecloud.adobe.com) でログインできます。
+管理者になったら、[experience.adobe.com](https://experience.adobe.com)でログインできます。
 
-Experience Cloud メニューナビゲーションに「**[!UICONTROL 管理]**」リンクが表示されます。
+Experience Cloudメニューのナビゲーションに&#x200B;**[!UICONTROL Admin Console]**&#x200B;リンクが表示されます。
 
 ヘルプについては、[Experience Cloud ユーザーおよび製品管理](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)を参照してください。
 
@@ -65,7 +64,7 @@ Experience Cloud メニューナビゲーションに「**[!UICONTROL 管理]**�
 Experience Cloud にログインするには、次のことが必要です。
 
 * Adobe ID（または会社の Enterprise ID）を持っている。
-* [experiencecloud.adobe.com](https://experiencecloud.adobe.com) でログインする。
+* [experience.adobe.com](https://experience.adobe.com)でログインします。
 * エンタープライズグループにマッピングされているソリューショングループに属する。
 * 必要に応じて、ソリューションアカウントを Adobe ID にリンクする（以下で説明）。
 
@@ -103,7 +102,7 @@ Experience Cloud ID サービス（以前の訪問者 ID）について詳しく
 
 ### Analytics と Adobe Target - 顧客 ID の同期 {#section_AD473A6A21C1446498E700363F9A8437}
 
-Analytics と [!DNL Target] については、Experience Cloud ID サービスを設定する際に[顧客 ID](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/authenticated-state.html) を Experience Cloud に同期させることを推奨します。
+Analytics と [!DNL Target] については、Experience Cloud ID サービスを設定する際に[顧客 ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) を Experience Cloud に同期させることを推奨します。
 
 Adobe Target では、`mbox3rdpartyid` から顧客 ID を取得し、それを [!DNL Target] に送信する必要があります（[!DNL Target] のヘルプで[顧客属性の操作方法](https://docs.adobe.com/content/help/ja-JP/target/using/audiences/visitor-profiles/working-with-customer-attributes.html)を参照してください）。
 
@@ -233,4 +232,4 @@ Adobe [!DNL Experience Cloud] 内のリアルタイムのオーディエンス�
 
 手順については、[Adobe Experience Cloud ヘルプのアドビオプトアウトの導入](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/js/opt-out.html)を参照してください。
 
-クロスドメイントラッキングの有効化については、[データ収集 CNAME およびクロスドメイントラッキング](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/analytics-reference/cname.html)を参照してください。
+クロスドメイントラッキングの有効化については、[データ収集 CNAME およびクロスドメイントラッキング](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html)を参照してください。
