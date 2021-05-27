@@ -8,10 +8,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
+source-git-commit: dc1d672c352396f919c239bf44e2162ff1deafb6
 workflow-type: tm+mt
 source-wordcount: '1415'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -81,7 +81,7 @@ Analytics 管理者がユーザーアカウントを Analytics User Management �
 
 アカウントの移行は、顧客ごとに段階的に実施しています。既存のユーザーアカウントを「**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**」から Admin Console へ移行する順番が来た顧客には、アドビから通知し、サポートを提供します。
 
-移行後、ユーザーはそれぞれの Adobe ID（または Enterprise ID）を使用してログインし、Experience Cloud ソリューションおよびサービスへ認証を [experiencecloud.adobe.com](https://experiencecloud.adobe.com) でおこないます。従来のログイン（[!DNL my.omniture.com] および [!DNL sc.omniture.com]）でログインしようとしたユーザーは、[!DNL experiencecloud.adobe.com] にリダイレクトされます。
+移行後、ユーザーはAdobe ID(またはEnterprise ID)を使用してログインし、Experience Cloudソリューションおよびサービスへの認証を[experience.adobe.com](https://experience.adobe.com)でおこないます。 従来のログイン（[!DNL my.omniture.com]、[!DNL sc.omniture.com]および[!DNL experiencecloud.adobe.com]）でログインしようとすると、ユーザーは[!DNL experience.adobe.com]にリダイレクトされます。
 
 **関連するヘルプ**
 
