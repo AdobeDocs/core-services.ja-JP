@@ -6,10 +6,10 @@ feature: 「中央インターフェイスコンポーネント」
 topic: 管理
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 46198d6fb4a940e9323b65ddd5105c74e01b879e
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 6%
+source-wordcount: '434'
+ht-degree: 7%
 
 ---
 
@@ -25,7 +25,7 @@ Experience Cloudの中央インターフェイスコンポーネントには、�
 
 ログインし、自分が適切な[組織](admin-getting-started/organizations.md)に属していることを確認します。
 
-1. [Adobe Experience Cloud](https://experiencecloud.adobe.com/exc-content/login.html)に移動します。
+1. [Adobe Experience Cloud](https://experience.adobe.com)に移動します。
 1. 「**[!UICONTROL Adobe IDでログイン]**」をクリックします。
 1. Adobe Experience Cloudで、組織をクリックします。
 
