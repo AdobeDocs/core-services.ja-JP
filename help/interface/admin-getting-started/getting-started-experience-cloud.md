@@ -9,7 +9,7 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 99%
@@ -53,7 +53,7 @@ Experience Cloud での非管理者ユーザーのログインに関するヘル
 1. Experience Cloud で自分の[組織](../admin-getting-started/organizations.md)のプロビジョニングが完了していることを管理者に確認します。
 
 
-1. [Adobe Experience Cloud](https://experiencecloud.adobe.com)（[!DNL experiencecloud.adobe.com]）に移動します。
+1. [Adobe Experience Cloud](https://experience.adobe.com)（[!DNL experience.adobe.com]）に移動します。
 1. 「**[!UICONTROL Adobe ID でログイン]**」をクリックします。
 
    Experience Cloud 管理者に問い合わせてアカウントのタイプ（Adobe ID または Enterprise ID）を確認してください。
@@ -138,11 +138,11 @@ Experience Cloud プロファイルを編集し、デフォルトの組織やラ
 
 ### URL テンプレート
 
-`https://<tenantId>.experiencecloud.adobe.com/<solutionname>?destURL=<fullURL>`
+`https://experience.adobe.com/#/@<tenantId>/<solutionname>?destURL=<fullURL>`
 
 サンプル URL：
 
-`https://aem62tenant.experiencecloud.adobe.com/analytics?destURL=https%3A%2F%2Fsc.omniture.com%2Freports%2F11562.html`
+`https://experience.adobe.com/#/@aem62tenant/analytics?destURL=https%3A%2F%2Fsc.omniture.com%2Freports%2F11562.html`
 
 >[!NOTE]
 >
