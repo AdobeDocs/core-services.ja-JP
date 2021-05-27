@@ -9,7 +9,7 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 6b6dd0fd0ac51d485877e20bd94322415e80e65e
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
 workflow-type: tm+mt
 source-wordcount: '4111'
 ht-degree: 96%
@@ -395,7 +395,7 @@ Experience Cloud インターフェイスの機能、リリースノートおよ
 
 **修正点および改善点**
 
-* [!DNL experiencecloud.adobe.com] に移動した場合のログイン操作が、アドビの Creative Cloud ログインと一致するようになりました。
+* [!DNL experience.adobe.com] に移動した場合のログイン操作が、アドビの Creative Cloud ログインと一致するようになりました。
 * 組織を管理ページ上のリンク操作（招待を受け取った後）が各ソリューションで共通になりました。
 
 **既知の問題**
