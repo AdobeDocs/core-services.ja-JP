@@ -9,9 +9,8 @@ feature: Admin Console
 role: Administrator
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
+workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 100%
 
@@ -55,7 +54,7 @@ Predictive Intelligence へのアップグレードにより、[Analytics Premiu
 
 | 製品 | アップグレード |
 |---|---|
-| Reports &amp; Analytics | [貢献度分析](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
+| Reports &amp; Analytics | [貢献度分析](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
 | Data Workbench | オーディエンスの資格と予測マーケティングのためのワークスペース |
 | Analytics Platform | Live Stream（ダッシュボードとトリガー） |
 
@@ -85,7 +84,7 @@ Customer 360 へのアップグレードにより、[Analytics Premium](../admin
 
 Analytics Standard と Premium のユーザーは Experience Cloud およびコアサービスを利用できます。ただし、「[はじめに - コアサービスのソリューションを有効にする](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)」に記載されている実装の最新化に従っていることが前提です（このプロセスにより、実装を最新化できます。また、Experience Cloud の管理者になることもできます）。
 
-Experience Cloud に加入したら、[!DNL experiencecloud.adobe.com] から Experience Cloud にログインして、コアサービス（顧客属性、Audiences およびモバイルアプリ分析を含む）の利用を開始することができます。
+Experience Cloud に加入したら、[!DNL experience.adobe.com] から Experience Cloud にログインして、コアサービス（顧客属性、Audiences およびモバイルアプリ分析を含む）の利用を開始することができます。
 
 ### ユーザーとグループの管理
 
