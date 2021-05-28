@@ -8,10 +8,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: c32cc6783b53cc6e57bba0810a49038561ac9dcd
+source-git-commit: 2f315b2daa4e9d73b0adb1cf75fd7ff2417fd0c2
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 47%
+source-wordcount: '1276'
+ht-degree: 48%
 
 ---
 
@@ -111,15 +111,15 @@ Admin Console では、組織内の他のユーザーに管理権限を制限付
 | レポートスイートツール | Web サービス、レポートスイートの管理、ツールとレポート、およびダッシュボードの項目に対するユーザー権限を有効にします。 |
 | Analytics ツール | 一般的な項目（課金、ログなど）、会社の管理、ツール、Webサービスへのアクセス、Report BuilderおよびData Connectorsの統合に関するユーザー権限を有効にします。 Admin Console のカスタマイズカテゴリのカンパニー設定は、Analytics ツールに移動されました。 |
 
-<!-- **User Account Migration**
+**ユーザーアカウントの移行**
 
-An Analytics user ID migration tool is available to help Analytics administrators migrate user accounts from Analytics User Management to the [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/).
+Analytics 管理者がユーザーアカウントを Analytics User Management から [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/) / へ移行する際に役立つ Analytics ユーザー ID 移行ツールを入手できます。
 
-The account migration is being rolled out to customers in phases. Adobe will notify and assist you when it is your time to migrate existing user accounts from **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** to the Admin Console.
+アカウントの移行は、顧客ごとに段階的に実施しています。既存のユーザーアカウントを「**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**」から Admin Console へ移行する順番が来た顧客には、アドビから通知し、サポートを提供します。
 
-After the migration, users sign in using their Adobe ID (or Enterprise ID) and authenticate to their Experience Cloud solutions and services at [experience.adobe.com](https://experience.adobe.com). If users attempt to sign in via legacy logins ([!DNL my.omniture.com], [!DNL sc.omniture.com] and [!DNL experiencecloud.adobe.com]) they are redirected to [!DNL experience.adobe.com].
+移行後、ユーザーはAdobe ID(またはEnterprise ID)を使用してログインし、Experience Cloudソリューションおよびサービスへの認証を[experience.adobe.com](https://experience.adobe.com)でおこないます。 従来のログイン（[!DNL my.omniture.com]、[!DNL sc.omniture.com]および[!DNL experiencecloud.adobe.com]）でログインしようとすると、ユーザーは[!DNL experience.adobe.com]にリダイレクトされます。
 
-**Related help**  -->
+**関連するヘルプ**
 
 詳しくは、[AnalyticsのユーザーIDの移行](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en)を参照してください。
 
@@ -151,9 +151,9 @@ Admin Consoleでのユーザー権限と、Launch固有のオプションの設�
 
 ## Experience Manager as a Cloud Service
 
-Adobeのエンタープライズのお客様は、Adobe[!UICONTROL Admin Console]では組織として表されます。 Experience Manager(AEM)のお客様は、Adobe[!UICONTROL Admin Console]を使用して、Experience Managerに対する製品の使用権限と[!UICONTROL Cloud Service]としてのIMS認証を管理できます。
+Adobeのエンタープライズのお客様は、Adobe[!UICONTROL Admin Console]では組織として表されます。 Experience Managerのお客様は、Adobe[!UICONTROL Admin Console]を使用して、Experience Managerに対する製品の使用権限や、[!UICONTROL Cloud Service]としてのIMS認証を管理できます。
 
-[AEM as a Cloud Service の IMS サポート ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=ja)を参照してください。
+[Cloud ServiceとしてのExperience ManagerのIMSサポート](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=ja)を参照してください。
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
