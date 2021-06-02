@@ -9,19 +9,18 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '757'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 84%
 
 ---
 
 # Analytics の cookie {#analytics-cookies}
 
-Adobe Analytics では、異なるブラウザーからのリクエストを区別する目的と、アプリケーションによって後で使用されることがある有用な情報を保存する目的で cookie を使用します。また、閲覧行動と顧客レコードを関連付ける目的にも使用します。
+Adobe Analytics では、異なるブラウザーからのリクエストを区別する目的と、アプリケーションによって後で使用されることがある有用な情報を保存する目的で cookie を使用します。また、閲覧情報を顧客レコードに関連付ける場合にも使用できます。
 
-特に、Analytics では、新しい訪問者を匿名で識別する手段、クリックストリームデータ分析の参考情報、その Web サイトにおける行動履歴（特定のキャンペーンに対する反応、販売サイクルの長さなど）の追跡手段として cookie を使用します。
+Analyticsは、cookieを使用して新規訪問者を匿名で定義し、クリックストリームデータを分析し、特定のキャンペーンへの反応や販売サイクルの長さなど、Webサイト上の過去の行動を追跡します。
 
 * [cookie 名：s_ecid](../cookies/cookies-mc.md#section-32fd753c3fa54452acd62b021434919a)
 * [cookie 名：AMCV_###@AdobeOrg](../cookies/cookies-mc.md#section-a12aa2a9296940ae82d8921b381b8fb0)
@@ -48,7 +47,7 @@ Adobe Analytics では、異なるブラウザーからのリクエストを区�
 
 | 属性 | 説明 |
 |--- |--- |
-| 保存される情報 | この cookie は、cookie が有効になっている（「True」に設定されている）かどうかを判断するために JavaScript コードによって設定され、読み取られます。 |
+| 保存される情報 | このcookieは、cookieが有効になっている（「True」に設定されている）かどうかを判断するためにJavaScriptコードによって設定され、読み取られます。 |
 | 有効期限 | この cookie はセッション cookie で、ブラウザーを閉じると有効期限が切れます。 |
 | 用途 | すべてのアカウントに対して 1 つの cookie のみ。 |
 | 場所 | この cookie はページのドメインに保存されます。 |
@@ -92,7 +91,7 @@ Adobe Analytics では、異なるブラウザーからのリクエストを区�
 
 Analytics cookie のフラグを次の表に示します。
 
-| cookie（設定元） | httpOnly | Secure | SameSite |
+| cookie（設定元） | httpOnly | 安全 | SameSite |
 |--- |--- |--- |--- |
 | s_vi（HTTP 応答） | × | SameSite が &quot;None&quot; で、接続が HTTPS を使用する場合は○ | CNAME を使用する場合はデフォルトで &quot;Lax&quot; になります。2o7.net または omtrdc.net を使用する場合は &quot;None&quot; です。 |
 | s_ecid（HTTP 応答） | × | × | &quot;Lax&quot; |
@@ -102,10 +101,10 @@ Analytics cookie のフラグを次の表に示します。
 
 >[!NOTE]
 >
->1 つの CNAME を使用して複数のドメインまたはプロパティにわたって追跡する場合、`s_vi` の SameSite は &quot;None&quot; に設定する必要があります。Analytics cookie の設定の変更については、カスタマーケアにお問い合わせください。
+>1 つの CNAME を使用して複数のドメインまたはプロパティにわたって追跡する場合、`s_vi` の SameSite は &quot;None&quot; に設定する必要があります。Analytics Cookieの設定の変更に関しては、カスタマーケアにお問い合わせください。
 
 ## プラグインで設定される cookie {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
-使用する Analytics プラグインによっては、上記以外の cookie も設定されることがあります。それらの cookie は、様々な状況でクライアントから使用できるコードスニペットです。使用する状況としては、例えば、URL から値を取得する場合、Analytics に渡す値を連結する場合、また、放棄されたセッションの情報を捕捉する場合などが考えられます。各種プラグインで実際に設定される cookie について詳しくは、ClientCare にお問い合わせください。一例として、*Set Once Per* プラグインおよび&#x200B;*Set and Get Last Value* プラグインでは [!DNL s_vh] という cookie が使用されます。
+使用する Analytics プラグインによっては、上記以外の cookie も設定されることがあります。これらのCookieは、様々な状況でクライアントが使用できるコードスニペットです。 使用する状況としては、例えば、URL から値を取得する場合、Analytics に渡す値を連結する場合、また、放棄されたセッションの情報を捕捉する場合などが考えられます。各種プラグインで実際に設定される cookie について詳しくは、ClientCare にお問い合わせください。一例として、*Set Once Per* プラグインおよび&#x200B;*Set and Get Last Value* プラグインでは [!DNL s_vh] という cookie が使用されます。
 
-電子メール内に配置されるコードなど、JavaScript を使用しないイメージリクエスト時に渡されるコンバージョン変数（eVarX）は、電子メールクライアントと Web ブラウザーが同じ cookie 領域を共有している場合にのみ適切に関連付けられます。
+電子メール内に配置されたコードなど、JavaScriptを使用しないイメージリクエストで渡されるコンバージョン変数(eVarX)は、電子メールクライアントとWebブラウザーがcookie領域を共有している場合にのみ適切に関連付けられます。
