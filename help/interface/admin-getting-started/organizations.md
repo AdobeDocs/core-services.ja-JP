@@ -9,9 +9,8 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
 
@@ -73,5 +72,5 @@ ht-degree: 100%
 
 一般的に、アカウントのリンクは、Adobe ID が以前のユーザーにリンクされていることが原因で失敗します。アカウントのリンクに失敗した場合は、
 
-* [アドビサポートにお問い合わせ](https://helpx.adobe.com/jp/marketing-cloud/contact-support.html)ください。
+* [アドビサポートにお問い合わせ](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)ください。
 * 問題の解決前でも、標準ログインを使用してソリューションにアクセスできます。
