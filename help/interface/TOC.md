@@ -4,10 +4,10 @@ user-guide-title: 'Experience Cloud中央インターフェイスコンポーネ
 breadcrumb-title: Experience Cloud中央インターフェイスコンポーネント
 user-guide-description: Experience Cloudのインターフェイス、環境設定の設定、ヘルプとビジネスオブジェクトの検索について説明します。 ユーザーと製品の管理、顧客属性、オーディエンスライブラリ、cookie、Experience Cloudアセットに関するヘルプを取得します。
 index: true
-source-git-commit: 9a1dea42b5ae6ab4ea822d56c14cdb330bb8ef95
+source-git-commit: 51137ed0eb8cced37cc5779ca327a33ebf30e65a
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 86%
+source-wordcount: '370'
+ht-degree: 77%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 86%
    + [[!DNL Search and Promote] Cookie](cookies/cookies-snp.md)
    + [[!DNL Target] Cookie](cookies/cookies-target.md)
    + [ブラウザー cookie のプライバシー設定の有効化](cookies/browser-cookie-settings.md)
-   + [サードパーティ cookie のサポートに対する変更がお客様に及ぼす影響](cookies/cookies-thirdparty.md)
+   + [サードパーティcookieのサポートに対する変更がお客様に及ぼす影響](cookies/cookies-thirdparty.md)
 + ユーザーおよび製品の管理 {#manage-users-and-products}
    + [Experience Cloud ユーザー ID および製品の管理（Admin Console）](admin-getting-started/admin-getting-started.md)
    + [Experience Cloud ユーザーの詳細の表示（管理ツール）](admin-getting-started/admin-tool-experience-cloud.md)
@@ -43,8 +43,8 @@ ht-degree: 86%
    + [Analytics Premium および Experience Cloud へのアップグレード](admin-getting-started/upgrade-to-analytics-premium.md)
 + Experience Cloud Activation {#activation}
    + [Activation の概要](activation/activation.md)
-   + [Experience Platform Launch ユーザーガイド](https://docs.adobe.com/content/help/ja-JP/launch/using/overview.html)
-   + [Dynamic Tag Manager ユーザーガイド](https://docs.adobe.com/content/help/ja-JP/dtm/using/dtm-home.html)
+   + [Experience Platform Launch ユーザーガイド](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=en)
+   + [Dynamic Tag Manager ユーザーガイド](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=en)
    + [Triggers](activation/triggers.md)
 + Experience Cloud Assets {#assets}
    + [Experience Cloud Assets の概要](experience-cloud-assets/experience-cloud-assets.md)
@@ -72,10 +72,10 @@ ht-degree: 86%
    + [カリフォルニア消費者プライバシー法のサポート](attributes/ccpa.md)
    + [顧客属性のプライバシーに関する考慮事項](attributes/privacy-mac.md)
 + Experience Cloud のリリースノート {#release-notes}
-   + [Experience Cloud の新機能](https://docs.adobe.com/content/help/ja-JP/release-notes/experience-cloud/current.html)
+   + [Experience Cloud の新機能](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)
    + [累積リリースノート](marketing-cloud-interface/release-notes.md)
 + その他のリソース {#more-resources}
-   + [フォーラム](https://forums.adobe.com/community/experience-cloud)
+   + [フォーラム](https://experienceleaguecommunities.adobe.com/)
    + [用語](terms.md)
    + [様々なソリューションおよびサービスによる DNS プリフェッチの使用](dns-prefetch.md)
    + [ドキュメントの更新](doc-updates.md)
