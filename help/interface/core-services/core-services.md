@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '2368'
-ht-degree: 98%
+source-wordcount: '2352'
+ht-degree: 73%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 Experience Platform Launch を使用して Experience Cloud を最近実装した場合、顧客属性と Experience Cloud Audiences は既に設定されています。また、Admin Console でユーザーや製品を管理することもできます。
 
-既存のお客様の場合は、ソリューションの実装を最新化し、Experience Cloud を実装する必要が出る場合があります。これにより、Adobe Analytics、Audience Manager、Adobe Target 全体で顧客属性とオーディエンス機能を活用できます。この実装を完了するために、以下をおこないます。
+既存のお客様は、ソリューションの実装を最新化し、Experience Cloudを実装できます。 これにより、Adobe Analytics、Audience Manager、Adobe Target全体で顧客属性とオーディエンス機能を使用できます。 この実装を完了するために、以下をおこないます。
 
 1. [Experience Cloud に加入して管理者になる](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Experience Cloud ID サービス を実装します](#section_3C9F6DF37C654D939625BB4D485E4354)
@@ -42,7 +42,7 @@ Experience Cloud に参加するために必要なことを次に示します。
 
    >[!NOTE]
    >
-   >[!DNL Target] の場合は、[!DNL mbox.js] から at.js に移行します。[at.js 1.x から at.js 2.x へのアップグレード](https://docs.adobe.com/content/help/ja-JP/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html)を参照してください。
+   >[!DNL Target] の場合は、[!DNL mbox.js] から at.js に移行します。[at.js 1.x から at.js 2.x へのアップグレード](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=en)を参照してください。
 
 1. 実装を最新化して管理者のプロビジョニングをおこなう。
 
@@ -96,17 +96,17 @@ Experience Cloud ID サービス（以前の訪問者 ID）について詳しく
 
 | タスク | 説明 |
 | -----------| ---------- |  
-| [Experience Cloud ID サービスの Analytics への実装](https://docs.adobe.com/content/help/ja-JP/id-service/using/implementation/setup-analytics.html) | また、追加の[顧客 ID](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/authenticated-state.html) を設定することを推奨します。これらの ID は各訪問者に関連付けられ、Experience Cloud の現在および将来の機能を有効にします。 |
-| 既存の [!DNL s_code] をバージョン H.27.3 以降に更新、または既存の [!DNL AppMeasurement.js] をバージョン 1.4 以降に更新 | これらのファイルは、Analytics 管理ツールの[コードマネージャー](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/code-manager-admin.html)でダウンロードして入手できます（[!DNL AppMeasurement.js] について詳しくは、[JavaScript の実装](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/js/overview.html)を参照してください）。 |
+| [Experience Cloud ID サービスの Analytics への実装](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=en) | また、追加の[顧客 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en) を設定することを推奨します。これらの ID は各訪問者に関連付けられ、Experience Cloud の現在および将来の機能を有効にします。 |
+| 既存の [!DNL s_code] をバージョン H.27.3 以降に更新、または既存の [!DNL AppMeasurement.js] をバージョン 1.4 以降に更新 | これらのファイルは、Analytics 管理ツールの[コードマネージャー](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=en)でダウンロードして入手できます（[!DNL AppMeasurement.js] について詳しくは、[JavaScript の実装](https://experienceleague.corp.adobe.com/docs/analytics/implementation/js/overview.html?lang=en#js)を参照してください）。 |
 | Analytics の顧客 ID の同期 | 以下の[Analytics - 顧客 ID の同期](../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437)を参照してください。 |
 
 ### Analytics と Adobe Target - 顧客 ID の同期 {#section_AD473A6A21C1446498E700363F9A8437}
 
-Analytics と [!DNL Target] については、Experience Cloud ID サービスを設定する際に[顧客 ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) を Experience Cloud に同期させることを推奨します。
+Analytics と [!DNL Target] については、Experience Cloud ID サービスを設定する際に[顧客 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en) を Experience Cloud に同期させることを推奨します。
 
-Adobe Target では、`mbox3rdpartyid` から顧客 ID を取得し、それを [!DNL Target] に送信する必要があります（[!DNL Target] のヘルプで[顧客属性の操作方法](https://docs.adobe.com/content/help/ja-JP/target/using/audiences/visitor-profiles/working-with-customer-attributes.html)を参照してください）。
+Adobe Targetでは、`mbox3rdpartyid`は顧客IDを取得し、[!DNL Target]に送信する必要があります。 （[!DNL Target] のヘルプで[顧客属性の操作方法](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=en)を参照してください）。
 
-訪問者が Web サイトで認証をおこなうとき、または別の方法で本人確認をおこなうときは、その人物の CRM 顧客 ID をページまたはアプリに公開する必要があります。その後、適切な機能呼び出しを使用して、顧客 ID と Experience Cloud を同期できます。この同期によって、訪問者の CRM 顧客 ID が Experience Cloud に格納され、その顧客属性が Experience Cloud で使用できるようになります。
+訪問者がWebサイトで認証をおこなうとき、または別の方法で本人確認をおこなうときは、その人のCRM顧客IDをページまたはアプリに公開する必要があります。 その後、適切な機能呼び出しを使用して、顧客 ID と Experience Cloud を同期できます。この同期によって、訪問者の CRM 顧客 ID が Experience Cloud に格納され、その顧客属性が Experience Cloud で使用できるようになります。
 
 例えば、Bob が CRM システムに顧客 ID `52mc210tr42` を持っているとします。Bob がサイトで認証をおこなうときは、その顧客 ID をページに公開し、その顧客 ID を使用して次のいずれかの方法で同期する必要があります。
 
@@ -117,7 +117,7 @@ Adobe Target では、`mbox3rdpartyid` から顧客 ID を取得し、それを 
 
 ### モバイル SDK
 
-*Experience Cloud ID サービス*&#x200B;の節を参照して、[Android](https://docs.adobe.com/content/help/ja-JP/mobile-services/android/overview.html) および [iOS](https://docs.adobe.com/content/help/ja-JP/mobile-services/ios/overview.html) モバイルアプリケーションで追加の顧客 ID を設定する方法の構文例を確認してください。
+*Experience CloudIDサービス*&#x200B;の節を参照して、[Android™](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=en)および[iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=en)モバイルアプリケーションで追加の顧客IDを設定する方法の構文例を確認してください。
 
 ### 履歴データの属性の有効化
 
@@ -137,17 +137,17 @@ Experience Cloud サービス（Experience Cloud ID サービスや [!UICONTROL 
 
 ## Analytics の AppMeasurement コードを更新する {#section_1798D9D0F05C47E29816AC4EEB9A0913}
 
-Analytics を使用している場合は、地域データ収集（RDC）を使用していることを確認します。 データ収集ドメインが [!DNL omtrdc.net] の場合、または CNAME が [!DNL omtrdc.net] にマッピングされている場合は、RDC を使用しています。詳しくは、[RDC への移行](https://docs.adobe.com/content/help/ja-JP/analytics/technotes/rdc/regional-data-collection.html)を参照してください。ファーストパーティ Cookie を使用している場合、データ収集 CNAME とクロスドメイン追跡については、[CNAME と Experience Cloud ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/analytics-reference/cname.html)を参照してください。
+Analytics を使用している場合は、地域データ収集（RDC）を使用していることを確認します。 データ収集ドメインが [!DNL omtrdc.net] の場合、または CNAME が [!DNL omtrdc.net] にマッピングされている場合は、RDC を使用しています。詳しくは、[RDC への移行](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=en)を参照してください。ファーストパーティ Cookie を使用している場合、データ収集 CNAME とクロスドメイン追跡については、[CNAME と Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en)を参照してください。
 
-訪問者 API など JavaScript ライブラリを更新して Analytics の実装を最新化することが推奨されます。これをおこなう最も簡単な方法は、Dynamic Tag Management で [!DNL Adobe Analytics] ツールを追加し、設定方法に *`Automatic`* を指定することです。
+訪問者 API など JavaScript ライブラリを更新して Analytics の実装を最新化することが推奨されます。+632581を簡単に実現するには、Dynamic Tag Managementに[!DNL Adobe Analytics]ツールを追加し、設定方法として&#x200B;*`Automatic`*&#x200B;を指定します。
 
-[!UICONTROL Dynamic Tag Management] で、**`<Web Property Name>`**／ **[!UICONTROL 概要]** ／ **[!UICONTROL ツールを追加]** ／ **[!UICONTROL Adobe Analytics]** をクリックします。デプロイメントについては、Dynamic Tag Management の [Adobe Analytics の設定](https://docs.adobe.com/content/help/ja-JP/dtm/using/tools/analytics-dtm.html) を参照してください。
+[!UICONTROL Dynamic Tag Management]で、**`<Web Property Name>`** / **[!UICONTROL 概要]** / **[!UICONTROL ツールを追加]** / **[!UICONTROL Adobe Analytics]**&#x200B;をクリックします。 デプロイメントについては、Dynamic Tag Management の [Adobe Analytics の設定](https://experienceleague.adobe.com/docs/dtm/using/tools/analytics-dtm.html?lang=en) を参照してください。
 
 ## Adobe Target の実装を更新する {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* [!UICONTROL Experience Platform Launch] で [Adobe Target 拡張機能](https://docs.adobe.com/content/help/ja-JP/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html)を追加してライブラリの検索を自動化することをお勧めします。[!UICONTROL Experience Platform Launch] を使用して、[Experience Cloud ID サービス拡張機能](https://docs.adobe.com/content/help/ja-JP/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html)を Adobe Target（および他のソリューション）に設定することもできます。Adobe Target でコアサービスを使用するには、[!UICONTROL Experience Cloud ID サービス]のアップデートが&#x200B;**必要**&#x200B;です（[!UICONTROL Dynamic Tag Management] を使用する場合は、[Adobe Target ツール](https://docs.adobe.com/content/help/ja-JP/dtm/using/tools/target.html)を追加します。また、[!UICONTROL Dynamic Tag Management] を使用して、Experience Cloud ID サービスを Adobe Target 用にデプロイすることもできます）。
-* [!UICONTROL Experience Platform Launch] または [!UICONTROL Dynamic Tag Management] を使用しない場合は、手動で [mbox ライブラリを更新](https://docs.adobe.com/content/help/ja-JP/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html)します。
-* Adobe Analytics を [!DNL Adobe Target] のレポートソースとして使用するためのアクセスを要求します。処理中に同じサーバーコールで [!DNL Target] と [!DNL Analytics] のデータが結合され、これら 2 つのソリューション間で訪問者が接続されます。[Target のための Analytics の実装に関する説明](https://docs.adobe.com/content/help/ja-JP/target/using/integrate/a4t/a4t.html)を参照してください。
+* [!UICONTROL Experience Platform Launch] で [Adobe Target 拡張機能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html?lang=en)を追加してライブラリの検索を自動化することをお勧めします。[!UICONTROL Experience Platform Launch] を使用して、[Experience Cloud ID サービス拡張機能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=en)を Adobe Target（および他のソリューション）に設定することもできます。Adobe Target でコアサービスを使用するには、[!UICONTROL Experience Cloud ID サービス]のアップデートが&#x200B;**必要**&#x200B;です（[!UICONTROL Dynamic Tag Management] を使用する場合は、[Adobe Target ツール](https://experienceleague.adobe.com/docs/dtm/using/tools/target.html?lang=en)を追加します。また、[!UICONTROL Dynamic Tag Management] を使用して、Experience Cloud ID サービスを Adobe Target 用にデプロイすることもできます）。
+* [!UICONTROL Experience Platform Launch] または [!UICONTROL Dynamic Tag Management] を使用しない場合は、手動で [mbox ライブラリを更新](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html?lang=en)します。
+* Adobe Analytics を [!DNL Adobe Target] のレポートソースとして使用するためのアクセスを要求します。処理中に同じサーバーコールで [!DNL Target] と [!DNL Analytics] のデータが結合され、これら 2 つのソリューション間で訪問者が接続されます。[Target のための Analytics の実装に関する説明](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)を参照してください。
 
    >[!IMPORTANT]
    >
@@ -155,9 +155,9 @@ Analytics を使用している場合は、地域データ収集（RDC）を使�
 
 ## 実装の検証 {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
-Experience Cloud ID サービスがサイトに正しく実装されていることを確認するには、次の手順を実行します。
+サイトでExperience CloudIDサービスが正しく実装されていることを確認するには、次の手順を実行します。
 
-1. Experience Cloud ID サービスに対するリクエストを確認できるように、サイトの Cookie を消去します（リクエストは最初の訪問時におこなわれ、その後は訪問者あたり約 1 週間に 1 回おこなわれます）。
+1. Experience CloudIDサービスに対するリクエストを確認できるように、サイトのCookieを消去します（リクエストは最初の訪問時におこなわれ、その後は訪問者ごとに1週間に1回おこなわれます）。
 1. パケットアナライザーまたは Web ブラウザーデバッガーのネットワークパネルを使用して、[!DNL dpm.demdex.net] へのリクエストを検索します。
 1. 応答に `d_mid` と値が含まれていることを確認します（例：`_setMarketingCloudFields({"d_mid":"4235...`）。
 1. Analytics リクエストに `mid` パラメーター（Experience Cloud ID）が含まれていることを確認します。猶予期間中（有効になっている場合）には、`aid` パラメーター（Analytics 訪問者 ID）も表示されます。
@@ -178,9 +178,9 @@ mbox リクエストの Experience Cloud ID：
 
 Experience Cloud ID サービスをデプロイすると、新しい訪問者はデータ収集サーバーから Analytics Experience Cloud ID を受け取らなくなります。サイトの一部で Experience Cloud ID サービスの実装が終わっていない場合は、訪問者がこれらのセクションを訪問したときに、Experience Cloud ID が認識されず、訪問者には従来の Analytics 訪問者 ID が割り当てられてしまいます。その結果、訪問者数が重複してカウントされたり、誤った属性が割り当てられたりするなどの問題が生じる可能性があります。
 
-例えば、サイトのサポートセクションを別の CMS で管理している場合は、そのセクション用に別の Analytics JavaScript ファイルを使用していることがあります。このサポートサイトに Experience Cloud ID サービスをデプロイする前にメインサイトで Experience Cloud ID をデプロイした場合は、新しい訪問者はサポートセクションの訪問時に従来の Analytics ID を受け取り、両方のサイトセクションへの訪問がそれぞれ異なる訪問としてレポートされます。
+例えば、サイトのサポートセクションを別の CMS で管理している場合は、そのセクション用に別の Analytics JavaScript ファイルを使用していることがあります。IDサービスをサポートサイトにデプロイする前にExperience CloudIDをメインサイトにデプロイした場合、新しい訪問者は、サポートセクションを訪問したときに従来のAnalytics IDを受け取ります。両方のサイトセクションにまたがる訪問は、異なる訪問としてレポートされます。
 
-複数の JavaScript ファイルまたはその他のテクノロジー（Flash など）を使用しているサイトに Experience Cloud ID サービスをデプロイすると、サイトのすべての部分で Experience Cloud ID サービスを同時に有効にする必要があるため、調整の問題が発生する可能性があります。猶予期間を設定することにより、新しい訪問者は ID サービスから引き続き Analytics 訪問者 ID を受け取るので、訪問者 ID サービスを使用するようにアップグレードされていないサイトのセクションでも、訪問者を一貫性のある形で識別できます。
+複数のJavaScriptファイルや他のテクノロジー(Flashなど)を使用しているサイトにExperience CloudIDサービスをデプロイすると、調整の問題が発生する可能性があります。 これらの問題は、サイトのすべての部分で同時にExperience CloudIDサービスを有効にする必要があるために発生します。 猶予期間を設定すると、新しい訪問者は引き続きIDサービスからAnalytics訪問者IDを受け取ります。訪問者は、訪問者IDサービスを使用するようにアップグレードされていないサイトのセクションで、一貫して識別できます。
 
 ## ユーザーと製品を管理する {#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF}
 
@@ -192,7 +192,7 @@ Experience Cloud ID サービスをデプロイすると、新しい訪問者は
 
 ### 顧客属性
 
-[!UICONTROL 顧客属性]グループに追加されたユーザーには、Experience Cloud インターフェイスの左側に「[!UICONTROL 顧客属性]」メニュー項目が表示されます。
+[!UICONTROL 顧客属性]グループに追加されたユーザーには、Experience Cloudの左側に[!UICONTROL 顧客属性]メニュー項目が表示されます。
 
 ## 属性とオーディエンスデータの共有を開始する {#section_960C06093623462E8EA247B3E97274A1}
 
@@ -200,7 +200,7 @@ Experience Cloud ID サービスをデプロイすると、新しい訪問者は
 
 ### [!UICONTROL People]／[!UICONTROL 顧客属性]
 
-エンタープライズ顧客データを顧客関係管理（CRM）データベースに取り込んでいる場合は、そのデータを Experience Cloud の顧客属性データソースにアップロードできます。アップロード後は、データを [!DNL Adobe Analytics] と [!DNL Adobe Target] で利用できます。
+エンタープライズ顧客データを顧客関係管理（CRM）データベースに取り込んでいる場合は、そのデータを Experience Cloud の顧客属性データソースにアップロードできます。アップロードが完了したら、[!DNL Adobe Analytics]と[!DNL Adobe Target]のデータを使用します。
 
 [顧客属性](../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)を参照してください。
 
@@ -212,9 +212,9 @@ Experience Cloud [!UICONTROL オーディエンス]は、オーディエンス�
 
 ## データストレージおよびプライバシー開示
 
-Adobe [!DNL Experience Cloud] 内のリアルタイムのオーディエンスプロファイルおよびその他のコアサービスを利用する場合、これらのサービスの使用は、データが保管されるデータセンター（および国）の選択に影響を与えることがあります。特に、Adobe [!DNL Experience Cloud] のコアサービスは Adobe Audience Manager を利用するので、[!UICONTROL People] サービス内で使用されるデータは米国の Audience Manager サーバー内に存在する必要があります。
+Adobe[!DNL Experience Cloud]内でリアルタイムのオーディエンスプロファイルおよびその他のコアサービスを使用する場合、これらのサービスの使用は、データが保管されるデータセンター（および国）の選択に影響を与える可能性があります。 特に、[!DNL Experience Cloud]はAudience Managerを使用するので、[!UICONTROL People]サービス内で使用されるデータは米国のAudience Managerサーバー内に存在する必要があります。
 
-[!UICONTROL People] サービスを通じて使用可能なコアサービスを利用する場合、他のアドビ製品から Audience Management に送信されるデータのタイプは、次のようになります。
+[!UICONTROL People]サービスを通じて提供されるサービスを使用する場合、他のAdobe製品からAudience Managementに送信されるデータのタイプは次のとおりです。
 
 * [!DNL Analytics] キーと値のペア（prop、eVar、リスト変数、その他）。デフォルトでは、ログの行には、IP の最終オクテット（IP アドレスが Adobe [!DNL Analytics] の IP の不明化設定で変更されていないと仮定）を含む IP アドレスが含まれます。
 * Audience Manager に設定されたルールに基づいて訪問者が資格を得る特徴とセグメント。
@@ -226,10 +226,10 @@ Adobe [!DNL Experience Cloud] 内のリアルタイムのオーディエンス�
 
 ### Cookie とオプトアウト
 
-リアルタイムのオーディエンスプロファイルの使用では、[!DNL Analytics] および [!DNL Target] に使用する Cookie に加えて、Audience Manager Cookie を利用します。
+リアルタイムのオーディエンスプロファイルの使用では、[!DNL Analytics]および[!DNL Target]に使用するCookieに加えて、Audience ManagerCookieを使用します。
 
 適切なオプトアウト機能を提供したい場合、サイトへの訪問者は、既存のオプトアウト処理に Audience Manager オプトアウトを追加する必要があります。
 
-手順については、[Adobe Experience Cloud ヘルプのアドビオプトアウトの導入](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/js/opt-out.html)を参照してください。
+手順については、[Adobe Experience Cloud ヘルプのアドビオプトアウトの導入](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/data-collection/opt-out.html?lang=en)を参照してください。
 
-クロスドメイントラッキングの有効化については、[データ収集 CNAME およびクロスドメイントラッキング](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html)を参照してください。
+クロスドメイントラッキングの有効化については、[データ収集 CNAME およびクロスドメイントラッキング](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en)を参照してください。
