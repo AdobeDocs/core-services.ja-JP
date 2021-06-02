@@ -9,11 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '1172'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '1169'
+ht-degree: 90%
 
 ---
 
@@ -37,7 +36,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この機能にアクセスするには、ユーザーが「顧客属性」製品プロファイル（顧客属性 - デフォルトのアクセス）に割り当てられている必要があります&#x200B;**[!UICONTROL 管理]**／**[!UICONTROL Admin Console]**／**[!UICONTROL グループ]**&#x200B;に移動します。[!UICONTROL 製品プロファイル]の 1 つとして&#x200B;*顧客属性*&#x200B;がある場合は、すぐに始めることができます。顧客属性グループに追加されたユーザーには、Experience Cloud インターフェイスの左側に「[!UICONTROL 顧客属性]」メニューが表示されます。
+>この機能にアクセスするには、ユーザーが「顧客属性」製品プロファイル（顧客属性 - デフォルトのアクセス）に割り当てられている必要があります&#x200B;**[!UICONTROL 管理]**／**[!UICONTROL Admin Console]**／**[!UICONTROL グループ]**&#x200B;に移動します。[!UICONTROL 製品プロファイル]の 1 つとして&#x200B;*顧客属性*&#x200B;がある場合は、すぐに始めることができます。Customer Attributesグループに追加されたユーザーには、Experience Cloudインターフェイスの左側に「[!UICONTROL Customer Attributes]」メニューが表示されます。
 >
 >また、顧客属性機能を使用するには、ユーザーがソリューションレベルのグループ（Analytics または [!DNL Target]）に属している必要があります。
 
@@ -51,7 +50,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >このプロセスの後半で、`.csv` をドラッグ＆ドロップしてファイルをアップロードします。[FTP を使用してアップロード](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)する場合は、`.csv` と同じ名前の `.fin` ファイルも必要です。
+   >このプロセスの後半で、`.csv`をドラッグ&amp;ドロップしてファイルをアップロードします。 [FTP を使用してアップロード](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)する場合は、`.csv` と同じ名前の `.fin` ファイルも必要です。
 
    企業顧客データファイルの例：
 
@@ -87,9 +86,9 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
 
       エイリアス ID は、追加の顧客 ID 値を設定する方法に対応しています。以下に例を示します。
 
-      * **Dynamic Tag Management：**&#x200B;エイリアス ID は、[Experience Cloud ID サービス](https://docs.adobe.com/content/help/ja-JP/dtm/using/tools/macid.html)ツールの「[!UICONTROL 顧客設定]」の「*統合コード*」の値に対応しています。
+      * **Dynamic Tag Management：**&#x200B;エイリアス ID は、[Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=en)ツールの「[!UICONTROL 顧客設定]」の「*統合コード*」の値に対応しています。
 
-      * **訪問者 API：**&#x200B;エイリアス ID は、各訪問者と関連付けることができる追加の[顧客 ID](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/authenticated-state.html) に対応しています。
+      * **訪問者 API：**&#x200B;エイリアス ID は、各訪問者と関連付けることができる追加の[顧客 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en) に対応しています。
 
          例：*crm_id* の場合：
 
@@ -97,13 +96,13 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
          "crm_id":"67312378756723456"
          ```
 
-      * **iOS：** エイリアス ID は [visitorSyncIdentifiers:identifiers](https://docs.adobe.com/content/help/ja-JP/mobile-services/ios/overview.html) の *&quot;idType&quot;* に対応しています。
+      * **iOS：** エイリアス ID は [visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=en) の *&quot;idType&quot;* に対応しています。
 
          以下に例を示します。
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android：** エイリアス ID は [syncIdentifiers](https://docs.adobe.com/content/help/ja-JP/mobile-services/android/overview.html) の *&quot;idType&quot;* に対応しています。
+      * **Android™:** エイリアスIDは、syncIdentifiers *の「* idType [」に対](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=en)応します。
 
          以下に例を示します。
 
@@ -127,7 +126,7 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
 
    * **[!UICONTROL Experience Cloud 訪問者 ID にエイリアスされた顧客提供 ID：]** Experience Cloud 訪問者 ID にエイリアスされた ID の数を表示します。
 
-   * **[!UICONTROL エイリアス数の多い顧客提供 ID：]**&#x200B;エイリアスされた Experience Cloud 訪問者 ID が 500 以上ある、顧客提供 ID の数を表示します。このような顧客提供 ID は、個人ではなくある種の共有ログインを表している可能性が最も高くなります。これらの ID に関連付けられた属性は、エイリアス数が 10,000 に達するまで、直近にエイリアスされた 500 個の Experience Cloud 訪問者 ID に振り分けられます。エイリアス数が 10,000 に達すると、顧客提供 ID は無効になり、関連付けられた属性の振り分けはおこなわれなくなります。
+   * **[!UICONTROL エイリアス数の多い顧客提供 ID：]**&#x200B;エイリアスされた Experience Cloud 訪問者 ID が 500 以上ある、顧客提供 ID の数を表示します。このような顧客提供 ID は、個人ではなくある種の共有ログインを表している可能性が最も高くなります。これらの ID に関連付けられた属性は、エイリアス数が 10,000 に達するまで、直近にエイリアスされた 500 個の Experience Cloud 訪問者 ID に振り分けられます。その後、顧客提供IDは無効化され、関連する属性の振り分けはおこなわれなくなります。
 
 
 
@@ -139,7 +138,7 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
 
 属性を削除するには、[（オプション）スキーマの更新（属性の削除）](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C)を参照してください。
 
-## （オプション）スキーマの更新（属性の削除） {#task_6568898BB7C44A42ABFB86532B89063C}
+## （オプション）スキーマの更新（属性の削除）  {#task_6568898BB7C44A42ABFB86532B89063C}
 
 スキーマの属性を削除したり属性を置換したりする方法。
 
@@ -168,7 +167,7 @@ Adobe Analytics などのソリューションで利用できるデータを使�
 
 セグメントを Experience Cloud に公開すると、Experience Cloud Audiences と Audience Manager で利用できるようになります。
 
-詳しくは、Analytics ヘルプの[顧客属性レポート](https://docs.adobe.com/content/help/ja-JP/core-services/interface/customer-attributes/attributes.html)を参照してください。
+詳しくは、Analytics ヘルプの[顧客属性レポート](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-customer-attributes.html?lang=en)を参照してください。
 
 ## Adobe Target での顧客属性の使用 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
@@ -176,4 +175,4 @@ Adobe Analytics などのソリューションで利用できるデータを使�
 
 ![](assets/crs-add-attribute-target.png)
 
-[!DNL Target] ヘルプの[新しいオーディエンスの作成](https://docs.adobe.com/content/help/ja-JP/target/using/audiences/create-audiences/audiences.html)を参照してください。
+[!DNL Target] ヘルプの[新しいオーディエンスの作成](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=en)を参照してください。
