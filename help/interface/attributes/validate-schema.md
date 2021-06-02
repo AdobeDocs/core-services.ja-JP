@@ -9,17 +9,16 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
 # スキーマの検証
 
-検証プロセスでは、アップロードした属性（文字列、整数、数値など）に表示名と説明をマッピングできます。これらの設定に基づいてスキーマが作成されます。このスキーマは、このデータソースに今後アップロードされるすべてのデータの検証に使用されます。このマッピングプロセスによって元のデータが変更されることはありません。
+検証プロセスでは、アップロードした属性（文字列、整数、数値など）に表示名と説明をマッピングできます。これらの設定に基づいてスキーマが作成されます。このスキーマは、このデータソースに今後アップロードされるすべてのデータの検証に使用されます。マッピングプロセスによって元のデータが変更されることはありません。
 
 >[!NOTE]
 >
@@ -47,9 +46,9 @@ ht-degree: 100%
 
    * **[!UICONTROL AVID（Analytics 訪問者 ID）：]** prop または eVar を使用して CID をアップロードする場合に表示されます。これらの ID が Experience Cloud に渡されている場合、入力した CID に関連付けられている訪問者 ID がここに表示されます。
 
-Experience Cloud に顧客属性ソースと FTP アカウントを作成したら、FTP を使用してデータをアップロードすることもできます。属性ソースごとに 1 つの FTP アカウントを作成できます。アップロードしたファイルは、そのアカウントのルートフォルダーに保存されます。データは .csv 形式にする必要があります。2 つ目の .fin ファイルは、アップロードが完了したことを示します。
+Experience Cloud に顧客属性ソースと FTP アカウントを作成したら、FTP を使用してデータをアップロードすることもできます。属性ソースごとに 1 つの FTP アカウントを作成できます。アップロードしたファイルは、そのアカウントのルートフォルダーに保存されます。データは`.csv`形式にする必要があります。2つ目の`.fin`ファイルは、アップロードが完了したことを示します。
 
-文字列、整数および数値に適用する名前は、[!DNL Analytics] 指標の作成に使用されます。詳しくは、[!DNL Analytics] ヘルプの[顧客属性レポート](https://docs.adobe.com/content/help/ja-JP/core-services/interface/customer-attributes/attributes.html)を参照してください。
+文字列、整数および数値に適用する名前は、[!DNL Analytics] 指標の作成に使用されます。詳しくは、[!DNL Analytics] ヘルプの[顧客属性レポート](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-customer-attributes.html?lang=en)を参照してください。
 
 * **[!UICONTROL 属性：]**&#x200B;アップロードされた `.csv` ファイルから読み出された属性データ。
 
@@ -61,6 +60,6 @@ Experience Cloud に顧客属性ソースと FTP アカウントを作成した�
 
    * **数値：**&#x200B;小数第 2 位まで取ることができます。
 
-* **[!UICONTROL 表示名：]**&#x200B;属性のわかりやすい名前。例えば、*顧客の年齢*&#x200B;を、*顧客となった年数*&#x200B;に変更できます。
+* **[!UICONTROL 表示名：]**&#x200B;属性のわかりやすい名前。例えば、属性&#x200B;*顧客の年齢*&#x200B;を&#x200B;*顧客の経過日*&#x200B;に変更できます。
 
 * **[!UICONTROL 説明：]**&#x200B;属性のわかりやすい説明。
