@@ -8,10 +8,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: b80ee031d4cfa7083a91140d7f5b0b78d21fb931
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
 source-wordcount: '910'
-ht-degree: 32%
+ht-degree: 31%
 
 ---
 
@@ -67,7 +67,8 @@ Experience Cloudにサインインすると、統合ヘッダーからすべて�
 
 ![](assets/platform-search.png)
 
-この検索は、Experience Platformユーザーのみが使用できます。
+>!![NOTE]
+グローバル検索は、Experience Platformユーザーのみが使用できます。
 
 ## アカウント設定の管理 {#preferences}
 
@@ -122,9 +123,9 @@ Experience Cloudの環境設定には、通知、購読、アラートが含ま�
 
 * [Adobe Mobile](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en)
 * [Experience Platform Co-op Graph](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=en)
-* [Exchange](https://www.adobeexchange.com/experiencecloud)
+* [Exchange](https://exchange.adobe.com/experiencecloud)
 * [Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
-* [Experience Platformデータ収集/起動](https://experienceleague.corp.adobe.com/docs/launch.html?lang=en)
+* [Experience Platformデータ収集/起動](https://experienceleague.adobe.com/docs/launch.html?lang=en)
 * [Experience Cloud デバッガー](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en)
 * [一般データ保護規則（GDPR）API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 * [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=en)
@@ -139,10 +140,10 @@ Experience Cloudの環境設定には、通知、購読、アラートが含ま�
 
 ## リリースノートおよび関連する Experience Cloud ヘルプ
 
-* [すべての Experience Cloud ソリューションの製品ドキュメント](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=en) - Experience Cloud のラーニングとサポートでヘルプを参照する
+* [すべての Experience Cloud ソリューションの製品ドキュメント](https://experienceleague.adobe.com/docs/home.html?lang=en) - Experience Cloud のラーニングとサポートでヘルプを参照する
 * [リリースノートと製品アップデート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en) - Experience Cloud の新機能を参照およびサブスクリプションでアップデートを入手する
-* [コアサービスの実装に関するチュートリアル](https://experienceleague.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en) - コアサービスに関するビデオやチュートリアルを参照する
+* [コアサービスの実装に関するチュートリアル](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en) - コアサービスに関するビデオやチュートリアルを参照する
 * [Experience League で提供されるエキスパートヘルプ](https://experienceleague.adobe.com/?lang=ja) - 専門家やコミュニティからガイド付きの指導を受ける
 * [教育とトレーニング](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK)  -Adobeと連携してAdobe製品を最大限に活用する
-* [エクスペリエンスブログ](https://blog.adobe.com/customer-experience/) - Experience Cloud のブログを読む
+* [エクスペリエンスブログ](https://blog.adobe.com/en/topics/digital-transformation.html) - Experience Cloud のブログを読む
 * [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support) - アドビカスタマーケアに問い合わせる
