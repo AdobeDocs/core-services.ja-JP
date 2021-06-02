@@ -9,18 +9,18 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 3d12a1b1-c952-4b42-815d-f64b31429cec
-source-git-commit: ef6196c3096ac7b26633eb4b1b9b2db26237732a
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 84%
+source-wordcount: '267'
+ht-degree: 59%
 
 ---
 
 # サードパーティ cookie のサポートに対する変更がお客様に及ぼす影響 {#how-changes-to-third-party-cookie-support-impacts-customers}
 
-様々なブラウザーでサードパーティ cookie のサポートが制限され始めている状況を受け、アドビでは Adobe Experience Cloud ソリューション全体にわたり、お客様のニーズとプライバシーのバランスを慎重に考慮した新しいソリューションの開発に取り組んでいます。
+サードパーティcookieのサポートは、ブラウザーをまたいで制限されるようになりました。 そのため、Adobeは、顧客の要件と、Experience Cloudのアプリケーション全体でプライバシーを保護する消費者の権利とのバランスを慎重にとる新しいソリューションに取り組んでいます。
 
-サードパーティ cookie のサポートが Adobe Experience Cloud ソリューションの現在の実装環境に及ぼす影響を以下に示します。
+サードパーティcookieのサポートがExperience Cloudアプリケーションの現在の実装に及ぼす影響を以下に示します。
 
 ## Adobe Analytics および Adobe Target
 
@@ -46,4 +46,4 @@ ht-degree: 84%
    * 現在、表示リマーケティングは全面的にサードパーティ cookie に依存しています。
    * また、各種広告ネットワークの cookie を同期に利用できるかどうかも表示に大きく影響します。
    * 全体的な影響は不明ですが、少なくとも、表示は他のサービスよりも大きく影響を受けます。
-   * 現在、アドビは社内だけでなく、広告パートナーとも協力して、広告配信に対する影響の範囲を完全に測定できるように取り組んでいます。
+   * Adobeは、広告配信に対する影響の範囲を完全に評価するために、社内およびアドビの広告パートナーと協力して作業を進めています。
