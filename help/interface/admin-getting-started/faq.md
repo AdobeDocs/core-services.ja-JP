@@ -9,11 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '780'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '776'
+ht-degree: 86%
 
 ---
 
@@ -23,7 +22,7 @@ Experience Cloud 管理者向けのブラウザーサポート、よくある質
 
 ## Experience Cloud でサポートされているブラウザーは何ですか。
 
-* Microsoft Edge（最新バージョン、および最新バージョンの 2 つ前までのバージョン）
+* Microsoft® Edge（最新バージョン、および最新バージョンの2つ前までのバージョン）
 * Google Chrome（最新バージョン、および最新バージョンの 2 つ前までのバージョン）
 * Mozilla Firefox（最新バージョン、および最新バージョンの 2 つ前までのバージョン）
 * Safari（最新バージョン、および最新バージョンの 2 つ前までのバージョン）
@@ -34,7 +33,7 @@ Experience Cloud 管理者向けのブラウザーサポート、よくある質
 コアサービスのプロビジョニングがまだおこなわれていない場合は、以下の方法について説明した[ソリューションのコアサービスへの対応](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)を参照してください。
 
 1. [Experience Cloud に加入して管理者になる](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [Experience Platform Launch を利用して Experience Cloud ID サービスを実装する。](https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html)
+1. [Experience Platform Launch を利用して Experience Cloud ID サービスを実装する。](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html?lang=en)
 1. [レポートスイートを Experience Cloud 組織にマッピングする](../core-services/core-services.md#concept_apg_zq2_rw)
 1. [（Analytics のみ）Analytics AppMeasurement コードを最新化する](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [（Adobe Target のみ）Adobe Target の実装を最新化する](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
@@ -42,7 +41,7 @@ Experience Cloud 管理者向けのブラウザーサポート、よくある質
 1. [ユーザーと製品を管理する](../core-services/core-services.md#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
 1. [コアサービスの使用を開始する](../core-services/core-services.md#section_960C06093623462E8EA247B3E97274A1)
 
-さらにサポートが必要な場合は、[アドビサポートにお問い合わせください](https://helpx.adobe.com/jp/marketing-cloud/contact-support.html)。
+さらにサポートが必要な場合は、[アドビサポートにお問い合わせください](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)。
 
 ## Experience Cloud にアクセスするには料金がかかりますか。
 
@@ -50,11 +49,11 @@ Experience Cloud 管理者向けのブラウザーサポート、よくある質
 
 ## Experience Cloud インターフェイスを利用してログインしなければならないのはなぜですか。
 
-Experience Cloud インターフェイスが提供する機能は、ビジネスに新しい価値をもたらします。また、これは将来的にはソリューションへの標準的なアクセス方法となり、個々のソリューションのログインに代わって使用されるようになります。今から Experience Cloud を利用したログインを使用すると、今後の移行をよりスムーズにおこなうことができます。
+Experience Cloud インターフェイスが提供する機能は、ビジネスに新しい価値をもたらします。また、これは、今後のソリューションへの標準的なアクセス方法であり、個々のソリューションのログインフローに代わるものです。 Experience Cloudを使用したログインは、後でスムーズな移行を実現します。
 
 ## 移行に関する問題を解決するにはどのようにしますか。
 
-[アドビサポートに問い合わせてください](https://helpx.adobe.com/jp/marketing-cloud/contact-support.html)。
+[アドビサポートに問い合わせてください](https://helpx.adobe.com/contact/enterprise-support.ec.html)。
 
 ## _プロビジョニング_&#x200B;の特長について教えてください。
 
@@ -67,17 +66,17 @@ Experience Cloud でのプロビジョニングには次のような利点があ
 
 ## ユーザーや製品プロファイルを管理するにはどうすればよいですか。
 
-* 詳しくは、[Admin Console ユーザーガイド](https://helpx.adobe.com/jp/enterprise/administering/user-guide.html)を参照してください。
+* 詳しくは、[Admin Console ユーザーガイド](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html)を参照してください。
 
-* ユーザーの使用権限と製品の管理は [Adobe Admin Console](https://adminconsole.adobe.com/enterprise)（製品リンク）でおこないます。
+* ユーザーの使用権限と製品の管理は、[Adobe Admin Console](https://adminconsole.adobe.com/enterprise)（製品リンク）でおこないます。
 
-* **重要：** Analytics 管理ツールから Admin Console へのユーザー ID の移行に関する Analytics 管理者向けの詳細情報については、[Admin Console での Analytics ユーザーの管理](https://docs.adobe.com/content/help/ja-JP/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)を参照してください。
+* **重要：** Analytics 管理ツールから Admin Console へのユーザー ID の移行に関する Analytics 管理者向けの詳細情報については、[Admin Console での Analytics ユーザーの管理](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en)を参照してください。
 
 ## ユーザーが Experience Cloud にログインできない場合、管理者はどのように対処しますか。
 
 Admin Console 管理者はユーザーにアクセス権を付与できます。ユーザーにはログイン手順が記載された電子メールが送信されます。
 
-会社としてのプロビジョニングが完了していることを確認するために、[アドビサポートへの問い合わせ](https://helpx.adobe.com/jp/marketing-cloud/contact-support.html)が必要になる場合もあります。
+会社としてのプロビジョニングが完了していることを確認するために、[アドビサポートへの問い合わせ](https://helpx.adobe.com/contact/enterprise-support.ec.html)が必要になる場合もあります。
 
 ## アカウントのリンクはどこで管理できますか。
 
@@ -99,13 +98,13 @@ Admin Console 管理者はユーザーにアクセス権を付与できます。
 
 組織 ID は、Experience Cloud ランディングページおよび[Admin Console ランディングページ](https://adminconsole.adobe.com)に表示されます。
 
-また、管理者が特定の組織の Admin Console（[https://adminconsole.adobe.com](https://adminconsole.adobe.com#) に移動）にログインすれば、その URL で IMS 組織 ID を確認できます。
+また、管理者が特定の組織のAdmin Console([https://adminconsole.adobe.com](https://adminconsole.adobe.com#)に移動)にログインすれば、そのURLでIMS組織IDを確認できます。
 
 例として、次の URL を見てみましょう。
 
 `https://adminconsole.adobe.com/C538193582390300A495CC9@AdobeOrg/overview`
 
-この場合は、次の部分が ID になります。
+IDは次のとおりです。
 
 `C538193582390300A495CC9@AdobeOrg`
 
@@ -115,7 +114,7 @@ Admin Console 管理者はユーザーにアクセス権を付与できます。
 
 ## Adobe ID とは何ですか。
 
-[ID タイプ](https://helpx.adobe.com/jp/enterprise/help/identity.html)を参照してください。
+[ID タイプ](https://helpx.adobe.com/jp/enterprise/using/identity.html)を参照してください。
 
 ## ユーザーに代わって管理者がソリューションアカウントをリンクできますか。
 
