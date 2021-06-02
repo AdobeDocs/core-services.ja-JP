@@ -7,9 +7,8 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 08713a68-8a24-4f18-9d77-c332f434eea6
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 100%
 
@@ -19,5 +18,5 @@ ht-degree: 100%
 
 スキーマの属性を削除して置換する方法。
 
-1. [!UICONTROL 顧客属性ソースを編集]ページで、**[!UICONTROL Target]** または **[!UICONTROL Analytics]** サブスクリプション（「[!UICONTROL サブスクリプションの設定]」の下）を削除します。
+1. [!UICONTROL 顧客属性ソースを編集]ページで、**[!UICONTROL Target]** または **[!UICONTROL Analytics]** サブスクリプション（「**[!UICONTROL サブスクリプションの設定]**」の下）を削除します。
 1. [更新されたフィールドを含む新しいデータファイルをアップロードします](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)。
