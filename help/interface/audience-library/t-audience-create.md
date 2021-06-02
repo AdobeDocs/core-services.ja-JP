@@ -9,17 +9,16 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '477'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '476'
+ht-degree: 94%
 
 ---
 
 # オーディエンスの作成
 
-Experience Cloud で属性ルールを使用して、オーディエンスを作成し、複合オーディエンスを定義する方法について説明します。
+ Experience Cloud で属性ルールを使用して、オーディエンスの作成や複合オーディエンスの定義をおこなう方法について説明します。
 
 この記事では、以下の方法について説明します。
 
@@ -52,7 +51,7 @@ Experience Cloud で属性ルールを使用して、オーディエンスを作
 1. [!UICONTROL 新しいオーディエンスを作成]ページで、タイトルと説明を指定します。
 1. 「[!UICONTROL ルール]」で、属性のソースを選択します。
 
-   * **[!UICONTROL Real-Time Analytics データ：]**（生データ）Real-Time Analytics イメージリクエストから得られる属性データであり、eVar やイベントなどのデータが含まれます。この属性ソースを使用する場合は、レポートスイートを選択し、含めるディメンションまたはイベントを定義する必要があります。このレポートスイートの選択により、レポートスイートで使用された変数構造が提供されます。
+   * **[!UICONTROL Real-Time Analyticsデータ：]** （または生データ）Real-Time Analyticsのイメージリクエストから得られる属性データで、eVarやイベントなどのデータが含まれます。この属性ソースを使用する場合は、レポートスイートを選択し、含めるディメンションまたはイベントを定義する必要があります。このレポートスイートの選択により、レポートスイートで使用された変数構造が提供されます。
    >[!NOTE]
    >
    >キャッシュの影響により、Analytics で削除したレポートスイートが Experience Cloud に反映されるまで 12 時間かかります。
