@@ -6,29 +6,28 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '435'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 95%
 
 ---
 
 # EU 一般データ保護規則に対する顧客属性のサポート
 
-このページでは、顧客属性が GDPR（EU 一般データ保護規則）サポートする方法について説明します。
+このページでは、[!UICONTROL 顧客属性]がEU一般データ保護規則(GDPR)をサポートする方法について説明します。
 
 >[!IMPORTANT]
 >
 >このドキュメントの内容は法的な助言ではなく、その代用になるものでもありません。GDPR に関するアドバイスについては、弁護士に相談してください。
 
-2018 年 5 月 25 日（PT）施行の法律である [EU 一般データ保護規則](https://www.adobe.com/jp/privacy/general-data-protection-regulation/what-is-gdpr.html)は、欧州連合（EU）圏内にあるすべての個人（データ主体）に対して、自身の個人データを制御する権利を付与します。また、国際ビジネスの規制環境も簡素化します。この法律は、データ管理者の事業拠点に関係なく、個人データが処理される時点において、EU 圏内のユーザーに製品やサービスを提供、それらのユーザーの代理で監視、またはそれらのユーザーの個人データを収集するすべての事業者（データ管理者）に適用されます。
+2018 年 5 月 25 日（PT）施行の法律である [EU 一般データ保護規則](https://business.adobe.com/privacy/general-data-protection-regulation.html)は、欧州連合（EU）圏内にあるすべての個人（データ主体）に対して、自身の個人データを制御する権利を付与します。また、国際ビジネスの規制環境も簡素化します。この法律は、データ管理者の事業拠点に関係なく、個人データが処理される時点において、EU 圏内のユーザーに製品やサービスを提供、それらのユーザーの代理で監視、またはそれらのユーザーの個人データを収集するすべての事業者（データ管理者）に適用されます。
 
 Adobe Experience Cloud は、顧客に代わって受信および保存する個人データのデータ処理者としての役割を果たします。データ管理者であるお客様は、Adobe Experience Cloud に処理および保管を委任する個人データを決めます。
 
 このドキュメントでは、[!UICONTROL 顧客属性]が、Adobe Experience Platform Privacy Service API と Privacy Service UI を使用して、データ主体の GDPR データアクセスおよび削除権をどのようにサポートするかについて説明します。
 
-GDPR がお客様のビジネスに与える意味の詳細は、「[GDPR とお客様のビジネス](https://www.adobe.com/jp/privacy/general-data-protection-regulation.html)」を参照してください。
+GDPR がお客様のビジネスに与える意味の詳細は、「[GDPR とお客様のビジネス](https://business.adobe.com/privacy/general-data-protection-regulation.html)」を参照してください。
 
 ## [!UICONTROL 顧客属性]のリクエストを送信するために必要な設定
 
