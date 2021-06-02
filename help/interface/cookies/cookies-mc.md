@@ -9,11 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '348'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '347'
+ht-degree: 96%
 
 ---
 
@@ -60,9 +59,9 @@ Adobe Experience Cloud で訪問者 ID を保存するために使用される c
 
 **cookie 名：AMCV_###@AdobeOrg**
 
-[Experience Platform ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)では、JavaScript を使用して現在の Web サイトのドメインの `AMCV_###@AdobeOrg` cookie に一意の訪問者 ID を保存します（`###` には `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.` などのランダムな文字列が入ります）。
+[Experience Platform ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)では、JavaScript を使用して現在の Web サイトのドメインの `AMCV_###@AdobeOrg` cookie に一意の訪問者 ID を保存します（`###` には `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.` などのランダムな文字列が入ります）。
 
-詳しくは、[Cookie と ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/cookies.html)を参照してください。
+詳しくは、[Cookie と ID サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=en)を参照してください。
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
@@ -93,8 +92,8 @@ Adobe Experience Cloud で訪問者 ID を保存するために使用される c
    <td colname="col2"> <p> この cookie の長さは状況に応じて変化しますが、通常は 200 バイト程度になります。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>値は追加されません。 Chrome では、デフォルトは Lax です。 </p> </td> 
-   <td colname="col2"> <p> この設定を含む cookie は、ブラウザーの URL に表示されたドメインが cookie のドメインに一致する場合にのみ送信されます。これは、Chrome の cookies の新しいデフォルト設定です。 </p> </td> 
+   <td colname="col1"> <p>値は追加されません。 Chromeのデフォルト値はLaxです。 </p> </td> 
+   <td colname="col2"> <p> この設定を持つ Cookie は、ブラウザーの URL に表示されるドメインが Cookie のドメインと一致する場合にのみ送信されます。これは、Chrome の cookies の新しいデフォルト設定です。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
