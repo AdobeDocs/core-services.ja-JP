@@ -9,11 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '269'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 90%
 
 ---
 
@@ -21,7 +20,7 @@ ht-degree: 100%
 
 ドラッグ＆ドロップを使用してアップロードしない場合は、FTP を利用して顧客属性データを Experience Cloud にアップロードできます。
 
-Experience Cloud に顧客属性ソースと FTP アカウントを作成したら、データをアップロードできます。属性ソースごとに 1 つの FTP アカウントを作成できます。アップロードしたファイルは、そのアカウントのルートフォルダーに保存されます。データは `.csv` 形式にする必要があります。2 つ目の `.fin` ファイルは、アップロードが完了したことを示します。
+Experience Cloud に顧客属性ソースと FTP アカウントを作成したら、データをアップロードできます。属性ソースごとに 1 つの FTP アカウントを作成できます。アップロードしたファイルは、そのアカウントのルートフォルダーに保存されます。データは`.csv`形式にする必要があります。2つ目の`.fin`ファイルは、アップロードが完了したことを示します。
 
 >[!IMPORTANT]
 >
@@ -30,7 +29,7 @@ Experience Cloud に顧客属性ソースと FTP アカウントを作成した�
 顧客属性 FTP サイトへのファイルアップロードは、FTP または SFTP を介して実行できます。
 
 * SFTP 接続をサポートしているクライアントが必要です。
-* [こちら](https://docs.adobe.com/help/ja-JP/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html)で説明しているように、ユーザー名／パスワードを使用して、またはパスワードを使用せずに、SFTP で接続できます。
+* [こちら](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=en)で説明しているように、ユーザー名／パスワードを使用して、またはパスワードを使用せずに、SFTP で接続できます。
 
 **FTP を使用してデータファイルをアップロードするには**
 
