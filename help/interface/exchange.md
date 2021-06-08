@@ -8,18 +8,17 @@ feature: '"顧客属性"'
 topic: 管理
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
-workflow-type: ht
-source-wordcount: '137'
-ht-degree: 100%
+source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+workflow-type: tm+mt
+source-wordcount: '136'
+ht-degree: 89%
 
 ---
 
 
 # Exchange Marketplace
 
-Exchange Marketplace にアクセスすると、各種の連携ツールの検索、参照、選択、支払いおよびダウンロードをおこなえます。Data Connectors、アドビのコア製品のカスタム設定、サードパーティアプリケーション、レポートなどが含まれます。
+Exchange Marketplace にアクセスすると、各種の連携ツールの検索、参照、選択、支払いおよびダウンロードをおこなえます。Data Connectors、Adobeのコア製品のカスタム設定、サードパーティアプリケーション、レポートなどが含まれます。
 
 **[!UICONTROL Experience Cloud]**／**[!UICONTROL ヘルプ]**／**[!UICONTROL Exchange]**
 
