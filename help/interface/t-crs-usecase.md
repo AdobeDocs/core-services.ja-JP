@@ -1,5 +1,5 @@
 ---
-description: 顧客属性ソースを作成して、Adobe Experience Cloud にアップロードする方法を説明します。
+description: 顧客属性ソースを作成してAdobe Experience Cloudにアップロードする方法を説明します。
 keywords: 顧客属性;コアサービス
 solution: Experience Cloud
 title: '顧客属性ソースの作成とデータファイルのアップロード '
@@ -9,16 +9,16 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 90%
+ht-degree: 76%
 
 ---
 
 # 顧客属性ソースの作成とデータファイルのアップロード
 
-顧客属性ソース（CSV および FIN ファイル）を作成してデータをアップロードします。準備できたら、データソースをアクティブ化できます。データソースがアクティブになったら、属性データを Analytics と Target で共有します。
+顧客属性ソース（CSVおよびFINファイル）を作成し、データをアップロードします。 準備できたら、データソースをアクティブ化できます。データソースがアクティブになったら、属性データを Analytics と Target で共有します。
 
 ## 顧客属性のワークフロー {#concept_BF0AF88E9EF841219ED4D10754CD7154}
 
@@ -57,7 +57,7 @@ ht-degree: 90%
    ![](assets/01_crs_usecase.png)
 
 1. 続行する場合は、ファイルをアップロードする前に[データファイル要件](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)の重要な情報を確認してください。
-1. 以下に説明するように、[顧客属性ソースを作成してデータファイルをアップロードします](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)。
+1. [以下に説明するように、顧客属性ソースを作成してデータをアップロードします](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)。
 
 ## 属性ソースの作成とデータファイルのアップロード {#task_09DAC0F2B76141E491721C1E679AABC8}
 
@@ -65,7 +65,7 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
 
 >[!IMPORTANT]
 >
->顧客属性ソースを作成、変更または削除する場合、ID が新しいデータソースと同期され始めるまで、最大 1 時間の遅延があります。顧客属性ソースを作成または変更するには、Audience Manager の管理者権限が必要です。Audience Manager カスタマーケアまたはコンサルティングに問い合わせて、管理者権限を取得してください。
+>顧客属性ソースを作成、変更または削除する場合、IDが新しいデータソースと同期され始めるまで、最大1時間の遅延があります。 顧客属性ソースを作成または変更するには、Audience Managerの管理者権限が必要です。 Audience Manager カスタマーケアまたはコンサルティングに問い合わせて、管理者権限を取得してください。
 
 1. [!DNL Experience Cloud] で、メニュー ![](assets/menu-icon.png) アイコンをクリックします。
 1. **[!DNL Experience Platform]** で、**[!UICONTROL People]**／**[!UICONTROL 顧客属性]**&#x200B;をクリックします。
@@ -82,7 +82,7 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
 
    * **[!UICONTROL 説明：]**（オプション）データ属性ソースの説明。
 
-   * **[!UICONTROL エイリアス ID：]**&#x200B;特定の CRM システムなど、顧客属性データのソースを表します。顧客属性ソースのコードで使用される一意の ID です。ID は一意で、スペースを含まないアルファベットおよびアンダースコアの組み合わせにしてください。Experience Cloud UI で顧客属性ソースのエイリアス ID フィールドに入力する値は、実装から（Dynamic Tag Management または Mobile SDK の JavaScript を使用して）渡されている値と一致させる必要があります。
+   * **[!UICONTROL エイリアスID:]** 特定のCRMシステムなど、顧客属性データのソースを表します。顧客属性ソースのコードで使用される一意の ID です。ID は一意で、スペースを含まないアルファベットおよびアンダースコアの組み合わせにしてください。Experience CloudUIで顧客属性ソースのエイリアスIDフィールドに入力する値は、（Dynamic Tag ManagementまたはMobile SDKのJavaScriptを使用して）実装から渡される値と一致させる必要があります。
 
       エイリアス ID は、追加の顧客 ID 値を設定する方法に対応しています。以下に例を示します。
 
@@ -169,7 +169,7 @@ Adobe Analytics などのソリューションで利用できるデータを使�
 
 ## Adobe Target での顧客属性の使用 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-[!DNL Target] では、オーディエンスの作成時に「[!UICONTROL 訪問者プロファイル]」セクションから顧客属性を選択できます。すべての顧客属性には、リストにプレフィックス`crs.`が付きます。 これらの属性を、必要に応じて他のデータ属性と組み合わせることで、オーディエンスを構築します。
+[!DNL Target]では、オーディエンスの作成時に「[!UICONTROL 訪問者プロファイル]」セクションから顧客属性を選択できます。 すべての顧客属性には、リストにプレフィックス`crs.`が付きます。 これらの属性を、必要に応じて他のデータ属性と組み合わせることで、オーディエンスを構築します。
 
 ![](assets/crs-add-attribute-target.png)
 
