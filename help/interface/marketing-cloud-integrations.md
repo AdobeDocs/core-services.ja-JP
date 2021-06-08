@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '1406'
-ht-degree: 53%
+ht-degree: 51%
 
 ---
 
@@ -74,7 +74,7 @@ Experience Cloud オーディエンスライブラリでオーディエンスを
 >
 >顧客属性は、現在は維持中の従来のサービスです。
 
-エンタープライズ顧客データを顧客関係管理（CRM）データベースに取り込んでいる場合は、そのデータを Experience Cloud の顧客属性データソースにアップロードできます。アップロードが完了したら、[!DNL Adobe Analytics]と[!DNL Adobe Target]のデータを使用します。
+エンタープライズ顧客データを顧客関係管理(CRM)データベースに取り込む場合は、そのデータをExperience Cloudの顧客属性データソースにアップロードできます。 アップロードが完了したら、[!DNL Adobe Analytics]と[!DNL Adobe Target]のデータを使用します。
 
 **適用可能なソリューションまたはサービス**
 
@@ -149,7 +149,7 @@ Adobe Target と Adobe Analytics およびその他の Experience Cloud ソリ�
 
 **適用可能なソリューションまたはサービス**
 
-* 顧客属性：顧客属性に対する Adobe Target の[サブスクリプション](subscription.md)の設定
+* 顧客属性：顧客属性に対して[subscription](subscription.md)を使用してAdobe Targetを設定する
 * Experience Cloud Audiences：[Experience Cloud Audience ライブラリ](audience-library.md)
 * Analytics：[Adobe Target のレポートソースとしての Adobe Analytics](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)
 * Dynamic Tag Management：[DTM を使用した Adobe Target の実装のベストプラクティス](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html?lang=en)
