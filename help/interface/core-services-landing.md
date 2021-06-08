@@ -7,14 +7,14 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 7732fe63bdaa71446e06b3045de1cc632a844a0d
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 69%
 
 ---
 
-# Experience Cloud について {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
+# Experience Cloud サービス {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
 Adobe Experience Cloud サービスには、[!UICONTROL People]（Audiences と顧客属性）、Experience Platform Launch、Mobile Services などがあります。また、Experience Cloud のユーザーおよび製品の管理に関するヘルプも参照できます。
 
