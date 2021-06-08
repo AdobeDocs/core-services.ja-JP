@@ -8,14 +8,14 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 31%
 
 ---
 
-# Experience Cloud中央インターフェイスコンポーネント
+# Experience Cloud の主要なインターフェイスコンポーネント
 
 [Experience Cloud ](https://experience.adobe.com) Adobeのデジタルマーケティングアプリケーション、製品、サービスの統合ファミリー。直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。
 
@@ -30,7 +30,7 @@ Experience Cloudのヘッダーから、次の操作を実行できます。
 
 ## Experience Cloud にサインインする
 
-ログインし、自分が適切な[組織](admin-getting-started/organizations.md)に属していることを確認します。
+ログインし、自分が適切な[組織](organizations.md)に属していることを確認します。
 
 1. [Adobe Experience Cloud](https://experience.adobe.com)に移動します。
 1. 「**[!UICONTROL Adobe IDでログイン]**」をクリックします。
@@ -38,7 +38,7 @@ Experience Cloudのヘッダーから、次の操作を実行できます。
 
    ![](assets/organizations-menu.png)
 
-   管理者が、自分が適切な[組織](admin-getting-started/organizations.md)に属していることを確認する際に役立ちます。
+   管理者が、自分が適切な[組織](organizations.md)に属していることを確認する際に役立ちます。
 
 ## Experience Cloud・アプリケーションへのアクセス {#navigation}
 
@@ -75,7 +75,7 @@ Experience Cloudにサインインすると、統合ヘッダーからすべて�
 Experience Cloudの環境設定には、通知、購読、アラートが含まれます。 アカウントの環境設定メニューで、次の操作を実行できます。
 
 * 暗いテーマを指定する（すべてのアプリケーションがこのテーマをサポートしているわけではありません）
-* [Organizations](admin-getting-started/organizations.md)を検索します。
+* [Organizations](organizations.md)を検索します。
 * ログアウト
 * アカウントの環境設定、通知および購読の設定
 
@@ -87,13 +87,13 @@ Experience Cloudの環境設定には、通知、購読、アラートが含ま�
 
 | 機能 | 説明 |
 |--- |--- |
-| デフォルトの[組織](admin-getting-started/organizations.md) | Experience Cloudの起動時に表示する組織を選択します。 |
+| デフォルトの[組織](organizations.md) | Experience Cloudの起動時に表示する組織を選択します。 |
 | [!UICONTROL 購読] | 購読する製品とカテゴリを選択します。 [!UICONTROL 通知]ポップオーバーと電子メール内の通知。 |
 | [!UICONTROL 優先度] | 優先度が高いと見なすカテゴリを選択します。 これらのカテゴリは、「高」タグでマークされ、アラートのような配信用に設定できます。 |
 | [!UICONTROL アラート] | ブラウザーにアラートを表示する通知を選択します。 アラートは、ウィンドウの右上隅に数秒間表示されます。 |
 | Emails | 通知電子メールを受信する頻度を指定します。 （未送信、即時、毎日または毎週）。 |
 
-## 通知とお知らせ
+## 通知とお知らせ {#notifications}
 
 **[!UICONTROL 通知]**&#x200B;をクリックすると、製品リリース、メンテナンス通知、共有項目、承認リクエストなど、関連性の高い実用的な更新に関する警告が表示されます。
 
@@ -103,19 +103,19 @@ Experience Cloudの環境設定には、通知、購読、アラートが含ま�
 
 このガイドでは、Admin Console の Experience Cloud ユーザーと製品管理に関するヘルプにアクセスし、プラットフォームサービスのソリューションを有効にする方法について説明します。オーディエンスライブラリ、顧客属性、Experience Cloud アセットなどのヘルプにアクセスすることもできます。
 
-* [[!UICONTROL オーディエンスライブラリ]](audience-library/audience-library.md)
-* [[!UICONTROL 顧客属性]](attributes/attributes.md)
-* [[!UICONTROL Triggers]](activation/triggers.md)
-* [Experience Cloud [!UICONTROL Assets]](experience-cloud-assets/experience-cloud-assets.md)
-* [Experience Cloud の cookie](cookies/cookies-privacy.md)
-* [ユーザーおよび製品の管理](admin-getting-started/admin-getting-started.md)（Admin Console）
-* [ソリューションのコアサービスへの対応](core-services/core-services.md)
-* [よくある質問](admin-getting-started/admin-getting-started.md)
-* [組織とアカウントのリンク](admin-getting-started/organizations.md)
+* [[!UICONTROL オーディエンスライブラリ]](audience-library.md)
+* [[!UICONTROL 顧客属性]](attributes.md)
+* [[!UICONTROL Triggers]](triggers.md)
+* [Experience Cloud [!UICONTROL Assets]](experience-cloud-assets.md)
+* [Experience Cloud の cookie](cookies-privacy.md)
+* [ユーザーおよび製品の管理](admin-getting-started.md)（Admin Console）
+* [ソリューションのコアサービスへの対応](core-services.md)
+* [よくある質問](admin-getting-started.md)
+* [組織とアカウントのリンク](organizations.md)
 * [統合](marketing-cloud-integrations.md)
 * [Adobe Target と Experience Cloud の統合](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)
 * [Experience Cloud のプライバシーとセキュリティの概要](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
-* [DNS プリフェッチ](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
+* [DNS プリフェッチ](admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
 ## ガイド
 
