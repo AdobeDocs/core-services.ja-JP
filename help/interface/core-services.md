@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: c714a5549bc5377c584721404b11a394625c519f
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '2334'
-ht-degree: 72%
+ht-degree: 70%
 
 ---
 
@@ -198,7 +198,7 @@ Experience Cloud ID サービスをデプロイすると、新しい訪問者は
 
 ### [!UICONTROL People]／[!UICONTROL 顧客属性]
 
-エンタープライズ顧客データを顧客関係管理（CRM）データベースに取り込んでいる場合は、そのデータを Experience Cloud の顧客属性データソースにアップロードできます。アップロードが完了したら、[!DNL Adobe Analytics]と[!DNL Adobe Target]のデータを使用します。
+エンタープライズ顧客データを顧客関係管理(CRM)データベースに取り込む場合は、そのデータをExperience Cloudの顧客属性データソースにアップロードできます。 アップロードが完了したら、[!DNL Adobe Analytics]と[!DNL Adobe Target]のデータを使用します。
 
 [顧客属性](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)を参照してください。
 
