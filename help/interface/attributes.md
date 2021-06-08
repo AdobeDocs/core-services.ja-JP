@@ -1,16 +1,16 @@
 ---
 title: 顧客属性の使用方法
-description: Adobe Experience Cloud の顧客属性サービスについて説明します。 Adobe Analytics と Adobe Target で使用する顧客属性データのアップロード方法について説明します。
+description: Adobe Experience Cloud の顧客属性サービスについて説明します。 Adobe AnalyticsとAdobe Targetで使用する顧客属性データをアップロードする方法を紹介します。
 solution: Experience Cloud
 feature: 顧客属性
 role: Administrator
 topic: 管理
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 85%
+ht-degree: 73%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 85%
 >
 >[!UICONTROL 顧客属] 性は、従来のサービスで、現在は維持中です。
 
-[!UICONTROL  Experience Cloud で顧客属性を使用すると、顧客関係管理（CRM）データベースから取り込んだ大規模法人データをアップロードできます。]データを Experience Cloud の顧客属性データソースにアップロードすると、そのデータを Adobe Analytics および Adobe Target で使用できます。
+[!UICONTROL  Experience Cloud で顧客属性を使用すると、顧客関係管理（CRM）データベースから取り込んだ大規模法人データをアップロードできます。]データをExperience Cloudの顧客属性データソースにアップロードし、Adobe AnalyticsとAdobe Targetで使用できます。
 
 この機能を探すには、**[!DNL Experience Platform]**／**[!UICONTROL ユーザー]**／**[!UICONTROL 顧客属性]**&#x200B;に移動します。
 
@@ -48,7 +48,7 @@ ht-degree: 85%
 
 ![](assets/01_crs_usecase.png)
 
-作成したデータファイルは、**[!UICONTROL Experience Cloud]**／**[!UICONTROL 顧客属性]**&#x200B;を選択して作成する顧客属性ソースにアップロードできます。
+作成したデータファイルは、**[!UICONTROL Experience Cloud]** > **[!UICONTROL 顧客属性]**&#x200B;で作成する顧客属性ソースにアップロードできます。
 
 このワークフローについては、[顧客属性データのアップロード](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)を参照してください。
 
