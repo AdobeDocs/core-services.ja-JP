@@ -6,7 +6,7 @@ feature: 「中央インターフェイスコンポーネント」
 topic: 管理
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
+source-git-commit: b6282dfdfc37e2767802d4ce50bdd734141b521e
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 7%
@@ -23,7 +23,7 @@ Experience Cloudの中央インターフェイスコンポーネントには、�
 
 ## Experience Cloud にサインインする
 
-ログインし、自分が適切な[組織](admin-getting-started/organizations.md)に属していることを確認します。
+ログインし、自分が適切な[組織](organizations.md)に属していることを確認します。
 
 1. [Adobe Experience Cloud](https://experience.adobe.com)に移動します。
 1. 「**[!UICONTROL Adobe IDでログイン]**」をクリックします。
@@ -31,7 +31,7 @@ Experience Cloudの中央インターフェイスコンポーネントには、�
 
    ![](assets/organizations-menu.png)
 
-   管理者が、自分が適切な[組織](admin-getting-started/organizations.md)に属していることを確認する際に役立ちます。
+   管理者が、自分が適切な[組織](organizations.md)に属していることを確認する際に役立ちます。
 
 ## Experience Cloud・アプリケーションへのアクセス {#navigation}
 
@@ -59,7 +59,7 @@ Experience Cloud検索では、[Experience League](https://experienceleague.adob
 アカウントの環境設定メニューで、次の操作を実行できます。
 
 * 暗いテーマを指定する（すべてのアプリケーションがこのテーマをサポートしているわけではありません）
-* [Organizations](admin-getting-started/organizations.md)を検索します。
+* [Organizations](organizations.md)を検索します。
 * ログアウト
 * アカウント[の環境設定、通知、サブスクリプション](#preferences)を設定します。
 
@@ -75,7 +75,7 @@ Experience Cloudの環境設定には、通知、購読、アラートが含ま�
 
 | 機能 | 説明 |
 |--- |--- |
-| デフォルトの[組織](admin-getting-started/organizations.md) | Experience Cloudの起動時に表示する組織を選択します。 |
+| デフォルトの[組織](organizations.md) | Experience Cloudの起動時に表示する組織を選択します。 |
 | [!UICONTROL 購読] | 購読する製品とカテゴリを選択します。 [!UICONTROL 通知]ポップオーバーと電子メール内の通知。 |
 | [!UICONTROL 優先度] | 優先度が高いと見なすカテゴリを選択します。 これらのカテゴリは、「高」タグでマークされ、アラートのような配信用に設定できます。 |
 | [!UICONTROL アラート] | ブラウザーにアラートを表示する通知を選択します。 アラートは、ウィンドウの右上隅に数秒間表示されます。 |
