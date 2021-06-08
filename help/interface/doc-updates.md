@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 9a1dea42b5ae6ab4ea822d56c14cdb330bb8ef95
+source-git-commit: 7732fe63bdaa71446e06b3045de1cc632a844a0d
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 93%
+source-wordcount: '247'
+ht-degree: 89%
 
 ---
 
@@ -20,40 +20,44 @@ ht-degree: 93%
 
 Experience Cloud 製品ドキュメントの更新に関する情報です。
 
+**更新日：6/4/2021**
+
+ガイドの構造と目次を再構成しました。
+
 **更新日：6/1/2021**
 
 [ランディングページ](experience-cloud.md)を更新し、Experience Cloud、グローバル検索、環境設定および通知へのアクセスに関する新しいヘルプを追加しました。
 
 **更新：2020 年 8 月 19 日（PT）**
 
-[Experience Cloud ユーザーの詳細の表示（管理ツール）](admin-getting-started/admin-tool-experience-cloud.md)をポリシー情報に更新しました。
+[Experience Cloud ユーザーの詳細の表示（管理ツール）](admin-tool-experience-cloud.md)をポリシー情報に更新しました。
 
 **更新：2020 年 5 月 19 日（PT）**
 
-オファー管理に関するドキュメントが廃止されました。
+非推奨（廃止予定）のオファー管理ドキュメントです。
 
 **更新：2020 年 5 月 15 日（PT）**
 
 次のページが追加されました：
 
-* [EU 一般データ保護規則のサポート](attributes/gdpr.md)
-* [カリフォルニア消費者プライバシー法のサポート](attributes/ccpa.md)
+* [EU 一般データ保護規則のサポート](gdpr.md)
+* [カリフォルニア消費者プライバシー法のサポート](ccpa.md)
 
 **更新：2020 年 3 月 10 日（PT）**
 
-ファーストパーティ cookie の節の[ホスト名転送の検証](cookies/cookies-first-party.md#validate)を更新しました。
+ファーストパーティ cookie の節の[ホスト名転送の検証](cookies-first-party.md#validate)を更新しました。
 
 **更新：2020 年 2 月 20 日（PT）**
 
-[Experience Cloud ユーザーの詳細の表示（管理ツール）](admin-getting-started/admin-tool-experience-cloud.md)を追加しました。
+[Experience Cloud ユーザーの詳細の表示（管理ツール）](admin-tool-experience-cloud.md)を追加しました。
 
 **更新：2018 年 9 月 5 日（PT）**
 
-顧客属性の削除方法を追加しました。[（オプション）スキーマの更新（属性の削除）](attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C)を参照してください。
+顧客属性の削除方法を追加しました。[（オプション）スキーマの更新（属性の削除）](t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C)を参照してください。
 
 **更新：2018 年 6 月 8 日（PT）**
 
-複数のファイルのアップロードについての情報を用いて、[顧客属性のデータファイルとデータソースについて](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)を更新しました。
+複数のファイルのアップロードについての情報を用いて、[顧客属性のデータファイルとデータソースについて](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)を更新しました。
 
 **更新：2018 年 6 月 6 日（PT）**
 
@@ -69,15 +73,15 @@ Experience Cloud 製品ドキュメントの更新に関する情報です。
 
 **更新：2017 年 3 月 15 日（PT）**
 
-「[オーディエンスの作成](audience-library/t-audience-create.md#task_37F407F58BF9459493BB8E968CDFE737)」の生の Analytics データの定義を更新しました。
+「[オーディエンスの作成](t-audience-create.md#task_37F407F58BF9459493BB8E968CDFE737)」の生の Analytics データの定義を更新しました。
 
 **更新：2017 年 2 月 23 日（PT）**
 
-[Experience Cloud Triggers](activation/triggers.md#concept_887B30241B3E4DB0A2553B2996E2D4FB) を追加しました。
+[Experience Cloud Triggers](triggers.md#concept_887B30241B3E4DB0A2553B2996E2D4FB) を追加しました。
 
 **更新：2017 年 2 月 1 日（PT）**
 
-[コアサービスを有効化](core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)するための手順として、[レポートスイートマッピング](core-services/core-services.md#concept_apg_zq2_rw)を追加しました。
+[コアサービスを有効化](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)するための手順として、[レポートスイートマッピング](core-services.md#concept_apg_zq2_rw)を追加しました。
 
 **更新：2018 年 5 月 9 日（PT）**
 
@@ -85,22 +89,22 @@ Experience Cloud 製品ドキュメントの更新に関する情報です。
 
 **更新：2018 年 2 月 11 日（PT）**
 
-「[Experience Cloud Assets](experience-cloud-assets/experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0)」を追加しました。
+「[Experience Cloud Assets](experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0)」を追加しました。
 
 **更新：2015 年 3 月 2 日（PT）**
 
-「[ソリューションのコアサービスへの対応](core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)」を追加しました。
+「[ソリューションのコアサービスへの対応](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)」を追加しました。
 
 **更新：2015 年 1 月 15 日（PT）**
 
-「Experience Cloud のユーザーは、Creative Cloud とフォルダーを共有して、アセットとコメントを相互に同期できるようになりました。」という記述を追加しました。[アセットの共有](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68)を参照してください。
+「Experience Cloud のユーザーは、Creative Cloud とフォルダーを共有して、アセットとコメントを相互に同期できるようになりました。」という記述を追加しました。[アセットの共有](creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68)を参照してください。
 
 **更新：2014 年 7 月 17 日（PT）**
 
-管理者向け [Experience Cloud FAQ](admin-getting-started/faq.md#concept_13219B4E51784577B6FF78AAA203DE91) を追加しました。
+管理者向け [Experience Cloud FAQ](faq.md#concept_13219B4E51784577B6FF78AAA203DE91) を追加しました。
 
 **更新：2014 年 5 月 22 日（PT）**
 
 Audiences 用のドキュメントが追加されました。
 
-[Audiences](audience-library/audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7) を参照してください。
+[Audiences](audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7) を参照してください。
