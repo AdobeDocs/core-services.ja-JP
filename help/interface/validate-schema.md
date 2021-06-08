@@ -1,5 +1,5 @@
 ---
-description: Adobe Experience Cloud で顧客属性スキーマを検証する方法を説明します。
+description: Adobe Experience Cloudで顧客属性スキーマを検証する方法について説明します。
 keywords: 顧客属性;Experience Cloud サービス
 solution: Experience Cloud
 title: '顧客属性スキーマの検証方法 '
@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 91%
+ht-degree: 82%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 91%
 
    * **[!UICONTROL AVID（Analytics 訪問者 ID）：]** prop または eVar を使用して CID をアップロードする場合に表示されます。これらの ID が Experience Cloud に渡されている場合、入力した CID に関連付けられている訪問者 ID がここに表示されます。
 
-Experience Cloud に顧客属性ソースと FTP アカウントを作成したら、FTP を使用してデータをアップロードすることもできます。属性ソースごとに 1 つの FTP アカウントを作成できます。アップロードしたファイルは、そのアカウントのルートフォルダーに保存されます。データは`.csv`形式にする必要があります。2つ目の`.fin`ファイルは、アップロードが完了したことを示します。
+Experience Cloudで顧客属性ソースとFTPアカウントを作成したら、FTPを使用してデータをアップロードすることもできます。 属性ソースごとに 1 つの FTP アカウントを作成できます。アップロードしたファイルは、そのアカウントのルートフォルダーに保存されます。データは`.csv`形式にする必要があります。2つ目の`.fin`ファイルは、アップロードが完了したことを示します。
 
 文字列、整数および数値に適用する名前は、[!DNL Analytics] 指標の作成に使用されます。
 
