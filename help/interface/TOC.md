@@ -4,10 +4,10 @@ user-guide-title: 'Experience Cloud の主要なインターフェイスコン�
 breadcrumb-title: Experience Cloud の主要なインターフェイスコンポーネント
 user-guide-description: Experience Cloudのインターフェイス、環境設定の設定、ヘルプとビジネスオブジェクトの検索について説明します。 ユーザーと製品の管理、顧客属性、オーディエンスライブラリ、cookie、Experience Cloudアセットに関するヘルプを取得します。
 index: true
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 62c49148ec5dfc945f946cea9a5948a8be781111
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 81%
+source-wordcount: '344'
+ht-degree: 78%
 
 ---
 
@@ -70,9 +70,9 @@ ht-degree: 81%
       + [ブラウザー cookie のプライバシー設定の有効化](browser-cookie-settings.md)
       + [サードパーティ cookie のサポートに対する変更がお客様に及ぼす影響 ](cookies-thirdparty.md)
 + Experience CloudUI {#release-notes}のリリースノート
-   + [Experience Cloud の新機能](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)
-   + [累積リリースノート](release-notes.md)
+   + [中央のインターフェイスコンポーネントのリリースノート](release-notes.md)
+   + [すべてのExperience Cloudのリリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)
 + その他のリソース {#more-resources}
    + [フォーラム](https://experienceleaguecommunities.adobe.com/)
    + [用語](terms.md)
-   + [ドキュメントの更新](doc-updates.md)
+   + [ドキュメントのアップデート](doc-updates.md)
