@@ -7,9 +7,9 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 62c49148ec5dfc945f946cea9a5948a8be781111
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '433'
 ht-degree: 69%
 
 ---
@@ -37,3 +37,5 @@ Experience Cloud のこれらのサービスにアクセスするには、**[!UI
 | [ロケーションサービス](https://experienceleague.adobe.com/docs/places/using/home.html?lang=en) | Adobe[!UICONTROL Experience Platformロケーションサービス]は、地域ロケーションサービスです。 場所を認識するモバイルアプリで、柔軟な目標地点(POI)データベースを備えた豊富で使いやすいSDKインターフェイスを使用して、場所のコンテキストを理解できます。 |
 | [Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en) | Adobe Mobile Services により、モバイルアプリ用の各ソリューションが Experience Cloud 上で統合されます。これにより、アプリの利用状況を把握し、改善につなげることができます。 |
 | People | Experience Cloud ソリューションにあるアドビのデータとアドビ以外のデータを結び付けることで、顧客一人ひとりの包括ビューを作成できます。様々なタッチポイントにわたるやり取りから、ユーザーにとって最も重要なことを見つけ出します。一般的でないデバイスから訪問した場合に、常連顧客を認識します。さらに、ターゲットを絞ったマーケティング活動のために、ユーザーを Audiences にグループ分けします。<br>[オーディエンス](audience-library.md)  — 様々なタイプの顧客をAudiencesに分類した後、複数のオーディエンスアプリをまたいでExperience Cloudを共有します。<br>[顧客属性](attributes.md)  — 収集した顧客情報をExperience Cloud外で連結できる機能強化。 |
+
+{style=&quot;table-layout:auto&quot;}
