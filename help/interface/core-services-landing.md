@@ -7,35 +7,38 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 62c49148ec5dfc945f946cea9a5948a8be781111
+source-git-commit: 6a9a3068d2831be28f4cbe859d93eb1ad580897f
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 69%
+source-wordcount: '372'
+ht-degree: 38%
 
 ---
 
 # Experience Cloud サービス {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-Adobe Experience Cloud サービスには、[!UICONTROL People]（Audiences と顧客属性）、Experience Platform Launch、Mobile Services などがあります。また、Experience Cloud のユーザーおよび製品の管理に関するヘルプも参照できます。
+このドキュメントは、Experience Cloud統合ヘッダーの機能([!UICONTROL People]サービス（Audiencesと顧客属性）、Experience Cloudのユーザーと製品の管理、cookie、アカウント設定、通知など)に適用されます。
 
-Experience Cloud のこれらのサービスにアクセスするには、**[!UICONTROL アプリケーションセレクター]** ![](assets/menu-icon.png) をクリックします。
+Experience Cloudでこれらのサービスにアクセスするには、**[!UICONTROL アプリケーションセレクター]**
+![](assets/menu-icon.png).
 
 ![](assets/platform-core-services.png)
-
->[!NOTE]
->
->Experience Platform に関する製品ドキュメントは[こちら](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=en)を参照してください。[!UICONTROL Experience Platform]開発者向けの技術ドキュメントは、[Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html)で参照できます。
 
 このヘルプでは、次の製品およびサービスについて説明します。
 
 | コアサービス | 説明 |
 |--- |--- |
-| [Activation](activation.md) | タグ管理システム（Experience Platform Launch および Dynamic Tag Management）<br>Triggers を使用すると、Adobe Campaign で Adobe Analytics のインサイトに基づいてリアルタイムでアクションを実行できます。 |
-| [Assets](experience-cloud-assets.md) | すべてのデジタルアセットの保存、同期、共有を一元的に容易におこなうことで、時間を節約して、より一貫したカスタマーエクスペリエンスを提供します。 |
-| [Experience Platform Launch/データ収集](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en) | [!UICONTROL Experience Platform Launch] は、サイトやアプリの次世代のデータ収集およびテクノロジー実装です。[!UICONTROL Experience Platform] Launch は、顧客体験の実現に必要なすべての分析、マーケティングおよび広告のタグをデプロイおよび管理するためのシンプルな手段を提供します。 |
-| [Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=ja) | イベントやデータソースに保存されたコンテキストデータを使用して、リアルタイムオーケストレーションの使用例を構築します。 [!UICONTROL Journey Orchestration] は、Experience Platform と統合されたアプリケーションサービスです。 |
+| [中央のインターフェイスコンポーネント](experience-cloud.md) | アカウントの設定にアクセスし、製品のヘルプを検索して、アプリケーションとサービスにアクセスします。 |
+| [Experience Cloud サービスの実装を有効にする](core-services.md) | 既存のお客様は、ソリューションの実装を最新化し、Experience Cloudを実装できます。 これにより、Adobe Analytics、Audience Manager、Adobe Target全体で顧客属性とオーディエンス機能を使用できます。 |
+| [People — オーディエンスライブラリ](audience-library.md) | オーディエンスは、訪問者の集合（訪問者 ID のリスト）です。Adobeのオーディエンスライブラリを使用すると、訪問者データからオーディエンスセグメントへの変換を管理できます。 As |
+| [People — 顧客属性](attributes.md) | イベントやデータソースに保存されたコンテキストデータを使用して、リアルタイムオーケストレーションの使用例を構築します。 [!UICONTROL Journey Orchestration] は、Experience Platform と統合されたアプリケーションサービスです。 |
 | [ロケーションサービス](https://experienceleague.adobe.com/docs/places/using/home.html?lang=en) | Adobe[!UICONTROL Experience Platformロケーションサービス]は、地域ロケーションサービスです。 場所を認識するモバイルアプリで、柔軟な目標地点(POI)データベースを備えた豊富で使いやすいSDKインターフェイスを使用して、場所のコンテキストを理解できます。 |
-| [Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en) | Adobe Mobile Services により、モバイルアプリ用の各ソリューションが Experience Cloud 上で統合されます。これにより、アプリの利用状況を把握し、改善につなげることができます。 |
-| People | Experience Cloud ソリューションにあるアドビのデータとアドビ以外のデータを結び付けることで、顧客一人ひとりの包括ビューを作成できます。様々なタッチポイントにわたるやり取りから、ユーザーにとって最も重要なことを見つけ出します。一般的でないデバイスから訪問した場合に、常連顧客を認識します。さらに、ターゲットを絞ったマーケティング活動のために、ユーザーを Audiences にグループ分けします。<br>[オーディエンス](audience-library.md)  — 様々なタイプの顧客をAudiencesに分類した後、複数のオーディエンスアプリをまたいでExperience Cloudを共有します。<br>[顧客属性](attributes.md)  — 収集した顧客情報をExperience Cloud外で連結できる機能強化。 |
+| [Activation](activation.md) | Activationには、Experience Platformデータ収集(Launch)およびExperience Cloudトリガーと呼ばれる最新のタグ管理製品が含まれています。 |
+| [Assets](experience-cloud-assets.md) | Experience Cloud Assets は、複数のソリューション間で共有できるマーケティング用アセットの単一の一元的なリポジトリを提供します。（アセットは従来のサービスで、現在は維持中です）。 |
+| [管理](admin-getting-started.md) | Admin Console へのログイン、Experience Cloud ユーザーの権限および製品プロファイルの管理、ブラウザーのサポートについて説明します。 |
+| [Cookie](cookies-privacy.md) | アドビでは、お客様のプライバシーおよびデータセキュリティを最優先の重要事項と認識して、Adobeは、複数のプライバシー組織に参加し、プライバシー規制や自主規制との協力関係にあります。 |
 
 {style=&quot;table-layout:auto&quot;}
+
+>[!NOTE]
+>
+>Experience Platform に関する製品ドキュメントは[こちら](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=en)を参照してください。[!UICONTROL Experience Platform]開発者向けの技術ドキュメントは、[Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html)で参照できます。
