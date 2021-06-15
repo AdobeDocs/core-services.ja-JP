@@ -11,16 +11,16 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: d57f168b-6beb-48f2-b0d2-92593ceee62e
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: 918c72e675be85f1309dc697a668771b97bef324
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 60%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Activation
 
-Activation には、Experience Platform[!UICONTROL データ収集]([!UICONTROL Launch])およびExperience Cloud[!UICONTROL トリガー]と呼ばれる最新のタグ管理製品が含まれています。
+Activationには、Experience Platform[!UICONTROL データ収集]([!UICONTROL Launch])およびExperience Cloud[!UICONTROL トリガー]という最新のタグ管理製品が含まれます。
 
 ## Experience Platform Launch {#section_05DF74E9EAC94518A155095C65F54568}
 
@@ -41,15 +41,15 @@ To launch Dynamic Tag Management, click **[!UICONTROL Activation]** and send a r
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html" format="html" scope="external"> Deploy Adobe Analytics </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html" format="html" scope="external"> Deploy Adobe Analytics </a> </p> </td> 
    <td colname="col2"> <p> Step-by-step instructions to add Adobe Analytics using Adobe Dynamic Tag Management </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Implementation Guides for Experience Cloud ID Service </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Implementation Guides for Experience Cloud ID Service </a> </p> </td> 
    <td colname="col2"> <p>The Experience Cloud ID Service enables core functionality across Experience Cloud solutions (including Customer Attributes, audience sharing, and triggers). Adobe strongly recommends implementing the ID service and take advantage of these features. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html" format="https" scope="external"> Dynamic Tag Management Product Documentation </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/content/help/en/dtm/using/dtm-home.html" format="https" scope="external"> Dynamic Tag Management Product Documentation </a> </p> </td> 
    <td colname="col2"> <p>Learn more about deploying Experience Cloud solutions with Dynamic Tag Management. </p> </td>
   </tr> 
  </tbody> 
