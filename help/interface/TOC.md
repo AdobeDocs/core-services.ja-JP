@@ -7,7 +7,7 @@ index: true
 source-git-commit: 62c49148ec5dfc945f946cea9a5948a8be781111
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 78%
+ht-degree: 80%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 78%
       + [顧客属性のプライバシーに関する考慮事項](privacy-mac.md)
    + Experience Cloud Activation {#activation}
       + [Activation の概要](activation.md)
-      + [Experience Platform Launch ユーザーガイド](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en)
+      + [Experience Platform Launch ユーザーガイド](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ja)
       + [Triggers](triggers.md)
    + Experience Cloud Assets {#assets}
       + [Experience Cloud Assets の概要](experience-cloud-assets.md)
@@ -64,9 +64,9 @@ ht-degree: 78%
       + [[!UICONTROL Data Workbench] の cookie](cookies-insight.md)
       + [Experience Cloud の cookie](cookies-mc.md)
       + [Advertising Cloud の cookie](cookies-advertising-cloud.md)
-      + [[!DNL Scene7] Cookie](cookies-s7.md)
-      + [[!DNL Search and Promote] Cookie](cookies-snp.md)
-      + [[!DNL Target] Cookie](cookies-target.md)
+      + [[!DNL Scene7] の cookie](cookies-s7.md)
+      + [[!DNL Search and Promote] の cookie](cookies-snp.md)
+      + [[!DNL Target] の cookie](cookies-target.md)
       + [ブラウザー cookie のプライバシー設定の有効化](browser-cookie-settings.md)
       + [サードパーティ cookie のサポートに対する変更がお客様に及ぼす影響 ](cookies-thirdparty.md)
 + Experience CloudUI {#release-notes}のリリースノート
@@ -75,4 +75,4 @@ ht-degree: 78%
 + その他のリソース {#more-resources}
    + [フォーラム](https://experienceleaguecommunities.adobe.com/)
    + [用語](terms.md)
-   + [ドキュメントのアップデート](doc-updates.md)
+   + [ドキュメントの更新](doc-updates.md)
