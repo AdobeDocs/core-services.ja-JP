@@ -9,9 +9,9 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '414'
 ht-degree: 83%
 
 ---
@@ -33,6 +33,8 @@ cookie の期間を除き、必要に応じてこれらの設定を変更でき�
 | サーバードメイン | `clientcode.tt.omtrdc.net`[!DNL Adobe Target]。アカウントのクライアントコードを使用します。 |
 | cookie の期間 | cookieが訪問者のブラウザーに残る期間は、訪問者が最後にログインしてから2年です。 cookie の期間は変更できません。 |
 
+{style=&quot;table-layout:auto&quot;}
+
 >[!NOTE]
 >
 >いずれかのドメイン名に国コード（`mycompany.co.uk`など）が含まれている場合は、クライアントサービスに問い合わせて、このコードをサポートするように`at.js`を設定してください。
@@ -46,3 +48,4 @@ cookieには、訪問者がAdobe Targetキャンペーンを体験する方法�
 | check | 訪問者が cookie をサポートするかどうかを判別するために使用される簡単なテスト値。訪問者がページをリクエストするたびに設定されます。 |
 | disable | 訪問者の読み込み時間が at.js ファイルで設定されているタイムアウトを超えた場合に設定されます。デフォルトでは、このタイムアウトは1時間存続します。 |
 
+{style=&quot;table-layout:auto&quot;}
