@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 86%
+source-wordcount: '828'
+ht-degree: 87%
 
 ---
 
@@ -44,10 +44,12 @@ Experience Cloud ソリューションでのオーディエンスの使用方法
 | Experience Cloudオーディエンス | [オーディエンスライブラリ](audience-library.md)インターフェイスで直接、オーディエンスを作成、管理、共有します。次のことができます。<ul><li>Analytics の生データを使用して、リアルタイムオーディエンスを使用する。</li><li>オーディエンスを結合して、リアルタイムデータと履歴データを合成したオーディエンスを作成する。</li><li>推定オーディエンスサイズをグラフィック表示する。</li></ul><br> 作成するオーディエンスタイプについての推奨事項については、[Experience Cloud オーディエンス](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en)を参照してください。 |
 | Analytics | セグメンテーションでは、セグメントを構築してレポートスイートと組み合わせ、Experience Cloud にセグメントを公開できます。セグメントを公開すると、Experience Cloud の[!UICONTROL オーディエンスライブラリ]ページに表示されます（詳しくは、Analytics ヘルプの [Experience Cloud にセグメントを公開](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=en)を参照）。また、オーディエンスは、Adobe Target によって提供されるキャンペーンエクスペリエンスの対象オーディエンスとして使用したり、Audience Manager で使用したりできます。Adobe Analyticsからオーディエンスを共有し、アクティブなキャンペーンで使用するために選択した後、過去90日間にセグメント定義条件を満たした訪問者プロファイルが[!UICONTROL Audience Services]に送信されます。 共有オーディエンス数の上限は 75 に増えました。Analytics から Experience Cloud に共有するオーディエンスのユニークメンバー数が 2,000 万を超えてはなりません。キャッシュの影響で、Analytics で削除したレポートスイートが Experience Cloud に反映されるまで 12 時間かかります。 |
 | Mobile Services | [!UICONTROL デバイスタイプ]レポートのサンバーストによるビジュアライゼーションを使用してモバイルトラフィックを分析します。 |
-| [!DNL Target] | [ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)により、訪問者 ID とデータが、ソリューション全体ですぐに使用できる単一のプロファイルに統合されます。「[Experience Cloud に公開](audience-library.md)」チェックボックスを Adobe Analytics でセグメント作成処理中にオンにすると、Adobe Target のカスタムオーディエンスライブラリ内でセグメントを使用できるようになります。Analytics または Audience Manager で作成されたセグメントは、[!DNL Target] のアクティビティで使用できます。例えば、[!DNL Analytics] コンバージョン指標および [!DNL Analytics] で作成されたオーディエンスセグメントに基づいてキャンペーンアクティビティを作成できます。 |
+| [!DNL Target] | [ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)により、訪問者 ID とデータが、ソリューション全体ですぐに使用できる単一のプロファイルに統合されます。「[Experience Cloud に公開](audience-library.md)」チェックボックスを Adobe Analytics でセグメント作成処理中にオンにすると、Adobe Target のカスタムオーディエンスライブラリ内でセグメントを使用できるようになります。Analytics または Audience Manager で作成されたセグメントは、[!DNL Target] のアクティビティで使用できます。例えば、[!DNL Analytics] コンバージョン指標および [!DNL Analytics] で作成されたオーディエンスセグメントに基づいてキャンペーンアクティビティを作成できます。 |
 | Audience Manager | 共有オーディエンスは、Audience Manager でのセグメント化に使用できます。Experience Cloud オーディエンスはすべて、Audience Manager でネイティブに使用できます。Audience Manager は以下に対応しています。<ul><li>ソリューションワークフローでのオーディエンスの共有および利用の自動化</li><li>他ツールとのデータ連携</li><li>類似モデリング</li></ul> |
 | Campaign | <ul><li>別の Adobe Experience Cloud ソリューションから Adobe Campaign に共有オーディエンスを読み込む。</li><li>共有オーディエンスの形式で受信者リストを書き出す。これらの共有オーディエンスは、お使いの別の Adobe Experience Cloud ソリューションで使用できます。</li></ul> |
 | Advertising Cloud | オーディエンスをターゲットとして使用します。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 >[!IMPORTANT]
 >
@@ -60,6 +62,8 @@ Experience Cloud ソリューションでのオーディエンスの使用方法
 | オーディエンスが見つからない場合 | プロビジョニングが完了していることを確認します。[はじめに - ソリューションのコアサービスへの対応](core-services.md)を参照してください。<br>[ここ](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES)をクリックして Profiles &amp; Audiences へのアクセス権をリクエストします（統合プロビジョニングフォーム）。 |
 | 使用例 | 使用するソリューションの選択については、ナレッジベースで[オーディエンス作成オプション](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en)を参照してください。 |
 | フォーラム | [オーディエンスフォーラム](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community)は、オーディエンスに関するヘルプを得るためのもう1つのリソースです。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## オーディエンスライブラリのインターフェイス要素 {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
 
@@ -77,3 +81,5 @@ Experience Cloud ソリューションでのオーディエンスの使用方法
 | ソース | オーディエンスが作成された場所を示します。<ul><li>**Analytics：** Adobe Analytics で作成され、[Experience Cloud に公開された](audience-library.md)セグメント。</li><li>**Experience Cloud：**[Experience Cloud オーディエンスで作成された](audience-library.md)新しいオーディエンス。</li><li>**Audience Manager：** Audience Manager で作成されたオーディエンスは Experience Cloud オーディエンスに自動的に表示されます。</li></ul> |
 | 現在のサイズ | 現在のオーディエンスのサイズ。 |
 | アクティブ | セグメントのアクティブステータス。 |
+
+{style=&quot;table-layout:auto&quot;}
