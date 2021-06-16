@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 5e8e5a0f70393460442be247b2d9bf7548a32114
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '4190'
-ht-degree: 88%
+source-wordcount: '4199'
+ht-degree: 89%
 
 ---
 
@@ -29,15 +29,17 @@ Experience Cloud中央インターフェイスコンポーネントの機能、�
 | 機能 | 日付 | 説明 |
 | ------- | ------- | ------- |
 | AdobeFederated IDのシングルサインオンのサポート | 2021 年 6 月 17 日 | Federated IDを使用する場合、電子メールアドレスやパスワードを入力しなくても、Experience Cloudにログインできます。 この機能を使用するには、Experience CloudURLに`#/sso:@domain`を追加します。 <br>例えば、ドメインを所有し、Adobe Analyticsにサ `adobecustomer.com` インインするとします。URLは次のようになります。`https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
-| Experience League Search | 2021 年 6 月 1 日 | Experience Leagueドキュメントの検索が改善されました。 [Experience League](https://experienceleague.corp.adobe.com/docs/?lang=en)に移動し、**[!UICONTROL 検索]**&#x200B;フィールドを使用して、チュートリアル、ドキュメント、コースなどを検索します。 |
+| Experience League検索 | 2021 年 6 月 1 日 | Experience Leagueドキュメントの検索が改善されました。 [Experience League](https://experienceleague.corp.adobe.com/docs/?lang=en)に移動し、**[!UICONTROL 検索]**&#x200B;フィールドを使用して、チュートリアル、ドキュメント、コースなどを検索します。 |
 
-## 2021年5月
+{style=&quot;table-layout:auto&quot;}
+
+## 2021 年 5 月
 
 | 機能 | 日付 | 説明 |
 | ------- | ------- | ------- |
-| Experience Cloud ヘッダーおよびナビゲーション | 2021 年 5 月 20 日（PT） | Adobe Experience Cloudの更新には、ヘッダーの明るいテーマに対する変更が含まれます。これにより、暗いテーマに簡単に切り替えて、Experience Cloudヘッダー内のユーザーアバターから追加の環境設定を制御できます。 Experience Cloud のすべてのアプリケーションでテーマの設定がサポートされているわけではありませんが、この機能は今後のテーマサポートの可能性を広げます。 |
-| Experience Cloud グローバル検索 | 2021 年 5 月 20 日（PT） | このリリースでは、Experience Cloud のグローバル検索で、[Experience League](https://experienceleague.adobe.com/?lang=ja#home) のドキュメント、コースおよびチュートリアルを検索できます。現在、グローバル検索は、Experience Platform ユーザーのみが使用できます。[!UICONTROL Platform] のグローバル検索を使用すると、セグメント、データセット、スキーマなど、Experience Cloud 内のビジネスオブジェクトを検索できます。 |
-| Experience Cloud の言語設定 | 2021 年 5 月 20 日（PT） | このアップデートには、Experience Cloud [環境設定](https://experience.adobe.com/preferences)で優先言語を設定する機能が含まれています。 |
+| Experience Cloud のヘッダーとナビゲーション | 2021 年 5 月 20 日（PT） | Adobe Experience Cloud のアップデートには、ヘッダーのライトテーマに対する変更が含まれます。ダークテーマに簡単に戻せる機能や、暗いテーマに簡単に切り替えて、Experience Cloud ヘッダー内のユーザーアバターから追加の環境設定を制御できるリンクが追加されました。Experience Cloud のすべてのアプリケーションがテーマの設定をサポートしているわけではありませんが、この機能により、今後のテーマのサポートが可能になります。 |
+| Experience Cloud のグローバル検索 | 2021 年 5 月 20 日（PT） | このリリースでは、Experience Cloud のグローバル検索で、[Experience League](https://experienceleague.adobe.com/?lang=ja#home) のドキュメント、コース、チュートリアルを検索できます。（現在、グローバル検索は、Experience Platform ユーザーのみが使用できます。[!UICONTROL Platform] のグローバル検索を使用すると、セグメント、データセット、スキーマなど、Experience Cloud 内のあらゆるビジネスオブジェクトを検索できます。） |
+| Experience Cloud の言語設定 | 2021 年 5 月 20 日（PT） | この更新には、Experience Cloud の[環境設定](https://experience.adobe.com/preferences)で優先言語を設定する機能が含まれます。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -46,6 +48,8 @@ Experience Cloud中央インターフェイスコンポーネントの機能、�
 | 機能 | 説明 |
 | -----------| ---------- |
 | 管理ツール — ポリシー | このページには、組織内の Experience Cloud ポリシーの完全なリストが表示されます。製品、インスタンス、ユーザー、デベロッパーに関する情報を提供します。検索、並べ替え、フィルタリングによるポリシーリストのカスタム表示が可能です。詳しくは、[Experience Cloud 管理ツール](admin-tool-experience-cloud.md)のヘルプを参照してください。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 2020 年 4 月
 
@@ -57,6 +61,8 @@ Experience Cloud中央インターフェイスコンポーネントの機能、�
 | 機能 | 説明 |
 | -----------| ---------- |
 | 管理ツール - ユーザーの詳細を表示 | 管理者は、新しい管理ツールで、すべての Experience Cloud ユーザーとその詳細に関する、並べ替え可能でフィルタリング可能なリストを表示できます。ユーザーの詳細には、ユーザーの製品アクセス、ロール、最終アクセス日が含まれます。詳しくは、[Experience Cloud 管理ツール](admin-tool-experience-cloud.md)のヘルプを参照してください。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 **修正点**
 
@@ -218,7 +224,7 @@ Experience Cloud中央インターフェイスコンポーネントの機能、�
 </table>
 
 * 一部の顧客の顧客属性を同期できなかった問題を修正しました。
-* [Adobe Target 製品ドキュメント](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)ページが日本語で表示されなかった問題を修正しました。
+* [Adobe Target 製品ドキュメント](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja)ページが日本語で表示されなかった問題を修正しました。
 * [!DNL Creative Cloud] と [!DNL Experience Cloud] の間のコメントで日本語のテキストが使用できなかった問題を修正しました。
 
 ## リリース 15.4.1 - 2015 年 4 月 8 日（PT） {#section_75634120CC934B3381EDEA7F6F976F0A}
