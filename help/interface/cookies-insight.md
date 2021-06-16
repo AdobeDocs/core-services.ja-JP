@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: f00cbf4d-ece0-4827-a65f-e3b7068d680c
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 61%
+source-wordcount: '95'
+ht-degree: 63%
 
 ---
 
@@ -29,3 +29,5 @@ Data Workbenchでは、急速に変遷していく大量のデータをリアル
 | 用途 | この cookie は、ユニーク訪問者を特定するために使用します。  |
 | 場所 | この cookie は該当ページのドメインに保存されます。 |
 | サイズ | 8 バイト、または、「name =」部分（v1st=）が含まれる場合 13 バイト。 |
+
+{style=&quot;table-layout:auto&quot;}
