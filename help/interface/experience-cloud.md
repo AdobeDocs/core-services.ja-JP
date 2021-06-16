@@ -8,10 +8,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 31%
+source-wordcount: '914'
+ht-degree: 63%
 
 ---
 
@@ -26,23 +26,23 @@ Experience Cloudのヘッダーから、次の操作を実行できます。
 * アプリケーションとサービスへのアクセス
 * 製品ドキュメント、チュートリアル、コミュニティの投稿を検索します。
 * グローバル検索を使用したビジネスオブジェクトのグローバル検索(Experience Platformユーザーのみ)
-* アカウント設定（アラート、通知、購読）の管理
+* アカウント設定（アラート、通知、サブスクリプション）の管理
 
 ## Experience Cloud にサインインする
 
 ログインし、自分が適切な[組織](organizations.md)に属していることを確認します。
 
-1. [Adobe Experience Cloud](https://experience.adobe.com)に移動します。
-1. 「**[!UICONTROL Adobe IDでログイン]**」をクリックします。
-1. Adobe Experience Cloudで、組織をクリックします。
+1. [Adobe Experience Cloud](https://experience.adobe.com) に移動します。
+1. 「**[!UICONTROL Adobe ID でログイン]**」をクリックします。
+1. Adobe Experience Cloud で、組織をクリックします。
 
    ![](assets/organizations-menu.png)
 
-   管理者が、自分が適切な[組織](organizations.md)に属していることを確認する際に役立ちます。
+   管理者は、ユーザーが適切な[組織](organizations.md)に属していることを検証できるようサポートします。
 
-## Experience Cloud・アプリケーションへのアクセス {#navigation}
+## Experience Cloud アプリケーションへのアクセス {#navigation}
 
-Experience Cloudにサインインすると、統合ヘッダーからすべてのアプリケーション、サービスおよび組織にすばやくアクセスできます。
+Experience Cloud にログインすると、統合ヘッダーからすべてのアプリケーション、サービスおよび組織にすばやくアクセスできます。
 
 所有しているExperience Cloudサービスにアクセスするには、アプリケーションセレクター![](assets/menu-icon.png)をクリックします。
 
@@ -56,10 +56,10 @@ Experience Cloudにサインインすると、統合ヘッダーからすべて�
 
 [!UICONTROL ヘルプ]メニューからも、次の項目にアクセスできます。
 
-* **[!UICONTROL サポート]:** サポートチケットを作成するか、Twitterを使用してサポートに問い  合わせてください。
+* **[!UICONTROL サポート]：** サポートチケットを作成するか、Twitter を使用して[!UICONTROL サポート]にお問い合わせください。
 * **[!UICONTROL フィードバック]:** Experience Cloud体験に関するフィードバックを共有します。フィードバックは、Adobeの製品やサービスの改善に使用されます。
-* **[!UICONTROL ステータス]:** に移動して、製品の `https://status.adobe.com/experience_cloud` 運用状況と購読の管 [!UICONTROL 理]を確認します。
-* **[!UICONTROL Developer Connection]:** 開発者向けドキュメント `adobe.io` に移動してアクセスします。
+* **[!UICONTROL ステータス]：** に移動して、製品の `https://status.adobe.com/experience_cloud` 運用状況と[!UICONTROL サブスクリプションの管理]を確認します。
+* **[!UICONTROL Developer Connection]：** `adobe.io` に移動して、開発者向けドキュメントを見つけます。
 
 ## オブジェクトとエンティティのグローバル検索
 
@@ -72,26 +72,28 @@ Experience Cloudにサインインすると、統合ヘッダーからすべて�
 
 ## アカウント設定の管理 {#preferences}
 
-Experience Cloudの環境設定には、通知、購読、アラートが含まれます。 アカウントの環境設定メニューで、次の操作を実行できます。
+Experience Cloud の環境設定には、通知、購読、アラートが含まれます。アカウントの環境設定メニューで、次の操作を実行できます。
 
-* 暗いテーマを指定する（すべてのアプリケーションがこのテーマをサポートしているわけではありません）
-* [Organizations](organizations.md)を検索します。
+* ダークテーマを指定する（このテーマに対応していないアプリケーションもあります）
+* [組織](organizations.md)を検索する
 * ログアウト
-* アカウントの環境設定、通知および購読の設定
+* アカウントの環境設定、通知、サブスクリプションを設定する
 
 環境設定を管理するには、アカウントメニュー![](assets/preferences-icon-sm.png)から「**[!UICONTROL 環境設定]**」をクリックします。
 
 ![](assets/preferences-page.png)
 
-[!UICONTROL Experience Cloudの環境設定]では、次の機能を設定できます。
+[!UICONTROL Experience Cloud の環境設定]では、次の機能を設定できます。
 
 | 機能 | 説明 |
 |--- |--- |
-| デフォルトの[組織](organizations.md) | Experience Cloudの起動時に表示する組織を選択します。 |
-| [!UICONTROL 購読] | 購読する製品とカテゴリを選択します。 [!UICONTROL 通知]ポップオーバーと電子メール内の通知。 |
-| [!UICONTROL 優先度] | 優先度が高いと見なすカテゴリを選択します。 これらのカテゴリは、「高」タグでマークされ、アラートのような配信用に設定できます。 |
-| [!UICONTROL アラート] | ブラウザーにアラートを表示する通知を選択します。 アラートは、ウィンドウの右上隅に数秒間表示されます。 |
-| Emails | 通知電子メールを受信する頻度を指定します。 （未送信、即時、毎日または毎週）。 |
+| デフォルトの[組織](organizations.md) | Experience Cloud の起動時に表示する組織を選択します。 |
+| [!UICONTROL サブスクリプション] | 購入する製品とカテゴリを選択します。[!UICONTROL 通知]ポップオーバーとメール内の通知。 |
+| [!UICONTROL 優先度] | 優先度が高いと見なすカテゴリを選択します。これらのカテゴリには「高」タグが付き、アラートんなどの配信用に設定できます。 |
+| [!UICONTROL アラート] | ブラウザーにアラートを表示する通知を選択します。アラートは、ウィンドウの右上隅に数秒間表示されます。 |
+| メール | 通知メールの受信頻度を指定します。（送信しない、即時、毎日または毎週） |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 通知とお知らせ {#notifications}
 
@@ -113,7 +115,7 @@ Experience Cloudの環境設定には、通知、購読、アラートが含ま�
 * [よくある質問](admin-getting-started.md)
 * [組織とアカウントのリンク](organizations.md)
 * [統合](marketing-cloud-integrations.md)
-* [Adobe Target と Experience Cloud の統合](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)
+* [Adobe Target と Experience Cloud の統合](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja)
 * [Experience Cloud のプライバシーとセキュリティの概要](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [DNS プリフェッチ](admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
@@ -121,14 +123,14 @@ Experience Cloudの環境設定には、通知、購読、アラートが含ま�
 
 関連する Experience Cloud ガイドは次のとおりです。
 
-* [Adobe Mobile](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en)
+* [Adobe Mobile](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=ja)
 * [Experience Platform Co-op Graph](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=en)
 * [Exchange](https://exchange.adobe.com/experiencecloud)
-* [Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
+* [Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)
 * [Experience Platformデータ収集/起動](https://experienceleague.adobe.com/docs/launch.html?lang=en)
-* [Experience Cloud デバッガー](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en)
+* [Experience Cloud デバッガー](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja)
 * [一般データ保護規則（GDPR）API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
-* [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=en)
+* [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=ja)
 
 ## チュートリアル
 
