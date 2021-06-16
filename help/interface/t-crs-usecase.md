@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 76%
+source-wordcount: '1152'
+ht-degree: 75%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 76%
 1. [データファイルの作成](t-crs-usecase.md#task_B5FB8C0649374C7A94C45DCF2878EA1A)
 1. [属性ソースの作成とデータファイルのアップロード](t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
 1. [スキーマの検証](t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
-1. [購読の設定と属性ソースの有効化](t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
+1. [サブスクリプションの設定 属性ソースを有効にします。](t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
 
 データソースがアクティブになると、以下のことが可能になります。
 
@@ -82,11 +82,11 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
 
    * **[!UICONTROL 説明：]**（オプション）データ属性ソースの説明。
 
-   * **[!UICONTROL エイリアスID:]** 特定のCRMシステムなど、顧客属性データのソースを表します。顧客属性ソースのコードで使用される一意の ID です。ID は一意で、スペースを含まないアルファベットおよびアンダースコアの組み合わせにしてください。Experience CloudUIで顧客属性ソースのエイリアスIDフィールドに入力する値は、（Dynamic Tag ManagementまたはMobile SDKのJavaScriptを使用して）実装から渡される値と一致させる必要があります。
+   * **[!UICONTROL エイリアスID:]** 特定のCRMシステムなど、顧客属性データのソースを表します。[!UICONTROL エイリアスID] は、顧客属性ソースコードで使用される一意のIDです。ID は一意で、スペースを含まないアルファベットおよびアンダースコアの組み合わせにしてください。Experience Cloudの顧客属性ソースの[!UICONTROL エイリアスID]フィールドに入力する値は、(データ収集(Launch)、Dynamic Tag Management、Mobile SDKのJavaScriptを使用して)実装から渡される値と一致する必要があります。
 
       エイリアス ID は、追加の顧客 ID 値を設定する方法に対応しています。以下に例を示します。
 
-      * **Dynamic Tag Management：**&#x200B;エイリアス ID は、[Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=en)ツールの「[!UICONTROL 顧客設定]」の「*統合コード*」の値に対応しています。
+      * **Dynamic Tag Management：**&#x200B;エイリアス ID は、[Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=ja)ツールの「[!UICONTROL 顧客設定]」の「*統合コード*」の値に対応しています。
 
       * **訪問者 API：**&#x200B;エイリアス ID は、各訪問者と関連付けることができる追加の[顧客 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en) に対応しています。
 
