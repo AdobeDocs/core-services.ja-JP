@@ -9,9 +9,9 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '2272'
+source-wordcount: '2275'
 ht-degree: 72%
 
 ---
@@ -99,6 +99,8 @@ Experience Cloud ID サービス（以前の訪問者 ID）について詳しく
 | [Experience Cloud ID サービスの Analytics への実装](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=en) | また、追加の[顧客 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en) を設定することを推奨します。これらの ID は各訪問者に関連付けられ、Experience Cloud の現在および将来の機能を有効にします。 |
 | 既存の [!DNL s_code] をバージョン H.27.3 以降に更新、または既存の [!DNL AppMeasurement.js] をバージョン 1.4 以降に更新 | これらのファイルは、Analytics 管理ツールの[コードマネージャー](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=en)でダウンロードして入手できます（[!DNL AppMeasurement.js] について詳しくは、[JavaScript の実装](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=en#js)を参照してください）。 |
 | Analytics の顧客 ID の同期 | 以下の[Analytics - 顧客 ID の同期](core-services.md#section_AD473A6A21C1446498E700363F9A8437)を参照してください。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### Analytics と Adobe Target - 顧客 ID の同期 {#section_AD473A6A21C1446498E700363F9A8437}
 
