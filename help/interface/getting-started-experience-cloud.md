@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 82%
+source-wordcount: '939'
+ht-degree: 83%
 
 ---
 
@@ -44,6 +44,8 @@ ht-degree: 82%
 | [Creative Cloud ユーザーの管理](t-admin-add-cc-user.md) | Experience Cloudアセットを使用すると、マーケターは、Creative Cloudを使用して、デザイナーや他のクリエイティブアセットとフォルダー上での共有、同期、共同作業をおこなえます。 組織と共同作業することを承認された Creative Cloud ユーザーの管理はここでおこなえます。 |
 | [レポートスイートをマッピング](core-services.md) | （Analytics のみ）Experience Cloud のコアサービスは個々のレポートスイートではなく組織に関連付けられています。これらのサービスを正しく機能させるには、各 Analytics レポートスイートを組織にマッピングする必要があります。（この作業は、[Analytics をコアサービスに対応させる](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)ワークフローの一部です）。 |
 | [組織 ID](organizations.md)   | *組織 ID* は管理ページの下部に表示されています。この ID は、プロビジョニングした Experience Cloud 会社に関連付けられている ID です。この ID は 24 文字の英数字から成る文字列で、その後に @AdobeOrg（必須）が続きます。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Experience Cloud へのログイン（ユーザー）  {#task_1BFE87E20DCB44078CAC82F3CD44B985}
 
@@ -107,13 +109,13 @@ Experience Cloud での非管理者ユーザーのログインに関するヘル
  <li id="li_17B0B176FF85435FB7EDD4317BC18201">Property has been published </li> 
 </ul> -->
 
-## プロファイルおよびパスワードの管理 {#task_7B89F4F38E5A4C4EB0FF842953856382}
+## プロファイルとパスワードの管理 {#task_7B89F4F38E5A4C4EB0FF842953856382}
 
-Experience Cloud プロファイルを編集し、デフォルトの組織やランディングページなどを指定することができます。
+自分の Experience Cloud プロファイルを編集し、デフォルトの組織やランディングページなどを指定することができます。
 
-1. Experience Cloud にサインインする.
+1. Experience Cloud にログインします。
 
-1. Experience Cloudで、プロフィール写真をクリックします。
+1. Experience Cloud で、自分のプロフィール写真をクリックします。
 
    ![](assets/edit-profile.png)
 1. 「**[!UICONTROL プロファイルを編集]**」をクリックします。
@@ -150,3 +152,5 @@ Experience Cloud プロファイルを編集し、デフォルトの組織やラ
 | `tenantId` | ユーザーのログイン先となるテナントの名前。 | aem62tenant | オプション |
 | `destURL` | ユーザーのリダイレクト先となる場所の完全な URL。 | http://sc.omniture.com/login/?r=%2Fx%2F1_7xxzf&amp;tenantId=obuengsc&amp;company=OBU+Eng+SC | オプション |
 | `solutionname` | `destURL`パラメーターの所有者であるMACソリューションの名前。 このパラメーターは、URL の所有主であるソリューションにユーザーがアクセスできることを確認するために使用されます。`solutionname`が`destURL`パラメーターと同期していることを確認するのは、ソリューション側の責任です。  例：URLにソーシャルとして`solutionname`が含まれ、`destURL`でAnalyticsのURLを指定した場合、ユーザーはAnalyticsへのアクセス権を持っていなくても、そのURLにリダイレクトされます。 MACでは、`destURL`の所有者がソリューション名と同期しているかどうかは確認されません。 | analytics | `destURL`パラメーターを使用する場合は必須です。 |
+
+{style=&quot;table-layout:auto&quot;}
