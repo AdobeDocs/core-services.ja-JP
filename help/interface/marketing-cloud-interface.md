@@ -6,10 +6,10 @@ seo-title: Experience Cloud の新機能
 solution: Experience Cloud
 title: 'Experience Cloud の新機能 '
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 89%
+source-wordcount: '651'
+ht-degree: 91%
 
 ---
 
@@ -67,6 +67,8 @@ Experience Cloud の新機能と更新の概要を示します。
 |--- |--- |
 | 新しい管理用ランディングページ | Experience Cloud にログインして管理ページに移動すると、Experience Cloud ソリューションやコアサービスにすばやくアクセスできる、直観的な新しいインターフェイスを使用できます。 |
 
+{style=&quot;table-layout:auto&quot;}
+
 **修正点**
 
 * Scene7 アップデートが原因で画像のアップロードが失敗する問題を修正しました。（CORE-12746）
@@ -84,7 +86,9 @@ Experience Cloud の新機能と更新の概要を示します。
 |--- |--- |
 | 通知 - 詳細設定 | [顧客属性](attributes.md)のアップロードについての通知など、製品およびソリューションのイベントとアクティビティに関する通知を有効にできます。 |
 | 通知 - メンテナンス通知 | 通知の設定では、製品とソリューションのメンテナンスに関する通知を有効にできます。 |
-| Experience Cloud ソリューション向け Admin Console | Experience Cloud の新規のお客様は、Admin Console を利用することで組織全体にわたってアドビ製品の使用権限を一元的に管理できます。<br>Admin Console へのユーザー管理の移行は段階的に進められます。Adobeは、移行時に連絡を取ります（システム管理者）。<br>Analytics 管理者向けの情報については、[Analytics の移行](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en)を参照してください。 |
+| Experience Cloud ソリューション向け Admin Console | Experience Cloud の新規のお客様は、Admin Console を利用することで組織全体にわたってアドビ製品の使用権限を一元的に管理できます。<br>Admin Console へのユーザー管理の移行は段階的に進められます。Adobeは、移行時に連絡を取ります（システム管理者）。<br>Analytics 管理者向けの情報については、[Analytics の移行](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=ja)を参照してください。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 2017年5月23日 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
 
@@ -93,11 +97,15 @@ Experience Cloud の新機能と更新の概要を示します。
 | レポートスイートの一括マッピング | 管理／レポートスイートのマッピングで、複数のレポートスイートを選択して、1 つの組織にマッピングできるようになりました（以前は、個別にマッピングする必要がありました）。<br>[レポートスイートを単一の組織にマッピング](core-services.md)すると、Experience Cloud でクロスソリューションの機能とサービスを有効にすることができます。 |
 | Experience Cloud オーディエンスの更新 | **レポートスイートの適用**<br>&#x200B;すべての[オーディエンスルール](t-audience-create.md)にレポートスイートを適用できるようになりました（以前は、ルール定義ごとにレポートスイートを指定する必要がありました）。<br>**Prop と変数**<br>（eVar およびイベント変数に加えて）リアルタイムオーディエンスに Analytics の prop およびデフォルト変数を含めることができるようになりました。 |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## 2016 年 11 月 9 日（PT）- 16.11.1 {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
 
 | 機能 | 説明 |
 |--- |--- |
 | プロファイルおよびパスワードの更新 | ユーザーはプロファイルを編集／プロファイルおよびパスワードの「個人の詳細情報」で IMS ユーザープロファイル情報を編集できなくなりました。代わりに、ユーザーは `accounts.adobe.com` にリダイレクトされます。この更新は、すべてのIDタイプ(Adobe ID、Enterprise、Federated)に適用されます。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 **修正点**
 
