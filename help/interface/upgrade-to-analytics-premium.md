@@ -9,10 +9,10 @@ feature: Admin Console
 role: Administrator
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 70%
+source-wordcount: '625'
+ht-degree: 72%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Analytics Premium にアップグレードすると、Data Warehouse、Ad 
 Analytics Premium では、次のことができます。
 
 * 250 個のコンバージョン変数（eVars）へのアクセス
-* [モバイルアプリ分析](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en)
+* [モバイルアプリ分析](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=ja)
 * Data Workbench（ビジュアルデータクエリ、ルールに基づくアトリビューション、クロスチャネル分析）
 
 >[!NOTE]
@@ -48,6 +48,8 @@ Analytics Premium Complete では、[Analytics Premium](upgrade-to-analytics-pre
 | Data Workbench | <ul><li>アルゴリズムアトリビューション</li><li>事前定義済みワークスペース</li></ul> |
 | Analytics Platform | [Live Stream](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/index.md)（生データ、ダッシュボード、トリガー） |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Predictive Intelligence {#section_B407932C07A7476F83FB0275C3FB63DC}
 
 Predictive Intelligence へのアップグレードにより、[Analytics Premium](upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507) に加え、以下を利用できます。
@@ -58,6 +60,8 @@ Predictive Intelligence へのアップグレードにより、[Analytics Premiu
 | Data Workbench | オーディエンスの資格と予測マーケティングのためのワークスペース |
 | Analytics Platform | Live Stream（ダッシュボードとトリガー） |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Customer 360 {#section_3B2AC245388248688067DC9A48957AFB}
 
 Customer 360 へのアップグレードにより、[Analytics Premium](upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507) に加え、以下を利用できます。
@@ -67,6 +71,8 @@ Customer 360 へのアップグレードにより、[Analytics Premium](upgrade-
 | [顧客属性](attributes.md) | 顧客属性（分析およびセグメント共有） |
 | Data Workbench | <ul><li>派生顧客属性</li><li>オーディエンス検出用の事前定義済みワークスペース</li></ul> |
 | Analytics Platform | [顧客属性](attributes.md) |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 高度なアトリビューション {#section_9E4986A8389946CCAA7D003268343296}
 
