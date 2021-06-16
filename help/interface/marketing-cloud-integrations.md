@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 80%
+source-wordcount: '1396'
+ht-degree: 79%
 
 ---
 
@@ -127,7 +127,7 @@ Experience Cloud ソリューションや他の外部システムのデータを
 
 Experience Cloud Activation ソリューションを使用して、Experience Cloud ソリューションの設定とデバッグをおこないます。
 
-1. [Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ja)または[Dynamic Tag Management](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=ja)を使用して、ページ上のExperience Cloudアプリケーションをアクティブにするコードを挿入します。
+1. [Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ja)を使用して、ページ上のExperience Cloudアプリをアクティブにするコードを挿入します。
 1. [Adobe Cloud Platform Auditor](https://experienceleague.adobe.com/docs/auditor/using/overview.html?lang=ja) を使用して実装をテストします。
 
 Adobe Experience Cloud Debugger 拡張機能を使用して、Auditor によって検出された問題をデバッグしたり、実装に関する他の情報を調べたりします。
@@ -135,7 +135,7 @@ Adobe Experience Cloud Debugger 拡張機能を使用して、Auditor によっ�
 **適用可能なソリューションまたはサービス**
 
 * [Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ja)
-* [Audience Manager](https://experienceleague.adobe.com/docs/dtm/using/tools/audiencemgmt.html?lang=ja)
+* [Audience Manager](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html?lang=en)
 * [Media Manager](https://experienceleague.adobe.com/docs/dtm/using/tools/media-optimizer.html?lang=ja)
 * [Adobe Target](https://experienceleague.adobe.com/docs/dtm/using/tools/target.html?lang=ja)
 * [MAC ID サービス](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=ja)
