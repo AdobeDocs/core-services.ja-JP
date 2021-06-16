@@ -6,9 +6,9 @@ feature: 「中央インターフェイスコンポーネント」
 topic: 管理
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: b6282dfdfc37e2767802d4ce50bdd734141b521e
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '437'
 ht-degree: 100%
 
 ---
@@ -80,6 +80,8 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 | [!UICONTROL 優先度] | 優先度が高いと見なすカテゴリを選択します。これらのカテゴリには「高」タグが付き、アラートんなどの配信用に設定できます。 |
 | [!UICONTROL アラート] | ブラウザーにアラートを表示する通知を選択します。アラートは、ウィンドウの右上隅に数秒間表示されます。 |
 | メール | 通知メールの受信頻度を指定します。（送信しない、即時、毎日または毎週） |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 通知とお知らせ
 
