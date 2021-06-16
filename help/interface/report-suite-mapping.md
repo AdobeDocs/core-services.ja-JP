@@ -7,7 +7,7 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: 978f2214cd802562880a3aff82677e033229c0a4
 workflow-type: tm+mt
 source-wordcount: '1119'
 ht-degree: 68%
@@ -63,7 +63,7 @@ Experience Cloud サービス（Experience Cloud ID サービスや [!UICONTROL 
 
 ### どの組織を選択すべきか
 
-Experience CloudIDサービスがレポートスイートにデプロイされている場合は、レポートスイートマッピングツールで選択する組織と、サイト上の[!DNL visitorAPI.js]ファイルで指定されている組織が同じであることを確認します。 [Experience Cloud ID サービスのテストと検証](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html)の指示に従えば、訪問者 ID サービスで使用されている組織 ID を確認できます。
+Experience CloudIDサービスがレポートスイートにデプロイされている場合は、レポートスイートマッピングツールで選択する組織と、サイト上の[!DNL visitorAPI.js]ファイルで指定されている組織が同じであることを確認します。 [Experience Cloud ID サービスのテストと検証](https://experienceleague.corp.adobe.com/docs/id-service/using/implementation/test-verify.html)の指示に従えば、訪問者 ID サービスで使用されている組織 ID を確認できます。
 
 デプロイメントが、レポートスイートマッピングツールで選択した組織と一致していることを確認します。
 
