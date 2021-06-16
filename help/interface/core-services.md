@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
 workflow-type: tm+mt
-source-wordcount: '2334'
-ht-degree: 70%
+source-wordcount: '2272'
+ht-degree: 72%
 
 ---
 
@@ -53,7 +53,7 @@ Experience Cloud に参加するために必要なことを次に示します。
 
 ### 管理者ログイン
 
-管理者になったら、[experience.adobe.com](https://experience.adobe.com)でログインできます。
+管理者になると、[experience.adobe.com](https://experience.adobe.com) でログインできます。
 
 **[!UICONTROL Admin Console]**&#x200B;リンクは、Experience Cloudメニューのナビゲーションで使用できます。
 
@@ -64,7 +64,7 @@ Experience Cloud に参加するために必要なことを次に示します。
 Experience Cloud にログインするには、次のことが必要です。
 
 * Adobe ID（または会社の Enterprise ID）を持っている。
-* [experience.adobe.com](https://experience.adobe.com)でログインします。
+* [experience.adobe.com](https://experience.adobe.com) でログインする。
 * エンタープライズグループにマッピングされているソリューショングループに属する。
 * 必要に応じて、ソリューションアカウントを Adobe ID にリンクする（以下で説明）。
 
@@ -86,7 +86,7 @@ Experience Cloud にログインするには、次のことが必要です。
 
 [!UICONTROL Experience Cloud IDサービス]は、ソリューション間の統合に使用する共通の ID を提供します。[!UICONTROL 顧客属性]を通じてアップロードされた CRM データに基づいて、クロスドメインの訪問者識別と、デバイス／ブラウザー横断的なターゲティングおよびパーソナライズのための手段を提供します。
 
-Experience Cloud コアサービスを有効にする方法としては、 [!UICONTROL Experience Platform Launch] の[Experience Cloud ID サービス拡張機能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=ja#extensions-ref)を使用して、Analytics や Adobe Target に対してコアサービスを自動的にアクティブにするのが最も簡単です。
+Experience Cloud コアサービスを有効にする方法としては、 [!UICONTROL Experience Platform Launch] の [Experience Cloud ID サービス拡張機能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=ja#extensions-ref)を使用して、Analytics や Adobe Target に対してコアサービスを自動的にアクティブにするのが最も簡単です。
 
 Experience Cloud ID サービス（以前の訪問者 ID）について詳しくは、[こちら](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ja#intro)を参照してください。
 
@@ -135,17 +135,15 @@ Experience Cloud サービス（Experience Cloud ID サービスや [!UICONTROL 
 
 ## Analytics の AppMeasurement コードを更新する {#section_1798D9D0F05C47E29816AC4EEB9A0913}
 
-Analytics を使用している場合は、地域データ収集（RDC）を使用していることを確認します。 データ収集ドメインが [!DNL omtrdc.net] の場合、または CNAME が [!DNL omtrdc.net] にマッピングされている場合は、RDC を使用しています。詳しくは、[RDC への移行](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=en)を参照してください。ファーストパーティ Cookie を使用している場合、データ収集 CNAME とクロスドメイン追跡については、[CNAME と Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en)を参照してください。
+Analytics を使用している場合は、地域データ収集（RDC）を使用していることを確認します。データ収集ドメインが `omtrdc.net` の場合、または CNAME が `omtrdc.net` にマッピングされている場合は、RDC を使用しています。詳しくは、[RDC への移行](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=en)を参照してください。ファーストパーティ Cookie を使用している場合、データ収集 CNAME とクロスドメイン追跡については、[CNAME と Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en)を参照してください。
 
-訪問者 API など JavaScript ライブラリを更新して Analytics の実装を最新化することが推奨されます。+632581を簡単に実現するには、Dynamic Tag Managementに[!DNL Adobe Analytics]ツールを追加し、設定方法として&#x200B;*`Automatic`*&#x200B;を指定します。
-
-[!UICONTROL Dynamic Tag Management]で、**`<Web Property Name>`** / **[!UICONTROL 概要]** / **[!UICONTROL ツールを追加]** / **[!UICONTROL Adobe Analytics]**&#x200B;をクリックします。 デプロイメントについては、Dynamic Tag Management の [Adobe Analytics の設定](https://experienceleague.adobe.com/docs/dtm/using/tools/analytics-dtm.html?lang=en) を参照してください。
+訪問者 API など JavaScript ライブラリを更新して Analytics の実装を最新化することが推奨されます。これをおこなう最も簡単な方法は、Experience Platformデータ収集(Launch)に[Adobe Analytics拡張機能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=ja)を追加することです。
 
 ## Adobe Target の実装を更新する {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* [!UICONTROL Experience Platform Launch] で [Adobe Target 拡張機能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html?lang=ja)を追加してライブラリの検索を自動化することをお勧めします。[!UICONTROL Experience Platform Launch] を使用して、[Experience Cloud ID サービス拡張機能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=en)を Adobe Target（および他のソリューション）に設定することもできます。Adobe Target でコアサービスを使用するには、[!UICONTROL Experience Cloud ID サービス]のアップデートが&#x200B;**必要**&#x200B;です（[!UICONTROL Dynamic Tag Management] を使用する場合は、[Adobe Target ツール](https://experienceleague.adobe.com/docs/dtm/using/tools/target.html?lang=en)を追加します。また、[!UICONTROL Dynamic Tag Management] を使用して、Experience Cloud ID サービスを Adobe Target 用にデプロイすることもできます）。
-* [!UICONTROL Experience Platform Launch] または [!UICONTROL Dynamic Tag Management] を使用しない場合は、手動で [mbox ライブラリを更新](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html?lang=en)します。
-* Adobe Analytics を [!DNL Adobe Target] のレポートソースとして使用するためのアクセスを要求します。処理中に同じサーバーコールで [!DNL Target] と [!DNL Analytics] のデータが結合され、これら 2 つのソリューション間で訪問者が接続されます。[Target のための Analytics の実装に関する説明](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)を参照してください。
+* [!UICONTROL Experience Platform Launch] で [Adobe Target 拡張機能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html?lang=ja)を追加してライブラリの検索を自動化することをお勧めします。[!UICONTROL Experience Platform Launch] を使用して、[Experience Cloud ID サービス拡張機能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=en)を Adobe Target（および他のソリューション）に設定することもできます。Adobe Target でコアサービスを使用するには、[!UICONTROL Experience Cloud ID サービス]のアップデートが&#x200B;**必要**&#x200B;です
+* [!UICONTROL Experience Platform Launch]を使用していない場合は、[mboxライブラリ](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html?lang=en)を手動で更新します。
+* Adobe Analytics を [!DNL Adobe Target] のレポートソースとして使用するためのアクセスを要求します。処理中に同じサーバーコールで [!DNL Target] と [!DNL Analytics] のデータが結合され、これら 2 つのソリューション間で訪問者が接続されます。[Target のための Analytics の実装に関する説明](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja)を参照してください。
 
    >[!IMPORTANT]
    >
