@@ -9,9 +9,9 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 6031e544-822b-4843-b3d8-98a36a3c40e8
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1181'
 ht-degree: 69%
 
 ---
@@ -32,6 +32,8 @@ Adobe AnalyticsとAdobe Targetの[!UICONTROL 顧客属性]に関するよくあ�
 | カスタム Analytics ID（`s.visitorID`） | `s.visitorID` を使用して顧客 ID を設定すると、Analytics でユーザーを特定しやすくなります。ただし、`s.visitorID.`<br>を使用して訪問者を特定する場合、IDサービスを使用して[!DNL Analytics]データをエクスポートまたはインポートする統合は機能しません。これには、共有オーディエンス、Adobe Target(A4T)の&lt;a2/、[!UICONTROL 顧客属性]が含まれます。[!DNL Analytics]<br>これらの統合機能では、カスタム Analytics ID の設定はサポート対象外となります。 |
 |  での文字の長さの制限[!DNL Analytics] | [!DNL Analytics]サブスクリプションを作成する場合、アップロードするファイルのフィールド長は255文字以下に切り捨てられます。 |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## 顧客属性に関する FAQ {#section_E47866EEA83348E09FE43CEC5E44C461}
 
 | 質問 | 回答 |
@@ -49,3 +51,5 @@ Adobe AnalyticsとAdobe Targetの[!UICONTROL 顧客属性]に関するよくあ�
 | **（Adobe Target のみ）**&#x200B;訪問者が顧客 ID によって特定された後すぐ、顧客属性にアップロードされたデータをターゲットにできますか。 | はい。mboxサードパーティIDを含むAdobe Targetへのサーバーコール時に、すべての顧客属性データを使用できます。 |
 | **(Adobe Targetのみ)** 顧客属性ソースにアップロ **[!UICONTROL ー]** ドされたファイルの「同期ステータス」列は何を表しますか。 | Adobe Target で公開および同期されたレコードの数は、特定の属性ファイルに対して「同期ステータス」アイコンをクリックすると表示できます。`Sync %` は、Adobe Targetで同期されたプロファイルの割合を示すリアルタイム指標です。<br> **注意：**&#x200B;属性が Adobe Target と同期するまでに最大 24 時間かかる場合があります。 |
 | 顧客属性ソースのファイルアップロード指標は何を表しますか。 | 次の指標を使用して、顧客属性にアップロードされた属性のステータスを確認できます。 <ul><li>レコード：属性ファイル内のレコード数。</li><li>**新しいレコード：**&#x200B;属性ファイルに存在する新しいレコードの数。</li> <li>**更新されたレコード：** 顧客属性に存在し、ファイル内の値が更新されたレコードの数。</li><li>**すべてのデータ（レコード）：**&#x200B;顧客属性に正常にアップロードされたレコードの合計数です。</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
