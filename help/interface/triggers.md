@@ -11,9 +11,9 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: cd0f9a975732c6c8c3db8ddca6e702449b0efeed
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '705'
 ht-degree: 71%
 
 ---
@@ -68,6 +68,8 @@ ht-degree: 71%
    | 訪問には次を含める必要があります<br>訪問に次を含めることはできません<br>次のアクションがなかった後のトリガー<br>含めるメタデータ | 条件または発生してほしい訪問者の行動、および発生してほしくない行動を定義できます。例えば、シンプルな買い物かご放棄トリガーのルールは、次のようになります。<ul><li>訪問には次を含める必要があります。[!UICONTROL 買い物かごへの追加]（指標）と[!UICONTROL 存在]。 （特定の製品の表示またはブラウザータイプなどのディメンションでルールをさらに洗練させることができます）。</li><li>訪問に含めることはできません： [!UICONTROL チェックアウト]。</li><li>次のアクションがなかった後のトリガー：10 分。</li><li>[!UICONTROL メタデータを含める]:訪問者の行動に関連 [!DNL Campaign] する特定のディメンションまたは変数を追加できます。このフィールドは、Adobe Campaign で適切なリマーケティング電子メールを構築するのに便利です。</li></ul><br>ルールにとって重要  [!UICONTROL な条件に応じて、コンテナ内またはコンテナ間で「]任意   」、「   ANDOR」を指定できます。 |
    | [!UICONTROL コンテナ] | [!UICONTROL コンテナは、トリガーを定義するルール、条件またはフィルターを設定および保存する場所です。]同時にイベントを発生させたい場合、イベントを同じコンテナに配置します。つまり、各コンテナは、ヒットレベルで別々に処理されます。例えば、2 つのコンテナが AND 演算子で結合されている場合、2 つのヒットが要件を満たすタイミングを満たすルールを期待できます。 |
    | この次に新しいセッションを開始 | セッション開始およびセッション終了イベントのトリガーを作成します。 |
+
+   {style=&quot;table-layout:auto&quot;}
 
 5. 「**[!UICONTROL 保存]**」をクリックします。
 6. [!DNL Adobe Campaign] でトリガーを[リアルタイムリマーケティング](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=en)に使用します。
