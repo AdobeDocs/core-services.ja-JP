@@ -7,10 +7,10 @@ role: Administrator
 topic: 管理
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 73%
+source-wordcount: '494'
+ht-degree: 75%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 73%
 
 >[!IMPORTANT]
 >
->[!UICONTROL 顧客属] 性は、従来のサービスで、現在は維持中です。
+>[!UICONTROL 顧客属性は従来のサービスで、現在はメンテナンス中です。]
 
 [!UICONTROL  Experience Cloud で顧客属性を使用すると、顧客関係管理（CRM）データベースから取り込んだ大規模法人データをアップロードできます。]データをExperience Cloudの顧客属性データソースにアップロードし、Adobe AnalyticsとAdobe Targetで使用できます。
 
@@ -62,3 +62,5 @@ ht-degree: 73%
 |--- |--- |
 | Adobe Analytics | マーケターとアナリストは、次のことを把握できます。<ul><li>ゴールドレベルの顧客に最も効果的なオンラインキャンペーン。</li><li>ゴールドレベルの顧客が検索している製品と、プラチナレベルの顧客が検索している製品の違い。</li><li>サイトを再設計すると、古い顧客のコンバージョン率が向上するか。</li><li>ライフタイム値が低い顧客がサイトで調べる傾向にある製品。</li></ul> |
 | Adobe Target | Adobe Target ユーザーは、属性データを利用して次のことができます。<ul><li>ロイヤルティクラブメンバー専用の特別割引とオファーを表示する。</li><li>高級志向の顧客により高価な製品を勧める。</li><li>既に E メールを受け取っている顧客に対し、通常は E メールのサインアップ用に確保されているスペースにアップセルのオファーを表示する。</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
