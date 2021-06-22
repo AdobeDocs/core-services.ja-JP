@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: d2ff52ce1a591c7c607598b5f2892dbcca74594b
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 94%
+source-wordcount: '480'
+ht-degree: 95%
 
 ---
 
@@ -42,6 +42,8 @@ ht-degree: 94%
 * [!DNL Experience Cloud] に[公開](audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A)された [!DNL Adobe Analytics] セグメントから得られる Chrome ユーザーと Safari ユーザー。
 
    ![](assets/audience_create.png)
+
+**オーディエンスを作成するには、以下を実行します。**
 
 1. [!DNL Experience Cloud] の [!DNL Experience Platform] で、**[!UICONTROL People]**／**[!UICONTROL オーディエンスライブラリ]をクリックします。**
 1. [!UICONTROL オーディエンス]ページで、「**[!UICONTROL 新規]**」（![](assets/add_icon_small.png)）をクリックします。
