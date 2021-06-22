@@ -9,7 +9,7 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 55cbcc6663ca22bbcd13e76411433912d6132eed
 workflow-type: tm+mt
 source-wordcount: '4199'
 ht-degree: 89%
@@ -22,7 +22,7 @@ Experience Cloud中央インターフェイスコンポーネントの機能、�
 
 ドキュメントの更新のリストについては、[Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784) を参照してください。
 
-すべてのソリューションを対象とするリリースノートについては、[Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)を参照してください。
+すべてのソリューションを対象とするリリースノートについては、[Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)を参照してください。
 
 ## 2021年6月
 
