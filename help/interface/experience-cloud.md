@@ -8,10 +8,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 63%
+source-wordcount: '915'
+ht-degree: 62%
 
 ---
 
@@ -33,8 +33,8 @@ Experience Cloudのヘッダーから、次の操作を実行できます。
 ログインし、自分が適切な[組織](organizations.md)に属していることを確認します。
 
 1. [Adobe Experience Cloud](https://experience.adobe.com) に移動します。
-1. 「**[!UICONTROL Adobe ID でログイン]**」をクリックします。
-1. Adobe Experience Cloud で、組織をクリックします。
+1. 「**[!UICONTROL Adobe IDでログイン]**」を選択します。
+1. Adobe Experience Cloudで、組織を選択します。
 
    ![](assets/organizations-menu.png)
 
@@ -44,7 +44,7 @@ Experience Cloudのヘッダーから、次の操作を実行できます。
 
 Experience Cloud にログインすると、統合ヘッダーからすべてのアプリケーション、サービスおよび組織にすばやくアクセスできます。
 
-所有しているExperience Cloudサービスにアクセスするには、アプリケーションセレクター![](assets/menu-icon.png)をクリックします。
+所有しているExperience Cloudサービスにアクセスするには、アプリケーションセレクター![](assets/menu-icon.png)に移動します。
 
 ![](assets/platform-core-services.png)
 
@@ -79,7 +79,7 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 * ログアウト
 * アカウントの環境設定、通知、サブスクリプションを設定する
 
-環境設定を管理するには、アカウントメニュー![](assets/preferences-icon-sm.png)から「**[!UICONTROL 環境設定]**」をクリックします。
+環境設定を管理するには、アカウントメニュー![](assets/preferences-icon-sm.png)から&#x200B;**[!UICONTROL 環境設定]**&#x200B;を選択します。
 
 ![](assets/preferences-page.png)
 
@@ -97,7 +97,7 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 
 ## 通知とお知らせ {#notifications}
 
-**[!UICONTROL 通知]**&#x200B;をクリックすると、製品リリース、メンテナンス通知、共有項目、承認リクエストなど、関連性の高い実用的な更新に関する警告が表示されます。
+**[!UICONTROL 通知]**&#x200B;を選択して、製品リリース、メンテナンス通知、共有項目、承認リクエストなど、関連性の高い実用的な更新に関する警告を表示します。
 
 ![](assets/notifications-menu-small.png)
 
@@ -142,8 +142,8 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 
 ## リリースノートおよび関連する Experience Cloud ヘルプ
 
-* [すべての Experience Cloud ソリューションの製品ドキュメント](https://experienceleague.adobe.com/docs/home.html?lang=en) - Experience Cloud のラーニングとサポートでヘルプを参照する
-* [リリースノートと製品アップデート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en) - Experience Cloud の新機能を参照およびサブスクリプションでアップデートを入手する
+* [すべての Experience Cloud ソリューションの製品ドキュメント](https://experienceleague.adobe.com/docs/home.html?lang=ja) - Experience Cloud のラーニングとサポートでヘルプを参照する
+* [リリースノートと製品アップデート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja) - Experience Cloud の新機能を参照およびサブスクリプションでアップデートを入手する
 * [コアサービスの実装に関するチュートリアル](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en) - コアサービスに関するビデオやチュートリアルを参照する
 * [Experience League で提供されるエキスパートヘルプ](https://experienceleague.adobe.com/?lang=ja) - 専門家やコミュニティからガイド付きの指導を受ける
 * [教育とトレーニング](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK)  -Adobeと連携してAdobe製品を最大限に活用する
