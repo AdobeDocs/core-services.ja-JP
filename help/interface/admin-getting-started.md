@@ -8,10 +8,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 100%
+source-wordcount: '1275'
+ht-degree: 95%
 
 ---
 
@@ -40,10 +40,10 @@ Admin Console へのログイン、Experience Cloud ユーザーの権限およ�
 
 ユーザーを組織に招待する場合は、そのユーザーに製品および製品プロファイルへのアクセス権を付与することができます。ユーザーに制限付き管理権限を委任することもできます。同様に、ユーザーグループを作成し、そのグループを製品プロファイルに追加することによって、アクセス権を有効にすることもできます。
 
-1. [Admin Console](https://adminconsole.adobe.com/enterprise/) で、「**[!UICONTROL 製品]**」をクリックします。
-1. 組織名をクリックします。
-1. 「**[!UICONTROL 新しいプロファイル]**」をクリックします。
-1. プロファイルの詳細を設定し、「**[!UICONTROL 保存]**」をクリックします。
+1. [Admin Console](https://adminconsole.adobe.com/enterprise/)で、「**[!UICONTROL Products]**」を選択します。
+1. 組織名を選択します。
+1. 「**[!UICONTROL 新しいプロファイル]**」を選択します。
+1. プロファイルの詳細を設定し、「**[!UICONTROL 保存]**」を選択します。
 
 詳細（および Creative Cloud と Document Cloud 製品管理のヘルプ）については、『[管理ユーザーガイド](https://helpx.adobe.com/jp/enterprise/admin-guide.html/jp/enterprise/using/users.ug.html)』の[ID](https://helpx.adobe.com/jp/enterprise/admin-guide.html/jp/enterprise/using/identity.ug.html) を参照してください。
 
@@ -82,16 +82,16 @@ Admin Console では、組織内の他のユーザーに管理権限を制限付
 
 副管理者ロールを使用すると、必要以上の機能を提供することなく、複数の人に同時に管理を委任できます。
 
-1. Admin Console で「**[!UICONTROL ユーザー]**」をクリックしてから、ユーザー名をクリックします。
+1. Admin Consoleで、「**[!UICONTROL ユーザー]**」を選択し、ユーザー名を選択します。
 
    ![](assets/edit-admin-rights.png)
 
-1. 「**[!UICONTROL 管理者権限を編集]**」をクリックします。
+1. 「**[!UICONTROL 管理者権限を編集]**」を選択します。
 
    ![](assets/edit-admin-rights-page.png)
 
 1. ユーザーの管理権限を指定します。
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL 保存]**」を選択します。
 
 ## Analytics ユーザーと製品の管理 {#section_97DE101F92CD494AB073893680992F1A}
 
@@ -99,8 +99,8 @@ Admin Console では、組織内の他のユーザーに管理権限を制限付
 
 例えば、複数の Analytics ツール（[!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、[!UICONTROL Report Builder]）を含む製品プロファイルを作成できます。これらのプロファイルには、特定の指標およびディメンション（eVar を含む）に対する権限と、セグメントや計算指標の作成などの機能が含まれます。
 
-1. [Admin Console](https://adminconsole.adobe.com/enterprise) にログインし、「**[!UICONTROL 製品]**」をクリックします。
-1. [!UICONTROL 製品]ページで、製品をクリックしてから「**[!UICONTROL 権限]**」をクリックします（管理者のみが使用できます）。
+1. [Admin Console](https://adminconsole.adobe.com/enterprise)にログインし、「**[!UICONTROL 製品]**」を選択します。
+1. [!UICONTROL 製品]ページで、製品を選択し、「**[!UICONTROL 権限]**」を選択します（管理者のみ使用可能）。
 1. プロファイルの権限の設定：
 
 | 要素 | 説明 |
