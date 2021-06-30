@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 95%
+ht-degree: 62%
 
 ---
 
@@ -20,34 +20,34 @@ ht-degree: 95%
 
 Creative Cloud ユーザーと Experience Cloud アセットフォルダーを共有します。
 
-1. Asset フォルダーで、「**[!UICONTROL Creative Cloud で共有]**」をクリックします。
+1. Assetフォルダーで、「**[!UICONTROL Creative Cloudで共有]**」を選択します。
 
    ![手順の結果](assets/asset-share-cc.png)
-1. Creative Cloud で共有ページでユーザーを検索してから、「**[!UICONTROL 追加]**」をクリックします。
+1. 「Creative Cloudに共有」ページでユーザーを検索し、「****&#x200B;を追加」を選択します。
 
    ![](assets/asset-share-cc-page.png)
 
-1. 「**[!UICONTROL 共有]**」をクリックします。
+1. **[!UICONTROL 共有]**&#x200B;を選択します。
 1. [!DNL Creative Cloud] デスクトップを起動（またはブラウザーの [!UICONTROL Creative Cloud Files] ページに移動）して、要求通知を探します。
 
    ![](assets/cc_share_request.png)
-1. 要求を開いてから、「**[!UICONTROL 同意]**」をクリックします。
+1. リクエストを開き、「**[!UICONTROL Accept]**」を選択します。
 
    ![手順の結果](assets/cc_share_accept.png)
-1. フォルダーのコンテンツにアクセスするには、「**[!UICONTROL フォルダーを開く]**」（または「**[!UICONTROL Web で表示]**」）をクリックします。
+1. フォルダーのコンテンツにアクセスするには、「**[!UICONTROL フォルダーを開く]**」（または「**[!UICONTROL Webで表示]**」）を選択します。
 
    ![手順の結果](assets/creative_cloud_open_folder.png)
 1. 共有アセットにコメントを追加して続行します。
 
-   Creative Cloud では、画像をクリックしてから「**[!UICONTROL アクティビティ]**」をクリックして、画像にコメントを追加することができます。コメントは、[!DNL Creative Cloud] と [!DNL Experience Cloud] のアセットで同期されます。
+   Creative Cloudでは、画像を選択し、「**[!UICONTROL アクティビティ]**」を選択して、画像にコメントを追加できます。 コメントは、[!DNL Creative Cloud] と [!DNL Experience Cloud] のアセットで同期されます。
 
    ![](assets/asset_comment_cc.png)
 
-   Experience Cloud では、画像をクリックしてからタイムラインアイコンをクリックして、画像にコメントを追加します。コメントは、Creative Cloud と Experience Cloud のアセットで同期されます。
+   Experience Cloudで、画像内を選択してから、タイムラインアイコンを選択して画像にコメントを追加します。 コメントは、Creative Cloud と Experience Cloud のアセットで同期されます。
 
    ![](assets/asset_comment_mac.png)
 
-1. フォルダーの共有を解除するには、「**[!UICONTROL Creative Cloud を使用して共有]**」（[手順 3](t-share-creative-cloud.md#step_BA17CFA185284641A9B878BA29551996) と同様）をクリックしてから「X」をクリックしてユーザーを削除し、「**[!UICONTROL 共有]**」をクリックします。
+1. Creative Cloudーの共有を解除するには、「**[!UICONTROL フォルダーを使用して共有]**」（[手順3](t-share-creative-cloud.md#step_BA17CFA185284641A9B878BA29551996)と同様）を選択し、「X」を選択してユーザーを削除してから、「**[!UICONTROL 共有]**」を選択します。
 
 ![](assets/asset_remove_user.png)
 
