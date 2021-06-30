@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: f94e8b8f-d666-4aa1-a3b7-246026035b78
-source-git-commit: cd0f9a975732c6c8c3db8ddca6e702449b0efeed
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 89%
+ht-degree: 74%
 
 ---
 
@@ -24,8 +24,8 @@ Experience Cloud には、承認された Creative Cloud ユーザーを管理�
 >
 >この手順は、管理者のみが実行できます。
 
-1. Experience Cloud で、**[!UICONTROL 管理]**／**[!UICONTROL Creative Cloud 共同作業者を管理]**&#x200B;をクリックします。
-1. 「**[!UICONTROL Creative Cloud アセット共有]**」をクリックします。
-1. 「**[!UICONTROL 新しいユーザーを追加]**」をクリックします。![](assets/mac_add_icon.png)
+1. Experience Cloudで、「**[!UICONTROL 管理]**/**[!UICONTROL Creative Cloud共同作業者を管理]**」を選択します。
+1. 「**[!UICONTROL Creative Cloudアセット共有]**」を選択します。
+1. 「**[!UICONTROL 新しいユーザーを追加]**」を選択します。 ![](assets/mac_add_icon.png)
 1. 電子メール、表示名、タイトルを入力し、オプションでアバターを追加します。
-1. 「**[!UICONTROL 作成]**」をクリックします。
+1. 「**[!UICONTROL 作成]**」を選択します。
