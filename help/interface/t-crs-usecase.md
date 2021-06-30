@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '1152'
-ht-degree: 75%
+ht-degree: 73%
 
 ---
 
@@ -67,13 +67,13 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
 >
 >顧客属性ソースを作成、変更または削除する場合、IDが新しいデータソースと同期され始めるまで、最大1時間の遅延があります。 顧客属性ソースを作成または変更するには、Audience Managerの管理者権限が必要です。 Audience Manager カスタマーケアまたはコンサルティングに問い合わせて、管理者権限を取得してください。
 
-1. [!DNL Experience Cloud] で、メニュー ![](assets/menu-icon.png) アイコンをクリックします。
-1. **[!DNL Experience Platform]** で、**[!UICONTROL People]**／**[!UICONTROL 顧客属性]**&#x200B;をクリックします。
+1. [!DNL Experience Cloud]で、メニュー![](assets/menu-icon.png)アイコンを選択します。
+1. **[!DNL Experience Platform]**&#x200B;の下で、**[!UICONTROL People]** > **[!UICONTROL 顧客属性]**&#x200B;を選択します。
 
    [!UICONTROL 顧客属性]ページでは、既存の属性データソースを管理したり、編集したりできます。
 
    ![手順の結果](assets/03_crs_usecase.png)
-1. 「**[!UICONTROL 新規]**」をクリックします。
+1. 「**[!UICONTROL 新規]**」を選択します。
 
    ![手順の結果](assets/04_crs_usecase.png)
 1. [!UICONTROL 顧客属性ソースを編集]ページで、以下のフィールドを設定します。
@@ -153,7 +153,7 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
 
 **属性ソースを有効化するには**
 
-[!UICONTROL 新しい顧客属性ソースを作成 [または] 顧客属性ソースを編集]ページで、[!UICONTROL アクティブにする]見出しを探し、「**[!UICONTROL アクティブ]**」をクリックします。
+[!UICONTROL 新しい[を作成または]顧客属性ソースを編集]ページで、[!UICONTROL アクティブ化]の見出しを探し、**[!UICONTROL アクティブ]**&#x200B;を選択します。
 
 ![手順の結果](assets/activate_attribute_source.png)
 
