@@ -9,14 +9,14 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 84%
+ht-degree: 79%
 
 ---
 
-# Analytics の cookie {#analytics-cookies}
+# Analytics の cookie{#analytics-cookies}
 
 Adobe Analytics では、異なるブラウザーからのリクエストを区別する目的と、アプリケーションによって後で使用されることがある有用な情報を保存する目的で cookie を使用します。また、閲覧情報を顧客レコードに関連付ける場合にも使用できます。
 
@@ -61,7 +61,7 @@ Analyticsは、cookieを使用して新規訪問者を匿名で定義し、ク�
 
 | 属性 | 説明 |
 |--- |--- |
-| 保存される情報 | この cookie は、ClickMap 機能や Activity Map 機能が有効になっている場合に JavaScript によって設定され、読み取られます。ユーザーが直前にクリックしたリンクに関する情報が含まれています。 |
+| 保存される情報 | SelectMap機能またはActivity Map機能が有効になっている場合、このcookieはJavaScriptによって設定され、読み取られます。ユーザーが前に選択したリンクに関する情報が含まれます。 |
 | 有効期限 | この cookie はセッション cookie で、ブラウザーを閉じると有効期限が切れます。 |
 | 用途 | すべてのアカウントに対して 1 つの cookie のみ。 |
 | 場所 | この cookie はページのドメインに保存されます。 |
