@@ -7,14 +7,14 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 96%
+ht-degree: 84%
 
 ---
 
-# Advertising Cloud の cookie {#advertising-cloud-cookies}
+# Advertising Cloud の cookie{#advertising-cloud-cookies}
 
 Advertising Cloud では、広告エンゲージメントイベントをコンバージョンイベントにマッピングしたり、その情報を使用して広告入札を最適化するために、cookie が使用されます。
 
@@ -30,7 +30,7 @@ Advertising Cloud では、広告エンゲージメントイベントをコン�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>保存される情報 </p> </td> 
-   <td colname="col2"> <p>ディスプレイクリックの ID およびタイムスタンプ（yyyymmdd 形式）</p> </td> 
+   <td colname="col2"> <p>表示のIDとタイムスタンプ（yyyymmdd形式）は、が選択します</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>有効期限 </p> </td> 
@@ -38,7 +38,7 @@ Advertising Cloud では、広告エンゲージメントイベントをコン�
   </tr> 
   <tr> 
    <td colname="col1"> <p>用途 </p> </td> 
-   <td colname="col2"> <p>ディスプレイ広告のクリックイベントが Adobe Analytics ヒットに適用されるかどうかを判断するために使用されるサードパーティ cookie </p> </td> 
+   <td colname="col2"> <p>ディスプレイ広告の選択イベントがAdobe Analyticsのヒットに適用されるかどうかを判断するために使用されるサードパーティCookie </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>場所 </p> </td> 
@@ -96,7 +96,7 @@ Advertising Cloud では、広告エンゲージメントイベントをコン�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>保存される情報 </p> </td> 
-   <td colname="col2"> <p>広告主の Web サイトへのサーファーの最後の訪問のタイムスタンプ、サーファーの最後の検索クリックのタイムスタンプ、ユーザーが広告をクリックした際に作成された ef_id</p> </td> 
+   <td colname="col2"> <p>広告主のWebサイトへのサーファーの最後の訪問のタイムスタンプと、サーファーの最後の検索選択のタイムスタンプ、およびユーザーが広告を選択したときに作成されたef_id</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>有効期限 </p> </td> 
