@@ -7,7 +7,7 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 6a9a3068d2831be28f4cbe859d93eb1ad580897f
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 56%
@@ -18,7 +18,7 @@ ht-degree: 56%
 
 このドキュメントは、Experience Cloud統合ヘッダーの機能([!UICONTROL People]サービス（Audiencesと顧客属性）、Experience Cloudのユーザーと製品の管理、cookie、アカウント設定、通知など)に適用されます。
 
-Experience Cloudでこれらのサービスにアクセスするには、**[!UICONTROL アプリケーションセレクター]**
+Experience Cloudでこれらのサービスにアクセスするには、「**[!UICONTROL アプリケーションセレクター]**」を選択します。
 ![](assets/menu-icon.png).
 
 ![](assets/platform-core-services.png)
