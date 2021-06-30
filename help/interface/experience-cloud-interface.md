@@ -6,10 +6,10 @@ feature: 「中央インターフェイスコンポーネント」
 topic: 管理
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -26,8 +26,8 @@ Experience Cloud の中央インターフェイスコンポーネントには、
 ログインし、自分が適切な[組織](organizations.md)に属していることを確認します。
 
 1. [Adobe Experience Cloud](https://experience.adobe.com) に移動します。
-1. 「**[!UICONTROL Adobe ID でログイン]**」をクリックします。
-1. Adobe Experience Cloud で、組織をクリックします。
+1. 「**[!UICONTROL Adobe IDでログイン]**」を選択します。
+1. Adobe Experience Cloudで、組織を選択します。
 
    ![](assets/organizations-menu.png)
 
@@ -37,7 +37,7 @@ Experience Cloud の中央インターフェイスコンポーネントには、
 
 Experience Cloud にログインすると、統合ヘッダーからすべてのアプリケーション、サービスおよび組織にすばやくアクセスできます。
 
-自身が所有している Experience Cloud サービスにアクセスするには、アプリケーションセレクター![](assets/menu-icon.png)をクリックします。
+所有するアプリケーションサービスにアクセスするには、Experience Cloudセレクター![](assets/menu-icon.png)を選択します。
 
 ![](assets/platform-core-services.png)
 
@@ -67,7 +67,7 @@ Experience Cloud の検索では、[Experience League](https://experienceleague.
 
 Experience Cloud の環境設定には、通知、購読、アラートが含まれます。
 
-アカウントメニュー![](assets/preferences-icon-sm.png)から「**[!UICONTROL 環境設定]**」をクリックして、環境設定を管理します。
+アカウントメニュー![](assets/preferences-icon-sm.png)から「**[!UICONTROL 環境設定]**」を選択して、環境設定を管理します。
 
 ![](assets/preferences-page.png)
 
@@ -85,7 +85,7 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 
 ## 通知とお知らせ
 
-「**[!UICONTROL 通知]**」をクリックすると、重要な通知や、アドビからのお知らせを表示できます。
+「**[!UICONTROL 通知]**」を選択すると、重要な通知や、Adobeからのお知らせを表示できます。
 
 ![](assets/notifications-menu-small.png)
 
