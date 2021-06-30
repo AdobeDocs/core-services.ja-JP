@@ -7,10 +7,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-source-git-commit: 978f2214cd802562880a3aff82677e033229c0a4
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '1119'
-ht-degree: 68%
+ht-degree: 64%
 
 ---
 
@@ -35,17 +35,17 @@ Experience Cloud サービス（Experience Cloud ID サービスや [!UICONTROL 
 
 1. [!DNL Analytics]／**[!UICONTROL 管理]**／**[!UICONTROL データガバナンス]**&#x200B;で、データガバナンス用レポートスイートに移動します（[レポートスイートのデータガバナンス設定の表示／管理](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=en)を参照）。
 
-1. 各レポートスイートにアクセスできるログイン会社を確認するには、「**[!UICONTROL 表示可能なログイン会社名]**」をクリックします。
+1. 各レポートスイートにアクセスできるログイン会社を確認するには、「**[!UICONTROL 表示可能なログイン会社名]**」を選択します。
 
    この画面は、十分な情報に基づいてマッピングをおこなえるようにすることを目的としています。
 
-1. レポートスイートの横にある「**[!UICONTROL マッピングされた組織]**」列のドロップダウンリストをクリックし、マッピングする組織を選択します。
+1. レポートスイートの横にある「**[!UICONTROL マッピングされた組織]**」列のドロップダウンリストを選択し、マッピングする組織を選択します。
 
    Experience Cloud 組織の選択に関するヒントについては、次の節を参照してください。
 
 ## 組織に複数のレポートスイートをマッピングする {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
-1. **[!UICONTROL Experience Cloud]**／**[!UICONTROL 管理]**／**[!UICONTROL レポートスイートマッピング]**&#x200B;をクリックします。
+1. **[!UICONTROL Experience Cloud]** / **[!UICONTROL 管理]** / **[!UICONTROL レポートスイートマッピング]**&#x200B;を選択します。
 
 1. マッピングするレポートスイートを選択します。
 
@@ -55,7 +55,7 @@ Experience Cloud サービス（Experience Cloud ID サービスや [!UICONTROL 
 
    Experience Cloud 組織の選択に関するヒントについては、次の節を参照してください。
 
-1. 「**[!UICONTROL マッピングを保存]**」をクリックします。
+1. 「**[!UICONTROL マッピングを保存]**」を選択します。
 
 ## Experience Cloud 組織の選択に関するヒント {#mapping-tips}
 
