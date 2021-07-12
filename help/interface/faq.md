@@ -6,13 +6,13 @@ title: 'Experience Cloud に関するよくある質問 '
 index: true
 feature: Admin Console
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
@@ -70,7 +70,7 @@ Experience Cloud でのプロビジョニングには次のような利点があ
 
 * ユーザーの使用権限と製品の管理は、[Adobe Admin Console](https://adminconsole.adobe.com/enterprise)（製品リンク）でおこないます。
 
-* **重要：** Analytics 管理ツールから Admin Console へのユーザー ID の移行に関する Analytics 管理者向けの詳細情報については、[Admin Console での Analytics ユーザーの管理](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en)を参照してください。
+* **重要：** Analytics 管理ツールから Admin Console へのユーザー ID の移行に関する Analytics 管理者向けの詳細情報については、[Admin Console での Analytics ユーザーの管理](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=ja)を参照してください。
 
 ## ユーザーが Experience Cloud にログインできない場合、管理者はどのように対処しますか。
 
