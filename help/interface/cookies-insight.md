@@ -6,17 +6,17 @@ title: 'Data Workbench の cookie '
 uuid: c15013f4-c47d-4950-aa19-be9afd25cd5f
 feature: Cookie
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: f00cbf4d-ece0-4827-a65f-e3b7068d680c
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 63%
 
 ---
 
-# Data Workbench の cookie {#data-workbench-cookies}
+# Data Workbench の cookie{#data-workbench-cookies}
 
 Data Workbenchでは、急速に変遷していく大量のデータをリアルタイムで分析する目的でcookieを使用します。
 
