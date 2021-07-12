@@ -6,10 +6,10 @@ title: クロスソリューションサービス向けソリューションを�
 index: true
 feature: 顧客属性
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '2275'
 ht-degree: 72%
@@ -137,7 +137,7 @@ Experience Cloud サービス（Experience Cloud ID サービスや [!UICONTROL 
 
 ## Analytics の AppMeasurement コードを更新する {#section_1798D9D0F05C47E29816AC4EEB9A0913}
 
-Analytics を使用している場合は、地域データ収集（RDC）を使用していることを確認します。データ収集ドメインが `omtrdc.net` の場合、または CNAME が `omtrdc.net` にマッピングされている場合は、RDC を使用しています。詳しくは、[RDC への移行](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=en)を参照してください。ファーストパーティ Cookie を使用している場合、データ収集 CNAME とクロスドメイン追跡については、[CNAME と Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en)を参照してください。
+Analytics を使用している場合は、地域データ収集（RDC）を使用していることを確認します。データ収集ドメインが `omtrdc.net` の場合、または CNAME が `omtrdc.net` にマッピングされている場合は、RDC を使用しています。詳しくは、[RDC への移行](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=ja)を参照してください。ファーストパーティ Cookie を使用している場合、データ収集 CNAME とクロスドメイン追跡については、[CNAME と Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en)を参照してください。
 
 訪問者 API など JavaScript ライブラリを更新して Analytics の実装を最新化することが推奨されます。これをおこなう最も簡単な方法は、Experience Platformデータ収集(Launch)に[Adobe Analytics拡張機能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=ja)を追加することです。
 
@@ -228,6 +228,6 @@ Adobe[!DNL Experience Cloud]内でリアルタイムのオーディエンスプ�
 
 適切なオプトアウト機能を提供したい場合、サイトへの訪問者は、既存のオプトアウト処理に Audience Manager オプトアウトを追加する必要があります。
 
-手順については、[Adobe Experience Cloud ヘルプのアドビオプトアウトの導入](https://experienceleague.adobe.com/docs/analytics/implementation/js/opt-out.html)を参照してください。
+手順については、[Adobe Experience Cloud ヘルプのアドビオプトアウトの導入](https://experienceleague.adobe.com/docs/analytics/implementation/js/opt-out.html?lang=ja)を参照してください。
 
 クロスドメイントラッキングの有効化については、[データ収集 CNAME およびクロスドメイントラッキング](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en)を参照してください。
