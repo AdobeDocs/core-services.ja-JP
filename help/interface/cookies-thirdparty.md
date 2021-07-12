@@ -1,18 +1,18 @@
 ---
-description: ブラウザーでサードパーティ Cookie のサポートがますます制限されるようになっている状況について説明します。
+description: ブラウザーでサードパーティ cookie のサポートがますます制限されるようになっている状況について説明します。
 keywords: cookie;プライバシー
 solution: Experience Cloud,Analytics,Target
 title: 'サードパーティ cookie のサポートに対する変更がお客様に及ぼす影響  '
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 feature: Cookie
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 3d12a1b1-c952-4b42-815d-f64b31429cec
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '267'
-ht-degree: 59%
+ht-degree: 63%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 59%
 
 ## Adobe Analytics および Adobe Target
 
-* 同じサイトアクティビティがファーストパーティcookieのみに依存するので、AnalyticsとTargetはほとんど影響を受けません。 複数のドメインにわたるユーザーアクティビティを理解するには、サードパーティCookieが必要です。 サードパーティCookieがブロックされているブラウザーの場合、Cookieを使用したクロスドメイントラッキングはできません。
+* 同じサイトアクティビティがファーストパーティcookieのみに依存するので、AnalyticsとTargetはほとんど影響を受けません。 複数のドメインをまたいだユーザーアクティビティを理解するには、サードパーティ cookie が必要です。サードパーティCookieがブロックされているブラウザーの場合、Cookieを使用したクロスドメイントラッキングはできません。
 
 ## Adobe Experience Manager
 
