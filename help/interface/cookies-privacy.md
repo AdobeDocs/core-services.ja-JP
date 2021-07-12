@@ -6,17 +6,17 @@ title: 'Cookie とプライバシー '
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
 feature: Cookie
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 169b5c67-aab6-4b2a-832e-c5998d796bf7
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 85%
 
 ---
 
-# cookie とプライバシーについて {#about-cookies-and-privacy}
+# cookie とプライバシーについて{#about-cookies-and-privacy}
 
 アドビでは、お客様のプライバシーおよびデータセキュリティを最優先の重要事項と認識して、Adobeは、複数のプライバシー組織に参加し、プライバシー規制や自主規制との協力関係にあります。 この協力には、Digital Advertising Alliance AdChoicesプログラムが含まれ、お客様は、お客様の情報の使用方法に関する情報と、その使用方法に関する選択肢を提供します。
 
