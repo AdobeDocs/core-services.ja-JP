@@ -3,11 +3,11 @@ title: 顧客属性の使用方法
 description: Adobe Experience Cloud の顧客属性サービスについて説明します。 Adobe AnalyticsとAdobe Targetで使用する顧客属性データをアップロードする方法を紹介します。
 solution: Experience Cloud
 feature: 顧客属性
-role: Administrator
+role: Admin
 topic: 管理
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 75%
