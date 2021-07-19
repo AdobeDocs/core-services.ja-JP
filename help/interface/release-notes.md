@@ -9,10 +9,10 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 31cfb3a85c255b72cbe5599aca09494c22fe4301
 workflow-type: tm+mt
-source-wordcount: '4199'
-ht-degree: 89%
+source-wordcount: '4224'
+ht-degree: 88%
 
 ---
 
@@ -23,6 +23,10 @@ Experience Cloud中央インターフェイスコンポーネントの機能、�
 ドキュメントの更新のリストについては、[Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784) を参照してください。
 
 すべてのソリューションを対象とするリリースノートについては、[Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)を参照してください。
+
+## 2021年7月
+
+統合検索が更新され、Journey Optimizer、オファー、Experience Leagueで利用できるようになりました。 以前は、この機能はExperience Platformユーザーのみが使用できました。
 
 ## 2021年6月
 
