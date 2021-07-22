@@ -8,18 +8,14 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '334'
 ht-degree: 84%
 
 ---
 
 # Experience Cloud Assets の概要
-
->[!NOTE]
->
->アセットは従来のコアサービスで、現在はメンテナンス中です。
 
 Experience Cloud Assets は、複数のソリューション間で共有できるマーケティング用アセットの単一の一元的なリポジトリを提供します。アセットは、デジタルドキュメント、画像、ビデオ、オーディオのいずれか（またはその一部）で、複数のレンディションや、サブアセット（例えば、[!DNL Photoshop] ファイルのレイヤー、[!DNL PowerPoint] ファイルのスライド、PDF のページ、ZIP 内のファイルなど）を持つことができます。
 
