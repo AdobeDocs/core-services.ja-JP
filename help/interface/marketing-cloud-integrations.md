@@ -9,9 +9,9 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1378'
 ht-degree: 79%
 
 ---
@@ -70,10 +70,6 @@ Experience Cloud オーディエンスライブラリでオーディエンスを
 
 ヘルプ：[顧客属性](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 
->[!NOTE]
->
->顧客属性は従来のサービスで、現在はメンテナンス中です。
-
 エンタープライズ顧客データを顧客関係管理(CRM)データベースに取り込む場合は、そのデータをExperience Cloudの顧客属性データソースにアップロードできます。 アップロードが完了したら、[!DNL Adobe Analytics]と[!DNL Adobe Target]のデータを使用します。
 
 **適用可能なソリューションまたはサービス**
@@ -84,10 +80,6 @@ Experience Cloud オーディエンスライブラリでオーディエンスを
 ## Experience Cloud Assets {#section_92BC5DFDB0E0499CB0DD34B85E06F79A}
 
 ヘルプ：[Creative Cloud との Experience Cloud フォルダーの共有](creative-cloud.md)
-
->[!NOTE]
->
->アセットは従来のコアサービスで、現在はメンテナンス中です。
 
 Experience Cloud と Creative Cloud の間でフォルダーやアセットを共有します。共有アセットで共同作業をしたり、注釈を付けたり、それらを [!DNL Social] や [!DNL Target] などの Experience Cloud ソリューションで使用したりできます。
 
