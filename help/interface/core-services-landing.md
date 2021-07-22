@@ -7,10 +7,10 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 56%
+source-wordcount: '364'
+ht-degree: 58%
 
 ---
 
@@ -33,7 +33,7 @@ Experience Cloudでこれらのサービスにアクセスするには、「**[!
 | [People — 顧客属性](attributes.md) | イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築できます。[!UICONTROL Journey Orchestration] は、Experience Platform と統合されたアプリケーションサービスです。 |
 | [Location Service](https://experienceleague.adobe.com/docs/places/using/home.html?lang=ja) | Adobe [!UICONTROL Experience Platform Location Services] は、位置情報サービスです。柔軟な目標地点（POI）データベースを備えた、機能が豊富で使いやすい SDK インターフェイスを使用して、位置認識機能を備えたモバイルアプリが位置情報を認識できるようにします。 |
 | [Activation](activation.md) | Activationには、Experience Platformデータ収集(Launch)およびExperience Cloudトリガーと呼ばれる最新のタグ管理製品が含まれています。 |
-| [Assets](experience-cloud-assets.md) | Experience Cloud Assets は、複数のソリューション間で共有できるマーケティング用アセットの単一の一元的なリポジトリを提供します。（アセットは従来のサービスで、現在は維持中です）。 |
+| [Assets](experience-cloud-assets.md) | Experience Cloud Assets は、複数のソリューション間で共有できるマーケティング用アセットの単一の一元的なリポジトリを提供します。 |
 | [管理](admin-getting-started.md) | Admin Console へのログイン、Experience Cloud ユーザーの権限および製品プロファイルの管理、ブラウザーのサポートについて説明します。 |
 | [Cookie](cookies-privacy.md) | アドビでは、お客様のプライバシーおよびデータセキュリティを最優先の重要事項と認識して、Adobeは、複数のプライバシー組織に参加し、プライバシー規制や自主規制との協力関係にあります。 |
 
