@@ -9,10 +9,10 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 31cfb3a85c255b72cbe5599aca09494c22fe4301
+source-git-commit: 1ab2027e60dd0cd6d62986dfd18922bd8c3de2d3
 workflow-type: tm+mt
-source-wordcount: '4224'
-ht-degree: 88%
+source-wordcount: '4279'
+ht-degree: 87%
 
 ---
 
@@ -23,6 +23,12 @@ Experience Cloud中央インターフェイスコンポーネントの機能、�
 ドキュメントの更新のリストについては、[Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784) を参照してください。
 
 すべてのソリューションを対象とするリリースノートについては、[Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)を参照してください。
+
+## 2021年8月
+
+| 機能 | 日付 | 説明 |
+| ------- | ------- | -------|
+| [!UICONTROL 統合された最新情報] ：最近アクセスしたビジネス・オブジェクトに対する拡張サポート | 2021 年 8 月 10 日（PT） | [!UICONTROL 統合最] 新情報は、Journey OptimizerとExperience Platformの追加のビジネスオブジェクトに拡張されました。Journey Optimizerのお客様は、最近アクセスしたオブジェクト(メッセージ、ジャーニー、セグメント、スキーマ、データセット、データソース、イベント、アクション、ソース、宛先)をAdobe Journey Optimizerのホームページから検索できます。 |
 
 ## 2021年7月
 
