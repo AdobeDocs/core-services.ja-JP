@@ -9,10 +9,10 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 1ab2027e60dd0cd6d62986dfd18922bd8c3de2d3
+source-git-commit: fc29feb4425d99c4e28fb1d40036dd9d93a801c2
 workflow-type: tm+mt
 source-wordcount: '4279'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
@@ -39,7 +39,7 @@ Experience Cloud中央インターフェイスコンポーネントの機能、�
 | 機能 | 日付 | 説明 |
 | ------- | ------- | ------- |
 | Adobe Federated ID のシングルサインオンサポート | 2021 年 6 月 17 日（PT） | Federated ID を使用すると、メールアドレスやパスワードを入力しなくても、Experience Cloud にログインできます。 この機能を使用するには、Experience CloudURLに`#/sso:@domain`を追加します。 <br>例えば、ドメイン `adobecustomer.com` を所有していて、Adobe Analytics にサインインしたい場合、URLは次のようになります。`https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
-| Experience League 検索 | 2021 年 6 月 1 日（PT） | Experience League ドキュメントの検索が改善されました。[Experience League](https://experienceleague.corp.adobe.com/docs/?lang=en) に移動し、「**[!UICONTROL 検索]**」フィールドを使用して、チュートリアル、ドキュメント、コースなどを検索します。 |
+| Experience League 検索 | 2021 年 6 月 1 日（PT） | Experience League ドキュメントの検索が改善されました。[Experience League](https://experienceleague.adobe.com/docs/?lang=ja) に移動し、「**[!UICONTROL 検索]**」フィールドを使用して、チュートリアル、ドキュメント、コースなどを検索します。 |
 
 {style=&quot;table-layout:auto&quot;}
 
