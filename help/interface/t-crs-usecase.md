@@ -9,10 +9,10 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 73%
+source-wordcount: '1151'
+ht-degree: 72%
 
 ---
 
@@ -86,7 +86,7 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
 
       エイリアス ID は、追加の顧客 ID 値を設定する方法に対応しています。以下に例を示します。
 
-      * **Dynamic Tag Management：**&#x200B;エイリアス ID は、[Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=ja)ツールの「[!UICONTROL 顧客設定]」の「*統合コード*」の値に対応しています。
+      * **Dynamic Tag Management：**&#x200B;エイリアス ID は、[Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)ツールの「[!UICONTROL 顧客設定]」の「*統合コード*」の値に対応しています。
 
       * **訪問者 API：**&#x200B;エイリアス ID は、各訪問者と関連付けることができる追加の[顧客 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en) に対応しています。
 
