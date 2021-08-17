@@ -9,10 +9,10 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 79%
+source-wordcount: '1425'
+ht-degree: 71%
 
 ---
 
@@ -64,7 +64,7 @@ Experience Cloud オーディエンスライブラリでオーディエンスを
 
 * [Adobe Target のアクティビティ](https://experienceleague.adobe.com/docs/target/using/activities/activities.html?lang=ja)
 * Audience Manager の[セグメント化](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=ja)
-* [Media Manager](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEyibmxtHqnZFSOMml-n993zOBc-ovZGNZkX5vgePWqKNMoMmPSqf9PkzFeYF4UN6GqSXDVNDvwgnvv9KT8PvVxk8%3D)（ログインが必要）
+* [Media Manager](https://enterprise.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEyibmxtHqnZFSOMml-n993zOBc-ovZGNZkX5vgePWqKNMoMmPSqf9PkzFeYF4UN6GqSXDVNDvwgnvv9KT8PvVxk8%3D)（ログインが必要）
 
 ## 顧客属性 {#section_6A9EA6847F654F129381869E5016626C}
 
@@ -115,11 +115,11 @@ Experience Cloud ソリューションや他の外部システムのデータを
 
 ## Activation {#section_A23510A2D57842F6BAD043650C06DE42}
 
-ヘルプ：[はじめに](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=ja#get-started)
+ヘルプ：[はじめに](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en)
 
 Experience Cloud Activation ソリューションを使用して、Experience Cloud ソリューションの設定とデバッグをおこないます。
 
-1. [Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ja)を使用して、ページ上のExperience Cloudアプリをアクティブにするコードを挿入します。
+1. [Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)を使用して、ページ上のExperience Cloudアプリをアクティブにするコードを挿入します。
 1. [Adobe Cloud Platform Auditor](https://experienceleague.adobe.com/docs/auditor/using/overview.html?lang=ja) を使用して実装をテストします。
 
 Adobe Experience Cloud Debugger 拡張機能を使用して、Auditor によって検出された問題をデバッグしたり、実装に関する他の情報を調べたりします。
@@ -127,11 +127,11 @@ Adobe Experience Cloud Debugger 拡張機能を使用して、Auditor によっ�
 **適用可能なソリューションまたはサービス**
 
 * [Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ja)
-* [Audience Manager](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html?lang=en)
-* [Media Manager](https://experienceleague.adobe.com/docs/dtm/using/tools/media-optimizer.html?lang=ja)
-* [Adobe Target](https://experienceleague.adobe.com/docs/dtm/using/tools/target.html?lang=ja)
-* [MAC ID サービス](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=ja)
-* [Nielsen トラッキング](https://experienceleague.adobe.com/docs/dtm/using/tools/nielsen.html?lang=ja)
+* [Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=en)
+* [Media Manager](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+* [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+* [MAC ID サービス](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+* [Nielsen トラッキング](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
 
 ## Adobe Target {#section_739716AB6022424CBC38724CDED10701}
 
@@ -144,7 +144,7 @@ Adobe Target と Adobe Analytics およびその他の Experience Cloud ソリ�
 * 顧客属性：顧客属性に対して[subscription](subscription.md)を使用してAdobe Targetを設定する
 * Experience Cloud Audiences：[Experience Cloud Audience ライブラリ](audience-library.md)
 * Analytics：[Adobe Target のレポートソースとしての Adobe Analytics](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja)
-* Dynamic Tag Management：[DTM を使用した Adobe Target の実装のベストプラクティス](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html?lang=ja)
+* Dynamic Tag Management：[DTM を使用した Adobe Target の実装のベストプラクティス](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
 * Audience Manager：[Adobe Audience Manager との Adobe Target データの統合](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=en)
 * Campaign：[Adobe Target と Campaign の統合](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=ja)
 
@@ -181,16 +181,16 @@ Adobe Experience Manager（AEM）Assets 内のアセットを Adobe Creative Clo
 
 ## [!DNL Adobe Advertising] {#section_9B1935F8BBC147C89C6DB68A35CB1BAB}
 
-ヘルプ（ログインが必要）：[Adobe Experience Cloud ソリューションおよびサービスとの統合](https://enterprise.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
+ヘルプ（ログインが必要）：[Adobe Experience Cloud ソリューションおよびサービスとの統合](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
 
 **適用可能なソリューションまたはサービス**
 
 **Analytics：**&#x200B;サイトエンゲージメントおよびコンバージョンデータを毎日 [!DNL Adobe Advertising] に送信できます（データは広告の最適化とレポート作成に使用されます）。また、[!DNL Advertising] は、検索エンジンおよびソーシャルネットワークのトラフィックデータを毎日 Analytics に送信できます（Analytics では、Reports &amp; Analytics、Report Builder および Ad Hoc Analysis の各機能でデータを利用できます）。
 
-**Dynamic Tag Manager:** Dynamic Tag Managerを使用して、検索、ソーシャル、ディスプレイ広告ランディングページ用に、広告ピクセルベースのコンバージョントラッキングタグ [](https://experienceleague.adobe.com/docs/dtm/using/tools/media-optimizer.html?lang=en)およびサードパーティトラッキングタグを作成できます。（[!DNL Advertising] タグを [!DNL Advertising] 内に直接作成することもできます。）
+**Dynamic Tag Manager:** Dynamic Tag Managerを使用して、検索、ソーシャル、ディスプレイ広告ランディングページ用に、広告ピクセルベースのコンバージョントラッキングタグ [](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)およびサードパーティトラッキングタグを作成できます。（[!DNL Advertising] タグを [!DNL Advertising] 内に直接作成することもできます。）
 
 **Experience Cloud Audiences：**（表示を管理する広告主）任意の [Adobe Experience Cloud Audiences](audience-library.md) を、ディスプレイ広告のターゲットとして使用できます。Experience Cloudで作成したオーディエンスと、Adobe Experience Cloudに公開したAnalyticsのオーディエンスを自動的に使用できます。 [!DNL Adobe Advertising]アカウントで許可されている場合は、Audience Managerのオーディエンスを使用することもできます。 Adobe Experience Cloud とプロファイルおよび Audiences へのアクセスおよび [!DNL Adobe Advertising] と Adobe Experience Cloud Audiences の間の初期設定について詳しくは、担当のアカウントマネージャーにお問い合わせください。**注意：** Adobe Target も使用する場合、Adobe Experience Cloud に公開した任意の Audiences も Adobe Target でのアクティビティに使用できます。
 
-**Experience Cloud Assets：**（表示を管理する広告主）任意の Adobe Experience Cloud アセットを、新しいディスプレイベータ表示を使用したディスプレイ広告のクリエイティブとして使用できます。Adobe Experience Cloud にアクセスするには、[Adobe Experience Cloud を通じて Adobe Advertising にログイン](https://enterprise-test.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D)しておく必要があります。Adobe Experience Cloud へのアクセスについて詳しくは、アカウントマネージャーにお問い合わせください。
+**Experience Cloud Assets：**（表示を管理する広告主）任意の Adobe Experience Cloud アセットを、新しいディスプレイベータ表示を使用したディスプレイ広告のクリエイティブとして使用できます。Adobe Experience Cloud にアクセスするには、[Adobe Experience Cloud を通じて Adobe Advertising にログイン](https://enterprise-test.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyoBomG0VowpcEgK5zzKFq3mDArroL6xIS3XkmJFZMeeXlj0uIZz-IEcOn3nVHmy9bwdSxEcDv6FMvTkjwz5rpIs%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D)しておく必要があります。Adobe Experience Cloud へのアクセスについて詳しくは、アカウントマネージャーにお問い合わせください。
 
-**Experience Cloud通知：** 各ページの上部にある通知リンクから、検索ベータアラートテンプレートから生成されたすべてのアラートを表示できます。また、Experience Cloudシステムの更新、投稿、メンションおよびアセットの共有を取得できます。 通知にアクセスするには、[Adobe Experience Cloud を通じて Adobe Advertising にログイン](https://enterprise-test.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D)しておく必要があります。Adobe Experience Cloud へのアクセスについて詳しくは、アカウントマネージャーにお問い合わせください。
+**Experience Cloud通知：** 各ページの上部にある通知リンクから、検索ベータアラートテンプレートから生成されたすべてのアラートを表示できます。また、Experience Cloudシステムの更新、投稿、メンションおよびアセットの共有を取得できます。 通知にアクセスするには、[Adobe Experience Cloud を通じて Adobe Advertising にログイン](https://enterprise-test.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyoBomG0VowpcEgK5zzKFq3mDArroL6xIS3XkmJFZMeeXlj0uIZz-IEcOn3nVHmy9bwdSxEcDv6FMvTkjwz5rpIs%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D)しておく必要があります。Adobe Experience Cloud へのアクセスについて詳しくは、アカウントマネージャーにお問い合わせください。
