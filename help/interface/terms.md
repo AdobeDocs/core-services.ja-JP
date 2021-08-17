@@ -11,10 +11,10 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
 source-wordcount: '1471'
-ht-degree: 73%
+ht-degree: 72%
 
 ---
 
@@ -29,7 +29,7 @@ Experience Cloud ユーザー向けの用語リファレンスと、これらの
 | オーディエンス | Creative Cloudでは、オーディエンスは、ビデオを閲覧する人でもかまいません。 | Experience Cloudでは、オーディエンスは、キャンペーンアクティビティの対象となる人の集まりです。<br>オーディエンスのメンバーかどうかは、訪問者のコンテキストに影響を与える一連のルールまたは固定リストに基づいて判断できます。例えば、電子メール登録者のリストや、Facebook グループのメンバーなどです。<br> [Experience Cloudオーディエンス](audience-library.md)では、オーディエンスを作成および管理することは、セグメントを作成および使用することに似ていますが、加えて、Experience Cloudで共有できます。<br>**Adobe Target**<br> Adobe Target では、Audiences は、以前セグメントと呼ばれていました。<br>**Adobe Analytics**<br> Analytics では、Audiences は Web サイトの訪問者と考えることができます。オーディエンスセグメントを作成し、オーディエンスを Experience Cloud に公開できます。 |
 | キャンペーン | Creative Cloudでは、キャンペーンは、Creative Cloud画像アセットを使用するマーケティングキャンペーンと考えることができます。 | Experience Cloudでは、キャンペーンは、オーディエンスに表示するコンテンツを決定します。 また、コンテンツをどこ（場所）にいつ表示するかを決定します。キャンペーンには具体的な目標があり、それは指標で追跡されます。<br>キャンペーンの実行には、訪問者のコンテキストとキャンペーンのルールセットを一致させ、キャンペーンの展開先チャネルの技術上の制限に従ってコンテンツを配信する必要があります。<br>Adobe Target では、キャンペーンとアクティビティは同義語です。 |
 | チャネル | Creative Cloudでは、チャネルは、様々な種類の情報を格納するグレースケール画像である場合があります。 情報チャネルとカラーチャネルがあります。 | Experience Cloud では、チャネルは、場所の属性またはキャンペーンのアクティビティを指します。<br>Analytics では、マーケティングチャネルは、サイトに訪問者がどのように到達するか（電子メール経由など）を把握するために一般に使用されます。<br> 以下に例を示します。<ul><li>電子メール</li><li>ディスプレイ広告</li><li>SNS</li><li>有料検索</li><li>自然検索</li><li>参照ドメイン</li></ul> |
-| コンテキスト | 通常は、選択または実行中のタスクに関連して使用可能なメニューまたは情報を指します。 | コンテキストは、訪問者の現在のインタラクションの詳細をデジタルプロパティと併せて説明します。コンテキストの例としては、マウスの位置、フォームフィールドの状態、買い物かごの値または使用されているデバイスがあります。<br>[Dynamic Tag Management](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=ja) は、今日の市場で最も堅牢なコンテキスト検出およびサービスアクティブ化機能を備え、プロファイルおよびオーディエンスサービスのコンテキストコンポーネントを提供します。 |
+| コンテキスト | 通常は、選択または実行中のタスクに関連して使用可能なメニューまたは情報を指します。 | コンテキストは、訪問者の現在のインタラクションの詳細をデジタルプロパティと併せて説明します。コンテキストの例としては、マウスの位置、フォームフィールドの状態、買い物かごの値または使用されているデバイスがあります。<br>[Dynamic Tag Management](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) は、今日の市場で最も堅牢なコンテキスト検出およびサービスアクティブ化機能を備え、プロファイルおよびオーディエンスサービスのコンテキストコンポーネントを提供します。 |
 | 消費者 ID | 特別な用法はありません。 | 人物を認識するために、Experience Platform Co-op Graph メンバーによって使用される ID。この番号はブランドによって割り当てられ、多くの場合 CRM システムで維持管理されます。**注意：** このIDを、消費者IDをExperience Cloudに送信する _Experience CloudID_ Servicefunction呼び出しであるsetCustomerIDs [](https://experienceleague.adobe.com/docs/id-service/using/intro/about-id-service.html?lang=en) と混同しないでください。 |
 | コンテンツ | Creative Cloudでは、コンテンツはページ上のテキストと画像を指します。 この用語は、CreativeとCreativesの間で同様に使用されています。Experience Cloud | Experience Cloud ではコンテンツとはマーケティングコンテンツを指し、特定の目標を達成するためにキャンペーンの一部として使用されることがあります。<br>コンテンツは、特定の場所に使用され、アセットで構成することができます。コンテンツには、構造化されているもの（製品情報など）も、構造化されていないもの（モバイルアプリの Web ページや画面など）もあります。<br> 以下に例を示します。<ul><li>Web ページ</li><li>バナー</li><li>ステータスの更新状況</li><li>コメント</li><li>テキスト広告</li><li>製品情報</li><li>製品レビュー</li><li>フォームデータ</li><li>検索インデックス内のドキュメント</li><li>Social への投稿</li><li>記事</li><li>公開物</li></ul> |
 | ダッシュボード | 特別な用法はありません。 | 複数の主要指標を 1 つのビューで表示するデータ視覚化機能の集まりです。 |
