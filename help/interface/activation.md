@@ -11,7 +11,7 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: d57f168b-6beb-48f2-b0d2-92593ceee62e
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 60%
@@ -26,7 +26,7 @@ Activationには、Experience Platform[!UICONTROL データ収集]([!UICONTROL L
 
 パーソナライズされたカスタマーエクスペリエンスの強化に必要な分析タグ、マーケティングタグ、広告タグのデプロイと管理をおこないます。
 
-「[Experience Platform Launchクイックスタートガイド](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=en)」を参照してください。
+「[Experience Platform Launchクイックスタートガイド](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en)」を参照してください。
 
 ## Experience Cloud[!UICONTROL トリガー] {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
