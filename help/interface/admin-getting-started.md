@@ -8,10 +8,10 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 95%
+source-wordcount: '1274'
+ht-degree: 94%
 
 ---
 
@@ -147,7 +147,7 @@ Experience Platform [!UICONTROL データ収集]（[!UICONTROL Launch]）は、[
 
 [!UICONTROL Platform Launch] にユーザーを招待し、ユーザーの役割と権限を割り当てます。
 
-Admin Console のユーザー権限と Launch 固有のオプションの形式について設定（プロファイルへの権限の割り当てなど）については、[ユーザー権限](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=ja#admin)を参照してください。
+Admin Console のユーザー権限と Launch 固有のオプションの形式について設定（プロファイルへの権限の割り当てなど）については、[ユーザー権限](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=en)を参照してください。
 
 ## Experience Manager as a Cloud Service
 
