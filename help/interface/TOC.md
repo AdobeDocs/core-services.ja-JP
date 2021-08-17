@@ -4,10 +4,10 @@ user-guide-title: 'Experience Cloud の主要なインターフェイスコン�
 breadcrumb-title: Experience Cloud の主要なインターフェイスコンポーネント
 user-guide-description: Experience Cloudのインターフェイス、環境設定の設定、ヘルプとビジネスオブジェクトの検索について説明します。 ユーザーと製品の管理、顧客属性、オーディエンスライブラリ、cookie、Experience Cloudアセットに関するヘルプを取得します。
 index: true
-source-git-commit: 62c49148ec5dfc945f946cea9a5948a8be781111
+source-git-commit: 21701779b0a502b39791a59104182fc5d3323f7b
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 80%
+ht-degree: 81%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 80%
       + [顧客属性のプライバシーに関する考慮事項](privacy-mac.md)
    + Experience Cloud Activation {#activation}
       + [Activation の概要](activation.md)
-      + [Experience Platform Launch ユーザーガイド](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ja)
+      + [Experience Platform Launch ユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
       + [Triggers](triggers.md)
    + Experience Cloud Assets {#assets}
       + [Experience Cloud Assets の概要](experience-cloud-assets.md)
@@ -47,7 +47,7 @@ ht-degree: 80%
       + [Creative Cloud デスクトップから共有フォルダーにアセットをアップロード](t-cc-asset-upload-thor.md)
       + [アセットファイルを共有するための要件](assets-file-reqs.md)
       + [共有フォルダーの動作](asset-behavior.md)
-+ Experience Cloud管理{#administration}
++ Experience Cloud administration {#administration}
    + [Experience Cloud ユーザー ID および製品の管理（Admin Console）](admin-getting-started.md)
    + [Experience Cloud ユーザーの詳細の表示（管理ツール）](admin-tool-experience-cloud.md)
    + [よくある質問](faq.md)
@@ -71,7 +71,7 @@ ht-degree: 80%
       + [サードパーティ cookie のサポートに対する変更がお客様に及ぼす影響 ](cookies-thirdparty.md)
 + Experience CloudUI {#release-notes}のリリースノート
    + [中央のインターフェイスコンポーネントのリリースノート](release-notes.md)
-   + [すべてのExperience Cloudのリリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)
+   + [すべてのExperience Cloudのリリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)
 + その他のリソース {#more-resources}
    + [フォーラム](https://experienceleaguecommunities.adobe.com/)
    + [用語](terms.md)
