@@ -12,13 +12,13 @@ exl-id: f94e8b8f-d666-4aa1-a3b7-246026035b78
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 74%
+ht-degree: 84%
 
 ---
 
 # Creative Cloud ユーザーの管理
 
-Experience Cloud には、承認された Creative Cloud ユーザーを管理するための管理ツールが用意されています。 これらのユーザーは、Campaign フォルダーにアドホックで招待できます。 キャンペーンに招待できるのは、管理者がリストに追加したユーザーだけです。 追加されたユーザーは、ユーザーのオートコンプリートExperience Cloudに表示されます。
+Experience Cloud には、承認された Creative Cloud ユーザーを管理するための管理ツールが用意されています。 これらのユーザーは、Campaign フォルダーにアドホックで招待できます。 キャンペーンに招待できるのは、管理者がリストに追加したユーザーだけです。 追加されたユーザーは、Experience Cloud のオートコンプリートユーザーリストに表示されます。
 
 >[!NOTE]
 >
