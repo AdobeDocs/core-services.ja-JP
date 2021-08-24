@@ -1,8 +1,8 @@
 ---
-description: FTPを使用して顧客属性データをアップロードする方法をExperience Cloudします。
+description: FTP 経由で顧客属性データを Experience Cloud にアップロードする方法について説明します。
 keywords: 顧客属性;コアサービス
 solution: Experience Cloud
-title: 'FTPを使用した顧客属性データファイルのアップロード '
+title: 'FTP 経由での顧客属性データファイルのアップロード '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
 feature: 顧客属性
 topic: 管理
@@ -12,15 +12,15 @@ exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 66%
+ht-degree: 98%
 
 ---
 
 # オプション - FTP を使用したデータファイルのアップロード
 
-ドラッグ&amp;ドロップを使用してアップロードしない場合は、FTPを使用して顧客属性データをExperience Cloudにアップロードできます。
+ドラッグ＆ドロップを使用してアップロードしない場合は、FTP 経由で顧客属性データを Experience Cloud にアップロードできます。
 
-顧客属性ソースとFTPアカウントをアップロードした後、Experience Cloudをアップロードできます。 属性ソースごとに 1 つの FTP アカウントを作成できます。アップロードしたファイルは、そのアカウントのルートフォルダーに保存されます。データは`.csv`形式にする必要があります。2つ目の`.fin`ファイルは、アップロードが完了したことを示します。
+Experience Cloud で顧客属性ソースと FTP アカウントを作成したら、データをアップロードできます。属性ソースごとに 1 つの FTP アカウントを作成できます。アップロードしたファイルは、そのアカウントのルートフォルダーに保存されます。データは `.csv` 形式にする必要があります。2 つ目の `.fin` ファイルは、アップロードが完了したことを示します。
 
 >[!IMPORTANT]
 >
@@ -29,7 +29,7 @@ ht-degree: 66%
 顧客属性 FTP サイトへのファイルアップロードは、FTP または SFTP を介して実行できます。
 
 * SFTP 接続をサポートしているクライアントが必要です。
-* [こちら](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=en)で説明しているように、ユーザー名／パスワードを使用して、またはパスワードを使用せずに、SFTP で接続できます。
+* [こちら](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=ja)で説明しているように、ユーザー名／パスワードを使用して、またはパスワードを使用せずに、SFTP で接続できます。
 
 **FTP を使用してデータファイルをアップロードするには**
 
