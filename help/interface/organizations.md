@@ -9,10 +9,10 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 90%
+source-wordcount: '511'
+ht-degree: 67%
 
 ---
 
@@ -24,11 +24,17 @@ ht-degree: 90%
 
 *組織は*、管理者がグループおよびユーザーの設定や、Experience Cloud でのシングルサインオンの制御をおこなえるエンティティです。組織は、すべての Experience Cloud 製品およびソリューションをまたいだログイン会社のように機能します。ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。
 
-また、サポートを受けるために組織 ID を特定することが必要になる場合もあります。**[!UICONTROL 組織]**&#x200B;メニューを使用して、自分が正しい組織に属していることを確認したり、組織を切り替えたりできます。
+自分が正しい組織にログインしたことを確認するには、自分のプロフィールのアバターをクリックして組織名を確認します。 複数の組織にアクセスできる場合は、ヘッダーバーで別の組織を表示して切り替えることもできます。
+
+組織がFederated IDを使用している場合、Experience Cloudを使用すると、電子メールアドレスとパスワードを入力しなくても、組織のシングルサインオンでサインインできます。 これをおこなうには、Experience CloudURL(`https://experience.adobe.com`)に`#/sso:@domain`を追加します。
+
+例えば、Federated IDとドメイン`adobecustomer.com`を持つ組織の場合、URLリンクを`https://experience.adobe.com/#/sso:@adobecustomer.com`に設定します。 また、このURLにアプリケーションパスを追加してブックマークを付けることで、特定のアプリに直接アクセスすることもできます。 (例：Adobe Analyticsの場合は`https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`)。
 
 ![手順の結果](assets/organization-switch.png)
 
 ## 組織 ID を見つける {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
+
+サポートを受けるために、組織IDを特定する必要が生じる場合があります。 **[!UICONTROL 組織]**&#x200B;メニューを使用して、自分が正しい組織に属していることを確認したり、組織を切り替えたりできます。
 
 **組織 ID：**&#x200B;プロビジョニングされた Experience Cloud の会社に関連付けられた ID。この ID は 24 文字の英数字から成る文字列で、その後に @AdobeOrg（必須）が続きます。
 
