@@ -12,7 +12,7 @@ exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ Experience Cloud 管理者向けのブラウザーサポート、よくある質
 
 ## Experience Cloud でサポートされているブラウザーは何ですか。
 
-* Microsoft® Edge（最新バージョン、および最新バージョンの2つ前までのバージョン）
+* Microsoft® Edge（最新バージョンおよび最新バージョンの 2 つ前までのバージョン）
 * Google Chrome（最新バージョン、および最新バージョンの 2 つ前までのバージョン）
 * Mozilla Firefox（最新バージョン、および最新バージョンの 2 つ前までのバージョン）
 * Safari（最新バージョン、および最新バージョンの 2 つ前までのバージョン）
@@ -33,7 +33,7 @@ Experience Cloud 管理者向けのブラウザーサポート、よくある質
 コアサービスのプロビジョニングがまだおこなわれていない場合は、以下の方法について説明した[ソリューションのコアサービスへの対応](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)を参照してください。
 
 1. [Experience Cloud に加入して管理者になる](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [Experience Platform Launch を利用して Experience Cloud ID サービスを実装する。](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en)
+1. [Experience Platform Launch を利用して Experience Cloud ID サービスを実装する](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en)。
 1. [レポートスイートを Experience Cloud 組織にマッピングする](core-services.md#concept_apg_zq2_rw)
 1. [（Analytics のみ）Analytics AppMeasurement コードを最新化する](core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [（Adobe Target のみ）Adobe Target の実装を最新化する](core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
@@ -49,7 +49,7 @@ Experience Cloud 管理者向けのブラウザーサポート、よくある質
 
 ## Experience Cloud インターフェイスを利用してログインしなければならないのはなぜですか。
 
-Experience Cloud インターフェイスが提供する機能は、ビジネスに新しい価値をもたらします。また、これは、今後のソリューションへの標準的なアクセス方法であり、個々のソリューションのログインフローに代わるものです。 Experience Cloudを使用したログインは、後でスムーズな移行を実現します。
+Experience Cloud インターフェイスが提供する機能は、ビジネスに新しい価値をもたらします。また、今後はソリューションへの標準パスとなり、最終的に個々のソリューションのログインフローに代わって使用されるようになります。　Experience Cloud を利用してログインすると、今後の移行をよりスムーズにおこなうことができます。
 
 ## 移行に関する問題を解決するにはどのようにしますか。
 
@@ -68,7 +68,7 @@ Experience Cloud でのプロビジョニングには次のような利点があ
 
 * 詳しくは、[Admin Console ユーザーガイド](https://helpx.adobe.com/jp/enterprise/admin-guide.html)を参照してください。
 
-* ユーザーの使用権限と製品の管理は、[Adobe Admin Console](https://adminconsole.adobe.com/enterprise)（製品リンク）でおこないます。
+* ユーザーの使用権限と製品の管理は [Adobe Admin Console](https://adminconsole.adobe.com/enterprise)（製品リンク）でおこないます。
 
 * **重要：** Analytics 管理ツールから Admin Console へのユーザー ID の移行に関する Analytics 管理者向けの詳細情報については、[Admin Console での Analytics ユーザーの管理](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=ja)を参照してください。
 
@@ -98,13 +98,13 @@ Admin Console 管理者はユーザーにアクセス権を付与できます。
 
 組織 ID は、Experience Cloud ランディングページおよび[Admin Console ランディングページ](https://adminconsole.adobe.com)に表示されます。
 
-また、管理者が特定の組織のAdmin Console([https://adminconsole.adobe.com](https://adminconsole.adobe.com#)に移動)にログインすれば、そのURLでIMS組織IDを確認できます。
+また、管理者が特定の組織の Admin Console（[https://adminconsole.adobe.com](https://adminconsole.adobe.com#) に移動）にログインすれば、その URL で IMS 組織 ID を確認できます。
 
 例として、次の URL を見てみましょう。
 
 `https://adminconsole.adobe.com/C538193582390300A495CC9@AdobeOrg/overview`
 
-IDは次のとおりです。
+ID は次のとおりです。
 
 `C538193582390300A495CC9@AdobeOrg`
 
