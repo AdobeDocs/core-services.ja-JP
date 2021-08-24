@@ -12,7 +12,7 @@ exl-id: ab6de845-99ea-4cd8-b7cd-012fb641403f
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -32,11 +32,11 @@ Audience Manager はいくつかのシンプルな cookie を利用して様々�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>目的</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> は、サイト訪問者に一意の ID を割り当てることを目的としてこの cookie を設定します。<span class="wintitle"> demdex </span> cookieは、<span class="keyword"> Audience Manager </span>が訪問者の識別、IDの同期、セグメント化、モデリング、レポート作成などの基本的な機能を実行するのに役立ちます。 </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> は、サイト訪問者に一意の ID を割り当てることを目的としてこの cookie を設定します。<span class="keyword">Audience Manager</span> は <span class="wintitle">demdex</span> Cookie を利用して、訪問者の識別、ID の同期、セグメント化、モデリング、レポート作成などの基本的な機能を実行します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>コンテンツ</b> </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">demdex</span> cookie には次のような形式で一意のユーザー ID（UUID）が書き込まれます。 </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=en" format="https" scope="external">Audience Manager の ID のインデックス</a>も参照してください。 </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">demdex</span> cookie には次のような形式で一意のユーザー ID（UUID）が書き込まれます。 </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=ja" format="https" scope="external">Audience Manager の ID のインデックス</a>も参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>その他の属性</b> </p> </td> 
@@ -129,7 +129,7 @@ dextp cookie のデータ構文：
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>目的</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword">Audience Manager</span> は、<a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=en" format="https" scope="external">宛先</a>へのデータ送信中にエラーが発生すると、この cookie を設定します。 </p> </td> 
+   <td colname="col2"> <p> <span class="keyword">Audience Manager</span> は、<a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=ja" format="https" scope="external">宛先</a>へのデータ送信中にエラーが発生すると、この cookie を設定します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>コンテンツ</b> </p> </td> 
@@ -152,4 +152,4 @@ dextp cookie のデータ構文：
 
 **_dp cookie**
 
-このcookieは一時的なものです。 [!DNL Audience Manager] は、demdex.net ドメインにサードパーティのコンテキストで他の cookie を設定できるかどうかを確認することを目的として `_dp` cookie の設定を試みます。設定に成功した場合は、`_dp` に値 1 が書き込まれます。[!DNL Audience Manager] はこの値を読み取ると、即座にこの cookie を削除します。`_dp` cookie が存在しない場合、[!DNL Audience Manager] は cookie を設定できないものと判断します。
+この Cookie は一時的なものです。 [!DNL Audience Manager] は、demdex.net ドメインにサードパーティのコンテキストで他の cookie を設定できるかどうかを確認することを目的として `_dp` cookie の設定を試みます。設定に成功した場合は、`_dp` に値 1 が書き込まれます。[!DNL Audience Manager] はこの値を読み取ると、即座にこの cookie を削除します。`_dp` cookie が存在しない場合、[!DNL Audience Manager] は cookie を設定できないものと判断します。
