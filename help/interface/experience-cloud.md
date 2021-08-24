@@ -8,7 +8,7 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
+source-git-commit: 4534f764ea821576c3ac5cd1959d387a3689e837
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 63%
@@ -89,7 +89,7 @@ Experience Cloudは、ユーザーアカウントの環境設定で設定され�
 
 ## お問い合わせとサポート {#support}
 
-[Experience League](https://experienceleague.adobe.com/?lang=ja#home)のヘルプコンテンツ（ドキュメント、チュートリアル、コース）や、個々のアプリケーションの追加リソースなど、ヘッダーのヘルプアイコン(![asset](assets\help-icon.png))を使用して、学習やヘルプにアクセスします。 また、オープンエンドのフィードバックを送信し、優先度の高いサポートチケットを作成することもできます。
+[Experience League](https://experienceleague.adobe.com/?lang=ja#home)のヘルプコンテンツ（ドキュメント、チュートリアル、コース）や、個々のアプリケーションの追加リソースなど、ヘッダーのヘルプアイコン(![asset](assets/help-icon.png))を使用して、学習やヘルプにアクセスします。 また、オープンエンドのフィードバックを送信し、優先度の高いサポートチケットを作成することもできます。
 
 ![](assets/search-menu.png)
 
