@@ -12,13 +12,13 @@ exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '939'
-ht-degree: 74%
+ht-degree: 90%
 
 ---
 
 # ログインと Experience Cloud プロファイル設定の管理
 
-（単一のソリューションではなく）Experience Cloudにログインすることで、所有するすべてのソリューションおよびサービスに対するシングルサインオンが可能になります。 ここでは、Experience Cloud へのログイン、パスワードおよび通知の管理、デフォルトのランディングページの指定について、それぞれの方法を説明します。
+個別のソリューションではなく Experience Cloud にログインすることにより、所有しているすべてのソリューションおよびサービスへのシングルサインオンが可能となります。ここでは、Experience Cloud へのログイン、パスワードおよび通知の管理、デフォルトのランディングページの指定について、それぞれの方法を説明します。
 
 >[!IMPORTANT]
 >
@@ -37,11 +37,11 @@ ht-degree: 74%
 
 | 要素 | 説明 |
 |--- |--- |
-| [Admin Console の基本](experience-cloud.md) | Experience Cloudソリューションの使用を開始するために必要な最初の手順について説明します。 |
+| [Admin Console の基本](experience-cloud.md) | Experience Cloud ソリューションの使用を開始するために必要な最初の手順について説明します。 |
 | [ID の設定](https://helpx.adobe.com/jp/enterprise/using/set-up-identity.html) | エンドユーザーを認証する ID システムを定義および設定します。 |
 | [ユーザー管理](https://helpx.adobe.com/jp/enterprise/using/users.html) | Admin Console へのログインと Experience Cloud ユーザーの権限および製品プロファイルの管理について説明します。 |
 | [Admin Console の起動](admin-getting-started.md) | Admin Console では、アドビのユーザーと製品の使用権限を組織全体にわたって一元的に管理できます。<br>[ダイレクトリンク](https://adminconsole.adobe.com)を使用して Admin Console にログインすることもできます。 |
-| [Creative Cloud ユーザーの管理](t-admin-add-cc-user.md) | Experience Cloudアセットを使用すると、マーケターは、Creative Cloudを使用して、デザイナーや他のクリエイティブアセットとフォルダー上での共有、同期、共同作業をおこなえます。 組織と共同作業することを承認された Creative Cloud ユーザーの管理はここでおこなえます。 |
+| [Creative Cloud ユーザーの管理](t-admin-add-cc-user.md) | Experience Cloud Assets では、Creative Cloud を使用してデザイナーや他のクリエイティブ担当者とフォルダー上での共有、同期、共同作業をおこなえます。組織と共同作業することを承認された Creative Cloud ユーザーの管理はここでおこなえます。 |
 | [レポートスイートをマッピング](core-services.md) | （Analytics のみ）Experience Cloud のコアサービスは個々のレポートスイートではなく組織に関連付けられています。これらのサービスを正しく機能させるには、各 Analytics レポートスイートを組織にマッピングする必要があります。（この作業は、[Analytics をコアサービスに対応させる](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)ワークフローの一部です）。 |
 | [組織 ID](organizations.md)   | *組織 ID* は管理ページの下部に表示されています。この ID は、プロビジョニングした Experience Cloud 会社に関連付けられている ID です。この ID は 24 文字の英数字から成る文字列で、その後に @AdobeOrg（必須）が続きます。 |
 
@@ -151,6 +151,6 @@ Experience Cloud での非管理者ユーザーのログインに関するヘル
 |--- |--- |--- |--- |
 | `tenantId` | ユーザーのログイン先となるテナントの名前。 | aem62tenant | オプション |
 | `destURL` | ユーザーのリダイレクト先となる場所の完全な URL。 | http://sc.omniture.com/login/?r=%2Fx%2F1_7xxzf&amp;tenantId=obuengsc&amp;company=OBU+Eng+SC | オプション |
-| `solutionname` | `destURL`パラメーターの所有者であるMACソリューションの名前。 このパラメーターは、URL の所有主であるソリューションにユーザーがアクセスできることを確認するために使用されます。`solutionname`が`destURL`パラメーターと同期していることを確認するのは、ソリューション側の責任です。  例：URLにソーシャルとして`solutionname`が含まれ、`destURL`でAnalyticsのURLを指定した場合、ユーザーはAnalyticsへのアクセス権を持っていなくても、そのURLにリダイレクトされます。 MACでは、`destURL`の所有者がソリューション名と同期しているかどうかは確認されません。 | analytics | `destURL`パラメーターを使用する場合は必須です。 |
+| `solutionname` | `destURL` パラメーターの所有主である MAC ソリューションの名前。このパラメーターは、URL の所有主であるソリューションにユーザーがアクセスできることを確認するために使用されます。`solutionname` と `destURL` パラメーターが同期しているかどうかの確認はソリューションサイドでおこなわれます。例：URLに Social として `solutionname` が含まれ、提供された `destURL` が Analytics の URL である場合、ユーザーは Analytics にアクセスできない場合でもその URL にリダイレクトされます。MAC では、`destURL` の所有主とソリューション名が同期しているかどうかの確認はおこなわれません。 | analytics |  `destURL` パラメーターが使用されている場合は必須です。 |
 
 {style=&quot;table-layout:auto&quot;}
