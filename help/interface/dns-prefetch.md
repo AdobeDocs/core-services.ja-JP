@@ -11,7 +11,7 @@ exl-id: caf2ff76-2076-436d-a5a7-aff531464480
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 88%
+ht-degree: 96%
 
 ---
 
@@ -34,7 +34,7 @@ DNS プリフェッチはページ上に埋め込まれている静的リンク�
 
 ## DNS プリフェッチのコードサンプル {#section_E886F7B2861E48BA9EF3D8B3CE32B345}
 
-以下のサンプルは、各種 [!DNL Experience Cloud] ソリューションおよびサービスに対する DNS プリフェッチの呼び出し方法を示しています。一部のプリフェッチ呼び出しには[!DNL Adobe]組織 ID またはトラッキングサーバー情報が必要です。各サンプル内の&#x200B;*斜体*&#x200B;で記述されたコードは変数のプレースホルダーを表しています。このコードを、独自の[!DNL Adobe]パートナーID、顧客コード、トラッキングサーバー情報などに置き換えます。
+以下のサンプルは、各種 [!DNL Experience Cloud] ソリューションおよびサービスに対する DNS プリフェッチの呼び出し方法を示しています。一部のプリフェッチ呼び出しには[!DNL Adobe]組織 ID またはトラッキングサーバー情報が必要です。各サンプル内の&#x200B;*斜体*&#x200B;で記述されたコードは変数のプレースホルダーを表しています。そのコードは、自分の [!DNL Adobe] パートナー ID、顧客コード、トラッキングサーバー情報などに置き換えます。
 
 * **Analytics：** `<link rel="dns-prefetch" href="//insert tracking server name here">`。
 
@@ -44,9 +44,9 @@ DNS プリフェッチはページ上に埋め込まれている静的リンク�
 
 * **Experience Cloud ID サービス：**`<link rel="dns-prefetch" href="//fast. *`ここにパートナー ID を挿入する`*.demdex.net">`
 
-* **Dynamic Tag Manager**（DTM）：必須ではありません。ページの読み込み時にDTMリンクを使用できます。
+* **Dynamic Tag Manager**（DTM）：必須ではありません。DTM リンクは、ページの読み込み時に利用できます。
 
-* **Media Manager(Advertising Cloud):**
+* **Media Optimizer（Advertising Cloud）：**
 
    * `<link rel="dns-prefetch" href="//pixel.everesttech.net">`
    * `<link rel="dns-prefetch" href="//cm.everesttechnet">`
