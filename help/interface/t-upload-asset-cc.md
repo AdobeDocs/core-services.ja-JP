@@ -12,13 +12,13 @@ exl-id: e26fb61f-4a7f-4c02-ba80-87a9c0edea86
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 80%
+ht-degree: 96%
 
 ---
 
 # Creative Cloud ブラウザーから共有フォルダーにアセットをアップロード
 
-Creative Cloudのヘルプについては、[https://helpx.adobe.com/creative-cloud/help/sync-creative-cloud-files.html](https://helpx.adobe.com/creative-cloud/help/sync-creative-cloud-files.html)を参照してください。
+Creative Cloud のヘルプについては、[https://helpx.adobe.com/jp/creative-cloud/help/sync-creative-cloud-files.html](https://helpx.adobe.com/jp/creative-cloud/help/sync-creative-cloud-files.html) を参照してください。
 
 1. [!DNL Creative Cloud] ブラウザーを起動して、「[!UICONTROL Creative Cloud ファイル]」に移動します。
 1. 共有フォルダーを開きます。
