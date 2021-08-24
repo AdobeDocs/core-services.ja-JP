@@ -1,5 +1,5 @@
 ---
-description: IDサービスを複数のアプリケーションに保存して使用する方法についてExperience Cloudします。
+description: ID サービスが Experience Cloud アプリケーション全体でどのように保存および使用されるかについて説明します。
 keywords: cookie;プライバシー
 solution: Experience Cloud,Analytics,Target
 title: 'Experience Cloud の cookie '
@@ -12,13 +12,13 @@ exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # Experience Cloud の cookie{#experience-cloud-cookies}
 
-Adobe Experience Cloudでは、複数の訪問者アプリケーションで使用される訪問者IDを保存する目的でcookieをExperience Cloudします。
+Adobe Experience Cloudは、cookie を使用して、Experience Cloud アプリケーション全体で使用される訪問者 ID を保存します。
 
 **cookie 名：s_ecid**
 
@@ -52,7 +52,7 @@ Adobe Experience Cloudでは、複数の訪問者アプリケーションで使�
   </tr> 
   <tr> 
    <td colname="col1"> <p> SameSite=Lax </p> </td> 
-   <td colname="col2"> <p>この設定を含む cookie は、ブラウザーの URL に表示されたドメインが cookie のドメインに一致する場合にのみ送信されます。この設定は、ChromeのCookieの新しいデフォルトです。</p> </td> 
+   <td colname="col2"> <p>この設定を持つ Cookie は、ブラウザーの URL に表示されるドメインが Cookie のドメインと一致する場合にのみ送信されます。この設定は、Chrome の Cookie の新しいデフォルトです。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +61,7 @@ Adobe Experience Cloudでは、複数の訪問者アプリケーションで使�
 
 [Experience Platform ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)では、JavaScript を使用して現在の Web サイトのドメインの `AMCV_###@AdobeOrg` cookie に一意の訪問者 ID を保存します（`###` には `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.` などのランダムな文字列が入ります）。
 
-詳しくは、[Cookie と ID サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=en)を参照してください。
+詳しくは、[Cookie と ID サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja)を参照してください。
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
@@ -92,8 +92,8 @@ Adobe Experience Cloudでは、複数の訪問者アプリケーションで使�
    <td colname="col2"> <p> この cookie の長さは状況に応じて変化しますが、通常は 200 バイト程度になります。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>値は追加されません。 Chromeのデフォルト値はLaxです。 </p> </td> 
-   <td colname="col2"> <p> この設定を持つ Cookie は、ブラウザーの URL に表示されるドメインが Cookie のドメインと一致する場合にのみ送信されます。この設定は、ChromeのCookieの新しいデフォルトです。 </p> </td> 
+   <td colname="col1"> <p>値は追加されません。 Chrome のデフォルトは Lax です。 </p> </td> 
+   <td colname="col2"> <p> この設定を持つ Cookie は、ブラウザーの URL に表示されるドメインが Cookie のドメインと一致する場合にのみ送信されます。この設定は、Chrome の Cookie の新しいデフォルトです。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
