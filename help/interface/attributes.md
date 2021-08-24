@@ -1,6 +1,6 @@
 ---
 title: 顧客属性の使用方法
-description: Adobe Experience Cloud の顧客属性サービスについて説明します。 Adobe AnalyticsとAdobe Targetで使用する顧客属性データをアップロードする方法を紹介します。
+description: Adobe Experience Cloud の顧客属性サービスについて説明します。 Adobe Analytics と Adobe Target で使用する顧客属性データのアップロード方法について説明します。
 solution: Experience Cloud
 feature: 顧客属性
 role: Admin
@@ -10,13 +10,13 @@ exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
 source-git-commit: a19887e3160faa0ef91bd975fc6e1e08a0a9d948
 workflow-type: tm+mt
 source-wordcount: '485'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 # 顧客属性の概要
 
-[!UICONTROL  Experience Cloud で顧客属性を使用すると、顧客関係管理（CRM）データベースから取り込んだ大規模法人データをアップロードできます。]データをExperience Cloudの顧客属性データソースにアップロードし、Adobe AnalyticsとAdobe Targetで使用できます。
+ Experience Cloud で顧[!UICONTROL 客属性を]使用すると、顧客関係管理（CRM）データベースから取り込んだ大規模法人データをアップロードできます。データを Experience Cloud の顧客属性データソースにアップロードすると、そのデータを Adobe Analytics および Adobe Target で使用できます。
 
 この機能を探すには、**[!DNL Experience Platform]**／**[!UICONTROL ユーザー]**／**[!UICONTROL 顧客属性]**&#x200B;に移動します。
 
@@ -30,11 +30,11 @@ ht-degree: 74%
 
    自社が顧客属性にアクセスできるかどうかを知るには、[!DNL Experience Cloud] 管理者が、[Experience Cloud](https://experience.adobe.com) にログインする必要があります。**[!UICONTROL 管理]**／**[!UICONTROL Admin Console]**／**[!UICONTROL グループ]**&#x200B;に移動します。[!UICONTROL 製品プロファイル]の 1 つとして&#x200B;*顧客属性*&#x200B;がある場合は、すぐに始めることができます。
 
-   顧客属性に追加されたユーザーには、Experience Cloudインターフェイスの左側にある「[!UICONTROL 顧客属性]」メニュー項目が表示されます。
+   顧客属性に追加されたユーザーには、Experience Cloud インターフェイスの左側に「[!UICONTROL 顧客属性]」メニュー項目が表示されます。
 
 * 顧客属性には、**Adobe Target** `at.js`（任意のバージョン）または `mbox.js` バージョン 58 以降が必要です。
 
-   [at.js のデプロイ方法](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html?lang=en)または [mbox.js の実装](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/mbox-download.html?lang=en)を参照してください。
+   [at.js のデプロイ方法](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html?lang=ja)または [mbox.js の実装](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/mbox-download.html?lang=ja)を参照してください。
 
 ## 企業顧客データとは  {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
@@ -44,7 +44,7 @@ ht-degree: 74%
 
 ![](assets/01_crs_usecase.png)
 
-作成したデータファイルは、**[!UICONTROL Experience Cloud]** > **[!UICONTROL 顧客属性]**&#x200B;で作成する顧客属性ソースにアップロードできます。
+作成したデータファイルは、**[!UICONTROL Experience Cloud]**／**[!UICONTROL 顧客属性]**&#x200B;で作成する顧客属性ソースにアップロードできます。
 
 このワークフローについては、[顧客属性データのアップロード](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)を参照してください。
 
@@ -56,7 +56,7 @@ ht-degree: 74%
 
 | ソリューション | メリットと使用例 |
 |--- |--- |
-| Adobe Analytics | マーケターとアナリストは、次のことを把握できます。<ul><li>ゴールドレベルの顧客に最も効果的なオンラインキャンペーン。</li><li>ゴールドレベルの顧客が検索している製品と、プラチナレベルの顧客が検索している製品の違い。</li><li>サイトを再設計すると、古い顧客のコンバージョン率が向上するか。</li><li>ライフタイム値が低い顧客がサイトで調べる傾向にある製品。</li></ul> |
+| Adobe Analytics | マーケターとアナリストは、次のことを把握できます。<ul><li>ゴールドレベルの顧客に最も効果的なオンラインキャンペーン。</li><li>ゴールドレベルの顧客が検索している製品と、プラチナレベルの顧客が検索している製品の違い。</li><li>サイトを再設計すると、古い顧客のコンバージョン率が向上するか。</li><li>ライフタイム値が低い顧客がサイトで調べる傾向にある製品です。</li></ul> |
 | Adobe Target | Adobe Target ユーザーは、属性データを利用して次のことができます。<ul><li>ロイヤルティクラブメンバー専用の特別割引とオファーを表示する。</li><li>高級志向の顧客により高価な製品を勧める。</li><li>既に E メールを受け取っている顧客に対し、通常は E メールのサインアップ用に確保されているスペースにアップセルのオファーを表示する。</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
