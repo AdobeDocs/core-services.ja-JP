@@ -11,7 +11,7 @@ exl-id: 41290ea3-86ce-4e9d-8c3c-bbe30c337c4c
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -33,4 +33,4 @@ Creative Cloud のユーザーがアセットにアクセスするには、事�
 
 [!DNL Adobe Target] でアクティビティを作成すると、[!UICONTROL オファーライブラリ]内の画像の指定時に共有画像アセットを使用できるようになります。
 
-[!DNL Target] ヘルプの[オファーライブラリ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=en)を参照してください。
+[!DNL Target] ヘルプの[オファーライブラリ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=ja)を参照してください。
