@@ -9,12 +9,12 @@ exl-id: 6d097492-864b-412c-bfd6-f97be4a03558
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '66'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
 # Analytics オーディエンスセグメントの公開
 
-オーディエンスマーケティングアクティビティ用に、Experience CloudとAdobe Targetに[!DNL Analytics]オーディエンスセグメントを公開します。
+オーディエンスマーケティングアクティビティ用に、 [!DNL Analytics] のオーディエンスセグメントを Experience Cloud と Adobe Target に公開します。
 
-手順については、[Adobe Analytics のドキュメント](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=en)を参照してください。
+手順については、[Adobe Analytics のドキュメント](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)を参照してください。
