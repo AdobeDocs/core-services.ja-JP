@@ -12,11 +12,11 @@ exl-id: 2e35668d-bf36-4f17-ae44-c2b9313c6c1f
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '122'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Search&amp;Promoteのcookie{#search-and-promote-cookies}
+# Search &amp; Promote の cookie  {#search-and-promote-cookies}
 
 Search&amp;Promote では、訪問者の検索意図を理解し、予測する目的で cookie を使用します。
 
