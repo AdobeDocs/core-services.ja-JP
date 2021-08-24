@@ -9,7 +9,7 @@ uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
 source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
 source-wordcount: '651'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Experience Cloud の新機能と更新の概要を示します。
 
 ## 2018 年 8 月 {#section_7388CDAB723B49809AABEFEE85CF6378}
 
-2018年8月の修正点と機能強化です。
+2018 年 8 月の修正点と機能強化です。
 
 * Creative Cloud と Experience Cloud のアセットのコメントの同期を強化しました。（CORE-15971）
 
@@ -33,7 +33,7 @@ Experience Cloud の新機能と更新の概要を示します。
 
 ## 2018 年 7 月 19 日（PT） {#section_EBB549EBABB7480884A180237ADCCD02}
 
-2018年7月の修正点と機能強化です。
+2018 年 7 月の修正点と機能強化です。
 
 * Experience Cloud と AEM、Experience Cloud と Creative Cloud 間のアセット共有を制御するバックエンド機能を導入しました。（CORE-14386）
 
@@ -46,7 +46,7 @@ Experience Cloud の新機能と更新の概要を示します。
 
 ## 2018 年 6 月 14 日 {#section_7ABC327992CB46B0B8E4A631B8B68899}
 
-2018年6月の修正点と改善点です。
+2018 年 6 月の修正点と機能強化です。
 
 * 管理者のメニューに GDPR アクセスへのリンクを追加しました。（CORE-11731）
 * フィードバックに添付できるファイルタイプが制限されるよう、ベータフィードバック機能が更新されました。（CORE-10474）
@@ -78,7 +78,7 @@ Experience Cloud の新機能と更新の概要を示します。
 
 **既知の問題**
 
-通知用のダイジェスト電子メールに、定期メンテナンス／製品アップデートに関するメンテナンス通知の多くが記載されていません。すべてのメンテナンス通知がダイジェスト電子メールに確実に記載されるよう、作業を進めています。
+通知用のダイジェスト電子メールに、定期メンテナンス／製品アップデートに関するメンテナンス通知の多くが記載されていません。すべてのメンテナンス通知がダイジェストメールに確実に記載されるよう、アドビでは現在対応を進めております。
 
 ## 2017 年 8 月 9 日 {#section_2313A875454044F490B418506DD24593}
 
@@ -86,11 +86,11 @@ Experience Cloud の新機能と更新の概要を示します。
 |--- |--- |
 | 通知 - 詳細設定 | [顧客属性](attributes.md)のアップロードについての通知など、製品およびソリューションのイベントとアクティビティに関する通知を有効にできます。 |
 | 通知 - メンテナンス通知 | 通知の設定では、製品とソリューションのメンテナンスに関する通知を有効にできます。 |
-| Experience Cloud ソリューション向け Admin Console | Experience Cloud の新規のお客様は、Admin Console を利用することで組織全体にわたってアドビ製品の使用権限を一元的に管理できます。<br>Admin Console へのユーザー管理の移行は段階的に進められます。Adobeは、移行時に連絡を取ります（システム管理者）。<br>Analytics 管理者向けの情報については、[Analytics の移行](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=ja)を参照してください。 |
+| Experience Cloud ソリューション向け Admin Console | Experience Cloud の新規のお客様は、Admin Console を利用することで組織全体にわたってアドビ製品の使用権限を一元的に管理できます。<br>Admin Console へのユーザー管理の移行は段階的に進められます。移行が必要になると、アドビからお客様（システム管理者の皆様）に連絡させていただきます。<br>Analytics 管理者向けの情報については、[Analytics の移行](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=ja)を参照してください。 |
 
 {style=&quot;table-layout:auto&quot;}
 
-## 2017年5月23日 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
+## 2017 年 5 月 22 日（PT） {#section_242FE649FA1B4BFA88EC6E353D175ACC}
 
 | 機能 | 説明 |
 |--- |--- |
@@ -103,7 +103,7 @@ Experience Cloud の新機能と更新の概要を示します。
 
 | 機能 | 説明 |
 |--- |--- |
-| プロファイルおよびパスワードの更新 | ユーザーはプロファイルを編集／プロファイルおよびパスワードの「個人の詳細情報」で IMS ユーザープロファイル情報を編集できなくなりました。代わりに、ユーザーは `accounts.adobe.com` にリダイレクトされます。この更新は、すべてのIDタイプ(Adobe ID、Enterprise、Federated)に適用されます。 |
+| プロファイルおよびパスワードの更新 | ユーザーはプロファイルを編集／プロファイルおよびパスワードの「個人の詳細情報」で IMS ユーザープロファイル情報を編集できなくなりました。代わりに、ユーザーは `accounts.adobe.com` にリダイレクトされます。この更新は、すべての ID タイプ（Adobe ID、Enterprise ID、Federated ID）に適用されます。 |
 
 {style=&quot;table-layout:auto&quot;}
 
