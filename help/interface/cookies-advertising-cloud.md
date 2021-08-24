@@ -10,7 +10,7 @@ exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
 source-git-commit: 1f2dd42b4803517e6c513038c00b2070c08a51bb
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 81%
+ht-degree: 84%
 
 ---
 
@@ -135,11 +135,11 @@ Advertising Cloud では、広告エンゲージメントイベントをコン�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>保存される情報 </p> </td> 
-   <td colname="col2"> <p>同期が実行された日付（ yyyymmdd形式） </p> </td> 
+   <td colname="col2"> <p>同期が実行された日付（yyyymmdd 形式） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>有効期限 </p> </td> 
-   <td colname="col2"> <p>同期が実行された日付（ yyyymmdd形式） </p> </td> 
+   <td colname="col2"> <p>同期が実行された日付（yyyymmdd 形式） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>用途 </p> </td> 
