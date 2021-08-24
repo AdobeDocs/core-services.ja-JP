@@ -1,7 +1,7 @@
 ---
-description: Experience Cloud用の中央インターフェイスコンポーネントについて説明します。 このヘルプには、Admin Consoleでのユーザーと製品の管理、Experience Cloudサービスのアプリケーションの有効化、オーディエンスライブラリ、顧客属性、Experience Cloudアセットなどに関するヘルプの表示が含まれます。
+description: Experience Cloud 用の中央インターフェイスコンポーネントについて説明します。 このヘルプには、Admin Console でのユーザーと製品の管理、Experience Cloud サービスのアプリケーションの有効化、オーディエンスライブラリ、顧客属性、Experience Cloud アセットなどに関するヘルプが含まれます。
 solution: Experience Cloud
-title: Experience Cloudインターフェイスのヘルプとドキュメント
+title: Experience Cloud インターフェイスのヘルプとドキュメント
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: '"顧客属性"'
 topic: 管理
@@ -11,21 +11,21 @@ exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
 source-wordcount: '920'
-ht-degree: 61%
+ht-degree: 91%
 
 ---
 
-# Experience Cloud中央インターフェイスコンポーネントガイド
+# Experience Cloud の主要なインターフェイスコンポーネントガイド
 
-[Experience Cloud ](https://experience.adobe.com) Adobeのデジタルマーケティングアプリケーション、製品、サービスの統合ファミリー。直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。
+[Experience Cloud](https://experience.adobe.com) には、アドビが提供するデジタルマーケティングアプリケーション、製品およびサービスが統合されています。直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。
 
 ![Experience Cloud](assets/landing.png)
 
-Experience Cloudのヘッダーから、次の操作を実行できます。
+Experience Cloud のヘッダーから、次の操作を実行できます。
 
 * アプリケーションとサービスへのアクセス
-* 製品ドキュメント、チュートリアル、コミュニティの投稿を検索します。
-* グローバル検索を使用したビジネスオブジェクトのグローバル検索(Experience Platformユーザーのみ)
+* 製品ドキュメント、チュートリアル、コミュニティの投稿を検索する
+* グローバル検索を使用したビジネスオブジェクトの検索（Experience Platform ユーザーのみ）
 * アカウント設定（アラート、通知、サブスクリプション）の管理
 
 ## Experience Cloud にサインインする
@@ -48,16 +48,16 @@ Experience Cloud にログインすると、統合ヘッダーからすべての
 
 ![](assets/platform-core-services.png)
 
-## ヘルプとサポートを受ける {#search}
+## お問い合わせとサポート {#search}
 
-統合ヘルプは、[Experience League](https://experienceleague.adobe.com/?lang=ja#home)上のヘルプコンテンツ（ドキュメント、チュートリアル、コース）を検索し、アクセスするための製品内の場所を提供します。 また、オープンエンドのフィードバックを送信し、優先度の高いサポートチケットを作成することもできます。
+統合ヘルプは、[Experience League](https://experienceleague.adobe.com/?lang=ja#home) 上のヘルプコンテンツ（ドキュメント、チュートリアル、コース）を検索し、アクセスするための製品内の場所を提供します。 また、オープンエンドのフィードバックを送信し、優先度の高いサポートチケットを作成することもできます。
 
 ![](assets/search-menu.png)
 
 [!UICONTROL ヘルプ]メニューからも、次の項目にアクセスできます。
 
 * **[!UICONTROL サポート]：** サポートチケットを作成するか、Twitter を使用して[!UICONTROL サポート]にお問い合わせください。
-* **[!UICONTROL フィードバック]:** Experience Cloud体験に関するフィードバックを共有します。フィードバックは、Adobeの製品やサービスの改善に使用されます。
+* **[!UICONTROL フィードバック]：** Experience Cloud のエクスペリエンスに関するフィードバックをお寄せください。フィードバックは、アドビの製品およびサービスを改善するために使用されます。
 * **[!UICONTROL ステータス]：** に移動して、製品の `https://status.adobe.com/experience_cloud` 運用状況と[!UICONTROL サブスクリプションの管理]を確認します。
 * **[!UICONTROL Developer Connection]：** `adobe.io` に移動して、開発者向けドキュメントを見つけます。
 
@@ -102,7 +102,7 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 
 ![](assets/notifications-menu-small.png)
 
-## 管理およびクロスアプリケーションサービスに関するヘルプを表示します
+## 管理およびクロスアプリケーションサービスに関するお問い合わせ
 
 このガイドでは、Admin Console の Experience Cloud ユーザーと製品管理に関するヘルプにアクセスし、プラットフォームサービスのソリューションを有効にする方法について説明します。オーディエンスライブラリ、顧客属性、Experience Cloud アセットなどのヘルプにアクセスすることもできます。
 
@@ -125,10 +125,10 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 関連する Experience Cloud ガイドは次のとおりです。
 
 * [Adobe Mobile](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=ja)
-* [Experience Platform Co-op Graph](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=en)
+* [Experience Platform Co-op Graph](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=ja)
 * [Exchange](https://exchange.adobe.com/experiencecloud)
 * [Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)
-* [Experience Platformデータ収集/起動](https://experienceleague.adobe.com/docs/launch.html?lang=en)
+* [Experience Platform データ収集／Launch](https://experienceleague.adobe.com/docs/launch.html?lang=ja)
 * [Experience Cloud デバッガー](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja)
 * [一般データ保護規則（GDPR）API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 * [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
@@ -138,8 +138,8 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 セルフサービスのチュートリアルと、Experience League のクイックハウツーを活用：
 
 * [Experience League のすべてのチュートリアル](https://experienceleague.adobe.com/?lang=ja#quick-how-tos)
-* [Experience Platform チュートリアル](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en)
-* [リアルタイム顧客データプラットフォーム](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
+* [Experience Platform チュートリアル](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=ja)
+* [リアルタイム顧客データプラットフォーム](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ja)
 
 ## リリースノートおよび関連する Experience Cloud ヘルプ
 
@@ -147,6 +147,6 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 * [リリースノートと製品アップデート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja) - Experience Cloud の新機能を参照およびサブスクリプションでアップデートを入手する
 * [コアサービスの実装に関するチュートリアル](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en) - コアサービスに関するビデオやチュートリアルを参照する
 * [Experience League で提供されるエキスパートヘルプ](https://experienceleague.adobe.com/?lang=ja) - 専門家やコミュニティからガイド付きの指導を受ける
-* [教育とトレーニング](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK)  -Adobeと連携してAdobe製品を最大限に活用する
-* [エクスペリエンスブログ](https://blog.adobe.com/en/topics/digital-transformation.html) - Experience Cloud のブログを読む
+* [教育とトレーニング](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK) - アドビと連携してアドビ製品を最大限に活用する
+* [エクスペリエンスブログ](https://blog.adobe.com/jp/topics/digital-transformation.html) - Experience Cloud のブログを読む
 * [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support) - アドビカスタマーケアに問い合わせる
