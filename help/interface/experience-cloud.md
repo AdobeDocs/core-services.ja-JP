@@ -8,10 +8,10 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
+source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 91%
+source-wordcount: '1306'
+ht-degree: 63%
 
 ---
 
@@ -28,29 +28,68 @@ Experience Cloud のヘッダーから、次の操作を実行できます。
 * グローバル検索を使用したビジネスオブジェクトの検索（Experience Platform ユーザーのみ）
 * アカウント設定（アラート、通知、サブスクリプション）の管理
 
-## Experience Cloud にサインインする
+## Experience Cloud にサインインする {#signin}
 
 ログインし、自分が適切な[組織](organizations.md)に属していることを確認します。
 
 1. [Adobe Experience Cloud](https://experience.adobe.com) に移動します。
 1. 「**[!UICONTROL Adobe IDでログイン]**」を選択します。
-1. Adobe Experience Cloudで、組織を選択します。
+1. 自分が適切な組織に属していることを確認します。
 
    ![](assets/organizations-menu.png)
 
-   管理者は、ユーザーが適切な[組織](organizations.md)に属していることを検証できるようサポートします。
+   **組織の検証**
+
+   自分が正しい[組織](organizations.md)にログインしたことを確認するには、自分のプロフィールのアバターをクリックして組織名を確認します。 複数の組織にアクセスできる場合は、ヘッダーバーで別の組織を表示して切り替えることもできます。
+
+   組織がFederated IDを使用している場合、Experience Cloudを使用すると、電子メールアドレスとパスワードを入力しなくても、組織のシングルサインオンでサインインできます。 これをおこなうには、Experience CloudURL(`https://experience.adobe.com`)に`#/sso:@domain`を追加します。
+
+   例えば、Federated IDとドメイン`adobecustomer.com`を持つ組織の場合、URLリンクを`https://experience.adobe.com/#/sso:@adobecustomer.com`に設定します。 また、このURLにアプリケーションパスを追加してブックマークを付けることで、特定のアプリに直接アクセスすることもできます。 (例：Adobe Analyticsの場合は`https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`)。
 
 ## Experience Cloud アプリケーションへのアクセス {#navigation}
 
 Experience Cloud にログインすると、統合ヘッダーからすべてのアプリケーション、サービスおよび組織にすばやくアクセスできます。
 
-所有しているExperience Cloudサービスにアクセスするには、アプリケーションセレクター![](assets/menu-icon.png)に移動します。
+組織内でプロビジョニングされたExperience Cloudアプリケーションおよびサービスにアクセスするには、アプリケーションセレクター![](assets/menu-icon.png)に移動します。
 
 ![](assets/platform-core-services.png)
 
-## お問い合わせとサポート {#search}
+## Experience Cloudでのブラウザーのサポート {#browser}
 
-統合ヘルプは、[Experience League](https://experienceleague.adobe.com/?lang=ja#home) 上のヘルプコンテンツ（ドキュメント、チュートリアル、コース）を検索し、アクセスするための製品内の場所を提供します。 また、オープンエンドのフィードバックを送信し、優先度の高いサポートチケットを作成することもできます。
+最高のパフォーマンスを得るために、Experience Cloudは、最新バージョンに加えて2つ前のバージョンを含む、最も一般的なブラウザーに最適化されています。
+
+* Chrome
+* Edge
+* Firefox
+* Opera
+* Safari
+
+ブラウザーが一覧に表示されない場合でも、サポートされている可能性がありますが、一覧に表示されたブラウザーの1つを使用することをお勧めします。
+
+>[!NOTE]
+>
+>すべてのブラウザーがExperience Cloudドメインで実行されているアプリケーションでサポートされているわけではありません。 不明な場合は、特定のアプリケーションのドキュメントを確認してください。
+
+## Experience Cloudでの言語サポート {#languages}
+
+Experience Cloudは、ユーザーアカウントの環境設定で設定された、各Adobeの優先言語をサポートします。 現在サポートされている言語は次のとおりです。
+
+* 中国語
+* 英語
+* フランス語
+* ドイツ語
+* イタリア語
+* 日本語
+* 韓国語
+* ポルトガル語
+* スペイン語
+* 台湾語
+
+すべてのアプリケーションチームはグローバル言語のサポートに取り組んでいますが、すべてのアプリケーションが上記のすべての言語で提供されるわけではありません。 プライマリ言語がExperience Cloudアプリケーションでサポートされていない場合は、セカンダリ言語をデフォルトに設定することもできます。 これは、[Experience Cloudのユーザー設定](https://experience.adobe.com/preferences)で実行できます。
+
+## お問い合わせとサポート {#support}
+
+[Experience League](https://experienceleague.adobe.com/?lang=ja#home)のヘルプコンテンツ（ドキュメント、チュートリアル、コース）や、個々のアプリケーションの追加リソースなど、ヘッダーのヘルプアイコン(![asset](assets\help-icon.png))を使用して、学習やヘルプにアクセスします。 また、オープンエンドのフィードバックを送信し、優先度の高いサポートチケットを作成することもできます。
 
 ![](assets/search-menu.png)
 
@@ -61,7 +100,7 @@ Experience Cloud にログインすると、統合ヘッダーからすべての
 * **[!UICONTROL ステータス]：** に移動して、製品の `https://status.adobe.com/experience_cloud` 運用状況と[!UICONTROL サブスクリプションの管理]を確認します。
 * **[!UICONTROL Developer Connection]：** `adobe.io` に移動して、開発者向けドキュメントを見つけます。
 
-## オブジェクトとエンティティのグローバル検索
+## オブジェクトとエンティティのグローバル検索 {#search}
 
 グローバル検索を使用すると、シームレスで一貫性のあるワンクリックエクスペリエンスで、検索可能なビジネスオブジェクトやエンティティを検索できます。 この検索では、最近アクセスしたオブジェクトが表示されます。
 
@@ -69,9 +108,12 @@ Experience Cloud にログインすると、統合ヘッダーからすべての
 
 >[!NOTE]
 >
->グローバル検索は、Experience Platform、Journey Optimizer、オファーおよびExperience Leagueに対してのみ使用できます。
+>グローバル検索は、すべてのExperience Cloudアプリケーション内で使用できるわけではありませんが、インデックスが追加されると、関連するアプリケーションに追加されます。 2021年7月から利用可能：
 
-## アカウント設定の管理 {#preferences}
+* Experience Platform
+* Journey Optimizer
+
+## ユーザープロファイルとアカウントの環境設定 {#preferences}
 
 Experience Cloud の環境設定には、通知、購読、アラートが含まれます。アカウントの環境設定メニューで、次の操作を実行できます。
 
@@ -101,6 +143,17 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 **[!UICONTROL 通知]**&#x200B;を選択して、製品リリース、メンテナンス通知、共有項目、承認リクエストなど、関連性の高い実用的な更新に関する警告を表示します。
 
 ![](assets/notifications-menu-small.png)
+
+## Experience Cloudドメイン {#domains}
+
+Experience Cloudは、次のホストを使用してアプリケーションを配信し、パフォーマンスと製品のエクスペリエンスを向上します。 Adobeは、最適なエクスペリエンスを得るために、これらのドメインをファイアウォールの許可リストに追加することを推奨します。 Adobe Analyticsなどの特定のExperience Cloudアプリケーションで、追加のドメインが使用される場合もあります。 詳しくは、各アプリケーションのドキュメントを参照してください。
+
+| 技術 | ドメイン |
+|--- |--- |
+| Adobe Experience Cloudドメイン | `adobe.com`、`adobe.net`、`adobe.io` |
+| AdobeIdentity Managementサービス(IMS) | `adobelogin.com` |
+| Experience Cloudフォント | `typekit.net` |
+| Gainsight （製品ガイダンスおよびヘルプ用） | `esp.aptrinsic.com` |
 
 ## 管理およびクロスアプリケーションサービスに関するお問い合わせ
 
