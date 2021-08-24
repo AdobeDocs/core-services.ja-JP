@@ -12,7 +12,7 @@ exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '625'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -34,8 +34,8 @@ Analytics Premium では、次のことができます。
 >
 >アップグレードの際に移行は必要ありませんが、以下の注意事項があります。
 >
->* eVar 76 ～ 250および100 ～ 250（標準）は、管理ツールに表示されますが、有効になっていません。
->* 貢献度分析は、オンになっています。場所は変更されません（まだ異常値検出ページで使用できます）が、すべてのデータポイントの分析が自動的に開始されます。
+>* eVar 76～250 および 100～250（標準）は、管理ツールに表示されますが、有効化はされていません。
+>* 貢献度分析は、オンになっています。場所は変更されません（従来どおり異常値検出ページでも使用できます）が、すべてのデータポイントの分析が自動的に開始されます。
 
 
 ## Analytics Premium Complete {#section_BFAD815EDF364845A52B340B2FD5B64C}
@@ -44,7 +44,7 @@ Analytics Premium Complete では、[Analytics Premium](upgrade-to-analytics-pre
 
 | 製品 | アップグレード |
 |--- |--- |
-| Reports &amp; Analytics | <ul><li>[貢献度分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=en)</li><li>[顧客属性](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)（最大 200）</li></ul> |
+| Reports &amp; Analytics | <ul><li>[貢献度分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=ja)</li><li>[顧客属性](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)（最大 200）</li></ul> |
 | Data Workbench | <ul><li>アルゴリズムアトリビューション</li><li>事前定義済みワークスペース</li></ul> |
 | Analytics Platform | [Live Stream](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/index.md)（生データ、ダッシュボード、トリガー） |
 
@@ -80,15 +80,15 @@ Customer 360 へのアップグレードにより、[Analytics Premium](upgrade-
 
 ## Data Workbench の要件 {#section_D959CA68D6DB42C38707F8E0CA3654CC}
 
-サポートされるユーザーは、クライアントライセンスを更新して Premium の機能を利用できるようにするための `dwb@adobe.com` 宛ての電子メールでリクエストします。この更新により、アルゴリズムアトリビューションなどの機能が有効になりました。
+サポートされるユーザーは、クライアントライセンスを更新して Premium の機能を利用できるようにするための `dwb@adobe.com` 宛ての電子メールでリクエストします。これにより、アルゴリズムアトリビューションなどの機能が有効になります。
 
-TechOpsは、契約内容を確認し、適切な管理インフラストラクチャを決定し、容量を増減し、アカウントマネージャーやコンサルティングを通じて調整し、変更を導入します。
+テクニカルオペレーション（TechOps）は、契約内容を確認して適切に管理されたインフラストラクチャを決定、容量を調整し、アカウントマネージャーまたはコンサルティングを通じてお客様と連携して変更をデプロイします。
 
-オンプレミスで実行しているソフトウェアは、非アクティブ化する必要があります。このソフトウェアには、[!DNL Analytics]タグを介して適切な追跡を行う必要があるSensorが含まれています。
+オンプレミスで実行しているソフトウェアは、非アクティブ化する必要があります。このソフトウェアには、[!DNL Analytics] タグを介して適切なトラッキングをおこなう必要があるセンサーが含まれています。
 
 ## Experience Cloud - ユーザーと製品の管理 {#section_6471C54454024301B2E0B687F79F6738}
 
-Experience Cloudとコアサービスは、[はじめに — コアサービスのソリューションを有効にする](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)に記載されている実装の最新化に従っている場合、Analytics StandardおよびPremiumのユーザーが利用できます。 （このプロセスにより、実装を最新化できます。また、Experience Cloud の管理者になることもできます）。
+Analytics Standard と Premium のユーザーは Experience Cloud およびコアサービスを利用できます。ただし、[はじめに - コアサービスのソリューションを有効にする](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)に記載されている実装の最新化に従っていることが前提です。（このプロセスにより、実装を最新化できます。また、Experience Cloud の管理者になることもできます）。
 
 Experience Cloud に加入したら、[!DNL experience.adobe.com] から Experience Cloud にログインして、コアサービス（顧客属性、Audiences およびモバイルアプリ分析を含む）の利用を開始することができます。
 
@@ -96,7 +96,7 @@ Experience Cloud に加入したら、[!DNL experience.adobe.com] から Experie
 
 ユーザーの管理は [Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)（製品リンク）でおこないます。
 
-Adobe Admin Console で作成したグループとソリューショングループ（Adobe Analytics など）の 1 対 1 でのマッピングを設定できます。その後、マッピングされたAdmin Consoleグループに追加された新しいユーザーには、Analyticsソリューションアカウントが自動的に作成され、ユーザーのAdobe IDにリンクされます。 （既存のユーザーは、ソリューションのアカウント資格情報を手動でリンクして、Experience Cloud ログインを介してソリューションにアクセスする必要があります）。
+Adobe Admin Console で作成したグループとソリューショングループ（Adobe Analytics など）の 1 対 1 でのマッピングを設定できます。その後、マッピングされた Admin Console グループに追加された新しいユーザーには、Analytics ソリューションアカウントが自動的に作成され、ユーザーの Adobe ID にリンクされます。（既存のユーザーは、ソリューションのアカウント資格情報を手動でリンクして、Experience Cloud ログインを介してソリューションにアクセスする必要があります）。
 
 >[!NOTE]
 >
