@@ -12,13 +12,13 @@ exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: fc29feb4425d99c4e28fb1d40036dd9d93a801c2
 workflow-type: tm+mt
 source-wordcount: '4279'
-ht-degree: 88%
+ht-degree: 95%
 
 ---
 
 # 累積リリースノート
 
-Experience Cloud中央インターフェイスコンポーネントの機能、リリースノートおよび既知の問題です。
+Experience Cloud の中央インターフェイスコンポーネントの機能、リリースノートおよび既知の問題です。
 
 ドキュメントの更新のリストについては、[Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784) を参照してください。
 
@@ -34,12 +34,12 @@ Experience Cloud中央インターフェイスコンポーネントの機能、�
 
 統合検索が更新され、Journey Optimizer、オファー、Experience Leagueで利用できるようになりました。 以前は、この機能はExperience Platformユーザーのみが使用できました。
 
-## 2021年6月
+## 2021 年 6 月
 
 | 機能 | 日付 | 説明 |
 | ------- | ------- | ------- |
-| Adobe Federated ID のシングルサインオンサポート | 2021 年 6 月 17 日（PT） | Federated ID を使用すると、メールアドレスやパスワードを入力しなくても、Experience Cloud にログインできます。 この機能を使用するには、Experience CloudURLに`#/sso:@domain`を追加します。 <br>例えば、ドメイン `adobecustomer.com` を所有していて、Adobe Analytics にサインインしたい場合、URLは次のようになります。`https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
-| Experience League 検索 | 2021 年 6 月 1 日（PT） | Experience League ドキュメントの検索が改善されました。[Experience League](https://experienceleague.adobe.com/docs/?lang=ja) に移動し、「**[!UICONTROL 検索]**」フィールドを使用して、チュートリアル、ドキュメント、コースなどを検索します。 |
+| Adobe Federated ID のシングルサインオンサポート | 2021 年 6 月 17 日 | Federated ID を使用すると、メールアドレスやパスワードを入力しなくても、Experience Cloud にログインできます。この機能を使用するには、Experience Cloud URL に `#/sso:@domain` を追加します。 <br>例えば、ドメイン `adobecustomer.com` を所有し、Adobe Analytics にログインするとします。URL は「`https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`」となります。 |
+| Experience League 検索 | 2021 年 6 月 1 日 | Experience League ドキュメントの検索が改善されました。 [Experience League](https://experienceleague.adobe.com/docs/?lang=ja) に移動し、「**[!UICONTROL 検索]**」フィールドを使用して、チュートリアル、ドキュメント、コースなどを検索します。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -81,7 +81,7 @@ Experience Cloud中央インターフェイスコンポーネントの機能、�
 
 ## 2020 年 1 月
 
-* フィードページは2019年12月に廃止されました。 製品内の廃止のお知らせを探してください。（MCUI-10039）
+* フィードページは 2019 年 12 月に廃止されました。製品内の廃止のお知らせを探してください。（MCUI-10039）
 
 ## 2019 年 8 月
 
@@ -118,11 +118,11 @@ Experience Cloud中央インターフェイスコンポーネントの機能、�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Admin Console で事前に構成されている製品設定 </p> </td> 
-   <td colname="col2"> <p>Experience Cloudの顧客管理者は、事前に作成され、AnalyticsおよびDynamic Tag Managementのデフォルトの権限グループにマッピングされた製品設定を使用できます。 </p> <p>この最適化は、新しくプロビジョニングされた組織で利用でき、Admin Console でユーザーを管理するために組織が必要とする時間を削減します。 </p> </td> 
+   <td colname="col2"> <p>Experience Cloud の顧客管理者は、事前に設定され、Analytics および Dynamic Tag Management のデフォルトの権限グループにマッピングされた製品設定を使用できます。 </p> <p>この最適化は、新しくプロビジョニングされた組織で利用でき、Admin Console でユーザーを管理するために組織が必要とする時間を削減します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>フィードフィードの強化 </p> </td> 
-   <td colname="col2"> <p> Experience Cloudフィードで投稿を作成する際、宛先行は、デフォルトで組織を使用する代わりに、現在アクティブなトピックを使用するようになりました。</p> </td> 
+   <td colname="col2"> <p> Experience Cloud Feed で投稿を作成する場合、宛先行はデフォルトで組織を使用する代わりに現在アクティブなトピックを使用するようになりました。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -143,11 +143,11 @@ Experience Cloud中央インターフェイスコンポーネントの機能、�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud Assets の機能向上 </p> </td> 
-   <td colname="col2"> <p>Experience Cloud Assets では、1 つの場所からデジタルアセットを保存、共有、同期できます。Experience Cloudアセットは、<span class="keyword"> Adobe Experience Manager</span> (AEM)の機能の一部を使用します。 </p> <p><a href="experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local">Experience Cloud</a> を参照してください。</p> </td> 
+   <td colname="col2"> <p>Experience Cloud Assets では、1 つの場所からデジタルアセットを保存、共有、同期できます。Experience Cloud Assets は <span class="keyword">Adobe Experience Manager</span>（AEM）の機能の一部を使用します。 </p> <p><a href="experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local">Experience Cloud</a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>アカウントのリンク機能の改善 </p> </td> 
-   <td colname="col2"> <p>ソリューションアカウントを Experience Cloud（Adobe ID）にリンクする方法が改善されました。この新しいワークフローでは、組織に関連付けられたユーザーのアカウントがすべて検出され、リンクするアカウントを選択できます。また、アカウントのリンク操作を効率化し、組織を管理ページにアクセスして手動でアカウントをリンクする必要がなくなりました。 </p> </td> 
+   <td colname="col2"> <p>ソリューションアカウントを Experience Cloud（Adobe ID）にリンクする方法が改善されました。この新しいワークフローでは、組織に関連付けられたユーザーのアカウントがすべて検出され、リンクするアカウントを選択できます。また、アカウントのリンクエクスペリエンスが効率化されたため、組織の管理ページにアクセスしてアカウントを手動でリンクする必要はなくなりました。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -179,7 +179,7 @@ Experience Cloud中央インターフェイスコンポーネントの機能、�
 
 >[!NOTE]
 >
->Microsoft®は、Internet Explorer 8、9、および10の[サポートを終了](https://www.microsoft.com/ja-jp/WindowsForBusiness/End-of-IE-support)します。 そのため、今後アドビでは、Internet Explorer のこれらのバージョンに対して報告された問題は修正しません。
+>Microsoft® は、Internet Explorer 8、9、10 の[サポートを終了](https://www.microsoft.com/ja-jp/WindowsForBusiness/End-of-IE-support)します。そのため、今後アドビでは、Internet Explorer のこれらのバージョンに対して報告された問題は修正しません。
 
 ## リリース 15.10 - 2015 年 10 月 14 日（PT） {#section_68123833D3634BD3A473C12862BF9606}
 
@@ -251,7 +251,7 @@ Experience Cloud中央インターフェイスコンポーネントの機能、�
    <td colname="col1"> <p>管理機能の強化： </p> 
     <ul id="ul_7D5FCBEFA262435D865CA1018BFB792E"> 
      <li id="li_6E98974CCB094ABBAB57C51ED56C3F00"> <span class="wintitle">Admin Console</span> </li> 
-     <li id="li_8CDAB6301FD44C3999EE4EEB1A0A2FD6">エンタープライズとFederated IDのサポート </li> 
+     <li id="li_8CDAB6301FD44C3999EE4EEB1A0A2FD6">Enterprise ID と Federated ID のサポート </li> 
     </ul> </td> 
    <td colname="col2"> <p>ユーザーおよびグループ管理機能は、Admin Console に移行されました。次の手順でアクセスするようになりました。 </p> <p> <span class="uicontrol"> Experience Cloud</span>／<span class="uicontrol">管理</span>／<span class="uicontrol">Admin Console を起動</span></p> <p> また、Enterprise ID および Federated ID のサポートが追加されました。Enterprise ID、Federated ID および Adobe ID を全社で使用できます。例えば、他のアドビ製品やサービスを使用する可能性のあるユーザーには Adobe ID を使用します。アカウントを厳密に管理したいユーザーには、Enterprise ID または Federated ID を使用します。 </p> </td> 
   </tr> 
@@ -264,7 +264,7 @@ Experience Cloud中央インターフェイスコンポーネントの機能、�
 
 **既知の問題**
 
-* Dynamic Tag Management 組織と Experience Cloud のリンクおよびリンク解除が、新しく作成した Experience Cloud 組織で機能しません。Adobeは、5月のリリースでこの問題を修正し、正常な機能を復元するための作業を進めています。 Experience Cloud を使用して Dynamic Tag Management へのシングルサインオンで問題が発生した場合は、[!DNL dtm.adobe.com] での従来のログインを使用してください。
+* Dynamic Tag Management 組織と Experience Cloud のリンクおよびリンク解除が、新しく作成した Experience Cloud 組織で機能しません。アドビはこの問題を修正し、5 月のリリースで通常の機能を復元するよう取り組んでいます。Experience Cloud を使用して Dynamic Tag Management へのシングルサインオンで問題が発生した場合は、[!DNL dtm.adobe.com] での従来のログインを使用してください。
 * 既知の問題により、リンクされた Analytics アカウントによって所有されていないレポートスイートをオーディエンス共有できません。現在、改善に取り組んでいます。
 
 ## リリース 15.3.2 - 2015 年 3 月 19 日（PT） {#section_07760FD9CA43497FA8BDCCA990A24BFD}
@@ -279,7 +279,7 @@ Experience Cloud中央インターフェイスコンポーネントの機能、�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>顧客属性 </p> </td> 
-   <td colname="col2"> <p>エンタープライズ顧客データを顧客関係管理(CRM)データベースに取り込む場合は、そのデータをExperience Cloudの顧客属性データソースにアップロードできます。 データをアップロードした後、Analytics で<span class="uicontrol">訪問者プロファイル</span>／<span class="uicontrol">顧客属性</span>レポートを実行できます。 </p> <p>アップロードしたデータを <span class="keyword">Adobe Target</span> でオーディエンスセグメントとして使用することもできます。 </p> <p><a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">顧客属性</a>製品ドキュメントを参照してください。 </p> <p> コアサービス用ソリューションの最新化については、<a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">コアサービスのソリューションの有効化</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>エンタープライズ顧客データを顧客関係管理（CRM）データベースに取り込んでいる場合は、そのデータを Experience Cloud の顧客属性データソースにアップロードできます。データをアップロードした後、Analytics で<span class="uicontrol">訪問者プロファイル</span>／<span class="uicontrol">顧客属性</span>レポートを実行できます。 </p> <p>アップロードしたデータを <span class="keyword">Adobe Target</span> でオーディエンスセグメントとして使用することもできます。 </p> <p><a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">顧客属性</a>製品ドキュメントを参照してください。 </p> <p> コアサービス用ソリューションの最新化については、<a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">コアサービスのソリューションの有効化</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -481,7 +481,7 @@ Experience Cloud中央インターフェイスコンポーネントの機能、�
 * [!DNL Exchange] ユーザーは、エクスペリエンスを改善するために Cookie を消去する必要があります。
 * 多くのユーザーが同時に使用すると、[!DNL Experience Cloud] インターフェイスのパフォーマンスが遅くなる可能性があった問題を修正しました。
 * [!DNL Experience Cloud] でコンテンツが共有されていない場合、[!DNL Creative Cloud] コンテンツが一部のユーザーのフォルダーから削除されることがあります。
-* 無操作状態が 15 分間続くとログアウトします。また、ある場所でログアウトすると、[!DNL Experience Cloud]からログアウトします。
+* 無操作状態が 15 分間続くとログアウトします。また、特定の場所でログアウトすると、[!DNL Experience Cloud] からもログアウトします。
 * 一部のユーザーは、Audience Manager アカウントを [!DNL Experience Cloud] にリンクできない可能性があります。
 * [!UICONTROL Exchange] ユーザーは、言語セレクターで英語のみ表示できます。
 
@@ -519,7 +519,7 @@ Experience Cloud中央インターフェイスコンポーネントの機能、�
 * [!DNL Search&Promote] リンクが[!UICONTROL 組織と製品へのアクセス]ページから利用できません。
 * [!DNL Analytics] からトレンドレポートに適用したフィルターが、[!DNL Experience Cloud] のカードに適用されません。
 * 一部のユーザーは、オーディエンス管理アカウントを [!DNL Experience Cloud] アカウントにリンクできません。
-* 無操作状態が 15 分間続くとログアウトします。また、ある場所でログアウトすると、Experience Cloudからログアウトします。
+* 無操作状態が 15 分間続くとログアウトします。また、特定の場所でログアウトすると、Experience Cloud からもログアウトします。
 * 一部の Exchange ユーザーは、コメント内のユーザー名を検索して、名前の代わりに長い文字列の ID にすることができます。
 
 **修正点**
@@ -538,11 +538,11 @@ Experience Cloud中央インターフェイスコンポーネントの機能、�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud Exchange </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span>／<span class="uicontrol">ヘルプ</span>／<span class="uicontrol">Exchange</span></p> <p><span class="keyword">Experience Cloud</span> <span class="wintitle">Exchange</span> にアクセスすると、各種の連携ツールの検索、参照、選択、支払いおよびダウンロードをおこなえます。 </p> <p>Data Connectors、Adobeのコア製品のカスタム設定、サードパーティアプリケーション、レポート、<span class="keyword">Experience Cloud</span>カードなどが含まれます。 </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span>／<span class="uicontrol">ヘルプ</span>／<span class="uicontrol">Exchange</span></p> <p><span class="keyword">Experience Cloud</span> <span class="wintitle">Exchange</span> にアクセスすると、各種の連携ツールの検索、参照、選択、支払いおよびダウンロードをおこなえます。 </p> <p>アプリには、Data Connectors、アドビのコア製品のカスタム設定、サードパーティアプリケーション、レポート、<span class="keyword">Experience Cloud</span> カードなどが含まれます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud Audiences </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud </span>／<span class="uicontrol"> Audiences</span></p> <p> <span class="wintitle">Audiences</span> では、セグメントの操作と同様に、オーディエンスを作成、編集および管理できます。例えば、Reports &amp; Analyticsでセグメントを作成し、<span class="wintitle">Experience Cloud</span><span class="wintitle">オーディエンス</span>と共有できます。 共有すると、オーディエンスを <span class="keyword">Adobe Target</span> でキャンペーンアクティビティに使用したり、Adobe Audience Manager でセグメント化に使用したりできます。 </p> <p> <p>注意：Targetでの有効化をリクエストするには、 <a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external"> https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a>にアクセスしてください。 </p> </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud </span>／<span class="uicontrol"> Audiences</span></p> <p> <span class="wintitle">Audiences</span> では、セグメントの操作と同様に、オーディエンスを作成、編集および管理できます。例えば、Reports &amp; Analytics でセグメントを作成して、<span class="wintitle">Experience Cloud</span><span class="wintitle"> Audiences</span> と共有できます。共有すると、オーディエンスを <span class="keyword">Adobe Target</span> でキャンペーンアクティビティに使用したり、Adobe Audience Manager でセグメント化に使用したりできます。 </p> <p> <p>注意：Target での有効化をリクエストするには、<a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external">https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a> にアクセスしてください。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
@@ -550,11 +550,11 @@ Experience Cloud中央インターフェイスコンポーネントの機能、�
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
-   <td colname="col2"> <p>新しいAdobeユーザーは、Scene7アカウントをAdobe IDおよびチームメンバーにリンクできます。 管理者は、Scene7 アカウントからユーザーのリンクを解除することもできます。 </p> </td> 
+   <td colname="col2"> <p>新しいアドビユーザーは、Scene7 アカウントを Adobe ID とチームメンバーにリンクできます。管理者は、Scene7 アカウントからユーザーのリンクを解除することもできます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>アセットの同期 </p> </td> 
-   <td colname="col2"> <p> アセット内のアセットをExperience ManagerやCreative Cloudと共有できます。 これらのアセットに対する変更は、Experience CloudとCreative Cloudのアセットの共有コピーに反映されます。 </p> </td> 
+   <td colname="col2"> <p>  Experience Manager Assets 内のアセットを Experience Cloud および Creative Cloud と共有できます。これらのアセットへの変更は、Experience Cloud と Creative Cloud のアセットの共有コピーに反映されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -575,7 +575,7 @@ Experience Cloud中央インターフェイスコンポーネントの機能、�
 * 一部のユーザーで、[!DNL Experience Cloud] からファイルを削除しても、[!DNL Digital Asset Management] で同期されていなかった問題を修正しました。
 * ブラウザーの無操作状態が 15 分間続いただけで、ユーザーがログアウトされていた問題を修正しました。
 * ユーザーがボードで PowerPoint ファイルを共有できなかった問題を修正しました。
-* 一部のユーザーで、Internet Explorer 10での表示レイアウトが低下していました。
+* 一部のユーザーにおいては、Internet Explorer 10 での視覚的なレイアウトが悪くなるという問題がありました。
 
 ## リリース 14.4.1 - 2014 年 4 月 22 日（PT） {#section_E2A699764E744D2E8D418E9A3D40AF6B}
 
@@ -626,7 +626,7 @@ Experience Cloud中央インターフェイスコンポーネントの機能、�
 
 ## リリース 14.3.1 - 2014 年 3 月 13 日（PT） {#section_5D142E3225E3477A84DC01B8197D39BC}
 
-バージョン14.3.1は、速度、安定性、セキュリティに重点を置いたメンテナンスリリースです。 重要な新機能は含まれていません。
+バージョン 14.3.1 は、速度、安定性、セキュリティに重点を置いたメンテナンスリリースです。重要な新機能は含まれていません。
 
 **修正点**
 
@@ -658,7 +658,7 @@ Experience Cloud中央インターフェイスコンポーネントの機能、�
 * 一部の PNG ファイルは、カードにレンダリングできません。
 * ベータフィードバックを送信できません。
 
-## リリース 14.2.1 - 2014 年 2 月 23 日（PT） {#section_5AD81B0737C843AFB4BE9C4420D70EB3}
+## リリース 14.2.1 - 2014 年 2 月 24 日（PT） {#section_5AD81B0737C843AFB4BE9C4420D70EB3}
 
 <table id="table_DFAB002358C94A17A7F91DAB323A488F"> 
  <thead> 
