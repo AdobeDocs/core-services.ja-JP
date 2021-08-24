@@ -12,7 +12,7 @@ exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 91%
+ht-degree: 96%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 91%
 1. [!UICONTROL 新しいオーディエンスを作成]ページで、タイトルと説明を指定します。
 1. 「[!UICONTROL ルール]」で、属性のソースを選択します。
 
-   * **[!UICONTROL Real-Time Analyticsデータ：]** （または生データ）Real-Time Analyticsのイメージリクエストから得られる属性データで、eVarやイベントなどのデータが含まれます。この属性ソースを使用する場合は、レポートスイートを選択し、含めるディメンションまたはイベントを定義する必要があります。このレポートスイートの選択により、レポートスイートで使用された変数構造が提供されます。
+   * **[!UICONTROL Real-Time Analytics データ：]**（Raw データ）Real-Time Analytics イメージリクエストから得られる属性データであり、eVar やイベントなどのデータが含まれます。この属性ソースを使用する場合は、レポートスイートを選択し、含めるディメンションまたはイベントを定義する必要があります。このレポートスイートの選択により、レポートスイートで使用された変数構造が提供されます。
    >[!NOTE]
    >
    >キャッシュの影響により、Analytics で削除したレポートスイートが Experience Cloud に反映されるまで 12 時間かかります。
