@@ -2,27 +2,27 @@
 audience: administrator
 user-guide-title: 'Experience Cloud の主要なインターフェイスコンポーネント '
 breadcrumb-title: Experience Cloud の主要なインターフェイスコンポーネント
-user-guide-description: Experience Cloudのインターフェイス、環境設定の設定、ヘルプとビジネスオブジェクトの検索について説明します。 ユーザーと製品の管理、顧客属性、オーディエンスライブラリ、cookie、Experience Cloudアセットに関するヘルプを取得します。
+user-guide-description: Experience Cloud のインターフェイス、環境設定、ヘルプとビジネスオブジェクトの検索について説明します。 ユーザーと製品の管理、顧客属性、オーディエンスライブラリ、cookie、Experience Cloud Assets に関するお問い合わせ。
 index: true
 source-git-commit: 21701779b0a502b39791a59104182fc5d3323f7b
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 81%
+ht-degree: 97%
 
 ---
 
 
 # Experience Cloud の主要なインターフェイスコンポーネント {#interface}
 
-+ [Experience Cloud中央インターフェイスコンポーネントガイド](experience-cloud.md)
++ [Experience Cloud の主要なインターフェイスコンポーネントガイド](experience-cloud.md)
 + Experience Cloud サービス {#services}
    + [Experience Cloud サービス](core-services-landing.md)
    + [クロスソリューションサービスの実装を有効にする](core-services.md)
    + Experience Cloud Audience ライブラリ {#audiences}
-      + [Experience Cloudオーディエンス](audience-library.md)
+      + [Experience Cloud Audiences](audience-library.md)
       + [オーディエンスの作成](t-audience-create.md)
       + [Analytics オーディエンスセグメントの公開](t-publish-audience-segment.md)
-   + Experience Cloud Customer Attributes {#customer-attributes}
+   + Experience Cloud 顧客属性 {#customer-attributes}
       + [顧客属性の概要](attributes.md)
       + [顧客属性に関するよくある質問（FAQ）](faq-crs.md)
       + [顧客属性のデータファイルおよびデータソースについて](crs-data-file.md)
@@ -47,7 +47,7 @@ ht-degree: 81%
       + [Creative Cloud デスクトップから共有フォルダーにアセットをアップロード](t-cc-asset-upload-thor.md)
       + [アセットファイルを共有するための要件](assets-file-reqs.md)
       + [共有フォルダーの動作](asset-behavior.md)
-+ Experience Cloud administration {#administration}
++ Experience Cloud 管理 {#administration}
    + [Experience Cloud ユーザー ID および製品の管理（Admin Console）](admin-getting-started.md)
    + [Experience Cloud ユーザーの詳細の表示（管理ツール）](admin-tool-experience-cloud.md)
    + [よくある質問](faq.md)
@@ -69,9 +69,9 @@ ht-degree: 81%
       + [[!DNL Target] の cookie](cookies-target.md)
       + [ブラウザー cookie のプライバシー設定の有効化](browser-cookie-settings.md)
       + [サードパーティ cookie のサポートに対する変更がお客様に及ぼす影響 ](cookies-thirdparty.md)
-+ Experience CloudUI {#release-notes}のリリースノート
-   + [中央のインターフェイスコンポーネントのリリースノート](release-notes.md)
-   + [すべてのExperience Cloudのリリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)
++ Experience Cloud UI のリリースノート {#release-notes}
+   + [中央インターフェイスコンポーネントのリリースノート](release-notes.md)
+   + [すべての Experience Cloud のリリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)
 + その他のリソース {#more-resources}
    + [フォーラム](https://experienceleaguecommunities.adobe.com/)
    + [用語](terms.md)
