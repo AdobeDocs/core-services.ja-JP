@@ -3,9 +3,9 @@ description: Adobe Experience Cloud のソリューションとサービスで C
 title: 'Experience Cloud での Cookie の使用方法 '
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '174'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -18,6 +18,6 @@ cookie の使用目的は、その Web サイトにアクセスして一連の�
 
 >[!NOTE]
 >
->法律、規制、自主規制に関する原則では、コンピューターやWebに接続されたデバイスに情報を保存または取得する前に、訪問者の同意を得る必要があります。 Adobeからは、法律、規制、原則によってcookieの使用が制御されていることを顧問弁護士に確認することをお勧めします。
+>コンピューターや Web 対応デバイスに情報を保存したり、それらを取得したりする行為については、法律や条例、自主規制などにより、事前にユーザーの同意を得ることが義務付けられています。アドビは、顧問弁護士にご相談の上、法律、条例、自主規制などによって適用される cookie の利用制限について確認されることをお勧めします。
 
 このドキュメントは、Adobe Digital Marketing Suite で使用されている cookie について説明し、使用上必要な同意事項について、理解していただくためのものです。
