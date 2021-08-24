@@ -14,23 +14,23 @@ exl-id: d57f168b-6beb-48f2-b0d2-92593ceee62e
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 60%
+ht-degree: 96%
 
 ---
 
 # Activation
 
-Activationには、Experience Platform[!UICONTROL データ収集]([!UICONTROL Launch])およびExperience Cloud[!UICONTROL トリガー]という最新のタグ管理製品が含まれます。
+Activation には、Experience Platform [!UICONTROL データ収集]（[!UICONTROL Launch]）および Experience Cloud [!UICONTROL Triggers] と呼ばれる最新のタグ管理製品が含まれます。
 
 ## Experience Platform Launch {#section_05DF74E9EAC94518A155095C65F54568}
 
 パーソナライズされたカスタマーエクスペリエンスの強化に必要な分析タグ、マーケティングタグ、広告タグのデプロイと管理をおこないます。
 
-「[Experience Platform Launchクイックスタートガイド](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en)」を参照してください。
+『[Experience Platform Launch クイックスタートガイド](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en)』を参照してください。
 
-## Experience Cloud[!UICONTROL トリガー] {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
+## Experience Cloud [!UICONTROL Triggers] {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
-[!UICONTROL Experience Cloud] マーケターは、主な消費者行動を定義および監視し、リアルタイムの意思決定とパーソナライゼーションに使用するためのクロスソリューションのコミュニケーションを生み出すことができます。
+ [!UICONTROL Experience Cloud Triggers] は、マーケターが主要な顧客行動を定義および監視できるフレームワークです。Triggers を利用すれば、リアルタイムでの意思決定とパーソナライゼーションに役立つクロスソリューションのコミュニケーションを実現できます。
 
 <table id="table_AF6842470172429EA97C9B02163BD0C3"> 
  <thead> 
@@ -46,7 +46,7 @@ Activationには、Experience Platform[!UICONTROL データ収集]([!UICONTROL L
   </tr>
   <tr> 
    <td colname="col1"> <p>Adobe Campaign での Triggers の使用 </p> </td> 
-   <td colname="col2"> <p> Adobe Campaign Standard 16.7 では、新しい Triggers サービスとの統合が導入されました。このサービスを使用すると、ビジネスユーザーは、Adobe Analytics でキャプチャされたオンライン行動データに基づいてトリガーを簡単に定義できます。定義したトリガーは、Adobe Campaignで使用して、エンゲージメントおよびコンバージョンを推進するリマーケティングメッセージをサポートできます。 この新しい標準機能を使用すると、マーケターは、買い物かごの放棄、ページビュー、ビデオの視聴などのオンラインイベントに基づいて、適切なタイミングでリマーケティングメッセージをトリガーできます。 </p> </td>
+   <td colname="col2"> <p> Adobe Campaign Standard 16.7 では、新しい Triggers サービスとの統合が導入されました。このサービスを使用すると、ビジネスユーザーは、Adobe Analytics でキャプチャされたオンライン行動データに基づいてトリガーを簡単に定義できます。トリガーを定義すれば、Adobe Campaign で、エンゲージメントとコンバージョンを推進するリマーケティングメッセージをサポートできるようになります。そのまま使用できるこの新機能によって、マーケターは、買い物かごの放棄、ページビュー、ビデオの視聴などのオンラインイベントに基づいて、適切なタイミングでリマーケティングメッセージをトリガーできます。 </p> </td>
   </tr>
  </tbody>
 </table>
