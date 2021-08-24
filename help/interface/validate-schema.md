@@ -1,5 +1,5 @@
 ---
-description: Adobe Experience Cloudで顧客属性スキーマを検証する方法について説明します。
+description: Adobe Experience Cloud で顧客属性スキーマを検証する方法を説明します。
 keywords: 顧客属性;Experience Cloud サービス
 solution: Experience Cloud
 title: '顧客属性スキーマの検証方法 '
@@ -12,7 +12,7 @@ exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 82%
 
    * **[!UICONTROL AVID（Analytics 訪問者 ID）：]** prop または eVar を使用して CID をアップロードする場合に表示されます。これらの ID が Experience Cloud に渡されている場合、入力した CID に関連付けられている訪問者 ID がここに表示されます。
 
-Experience Cloudで顧客属性ソースとFTPアカウントを作成したら、FTPを使用してデータをアップロードすることもできます。 属性ソースごとに 1 つの FTP アカウントを作成できます。アップロードしたファイルは、そのアカウントのルートフォルダーに保存されます。データは`.csv`形式にする必要があります。2つ目の`.fin`ファイルは、アップロードが完了したことを示します。
+Experience Cloud に顧客属性ソースと FTP アカウントを作成したら、FTP を使用してデータをアップロードすることもできます。属性ソースごとに 1 つの FTP アカウントを作成できます。アップロードしたファイルは、そのアカウントのルートフォルダーに保存されます。データは `.csv` 形式にする必要があります。2 つ目の `.fin` ファイルは、アップロードが完了したことを示します。
 
 文字列、整数および数値に適用する名前は、[!DNL Analytics] 指標の作成に使用されます。
 
@@ -60,6 +60,6 @@ Experience Cloudで顧客属性ソースとFTPアカウントを作成したら�
 
    * **数値：**&#x200B;小数第 2 位まで取ることができます。
 
-* **[!UICONTROL 表示名：]**&#x200B;属性のわかりやすい名前。例えば、属性&#x200B;*顧客の年齢*&#x200B;を&#x200B;*顧客の経過日*&#x200B;に変更できます。
+* **[!UICONTROL 表示名：]**&#x200B;属性のわかりやすい名前。例えば、*顧客の年齢*&#x200B;を、*顧客となった年数*&#x200B;に変更できます。
 
 * **[!UICONTROL 説明：]**&#x200B;属性のわかりやすい説明。
