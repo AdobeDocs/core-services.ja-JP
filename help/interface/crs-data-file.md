@@ -129,7 +129,7 @@ CSV ファイルは次の形式に準拠する必要があります。
   </tr> 
    <tr> 
    <td colname="col1"> <p>履歴データ </p> </td> 
-   <td colname="col2"> <p> 顧客属性は、[!DNL Analytics] の基になる訪問者プロファイルに関連付けられています。そのため、[! UICONTROL顧客属性] は、[! DNL Analytics] での訪問者のプロファイルの全期間にわたって訪問者に関連付けられます。このプロファイルには、顧客が最初にログインする前の行動が含まれます。 </p> <p> Data Warehouse のバックフィル手法を使用している場合、データは Analytics ID（AID）に基づく post_visid_high/low に関連付けられます。Experience Cloud ID サービスを使用している場合、データは Experience Cloud ID（MID）に基づく post_visid_high/low に結び付けられます。 </p> </td> 
+   <td colname="col2"> <p> 顧客属性は、[!DNL Analytics] の基になる訪問者プロファイルに関連付けられています。そのため、[!UICONTROL 顧客属性] は、[!DNL Analytics] での訪問者のプロファイルの全期間にわたって訪問者に関連付けられます。このプロファイルには、顧客が最初にログインする前の行動が含まれます。 </p> <p> Data Warehouse のバックフィル手法を使用している場合、データは Analytics ID（AID）に基づく post_visid_high/low に関連付けられます。Experience Cloud ID サービスを使用している場合、データは Experience Cloud ID（MID）に基づく post_visid_high/low に結び付けられます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>データフィード </p> </td> 
