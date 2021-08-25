@@ -5,13 +5,13 @@ solution: Experience Cloud
 title: 'Experience Cloud に関するよくある質問 '
 index: true
 feature: Admin Console
-topic: 管理
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
+source-git-commit: 399a3ddb47deb83481bcdfb0c578804b2bbfbae8
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '774'
 ht-degree: 98%
 
 ---
@@ -98,7 +98,7 @@ Admin Console 管理者はユーザーにアクセス権を付与できます。
 
 組織 ID は、Experience Cloud ランディングページおよび[Admin Console ランディングページ](https://adminconsole.adobe.com)に表示されます。
 
-また、管理者が特定の組織の Admin Console（[https://adminconsole.adobe.com](https://adminconsole.adobe.com#) に移動）にログインすれば、その URL で IMS 組織 ID を確認できます。
+また、管理者が特定の組織の Admin Console（[https://adminconsole.adobe.com](https://adminconsole.adobe.com) に移動）にログインすれば、その URL で IMS 組織 ID を確認できます。
 
 例として、次の URL を見てみましょう。
 
