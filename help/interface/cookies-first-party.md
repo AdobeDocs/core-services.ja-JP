@@ -5,15 +5,15 @@ solution: Experience Cloud,Analytics
 title: '"ファーストパーティ cookie "'
 index: y
 snippet: y
-feature: Cookie
-topic: 管理
+feature: Cookies
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 9a232162008524d900e3655716a84961c287c773
+source-git-commit: 1e7c4c02b08a17b2666afc7a82ea44d598675b3c
 workflow-type: tm+mt
-source-wordcount: '1617'
-ht-degree: 71%
+source-wordcount: '1614'
+ht-degree: 70%
 
 ---
 
@@ -162,6 +162,6 @@ Address: 54.187.216.46
 
 1. 長期にわたる実装からファーストパーティデータ収集に移行する場合、または別のファーストパーティ収集ホスト名に変更する場合は、以前のドメインから新しいドメインに訪問者を移行することをAdobeにお勧めします。
 
-詳しくは、Analytics 導入ガイドの[訪問者の移行](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/visitor-migration.html?lang=ja)を参照してください。
+詳しくは、Analytics 導入ガイドの[訪問者の移行](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-migration.html?lang=en)を参照してください。
 
 コア JavaScript ファイルをアップロードすると、ファーストパーティ によるデータ収集用の設定がすべておこなわれます。アドビは、アップロード後の数時間は Analytics レポートを監視し、通常どおりデータ収集がおこなわれているかを確認することをお勧めします。通常どおりおこなわれていない場合、上記のすべての手順が完了していることを確認し、組織のサポート対象ユーザーの中からカスタマーケアにお問い合わせください。
