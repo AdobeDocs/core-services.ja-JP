@@ -1,19 +1,19 @@
 ---
 description: Adobe Experience Cloud の用語と Creative Cloud での用語の違いについて説明します。
 keywords: アセットの共有;オーディエンスサービス;Creative Cloud;コアサービス
-seo-description: 'null'
-seo-title: 用語
+seo-description: null
+seo-title: Terminology
 solution: Experience Cloud
 title: '用語 '
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
-feature: '"顧客属性"'
-topic: 管理
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
+source-git-commit: 1e7c4c02b08a17b2666afc7a82ea44d598675b3c
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1453'
 ht-degree: 98%
 
 ---
@@ -40,7 +40,7 @@ Experience Cloud ユーザー向けの用語リファレンスと、これらの
 | [!UICONTROL Experience Platform ID サービス] | 特別な用法はありません。 | ID をリンクするサービス。ユーザーベースのエクスペリエンス管理を実現するための、デバイスリンクサービスです。 |
 | リンク | 特別な用法はありません。リンクは、ハイパーリンクナビゲーションや、フォント、プロパティ、レイヤーなどのアイテムをリンクすることを指します。 | Experience Cloud では、リンクは通常、様々なソリューションアカウントとインターフェイスのリンクを表します。<br>[組織とアカウントのリンク](organizations.md)を参照してください。<br>リンクは、他のユーザーに送信される Analytics レポートの標準的な URL を指す場合もあります。 |
 | 場所 | Creative Cloud では、場所はファイルの場所、または開いている画像やドキュメント上の場所を指します。 | Experience Cloud では、場所とは、コンテンツがオーディエンスに表示される場所のことです。Audiences とのやり取りがおこなわれる場合もあります。場所とコンテンツの関係は、ある程度静的に固定することも、キャンペーンのルールに従って動的に管理することもできます。場所は必ず、特定のチャネルに属しています。このチャネルによってコンテンツの配信方法と指標の収集方法が決まります。<br> 以下に例を示します。<ul><li>サイト</li><li>プロパティ（Social）</li><li>ディスプレイインベントリ</li><li>ランディングページ</li><li>モバイルアプリ</li><li>スロット（動画）</li></ul> |
-| 指標 | Creative Cloud では使用されません。 | 主要概念や目標に関する数値の集計です。Analyticsでは、指標は、ビュー数、セレクトスルー数、リロード数、平均滞在時間、数量、注文件数、売上高など、訪問者の行動に関する量的な情報を指します。 詳しくは、[指標の説明](https://experienceleague.adobe.com/docs/analytics/components/variables/metrics/metricslist.html?lang=ja)を参照してください。 |
+| 指標 | Creative Cloud では使用されません。 | 主要概念や目標に関する数値の集計です。Analyticsでは、指標は、ビュー数、セレクトスルー数、リロード数、平均滞在時間、数量、注文件数、売上高など、訪問者の行動に関する量的な情報を指します。 |
 | 組織 | Creative Cloud では使用されません。 | 組織とは、管理者がユーザーおよび製品を設定し、Experience Cloud でのシングルサインオンを制御するために使用する Experience Cloud エンティティです。多くの場合、課金会社が組織になります。 |
 | ポートフォリオ | 複数のファイルやアセットの集合です。 | キャンペーンのコンテナです。 |
 | 製品プロファイル | [製品およびプロファイルの管理](https://helpx.adobe.com/jp/enterprise/using/manage-products.html)を参照してください。 | 製品またはサービスを利用する資格をユーザーに付与するには、そのユーザーを製品プロファイルに追加する必要があります。製品管理者は、購入されたプランに製品プロファイルを関連付けることによって製品プロファイルにライセンスを割り当てます。<br>ユーザーには複数の製品プロファイルを割り当てることができ、各プロファイルで異なるライセンスをユーザーに付与することができます。ユーザーの最終的な資格は、そのユーザーに割り当てられた各製品プロファイルで付与されているライセンスをすべて合わせたものとなります。 |
