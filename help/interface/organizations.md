@@ -5,20 +5,20 @@ solution: Experience Cloud
 title: '組織とアカウントのリンク '
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 feature: Admin Console
-topic: 管理
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
+source-git-commit: ec724555c3799eeca350592498267d0b71b4ff04
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 67%
+source-wordcount: '506'
+ht-degree: 64%
 
 ---
 
-# 組織とアカウントのリンク
+# Experience Cloud
 
-組織管理の概要と、ソリューションアカウントの Experience Cloud へのリンクについて説明します。
+組織の管理と切り替えに関するExperience Cloud
 
 ## 組織を特定する {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
