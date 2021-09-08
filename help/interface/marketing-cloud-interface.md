@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 'Experience Cloud の新機能 '
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
 source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '651'
 ht-degree: 100%
 
@@ -99,7 +99,7 @@ Experience Cloud の新機能と更新の概要を示します。
 
 {style=&quot;table-layout:auto&quot;}
 
-## 2016 年 11 月 9 日（PT）- 16.11.1 {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
+## 2016 年 11 月 8 日（PT）- 16.11.1 {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
 
 | 機能 | 説明 |
 |--- |--- |
