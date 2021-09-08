@@ -10,13 +10,13 @@ role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '769'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Analytics の cookie{#analytics-cookies}
+# Analytics の cookie {#analytics-cookies}
 
 Adobe Analytics では、異なるブラウザーからのリクエストを区別する目的と、アプリケーションによって後で使用されることがある有用な情報を保存する目的で cookie を使用します。また、ブラウジング情報を顧客レコードに関連付けるためにも使用できます。
 
@@ -31,7 +31,7 @@ Analytics では、新しい訪問者を匿名で識別する手段、クリッ�
 * [cookie 名：s_fid](cookies-analytics.md#section-65e33f9bfc264959ac1513e2f4b10ac7)
 * [プラグインで設定される cookie](cookies-analytics.md#section-a6b1cae8454945fab9eea5c7884c40fc)
 
-詳細については、Analytics のヘルプで[ファーストパーティ cookie](cookies-first-party.md) に関するトピックを参照してください。
+詳細については、Analytics のヘルプで [ファーストパーティ cookie](cookies-first-party.md) に関するトピックを参照してください。
 
 ## cookie 名：s_ecid {#section-32fd753c3fa54452acd62b021434919a}
 
@@ -61,7 +61,7 @@ Analytics では、新しい訪問者を匿名で識別する手段、クリッ�
 
 | 属性 | 説明 |
 |--- |--- |
-| 保存される情報 | SelectMap機能またはActivity Map機能が有効になっている場合、このcookieはJavaScriptによって設定され、読み取られます。ユーザーが前に選択したリンクに関する情報が含まれます。 |
+| 保存される情報 | この cookie は、SelectMap 機能や Activity Map 機能が有効になっている場合に JavaScript によって設定され、読み取られます。これには、ユーザーが直前に選択したリンクに関する情報が含まれています。 |
 | 有効期限 | この cookie はセッション cookie で、ブラウザーを閉じると有効期限が切れます。 |
 | 用途 | すべてのアカウントに対して 1 つの cookie のみ。 |
 | 場所 | この cookie はページのドメインに保存されます。 |
