@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '939'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 90%
 
 ログインし、自分が適切な[組織](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)に属していることを確認します。
 
-1. Experience Cloudメニュー(![](assets/menu-icon.png))を選択し、「**[!UICONTROL 管理]**」を選択します。
+1. Experience Cloud メニュー（![](assets/menu-icon.png)）を選択してから、「**[!UICONTROL 管理]**」を選択します。
 
    「**[!UICONTROL 管理]**」リンクが表示されない場合は、表示されている[組織](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)の Experience Cloud 管理者ではないということになります。管理者になる方法がわからない場合は、カスタマーケアまたは社内の Experience Cloud 管理者にお問い合わせください。
 1. 「**[!UICONTROL 管理]**」を選択します。
@@ -56,11 +56,11 @@ Experience Cloud での非管理者ユーザーのログインに関するヘル
 
 
 1. [Adobe Experience Cloud](https://experience.adobe.com)（[!DNL experience.adobe.com]）に移動します。
-1. 「**[!UICONTROL Adobe IDでログイン]**」を選択します。
+1. 「**[!UICONTROL Adobe ID でログイン]**」を選択します。
 
    Experience Cloud 管理者に問い合わせてアカウントのタイプ（Adobe ID または Enterprise ID）を確認してください。
 
-1. ランディングページで、セレクターアイコン![](assets/menu-icon.png)を選択してプルダウンメニューを開きます。
+1. ランディングページでセレクターアイコン ![](assets/menu-icon.png) を選択して、プルダウンメニューを開きます。
 
    ![](assets/experience-cloud-core-services.png)
 
@@ -68,21 +68,21 @@ Experience Cloud での非管理者ユーザーのログインに関するヘル
 
 ## デフォルトの個人用アカウント設定の構成 {#task_73CBCAE6C91749D19C95421E5AC311BA}
 
-個人の詳細情報を編集し、デフォルトの[組織](admin-getting-started.md#concept_705C626560A54CA2A4215F1C870C42B2)や Experience Cloud へのログイン後に表示されるランディングページを指定できます。
+個人の詳細情報を編集し、デフォルトの [組織](admin-getting-started.md#concept_705C626560A54CA2A4215F1C870C42B2) や Experience Cloud へのログイン後に表示されるランディングページを指定できます。
 
-1. プロファイルにログインし、Experience Cloudのアイコンを選択します。
+1. Experience Cloud にログインし、自分のプロファイルのアイコンを選択します。
 
    ![](assets/edit-profile.png)
 1. 「**[!UICONTROL プロファイルを編集]**」を選択します。
 
    ![](assets/default-organization.png)
-1. 続けて個人情報の設定と編集を行い、「**[!UICONTROL 変更の保存]**」を選択します。
+1. 続けて個人情報の設定と編集を行い、「**[!UICONTROL 変更を保存]**」を選択します。
 
 ## 通知の有効化 {#concept_0105453AD71847B8BFCAF4A40915F157}
 
 システムのアップデート、メンテナンス、投稿、メンションおよび共有アセットについての通知を（電子メールまたは製品内で）受け取ります。また、顧客属性のアップロードステータスなどの通知を受け取りたい製品やソリューションを指定することもできます。
 
-「通知」に移動するには、**[!UICONTROL 通知]**&#x200B;アイコン![](assets/notifications-icon.png)を選択し、**[!UICONTROL 設定]**&#x200B;アイコン![](assets/icon_edit_board.png)を選択します。
+「通知」に移動するには、**[!UICONTROL 通知]**&#x200B;アイコン（![](assets/notifications-icon.png)）を選択し、次に&#x200B;**[!UICONTROL 設定]**&#x200B;アイコン（![](assets/icon_edit_board.png)）を選択します。
 
 メッセージタイプの重要度を基に通知の表示を並べ替えることができます。通知を検索することもできます。また、次のこともできます。
 
@@ -115,7 +115,7 @@ Experience Cloud での非管理者ユーザーのログインに関するヘル
 
 1. Experience Cloud にログインします。
 
-1. Experience Cloudで、プロフィール写真を選択します。
+1. Experience Cloud で、自分のプロフィール写真を選択します。
 
    ![](assets/edit-profile.png)
 1. 「**[!UICONTROL プロファイルを編集]**」を選択します。
