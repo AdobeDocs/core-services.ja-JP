@@ -5,9 +5,9 @@ breadcrumb-title: Experience Cloud の主要なインターフェイスコンポ
 user-guide-description: Experience Cloud のインターフェイス、環境設定、ヘルプとビジネスオブジェクトの検索について説明します。 ユーザーと製品の管理、顧客属性、オーディエンスライブラリ、cookie、Experience Cloud Assets に関するお問い合わせ。
 index: true
 source-git-commit: 21701779b0a502b39791a59104182fc5d3323f7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 97%
       + [顧客属性のプライバシーに関する考慮事項](privacy-mac.md)
    + Experience Cloud Activation {#activation}
       + [Activation の概要](activation.md)
-      + [Experience Platform Launch ユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+      + [Experience Platform Launch ユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)
       + [Triggers](triggers.md)
    + Experience Cloud Assets {#assets}
       + [Experience Cloud Assets の概要](experience-cloud-assets.md)
