@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -45,8 +45,8 @@ ht-degree: 96%
 
 **オーディエンスを作成するには、以下を実行します。**
 
-1. [!DNL Experience Cloud]の下の[!DNL Experience Platform]で、**[!UICONTROL People]** / **[!UICONTROL オーディエンスライブラリ].**&#x200B;を選択します。
-1. [!UICONTROL オーディエンス]ページで、「**[!UICONTROL 新規]**」を選択します。![](assets/add_icon_small.png)
+1. [!DNL Experience Cloud] の [!DNL Experience Platform] で、**[!UICONTROL People]**／**[!UICONTROL オーディエンスライブラリ]を選択します。**
+1. [!UICONTROL オーディエンス]ページで、「**[!UICONTROL 新規]**」（![](assets/add_icon_small.png)）を選択します。
 
    ![手順の結果](assets/audience_create_new.png)
 
@@ -60,7 +60,7 @@ ht-degree: 96%
 
    * **[!UICONTROL Experience Cloud：]** [!DNL Experience Cloud] Experience Cloud ソースから抽出された属性データ。例えば、[!DNL Analytics] で作成したオーディエンスセグメントからのデータや、[!DNL Audience Manager] からのデータです。
 
-1. オーディエンスルールを定義し、「**[!UICONTROL 保存].**」を選択します。
+1. オーディエンスルールを定義したあと、「**[!UICONTROL 保存]」を選択します。**
 
 >[!NOTE]
 >
