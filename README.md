@@ -1,8 +1,8 @@
 ---
 source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 # 記事の投稿
@@ -21,7 +21,7 @@ ht-degree: 87%
 
 ### マイナーな変更
 
-軽微な更新を投稿する場合は、目的の記事にアクセスし、その記事のGitHubソースに移動する記事の&#x200B;**Edit**&#x200B;リンクを選択します。 その後、GitHub UI を使用してアップデートをおこないます。詳細については、一般的な [Adobe Docs 寄稿者ガイド](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html)を参照してください。
+細部の変更を善意で行っていただける場合は、記事にアクセスし、その記事の **編集** リンクを選択して記事の GitHub ソースに移動します。その後、GitHub UI を使用してアップデートをおこないます。詳細については、一般的な [Adobe Docs 寄稿者ガイド](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html)を参照してください。
 
 このリポジトリのドキュメントおよびコード例については、マイナーな修正または詳細な説明をアドビの利用条件で説明しています。
 
