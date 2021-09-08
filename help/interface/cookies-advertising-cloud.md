@@ -8,19 +8,19 @@ role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
 source-git-commit: 1f2dd42b4803517e6c513038c00b2070c08a51bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
-# Advertising Cloud の cookie{#advertising-cloud-cookies}
+# Advertising Cloud の cookie {#advertising-cloud-cookies}
 
 Advertising Cloud では、広告エンゲージメントイベントをコンバージョンイベントにマッピングしたり、その情報を使用して広告入札を最適化するために、cookie が使用されます。
 
 >[!NOTE]
 >
->[Adobe Experience Cloud ID(ECID)サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ja)を使用するベータ版Advertising Cloud JavaScriptExperience Cloudは、Advertising Cloud Cookieではなく、[ファーストパーティタグs_ecid cookie](cookies-first-party.md)を作成します。
+>[Adobe Experience Cloud ID (ECID) サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ja) を使用するベータ版 Advertising Cloud JavaScript タグは、Advertising Cloud Cookieではなく、 [ファーストパーティ Experience Cloud s_ecid Cookie](cookies-first-party.md) を作成します。
 
 ## cookie 名：_lcc
 
@@ -34,7 +34,7 @@ Advertising Cloud では、広告エンゲージメントイベントをコン�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>保存される情報 </p> </td> 
-   <td colname="col2"> <p>表示のIDとタイムスタンプ（yyyymmdd形式）は、が選択します</p> </td> 
+   <td colname="col2"> <p>ディスプレイ選択の ID およびタイムスタンプ（yyyymmdd 形式）</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>有効期限 </p> </td> 
@@ -42,7 +42,7 @@ Advertising Cloud では、広告エンゲージメントイベントをコン�
   </tr> 
   <tr> 
    <td colname="col1"> <p>用途 </p> </td> 
-   <td colname="col2"> <p>ディスプレイ広告の選択イベントがAdobe Analyticsのヒットに適用されるかどうかを判断するために使用されるサードパーティCookie </p> </td> 
+   <td colname="col2"> <p>ディスプレイ広告の選択イベントが Adobe Analytics ヒットに適用されるかどうかを判断するために使用されるサードパーティ Cookie </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>場所 </p> </td> 
@@ -100,7 +100,7 @@ Advertising Cloud では、広告エンゲージメントイベントをコン�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>保存される情報 </p> </td> 
-   <td colname="col2"> <p>広告主のWebサイトへのサーファーの最後の訪問のタイムスタンプと、サーファーの最後の検索選択のタイムスタンプ、およびユーザーが広告を選択したときに作成されたef_id</p> </td> 
+   <td colname="col2"> <p>広告主の web サイトへのサーファーの最後の訪問のタイムスタンプ、サーファーの最後の検索選択のタイムスタンプ、ユーザーが広告を選択した際に作成された ef_id</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>有効期限 </p> </td> 
