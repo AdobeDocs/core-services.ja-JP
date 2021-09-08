@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1274'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -40,10 +40,10 @@ Admin Console へのログイン、Experience Cloud ユーザーの権限およ�
 
 ユーザーを組織に招待する場合は、そのユーザーに製品および製品プロファイルへのアクセス権を付与することができます。ユーザーに制限付き管理権限を委任することもできます。同様に、ユーザーグループを作成し、そのグループを製品プロファイルに追加することによって、アクセス権を有効にすることもできます。
 
-1. [Admin Console](https://adminconsole.adobe.com/enterprise/)で、「**[!UICONTROL Products]**」を選択します。
+1. [Admin Console](https://adminconsole.adobe.com/enterprise/) で、「**[!UICONTROL 製品]**」を選択します。
 1. 組織名を選択します。
-1. 「**[!UICONTROL 新しいプロファイル]**」を選択します。
-1. プロファイルの詳細を設定し、「**[!UICONTROL 保存]**」を選択します。
+1. 「**[!UICONTROL 新規プロファイル]**」を選択します。
+1. プロファイルの詳細を設定し、「 **[!UICONTROL 保存]**」を選択します。
 
 詳細（および Creative Cloud と Document Cloud 製品管理のヘルプ）については、『[管理ユーザーガイド](https://helpx.adobe.com/jp/enterprise/admin-guide.html/jp/enterprise/using/users.ug.html)』の[ID](https://helpx.adobe.com/jp/enterprise/admin-guide.html/jp/enterprise/using/identity.ug.html) を参照してください。
 
@@ -82,7 +82,7 @@ Admin Console では、組織内の他のユーザーに管理権限を制限付
 
 副管理者ロールを使用すると、必要以上の機能を提供することなく、複数の人に同時に管理を委任できます。
 
-1. Admin Consoleで、「**[!UICONTROL ユーザー]**」を選択し、ユーザー名を選択します。
+1. Admin Console で「**[!UICONTROL ユーザー]**」を選択してから、ユーザー名を選択します。
 
    ![](assets/edit-admin-rights.png)
 
@@ -99,8 +99,8 @@ Admin Console では、組織内の他のユーザーに管理権限を制限付
 
 例えば、複数の Analytics ツール（[!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、[!UICONTROL Report Builder]）を含む製品プロファイルを作成できます。これらのプロファイルには、特定の指標およびディメンション（eVar を含む）に対する権限と、セグメントや計算指標の作成などの機能が含まれます。
 
-1. [Admin Console](https://adminconsole.adobe.com/enterprise)にログインし、「**[!UICONTROL 製品]**」を選択します。
-1. [!UICONTROL 製品]ページで、製品を選択し、「**[!UICONTROL 権限]**」を選択します（管理者のみ使用可能）。
+1. [Admin Console](https://adminconsole.adobe.com/enterprise) にログインし、「**[!UICONTROL 製品]**」を選択します。
+1. [!UICONTROL 製品] ページで、製品を選択してから「**[!UICONTROL 権限]**」を選択します（管理者のみが使用できます）。
 1. プロファイルの権限の設定：
 
 | 要素 | 説明 |
@@ -129,9 +129,9 @@ Adobe Target では、Workspaces が製品プロファイルになります。�
 
 以下を参照してください。
 
-* [Enterprise ユーザーの権限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en)
-* [製品およびプロファイルの管理](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
-* ビデオ：[Adobe Admin Console で Adobe Target ワークスペースを設定する方法](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [Enterprise ユーザーの権限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=ja)
+* [製品およびプロファイルの管理](https://helpx.adobe.com/jp/enterprise/admin-guide.html/jp/enterprise/using/manage-products.ug.html)
+* ビデオ：[Adobe Admin Console で Adobe Target ワークスペースを設定する方法](https://helpx.adobe.com/jp/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Campaign 製品プロファイル、テナント、セキュリティグループの管理 {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -147,7 +147,7 @@ Experience Platform [!UICONTROL データ収集]（[!UICONTROL Launch]）は、[
 
 [!UICONTROL Platform Launch] にユーザーを招待し、ユーザーの役割と権限を割り当てます。
 
-Admin Console のユーザー権限と Launch 固有のオプションの形式について設定（プロファイルへの権限の割り当てなど）については、[ユーザー権限](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=en)を参照してください。
+Admin Console のユーザー権限と Launch 固有のオプションの形式について設定（プロファイルへの権限の割り当てなど）については、[ユーザー権限](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ja)を参照してください。
 
 ## Experience Manager as a Cloud Service
 
@@ -173,6 +173,6 @@ Audience Manager ヘルプの[管理](https://experienceleague.adobe.com/docs/au
 
 ### 各ソリューションおよび製品の要件
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=ja)
 * [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=ja)
-* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en)
+* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=ja)
