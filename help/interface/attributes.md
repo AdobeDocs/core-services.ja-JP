@@ -8,7 +8,7 @@ topic: 管理
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
 source-git-commit: a19887e3160faa0ef91bd975fc6e1e08a0a9d948
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '485'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 ## 顧客属性をアップロードするための前提条件 {#section_BD38693AFBF34926BA28E964963B4EA0}
 
-* **ソリューションのイネーブルメント：**[ソリューションを Experience Platform サービスに対応させます](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)。
+* **ソリューションのイネーブルメント：** [ソリューションを Experience Platform サービスに対応させます](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)。
 
 * **グループのメンバーシップ：**&#x200B;顧客属性データをアップロードするには、ユーザーは、[顧客属性グループ](admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)のメンバーである必要があります。また、Adobe Analytics グループまたは Adobe Target グループのいずれかに属している必要もあります。
 
