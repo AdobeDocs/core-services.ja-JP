@@ -12,9 +12,9 @@ role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '705'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Experience Cloud で [!UICONTROL Triggers] を使用すると、主な消費者�
 
 ## Triggers の概要 {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
-リアルタイムでの意思決定とパーソナライゼーションに Triggers を使用できます。次に例を示します。
+リアルタイムでの意思決定とパーソナライゼーションに Triggers を使用できます。以下に例を示します。
 
 * 買い物かごに製品を追加後に放棄、または製品を削除して買い物かごを放棄した利用者への迅速なリマーケティングの設定
 * 入力に不備のあるフォームや申請
@@ -52,9 +52,9 @@ Experience Cloud で [!UICONTROL Triggers] を使用すると、主な消費者�
 >
 >現在、100 トリガーまでという技術的な制限があります。
 
-1. Experience Cloudで「![](assets/menu-icon.png)」を選択し、「**[!UICONTROL データ収集/Launch]**」を選択します。
-2. [!UICONTROL トリガー]カードで、「**[!UICONTROL トリガーを管理]**」を選択します。
-3. 「**[!UICONTROL 新しいトリガー]**」を選択し、トリガーのタイプを指定します。
+1. Experience Cloud で ![](assets/menu-icon.png) を選択し、**[!UICONTROL データ収集／Launch]** を選択します。
+2. [!UICONTROL トリガー] カード上で、「**[!UICONTROL トリガーを管理]**」を選択します。
+3. 「**[!UICONTROL 新しいトリガー]**」を選択して、トリガーのタイプを指定します。
 
    ![手順の結果](assets/add-trigger.png)
 
