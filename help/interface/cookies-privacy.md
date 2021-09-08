@@ -10,15 +10,15 @@ role: Admin
 level: Experienced
 exl-id: 169b5c67-aab6-4b2a-832e-c5998d796bf7
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '335'
 ht-degree: 100%
 
 ---
 
-# cookie とプライバシーについて{#about-cookies-and-privacy}
+# cookie とプライバシーについて {#about-cookies-and-privacy}
 
-アドビでは、お客様のプライバシーおよびデータセキュリティを最優先の重要事項と認識して、Adobe は、複数のプライバシー組織に参加し、プライバシー規制や自主規制との協力関係にあります。 この協力には、Digital Advertising Alliance AdChoices プログラムが含まれ、お客様に、自身の情報がどのように使用されているか、およびその使用に関する選択肢を提供します。
+アドビでは、お客様のプライバシーおよびデータセキュリティを最優先の重要事項と認識して、アドビは複数のプライバシー組織に参加し、プライバシー規制当局および自主規制の原則に協力しています。 この協力には、Digital Advertising Alliance AdChoices プログラムが含まれ、お客様に、自身の情報がどのように使用されているか、およびその使用に関する選択肢を提供します。
 
 Experience Cloud 製品で設定される cookie には、個人の特定を可能にする情報を含むものはほとんどありません。これらの cookie および関連付けられたデータはセキュリティによって保護され、レポート処理と、適切なコンテンツおよび広告を提供することのみを目的として使用されます。データが第三者や他のアドビ顧客に開示されることはありません。ただし、業界の集計レポートでこれらのデータが使用される場合はあります。例えば、[!DNL Digital Marketing Insight Report] には、様々な小売業者における集約的な匿名データについての横断的な分析結果が掲載されます。
 
