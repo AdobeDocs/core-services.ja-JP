@@ -10,20 +10,20 @@ role: Admin
 level: Experienced
 exl-id: 5d852e0e-4004-4f94-a6f7-3a14a96cd42f
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# ブラウザー cookie のプライバシー設定の有効化{#enable-privacy-settings-for-browser-cookies}
+# ブラウザー cookie のプライバシー設定の有効化 {#enable-privacy-settings-for-browser-cookies}
 
 デスクトップまたはモバイルブラウザーですべての cookie をブロックしているユーザーを削除できます。この機能は、データ収集をオプトアウトするユーザーを除外するプライバシー設定です。この設定を使用することで、Analtyics の処理の停止を希望するユーザーの意図を尊重できます。
 
 **ブラウザー cookie のプライバシー設定を有効にするには**
 
 1. **[!UICONTROL 管理ツール]**／**[!UICONTROL レポートスイート]**&#x200B;の順に移動します。
-1. **[!UICONTROL 設定を編集]** > **[!UICONTROL 一般]** > **[!UICONTROL プライバシー設定]**&#x200B;に移動します。
+1. **[!UICONTROL 設定を編集]**／**[!UICONTROL 一般]**／**[!UICONTROL プライバシー設定]**&#x200B;の順に選択します。
 1. （デスクトップまたはモバイルに対して）「**[!UICONTROL プライバシー設定]**」を有効にします。
 
 >[!IMPORTANT]
