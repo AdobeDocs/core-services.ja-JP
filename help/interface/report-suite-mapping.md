@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1119'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -39,13 +39,13 @@ Experience Cloud サービス（Experience Cloud ID サービスや [!UICONTROL 
 
    この画面は、十分な情報に基づいてマッピングをおこなえるようにすることを目的としています。
 
-1. レポートスイートの横にある「**[!UICONTROL マッピングされた組織]**」列のドロップダウンリストを選択し、マッピングする組織を選択します。
+1. レポートスイートの横にある「**[!UICONTROL マップ済み組織]**」列のドロップダウンリストを選択し、マッピングする組織を選択します。
 
    Experience Cloud 組織の選択に関するヒントについては、次の節を参照してください。
 
 ## 組織に複数のレポートスイートをマッピングする {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
-1. **[!UICONTROL Experience Cloud]** / **[!UICONTROL 管理]** / **[!UICONTROL レポートスイートマッピング]**&#x200B;を選択します。
+1. **[!UICONTROL Experience Cloud]**／**[!UICONTROL 管理]**／**[!UICONTROL レポートスイートマッピング]**&#x200B;を選択します。
 
 1. マッピングするレポートスイートを選択します。
 
