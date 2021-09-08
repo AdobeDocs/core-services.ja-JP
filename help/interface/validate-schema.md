@@ -10,7 +10,7 @@ role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '453'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 * **[!UICONTROL スキーマを表示 / 編集：]**&#x200B;次の手順で説明するように、表示名を属性データにマッピングします。
 
-* **[!UICONTROL FTP のセットアップ：]**[ FTP を使用してデータをアップロードします](t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)。
+* **[!UICONTROL FTP のセットアップ：]**[FTP を使用してデータをアップロードします](t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)。
 
 * **[!UICONTROL ID 検索：]**`.csv` から顧客 ID（CID）を入力して、その ID の Experience Cloud 情報を検索します。この機能は、訪問者に対して属性データが表示されない理由をトラブルシューティングするのに役立ちます。
 
