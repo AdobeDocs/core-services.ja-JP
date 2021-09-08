@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 6031e544-822b-4843-b3d8-98a36a3c40e8
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1181'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Analytics と Adobe Target の[!UICONTROL 顧客属性]に関するよく�
 | **（Adobe Target のみ）**[!UICONTROL 顧客属性]機能と Adobe Target の一括プロファイル API にはどのような違いがありますか。 | 一括プロファイル API を使用すると、API を介して、Adobe Target プロファイルを個別または一括で直接更新できます。この機能は顧客属性に似ていますが、次のような大きな違いもあります。<ul><li>プロファイル API は REST API 呼び出しで、顧客属性は FTP を使用します。</li><li>Adobe Target のプロファイル API は、Experience Cloud 全体ではなく、Adobe Target に対してのみデータを送信します。</li><li>顧客属性は、この外部データを作成および管理するためのシンプルなインターフェイスを提供します。</li></ul> |
 | **（Adobe Target のみ）**&#x200B;顧客属性から Adobe Target にデータをアップロードすると、Adobe Target の訪問者プロファイルの有効期間が延びますか。 | はい。Adobe Target ヘルプの[訪問者プロファイルの有効期間](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/visitor-profile.html?lang=ja)を参照してください。 |
 | **（Adobe Target のみ）**&#x200B;訪問者が顧客 ID によって特定された後すぐ、顧客属性にアップロードされたデータをターゲットにできますか。 | はい。mbox サードパーティ ID を含む Adobe Target へのサーバーコール時に、すべての顧客属性データを使用できます。 |
-| **（Adobe Target のみ）** 顧客属性ソースにアップロードされたファイルの「**[!UICONTROL 同期ステータス]**」列は何を表していますか？ | Adobe Targetによって公開および同期されたレコードの数は、特定の属性ファイルに対して「同期ステータス」アイコンを選択すると表示できます。 `Sync %` は、Adobe Target で同期されたプロファイルの割合（%）を示すリアルタイム指標です。<br> **注意：**&#x200B;属性が Adobe Target と同期するまでに最大 24 時間かかる場合があります。 |
+| **（Adobe Target のみ）** 顧客属性ソースにアップロードされたファイルの「**[!UICONTROL 同期ステータス]**」列は何を表していますか？ | Adobe Target で公開および同期されたレコードの数は、特定の属性ファイルに対して、同期ステータスアイコンを選択すると表示できます。`Sync %` は、Adobe Target で同期されたプロファイルの割合（%）を示すリアルタイム指標です。<br> **注意：**&#x200B;属性が Adobe Target と同期するまでに最大 24 時間かかる場合があります。 |
 | 顧客属性ソースのファイルアップロード指標は何を表しますか。 | 次の指標を使用して、顧客属性にアップロードされた属性のステータスを確認できます。 <ul><li>レコード：属性ファイル内のレコード数。</li><li>**新しいレコード：**&#x200B;属性ファイルに存在する新しいレコードの数。</li> <li>**更新されたレコード：**&#x200B;顧客属性に既に存在し、ファイル内の値が更新されているレコードの数。</li><li>**すべてのデータ（レコード）：**&#x200B;顧客属性に正常にアップロードされたレコードの合計数です。</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
