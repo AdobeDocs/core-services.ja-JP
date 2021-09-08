@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
 source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Experience Cloud Assets は、複数のソリューション間で共有でき�
 * [Experience Cloud Assets への移動](experience-cloud-assets.md#section_3657039DD3524F2AA88753BFF4781125)
 * [ツールバーへのアクセス](experience-cloud-assets.md#section_EC2E401D225148818F3753248556BE6B)
 * [アセットの編集](experience-cloud-assets.md#section_CD3C55A9D4574455B94D0955391C8FEC)
-* [アセットを検索する](experience-cloud-assets.md#section_50FE049010B446FC9640AA6A30E5A730)
+* [アセットの検索](experience-cloud-assets.md#section_50FE049010B446FC9640AA6A30E5A730)
 * [アセットへの注釈の付加](experience-cloud-assets.md#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A)
 * [アセットのフルスクリーン表示とズーム](experience-cloud-assets.md#section_A9F50D7D6BE341A2AB8244A4E42A4EF7)
 * [アセットプロパティの表示](experience-cloud-assets.md#section_FED28711DAB14E1BBEEA7CA890EE9573)
@@ -49,7 +49,7 @@ Experience Cloud Assets は、複数のソリューション間で共有でき�
 
 ## ツールバーへのアクセス {#section_EC2E401D225148818F3753248556BE6B}
 
-アセット（またはアセットディレクトリ）に移動し、「****」を選択します。
+アセット（またはアセットディレクトリ）に移動し、「**[!UICONTROL 選択]**」を選択します。
 
 ツールバーから、検索、タイムライン、レンディション、編集、注釈、ダウンロードなどの機能にすばやくアクセスできます。
 
@@ -79,7 +79,7 @@ Experience Cloud Assets は、複数のソリューション間で共有でき�
 
 ## アセットのフルスクリーン表示とズーム {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-**[!UICONTROL ビュー]** > **[!UICONTROL 画像]**&#x200B;を選択して、アセット画像全体を表示し、ズームを有効にします。
+**[!UICONTROL ビュー]**／**[!UICONTROL 画像]**&#x200B;を選択して、アセット画像全体を表示し、ズームを有効にします。
 
 ![](assets/asset-zoom.png)
 
@@ -87,7 +87,7 @@ Experience Cloud Assets は、複数のソリューション間で共有でき�
 
 プロパティ付きのカードビュー、リストビューおよび列ビューのいずれかを選択して、アセットをより容易に見つけることができます。
 
-**[!UICONTROL ビュー]** / **[!UICONTROL プロパティ]**&#x200B;を選択して、アセットのプロパティを表示します。
+**[!UICONTROL ビュー]**／**[!UICONTROL プロパティ]**&#x200B;を選択して、アセットのプロパティを表示します。
 
 ![](assets/asset-properties.png)
 
@@ -95,6 +95,6 @@ Experience Cloud Assets は、複数のソリューション間で共有でき�
 
 ユーザー数、使用されているストレージおよびアセット合計数を表示します。
 
-**[!UICONTROL ツール]** / **[!UICONTROL レポート]** / **[!UICONTROL 使用状況レポート]**&#x200B;を選択します。
+**[!UICONTROL ツール]**／**[!UICONTROL レポート]**／**[!UICONTROL 使用状況レポート]**&#x200B;を選択します。
 
 ![](assets/assets-usage-report.png)
