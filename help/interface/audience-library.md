@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '828'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -59,8 +59,8 @@ Experience Cloud ソリューションでのオーディエンスの使用方法
 
 | ヘルプの内容 | リソース |
 |--- |--- |
-| オーディエンスが見つからない場合 | プロビジョニングが完了していることを確認します。[はじめに - ソリューションのコアサービスへの対応](core-services.md)を参照してください。<br>ここに [](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) 移動して、Profiles &amp; Audiencesへのアクセス権をリクエストします（統合プロビジョニングフォーム）。 |
-| 使用例 | 使用するソリューションの選択については、ナレッジベースで[オーディエンス作成オプション](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en)を参照してください。 |
+| オーディエンスが見つからない場合 | プロビジョニングが完了していることを確認します。[はじめに - ソリューションのコアサービスへの対応](core-services.md)を参照してください。<br>[ここ](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) を選択して、プロファイルと Audiences へのアクセス権をリクエストします（統合プロビジョニングフォーム）。 |
+| 使用例 | 使用するソリューションの選択については、ナレッジベースで[オーディエンス作成オプション](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ja)を参照してください。 |
 | フォーラム | [Audiences フォーラム](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community)でも、オーディエンスを活用するうえで役立つリソースを入手できます。 |
 
 {style=&quot;table-layout:auto&quot;}
