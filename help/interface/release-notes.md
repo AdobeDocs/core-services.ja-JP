@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: fc29feb4425d99c4e28fb1d40036dd9d93a801c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4279'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -28,11 +28,11 @@ Experience Cloud の中央インターフェイスコンポーネントの機能
 
 | 機能 | 日付 | 説明 |
 | ------- | ------- | -------|
-| [!UICONTROL 統合された最新情報] ：最近アクセスしたビジネス・オブジェクトに対する拡張サポート | 2021 年 8 月 10 日（PT） | [!UICONTROL 統合最] 新情報は、Journey OptimizerとExperience Platformの追加のビジネスオブジェクトに拡張されました。Journey Optimizerのお客様は、最近アクセスしたオブジェクト(メッセージ、ジャーニー、セグメント、スキーマ、データセット、データソース、イベント、アクション、ソース、宛先)をAdobe Journey Optimizerのホームページから検索できます。 |
+| [!UICONTROL 統合された最新情報] - 最近アクセスしたビジネスオブジェクトに対する拡張サポート | 2021 年 8 月 10 日（PT） | [!UICONTROL 統合された最新情報] は、Journey Optimizer と Experience Platform の追加のビジネスオブジェクトに拡張されました。Journey Optimizer のお客様は、最近アクセスしたオブジェクト（メッセージ、ジャーニー、セグメント、スキーマ、データセット、データソース、イベント、アクション、ソース、宛先）を Adobe Journey Optimizer のホームページから検索できます。 |
 
 ## 2021年7月
 
-統合検索が更新され、Journey Optimizer、オファー、Experience Leagueで利用できるようになりました。 以前は、この機能はExperience Platformユーザーのみが使用できました。
+統合検索が更新され、Journey Optimizer、オファー、Experience League で利用できるようになりました。以前は、この機能は Experience Platform ユーザーのみが使用できました。
 
 ## 2021 年 6 月
 
@@ -304,7 +304,7 @@ Experience Cloud の中央インターフェイスコンポーネントの機能
   </tr> 
   <tr> 
    <td colname="col1"> <p>Activation </p> </td> 
-   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local">Activation</a> が <span class="keyword">Experience Cloud</span> の左側のナビゲーションに表示されるようになりました。<span class="wintitle"> </span> Activationは、現在はDynamic Tag Managementテクノロジーで構成さ <span class="keyword"> </span> れるExperience Cloudサービスで、選択するとこの機能に移動します。 </p> </td> 
+   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local">Activation</a> が <span class="keyword">Experience Cloud</span> の左側のナビゲーションに表示されるようになりました。<span class="wintitle">Activation</span> は、現在は dynamic tag management テクノロジーで構成される <span class="keyword">Experience Cloud</span> サービスで、選択するとこの機能に移動します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ドキュメントの更新 - コアサービス </p> </td> 
@@ -424,7 +424,7 @@ Experience Cloud の中央インターフェイスコンポーネントの機能
 **既知の問題**
 
 * ユーザー管理でおこなったグループおよび権限付与の変更は、新しくログインした後でのみ有効になります。
-* PDFからカードを作成してボードに共有できない場合があります。
+* 一部のユーザーは、PDF からカードを作成してボードに共有できません。
 * ボードへのアセットのアップロードで問題が発生する場合があります。
 * 古くなったアセットに関するエラー通知を受信する代わりに、そのアセットを削除できてしまう場合があります。
 * ユーザーがボードで PowerPoint ファイルを共有できません。
@@ -564,7 +564,7 @@ Experience Cloud の中央インターフェイスコンポーネントの機能
 * [!DNL Experience Cloud] が [!DNL Adobe Target] にリンクされなかった問題を修正しました。この問題は、[!DNL Adobe Target] ログインが複数の [!DNL Target] サーバーで使用できる場合に発生していました。
 * [!DNL Experience Cloud] でユーザーが作成された場合、[!DNL Adobe Media Optimizer] でユーザーが自動作成されなかった問題を修正しました。
 * 新しいユーザーを追加するためのコンボボックスのオプションが、入力中、一時的に消えていた問題を修正しました。
-* アセットカード表示のコメントリンクを選択できませんでした。
+* アセットカード表示のコメントリンクを選択できなかった問題を修正しました。
 * アセットにカスタムタグを追加した後、その他のメタデータの変更が保持されなかった問題を修正しました。
 * アセットの画像の削除で、その画像が Adobe Target Essentials で使用されていても、警告が表示されない問題を修正しました。
 * 多くのユーザーが同時に使用すると、[!UICONTROL Experience Cloud] インターフェイスのパフォーマンスが遅くなっていた問題を修正しました。
@@ -591,9 +591,9 @@ Experience Cloud の中央インターフェイスコンポーネントの機能
    <td colname="col1"> <p>ヘルプトピックからカードを作成 </p> </td> 
    <td colname="col2"> <p>Adobe Experience Cloud に共有機能を有効にした後、ブラウザーのブックマークツールバーで、マイクロサイト URL からヘルプページを共有できるようになりました。 </p> <p> <b>ヘルプトピックを共有するには</b> </p> 
     <ol id="ol_F94B816121494B0FA16CC07B0E96AED8"> 
-     <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p><span class="keyword">Experience Cloud</span>で、「<span class="uicontrol">管理</span>」を選択します。 </p> </li> 
+     <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p><span class="keyword">Experience Cloud</span> で、「<span class="uicontrol">管理</span>」を選択します。 </p> </li> 
      <li id="li_94EF58E7A4974B63951E14F72A710183"> <p>「<span class="uicontrol">Adobe Experience Cloud で共有</span>」ボタンをブックマークツールバーにドラッグします。 </p> </li> 
-     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>ヘルプページに移動して（またはこのページにとどまったまま）、ブラウザーのブックマークツールバーで「 <span class="uicontrol"> Adobe Experience Cloudで共有</span> 」を選択します。 </p> <p>この手順により、<span class="wintitle">Experience Cloud</span> で確認できるカードが作成されます。 </p> </li> 
+     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>ヘルプページに移動して（またはこのページにとどまったまま）、ブラウザーのブックマークツールバーに配置された「<span class="uicontrol">Adobe Experience Cloud で共有</span>」を選択します。 </p> <p>この手順により、<span class="wintitle">Experience Cloud</span> で確認できるカードが作成されます。 </p> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
@@ -607,7 +607,7 @@ Experience Cloud の中央インターフェイスコンポーネントの機能
 * [!DNL Analytics] ソリューションランディングページでフォーマットエラーが表示されます。
 * すべての権限および権限付与の変更を有効にするには、ユーザーはログアウトしてからログインし直す必要があります。
 * [!UICONTROL アセット]の画像の削除で、その画像が [!DNL Adobe Target Essentials] で使用されていても、警告が表示されません。
-* アセットカード表示のコメントリンクは選択できません。
+* アセットカード表示のコメントリンクを選択できません。
 * 新しいユーザーを追加するためのコンボボックスのオプションが、入力中、一時的に消えます。
 * [!DNL Experience Cloud] へのログインに、1 秒以上かかります。
 * [!DNL Media Optimizer] から共有されたデータが [!DNL Experience Cloud] に正しく表示されなかった問題を修正しました。
@@ -640,7 +640,7 @@ Experience Cloud の中央インターフェイスコンポーネントの機能
 * すべての権限および権限付与の変更を有効にするには、ユーザーはログアウトしてからログインし直す必要があります。
 * *`Remember me`* が選択されていない場合、ユーザーは 15 分後にログアウトされます。
 * [!DNL Analytics] ソリューションランディングページでフォーマットエラーが表示されます。
-* アセットカード表示のコメントリンクは選択できません。
+* アセットカード表示のコメントリンクを選択できません。
 * 多くのユーザーが同時に使用すると、Experience Cloud インターフェイスのパフォーマンスが遅くなる可能性があります。
 * [!DNL Adobe Target] ログインが複数の Target サーバーで使用できる場合、Experience Cloud は [!DNL Adobe Target] にリンクできません。
 * Experience Cloud へのログインに、1 秒以上かかります。
@@ -684,5 +684,5 @@ Experience Cloud の中央インターフェイスコンポーネントの機能
 
 * 共有された [!DNL Analytics] レポートにセグメントフィルターを適用できない問題を修正しました。
 * ソリューションアカウントがリンクされていない場合でも、ソリューションがリンクされているものとして [!UICONTROL Experience Cloud ソリューション]ページに表示される問題を修正しました。
-* アジアの[!DNL Adobe Target]のお客様がリンク用ページの「**[!UICONTROL Experience Cloudを続行]**」ボタンを選択できない問題を修正しました。
+* アジアの [!DNL Adobe Target] のお客様がリンク用ページの「**[!UICONTROL Experience Cloud を続行]**」ボタンを選択できなかった問題を修正しました。
 * YouTube ビデオの共有ができない問題を修正しました。
