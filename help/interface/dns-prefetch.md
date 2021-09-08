@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '384'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ DNS プリフェッチを実装すると、各種ソリューションやサー�
 
 ## DNS プリフェッチについて {#section_772BF9CB7C4141DE9B0355146E2CD962}
 
-ブラウザーでは、Web ページ上のリンクされているドメイン名を対応する IP アドレスに自動解決するために DNS プリフェッチが使用されます。プリフェッチプロセスは、ブラウザーが Web ページを読み込んだ時点で開始されます。例えば、ページに`www.adobe.com`への選択可能なリンクが含まれているとします。 このページが読み込まれると、ブラウザーは [DNS システム](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/)を使用してリンクされているドメイン名を検索し、それを対応する数値 IP アドレスに解決します。サイト訪問者がリンクやボタンをクリックした時点では既にドメイン名が IP アドレスに解決されているので、DNS プリフェッチはページパフォーマンスの向上に役立ちます。DNS プリフェッチプロセスはユーザーに対して透過的なプロセスです。
+ブラウザーでは、Web ページ上のリンクされているドメイン名を対応する IP アドレスに自動解決するために DNS プリフェッチが使用されます。プリフェッチプロセスは、ブラウザーが Web ページを読み込んだ時点で開始されます。例えば、ページ内に `www.adobe.com` への選択可能なリンクがあるとします。このページが読み込まれると、ブラウザーは [DNS システム](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/)を使用してリンクされているドメイン名を検索し、それを対応する数値 IP アドレスに解決します。サイト訪問者がリンクやボタンをクリックした時点では既にドメイン名が IP アドレスに解決されているので、DNS プリフェッチはページパフォーマンスの向上に役立ちます。DNS プリフェッチプロセスはユーザーに対して透過的なプロセスです。
 
 ## DNS プリフェッチと Adobe Experience Cloud ソリューション {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
@@ -42,7 +42,7 @@ DNS プリフェッチはページ上に埋め込まれている静的リンク�
 
 * **Audience Manager：** `<link rel="dns-prefetch" href="//dpm.demdex.net">`。
 
-* **Experience Cloud ID サービス：**`<link rel="dns-prefetch" href="//fast. *`ここにパートナー ID を挿入する`*.demdex.net">`
+* **Experience Cloud ID サービス：** `<link rel="dns-prefetch" href="//fast. *`ここにパートナー ID を挿入する`*.demdex.net">`
 
 * **Dynamic Tag Manager**（DTM）：必須ではありません。DTM リンクは、ページの読み込み時に利用できます。
 
@@ -52,7 +52,7 @@ DNS プリフェッチはページ上に埋め込まれている静的リンク�
    * `<link rel="dns-prefetch" href="//cm.everesttechnet">`
 
 
-* **[!DNL Target]：**`<link rel="dns-prefetch" href="//insert customer code here.tt.omtrdc.net">`
+* **[!DNL Target]：** `<link rel="dns-prefetch" href="//insert customer code here.tt.omtrdc.net">`
 
 >[!MORELIKETHIS]
 >
