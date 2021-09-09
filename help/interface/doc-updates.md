@@ -4,15 +4,15 @@ keywords: Experience Cloud サービス
 solution: Experience Cloud
 title: ドキュメントの更新
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-feature: 顧客属性
-topic: 管理
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 89%
+source-wordcount: '272'
+ht-degree: 91%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 89%
 
 Experience Cloud 製品ドキュメントの更新に関する情報です。
 
-**更新日8/24/2021**
+**更新：2021年8月24日（PT）**
 
 [中央コンポーネント](experience-cloud.md)ページ（このガイドのランディングページ）を更新しました。 ブラウザーと言語のサポート、組織の更新、ログイン、ドメインに関する情報の追加がおこなわれました。
 
-**更新日8/6/2021**
+**更新：2021年8月6日（PT）**
 
-[ファーストパーティCookie](cookies-first-party.md)を更新しました。
+[ファーストパーティ Cookie](cookies-first-party.md) を更新しました。
 
 **更新：2021 年 6 月 4 日（PT）**
 

@@ -13,7 +13,7 @@ exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
 source-git-commit: 1e7c4c02b08a17b2666afc7a82ea44d598675b3c
 workflow-type: tm+mt
 source-wordcount: '1614'
-ht-degree: 70%
+ht-degree: 99%
 
 ---
 
@@ -21,18 +21,18 @@ ht-degree: 70%
 
 Analytics は、イメージリクエストとブラウザーセッション間で保持されない変数およびコンポーネントの情報を提供するために、cookie を使用します。アドビでは、可能な限りファーストパーティ cookie を使用してサイト上のアクティビティを記録します。所有している他のドメインなど、異なるサイトでのアクティビティを記録するには、サードパーティ cookieが必要です。
 
-多くのブラウザーやスパイウェア駆除アプリケーションは、サードパーティcookieを拒否し、削除するように設計されています。 Adobeは、サードパーティCookieがブロックされた場合でもCookieを常に設定できるようにします。 具体的な動作は、Experience PlatformIDサービス（ECIDサービス）とAnalyticsの従来の識別子（s_vi Cookieとも呼ばれます）のどちらを使用しているかによって異なります。
+多くのブラウザーやスパイウェア駆除アプリケーションは、サードパーティ Cookie を拒否し、削除するように設計されています。アドビは、サードパーティ Cookie がブロックされた場合でも Cookie を常に設定できるようにします。具体的な動作は、Experience Platform ID サービス（ECID サービス）と Analytics の従来の識別子（s_vi Cookie とも呼ばれます）のどちらを使用しているかによって異なります。
 
-* [Experience PlatformIDサービス（ECIDサービス）](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ja)は、収集ドメインがサイトドメインと一致するかどうかに関係なく、自動的にファーストパーティCookieを設定します。 一致しない場合、IDサービスはJavaScriptを使用してサイトのドメインにCookieを設定します。
-* [Analyticsの従来の識別子](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=en)（別名`s_vi` Cookie）を使用している場合は、データ収集サーバーの設定方法によって異なります。 データ収集サーバーがサイトのドメインと一致する場合、Cookie はファーストパーティとして設定されます。収集サーバーが現在のドメインと一致しない場合、Cookie はサードパーティとして設定されます。この場合、サードパーティCookieがブロックされると、Analyticsは、標準の「s_vi」Cookieの代わりにファーストパーティ[フォールバックID(s_fid)](cookies-analytics.md)を設定します。
+* [Experience Platform ID サービス（ECID サービス）](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ja) は、収集ドメインがサイトドメインと一致するかどうかに関係なく、自動的にファーストパーティ Cookie を設定します。一致しない場合、ID サービスは JavaScript を使用してサイトのドメインに Cookie を設定します。
+* [Analytics の従来の識別子](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=ja)（別名 `s_vi` cookie）を使用している場合、データ収集サーバーの設定方法によってどちらを使用するかは異なります。データ収集サーバーがサイトのドメインと一致する場合、Cookie はファーストパーティとして設定されます。収集サーバーが現在のドメインと一致しない場合、Cookie はサードパーティとして設定されます。この場合、サードパーティ Cookie がブロックされていると、Analytics は、標準の「s_vi」Cookie ではなく、ファーストパーティ [フォールバック ID（s_fid）](cookies-analytics.md) を設定します。
 
-収集サーバーがサイトのドメインと一致するようにする場合は、CNAME実装を使用して、CNAME実装で指定されたカスタムドメインからAdobeの収集サーバーへの転送を有効にできます。 これには、会社のDNS設定に対する変更が含まれ、ドメインがホストするドメインを指すようにCNAMEエイリアスをAdobeします。 各種のアドビ製品では CNAME の使用をサポートしていますが、どの場合でも、CNAME は、特定の顧客用の信頼できるファーストパーティエンドポイントを作成するために使用され、その顧客に所有されることに注意してください。複数のドメインを制御する場合、1 つの CNAME エンドポイントを使用して複数のドメインをまたいだユーザーを追跡できます。ただし、サイトドメインが CNAME と一致しない場合は、ドメイン Cookie はサードパーティとして設定されます。
+収集サーバーがサイトのドメインと一致するようにする場合は、CNAME 実装を使用して、CNAME 実装で指定されたカスタムドメインからアドビの収集サーバーへの転送を有効にできます。この際、会社の DNS 設定を変更し、アドビがホストするドメインを指すよう CNAME エイリアスを設定します。各種のアドビ製品では CNAME の使用をサポートしていますが、どの場合でも、CNAME は、特定の顧客用の信頼できるファーストパーティエンドポイントを作成するために使用され、その顧客に所有されることに注意してください。複数のドメインを制御する場合、1 つの CNAME エンドポイントを使用して複数のドメインをまたいだユーザーを追跡できます。ただし、サイトドメインが CNAME と一致しない場合は、ドメイン Cookie はサードパーティとして設定されます。
 
 >[!NOTE]
 >
->収集ドメインがサイトドメインと一致するかどうかに関係なく、AppleのIntelligent Tracking Prevention(ITP)プログラムは、ITPで管理されるブラウザー（macOSのSafariとiOSおよびiPadOSのすべてのブラウザーを含む）でアドビが設定したファーストパーティCookieを短時間有効にします。 2020年11月以降、CNAMEを使用して設定されたcookieも、JavaScriptを使用して設定されたcookieと同じ有効期限を持ちます。 この有効期限は変更される可能性があります。
+>収集ドメインがサイトドメインと一致するかどうかに関係なく、Apple の Intelligent Tracking Prevention (ITP) プログラムは、ITP で管理されるブラウザー（macOS の Safari と iOS および iPadOS のすべてのブラウザーを含む）でアドビが設定したファーストパーティ Cookie を短時間有効にします。2020年11月以降、CNAME を使用して設定された Cookie も、JavaScript を使用して設定された Cookie と同じ有効期限を持ちます。この有効期限は変更される可能性があります。
 
-データ収集用のCNAMEを確立したい場合で、サイトにHTTPSプロトコルを使用したセキュリティで保護されたページがある場合は、Adobeと協力してSSL証明書を取得できます。
+データ収集用の CNAME を確立する場合で、サイトに HTTPS プロトコルを使用したセキュリティで保護されたページがある場合は、アドビと協力して SSL 証明書を取得できます。
 
 SSL 証明書の発行プロセスは、多くの場合、わかりにくく、時間がかかる可能性があります。結果として、アドビは、業界最先端の証明機関（CA）である DigiCert とのパートナーシップを構築し、これらの証明書の購入や管理を自動化する統合プロセスを開発しました。
 
@@ -40,15 +40,15 @@ SSL 証明書の発行プロセスは、多くの場合、わかりにくく、�
 
 ## Adobe 管理証明書プログラム
 
-Adobe管理証明書プログラムは、Adobe収集サーバーがサイトドメインと一致するように、CNAME実装に必要なファーストパーティSSL証明書を設定するための推奨プロセスです。
+Adobe 管理証明書プログラムは、Adobe 収集サーバーがサイトドメインと一致するように、CNAME 実装に必要なファーストパーティ SSL 証明書を設定するための推奨プロセスです。
 
-Adobe管理証明書プログラムを使用すると、新しいファーストパーティSSL証明書を追加費用なしで実装できます（最初の100個のCNAME）。 現在、お客様が管理する独自の SSL 証明書がある場合、Adobe Managed Certificate Program への移行についてアドビカスタマーケアにお問い合わせください。
+Adobe 管理証明書プログラム を利用すると、新しいファーストパーティ SSL 証明書を追加費用なしで実装できます（最初の 100 個の CNAME）。現在、お客様が管理する独自の SSL 証明書がある場合、Adobe Managed Certificate Program への移行についてアドビカスタマーケアにお問い合わせください。
 
 ### 実装方法
 
-次に、ファーストパーティデータ収集用の新しいファーストパーティSSL証明書の実装方法を示します。
+次に、ファーストパーティデータ収集用の新しいファーストパーティ SSL 証明書を実装する方法を示します。
 
-1. [ファーストパーティAdobeリクエストフォーム](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx)に入力し、カスタマーケアに連絡して、ドメイン管理プログラムでファーストパーティデータ収集の設定をリクエストするチケットを開きます。 例が記載されたフォーム内の各フィールドに記入します。
+1. [ファーストパーティドメインリクエストフォーム](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) に入力して、カスタマーケアでチケットを開き、Adobe Managed プログラムでファーストパーティデータ収集の設定をリクエストします。例が記載されたフォーム内の各フィールドに記入します。
 
 2. CNAME レコードを作成します（以下の手順を参照）。
 
@@ -147,7 +147,7 @@ Address: 54.187.216.46
 
 ## 実装コードの更新 {#update}
 
-ファーストパーティデータ収集を使用するようにサイトのコードを編集する前に、次の前提条件を満たします。
+サイトのコードを編集してファーストパーティデータ収集を使用できるようにする前に、次の前提条件を満たします。
 
 * [Adobe Managed Certificate Program](#adobe-managed-certificate-program) の&#x200B;*実装方法*&#x200B;の節で説明した手順に従って、SSL 証明書を要求します。
 * CNAME レコードを作成します（上記を参照）。
@@ -156,12 +156,12 @@ Address: 54.187.216.46
 ホスト名がアドビのデータ収集サーバーに応答し、転送することを確認したら、実装を変更して独自のデータ収集ホスト名を指定できます。
 
 1. コア JavaScript ファイル（`s_code.js/AppMeasurement.js`）を開きます。
-1. コードバージョンを更新する場合は、`s_code.js/AppMeasurement.js` ファイル全体を新しいバージョンに置き換え、すべてのプラグインやカスタマイズ（作成した場合）を置き換えます。**または、ファーストパーティのデータ収集にのみ関連するコードを更新する場合は、s.trackingServer変数とs.trackingServerSecure変数（SSLを使用する場合）を探し、新しいデータ収集ホスト名を指定します。** mysite.com を使用すると、`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"` のようになります。
+1. コードバージョンを更新する場合は、`s_code.js/AppMeasurement.js` ファイル全体を新しいバージョンに置き換え、すべてのプラグインやカスタマイズ（作成した場合）を置き換えます。**または**、ファーストパーティデータ収集のみに関連するコードを更新するには、s.trackingServer および s.trackingServerSecure 変数（SSL 使用時）を探し、新しいデータ収集ホスト名を指定します。mysite.com を使用すると、`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"` のようになります。
 
 1. 更新したコア JavaScript ファイルをサイトにアップロードします。
 
-1. 長期にわたる実装からファーストパーティデータ収集に移行する場合、または別のファーストパーティ収集ホスト名に変更する場合は、以前のドメインから新しいドメインに訪問者を移行することをAdobeにお勧めします。
+1. 長期にわたる実装からファーストパーティデータ収集に移動する場合、または異なるファーストパーティ収集ホスト名に変更する場合、アドビは以前のドメインから新しいドメインに訪問者を移行することをお勧めします。
 
-詳しくは、Analytics 導入ガイドの[訪問者の移行](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-migration.html?lang=en)を参照してください。
+詳しくは、Analytics 導入ガイドの [訪問者の移行](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-migration.html?lang=en) を参照してください。
 
 コア JavaScript ファイルをアップロードすると、ファーストパーティ によるデータ収集用の設定がすべておこなわれます。アドビは、アップロード後の数時間は Analytics レポートを監視し、通常どおりデータ収集がおこなわれているかを確認することをお勧めします。通常どおりおこなわれていない場合、上記のすべての手順が完了していることを確認し、組織のサポート対象ユーザーの中からカスタマーケアにお問い合わせください。

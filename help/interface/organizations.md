@@ -12,7 +12,7 @@ exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 source-git-commit: ec724555c3799eeca350592498267d0b71b4ff04
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 64%
+ht-degree: 71%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 64%
 
 **組織 ID：**&#x200B;プロビジョニングされた Experience Cloud の会社に関連付けられた ID。この ID は 24 文字の英数字から成る文字列で、その後に @AdobeOrg（必須）が続きます。
 
-組織IDを表示するには、Experience Cloudランディングページに移動するか、(![](assets/menu-icon.png))を選択してから、「**[!UICONTROL 管理]**」を選択します。 組織 ID は、[!UICONTROL Experience Cloud 使用の手引き]ページまたは[!UICONTROL 管理]ページの下部にあります。
+組織 ID を表示するには、Experience Cloud ランディングページに移動するか、（![](assets/menu-icon.png)）を選択してから、「**[!UICONTROL 管理]**」を選択します。組織 ID は、[!UICONTROL Experience Cloud 使用の手引き]ページまたは[!UICONTROL 管理]ページの下部にあります。
 
 ![](assets/administration-page.png)
 
@@ -48,7 +48,7 @@ ht-degree: 64%
 
 1. Experience Cloud への招待メールに記載されている手順に従います。
 1. Adobe ID または Enterprise ID を使用してログインします。
-1. ソリューションセレクターを選択します。( ![](assets/menu-icon.png) )。
+1. ソリューションセレクター（![](assets/menu-icon.png)）を選択します。
 
    ![](assets/solutions-active.png)
 
@@ -58,7 +58,7 @@ ht-degree: 64%
    ![](assets/analytics-link-accounts.png)
 
    このタイプのメッセージは、ユーザーが適切なグループに属している（かつソリューションに対する権限を持っている）ものの、そのアカウントの資格情報をまだ Adobe ID にリンクしていない場合に表示されます。
-1. 「**[!UICONTROL アカウント]**&#x200B;をリンク」を選択し、資格情報を入力します。
+1. 「**[!UICONTROL アカウントにリンク]**」を選択し、認証情報を設定します。
 
 ## デフォルトの組織とランディングページを指定する {#concept_6A191B42A9874A9780882903BA18F071}
 

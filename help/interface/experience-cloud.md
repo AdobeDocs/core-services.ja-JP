@@ -3,15 +3,15 @@ description: Experience Cloud 用の中央インターフェイスコンポー�
 solution: Experience Cloud
 title: Experience Cloud インターフェイスのヘルプとドキュメント
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: '"顧客属性"'
-topic: 管理
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 4534f764ea821576c3ac5cd1959d387a3689e837
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 63%
+source-wordcount: '1303'
+ht-degree: 66%
 
 ---
 
@@ -33,7 +33,7 @@ Experience Cloud のヘッダーから、次の操作を実行できます。
 ログインし、自分が適切な[組織](organizations.md)に属していることを確認します。
 
 1. [Adobe Experience Cloud](https://experience.adobe.com) に移動します。
-1. 「**[!UICONTROL Adobe IDでログイン]**」を選択します。
+1. 「**[!UICONTROL Adobe ID でログイン]**」を選択します。
 1. 自分が適切な組織に属していることを確認します。
 
    ![](assets/organizations-menu.png)
@@ -122,7 +122,7 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 * ログアウト
 * アカウントの環境設定、通知、サブスクリプションを設定する
 
-環境設定を管理するには、アカウントメニュー![](assets/preferences-icon-sm.png)から&#x200B;**[!UICONTROL 環境設定]**&#x200B;を選択します。
+環境設定を管理するには、アカウントメニュー ![](assets/preferences-icon-sm.png) から「**[!UICONTROL 環境設定]**」を選択します。
 
 ![](assets/preferences-page.png)
 
@@ -140,7 +140,7 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 
 ## 通知とお知らせ {#notifications}
 
-**[!UICONTROL 通知]**&#x200B;を選択して、製品リリース、メンテナンス通知、共有項目、承認リクエストなど、関連性の高い実用的な更新に関する警告を表示します。
+「**[!UICONTROL 通知]**」を選択すると、製品リリース、メンテナンス通知、共有項目、承認リクエストなど、関連性の高い実用的な更新に関する警告が表示されます。
 
 ![](assets/notifications-menu-small.png)
 
@@ -184,7 +184,7 @@ Experience Cloudは、次のホストを使用してアプリケーションを�
 * [Experience Platform データ収集／Launch](https://experienceleague.adobe.com/docs/launch.html?lang=ja)
 * [Experience Cloud デバッガー](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja)
 * [一般データ保護規則（GDPR）API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
-* [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+* [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)
 
 ## チュートリアル
 
