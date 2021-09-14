@@ -1,16 +1,16 @@
 ---
 title: ユーザーと製品を管理する
-description: Admin Console へのログイン方法と、Experience Cloud ユーザーの権限および製品プロファイルの管理方法をご覧ください。Experience Cloud ユーザーへの管理者権限の委任、および Experience Cloud に対するブラウザーのサポートについて説明します。
+description: Admin Console へのログイン方法と、Experience Cloud ユーザーの権限および製品プロファイルの管理方法をご覧ください。Experience Cloud ユーザーへの管理権限の委任、および Experience Cloud に対するブラウザーのサポートについて説明します。
 solution: Admin
 index: true
 feature: Admin Console
-topic: 管理
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: ht
-source-wordcount: '1274'
+source-wordcount: '1271'
 ht-degree: 100%
 
 ---
@@ -43,9 +43,9 @@ Admin Console へのログイン、Experience Cloud ユーザーの権限およ�
 1. [Admin Console](https://adminconsole.adobe.com/enterprise/) で、「**[!UICONTROL 製品]**」を選択します。
 1. 組織名を選択します。
 1. 「**[!UICONTROL 新規プロファイル]**」を選択します。
-1. プロファイルの詳細を設定し、「 **[!UICONTROL 保存]**」を選択します。
+1. プロファイルの詳細を設定し、「**[!UICONTROL 保存]**」を選択します。
 
-詳細（および Creative Cloud と Document Cloud 製品管理のヘルプ）については、『[管理ユーザーガイド](https://helpx.adobe.com/jp/enterprise/admin-guide.html/jp/enterprise/using/users.ug.html)』の[ID](https://helpx.adobe.com/jp/enterprise/admin-guide.html/jp/enterprise/using/identity.ug.html) を参照してください。
+詳細（および Creative Cloud と Document Cloud 製品管理のヘルプ）については、『[管理ユーザーガイド](https://helpx.adobe.com/jp/enterprise/admin-guide.html/jp/enterprise/using/users.ug.html)』の [ID](https://helpx.adobe.com/jp/enterprise/admin-guide.html/jp/enterprise/using/identity.ug.html) を参照してください。
 
 **関連するヘルプ**
 
@@ -70,23 +70,23 @@ What to do
 
 Beginning May 2020, enterprise administrators cannot use the Adobe ID for new organizations created in the Admin Console. Latest: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM-->
 
-## ユーザーへの管理者ロールの委任 {#delegate-rights}
+## ユーザーへの管理者の役割の委任 {#delegate-rights}
 
-Admin Console では、組織内の他のユーザーに管理権限を制限付きで委任できます。委任された管理者ロールでは、エンドユーザーに対するソフトウェアアクセスを管理したり、デプロイ機能へのアクセスを提供したりできます。また、サポート代行者としての役割を果たすこともできます。
+Admin Console では、組織内の他のユーザーに管理権限を制限付きで委任できます。委任された管理者の役割では、エンドユーザーに対するソフトウェアアクセスを管理したり、デプロイ機能へのアクセスを提供したりできます。また、サポート代行者としての役割を果たすこともできます。
 
 例えば、次のことができます。
 
 * クリエイティブディレクターが Creative Cloud へのアクセス権を付与できるようにする。
 * マーケティングディレクターが Experience Cloud へのアクセス権を付与できるようにする。
-* 管理者ロールと副管理者ロールを切り離して、お互いのロールを侵さないようにします。
+* 管理者の役割と副管理者の役割を切り離して、お互いの役割を侵さないようにします。
 
-副管理者ロールを使用すると、必要以上の機能を提供することなく、複数の人に同時に管理を委任できます。
+副管理者の役割を使用すると、必要以上の機能を提供することなく、複数の人に同時に管理を委任できます。
 
 1. Admin Console で「**[!UICONTROL ユーザー]**」を選択してから、ユーザー名を選択します。
 
    ![](assets/edit-admin-rights.png)
 
-1. 「**[!UICONTROL 管理者権限を編集]**」を選択します。
+1. 「**[!UICONTROL 管理権限を編集]**」を選択します。
 
    ![](assets/edit-admin-rights-page.png)
 
@@ -100,7 +100,7 @@ Admin Console では、組織内の他のユーザーに管理権限を制限付
 例えば、複数の Analytics ツール（[!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、[!UICONTROL Report Builder]）を含む製品プロファイルを作成できます。これらのプロファイルには、特定の指標およびディメンション（eVar を含む）に対する権限と、セグメントや計算指標の作成などの機能が含まれます。
 
 1. [Admin Console](https://adminconsole.adobe.com/enterprise) にログインし、「**[!UICONTROL 製品]**」を選択します。
-1. [!UICONTROL 製品] ページで、製品を選択してから「**[!UICONTROL 権限]**」を選択します（管理者のみが使用できます）。
+1. [!UICONTROL 製品]ページで、製品を選択してから「**[!UICONTROL 権限]**」を選択します（管理者のみが使用できます）。
 1. プロファイルの権限の設定：
 
 | 要素 | 説明 |
@@ -109,7 +109,7 @@ Admin Console では、組織内の他のユーザーに管理権限を制限付
 | 指標 | トラフィック、コンバージョン、カスタムイベント、ソリューションイベントおよびコンテンツ対応などに対する権限を有効にします。 |
 | ディメンション | eVar、トラフィックレポート、ソリューションレポートおよびパスレポートを含む、詳細なレベルでユーザーアクセスをカスタマイズします。 |
 | レポートスイートツール | Web サービス、レポートスイートの管理、ツールとレポート、およびダッシュボードの項目に対するユーザー権限を有効にします。 |
-| Analytics ツール | 一般的な項目（請求、ログなど）、会社の管理、ツール、Web サービスへのアクセス、Report Builder および Data Connectors の統合に関するユーザー権限を有効にします。Admin Console のカスタマイズカテゴリのカンパニー設定は、Analytics ツールに移動されました。 |
+| Analytics ツール | 一般的な項目（請求、ログなど）、会社の管理、ツール、web サービスへのアクセス、Report Builder および Data Connectors の統合に関するユーザー権限を有効にします。Admin Console のカスタマイズカテゴリのカンパニー設定は、Analytics ツールに移動されました。 |
 
 **ユーザーアカウントの移行**
 
@@ -117,7 +117,7 @@ Analytics 管理者がユーザーアカウントを Analytics User Management �
 
 アカウントの移行は、顧客ごとに段階的に実施しています。既存のユーザーアカウントを「**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**」から Admin Console へ移行する順番が来た顧客には、アドビから通知し、サポートを提供します。
 
-移行後、ユーザーはそれぞれの Adobe ID（または Enterprise ID）を使用してログインし、Experience Cloud ソリューションおよびサービスへ認証を [experiencecloud.adobe.com](https://experience.adobe.com) でおこないます。従来のログイン（[!DNL my.omniture.com]、[!DNL sc.omniture.com] および [!DNL experiencecloud.adobe.com]）でログインしようとしたユーザーは、[!DNL experience.adobe.com] にリダイレクトされます。
+移行後、ユーザーはそれぞれの Adobe ID（または Enterprise ID）を使用してログインし、Experience Cloud ソリューションおよびサービスへ認証を [experiencecloud.adobe.com](https://experience.adobe.com) で行います。従来のログイン（[!DNL my.omniture.com]、[!DNL sc.omniture.com] および [!DNL experiencecloud.adobe.com]）でログインしようとしたユーザーは、[!DNL experience.adobe.com] にリダイレクトされます。
 
 **関連するヘルプ**
 
@@ -149,11 +149,11 @@ Experience Platform [!UICONTROL データ収集]（[!UICONTROL Launch]）は、[
 
 Admin Console のユーザー権限と Launch 固有のオプションの形式について設定（プロファイルへの権限の割り当てなど）については、[ユーザー権限](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ja)を参照してください。
 
-## Experience Manager as a Cloud Service
+## Adobe Experience Manager as a Cloud Service
 
-Adobe Enterprise の顧客は、Adobe [!UICONTROL Admin Console] では組織として表されます。Experience Manager のお客様は、Adobe [!UICONTROL Admin Console] を使用して、Experience Manager as a [!UICONTROL Cloud Service] に対する製品の使用権限や IMS 認証を管理できます。
+Adobe Enterprise の顧客は、Adobe [!UICONTROL Admin Console] では組織として表されます。Adobe Experience Manager のお客様は、Adobe [!UICONTROL Admin Console] を使用して、Adobe Experience Manager as a [!UICONTROL Cloud Service] に対する製品の使用権限や IMS 認証を管理できます。
 
-[Experience Manager as a Cloud Service の IMS サポート ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=ja)を参照してください。
+[Adobe Experience Manager as a Cloud Service の IMS サポート](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=ja)を参照してください。
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
