@@ -1,5 +1,5 @@
 ---
-description: 'ログイン方法と、Experience Cloudの中央のインターフェイスコンポーネントについて説明します。 グローバル検索、アカウント設定、インターフェイスの操作方法、ヘルプの参照方法について説明します。 '
+description: 'ログイン方法と、Experience Cloud の中央インターフェイスコンポーネントについて説明します。グローバル検索、アカウント設定、インターフェイスの操作方法およびヘルプの入手方法について説明します。 '
 solution: Experience Cloud
 title: 'Experience Cloud 中央の UI コンポーネント '
 feature: Central Interface Components
@@ -7,9 +7,9 @@ topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
 source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ Experience Cloud の中央インターフェイスコンポーネントには、
 * グローバル検索を使用して製品ヘルプとビジネスオブジェクトを検索する
 * アカウント設定（アラート、通知、サブスクリプション）の管理
 
-## Experience Cloudでのブラウザーのサポート {#browser}
+## Experience Cloud でのブラウザーのサポート {#browser}
 
-最高のパフォーマンスを得るために、Experience Cloudは、最新バージョンに加えて2つ前のバージョンを含む、最も一般的なブラウザーに最適化されています。
+最高のパフォーマンスを実現するために、Experience Cloud は、一番人気のブラウザー（最新バージョンに加えて 2 つ前までのバージョンを含む）に合わせて最適化されています。
 
 * Chrome
 * Edge
@@ -31,15 +31,15 @@ Experience Cloud の中央インターフェイスコンポーネントには、
 * Opera
 * Safari
 
-ブラウザーが一覧に表示されない場合でも、サポートされている可能性がありますが、一覧に表示されたブラウザーの1つを使用することをお勧めします。
+ブラウザーがリストに表示されない場合でも、サポートされている可能性はありますが、リストに表示されたブラウザーの いずれかを使用することをお勧めします。
 
 >[!NOTE]
 >
->すべてのブラウザーがExperience Cloudドメインで実行されているアプリケーションでサポートされているわけではありません。 不明な場合は、特定のアプリケーションのドキュメントを確認してください。
+>Experience Cloud ドメインで実行されているすべてのアプリケーションがすべてのブラウザーをサポートしているわけではありません。不明な場合は、特定のアプリケーションのドキュメントを確認してください。
 
-## Experience Cloudでの言語サポート {#languages}
+## Experience Cloud での言語サポート {#languages}
 
-Experience Cloudは、ユーザーアカウントの環境設定で設定された、各Adobeの優先言語をサポートします。 現在サポートされている言語は次のとおりです。
+Experience Cloud は、アドビユーザーアカウントの環境設定で設定された各ユーザーの優先言語をサポートしています。現在サポートされている言語は次のとおりです。
 
 * 中国語
 * 英語
@@ -52,7 +52,7 @@ Experience Cloudは、ユーザーアカウントの環境設定で設定され�
 * スペイン語
 * 台湾語
 
-すべてのアプリケーションチームはグローバル言語のサポートに取り組んでいますが、すべてのアプリケーションが上記のすべての言語で提供されるわけではありません。 プライマリ言語がExperience Cloudアプリケーションでサポートされていない場合は、セカンダリ言語をデフォルトに設定することもできます。 これは、[Experience Cloudのユーザー設定](https://experience.adobe.com/preferences)で実行できます。
+すべてのアプリケーションチームはグローバルな言語サポートに取り組んでいますが、一部のアプリケーションは、上記のすべての言語では提供されていません。プライマリ言語が Experience Cloud アプリケーションでサポートされていない場合、利用可能であればセカンダリ言語をデフォルトに設定することもできます。 これは、[Experience Cloud のユーザーの環境設定](https://experience.adobe.com/preferences) で実行できます。
 
 ## Experience Cloud にサインインする {#signin}
 
@@ -64,11 +64,11 @@ Experience Cloudは、ユーザーアカウントの環境設定で設定され�
 
    ![](assets/organizations-menu.png)
 
-   自分が正しい[組織](organizations.md)にログインしたことを確認するには、自分のプロフィールのアバターをクリックして組織名を確認します。 複数の組織にアクセスできる場合は、ヘッダーバーで別の組織を表示して切り替えることもできます。
+   正しい [組織](organizations.md) にログインしていることを確認するには、プロファイルのアバターをクリックして組織名を表示します。複数の組織にアクセスできる場合は、ヘッダーバーで別の組織を表示して切り替えることもできます。
 
-   組織がFederated IDを使用している場合、Experience Cloudを使用すると、電子メールアドレスとパスワードを入力しなくても、組織のシングルサインオンでサインインできます。 これをおこなうには、Experience CloudURL(`https://experience.adobe.com`)に`#/sso:@domain`を追加します。
+   組織が Federated ID を使用している場合、Experience Cloud を使用すると、メールアドレスとパスワードを入力しなくても、組織のシングルサインオンでログインできます。 これをおこなうには、Experience Cloud の URL（`https://experience.adobe.com`）に `#/sso:@domain` を追加します。
 
-   例えば、Federated IDとドメイン`adobecustomer.com`を持つ組織の場合、URLリンクを`https://experience.adobe.com/#/sso:@adobecustomer.com`に設定します。 また、このURLにアプリケーションパスを追加してブックマークを付けることで、特定のアプリに直接アクセスすることもできます。 (例：Adobe Analyticsの場合は`https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`)。
+   例えば、Federated ID を持ち、ドメインが `adobecustomer.com` の組織の場合、URL リンクを `https://experience.adobe.com/#/sso:@adobecustomer.com` に設定します。また、この URL にアプリケーションパスを付けてブックマークに追加することで、特定のアプリケーションに直接移動することもできます。 （例えば、Adobe Analytics の場合は `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。）
 
 ## Experience Cloud アプリケーションへのアクセス {#navigation}
 
