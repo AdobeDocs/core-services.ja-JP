@@ -11,9 +11,9 @@ role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
 source-git-commit: 1e7c4c02b08a17b2666afc7a82ea44d598675b3c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1614'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -127,7 +127,7 @@ CNAME が設定されていて、証明書がインストールされている�
 
 ### [!DNL nslookup] を使用した検証
 
-`nslookup` を使用して検証できます。例えば、`smetrics.adobe.com` を使用する場合は、コマンドプロンプトを開き、`nslookup smetrics.adobe.com` と入力します。
+`nslookup` を使用して検証できます。例えば、`smetrics.adobe.com`を使用する場合は、コマンドプロンプトを開き、`nslookup smetrics.adobe.com` と入力します。
 
 すべてが正常に設定されている場合は、次のような応答が表示されます。
 
@@ -162,6 +162,6 @@ Address: 54.187.216.46
 
 1. 長期にわたる実装からファーストパーティデータ収集に移動する場合、または異なるファーストパーティ収集ホスト名に変更する場合、アドビは以前のドメインから新しいドメインに訪問者を移行することをお勧めします。
 
-詳しくは、Analytics 導入ガイドの [訪問者の移行](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-migration.html?lang=en) を参照してください。
+詳しくは、Analytics 導入ガイドの [訪問者の移行](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-migration.html?lang=ja) を参照してください。
 
 コア JavaScript ファイルをアップロードすると、ファーストパーティ によるデータ収集用の設定がすべておこなわれます。アドビは、アップロード後の数時間は Analytics レポートを監視し、通常どおりデータ収集がおこなわれているかを確認することをお勧めします。通常どおりおこなわれていない場合、上記のすべての手順が完了していることを確認し、組織のサポート対象ユーザーの中からカスタマーケアにお問い合わせください。
