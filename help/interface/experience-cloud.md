@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 4534f764ea821576c3ac5cd1959d387a3689e837
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1303'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -40,23 +40,23 @@ Experience Cloud のヘッダーから、次の操作を実行できます。
 
    **組織の検証**
 
-   自分が正しい[組織](organizations.md)にログインしたことを確認するには、自分のプロフィールのアバターをクリックして組織名を確認します。 複数の組織にアクセスできる場合は、ヘッダーバーで別の組織を表示して切り替えることもできます。
+   正しい [組織](organizations.md) にログインしていることを確認するには、プロファイルのアバターをクリックして組織名を表示します。複数の組織にアクセスできる場合は、ヘッダーバーで別の組織を表示して切り替えることもできます。
 
-   組織がFederated IDを使用している場合、Experience Cloudを使用すると、電子メールアドレスとパスワードを入力しなくても、組織のシングルサインオンでサインインできます。 これをおこなうには、Experience CloudURL(`https://experience.adobe.com`)に`#/sso:@domain`を追加します。
+   組織が Federated ID を使用している場合、Experience Cloud を使用すると、メールアドレスとパスワードを入力しなくても、組織のシングルサインオンでログインできます。 これをおこなうには、Experience Cloud の URL（`https://experience.adobe.com`）に `#/sso:@domain` を追加します。
 
-   例えば、Federated IDとドメイン`adobecustomer.com`を持つ組織の場合、URLリンクを`https://experience.adobe.com/#/sso:@adobecustomer.com`に設定します。 また、このURLにアプリケーションパスを追加してブックマークを付けることで、特定のアプリに直接アクセスすることもできます。 (例：Adobe Analyticsの場合は`https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`)。
+   例えば、Federated ID を持ち、ドメインが `adobecustomer.com` の組織の場合、URL リンクを `https://experience.adobe.com/#/sso:@adobecustomer.com` に設定します。 また、この URL にアプリケーションパスを付けてブックマークに追加することで、特定のアプリケーションに直接移動することもできます。 （例えば、Adobe Analytics の場合は `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。）
 
 ## Experience Cloud アプリケーションへのアクセス {#navigation}
 
 Experience Cloud にログインすると、統合ヘッダーからすべてのアプリケーション、サービスおよび組織にすばやくアクセスできます。
 
-組織内でプロビジョニングされたExperience Cloudアプリケーションおよびサービスにアクセスするには、アプリケーションセレクター![](assets/menu-icon.png)に移動します。
+組織内でプロビジョニングされた Experience Cloud のアプリケーションおよびサービスにアクセスするには、アプリケーションセレクター ![](assets/menu-icon.png) に移動します。
 
 ![](assets/platform-core-services.png)
 
-## Experience Cloudでのブラウザーのサポート {#browser}
+## Experience Cloud でのブラウザーのサポート {#browser}
 
-最高のパフォーマンスを得るために、Experience Cloudは、最新バージョンに加えて2つ前のバージョンを含む、最も一般的なブラウザーに最適化されています。
+最高のパフォーマンスを実現するために、Experience Cloud は、一番人気のブラウザー（最新バージョンに加えて 2 つ前までのバージョンを含む）に合わせて最適化されています。
 
 * Chrome
 * Edge
@@ -64,15 +64,15 @@ Experience Cloud にログインすると、統合ヘッダーからすべての
 * Opera
 * Safari
 
-ブラウザーが一覧に表示されない場合でも、サポートされている可能性がありますが、一覧に表示されたブラウザーの1つを使用することをお勧めします。
+ブラウザーがリストに表示されない場合でも、サポートされている可能性はありますが、リストに表示されたブラウザーの いずれかを使用することをお勧めします。
 
 >[!NOTE]
 >
->すべてのブラウザーがExperience Cloudドメインで実行されているアプリケーションでサポートされているわけではありません。 不明な場合は、特定のアプリケーションのドキュメントを確認してください。
+>Experience Cloud ドメインで実行されているすべてのアプリケーションがすべてのブラウザーをサポートしているわけではありません。不明な場合は、特定のアプリケーションのドキュメントを確認してください。
 
-## Experience Cloudでの言語サポート {#languages}
+## Experience Cloud での言語サポート {#languages}
 
-Experience Cloudは、ユーザーアカウントの環境設定で設定された、各Adobeの優先言語をサポートします。 現在サポートされている言語は次のとおりです。
+Experience Cloud は、アドビユーザーアカウントの環境設定で設定された各ユーザーの優先言語をサポートしています。現在サポートされている言語は次のとおりです。
 
 * 中国語
 * 英語
@@ -85,11 +85,11 @@ Experience Cloudは、ユーザーアカウントの環境設定で設定され�
 * スペイン語
 * 台湾語
 
-すべてのアプリケーションチームはグローバル言語のサポートに取り組んでいますが、すべてのアプリケーションが上記のすべての言語で提供されるわけではありません。 プライマリ言語がExperience Cloudアプリケーションでサポートされていない場合は、セカンダリ言語をデフォルトに設定することもできます。 これは、[Experience Cloudのユーザー設定](https://experience.adobe.com/preferences)で実行できます。
+すべてのアプリケーションチームはグローバルな言語サポートに取り組んでいますが、一部のアプリケーションは、上記のすべての言語では提供されていません。プライマリ言語が Experience Cloud アプリケーションでサポートされていない場合、利用可能であればセカンダリ言語をデフォルトに設定することもできます。 これは、[Experience Cloud のユーザーの環境設定](https://experience.adobe.com/preferences) で実行できます。
 
 ## お問い合わせとサポート {#support}
 
-[Experience League](https://experienceleague.adobe.com/?lang=ja#home)のヘルプコンテンツ（ドキュメント、チュートリアル、コース）や、個々のアプリケーションの追加リソースなど、ヘッダーのヘルプアイコン(![asset](assets/help-icon.png))を使用して、学習やヘルプにアクセスします。 また、オープンエンドのフィードバックを送信し、優先度の高いサポートチケットを作成することもできます。
+[Experience League](https://experienceleague.adobe.com/?lang=ja#home) のヘルプコンテンツ（ドキュメント、チュートリアル、コース）および個々のアプリケーションの追加リソースなど、ヘッダーのヘルプアイコン（![アセット](assets/help-icon.png)）を使用して、学習やヘルプにアクセスします。また、オープンエンドのフィードバックを送信し、優先度の高いサポートチケットを作成することもできます。
 
 ![](assets/search-menu.png)
 
@@ -108,7 +108,7 @@ Experience Cloudは、ユーザーアカウントの環境設定で設定され�
 
 >[!NOTE]
 >
->グローバル検索は、すべてのExperience Cloudアプリケーション内で使用できるわけではありませんが、インデックスが追加されると、関連するアプリケーションに追加されます。 2021年7月から利用可能：
+>グローバル検索は、Experience Cloud の一部のアプリケーションでは使用できませんが、インデックスが作成されるコンテンツが多くなるため、関連するアプリケーションに追加されます。2021年7月現在の利用可能状況：
 
 * Experience Platform
 * Journey Optimizer
@@ -144,16 +144,16 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 
 ![](assets/notifications-menu-small.png)
 
-## Experience Cloudドメイン {#domains}
+## Experience Cloud ドメイン {#domains}
 
-Experience Cloudは、次のホストを使用してアプリケーションを配信し、パフォーマンスと製品のエクスペリエンスを向上します。 Adobeは、最適なエクスペリエンスを得るために、これらのドメインをファイアウォールの許可リストに追加することを推奨します。 Adobe Analyticsなどの特定のExperience Cloudアプリケーションで、追加のドメインが使用される場合もあります。 詳しくは、各アプリケーションのドキュメントを参照してください。
+Experience Cloud は、次のホストを使用してアプリケーションを配信し、パフォーマンスと製品エクスペリエンスを向上させます。アドビは、最適なエクスペリエンスを実現するために、これらのドメインをファイアウォールの許可リストに追加することをお勧めします。Adobe Analytics などの特定の Experience Cloud アプリケーションで、追加のドメインが使用されている場合もあります。詳しくは、それらのアプリケーションのドキュメントを確認してください。
 
 | 技術 | ドメイン |
 |--- |--- |
-| Adobe Experience Cloudドメイン | `adobe.com`、`adobe.net`、`adobe.io` |
-| AdobeIdentity Managementサービス(IMS) | `adobelogin.com` |
-| Experience Cloudフォント | `typekit.net` |
-| Gainsight （製品ガイダンスおよびヘルプ用） | `esp.aptrinsic.com` |
+| Adobe Experience Cloud ドメイン | `adobe.com`、`adobe.net`、`adobe.io` |
+| Adobe Identity Management サービス（IMS） | `adobelogin.com` |
+| Experience Cloud フォント | `typekit.net` |
+| Gainsight（製品ガイダンスおよびヘルプ用） | `esp.aptrinsic.com` |
 
 ## 管理およびクロスアプリケーションサービスに関するお問い合わせ
 
@@ -198,7 +198,7 @@ Experience Cloudは、次のホストを使用してアプリケーションを�
 
 * [すべての Experience Cloud ソリューションの製品ドキュメント](https://experienceleague.adobe.com/docs/home.html?lang=ja) - Experience Cloud のラーニングとサポートでヘルプを参照する
 * [リリースノートと製品アップデート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja) - Experience Cloud の新機能を参照およびサブスクリプションでアップデートを入手する
-* [コアサービスの実装に関するチュートリアル](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en) - コアサービスに関するビデオやチュートリアルを参照する
+* [コアサービスの実装に関するチュートリアル](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=ja) - コアサービスに関するビデオやチュートリアルを参照する
 * [Experience League で提供されるエキスパートヘルプ](https://experienceleague.adobe.com/?lang=ja) - 専門家やコミュニティからガイド付きの指導を受ける
 * [教育とトレーニング](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK) - アドビと連携してアドビ製品を最大限に活用する
 * [エクスペリエンスブログ](https://blog.adobe.com/jp/topics/digital-transformation.html) - Experience Cloud のブログを読む
