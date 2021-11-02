@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: 29af6733b7964a0e98bb664366d4c92bebdceddb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -20,21 +20,21 @@ ht-degree: 83%
 
 Experience Cloud 製品ドキュメントの更新に関する情報です。
 
-**10/28/2021 が更新されました。**
+**更新日：2021年10月28日（PT）**
 
 | 機能 | 説明 |
 | ------- | ------- |
-| ホームページ | このようなクラウドのホームフッター情報は、法律上の注意や、環境設定で選択した言語を含むユーザープロファイルカードに移動されました。 |
-| AEP ダッシュボード | [!DNL Helios Lite] では、経験プラットフォーム widget 作成ワークフローでのグラフの推奨事項が表示されます。 データ選択 (現在は variable データ選択) を指定した場合、helios はそのデータ選択を伴う適切なビジュアル化を推奨します。 |
-| AEP ダッシュボード | [!DNL Instory] では、ML によって作成されたグラフ用のナレーションとキャプションが提供されています。 この decorates には、「AEP」ダッシュボードページに、グラフ化されたデータの大きな変更やインシデントを出した関連する行頭文字ポイントが含まれています。 |
+| ホームページ | Experience Cloud のホームフッター情報はユーザープロファイルカードに移動されました。これには、法律上の注意や、環境設定で選択した言語が含まれます。 |
+| AEP ダッシュボード | [!DNL Helios Lite] の Experience Platform ウィジェット作成ワークフローで、グラフのレコメンデーションが表示されます。データ選択（現在は単一変数データ選択）を指定した場合、helios はそのデータ選択に伴う適切なビジュアライゼーションを推奨します。 |
+| AEP ダッシュボード | [!DNL Instory] はグラフ用に、ML ベーエスのナレーションとキャプションを提供します。箇条書きを使用してグラフ化されたデータの大きな変更やインシデントを示し、AEP ダッシュボードページのグラフを装飾します。 |
 
-**10/13/2021 が更新されました。**
+**更新日：2021年10月13日（PT）**
 
 | 機能 | 説明 |
 | ------- | ------- |
 | 統合検索 | 統合検索では、引き続き検索インデックスにオブジェクトタイプが追加されます。この更新では、グローバル検索で、Experience League コンテンツ全体と次の Journey Optimizer オブジェクトタイプが検索されるようになりました。 <ul><li>データセット</li><li>宛先</li><li>クエリ</li><li>スキーマ</li><li>セグメント</li><li>ソース</li><li>オファー</li><li>コンポーネント</li><li>メッセージ</li><li>ジャーニー</li></ul> |
 | 製品の使用状況データへの同意 | 初回ログイン時に、Experience Cloud 製品の使用状況データに基づいて、チュートリアル、ガイド、クイックヒント、レコメンデーション、学習用ビデオなどのパーソナライズされた有用なコンテンツをアドビから提供することに関して、環境設定を送信するよう求められます。このリクエストでは、これらのデータの収集と使用に関する環境設定を <https://experience.adobe.com/preferences> で更新することも求められます。 |
-| Experience Cloud [!UICONTROL トリガー]によるナビゲーション | [Experience Cloud トリガー](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=ja)は、プロビジョニングされたユーザーのヘッダーにあるアプリケーション切り替えボタンから直接ナビゲーションできます。 |
+| Experience Cloud [!UICONTROL Triggers]によるナビゲーション | [Experience Cloud Triggers](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=ja)は、プロビジョニングされたユーザーのヘッダーにあるアプリケーション切り替えボタンから直接ナビゲーションできます。 |
 | **注意：**&#x200B;ナビゲーションインターフェイスの更新予定 | 2021年11月に、_[!UICONTROL Launch に移動／データ収集]_&#x200B;ナビゲーション機能が <https://experience.adobe.com/implement> から削除されます。 |
 
 **更新：2021年8月24日（PT）**
