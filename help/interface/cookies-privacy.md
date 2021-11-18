@@ -4,15 +4,15 @@ keywords: cookie;プライバシー
 solution: Experience Cloud,Analytics,Target
 title: 'Cookie とプライバシー '
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
-feature: Cookie
-topic: 管理
+feature: Cookies
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 169b5c67-aab6-4b2a-832e-c5998d796bf7
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '335'
-ht-degree: 100%
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '347'
+ht-degree: 95%
 
 ---
 
@@ -30,8 +30,8 @@ cookie への保存と cookie からの提供が可能なのは、以前にそ�
 
 次の図は、標準的なイメージリクエストにおける cookie の用途を示しています。
 
-![](assets/CookiesProcessGraphic-01.png)
+![標準のイメージリクエストの cookie 使用状況](assets/CookiesProcessGraphic-01.png)
 
 次の図は、ダイレクトイメージリクエスト（JS ファイルの読み込みがおこなわれない場合）における cookie の用途を示しています。
 
-![](assets/CookiesProcessGraphic2.png)
+![単純なイメージリクエストに対する cookie の使用](assets/CookiesProcessGraphic2.png)

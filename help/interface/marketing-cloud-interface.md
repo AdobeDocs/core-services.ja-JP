@@ -1,15 +1,15 @@
 ---
 description: Experience Cloud の新機能と更新の概要を示します。
 keywords: コアサービス
-seo-description: Experience Cloud の新機能と更新の概要を示します。
-seo-title: Experience Cloud の新機能
+seo-description: An overview of new features and updates in the Experience Cloud.
+seo-title: What's new in the Experience Cloud
 solution: Experience Cloud
 title: 'Experience Cloud の新機能 '
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
-workflow-type: ht
-source-wordcount: '651'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '634'
+ht-degree: 87%
 
 ---
 
@@ -65,7 +65,7 @@ Experience Cloud の新機能と更新の概要を示します。
 
 | 機能 | 説明 |
 |--- |--- |
-| 新しい管理用ランディングページ | Experience Cloud にログインして管理ページに移動すると、Experience Cloud ソリューションやコアサービスにすばやくアクセスできる、直観的な新しいインターフェイスを使用できます。 |
+| 新しい管理用ランディングページ | Experience Cloudにログインして管理ページに移動すると、Experience Cloudアプリケーションやコアサービスにすばやくアクセスできる、直感的な新しいインターフェイスを使用できます。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -84,8 +84,8 @@ Experience Cloud の新機能と更新の概要を示します。
 
 | 機能 | 説明 |
 |--- |--- |
-| 通知 - 詳細設定 | [顧客属性](attributes.md)のアップロードについての通知など、製品およびソリューションのイベントとアクティビティに関する通知を有効にできます。 |
-| 通知 - メンテナンス通知 | 通知の設定では、製品とソリューションのメンテナンスに関する通知を有効にできます。 |
+| 通知 - 詳細設定 | 製品およびアプリケーションのイベントとアクティビティに関する通知 ( [顧客属性](attributes.md) アップロードアクティビティ。 |
+| 通知 - メンテナンス通知 | 通知設定で、製品およびアプリケーションのメンテナンス通知を有効にできます。 |
 | Experience Cloud ソリューション向け Admin Console | Experience Cloud の新規のお客様は、Admin Console を利用することで組織全体にわたってアドビ製品の使用権限を一元的に管理できます。<br>Admin Console へのユーザー管理の移行は段階的に進められます。移行が必要になると、アドビからお客様（システム管理者の皆様）に連絡させていただきます。<br>Analytics 管理者向けの情報については、[Analytics の移行](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=ja)を参照してください。 |
 
 {style=&quot;table-layout:auto&quot;}
@@ -94,7 +94,7 @@ Experience Cloud の新機能と更新の概要を示します。
 
 | 機能 | 説明 |
 |--- |--- |
-| レポートスイートの一括マッピング | 管理／レポートスイートのマッピングで、複数のレポートスイートを選択して、1 つの組織にマッピングできるようになりました（以前は、個別にマッピングする必要がありました）。<br>[レポートスイートを単一の組織にマッピング](core-services.md)すると、Experience Cloud でクロスソリューションの機能とサービスを有効にすることができます。 |
+| レポートスイートの一括マッピング | 管理／レポートスイートのマッピングで、複数のレポートスイートを選択して、1 つの組織にマッピングできるようになりました（以前は、個別にマッピングする必要がありました）。<br>[レポートスイートのマッピング](core-services.md) を 1 つの組織に追加すると、アプリケーション内でクロスアプリケーションの機能とサービスを有効にするのに役立ちますExperience Cloud。 |
 | Experience Cloud オーディエンスの更新 | **レポートスイートの適用**<br>&#x200B;すべての[オーディエンスルール](t-audience-create.md)にレポートスイートを適用できるようになりました（以前は、ルール定義ごとにレポートスイートを指定する必要がありました）。<br>**Prop と変数**<br>（eVar およびイベント変数に加えて）リアルタイムオーディエンスに Analytics の prop およびデフォルト変数を含めることができるようになりました。 |
 
 {style=&quot;table-layout:auto&quot;}

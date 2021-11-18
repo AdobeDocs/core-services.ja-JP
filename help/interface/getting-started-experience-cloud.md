@@ -5,20 +5,20 @@ solution: Experience Cloud
 title: 'ログインと Experience Cloud プロファイル設定の管理 '
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 feature: Admin Console
-topic: 管理
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '939'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '955'
+ht-degree: 83%
 
 ---
 
 # ログインと Experience Cloud プロファイル設定の管理
 
-個別のソリューションではなく Experience Cloud にログインすることにより、所有しているすべてのソリューションおよびサービスへのシングルサインオンが可能となります。ここでは、Experience Cloud へのログイン、パスワードおよび通知の管理、デフォルトのランディングページの指定について、それぞれの方法を説明します。
+( 単一のExperience Cloudではなく ) アプリケーションにログインすることで、所有するすべてのアプリケーションおよびサービスに対するシングルサインオンが可能になります。 ここでは、Experience Cloud へのログイン、パスワードおよび通知の管理、デフォルトのランディングページの指定について、それぞれの方法を説明します。
 
 >[!IMPORTANT]
 >
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 | 要素 | 説明 |
 |--- |--- |
-| [Admin Console の基本](experience-cloud.md) | Experience Cloud ソリューションの使用を開始するために必要な最初の手順について説明します。 |
+| [Admin Console の基本](experience-cloud.md) | アプリケーションアプリケーションの使用を開始するために必要な最初の手順についてExperience Cloudします。 |
 | [ID の設定](https://helpx.adobe.com/jp/enterprise/using/set-up-identity.html) | エンドユーザーを認証する ID システムを定義および設定します。 |
 | [ユーザー管理](https://helpx.adobe.com/jp/enterprise/using/users.html) | Admin Console へのログインと Experience Cloud ユーザーの権限および製品プロファイルの管理について説明します。 |
 | [Admin Console の起動](admin-getting-started.md) | Admin Console では、アドビのユーザーと製品の使用権限を組織全体にわたって一元的に管理できます。<br>[ダイレクトリンク](https://adminconsole.adobe.com)を使用して Admin Console にログインすることもできます。 |
@@ -64,7 +64,7 @@ Experience Cloud での非管理者ユーザーのログインに関するヘル
 
    ![](assets/experience-cloud-core-services.png)
 
-   このメニューに表示されるソリューションやサービスは、[管理者](admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)が定義したアプリケーション権限によって異なります。
+   このメニューに表示されるアプリケーションやサービスは、 [administrator](admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909).
 
 ## デフォルトの個人用アカウント設定の構成 {#task_73CBCAE6C91749D19C95421E5AC311BA}
 
@@ -72,15 +72,15 @@ Experience Cloud での非管理者ユーザーのログインに関するヘル
 
 1. Experience Cloud にログインし、自分のプロファイルのアイコンを選択します。
 
-   ![](assets/edit-profile.png)
+   ![プロファイルアイコンを選択](assets/edit-profile.png)
 1. 「**[!UICONTROL プロファイルを編集]**」を選択します。
 
-   ![](assets/default-organization.png)
+   ![Experience Cloudのデフォルトの組織とランディングページ](assets/default-organization.png)
 1. 続けて個人情報の設定と編集を行い、「**[!UICONTROL 変更を保存]**」を選択します。
 
 ## 通知の有効化 {#concept_0105453AD71847B8BFCAF4A40915F157}
 
-システムのアップデート、メンテナンス、投稿、メンションおよび共有アセットについての通知を（電子メールまたは製品内で）受け取ります。また、顧客属性のアップロードステータスなどの通知を受け取りたい製品やソリューションを指定することもできます。
+システムのアップデート、メンテナンス、投稿、メンションおよび共有アセットについての通知を（電子メールまたは製品内で）受け取ります。また、顧客属性のアップロードステータスなどの通知を受け取りたい製品やアプリケーションを指定することもできます。
 
 「通知」に移動するには、**[!UICONTROL 通知]**&#x200B;アイコン（![](assets/notifications-icon.png)）を選択し、次に&#x200B;**[!UICONTROL 設定]**&#x200B;アイコン（![](assets/icon_edit_board.png)）を選択します。
 
@@ -89,7 +89,7 @@ Experience Cloud での非管理者ユーザーのログインに関するヘル
 * メッセージタイプの重要度を基に並べ替える。
 * 通知を検索する。
 
-![](assets/notifications-admin.png)
+![Experience Cloud通知](assets/notifications-admin.png)
 
 <!-- <p> <b>Analytics</b> </p> 
 <ul id="ul_91BF597858124FA5BF338C36F6C5533F"> 
@@ -117,7 +117,7 @@ Experience Cloud での非管理者ユーザーのログインに関するヘル
 
 1. Experience Cloud で、自分のプロフィール写真を選択します。
 
-   ![](assets/edit-profile.png)
+   ![Experience Cloudプロファイルを編集](assets/edit-profile.png)
 1. 「**[!UICONTROL プロファイルを編集]**」を選択します。
 
    プロファイルとパスワードページで、「個人の詳細情報」の各フィールドおよびオプションを設定します。
@@ -131,7 +131,7 @@ Experience Cloud での非管理者ユーザーのログインに関するヘル
 
    Adobe Analytics ユーザーの場合は、[https://sc2.omniture.com/password_recovery.html](https://sc2.omniture.com/password_recovery.html) に移動します。
 
-## ダイレクトリンクを使用したソリューションログインの設定 {#concept_8BE493A08786469B88B210E13F78FF2F}
+## ダイレクトリンクを使用したアプリケーションログインの設定 {#concept_8BE493A08786469B88B210E13F78FF2F}
 
 必要に応じ、Experience Cloud インターフェイスで提供される認証機能を使用して、ソリューション内の特定のページにログインすることもできます。
 
@@ -151,6 +151,6 @@ Experience Cloud での非管理者ユーザーのログインに関するヘル
 |--- |--- |--- |--- |
 | `tenantId` | ユーザーのログイン先となるテナントの名前。 | aem62tenant | オプション |
 | `destURL` | ユーザーのリダイレクト先となる場所の完全な URL。 | http://sc.omniture.com/login/?r=%2Fx%2F1_7xxzf&amp;tenantId=obuengsc&amp;company=OBU+Eng+SC | オプション |
-| `solutionname` | `destURL` パラメーターの所有主である MAC ソリューションの名前。このパラメーターは、URL の所有主であるソリューションにユーザーがアクセスできることを確認するために使用されます。`solutionname` と `destURL` パラメーターが同期しているかどうかの確認はソリューションサイドでおこなわれます。例：URLに Social として `solutionname` が含まれ、提供された `destURL` が Analytics の URL である場合、ユーザーは Analytics にアクセスできない場合でもその URL にリダイレクトされます。MAC では、`destURL` の所有主とソリューション名が同期しているかどうかの確認はおこなわれません。 | analytics |  `destURL` パラメーターが使用されている場合は必須です。 |
+| `solutionname` | `destURL` パラメーターの所有主である MAC ソリューションの名前。URL の所有者であるアプリケーションにユーザーがアクセスできることを確認するために使用されます。  アプリケーションの責任は、 `applicationname` は `destURL` パラメーター。  例：URLに Social として `solutionname` が含まれ、提供された `destURL` が Analytics の URL である場合、ユーザーは Analytics にアクセスできない場合でもその URL にリダイレクトされます。Macは、 `destURL` は、アプリケーション名と同期しています。 | analytics |  `destURL` パラメーターが使用されている場合は必須です。 |
 
 {style=&quot;table-layout:auto&quot;}

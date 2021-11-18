@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: ec724555c3799eeca350592498267d0b71b4ff04
-workflow-type: ht
-source-wordcount: '506'
-ht-degree: 100%
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '524'
+ht-degree: 76%
 
 ---
 
@@ -22,13 +22,13 @@ Experience Cloud での組織の管理と切り替えについて説明します
 
 ## 組織を特定する {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
-*組織は*、管理者がグループおよびユーザーの設定や、Experience Cloud でのシングルサインオンの制御をおこなえるエンティティです。組織は、すべての Experience Cloud 製品およびソリューションをまたいだログイン会社のように機能します。ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。
+*組織は*、管理者がグループおよびユーザーの設定や、Experience Cloud でのシングルサインオンの制御をおこなえるエンティティです。組織は、すべてのExperience Cloud製品やアプリケーションをまたいだログイン会社のように機能します。 ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。
 
 正しい組織にログインしたことを確認するには、プロファイルのアバターをクリックして組織名を表示します。複数の組織にアクセスできる場合は、ヘッダーバーで別の組織を表示して切り替えることもできます。
 
 組織が Federated ID を使用している場合、Experience Cloud を使用すると、メールアドレスとパスワードを入力しなくても、組織のシングルサインオンでログインできます。 これをおこなうには、Experience Cloud の URL（`https://experience.adobe.com`）に `#/sso:@domain` を追加します。
 
-例えば、Federated ID を持ち、ドメインが `adobecustomer.com` の組織の場合、URL リンクを `https://experience.adobe.com/#/sso:@adobecustomer.com` に設定します。また、この URL にアプリケーションパスを付けてブックマークに追加することで、特定のアプリケーションに直接移動することもできます。 （例えば、Adobe Analytics の場合は `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。）
+例えば、Federated ID を持ち、ドメインが `adobecustomer.com` の組織の場合、URL リンクを `https://experience.adobe.com/#/sso:@adobecustomer.com` に設定します。 また、この URL にアプリケーションパスを付けてブックマークに追加することで、特定のアプリケーションに直接移動することもできます。 （例えば、Adobe Analytics の場合は `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。）
 
 ![手順の結果](assets/organization-switch.png)
 
@@ -42,22 +42,22 @@ Experience Cloud での組織の管理と切り替えについて説明します
 
 ![](assets/administration-page.png)
 
-## ソリューションアカウントを Adobe ID にリンクする {#task_FD389E78640848919E247AC5E95B8369}
+## アプリケーションアカウントをAdobe IDにリンクする {#task_FD389E78640848919E247AC5E95B8369}
 
-通常は、Experience Cloud 管理者がソリューションやサービスへのアクセス権を付与します。まれに、ソリューションの資格情報を Adobe ID にリンクすることが必要になる場合があります。
+通常、Experience Cloud管理者はアプリケーションやサービスへのアクセス権を付与します。 まれに、アプリケーションの資格情報をAdobe IDにリンクする必要が生じる場合があります。
 
 1. Experience Cloud への招待メールに記載されている手順に従います。
 1. Adobe ID または Enterprise ID を使用してログインします。
-1. ソリューションセレクター（![](assets/menu-icon.png)）を選択します。
+1. アプリケーションセレクターを選択します。( ![](assets/menu-icon.png)) をクリックします。
 
-   ![](assets/solutions-active.png)
+   ![アプリケーションアカウントをAdobe IDにリンクする](assets/solutions-active.png)
 
-   アクセスできるソリューションはカラー表示されます。
-1. 目的のソリューションを選択します。
+   アクセス権を持つアプリケーションはカラー表示されます。
+1. 目的のアプリケーションを選択します。
 
-   ![](assets/analytics-link-accounts.png)
+   ![目的のアプリを選択します](assets/analytics-link-accounts.png)
 
-   このタイプのメッセージは、ユーザーが適切なグループに属している（かつソリューションに対する権限を持っている）ものの、そのアカウントの資格情報をまだ Adobe ID にリンクしていない場合に表示されます。
+   このタイプのメッセージは、ユーザーが適切なグループに属している（かつアプリケーションに対する権限を持っている）が、まだアカウントの資格情報をAdobe IDにリンクしていない場合に表示されます。
 1. 「**[!UICONTROL アカウントにリンク]**」を選択し、認証情報を設定します。
 
 ## デフォルトの組織とランディングページを指定する {#concept_6A191B42A9874A9780882903BA18F071}
@@ -66,11 +66,11 @@ Experience Cloud での組織の管理と切り替えについて説明します
 
 自分のプロファイルで、「**[!UICONTROL プロファイルを編集]**」を選択します。
 
-![](assets/edit-profile.png)
+![プロファイルを編集](assets/edit-profile.png)
 
 デフォルトの組織およびランディングページでは、ログインエクスペリエンスをカスタマイズできます。
 
-![](assets/default-organization.png)
+![デフォルトの組織およびランディングページ](assets/default-organization.png)
 
 ## アカウントのリンクに関する問題のトラブルシューティング {#concept_DFCB29A3B4834FC59AA29E0BBA301584}
 
@@ -79,4 +79,4 @@ Experience Cloud での組織の管理と切り替えについて説明します
 一般的に、アカウントのリンクは、Adobe ID が以前のユーザーにリンクされていることが原因で失敗します。アカウントのリンクに失敗した場合は、
 
 * [アドビサポートにお問い合わせ](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)ください。
-* 問題の解決前でも、標準ログインを使用してソリューションにアクセスできます。
+* 問題の解決前は、標準ログインを使用してアプリケーションにアクセスします。

@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 399a3ddb47deb83481bcdfb0c578804b2bbfbae8
-workflow-type: ht
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
 source-wordcount: '774'
-ht-degree: 100%
+ht-degree: 77%
 
 ---
 
@@ -28,9 +28,9 @@ Experience Cloud 管理者向けのブラウザーサポート、よくある質
 * Safari（最新バージョン、および最新バージョンの 2 つ前までのバージョン）
 * Opera（最新バージョン、および最新バージョンの 2 つ前までのバージョン）
 
-## ソリューションがコアサービスに対応しているかどうかを確認するには、どうすればよいですか。
+## アプリケーションがコアサービス向けに有効化されているかどうかを確認するには、どうすればよいですか。
 
-コアサービスのプロビジョニングがまだおこなわれていない場合は、以下の方法について説明した[ソリューションのコアサービスへの対応](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)を参照してください。
+コアサービスのプロビジョニングがまだおこなわれていない場合は、 [アプリケーションのコアサービスへの対応](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)（では、次の方法について説明します）。
 
 1. [Experience Cloud に加入して管理者になる](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Experience Platform Launch を利用して Experience Cloud ID サービスを実装する](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=ja)。
@@ -49,20 +49,20 @@ Experience Cloud 管理者向けのブラウザーサポート、よくある質
 
 ## Experience Cloud インターフェイスを利用してログインしなければならないのはなぜですか。
 
-Experience Cloud インターフェイスが提供する機能は、ビジネスに新しい価値をもたらします。また、今後はソリューションへの標準パスとなり、最終的に個々のソリューションのログインフローに代わって使用されるようになります。　Experience Cloud を利用してログインすると、今後の移行をよりスムーズにおこなうことができます。
+Experience Cloud インターフェイスが提供する機能は、ビジネスに新しい価値をもたらします。また、これは、今後のアプリケーションへの標準的なアクセス方法であり、最終的には、個々のアプリケーションのログインフローに代わるものです。 Experience Cloud を利用してログインすると、今後の移行をよりスムーズにおこなうことができます。
 
 ## 移行に関する問題を解決するにはどのようにしますか。
 
-[アドビサポートに問い合わせてください](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)。
+[アドビサポートに問い合わせてください](https://experienceleague.adobe.com/?support-solution=General#support)。
 
 ## _プロビジョニング_&#x200B;の特長について教えてください。
 
 Experience Cloud でのプロビジョニングには次のような利点があります。
 
-* ユーザーが [!DNL Experience Cloud] にログインし、各ソリューションを利用できる。
+* ユーザーが [!DNL Experience Cloud] およびリンクアプリケーション
 * People など、Experience Cloud を介して提供される機能の使用を開始できる。
-* ソリューションごとの煩雑なログインプロセスを改善できるようになる。
-* ソリューションへのアクセス制御を保持できる。
+* アプリケーション固有のログインプロセスを改善する準備が整います。
+* アプリケーションへのアクセス制御を保持できます。
 
 ## ユーザーや製品プロファイルを管理するにはどうすればよいですか。
 
@@ -76,13 +76,13 @@ Experience Cloud でのプロビジョニングには次のような利点があ
 
 Admin Console 管理者はユーザーにアクセス権を付与できます。ユーザーにはログイン手順が記載された電子メールが送信されます。
 
-会社としてのプロビジョニングが完了していることを確認するために、[アドビサポートへの問い合わせ](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)が必要になる場合もあります。
+会社としてのプロビジョニングが完了していることを確認するために、[アドビサポートへの問い合わせ](https://experienceleague.adobe.com/?support-solution=General#support)が必要になる場合もあります。
 
 ## アカウントのリンクはどこで管理できますか。
 
-ユーザーによっては、ソリューション（Analytics）アカウントを Adobe ID または Enterprise ID にリンクすることが必要になる場合があります。
+場合によっては、アプリケーション (Analytics) アカウントをAdobe IDまたはEnterprise IDにリンクする必要があります。
 
-[ソリューションアカウントを Adobe ID にリンクする](organizations.md#task_FD389E78640848919E247AC5E95B8369)を参照してください。
+詳しくは、 [アプリケーションアカウントをAdobe IDにリンクする](organizations.md#task_FD389E78640848919E247AC5E95B8369).
 
 ## ユーザーアカウントプロファイルと組織を管理するにはどうすればよいですか。
 
@@ -90,7 +90,7 @@ Admin Console 管理者はユーザーにアクセス権を付与できます。
 
 ## 組織とは
 
-*組織は*、管理者がグループおよびユーザーの設定や、Experience Cloud でのシングルサインオンの制御をおこなえるエンティティです。組織は、すべての Experience Cloud 製品およびソリューションをまたいだログイン会社のように機能します。ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。
+*組織は*、管理者がグループおよびユーザーの設定や、Experience Cloud でのシングルサインオンの制御をおこなえるエンティティです。組織は、すべてのExperience Cloud製品やアプリケーションをまたいだログイン会社のように機能します。 ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。
 
 ## IMS 組織 ID はどこにありますか。
 
@@ -110,16 +110,16 @@ ID は次のとおりです。
 
 ## ユーザーが会社を辞めた場合、管理者はどのように対処する必要がありますか。
 
-そのユーザーのアクセスをソリューション自体から削除する必要があります。アクセス権を削除されたユーザーは、その製品に対して Experience Cloud からのアクセスも、直接ログインによるアクセスもできなくなります。また、そのユーザーを Experience Cloud レベルで削除する必要もあります。
+そのユーザーのアクセス権は、アプリケーション自体から削除する必要があります。 アクセス権を削除されたユーザーは、その製品に対して Experience Cloud からのアクセスも、直接ログインによるアクセスもできなくなります。また、そのユーザーを Experience Cloud レベルで削除する必要もあります。
 
 ## Adobe ID とは何ですか。
 
 [ID タイプ](https://helpx.adobe.com/jp/enterprise/using/identity.html)を参照してください。
 
-## ユーザーに代わって管理者がソリューションアカウントをリンクできますか。
+## ユーザーのアプリケーションアカウントをリンクできますか？
 
-いいえ。ユーザー自身がソリューションをユーザー名とパスワードにリンクする必要があります。
+いいえ。ユーザーは、自分のアプリケーションを、ユーザー名およびパスワードとリンクする必要があります。
 
 ## Social を利用していないのに Social と表示されるのはなぜですか。
 
-Adobe Social は、Analytics と共に購入できる製品です。そのため、Analytics を利用していると、Social も表示されますが、購入しない限りアクセスできません。
+Adobe Social は、Analytics と共に購入できる製品です。したがって、Analytics をお持ちの場合は、このアプリケーションが表示されますが、購入しない限りアクセスできません。

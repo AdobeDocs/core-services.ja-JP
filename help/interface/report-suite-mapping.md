@@ -3,14 +3,14 @@ description: Experience Cloud で 1 つまたは複数のレポートスイー�
 title: '組織へのレポートスイートのマッピング '
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 feature: Admin Console
-topic: 管理
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '1119'
-ht-degree: 100%
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '1131'
+ht-degree: 99%
 
 ---
 
@@ -49,7 +49,7 @@ Experience Cloud サービス（Experience Cloud ID サービスや [!UICONTROL 
 
 1. マッピングするレポートスイートを選択します。
 
-   ![](assets/rs-mapping-multiple.png)
+   ![マッピングするレポートスイートを選択](assets/rs-mapping-multiple.png)
 
 1. 組織（この例では Outdoors Inc）を選択し、「**[!UICONTROL 選択]**」をクリックします。
 
@@ -72,7 +72,7 @@ Experience Cloud サービス（Experience Cloud ID サービスや [!UICONTROL 
 組織をグレー表示することは、グレー表示されているレポートスイートにマッピングするために十分な権限がないことを示しています。次の例をご覧ください。
 
 
-![](assets/rs-mapping.png)
+![一部の組織がグレー表示されている理由](assets/rs-mapping.png)
 
 この図では、青色の鍵が管理権限を示しています。グレーの線は可視性を示しています。
 

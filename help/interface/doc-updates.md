@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 29af6733b7964a0e98bb664366d4c92bebdceddb
-workflow-type: ht
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -24,9 +24,9 @@ Experience Cloud 製品ドキュメントの更新に関する情報です。
 
 | 機能 | 説明 |
 | ------- | ------- |
-| ホームページ | Experience Cloud のホームフッター情報はユーザープロファイルカードに移動されました。これには、法律上の注意や、環境設定で選択した言語が含まれます。 |
+| ホームページ | Experience Cloud ホームのフッター情報は、環境設定の法律上の注意事項や言語の選択など、ユーザープロファイルカードに移動されました。 |
 | AEP ダッシュボード | [!DNL Helios Lite] の Experience Platform ウィジェット作成ワークフローで、グラフのレコメンデーションが表示されます。データ選択（現在は単一変数データ選択）を指定した場合、helios はそのデータ選択に伴う適切なビジュアライゼーションを推奨します。 |
-| AEP ダッシュボード | [!DNL Instory] はグラフ用に、ML ベーエスのナレーションとキャプションを提供します。箇条書きを使用してグラフ化されたデータの大きな変更やインシデントを示し、AEP ダッシュボードページのグラフを装飾します。 |
+| AEP ダッシュボード | [!DNL Instory] は、グラフに ML ベースの書き込みナレーションとキャプションを提供します。箇条書きを使用してグラフ化されたデータの大きな変更やインシデントを示し、AEP ダッシュボードページのグラフを装飾します。 |
 
 **更新日：2021年10月13日（PT）**
 
@@ -118,7 +118,7 @@ Experience Cloud 製品ドキュメントの更新に関する情報です。
 
 **更新：2015 年 3 月 2 日（PT）**
 
-「[ソリューションのコアサービスへの対応](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)」を追加しました。
+追加済み [アプリケーションのコアサービスへの対応](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
 
 **更新：2015 年 1 月 15 日（PT）**
 

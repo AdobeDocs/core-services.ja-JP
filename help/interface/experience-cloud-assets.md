@@ -1,30 +1,30 @@
 ---
-description: 複数のソリューションで共有できる Experience Cloud Assets について説明します。
+description: 複数のExperience Cloud間で共有できるアプリケーションアセットについて説明します。
 solution: Experience Cloud
 title: アセットの概要
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 feature: Assets
-topic: 管理
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
-workflow-type: ht
-source-wordcount: '334'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '356'
+ht-degree: 83%
 
 ---
 
 # Experience Cloud Assets の概要
 
-Experience Cloud Assets は、複数のソリューション間で共有できるマーケティング用アセットの単一の一元的なリポジトリを提供します。アセットは、デジタルドキュメント、画像、ビデオ、オーディオのいずれか（またはその一部）で、複数のレンディションや、サブアセット（例えば、[!DNL Photoshop] ファイルのレイヤー、[!DNL PowerPoint] ファイルのスライド、PDF のページ、ZIP 内のファイルなど）を持つことができます。
+Experience CloudAssets は、複数のアプリケーション間で共有できるマーケティング用アセットの単一の一元的なリポジトリを提供します。 アセットは、デジタルドキュメント、画像、ビデオ、オーディオのいずれか（またはその一部）で、複数のレンディションや、サブアセット（例えば、[!DNL Photoshop] ファイルのレイヤー、[!DNL PowerPoint] ファイルのスライド、PDF のページ、ZIP 内のファイルなど）を持つことができます。
 
 アセットサービスには次のものが含まれます。
 
-* アセットストレージ、管理インターフェイス、（ソリューション経由でアクセスする）組み込みの選択インターフェイス。
-* Creative Cloud、Experience Cloud コラボレーションおよび Experience Cloud ソリューションとの統合。
+* アセットストレージ、管理インターフェイス、組み込みの選択インターフェイス（アプリケーションを通じてアクセス）。
+* Creative Cloud、Experience Cloud・コラボレーション、Experience Cloud・アプリケーションとの統合
 
-アセットを使用すると、整合性とブランドコンプライアンスが高まり、市場への投入時間が短縮されます。各ソリューションでワークフローを効率化できます。
+アセットを使用すると、整合性とブランドコンプライアンスが高まり、市場への投入時間が短縮されます。アプリケーションでワークフローを合理化できます。
 
 * **[!DNL Social]**：Facebook、Twitter、LinkedIn、Google+ のソーシャルメディアに投稿します。
 * **[!DNL Target]**：A/B テストと多変量分析テストを設定できます。
@@ -45,7 +45,7 @@ Experience Cloud Assets は、複数のソリューション間で共有でき�
 
 ## Experience Cloud Assets への移動 {#section_3657039DD3524F2AA88753BFF4781125}
 
-![](assets/asset-nav.png)
+![Experience Cloud Assets への移動](assets/asset-nav.png)
 
 ## ツールバーへのアクセス {#section_EC2E401D225148818F3753248556BE6B}
 
@@ -53,7 +53,7 @@ Experience Cloud Assets は、複数のソリューション間で共有でき�
 
 ツールバーから、検索、タイムライン、レンディション、編集、注釈、ダウンロードなどの機能にすばやくアクセスできます。
 
-![](assets/asset-tools.png)
+![ツールバーへのアクセス](assets/asset-tools.png)
 
 ## アセットの編集 {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
@@ -63,25 +63,25 @@ Experience Cloud Assets は、複数のソリューション間で共有でき�
 * 回転
 * 反転
 
-![](assets/asset-edit.png)
+![アセットの編集](assets/asset-edit.png)
 
 ## アセットの検索 {#section_50FE049010B446FC9640AA6A30E5A730}
 
 キーワード、ファイルタイプ、サイズ、最終変更日時、公開ステータス、向きおよびスタイルで検索できます。
 
-![](assets/asset-search.png)
+![アセットの検索](assets/asset-search.png)
 
 ## アセットへの注釈の付加 {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
 
 画像の上に円や矢印を描いて「**[!UICONTROL 注釈]**」を選択し、共同作業者に確認を求める注釈をアセットに付けます。
 
-![](assets/assets-annotate.png)
+![アセットへの注釈の付加](assets/assets-annotate.png)
 
 ## アセットのフルスクリーン表示とズーム {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
 **[!UICONTROL ビュー]**／**[!UICONTROL 画像]**&#x200B;を選択して、アセット画像全体を表示し、ズームを有効にします。
 
-![](assets/asset-zoom.png)
+![アセットのフルスクリーン表示](assets/asset-zoom.png)
 
 ## アセットプロパティの表示 {#section_FED28711DAB14E1BBEEA7CA890EE9573}
 
@@ -89,7 +89,7 @@ Experience Cloud Assets は、複数のソリューション間で共有でき�
 
 **[!UICONTROL ビュー]**／**[!UICONTROL プロパティ]**&#x200B;を選択して、アセットのプロパティを表示します。
 
-![](assets/asset-properties.png)
+![アセットプロパティの表示](assets/asset-properties.png)
 
 ## 使用状況レポートの実行 {#section_15D782FFB8D74CF4A735116CC03AD902}
 
@@ -97,4 +97,4 @@ Experience Cloud Assets は、複数のソリューション間で共有でき�
 
 **[!UICONTROL ツール]**／**[!UICONTROL レポート]**／**[!UICONTROL 使用状況レポート]**&#x200B;を選択します。
 
-![](assets/assets-usage-report.png)
+![使用状況レポートの実行](assets/assets-usage-report.png)

@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
-workflow-type: ht
-source-wordcount: '1271'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '1282'
+ht-degree: 93%
 
 ---
 
@@ -84,11 +84,11 @@ Admin Console では、組織内の他のユーザーに管理権限を制限付
 
 1. Admin Console で「**[!UICONTROL ユーザー]**」を選択してから、ユーザー名を選択します。
 
-   ![](assets/edit-admin-rights.png)
+   ![管理権限のAdmin Console](assets/edit-admin-rights.png)
 
 1. 「**[!UICONTROL 管理権限を編集]**」を選択します。
 
-   ![](assets/edit-admin-rights-page.png)
+   ![管理権限をAdmin Console](assets/edit-admin-rights-page.png)
 
 1. ユーザーの管理権限を指定します。
 1. 「**[!UICONTROL 保存]**」を選択します。
@@ -106,8 +106,8 @@ Admin Console では、組織内の他のユーザーに管理権限を制限付
 | 要素 | 説明 |
 |--- |--- |
 | レポートスイート | 特定のレポートスイートに対する権限を有効にします。 |
-| 指標 | トラフィック、コンバージョン、カスタムイベント、ソリューションイベントおよびコンテンツ対応などに対する権限を有効にします。 |
-| ディメンション | eVar、トラフィックレポート、ソリューションレポートおよびパスレポートを含む、詳細なレベルでユーザーアクセスをカスタマイズします。 |
+| 指標 | トラフィック、コンバージョン、カスタムイベント、アプリケーションイベントおよびコンテンツ対応などに関する権限を有効にします。 |
+| ディメンション | eVar、トラフィックレポート、アプリケーションレポートおよびパスレポートを含む、詳細なレベルでユーザーアクセスをカスタマイズします。 |
 | レポートスイートツール | Web サービス、レポートスイートの管理、ツールとレポート、およびダッシュボードの項目に対するユーザー権限を有効にします。 |
 | Analytics ツール | 一般的な項目（請求、ログなど）、会社の管理、ツール、web サービスへのアクセス、Report Builder および Data Connectors の統合に関するユーザー権限を有効にします。Admin Console のカスタマイズカテゴリのカンパニー設定は、Analytics ツールに移動されました。 |
 
@@ -117,7 +117,7 @@ Analytics 管理者がユーザーアカウントを Analytics User Management �
 
 アカウントの移行は、顧客ごとに段階的に実施しています。既存のユーザーアカウントを「**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**」から Admin Console へ移行する順番が来た顧客には、アドビから通知し、サポートを提供します。
 
-移行後、ユーザーはそれぞれの Adobe ID（または Enterprise ID）を使用してログインし、Experience Cloud ソリューションおよびサービスへ認証を [experiencecloud.adobe.com](https://experience.adobe.com) で行います。従来のログイン（[!DNL my.omniture.com]、[!DNL sc.omniture.com] および [!DNL experiencecloud.adobe.com]）でログインしようとしたユーザーは、[!DNL experience.adobe.com] にリダイレクトされます。
+移行後、ユーザーはAdobe ID( またはEnterprise ID) を使用してログインし、Experience Cloudアプリケーションおよびサービスへの認証を次の場所でおこないます。 [experience.adobe.com](https://experience.adobe.com). 従来のログイン（[!DNL my.omniture.com]、[!DNL sc.omniture.com] および [!DNL experiencecloud.adobe.com]）でログインしようとしたユーザーは、[!DNL experience.adobe.com] にリダイレクトされます。
 
 **関連するヘルプ**
 
@@ -129,9 +129,9 @@ Adobe Target では、Workspaces が製品プロファイルになります。�
 
 以下を参照してください。
 
-* [Enterprise ユーザーの権限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=ja)
-* [製品およびプロファイルの管理](https://helpx.adobe.com/jp/enterprise/admin-guide.html/jp/enterprise/using/manage-products.ug.html)
-* ビデオ：[Adobe Admin Console で Adobe Target ワークスペースを設定する方法](https://helpx.adobe.com/jp/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [Enterprise ユーザーの権限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en)
+* [製品およびプロファイルの管理](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
+* ビデオ：[Adobe Admin Console で Adobe Target ワークスペースを設定する方法](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Campaign 製品プロファイル、テナント、セキュリティグループの管理 {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -143,7 +143,7 @@ Campaign の&#x200B;*テナント*&#x200B;は、Admin Console の製品ページ
 
 ## Experience Platform データ収集（Launch）の管理 {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Experience Platform [!UICONTROL データ収集]（[!UICONTROL Launch]）は、[!UICONTROL Admin Console] の[!UICONTROL 製品]ページに表示されます。Launch 製品プロファイルには、他のソリューションやサービスを含めることができます。
+Experience Platform [!UICONTROL データ収集]（[!UICONTROL Launch]）は、[!UICONTROL Admin Console] の[!UICONTROL 製品]ページに表示されます。Launch 製品プロファイルには、他のアプリケーションやサービスを含めることができます。
 
 [!UICONTROL Platform Launch] にユーザーを招待し、ユーザーの役割と権限を割り当てます。
 
@@ -173,6 +173,6 @@ Audience Manager ヘルプの[管理](https://experienceleague.adobe.com/docs/au
 
 ### 各ソリューションおよび製品の要件
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=ja)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en)
 * [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=ja)
-* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=ja)
+* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en)

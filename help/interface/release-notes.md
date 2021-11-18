@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: fc29feb4425d99c4e28fb1d40036dd9d93a801c2
-workflow-type: ht
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
 source-wordcount: '4276'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -22,13 +22,13 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 
 ドキュメントの更新のリストについては、[Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784) を参照してください。
 
-すべてのソリューションを対象とするリリースノートについては、[Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)を参照してください。
+すべてのアプリケーションに関するリリースノートについては、 [Experience Cloudリリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja).
 
 ## 2021年8月
 
 | 機能 | 日付 | 説明 |
 | ------- | ------- | -------|
-| [!UICONTROL 最新情報の統合] - 最近アクセスしたビジネスオブジェクトに対するサポートの拡張 | 2021年8月10日 | [!UICONTROL 最新情報の統合]は、Journey Optimizer と Experience Platform の追加のビジネスオブジェクトに拡張されています。Journey Optimizer のお客様は、最近アクセスしたオブジェクト（メッセージ、ジャーニー、セグメント、スキーマ、データセット、データソース、イベント、アクション、ソース、宛先）を Adobe Journey Optimizer のホームページから検索できます。 |
+| [!UICONTROL 統合された最新情報] - 最近アクセスしたビジネスオブジェクトに対する拡張サポート | 2021年8月10日 | [!UICONTROL 統合された最新情報] は、Journey Optimizer と Experience Platform の追加のビジネスオブジェクトに拡張されました。Journey Optimizer のお客様は、最近アクセスしたオブジェクト（メッセージ、ジャーニー、セグメント、スキーマ、データセット、データソース、イベント、アクション、ソース、宛先）を Adobe Journey Optimizer のホームページから検索できます。 |
 
 ## 2021年7月
 
@@ -92,7 +92,7 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 
 ## 2019年4月
 
-* アプリを切り替えるメニューに Marketo が追加され、ブランディングが Experience Cloud に更新されました。（MCUI-6529）
+* アプリ切り替えボタンが更新され、MarketoがExperience Cloudアプリケーションスイートに含まれ、ブランディングがExperience Platformに更新されました。 （MCUI-6529）
 * Experience Cloud ホームが更新され、フィードおよび管理ページへのリンクが含まれるようになりました。（MCUI-6682）
 * [!UICONTROL トリガー]の定義の問題が修正され、「like」条件を正しく使用できるようになりました。（MCUI-6611）
 * 顧客属性が改善され、サブスクリプション設定が適切にログに記録されるようになりました。（MCUI-6519）
@@ -147,7 +147,7 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
   </tr> 
   <tr> 
    <td colname="col1"> <p>アカウントのリンク機能の改善 </p> </td> 
-   <td colname="col2"> <p>ソリューションアカウントを Experience Cloud（Adobe ID）にリンクする方法が改善されました。この新しいワークフローでは、組織に関連付けられたユーザーのアカウントがすべて検出され、リンクするアカウントを選択できます。また、アカウントのリンクエクスペリエンスが効率化されたため、組織の管理ページにアクセスしてアカウントを手動でリンクする必要はなくなりました。 </p> </td> 
+   <td colname="col2"> <p>アプリケーションアカウントをExperience Cloud(Adobe ID) にリンクする際のインターフェイスワークフローを改善しました。 この新しいワークフローでは、組織に関連付けられたユーザーのアカウントがすべて検出され、リンクするアカウントを選択できます。また、アカウントのリンクエクスペリエンスが効率化されたため、組織の管理ページにアクセスしてアカウントを手動でリンクする必要はなくなりました。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -223,11 +223,11 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
  <tbody> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
-   <td colname="col2"> <p>左側のナビゲーションメニューが更新、整理され、すべてのコアサービスとソリューションにアクセスできるようになりました。重要な変更点は次のとおりです。 </p> 
+   <td colname="col2"> <p>左側のナビゲーションメニューが更新、整理され、すべてのコアサービスとアプリケーションにアクセスできるようになりました。 重要な変更点は次のとおりです。 </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
      <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">「<span class="term">オーディエンスライブラリ</span>」メニューと「<span class="term">顧客属性</span>」メニューの選択は、<span class="term">Audiences</span> の下に移動されました。 </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4"><span class="term">Exchange</span> へのリンクは、ヘルプドロップダウンメニューから左側のナビゲーションパネルに移動されました。 </li> 
-     <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term">ソリューション</span>は削除されました。ナビゲーションパネルの下側から、すべてのソリューションを起動できます。 </li> 
+     <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term">ソリューション</span>は削除されました。ナビゲーションパネルの下半分から、すべてのアプリケーションを起動できます。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -279,7 +279,7 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
  <tbody> 
   <tr> 
    <td colname="col1"> <p>顧客属性 </p> </td> 
-   <td colname="col2"> <p>エンタープライズ顧客データを顧客関係管理（CRM）データベースに取り込んでいる場合は、そのデータを Experience Cloud の顧客属性データソースにアップロードできます。データをアップロードした後、Analytics で<span class="uicontrol">訪問者プロファイル</span>／<span class="uicontrol">顧客属性</span>レポートを実行できます。 </p> <p>アップロードしたデータを <span class="keyword">Adobe Target</span> でオーディエンスセグメントとして使用することもできます。 </p> <p><a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">顧客属性</a>製品ドキュメントを参照してください。 </p> <p> コアサービス用ソリューションの最新化については、<a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">コアサービスのソリューションの有効化</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>エンタープライズ顧客データを顧客関係管理（CRM）データベースに取り込んでいる場合は、そのデータを Experience Cloud の顧客属性データソースにアップロードできます。データをアップロードした後、Analytics で<span class="uicontrol">訪問者プロファイル</span>／<span class="uicontrol">顧客属性</span>レポートを実行できます。 </p> <p>アップロードしたデータを <span class="keyword">Adobe Target</span> でオーディエンスセグメントとして使用することもできます。 </p> <p><a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">顧客属性</a>製品ドキュメントを参照してください。 </p> <p> コアサービスのアプリケーションの最新化について詳しくは、 <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> アプリケーションのコアサービスへの対応</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -296,11 +296,11 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
  <tbody> 
   <tr> 
    <td colname="col1"> <p>グループマッピング </p> </td> 
-   <td colname="col2"> <p>グループ管理ページは、グループの作成、グループへのユーザーの追加、Experience Cloud ソリューションでの権限の適用を行える管理インターフェイスとして再設計されました。 </p> </td> 
+   <td colname="col2"> <p>グループ管理ページは、グループの作成、グループへのユーザーの追加、複数のExperience Cloudアプリケーションでの権限の適用を可能にする管理インターフェイスとして再設計されました。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>1 対多のマッピング </p> </td> 
-   <td colname="col2"> <p>Experience Cloud のソリューションアカウントをリンクする際に、ソリューションおよび組織が複数ある場合、複数の製品およびサービスを 1 つの組織にマッピングできるようになりました。 </p> </td> 
+   <td colname="col2"> <p>Experience Cloud内のアプリケーションアカウントをリンクする際に、複数のアプリケーションおよび組織がある場合、複数の製品およびサービスを 1 つの組織にマッピングできるようになりました。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Activation </p> </td> 
@@ -308,7 +308,7 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
   </tr> 
   <tr> 
    <td colname="col1"> <p>ドキュメントの更新 - コアサービス </p> </td> 
-   <td colname="col2"> <p>コアサービスの実装に役立つトピックとして、<a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">ソリューションのコアサービスへの対応</a>を追加しました。 </p> </td> 
+   <td colname="col2"> <p>トピックを追加しました <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> アプリケーションのコアサービスへの対応</a> コアサービスの実装を支援するために、 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -419,7 +419,7 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 **修正点および改善点**
 
 * [!DNL experience.adobe.com] に移動した場合のログイン操作が、アドビの Creative Cloud ログインと一致するようになりました。
-* 組織を管理ページ上のリンク操作（招待を受け取った後）が各ソリューションで共通になりました。
+* 組織を管理ページでのリンク操作（招待を受け取った後）が、各アプリで共通になりました。
 
 **既知の問題**
 
@@ -604,7 +604,7 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 * アセットにカスタムタグを追加した後、その他のメタデータの変更が保持されません。
 * 削除したカードを表示から消すために、ユーザーがボードを更新する必要があります。
 * 「**[!UICONTROL このアカウントを記憶する]**」が選択されていない場合、ユーザーは 15 分後にログアウトされます。
-* [!DNL Analytics] ソリューションランディングページでフォーマットエラーが表示されます。
+* [!DNL Analytics] アプリケーションランディングページでフォーマットエラーが表示されます。
 * すべての権限および権限付与の変更を有効にするには、ユーザーはログアウトしてからログインし直す必要があります。
 * [!UICONTROL アセット]の画像の削除で、その画像が [!DNL Adobe Target Essentials] で使用されていても、警告が表示されません。
 * アセットカード表示のコメントリンクを選択できません。
@@ -639,7 +639,7 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 * [!DNL Analytics] からカードを更新すると、展開されたカードでグラフが空になることがあります。
 * すべての権限および権限付与の変更を有効にするには、ユーザーはログアウトしてからログインし直す必要があります。
 * *`Remember me`* が選択されていない場合、ユーザーは 15 分後にログアウトされます。
-* [!DNL Analytics] ソリューションランディングページでフォーマットエラーが表示されます。
+* [!DNL Analytics] アプリケーションランディングページでフォーマットエラーが表示されます。
 * アセットカード表示のコメントリンクを選択できません。
 * 多くのユーザーが同時に使用すると、Experience Cloud インターフェイスのパフォーマンスが遅くなる可能性があります。
 * [!DNL Adobe Target] ログインが複数の Target サーバーで使用できる場合、Experience Cloud は [!DNL Adobe Target] にリンクできません。
@@ -675,7 +675,7 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
   <tr> 
    <td colname="col1"> <p>データを更新 </p> </td> 
    <td colname="col2"> <p> 
-     <!--MAC-18174-->データの更新が許可されていない場合、カードにあるグラフの<span class="uicontrol">データを更新</span>アイコンが非表示になります。 </p> </td> 
+     <!--MAC-18174-->この <span class="uicontrol"> データを更新</span> データの更新が許可されていない場合、カード上のグラフのアイコンが非表示になりました。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -683,6 +683,6 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 **修正点**
 
 * 共有された [!DNL Analytics] レポートにセグメントフィルターを適用できない問題を修正しました。
-* ソリューションアカウントがリンクされていない場合でも、ソリューションがリンクされているものとして [!UICONTROL Experience Cloud ソリューション]ページに表示される問題を修正しました。
+* アプリが [!UICONTROL Experience Cloud解] ページをリンク済みにする（アプリケーションアカウントがリンクされていない場合でも）
 * アジアの [!DNL Adobe Target] のお客様がリンク用ページの「**[!UICONTROL Experience Cloud を続行]**」ボタンを選択できなかった問題を修正しました。
 * YouTube ビデオの共有ができない問題を修正しました。

@@ -3,16 +3,16 @@ description: Analytics Premium にアップグレードする際の要件と予�
 keywords: Adobe Analytics Premium へのアップグレード
 solution: Experience Cloud
 title: 'Analytics Premium および Experience Cloud へのアップグレード '
-topic: 管理
+topic: Administration
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 feature: Admin Console
 role: Admin
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '625'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '622'
+ht-degree: 86%
 
 ---
 
@@ -56,7 +56,7 @@ Predictive Intelligence へのアップグレードにより、[Analytics Premiu
 
 | 製品 | アップグレード |
 |---|---|
-| Reports &amp; Analytics | [貢献度分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=ja) |
+| Reports &amp; Analytics | [貢献度分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=en) |
 | Data Workbench | オーディエンスの資格と予測マーケティングのためのワークスペース |
 | Analytics Platform | Live Stream（ダッシュボードとトリガー） |
 
@@ -88,7 +88,7 @@ Customer 360 へのアップグレードにより、[Analytics Premium](upgrade-
 
 ## Experience Cloud - ユーザーと製品の管理 {#section_6471C54454024301B2E0B687F79F6738}
 
-Analytics Standard と Premium のユーザーは Experience Cloud およびコアサービスを利用できます。ただし、[はじめに - コアサービスのソリューションを有効にする](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)に記載されている実装の最新化に従っていることが前提です。（このプロセスにより、実装を最新化できます。また、Experience Cloud の管理者になることもできます）。
+Experience Cloudおよびコアサービスは、 Analytics Standard および Premium のユーザーが利用できます ( [はじめに — コアサービス向けにアプリケーションを有効化](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). （このプロセスにより、実装を最新化できます。また、Experience Cloud の管理者になることもできます）。
 
 Experience Cloud に加入したら、[!DNL experience.adobe.com] から Experience Cloud にログインして、コアサービス（顧客属性、Audiences およびモバイルアプリ分析を含む）の利用を開始することができます。
 
@@ -96,8 +96,8 @@ Experience Cloud に加入したら、[!DNL experience.adobe.com] から Experie
 
 ユーザーの管理は [Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)（製品リンク）でおこないます。
 
-Adobe Admin Console で作成したグループとソリューショングループ（Adobe Analytics など）の 1 対 1 でのマッピングを設定できます。その後、マッピングされた Admin Console グループに追加された新しいユーザーには、Analytics ソリューションアカウントが自動的に作成され、ユーザーの Adobe ID にリンクされます。（既存のユーザーは、ソリューションのアカウント資格情報を手動でリンクして、Experience Cloud ログインを介してソリューションにアクセスする必要があります）。
+Adobe Admin Console で作成したグループとソリューショングループ（Adobe Analytics など）の 1 対 1 でのマッピングを設定できます。その後、マッピングされたAdmin Consoleグループに追加された新しいユーザーには、Analytics アプリケーションアカウントが自動的に作成され、ユーザーのAdobe IDにリンクされます。 ( 既存のユーザーは、アプリケーションログイン経由でアプリケーションにアクセスするには、アプリケーションアカウントの資格情報を手動でExperience Cloudする必要があります )。
 
 >[!NOTE]
 >
->いくつかのソリューショングループを 1 つの Admin Console グループにマッピングできます。ただし、1 対 1 のマッピングをお勧めします。事前にグループをマッピングしておくと、CSV をアップロードすることで、複数のユーザーを招待、作成、承認および追加できます。
+>複数のアプリケーショングループを 1 つのアプリケーショングループにAdmin Consoleすることができます。 ただし、1 対 1 のマッピングをお勧めします。事前にグループをマッピングしておくと、CSV をアップロードすることで、複数のユーザーを招待、作成、承認および追加できます。

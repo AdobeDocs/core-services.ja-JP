@@ -2,14 +2,14 @@
 title: 顧客属性の使用方法
 description: Adobe Experience Cloud の顧客属性サービスについて説明します。 Adobe Analytics と Adobe Target で使用する顧客属性データのアップロード方法について説明します。
 solution: Experience Cloud
-feature: 顧客属性
+feature: Customer Attributes
 role: Admin
-topic: 管理
+topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: a19887e3160faa0ef91bd975fc6e1e08a0a9d948
-workflow-type: ht
-source-wordcount: '485'
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '490'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 この機能を探すには、**[!DNL Experience Platform]**／**[!UICONTROL ユーザー]**／**[!UICONTROL 顧客属性]**&#x200B;に移動します。
 
-![](assets/custom_reports.png)
+![顧客属性の概要](assets/custom_reports.png)
 
 ## 顧客属性をアップロードするための前提条件 {#section_BD38693AFBF34926BA28E964963B4EA0}
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 次に示すのは、製品の購読者データを示すデータファイルの例です。このデータには、メンバー ID、権利が付与されている製品、市場で最も多く発売されている製品などの情報が含まれています。
 
-![](assets/01_crs_usecase.png)
+![企業顧客データとは ](assets/01_crs_usecase.png)
 
 作成したデータファイルは、**[!UICONTROL Experience Cloud]**／**[!UICONTROL 顧客属性]**&#x200B;で作成する顧客属性ソースにアップロードできます。
 

@@ -4,15 +4,15 @@ keywords: コアサービス
 solution: Experience Cloud
 title: 'オーディエンスの作成 '
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-feature: オーディエンスライブラリ
-topic: 管理
+feature: Audience Library
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '480'
-ht-degree: 100%
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '508'
+ht-degree: 91%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 次の図は、複合オーディエンスの 2 つのルールを表しています。
 
-![](assets/audience_sharing.png)
+![複合オーディエンスの 2 つのルール](assets/audience_sharing.png)
 
 それぞれの円が、オーディエンスのメンバーシップを定義するルールを表します。重なっている両方のオーディエンスルールのメンバーと認定される訪問者が、複合オーディエンスとして定義されます。
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 * ページデータまたは Analytics の生データから得られる Home &amp; Garden セクション。
 * [!DNL Experience Cloud] に[公開](audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A)された [!DNL Adobe Analytics] セグメントから得られる Chrome ユーザーと Safari ユーザー。
 
-   ![](assets/audience_create.png)
+   ![複合オーディエンスのルールの作成](assets/audience_create.png)
 
 **オーディエンスを作成するには、以下を実行します。**
 
@@ -72,26 +72,26 @@ ht-degree: 100%
 * **[!UICONTROL レポートスイート：]**&#x200B;レポートスイート 31
 * ディメンション = **[!UICONTROL Store (Merch) (v6)]**／**[!UICONTROL 次の値と等しい]**／**[!UICONTROL ホーム＆ガーデン]**
 
-![](assets/home_garden.png)
+![オーディエンスライブラリでの属性の選択](assets/home_garden.png)
 
 *Chrome および Safari の訪問者*&#x200B;は、Analytics から共有されたオーディエンスセグメントです。
 
 * **[!UICONTROL 属性のソース：]** Experience Cloud
 * **[!UICONTROL ディメンション：]** Chrome および Safari の訪問者
 
-![](assets/chrome_safari.png)
+![Chrome および Safari の訪問者](assets/chrome_safari.png)
 
 比較のために、*OR* ルールを追加して、「Patio &amp; Furniture」などのサイトセクションへのすべての訪問者を確認することもできます。
 
-![](assets/audiences_rule_patio.png)
+![オーディエンスの OR ルール](assets/audiences_rule_patio.png)
 
 このルールの結果として得られるのは、Home &amp; Garden を訪問した Chrome および Safari ユーザーで構成される、定義されたオーディエンスです。「Patio &amp; Furniture」セグメントにより、このサイトセクションに訪問するすべての訪問者に対する追加のインサイトが得られます。
 
-![](assets/defined_audience.png)
+![定義済みオーディエンスのExperience Cloud](assets/defined_audience.png)
 
 * **履歴による予測：**（点線の円）[!DNL Analytics] データに基づいて作成されたルールを表しています。
 * **実際のオーディエンス：**（実線の円）Audience Manager からの 30 日間のデータで作成されたルールです。Audience Manager データが 30 日に達すると、線が実線になり、実際の数を表します。
 
 特定期間のデータ収集が終了すると、円は結合されて、定義されたオーディエンスを表示します。
 
-オーディエンスを保存すると、他のソリューションで使用できるようになります。例えば、Adobe Target のアクティビティに共有オーディエンスを含めることができます。
+オーディエンスを保存すると、他のアプリケーションで使用できるようになります。 例えば、Adobe Target のアクティビティに共有オーディエンスを含めることができます。

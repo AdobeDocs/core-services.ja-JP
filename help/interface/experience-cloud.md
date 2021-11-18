@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 4534f764ea821576c3ac5cd1959d387a3689e837
-workflow-type: ht
-source-wordcount: '1303'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '1333'
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ Experience Cloud のヘッダーから、次の操作を実行できます。
 1. 「**[!UICONTROL Adobe ID でログイン]**」を選択します。
 1. 自分が適切な組織に属していることを確認します。
 
-   ![](assets/organizations-menu.png)
+   ![自分が適切な組織に属していることを確認します。](assets/organizations-menu.png)
 
    **組織の検証**
 
@@ -52,7 +52,7 @@ Experience Cloud にログインすると、統合ヘッダーからすべての
 
 組織内でプロビジョニングされた Experience Cloud のアプリケーションおよびサービスにアクセスするには、アプリケーションセレクター ![](assets/menu-icon.png) に移動します。
 
-![](assets/platform-core-services.png)
+![Experience Cloud アプリケーションへのアクセス](assets/platform-core-services.png)
 
 ## Experience Cloud でのブラウザーのサポート {#browser}
 
@@ -91,7 +91,7 @@ Experience Cloud は、アドビユーザーアカウントの環境設定で設
 
 [Experience League](https://experienceleague.adobe.com/?lang=ja#home) のヘルプコンテンツ（ドキュメント、チュートリアル、コース）および個々のアプリケーションの追加リソースなど、ヘッダーのヘルプアイコン（![アセット](assets/help-icon.png)）を使用して、学習やヘルプにアクセスします。また、オープンエンドのフィードバックを送信し、優先度の高いサポートチケットを作成することもできます。
 
-![](assets/search-menu.png)
+![お問い合わせとサポート](assets/search-menu.png)
 
 [!UICONTROL ヘルプ]メニューからも、次の項目にアクセスできます。
 
@@ -104,7 +104,7 @@ Experience Cloud は、アドビユーザーアカウントの環境設定で設
 
 グローバル検索を使用すると、シームレスで一貫性のあるワンクリックエクスペリエンスで、検索可能なビジネスオブジェクトやエンティティを検索できます。 この検索では、最近アクセスしたオブジェクトが表示されます。
 
-![](assets/platform-search.png)
+![オブジェクトとエンティティのグローバル検索](assets/platform-search.png)
 
 >[!NOTE]
 >
@@ -124,7 +124,7 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 
 環境設定を管理するには、アカウントメニュー ![](assets/preferences-icon-sm.png) から「**[!UICONTROL 環境設定]**」を選択します。
 
-![](assets/preferences-page.png)
+![ユーザープロファイルとアカウントの環境設定](assets/preferences-page.png)
 
 [!UICONTROL Experience Cloud の環境設定]では、次の機能を設定できます。
 
@@ -142,7 +142,7 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 
 「**[!UICONTROL 通知]**」を選択すると、製品リリース、メンテナンス通知、共有項目、承認リクエストなど、関連性の高い実用的な更新に関する警告が表示されます。
 
-![](assets/notifications-menu-small.png)
+![通知とお知らせ](assets/notifications-menu-small.png)
 
 ## Experience Cloud ドメイン {#domains}
 
@@ -157,7 +157,7 @@ Experience Cloud は、次のホストを使用してアプリケーションを
 
 ## 管理およびクロスアプリケーションサービスに関するお問い合わせ
 
-このガイドでは、Admin Console の Experience Cloud ユーザーと製品管理に関するヘルプにアクセスし、プラットフォームサービスのソリューションを有効にする方法について説明します。オーディエンスライブラリ、顧客属性、Experience Cloud アセットなどのヘルプにアクセスすることもできます。
+このガイドでは、Admin ConsoleのExperience Cloudユーザーと製品管理に関するヘルプにアクセスし、プラットフォームサービスのアプリケーションを有効にする方法について説明します。 オーディエンスライブラリ、顧客属性、Experience Cloud アセットなどのヘルプにアクセスすることもできます。
 
 * [[!UICONTROL オーディエンスライブラリ]](audience-library.md)
 * [[!UICONTROL 顧客属性]](attributes.md)
@@ -165,7 +165,7 @@ Experience Cloud は、次のホストを使用してアプリケーションを
 * [Experience Cloud [!UICONTROL Assets]](experience-cloud-assets.md)
 * [Experience Cloud の cookie](cookies-privacy.md)
 * [ユーザーおよび製品の管理](admin-getting-started.md)（Admin Console）
-* [ソリューションのコアサービスへの対応](core-services.md)
+* [アプリケーションのコアサービスへの対応](core-services.md)
 * [よくある質問](admin-getting-started.md)
 * [組織とアカウントのリンク](organizations.md)
 * [統合](marketing-cloud-integrations.md)
@@ -196,9 +196,9 @@ Experience Cloud は、次のホストを使用してアプリケーションを
 
 ## リリースノートおよび関連する Experience Cloud ヘルプ
 
-* [すべての Experience Cloud ソリューションの製品ドキュメント](https://experienceleague.adobe.com/docs/home.html?lang=ja) - Experience Cloud のラーニングとサポートでヘルプを参照する
+* [すべてのExperience Cloud・アプリケーションの製品ドキュメント](https://experienceleague.adobe.com/docs/home.html?lang=ja)  — ヘルプを参照し、Experience Cloudのラーニングとサポート
 * [リリースノートと製品アップデート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja) - Experience Cloud の新機能を参照およびサブスクリプションでアップデートを入手する
-* [コアサービスの実装に関するチュートリアル](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=ja) - コアサービスに関するビデオやチュートリアルを参照する
+* [コアサービスの実装に関するチュートリアル](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en) - コアサービスに関するビデオやチュートリアルを参照する
 * [Experience League で提供されるエキスパートヘルプ](https://experienceleague.adobe.com/?lang=ja) - 専門家やコミュニティからガイド付きの指導を受ける
 * [教育とトレーニング](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK) - アドビと連携してアドビ製品を最大限に活用する
 * [エクスペリエンスブログ](https://blog.adobe.com/jp/topics/digital-transformation.html) - Experience Cloud のブログを読む

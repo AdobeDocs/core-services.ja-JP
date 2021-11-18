@@ -1,20 +1,20 @@
 ---
 description: Experience Platform Launch という最新のタグ管理製品について説明します。
 keywords: コアサービス
-seo-description: Activation には、Experience Platform Launch という最新のタグ管理製品のほか、Dynamic Tag Management（DTM）、および Triggers が含まれています。
+seo-description: Activation includes the latest tag management product called Experience Platform Launch. Dynamic Tag Management (DTM);and Triggers.
 seo-title: Activation
 solution: Experience Cloud Services
 title: Experience Cloud の Activation サービス
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 feature: Admin Console
-topic: 管理
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: d57f168b-6beb-48f2-b0d2-92593ceee62e
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
-workflow-type: ht
-source-wordcount: '266'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '245'
+ht-degree: 80%
 
 ---
 
@@ -30,7 +30,7 @@ Activation には、Experience Platform [!UICONTROL データ収集]（[!UICONTR
 
 ## Experience Cloud [!UICONTROL Triggers] {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
- [!UICONTROL Experience Cloud Triggers] は、マーケターが主要な顧客行動を定義および監視できるフレームワークです。Triggers を利用すれば、リアルタイムでの意思決定とパーソナライゼーションに役立つクロスソリューションのコミュニケーションを実現できます。
+[!UICONTROL Experience Cloudトリガー] マーケターは、主な消費者行動を定義および監視し、リアルタイムでの意思決定とパーソナライゼーションに使用するためのアプリケーション間の通信を生成できます。
 
 <table id="table_AF6842470172429EA97C9B02163BD0C3"> 
  <thead> 
@@ -54,6 +54,6 @@ Activation には、Experience Platform [!UICONTROL データ収集]（[!UICONTR
 
 ## Experience Cloud デバッガー {#section_682FCF8A22ED47D0ACF94204AB94B444}
 
-Chrome 用 Adobe Experience Cloud Debugger 拡張機能は Web ページを調べ、ユーザーが Experience Cloud ソリューションの実装方法に関する問題を見つけられるようサポートします。
+Chrome 用Adobe Experience Cloud Debugger 拡張機能は Web ページを調べ、ユーザーがExperience Cloudアプリケーションの実装方法に関する問題を見つけるのを支援します。
 
 ヘルプについては、[Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja) を参照してください。

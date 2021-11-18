@@ -1,18 +1,18 @@
 ---
 description: Experience Cloud 管理ツールについて説明します。すべての Experience Cloud ユーザーおよびポリシーの並べ替え可能かつフィルタリング可能なリストを表示します。
 keywords: コアサービス
-solution: Experience Cloud
+application: Experience Cloud
 title: 'Experience Cloud ユーザーとユーザーの詳細の表示 '
 index: true
 feature: Admin Console
-topic: 管理
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '1248'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '1270'
+ht-degree: 90%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 1. にログインします `https://experience.adobe.com/.`。
 
-   ![](assets/admin-tool.png)
+   ![Admin Consoleへのアクセス](assets/admin-tool.png)
 
 1. 「[!UICONTROL クイックアクセス]」で、「**[!UICONTROL 管理ツール]**」を選択します。
 
@@ -36,16 +36,16 @@ ht-degree: 100%
 
 ## ユーザーページ
 
-このページには、組織の Experience Cloud にアクセスできるユーザーの完全なリストが表示されます。ソリューション使用権限と前回のログインに関する情報が提供されます。検索、並べ替え、フィルタリングによるユーザーリストのカスタム表示が可能です。
+このページには、組織の Experience Cloud にアクセスできるユーザーの完全なリストが表示されます。アプリケーション使用権限と最後のログインに関する情報が提供されます。 検索、並べ替え、フィルタリングによるユーザーリストのカスタム表示が可能です。
 
-![](assets/admin-tool-users.png)
+![Admin Consoleユーザーページ](assets/admin-tool-users.png)
 
 | 要素 | 説明 |
 |---|---|
 | [!UICONTROL 名前] | ユーザーの姓名です。この列は A から Z、Z から A の順に並べ替えることができます。ユーザー名を選択すると、そのユーザーの詳細が表示されます。 |
 | [!UICONTROL E メール] | ユーザーに関連付けられている電子メールアドレスです。この列は A から Z、Z から A の順に並べ替えることができます。 |
 | [!UICONTROL ID タイプ] | ユーザーのアカウントの ID タイプです。フィルターを適用して、特定の ID タイプのみを表示できます。詳しくは、[ID タイプの管理](https://helpx.adobe.com/jp/enterprise/using/identity.html)を参照してください。 |
-| [!UICONTROL ソリューション] | ユーザーがアクセスできる Experience Cloud ソリューションの概要です。フィルターを適用して、特定のソリューションにアクセスできるユーザーのリストのみに絞り込むことができます。 |
+| [!UICONTROL ソリューション] | ユーザーがアクセスできるExperience Cloudアプリケーションの概要。 フィルターを適用して、特定のアプリケーションアクセス権を持つユーザーのリストを絞り込むことができます。 |
 | [!UICONTROL 最終ログイン] | Experience Cloud への最新のユーザーログインの日時です。この列は、昇順または降順に並べ替えることができます。<br> **重要：** 2020 年 1 月 13 日（PT）現在、ユーザーの最終ログインデータは 365 日間保持されます。この情報は、Experience Cloud の現在のログインアクティビティを表示するためのものであり、2020 年 1 月 13 日より前に非アクティブになったアカウントに対して何らかのアクションを実行することを推奨するものではありません。 |
 
 ## ユーザーリスト表示のカスタマイズ
@@ -60,15 +60,15 @@ ht-degree: 100%
 |---------|----------|
 | [!UICONTROL E メールドメイン]フィルター | 「E メール」列で文字列を検索し、結果を 1 つまたは複数のドメインに絞り込みます。複数のフィルターを追加するには、各検索語句の後で Enter キーを押します。 |
 | [!UICONTROL ID タイプ]フィルター | 使用可能な ID タイプから選択します。複数の ID タイプをフィルターとして使用できます。 |
-| [!UICONTROL ソリューション]フィルター | 使用可能なソリューションから選択します。複数のソリューションフィルターを使用する場合、ソリューション 1 `OR` ソリューション 2 の条件に一致する結果が検索されます。 |
+| [!UICONTROL ソリューション]フィルター | 使用可能なアプリケーションから選択します。 複数のアプリケーションフィルターを使用する場合、ソリューション 1 を含む結果が検索されます `OR` 解決策 2. |
 
 ## ユーザーの詳細の表示
 
 [!UICONTROL ユーザー]ページでユーザーの詳細を表示するには、ユーザーの電子メールを選択します。
 
-![](assets/admin-tool-user-details.png)
+![Admin Console](assets/admin-tool-user-details.png)
 
-各ユーザーの詳細ビューには、ユーザーのソリューションアクセス、管理者ロールおよび製品ロール、前回アクセスした情報に関する重要な詳細が表示されます。
+各ユーザーの詳細ビューには、ユーザーのアプリケーションアクセス、管理者ロールと製品ロール、最後にアクセスした情報に関する重要な詳細が表示されます。
 
 ## 情報セクション
 
@@ -78,13 +78,13 @@ ht-degree: 100%
 * 名前
 * 電子メール
 * ユーザー名（Federated ID アカウントには、メールアドレスとは異なるユーザー名を使用できます）
-* [ID タイプ](https://helpx.adobe.com/jp/enterprise/using/identity.html)
+* [ID タイプ](https://helpx.adobe.com/enterprise/using/identity.html)
 * 国
 * 前回のログイン
 
 ## ソリューション概要
 
-このセクションには、ユーザーがアクセスできる Experience Cloud ソリューションの概要が表示されます。該当する場合は、製品管理者ロールが含まれます。
+このセクションには、ユーザーがアクセスできるExperience Cloud・アプリケーションの概要が表示されます。 該当する場合は、製品管理者ロールが含まれます。
 
 ## 詳細な製品アクセスリスト
 
@@ -102,7 +102,7 @@ ht-degree: 100%
 
 このページには、組織内の Experience Cloud ポリシーの完全なリストが表示されます。製品、インスタンス、ユーザー、デベロッパーに関する情報を提供します。検索、並べ替え、フィルタリングによるポリシーリストのカスタム表示が可能です。
 
-![](assets/admin-tool-policies.png)
+![ポリシーページ (Admin Console)](assets/admin-tool-policies.png)
 
 | 要素 | 説明 |
 |---|---|
@@ -123,13 +123,13 @@ ht-degree: 100%
 | 要素 | 説明 |
 |---------|----------|
 | [!UICONTROL インスタンス]フィルター | インスタンス列で文字列を検索し、結果を 1 つまたは複数のインスタンスに絞り込みます。複数のフィルターを追加するには、各検索語句の後で Enter キーを押します。 |
-| [!UICONTROL ソリューション]フィルター | 使用可能なソリューションから選択します。複数のソリューションフィルターを使用する場合、ソリューション 1 `OR` ソリューション 2 の条件に一致する結果が検索されます。 |
+| [!UICONTROL ソリューション]フィルター | 使用可能なアプリケーションから選択します。 複数のアプリケーションフィルターを使用する場合、ソリューション 1 を含む結果が検索されます `OR` 解決策 2. |
 
 ## ポリシーの詳細を表示
 
 [!UICONTROL ポリシー]ページで、ポリシーの詳細を表示するには、製品プロファイル名を選択します。
 
-![](assets/admin-tool-policy-detail.png)
+![ポリシーの詳細をAdmin Console](assets/admin-tool-policy-detail.png)
 
 各製品プロファイルの詳細な表示には、製品プロファイルの件名（ユーザー、グループなど）に関する重要な詳細が表示されます。また、製品プロファイルが有効にした権限やリソースも表示されます。
 

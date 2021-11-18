@@ -6,10 +6,10 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
-workflow-type: ht
-source-wordcount: '714'
-ht-degree: 100%
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '733'
+ht-degree: 99%
 
 ---
 
@@ -62,13 +62,13 @@ Experience Cloud は、アドビユーザーアカウントの環境設定で設
 1. 「**[!UICONTROL Adobe ID でログイン]**」を選択します。
 1. 自分が適切な組織に属していることを確認します。
 
-   ![](assets/organizations-menu.png)
+   ![組織の検証](assets/organizations-menu.png)
 
    正しい [組織](organizations.md) にログインしていることを確認するには、プロファイルのアバターをクリックして組織名を表示します。複数の組織にアクセスできる場合は、ヘッダーバーで別の組織を表示して切り替えることもできます。
 
    組織が Federated ID を使用している場合、Experience Cloud を使用すると、メールアドレスとパスワードを入力しなくても、組織のシングルサインオンでログインできます。 これをおこなうには、Experience Cloud の URL（`https://experience.adobe.com`）に `#/sso:@domain` を追加します。
 
-   例えば、Federated ID を持ち、ドメインが `adobecustomer.com` の組織の場合、URL リンクを `https://experience.adobe.com/#/sso:@adobecustomer.com` に設定します。また、この URL にアプリケーションパスを付けてブックマークに追加することで、特定のアプリケーションに直接移動することもできます。 （例えば、Adobe Analytics の場合は `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。）
+   例えば、Federated ID を持ち、ドメインが `adobecustomer.com` の組織の場合、URL リンクを `https://experience.adobe.com/#/sso:@adobecustomer.com` に設定します。 また、この URL にアプリケーションパスを付けてブックマークに追加することで、特定のアプリケーションに直接移動することもできます。 （例えば、Adobe Analytics の場合は `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。）
 
 ## Experience Cloud アプリケーションへのアクセス {#navigation}
 
@@ -76,13 +76,13 @@ Experience Cloud にログインすると、統合ヘッダーからすべての
 
 自身が所有している Experience Cloud サービスにアクセスするには、アプリケーションセレクター ![](assets/menu-icon.png) を選択します。
 
-![](assets/platform-core-services.png)
+![Experience Cloud アプリケーションへのアクセス](assets/platform-core-services.png)
 
 ## Experience Cloud での検索とサポート {#search}
 
 Experience Cloud の検索では、[Experience League](https://experienceleague.adobe.com/?lang=ja#home) 上のヘルプ（ドキュメント、チュートリアル、コース）を検索できます。
 
-![](assets/search-menu.png)
+![Experience Cloud での検索とサポート](assets/search-menu.png)
 
 [!UICONTROL ヘルプ]メニューからも、次の項目にアクセスできます。
 
@@ -106,7 +106,7 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 
 アカウントメニュー ![](assets/preferences-icon-sm.png) から「**[!UICONTROL 環境設定]**」を選択して、環境設定を管理します。
 
-![](assets/preferences-page.png)
+![管理Experience Cloud](assets/preferences-page.png)
 
 [!UICONTROL Experience Cloud の環境設定]では、次の機能を設定できます。
 
@@ -124,6 +124,6 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 
 「**[!UICONTROL 通知]**」を選択すると、重要な通知や、アドビからのお知らせを表示できます。
 
-![](assets/notifications-menu-small.png)
+![通知とお知らせ](assets/notifications-menu-small.png)
 
 通知は、 [Experience Cloud の環境設定](#preferences) で設定できます。

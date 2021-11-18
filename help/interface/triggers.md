@@ -1,26 +1,26 @@
 ---
 description: Experience Cloud Triggersーの設定方法について説明します。
 keywords: 統合;Triggers
-seo-description: Experience Cloud Triggers の設定方法。
+seo-description: How to configure Experience Cloud Triggers.
 seo-title: Triggers
 solution: Experience Cloud
 title: 'Triggers の概要 '
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 feature: Admin Console
-topic: 管理
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '705'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '702'
+ht-degree: 96%
 
 ---
 
 # Experience Cloud Triggers
 
-Experience Cloud で [!UICONTROL Triggers] を使用すると、主な消費者行動を識別、定義、監視して、ソリューションを横断するコミュニケーションを生み出し、訪問者を再び関与させることができます。
+[!UICONTROL トリガー] Experience Cloudでは、主な消費者行動を識別、定義および監視し、アプリをまたいだコミュニケーションを生み出して、訪問者を再び関与させることができます。
 
 ## Triggers の概要 {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
@@ -30,7 +30,7 @@ Experience Cloud で [!UICONTROL Triggers] を使用すると、主な消費者�
 * 入力に不備のあるフォームや申請
 * オンサイトでの任意のアクションまたは一連のアクション
 
-![](assets/trigger-abandonment-2.png)
+![トリガー例](assets/trigger-abandonment-2.png)
 
 >[!NOTE]
 >
@@ -82,10 +82,10 @@ Experience Cloud Triggers の例を以下に示します。
 
 例えば次のページは、訪問中に表示された製品に基づいて、[!UICONTROL 買い物かごの放棄]トリガーに使用する可能性のあるルールを示しています。
 
-![](assets/abandonment-trigger.png)
+![買い物かご放棄トリガー](assets/abandonment-trigger.png)
 
 #### リファラートリガー
 
 次のトリガーは、ヒットがメンズブーツの製品および Facebook のリファラーで発生すると実行されます。2 つの条件（*製品*&#x200B;と&#x200B;*リファラー*）が同じヒットで評価されるためには、両方を同じコンテナに追加する必要があります。
 
-![](assets/fb-boots-promo.png)
+![リファラートリガー](assets/fb-boots-promo.png)

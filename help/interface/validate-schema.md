@@ -4,15 +4,15 @@ keywords: 顧客属性;Experience Cloud サービス
 solution: Experience Cloud
 title: '顧客属性スキーマの検証方法 '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
-feature: 顧客属性
-topic: 管理
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '453'
-ht-degree: 100%
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 98%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 100%
 
 **[!UICONTROL 顧客属性ソース]**／**[!UICONTROL 新しい顧客属性ソースを作成]**／**[!UICONTROL スキーマを表示 / 編集]**
 
-![](assets/view_edit_schema.png)
+![スキーマの編集](assets/view_edit_schema.png)
 
 [!UICONTROL スキーマの検証] ページでは、スキーマの各行は、アップロードされた CSV ファイルの列を表しています。
 
-![](assets/06_crs_usecase.png)
+![スキーマページの検証Experience Cloud](assets/06_crs_usecase.png)
 
 * **[!UICONTROL データの追加：]**&#x200B;新しい属性データをこのデータソースにアップロードできます。
 
