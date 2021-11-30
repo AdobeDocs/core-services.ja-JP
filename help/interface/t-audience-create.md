@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -81,17 +81,17 @@ ht-degree: 91%
 
 ![Chrome および Safari の訪問者](assets/chrome_safari.png)
 
-比較のために、*OR* ルールを追加して、「Patio &amp; Furniture」などのサイトセクションへのすべての訪問者を確認することもできます。
+比較のために、*OR* ルールを追加して、「Patio &amp; Furniture」のようなサイトセクションへのすべての訪問者を確認することもできます。
 
 ![オーディエンスの OR ルール](assets/audiences_rule_patio.png)
 
 このルールの結果として得られるのは、Home &amp; Garden を訪問した Chrome および Safari ユーザーで構成される、定義されたオーディエンスです。「Patio &amp; Furniture」セグメントにより、このサイトセクションに訪問するすべての訪問者に対する追加のインサイトが得られます。
 
-![定義済みオーディエンスのExperience Cloud](assets/defined_audience.png)
+![Experience Cloud で定義されたオーディエンス](assets/defined_audience.png)
 
 * **履歴による予測：**（点線の円）[!DNL Analytics] データに基づいて作成されたルールを表しています。
 * **実際のオーディエンス：**（実線の円）Audience Manager からの 30 日間のデータで作成されたルールです。Audience Manager データが 30 日に達すると、線が実線になり、実際の数を表します。
 
 特定期間のデータ収集が終了すると、円は結合されて、定義されたオーディエンスを表示します。
 
-オーディエンスを保存すると、他のアプリケーションで使用できるようになります。 例えば、Adobe Target のアクティビティに共有オーディエンスを含めることができます。
+オーディエンスを保存した後は、他のソリューションでも使用できるようになります。例えば、Adobe Target のアクティビティに共有オーディエンスを含めることができます。
