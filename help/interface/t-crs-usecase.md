@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1169'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 93%
 >
 >この機能にアクセスするには、ユーザーが「顧客属性」製品プロファイル（顧客属性 - デフォルトのアクセス）に割り当てられている必要があります&#x200B;**[!UICONTROL 管理]**／**[!UICONTROL Admin Console]**／**[!UICONTROL グループ]**&#x200B;に移動します。[!UICONTROL 製品プロファイル]の 1 つとして&#x200B;*顧客属性*&#x200B;がある場合は、すぐに始めることができます。顧客属性グループに追加されたユーザーには、Experience Cloud インターフェイスの左側に「[!UICONTROL 顧客属性]」メニューが表示されます。
 >
->また、顧客属性機能を使用するには、ユーザーがアプリケーションレベルのグループ (Analytics または [!DNL Target]) をクリックします。
+>また、顧客属性機能を使用するには、ユーザーがアプリケーションレベルのグループ（Analytics または [!DNL Target]）に属している必要があります。
 
 [Experience Cloud ユーザーと製品の管理](admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)を参照してください。
 
@@ -82,7 +82,7 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
 
    * **[!UICONTROL 説明：]**（オプション）データ属性ソースの説明。
 
-   * **[!UICONTROL エイリアス ID：]**&#x200B;特定の CRM システムなど、顧客属性データのソースを表します。[!UICONTROL エイリアス ID] は、顧客属性ソースのコードで使用される一意の ID です。ID は一意で、スペースを含まないアルファベットおよびアンダースコアの組み合わせにしてください。Experience Cloud で顧客属性ソースの [!UICONTROL エイリアス ID] フィールドに入力する値は、実装から（データ収集（Launch）、dynamic tag management または Mobile SDK の JavaScript を使用して）渡されている値と一致させる必要があります。
+   * **[!UICONTROL エイリアス ID：]**&#x200B;特定の CRM システムなど、顧客属性データのソースを表します。[!UICONTROL エイリアス ID] は、顧客属性ソースのコードで使用される一意の ID です。ID は一意で、スペースを含まないアルファベットおよびアンダースコアの組み合わせにしてください。Experience Cloud で顧客属性ソースの [!UICONTROL エイリアス ID] フィールドに入力する値は、実装から（データ収集（Launch）、Dynamic Tag Management または Mobile SDK の JavaScript を使用して）渡されている値と一致させる必要があります。
 
       エイリアス ID は、追加の顧客 ID 値を設定する方法に対応しています。以下に例を示します。
 
@@ -146,7 +146,7 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
 
 ## 購読の設定と属性ソースの有効化 {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
-購読を設定すると、アプリケーションとアプリケーションの間のデータフローがExperience Cloudされます。 属性ソースを有効化すると、購読しているアプリケーションでデータを利用できるようになります。 アップロードした顧客レコードは、Web サイトまたはアプリケーションから入ってくる ID 信号と照合されます。
+購読を設定すると、Experience Cloud とアプリケーション間のデータフローが設定されます。属性ソースを有効化すると、購読しているアプリケーションでデータが利用できるようになります。アップロードした顧客レコードは、Web サイトまたはアプリケーションから入ってくる ID 信号と照合されます。
 
 詳しくは、[サブスクリプションの設定](subscription.md#concept_ECA3C44FA6D540C89CC04BA3C49E63BF)を参照してください。
 
@@ -158,7 +158,7 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
 
 ## Adobe Analytics での顧客属性の使用 {#task_7EB0680540CE4B65911B2C779210915D}
 
-Adobe Analyticsなどのアプリケーションで利用できるデータを使用して、データをレポートし、分析し、マーケティングキャンペーンで適切なアクションを実行できます。
+Adobe Analytics などのアプリケーションで利用できるデータを使用して、データをレポートおよび分析し、マーケティングキャンペーンで適切な対応を取ることができます。
 
 以下の例は、アップロードした属性に基づいた [!DNL Analytics] セグメントを示しています。このセグメントは、最も頻繁に起動する製品が Photoshop である [!DNL Photoshop Lightroom] の購読者を示しています。
 
