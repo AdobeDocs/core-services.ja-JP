@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1333'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Experience Cloud のヘッダーから、次の操作を実行できます。
 1. 「**[!UICONTROL Adobe ID でログイン]**」を選択します。
 1. 自分が適切な組織に属していることを確認します。
 
-   ![自分が適切な組織に属していることを確認します。](assets/organizations-menu.png)
+   ![自身が適切な組織に所属していることを確認](assets/organizations-menu.png)
 
    **組織の検証**
 
@@ -89,7 +89,7 @@ Experience Cloud は、アドビユーザーアカウントの環境設定で設
 
 ## お問い合わせとサポート {#support}
 
-[Experience League](https://experienceleague.adobe.com/?lang=ja#home) のヘルプコンテンツ（ドキュメント、チュートリアル、コース）および個々のアプリケーションの追加リソースなど、ヘッダーのヘルプアイコン（![アセット](assets/help-icon.png)）を使用して、学習やヘルプにアクセスします。また、オープンエンドのフィードバックを送信し、優先度の高いサポートチケットを作成することもできます。
+[Experience League](https://experienceleague.adobe.com/?lang=ja#home) のヘルプコンテンツ（ドキュメント、チュートリアル、コース）および個々のアプリケーションの追加リソースなど、ヘッダーのヘルプアイコン（![アセット](assets/help-icon.png)）を使用して、学習やヘルプにアクセスします。自由形式のフィードバックを送信して、優先度の高いサポートチケットを作成することもできます。
 
 ![お問い合わせとサポート](assets/search-menu.png)
 
@@ -157,7 +157,7 @@ Experience Cloud は、次のホストを使用してアプリケーションを
 
 ## 管理およびクロスアプリケーションサービスに関するお問い合わせ
 
-このガイドでは、Admin ConsoleのExperience Cloudユーザーと製品管理に関するヘルプにアクセスし、プラットフォームサービスのアプリケーションを有効にする方法について説明します。 オーディエンスライブラリ、顧客属性、Experience Cloud アセットなどのヘルプにアクセスすることもできます。
+このガイドでは、Admin Console の Experience Cloud ユーザーと製品管理に関するヘルプにアクセスし、プラットフォームサービスのソリューションを有効にする方法について説明します。オーディエンスライブラリ、顧客属性、Experience Cloud アセットなどのヘルプにアクセスすることもできます。
 
 * [[!UICONTROL オーディエンスライブラリ]](audience-library.md)
 * [[!UICONTROL 顧客属性]](attributes.md)
@@ -165,7 +165,7 @@ Experience Cloud は、次のホストを使用してアプリケーションを
 * [Experience Cloud [!UICONTROL Assets]](experience-cloud-assets.md)
 * [Experience Cloud の cookie](cookies-privacy.md)
 * [ユーザーおよび製品の管理](admin-getting-started.md)（Admin Console）
-* [アプリケーションのコアサービスへの対応](core-services.md)
+* [コアサービス向けアプリケーションの有効化](core-services.md)
 * [よくある質問](admin-getting-started.md)
 * [組織とアカウントのリンク](organizations.md)
 * [統合](marketing-cloud-integrations.md)
@@ -196,9 +196,9 @@ Experience Cloud は、次のホストを使用してアプリケーションを
 
 ## リリースノートおよび関連する Experience Cloud ヘルプ
 
-* [すべてのExperience Cloud・アプリケーションの製品ドキュメント](https://experienceleague.adobe.com/docs/home.html?lang=ja)  — ヘルプを参照し、Experience Cloudのラーニングとサポート
+* [すべての Experience Cloud アプリケーションの製品ドキュメント](https://experienceleague.adobe.com/docs/home.html?lang=ja) - Experience Cloud のラーニングとサポートでヘルプを参照する
 * [リリースノートと製品アップデート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja) - Experience Cloud の新機能を参照およびサブスクリプションでアップデートを入手する
-* [コアサービスの実装に関するチュートリアル](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en) - コアサービスに関するビデオやチュートリアルを参照する
+* [コアサービスの実装に関するチュートリアル](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=ja) - コアサービスに関するビデオやチュートリアルを参照する
 * [Experience League で提供されるエキスパートヘルプ](https://experienceleague.adobe.com/?lang=ja) - 専門家やコミュニティからガイド付きの指導を受ける
 * [教育とトレーニング](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK) - アドビと連携してアドビ製品を最大限に活用する
 * [エクスペリエンスブログ](https://blog.adobe.com/jp/topics/digital-transformation.html) - Experience Cloud のブログを読む
