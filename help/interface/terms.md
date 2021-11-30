@@ -12,9 +12,9 @@ role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1453'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -33,21 +33,21 @@ Experience Cloud ユーザー向けの用語リファレンスと、これらの
 | 消費者 ID | 特別な用法はありません。 | 人物を認識するために、Experience Platform Co-op Graph メンバーによって使用される ID。この番号はブランドによって割り当てられ、多くの場合 CRM システムで維持管理されます。**メモ：** この ID を、消費者 ID を Experience Cloud に送信する [Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/about-id-service.html?lang=ja)関数呼び出しである _setCustomerIDs_ と混同しないでください。 |
 | コンテンツ | Creative Cloud では、コンテンツは、ページ上のテキストと画像を指します。この用語は、Creative Clouds と Experience Clouds の間でも同じように使用されています。 | Experience Cloud ではコンテンツとはマーケティングコンテンツを指し、特定の目標を達成するためにキャンペーンの一部として使用されることがあります。<br>コンテンツは、特定の場所に使用され、アセットで構成することができます。コンテンツには、構造化されているもの（製品情報など）も、構造化されていないもの（モバイルアプリの Web ページや画面など）もあります。<br> 以下に例を示します。<ul><li>Web ページ</li><li>バナー</li><li>ステータスの更新状況</li><li>コメント</li><li>テキスト広告</li><li>製品情報</li><li>製品レビュー</li><li>フォームデータ</li><li>検索インデックス内のドキュメント</li><li>Social への投稿</li><li>記事</li><li>公開物</li></ul> |
 | ダッシュボード | 特別な用法はありません。 | 複数の主要指標を 1 つのビューで表示するデータ視覚化機能の集まりです。 |
-| データ使用規定 | 特別な用法はありません。 | データ使用メタデータを使用して、Adobe企業のプライバシーポリシー、契約上の考慮事項、一般的なプライバシー原則に準拠できるようにするためにシステム（アプリケーション、アプリ、サービス、SDK、API など）が制定および定義したポリシー、システム設計、手順。 |
+| データ使用規定 | 特別な用法はありません。 | システム（アプリケーション、アプリ、サービス、SDK、APIなど）が制定および定義する、データ使用メタデータを使用して、データ使用がアドビコーポレートのプライバシーポリシー、契約上の約因、一般的なプライバシー原則を遵守できるようにするためのポリシー、システム設計、実務および手順です。 |
 | デバイス | 特別な用法はありません。 | アプリケーションが動作するハードウェアデバイス（タブレット、スマートフォン、デスクトップ PC など）。 |
 | Device Co-op | 特別な用法はありません。 | 様々なデバイスにわたって個人をより正確に識別し、より有意義で一貫したエクスペリエンスを実現するために、消費者がどのデバイスを使用しているかに関するデータを共有することに同意したブランドのグループです。 |
 | [!UICONTROL Experience Cloud ID サービス]（ECID） | 特別な用法はありません。 | サイト訪問者に割り当てられる一意の永続的な ID。Experience Platform ID サービスで使用できる特定のエンティティです。[詳細情報...](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja) |
 | [!UICONTROL Experience Platform ID サービス] | 特別な用法はありません。 | ID をリンクするサービス。ユーザーベースのエクスペリエンス管理を実現するための、デバイスリンクサービスです。 |
-| リンク | 特別な用法はありません。リンクは、ハイパーリンクナビゲーションや、フォント、プロパティ、レイヤーなどのアイテムをリンクすることを指します。 | Experience Cloudでは、リンクは通常、様々なアプリケーションアカウントとインターフェイスのリンクを表します。<br>[組織とアカウントのリンク](organizations.md)を参照してください。<br>リンクは、他のユーザーに送信される Analytics レポートの標準的な URL を指す場合もあります。 |
+| リンク | 特別な用法はありません。リンクは、ハイパーリンクナビゲーションや、フォント、プロパティ、レイヤーなどのアイテムをリンクすることを指します。 | Experience Cloud において通常、リンクとは、様々なアプリケーションアカウントをインターフェイスにリンクすることを指します。<br>[組織とアカウントのリンク](organizations.md)を参照してください。<br>リンクは、他のユーザーに送信される Analytics レポートの標準的な URL を指す場合もあります。 |
 | 場所 | Creative Cloud では、場所はファイルの場所、または開いている画像やドキュメント上の場所を指します。 | Experience Cloud では、場所とは、コンテンツがオーディエンスに表示される場所のことです。Audiences とのやり取りがおこなわれる場合もあります。場所とコンテンツの関係は、ある程度静的に固定することも、キャンペーンのルールに従って動的に管理することもできます。場所は必ず、特定のチャネルに属しています。このチャネルによってコンテンツの配信方法と指標の収集方法が決まります。<br> 以下に例を示します。<ul><li>サイト</li><li>プロパティ（Social）</li><li>ディスプレイインベントリ</li><li>ランディングページ</li><li>モバイルアプリ</li><li>スロット（動画）</li></ul> |
 | 指標 | Creative Cloud では使用されません。 | 主要概念や目標に関する数値の集計です。Analytics では、指標は、ビュー数、選択スルー数、リロード数、平均滞在時間、数量、注文件数、売上高など、訪問者の行動に関する量的な情報を指します。 |
 | 組織 | Creative Cloud では使用されません。 | 組織とは、管理者がユーザーおよび製品を設定し、Experience Cloud でのシングルサインオンを制御するために使用する Experience Cloud エンティティです。多くの場合、課金会社が組織になります。 |
 | ポートフォリオ | 複数のファイルやアセットの集合です。 | キャンペーンのコンテナです。 |
 | 製品プロファイル | [製品およびプロファイルの管理](https://helpx.adobe.com/jp/enterprise/using/manage-products.html)を参照してください。 | 製品またはサービスを利用する資格をユーザーに付与するには、そのユーザーを製品プロファイルに追加する必要があります。製品管理者は、購入されたプランに製品プロファイルを関連付けることによって製品プロファイルにライセンスを割り当てます。<br>ユーザーには複数の製品プロファイルを割り当てることができ、各プロファイルで異なるライセンスをユーザーに付与することができます。ユーザーの最終的な資格は、そのユーザーに割り当てられた各製品プロファイルで付与されているライセンスをすべて合わせたものとなります。 |
 | スケジュール | Adobe Story の一連のシーンや、ColdFusion でスケジュールされたタスクを指すことがあります。 | Experience Cloud では、スケジュールはキャンペーン、チャネルおよびアクティビティのアクティブ化の開始日（年、月、日）と終了日を指します。アクティビティのスケジュールは、分単位の精度があります。スケジュールを変更すると、カードが作成されます。<br> 以下に例を示します。<ul><li>キャンペーンスケジュール</li><li>チャネルスケジュール</li><li>アクティビティスケジュール</li></ul> |
-| セグメント | 該当なし | オーディエンスの適合性を評価する一連のルールの出力です。Analytics では、オプションで[セグメント](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=en)を使用して、Experience Cloud に渡すことができるオーディエンスを定義できます。<br>Audience Manager では、セグメントは[特性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=ja)と、訪問者がそのセグメントのメンバーとして含まれるかどうかを評価するすべての条件の集まりです。また、これらの共通の属性を共有する人々の集まりでもあります。 |
+| セグメント | 該当なし | オーディエンスの適合性を評価する一連のルールの出力です。Analytics では、オプションで[セグメント](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ja)を使用して、Experience Cloud に渡すことができるオーディエンスを定義できます。<br>Audience Manager では、セグメントは[特性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=ja)と、訪問者がそのセグメントのメンバーとして含まれるかどうかを評価するすべての条件の集まりです。また、これらの共通の属性を共有する人々の集まりでもあります。 |
 | 共有 | Creative Cloud では、ファイルを外部の様々なプラットフォーム（ソーシャル、コミュニティ、電子メールなど）にまたがって共有できます。 | Experience Cloud では、インターフェイス内部のボード内で、カードのみをアセットとして共有できます。共有は、サイトにログインしているユーザーのみが利用できます。 |
-| ソリューション | 特別な用法はありません。 | Experience Cloudでは、アプリケーションは、Adobe Analytics、Adobe Social、Adobe Targetなどの製品と呼ばれます。 |
-| 特性 | 該当なし | キーと値のペア（例：color=blue）。 Audience Manager では、[特性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=en)を使用してセグメントを作成します。 |
+| ソリューション | 特別な用法はありません。 | Experience Cloud のソリューションには、Adobe Analytics、Adobe Social、Adobe Target などの製品があります。Experience Cloud では、アプリケーションは Adobe Analytics、Adobe Social、Adobe Target などの製品として知られています。 |
+| 特性 | 該当なし | キーと値のペア（例：color=blue）。 Audience Manager では、[特性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=ja)を使用してセグメントを作成します。 |
 
 {style=&quot;table-layout:auto&quot;}
