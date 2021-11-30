@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 98%
 
 ![スキーマの編集](assets/view_edit_schema.png)
 
-[!UICONTROL スキーマの検証] ページでは、スキーマの各行は、アップロードされた CSV ファイルの列を表しています。
+[!UICONTROL スキーマの検証]ページでは、スキーマの各行は、アップロードされた CSV ファイルの列を表しています。
 
-![スキーマページの検証Experience Cloud](assets/06_crs_usecase.png)
+![Experience Cloud のスキーマページの検証](assets/06_crs_usecase.png)
 
 * **[!UICONTROL データの追加：]**&#x200B;新しい属性データをこのデータソースにアップロードできます。
 
