@@ -7,9 +7,9 @@ topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '733'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -106,7 +106,7 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 
 アカウントメニュー ![](assets/preferences-icon-sm.png) から「**[!UICONTROL 環境設定]**」を選択して、環境設定を管理します。
 
-![管理Experience Cloud](assets/preferences-page.png)
+![Experience Cloud の管理](assets/preferences-page.png)
 
 [!UICONTROL Experience Cloud の環境設定]では、次の機能を設定できます。
 
@@ -126,4 +126,4 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 
 ![通知とお知らせ](assets/notifications-menu-small.png)
 
-通知は、 [Experience Cloud の環境設定](#preferences) で設定できます。
+通知は、[Experience Cloud の環境設定](#preferences)で設定できます。
