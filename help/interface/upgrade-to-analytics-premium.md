@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '622'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Predictive Intelligence へのアップグレードにより、[Analytics Premiu
 
 | 製品 | アップグレード |
 |---|---|
-| Reports &amp; Analytics | [貢献度分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=en) |
+| Reports &amp; Analytics | [貢献度分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=ja) |
 | Data Workbench | オーディエンスの資格と予測マーケティングのためのワークスペース |
 | Analytics Platform | Live Stream（ダッシュボードとトリガー） |
 
@@ -88,7 +88,7 @@ Customer 360 へのアップグレードにより、[Analytics Premium](upgrade-
 
 ## Experience Cloud - ユーザーと製品の管理 {#section_6471C54454024301B2E0B687F79F6738}
 
-Experience Cloudおよびコアサービスは、 Analytics Standard および Premium のユーザーが利用できます ( [はじめに — コアサービス向けにアプリケーションを有効化](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). （このプロセスにより、実装を最新化できます。また、Experience Cloud の管理者になることもできます）。
+「[はじめに - コアサービスのアプリケーションを有効にする](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)」に記載されている実装の最新化手順に従った場合、Analytics Standard および Premium のユーザーは Experience Cloud およびコアサービスを利用できます。（このプロセスにより、実装を最新化できます。また、Experience Cloud の管理者になることもできます）。
 
 Experience Cloud に加入したら、[!DNL experience.adobe.com] から Experience Cloud にログインして、コアサービス（顧客属性、Audiences およびモバイルアプリ分析を含む）の利用を開始することができます。
 
@@ -96,8 +96,8 @@ Experience Cloud に加入したら、[!DNL experience.adobe.com] から Experie
 
 ユーザーの管理は [Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)（製品リンク）でおこないます。
 
-Adobe Admin Console で作成したグループとソリューショングループ（Adobe Analytics など）の 1 対 1 でのマッピングを設定できます。その後、マッピングされたAdmin Consoleグループに追加された新しいユーザーには、Analytics アプリケーションアカウントが自動的に作成され、ユーザーのAdobe IDにリンクされます。 ( 既存のユーザーは、アプリケーションログイン経由でアプリケーションにアクセスするには、アプリケーションアカウントの資格情報を手動でExperience Cloudする必要があります )。
+Adobe Admin Console で作成したグループとソリューショングループ（Adobe Analytics など）の 1 対 1 でのマッピングを設定できます。その後、マッピングされた Admin Console グループに追加された新しいユーザーに対し、Analytics アプリケーションアカウントが自動的に作成され、ユーザーの Adobe ID にリンクされます。（既存のユーザーは、Experience Cloud ログインを介してアプリケーションにアクセスするために、アプリケーションアカウントの資格情報を手動でリンクする必要があります。）
 
 >[!NOTE]
 >
->複数のアプリケーショングループを 1 つのアプリケーショングループにAdmin Consoleすることができます。 ただし、1 対 1 のマッピングをお勧めします。事前にグループをマッピングしておくと、CSV をアップロードすることで、複数のユーザーを招待、作成、承認および追加できます。
+>複数のソリューショングループを 1 つの Admin Console グループにマッピングできます。ただし、1 対 1 のマッピングをお勧めします。事前にグループをマッピングしておくと、CSV をアップロードすることで、複数のユーザーを招待、作成、承認および追加できます。
