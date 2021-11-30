@@ -10,15 +10,15 @@ role: Admin
 level: Experienced
 exl-id: 3d12a1b1-c952-4b42-815d-f64b31429cec
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '265'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # サードパーティ cookie のサポートに対する変更がお客様に及ぼす影響 {#how-changes-to-third-party-cookie-support-impacts-customers}
 
-サードパーティ cookie のサポートは、ブラウザーをまたいでさらに制限されるようになりました。そのため、Adobeは、顧客要件とExperience Cloudのアプリケーション間でプライバシーを保護する消費者の権利とのバランスを慎重にとる新しいアプリケーションに取り組んでいます。
+サードパーティ Cookie のサポートは、ブラウザー間でさらに制限されるようになりました。そのため、アドビは、Experience Cloud アプリケーション全体で顧客の要件と消費者のプライバシーの権利のバランスを慎重に取る、新しいアプリケーションに取り組んでいます。
 
 サードパーティ cookie のサポートが Experience Cloud アプリケーションの現在の実装環境に及ぼす影響を以下に示します。
 
