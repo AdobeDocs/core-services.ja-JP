@@ -5,9 +5,9 @@ breadcrumb-title: Experience Cloud の主要なインターフェイスコンポ
 user-guide-description: Experience Cloud のインターフェイス、環境設定、ヘルプとビジネスオブジェクトの検索について説明します。 ユーザーと製品の管理、顧客属性、オーディエンスライブラリ、cookie、Experience Cloud Assets に関するお問い合わせ。
 index: true
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 + [Experience Cloud の主要なインターフェイスコンポーネントガイド](experience-cloud.md)
 + Experience Cloud サービス {#services}
    + [Experience Cloud サービス](core-services-landing.md)
-   + [クロスアプリケーションサービスの実装を有効にする](core-services.md)
+   + [アプリケーションサービスをまたいだ実装を有効にする](core-services.md)
    + Experience Cloud Audience ライブラリ {#audiences}
       + [Experience Cloud Audiences](audience-library.md)
       + [オーディエンスの作成](t-audience-create.md)
@@ -54,7 +54,7 @@ ht-degree: 95%
    + [組織とアカウントのリンク](organizations.md)
    + [Analytics Premium および Experience Cloud へのアップグレード](upgrade-to-analytics-premium.md)
    + [Experience Cloud の統合](marketing-cloud-integrations.md)
-   + [様々なアプリケーションおよびサービスでの DNS プリフェッチの使用](dns-prefetch.md)
+   + [様々なアプリケーションおよびサービスによる DNS 事前読み込みの使用](dns-prefetch.md)
    + Experience Cloud の cookie {#ec-cookies}
       + [Experience Cloud の cookie の概要](cookies-privacy.md)
       + [Experience Cloud のファーストパーティ cookie](cookies-first-party.md)
