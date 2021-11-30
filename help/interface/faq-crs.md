@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 6031e544-822b-4843-b3d8-98a36a3c40e8
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1178'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -39,10 +39,10 @@ Adobe Analytics と Adobe Target の[!UICONTROL 顧客属性]に関するよく�
 | 質問 | 回答 |
 |--- |--- |
 | 顧客属性のアップロードステータスに関する通知を受け取ることはできますか。 | はい。 |
-| 顧客データの使用を開始するために何をおこなう必要がありますか。 | <ol><li>プロビジョニングを受けます。既に Analytics ユーザーになっている場合は、そのユーザーを顧客属性用にアドビがプロビジョニングします。Adobe Target のみを使用していて、Analytics を所有していない場合は、コアサービス用のプロビジョニングをカスタマーケアに依頼する必要があります。</li> <li>CRM チームに連絡します。Analytics や Experience Cloud 全体で使用すると興味深い結果が得られそうな顧客データの種類を見極めます。</li><li>コアサービスを実装します。詳しくは、 [コアサービスでのアプリケーションの有効化](core-services.md) 実装を最新化する手順を参照してください。 （重要な情報については、顧客IDの同期に関する節を参照）。</li></ol> **注意：**&#x200B;コアサービスの実装に関する管理者向けの FAQ については、[こちら](faq.md)を参照してください。 |
-| 使用できる顧客属性はいくつありますか。 | 数百の `.csv` 列を顧客属性サービスにアップロードできます。ただし、サブスクリプションを設定し属性を選択する場合、所有するアプリケーションに応じて、（レポートスイートごとに）次の制限が適用されます。  <ul><li>Foundation：0 件</li><li>Select：3 件</li><li>Prime：15 件</li><li>Ultimate：200 件</li><li>Standard：合計 3 件</li><li>Premium：200 件</li><li>Adobe Target Standard：5 件</li><li>Adobe Target Premium：200 件</li></ul> |
-| Experience Cloud ID サービスへの移行は必須ですか。 | 移行は、使用するアプリケーションによって異なります。 <ul><li>Adobe Analytics：強くお勧めします。 </li><li>Adobe Target：必要です。 </li></ul><br>Experience Cloud ID サービスを使用すると、リアルタイム Experience Cloud、Adobe Target の最新化、Analytics の統合、ビデオハートビートの追跡など、最新のオーディエンス機能が有効になります。<br> 詳しくは、 [アプリケーションのコアサービスへの対応](core-services.md). <br>**注意**：[Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ja)は、以前 _Analytics 訪問者 ID サービス_&#x200B;と呼ばれていたサービスの実装を最新化したものです。 |
-| 顧客属性機能と Adobe Audience Manager にはどのような関係がありますか？ | Audience Manager は、データを受け取ってオーディエンスの識別を実行することはできますが、属性を履歴行動データに結び付ける分析機能は実行できません。また、Adobe Analytics で使用できるレポート、分析、セグメント化機能も提供していません。[!UICONTROL 人] を使用すると、アプリケーション全体からのリッチデータを 1 つにまとめて、Experience Cloud全体で使用する単一の ID に関連付けることができます。 <br>Adobe Target の場合、顧客属性は、他のルールと統合してオーディエンスを構築できる個人属性として表示されます。[!UICONTROL People] サービスと共有されるオーディエンスは、修正できない完全なオーディエンスです。 |
+| 顧客データの使用を開始するために何をおこなう必要がありますか。 | <ol><li>プロビジョニングを受けます。既に Analytics ユーザーになっている場合は、そのユーザーを顧客属性用にアドビがプロビジョニングします。Adobe Target のみを使用していて、Analytics を所有していない場合は、コアサービス用のプロビジョニングをカスタマーケアに依頼する必要があります。</li> <li>CRM チームに連絡します。Analytics や Experience Cloud 全体で使用すると興味深い結果が得られそうな顧客データの種類を見極めます。</li><li>コアサービスを実装します。実装を最新化する方法の手順については、[コアサービスに対するアプリケーションの有効化](core-services.md)を参照してください。（重要な情報については、顧客IDの同期に関する節を参照）。</li></ol> **注意：**&#x200B;コアサービスの実装に関する管理者向けの FAQ については、[こちら](faq.md)を参照してください。 |
+| 使用できる顧客属性はいくつありますか。 | 数百の `.csv` 列を顧客属性サービスにアップロードできます。ただし、サブスクリプションを設定して属性を選択する場合、所有するアプリケーションに応じて、（レポートスイートごとに）次の制限が適用されます。  <ul><li>Foundation：0 件</li><li>Select：3 件</li><li>Prime：15 件</li><li>Ultimate：200 件</li><li>Standard：合計 3 件</li><li>Premium：200 件</li><li>Adobe Target Standard：5 件</li><li>Adobe Target Premium：200 件</li></ul> |
+| Experience Cloud ID サービスへの移行は必須ですか。 | 移行は、使用するアプリケーションによって異なります。 <ul><li>Adobe Analytics：強くお勧めします。 </li><li>Adobe Target：必要です。 </li></ul><br>Experience Cloud ID サービスを使用すると、リアルタイム Experience Cloud、Adobe Target の最新化、Analytics の統合、ビデオハートビートの追跡など、最新のオーディエンス機能が有効になります。<br>詳しくは、[アプリケーションをコアサービスで有効にする](core-services.md)を参照してください。<br>**注意：**[Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ja)は、以前 _Analytics 訪問者 ID サービス_&#x200B;と呼ばれていたサービスの実装を最新化したものです。 |
+| 顧客属性機能と Adobe Audience Manager にはどのような関係がありますか？ | Audience Manager は、データを受け取ってオーディエンスの識別を実行することはできますが、属性を履歴行動データに結び付ける分析機能は実行できません。また、Adobe Analytics で使用できるレポート、分析、セグメント化機能も提供していません。[!UICONTROL 人物] は、様々なアプリケーションからのリッチデータを単一の ID に関連付けて、Experience Cloud 全体で使用できるようにします。<br>Adobe Target の場合、顧客属性は、他のルールと統合してオーディエンスを構築できる個人属性として表示されます。[!UICONTROL People] サービスと共有されるオーディエンスは、修正できない完全なオーディエンスです。 |
 | **（Analytics のみ）**&#x200B;この機能と Analytics Premium で提供される機能にはどのような違いがありますか。 | 以前は、顧客属性データと Analytics データの組み合わせに興味があっても、この機能を利用するには Data Workbench ツールに大きく依存する必要がありました。[!UICONTROL 顧客属性]では、顧客属性データをディメンションおよび指標として Reports &amp; Analytics、Ad Hoc Analysis および Report Builder に提供することで、この機能をより幅広く利用できるようになりました。Analytics Standard のユーザーは顧客属性にアクセスできますが、使用できる機能には制限があります。Analytics Premium のユーザーは、すべての機能を使用できます。 |
 | **（Adobe Target のみ）**&#x200B;これまで Adobe Target で扱っていない顧客のデータをプリロードまたはアップロードできますか。 | はい。訪問者が Adobe Target に対して最初のリクエストをおこなうと、システムは、その訪問者に関してアドビが持っている既存の情報を顧客属性から取得し、ターゲティング用に使用します。**注意：**&#x200B;このデータの取得には、訪問者が最初に Adobe Target とやり取りしてから最大で 20 分かかります。 |
 | **（Adobe Target のみ）** 顧客属性データと共有オーディエンスデータを組み合わせて、スーパーオーディエンスを作成することはできますか？ | いいえ。共有オーディエンスデータは、完了したオーディエンスです。 |
