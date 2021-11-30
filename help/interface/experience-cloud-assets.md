@@ -1,5 +1,5 @@
 ---
-description: 複数のExperience Cloud間で共有できるアプリケーションアセットについて説明します。
+description: アプリケーションをまたいで共有できる Experience Cloud Assets について説明します。
 solution: Experience Cloud
 title: アセットの概要
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
@@ -9,22 +9,22 @@ role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # Experience Cloud Assets の概要
 
-Experience CloudAssets は、複数のアプリケーション間で共有できるマーケティング用アセットの単一の一元的なリポジトリを提供します。 アセットは、デジタルドキュメント、画像、ビデオ、オーディオのいずれか（またはその一部）で、複数のレンディションや、サブアセット（例えば、[!DNL Photoshop] ファイルのレイヤー、[!DNL PowerPoint] ファイルのスライド、PDF のページ、ZIP 内のファイルなど）を持つことができます。
+Experience Cloud Assets は、複数のアプリケーション間で共有できるマーケティング用アセットの単一の集中リポジトリを提供します。アセットは、デジタルドキュメント、画像、ビデオ、オーディオのいずれか（またはその一部）で、複数のレンディションや、サブアセット（例えば、[!DNL Photoshop] ファイルのレイヤー、[!DNL PowerPoint] ファイルのスライド、PDF のページ、ZIP 内のファイルなど）を持つことができます。
 
 アセットサービスには次のものが含まれます。
 
-* アセットストレージ、管理インターフェイス、組み込みの選択インターフェイス（アプリケーションを通じてアクセス）。
-* Creative Cloud、Experience Cloud・コラボレーション、Experience Cloud・アプリケーションとの統合
+* アセットストレージ、管理インターフェイス、（アプリケーション経由でアクセスする）組み込みの選択インターフェイス。
+* Creative Cloud、Experience Cloud コラボレーションおよび Experience Cloud アプリケーションとの統合。
 
-アセットを使用すると、整合性とブランドコンプライアンスが高まり、市場への投入時間が短縮されます。アプリケーションでワークフローを合理化できます。
+アセットを使用すると、一貫性とブランドコンプライアンスが向上し、市場投入までの時間が短縮されます。アプリケーションのワークフローを効率化できます。
 
 * **[!DNL Social]**：Facebook、Twitter、LinkedIn、Google+ のソーシャルメディアに投稿します。
 * **[!DNL Target]**：A/B テストと多変量分析テストを設定できます。
