@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ Experience Cloud 製品ドキュメントの更新に関する情報です。
 
 **更新：2015 年 3 月 2 日（PT）**
 
-追加済み [アプリケーションのコアサービスへの対応](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
+[アプリケーションのコアサービスへの対応](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)を追加しました。
 
 **更新：2015 年 1 月 15 日（PT）**
 
