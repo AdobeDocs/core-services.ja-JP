@@ -9,15 +9,15 @@ role: Admin
 level: Experienced
 exl-id: 41290ea3-86ce-4e9d-8c3c-bbe30c337c4c
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Experience Cloud フォルダーおよびアセットの Creative Cloud との共有
 
-Experience Cloud と Creative Cloud の間でフォルダーとアセットを共有します。共有アセットで共同作業をしたり、注釈を付けたり、それらをAdobe SocialやAdobe TargetなどのExperience Cloudアプリケーションで使用したりできます。 共有フォルダーは Experience Cloud から作成する必要があります。
+Experience Cloud と Creative Cloud の間でフォルダーとアセットを共有します。共有アセットで共同作業をしたり、注釈を付けたり、それらを Adobe Social や Adobe Target などの Experience Cloud アプリケーションで使用したりできます。共有フォルダーは Experience Cloud から作成する必要があります。
 
 ## 共有の利点 {#section_4AA9939F38064280BB181D5F9E1FDEEE}
 
