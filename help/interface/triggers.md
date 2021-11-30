@@ -1,6 +1,6 @@
 ---
 description: Experience Cloud Triggersーの設定方法について説明します。
-keywords: 統合;Triggers
+keywords: 統合：Triggers
 seo-description: How to configure Experience Cloud Triggers.
 seo-title: Triggers
 solution: Experience Cloud
@@ -12,15 +12,15 @@ role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '702'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Experience Cloud Triggers
 
-[!UICONTROL トリガー] Experience Cloudでは、主な消費者行動を識別、定義および監視し、アプリをまたいだコミュニケーションを生み出して、訪問者を再び関与させることができます。
+Experience Cloud の[!UICONTROL Triggers]を使用すると、主要な消費者行動を識別、定義、監視し、アプリケーション間の通信を生成して、訪問者を再び引き付けることができます。
 
 ## Triggers の概要 {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
