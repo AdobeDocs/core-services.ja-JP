@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '774'
+source-git-commit: c6fe48c65994a8f743c8e80a58a0fbad386ffe49
+workflow-type: tm+mt
+source-wordcount: '773'
 ht-degree: 100%
 
 ---
@@ -53,7 +53,7 @@ Experience Cloud インターフェイスが提供する機能は、ビジネス
 
 ## 移行に関する問題を解決するにはどのようにしますか。
 
-[アドビサポートに問い合わせてください](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)。
+[アドビサポートに問い合わせてください](https://experienceleague.adobe.com/?support-solution=General#support)。
 
 ## _プロビジョニング_&#x200B;の特長について教えてください。
 
@@ -70,13 +70,13 @@ Experience Cloud でのプロビジョニングは、次のことを意味しま
 
 * ユーザーの使用権限と製品の管理は [Adobe Admin Console](https://adminconsole.adobe.com/enterprise)（製品リンク）でおこないます。
 
-* **重要：** Analytics 管理ツールから Admin Console へのユーザー ID の移行に関する Analytics 管理者向けの詳細情報については、[Admin Console での Analytics ユーザーの管理](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=ja)を参照してください。
+* **重要：** Analytics 管理ツールから Admin Console へのユーザー ID の移行に関する Analytics 管理者向けの詳細情報については、[Admin Console での Analytics ユーザーの管理](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=ja)を参照してください。
 
 ## ユーザーが Experience Cloud にログインできない場合、管理者はどのように対処しますか。
 
 Admin Console 管理者はユーザーにアクセス権を付与できます。ユーザーにはログイン手順が記載された電子メールが送信されます。
 
-会社としてのプロビジョニングが完了していることを確認するために、[アドビサポートへの問い合わせ](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)が必要になる場合もあります。
+会社としてのプロビジョニングが完了していることを確認するために、[アドビサポートへの問い合わせ](https://experienceleague.adobe.com/?support-solution=General#support)が必要になる場合もあります。
 
 ## アカウントのリンクはどこで管理できますか。
 
@@ -90,7 +90,7 @@ Admin Console 管理者はユーザーにアクセス権を付与できます。
 
 ## 組織とは
 
-*組織は*、管理者がグループおよびユーザーの設定や、Experience Cloud でのシングルサインオンの制御をおこなえるエンティティです。この組織は、Experience Cloud のすべての製品とアプリケーションにまたがるログイン会社のように機能します。ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。
+*組織*&#x200B;は、管理者がグループおよびユーザーの設定や、Experience Cloud でのシングルサインオンの制御を行なえるエンティティです。この組織は、Experience Cloud のすべての製品とアプリケーションにまたがるログイン会社のように機能します。ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。
 
 ## IMS 組織 ID はどこにありますか。
 
