@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: c6fe48c65994a8f743c8e80a58a0fbad386ffe49
+source-git-commit: 84d33be461ef26c8aadba8f47bd93875356d3ad4
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 100%
+source-wordcount: '830'
+ht-degree: 93%
 
 ---
 
@@ -54,6 +54,12 @@ Experience Cloud インターフェイスが提供する機能は、ビジネス
 ## 移行に関する問題を解決するにはどのようにしますか。
 
 [アドビサポートに問い合わせてください](https://experienceleague.adobe.com/?support-solution=General#support)。
+
+## 方法 [!DNL Adobe Support] 問題のトラブルシューティングを行うには、Adobeクラウド環境にアクセスしますか？
+
+[!DNL Adobe Support] は、明示的な認証を求めるAdobeブランドの電子メール（以下の例）を受け取る偽装リクエストを送信できます。 アクセス権は、限られた時間に対して付与されます。 一旦許可されると、ユーザーはいつでもアクセスを取り消すことができます。 Adobeは、Adobe担当者が実行したすべてのアクションを記録します。
+
+![](/help/interface/admin-getting-started/assets/support-email.png)
 
 ## _プロビジョニング_&#x200B;の特長について教えてください。
 
