@@ -9,16 +9,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '516'
-ht-degree: 100%
+source-git-commit: 3650e57eaaddbda74cd4af913a37b8dedb8b1933
+workflow-type: tm+mt
+source-wordcount: '537'
+ht-degree: 96%
 
 ---
 
 # ドキュメントの更新 - Experience Cloud
 
 Experience Cloud 製品ドキュメントの更新に関する情報です。
+
+**更新日：2021年12月13日（PT）**
+
+更新された [管理に関する FAQ](faq.md) AdobeサポートがAdobeクラウド環境にアクセスして問題のトラブルシューティングをおこなう方法に関する情報を記載しています。
 
 **更新日：2021年10月28日（PT）**
 
