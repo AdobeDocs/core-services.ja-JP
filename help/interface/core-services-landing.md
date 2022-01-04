@@ -8,15 +8,15 @@ role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
 source-git-commit: a4a1914856001a93967c6a63ad4d389138b33217
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '366'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Experience Cloud サービス {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-このドキュメントは、Experience Cloud統合ヘッダーの機能 ( [!UICONTROL 人] サービス（オーディエンスと顧客属性）、Experience Cloud、cookie、アカウント設定、通知などのユーザーと製品の管理。
+このドキュメントは、[!UICONTROL People] サービス（Audiences と顧客属性）、Experience Cloud のユーザーおよび製品管理、Cookie、アカウント設定、通知など、Experience Cloud 統合ヘッダーの機能に適用されます。
 
 Experience Cloud のこれらのサービスにアクセスするには、**[!UICONTROL アプリケーションセレクター]**
 ![サービスセレクター](assets/menu-icon.png)を選択します。
