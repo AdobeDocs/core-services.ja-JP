@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: 786299df8f07c440e278fb1dc187fd1c9ab5db1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4525'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 
 すべてのアプリケーションをカバーするリリースノートについては、[Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)を参照してください。
 
-## 2021 年 11 月
+## 2021年11月
 
 | 機能 | 説明 |
 | ------- | ------- |
@@ -34,7 +34,7 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 
 {style=&quot;table-layout:auto&quot;}
 
-## 2021 年 10 月
+## 2021年10月
 
 | 機能 | 説明 |
 | ------- | ------- |
@@ -527,7 +527,6 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
   <tr> 
    <td colname="col1"> <p>  オーディエンスの「<span class="wintitle">保存</span>」ボタン </p> </td> 
    <td colname="col2"> <p>オーディエンスを作成する際、<span class="wintitle">新しいオーディエンスを作成</span>ページの必須フィールドがすべて入力されるまで「<span class="wintitle">保存</span>」ボタンは有効になりません。 
-      
      <!--MAC-19712 --></p> </td> 
   </tr> 
  </tbody> 
