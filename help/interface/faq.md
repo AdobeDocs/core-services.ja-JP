@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 84d33be461ef26c8aadba8f47bd93875356d3ad4
+source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 100%
+source-wordcount: '776'
+ht-degree: 97%
 
 ---
 
@@ -59,7 +59,7 @@ Experience Cloud インターフェイスが提供する機能は、ビジネス
 
  [!DNL Adobe Support] からなりすましリクエストを送信し、明示的な認証を求めるアドビブランドのメール（以下の例）が届く場合があります。アクセス権は、限られた期間に対して付与されます。付与したアクセス権は、いつでも取り消すことができます。アドビは、アドビ担当者が実行したすべてのアクションを記録します。
 
-![](/help/interface/admin-getting-started/assets/support-email.png)
+![Adobeサポートケース](assets/support-email.png)
 
 ## _プロビジョニング_&#x200B;の特長について教えてください。
 
@@ -96,23 +96,11 @@ Admin Console 管理者はユーザーにアクセス権を付与できます。
 
 ## 組織とは
 
-*組織*&#x200B;は、管理者がグループおよびユーザーの設定や、Experience Cloud でのシングルサインオンの制御を行なえるエンティティです。この組織は、Experience Cloud のすべての製品とアプリケーションにまたがるログイン会社のように機能します。ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。
+[組織](organizations.md)は、管理者がグループおよびユーザーの設定や、Experience Cloud でのシングルサインオンの制御を行なえるエンティティです。この組織は、Experience Cloud のすべての製品とアプリケーションにまたがるログイン会社のように機能します。ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。
 
-## IMS 組織 ID はどこにありますか。
+## IMS 組織 ID はどこで入手できますか？
 
-詳しくは、[組織 ID の検索](organizations.md)を参照してください。
-
-組織 ID は、Experience Cloud ランディングページおよび[Admin Console ランディングページ](https://adminconsole.adobe.com)に表示されます。
-
-また、管理者が特定の組織の Admin Console（[https://adminconsole.adobe.com](https://adminconsole.adobe.com) に移動）にログインすれば、その URL で IMS 組織 ID を確認できます。
-
-例として、次の URL を見てみましょう。
-
-`https://adminconsole.adobe.com/C538193582390300A495CC9@AdobeOrg/overview`
-
-ID は次のとおりです。
-
-`C538193582390300A495CC9@AdobeOrg`
+詳しくは、 [組織 ID の検索](organizations.md) 」を参照してください。
 
 ## ユーザーの 1 人が会社を辞めた場合はどうすればよいですか？
 

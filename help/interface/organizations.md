@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: ht
-source-wordcount: '524'
-ht-degree: 100%
+source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
+workflow-type: tm+mt
+source-wordcount: '550'
+ht-degree: 87%
 
 ---
 
@@ -36,11 +36,21 @@ Experience Cloud での組織の管理と切り替えについて説明します
 
 サポートを受けるために組織 ID が必要になる場合があります。**[!UICONTROL 組織]** メニューを使用して、自分が正しい組織に属していることを確認したり、組織を切り替えたりできます。
 
-**組織 ID：**&#x200B;プロビジョニングされた Experience Cloud の会社に関連付けられた ID。この ID は 24 文字の英数字から成る文字列で、その後に @AdobeOrg（必須）が続きます。
+組織 ID：プロビジョニングされた Experience Cloud の会社に関連付けられた ID。この ID は 24 文字の英数字から成る文字列で、その後にが続きます（必須） `@AdobeOrg`.
 
-組織 ID を表示するには、Experience Cloud ランディングページに移動するか、（![](assets/menu-icon.png)）を選択してから、「**[!UICONTROL 管理]**」を選択します。組織 ID は、「[!UICONTROL Experience Cloud の概要]」ページまたは「[!UICONTROL 管理]」ページの下部にあります。
+キーボードショートカットを使用して、組織 ID を他のアカウント情報と共に表示できます **Ctrl + i** 任意のページから `https://experience.adobe.com`」、「 **[!UICONTROL 割り当てられた組織]** 」タブをクリックします。
 
-![](assets/administration-page.png)
+![割り当てられた組織 ID](assets/assigned-organization.png)
+
+または、管理者がAdmin Console( [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) をクリックし、URL で IMS 組織 ID を表示します。
+
+例として、次の URL を見てみましょう。
+
+`https://adminconsole.adobe.com/C538193582390300A495CC9@AdobeOrg/overview`
+
+ID は次のとおりです。
+
+`C538193582390300A495CC9@AdobeOrg`
 
 ## アプリケーションアカウントを Adobe ID にリンクする {#task_FD389E78640848919E247AC5E95B8369}
 

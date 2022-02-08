@@ -9,16 +9,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 3650e57eaaddbda74cd4af913a37b8dedb8b1933
-workflow-type: ht
-source-wordcount: '537'
-ht-degree: 100%
+source-git-commit: 275588a8101e953d5087a44e4588b239be477bd3
+workflow-type: tm+mt
+source-wordcount: '547'
+ht-degree: 98%
 
 ---
 
 # ドキュメントの更新 - Experience Cloud
 
 Experience Cloud 製品ドキュメントの更新に関する情報です。
+
+**更新済み2/8/2022**
+
+検索方法の更新 [組織 ID](organizations.md).
 
 **更新日：2021年12月13 日（PT）**
 

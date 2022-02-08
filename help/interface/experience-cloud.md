@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '1333'
-ht-degree: 100%
+source-git-commit: 540896e1127c4d2abea2bf4ca63ac85315dda8c2
+workflow-type: tm+mt
+source-wordcount: '1354'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,12 @@ Experience Cloud のヘッダーから、次の操作を実行できます。
 ログインし、自分が適切な[組織](organizations.md)に属していることを確認します。
 
 1. [Adobe Experience Cloud](https://experience.adobe.com) に移動します。
-1. 「**[!UICONTROL Adobe ID でログイン]**」を選択します。
+1. Adobeの電子メールアドレスを入力し、「 」を選択します。 **[!UICONTROL 続行]**.
+
+   管理者向け： [Experience Cloudユーザー認証](admin-getting-started.md#migration) id タイプ（ビジネス ID）の重要な更新に関する情報をまとめました。
+
+1. アカウントを選択します。
+1. パスワードを入力します。
 1. 自分が適切な組織に属していることを確認します。
 
    ![自身が適切な組織に所属していることを確認](assets/organizations-menu.png)
@@ -198,7 +203,7 @@ Experience Cloud は、次のホストを使用してアプリケーションを
 
 * [すべての Experience Cloud アプリケーションの製品ドキュメント](https://experienceleague.adobe.com/docs/home.html?lang=ja) - Experience Cloud のラーニングとサポートでヘルプを参照する
 * [リリースノートと製品アップデート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja) - Experience Cloud の新機能を参照およびサブスクリプションでアップデートを入手する
-* [コアサービスの実装に関するチュートリアル](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=ja) - コアサービスに関するビデオやチュートリアルを参照する
+* [コアサービスの実装に関するチュートリアル](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en) - コアサービスに関するビデオやチュートリアルを参照する
 * [Experience League で提供されるエキスパートヘルプ](https://experienceleague.adobe.com/?lang=ja) - 専門家やコミュニティからガイド付きの指導を受ける
 * [教育とトレーニング](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK) - アドビと連携してアドビ製品を最大限に活用する
 * [エクスペリエンスブログ](https://blog.adobe.com/jp/topics/digital-transformation.html) - Experience Cloud のブログを読む
