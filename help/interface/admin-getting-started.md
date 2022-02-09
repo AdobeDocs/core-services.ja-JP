@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 84822a497a3138e4f10a383e54ae2cc13cc4bf77
+source-git-commit: 3cf359c54467b4f913f20060e9d7f9577691b90c
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1557'
 ht-degree: 69%
 
 ---
@@ -33,10 +33,10 @@ Admin Consoleへのログイン、Experience Cloudユーザーの権限と製品
 
 ### 移行プロセス
 
-移行の時期が来たら、移行の 30 日前に組織の管理者に通知メールが届きます。 このメールには移行日が含まれます。
+移行の時期が来たら、移行の 30 日前に組織の管理者に通知メールが届きます。
 
 * 移行は午後 10 時までに予定されています。 — 午前 6 時（組織の主要タイムゾーンまたは週末）。
-* 移行中、Experience Cloud・アプリケーションは最大 15 分間アクセスできず、Admin Consoleは最大 30 分間アクセスできない場合があります。 そうしないと、この移行はシームレスにおこなわれます。
+* 移行中、Experience Cloud・アプリケーションに約 15 分間アクセスできず、Admin Consoleには最大 30 分アクセスできない場合があります。 そうしないと、この移行はシームレスにおこなわれます。
 
 ### 移行後の変更
 
