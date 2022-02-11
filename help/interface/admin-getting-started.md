@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 3cf359c54467b4f913f20060e9d7f9577691b90c
+source-git-commit: f03a0702b1f95dd8dfafbe84afc85e48f2aa9e5c
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1567'
 ht-degree: 69%
 
 ---
@@ -141,7 +141,8 @@ Analytics 管理者がユーザーアカウントを Analytics User Management �
 
 **関連するヘルプ**
 
-詳しくは、[Analytics ユーザー ID の移行](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=ja)を参照してください。
+* [Admin Console での Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=en)
+* [Analytics ユーザー ID の移行](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=ja)
 
 ## Adobe Targetの管理 — 製品プロファイルとワークスペース {#section_3860AF177C9E4C7E9C390D36A414F353}
 

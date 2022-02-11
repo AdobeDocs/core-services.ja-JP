@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 3fdeeeda77f1c779aff7ecbb3a2b6e8a1ad192d8
+source-git-commit: f03a0702b1f95dd8dfafbe84afc85e48f2aa9e5c
 workflow-type: tm+mt
 source-wordcount: '4606'
 ht-degree: 98%
@@ -30,7 +30,6 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 | ------- |-------|
 | ショートカット (**[!UICONTROL 最近]**) が [Experience Cloud](https://experience.adobe.com/home) ホーム | 新しい _最近_ 見出しを使用して、ランディングページに表示できます。 この更新には、一般的なレイアウトと応答性の改善も含まれています。 |
 | **[!UICONTROL サンドボックス]** ヘッダーバーに移動 | サンドボックスインジケーターが、すべてのサンドボックスインターフェイスアプリケーションのヘッダー内に統合されるようになりましたExperience Platform。 詳しくは、 [サンドボックス](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja) (Experience Platform) を参照してください。 |
-
 
 ## 2021年11月
 
