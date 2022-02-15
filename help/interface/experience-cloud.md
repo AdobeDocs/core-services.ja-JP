@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 5281aededf07508cb49ecd4f3017ccec3d4851fb
+source-git-commit: a13cc6b69955653f851aa21eb055c5c21b860791
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 98%
+source-wordcount: '1541'
+ht-degree: 82%
 
 ---
 
@@ -105,18 +105,59 @@ Experience Cloud は、アドビユーザーアカウントの環境設定で設
 * **[!UICONTROL ステータス]：** に移動して、製品の `https://status.adobe.com/experience_cloud` 運用状況と[!UICONTROL サブスクリプションの管理]を確認します。
 * **[!UICONTROL Developer Connection]：** `adobe.io` に移動して、開発者向けドキュメントを見つけます。
 
-## オブジェクトとエンティティのグローバル検索 {#globally-search}
+## [!UICONTROL 統合検索] オブジェクトとエンティティ {#globally-search}
 
-グローバル検索を使用すると、シームレスで一貫性のあるワンクリックエクスペリエンスで、検索可能なビジネスオブジェクトやエンティティを検索できます。 この検索では、最近アクセスしたオブジェクトが表示されます。
+この [!UICONTROL 統合検索] 検索を使用すると、シームレスで一貫性のあるワンクリックエクスペリエンスで、検索可能なビジネスオブジェクトやエンティティを検索できます。 この検索では、最近アクセスしたオブジェクトが表示されます。
 
 ![オブジェクトとエンティティのグローバル検索](assets/platform-search.png)
 
->[!NOTE]
->
->グローバル検索は、Experience Cloud の一部のアプリケーションでは使用できませんが、インデックスが作成されるコンテンツが多くなるため、関連するアプリケーションに追加されます。2021年7月現在の利用可能状況：
+### 対応プラットフォーム
 
-* Experience Platform
-* Journey Optimizer
+統合検索は、ページの上部 (Experience Cloudヘッダー内 ) に表示され、サポート対象の製品では常に表示されます。現在は次の製品です。
+
+* Experience Platform(AEP)
+* Journey Optimizer(AJO)
+
+コンテンツのインデックスがさらに作成されると、この機能は関連するアプリケーションに追加されます。
+
+### 検索可能なオブジェクトおよびフィールド
+
+入力中、一致する上位の結果は、表示するアクセス権のあるオブジェクトから得られます。
+
+![統合検索Experience Cloud](assets/unified-search-results.png)
+
+検索可能なビジネスオブジェクトには、次のものが含まれます。
+
+* セグメント（名前、説明）
+* スキーマ（名前、説明）
+* データセット（名前、説明）
+* ソース（名前、説明）
+* 宛先（名前、説明）
+* クエリ（名前、説明）
+* メッセージ（名前、説明）
+* オファー（名前、説明）
+* コンポーネント（名前、説明）
+* ジャーニー（名前、説明）
+
+キーワードがナビゲーションページと一致する場合は、ナビゲーションページのサンプルデータセットへのクイックアクセスリンクを取得できます。
+
+ヘルプ記事は、Experience Leagueとコミュニティからも入手できます。 自然言語のクエリがサポートされています。
+
+例： _スキーマの作成方法_ 下のExperience Leagueから結果を生成する _[!UICONTROL 学習]_:
+
+![統合検索のExperience Cloud](assets/unified-search-learning.png)
+
+検索アルゴリズムは、最も関連性の高いレコードを最初に表示します。 結果の順序は、次のような複数の要因によって異なります。
+
+* オブジェクトにアクセスするためのユーザー権限
+* 一致率
+* 完全一致
+* この _[!UICONTROL 上位の結果]_ 「 」セクションには、上位 30 件の結果が表示されます。
+
+検索を絞り込むには、次のいずれかをクリックします。
+
+* **[!UICONTROL すべてのラーニング]**:検索を開くExperience League
+* **[!UICONTROL すべて表示…]**:結果をさらに絞り込んでフィルターできます
 
 ## ユーザープロファイルとアカウントの環境設定 {#preferences}
 
