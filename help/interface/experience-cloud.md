@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: a13cc6b69955653f851aa21eb055c5c21b860791
+source-git-commit: 9ef52b69b26ceb362cc2caf9fc6a631648a98170
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 82%
@@ -156,8 +156,8 @@ Experience Cloud は、アドビユーザーアカウントの環境設定で設
 
 検索を絞り込むには、次のいずれかをクリックします。
 
-* **[!UICONTROL すべてのラーニング]**:検索を開くExperience League
-* **[!UICONTROL すべて表示…]**:結果をさらに絞り込んでフィルターできます
+* **[!UICONTROL すべてのラーニング]**:検索をExperience Leagueで開く。
+* **[!UICONTROL すべて表示…]**:結果をさらに絞り込んだりフィルターしたりできます。
 
 ## ユーザープロファイルとアカウントの環境設定 {#preferences}
 
