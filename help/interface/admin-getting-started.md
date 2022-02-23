@@ -1,6 +1,6 @@
 ---
 title: ユーザーと製品を管理する
-description: Admin Consoleにログインし、Experience Cloudユーザー権限と製品プロファイルを管理する方法を説明します。 Experience Cloud ユーザーへの管理権限の委任、および Experience Cloud に対するブラウザーのサポートについて説明します。
+description: Admin Console へのログイン方法と、Experience Cloud ユーザーの権限および製品プロファイルの管理方法をご覧ください。Experience Cloud ユーザーへの管理権限の委任、および Experience Cloud に対するブラウザーのサポートについて説明します。
 solution: Admin
 index: true
 feature: Admin Console
@@ -11,13 +11,13 @@ exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: f03a0702b1f95dd8dfafbe84afc85e48f2aa9e5c
 workflow-type: tm+mt
 source-wordcount: '1567'
-ht-degree: 69%
+ht-degree: 98%
 
 ---
 
 # Experience Cloud ユーザーと製品の管理
 
-Admin Consoleへのログイン、Experience Cloudユーザーの権限と製品プロファイルの管理、ブラウザーのサポートについて説明します。
+Admin Console へのログイン、Experience Cloud ユーザー権限と製品プロファイルの管理、ブラウザーのサポートについて説明します。
 
 >[!IMPORTANT]
 >
@@ -25,57 +25,57 @@ Admin Consoleへのログイン、Experience Cloudユーザーの権限と製品
 
 管理ツールでは、すべての Experience Cloud ユーザーとその詳細に関する、並べ替え可能でフィルタリング可能なリストを確認できます。詳しくは、[管理ツールでの Experience Cloud ユーザーの表示](admin-tool-experience-cloud.md)を参照してください。
 
-## Experience Cloudユーザー認証（計画移行）{#migration}
+## Experience Cloud ユーザー認証（計画移行）{#migration}
 
-2022 年 2 月より、Adobeは、組織が個々のプロファイルに対するビジネス権限をより適切に管理できるように、プロファイル管理システムを更新しています。 したがって、個々のAdobe ID(Type1) に対応する個人プロファイルを持つすべてのユーザーは、新しいビジネスプロファイルに移行されます。 このプロファイルは、 _Business ID_ （タイプ 2e）。
+2022年2月よりアドビは、組織が個々のプロファイルに対するビジネス権限をより適切に管理できるように、プロファイル管理システムを更新しています。 したがって、個々の Adobe ID（Type1） に対応する個人プロファイルを持つすべてのユーザーは、新しいビジネスプロファイルに移行されます。このプロファイルは _Business ID_（Type2e）に対応しています。
 
-詳しくは、 [Adobe Admin Consoleの ID タイプ](https://helpx.adobe.com/jp/enterprise/using/identity.html) を参照してください。
+詳しくは、[Adobe Admin Consoleの ID タイプ](https://helpx.adobe.com/jp/enterprise/using/identity.html)を参照してください。
 
 ### 移行プロセス
 
-移行の時期が来たら、移行の 30 日前に組織の管理者に通知メールが届きます。
+移行の時期が来たら、移行の 30 日前に組織の管理者に通知メールが届きます。 
 
-* 移行は午後 10 時までに予定されています。 — 午前 6 時（組織の主要タイムゾーンまたは週末）。
-* 移行中、Experience Cloud・アプリケーションに約 15 分間アクセスできず、Admin Consoleには最大 30 分アクセスできない場合があります。 そうしないと、この移行はシームレスにおこなわれます。
+* 移行は午後 10 時から午前 6 時（組織の主要タイムゾーンまたは週末に基づく）の間に予定されています。
+* 移行中、Experience Cloud・アプリケーションに約 15 分間アクセスできず、Admin Consoleには最大 30 分アクセスできない場合があります。 そうでない場合、この移行はシームレスに行われます。
 
 ### 移行後の変更
 
 Admin Console
 
-* 複数のアカウントを持つ管理者がログインする際に、プロファイルセレクターが表示される場合があります [!UICONTROL Admin Console].
-* 個々のAdobe IDユーザーは、Business ID に更新されます。
-* Business ID ディレクトリは、 **[!UICONTROL 設定]** > **[!UICONTROL ID]** > **[!UICONTROL ディレクトリ]**.
+* 複数のアカウントを持つ管理者が [!UICONTROL Admin Console] にログインする際に、プロファイルセレクターが表示される場合があります。
+* 個々の Adobe ID ユーザーは、Business ID に更新されます。
+* Business ID ディレクトリは、**[!UICONTROL 設定]**／**[!UICONTROL ID]**／**[!UICONTROL ディレクトリ]**&#x200B;に追加されます。
 
-   ![Admin ConsoleID — ビジネス ID](assets/identity-home.png)
+   ![Admin Console ID — Business ID](assets/identity-home.png)
 
 ### 移行後のログイン
 
-この更新では、サインイン操作は変更されません。
+この更新では、ログインのエクスペリエンスは変更されません。
 
-1. ログイン時刻： `experience.adobe.com` 同じ資格情報を使用している。
+1. 同じ認証情報を使用した `experience.adobe.com` へのログイン
 
-1. ビジネス ID に関連付けられた新しいプロファイルが作成されます。 次のように求められます。 **[!UICONTROL 参加する]** または **[!UICONTROL スキップ]**.
+1. Business ID に関連付けられた新しいプロファイルが作成されます。 「**[!UICONTROL 参加する]**」または「**[!UICONTROL スキップ]**」するよう求められます。
 
-1. いずれかのオプションを選択すると、既存のランディングページを使用することになります。
+1. いずれかのオプションを選択すると、既存のランディングページのエクスペリエンスを使用することになります。
 
-1. Adobeプロファイルは各ビジネスプランに関連付けられ、追加のAdobeクラウドサービス (Creative CloudとDocument Cloud) から作成されたアセットを整理する機能を提供します。
+1. アドビプロファイルは各ビジネスプランに関連付けられ、追加の Adobe Cloud サービス（Creative Cloud と Document Cloud）から作成されたアセットを整理する機能を提供します。
 
-詳しくは、 [Adobeプロファイルの概要](https://helpx.adobe.com/jp/enterprise/kb/introducing-adobe-profiles.html).
+詳しくは、[アドビプロファイルの概要](https://helpx.adobe.com/jp/enterprise/kb/introducing-adobe-profiles.html)を参照してください。
 
 ## 製品プロファイルとは {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
 _[!UICONTROL 製品プロファイル]_&#x200B;は、ユーザーに割り当てることができる製品およびサービスのグループです。Experience Cloud では、権限はユーザーではなく、製品のプロファイルに基づきます。（ただし、管理権限は特定のユーザーに委任できます。）
 
-例えば、Analytics では、Analysis Workspace や Report Builder などのレポートツールをレポートスイート、指標、ディメンションなどとともに 1 つのコレクションにまとめることができます。ユーザーをプロファイルに追加することで、製品プロファイルに権限を付与できます。
+例えば、Analytics では、Analysis Workspace や Report Builder などのレポートツールをレポートスイート、指標、ディメンションなどとともに 1 つのコレクションにまとめることができます。ユーザーをプロファイルに追加することにより、付与権限を製品プロファイルに割り当てることができます。
 
-* 詳しくは、 [製品プロファイルへの Analytics アクセス権限の割り当て](admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391) 」をクリックします。
+* 詳しくは、このページの[製品プロファイルへの Analytics アクセス権限の割り当て](admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391)を参照してください。
 * このページの[ユーザーへの管理者の役割の委任](#delegate-rights)を参照してください。
 
-## Experience Cloud製品プロファイルの管理 {#task_16335111C52D40E9BAC73D0699584DBF}
+## Experience Cloud 製品プロファイルの管理 {#task_16335111C52D40E9BAC73D0699584DBF}
 
-製品プロファイルを作成し、権限グループに割り当てることができます。
+製品プロファイルを作成し、権限グループに割り当てます。
 
-ユーザーを組織に招待する場合は、そのユーザーに製品および製品プロファイルへのアクセス権を付与できます。 ユーザーに制限付き管理権限を委任することもできます。同様に、ユーザーグループを作成し、そのグループを製品プロファイルに追加して、アクセス権を有効にすることもできます。
+ユーザーを組織に招待する場合は、そのユーザーに製品および製品プロファイルへのアクセス権を付与することができます。ユーザーに制限付き管理権限を委任することもできます。同様に、ユーザーグループを作成し、そのグループを製品プロファイルに追加することによって、アクセス権を有効にすることもできます。
 
 1. [Admin Console](https://adminconsole.adobe.com/enterprise/) で、「**[!UICONTROL 製品]**」を選択します。
 1. 組織名を選択します。
@@ -115,9 +115,9 @@ Admin Console では、組織内の他のユーザーに管理権限を制限付
 
 ## Analytics ユーザーと製品の管理 {#section_97DE101F92CD494AB073893680992F1A}
 
-製品プロファイルに Analytics レポートアクセス権限（レポートスイート、指標、ディメンションなど）を割り当てることができます。
+製品プロファイルに Analytics レポートのアクセス権限（レポートスイート、指標、ディメンションなど）を割り当てることができます。
 
-例えば、複数の Analytics ツール ([!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics]、および [!UICONTROL Report Builder]) をクリックします。 これらのプロファイルには、特定の指標およびディメンション（eVar を含む）に対する権限と、セグメントや計算指標の作成などの機能が含まれます。
+例えば、複数の Analytics ツール（[!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、[!UICONTROL Report Builder]）を含む製品プロファイルを作成できます。これらのプロファイルには、特定の指標およびディメンション（eVar を含む）に対する権限と、セグメントや計算指標の作成などの機能が含まれます。
 
 1. [Admin Console](https://adminconsole.adobe.com/enterprise) にログインし、「**[!UICONTROL 製品]**」を選択します。
 1. [!UICONTROL 製品]ページで、製品を選択してから「**[!UICONTROL 権限]**」を選択します（管理者のみが使用できます）。
@@ -144,9 +144,9 @@ Analytics 管理者がユーザーアカウントを Analytics User Management �
 * [Admin Console での Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=en)
 * [Analytics ユーザー ID の移行](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=ja)
 
-## Adobe Targetの管理 — 製品プロファイルとワークスペース {#section_3860AF177C9E4C7E9C390D36A414F353}
+## Adobe Target の管理 - 製品プロファイルとワークスペース {#section_3860AF177C9E4C7E9C390D36A414F353}
 
-Adobe Targetでは、ワークスペースは製品プロファイルです。 組織でワークスペースを使用すると、特定のユーザーセットを特定のプロパティセットに割り当てることができます。多くの点で、Workspaces は Adobe Analytics のレポートスイートに似ています。
+Adobe Target では、ワークスペースが製品プロファイルになります。組織でワークスペースを使用すると、特定のユーザーセットを特定のプロパティセットに割り当てることができます。多くの点で、Workspaces は Adobe Analytics のレポートスイートに似ています。
 
 以下を参照してください。
 
@@ -156,9 +156,9 @@ Adobe Targetでは、ワークスペースは製品プロファイルです。 �
 
 ## Campaign 製品プロファイル、テナント、セキュリティグループの管理 {#section_09CDF75366444CF5810CF321B7C712F3}
 
-Campaign の&#x200B;*テナント*&#x200B;は、Admin Console の製品ページでは&#x200B;*製品*&#x200B;として表示されます。
+Campaign の&#x200B;*テナント*&#x200B;は、Admin Console の製品ページで&#x200B;*製品*&#x200B;として表示されます。
 
-*セキュリティグループ* は製品プロファイルとして表示されます。
+*セキュリティグループ*&#x200B;は製品プロファイルとして表示されます。
 
 セキュリティグループとセキュリティグループへのユーザーの割り当てについては、[グループとユーザーの管理](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/managing-groups-and-users.html?lang=ja)を参照してください。
 

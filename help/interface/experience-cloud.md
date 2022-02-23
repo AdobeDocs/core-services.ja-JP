@@ -11,7 +11,7 @@ exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: cef76ac81d70488ef166fbca9a5a691fb1331a0b
 workflow-type: tm+mt
 source-wordcount: '1540'
-ht-degree: 81%
+ht-degree: 82%
 
 ---
 
@@ -33,9 +33,9 @@ Experience Cloud のヘッダーから、次の操作を実行できます。
 ログインし、自分が適切な[組織](organizations.md)に属していることを確認します。
 
 1. [Adobe Experience Cloud](https://experience.adobe.com) に移動します。
-1. Adobeの電子メールアドレスを入力し、「 」を選択します。 **[!UICONTROL 続行]**.
+1. アドビのメールアドレスを入力し、「**[!UICONTROL 続行]**」を選択します。
 
-   管理者向け： [Experience Cloudユーザー認証](admin-getting-started.md#migration) id タイプ（ビジネス ID）の重要な更新に関する情報をまとめました。
+   管理者向け：[Experience Cloud ユーザー認証](admin-getting-started.md#migration)の ID タイプ（Business ID）に関する重要な更新を参照してください。
 
 1. アカウントを選択します。
 1. パスワードを入力します。
@@ -238,7 +238,7 @@ Experience Cloud は、次のホストを使用してアプリケーションを
 
 * [Experience League のすべてのチュートリアル](https://experienceleague.adobe.com/?lang=ja#quick-how-tos)
 * [Experience Platform チュートリアル](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en)
-* [リアルタイム顧客データプラットフォーム](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ja)
+* [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ja)
 
 ## リリースノートおよび関連する Experience Cloud ヘルプ
 

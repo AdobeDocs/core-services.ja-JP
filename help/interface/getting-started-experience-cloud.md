@@ -11,8 +11,8 @@ level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
 source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '972'
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 | [Admin Console の起動](admin-getting-started.md) | Admin Console では、アドビのユーザーと製品の使用権限を組織全体にわたって一元的に管理できます。<br>[ダイレクトリンク](https://adminconsole.adobe.com)を使用して Admin Console にログインすることもできます。 |
 | [Creative Cloud ユーザーの管理](t-admin-add-cc-user.md) | Experience Cloud Assets では、Creative Cloud を使用してデザイナーや他のクリエイティブ担当者とフォルダー上での共有、同期、共同作業をおこなえます。組織と共同作業することを承認された Creative Cloud ユーザーの管理はここでおこなえます。 |
 | [レポートスイートをマッピング](core-services.md) | （Analytics のみ）Experience Cloud のコアサービスは個々のレポートスイートではなく組織に関連付けられています。これらのサービスを正しく機能させるには、各 Analytics レポートスイートを組織にマッピングする必要があります。（この作業は、[Analytics をコアサービスに対応させる](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)ワークフローの一部です）。 |
-| [組織 ID](organizations.md)   | この *組織 ID* が URL 内に見つかったのは、Admin Console内の場合です。 また、 [!UICONTROL ユーザーデータデバッガー] ポップアップ (`ctrl+i` または `cmd+i`) から `https://experience.adobe.com`. この ID は、プロビジョニングした Experience Cloud 会社に関連付けられている ID です。この ID は 24 文字の英数字から成る文字列で、その後に @AdobeOrg（必須）が続きます。 |
+| [組織 ID](organizations.md)   | Admin Console 内でのみ、この&#x200B;*組織 ID* が URL 内に見つかります。また、`https://experience.adobe.com` のどのページからでも、[!UICONTROL ユーザーデータデバッガー]ポップアップ（`ctrl+i` または `cmd+i`）で参照することができます。この ID は、プロビジョニングした Experience Cloud 会社に関連付けられている ID です。この ID は 24 文字の英数字から成る文字列で、その後に @AdobeOrg（必須）が続きます。 |
 
 {style=&quot;table-layout:auto&quot;}
 
