@@ -7,9 +7,9 @@ feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Beginner
-source-git-commit: ae43fd46ec2e525656994b8d2d843d095cfe2daf
+source-git-commit: ef3da61a2894eb278d9c20a784f37607f1af0e27
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '644'
 ht-degree: 2%
 
 ---
@@ -92,14 +92,14 @@ ht-degree: 2%
 
 {style=&quot;table-layout:auto&quot;}
 
-## 期待された結果が見つからないか、結果が多すぎるか。
+## 見つからない？
 
 次のヒントを試してみてください。
 
 * より具体的な検索語句を入力
 * スペルを確認する
 * 検索語句全体を記述してみてください
-* オブジェクトに対する権限を持っていることを確認します。検索している
+* 検索するオブジェクトに対する権限があることを確認します。
 
 
 
