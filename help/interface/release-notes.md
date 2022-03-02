@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: f03a0702b1f95dd8dfafbe84afc85e48f2aa9e5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4606'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,8 +28,8 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 
 | 機能 | 説明 |
 | ------- |-------|
-| ショートカット (**[!UICONTROL 最近]**) が [Experience Cloud](https://experience.adobe.com/home) ホーム | 新しい _最近_ 見出しを使用して、ランディングページに表示できます。 この更新には、一般的なレイアウトと応答性の改善も含まれています。 |
-| **[!UICONTROL サンドボックス]** ヘッダーバーに移動 | サンドボックスインジケーターが、すべてのサンドボックスインターフェイスアプリケーションのヘッダー内に統合されるようになりましたExperience Platform。 詳しくは、 [サンドボックス](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja) (Experience Platform) を参照してください。 |
+| ショートカット（**[!UICONTROL 最近]**）が [Experience Cloud](https://experience.adobe.com/home?lang=ja) ホームに追加されました | ランディングページの新しい&#x200B;_最近_&#x200B;見出しの下から、最新の Journey Optimizer と Experience Platform の操作へのショートカットにアクセスできます。この更新には、一般的なレイアウトと応答性の改善も含まれています。 |
+| **[!UICONTROL サンドボックス]**&#x200B;がヘッダーバーに移動しました | サンドボックスインジケーターが、すべての Experience Platform インターフェイスアプリケーションのヘッダー内に統合されるようになりました。詳しくは、Experience Platform の[サンドボックス](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja)を参照してください。 |
 
 ## 2021年11月
 
