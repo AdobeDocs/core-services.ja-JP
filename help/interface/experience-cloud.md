@@ -11,7 +11,7 @@ exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: ae43fd46ec2e525656994b8d2d843d095cfe2daf
 workflow-type: tm+mt
 source-wordcount: '1285'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -183,7 +183,7 @@ Experience Cloud は、次のホストを使用してアプリケーションを
 セルフサービスのチュートリアルと、Experience League のクイックハウツーを活用：
 
 * [Experience League のすべてのチュートリアル](https://experienceleague.adobe.com/?lang=ja#quick-how-tos)
-* [Experience Platform チュートリアル](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en)
+* [Experience Platform チュートリアル](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=ja)
 * [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ja)
 
 ## リリースノートおよび関連する Experience Cloud ヘルプ
@@ -193,5 +193,5 @@ Experience Cloud は、次のホストを使用してアプリケーションを
 * [コアサービスの実装に関するチュートリアル](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en) - コアサービスに関するビデオやチュートリアルを参照する
 * [Experience League で提供されるエキスパートヘルプ](https://experienceleague.adobe.com/?lang=ja) - 専門家やコミュニティからガイド付きの指導を受ける
 * [教育とトレーニング](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK) - アドビと連携してアドビ製品を最大限に活用する
-* [エクスペリエンスブログ](https://blog.adobe.com/en/topics/digital-transformation) - Experience Cloud のブログを読む
+* [エクスペリエンスブログ](https://blog.adobe.com/jp/topics/digital-transformation) - Experience Cloud のブログを読む
 * [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support) - アドビカスタマーケアに問い合わせる

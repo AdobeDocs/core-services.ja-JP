@@ -12,7 +12,7 @@ exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: ae43fd46ec2e525656994b8d2d843d095cfe2daf
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 96%
 
 Experience Cloud 製品ドキュメントの更新に関する情報です。
 
-**更新済み2/28/2022**
+**更新：2022年2月28日（PT）**
 
 次の用のページを追加しました。 [統合検索](search-experience-cloud.md)
 
-**更新済み2/8/2022**
+**更新：2022年2月8日（PT）**
 
-検索方法の更新 [組織 ID](organizations.md).
+[組織 ID](organizations.md) 検索方法に対する更新。
 
 **更新日：2021年12月13 日（PT）**
 
