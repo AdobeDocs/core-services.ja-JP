@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: f03a0702b1f95dd8dfafbe84afc85e48f2aa9e5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1567'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,10 +33,10 @@ Admin Console へのログイン、Experience Cloud ユーザー権限と製品�
 
 ### 移行プロセス
 
-移行の時期が来たら、移行の 30 日前に組織の管理者に通知メールが届きます。 
+移行の時期が来たら、移行の 30 日前に組織の管理者に通知メールが届きます。
 
-* 移行は午後 10 時から午前 6 時（組織の主要タイムゾーンまたは週末に基づく）の間に予定されています。
-* 移行中、Experience Cloud・アプリケーションに約 15 分間アクセスできず、Admin Consoleには最大 30 分アクセスできない場合があります。 そうでない場合、この移行はシームレスに行われます。
+* 移行は午後 10 時から午前 6 時（週末または組織の主要タイムゾーンに基づく）の間に予定されています。
+* 移行中、Experience Cloud アプリケーションは 15 分程度、Admin Console は最大 30 分間アクセスできなくなる可能性があります。そうでない場合、この移行はシームレスに行われます。
 
 ### 移行後の変更
 
@@ -141,7 +141,7 @@ Analytics 管理者がユーザーアカウントを Analytics User Management �
 
 **関連するヘルプ**
 
-* [Admin Console での Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=en)
+* [Admin Console での Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ja)
 * [Analytics ユーザー ID の移行](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=ja)
 
 ## Adobe Target の管理 - 製品プロファイルとワークスペース {#section_3860AF177C9E4C7E9C390D36A414F353}
@@ -150,9 +150,9 @@ Adobe Target では、ワークスペースが製品プロファイルになり�
 
 以下を参照してください。
 
-* [Enterprise ユーザーの権限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en)
-* [製品およびプロファイルの管理](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
-* ビデオ：[Adobe Admin Console で Adobe Target ワークスペースを設定する方法](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [Enterprise ユーザーの権限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=ja)
+* [製品およびプロファイルの管理](https://helpx.adobe.com/jp/enterprise/admin-guide.html/jp/enterprise/using/manage-products.ug.html)
+* ビデオ：[Adobe Admin Console で Adobe Target ワークスペースを設定する方法](https://helpx.adobe.com/jp/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Campaign 製品プロファイル、テナント、セキュリティグループの管理 {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -194,6 +194,6 @@ Audience Manager ヘルプの[管理](https://experienceleague.adobe.com/docs/au
 
 ### 各ソリューションおよび製品の要件
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=ja)
 * [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=ja)
-* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en)
+* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=ja)
