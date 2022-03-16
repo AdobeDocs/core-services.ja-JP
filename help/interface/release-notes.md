@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: f03a0702b1f95dd8dfafbe84afc85e48f2aa9e5c
-workflow-type: ht
-source-wordcount: '4606'
-ht-degree: 100%
+source-git-commit: e2d1c99e191a14622126d868fce45c5ce88e571f
+workflow-type: tm+mt
+source-wordcount: '4640'
+ht-degree: 99%
 
 ---
 
@@ -23,6 +23,12 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 ドキュメントの更新のリストについては、[Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784) を参照してください。
 
 すべてのアプリケーションをカバーするリリースノートについては、[Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)を参照してください。
+
+## 2022 年 3 月
+
+| 機能 | 説明 |
+| ------- |-------|
+| アクセス [!UICONTROL 最近] Experience PlatformとJourney Optimizerの間で、検索バーを使用 | 統合検索バーを使用して、AEP および AJO の各ページから最近アクセスしたオブジェクトにアクセスできるようになりました。 |
 
 ## 2022年2月
 
