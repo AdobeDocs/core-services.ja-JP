@@ -1,14 +1,14 @@
 ---
 title: 'EU 一般データ保護規則に対する顧客属性のサポート '
 description: EU 一般データ保護規則に対する顧客属性のサポートについての説明
-feature: 顧客属性
-topic: 管理
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: ht
-source-wordcount: '433'
+source-wordcount: '430'
 ht-degree: 100%
 
 ---
