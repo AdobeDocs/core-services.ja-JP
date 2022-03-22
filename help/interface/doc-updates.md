@@ -12,7 +12,7 @@ exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: ae43fd46ec2e525656994b8d2d843d095cfe2daf
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Experience Cloud 製品ドキュメントの更新に関する情報です。
 
 **更新：2022年2月28日（PT）**
 
-次の用のページを追加しました。 [統合検索](search-experience-cloud.md)
+[統合検索](search-experience-cloud.md)用のページを追加しました
 
 **更新：2022年2月8日（PT）**
 
