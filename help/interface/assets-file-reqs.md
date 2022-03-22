@@ -5,13 +5,13 @@ solution: Experience Cloud
 title: 'アセットを共有するためのファイル要件 '
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0
 feature: Assets
-topic: 管理
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 61bc8f52-a77e-4e85-939b-6f29963334a1
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: ht
-source-wordcount: '130'
+source-wordcount: '128'
 ht-degree: 100%
 
 ---
