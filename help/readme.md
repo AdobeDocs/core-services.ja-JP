@@ -1,7 +1,6 @@
 ---
 source-git-commit: 58ccef353b492b1c2adfbb8c2471e1f92263e6e4
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
 source-wordcount: '329'
 ht-degree: 100%
 
@@ -51,4 +50,4 @@ ht-degree: 100%
 
 ## 詳細情報
 
-その他のパブリッシング手順、スタイルガイド、サンプルおよびその他のリソースについては、[共同作業ドキュメントリポジトリ](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)を参照してください。
+その他のパブリッシング手順、スタイルガイド、サンプルおよびその他のリソースについては、[共同作業ドキュメントリポジトリ](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)を参照してください
