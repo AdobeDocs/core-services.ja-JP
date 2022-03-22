@@ -29,7 +29,7 @@ Experience Cloud のこれらのサービスにアクセスするには、**[!UI
 |--- |--- |
 | [中央インターフェイスコンポーネント](experience-cloud.md) | アカウント設定にアクセスし、製品ヘルプを検索して、アプリケーションとサービスにアクセスします。 |
 | [Experience Cloud サービスの実装を有効にする](core-services.md) | 既存のお客様は、アプリケーションの実装を最新化し、Experience Cloud を実装できます。これにより、Adobe Analytics、Audience Manager、Adobe Target をまたいで顧客属性とオーディエンス機能を使用できます。 |
-| [People - オーディエンスライブラリ](audience-library.md) | オーディエンスは、訪問者の集合（訪問者 ID のリスト）です。アドビのオーディエンスライブラリで、訪問者データからオーディエンスのセグメント化への変換を管理します。As |
+| [People - オーディエンスライブラリ](audience-library.md) | オーディエンスは、訪問者の集合（訪問者 ID のリスト）です。アドビのオーディエンスライブラリで、訪問者データからオーディエンスのセグメント化への変換を管理します。  |
 | [People - 顧客属性](attributes.md) | イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築できます。[!UICONTROL Journey Orchestration] は、Experience Platform と統合されたアプリケーションサービスです。 |
 | [Location Service](https://experienceleague.adobe.com/docs/places/using/home.html?lang=ja) | Adobe [!UICONTROL Experience Platform Location Services] は、位置情報サービスです。柔軟な目標地点（POI）データベースを備えた、機能が豊富で使いやすい SDK インターフェイスを使用して、位置認識機能を備えたモバイルアプリが位置情報を認識できるようにします。 |
 | [Activation](activation.md) | Activation には、Experience Platform データ収集（Launch）および Experience Cloud Triggers と呼ばれる最新のタグ管理製品が含まれています。 |
