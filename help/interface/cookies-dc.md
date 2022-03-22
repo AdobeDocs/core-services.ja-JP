@@ -4,14 +4,14 @@ keywords: cookie;プライバシー
 solution: Experience Cloud, Analytics, Target
 title: 'Data Connectors の cookie '
 uuid: 5d27ba66-e640-4513-befc-69e8502de941
-feature: Cookie
-topic: 管理
+feature: Cookies
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 54f77e67-1bcf-4d01-b70b-af85bac3f449
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: ht
-source-wordcount: '76'
+source-wordcount: '74'
 ht-degree: 100%
 
 ---
