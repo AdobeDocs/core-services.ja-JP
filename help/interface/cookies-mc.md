@@ -4,14 +4,14 @@ keywords: cookie;プライバシー
 solution: Experience Cloud,Analytics,Target
 title: 'Experience Cloud の cookie '
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
-feature: Cookie
-topic: 管理
+feature: Cookies
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: ht
-source-wordcount: '349'
+source-wordcount: '347'
 ht-degree: 100%
 
 ---
