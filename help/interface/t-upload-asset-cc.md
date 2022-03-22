@@ -5,13 +5,13 @@ solution: Experience Cloud
 title: 'Creative Cloud ブラウザーから共有フォルダーにアセットをアップロード '
 uuid: 701e28ed-4d1f-4109-882e-64d3b16cd2da
 feature: Assets
-topic: 管理
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: e26fb61f-4a7f-4c02-ba80-87a9c0edea86
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: ht
-source-wordcount: '91'
+source-wordcount: '89'
 ht-degree: 100%
 
 ---
