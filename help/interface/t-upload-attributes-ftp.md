@@ -4,14 +4,14 @@ keywords: 顧客属性;コアサービス
 solution: Experience Cloud
 title: 'FTP 経由での顧客属性データファイルのアップロード '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-feature: 顧客属性
-topic: 管理
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: ht
-source-wordcount: '271'
+source-wordcount: '268'
 ht-degree: 100%
 
 ---
