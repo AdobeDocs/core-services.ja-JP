@@ -5,9 +5,9 @@ breadcrumb-title: Experience Cloud の主要なインターフェイスコンポ
 user-guide-description: Experience Cloud のインターフェイス、環境設定、ヘルプとビジネスオブジェクトの検索について説明します。 ユーザーと製品の管理、顧客属性、オーディエンスライブラリ、cookie、Experience Cloud Assets に関するお問い合わせ。
 index: true
 source-git-commit: ce728958df73605700a11c7aa2b95479a5632f9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '349'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 + [Experience Cloud の主要なインターフェイスコンポーネントガイド](experience-cloud.md)
 + Experience Cloud サービス {#services}
    + [Experience Cloud サービス](core-services-landing.md)
-   + [統合検索Experience Cloud](search-experience-cloud.md)
+   + [Experience Cloud の統合検索](search-experience-cloud.md)
    + [アプリケーションサービスをまたいだ実装を有効にする](core-services.md)
    + Experience Cloud Audience ライブラリ {#audiences}
       + [Experience Cloud Audiences](audience-library.md)
