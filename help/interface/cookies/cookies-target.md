@@ -4,14 +4,14 @@ keywords: cookie;プライバシー
 solution: Experience Cloud,Analytics,Target,Social
 title: 'Adobe Target の cookie  '
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
-feature: Cookie
-topic: 管理
+feature: Cookies
+topic: Administration
 role: Administrator
 level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
 source-git-commit: a244ee8927e0417fbb502e8eaa3c371151ec3044
 workflow-type: ht
-source-wordcount: '433'
+source-wordcount: '431'
 ht-degree: 100%
 
 ---
