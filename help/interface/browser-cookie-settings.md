@@ -4,21 +4,21 @@ keywords: cookie;プライバシー
 solution: Experience Cloud, Analytics, Target, Social
 title: 'ブラウザーの Cookie のプライバシー設定 '
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
-feature: Cookie
-topic: 管理
+feature: Cookies
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 5d852e0e-4004-4f94-a6f7-3a14a96cd42f
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: ht
-source-wordcount: '297'
+source-wordcount: '295'
 ht-degree: 100%
 
 ---
 
 # ブラウザー cookie のプライバシー設定の有効化 {#enable-privacy-settings-for-browser-cookies}
 
-デスクトップまたはモバイルブラウザーですべての cookie をブロックしているユーザーを削除できます。この機能は、データ収集をオプトアウトするユーザーを除外するプライバシー設定です。この設定を使用することで、Analtyics の処理の停止を希望するユーザーの意図を尊重できます。
+デスクトップまたはモバイルブラウザーですべての cookie をブロックしているユーザーを削除できます。この機能は、データ収集をオプトアウトするユーザーを除外するプライバシー設定です。この設定を使用することで、Analytics の処理の停止を希望するユーザーの意図を尊重できます。
 
 **ブラウザー cookie のプライバシー設定を有効にするには**
 
