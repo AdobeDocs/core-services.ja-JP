@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: e2d1c99e191a14622126d868fce45c5ce88e571f
+source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
 workflow-type: tm+mt
 source-wordcount: '4640'
 ht-degree: 99%
@@ -294,7 +294,7 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 
 **修正点**
 
-* [!DNL Experience Cloud] と [!DNL Media Optimizer] の間でシングルサインオンができなかった問題を修正しました。
+* [!DNL Experience Cloud] と [!DNL Advertising Cloud] の間でシングルサインオンができなかった問題を修正しました。
 
 **既知の問題**
 
@@ -386,7 +386,7 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 * ユーザーがボードで PowerPoint ファイルを共有できません。
 * ユーザー管理で行ったグループおよび資格の変更が新規ログイン後にしか有効になりません。
 * 大きなファイルを Experience Cloud アセットにアップロードするときに問題が生じる場合があります。
-* ユーザーが Media Manager から取り出した Experience Cloud カードにリンクがない場合があります。
+* ユーザーがAdvertising CloudからのExperience Cloudカードにリンクがない場合があります。
 * 管理権限のあるユーザーが Experience Cloud への参加の招待を受け入れた後に、アカウントのリンクに関して問題が生じる場合があります。
 * 複数のユーザーが同時に使用すると Experience Cloud インターフェイスのパフォーマンスが低下する可能性があります。
 * 古くなったアセットに関するエラー通知を受信する代わりに、そのアセットを削除できてしまう場合があります。
@@ -595,7 +595,7 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 **修正点**
 
 * [!DNL Experience Cloud] が [!DNL Adobe Target] にリンクされなかった問題を修正しました。この問題は、[!DNL Adobe Target] ログインが複数の [!DNL Target] サーバーで使用できる場合に発生していました。
-* [!DNL Experience Cloud] でユーザーが作成された場合、[!DNL Adobe Media Optimizer] でユーザーが自動作成されなかった問題を修正しました。
+* [!DNL Experience Cloud] でユーザーが作成された場合、[!DNL Adobe Advertising Cloud] でユーザーが自動作成されなかった問題を修正しました。
 * 新しいユーザーを追加するためのコンボボックスのオプションが、入力中、一時的に消えていた問題を修正しました。
 * アセットカード表示のコメントリンクを選択できなかった問題を修正しました。
 * アセットにカスタムタグを追加した後、その他のメタデータの変更が保持されなかった問題を修正しました。
@@ -643,12 +643,12 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 * アセットカード表示のコメントリンクを選択できません。
 * 新しいユーザーを追加するためのコンボボックスのオプションが、入力中、一時的に消えます。
 * [!DNL Experience Cloud] へのログインに、1 秒以上かかります。
-* [!DNL Media Optimizer] から共有されたデータが [!DNL Experience Cloud] に正しく表示されなかった問題を修正しました。
-* [!DNL Experience Cloud] でユーザーが作成された場合、Adobe [!DNL Media Optimizer] でユーザーが自動作成されなかった問題を修正しました。
+* [!DNL Advertising Cloud] から共有されたデータが [!DNL Experience Cloud] に正しく表示されなかった問題を修正しました。
+* [!DNL Experience Cloud] でユーザーが作成された場合、Adobe [!DNL Advertising Cloud] でユーザーが自動作成されなかった問題を修正しました。
 * [!DNL Experience Cloud] ログインを複数の [!DNL Adobe Target] サーバーで使用できる場合、[!DNL Adobe Target] が [!DNL Target] にリンクできなかった問題を修正しました。
 * 多くのユーザーが同時に使用すると、[!DNL Experience Cloud] インターフェイスのパフォーマンスが遅くなる可能性があった問題を修正しました。
 * [!DNL Search&Promote] リンクを[!UICONTROL 組織と製品へのアクセス]ページから利用できなかった問題を修正しました。
-* [!DNL Adobe Media Optimizer] シミュレーションカードが正しくレンダリングされない問題を修正しました。
+* [!DNL Adobe Advertising Cloud] シミュレーションカードが正しくレンダリングされない問題を修正しました。
 * [!DNL Analytics] からトレンドレポートに適用したフィルターが、[!DNL Experience Cloud] のカードに適用されない問題を修正しました。
 * Analytics からトレンドレポートに適用したフィルターが、Experience Cloud のカードに適用されない問題を修正しました。
 * 一部の Excel または CSV ファイルは、ボードにアップロードできません。
@@ -664,7 +664,7 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 **修正点**
 
 * アバター画像を削除する機能を追加しました。
-* [!DNL Adobe Media Optimizer] アカウントのリンク解除を妨げていた問題を修正しました。
+* [!DNL Adobe Advertising Cloud] アカウントのリンク解除を妨げていた問題を修正しました。
 
 **既知の問題**
 
@@ -678,16 +678,16 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 * [!DNL Adobe Target] ログインが複数の Target サーバーで使用できる場合、Experience Cloud は [!DNL Adobe Target] にリンクできません。
 * Experience Cloud へのログインに、1 秒以上かかります。
 * アセットにカスタムタグを追加した後、その他のメタデータの変更が保持されません。
-* Experience Cloud でユーザーが作成された場合、[!DNL Adobe Media Optimizer] でユーザーが自動作成されなかった問題を修正しました。
+* Experience Cloud でユーザーが作成された場合、[!DNL Adobe Advertising Cloud] でユーザーが自動作成されなかった問題を修正しました。
 * 新しいユーザーを追加するためのコンボボックスのオプションが、入力中、一時的に消えます。
-* [!DNL Media Optimizer] から共有したデータが、Experience Cloud で誤って表示されます。
+* [!DNL Advertising Cloud] から共有したデータが、Experience Cloud で誤って表示されます。
 * Flickr 画像の共有に失敗します。
 * [!DNL Analytics] からトレンドレポートに適用したフィルターが、Experience Cloud のカードに適用されません。
 * ユーザー管理で行ったグループおよび権限付与の変更は、新しくログインした後でのみ有効になります。
 * [!DNL Search&Promote] リンクが「[!UICONTROL 組織と製品へのアクセス]」から利用できません。
 * 削除したカードを表示から消すために、ユーザーがボードを更新する必要があります。
 * 一部の Excel または CSV ファイルは、ボードにアップロードできません。
-* [!DNL Adobe Media Optimizer] シミュレーションカードが正しくレンダリングされない問題を修正しました。
+* [!DNL Adobe Advertising Cloud] シミュレーションカードが正しくレンダリングされない問題を修正しました。
 * 一部の PNG ファイルは、カードにレンダリングできません。
 * ベータフィードバックを送信できません。
 

@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: 77e99651b49fa411a9af941bbf73b746e05a3609
+source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 92%
+source-wordcount: '363'
+ht-degree: 95%
 
 ---
 
 # Experience Cloud Assets の概要
 
-Experience Cloud Assets は、複数のアプリケーション間で共有できるマーケティング用アセットの単一の集中リポジトリを提供します。アセットは、デジタルドキュメント、画像、ビデオ、オーディオのいずれか（またはその一部）で、複数のレンディションや、サブアセット（例えば、[!DNL Photoshop] ファイルのレイヤー、[!DNL PowerPoint] ファイルのスライド、PDF のページ、ZIP 内のファイルなど）を持つことができます。
+Experience Cloud Assets は、複数のアプリケーション間で共有できるマーケティング用アセットの単一の集中リポジトリを提供します。アセットは、デジタルドキュメント、画像、ビデオ、オーディオのいずれか（またはその一部）で、複数のレンディションを持つことができ、サブアセット（例えば、[!DNL Photoshop] ファイルのレイヤー、[!DNL PowerPoint] ファイルのスライド、PDF のページ、ZIP 内のファイルなど）を持つことができます。
 
 アセットサービスには次のものが含まれます。
 
@@ -26,10 +26,9 @@ Experience Cloud Assets は、複数のアプリケーション間で共有で�
 
 アセットを使用すると、一貫性とブランドコンプライアンスが向上し、市場投入までの時間が短縮されます。アプリケーションのワークフローを効率化できます。
 
-* **[!DNL Social]**：Facebook、Twitter、LinkedIn、Google+ のソーシャルメディアに投稿します。
-* **[!DNL Target]**：A/B テストと多変量分析テストを設定できます。
-* **[!DNL Media Optimizer]**：様々なチャネルとキャンペーン全体で広告ユニットを作成できます。
-* **[!DNL Campaign]**：アセットを電子メールニュースレターとキャンペーンに配置します。
+* **[!DNL Adobe Target]**：A/B テストと多変量分析テストを設定できます。
+* **[!DNL Ad Cloud]**：様々なチャネルとキャンペーン全体で広告ユニットを作成できます。
+* **[!DNL Adobe Campaign]**：アセットを電子メールニュースレターとキャンペーンに配置します。
 
 [!UICONTROL Experience Cloud Assets] では、次のことをおこなえます。
 
@@ -55,7 +54,9 @@ Experience Cloud Assets は、複数のアプリケーション間で共有で�
 
 ![ツールバーへのアクセス](assets/asset-tools.png)
 
-! Target で使用された、または使用中のアセットを削除するには、そのアセットの使用状況をすべて削除する必要があります。
+>[!NOTE]
+>
+>アセットをAdobe Targetから正常に削除するには、アセットをアクティビティから削除する必要があります。 [!DNL Target].
 
 ## アセットの編集 {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
