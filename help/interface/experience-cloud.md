@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: ae43fd46ec2e525656994b8d2d843d095cfe2daf
+source-git-commit: 74d13f4467efeedb1098b627c912f8193d8ebb22
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1274'
 ht-degree: 100%
 
 ---
@@ -175,7 +175,6 @@ Experience Cloud は、次のホストを使用してアプリケーションを
 * [Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)
 * [Experience Platform データ収集／Launch](https://experienceleague.adobe.com/docs/launch.html?lang=ja)
 * [Experience Cloud デバッガー](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja)
-* [一般データ保護規則（GDPR）API](https://developer.adobe.com/apis/experiencecloud/gdpr.html)
 * [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)
 
 ## チュートリアル
