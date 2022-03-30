@@ -24,11 +24,11 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 
 すべてのアプリケーションをカバーするリリースノートについては、[Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)を参照してください。
 
-## 2022 年 3 月
+## 2022年3月
 
 | 機能 | 説明 |
 | ------- |-------|
-| アクセス [!UICONTROL 最近] Experience PlatformとJourney Optimizerの間で、検索バーを使用 | 統合検索バーを使用して、AEP および AJO の各ページから最近アクセスしたオブジェクトにアクセスできるようになりました。 |
+| 検索バーから Experience Platform と Journey Optimizer の[!UICONTROL 最近使用したもの]にアクセス | 統合検索バーを使用して、AEP および AJO の各ページから最近アクセスしたオブジェクトにアクセスできるようになりました。 |
 
 ## 2022年2月
 
