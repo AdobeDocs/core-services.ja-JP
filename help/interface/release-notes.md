@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4640'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -386,7 +386,7 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 * ユーザーがボードで PowerPoint ファイルを共有できません。
 * ユーザー管理で行ったグループおよび資格の変更が新規ログイン後にしか有効になりません。
 * 大きなファイルを Experience Cloud アセットにアップロードするときに問題が生じる場合があります。
-* ユーザーがAdvertising CloudからのExperience Cloudカードにリンクがない場合があります。
+* ユーザーが Advertising Cloud から取り出した Experience Cloud カードにリンクがない場合があります。
 * 管理権限のあるユーザーが Experience Cloud への参加の招待を受け入れた後に、アカウントのリンクに関して問題が生じる場合があります。
 * 複数のユーザーが同時に使用すると Experience Cloud インターフェイスのパフォーマンスが低下する可能性があります。
 * 古くなったアセットに関するエラー通知を受信する代わりに、そのアセットを削除できてしまう場合があります。
