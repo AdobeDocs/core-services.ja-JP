@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
-workflow-type: ht
-source-wordcount: '4640'
-ht-degree: 100%
+source-git-commit: 23eee50163d309384378d9621a00d6286ad06b7b
+workflow-type: tm+mt
+source-wordcount: '4676'
+ht-degree: 99%
 
 ---
 
@@ -23,6 +23,14 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 ドキュメントの更新のリストについては、[Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784) を参照してください。
 
 すべてのアプリケーションをカバーするリリースノートについては、[Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)を参照してください。
+
+## 2022 年 4 月
+
+| 機能 | 説明 |
+| ------- |-------|
+| 自然言語検索 | 統合検索を使用した 1 つのインターフェイスから、すべてのヘルプ質問に対するすぐな回答を得ます。 この機能は、 [!DNL Experience Platform] および [!DNL Journey Optimizer]. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 2022年3月
 
