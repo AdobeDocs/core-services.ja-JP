@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '430'
-ht-degree: 100%
+source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 91%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Experience Cloud は、顧客に代わって受信および保存する個
 
 このドキュメントでは、[!UICONTROL 顧客属性]が、Adobe Experience Platform Privacy Service API と Privacy Service UI を使用して、データ主体の GDPR データアクセスおよび削除権をどのようにサポートするかについて説明します。
 
-GDPR がお客様のビジネスに与える意味の詳細は、「[GDPR とお客様のビジネス](https://business.adobe.com/jp/privacy/general-data-protection-regulation.html)」を参照してください。
+GDPR がお客様のビジネスに与える意味の詳細は、「[GDPR とお客様のビジネス](https://business.adobe.com/privacy/general-data-protection-regulation.html)」を参照してください。
 
 ## [!UICONTROL 顧客属性]のリクエストを送信するために必要な設定
 
@@ -35,11 +35,11 @@ GDPR がお客様のビジネスに与える意味の詳細は、「[GDPR とお
 
 1. 以下を特定します。
 
-   * IMS Org ID
+   * [Organization ID](#organizations.md)
    * 操作する CRS データソースのエイリアス ID
    * アクションを実行するプロファイルの CRM ID
 
-   IMS Org ID は、24 文字の英数字と共に使用される文字列で、末尾に @AdobeOrg が付きます。マーケティングチームまたはアドビの内部システム管理者が組織の IMS Org ID を把握していない場合は、アドビカスタマーケア（gdprsupport@adobe.com）にお問い合わせください。プライバシー API にリクエストを送信するには、IMS 組織 ID が必要です。
+   お使いの [組織 ID](#organizations.md) は、24 文字の英数字から成る文字列で、その後に@AdobeOrgが付きます。 プライバシー API にリクエストを送信するには、組織の ID が必要です。 Adobeカスタマーケア ( ) にお問い合わせください。 `gdprsupport@adobe.com` を返します。
 
 1. [!UICONTROL プライバシーサービス]で、顧客属性にアクセスおよび削除のリクエストを送信し、既存のリクエストのステータスを確認できます。
 

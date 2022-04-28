@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
-workflow-type: ht
-source-wordcount: '550'
-ht-degree: 100%
+source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
+workflow-type: tm+mt
+source-wordcount: '572'
+ht-degree: 85%
 
 ---
 
@@ -32,25 +32,35 @@ Experience Cloud での組織の管理と切り替えについて説明します
 
 ![手順の結果](assets/organization-switch.png)
 
-## 組織 ID を見つける {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
+## 組織 ID を表示する {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
-サポートを受けるために組織 ID が必要になる場合があります。**[!UICONTROL 組織]** メニューを使用して、自分が正しい組織に属していることを確認したり、組織を切り替えたりできます。
+サポートを受けるために、割り当てられた組織 ID を見つける必要が生じる場合があります。 **[!UICONTROL 組織]** メニューを使用して、自分が正しい組織に属していることを確認したり、組織を切り替えたりできます。
 
 組織 ID は、プロビジョニングされている Experience Cloud の会社に関連付けられた ID です。この ID は 24 文字の英数字から成る文字列の後に `@AdobeOrg`（必須）を付けたものです。
 
-`https://experience.adobe.com` の任意のページからキーボードショートカット **Ctrl+i** を使用して、ダイアログで「**[!UICONTROL 割り当てられた組織]**」タブをクリックすると、組織 ID を他のアカウント情報と共に表示することができます。
+キーボードショートカットを使用して、組織 ID を他のアカウント情報と共に表示できます **Ctrl + i** 任意のページから `https://experience.adobe.com`.
 
-![割り当てられた組織 ID](assets/assigned-organization.png)
+**組織 ID を表示するには、以下を実行します。**
 
-または、管理者が Admin Console（[https://adminconsole.adobe.com](https://adminconsole.adobe.com) に移動）にログインし、URL で IMS 組織 ID を表示することができます。
+1. In [Experience Cloud](https://experience.adobe.com.)を押します。 **Ctrl + i** キーボードで
 
-例として、次の URL を見てみましょう。
+   ![割り当てられた組織 ID](assets/assigned-organization.png)
 
-`https://adminconsole.adobe.com/C538193582390300A495CC9@AdobeOrg/overview`
+1. 次をクリック： **[!UICONTROL 割り当てられた組織]** 」タブをクリックします。
 
-ID は次のとおりです。
+1. 組織名をクリックします。
 
-`C538193582390300A495CC9@AdobeOrg`
+1. を探す **[!UICONTROL ID]**.
+
+   または、管理者がAdmin Console( [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) をクリックし、URL に組織 ID を表示します。
+
+   例として、次の URL を見てみましょう。
+
+   `https://adminconsole.adobe.com/C538193582390300A495CC9@AdobeOrg/overview`
+
+   ID は次のとおりです。
+
+   `C538193582390300A495CC9@AdobeOrg`
 
 ## アプリケーションアカウントを Adobe ID にリンクする {#task_FD389E78640848919E247AC5E95B8369}
 
