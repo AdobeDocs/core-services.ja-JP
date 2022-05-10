@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
-workflow-type: ht
-source-wordcount: '776'
-ht-degree: 100%
+source-git-commit: 8cb55c6fb6f0acfb8787b0125f7c4a25bcb71e28
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -53,7 +53,7 @@ Experience Cloud インターフェイスが提供する機能は、ビジネス
 
 ## 移行に関する問題を解決するにはどのようにしますか。
 
-[アドビサポートに問い合わせてください](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)。
+[アドビサポートに問い合わせてください](https://experienceleague.adobe.com/?support-solution=General#support)。
 
 ## [!DNL Adobe Support] はどのようにして、アドビクラウド環境にアクセスして問題のトラブルシューティングを行いますか？
 
@@ -82,7 +82,7 @@ Experience Cloud でのプロビジョニングは、次のことを意味しま
 
 Admin Console 管理者はユーザーにアクセス権を付与できます。ユーザーにはログイン手順が記載された電子メールが送信されます。
 
-会社としてのプロビジョニングが完了していることを確認するために、[アドビサポートへの問い合わせ](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)が必要になる場合もあります。
+会社としてのプロビジョニングが完了していることを確認するために、[アドビサポートへの問い合わせ](https://experienceleague.adobe.com/?support-solution=General#support)が必要になる場合もあります。
 
 ## アカウントのリンクはどこで管理できますか。
 
