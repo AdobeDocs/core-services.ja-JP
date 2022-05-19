@@ -10,10 +10,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: ec35013fd5c266db6128e370dfde4b24ccce5737
+source-git-commit: 8ec1639479777a67d351dff699815fde982a968e
 workflow-type: tm+mt
 source-wordcount: '1616'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ Analytics は、イメージリクエストとブラウザーセッション間�
 
 >[!NOTE]
 >
->収集ドメインがサイトドメインと一致するかどうかに関係なく、Apple の Intelligent Tracking Prevention (ITP) プログラムは、ITP で管理されるブラウザー（macOS の Safari と iOS および iPadOS のすべてのブラウザーを含む）でアドビが設定したファーストパーティ Cookie を短時間有効にします。2020年11月以降、CNAME を使用して設定された Cookie も、JavaScript を使用して設定された Cookie と同じ有効期限を持ちます。この有効期限は変更される可能性があります。
+>Appleの Intelligent Tracking Prevention(ITP) プログラムでは、Adobeが設定したファーストパーティ Cookie が、macOSの Safari とiOSおよび iPadOS のすべてのブラウザーを含む ITP で管理されるブラウザーで短時間有効になります。 2020年11月以降、CNAME を使用して設定された Cookie も、JavaScript を使用して設定された Cookie と同じ有効期限を持ちます。この有効期限は変更される可能性があります。
 
 データ収集用の CNAME を確立する場合で、サイトに HTTPS プロトコルを使用したセキュリティで保護されたページがある場合は、アドビと協力して SSL 証明書を取得できます。
 
