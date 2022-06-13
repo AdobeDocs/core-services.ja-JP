@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 23eee50163d309384378d9621a00d6286ad06b7b
-workflow-type: ht
-source-wordcount: '4676'
-ht-degree: 100%
+source-git-commit: 761a40f8beb1f9bc3ed74c0ae6c89eca2f6479bd
+workflow-type: tm+mt
+source-wordcount: '4750'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +23,16 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 ドキュメントの更新のリストについては、[Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784) を参照してください。
 
 すべてのアプリケーションをカバーするリリースノートについては、[Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)を参照してください。
+
+## 2022 年 7 月
+
+リリース予定日： **2022 年 7 月 12 日**
+
+| 機能 | 説明 |
+| ------- | ------- |
+| 統合ホーム — クイックアクセスウィジェット | **より速く移動：** ホームエクスペリエンスをさらにパーソナライズし、どのアプリケーションが指先で操作できるかを決定できるようになりました。 新しいピン留め機能を使用して、前面と中央に表示するアプリケーションを選択します [!UICONTROL クイックアクセス]. <br>**スマートピン留めの情報を常に入手：** 新しいアプリケーションの検索が容易になりました。 新しく割り当てられたアプリケーションには _新規_ バッジと自動ピン [!UICONTROL クイックアクセス]. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 2022年 - 4月
 
