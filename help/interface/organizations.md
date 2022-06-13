@@ -1,5 +1,5 @@
 ---
-description: 組織の概要と、ソリューションアカウントの Experience Cloud へのリンクについて説明します。
+description: 組織（IMS 組織 ID）と、ソリューションアカウントとExperience Cloudのリンクについて説明します。
 keywords: Adobe Experience Cloud サービス
 solution: Experience Cloud
 title: '組織とアカウントのリンク '
@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
+source-git-commit: 953b5c7c058e2641bc3bcfb66a968146ea617404
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 85%
+source-wordcount: '580'
+ht-degree: 78%
 
 ---
 
@@ -22,7 +22,7 @@ Experience Cloud での組織の管理と切り替えについて説明します
 
 ## 組織を特定する {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
-*組織*&#x200B;は、管理者がグループおよびユーザーの設定や、Experience Cloud でのシングルサインオンの制御を行なえるエンティティです。この組織は、Experience Cloud のすべての製品とアプリケーションにまたがるログイン会社のように機能します。ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。
+An *組織* （IMS 組織 ID）は、管理者がグループおよびユーザーの設定や、Experience Cloudでのシングルサインオンの制御をおこなえるエンティティです。 この組織は、Experience Cloud のすべての製品とアプリケーションにまたがるログイン会社のように機能します。ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。
 
 正しい組織にログインしたことを確認するには、プロファイルのアバターをクリックして組織名を表示します。複数の組織にアクセスできる場合は、ヘッダーバーで別の組織を表示して切り替えることもできます。
 
@@ -32,7 +32,7 @@ Experience Cloud での組織の管理と切り替えについて説明します
 
 ![手順の結果](assets/organization-switch.png)
 
-## 組織 ID を表示する {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
+## IMS 組織 ID を表示する {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
 サポートを受けるために、割り当てられた組織 ID を見つける必要が生じる場合があります。 **[!UICONTROL 組織]** メニューを使用して、自分が正しい組織に属していることを確認したり、組織を切り替えたりできます。
 
@@ -40,7 +40,7 @@ Experience Cloud での組織の管理と切り替えについて説明します
 
 キーボードショートカットを使用して、組織 ID を他のアカウント情報と共に表示できます **Ctrl + i** 任意のページから `https://experience.adobe.com`.
 
-**組織 ID を表示するには、以下を実行します。**
+**IMS 組織 ID を表示するには、以下を実行します。**
 
 1. In [Experience Cloud](https://experience.adobe.com.)を押します。 **Ctrl + i** キーボードで
 
