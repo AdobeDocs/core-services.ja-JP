@@ -1,5 +1,5 @@
 ---
-description: 組織（IMS 組織 ID）と、ソリューションアカウントとExperience Cloudのリンクについて説明します。
+description: 組織（IMS 組織 ID）の概要と、ソリューションアカウントの Experience Cloud へのリンクについて説明します。
 keywords: Adobe Experience Cloud サービス
 solution: Experience Cloud
 title: '組織とアカウントのリンク '
@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 2c0814a22b501a93b4a5f2bb1ba6f13c13fc7e1a
+source-git-commit: c6884ade4a793f1cedbc5d497cb9c8ea798a7408
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 78%
+ht-degree: 80%
 
 ---
 
@@ -42,7 +42,7 @@ An *組織* (Org ID) は、管理者がグループおよびユーザーの設�
 
 **組織 ID を表示するには、以下を実行します。**
 
-1. In [Experience Cloud](https://experience.adobe.com.)を押します。 **Ctrl + i** キーボードで
+1. In [Experience Cloud](https://experience.adobe.com)を押します。 **Ctrl + i** キーボードで
 
    ![割り当てられた組織 ID](assets/assigned-organization.png)
 
