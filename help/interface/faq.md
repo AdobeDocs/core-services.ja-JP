@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 8cb55c6fb6f0acfb8787b0125f7c4a25bcb71e28
+source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '775'
+ht-degree: 94%
 
 ---
 
@@ -47,7 +47,7 @@ Experience Cloud 管理者向けのブラウザーサポート、よくある質
 
 いいえ。Experience Cloud の利用に追加料金はかかりません。ただし、コアサービスによっては追加コストがかかる場合があります。
 
-## Experience Cloud インターフェイスを利用してログインしなければならないのはなぜですか。
+## 会社がExperience Cloudインターフェイスを使用してログインしなければならないのはなぜですか？
 
 Experience Cloud インターフェイスが提供する機能は、ビジネスに新しい価値をもたらします。これは、今後アプリケーションにアクセスするための標準パスでもあり、最終的には他の個々のアプリケーションのログインフローに取って代わります。Experience Cloud を利用してログインすると、今後の移行をよりスムーズにおこなうことができます。
 
@@ -82,11 +82,11 @@ Experience Cloud でのプロビジョニングは、次のことを意味しま
 
 Admin Console 管理者はユーザーにアクセス権を付与できます。ユーザーにはログイン手順が記載された電子メールが送信されます。
 
-会社としてのプロビジョニングが完了していることを確認するために、[アドビサポートへの問い合わせ](https://experienceleague.adobe.com/?support-solution=General#support)が必要になる場合もあります。
+必要に応じて、 [連絡先Adobeサポート](https://experienceleague.adobe.com/?support-solution=General#support) 会社が完全にプロビジョニングされていることを確認するために、
 
 ## アカウントのリンクはどこで管理できますか。
 
-一部のユーザーは、アプリケーション（Analytics）アカウントを Adobe ID または Enterprise ID へリンクする必要が生じる場合があります。
+一部のユーザーは、アプリケーション (Analytics) アカウントをAdobe IDまたはEnterprise IDにリンクする必要が生じる場合があります。
 
 [アプリケーションアカウントを Adobe ID にリンクする](organizations.md#task_FD389E78640848919E247AC5E95B8369)を参照してください。
 

@@ -6,10 +6,10 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 5281aededf07508cb49ecd4f3017ccec3d4851fb
-workflow-type: ht
-source-wordcount: '733'
-ht-degree: 100%
+source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+workflow-type: tm+mt
+source-wordcount: '734'
+ht-degree: 94%
 
 ---
 
@@ -66,7 +66,7 @@ Experience Cloud は、アドビユーザーアカウントの環境設定で設
 
    正しい [組織](organizations.md) にログインしていることを確認するには、プロファイルのアバターをクリックして組織名を表示します。複数の組織にアクセスできる場合は、ヘッダーバーで別の組織を表示して切り替えることもできます。
 
-   組織が Federated ID を使用している場合、Experience Cloud を使用すると、メールアドレスとパスワードを入力しなくても、組織のシングルサインオンでログインできます。 これをおこなうには、Experience Cloud の URL（`https://experience.adobe.com`）に `#/sso:@domain` を追加します。
+   組織が Federated ID を使用している場合、Federated ID を使用すると、電子メールアドレスやパスワードを入力する必要なく、組織のシングルサインオンでExperience Cloudすることができます。 追加 `#/sso:@domain` をExperience CloudURL (`https://experience.adobe.com`) をクリックして、このタスクを実行します。
 
    例えば、Federated ID を持ち、ドメインが `adobecustomer.com` の組織の場合、URL リンクを `https://experience.adobe.com/#/sso:@adobecustomer.com` に設定します。 また、この URL にアプリケーションパスを付けてブックマークに追加することで、特定のアプリケーションに直接移動することもできます。 （例えば、Adobe Analytics の場合は `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。）
 

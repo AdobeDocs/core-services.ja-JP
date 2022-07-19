@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: c6884ade4a793f1cedbc5d497cb9c8ea798a7408
+source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 80%
+source-wordcount: '574'
+ht-degree: 72%
 
 ---
 
@@ -26,7 +26,7 @@ An *組織* (Org ID) は、管理者がグループおよびユーザーの設�
 
 正しい組織にログインしたことを確認するには、プロファイルのアバターをクリックして組織名を表示します。複数の組織にアクセスできる場合は、ヘッダーバーで別の組織を表示して切り替えることもできます。
 
-組織が Federated ID を使用している場合、Experience Cloud を使用すると、メールアドレスとパスワードを入力しなくても、組織のシングルサインオンでログインできます。 これをおこなうには、Experience Cloud の URL（`https://experience.adobe.com`）に `#/sso:@domain` を追加します。
+組織が Federated ID を使用している場合、Federated ID を使用すると、電子メールアドレスやパスワードを入力する必要なく、組織のシングルサインオンでExperience Cloudすることができます。 追加 `#/sso:@domain` をExperience CloudURL (`https://experience.adobe.com`) をクリックして、このタスクを実行します。
 
 例えば、Federated ID を持ち、ドメインが `adobecustomer.com` の組織の場合、URL リンクを `https://experience.adobe.com/#/sso:@adobecustomer.com` に設定します。 また、この URL にアプリケーションパスを付けてブックマークに追加することで、特定のアプリケーションに直接移動することもできます。 （例えば、Adobe Analytics の場合は `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。）
 
@@ -34,7 +34,7 @@ An *組織* (Org ID) は、管理者がグループおよびユーザーの設�
 
 ## 組織 ID を表示する {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
-サポートを受けるために、割り当てられた組織 ID を見つける必要が生じる場合があります。 **[!UICONTROL 組織]** メニューを使用して、自分が正しい組織に属していることを確認したり、組織を切り替えたりできます。
+割り当てられた組織 ID は、サポートのために見つけることができます。 **[!UICONTROL 組織]** メニューを使用して、自分が正しい組織に属していることを確認したり、組織を切り替えたりできます。
 
 組織 ID は、プロビジョニングされている Experience Cloud の会社に関連付けられた ID です。この ID は 24 文字の英数字から成る文字列の後に `@AdobeOrg`（必須）を付けたものです。
 
@@ -60,7 +60,7 @@ An *組織* (Org ID) は、管理者がグループおよびユーザーの設�
 
 ## アプリケーションアカウントを Adobe ID にリンクする {#task_FD389E78640848919E247AC5E95B8369}
 
-通常は、Experience Cloud 管理者がアプリケーションやサービスへのアクセス権を付与します。まれに、アプリケーションの資格情報を Adobe ID にリンクする必要が出ることがあります。
+通常は、Experience Cloud 管理者がアプリケーションやサービスへのアクセス権を付与します。まれに、アプリケーションの資格情報をAdobe IDにリンクすることがあります。
 
 1. Experience Cloud への招待メールに記載されている手順に従います。
 1. Adobe ID または Enterprise ID を使用してログインします。
