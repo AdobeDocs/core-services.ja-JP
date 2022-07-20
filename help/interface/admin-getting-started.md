@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 0175ba36d29dcbcdcfd3e8ff9d359972c19ac448
+source-git-commit: 271d8496ee617f55741cb2e636eecc869e1ec284
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 100%
+source-wordcount: '1896'
+ht-degree: 85%
 
 ---
 
@@ -25,6 +25,52 @@ Admin Console へのログイン、Experience Cloud ユーザー権限と製品�
 
 管理ツールでは、すべての Experience Cloud ユーザーとその詳細に関する、並べ替え可能でフィルタリング可能なリストを確認できます。詳しくは、[管理ツールでの Experience Cloud ユーザーの表示](admin-tool-experience-cloud.md)を参照してください。
 
+## プロビジョニングの更新通知{#provisioning}
+
+更新： **2022 年 7 月 21 日**
+
+>[!IMPORTANT]
+>
+>Experience Cloudのプロビジョニングに関する次の通知を確認してください。
+
+Adobeは、一部のExperience Cloud製品間の相互運用性を支援する基本的な機能に対するすべてのExperience Cloudのお客様のアクセスを提供するために、プロビジョニングを更新しています。 ユーザーには、Adobe Experience PlatformをExperience Cloud組織に新しい権限として追加し、 [!UICONTROL データ収集] を付属のサービスとして使用します。
+
+Adobe Experience Platform [!UICONTROL データ収集] 次を含む [タグ](https://experienceleague.adobe.com/docs/tags.html?lang=en) を使用すると、シンプルな universal tag management を実現し、信頼性の高い、堅牢で完全なストリーミングデータインフラストラクチャを提供します。 タグを使用すると、顧客体験のデータ収集を簡略化し、エクスペリエンス配信を効率化できます。
+
+**Admin Consoleの変更**
+
+管理者は、次のように、Admin Consoleの変更や追加を確認できます。
+
+* Admin ConsoleのAdobe Experience Platform製品カードには、次が含まれます。
+
+   * Places
+   * アシュランス
+   * ID 名前空間
+   * サンドボックス
+   * エクスペリエンスデータモデル
+   * スキーマ
+   * データストリーム
+   * 訪問者 ID
+
+   現在Experience Platformを使用していない組織の場合、 _Adobe Experience Platform_ 上記の機能を含む、Admin Console内の製品。
+
+   現在Experience Platformを使用している組織の場合、 _場所_ は、Experience Platformカードに統合されます。
+
+* Adobe Experience Platformのデータ収集（以前の Launch）およびプライバシーは、他のExperience Platform機能とは別の製品カードとして引き続き表示されます。
+
+新機能の詳細については、各機能のExperience Leagueを参照してください。
+
+* [データ収集](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html)
+* [Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=ja)
+* [アシュランス](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html%3Flang%3Dde)
+* [ID 名前空間](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ja)
+* [サンドボックス](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ja)
+* [エクスペリエンスデータモデル](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)
+* [スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja)
+* [データストリーム](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=en)
+* [訪問者 ID](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html?lang=en#section_3C9F6DF37C654D939625BB4D485E4354)
+* [プライバシー](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja)
+
 ## Experience Cloud ユーザー認証（計画移行）{#migration}
 
 2022年2月よりアドビは、組織が個々のプロファイルに対するビジネス権限をより適切に管理できるように、プロファイル管理システムを更新しています。 したがって、個々の Adobe ID（Type1） に対応する個人プロファイルを持つすべてのユーザーは、新しいビジネスプロファイルに移行されます。このプロファイルは _Business ID_（Type2e）に対応しています。
@@ -35,7 +81,7 @@ Admin Console へのログイン、Experience Cloud ユーザー権限と製品�
 
 移行の時期が来たら、移行の 30 日前に組織の管理者に通知メールが届きます。
 
-* 移行は午後 10 時から午前 6 時（週末または組織の主要タイムゾーンに基づく）の間に予定されています。
+* 移行は午後 10 時までに予定されています。 — 午前 6 時（組織の主要タイムゾーンまたは週末）。
 * 移行中、Experience Cloud アプリケーションは 15 分程度、Admin Console は最大 30 分間アクセスできなくなる可能性があります。そうでない場合、この移行はシームレスに行われます。
 
 ### 移行後の変更
