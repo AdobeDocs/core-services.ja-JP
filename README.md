@@ -1,8 +1,8 @@
 ---
 source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '426'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 # 記事のコントリビューション
@@ -27,7 +27,7 @@ ht-degree: 92%
 
 ### コミュニティメンバーによる大幅な変更または新しい記事
 
-アドビコミュニティのメンバーが新しい記事を作成したり、大幅な変更をコントリビューションしたりする場合は、Git リポジトリーの「Issues」タブを使用してイシューを送信し、ドキュメントチームとのやり取りを開始してください。計画に同意したら、公開リポジトリと非公開リポジトリの作業を組み合わせて新しいコンテンツを取り込むのに役立つよう、従業員と協力できます。
+アドビコミュニティのメンバーが新しい記事を作成したり、大幅な変更をコントリビューションしたりする場合は、Git リポジトリーの「Issues」タブを使用してイシューを送信し、ドキュメントチームとのやり取りを開始してください。計画に同意したら、担当者と協力し、パブリックリポジトリおよびプライベートリポジトリにおける作業を通じて、新しいコンテンツを導入する必要があります。
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
