@@ -1,8 +1,8 @@
 ---
 source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 # コントリビューション
@@ -21,11 +21,11 @@ ht-degree: 87%
 
 ## コントリビューター使用許諾契約
 
-このプロジェクトに対するサードパーティのコントリビューションには、署名済みのコントリビューター使用許諾契約書（CLA）が付随する必要があります。この契約書により、コントリビューションをプロジェクトの一部として再配布する権限がアドビに付与されます。[アドビの CLA に署名](http://opensource.adobe.com/cla.html)してください。AdobeCLA を送信するのは 1 回のみなので、以前に送信したことがある場合は、先へ進むことができます。
+このプロジェクトに対するサードパーティのコントリビューションには、署名済みのコントリビューター使用許諾契約書（CLA）が付随する必要があります。この契約書により、コントリビューションをプロジェクトの一部として再配布する権限がアドビに付与されます。[アドビの CLA に署名](http://opensource.adobe.com/cla.html)してください。Adobe CLA は一度だけ提出すればいいので、既に提出されている場合は署名する必要はありません。
 
 ## コードレビュー
 
-提出はすべて、プル要求の形式でおこなわれ、プロジェクトコミッターのレビューを受ける必要があります。 プルリクエストの送信方法については、[GitHub のプルリクエストに関するドキュメント](https://help.github.com/ja/articles/about-pull-requests/)を参照してください。
+提出はすべてプルリクエストの形で行われ、プロジェクトコミッターのレビューを受ける必要があります。プルリクエストの送信方法については、[GitHub のプルリクエストに関するドキュメント](https://help.github.com/ja/articles/about-pull-requests/)を参照してください。
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
