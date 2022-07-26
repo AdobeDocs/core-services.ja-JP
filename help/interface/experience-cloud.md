@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1275'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Experience Cloud のヘッダーから、次の操作を実行できます。
 
    正しい [組織](organizations.md) にログインしていることを確認するには、プロファイルのアバターをクリックして組織名を表示します。複数の組織にアクセスできる場合は、ヘッダーバーで別の組織を表示して切り替えることもできます。
 
-   組織が Federated ID を使用している場合、Federated ID を使用すると、電子メールアドレスやパスワードを入力する必要なく、組織のシングルサインオンでExperience Cloudすることができます。 追加 `#/sso:@domain` をExperience CloudURL (`https://experience.adobe.com`) をクリックして、このタスクを実行します。
+   組織が Federated ID を使用している場合、Experience Cloud を使用すると、自身のメールアドレスとパスワードを入力しなくても、組織のシングルサインオンでログインできます。`#/sso:@domain` を Experience Cloud URL（`https://experience.adobe.com`）に追加して、このタスクを完成します。
 
    例えば、Federated ID を持ち、ドメインが `adobecustomer.com` の組織の場合、URL リンクを `https://experience.adobe.com/#/sso:@adobecustomer.com` に設定します。 また、この URL にアプリケーションパスを付けてブックマークに追加することで、特定のアプリケーションに直接移動することもできます。 （例えば、Adobe Analytics の場合は `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。）
 
@@ -189,7 +189,7 @@ Experience Cloud は、次のホストを使用してアプリケーションを
 
 * [すべての Experience Cloud アプリケーションの製品ドキュメント](https://experienceleague.adobe.com/docs/home.html?lang=ja) - Experience Cloud のラーニングとサポートでヘルプを参照する
 * [リリースノートと製品アップデート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja) - Experience Cloud の新機能を参照およびサブスクリプションでアップデートを入手する
-* [コアサービスの実装に関するチュートリアル](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en) - コアサービスに関するビデオやチュートリアルを参照する
+* [コアサービスの実装に関するチュートリアル](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=ja) - コアサービスに関するビデオやチュートリアルを参照する
 * [Experience League で提供されるエキスパートヘルプ](https://experienceleague.adobe.com/?lang=ja) - 専門家やコミュニティからガイド付きの指導を受ける
 * [教育とトレーニング](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK) - アドビと連携してアドビ製品を最大限に活用する
 * [エクスペリエンスブログ](https://blog.adobe.com/jp/topics/digital-transformation) - Experience Cloud のブログを読む
