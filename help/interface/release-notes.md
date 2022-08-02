@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: 271d8496ee617f55741cb2e636eecc869e1ec284
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4767'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 
 **管理者向けの更新通知のプロビジョニング**
 
-* 詳しくは、 [プロビジョニングの更新通知](admin-getting-started.md#provisioning) Experience Cloudでのプロビジョニングに関する重要な更新
+* 詳しくは、Experience Cloud でのプロビジョニングに関する重要な更新に向けた[更新通知のプロビジョニング](admin-getting-started.md#provisioning)を参照してください。
 
 リリース予定日：**2022年7月11日（PT）**
 
@@ -724,7 +724,7 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>oEmbed </p> </td> 
+   <td colname="col1"> <p>OEmbed </p> </td> 
    <td colname="col2"> <p> </p> </td> 
   </tr> 
   <tr> 
