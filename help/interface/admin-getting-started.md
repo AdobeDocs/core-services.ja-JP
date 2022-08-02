@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: 271d8496ee617f55741cb2e636eecc869e1ec284
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1896'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -25,26 +25,26 @@ Admin Console へのログイン、Experience Cloud ユーザー権限と製品�
 
 管理ツールでは、すべての Experience Cloud ユーザーとその詳細に関する、並べ替え可能でフィルタリング可能なリストを確認できます。詳しくは、[管理ツールでの Experience Cloud ユーザーの表示](admin-tool-experience-cloud.md)を参照してください。
 
-## プロビジョニングの更新通知{#provisioning}
+## プロビジョニングの更新通知 {#provisioning}
 
-更新： **2022 年 7 月 21 日**
+更新日：**2022 年 7 月 20 日（PT）**
 
 >[!IMPORTANT]
 >
->Experience Cloudのプロビジョニングに関する次の通知を確認してください。
+>Experience Cloud のプロビジョニングに関する次の通知を確認してください。
 
-Adobeは、一部のExperience Cloud製品間の相互運用性を支援する基本的な機能に対するすべてのExperience Cloudのお客様のアクセスを提供するために、プロビジョニングを更新しています。 ユーザーには、Adobe Experience PlatformをExperience Cloud組織に新しい権限として追加し、 [!UICONTROL データ収集] を付属のサービスとして使用します。
+Adobe は、一部の Experience Cloud 製品間の相互運用性を支援する基本的な機能に対するすべての Experience Cloud のお客様のアクセスを提供するために、プロビジョニングを更新しています。 ユーザーには、新しい使用権限として Experience Cloud 組織に Adobe Experience Platform が追加され、[!UICONTROL データ収集]のサービスが付属します。
 
-Adobe Experience Platform [!UICONTROL データ収集] 次を含む [タグ](https://experienceleague.adobe.com/docs/tags.html?lang=en) を使用すると、シンプルな universal tag management を実現し、信頼性の高い、堅牢で完全なストリーミングデータインフラストラクチャを提供します。 タグを使用すると、顧客体験のデータ収集を簡略化し、エクスペリエンス配信を効率化できます。
+Adobe Experience Platform の[!UICONTROL データ収集]には、汎用性のあるタグ管理を簡素化するための[タグ](https://experienceleague.adobe.com/docs/tags.html?lang=ja)が含まれており、信頼性の高い、堅牢で完全なストリーミングデータインフラストラクチャを提供します。 タグを使用すると、顧客体験のデータ収集を簡略化し、エクスペリエンス配信を効率化できます。
 
-**Admin Consoleの変更**
+**Admin Console の変更点**
 
-管理者は、次のように、Admin Consoleの変更や追加を確認できます。
+管理者は、次のように、Admin Console の変更や追加を確認できます。
 
-* Admin ConsoleのAdobe Experience Platform製品カードには、次が含まれます。
+* Admin Console の Adobe Experience Platform 製品カードには、次が含まれます。
 
    * Places
-   * アシュランス
+   * Assurance
    * ID 名前空間
    * サンドボックス
    * エクスペリエンスデータモデル
@@ -52,23 +52,23 @@ Adobe Experience Platform [!UICONTROL データ収集] 次を含む [タグ](htt
    * データストリーム
    * 訪問者 ID
 
-   現在Experience Platformを使用していない組織の場合、 _Adobe Experience Platform_ 上記の機能を含む、Admin Console内の製品。
+   現在 Experience Platform を使用していない組織の場合、上記の機能を含む _Adobe Experience Platform_ 製品が Admin Console に表示されます。
 
-   現在Experience Platformを使用している組織の場合、 _場所_ は、Experience Platformカードに統合されます。
+   現在 Experience Platform を使用している組織の場合、 _Places_ は Experience Platform カードに統合されます。
 
-* Adobe Experience Platformのデータ収集（以前の Launch）およびプライバシーは、他のExperience Platform機能とは別の製品カードとして引き続き表示されます。
+* Adobe Experience Platform のデータ収集（以前の Launch）およびプライバシーは、他の Experience Platform 機能とは別の製品カードとして引き続き表示されます。
 
-新機能の詳細については、各機能のExperience Leagueを参照してください。
+新機能の詳細については、Experience League の各ページを参照してください。
 
-* [データ収集](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html)
+* [データ収集](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=ja)
 * [Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=ja)
-* [アシュランス](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html%3Flang%3Dde)
+* [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html%3Flang%3Dde?lang=ja)
 * [ID 名前空間](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ja)
 * [サンドボックス](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ja)
 * [エクスペリエンスデータモデル](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)
 * [スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja)
-* [データストリーム](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=en)
-* [訪問者 ID](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html?lang=en#section_3C9F6DF37C654D939625BB4D485E4354)
+* [データストリーム](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ja)
+* [訪問者 ID](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html?lang=ja#section_3C9F6DF37C654D939625BB4D485E4354)
 * [プライバシー](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja)
 
 ## Experience Cloud ユーザー認証（計画移行）{#migration}
@@ -81,7 +81,7 @@ Adobe Experience Platform [!UICONTROL データ収集] 次を含む [タグ](htt
 
 移行の時期が来たら、移行の 30 日前に組織の管理者に通知メールが届きます。
 
-* 移行は午後 10 時までに予定されています。 — 午前 6 時（組織の主要タイムゾーンまたは週末）。
+* 移行は午後 10 時から午前 6 時（組織の主要タイムゾーンまたは週末に基づく）の間に予定されています。
 * 移行中、Experience Cloud アプリケーションは 15 分程度、Admin Console は最大 30 分間アクセスできなくなる可能性があります。そうでない場合、この移行はシームレスに行われます。
 
 ### 移行後の変更
@@ -128,7 +128,7 @@ _[!UICONTROL 製品プロファイル]_&#x200B;は、ユーザーに割り当て
 1. 「**[!UICONTROL 新規プロファイル]**」を選択します。
 1. プロファイルの詳細を設定し、「**[!UICONTROL 保存]**」を選択します。
 
-詳細（および Creative Cloud と Document Cloud 製品管理のヘルプ）については、『[管理ユーザーガイド](https://helpx.adobe.com/jp/enterprise/admin-guide.html/jp/enterprise/using/users.ug.html)』の [ID](https://helpx.adobe.com/jp/enterprise/admin-guide.html/jp/enterprise/using/identity.ug.html) を参照してください。
+詳細（および Creative Cloud と Document Cloud 製品管理のヘルプ）については、『[管理ユーザーガイド](https://helpx.adobe.com/jp/enterprise/using/users.html)』の [ID](https://helpx.adobe.com/jp/enterprise/admin-guide.html/jp/enterprise/using/identity.ug.html) を参照してください。
 
 **関連するヘルプ**
 
@@ -196,9 +196,9 @@ Adobe Target では、ワークスペースが製品プロファイルになり�
 
 以下を参照してください。
 
-* [Enterprise ユーザーの権限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en)
-* [製品およびプロファイルの管理](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
-* ビデオ：[Adobe Admin Console で Adobe Target ワークスペースを設定する方法](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=en)
+* [Enterprise ユーザーの権限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=ja)
+* [製品およびプロファイルの管理](https://helpx.adobe.com/jp/enterprise/admin-guide.html/jp/enterprise/using/manage-products.ug.html)
+* ビデオ：[Adobe Admin Console で Adobe Target ワークスペースを設定する方法](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=ja)
 
 ## Campaign 製品プロファイル、テナント、セキュリティグループの管理 {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -240,6 +240,6 @@ Audience Manager ヘルプの[管理](https://experienceleague.adobe.com/docs/au
 
 ### 各ソリューションおよび製品の要件
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=ja)
 * [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=ja)
-* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en)
+* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=ja)
