@@ -3,15 +3,15 @@ description: Experience Cloud 用の中央インターフェイスコンポー�
 solution: Experience Cloud
 title: Experience Cloud インターフェイスのヘルプとドキュメント
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: Customer Attributes
+feature: "Customer Attributes"
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
-workflow-type: ht
-source-wordcount: '1275'
-ht-degree: 100%
+source-git-commit: a0fd3904711305148f768be8afb3e9b3395af472
+workflow-type: tm+mt
+source-wordcount: '1283'
+ht-degree: 99%
 
 ---
 
@@ -145,6 +145,7 @@ Experience Cloud は、次のホストを使用してアプリケーションを
 | Adobe Experience Cloud ドメイン | `adobe.com`、`adobe.net`、`adobe.io` |
 | Adobe Identity Management サービス（IMS） | `adobelogin.com` |
 | Experience Cloud フォント | `typekit.net` |
+| Adobeデータ収集（製品ガイダンスおよびヘルプ用） | `adobedtm.com` |
 | Gainsight（製品ガイダンスおよびヘルプ用） | `esp.aptrinsic.com` |
 
 ## 管理およびクロスアプリケーションサービスに関するお問い合わせ
@@ -189,7 +190,7 @@ Experience Cloud は、次のホストを使用してアプリケーションを
 
 * [すべての Experience Cloud アプリケーションの製品ドキュメント](https://experienceleague.adobe.com/docs/home.html?lang=ja) - Experience Cloud のラーニングとサポートでヘルプを参照する
 * [リリースノートと製品アップデート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja) - Experience Cloud の新機能を参照およびサブスクリプションでアップデートを入手する
-* [コアサービスの実装に関するチュートリアル](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=ja) - コアサービスに関するビデオやチュートリアルを参照する
+* [コアサービスの実装に関するチュートリアル](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en) - コアサービスに関するビデオやチュートリアルを参照する
 * [Experience League で提供されるエキスパートヘルプ](https://experienceleague.adobe.com/?lang=ja) - 専門家やコミュニティからガイド付きの指導を受ける
 * [教育とトレーニング](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK) - アドビと連携してアドビ製品を最大限に活用する
 * [エクスペリエンスブログ](https://blog.adobe.com/jp/topics/digital-transformation) - Experience Cloud のブログを読む
