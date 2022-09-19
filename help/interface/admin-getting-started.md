@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 271d8496ee617f55741cb2e636eecc869e1ec284
+source-git-commit: 7bbb6c4ec77fa73db8640358504504bc7df36465
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1894'
+ht-degree: 99%
 
 ---
 
@@ -62,7 +62,7 @@ Adobe Experience Platform の[!UICONTROL データ収集]には、汎用性の�
 
 * [データ収集](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=ja)
 * [Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=ja)
-* [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html%3Flang%3Dde?lang=ja)
+* [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=ja)
 * [ID 名前空間](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ja)
 * [サンドボックス](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ja)
 * [エクスペリエンスデータモデル](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)
@@ -81,7 +81,7 @@ Adobe Experience Platform の[!UICONTROL データ収集]には、汎用性の�
 
 移行の時期が来たら、移行の 30 日前に組織の管理者に通知メールが届きます。
 
-* 移行は午後 10 時から午前 6 時（組織の主要タイムゾーンまたは週末に基づく）の間に予定されています。
+* 移行は午後 10 時までに予定されています。 — 午前 6 時（組織の主要タイムゾーンまたは週末）。
 * 移行中、Experience Cloud アプリケーションは 15 分程度、Admin Console は最大 30 分間アクセスできなくなる可能性があります。そうでない場合、この移行はシームレスに行われます。
 
 ### 移行後の変更
