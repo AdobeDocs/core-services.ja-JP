@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: a0fd3904711305148f768be8afb3e9b3395af472
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 99%
+source-wordcount: '1285'
+ht-degree: 96%
 
 ---
 
@@ -55,7 +55,7 @@ Experience Cloud のヘッダーから、次の操作を実行できます。
 
 Experience Cloud にログインすると、統合ヘッダーからすべてのアプリケーション、サービスおよび組織にすばやくアクセスできます。
 
-組織内でプロビジョニングされた Experience Cloud のアプリケーションおよびサービスにアクセスするには、アプリケーションセレクター ![](assets/menu-icon.png) に移動します。
+組織内でExperience Cloud用にプロビジョニングされたアプリケーションおよびサービスにアクセスするには、アプリケーションセレクターに移動します ![メニュー](assets/menu-icon.png).
 
 ![Experience Cloud アプリケーションへのアクセス](assets/platform-core-services.png)
 
@@ -114,7 +114,7 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 * ログアウト
 * アカウントの環境設定、通知、サブスクリプションを設定する
 
-環境設定を管理するには、アカウントメニュー ![](assets/preferences-icon-sm.png) から「**[!UICONTROL 環境設定]**」を選択します。
+環境設定を管理するには、「 **[!UICONTROL 環境設定]** アカウントメニューから ![環境設定](assets/preferences-icon-sm.png).
 
 ![ユーザープロファイルとアカウントの環境設定](assets/preferences-page.png)
 
@@ -138,7 +138,7 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 
 ## Experience Cloud ドメイン {#domains}
 
-Experience Cloud は、次のホストを使用してアプリケーションを配信し、パフォーマンスと製品エクスペリエンスを向上させます。アドビは、最適なエクスペリエンスを実現するために、これらのドメインをファイアウォールの許可リストに追加することをお勧めします。Adobe Analytics などの特定の Experience Cloud アプリケーションで、追加のドメインが使用されている場合もあります。詳しくは、それらのアプリケーションのドキュメントを確認してください。
+Experience Cloud は、次のホストを使用してアプリケーションを配信し、パフォーマンスと製品エクスペリエンスを向上させます。Adobeは、最適なエクスペリエンスを得るために、これらのドメインをファイアウォールの許可リストに追加することを推奨します。 Adobe Analytics などの特定の Experience Cloud アプリケーションで、追加のドメインが使用されている場合もあります。詳しくは、それらのアプリケーションのドキュメントを確認してください。
 
 | 技術 | ドメイン |
 |--- |--- |

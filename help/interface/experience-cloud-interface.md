@@ -1,15 +1,15 @@
 ---
-description: 'ログイン方法と、Experience Cloud の中央インターフェイスコンポーネントについて説明します。グローバル検索、アカウント設定、インターフェイスの操作方法およびヘルプの入手方法について説明します。 '
+description: ログイン方法と、Experience Cloud の中央インターフェイスコンポーネントについて説明します。グローバル検索、アカウント設定、インターフェイスの操作方法およびヘルプの入手方法について説明します。
 solution: Experience Cloud
-title: 'Experience Cloud 中央の UI コンポーネント '
-feature: Central Interface Components
+title: Experience Cloud 中央の UI コンポーネント
+feature: "Central Interface Components"
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 94%
+source-wordcount: '736'
+ht-degree: 96%
 
 ---
 
@@ -66,7 +66,7 @@ Experience Cloud は、アドビユーザーアカウントの環境設定で設
 
    正しい [組織](organizations.md) にログインしていることを確認するには、プロファイルのアバターをクリックして組織名を表示します。複数の組織にアクセスできる場合は、ヘッダーバーで別の組織を表示して切り替えることもできます。
 
-   組織が Federated ID を使用している場合、Federated ID を使用すると、電子メールアドレスやパスワードを入力する必要なく、組織のシングルサインオンでExperience Cloudすることができます。 追加 `#/sso:@domain` をExperience CloudURL (`https://experience.adobe.com`) をクリックして、このタスクを実行します。
+   組織が Federated ID を使用している場合、Experience Cloud を使用すると、自身のメールアドレスとパスワードを入力しなくても、組織のシングルサインオンでログインできます。`#/sso:@domain` を Experience Cloud URL（`https://experience.adobe.com`）に追加して、このタスクを完成します。
 
    例えば、Federated ID を持ち、ドメインが `adobecustomer.com` の組織の場合、URL リンクを `https://experience.adobe.com/#/sso:@adobecustomer.com` に設定します。 また、この URL にアプリケーションパスを付けてブックマークに追加することで、特定のアプリケーションに直接移動することもできます。 （例えば、Adobe Analytics の場合は `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。）
 
@@ -74,7 +74,7 @@ Experience Cloud は、アドビユーザーアカウントの環境設定で設
 
 Experience Cloud にログインすると、統合ヘッダーからすべてのアプリケーション、サービスおよび組織にすばやくアクセスできます。
 
-自身が所有している Experience Cloud サービスにアクセスするには、アプリケーションセレクター ![](assets/menu-icon.png) を選択します。
+アプリケーションセレクターを選択 ![メニュー](assets/menu-icon.png) をクリックして、所有するExperience Cloudサービスにアクセスします。
 
 ![Experience Cloud アプリケーションへのアクセス](assets/platform-core-services.png)
 
@@ -104,7 +104,7 @@ Experience Cloud の検索では、[Experience League](https://experienceleague.
 
 Experience Cloud の環境設定には、通知、購読、アラートが含まれます。
 
-アカウントメニュー ![](assets/preferences-icon-sm.png) から「**[!UICONTROL 環境設定]**」を選択して、環境設定を管理します。
+選択 **[!UICONTROL 環境設定]** アカウントメニューから ![環境設定](assets/preferences-icon-sm.png) をクリックして環境設定を管理します。
 
 ![Experience Cloud の管理](assets/preferences-page.png)
 

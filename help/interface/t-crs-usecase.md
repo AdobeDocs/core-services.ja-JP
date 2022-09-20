@@ -2,17 +2,17 @@
 description: 顧客属性ソースを作成して、Adobe Experience Cloud にアップロードする方法を説明します。
 keywords: 顧客属性;コアサービス
 solution: Experience Cloud
-title: '顧客属性ソースの作成とデータファイルのアップロード '
+title: 顧客属性ソースの作成とデータファイルのアップロード
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: ht
-source-wordcount: '1169'
-ht-degree: 100%
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+workflow-type: tm+mt
+source-wordcount: '1171'
+ht-degree: 99%
 
 ---
 
@@ -67,7 +67,7 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
 >
 >顧客属性ソースを作成、変更または削除する場合、ID が新しいデータソースと同期され始めるまで、最大 1 時間の遅延があります。顧客属性ソースを作成または変更するには、Audience Manager の管理者権限が必要です。Audience Manager カスタマーケアまたはコンサルティングに問い合わせて、管理者権限を取得してください。
 
-1. [!DNL Experience Cloud] で、メニュー ![](assets/menu-icon.png) アイコンを選択します。
+1. 内 [!DNL Experience Cloud]、メニューを選択します。  ![メニュー](assets/menu-icon.png) アイコン
 1. **[!DNL Experience Platform]** で、**[!UICONTROL People]**／**[!UICONTROL 顧客属性]**&#x200B;を選択します。
 
    [!UICONTROL 顧客属性]ページでは、既存の属性データソースを管理したり、編集したりできます。
@@ -120,7 +120,7 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
 
       **ファイルのアップロードのグラフ**
 
-      ![](assets/file_upload_attributes.png)
+      ![属性](assets/file_upload_attributes.png)
 
    * **[!UICONTROL 一意の顧客 ID：]**&#x200B;この属性ソースにアップロードした重複を除く一意の ID の数を表示します。
 

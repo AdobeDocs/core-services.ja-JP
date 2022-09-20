@@ -4,17 +4,17 @@ keywords: 統合：Triggers
 seo-description: How to configure Experience Cloud Triggers.
 seo-title: Triggers
 solution: Experience Cloud
-title: 'Triggers の概要 '
+title: Triggers の概要
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '702'
-ht-degree: 100%
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+workflow-type: tm+mt
+source-wordcount: '703'
+ht-degree: 98%
 
 ---
 
@@ -52,7 +52,7 @@ Experience Cloud の[!UICONTROL Triggers]を使用すると、主要な消費者
 >
 >現在、100 トリガーまでという技術的な制限があります。
 
-1. Experience Cloud で ![](assets/menu-icon.png) を選択し、**[!UICONTROL データ収集／Launch]** を選択します。
+1. Experience Cloudで、 ![メニュー](assets/menu-icon.png)を選択し、「 **[!UICONTROL データ収集/起動]**.
 2. [!UICONTROL トリガー] カード上で、「**[!UICONTROL トリガーを管理]**」を選択します。
 3. 「**[!UICONTROL 新しいトリガー]**」を選択して、トリガーのタイプを指定します。
 

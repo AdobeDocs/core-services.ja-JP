@@ -2,17 +2,17 @@
 description: 組織（IMS 組織 ID）の概要と、ソリューションアカウントの Experience Cloud へのリンクについて説明します。
 keywords: Adobe Experience Cloud サービス
 solution: Experience Cloud
-title: '組織とアカウントのリンク '
+title: 組織とアカウントのリンク
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '575'
+ht-degree: 78%
 
 ---
 
@@ -64,7 +64,7 @@ An *組織* (Org ID) は、管理者がグループおよびユーザーの設�
 
 1. Experience Cloud への招待メールに記載されている手順に従います。
 1. Adobe ID または Enterprise ID を使用してログインします。
-1. アプリケーションセレクター（![](assets/menu-icon.png)）を選択します。
+1. アプリケーションセレクターを選択します。 ( ![メニュー](assets/menu-icon.png)).
 
    ![アプリケーションアカウントを Adobe ID にリンクする](assets/solutions-active.png)
 
