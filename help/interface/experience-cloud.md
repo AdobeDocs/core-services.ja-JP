@@ -145,7 +145,7 @@ Experience Cloud は、次のホストを使用してアプリケーションを
 | Adobe Experience Cloud ドメイン | `adobe.com`、`adobe.net`、`adobe.io` |
 | Adobe Identity Management サービス（IMS） | `adobelogin.com` |
 | Experience Cloud フォント | `typekit.net` |
-| Adobeデータ収集（製品ガイダンスおよびヘルプ用） | `adobedtm.com` |
+| アドビデータ収集（製品ガイダンスおよびヘルプ用） | `adobedtm.com` |
 | Gainsight（製品ガイダンスおよびヘルプ用） | `esp.aptrinsic.com` |
 
 ## 管理およびクロスアプリケーションサービスに関するお問い合わせ
