@@ -1,8 +1,7 @@
 ---
 description: Adobe Analytics では Cookie を使用して、イメージリクエストとブラウザーセッション間で保持されない変数およびコンポーネントの情報を提供します。
-keywords: cookie;プライバシー
 solution: Experience Cloud,Analytics
-title: '"ファーストパーティ cookie "'
+title: "ファーストパーティ cookie "
 index: y
 snippet: y
 feature: Cookies
@@ -10,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 91%
+source-wordcount: '1602'
+ht-degree: 85%
 
 ---
 
@@ -21,12 +20,12 @@ ht-degree: 91%
 
 Analytics は、イメージリクエストとブラウザーセッション間で保持されない変数およびコンポーネントの情報を提供するために、cookie を使用します。アドビでは、可能な限りファーストパーティ cookie を使用してサイト上のアクティビティを記録します。所有している他のドメインなど、異なるサイトでのアクティビティを記録するには、サードパーティ cookieが必要です。
 
-多くのブラウザーやスパイウェア駆除アプリケーションは、サードパーティ Cookie を拒否し、削除するように設計されています。アドビは、サードパーティ Cookie がブロックされた場合でも Cookie を常に設定できるようにします。具体的な動作は、Experience Platform ID サービス（ECID サービス）と Analytics の従来の識別子（s_vi Cookie とも呼ばれます）のどちらを使用しているかによって異なります。
+多くのブラウザーやスパイウェア駆除アプリケーションは、サードパーティ Cookie を拒否し、削除するように設計されています。アドビは、サードパーティ Cookie がブロックされた場合でも Cookie を常に設定できるようにします。具体的な動作は、Experience PlatformID サービス（ECID サービス）を使用しているか、Analytics の従来の識別子（s_vi Cookie とも呼ばれます）を使用しているかによって異なります。
 
 * [Experience Platform ID サービス（ECID サービス）](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ja) は、収集ドメインがサイトドメインと一致するかどうかに関係なく、自動的にファーストパーティ Cookie を設定します。一致しない場合、ID サービスは JavaScript を使用してサイトのドメインに Cookie を設定します。
 * [Analytics の従来の識別子](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=ja)（別名 `s_vi` cookie）を使用している場合、データ収集サーバーの設定方法によってどちらを使用するかは異なります。データ収集サーバーがサイトのドメインと一致する場合、Cookie はファーストパーティとして設定されます。収集サーバーが現在のドメインと一致しない場合、Cookie はサードパーティとして設定されます。この場合、サードパーティ Cookie がブロックされていると、Analytics は、標準の「s_vi」Cookie ではなく、ファーストパーティ [フォールバック ID（s_fid）](cookies-analytics.md) を設定します。
 
-収集サーバーがサイトのドメインと一致するようにする場合は、CNAME 実装を使用して、CNAME 実装で指定されたカスタムドメインからアドビの収集サーバーへの転送を有効にできます。この際、会社の DNS 設定を変更し、アドビがホストするドメインを指すよう CNAME エイリアスを設定します。各種のアドビ製品では CNAME の使用をサポートしていますが、どの場合でも、CNAME は、特定の顧客用の信頼できるファーストパーティエンドポイントを作成するために使用され、その顧客に所有されることに注意してください。複数のドメインを制御する場合、1 つの CNAME エンドポイントを使用して複数のドメインをまたいだユーザーを追跡できます。ただし、サイトドメインが CNAME と一致しない場合は、ドメイン Cookie はサードパーティとして設定されます。
+収集サーバーがサイトのドメインと一致するようにするには、CNAME 実装を使用して、CNAME 実装で指定されたカスタムドメインからAdobeの収集サーバーへの転送を有効にします。 この際、会社の DNS 設定を変更し、アドビがホストするドメインを指すよう CNAME エイリアスを設定します。各種のアドビ製品では CNAME の使用をサポートしていますが、どの場合でも、CNAME は、特定の顧客用の信頼できるファーストパーティエンドポイントを作成するために使用され、その顧客に所有されることに注意してください。複数のドメインを制御する場合、1 つの CNAME エンドポイントを使用して複数のドメインをまたいだユーザーを追跡できます。ただし、サイトドメインが CNAME と一致しない場合は、ドメイン Cookie はサードパーティとして設定されます。
 
 >[!NOTE]
 >
@@ -61,7 +60,7 @@ Adobe 管理証明書プログラム を利用すると、新しいファース�
 
 1. CNAME が設定されると、アドビは DigiCert と連携して証明書を購入し、アドビの実稼動サーバーにインストールします。
 
-   既存の実装がある場合、既存の訪問者を維持するために、訪問者の移行を検討する必要があります。証明書がアドビの実稼動環境にプッシュされてライブになると、トラッキングサーバー変数を新しいホスト名に更新できます。つまり、サイトがセキュアでない場合（HTTP）、`s.trackingServer` を更新します。サイトがセキュアな場合（HTTPS）、`s.trackingServer` と `s.trackingServerSecure` の両方の変数を更新します。
+   既存の実装がある場合、既存の訪問者を維持するために、訪問者の移行を検討する必要があります。証明書がAdobeの実稼動環境にプッシュされてライブになったら、トラッキングサーバー変数を新しいホスト名に更新できます。 つまり、サイトがセキュアでない場合（HTTP）、`s.trackingServer` を更新します。サイトがセキュアな場合（HTTPS）、`s.trackingServer` と `s.trackingServerSecure` の両方の変数を更新します。
 
 2. [ホスト名転送の検証](#validate)をおこないます（以下を参照）。
 

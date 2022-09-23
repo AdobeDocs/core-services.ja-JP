@@ -2,11 +2,11 @@
 description: ログイン方法と、Experience Cloud の中央インターフェイスコンポーネントについて説明します。グローバル検索、アカウント設定、インターフェイスの操作方法およびヘルプの入手方法について説明します。
 solution: Experience Cloud
 title: Experience Cloud 中央の UI コンポーネント
-feature: "Central Interface Components"
+feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 96%

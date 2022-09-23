@@ -1,18 +1,17 @@
 ---
-description: 「顧客属性、Audiences、ユーザー管理といった、Experience Cloud サービスの最新の機能、リリースノートおよび既知の問題です。」
-keywords: コアサービス
+description: 顧客属性、オーディエンス、ユーザー管理など、Experience Cloudサービスの最新の機能、リリースノート、既知の問題について説明します。
 solution: Experience Cloud
-title: '累積リリースノート '
+title: 累積リリースノート
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 271d8496ee617f55741cb2e636eecc869e1ec284
-workflow-type: ht
-source-wordcount: '4767'
-ht-degree: 100%
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '4768'
+ht-degree: 99%
 
 ---
 
@@ -126,7 +125,7 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 
 | 機能 | 説明 |
 | -----------| ---------- |
-| 管理ツール - ユーザーの詳細を表示 | 管理者は、新しい管理ツールで、すべての Experience Cloud ユーザーとその詳細に関する、並べ替え可能でフィルタリング可能なリストを表示できます。ユーザーの詳細には、ユーザーの製品アクセス、役割、最終アクセス日が含まれます。詳しくは、[Experience Cloud 管理ツール](admin-tool-experience-cloud.md)のヘルプを参照してください。 |
+| 管理ツール - ユーザーの詳細を表示 | 管理者は、新しい管理ツールで、すべての Experience Cloud ユーザーとその詳細に関する、並べ替え可能でフィルタリング可能なリストを表示できます。ユーザーの詳細には、ユーザーの製品アクセス、ロール、最後にアクセスした情報が含まれます。 詳しくは、[Experience Cloud 管理ツール](admin-tool-experience-cloud.md)のヘルプを参照してください。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -150,7 +149,7 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 
 * アプリスイッチャーを更新して、Experience Cloud アプリケーションスイートに Marketo を追加し、Experience Platform のブランディングを更新しました。（MCUI-6529）
 * Experience Cloud ホームが更新され、フィードおよび管理ページへのリンクが含まれるようになりました。（MCUI-6682）
-* [!UICONTROL トリガー]の定義の問題が修正され、「like」条件を正しく使用できるようになりました。（MCUI-6611）
+* の [!UICONTROL トリガー] 「like」句を正しく使用するための定義。 （MCUI-6611）
 * 顧客属性が改善され、サブスクリプション設定が適切にログに記録されるようになりました。（MCUI-6519）
 
 ## リリース 19.1.1 - 2019年1月17日

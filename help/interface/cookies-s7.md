@@ -1,18 +1,17 @@
 ---
-description: Adobe Scene7 で Cookie を使用して、ブラウザーに Dynamic Media を配信する際に使用できる有用な情報を保存する方法。
-keywords: cookie;プライバシー
+description: Adobe Scene7で cookie を使用して、ブラウザーに Dynamic Media を配信する際に使用できる有用な情報を保存する方法について説明します。
 solution: Experience Cloud,Analytics,Target
-title: 'Scene7 の cookie '
+title: Scene7 の cookie
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
 feature: Cookies
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: ecb8d17f-f752-44ca-8877-44752c28dc70
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '413'
-ht-degree: 100%
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '412'
+ht-degree: 94%
 
 ---
 
