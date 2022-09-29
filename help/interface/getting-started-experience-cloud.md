@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
 source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '970'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 96%
 
 ログインし、自分が適切な[組織](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)に属していることを確認します。
 
-1. Experience Cloudメニュー ( ![環境設定](assets/menu-icon.png)) を選択し、「 **[!UICONTROL 管理]**.
+1. Experience Cloud メニュー（![環境設定](assets/menu-icon.png)）を選択してから、「**[!UICONTROL 管理]**」を選択します。
 
    「**[!UICONTROL 管理]**」リンクが表示されない場合は、表示されている[組織](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)の Experience Cloud 管理者ではないということになります。管理者になる方法がわからない場合は、カスタマーケアまたは社内の Experience Cloud 管理者にお問い合わせください。
 1. 「**[!UICONTROL 管理]**」を選択します。
@@ -59,7 +59,7 @@ Experience Cloud での非管理者ユーザーのログインに関するヘル
 
    Experience Cloud 管理者に問い合わせてアカウントのタイプ（Adobe ID または Enterprise ID）を確認してください。
 
-1. ランディングページで、セレクターアイコンを選択します。  ![メニュー](assets/menu-icon.png) をクリックして、プルダウンメニューにアクセスします。
+1. ランディングページでセレクターアイコン ![メニュー](assets/menu-icon.png) を選択して、プルダウンメニューを開きます。
 
    ![メニュー](assets/experience-cloud-core-services.png)
 
@@ -81,7 +81,7 @@ Experience Cloud での非管理者ユーザーのログインに関するヘル
 
 システムのアップデート、メンテナンス、投稿、メンションおよび共有アセットについての通知を（電子メールまたは製品内で）受け取ります。また、顧客属性のステータスのアップロードなどの通知を受け取りたい製品やアプリケーションを指定することもできます。
 
-「通知」に移動するには、 **[!UICONTROL 通知]** アイコン  ![通知](assets/notifications-icon.png)を選択し、 **[!UICONTROL 設定]** アイコン  ![編集](assets/icon_edit_board.png).
+「通知」に移動するには、**[!UICONTROL 通知]**&#x200B;アイコン ![通知](assets/notifications-icon.png) を選択し、次に&#x200B;**[!UICONTROL 設定]**&#x200B;アイコン ![編集](assets/icon_edit_board.png) を選択します。
 
 メッセージタイプの重要度を基に通知の表示を並べ替えることができます。通知を検索することもできます。また、次のこともできます。
 
