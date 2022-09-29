@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1285'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Experience Cloud のヘッダーから、次の操作を実行できます。
 
 Experience Cloud にログインすると、統合ヘッダーからすべてのアプリケーション、サービスおよび組織にすばやくアクセスできます。
 
-組織内でExperience Cloud用にプロビジョニングされたアプリケーションおよびサービスにアクセスするには、アプリケーションセレクターに移動します ![メニュー](assets/menu-icon.png).
+組織内でプロビジョニングされた Experience Cloud のアプリケーションおよびサービスにアクセスするには、アプリケーションセレクター ![メニュー](assets/menu-icon.png) に移動します。
 
 ![Experience Cloud アプリケーションへのアクセス](assets/platform-core-services.png)
 
@@ -114,7 +114,7 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 * ログアウト
 * アカウントの環境設定、通知、サブスクリプションを設定する
 
-環境設定を管理するには、「 **[!UICONTROL 環境設定]** アカウントメニューから ![環境設定](assets/preferences-icon-sm.png).
+環境設定を管理するには、アカウントメニュー ![環境設定](assets/preferences-icon-sm.png) から「**[!UICONTROL 環境設定]**」を選択します。
 
 ![ユーザープロファイルとアカウントの環境設定](assets/preferences-page.png)
 
@@ -138,7 +138,7 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 
 ## Experience Cloud ドメイン {#domains}
 
-Experience Cloud は、次のホストを使用してアプリケーションを配信し、パフォーマンスと製品エクスペリエンスを向上させます。Adobeは、最適なエクスペリエンスを得るために、これらのドメインをファイアウォールの許可リストに追加することを推奨します。 Adobe Analytics などの特定の Experience Cloud アプリケーションで、追加のドメインが使用されている場合もあります。詳しくは、それらのアプリケーションのドキュメントを確認してください。
+Experience Cloud は、次のホストを使用してアプリケーションを配信し、パフォーマンスと製品エクスペリエンスを向上させます。アドビは、最適なエクスペリエンスを実現するために、これらのドメインをファイアウォールの許可リストに追加することをお勧めします。Adobe Analytics などの特定の Experience Cloud アプリケーションで、追加のドメインが使用されている場合もあります。詳しくは、それらのアプリケーションのドキュメントを確認してください。
 
 | 技術 | ドメイン |
 |--- |--- |
@@ -190,7 +190,7 @@ Experience Cloud は、次のホストを使用してアプリケーションを
 
 * [すべての Experience Cloud アプリケーションの製品ドキュメント](https://experienceleague.adobe.com/docs/home.html?lang=ja) - Experience Cloud のラーニングとサポートでヘルプを参照する
 * [リリースノートと製品アップデート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja) - Experience Cloud の新機能を参照およびサブスクリプションでアップデートを入手する
-* [コアサービスの実装に関するチュートリアル](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en) - コアサービスに関するビデオやチュートリアルを参照する
+* [コアサービスの実装に関するチュートリアル](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=ja) - コアサービスに関するビデオやチュートリアルを参照する
 * [Experience League で提供されるエキスパートヘルプ](https://experienceleague.adobe.com/?lang=ja) - 専門家やコミュニティからガイド付きの指導を受ける
 * [教育とトレーニング](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK) - アドビと連携してアドビ製品を最大限に活用する
 * [エクスペリエンスブログ](https://blog.adobe.com/jp/topics/digital-transformation) - Experience Cloud のブログを読む
