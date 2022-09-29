@@ -11,7 +11,7 @@ exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
 source-wordcount: '1891'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -81,7 +81,7 @@ Adobe Experience Platform の[!UICONTROL データ収集]には、汎用性の�
 
 移行の時期が来たら、移行の 30 日前に組織の管理者に通知メールが届きます。
 
-* 移行は午後 10 時までに予定されています。 — 午前 6 時（組織の主要タイムゾーンまたは週末）。
+* 移行は午後 10 時から午前 6 時（組織の主要タイムゾーンまたは週末に基づく）の間に予定されています。
 * 移行中、Experience Cloud アプリケーションは 15 分程度、Admin Console は最大 30 分間アクセスできなくなる可能性があります。そうでない場合、この移行はシームレスに行われます。
 
 ### 移行後の変更
