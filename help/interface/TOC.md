@@ -2,20 +2,20 @@
 audience: administrator
 user-guide-title: Experience Cloud の主要なインターフェイスコンポーネント
 breadcrumb-title: Experience Cloud の主要なインターフェイスコンポーネント
-title: Experience Cloudインターフェイスおよび管理ガイド
-description: Experience Cloudインターフェイスとユーザーアカウントの環境設定について説明します。 ビジネスオブジェクトの検索方法、およびユーザーと製品の管理方法について説明します。 顧客属性、オーディエンスライブラリ、cookie を設定し、Experience Cloudアセットを共有します。
+title: Experience Cloud インターフェイスと管理ガイド
+description: Experience Cloud インターフェイスとユーザーアカウントの環境設定について説明します。 ビジネスオブジェクトの検索方法、およびユーザーと製品の管理方法について説明します。 顧客属性、オーディエンスライブラリ、Cookie を設定し、Experience Cloud Assets を共有します。
 index: true
 source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
 # Experience Cloud の主要なインターフェイスコンポーネント {#interface}
 
-+ [Experience Cloud の主要なインターフェイスコンポーネント ガイド](experience-cloud.md)
++ [Experience Cloud の主要なインターフェイスコンポーネントガイド](experience-cloud.md)
 + Experience Cloud サービス {#services}
    + [Experience Cloud サービス](core-services-landing.md)
    + [Experience Cloud の統合検索](search-experience-cloud.md)
