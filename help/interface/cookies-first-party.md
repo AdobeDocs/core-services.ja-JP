@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 52796154e260648eb2fc57cc2b45453e9cb3227a
+source-git-commit: f5cead10ecfeefeb560e92881524650e55bd938d
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 79%
+source-wordcount: '1636'
+ht-degree: 78%
 
 ---
 
@@ -58,7 +58,7 @@ Adobe 管理証明書プログラム を利用すると、新しいファース�
    **セキュアの場合** - 例えば、ホスト名 `smetrics.example.com` が `example.com.adobedc.net` を指します。
 
    >[!NOTE]
-   > 以前は、Adobeでは、HTTPS 用と HTTP 用の 2 つの CNAME を設定することをお勧めしていました。 トラフィックの暗号化はベストプラクティスであり、ほとんどのブラウザーでは HTTP を強く推奨しないので、HTTP 用に CNAME を設定することはお勧めしません。 HTTP 用の CNAME の設定については、Adobeカスタマーケアにお問い合わせください。
+   > 以前は、Adobeでは、顧客が HTTPS と HTTP の 2 つの CNAME を設定することをお勧めしていました。 トラフィックの暗号化はベストプラクティスであり、ほとんどのブラウザーでは HTTP を強く推奨しないので、HTTP 用に CNAME を設定することはお勧めしません。 現在は、ベストプラクティスとして、 `trackingServer` および `trackingServerSecure` が同じ CNAME に設定されている。 例えば、 `trackingServer` および `trackingServerSecure` は次のように設定されます。 `smetrics.example.com`. HTTP は、サードパーティのホスト名に対してのみ使用できます。
 
 1. CNAME が設定されると、アドビは DigiCert と連携して証明書を購入し、アドビの実稼動サーバーにインストールします。
 
