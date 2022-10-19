@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: f5cead10ecfeefeb560e92881524650e55bd938d
+source-git-commit: 86e1ed26209244fd9c8c228c812b744e18e4b8fc
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 78%
+source-wordcount: '1622'
+ht-degree: 79%
 
 ---
 
@@ -72,7 +72,8 @@ Adobe 管理証明書プログラム を利用すると、新しいファース�
 
 ファーストパーティ証明書の有効期限が切れる 30 日前に、Adobeは CNAME がまだ有効で使用中かどうかを検証します。 その場合、Adobeは、お客様が引き続きサービスを使用し、お客様に代わって証明書を自動的に更新すると想定しています。
 
-現時点では、CNAME が削除され、有効でなくなった場合、Adobeは証明書を更新せず、システム内のエントリが削除用にマークされます。 CNAME が削除された場合、Adobeは、その URL を使用してトラッキングがおこなわれていないことを認識するので、削除しても安全です。
+>[!NOTE]
+> CNAME が削除されたか、無効になった場合 ( または提供されたAdobeの SSL ホスト名にマッピングされない場合 )、Adobeは証明書を更新できず、システム内のエントリはそれ以上の通信がない限り削除用にマークされます。
 
 ### よくある質問
 
