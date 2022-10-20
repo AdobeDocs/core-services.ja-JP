@@ -1,9 +1,9 @@
 ---
 solution: Experience Cloud
 type: Documentation
-title: 'Adobe Experience Cloud Audiences '
+title: Adobe Experience Cloud Audiences
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-description: ' Experience Cloud Audiences サービスで、訪問者データからオーディエンスのセグメント化への変換を管理する方法を説明します。'
+description: Experience Cloud Audiences サービスで、訪問者データからオーディエンスのセグメント化への変換を管理する方法を説明します。
 feature: Audience Library
 topic: Administration
 role: Admin
@@ -11,8 +11,8 @@ level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '833'
+ht-degree: 100%
 
 ---
 

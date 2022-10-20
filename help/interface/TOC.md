@@ -6,7 +6,7 @@ title: Experience Cloud インターフェイスと管理ガイド
 description: Experience Cloud インターフェイスとユーザーアカウントの環境設定について説明します。 ビジネスオブジェクトの検索方法、およびユーザーと製品の管理方法について説明します。 顧客属性、オーディエンスライブラリ、Cookie を設定し、Experience Cloud Assets を共有します。
 index: true
 source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 100%
 
