@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Experience Cloud のパーソナライズされたラーニング環境設定
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: d4cbde45df379d2e90b401f4ebc097a5d587d389
+source-git-commit: 77dbd73a741396b638958042d8ef7278be044581
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 91%
+source-wordcount: '410'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 91%
 * お客様が気に入る可能性の高い機能
 * その他
 
-[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="200"}
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
 選択内容は、「[ユーザーの環境設定](https://experience.adobe.com/preferences/)」でいつでも更新できます。
@@ -37,8 +37,6 @@ ht-degree: 91%
 <tbody>
   <tr>
     <td colspan="3">アドビ製品の使用状況に基づいて、関連するベストプラクティス、ヒントとコツ、役立つウォークスルーなどを、これら 3 つの方法で受信します。</td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>アドビ製品で...<br></td>
@@ -51,7 +49,7 @@ ht-degree: 91%
   </tr>
   <tr>
     <td>アドビから送信される電子メールで...</td>
-    <td>製品内の作業に関連する学習コンテンツを表示する</td>
+    <td>製品での作業に関連するラーニングコンテンツを参照してください。</td>
   </tr>
   <tr>
     <td>Experience League コミュニティの場合..</td>
@@ -72,8 +70,6 @@ ht-degree: 91%
 <tbody>
   <tr>
     <td colspan="3">これらの 3 つの方法のそれぞれで、お客様の作業に基づいて、個々のイベント、研究セッション、統合に関するカスタマイズされた機会を受け取ります。</td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>アドビ製品で...<br></td>
@@ -97,6 +93,9 @@ ht-degree: 91%
 </table>
 
 
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
+
+
 ## このカスタマイズされたラーニング情報の表示例をご覧ください。
 
 
@@ -111,3 +110,5 @@ ht-degree: 91%
 ### Experience League コミュニティの場合
 
 ![](assets/personalized-learning-communities.png){width="800"}
+
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
