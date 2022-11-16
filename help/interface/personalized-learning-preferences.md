@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Experience Cloud のパーソナライズされたラーニング環境設定
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: 7d115f64105cf24faaa467ab542362663b6e4602
+source-git-commit: 1efadba40356a3bbd87f7150ebe0c417bc2af1c8
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 94%
@@ -20,7 +20,7 @@ ht-degree: 94%
 * お客様が気に入る可能性の高い機能
 * その他
 
-[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
+[![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
 選択内容は、「[ユーザーの環境設定](https://experience.adobe.com/preferences/)」でいつでも更新できます。
@@ -85,8 +85,7 @@ ht-degree: 94%
 </table>
 
 
-[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
-
+[![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
 
@@ -110,4 +109,6 @@ ht-degree: 94%
 
 ![](assets/personalized-learning-communities.png){width="800"}
 
-[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
+
+
+[![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
