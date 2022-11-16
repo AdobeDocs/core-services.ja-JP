@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Experience Cloud のパーソナライズされたラーニング環境設定
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: 77dbd73a741396b638958042d8ef7278be044581
+source-git-commit: 7d115f64105cf24faaa467ab542362663b6e4602
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 95%
+source-wordcount: '390'
+ht-degree: 94%
 
 ---
 
@@ -26,18 +26,15 @@ ht-degree: 95%
 選択内容は、「[ユーザーの環境設定](https://experience.adobe.com/preferences/)」でいつでも更新できます。
 
 
+
+
+
 ## アドビの製品とサービスに関するパーソナライズされたトレーニングとサポートのレコメンデーション
 
+アドビ製品の使用状況に基づいて、関連するベストプラクティス、ヒントとコツ、役立つウォークスルーなどを、これら 3 つの方法で受信します。
+
 <table>
-<thead>
-  <tr>
-    <th colspan="3">アドビの製品とサービスに関するパーソナライズされたトレーニングとサポートのレコメンデーション</th>
-  </tr>
-</thead>
 <tbody>
-  <tr>
-    <td colspan="3">アドビ製品の使用状況に基づいて、関連するベストプラクティス、ヒントとコツ、役立つウォークスルーなどを、これら 3 つの方法で受信します。</td>
-  </tr>
   <tr>
     <td>アドビ製品で...<br></td>
     <td>リアルタイムヘルプについては、ポップアップとツールヒントを参照してください。</td>
@@ -59,18 +56,13 @@ ht-degree: 95%
 </table>
 
 
+
 ## アドビの製品、サービス、イベントおよびプロモーションに関するパーソナライズされた情報
 
+これらの 3 つの方法のそれぞれで、お客様の作業に基づいて、個々のイベント、研究セッション、統合に関するカスタマイズされた機会を受け取ります。
+
 <table>
-<thead>
-  <tr>
-    <th colspan="3">アドビの製品、サービス、イベントおよびプロモーションに関するパーソナライズされた情報</th>
-  </tr>
-</thead>
 <tbody>
-  <tr>
-    <td colspan="3">これらの 3 つの方法のそれぞれで、お客様の作業に基づいて、個々のイベント、研究セッション、統合に関するカスタマイズされた機会を受け取ります。</td>
-  </tr>
   <tr>
     <td>アドビ製品で...<br></td>
     <td>招待状や関連する機会に関するポップアップやツールヒントを参照してください。</td>
@@ -96,6 +88,9 @@ ht-degree: 95%
 [![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
+
+
+
 ## このカスタマイズされたラーニング情報の表示例をご覧ください。
 
 
@@ -103,9 +98,13 @@ ht-degree: 95%
 
 ![](assets/personalized-learning-in-product.gif){width="800"}
 
+
+
 ### アドビから送信される電子メールの内容
 
 ![](assets/personalized-learning-email.png){width="400"}
+
+
 
 ### Experience League コミュニティの場合
 
