@@ -5,9 +5,9 @@ title: Experience Cloud のパーソナライズされたラーニング環境�
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
 source-git-commit: 1efadba40356a3bbd87f7150ebe0c417bc2af1c8
-workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 94%
   </tr>
   <tr>
     <td>Experience League コミュニティの場合..</td>
-    <td>現在の作業に基づいてパーソナライズされた、投稿や記事に対するレコメンデーションを参照してください。</td>
+    <td>現在の作業に応じて、投稿や記事に対するパーソナライズされたレコメンデーションを参照してください。</td>
   </tr>
 </tbody>
 </table>
@@ -59,7 +59,7 @@ ht-degree: 94%
 
 ## アドビの製品、サービス、イベントおよびプロモーションに関するパーソナライズされた情報
 
-これらの 3 つの方法のそれぞれで、お客様の作業に基づいて、個々のイベント、研究セッション、統合に関するカスタマイズされた機会を受け取ります。
+作業に応じてラーニングイベント、研究セッションおよび統合用にカスタマイズされた機会を、これら 3 とおりの方法で受け取ります。
 
 <table>
 <tbody>
