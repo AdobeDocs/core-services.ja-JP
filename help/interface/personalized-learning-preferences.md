@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Experience Cloud のパーソナライズされたラーニング環境設定
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: 1efadba40356a3bbd87f7150ebe0c417bc2af1c8
+source-git-commit: 199643aeaaf422ec9ad637e18a03d25b5782546b
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 92%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 [![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
-選択内容は、「[ユーザーの環境設定](https://experience.adobe.com/preferences/)」でいつでも更新できます。
+選択内容は、Adobe Analytics の「製品データの使用と収集」セクションでいつでも更新できます [ユーザーの環境設定](https://experience.adobe.com/preferences/).
 
 
 
@@ -38,7 +38,7 @@ ht-degree: 100%
   <tr>
     <td>アドビ製品で...<br></td>
     <td>リアルタイムヘルプについては、ポップアップとツールヒントを参照してください。</td>
-    <td rowspan="3">一部を紹介します。 <ul><li>Adobe エキスパートによるステップバイステップガイドと役立つヒント</li> 
+    <td rowspan="3">一部を紹介します。 <ul><li>ステップバイステップガイドとAdobeエキスパートからの役立つヒント</li> 
     <li>ビデオチュートリアルと情報ウォークスルー</li> 
     <li>詳細なトレーニングと教育</li> 
     <li>ビデオおよび投稿のレコメンデーション</li>
