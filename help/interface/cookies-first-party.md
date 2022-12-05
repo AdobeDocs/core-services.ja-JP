@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 86e1ed26209244fd9c8c228c812b744e18e4b8fc
+source-git-commit: 0e4bf07a15c4601b3e6278a57880920710a69a79
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 79%
@@ -55,7 +55,7 @@ Adobe 管理証明書プログラム を利用すると、新しいファース�
 
    チケットを受け取ったら、カスタマーケアの担当者から CNAME レコードが提供されます。これらのレコードは、アドビが代理で証明書を購入する前に、会社の DNS サーバーで設定される必要があります。CNAME は次のようになります。
 
-   **セキュアの場合** - 例えば、ホスト名 `smetrics.example.com` が `example.com.adobedc.net` を指します。
+   **セキュアの場合** - 例えば、ホスト名 `smetrics.example.com` が `[random-10-character-string].data.adobedc.net` を指します。
 
    >[!NOTE]
    > 以前は、Adobeでは、顧客が HTTPS と HTTP の 2 つの CNAME を設定することをお勧めしていました。 トラフィックの暗号化はベストプラクティスであり、ほとんどのブラウザーでは HTTP を強く推奨しないので、HTTP 用に CNAME を設定することはお勧めしません。 現在は、ベストプラクティスとして、 `trackingServer` および `trackingServerSecure` が同じ CNAME に設定されている。 例えば、 `trackingServer` および `trackingServerSecure` は次のように設定されます。 `smetrics.example.com`. HTTP は、サードパーティのホスト名に対してのみ使用できます。
@@ -94,12 +94,12 @@ Adobe 管理証明書プログラム を利用すると、新しいファース�
 FPC スペシャリストから、設定されたホスト名と、ホスト名で指定する必要のある CNAME が提供されます。以下に例を示します。
 
 * **SSL ホスト名**： `smetrics.mysite.com`
-* **SSL CNAME**：`mysite.com.adobedc.net`
+* **SSL CNAME**：`[random-10-character-string].data.adobedc.net`
 
 >[!NOTE]
 > それでも非セキュアを使用する場合は、次のようになります。 
 > * **非 SSL ホスト名**： `metrics.mysite.com`
-> * **非 SSL CNAME**： `mysite.com.adobedc.net`
+> * **非 SSL CNAME**： `[random-10-character-string].data.adobedc.net`
 
 
 実装コードが変更されない限り、この手順がデータ収集に影響を及ぼすことはなく、実装コードの更新後はいつでもおこなうことができます。
