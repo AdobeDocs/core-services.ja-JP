@@ -60,7 +60,7 @@ Experience Cloud アプリケーションでのオーディエンスの使用方
 | ヘルプの内容 | リソース |
 |--- |--- |
 | オーディエンスが見つからない場合 | プロビジョニングが完了していることを確認します。[はじめに - アプリケーションのコアサービスへの対応](core-services.md)を参照してください。<br>[ここ](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES)から Profiles &amp; Audiences へのアクセス権をリクエストします（統合プロビジョニングフォーム）。 |
-| ユースケース | 使用するアプリケーションの選択については、ナレッジベースで[オーディエンス作成オプション](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en)を参照してください。 |
+| ユースケース | 使用するアプリケーションの選択については、ナレッジベースで[オーディエンス作成オプション](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ja)を参照してください。 |
 | フォーラム | [Audiences フォーラム](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community)でも、オーディエンスを活用するうえで役立つリソースを入手できます。 |
 
 {style=&quot;table-layout:auto&quot;}
