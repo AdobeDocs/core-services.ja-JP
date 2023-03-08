@@ -1,6 +1,6 @@
 ---
 description: Adobe Target で Cookie を使用して、どのオンラインコンテンツおよびオファーが訪問者に対してより関連性が高いかを web サイトオペレーターがテストできるようにする方法について説明します。
-solution: Experience Cloud,Analytics,Target,Social
+solution: Experience Cloud,Analytics,Target
 title: Adobe Target の cookie
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 feature: Cookies
@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
-source-git-commit: 65e4b6739568ea06b86744e891d30c3917f02bcc
+source-git-commit: 323a8a6f53e659369df867f19170c199aee3ac40
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '442'
+ht-degree: 89%
 
 ---
 
@@ -32,7 +32,7 @@ cookie の期間を除き、必要に応じてこれらの設定を変更でき�
 | サーバードメイン | `clientcode.tt.omtrdc.net`。[!DNL Adobe Target]アカウントのクライアントコードを使用します。 |
 | cookie の期間 | cookie が訪問者のブラウザーに残る期間は、訪問者が最後にログインしてから 2 年間です。cookie の期間は変更できません。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -47,4 +47,4 @@ cookie には、訪問者が Adobe Target キャンペーンをエクスペリ�
 | check | 訪問者が cookie をサポートするかどうかを判別するために使用される簡単なテスト値。訪問者がページをリクエストするたびに設定されます。 |
 | disable | 訪問者の読み込み時間が at.js ファイルで設定されているタイムアウトを超えた場合に設定されます。デフォルトでは、このタイムアウトは 1 時間続きます。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
