@@ -1,13 +1,13 @@
 ---
 description: Adobe Target で Cookie を使用して、どのオンラインコンテンツおよびオファーが訪問者に対してより関連性が高いかを web サイトオペレーターがテストできるようにする方法について説明します。
-solution: Experience Cloud,Analytics,Target,Social
+solution: Experience Cloud,Analytics,Target
 title: Adobe Target の cookie
 feature: Cookies
 topic: Administration
 role: Administrator
 level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: ea50808d2514ff3c94ffa1bee2d9aa3ddf51f120
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 95%
