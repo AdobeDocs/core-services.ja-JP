@@ -11,8 +11,8 @@ level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -49,7 +49,7 @@ Experience Cloud アプリケーションでのオーディエンスの使用方
 | Campaign | <ul><li>別の Adobe Experience Cloud アプリケーションから Adobe Campaign に共有オーディエンスを読み込む。</li><li>共有オーディエンスの形式で受信者リストを書き出す。これらの共有オーディエンスは、お使いの別の Adobe Experience Cloud アプリケーションで使用できます。</li></ul> |
 | Advertising Cloud | オーディエンスをターゲットとして使用します。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!IMPORTANT]
 >
@@ -63,7 +63,7 @@ Experience Cloud アプリケーションでのオーディエンスの使用方
 | ユースケース | 使用するアプリケーションの選択については、ナレッジベースで[オーディエンス作成オプション](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ja)を参照してください。 |
 | フォーラム | [Audiences フォーラム](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community)でも、オーディエンスを活用するうえで役立つリソースを入手できます。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## オーディエンスライブラリのインターフェイス要素 {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
 
@@ -82,4 +82,4 @@ Experience Cloud アプリケーションでのオーディエンスの使用方
 | 現在のサイズ | 現在のオーディエンスのサイズ。 |
 | アクティブ | セグメントのアクティブステータス。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
