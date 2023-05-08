@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 3ef59cfa7ea4c1a27776153d847b0ba20e8fc6b4
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '735'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ Analytics では、新しい訪問者を匿名で識別する手段、クリッ�
 | 場所 | CNAME のお客様のみ。サードパーティのシナリオには適用されません。Cookie はお使いのドメインに保存され、同じドメインが CNAME および Analytics イメージリクエストで使用されます。 |
 | サイズ | 45 バイト。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## cookie 名：s_cc {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
@@ -54,7 +54,7 @@ Analytics では、新しい訪問者を匿名で識別する手段、クリッ�
 | 場所 | この cookie はページのドメインに保存されます。 |
 | サイズ | 4 バイト。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## cookie 名：s_sq {#section-8abfff3a302d494f81a3cfb91e3b09ff}
 
@@ -66,7 +66,7 @@ Analytics では、新しい訪問者を匿名で識別する手段、クリッ�
 | 場所 | この cookie はページのドメインに保存されます。 |
 | サイズ | ページ URL サイズによって変わりますが、通常は 100 ～ 200 バイトです。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## cookie 名：s_vi {#section-5d50a078de444d12b7d927d68ff3b679}
 
@@ -78,7 +78,7 @@ Analytics では、新しい訪問者を匿名で識別する手段、クリッ�
 | 場所 | この cookie は、イメージリクエストのドメインに保存されます。そのドメインは通常、2o7.net（サードパーティ cookie を使用している場合）または omtrdc.net（ファーストパーティ cookie を使用している場合）の下の顧客固有のサブドメインになります。 |
 | サイズ | 44 バイト。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ Analytics では、新しい訪問者を匿名で識別する手段、クリッ�
 | 場所 | この cookie はファーストパーティ cookie として会社のドメインに保存されます。 |
 | サイズ | 33 バイト。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## cookie のフラグ
 
@@ -108,14 +108,16 @@ Analytics cookie のフラグを次の表に示します。
 | s_cc（JavaScript） | × | × | 未設定 |
 | s_sq（JavaScript） | × | × | 未設定 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
->1 つの CNAME を使用して複数のドメインまたはプロパティにわたって追跡する場合、`s_vi` の SameSite は &quot;None&quot; に設定する必要があります。Analytics cookie の設定の変更については、カスタマーケアにお問い合わせください。
+>1 つの CNAME を使用して複数のドメインまたはプロパティにわたって追跡する場合、`s_vi` の SameSite は &quot;None&quot; に設定する必要があります。Analytics cookie の設定の変更については、カスタマーケアへのお問い合わせ。
 
 ## プラグインで設定される cookie {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
-使用する Analytics プラグインによっては、上記以外の cookie も設定されることがあります。これらの cookie は、様々な状況でクライアントに使用できるコードスニペットです。使用する状況としては、例えば、URL から値を取得する場合、Analytics に渡す値を連結する場合、また、放棄されたセッションの情報を捕捉する場合などが考えられます。各種プラグインで実際に設定される cookie について詳しくは、ClientCare にお問い合わせください。一例として、*Set Once Per* プラグインおよび&#x200B;*Set and Get Last Value* プラグインでは [!DNL s_vh] という cookie が使用されます。
+{{plug-in}}
+
+使用する Analytics プラグインによっては、上記以外の cookie も設定されることがあります。これらの cookie は、様々な状況でクライアントに使用できるコードスニペットです。使用する状況としては、例えば、URL から値を取得する場合、Analytics に渡す値を連結する場合、また、放棄されたセッションの情報を捕捉する場合などが考えられます。一例として、*Set Once Per* プラグインおよび&#x200B;*Set and Get Last Value* プラグインでは [!DNL s_vh] という cookie が使用されます。
 
 電子メール内に配置されるコードなど、JavaScript を使用しないイメージリクエスト時に渡されるコンバージョン変数（eVarX）は、電子メールクライアントと web ブラウザーが cookie 領域を共有している場合にのみ適切に関連付けられます。
