@@ -5,9 +5,9 @@ breadcrumb-title: Experience Cloud の主要なインターフェイスコンポ
 title: Experience Cloud インターフェイスと管理ガイド
 description: Experience Cloud インターフェイスとユーザーアカウントの環境設定について説明します。 ビジネスオブジェクトの検索方法、およびユーザーと製品の管理方法について説明します。 顧客属性、オーディエンスライブラリ、Cookie を設定し、Experience Cloud Assets を共有します。
 index: true
-source-git-commit: 0de9f9d62dcb3e6c32e841de1663704475805315
+source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '365'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
       + [オーディエンスの作成](t-audience-create.md)
       + [Analytics オーディエンスセグメントの公開](t-publish-audience-segment.md)
    + Experience Cloud 顧客属性 {#customer-attributes}
-      + [顧客属性の概要](attributes.md)
+      + [Experience Cloud の顧客属性](attributes.md)
       + [顧客属性に関するよくある質問（FAQ）](faq-crs.md)
       + [顧客属性のデータファイルおよびデータソースについて](crs-data-file.md)
       + [顧客属性ソースの作成とデータファイルのアップロード](t-crs-usecase.md)

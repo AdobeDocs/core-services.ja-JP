@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 0de9f9d62dcb3e6c32e841de1663704475805315
+source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
 workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 100%
+source-wordcount: '1347'
+ht-degree: 97%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 100%
 Experience Cloud のヘッダーから、次の操作を実行できます。
 
 * アプリケーションとサービスへのアクセス
-* 製品ドキュメント、チュートリアル、コミュニティの投稿を検索する
-* グローバル検索を使用したビジネスオブジェクトの検索（Experience Platform ユーザーのみ）
+* [ ヘルプ ] メニューから、製品ドキュメント、チュートリアル、コミュニティへの投稿を検索します。 結果をExperience Leagueで表示
+* 検索フィールドのグローバル検索 (Experience Platformユーザーのみ ) を使用して、ビジネスオブジェクトをグローバルに検索します。
 * アカウント設定（アラート、通知、サブスクリプション）の管理
 
 ## Experience Cloud にサインインする {#signin}
@@ -130,7 +130,7 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 | [!UICONTROL アラート] | ブラウザーにアラートを表示する通知を選択します。アラートは、ウィンドウの右上隅に数秒間表示されます。 |
 | メール | 通知メールの受信頻度を指定します。（送信しない、即時、毎日または毎週） |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 通知とお知らせ {#notifications}
 
@@ -192,7 +192,7 @@ Experience Cloud は、次のホストを使用してアプリケーションを
 
 * [すべての Experience Cloud アプリケーションの製品ドキュメント](https://experienceleague.adobe.com/docs/home.html?lang=ja) - Experience Cloud のラーニングとサポートでヘルプを参照する
 * [リリースノートと製品アップデート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja) - Experience Cloud の新機能を参照およびサブスクリプションでアップデートを入手する
-* [コアサービスの実装に関するチュートリアル](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en) - コアサービスに関するビデオやチュートリアルを参照する
+* [コアサービスの実装に関するチュートリアル](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=ja) - コアサービスに関するビデオやチュートリアルを参照する
 * [Experience League で提供されるエキスパートヘルプ](https://experienceleague.adobe.com/?lang=ja) - 専門家やコミュニティからガイド付きの指導を受ける
 * [教育とトレーニング](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK) - アドビと連携してアドビ製品を最大限に活用する
 * [エクスペリエンスブログ](https://blog.adobe.com/jp/topics/digital-transformation) - Experience Cloud のブログを読む
