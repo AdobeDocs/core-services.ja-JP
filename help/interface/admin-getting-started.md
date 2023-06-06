@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
 workflow-type: tm+mt
-source-wordcount: '1891'
-ht-degree: 100%
+source-wordcount: '1863'
+ht-degree: 98%
 
 ---
 
@@ -128,11 +128,11 @@ _[!UICONTROL 製品プロファイル]_&#x200B;は、ユーザーに割り当て
 1. 「**[!UICONTROL 新規プロファイル]**」を選択します。
 1. プロファイルの詳細を設定し、「**[!UICONTROL 保存]**」を選択します。
 
-詳細（および Creative Cloud と Document Cloud 製品管理のヘルプ）については、『[管理ユーザーガイド](https://helpx.adobe.com/jp/enterprise/using/users.html)』の [ID](https://helpx.adobe.com/jp/enterprise/admin-guide.html/jp/enterprise/using/identity.ug.html) を参照してください。
+詳細（および Creative Cloud と Document Cloud 製品管理のヘルプ）については、『[管理ユーザーガイド](https://helpx.adobe.com/jp/enterprise/using/users.html)』の [ID](https://helpx.adobe.com/jp/enterprise/using/identity.html) を参照してください。
 
 **関連するヘルプ**
 
-* 管理ユーザーガイドの[製品およびプロファイルの管理](https://helpx.adobe.com/jp/enterprise/admin-guide.html/jp/enterprise/using/manage-products.ug.html)。
+* 管理ユーザーガイドの[製品およびプロファイルの管理](https://helpx.adobe.com/jp/enterprise/using/manage-products.html)。
 * Adobe Target ヘルプの [Enterprise ユーザーの権限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=ja)。
 * ビデオ：[Adobe Admin Console で Adobe Target ワークスペースを設定する方法](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=ja)
 
@@ -188,7 +188,7 @@ Analytics 管理者がユーザーアカウントを Analytics User Management �
 **関連するヘルプ**
 
 * [Admin Console での Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ja)
-* [Analytics ユーザー ID の移行](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=ja)
+* [Analytics ユーザー ID の移行](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=en)
 
 ## Adobe Target の管理 - 製品プロファイルとワークスペース {#section_3860AF177C9E4C7E9C390D36A414F353}
 
@@ -197,7 +197,7 @@ Adobe Target では、ワークスペースが製品プロファイルになり�
 以下を参照してください。
 
 * [Enterprise ユーザーの権限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=ja)
-* [製品およびプロファイルの管理](https://helpx.adobe.com/jp/enterprise/admin-guide.html/jp/enterprise/using/manage-products.ug.html)
+* [製品およびプロファイルの管理](https://helpx.adobe.com/jp/enterprise/using/manage-products.html)
 * ビデオ：[Adobe Admin Console で Adobe Target ワークスペースを設定する方法](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=ja)
 
 ## Campaign 製品プロファイル、テナント、セキュリティグループの管理 {#section_09CDF75366444CF5810CF321B7C712F3}
@@ -220,7 +220,7 @@ Admin Console のユーザー権限と Launch 固有のオプションの形式�
 
 Adobe Enterprise の顧客は、Adobe [!UICONTROL Admin Console] では組織として表されます。Adobe Experience Manager のお客様は、Adobe [!UICONTROL Admin Console] を使用して、Adobe Experience Manager as a [!UICONTROL Cloud Service] に対する製品の使用権限や IMS 認証を管理できます。
 
-[Adobe Experience Manager as a Cloud Service の IMS サポート](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=ja)を参照してください。
+[Adobe Experience Manager as a Cloud Service の IMS サポート](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html?lang=ja)を参照してください。
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
@@ -236,10 +236,9 @@ Audience Manager ヘルプの[管理](https://experienceleague.adobe.com/docs/au
 * [!DNL Safari]
 * [!DNL Opera]
 
-**メモ：** Experience Cloud インターフェイスはこれらのブラウザーをサポートしていますが、個々のアプリケーションがすべてのブラウザーに対応しているわけではありません（例えば、[Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=ja) は [!DNL Opera] をサポートしておらず、[Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=ja) は [!DNL Safari] をサポートしていません）。
+**メモ：** Experience Cloud インターフェイスはこれらのブラウザーをサポートしていますが、個々のアプリケーションがすべてのブラウザーに対応しているわけではありません（例えば、[Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=en) は [!DNL Opera] をサポートしておらず、[!DNL Adobe Target] は [!DNL Safari] をサポートしていません）。
 
 ### 各ソリューションおよび製品の要件
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=ja)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=en)
 * [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=ja)
-* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=ja)
