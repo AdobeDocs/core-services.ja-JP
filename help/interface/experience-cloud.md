@@ -10,8 +10,8 @@ level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1347'
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 0%
 Experience Cloud のヘッダーから、次の操作を実行できます。
 
 * アプリケーションとサービスへのアクセス
-* [ ヘルプ ] メニューから、製品ドキュメント、チュートリアル、コミュニティへの投稿を検索します。 結果をExperience Leagueで表示
-* 検索フィールドのグローバル検索 (Experience Platformユーザーのみ ) を使用して、ビジネスオブジェクトをグローバルに検索します。
+* ヘルプメニューから、製品ドキュメント、チュートリアル、コミュニティへの投稿を検索します。Experience League で結果を表示します。
+* 「検索」フィールドのグローバル検索を使用したビジネスオブジェクトの検索（Experience Platform ユーザーのみ）。
 * アカウント設定（アラート、通知、サブスクリプション）の管理
 
 ## Experience Cloud にサインインする {#signin}
