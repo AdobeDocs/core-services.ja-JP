@@ -1,6 +1,6 @@
 ---
 title: 顧客属性
-description: 顧客属性の詳細については、Experience Cloudを参照してください。 Adobe Analytics と Adobe Target で使用する顧客属性データのアップロード方法について説明します。
+description: Experience Cloud の顧客属性について説明します。Adobe Analytics と Adobe Target で使用する顧客属性データのアップロード方法について説明します。
 solution: Experience Cloud,Target,Analytics
 feature: Customer Attributes
 role: Admin
@@ -10,7 +10,7 @@ exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
 source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 95%
 
 * **グループのメンバーシップ：**&#x200B;顧客属性データをアップロードするには、ユーザーは、[顧客属性グループ](admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)のメンバーである必要があります。また、Adobe Analytics グループまたは Adobe Target グループのいずれかに属している必要もあります。
 
-   自社が顧客属性にアクセスできるかどうかを知るには、[!DNL Experience Cloud] 管理者が、[Experience Cloud](https://experience.adobe.com) にログインする必要があります。**[!UICONTROL 管理]**／**[!UICONTROL Admin Console]**／**[!UICONTROL グループ]**&#x200B;に移動します。[!UICONTROL 製品プロファイル]の 1 つとして&#x200B;*顧客属性*&#x200B;がある場合は、すぐに始めることができます。
+  自社が顧客属性にアクセスできるかどうかを知るには、[!DNL Experience Cloud] 管理者が、[Experience Cloud](https://experience.adobe.com) にログインする必要があります。**[!UICONTROL 管理]**／**[!UICONTROL Admin Console]**／**[!UICONTROL グループ]**&#x200B;に移動します。[!UICONTROL 製品プロファイル]の 1 つとして&#x200B;*顧客属性*&#x200B;がある場合は、すぐに始めることができます。
 
-   顧客属性に追加されたユーザーには、Experience Cloud インターフェイスの左側に「[!UICONTROL 顧客属性]」メニュー項目が表示されます。
+  顧客属性に追加されたユーザーには、Experience Cloud インターフェイスの左側に「[!UICONTROL 顧客属性]」メニュー項目が表示されます。
 
 * 顧客属性には、**Adobe Target** `at.js`（任意のバージョン）または `mbox.js` バージョン 58 以降が必要です。
 
-   詳しくは、 [at.js のデプロイ方法](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=en).
+  詳しくは、 [at.js のデプロイ方法](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=ja).
 
 ## 企業顧客データとは  {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
