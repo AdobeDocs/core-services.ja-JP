@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: 3ef59cfa7ea4c1a27776153d847b0ba20e8fc6b4
+source-git-commit: 8f500c7efc0bba2239d81eb9be64916d60d2ea3d
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -60,7 +60,7 @@ Analytics では、新しい訪問者を匿名で識別する手段、クリッ�
 
 | 属性 | 説明 |
 |--- |--- |
-| 保存される情報 | この cookie は、SelectMap 機能や Activity Map 機能が有効になっている場合に JavaScript によって設定され、読み取られます。これには、ユーザーが直前に選択したリンクに関する情報が含まれています。 |
+| 保存される情報 | この cookie は、ClickMap機能またはActivity Map機能が有効になっている場合に JavaScript コードによって設定および読み取られます。この cookie には、ユーザーが以前に選択したリンクに関する情報が含まれます |
 | 有効期限 | この cookie はセッション cookie で、ブラウザーを閉じると有効期限が切れます。 |
 | 用途 | すべてのアカウントに対して 1 つの cookie のみ。 |
 | 場所 | この cookie はページのドメインに保存されます。 |
