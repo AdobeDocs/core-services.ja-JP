@@ -1,26 +1,26 @@
 ---
-description: Adobe Ad Cloud の Cookie を使用して広告エンゲージメントイベントをコンバージョンイベントにマッピングし、場合によっては、その情報を使用して広告の入札を最適化する方法について説明します。
-title: 'Advertising Cloud の cookie  '
+description: Adobe Advertisingエンゲージメントイベントをコンバージョンイベントにマッピングし、場合によっては、その情報を使用して広告の入札を最適化するための広告の cookie について説明します。
+title: Adobe Advertisingの cookie
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 feature: Cookies
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: 854a2b298db4fab3339e2b2ea03701dc6511af8d
-workflow-type: ht
-source-wordcount: '569'
-ht-degree: 100%
+source-git-commit: 5d0e02713ec4b233e06ecd3ac0234d1526b947f1
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 75%
 
 ---
 
-# Advertising Cloud の cookie {#advertising-cloud-cookies}
+# Adobe Advertisingの cookie{#advertising-cloud-cookies}
 
-Advertising Cloud では、広告エンゲージメントイベントをコンバージョンイベントにマッピングしたり、その情報を使用して広告入札を最適化するために、cookie が使用されます。
+Adobe Advertising( 旧称Adobe Advertising Cloud) は、広告エンゲージメントイベントをコンバージョンイベントにマッピングし、場合によってはその情報を使用して広告入札を最適化するために、cookie を使用します。
 
 >[!NOTE]
 >
->[Adobe Experience Cloud ID (ECID) サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ja) を使用するベータ版 Advertising Cloud JavaScript タグは、Advertising Cloud Cookieではなく、 [ファーストパーティ Experience Cloud s_ecid Cookie](cookies-first-party.md) を作成します。
+>ベータAdobe AdvertisingJavaScript タグで、 [Adobe Experience Cloud ID(ECID) サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ja) 作成 [ファーストパーティExperience Clouds_ecid の cookie](cookies-first-party.md)ではなく、Adobe AdvertisingCookie です。
 
 ## cookie 名：_lcc
 
@@ -67,7 +67,7 @@ Advertising Cloud では、広告エンゲージメントイベントをコン�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>保存される情報 </p> </td> 
-   <td colname="col2"> <p>Advertising Cloud DSP トラッキングを使用する広告エンゲージメント用のエンコードされた ID およびタイムスタンプ </p> </td> 
+   <td colname="col2"> <p>Adobe Advertising DSPトラッキングを使用する広告エンゲージメント用のエンコードされた ID およびタイムスタンプ </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>有効期限 </p> </td> 
@@ -104,11 +104,11 @@ Advertising Cloud では、広告エンゲージメントイベントをコン�
   </tr> 
   <tr> 
    <td colname="col1"> <p>有効期限 </p> </td> 
-   <td colname="col2"> <p>2021 年 2 月 24 日（PT）以前に設定された Cookie は、730 日後に期限切れとなります。2021 年 2 月 25 日（PT）以降に設定された Cookie は、364 日後に期限切れとなります。</p> </td> 
+   <td colname="col2"> <p>1 年</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>用途 </p> </td> 
-   <td colname="col2"> <p>サーファー ID を関連するオーディエンスセグメントおよびコンバージョンに関連付けるファーストパーティ cookie </p> <p> 最後の訪問に関する情報を使用して、Adobe サーバーへの不要なリクエストを避けることで、ページ読み込み時間を最適化します。 </p> <p>最後の検索クリックに関する情報は、コンバージョンイベントがクリックまたはビュースルー（インプレッションによるコンバージョンだがクリックされていない）の結果かどうかを判断するのに役立ちます。 </p> </td> 
+   <td colname="col2"> <p>サーファー ID を関連するオーディエンスセグメントおよびコンバージョンに関連付けるファーストパーティ cookie </p> <p> 最後の訪問に関する情報を使用して、 [!DNL Adobe] サーバー。 </p> <p>最後の検索クリックに関する情報は、コンバージョンイベントがクリックまたはビュースルー（インプレッションによるコンバージョンだがクリックされていない）の結果かどうかを判断するのに役立ちます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>場所 </p> </td> 
@@ -121,7 +121,7 @@ Advertising Cloud では、広告エンゲージメントイベントをコン�
  </tbody> 
 </table>
 
-## cookie 名：ev_sync_*
+## cookie 名：ev_sync_&#42;
 
 （ev_sync_ax、ev_sync_bk、ev_sync_dd、ev_sync_fs、ev_sync_ix、ev_sync_nx、ev_sync_ox、ev_sync_pm、ev_sync_rc、ev_sync_tm、ev_sync_yh）
 
@@ -143,7 +143,7 @@ Advertising Cloud では、広告エンゲージメントイベントをコン�
   </tr> 
   <tr> 
    <td colname="col1"> <p>用途 </p> </td> 
-   <td colname="col2"> <p>Advertising Cloud サーファー ID をパートナーのアドエクスチェンジと同期する、サードパーティのアドエクスチェンジ専用 cookie。この cookie は新規サーファーに対して作成され、有効期間が過ぎると同期要求が送信されます。 </p> </td> 
+   <td colname="col2"> <p>Adobe Advertisingサーファー ID をパートナーの広告交換と同期する、サードパーティの広告交換固有の Cookie。 この cookie は新規サーファーに対して作成され、有効期間が過ぎると同期要求が送信されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>場所 </p> </td> 
@@ -172,7 +172,7 @@ Advertising Cloud では、広告エンゲージメントイベントをコン�
   </tr> 
   <tr> 
    <td colname="col1"> <p>有効期限 </p> </td> 
-   <td colname="col2"> <p>2 年。 </p> </td> 
+   <td colname="col2"> <p>1 年 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>用途 </p> </td> 
@@ -234,7 +234,7 @@ Advertising Cloud では、広告エンゲージメントイベントをコン�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>保存される情報 </p> </td> 
-   <td colname="col2"> <p>Advertising Cloud DSP（Demand Side Platform）ID </p> </td> 
+   <td colname="col2"> <p>Adobe Advertising DSP(Demand Side Platform) ID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>有効期限 </p> </td> 
