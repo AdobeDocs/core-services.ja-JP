@@ -6,9 +6,9 @@ title: Experience Cloud インターフェイスと管理ガイド
 description: Experience Cloud インターフェイスとユーザーアカウントの環境設定について説明します。 ビジネスオブジェクトの検索方法、およびユーザーと製品の管理方法について説明します。 顧客属性、オーディエンスライブラリ、Cookie を設定し、Experience Cloud Assets を共有します。
 index: true
 source-git-commit: 850df6ff4e65f339e35f08bd5aacd2f38f79bea0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '365'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 99%
       + [[!UICONTROL Data Connectors] の cookie](cookies-dc.md)
       + [[!UICONTROL Data Workbench] の cookie](cookies-insight.md)
       + [Experience Cloud の cookie](cookies-mc.md)
-      + [Adobe Advertisingcookie](cookies-advertising-cloud.md)
+      + [Adobe Advertising の cookie](cookies-advertising-cloud.md)
       + [[!DNL Scene7] の cookie](cookies-s7.md)
       + [[!DNL Search and Promote] の cookie](cookies-snp.md)
       + [[!DNL Target] の cookie](cookies-target.md)
