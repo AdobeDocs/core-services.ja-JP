@@ -1,15 +1,14 @@
 ---
 description: Experience Cloud 用の中央インターフェイスコンポーネントについて説明します。 このヘルプには、Admin Console でのユーザーと製品の管理、Experience Cloud サービスのアプリケーションの有効化、オーディエンスライブラリ、顧客属性、Experience Cloud アセットなどに関するヘルプが含まれます。
-solution: Experience Cloud
 title: Experience Cloud インターフェイスのヘルプとドキュメント
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: Customer Attributes
+feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
-workflow-type: tm+mt
+source-git-commit: acdf73ddc3bacbf18c069b7fd6afd935a17003a4
+workflow-type: ht
 source-wordcount: '1347'
 ht-degree: 100%
 
@@ -124,7 +123,7 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 |--- |--- |
 | デフォルトの[組織](organizations.md) | Experience Cloud の起動時に表示する組織を選択します。 |
 | [!UICONTROL 製品データ収集] | アドビ製品の使用方法に関するデータを収集するためにアドビが使用できるテクノロジーを選択します。 |
-| [!UICONTROL パーソナライズされたラーニングの推奨とプロモーション] | アドビ製品のパーソナライズされたヘルプを受ける場所を選択します。このヘルプは、メール、製品内および Experience League コミュニティから利用できます。[詳細情報](personalized-learning-preferences.md)。 |
+| [!UICONTROL パーソナライズされたラーニングのレコメンデーションとプロモーション] | アドビ製品のパーソナライズされたヘルプを受ける場所を選択します。このヘルプは、メール、製品内および Experience League コミュニティから利用できます。[詳細情報](personalized-learning-preferences.md)。 |
 | [!UICONTROL サブスクリプション] | 購入する製品とカテゴリを選択します。[!UICONTROL 通知]ポップオーバーとメール内の通知。 |
 | [!UICONTROL 優先度] | 優先度が高いと見なすカテゴリを選択します。これらのカテゴリには「高」タグが付き、アラートんなどの配信用に設定できます。 |
 | [!UICONTROL アラート] | ブラウザーにアラートを表示する通知を選択します。アラートは、ウィンドウの右上隅に数秒間表示されます。 |
