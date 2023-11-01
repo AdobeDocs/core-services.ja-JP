@@ -1,15 +1,15 @@
 ---
 description: Adobe Experience Cloud ユーザーおよび製品の管理、People（Audiences と顧客属性）、Journey Orchestration、オファー、Places、Experience Platform Launch、Mobile Services について説明します。
 solution: Experience Cloud
-title: 'Experience Cloud サービスの概要 '
-feature: Customer Attributes
+title: Experience Cloud サービスの概要
+feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 74d13f4467efeedb1098b627c912f8193d8ebb22
+source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '361'
 ht-degree: 96%
 
 ---
@@ -37,8 +37,8 @@ Experience Cloud のこれらのサービスにアクセスするには、**[!UI
 | [管理](admin-getting-started.md) | Admin Console へのログイン、Experience Cloud ユーザーの権限および製品プロファイルの管理、ブラウザーのサポートについて説明します。 |
 | [Cookie](cookies-privacy.md) | アドビでは、お客様のプライバシーおよびデータセキュリティを最優先の重要事項と認識して、アドビは複数のプライバシー組織に参加し、プライバシー規制当局および自主規制の原則に協力しています。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
->Experience Platform に関する製品ドキュメントは[こちら](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja)を参照してください。の技術ドキュメント [!UICONTROL Experience Platform] 開発者は次の場所にいます： [Adobe開発者](https://developer.adobe.com/apis).
+>Experience Platform に関する製品ドキュメントは[こちら](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja)を参照してください。の技術ドキュメント [!UICONTROL Experience Platform] 開発者は次の場所にいます： [Adobe Developer](https://developer.adobe.com/apis).

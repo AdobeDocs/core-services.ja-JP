@@ -1,17 +1,16 @@
 ---
 description: DNS プリフェッチを実装して、Experience Cloud の様々なアプリケーションやサービスでページの読み込み時間を短縮する方法について説明します。
 solution: Experience Cloud
-title: '様々なアプリケーションおよびサービスによる DNS 事前読み込みの使用 '
+title: 様々なアプリケーションおよびサービスによる DNS 事前読み込みの使用
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
+source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -25,7 +24,7 @@ DNS プリフェッチを実装すると、様々なアプリケーションや�
 
 ## DNS プリフェッチと Adobe Experience Cloud アプリケーション {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
-DNS プリフェッチは、ページ上に埋め込まれた静的リンクに対して自動的に機能します。これは、以下の理由から、自動 DNS プリフェッチが様々な [!UICONTROL Experience Cloud] アプリケーションおよびサービスで機能しないことも意味します。
+DNS プリフェッチは、ページ上に埋め込まれた静的リンクに対して自動的に機能します。これは、自動 DNS プリフェッチが [!UICONTROL Experience Cloud] アプリケーションとサービスの理由：
 
 * 各 Experience Cloud アプリケーションまたはサービスは、ページ読み込み時に DNS 呼び出しを動的に生成します。
 * これらの呼び出しが行われる前に、ブラウザーはドメイン名を IP アドレスに解決することはできません。
@@ -38,7 +37,7 @@ DNS プリフェッチは、ページ上に埋め込まれた静的リンクに�
 
 * **Analytics：** `<link rel="dns-prefetch" href="//insert tracking server name here">`。
 
-   非セキュアなトラッキングサーバーとセキュアなトラッキングサーバーを使用する場合は、DNS 名ごとに個別のタグを追加します。
+  非セキュアなトラッキングサーバーとセキュアなトラッキングサーバーを使用する場合は、DNS 名ごとに個別のタグを追加します。
 
 * **Audience Manager：** `<link rel="dns-prefetch" href="//dpm.demdex.net">`。
 
@@ -56,4 +55,3 @@ DNS プリフェッチは、ページ上に埋め込まれた静的リンクに�
 >[!MORELIKETHIS]
 >
 >* [DNS プリフェッチ](https://www.chromium.org/developers/design-documents/dns-prefetching)
-

@@ -3,12 +3,12 @@ description: クロスアプリケーションサービス用 Adobe Analytics �
 solution: Experience Cloud
 title: クロスアプリケーションサービスに対してアプリケーションを有効化
 index: true
-feature: Customer Attributes
+feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
+source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
 workflow-type: tm+mt
 source-wordcount: '2371'
 ht-degree: 95%
@@ -116,7 +116,7 @@ Adobe Target では、 `mbox3rdpartyid` は顧客 ID を取得して、それを
 
 この顧客 ID を、顧客 ID が認識される個々の [!DNL Analytics] サーバー呼び出しに対して設定する必要があります。
 
-#### 分析：顧客 ID とData Warehouseのバックフィルメソッドの同期
+#### Analytics：顧客 ID とData Warehouseのバックフィル方式の同期
 
 Experience Cloud属性が初めて使用可能になったときに、顧客 ID サービスをまだ実装しておらず、顧客属性を簡単に利用できない場合がありました。 この問題を軽減するために、Adobeは、Adobe AnalyticsData Warehouseを使用して ID 同期のバックフィルをおこなう手段を作成しました。 この機能は、Data Warehouseバックフィルと呼ばれます。 Data Warehouseのバックフィルは、一般に必要なくなったので、2022 年 10 月以降は使用できなくなります。
 
@@ -151,9 +151,9 @@ Analytics を使用している場合は、地域データ収集（RDC）を使�
 * [!UICONTROL Experience Platform Launch] を使用しない場合は、手動で [mbox ライブラリを更新](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=ja) します。
 * [!DNL Adobe Target] のレポートソースとして Adobe Analytics を使用するためのアクセスをリクエストします。[!DNL Target] と [!DNL Analytics] のデータは、処理中に同じサーバー呼び出しで結合されるため、訪問者は 2 つのアプリケーション間で接続されます。[Analytics for Target の実装](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja)を参照してください。
 
-   >[!IMPORTANT]
-   >
-   >すべての Analytics ユーザーは、顧客属性などコアサービスのために既にプロビジョニングされています。Analytics ユーザーになっていないユーザーがいる場合は、そのユーザーのプロビジョニングをカスタマーケアに依頼します。
+  >[!IMPORTANT]
+  >
+  >すべての Analytics ユーザーは、顧客属性などコアサービスのために既にプロビジョニングされています。Analytics ユーザーになっていないユーザーがいる場合は、そのユーザーのプロビジョニングをカスタマーケアに依頼します。
 
 ## 実装の検証 {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
