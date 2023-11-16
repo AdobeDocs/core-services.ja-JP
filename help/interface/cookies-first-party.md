@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 0e4bf07a15c4601b3e6278a57880920710a69a79
+source-git-commit: 92d03444472fc7dddbe955d386452291ed1ca2d8
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1616'
 ht-degree: 79%
 
 ---
@@ -73,7 +73,7 @@ Adobe 管理証明書プログラム を利用すると、新しいファース�
 ファーストパーティ証明書の有効期限が切れる 30 日前に、Adobeは CNAME がまだ有効で使用中かどうかを検証します。 その場合、Adobeは、お客様が引き続きサービスを使用し、お客様に代わって証明書を自動的に更新すると想定しています。
 
 >[!NOTE]
-> CNAME が削除されたか、無効になった場合 ( または提供されたAdobeの SSL ホスト名にマッピングされない場合 )、Adobeは証明書を更新できず、システム内のエントリはそれ以上の通信がない限り削除用にマークされます。
+> CNAME が削除されたか、無効になった場合 ( または提供されたAdobeの SSL ホスト名にマッピングされない場合 ) は、Adobeは証明書を更新できず、システム内のエントリはそれ以上の通信がない限り削除用にマークされます。
 
 ### よくある質問
 
@@ -85,7 +85,7 @@ Adobe 管理証明書プログラム を利用すると、新しいファース�
 | **この証明書は SHA-2 暗号化を使用しますか？** | はい、Adobeは DigiCert と連携して SHA-2 証明書を発行します。 |
 | **追加費用が発生しますか？** | いいえ、アドビは、このサービスを Adobe Digital Experience の現在のすべてのお客様に追加費用なしで提供しています。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## CNAME レコードの作成
 
@@ -93,14 +93,14 @@ Adobe 管理証明書プログラム を利用すると、新しいファース�
 
 FPC スペシャリストから、設定されたホスト名と、ホスト名で指定する必要のある CNAME が提供されます。以下に例を示します。
 
-* **SSL ホスト名**： `smetrics.mysite.com`
+* **SSL ホスト名**： `smetrics.example.com`
 * **SSL CNAME**：`[random-10-character-string].data.adobedc.net`
 
 >[!NOTE]
 > それでも非セキュアを使用する場合は、次のようになります。 
-> * **非 SSL ホスト名**： `metrics.mysite.com`
+>
+> * **非 SSL ホスト名**： `metrics.example.com`
 > * **非 SSL CNAME**： `[random-10-character-string].data.adobedc.net`
-
 
 実装コードが変更されない限り、この手順がデータ収集に影響を及ぼすことはなく、実装コードの更新後はいつでもおこなうことができます。
 
@@ -159,7 +159,12 @@ Address: 54.187.216.46
 ホスト名がアドビのデータ収集サーバーに応答し、転送することを確認したら、実装を変更して独自のデータ収集ホスト名を指定できます。
 
 1. コア JavaScript ファイル（`s_code.js/AppMeasurement.js`）を開きます。
-1. コードバージョンを更新する場合は、`s_code.js/AppMeasurement.js` ファイル全体を新しいバージョンに置き換え、すべてのプラグインやカスタマイズ（作成した場合）を置き換えます。**または**、ファーストパーティデータ収集のみに関連するコードを更新するには、s.trackingServer および s.trackingServerSecure 変数（SSL 使用時）を探し、新しいデータ収集ホスト名を指定します。mysite.com を使用すると、`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"` のようになります。
+1. コードバージョンを更新する場合は、`s_code.js/AppMeasurement.js` ファイル全体を新しいバージョンに置き換え、すべてのプラグインやカスタマイズ（作成した場合）を置き換えます。**または**、ファーストパーティデータ収集のみに関連するコードを更新するには、s.trackingServer および s.trackingServerSecure 変数（SSL 使用時）を探し、新しいデータ収集ホスト名を指定します。以下に例を示します。
+
+   ```js
+   s.trackingServer = "metrics.example.com";
+   s.trackingServerSecure = "smetrics.example.com";
+   ```
 
 1. 更新したコア JavaScript ファイルをサイトにアップロードします。
 
@@ -167,4 +172,4 @@ Address: 54.187.216.46
 
 詳しくは、Analytics 導入ガイドの [訪問者の移行](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-migration.html?lang=ja) を参照してください。
 
-コア JavaScript ファイルをアップロードすると、ファーストパーティ によるデータ収集用の設定がすべておこなわれます。アドビは、アップロード後の数時間は Analytics レポートを監視し、通常どおりデータ収集がおこなわれているかを確認することをお勧めします。通常どおりおこなわれていない場合、上記のすべての手順が完了していることを確認し、組織のサポート対象ユーザーの中からカスタマーケアにお問い合わせください。
+コア JavaScript ファイルをアップロードすると、ファーストパーティ によるデータ収集用の設定がすべておこなわれます。アドビは、アップロード後の数時間は Analytics レポートを監視し、通常どおりデータ収集がおこなわれているかを確認することをお勧めします。通常どおりおこなわれていない場合、上記のすべての手順が完了していることを確認し、組織のサポート対象ユーザーの中からカスタマーケアへのお問い合わせ。
