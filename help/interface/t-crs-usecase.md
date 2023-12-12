@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 98%
+source-wordcount: '1125'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 98%
 1. [データファイルの作成](t-crs-usecase.md#task_B5FB8C0649374C7A94C45DCF2878EA1A)
 1. [属性ソースの作成とデータファイルのアップロード](t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
 1. [スキーマの検証](t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
-1. [サブスクリプションの設定属性ソースをアクティブ化します。](t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
+1. [購読の設定と属性ソースの有効化](t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
 
 データソースがアクティブになると、以下のことが可能になります。
 
@@ -66,7 +66,7 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
 >
 >顧客属性ソースを作成、変更または削除する場合、ID が新しいデータソースと同期され始めるまで、最大 1 時間の遅延があります。顧客属性ソースを作成または変更するには、Audience Manager の管理者権限が必要です。Audience Manager カスタマーケアまたはコンサルティングに問い合わせて、管理者権限を取得してください。
 
-1. 内 [!DNL Experience Cloud]、メニューを選択します。  ![メニュー](assets/menu-icon.png) アイコン
+1. Adobe Analytics の [!DNL Experience Cloud]、メニューを選択します。  ![メニュー](assets/menu-icon.png) アイコン。
 1. **[!DNL Experience Platform]** で、**[!UICONTROL People]**／**[!UICONTROL 顧客属性]**&#x200B;を選択します。
 
    [!UICONTROL 顧客属性]ページでは、既存の属性データソースを管理したり、編集したりできます。
@@ -81,52 +81,52 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
 
    * **[!UICONTROL 説明：]**（オプション）データ属性ソースの説明。
 
-   * **[!UICONTROL エイリアス ID：]**&#x200B;特定の CRM システムなど、顧客属性データのソースを表します。[!UICONTROL エイリアス ID] は、顧客属性ソースのコードで使用される一意の ID です。ID は一意で、スペースを含まないアルファベットおよびアンダースコアの組み合わせにしてください。Experience Cloud で顧客属性ソースの [!UICONTROL エイリアス ID] フィールドに入力する値は、実装から（データ収集（Launch）、Dynamic Tag Management または Mobile SDK の JavaScript を使用して）渡されている値と一致させる必要があります。
+   * **[!UICONTROL エイリアス ID：]**&#x200B;特定の CRM システムなど、顧客属性データのソースを表します。[!UICONTROL エイリアス ID] は、顧客属性ソースのコードで使用される一意の ID です。ID は一意で、スペースを含まないアルファベットおよびアンダースコアの組み合わせにしてください。次に入力された値： [!UICONTROL エイリアス ID] Experience Cloudの顧客属性ソースのフィールドは、（Platform データ収集または Mobile SDK の JavaScript を使用して）実装から渡される値と一致する必要があります。
 
-      エイリアス ID は、追加の顧客 ID 値を設定する方法に対応しています。以下に例を示します。
+     エイリアス ID は、追加の顧客 ID 値を設定する方法に対応しています。以下に例を示します。
 
       * **Dynamic Tag Management：**&#x200B;エイリアス ID は、[Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)ツールの「[!UICONTROL 顧客設定]」の「*統合コード*」の値に対応しています。
 
       * **訪問者 API：**&#x200B;エイリアス ID は、各訪問者と関連付けることができる追加の[顧客 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja) に対応しています。
 
-         例：*crm_id* の場合：
+        例：*crm_id* の場合：
 
-         ```
-         "crm_id":"67312378756723456"
-         ```
+        ```
+        "crm_id":"67312378756723456"
+        ```
 
       * **iOS：** エイリアス ID は [visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=ja) の *&quot;idType&quot;* に対応しています。
 
-         以下に例を示します。
+        以下に例を示します。
 
-         `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
+        `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
       * **Android™：**&#x200B;エイリアス ID は [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=ja) の *&quot;idType&quot;*&#x200B;に対応しています。
 
-         以下に例を示します。
+        以下に例を示します。
 
-         `identifiers.put(`**`"idType"`**`, "idValue");`
+        `identifiers.put(`**`"idType"`**`, "idValue");`
 
-         エイリアス ID フィールドおよび顧客 ID に関するデータ処理の詳しい情報については、[複数のデータソースの活用](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)を参照してください。
+        エイリアス ID フィールドおよび顧客 ID に関するデータ処理の詳しい情報については、[複数のデータソースの活用](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)を参照してください。
+
    * **[!UICONTROL ファイルのアップロード：]** `.csv` データファイルをドラッグ＆ドロップしたり、FTP を使用してデータをアップロードできます（FTP を使用するには、`.fin` ファイルも必要です）。[FTP を使用したデータのアップロード](t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)を参照してください。
 
-      >[!IMPORTANT]
-      >
-      >特定のデータファイル要件が存在します。詳しくは、[データファイル要件](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)を参照してください。
+     >[!IMPORTANT]
+     >
+     >特定のデータファイル要件が存在します。詳しくは、[データファイル要件](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)を参照してください。
 
 
-      ファイルをアップロードすると、このページの「[!UICONTROL ファイルのアップロード]」見出しの下に、表データが表示されます。スキーマを検証したり、購読を設定したり、FTP を設定したりできます。
+     ファイルをアップロードすると、このページの「[!UICONTROL ファイルのアップロード]」見出しの下に、表データが表示されます。スキーマを検証したり、購読を設定したり、FTP を設定したりできます。
 
-      **ファイルのアップロードのグラフ**
+     **ファイルのアップロードのグラフ**
 
-      ![属性](assets/file_upload_attributes.png)
+     ![属性](assets/file_upload_attributes.png)
 
    * **[!UICONTROL 一意の顧客 ID：]**&#x200B;この属性ソースにアップロードした重複を除く一意の ID の数を表示します。
 
    * **[!UICONTROL Experience Cloud 訪問者 ID にエイリアスされた顧客提供 ID：]** Experience Cloud 訪問者 ID にエイリアスされた ID の数を表示します。
 
    * **[!UICONTROL エイリアス数の多い顧客提供 ID：]**&#x200B;エイリアスされた Experience Cloud 訪問者 ID が 500 以上ある、顧客提供 ID の数を表示します。このような顧客提供 ID は、個人ではなくある種の共有ログインを表している可能性が最も高くなります。これらの ID に関連付けられた属性は、エイリアス数が 10,000 に達するまで、直近にエイリアスされた 500 個の Experience Cloud 訪問者 ID に振り分けられます。次に、システムは顧客から提供された ID を無効にし、関連付けられた付けられた属性を配布しなくなります。
-
 
 ## スキーマの検証 {#task_404AAC411B0D4E129AB3AC8B7BE85859}
 
@@ -157,7 +157,7 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
 
 ## Adobe Analytics での顧客属性の使用 {#task_7EB0680540CE4B65911B2C779210915D}
 
-Adobe Analytics などのアプリケーションで利用できるデータを使用して、データをレポートおよび分析し、マーケティングキャンペーンで適切な対応を取ることができます。
+Adobe Analytics などのアプリケーションで利用できるデータを使用して、データをレポートおよび分析し、マーケティングキャンペーンで適切なアクションを起こすことができます。
 
 以下の例は、アップロードした属性に基づいた [!DNL Analytics] セグメントを示しています。このセグメントは、最も頻繁に起動する製品が Photoshop である [!DNL Photoshop Lightroom] の購読者を示しています。
 

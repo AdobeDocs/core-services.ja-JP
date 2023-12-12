@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
-workflow-type: ht
-source-wordcount: '1863'
-ht-degree: 100%
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+workflow-type: tm+mt
+source-wordcount: '1634'
+ht-degree: 96%
 
 ---
 
@@ -52,9 +52,9 @@ Adobe Experience Platform の[!UICONTROL データ収集]には、汎用性の�
    * データストリーム
    * 訪問者 ID
 
-   現在 Experience Platform を使用していない組織の場合、上記の機能を含む _Adobe Experience Platform_ 製品が Admin Console に表示されます。
+  現在 Experience Platform を使用していない組織の場合、上記の機能を含む _Adobe Experience Platform_ 製品が Admin Console に表示されます。
 
-   現在 Experience Platform を使用している組織の場合、 _Places_ は Experience Platform カードに統合されます。
+  現在 Experience Platform を使用している組織の場合、 _Places_ は Experience Platform カードに統合されます。
 
 * Adobe Experience Platform のデータ収集（以前の Launch）およびプライバシーは、他の Experience Platform 機能とは別の製品カードとして引き続き表示されます。
 
@@ -92,13 +92,13 @@ Admin Console
 * 個々の Adobe ID ユーザーは、Business ID に更新されます。
 * Business ID ディレクトリは、**[!UICONTROL 設定]**／**[!UICONTROL ID]**／**[!UICONTROL ディレクトリ]**&#x200B;に追加されます。
 
-   ![Admin Console ID — Business ID](assets/identity-home.png)
+  ![Admin Console ID — Business ID](assets/identity-home.png)
 
 ### 移行後のログイン
 
 この更新では、ログインのエクスペリエンスは変更されません。
 
-1. 同じ認証情報を使用した `experience.adobe.com` へのログイン
+1. 同じ資格情報を使用した `experience.adobe.com` へのログイン
 
 1. Business ID に関連付けられた新しいプロファイルが作成されます。 「**[!UICONTROL 参加する]**」または「**[!UICONTROL スキップ]**」するよう求められます。
 
@@ -208,13 +208,13 @@ Campaign の&#x200B;*テナント*&#x200B;は、Admin Console の製品ページ
 
 セキュリティグループとセキュリティグループへのユーザーの割り当てについては、[グループとユーザーの管理](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/managing-groups-and-users.html?lang=ja)を参照してください。
 
-## Experience Platform データ収集（Launch）の管理 {#section_F2DA6778DD2D48AA8F794041971EE6B1}
+## Experience Platformデータ収集の管理 {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Experience Platform [!UICONTROL データ収集]（[!UICONTROL Launch]）は、[!UICONTROL Admin Console] の[!UICONTROL 製品]ページに表示されます。Launch 製品プロファイルには、他のアプリケーションやサービスを含めることができます。
+Experience Platform [!UICONTROL データ収集] 次に表示： [!UICONTROL 製品] ページの [!UICONTROL Admin Console]. データ収集製品プロファイルには、他のアプリケーションやサービスを含めることができます。
 
-[!UICONTROL Platform Launch] にユーザーを招待し、ユーザーの役割と権限を割り当てます。
+ユーザーの招待先 [!UICONTROL Platform のデータ収集] ユーザーの役割と権限を割り当てます。
 
-Admin Console のユーザー権限と Launch 固有のオプションの形式について設定（プロファイルへの権限の割り当てなど）については、[ユーザー権限](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ja)を参照してください。
+詳しくは、 [ユーザー権限](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ja) 」を参照してください。
 
 ## Adobe Experience Manager as a Cloud Service
 

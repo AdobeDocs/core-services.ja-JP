@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: ht
-source-wordcount: '765'
-ht-degree: 100%
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+workflow-type: tm+mt
+source-wordcount: '727'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ Experience Cloud 管理者向けのブラウザーサポート、よくある質
 実装がコアサービス用にプロビジョニングされていない場合は、その方法について説明した[アプリケーションをコアサービス用に有効化する](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)を参照してください。
 
 1. [Experience Cloud に加入して管理者になる](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [Experience Platform Launch を利用して Experience Cloud ID サービスを実装する](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=ja)。
+1. [Experience Cloudタグを使用したExperience PlatformID サービスの実装](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=ja).
 1. [レポートスイートを Experience Cloud 組織にマッピングする](core-services.md#concept_apg_zq2_rw)
 1. [（Analytics のみ）Analytics AppMeasurement コードを最新化する](core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [（Adobe Target のみ）Adobe Target の実装を最新化する](core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
@@ -56,7 +56,7 @@ Experience Cloud インターフェイスが提供する機能は、ビジネス
 
 ## [!DNL Adobe Support] はどのようにして、アドビクラウド環境にアクセスして問題のトラブルシューティングを行いますか？
 
- [!DNL Adobe Support] からなりすましリクエストを送信し、明示的な認証を求めるアドビブランドのメール（以下の例）が届く場合があります。アクセス権は、限られた期間に対して付与されます。付与したアクセス権は、いつでも取り消すことができます。アドビは、アドビ担当者が実行したすべてのアクションを記録します。
+[!DNL Adobe Support] からなりすましリクエストを送信し、明示的な認証を求めるアドビブランドのメール（以下の例）が届く場合があります。アクセス権は、限られた期間に対して付与されます。付与したアクセス権は、いつでも取り消すことができます。アドビは、アドビ担当者が実行したすべてのアクションを記録します。
 
 ![アドビサポートケース](assets/support-email.png)
 

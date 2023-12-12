@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 100%
+source-wordcount: '572'
+ht-degree: 97%
 
 ---
 
@@ -45,7 +45,7 @@ Experience Cloud 製品ドキュメントの更新に関する情報です。
 | 統合検索 | 統合検索では、引き続き検索インデックスにオブジェクトタイプが追加されます。この更新では、グローバル検索で、Experience League コンテンツ全体と次の Journey Optimizer オブジェクトタイプが検索されるようになりました。 <ul><li>データセット</li><li>宛先</li><li>クエリ</li><li>スキーマ</li><li>セグメント</li><li>ソース</li><li>オファー</li><li>コンポーネント</li><li>メッセージ</li><li>ジャーニー</li></ul> |
 | 製品の使用状況データへの同意 | 初回ログイン時に、Experience Cloud 製品の使用状況データに基づいて、チュートリアル、ガイド、クイックヒント、レコメンデーション、学習用ビデオなどのパーソナライズされた有用なコンテンツをアドビから提供することに関して、環境設定を送信するよう求められます。このリクエストでは、これらのデータの収集と使用に関する環境設定を <https://experience.adobe.com/preferences> で更新することも求められます。 |
 | Experience Cloud [!UICONTROL Triggers]によるナビゲーション | [Experience Cloud Triggers](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=ja)は、プロビジョニングされたユーザーのヘッダーにあるアプリケーション切り替えボタンから直接ナビゲーションできます。 |
-| **注意：**&#x200B;ナビゲーションインターフェイスの更新予定 | 2021年11月に、_[!UICONTROL Launch に移動／データ収集]_&#x200B;ナビゲーション機能が <https://experience.adobe.com/implement> から削除されます。 |
+| **注意：**&#x200B;ナビゲーションインターフェイスの更新予定 | 2021 年 11 月、 _[!UICONTROL データ収集に移動]_ ナビゲーション機能は次の場所から削除されます： <https://experience.adobe.com/implement>. |
 
 **更新：2021年8月24日（PT）**
 

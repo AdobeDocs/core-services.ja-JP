@@ -5,17 +5,17 @@ breadcrumb-title: Experience Cloud の主要なインターフェイスコンポ
 title: Experience Cloud インターフェイスと管理ガイド
 description: Experience Cloud インターフェイスとユーザーアカウントの環境設定について説明します。 ビジネスオブジェクトの検索方法、およびユーザーと製品の管理方法について説明します。 顧客属性、オーディエンスライブラリ、Cookie を設定し、Experience Cloud Assets を共有します。
 index: true
-source-git-commit: 3d33353d5df4e2dfc618f998d256a5d40ae90c6b
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 100%
+source-wordcount: '338'
+ht-degree: 98%
 
 ---
 
 
-# Experience Cloud の主要なインターフェイスコンポーネント {#interface}
+# Experience Cloud Central のインターフェイスコンポーネント {#interface}
 
-+ [Experience Cloud の主要なインターフェイスコンポーネントガイド](experience-cloud.md)
++ [Experience Cloud中央インターフェイスコンポーネントガイド](experience-cloud.md)
 + Experience Cloud サービス {#services}
    + [Experience Cloud サービス](core-services-landing.md)
    + [Experience Cloud の統合検索](search-experience-cloud.md)
@@ -37,10 +37,6 @@ ht-degree: 100%
       + [EU 一般データ保護規則のサポート](gdpr.md)
       + [カリフォルニア消費者プライバシー法のサポート](ccpa.md)
       + [顧客属性のプライバシーに関する考慮事項](privacy-mac.md)
-   + Experience Cloud Activation {#activation}
-      + [Activation の概要](activation.md)
-      + [Experience Platform Launch ユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)
-      + [Triggers](triggers.md)
    + Experience Cloud Assets {#assets}
       + [Experience Cloud Assets の概要](experience-cloud-assets.md)
       + [Experience Cloud フォルダーおよびアセットの Creative Cloud との共有](creative-cloud.md)
