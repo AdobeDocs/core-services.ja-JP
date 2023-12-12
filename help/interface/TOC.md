@@ -5,9 +5,9 @@ breadcrumb-title: Experience Cloud の主要なインターフェイスコンポ
 title: Experience Cloud インターフェイスと管理ガイド
 description: Experience Cloud インターフェイスとユーザーアカウントの環境設定について説明します。 ビジネスオブジェクトの検索方法、およびユーザーと製品の管理方法について説明します。 顧客属性、オーディエンスライブラリ、Cookie を設定し、Experience Cloud Assets を共有します。
 index: true
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+source-git-commit: c5a755f7fef9052162def14d0eb59b50d1d1268c
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '341'
 ht-degree: 98%
 
 ---
@@ -68,6 +68,7 @@ ht-degree: 98%
       + [[!DNL Target] の cookie](cookies-target.md)
       + [ブラウザー cookie のプライバシー設定の有効化](browser-cookie-settings.md)
       + [サードパーティ cookie のサポートに対する変更がお客様に及ぼす影響 ](cookies-thirdparty.md)
++ [Experience Cloud Triggers](triggers.md)
 + Experience Cloud UI のリリースノート {#release-notes}
    + [中央インターフェイスコンポーネントのリリースノート](release-notes.md)
    + [すべての Experience Cloud のリリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)
