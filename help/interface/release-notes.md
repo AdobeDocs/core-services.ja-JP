@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
+source-git-commit: e67941f98156aebaef9035d1d6aa76cb7d17dcbe
 workflow-type: tm+mt
-source-wordcount: '4770'
+source-wordcount: '4743'
 ht-degree: 100%
 
 ---
@@ -99,8 +99,6 @@ With this update, administrators may see changes or additions to the Admin Conso
 | ------- | ------- |
 | 統合検索 | 統合検索では、引き続き検索インデックスにオブジェクトタイプが追加されます。この更新では、グローバル検索で、Experience League コンテンツ全体と次の Journey Optimizer オブジェクトタイプが検索されるようになりました。 <ul><li>データセット</li><li>宛先</li><li>クエリ</li><li>スキーマ</li><li>セグメント</li><li>ソース</li><li>オファー</li><li>コンポーネント</li><li>メッセージ</li><li>ジャーニー</li></ul> |
 | 製品の使用状況データへの同意 | 初回ログイン時に、Experience Cloud 製品の使用状況データに基づいて、チュートリアル、ガイド、クイックヒント、レコメンデーション、学習用ビデオなどのパーソナライズされた有用なコンテンツをアドビから提供することに関して、環境設定を送信するよう求められます。このリクエストでは、これらのデータの収集と使用に関する環境設定を <https://experience.adobe.com/preferences> で更新することも求められます。 |
-| Experience Cloud [!UICONTROL Triggers]によるナビゲーション | [Experience Cloud Triggers](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=ja)は、プロビジョニングされたユーザーのヘッダーにあるアプリケーション切り替えボタンから直接ナビゲーションできます。 |
-| **注意：**&#x200B;ナビゲーションインターフェイスの更新予定 | 2021年11月に、_[!UICONTROL Launch に移動／データ収集]_&#x200B;ナビゲーション機能が <https://experience.adobe.com/implement> から削除されます。 |
 
 {style="table-layout:auto"}
 
@@ -235,10 +233,6 @@ With this update, administrators may see changes or additions to the Admin Conso
 **修正点**
 
 * Analytics でリンクと SSO を実行できなかった問題を修正しました。この問題が発生すると、「注意：エラーメッセージ：ERROR IMS SSO が失敗しました。リンクされた会社が見つかりません。」というメッセージが表示されていました。
-
-**既知の問題**
-
-**[!UICONTROL Experience Cloud]**／**[!UICONTROL Activation]** で Dynamic Tag Management にアクセスすると、Dynamic Tag Management アカウントが Experience Cloud（Adobe ID）にリンクされず、Dynamic Tag Management にログインできません。この問題を回避するには、ブラウザーの新しいタブで `dtm.adobe.com` に直接アクセスしてください。
 
 ## リリース 16.1 - 2016年1月21日 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
@@ -382,11 +376,7 @@ With this update, administrators may see changes or additions to the Admin Conso
    <td colname="col1"> <p>1 対多のマッピング </p> </td> 
    <td colname="col2"> <p>Experience Cloud でアプリケーションアカウントをリンクするときに、複数のアプリケーションと組織がある場合、複数の製品とサービスを 1 つの組織にマッピングできるようになりました。 </p> </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <p>Activation </p> </td> 
-   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local">Activation</a> が <span class="keyword">Experience Cloud</span> の左側のナビゲーションに表示されるようになりました。<span class="wintitle">Activation</span> は、現在は Dynamic Tag Management テクノロジーで構成される <span class="keyword">Experience Cloud</span> サービスで、選択するとこの機能に移動します。 </p> </td> 
-  </tr> 
-  <tr> 
+    <tr> 
    <td colname="col1"> <p>ドキュメントの更新 - コアサービス </p> </td> 
    <td colname="col2"> <p>コアサービスの実装を支援するために、「<a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">コアサービスのアプリケーションの有効化</a>」というトピックを追加しました。 </p> </td> 
   </tr> 
