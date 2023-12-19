@@ -8,14 +8,14 @@ index: true
 source-git-commit: c5a755f7fef9052162def14d0eb59b50d1d1268c
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # Experience Cloud Central のインターフェイスコンポーネント {#interface}
 
-+ [Experience Cloud中央インターフェイスコンポーネントガイド](experience-cloud.md)
++ [Experience Cloud の主要なインターフェイスコンポーネントガイド](experience-cloud.md)
 + Experience Cloud サービス {#services}
    + [Experience Cloud サービス](core-services-landing.md)
    + [Experience Cloud の統合検索](search-experience-cloud.md)
