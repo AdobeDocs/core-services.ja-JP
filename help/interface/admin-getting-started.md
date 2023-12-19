@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1634'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Admin Console へのログイン、Experience Cloud ユーザー権限と製品�
 
 管理ツールでは、すべての Experience Cloud ユーザーとその詳細に関する、並べ替え可能でフィルタリング可能なリストを確認できます。詳しくは、[管理ツールでの Experience Cloud ユーザーの表示](admin-tool-experience-cloud.md)を参照してください。
 
-## プロビジョニングの更新通知 {#provisioning}
+## プロビジョニングの更新通知{#provisioning}
 
 更新日：**2022 年 7 月 20 日（PT）**
 
@@ -208,13 +208,13 @@ Campaign の&#x200B;*テナント*&#x200B;は、Admin Console の製品ページ
 
 セキュリティグループとセキュリティグループへのユーザーの割り当てについては、[グループとユーザーの管理](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/managing-groups-and-users.html?lang=ja)を参照してください。
 
-## Experience Platformデータ収集の管理 {#section_F2DA6778DD2D48AA8F794041971EE6B1}
+## Experience Platform データ収集の管理 {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Experience Platform [!UICONTROL データ収集] 次に表示： [!UICONTROL 製品] ページの [!UICONTROL Admin Console]. データ収集製品プロファイルには、他のアプリケーションやサービスを含めることができます。
+Experience Platform [!UICONTROL データ収集]は、[!UICONTROL Admin Console] の[!UICONTROL 製品]ページに表示されます。データ収集製品プロファイルには、他のアプリケーションやサービスを含めることができます。
 
-ユーザーの招待先 [!UICONTROL Platform のデータ収集] ユーザーの役割と権限を割り当てます。
+[!UICONTROL Platform データ収集]にユーザーを招待し、ユーザーの役割と権限を割り当てます。
 
-詳しくは、 [ユーザー権限](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ja) 」を参照してください。
+Admin Console のユーザー権限とプロファイルへの権限の設定については、[ユーザー権限](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ja)を参照してください。
 
 ## Adobe Experience Manager as a Cloud Service
 
