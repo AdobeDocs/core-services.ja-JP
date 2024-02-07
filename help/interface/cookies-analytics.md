@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: 8f500c7efc0bba2239d81eb9be64916d60d2ea3d
+source-git-commit: a20d51e6e7d5ec72d59e06e6a4951778a5828d9a
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 95%
+source-wordcount: '722'
+ht-degree: 92%
 
 ---
 
@@ -23,7 +23,6 @@ Analytics では、新しい訪問者を匿名で識別する手段、クリッ�
 
 * [cookie 名：s_ecid](cookies-mc.md#section-32fd753c3fa54452acd62b021434919a)
 * [cookie 名：AMCV_###@AdobeOrg](cookies-mc.md#section-a12aa2a9296940ae82d8921b381b8fb0)
-* [cookie 名：s_cc](cookies-analytics.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
 * [cookie 名：s_cc](cookies-analytics.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
 * [cookie 名：s_sq](cookies-analytics.md#section-8abfff3a302d494f81a3cfb91e3b09ff)
 * [cookie 名：s_vi](cookies-analytics.md#section-5d50a078de444d12b7d927d68ff3b679)
@@ -90,7 +89,7 @@ Analytics では、新しい訪問者を匿名で識別する手段、クリッ�
 |--- |--- |
 | 保存される情報 | 予備として使用される一意の訪問者 ID 日時スタンプ。 |
 | 有効期限 | 2 年。 |
-| 用途 | この cookie は、ユニーク訪問者を特定するために使用します。サードパーティ cookie が制限されていて標準の `s_vi` cookie を設定できない場合に、個別訪問者を特定するために使用します。ファーストパーティ cookie が使用される環境では使用しません。 |
+| 用途 | この cookie は、標準の  `s_vi` サードパーティ cookie が制限されているので、cookie を使用できません。 ファーストパーティ cookie が使用される環境では使用しません。 |
 | 場所 | この cookie はファーストパーティ cookie として会社のドメインに保存されます。 |
 | サイズ | 33 バイト。 |
 
