@@ -1,13 +1,13 @@
 ---
 role: User,Admin
-user-guide-title: Experience Cloud の主要なインターフェイスコンポーネント
-breadcrumb-title: Experience Cloud の主要なインターフェイスコンポーネント
+user-guide-title: Experience Cloud の主要なインターフェイスコンポーネントガイド
+breadcrumb-title: Experience Cloud の主要なインターフェイスコンポーネントガイド
 title: Experience Cloud インターフェイスと管理ガイド
 description: Experience Cloud インターフェイスとユーザーアカウントの環境設定について説明します。 ビジネスオブジェクトの検索方法、およびユーザーと製品の管理方法について説明します。 顧客属性、オーディエンスライブラリ、Cookie を設定し、Experience Cloud Assets を共有します。
 index: true
-source-git-commit: 1d0a5ea6117e02898b0c90bfa866338a15d898cb
+source-git-commit: 2be11e25484bf99fc99e0b6a7c90552680354746
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '344'
 ht-degree: 100%
 
 ---
