@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 8b32f5d688309c01acc5f0618d119f56d339a9e5
+source-git-commit: 700a3e3382abba69f7760916637583b8381af8f8
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 100%
+source-wordcount: '1230'
+ht-degree: 99%
 
 ---
 
@@ -161,7 +161,7 @@ Experience Cloud は、次のホストを使用してアプリケーションを
 * [コアサービス向けアプリケーションの有効化](core-services.md)
 * [よくある質問](admin-getting-started.md)
 * [組織とアカウントのリンク](organizations.md)
-* [統合](marketing-cloud-integrations.md)
+* [統合](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/overview.html?lang=en)
 * [Adobe Target と Experience Cloud の統合](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja)
 * [Experience Cloud のプライバシーとセキュリティの概要](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [DNS プリフェッチ](admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)

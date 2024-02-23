@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: e67941f98156aebaef9035d1d6aa76cb7d17dcbe
+source-git-commit: 700a3e3382abba69f7760916637583b8381af8f8
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 99%
+source-wordcount: '923'
+ht-degree: 84%
 
 ---
 
 # Experience Cloud の統合の概要
 
-Adobe Experience Cloud は、共通の強力な機能セットを備え、共通のデータプラットフォーム上に構築された、アプリケーションとサービスを統合したクラス最高の包括的なセットです。
+このページでは、アプリケーションの統合を開始する方法をいくつかExperience Cloudします。 詳細については、次のライブラリを参照してください： [統合ビデオチュートリアル](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja) Experience League。
 
 ## Experience Cloud アプリケーションの Platform サービスへの対応 {#section_A3D024994DA3492F8435CFCC4EF035C2}
 
@@ -28,14 +28,14 @@ Adobe Experience Cloud は、共通の強力な機能セットを備え、共通
 * Experience Cloud で会社をプロビジョニングする。
 * 管理者になれるようにする。
 * [Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を実装する。
-* Platform データ収集を使用して、[!DNL Analytics] および [!DNL Target] の実装を最新化する。
-* コアサービスの使用を開始する。
+* を最新化する [!DNL Analytics] および [!DNL Target] を使用した実装 [!UICONTROL Platform のデータ収集].
+* 次のようなExperience Cloudサービスの使用を開始 [!UICONTROL 顧客属性] および [!UICONTROL オーディエンス].
 
 ソリューションまたはサービス：
 
-* Experience Platformデータ収集
-* Analytics
-* Target 
+* [[!DNL Experience Platform Data Collection]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
+* [[!DNL Analytics]](https://experienceleague.adobe.com/docs/analytics.html?lang=ja)
+* [[!DNL Target]](https://experienceleague.adobe.com/docs/target.html?lang=en)
 * [Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)
 
 ## Experience Cloud ID サービス {#section_6ECCCFA2D84D4D4F88C879C799CA9D78}
@@ -53,7 +53,7 @@ ID サービスは、Experience Cloud のすべてのアプリケーションで
 
 ヘルプ：[Audiences](audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)
 
-Experience Cloud オーディエンスライブラリでオーディエンスを作成および管理します。オーディエンスは、次のような各種ソースから作成または取得できます。
+Experience Cloudでのオーディエンスの作成と管理 [!UICONTROL オーディエンスライブラリ]. オーディエンスは、次のような各種ソースから作成または取得できます。
 
 * [!DNL Experience Cloud] で作成される新しいソース。
 * [!DNL Analytics] に公開された [!DNL Experience Cloud] セグメントから。
@@ -129,22 +129,9 @@ Adobe Target と Adobe Analytics およびその他の Experience Cloud アプ�
 
 ## Adobe Experience Manager の統合 {#section_32FB010EF8B4429FBC63C8DC2A9BE98F}
 
-ヘルプ：[Experience Manager ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=ja)
+* ビデオチュートリアル： [Experience Managerの統合](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/integrations-between-applications/overview.html)
 
-AEM と他のアプリケーションおよびサードパーティのサービスと統合します。
-
-**適用可能なアプリケーションまたはサービス**
-
-* [Analytics](https://experienceleague.adobe.com/docs/?lang=ja)
-* [Analytics と外部プロバイダー](https://experienceleague.adobe.com/docs/?lang=ja)
-* [Experience Cloud](https://experienceleague.adobe.com/docs/?lang=ja)
-* [Creative Cloud](https://experienceleague.adobe.com/docs/?lang=ja)
-* [Audience Manager](https://experienceleague.adobe.com/docs/?lang=ja)
-* [Campaign](https://experienceleague.adobe.com/docs/?lang=ja)
-* [Scene7](https://experienceleague.adobe.com/docs/?lang=ja)
-* [Adobe Target](https://experienceleague.adobe.com/docs/?lang=ja)
-* [サードパーティのサービス](https://experienceleague.adobe.com/docs/?lang=ja)（Data Connectors）
-* [拡張機能](https://experienceleague.adobe.com/docs/?lang=ja)
+* 製品ドキュメント： [Experience Manager文書](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=ja)
 
 ## Adobe Experience Manager - Assets {#section_CB865F8EFE4C4147BF8E2E4B66B5A318}
 
@@ -160,15 +147,19 @@ Adobe Experience Manager（AEM）Assets 内のアセットを Adobe Creative Clo
 
 ## [!DNL Adobe Advertising] {#section_9B1935F8BBC147C89C6DB68A35CB1BAB}
 
-ヘルプ（ログインが必要）：[Adobe Experience Cloud ソリューションおよびサービスとの統合](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
+* ヘルプ（ログインが必要）：[Adobe Experience Cloud ソリューションおよびサービスとの統合](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
+
+* [Adobe Advertising文書](https://experienceleague.adobe.com/docs/advertising.html?lang=en) Experience League時
 
 **適用可能なアプリケーションまたはサービス**
 
 **Analytics：**&#x200B;サイトエンゲージメントおよびコンバージョンデータを毎日 [!DNL Adobe Advertising] に送信できます（データは広告の最適化とレポート作成に使用されます）。また、[!DNL Advertising] は、検索エンジンおよびソーシャルネットワークのトラフィックデータを毎日 Analytics に送信できます（Analytics では、Reports &amp; Analytics、Report Builder および Ad Hoc Analysis の各機能でデータを利用できます）。
 
-**Dynamic Tag Manager：**[Dynamic Tag Manager を使用して、Advertising のピクセルベースのコンバージョントラッキングタグ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)および検索、ソーシャル、ディスプレイ広告ランディングページ用にサードパーティのトラッキングタグを作成できます。（[!DNL Advertising] タグを [!DNL Advertising] 内に直接作成することもできます。）
+**タグ：** 以下を使用できます。 [Experience Platformタグを使用して、広告のピクセルベースのコンバージョントラッキングタグを作成します。](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)検索、ソーシャルおよびディスプレイ広告ランディングページ用の、およびサードパーティのトラッキングタグ。 （[!DNL Advertising] タグを [!DNL Advertising] 内に直接作成することもできます。）
 
-**Experience Cloud Audiences：**（表示を管理する広告主）任意の [Adobe Experience Cloud Audiences](audience-library.md) を、ディスプレイ広告のターゲットとして使用できます。Experience Cloud で作成したAudiences と、Adobe Experience Cloud に公開した Analytics の Audiences を自動的に使用できます。[!DNL Adobe Advertising]アカウントで許可するよう設定されている場合は、Audience Manager の Audiences を使用することもできます。Adobe Experience Cloud とプロファイルおよび Audiences へのアクセスおよび [!DNL Adobe Advertising] と Adobe Experience Cloud Audiences の間の初期設定について詳しくは、担当のアカウントマネージャーにお問い合わせください。**注意：** Adobe Target も使用する場合、Adobe Experience Cloud に公開した任意の Audiences も Adobe Target でのアクティビティに使用できます。
+**Experience Cloud Audiences：**（表示を管理する広告主）任意の [Adobe Experience Cloud Audiences](audience-library.md) を、ディスプレイ広告のターゲットとして使用できます。Experience Cloudで作成したオーディエンスと、Experience Cloudに公開した Analytics のオーディエンスを自動的に使用できます。 また、「オーディエンス」をAudience Manager [!DNL Adobe Advertising] アカウントが許可するように設定されています。
+
+Adobe Experience Cloud とプロファイルおよび Audiences へのアクセスおよび [!DNL Adobe Advertising] と Adobe Experience Cloud Audiences の間の初期設定について詳しくは、担当のアカウントマネージャーにお問い合わせください。**注意：** Adobe Target も使用する場合、Adobe Experience Cloud に公開した任意のオーディエンスも Adobe Target でのアクティビティに使用できます。
 
 **Experience Cloud Assets：**（表示を管理する広告主）任意の Adobe Experience Cloud アセットを、新しいディスプレイベータ表示を使用したディスプレイ広告のクリエイティブとして使用できます。Adobe Experience Cloud にアクセスするには、[Adobe Experience Cloud を通じて Adobe Advertising にログイン](https://enterprise-test.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyoBomG0VowpcEgK5zzKFq3mDArroL6xIS3XkmJFZMeeXlj0uIZz-IEcOn3nVHmy9bwdSxEcDv6FMvTkjwz5rpIs%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D)しておく必要があります。Adobe Experience Cloud へのアクセスについて詳しくは、アカウントマネージャーにお問い合わせください。
 
