@@ -1,16 +1,16 @@
 ---
 description: Experience Cloud と Creative Cloud の間でフォルダーとアセットを共有する方法を説明します。
 solution: Experience Cloud
-title: Experience Cloud フォルダーおよびアセットの Creative Cloud との共有
+title: Experience CloudフォルダーとアセットのCreative Cloudとの共有
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 41290ea3-86ce-4e9d-8c3c-bbe30c337c4c
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 100%
+source-wordcount: '162'
+ht-degree: 85%
 
 ---
 
@@ -24,9 +24,9 @@ Experience Cloud と Creative Cloud の間でフォルダーとアセットを�
 * 複数の場所に分散された作業中ファイルやバージョンの管理にかかる時間を短縮できます。
 * クリエイティブなアセットをより効果的に追跡および管理できます。
 * 企業セキュリティを強化できます。
-* クリエイティブとマーケティング担当者の間でファイルを共有、保存および送信できます。
+* クリエイティブとマーケターの間でファイルを共有、保存および送信できます。
 
-Creative Cloud のユーザーがアセットにアクセスするには、事前に Experience Cloud のホワイトリストに登録されている必要があります。[Creative Cloud ユーザーの管理](t-admin-add-cc-user.md#task_F36D4F1D49B44F09A54F7371810D2752)を参照してください。
+Creative Cloudユーザーがアセットにアクセスする前に、Experience Cloudで許可リストに登録されている必要があります。 [Creative Cloud ユーザーの管理](t-admin-add-cc-user.md#task_F36D4F1D49B44F09A54F7371810D2752)を参照してください。
 
 ## Adobe Target とのアセットの共有について {#section_B7CD64CAB35D43A4B12957B304072DC9}
 

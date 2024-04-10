@@ -1,5 +1,5 @@
 ---
-description: 顧客属性ソースを作成し、Adobe Experience Cloudにアップロードします。
+description: 顧客属性ソースを作成して、Adobe Experience Cloudにアップロードします。
 solution: Experience Cloud
 title: 顧客属性ソースの作成とデータファイルのアップロード
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 94%
+source-wordcount: '1122'
+ht-degree: 88%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->この機能にアクセスするには、ユーザーが「顧客属性」製品プロファイル（顧客属性 - デフォルトのアクセス）に割り当てられている必要があります&#x200B;**[!UICONTROL 管理]**／**[!UICONTROL Admin Console]**／**[!UICONTROL グループ]**&#x200B;に移動します。[!UICONTROL 製品プロファイル]の 1 つとして&#x200B;*顧客属性*&#x200B;がある場合は、すぐに始めることができます。顧客属性グループに追加されたユーザーには、Experience Cloud インターフェイスの左側に「[!UICONTROL 顧客属性]」メニューが表示されます。
+>この機能にアクセスするには、ユーザーが「顧客属性」製品プロファイル（顧客属性 - デフォルトのアクセス）に割り当てられている必要があります&#x200B;**[!UICONTROL 管理]**／**[!UICONTROL Admin Console]**／**[!UICONTROL グループ]**&#x200B;に移動します。次の場合 *顧客属性* 次のいずれかとして表示： [!UICONTROL 製品プロファイル]、開始する準備が整いました。 顧客属性グループに追加されたユーザーには、Experience Cloud インターフェイスの左側に「[!UICONTROL 顧客属性]」メニューが表示されます。
 >
 >また、顧客属性機能を使用するには、ユーザーがアプリケーションレベルのグループ（Analytics または [!DNL Target]）に属している必要があります。
 
@@ -60,13 +60,13 @@ ht-degree: 94%
 
 ## 属性ソースの作成とデータファイルのアップロード {#task_09DAC0F2B76141E491721C1E679AABC8}
 
-Experience Cloud の新しい顧客属性ソースを作成ページでこれらの手順を実行します。
+Experience Cloudの新しい顧客属性ソースを作成ページでこれらの手順を実行します。
 
 >[!IMPORTANT]
 >
 >顧客属性ソースを作成、変更または削除する場合、ID が新しいデータソースと同期され始めるまで、最大 1 時間の遅延があります。顧客属性ソースを作成または変更するには、Audience Manager の管理者権限が必要です。Audience Manager カスタマーケアまたはコンサルティングに問い合わせて、管理者権限を取得してください。
 
-1. Adobe Analytics の [!DNL Experience Cloud]、メニューを選択します。  ![メニュー](assets/menu-icon.png) アイコン。
+1. が含まれる [!DNL Experience Cloud]で、「メニュー」を選択します  ![メニュー](assets/menu-icon.png) アイコン。
 1. **[!DNL Experience Platform]** で、**[!UICONTROL People]**／**[!UICONTROL 顧客属性]**&#x200B;を選択します。
 
    [!UICONTROL 顧客属性]ページでは、既存の属性データソースを管理したり、編集したりできます。
@@ -81,7 +81,7 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
 
    * **[!UICONTROL 説明：]**（オプション）データ属性ソースの説明。
 
-   * **[!UICONTROL エイリアス ID：]**&#x200B;特定の CRM システムなど、顧客属性データのソースを表します。[!UICONTROL エイリアス ID] は、顧客属性ソースのコードで使用される一意の ID です。ID は一意で、スペースを含まないアルファベットおよびアンダースコアの組み合わせにしてください。次に入力された値： [!UICONTROL エイリアス ID] Experience Cloudの顧客属性ソースのフィールドは、（Platform データ収集または Mobile SDK の JavaScript を使用して）実装から渡される値と一致する必要があります。
+   * **[!UICONTROL エイリアス ID：]**&#x200B;特定の CRM システムなど、顧客属性データのソースを表します。[!UICONTROL エイリアス ID] は、顧客属性ソースのコードで使用される一意の ID です。ID は一意で、スペースを含まないアルファベットおよびアンダースコアの組み合わせにしてください。に入力される値 [!UICONTROL エイリアス ID] Experience Cloudの顧客属性ソースのフィールドは、実装から（Platform データ収集または Mobile SDK の JavaScript を使用して）渡されている値と一致する必要があります。
 
      エイリアス ID は、追加の顧客 ID 値を設定する方法に対応しています。以下に例を示します。
 
@@ -145,7 +145,7 @@ Experience Cloud の新しい顧客属性ソースを作成ページでこれら
 
 ## 購読の設定と属性ソースの有効化 {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
-購読を設定すると、Experience Cloud とアプリケーション間のデータフローが設定されます。属性ソースを有効化すると、購読しているアプリケーションでデータが利用できるようになります。アップロードした顧客レコードは、Web サイトまたはアプリケーションから入ってくる ID 信号と照合されます。
+サブスクリプションを設定すると、Experience Cloudとアプリケーション間のデータフローが設定されます。 属性ソースを有効化すると、購読しているアプリケーションでデータが利用できるようになります。アップロードした顧客レコードは、Web サイトまたはアプリケーションから入ってくる ID 信号と照合されます。
 
 詳しくは、[サブスクリプションの設定](subscription.md#concept_ECA3C44FA6D540C89CC04BA3C49E63BF)を参照してください。
 
@@ -163,7 +163,7 @@ Adobe Analytics などのアプリケーションで利用できるデータを�
 
 ![アップロードされた属性に基づく Analytics セグメント](assets/08_crs_usecase.png)
 
-セグメントを Experience Cloud に公開すると、Experience Cloud Audiences と Audience Manager で利用できるようになります。
+セグメントをExperience Cloudに公開すると、Experience CloudオーディエンスおよびAudience Managerで使用できるようになります。
 
 ## Adobe Target での顧客属性の使用 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 

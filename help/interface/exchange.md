@@ -7,10 +7,10 @@ feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 100%
+source-wordcount: '128'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ Exchange Marketplace にアクセスすると、各種の連携ツールの検�
 
 * アプリケーションを却下または承認します。
 
-* Experience Cloud で公開します。
+* Experience Cloudで公開。
 
 * カテゴリ、会社、タイプ、ユーザー、その他で検索およびフィルタリングします。
 

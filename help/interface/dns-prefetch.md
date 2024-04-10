@@ -1,16 +1,16 @@
 ---
 description: DNS プリフェッチを実装して、Experience Cloud の様々なアプリケーションやサービスでページの読み込み時間を短縮する方法について説明します。
 solution: Experience Cloud
-title: 様々なアプリケーションおよびサービスによる DNS 事前読み込みの使用
+title: 様々なアプリケーションおよびサービスでの DNS プリフェッチの使用
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 95%
+source-wordcount: '372'
+ht-degree: 93%
 
 ---
 
@@ -24,7 +24,7 @@ DNS プリフェッチを実装すると、様々なアプリケーションや�
 
 ## DNS プリフェッチと Adobe Experience Cloud アプリケーション {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
-DNS プリフェッチは、ページ上に埋め込まれた静的リンクに対して自動的に機能します。これは、自動 DNS プリフェッチが [!UICONTROL Experience Cloud] アプリケーションとサービスの理由：
+DNS プリフェッチは、ページ上に埋め込まれた静的リンクに対して自動的に機能します。これは、自動 DNS プリフェッチが別の場合には機能しないことも意味します [!UICONTROL Experience Cloud] アプリケーションとサービスの理由は次のとおりです。
 
 * 各 Experience Cloud アプリケーションまたはサービスは、ページ読み込み時に DNS 呼び出しを動的に生成します。
 * これらの呼び出しが行われる前に、ブラウザーはドメイン名を IP アドレスに解決することはできません。

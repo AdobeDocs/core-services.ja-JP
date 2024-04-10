@@ -1,24 +1,24 @@
 ---
-description: FTP 経由で顧客属性データを Experience Cloud にアップロードする方法について説明します。
+description: FTP 経由で顧客属性データをExperience Cloudにアップロードする方法を説明します。
 solution: Experience Cloud
-title: FTP 経由での顧客属性データファイルのアップロード
+title: FTP を使用した顧客属性データファイルのアップロード
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 77%
 
 ---
 
 # オプション - FTP を使用したデータファイルのアップロード
 
-ドラッグ＆ドロップを使用してアップロードしない場合は、FTP 経由で顧客属性データを Experience Cloud にアップロードできます。
+ドラッグ&amp;ドロップを使用してアップロードしない場合は、FTP 経由で顧客属性データをExperience Cloudにアップロードできます。
 
-Experience Cloud で顧客属性ソースと FTP アカウントを作成したら、データをアップロードできます。属性ソースごとに 1 つの FTP アカウントを作成できます。アップロードしたファイルは、そのアカウントのルートフォルダーに保存されます。データは `.csv` 形式にする必要があります。2 つ目の `.fin` ファイルは、アップロードが完了したことを示します。
+Experience Cloudで顧客属性ソースと FTP アカウントを作成したら、データをアップロードできます。 属性ソースごとに 1 つの FTP アカウントを作成できます。アップロードしたファイルは、そのアカウントのルートフォルダーに保存されます。データは `.csv` 形式にする必要があります。2 つ目の `.fin` ファイルは、アップロードが完了したことを示します。
 
 >[!IMPORTANT]
 >

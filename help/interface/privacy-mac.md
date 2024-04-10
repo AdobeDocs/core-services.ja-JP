@@ -1,21 +1,21 @@
 ---
 description: Experience Cloud でアップロードおよび使用される、個人情報（PII）に関する考慮事項とベストプラクティスについて説明します。
 solution: Experience Cloud
-title: 顧客属性のプライバシーに関する考慮事項
+title: 顧客属性のプライバシーの考慮事項
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: ht
-source-wordcount: '513'
-ht-degree: 100%
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
+workflow-type: tm+mt
+source-wordcount: '511'
+ht-degree: 98%
 
 ---
 
-# 顧客属性のプライバシーに関する考慮事項
+# のプライバシーに関する考慮事項 [!DNL Customer Attributes]
 
 Adobe Experience Cloud でアップロードされて使用される、個人情報（PII）に関する配慮とベストプラクティスです。
 

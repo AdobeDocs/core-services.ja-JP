@@ -3,51 +3,51 @@ description: 組織（IMS 組織 ID）の概要と、ソリューションアカ
 solution: Experience Cloud
 title: 組織とアカウントのリンク
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
-feature: Admin Console
+feature: Organizations
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 77%
+source-wordcount: '551'
+ht-degree: 67%
 
 ---
 
 # Experience Cloud の組織
 
-Experience Cloud での組織の管理と切り替えについて説明します。
+An *組織* （組織 ID）は、管理者がグループおよびユーザーを設定し、Experience Cloudでシングルサインオンを制御するために使用するエンティティです。
 
-## 組織を特定する {#concept_384D169B0B724B799D573B8ECB5C39BF}
+組織は、すべてのExperience Cloud製品およびアプリケーションをまたいだログイン会社のように機能します。 ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。
 
-An *組織* (Org ID) は、管理者がグループおよびユーザーの設定や、Experience Cloudでのシングルサインオンの制御をおこなえるエンティティです。 この組織は、Experience Cloud のすべての製品とアプリケーションにまたがるログイン会社のように機能します。ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。
+![Experience Cloud機関](assets/organizations-menu.png)
 
 正しい組織にログインしたことを確認するには、プロファイルのアバターをクリックして組織名を表示します。複数の組織にアクセスできる場合は、ヘッダーバーで別の組織を表示して切り替えることもできます。
+
+## 連合 ID
 
 組織が Federated ID を使用している場合、Experience Cloud を使用すると、自身のメールアドレスとパスワードを入力しなくても、組織のシングルサインオンでログインできます。`#/sso:@domain` を Experience Cloud URL（`https://experience.adobe.com`）に追加して、このタスクを完成します。
 
 例えば、Federated ID を持ち、ドメインが `adobecustomer.com` の組織の場合、URL リンクを `https://experience.adobe.com/#/sso:@adobecustomer.com` に設定します。 また、この URL にアプリケーションパスを付けてブックマークに追加することで、特定のアプリケーションに直接移動することもできます。 （例えば、Adobe Analytics の場合は `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。）
 
-![手順の結果](assets/organization-switch.png)
+## 組織 ID を表示 {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
-## 組織 ID を表示する {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
-
-割り当てられた組織 ID は、サポートのために見つけることができます。 **[!UICONTROL 組織]** メニューを使用して、自分が正しい組織に属していることを確認したり、組織を切り替えたりできます。
+サポートを受けるために、割り当てられた組織 ID を見つけることができます。 **[!UICONTROL 組織]** メニューを使用して、自分が正しい組織に属していることを確認したり、組織を切り替えたりできます。
 
 組織 ID は、プロビジョニングされている Experience Cloud の会社に関連付けられた ID です。この ID は 24 文字の英数字から成る文字列の後に `@AdobeOrg`（必須）を付けたものです。
 
-キーボードショートカットを使用して、組織 ID を他のアカウント情報と共に表示できます **Ctrl + i** 任意のページから `https://experience.adobe.com`.
+キーボードショートカットを使用して、組織 ID を他のアカウント情報と共に表示できます **Ctrl+i** どのページからでも `https://experience.adobe.com`.
 
-**組織 ID を表示するには、以下を実行します。**
+**組織 ID を表示するには**
 
-1. In [Experience Cloud](https://experience.adobe.com)を押します。 **Ctrl + i** キーボードで
+1. 対象： [Experience Cloud](https://experience.adobe.com)を押す **Ctrl+i** キーボードの
 
    ![割り当てられた組織 ID](assets/assigned-organization.png)
 
-1. の下 **[!UICONTROL ユーザー情報]**&#x200B;を探します。 **[!UICONTROL 現在の組織 ID]**&#x200B;組織 ID が表示されます。
+1. 次の下 **[!UICONTROL ユーザー情報]**、を探します **[!UICONTROL 現在の組織 ID]**&#x200B;に設定すると、組織 ID が表示されます。
 
-   または、管理者がAdmin Console( [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) をクリックし、URL に組織 ID を表示します。
+   または、管理者がAdmin Consoleにログインすることができます（に移動） [https://adminconsole.adobe.com](https://adminconsole.adobe.com)）を選択し、URL で組織 ID を表示します。
 
    例として、次の URL を見てみましょう。
 
@@ -59,21 +59,25 @@ An *組織* (Org ID) は、管理者がグループおよびユーザーの設�
 
 ## アプリケーションアカウントを Adobe ID にリンクする {#task_FD389E78640848919E247AC5E95B8369}
 
-通常は、Experience Cloud 管理者がアプリケーションやサービスへのアクセス権を付与します。まれに、アプリケーションの資格情報をAdobe IDにリンクすることがあります。
+通常は、Experience Cloud 管理者がアプリケーションやサービスへのアクセス権を付与します。まれに、アプリケーションの資格情報をAdobe IDにリンクできることがあります。
 
-1. Experience Cloud への招待メールに記載されている手順に従います。
+1. Experience Cloudへの招待メールの手順に従います。
+
 1. Adobe ID または Enterprise ID を使用してログインします。
-1. アプリケーションセレクターを選択します。 ( ![メニュー](assets/menu-icon.png)).
+
+1. アプリケーションセレクターを選択します。 （ ![メニュー](assets/menu-icon.png)）に設定します。
 
    ![アプリケーションアカウントを Adobe ID にリンクする](assets/solutions-active.png)
 
    アクセスできるアプリケーションはカラー表示されます。
+
 1. 目的のアプリケーションを選択します。
 
    ![目的のアプリケーションを選択](assets/analytics-link-accounts.png)
 
    このタイプのメッセージは、ユーザーが適切なグループに属している（かつアプリケーションに対する権限を持っている）が、そのアカウントの資格情報をまだ Adobe ID にリンクしていない場合に表示されます。
-1. 「**[!UICONTROL アカウントにリンク]**」を選択し、認証情報を設定します。
+
+1. 「**[!UICONTROL アカウントにリンク]**」を選択し、資格情報を設定します。
 
 ## デフォルトの組織とランディングページを指定する {#concept_6A191B42A9874A9780882903BA18F071}
 

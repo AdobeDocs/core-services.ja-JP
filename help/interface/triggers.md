@@ -1,5 +1,5 @@
 ---
-description: 設定トリガーの設定方法を説明します。
+description: Experience Cloudトリガーを設定する方法を説明します。
 solution: Experience Cloud
 title: Triggers の概要
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 97%
+source-wordcount: '677'
+ht-degree: 95%
 
 ---
 
@@ -49,7 +49,7 @@ Experience Cloud の[!UICONTROL Triggers]を使用すると、主要な消費者
 >
 >現在、100 トリガーまでという技術的な制限があります。
 
-1. Experience Cloudで、 ![メニュー](assets/menu-icon.png)を選択し、「 **[!UICONTROL データ収集/起動]**.
+1. Experience Cloudで、を選択します。 ![メニュー](assets/menu-icon.png)を選択してから、 **[!UICONTROL データ収集/Launch]**.
 2. [!UICONTROL トリガー] カード上で、「**[!UICONTROL トリガーを管理]**」を選択します。
 3. 「**[!UICONTROL 新しいトリガー]**」を選択して、トリガーのタイプを指定します。
 
@@ -62,11 +62,11 @@ Experience Cloud の[!UICONTROL Triggers]を使用すると、主要な消費者
    | [!UICONTROL 名前] | このトリガーのわかりやすい名前。 |
    | [!UICONTROL 説明] | このトリガーの説明、使い方など。 |
    | [!UICONTROL レポートスイート] | このトリガーに使用する Analytics [レポートスイート](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=ja)。この設定は、使用するレポートデータを特定します。 |
-   | 訪問には次を含める必要があります<br>訪問に次を含めることはできません<br>次のアクションがなかった後のトリガー<br>含めるメタデータ | 条件または発生してほしい訪問者の行動、および発生してほしくない行動を定義できます。例えば、シンプルな買い物かご放棄トリガーのルールは、次のようになります。<ul><li>訪問には[!UICONTROL 買い物かごへの追加]（指標）と[!UICONTROL 存在]を含める必要があります。（特定の製品の表示またはブラウザータイプなどのディメンションでルールをさらに洗練させることができます）。</li><li>訪問には[!UICONTROL チェックアウト]を含めることはできません。</li><li>次のアクションがなかった後のトリガー：10 分。</li><li>[!UICONTROL メタデータを含む]：訪問者の行動に関連する特定の [!DNL Campaign] ディメンションまたは変数を追加できます。このフィールドは、Adobe Campaign で適切なリマーケティング電子メールを構築するのに便利です。</li></ul><br>ルールにとって重要な条件に応じて、コンテナ内またはコンテナ間で「[!UICONTROL ANY]」、「[!UICONTROL AND]」または「[!UICONTROL OR]」論理を指定できます。 |
+   | 訪問には次が含まれる必要があります<br>訪問に次を含めることはできません<br>何もしない場合のトリガー<br>メタデータを含める | 条件または発生してほしい訪問者の行動、および発生してほしくない行動を定義できます。例えば、シンプルな買い物かご放棄トリガーのルールは、次のようになります。<ul><li>訪問には[!UICONTROL 買い物かごへの追加]（指標）と[!UICONTROL 存在]を含める必要があります。（特定の製品の表示またはブラウザータイプなどのディメンションでルールをさらに洗練させることができます）。</li><li>訪問には[!UICONTROL チェックアウト]を含めることはできません。</li><li>次のアクションがなかった後のトリガー：10 分。</li><li>[!UICONTROL メタデータを含む]：訪問者の行動に関連する特定の [!DNL Campaign] ディメンションまたは変数を追加できます。このフィールドは、Adobe Campaign で適切なリマーケティング電子メールを構築するのに便利です。</li></ul><br>ルールにとって重要な条件に応じて、コンテナ内またはコンテナ間で「[!UICONTROL ANY]」、「[!UICONTROL AND]」または「[!UICONTROL OR]」論理を指定できます。 |
    | [!UICONTROL コンテナ] | [!UICONTROL コンテナ]は、トリガーを定義するルール、条件またはフィルターを設定および保存する場所です。同時にイベントを発生させたい場合、イベントを同じコンテナに配置します。つまり、各コンテナは、ヒットレベルで別々に処理されます。例えば、2 つのコンテナが AND 演算子で結合されている場合、2 つのヒットが要件を満たすタイミングを満たすルールを期待できます。 |
    | この次に新しいセッションを開始 | セッション開始およびセッション終了イベントのトリガーを作成します。 |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 5. 「**[!UICONTROL 保存]**」を選択します。
 6. [!DNL Adobe Campaign] でトリガーを[リアルタイムリマーケティング](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=ja)に使用します。

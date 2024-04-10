@@ -1,21 +1,21 @@
 ---
 description: Analytics Premium にアップグレードする際の要件と予想される処理について説明します。
 solution: Experience Cloud
-title: Analytics Premium および Experience Cloud へのアップグレード
+title: Analytics Premium およびExperience Cloudへのアップグレード
 topic: Administration
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 feature: Admin Console
 role: Admin
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 100%
+source-wordcount: '577'
+ht-degree: 90%
 
 ---
 
-# Analytics Premium および Experience Cloud へのアップグレード
+# Analytics Premium およびExperience Cloudへのアップグレード
 
 管理者は、Analytics Premium へのアップグレード時の要件と推奨事項について学習できます。また、Experience Cloud 管理者としてヘルプ情報を検索できる場所についても学習できます。
 
@@ -36,7 +36,6 @@ Analytics Premium では、次のことができます。
 >* eVar 76～250 および 100～250（標準）は、管理ツールに表示されますが、有効化はされていません。
 >* 貢献度分析は、オンになっています。場所は変更されません（従来どおり異常値検出ページでも使用できます）が、すべてのデータポイントの分析が自動的に開始されます。
 
-
 ## Analytics Premium Complete {#section_BFAD815EDF364845A52B340B2FD5B64C}
 
 Analytics Premium Complete では、[Analytics Premium](upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507) のすべての機能を入手できることに加え、次のアップグレードがおこなわれます。
@@ -47,7 +46,7 @@ Analytics Premium Complete では、[Analytics Premium](upgrade-to-analytics-pre
 | Data Workbench | <ul><li>アルゴリズムアトリビューション</li><li>事前定義済みワークスペース</li></ul> |
 | Analytics Platform | [Live Stream](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/index.md)（生データ、ダッシュボード、トリガー） |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Predictive Intelligence {#section_B407932C07A7476F83FB0275C3FB63DC}
 
@@ -55,11 +54,11 @@ Predictive Intelligence へのアップグレードにより、[Analytics Premiu
 
 | 製品 | アップグレード |
 |---|---|
-| Reports &amp; Analytics | [貢献度分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=en) |
+| Reports &amp; Analytics | [貢献度分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=ja) |
 | Data Workbench | オーディエンスの資格と予測マーケティングのためのワークスペース |
 | Analytics Platform | Live Stream（ダッシュボードとトリガー） |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Customer 360 {#section_3B2AC245388248688067DC9A48957AFB}
 
@@ -71,7 +70,7 @@ Customer 360 へのアップグレードにより、[Analytics Premium](upgrade-
 | Data Workbench | <ul><li>派生顧客属性</li><li>オーディエンス検出用の事前定義済みワークスペース</li></ul> |
 | Analytics Platform | [顧客属性](attributes.md) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 高度なアトリビューション {#section_9E4986A8389946CCAA7D003268343296}
 
@@ -87,9 +86,9 @@ Customer 360 へのアップグレードにより、[Analytics Premium](upgrade-
 
 ## Experience Cloud - ユーザーと製品の管理 {#section_6471C54454024301B2E0B687F79F6738}
 
-「[はじめに - コアサービスのアプリケーションを有効にする](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)」に記載されている実装の最新化手順に従った場合、Analytics Standard および Premium のユーザーは Experience Cloud およびコアサービスを利用できます。（このプロセスにより、実装を最新化できます。また、Experience Cloud の管理者になることもできます）。
+「[はじめに - コアサービスのアプリケーションを有効にする](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)」に記載されている実装の最新化手順に従った場合、Analytics Standard および Premium のユーザーは Experience Cloud およびコアサービスを利用できます。（このプロセスにより、実装を最新化できます。また、Experience Cloudの管理者になることもできます）。
 
-Experience Cloud に加入したら、[!DNL experience.adobe.com] から Experience Cloud にログインして、コアサービス（顧客属性、Audiences およびモバイルアプリ分析を含む）の利用を開始することができます。
+Experience Cloudへの参加後、次のExperience Cloudからログインできます： [!DNL experience.adobe.com] そして、コアサービス（顧客属性、Audiences およびモバイルアプリ分析を含む）の使用を開始します。
 
 ### ユーザーとグループの管理
 

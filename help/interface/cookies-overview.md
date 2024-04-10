@@ -1,18 +1,18 @@
 ---
 description: Adobe Experience Cloud のソリューションとサービスで Cookie を使用する方法について説明します。
-title: 'Experience Cloud での Cookie の使用方法 '
+title: Experience Cloudでの Cookie の使用方法
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
-workflow-type: ht
-source-wordcount: '174'
-ht-degree: 100%
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 93%
 
 ---
 
 
-# Experience Cloud で使用される Cookie{#cookies-used-in-the-experience-cloud}
+# Experience Cloudーで使用される Cookie{#cookies-used-in-the-experience-cloud}
 
-Adobe Experience Cloud に含まれる多くのサービスでは cookie が使用されています。cookie は、Web サイトから Web ブラウザーに提供されるデータの一部です。このデータはブラウザーによって保存され、後で提供元の Web サイトに返されます。この動作は、以後その Web サイトに対してページや画像の要求が発行されるたびに繰り返されます。
+Adobe Experience Cloud に含まれる多くのサービスでは cookie が使用されています。cookie は、Web サイトから Web ブラウザーに提供されるデータの一部です。このデータはブラウザーによって保存され、後で提供元の Web サイトに返されます。この動作は、以後その web サイトに対してページや画像の要求が発行されるたびに繰り返されます。
 
 cookie の使用目的は、その Web サイトにアクセスして一連の動作を実行する間（場合によっては、再度アクセスして別のセッションを実行するときまで）、情報を継続的に保持しておくことです。これにより、サイトへのアクセスに使用する個々のデバイスを他のブラウザーと一意に区別することが可能になります。
 

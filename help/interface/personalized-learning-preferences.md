@@ -3,9 +3,9 @@ description: Experience Cloud のパーソナライズされたラーニング�
 solution: Experience Cloud
 title: Experience Cloud のパーソナライズされたラーニング環境設定
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
+source-git-commit: 8d62b535e0a11879477d5310575d9cf8332b3d5f
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '380'
 ht-degree: 100%
 
 ---
@@ -21,12 +21,7 @@ ht-degree: 100%
 
 [![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
-
 選択内容は、「[ユーザーの環境設定](https://experience.adobe.com/preferences/)」の「製品データの使用と収集」セクションで、いつでも更新できます。
-
-
-
-
 
 ## アドビの製品とサービスに関するパーソナライズされたトレーニングとサポートのレコメンデーション
 
@@ -53,8 +48,6 @@ ht-degree: 100%
   </tr>
 </tbody>
 </table>
-
-
 
 ## アドビの製品、サービス、イベントおよびプロモーションに関するパーソナライズされた情報
 
@@ -85,9 +78,6 @@ ht-degree: 100%
 
 
 [![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
-
-
-
 
 ## このカスタマイズされたラーニング情報の表示例をご覧ください。
 

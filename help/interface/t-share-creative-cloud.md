@@ -1,17 +1,17 @@
 ---
 description: Experience Cloud アセットフォルダーを Creative Cloud ユーザーと共有する方法。
 solution: Experience Cloud
-title: Experience Cloud アセットフォルダーの共有
+title: Experience Cloudアセットフォルダーの共有
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 100%
+source-wordcount: '318'
+ht-degree: 92%
 
 ---
 
@@ -42,7 +42,7 @@ Creative Cloud ユーザーと Experience Cloud アセットフォルダーを�
 
    ![画像にコメントを追加](assets/asset_comment_cc.png)
 
-   Experience Cloud では、画像を選択してからタイムラインアイコンを選択して、画像にコメントを追加します。コメントは、Creative Cloud と Experience Cloud のアセットで同期されます。
+   Experience Cloudで、画像を選択してからタイムラインアイコンを選択して、画像にコメントを追加します。 コメントは、Creative Cloud と Experience Cloud のアセットで同期されます。
 
    ![画像にコメントを追加](assets/asset_comment_mac.png)
 

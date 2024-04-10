@@ -1,23 +1,23 @@
 ---
 description: ブラウザーのサポートについて説明し、Adobe Experience Cloud の管理者向けに回答されたよくある質問を取得します。
 solution: Experience Cloud
-title: Experience Cloud に関するよくある質問
+title: Experience Cloudに関するよくある質問（Faq）
 index: true
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
-workflow-type: ht
-source-wordcount: '727'
-ht-degree: 100%
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
+workflow-type: tm+mt
+source-wordcount: '719'
+ht-degree: 84%
 
 ---
 
 # Experience Cloud に関するよくある質問
 
-Experience Cloud 管理者向けのブラウザーサポート、よくある質問および回答について説明します。
+ブラウザーのサポートと、Experience Cloudの管理者向けのよくある質問と回答について説明します。
 
 ## Experience Cloud でサポートされているブラウザーは何ですか。
 
@@ -31,7 +31,7 @@ Experience Cloud 管理者向けのブラウザーサポート、よくある質
 
 実装がコアサービス用にプロビジョニングされていない場合は、その方法について説明した[アプリケーションをコアサービス用に有効化する](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)を参照してください。
 
-1. [Experience Cloud に加入して管理者になる](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
+1. [Experience Cloudに参加して管理者になる](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Experience Platform タグを利用して Experience Cloud ID サービスを実装する](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=ja)。
 1. [レポートスイートを Experience Cloud 組織にマッピングする](core-services.md#concept_apg_zq2_rw)
 1. [（Analytics のみ）Analytics AppMeasurement コードを最新化する](core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
@@ -62,10 +62,10 @@ Experience Cloud インターフェイスが提供する機能は、ビジネス
 
 ## _プロビジョニング_&#x200B;の特長について教えてください。
 
-Experience Cloud でのプロビジョニングは、次のことを意味します。
+Experience Cloudでのプロビジョニングとは、次のことを意味します。
 
 * ユーザーは、[!DNL Experience Cloud] へのログインとアプリケーションのリンクを開始できます。
-* 人物など、Experience Cloud で利用できる機能を使い始めることができます。
+* 人物など、Experience Cloudで利用できる機能を使い始めることができます。
 * アプリケーション固有のログインプロセスを終了する準備ができます。
 * アプリケーションへのアクセス制御を保持できます。
 
@@ -77,7 +77,7 @@ Experience Cloud でのプロビジョニングは、次のことを意味しま
 
 * **重要：** Analytics 管理ツールから Admin Console へのユーザー ID の移行に関する Analytics 管理者向けの詳細情報については、[Admin Console での Analytics ユーザーの管理](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=ja)を参照してください。
 
-## ユーザーが Experience Cloud にログインできない場合、管理者はどのように対処しますか。
+## Experience Cloudにログインできない場合はどうすればよいですか？
 
 Admin Console 管理者はユーザーにアクセス権を付与できます。ユーザーにはログイン手順が記載された電子メールが送信されます。
 
@@ -95,7 +95,7 @@ Admin Console 管理者はユーザーにアクセス権を付与できます。
 
 ## 組織とは
 
-[組織](organizations.md)は、管理者がグループおよびユーザーの設定や、Experience Cloud でのシングルサインオンの制御を行なえるエンティティです。この組織は、Experience Cloud のすべての製品とアプリケーションにまたがるログイン会社のように機能します。ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。
+An [組織](organizations.md) は、管理者がグループおよびユーザーを設定し、シングルサインオンのExperience Cloudを制御するために使用するエンティティです。 組織は、すべてのExperience Cloud製品およびアプリケーションをまたいだログイン会社のように機能します。 ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。
 
 ## IMS 組織 ID はどこで確認できますか？
 
@@ -103,7 +103,7 @@ Admin Console 管理者はユーザーにアクセス権を付与できます。
 
 ## ユーザーの 1 人が会社を辞めた場合はどうすればよいですか？
 
-そのユーザーのアクセスは、アプリケーション自体から削除する必要があります。アクセス権を削除されたユーザーは、その製品に対して Experience Cloud からのアクセスも、直接ログインによるアクセスもできなくなります。また、そのユーザーを Experience Cloud レベルで削除する必要もあります。
+そのユーザーのアクセスは、アプリケーション自体から削除する必要があります。Experience Cloudやダイレクトログインからはアクセスできません。 また、そのユーザーを Experience Cloud レベルで削除する必要もあります。
 
 ## Adobe ID とは何ですか。
 

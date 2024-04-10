@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 100%
+source-wordcount: '510'
+ht-degree: 94%
 
 ---
 
@@ -40,12 +40,12 @@ ht-degree: 100%
 * ページデータまたは Analytics の生データから得られる Home &amp; Garden セクション。
 * [!DNL Experience Cloud] に[公開](audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A)された [!DNL Adobe Analytics] セグメントから得られる Chrome ユーザーと Safari ユーザー。
 
-   ![複合オーディエンスのルールの作成](assets/audience_create.png)
+  ![複合オーディエンスのルールの作成](assets/audience_create.png)
 
 **オーディエンスを作成するには、以下を実行します。**
 
 1. [!DNL Experience Cloud] の [!DNL Experience Platform] で、**[!UICONTROL People]**／**[!UICONTROL オーディエンスライブラリ]を選択します。**
-1. [!UICONTROL オーディエンス]ページで、「**[!UICONTROL 新規]**」（）を選択します。![追加](assets/add_icon_small.png)
+1. 日 [!UICONTROL オーディエンス] ページ、選択 **[!UICONTROL 新規]**. ![add](assets/add_icon_small.png)
 
    ![手順の結果](assets/audience_create_new.png)
 
@@ -55,7 +55,7 @@ ht-degree: 100%
    * **[!UICONTROL Real-Time Analytics データ：]**（Raw データ）Real-Time Analytics イメージリクエストから得られる属性データであり、eVar やイベントなどのデータが含まれます。この属性ソースを使用する場合は、レポートスイートを選択し、含めるディメンションまたはイベントを定義する必要があります。このレポートスイートの選択により、レポートスイートで使用された変数構造が提供されます。
    >[!NOTE]
    >
-   >キャッシュの影響により、Analytics で削除したレポートスイートが Experience Cloud に反映されるまで 12 時間かかります。
+   >キャッシュにより、Analytics で削除されたレポートスイートがExperience Cloudに表示されるまでに 12 時間かかります。
 
    * **[!UICONTROL Experience Cloud：]** [!DNL Experience Cloud] Experience Cloud ソースから抽出された属性データ。例えば、[!DNL Analytics] で作成したオーディエンスセグメントからのデータや、[!DNL Audience Manager] からのデータです。
 
