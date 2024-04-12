@@ -10,7 +10,7 @@ exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
 source-git-commit: 06c51428244c67fdb871d4039888aa2517048d2b
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 73%
+ht-degree: 74%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 73%
 
 * 顧客属性には、**Adobe Target** `at.js`（任意のバージョン）または `mbox.js` バージョン 58 以降が必要です。
 
-  参照： [at.js のデプロイ方法](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=en).
+  [at.js のデプロイ方法](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=ja)を参照してください。
 
 ## 企業顧客データとは  {#section_6F34C29F11414842AA57D2B1248FA3C6}
 

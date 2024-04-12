@@ -1,6 +1,6 @@
 ---
 title: ユーザーと製品の管理
-description: 製品にログインし、Admin Consoleユーザーの権限とExperience Cloud（製品プロファイル）を管理します。 Experience Cloud ユーザーへの管理権限の委任、および Experience Cloud に対するブラウザーのサポートについて説明します。
+description: Admin Console にログインし、Experience Cloud のユーザー権限と製品（製品プロファイル）を管理します。Experience Cloud ユーザーへの管理権限の委任、および Experience Cloud に対するブラウザーのサポートについて説明します。
 solution: Admin
 index: true
 feature: Admin Console
@@ -11,7 +11,7 @@ exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
 source-wordcount: '1582'
-ht-degree: 74%
+ht-degree: 81%
 
 ---
 
@@ -35,13 +35,13 @@ Admin Console へのログイン、Experience Cloud ユーザーの権限およ�
 
 Adobe は、一部の Experience Cloud 製品間の相互運用性を支援する基本的な機能に対するすべての Experience Cloud のお客様のアクセスを提供するために、プロビジョニングを更新しています。 ユーザーには、新しい使用権限として Experience Cloud 組織に Adobe Experience Platform が追加され、[!UICONTROL データ収集]のサービスが付属します。
 
-Adobe Experience Platform の[!UICONTROL データ収集]には、汎用性のあるタグ管理を簡素化するための[タグ](https://experienceleague.adobe.com/en/docs/tags)が含まれており、信頼性の高い、堅牢で完全なストリーミングデータインフラストラクチャを提供します。 タグを使用すると、顧客体験のデータ収集を簡素化し、エクスペリエンス配信を効率化できます。
+Adobe Experience Platform の[!UICONTROL データ収集]には、汎用性のあるタグ管理を簡素化するための[タグ](https://experienceleague.adobe.com/ja/docs/tags)が含まれており、信頼性の高い、堅牢で完全なストリーミングデータインフラストラクチャを提供します。 タグを使用すると、顧客体験のデータ収集を簡略化し、エクスペリエンス配信を効率化できます。
 
 **の変更点[!DNL Admin Console]**
 
 管理者は、に対する変更や追加を確認できます [!DNL Admin Console] 次のように設定します。
 
-* Admin ConsoleのAdobe Experience Platform製品カードには、次のものが含まれます。
+* Admin Console の Adobe Experience Platform 製品カードには、次が含まれます。
 
    * Places
    * Assurance
@@ -61,7 +61,7 @@ Adobe Experience Platform の[!UICONTROL データ収集]には、汎用性の�
 新機能の詳細については、Experience League の各ページを参照してください。
 
 * [データ収集](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=ja)
-* [Places](https://experienceleague.adobe.com/en/docs/places/using/home)
+* [Places](https://experienceleague.adobe.com/ja/docs/places/using/home)
 * [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=ja)
 * [ID 名前空間](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ja)
 * [サンドボックス](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ja)
@@ -104,13 +104,13 @@ Adobe Experience Platform の[!UICONTROL データ収集]には、汎用性の�
 
 1. いずれかのオプションを選択すると、既存のランディングページのエクスペリエンスを使用することになります。
 
-1. Adobeプロファイルは各ビジネスプランに関連付けられ、追加のAdobeクラウドサービス（Creative CloudおよびDocument Cloud）から作成されたアセットを整理する機能を提供します。
+1. アドビプロファイルは各ビジネスプランに関連付けられ、追加のアドビのクラウドサービス（Creative Cloud と Document Cloud）から作成されたアセットを整理する機能を提供します。
 
 詳しくは、[アドビプロファイルの概要](https://helpx.adobe.com/jp/enterprise/kb/introducing-adobe-profiles.html)を参照してください。
 
 ## 製品プロファイルとは {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
-_[!UICONTROL 製品プロファイル]_ は、ユーザーに割り当てることができる製品およびサービスのグループです。 Experience Cloud では、権限はユーザーではなく、製品のプロファイルに基づきます。（ただし、管理権限は特定のユーザーに委任できます。）
+_[!UICONTROL 製品プロファイル]_&#x200B;は、ユーザーに割り当てることができる製品とサービスのグループです。Experience Cloud では、権限はユーザーではなく、製品のプロファイルに基づきます。（ただし、管理権限は特定のユーザーに委任できます。）
 
 例えば、Analytics では、Analysis Workspace や Report Builder などのレポートツールをレポートスイート、指標、ディメンションなどとともに 1 つのコレクションにまとめることができます。ユーザーをプロファイルに追加することにより、付与権限を割り当てることができます。
 
@@ -191,7 +191,7 @@ Analytics 管理者がユーザーアカウントを Analytics ユーザー管�
 * [での Analytics [!DNL Admin Console]](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ja)
 * [Analytics ユーザー ID の移行](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=ja)
 
-## Adobe Targetの管理 – 製品プロファイルと Workspaces {#section_3860AF177C9E4C7E9C390D36A414F353}
+## Adobe Target の管理 - 製品プロファイルと Workspaces {#section_3860AF177C9E4C7E9C390D36A414F353}
 
 Adobe Target では、Workspaces が製品プロファイルになります。組織でワークスペースを使用すると、特定のユーザーセットを特定のプロパティセットに割り当てることができます。多くの点で、Workspaces は Adobe Analytics のレポートスイートに似ています。
 
