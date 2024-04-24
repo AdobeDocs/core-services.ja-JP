@@ -1,6 +1,6 @@
 ---
-title: “[!DNL Customer Attributes]“
-description: について [!DNL Customer Attributes] Experience Cloudで。 Adobe Analytics と Adobe Target で使用する顧客属性データのアップロード方法について説明します。
+title: 「[!DNL Customer Attributes]」
+description: Experience Cloud の  [!DNL Customer Attributes]  について説明します。Adobe Analytics と Adobe Target で使用する顧客属性データのアップロード方法について説明します。
 solution: Experience Cloud,Target,Analytics
 feature: Customer Attributes
 role: Admin
@@ -8,33 +8,33 @@ topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
 source-git-commit: 06c51428244c67fdb871d4039888aa2517048d2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '442'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
-# [!DNL Customer Attributes] Experience Cloud中
+# Experience Cloud の [!DNL Customer Attributes]
 
-[!DNL Customer Attributes] Experience Cloudでは、顧客関係管理（CRM）データベースから取り込んだ大規模法人データをアップロードできます。 データをExperience Cloudの顧客属性データソースにアップロードすると、そのデータをで使用できます [!DNL Adobe Analytics] および [!DNL Adobe Target].
+Experience Cloud で [!DNL Customer Attributes] を使用すると、顧客関係管理（CRM）データベースから取り込んだ企業データをアップロードできます。データを Experience Cloud の顧客属性データソースにアップロードすると、そのデータを [!DNL Adobe Analytics] および [!DNL Adobe Target] で使用できます。
 
-## を見つけます。 [!DNL Customer Attributes] 機能
+## [!DNL Customer Attributes] の機能を見つけます。
 
 1. Experience Cloud にログインします。
 
-1. に移動します。 **[!DNL Experience Platform]** > **[!UICONTROL 人物]** > **[!UICONTROL 顧客属性]**.
+1. **[!DNL Experience Platform]**／**[!UICONTROL ユーザー]**／**[!UICONTROL 顧客属性]**&#x200B;に移動します。
 
 ![顧客属性の概要](assets/custom_reports.png)
 
-## アップロードの前提条件 [!DNL Customer Attributes] {#section_BD38693AFBF34926BA28E964963B4EA0}
+## [!DNL Customer Attributes] をアップロードするための前提条件 {#section_BD38693AFBF34926BA28E964963B4EA0}
 
 * **ソリューションのイネーブルメント：** [ソリューションを Experience Platform サービスに対応させます](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)。
 
 * **グループのメンバーシップ：**&#x200B;顧客属性データをアップロードするには、ユーザーは、[顧客属性グループ](admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)のメンバーである必要があります。また、Adobe Analytics グループまたは Adobe Target グループのいずれかに属している必要もあります。
 
-  自社が顧客属性にアクセスできるかどうかを知るには、[!DNL Experience Cloud] 管理者が、[Experience Cloud](https://experience.adobe.com) にログインする必要があります。**[!UICONTROL 管理]**／**[!UICONTROL Admin Console]**／**[!UICONTROL グループ]**&#x200B;に移動します。次の場合 *[!DNL Customer Attributes]* 次のいずれかとして表示： [!UICONTROL 製品プロファイル]、開始する準備が整いました。
+  自社が顧客属性にアクセスできるかどうかを知るには、[!DNL Experience Cloud] 管理者が、[Experience Cloud](https://experience.adobe.com) にログインする必要があります。**[!UICONTROL 管理]**／**[!UICONTROL Admin Console]**／**[!UICONTROL グループ]**&#x200B;に移動します。*[!DNL Customer Attributes]* が[!UICONTROL 製品プロファイル]の 1 つとして表示されている場合は、開始する準備が整っています。
 
-  に追加されたユーザー [!DNL Customer Attributes] を表示します [!UICONTROL 顧客属性] Experience Cloudインターフェイスの左側のメニュー項目。
+  [!DNL Customer Attributes] に追加されたユーザーには、Experience Cloud インターフェイスの左側に[!UICONTROL 顧客属性]メニュー項目が表示されます。
 
 * 顧客属性には、**Adobe Target** `at.js`（任意のバージョン）または `mbox.js` バージョン 58 以降が必要です。
 
@@ -54,7 +54,7 @@ ht-degree: 74%
 
 ## Analytics と Target における顧客属性の例 {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
-データがExperience Cloudに格納されたら、それをカスタマイズして、レポート、セグメント化、アクティビティおよびキャンペーン用のソリューションに共有できます。
+データを Experience Cloud にアップロードした後は、そのデータをカスタマイズし、レポート、セグメント化、アクティビティおよびキャンペーンで利用するソリューションで共有できます。
 
 以下に例を示します。
 

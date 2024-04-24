@@ -1,21 +1,21 @@
 ---
-title: “[!DNL Customer Attributes] EU 一般データ保護規則のサポート」
-description: EU 一般データ保護規則に対する顧客属性のサポートについての説明
+title: 「[!DNL Customer Attributes] EU 一般データ保護規則のサポート」
+description: EU 一般データ保護規則に対する顧客属性のサポートについて説明します。
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
 source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
-# [!DNL Customer Attributes] eu 一般データ保護規則のサポート
+# [!DNL Customer Attributes] EU 一般データ保護規則のサポート
 
-このページでは、その方法について説明します [!DNL Customer Attributes] は、EU 一般データ保護規則（GDPR）をサポートしています。
+このページでは、[!DNL Customer Attributes]が EU 一般データ保護規則（GDPR）のサポートについて説明します。
 
 >[!IMPORTANT]
 >
@@ -25,13 +25,13 @@ ht-degree: 77%
 
 Adobe Experience Cloud は、顧客に代わって受信および保存する個人データのデータ処理者としての役割を果たします。データ管理者であるお客様は、Adobe Experience Cloud に処理および保管を委任する個人データを決めます。
 
-このドキュメントでは、その方法を説明します [!DNL Customer Attributes] は、Adobe Experience Platform Privacy Service API とPrivacy ServiceUI を使用して、データ主体の GDPR データアクセスおよび削除権をサポートします。
+このドキュメントでは、[!DNL Customer Attributes] が Adobe Experience Platform Privacy Service API と Privacy Service UI を使用して、データ主体の GDPR データアクセスおよび削除権をどのようにサポートするかについて説明します。
 
-GDPR がお客様のビジネスに与える意味の詳細は、「[GDPR とお客様のビジネス](https://business.adobe.com/jp/privacy/general-data-protection-regulation.html)」を参照してください。
+GDPR がお客様のビジネスに与える影響について詳しくは、[GDPR とお客様のビジネス](https://business.adobe.com/jp/privacy/general-data-protection-regulation.html)を参照してください。
 
-## リクエストを送信するために必要な設定 [!DNL Customer Attributes]
+## [!DNL Customer Attributes] のリクエスト送信に必要な設定
 
-のデータへのアクセスおよび削除をリクエストするには [!DNL Customer Attributes]は、以下を行う必要があります。
+[!DNL Customer Attributes] のデータへのアクセスおよび削除をリクエストするには、次の操作が必要です。
 
 1. 以下を特定します。
 
@@ -41,9 +41,9 @@ GDPR がお客様のビジネスに与える意味の詳細は、「[GDPR とお
 
    [組織 ID](#organizations.md) は、24 文字の英数字から成る文字列の後に @AdobeOrg が付いたものです。Privacy API にリクエストを送信するには、組織の ID が必要です。ID が見つからない場合は、アドビカスタマーケア（`gdprsupport@adobe.com`）にお問い合わせください。
 
-1. 対象： [!UICONTROL Privacy Service]アクセス要求および削除要求をに送信できます。 [!DNL Customer Attributes]既存のリクエストのステータスを確認します。
+1. [!UICONTROL プライバシーサービス]で、[!DNL Customer Attributes] にアクセスおよび削除のリクエストを送信し、既存のリクエストのステータスを確認できます。
 
-## の必須フィールド値 [!DNL Customer Attributes] JSON リクエスト
+## [!DNL Customer Attributes] JSON リクエストの必須フィールド値
 
 &quot;company context&quot;：
 

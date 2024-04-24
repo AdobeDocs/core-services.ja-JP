@@ -1,7 +1,7 @@
 ---
 description: アプリケーションをまたいで共有できる Experience Cloud Assets について説明します。
 solution: Experience Cloud
-title: アセットの概要
+title: Assets の概要
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 feature: Assets
 topic: Administration
@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
 source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Experience Cloud Assets は、複数のアプリケーション間で共有で�
 
 >[!NOTE]
 >
->アセットを次の場所から正常に削除するには、アセットをAdobe Target アクティビティから削除する必要があります [!DNL Target].
+>アセットを [!DNL Target] から正常に削除するには、アセットを Adobe Target アクティビティから削除する必要があります。
 
 ## アセットの編集 {#section_CD3C55A9D4574455B94D0955391C8FEC}
 

@@ -1,19 +1,19 @@
 ---
 role: User,Admin
-user-guide-title: Experience Cloudインターフェイスおよび管理ガイド
-breadcrumb-title: Experience Cloudインターフェイスおよび管理ガイド
+user-guide-title: Experience Cloud インターフェイスと管理ガイド
+breadcrumb-title: Experience Cloud インターフェイスと管理ガイド
 title: Experience Cloud インターフェイスと管理ガイド
 description: Experience Cloud インターフェイスとユーザーアカウントの環境設定について説明します。 ビジネスオブジェクトの検索方法、およびユーザーと製品の管理方法について説明します。 顧客属性、オーディエンスライブラリ、Cookie を設定し、Experience Cloud Assets を共有します。
 index: true
 source-git-commit: 064f3c981b921fd5aec9b252b839d8b7f59b3dee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Experience Cloudインターフェイスおよび管理ガイド {#interface}
+# Experience Cloud インターフェイスと管理ガイド {#interface}
 
 + [Experience Cloud の主要なインターフェイスコンポーネントガイド](experience-cloud.md)
 + Experience Cloud サービス {#services}
@@ -22,7 +22,7 @@ ht-degree: 94%
    + [アプリケーションサービスをまたいだ実装を有効にする](core-services.md)
    + [Experience Cloud のパーソナライズされたラーニング環境設定](personalized-learning-preferences.md)
    + Experience Cloud Audience ライブラリ {#audiences}
-      + [Experience Cloud Audiences](audience-library.md)
+      + [Experience Cloud オーディエンス](audience-library.md)
       + [オーディエンスの作成](t-audience-create.md)
       + [Analytics オーディエンスセグメントの公開](t-publish-audience-segment.md)
    + Experience Cloud 顧客属性 {#customer-attributes}

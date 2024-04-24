@@ -1,7 +1,7 @@
 ---
-description: 顧客属性、Audiences、User Management などのExperience Cloudサービスの最新機能、リリースノートおよび既知の問題について説明します。
+description: 顧客属性、オーディエンス、ユーザー管理といった、Experience Cloud サービスの最新機能、リリースノートおよび既知の問題について説明します。
 solution: Experience Cloud
-title: Experience Cloudインターフェイスに関するこれまでのリリースノート
+title: Experience Cloud インターフェイスに関する累積リリースノート
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 feature-set: Experience Cloud
 feature: Release Notes
@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4735'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -259,8 +259,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 **既知の問題**
 
-* お客様は、SSO でExperience Cloudを介して Analytics にログインすると、Report Builderにログインできません。 この問題は、従来の Analytics 資格情報を使用するお客様には影響しません。
-* Analytics の「レポートへのリンク」機能に関する既知の問題です。Experience Cloudを使用して Analytics にログインするお客様は、レポートを共有しようとすると、Analytics の非 SSO ログインページに誘導されます。
+* Experience Cloud 経由の SSO で Analytics にアクセスすると、Report Builder にログインできません。この問題は、従来の Analytics 資格情報を使用するお客様には影響しません。
+* Analytics の「レポートへのリンク」機能に関する既知の問題です。お客様が Experience Cloud 経由で Analytics にログインし、レポートを共有しようとすると、SSO ではないログインページに誘導されます。
 
 ## リリース 15.9 - 2015年9月10日 {#section_BCCE3E7DF62A4FF5A57B9C8FE2A5F37B}
 
@@ -279,7 +279,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 **既知の問題**
 
-既知の問題によって、Audience Manager のアカウントが重複して自動生成され、ユーザーの Experience Cloud ID に自動的にリンクされることがあります。この問題は、アカウントをリンクする前に Audience Manager にアクセスしようとすると発生します。Adobeでは、Audience Managerに移動する前に、Audience ManagerアカウントをExperience Cloudにリンクすることをお勧めします。 （MAC-25640）
+既知の問題によって、Audience Manager のアカウントが重複して自動生成され、ユーザーの Experience Cloud ID に自動的にリンクされることがあります。この問題は、アカウントをリンクする前に Audience Manager にアクセスしようとすると発生します。Audience Manager にアクセスする前に、Audience Manager アカウントを Experience Cloud にリンクすることをお勧めします。（MAC-25640）
 
 ## リリース 15.6.1 - 2015年6月11日 {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
 
@@ -338,7 +338,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 **既知の問題**
 
-* 新しく作成したExperience Cloudー組織では、Dynamic Tag Management 組織とExperience Cloudのリンクおよびリンク解除が機能しません。 アドビはこの問題を修正し、5月のリリースで通常の機能を復元するよう取り組んでいます。Experience Cloud経由で Dynamic Tag Management にシングルサインオンしようとした際に問題が発生した場合は、に記載されている従来のログインを使用します。 [!DNL dtm.adobe.com].
+* Dynamic Tag Management 組織と Experience Cloud のリンクおよびリンク解除が、新しく作成した Experience Cloud 組織で機能しません。アドビはこの問題を修正し、5月のリリースで通常の機能を復元するよう取り組んでいます。Experience Cloud を使用して Dynamic Tag Management へのシングルサインオンで問題が発生した場合は、[!DNL dtm.adobe.com] での従来のログインを使用してください。
 * 既知の問題により、リンクされた Analytics アカウントによって所有されていないレポートスイートをオーディエンス共有できません。現在、改善に取り組んでいます。
 
 ## リリース 15.3.2 - 2015年3月19日 {#section_07760FD9CA43497FA8BDCCA990A24BFD}
@@ -353,7 +353,7 @@ With this update, administrators may see changes or additions to the Admin Conso
  <tbody> 
   <tr> 
    <td colname="col1"> <p>顧客属性 </p> </td> 
-   <td colname="col2"> <p>大規模法人の顧客データを顧客関係管理（CRM）データベースに取り込んでいる場合は、そのデータをExperience Cloudの顧客属性データソースにアップロードできます。 データをアップロードした後、Analytics で<span class="uicontrol">訪問者プロファイル</span>／<span class="uicontrol">顧客属性</span>レポートを実行できます。 </p> <p>アップロードしたデータを <span class="keyword">Adobe Target</span> でオーディエンスセグメントとして使用することもできます。 </p> <p><a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">顧客属性</a>製品ドキュメントを参照してください。 </p> <p> コアサービス用ソリューションの最新化については<a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">コアサービス用アプリケーションの有効化</a>を参照してください。  </p> </td> 
+   <td colname="col2"> <p>エンタープライズ顧客データを顧客関係管理（CRM）データベースに取り込んでいる場合は、そのデータを Experience Cloud の顧客属性データソースにアップロードできます。データをアップロードした後、Analytics で<span class="uicontrol">訪問者プロファイル</span>／<span class="uicontrol">顧客属性</span>レポートを実行できます。 </p> <p>アップロードしたデータを <span class="keyword">Adobe Target</span> でオーディエンスセグメントとして使用することもできます。 </p> <p><a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">顧客属性</a>製品ドキュメントを参照してください。 </p> <p> コアサービス用ソリューションの最新化については<a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">コアサービス用アプリケーションの有効化</a>を参照してください。  </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -374,7 +374,7 @@ With this update, administrators may see changes or additions to the Admin Conso
   </tr> 
   <tr> 
    <td colname="col1"> <p>1 対多のマッピング </p> </td> 
-   <td colname="col2"> <p>Experience Cloudでアプリケーションアカウントをリンクするときに、複数のアプリケーションと組織がある場合、複数の製品とサービスを 1 つの組織にマッピングできるようになりました。 </p> </td> 
+   <td colname="col2"> <p>Experience Cloud でアプリケーションアカウントをリンクするときに、複数のアプリケーションと組織がある場合、複数の製品とサービスを 1 つの組織にマッピングできるようになりました。 </p> </td> 
   </tr> 
     <tr> 
    <td colname="col1"> <p>ドキュメントの更新 - コアサービス </p> </td> 
@@ -423,13 +423,13 @@ With this update, administrators may see changes or additions to the Admin Conso
 * ユーザー管理で行ったグループおよび資格の変更が新規ログイン後にしか有効になりません。
 * 大きなファイルを Experience Cloud アセットにアップロードするときに問題が生じる場合があります。
 * ユーザーが Advertising Cloud から取り出した Experience Cloud カードにリンクがない場合があります。
-* 一部の管理者ユーザーは、Experience Cloudへの招待を受け入れた後に、アカウントのリンクに関して問題が発生することがあります。
+* 管理権限のあるユーザーが Experience Cloud への参加の招待を受け入れた後に、アカウントのリンクに関して問題が生じる場合があります。
 * 複数のユーザーが同時に使用すると Experience Cloud インターフェイスのパフォーマンスが低下する可能性があります。
 * 古くなったアセットに関するエラー通知を受信する代わりに、そのアセットを削除できてしまう場合があります。
 * 同じ Adobe ID で 2 つのブラウザーに同時にログインすると問題が生じる場合があります。
 * Creative Cloud ユーザーを削除した後、Creative Cloud ユーザーを共有フォルダーに再び追加できない場合があります。
-* 一部のユーザーでは、フォルダーがExperience CloudからCreative Cloudに共有される際に、通知で遅延が発生することがあります。
-* 一部のユーザーにとって、Experience CloudーとCreative Cloudの間でフォルダーを共有する際に問題が発生する可能性があります。
+* フォルダーを Experience Cloud から Creative Cloud へ共有するときにユーザーへの通知が遅れる場合があります。
+* フォルダーを Experience Cloud と Creative Cloud の間で共有するときに問題が生じる場合があります。
 * 共有オーディエンスを有効にした後、Analytics レポートスイート内でのオーディエンスの作成がうまくいかなくなることがあります。
 * ボードへのアセットのアップロードで問題が発生する場合があります。
 
@@ -588,7 +588,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 * [!DNL Search&Promote] リンクが[!UICONTROL 組織と製品へのアクセス]ページから利用できません。
 * [!DNL Analytics] からトレンドレポートに適用したフィルターが、[!DNL Experience Cloud] のカードに適用されません。
 * 一部のユーザーは、オーディエンス管理アカウントを [!DNL Experience Cloud] アカウントにリンクできません。
-* 無操作状態が 15 分間続くとログアウトします。また、特定の場所でログアウトすると、Experience Cloudからログアウトします。
+* 無操作状態が 15 分間続くとログアウトします。また、特定の場所でログアウトすると、Experience Cloud からもログアウトされます。
 * 一部の Exchange ユーザーは、コメント内のユーザー名を検索して、名前の代わりに長い文字列の ID にすることができます。
 
 **修正点**
