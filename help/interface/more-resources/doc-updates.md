@@ -1,0 +1,137 @@
+---
+description: Adobe Experience Cloud ヘルプのアップデートに関する情報。
+solution: Experience Cloud
+title: ドキュメントの更新
+uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
+topic: Administration
+role: Admin
+level: Experienced
+exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
+source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
+workflow-type: tm+mt
+source-wordcount: '546'
+ht-degree: 80%
+
+---
+
+# ドキュメントの更新 - Experience Cloud
+
+Experience Cloud製品ドキュメントのアップデートに関する情報です。
+
+**2024 年 4 月 26 日（Pt）**
+
+ドキュメントアーキテクチャを完全に刷新しました。 さらに追加されました [Adobe Experience Cloudの IP アドレス](../data-collection/ip-addresses.md) および [地域データ収集](../data-collection/rdc.md).
+
+**2024 年 4 月 9 日（Pt）**
+
+全般的なアップデート。
+
+**2022 年 2 月 28 日（Pt）**
+
+[統合検索](../features/search.md)用のページを追加しました
+
+**2022 年 2 月 8 日（Pt）**
+
+[組織 ID](../administration/organizations.md) 検索方法に対する更新。
+
+**2022 年 12 月 12 日（Pt）**
+
+[管理に関する FAQ](faq.md) を更新し、アドビサポートが問題のトラブルシューティングを行うためにアドビクラウド環境にアクセスする仕組みに関する情報を掲載しました。
+
+**2021 年 10 月 28 日（Pt）**
+
+| 機能 | 説明 |
+| ------- | ------- |
+| ホームページ | Experience Cloud ホームのフッター情報は、環境設定の法律上の注意事項や言語の選択など、ユーザープロファイルカードに移動されました。 |
+| AEP ダッシュボード | [!DNL Helios Lite] の Experience Platform ウィジェット作成ワークフローで、グラフのレコメンデーションが表示されます。データ選択（現在は単一変数データ選択）を指定した場合、helios はそのデータ選択に伴う適切なビジュアライゼーションを推奨します。 |
+| AEP ダッシュボード | [!DNL Instory] は、グラフに ML ベースの書き込みナレーションとキャプションを提供します。AEP ダッシュボードページのグラフに、データの大きな変更点やインシデントを示す箇条書きを追加します。 |
+
+**2021 年 10 月 13 日（Pt）**
+
+| 機能 | 説明 |
+| ------- | ------- |
+| 統合検索 | 統合検索では、引き続き検索インデックスにオブジェクトタイプが追加されます。この更新では、グローバル検索で、Experience League コンテンツ全体と次の Journey Optimizer オブジェクトタイプが検索されるようになりました。 <ul><li>データセット</li><li>宛先</li><li>クエリ</li><li>スキーマ</li><li>セグメント</li><li>ソース</li><li>オファー</li><li>コンポーネント</li><li>メッセージ</li><li>ジャーニー</li></ul> |
+| 製品の使用状況データへの同意 | 初回ログイン時に、Experience Cloud 製品の使用状況データに基づいて、チュートリアル、ガイド、クイックヒント、レコメンデーション、学習用ビデオなどのパーソナライズされた有用なコンテンツをアドビから提供することに関して、環境設定を送信するよう求められます。このリクエストでは、これらのデータの収集と使用に関する環境設定を <https://experience.adobe.com/preferences> で更新することも求められます。 |
+
+**2021 年 8 月 24 日（Pt）**
+
+[中央コンポーネント](../experience-cloud.md) ページ（このガイドのランディングページ）を更新しました。 ブラウザーと言語のサポート、組織の更新、ログイン、ドメインに関する情報の追加がおこなわれました。
+
+**2021 年 8 月 6 日（Pt）**
+
+[ファーストパーティ Cookie](../data-collection/adobe-managed-cert.md) を更新しました。
+
+**2021 年 6 月 4 日（Pt）**
+
+ガイドの構造と目次を再構成しました。
+
+**2021 年 6 月 1 日（Pt）**
+
+[ランディングページ](../experience-cloud.md)を更新し、Experience Cloud、グローバル検索、環境設定および通知へのアクセスに関する新しいヘルプを追加しました。
+
+**2020 年 8 月 19 日（Pt）**
+
+[Experience Cloud ユーザーの詳細の表示（管理ツール）](../administration/admin-tool-experience-cloud.md)をポリシー情報に更新しました。
+
+**2020 年 5 月 19 日（Pt）**
+
+オファー管理に関するドキュメントが廃止されました。
+
+**2020 年 5 月 15 日（Pt）**
+
+次のページが追加されました：
+
+* [EU 一般データ保護規則のサポート](../services/customer-attributes/gdpr.md)
+* [カリフォルニア消費者プライバシー法のサポート](../services/customer-attributes/ccpa.md)
+
+**2020 年 3 月 10 日（Pt）**
+
+ファーストパーティ cookie の節の[ホスト名転送の検証](../data-collection/adobe-managed-cert.md)を更新しました。
+
+**2020 年 2 月 20 日（Pt）**
+
+[Experience Cloud ユーザーの詳細の表示（管理ツール）](../administration/admin-tool-experience-cloud.md)を追加しました。
+
+**更新：2018年9月5日（PT）**
+
+顧客属性の削除方法を追加しました。[（オプション）スキーマの更新（属性の削除）](../services/customer-attributes/t-crs-usecase.md)を参照してください。
+
+**2018 年 6 月 8 日（Pt）**
+
+複数のファイルのアップロードについての情報を用いて、[顧客属性のデータファイルとデータソースについて](../services/customer-attributes/crs-data-file.md)を更新しました。
+
+**2018 年 6 月 6 日（Pt）**
+
+コンテンツおよび画面の一般的な更新。
+
+**2018 年 1 月 17 日（Pt）**
+
+再構成とリンクの更新。
+
+**2017 年 12 月 29 日（Pt）**
+
+最新リリースのガイドを改訂しました。
+
+**2017 年 3 月 15 日（Pt）**
+
+「[オーディエンスの作成](../services/audiences/create.md)」の生の Analytics データの定義を更新しました。
+
+**2016 年 5 月 9 日（Pt）**
+
+統合ドキュメントを集めた「[Experience Cloud の統合](../administration/integrations.md)」を追加しました。
+
+**2016 年 2 月 11 日（Pt）**
+
+「[Experience Cloud Assets](../services/assets/experience-cloud-assets.md)」を追加しました。
+
+**2015 年 1 月 15 日（Pt）**
+
+「Experience Cloud のユーザーは、Creative Cloud とフォルダーを共有して、アセットとコメントを相互に同期できるようになりました。」という記述を追加しました。[アセットの共有](../services/assets/creative-cloud.md)を参照してください。
+
+**2014 年 7 月 17 日（Pt）**
+
+管理者向け [Experience Cloud FAQ](faq.md) を追加しました。
+
+**2014 年 5 月 22 日（Pt）**
+
+のドキュメントを追加しました [オーディエンス](../services/audiences/overview.md)
