@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+source-git-commit: 028b11dfbcfc0c5c9f6fd1c69350574f81f2846b
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '929'
 ht-degree: 11%
 
 ---
@@ -155,7 +155,7 @@ Adobeは DigiCert と連携して SHA-2 証明書を発行します。
 
 +++サポートされている HTTPS 証明書の種類は何ですか？
 
-Adobeは、RSA 証明書と ECC 証明書の両方をサポートし、お客様の多様なニーズに対応します。 RSA 証明書はクライアントに対してより広くサポートされていますが、ECC 証明書はサーバ側とクライアント側の両方で処理が少なくて済みます。 Adobeが管理する証明書の場合は、RSA と ECC の両方が提供されます。 お客様が管理する証明書の場合は、RSA と ECC の両方をお勧めします。 最新のクライアントは、RSA と ECC の両方をサポートしています。 次のクライアントは、通常、RSA 証明書のみをサポートします。
+Adobeは、RSA 証明書と ECC 証明書の両方をサポートし、お客様の多様なニーズに対応します。 RSA 証明書はクライアントに対してより広くサポートされていますが、ECC 証明書はサーバ側とクライアント側の両方で処理が少なくて済みます。 Adobeが管理する証明書の場合は、RSA と ECC の両方が提供されます。 顧客が管理する証明書の場合は、RSA が必要であり、ECC が推奨されます。 最新のクライアントは、RSA と ECC の両方をサポートしています。 次のクライアントは、通常、RSA 証明書のみをサポートします。
 
 * Windows Vista 以前（最終更新は 2012 年）
 * Windows Phone 8.0 以前（最終更新は 2014年）
