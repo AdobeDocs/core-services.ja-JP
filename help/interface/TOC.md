@@ -5,10 +5,10 @@ breadcrumb-title: Experience Cloud インターフェイスと管理ガイド
 title: Experience Cloud インターフェイスと管理ガイド
 description: Experience Cloud インターフェイスとユーザーアカウントの環境設定について説明します。 ビジネスオブジェクトの検索方法、およびユーザーと製品の管理方法について説明します。 顧客属性、オーディエンスライブラリ、Cookie を設定し、Experience Cloud Assets を共有します。
 index: true
-source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
+source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 85%
+source-wordcount: '227'
+ht-degree: 80%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 85%
 
 + [Experience Cloud の主要なインターフェイスコンポーネントガイド](experience-cloud.md)
 
-+ Experience Cloud サービス {#services}
-   + [Experience Cloud サービス](services/overview.md)
++ サービス {#services}
+   + [概要](services/overview.md)
    + [はじめに](services/getting-started.md)
    + Assets {#assets}
-      + [Experience Cloud Assets の概要](services/assets/experience-cloud-assets.md)
-      + [Experience Cloud フォルダーおよびアセットの Creative Cloud との共有](services/assets/creative-cloud.md)
+      + [概要](services/assets/experience-cloud-assets.md)
+      + [フォルダーとアセットのCreative Cloudとの共有](services/assets/creative-cloud.md)
       + [Creative Cloud ユーザーの管理](services/assets/manage-cc-users.md)
-      + [Experience Cloud アセットフォルダーの共有](services/assets/share.md)
+      + [アセットフォルダーの共有](services/assets/share.md)
       + [共有フォルダーへのアセットのアップロード](services/assets/upload.md)
       + [アセットファイルを共有するための要件](services/assets/file-reqs.md)
       + [共有フォルダーの動作](services/assets/behavior.md)
@@ -46,17 +46,17 @@ ht-degree: 85%
       + [顧客属性のプライバシーに関する考慮事項](services/customer-attributes/privacy-mac.md)
    + [トリガー](services/triggers.md)
 
-+ Experience Cloudの機能 {#features}
++ 機能 {#features}
    + [アカウント設定](features/account-preferences.md)
    + [統合検索](features/search.md)
    + [パーソナライズされたラーニング](features/personalized-learning.md)
 
-+ Experience Cloud 管理 {#administration}
-   + [Experience Cloud ユーザーの詳細の表示（管理ツール）](administration/admin-tool-experience-cloud.md)
++ 管理 {#administration}
+   + [ユーザーの詳細の表示（管理ツール）](administration/admin-tool-experience-cloud.md)
    + [組織とアカウントのリンク](administration/organizations.md)
-   + [Experience Cloud の統合](administration/integrations.md)
+   + [統合](administration/integrations.md)
 
-+ Experience Cloudデータ収集 {#data-collection}
++ データ収集 {#data-collection}
    + [Adobe管理証明書プログラム](data-collection/adobe-managed-cert.md)
    + [IP アドレス](data-collection/ip-addresses.md)
    + [ドメイン](data-collection/domains.md)

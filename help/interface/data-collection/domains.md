@@ -1,28 +1,31 @@
 ---
 description: Experience Cloudで使用されるドメインについて説明します。
-title: Experience Cloudドメイン
+title: Adobe Experience Cloudが使用するドメイン
 feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
-source-git-commit: f4833da7ff9e9a04338c632e4bb2bd742bafbf09
+exl-id: a15918f0-c03b-4d32-a254-47f46023b127
+source-git-commit: df91266d6a15c74e3f110050338498062cc34058
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 28%
+source-wordcount: '101'
+ht-degree: 18%
 
 ---
 
-# Experience Cloud ドメイン {#domains}
+# Adobe Experience Cloudが使用するドメイン
 
-Experience Cloudでは、以下のホストを使用して、アプリケーションの配信、パフォーマンスの向上、製品エクスペリエンスの向上を行います。 Adobeは、最適なエクスペリエンスを実現するために、組織のネットワークまたはファイアウォールを通じてこれらのドメインを許可することをお勧めします。 他のExperience Cloud製品やサービスは、独自のドメインを使用します。詳しくは、それらのアプリケーションのドキュメントを確認してください。
+Experience Cloudでは、以下のホストを使用して、アプリケーションの配信、パフォーマンスの向上、製品エクスペリエンスの向上を行います。 Adobeは、最適なエクスペリエンスを実現するために、組織のネットワークまたはファイアウォールを通じてこれらのドメインを許可することをお勧めします。
+
+以下に示すドメインに加えて、個々のAdobe Experience Cloud製品には、使用する独自のドメインがあります。
 
 * Adobe Analytics
 * Customer Journey Analytics
 
 | 技術 | ドメイン |
 | --- | --- |
-| Adobe Experience Cloud ドメイン | `adobe.com`、`adobe.net`、`adobe.io` |
+| Adobeドメイン | `adobe.com`、`adobe.net`、`adobe.io` |
 | Adobe Identity Management サービス（IMS） | `adobelogin.com` |
-| Experience Cloud フォント | `typekit.net` |
+| フォント | `typekit.net` |
 | データ収集（製品のパフォーマンスおよび使用目的） | `adobedtm.com` |
 | Gainsight（製品ガイダンスおよびヘルプ用） | `esp.aptrinsic.com` |

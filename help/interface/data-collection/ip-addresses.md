@@ -1,26 +1,25 @@
 ---
-title: Adobe Experience Cloudの IP アドレス
+title: Adobe Experience Cloudで使用される IP アドレス
 description: 組織のファイアウォールで、アドビから派生する IP アドレスがブロックされている場合は、このリストを使用してファイアウォール設定を更新してください。
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+source-git-commit: df91266d6a15c74e3f110050338498062cc34058
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 27%
+source-wordcount: '373'
+ht-degree: 24%
 
 ---
 
-# Adobe Experience Cloudの IP アドレスとドメイン
+# Adobe Experience Cloudで使用される IP アドレス
 
 一部のファイアウォール構成では、アドビのデータ収集サーバーまたはデータにアクセスするためのサーバーの IP アドレスをブロックするものがあります。この範囲リストを使用して、組織のファイアウォール設定を変更し、組織内からのアクセスを許可したり、データを送信したりできます。 このページには、Adobeで使用される受信システム（データ収集など）と送信システム（Adobe Analyticsのデータフィードなど）の両方が含まれます。
 
 >[!IMPORTANT]
 >
->Adobeは、このドキュメントを最新の状態に保つために最善を尽くしますが、IP 範囲のリストが同じままであることを保証することはできません。 ビジネスの拡大や拡大、インターネットレジストリの変更によるAdobeの IP アドレス空間の変更、インターネットサービスプロバイダーの機能停止などの変化が考えられます。
+>Adobeは、このドキュメントを最新の状態に保つために最善を尽くしますが、IP 範囲のリストが同じままであることを保証することはできません。 ビジネスの拡大や拡大、インターネットレジストリの変更によるAdobeの IP アドレス空間の変更、インターネットサービスプロバイダーの機能停止などが考えられます。
 
-以下に示す IP アドレスブロックに加えて、個々のAdobe Experience Cloud製品には、使用する独自のドメインがあります。
+以下に示す IP アドレスブロックに加えて、個々のAdobe Experience Cloud製品には、使用する独自の IP アドレスが割り当てられています。
 
-* [Adobe Experience Cloud](domains.md)
-* Adobe Analytics
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
 * Customer Journey Analytics
 
 ## すべての Adobe IP アドレスブロック
