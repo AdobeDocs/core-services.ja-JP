@@ -8,7 +8,7 @@ index: true
 source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 80%
+ht-degree: 92%
 
 ---
 
@@ -57,19 +57,19 @@ ht-degree: 80%
    + [統合](administration/integrations.md)
 
 + データ収集 {#data-collection}
-   + [Adobe管理証明書プログラム](data-collection/adobe-managed-cert.md)
+   + [アドビの管理による証明書プログラム](data-collection/adobe-managed-cert.md)
    + [IP アドレス](data-collection/ip-addresses.md)
    + [ドメイン](data-collection/domains.md)
    + Cookie {#cookies}
       + [Cookie の概要](data-collection/cookies/overview.md)
-      + [広告の cookie](data-collection/cookies/advertising.md)
+      + [Advertising の cookie](data-collection/cookies/advertising.md)
       + [Analytics の cookie](data-collection/cookies/analytics.md)
       + [Audience Manager の cookie](data-collection/cookies/audience-manager.md)
       + [Experience Cloud の cookie ](data-collection/cookies/experience-cloud.md)
       + [Target の Cookie](data-collection/cookies/target.md)
       + [Web SDK の cookie](data-collection/cookies/web-sdk.md)
    + [地域データ収集](data-collection/rdc.md)
-   + [DNS プリフェッチを使用](data-collection/dns-prefetch.md)
+   + [DNS プリフェッチの使用](data-collection/dns-prefetch.md)
 
 + その他のリソース {#more-resources}
    + [リリースノート](more-resources/release-notes.md)
