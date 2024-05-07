@@ -6,9 +6,9 @@ title: Experience Cloud インターフェイスと管理ガイド
 description: Experience Cloud インターフェイスとユーザーアカウントの環境設定について説明します。 ビジネスオブジェクトの検索方法、およびユーザーと製品の管理方法について説明します。 顧客属性、オーディエンスライブラリ、Cookie を設定し、Experience Cloud Assets を共有します。
 index: true
 source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '227'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 92%
    + [はじめに](services/getting-started.md)
    + Assets {#assets}
       + [概要](services/assets/experience-cloud-assets.md)
-      + [フォルダーとアセットのCreative Cloudとの共有](services/assets/creative-cloud.md)
+      + [フォルダーおよびアセットの Creative Cloud との共有](services/assets/creative-cloud.md)
       + [Creative Cloud ユーザーの管理](services/assets/manage-cc-users.md)
       + [アセットフォルダーの共有](services/assets/share.md)
       + [共有フォルダーへのアセットのアップロード](services/assets/upload.md)
