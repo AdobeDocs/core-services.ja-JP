@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 9ee4d9b0e670dec35cda530892c49e36bf7cc107
+source-git-commit: b3484afe7ed1e015030f73ea0a25b921c32d81dd
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 100%
+source-wordcount: '192'
+ht-degree: 90%
 
 ---
 
@@ -28,7 +28,7 @@ Experience Cloud のこれらのサービスにアクセスするには、**[!UI
 | コアサービス | 説明 |
 |--- |--- |
 | [中央インターフェイスコンポーネント](../experience-cloud.md) | アカウント設定にアクセスし、製品ヘルプを検索して、アプリケーションとサービスにアクセスします。 |
-| [People - [!DNL Audience Library]](audiences/overview.md) | オーディエンスは、訪問者の集合（訪問者 ID のリスト）です。アドビの [!DNL Audience Library] で、訪問者データからオーディエンスのセグメント化への変換を管理します。  |
+| [People - [!DNL Audience Library]](audiences/overview.md) | オーディエンスは、訪問者の集合（訪問者 ID のリスト）です。Adobe [!DNL Audience Library] 訪問者データからオーディエンスのセグメント化への変換を管理できます。 |
 | [People - 顧客属性](customer-attributes/attributes.md) | イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築できます。[!UICONTROL Journey Orchestration] は、Experience Platform と統合されたアプリケーションサービスです。 |
 | [Assets](assets/experience-cloud-assets.md) | Experience Cloud Assets は、複数のアプリケーション間で共有できるマーケティング用アセットの単一の集中リポジトリを提供します。 |
 
@@ -36,4 +36,4 @@ Experience Cloud のこれらのサービスにアクセスするには、**[!UI
 
 >[!NOTE]
 >
->Experience Platform に関する製品ドキュメントは[こちら](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja)を参照してください。[!UICONTROL Experience Platform] 開発者向けの技術ドキュメントは、[Adobe Developer](https://developer.adobe.com/apis) にあります。
+>製品ドキュメント [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja) が利用可能です。 [!UICONTROL Experience Platform] 開発者向けの技術ドキュメントは、[Adobe Developer](https://developer.adobe.com/apis) にあります。
