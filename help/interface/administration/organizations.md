@@ -1,5 +1,5 @@
 ---
-description: 組織（IMS 組織 ID）の概要と、ソリューションアカウントの Experience Cloud へのリンクについて説明します。
+description: 組織（IMS 組織 ID）と、ソリューションアカウントの Experience Cloud へのリンクについて説明します。
 solution: Experience Cloud
 title: 組織とアカウントのリンク
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
+source-git-commit: 0724136e77d6fe1341a64aea75051127956df3b2
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 69%
+ht-degree: 64%
 
 ---
 
@@ -23,7 +23,7 @@ An *組織* （組織 ID）は、管理者がグループおよびユーザー�
 
 ![Experience Cloud機関](../assets/organizations-menu.png)
 
-正しい組織にログインしたことを確認するには、プロファイルのアバターをクリックして組織名を表示します。複数の組織にアクセスできる場合は、ヘッダーバーで別の組織を表示して切り替えることもできます。
+正しい組織にログインしていることを確認するには、プロファイルのアバターをクリックして組織名を表示します。 複数の組織にアクセスできる場合は、ヘッダーバーで別の組織を表示して切り替えることもできます。
 
 ## 連合 ID
 
@@ -45,7 +45,7 @@ An *組織* （組織 ID）は、管理者がグループおよびユーザー�
 
    ![割り当てられた組織 ID](../assets/assigned-organization.png)
 
-1. 次の下 **[!UICONTROL ユーザー情報]**、を探します **[!UICONTROL 現在の組織 ID]**&#x200B;に設定すると、組織 ID が表示されます。
+1. 次の下 **[!UICONTROL ユーザー情報]**、を探します **[!UICONTROL 現在の組織 ID]**&#x200B;を選択して、組織 ID を見つけることができます。
 
    または、管理者がAdmin Consoleにログインすることができます（に移動） [https://adminconsole.adobe.com](https://adminconsole.adobe.com)）を選択し、URL で組織 ID を表示します。
 
@@ -87,7 +87,7 @@ An *組織* （組織 ID）は、管理者がグループおよびユーザー�
 
 ![プロファイルを編集](../assets/edit-profile.png)
 
-デフォルトの組織およびランディングページでは、ログインエクスペリエンスをカスタマイズできます。
+次の下 **[!UICONTROL デフォルトの組織およびランディングページ]**&#x200B;を使用すると、ログインエクスペリエンスをカスタマイズできます。
 
 ![デフォルトの組織およびランディングページ](../assets/default-organization.png)
 
