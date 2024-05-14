@@ -1,6 +1,6 @@
 ---
 title: ユーザーとユーザーの詳細の表示
-description: Experience Cloudの管理ツールについて説明します。 すべてのExperience Cloudユーザーおよびポリシーの、並べ替え可能でフィルタリング可能なリストを表示します。
+description: Experience Cloud の管理ツールについて説明します。すべての Experience Cloud ユーザーとポリシーの並べ替えおよびフィルタリング可能なリストを表示します。
 application: Experience Cloud
 index: true
 feature: Admin Console
@@ -11,7 +11,7 @@ exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
 source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
 workflow-type: tm+mt
 source-wordcount: '1260'
-ht-degree: 83%
+ht-degree: 85%
 
 ---
 
