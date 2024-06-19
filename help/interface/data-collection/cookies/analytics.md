@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+source-git-commit: e7c4085f41c674826ddc097a01a24ff9ab6aae2c
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '379'
 ht-degree: 16%
 
 ---
@@ -28,6 +28,7 @@ Analytics では、新しい訪問者を匿名で定義する手段、クリッ�
 | **`s_sq`** | Session | 100～200 バイト | ファーストパーティ | Activity Mapが使用します。 訪問者がクリックした前のリンクに関する情報が含まれます。 JavaScript で設定。 |
 | **`s_vi`** | 2 年。 | 44 バイト。 | ファーストパーティ `*.omtrdc.net` （サードパーティ） | ユニーク訪問者 ID とタイムスタンプを格納します。 HTTP 応答で設定します。 各訪問者 ID は、Adobeサーバーの訪問者プロファイルに関連付けられます。 訪問者プロファイルは、訪問者 ID cookie の有効期限に関係なく、1 年間無操作状態が続くと削除されます。 この `Secure` フラグが設定されるのは、 `SameSite` は「なし」、接続は HTTPS です。 `SameSite` は、ファーストパーティ cookie の場合、デフォルトでは「Lax」です。 `SameSite` 次に示すようなサードパーティ cookie を使用している場合は「なし」になります `omtrdc.net` または `2o7.net`. を設定 `SameSite` 1 つの CNAME を使用して複数のドメインまたはプロパティを追跡する場合は、「なし」に設定します。 |
 | **`s_fid`** | 2 年。 | 33 バイト。 | ファーストパーティ | フォールバックユニーク訪問者 ID とタイムスタンプを格納します。 規格が次の場合は JavaScript で設定 `s_vi` サードパーティ cookie の制限により、cookie を設定できない。 ファーストパーティ cookie の実装には使用されません。 |
+| **`s_ac`** | 即時 | 1 バイト | ファーストパーティ | AppMeasurement Cookie を設定する適切なドメインを判断するのに役立ちます。 静的な値を含む `"1"`. この cookie は、設定されると直ちに削除されます。 |
 
 {style="table-layout:auto"}
 
