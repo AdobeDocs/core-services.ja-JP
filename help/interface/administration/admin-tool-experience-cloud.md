@@ -1,6 +1,6 @@
 ---
 title: ユーザーとユーザーの詳細の表示
-description: Experience Cloud の管理ツールについて説明します。すべての Experience Cloud ユーザーとポリシーの並べ替えおよびフィルタリング可能なリストを表示します。
+description: Experience Cloud の管理ツールについて説明します。 すべての Experience Cloud ユーザーとポリシーの並べ替えおよびフィルタリング可能なリストを表示します。
 application: Experience Cloud
 index: true
 feature: Admin Console
