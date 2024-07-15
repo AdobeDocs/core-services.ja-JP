@@ -17,11 +17,11 @@ ht-degree: 64%
 
 # Experience Cloud の組織
 
-An *組織* （組織 ID）は、管理者がグループおよびユーザーを設定し、Experience Cloudでシングルサインオンを制御するために使用するエンティティです。
+*組織* （組織 ID）は、管理者がグループおよびユーザーを設定し、シングルサインオンのExperience Cloudを制御するために使用するエンティティです。
 
 この組織は、Experience Cloud のすべての製品とアプリケーションにまたがるログイン会社のように機能します。ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。
 
-![Experience Cloud機関](../assets/organizations-menu.png)
+![Experience Cloud組織 ](../assets/organizations-menu.png)
 
 正しい組織にログインしていることを確認するには、プロファイルのアバターをクリックして組織名を表示します。 複数の組織にアクセスできる場合は、ヘッダーバーで別の組織を表示して切り替えることもできます。
 
@@ -37,17 +37,17 @@ An *組織* （組織 ID）は、管理者がグループおよびユーザー�
 
 組織 ID は、プロビジョニングされている Experience Cloud の会社に関連付けられた ID です。この ID は 24 文字の英数字から成る文字列の後に `@AdobeOrg`（必須）を付けたものです。
 
-キーボードショートカットを使用して、組織 ID を他のアカウント情報と共に表示できます **Ctrl+i** どのページからでも `https://experience.adobe.com`.
+`https://experience.adobe.com` の任意のページからキーボードショートカット **Ctrl+i** を使用して、組織 ID を他のアカウント情報と共に表示できます。
 
 **組織 ID を表示するには**
 
-1. 対象： [Experience Cloud](https://experience.adobe.com)を押す **Ctrl+i** キーボードの
+1. [Experience Cloud](https://experience.adobe.com) で、キーボードの **Ctrl+i** キーを押します。
 
    ![割り当てられた組織 ID](../assets/assigned-organization.png)
 
-1. 次の下 **[!UICONTROL ユーザー情報]**、を探します **[!UICONTROL 現在の組織 ID]**&#x200B;を選択して、組織 ID を見つけることができます。
+1. **[!UICONTROL ユーザー情報]** の下で **[!UICONTROL 現在の組織 ID]** を探すと、組織 ID を見つけることができます。
 
-   または、管理者がAdmin Consoleにログインすることができます（に移動） [https://adminconsole.adobe.com](https://adminconsole.adobe.com)）を選択し、URL で組織 ID を表示します。
+   または、管理者がAdmin Console（[https://adminconsole.adobe.com](https://adminconsole.adobe.com) に移動）にログインし、URL で組織 ID を表示することができます。
 
    例として、次の URL を見てみましょう。
 
@@ -65,7 +65,7 @@ An *組織* （組織 ID）は、管理者がグループおよびユーザー�
 
 1. Adobe ID または Enterprise ID を使用してログインします。
 
-1. アプリケーションセレクターを選択します。 （ ![メニュー](../assets/menu-icon.png)）に設定します。
+1. アプリケーションセレクターを選択します。 （![ メニュー ](../assets/menu-icon.png)）。
 
    ![アプリケーションアカウントを Adobe ID にリンクする](../assets/solutions-active.png)
 
@@ -87,7 +87,7 @@ An *組織* （組織 ID）は、管理者がグループおよびユーザー�
 
 ![プロファイルを編集](../assets/edit-profile.png)
 
-次の下 **[!UICONTROL デフォルトの組織およびランディングページ]**&#x200B;を使用すると、ログインエクスペリエンスをカスタマイズできます。
+**[!UICONTROL デフォルトの組織およびランディングページ]** では、ログインエクスペリエンスをカスタマイズできます。
 
 ![デフォルトの組織およびランディングページ](../assets/default-organization.png)
 

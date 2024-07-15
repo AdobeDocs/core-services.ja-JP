@@ -1,8 +1,8 @@
 ---
 source-git-commit: 58ccef353b492b1c2adfbb8c2471e1f92263e6e4
-workflow-type: ht
-source-wordcount: '329'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '326'
+ht-degree: 99%
 
 ---
 # 説明

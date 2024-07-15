@@ -1,5 +1,5 @@
 ---
-title: アセットを共有するためのファイル要件
+title: Assetsを共有するためのファイル要件
 description: Adobe Experience Cloud と Creative Cloud の間で共有できるアセットのファイルタイプとサイズ制限について説明します。
 solution: Experience Cloud
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0

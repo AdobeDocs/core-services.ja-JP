@@ -28,7 +28,7 @@ Experience Cloud のこれらのサービスにアクセスするには、**[!UI
 | コアサービス | 説明 |
 |--- |--- |
 | [中央インターフェイスコンポーネント](../experience-cloud.md) | アカウント設定にアクセスし、製品ヘルプを検索して、アプリケーションとサービスにアクセスします。 |
-| [People - [!DNL Audience Library]](audiences/overview.md) | オーディエンスは、訪問者の集合（訪問者 ID のリスト）です。Adobe [!DNL Audience Library] 訪問者データからオーディエンスのセグメント化への変換を管理できます。 |
+| [People - [!DNL Audience Library]](audiences/overview.md) | オーディエンスは、訪問者の集合（訪問者 ID のリスト）です。Adobeの [!DNL Audience Library] を使用すると、訪問者データからオーディエンスのセグメント化への変換を管理できます。 |
 | [People - 顧客属性](customer-attributes/attributes.md) | イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築できます。[!UICONTROL Journey Orchestration] は、Experience Platform と統合されたアプリケーションサービスです。 |
 | [Assets](assets/experience-cloud-assets.md) | Experience Cloud Assets は、複数のアプリケーション間で共有できるマーケティング用アセットの単一の集中リポジトリを提供します。 |
 
@@ -36,4 +36,4 @@ Experience Cloud のこれらのサービスにアクセスするには、**[!UI
 
 >[!NOTE]
 >
->製品ドキュメント [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja) が利用可能です。 [!UICONTROL Experience Platform] 開発者向けの技術ドキュメントは、[Adobe Developer](https://developer.adobe.com/apis) にあります。
+>[ 製品 ](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja) のExperience Platformドキュメントが利用可能です。 [!UICONTROL Experience Platform] 開発者向けの技術ドキュメントは、[Adobe Developer](https://developer.adobe.com/apis) にあります。

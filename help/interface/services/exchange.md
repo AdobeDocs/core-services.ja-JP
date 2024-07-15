@@ -7,13 +7,13 @@ feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+exl-id: 77e56cbe-92b6-4b18-ba13-e8178369e57c
+source-git-commit: b4d7cc357393798f2265e09885dd4ea2f80ab31e
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 93%
 
 ---
-
 
 # Adobe Exchange
 
@@ -31,7 +31,7 @@ Exchange Marketplace にアクセスすると、各種の連携ツールの検�
 
 * アプリケーションを却下または承認します。
 
-* Experience Cloudで公開。
+* Experience CloudのPublish。
 
 * カテゴリ、会社、タイプ、ユーザー、その他で検索およびフィルタリングします。
 

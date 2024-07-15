@@ -45,7 +45,7 @@ ht-degree: 94%
 **オーディエンスを作成するには、以下を実行します。**
 
 1. [!DNL Experience Cloud] の [!DNL Experience Platform] で、**[!UICONTROL People]**／**[!UICONTROL オーディエンスライブラリ]を選択します。**
-1. 日 [!UICONTROL オーディエンス] ページ、選択 **[!UICONTROL 新規]**. ![add](assets/add_icon_small.png)
+1. [!UICONTROL  オーディエンス ] ページで、「**[!UICONTROL 新規]**」を選択します。 ![ 追加 ](assets/add_icon_small.png)
 
    ![手順の結果](assets/audience_create_new.png)
 

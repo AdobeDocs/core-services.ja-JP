@@ -6,7 +6,8 @@ feature: Account Preferences,Notifications,Alerts
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: a4e0461791cd676365857c2dd4ef28c0e40c3430
+exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
+source-git-commit: b4d7cc357393798f2265e09885dd4ea2f80ab31e
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 72%
@@ -32,9 +33,9 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 |--- |--- |
 | デフォルトの[組織](../administration/organizations.md) | Experience Cloud の起動時に表示する組織を選択します。 |
 | [!UICONTROL 製品データ収集] | アドビ製品の使用方法に関するデータを収集するためにアドビが使用できるテクノロジーを選択します。 |
-| [!UICONTROL パーソナライズされたラーニングのレコメンデーションとプロモーション] | 受信する場所を選択 [パーソナライズされたヘルプ](personalized-learning.md) お使いのAdobe製品のために。 このヘルプは、メール、製品内およびExperience Leagueコミュニティから利用できます。 |
-| [!UICONTROL サブスクリプション] | 購入する製品とカテゴリを選択します。の通知 [!UICONTROL 通知] ポップオーバーとあなたの電子メールで。 |
-| [!UICONTROL 優先度] | 優先度が高いと見なすカテゴリを選択します。これらのカテゴリには、が付いています。 [!UICONTROL 高] タグ付けし、アラートなどの配信用に設定できます。 |
+| [!UICONTROL パーソナライズされたラーニングのレコメンデーションとプロモーション] | Adobeの商品に関する [ パーソナライズされたヘルプ ](personalized-learning.md) を受け取る場所を選択します。 このヘルプは、メール、製品内およびExperience Leagueコミュニティから利用できます。 |
+| [!UICONTROL サブスクリプション] | 購入する製品とカテゴリを選択します。[!UICONTROL  通知 ] ポップオーバーおよびメール内の通知。 |
+| [!UICONTROL 優先度] | 優先度が高いと見なすカテゴリを選択します。これらのカテゴリには [!UICONTROL  高 ] タグが付き、アラートなどの配信用に設定できます。 |
 | [!UICONTROL アラート] | ブラウザーにアラートを表示する通知を選択します。アラートは、ウィンドウの右上隅に数秒間表示されます。 |
 | メール | 通知メールの受信頻度を指定します。（送信しない、即時、毎日または毎週） |
 

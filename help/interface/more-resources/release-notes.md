@@ -20,7 +20,7 @@ ht-degree: 96%
 
 Experience Cloud の主要なインターフェイスコンポーネントの機能、リリースノートおよび既知の問題です。
 
-ドキュメントの更新のリストについては、を参照してください [ドキュメントの更新](doc-updates.md).
+ドキュメントの更新のリストについては、[ ドキュメントの更新 ](doc-updates.md) を参照してください。
 
 すべてのアプリケーションをカバーするリリースノートについては、[Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)を参照してください。
 
@@ -199,7 +199,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 * 一部の環境において新規テナントのプロビジョニングを妨げていた問題を修正しました。（CORE-15509）
 
 
-* ユーザーをにリダイレクトした問題を修正しました `experiencecloud.adobe.com` 使用 `http` の代わりに `https`. （CORE-15587）
+* `https` の代わりに `http` を使用して、ユーザーを `experiencecloud.adobe.com` にリダイレクトする問題を修正しました。 （CORE-15587）
 * 一部の新規テナントに対する通知を妨げていた問題を修正しました。（CORE-15240）
 
 ## 2018 年 6 月
@@ -246,7 +246,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 機能 | 説明 |
 |--- |--- |
-| レポートスイートの一括マッピング | 管理／レポートスイートのマッピングで、複数のレポートスイートを選択して、1 つの組織にマッピングできるようになりました（以前は、個別にマッピングする必要がありました）。<br>レポートスイートを 1 つの組織にマッピングすると、Experience Cloudのクロスアプリケーション機能とサービスを有効にするのに役立ちます。 |
+| レポートスイートの一括マッピング | 管理／レポートスイートのマッピングで、複数のレポートスイートを選択して、1 つの組織にマッピングできるようになりました（以前は、個別にマッピングする必要がありました）。<br> レポートスイートを 1 つの組織にマッピングすると、Experience Cloudのクロスアプリケーション機能とサービスを有効にするのに役立ちます。 |
 | Experience Cloud オーディエンスの更新 | **レポートスイートの適用**<br>&#x200B;すべての[オーディエンスルール](../services/audiences/create.md)にレポートスイートを適用できるようになりました（以前は、ルール定義ごとにレポートスイートを指定する必要がありました）。<br>**Prop と変数**<br>（eVar およびイベント変数に加えて）リアルタイムオーディエンスに Analytics の prop およびデフォルト変数を含めることができるようになりました。 |
 
 {style="table-layout:auto"}
@@ -384,7 +384,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 </table>
 
 * 一部の顧客の顧客属性を同期できなかった問題を修正しました。
-* [Adobe Target 製品ドキュメント](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja)ページが日本語で表示されなかった問題を修正しました。
+* [Adobe Target 製品ドキュメント](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)ページが日本語で表示されなかった問題を修正しました。
 * [!DNL Creative Cloud] と [!DNL Experience Cloud] の間のコメントで日本語のテキストが使用できなかった問題を修正しました。
 
 ## 2015 年 4 月

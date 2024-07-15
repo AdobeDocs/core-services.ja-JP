@@ -1,5 +1,5 @@
 ---
-description: データファイル要件とアップロード用の複数のデータソースについて説明します [!DNL Customer Attributes] をExperience Cloudにします。
+description: Experience Cloudにアップロードするためのデータファイル要件と複数のデータソース  [!DNL Customer Attributes]  ついて説明します。
 solution: Experience Cloud
 title: データファイルとデータソース
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
@@ -15,11 +15,11 @@ ht-degree: 89%
 
 ---
 
-# のデータファイルとデータソースについて [!DNL Customer Attributes]
+# [!DNL Customer Attributes] のデータファイルとデータソースについて
 
-データファイル要件とアップロード用の複数のデータソース [!DNL Customer Attributes] をExperience Cloudにします。
+Experience Cloudに [!DNL Customer Attributes] ータをアップロードするためのデータファイル要件および複数のデータソース。
 
-企業内の CRM データや同様のデータにアクセスする必要があります。Experience Cloudにアップロードするデータはでなければなりません `.csv` ファイル。 FTP や sFTP を利用してアップロードする場合は、`.fin` ファイルもアップロードします。
+企業内の CRM データや同様のデータにアクセスする必要があります。Experience Cloudにアップロードするデータは、`.csv` ファイルにする必要があります。 FTP や sFTP を利用してアップロードする場合は、`.fin` ファイルもアップロードします。
 
 [!DNL Customer Attributes] は、1 日に数個のファイルを処理するように設計されています。 小さなファイルを多数処理することで発生する処理の遅延を軽減するために、同じ組織から以前のバッチ後 30 分以内に送信されたファイルは、優先順位の低いキューにルーティングされます。
 
@@ -76,7 +76,7 @@ CSV ファイルは次の形式に準拠する必要があります。
   </tr> 
   <tr> 
    <td colname="col1"> <p>顧客 ID 列 </p> </td> 
-   <td colname="col2"> <p> 1 列目は一意の顧客 ID でなければなりません。使用する ID は、Experience Cloud ID サービスに渡される ID に対応している必要があります。 </p> <p>Analytics の場合は、prop または eVar に格納されている ID です。 </p> <p>Target の場合、setCustomerID 値。 </p> <p> この顧客 ID は、データベース内の各ユーザーを表すために CRM で使用する一意の ID です。残りの列は CRM から取得される属性です。アップロードする属性の数を選択します。 </p> <p>列の見出しには読みやすく、わかりやすい名前を使用することが推奨されますが、必須ではありません。アップロード後におこなうスキーマの検証の際に、アップロードされた行と列にわかりやすい名前をマッピングできます。 </p> <p> <b>顧客 ID について</b> </p> <p>通常、企業は、CRM システムからの顧客 ID を使用します。この ID は、ユーザーのログイン時に <span class="codeph">setCustomerIDs</span> 呼び出しを使用して設定されます。この ID は、Experience Cloudにアップロードされる CRM ファイル内のキーとしても使用されます。 <a href="t-crs-usecase.md" format="dita" scope="local">エイリアス ID</a> は、エイリアスデータが格納される Audience Manager のデータストアの識別子です。システムは、エイリアスをこのデータストアに（setCustomerIDs を使用して）送信します。CRM ファイルは、このデータストアのデータに適用されます。 </p> <p><span class="codeph">setCustomerIDs</span> 情報については、<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja" format="https" scope="external">顧客 ID と認証の状態</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> 1 列目は一意の顧客 ID でなければなりません。使用する ID は、Experience Cloud ID サービスに渡される ID に対応している必要があります。 </p> <p>Analytics の場合は、prop または eVar に格納されている ID です。 </p> <p>Target の場合、setCustomerID 値。 </p> <p> この顧客 ID は、データベース内の各ユーザーを表すために CRM で使用する一意の ID です。残りの列は CRM から取得される属性です。アップロードする属性の数を選択します。 </p> <p>列の見出しには読みやすく、わかりやすい名前を使用することが推奨されますが、必須ではありません。アップロード後におこなうスキーマの検証の際に、アップロードされた行と列にわかりやすい名前をマッピングできます。 </p> <p> <b>顧客 ID について</b> </p> <p>通常、企業は、CRM システムからの顧客 ID を使用します。この ID は、ユーザーのログイン時に <span class="codeph">setCustomerIDs</span> 呼び出しを使用して設定されます。この ID は、Experience Cloudにアップロードされる CRM ファイル内のキーとしても使用されます。 <a href="t-crs-usecase.md" format="dita" scope="local">エイリアス ID</a> は、エイリアスデータが格納される Audience Manager のデータストアの識別子です。システムは、エイリアスをこのデータストアに（setCustomerIDs を使用して）送信します。CRM ファイルは、このデータストアのデータに適用されます。 </p> <p><span class="codeph">setCustomerIDs</span> 情報については、<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external">顧客 ID と認証の状態</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2 列目以降の見出しと列 </p> </td> 
@@ -84,7 +84,7 @@ CSV ファイルは次の形式に準拠する必要があります。
   </tr> 
   <tr> 
    <td colname="col1"> <p>属性の制限 </p> </td> 
-   <td colname="col2"> <p>数百ものアップロードが可能 <span class="filepath"> .csv </span> 列はExperience Cloudの顧客属性サービスに送られます。 ただし、サブスクリプションを設定して属性を選択する場合、所有するアプリケーションに応じて、次の制限が適用されます。 </p> <p> 
+   <td colname="col2"> <p>数百の.csv</span> 列 <span class="filepath">Experience Cloudの顧客属性サービスにアップロードできます。 ただし、サブスクリプションを設定して属性を選択する場合、所有するアプリケーションに応じて、次の制限が適用されます。 </p> <p> 
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
       <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard：</b>合計 3 件 </li> 
       <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium：</b>レポートスイートあたり 200 件 </li> 
@@ -116,7 +116,7 @@ CSV ファイルは次の形式に準拠する必要があります。
   </tr> 
   <tr> 
    <td colname="col1"> <p>ファイル要件 </p> </td> 
-   <td colname="col2"> <p> 各属性ソースには、コンマで区切った同数のフィールドが含まれる必要があります。 </p> <p> 改行、二重引用符またはコンマを含むフィールドは引用符で囲む必要があります。 </p> <p> フィールド内の二重引用符文字は、バックスラッシュ（\）を使用してエスケープする必要があります。 </p> <p> 空白の列は次のように保存されます <span class="term"> ヌル </span>. </p> </td> 
+   <td colname="col2"> <p> 各属性ソースには、コンマで区切った同数のフィールドが含まれる必要があります。 </p> <p> 改行、二重引用符またはコンマを含むフィールドは引用符で囲む必要があります。 </p> <p> フィールド内の二重引用符文字は、バックスラッシュ（\）を使用してエスケープする必要があります。 </p> <p> 空白の列は null</span> として保存 <span class="term"> れます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>複数のファイル </p> </td> 
@@ -154,7 +154,7 @@ Visitor.setCustomerIDs({
 });
 ```
 
-（詳しくは、[顧客 ID および認証の状態](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja)を参照してください。）
+（詳しくは、[顧客 ID および認証の状態](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)を参照してください。）
 
 **[!UICONTROL Experience Cloud]**／**[!UICONTROL People]**／**[!UICONTROL 顧客属性]**&#x200B;で：
 

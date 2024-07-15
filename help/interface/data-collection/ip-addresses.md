@@ -1,16 +1,17 @@
 ---
 title: Adobe Experience Cloudで使用される IP アドレス
-description: 組織のファイアウォールで、アドビから派生する IP アドレスがブロックされている場合は、このリストを使用してファイアウォール設定を更新してください。
-source-git-commit: 6ef38a303e19f5b18be9e61819d3aff03faeedd4
+description: 組織のファイアウォールで、ファイアウォールから派生する IP アドレスがブロックされている場合は、この一覧を使用してAdobe設定を更新してください。
+exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
+source-git-commit: 12ff555472b99d7297c3d180e786f300b2d490e9
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 24%
+ht-degree: 6%
 
 ---
 
 # Adobe Experience Cloudで使用される IP アドレス
 
-一部のファイアウォール構成では、アドビのデータ収集サーバーまたはデータにアクセスするためのサーバーの IP アドレスをブロックするものがあります。この範囲リストを使用して、組織のファイアウォール設定を変更し、組織内からのアクセスを許可したり、データを送信したりできます。 このページには、Adobeで使用される受信システム（データ収集など）と送信システム（Adobe Analyticsのデータフィードなど）の両方が含まれます。
+一部のファイアウォール構成では、Adobeのデータ収集サーバまたはデータにアクセスするためのサーバの IP アドレスをブロックする場合があります。 この範囲リストを使用して、組織のファイアウォール設定を変更し、組織内からのアクセスを許可したり、データを送信したりできます。 このページには、Adobeで使用される受信システム（データ収集など）と送信システム（Adobe Analyticsのデータフィードなど）の両方が含まれます。
 
 >[!IMPORTANT]
 >
@@ -21,7 +22,7 @@ ht-degree: 24%
 * [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
 * [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
 
-## すべての Adobe IP アドレスブロック
+## すべてのAdobeIP アドレスブロック
 
 次の表に、Adobeが所有するすべての IP アドレスを示します。 この表には、Adobeがグローバルに運営するすべてのAdobeの従業員オフィスとデータセンターが含まれています。 パブリッククラウドでホストされているサービスは含まれません。
 

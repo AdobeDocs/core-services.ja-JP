@@ -17,7 +17,7 @@ ht-degree: 91%
 
 # Experience Cloud の cookie 
 
-Adobe Experience Cloudでは、複数のExperience Cloudアプリケーションをまたいで使用される訪問者 ID の保存に cookie を使用します。 これらの cookie は、特に上のAdobe Experience Cloud アプリケーションへのアクセスに適用されます [experience.adobe.com](https://experience.adobe.com).
+Adobe Experience Cloudでは、複数のExperience Cloudアプリケーションをまたいで使用される訪問者 ID の保存に cookie を使用します。 これらの cookie は、特に [experience.adobe.com](https://experience.adobe.com) のAdobe Experience Cloud アプリケーションへのアクセスに適用されます。
 
 **cookie 名：s_ecid**
 
@@ -60,7 +60,7 @@ Adobe Experience Cloudでは、複数のExperience Cloudアプリケーション
 
 [Experience Platform ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)では、JavaScript を使用して現在の Web サイトのドメインの `AMCV_###@AdobeOrg` cookie に一意の訪問者 ID を保存します（`###` には `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.` などのランダムな文字列が入ります）。
 
-詳しくは、[Cookie と ID サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja)を参照してください。
+詳しくは、[Cookie と ID サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)を参照してください。
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 

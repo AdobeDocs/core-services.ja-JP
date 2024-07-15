@@ -1,7 +1,7 @@
 ---
 description: Adobe Experience Cloud ファーストパーティ cookie で使用するセキュア証明書を設定する方法について説明します。
 solution: Experience Cloud,Analytics
-title: Adobe管理証明書プログラム
+title: アドビの管理による証明書プログラム
 index: y
 snippet: y
 feature: Cookies
@@ -12,11 +12,11 @@ exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
 source-git-commit: 028b11dfbcfc0c5c9f6fd1c69350574f81f2846b
 workflow-type: tm+mt
 source-wordcount: '929'
-ht-degree: 11%
+ht-degree: 4%
 
 ---
 
-# Adobe管理証明書プログラム
+# アドビの管理による証明書プログラム
 
 Adobe管理証明書プログラムは、CNAME 実装に必要なファーストパーティ証明書を設定するための推奨プロセスです。 設定が完了すると、プログラムは完全に自動化されます。 証明書をタイムリーに更新するので、証明書の有効期限が切れていることが原因でデータ収集に影響を与えません。 プログラムは、最初の 100 個の CNAME に対して無料です。
 
@@ -26,11 +26,11 @@ Adobe管理証明書プログラムは、CNAME 実装に必要なファースト
 
 次の手順に従って、ファーストパーティデータ収集用の新しい証明書を実装します。
 
-1. をダウンロードして入力します [ファーストパーティドメインリクエストフォーム](cookies/assets/First_Party_Domain_Request_Form.xlsx)
+1. [ ファーストパーティドメインリクエストフォーム ](cookies/assets/First_Party_Domain_Request_Form.xlsx) をダウンロードして入力します。
 
 1. Adobeカスタマーケアに対して、Adobe管理証明書プログラムでのファーストパーティデータ収集の設定をリクエストするチケットを開きます。
 
-1. チケットを受け取ると、Adobe担当者から CNAME レコードが提供されます。 これらのレコードは、アドビが代理で証明書を購入する前に、会社の DNS サーバーで設定される必要があります。例：ホスト名 `data.example.com` 参照先 `hiodsibxvip01.data.adobedc.net`.
+1. チケットを受け取ると、Adobe担当者から CNAME レコードが提供されます。 これらのレコードは、アドビが代理で証明書を購入する前に、会社の DNS サーバーで設定される必要があります。例えば、ホスト名 `data.example.com` は `hiodsibxvip01.data.adobedc.net` を指します。
 
 1. CNAME レコードが組織のサーバーに配置されている場合、Adobeは DigiCert と連携して証明書を購入し、Adobeのデータ収集サーバーにインストールします。
 
@@ -40,17 +40,17 @@ Adobeが証明書をインストールしたら、次のいずれかの方法を
 
 +++**ブラウザーの検証**
 
-任意のブラウザーを使用して、証明書が正しくインストールされていることを検証できます。 CNAME をに入力します `_check` をアドレスバーへのパスとして使用します。 例：
+任意のブラウザーを使用して、証明書が正しくインストールされていることを検証できます。 CNAME を、アドレスバーのパスとして `_check` と入力します。 例：
 
 `data.example.com/_check`
 
-すべてが機能すると、ブラウザーが表示されます `SUCCESS`. 証明書が正しくインストールされていない場合は、セキュリティ警告が表示されます。
+すべてが機能すると、ブラウザーに `SUCCESS` が表示されます。 証明書が正しくインストールされていない場合は、セキュリティ警告が表示されます。
 
 +++
 
-+++**コマンドライン （`curl`）**
++++**コマンドライン（`curl`）**
 
-ほとんどの最新のオペレーティングシステムには、既にが含まれています [`curl`](https://curl.se) インストールされています。
+ほとんどの最新のオペレーティングシステムには、既に [`curl`](https://curl.se) がインストールされています。
 
 コマンドラインに以下を入力します。
 
@@ -58,15 +58,15 @@ Adobeが証明書をインストールしたら、次のいずれかの方法を
 curl data.example.com/_check
 ```
 
-すべてが正しく動作した場合、コンソールはを返します `SUCCESS`.
+すべてが正しく動作した場合、コンソールは `SUCCESS` を返します。
 
 >[!TIP]
 >
->を使用できます `-k` トラブルシューティングに役立つようにセキュリティ警告を無効にするフラグ。
+>`-k` フラグを使用してセキュリティ警告を無効にすると、トラブルシューティングに役立ちます。
 
 +++
 
-+++**コマンドライン （`nslookup`）**
++++**コマンドライン（`nslookup`）**
 
 コマンドラインに以下を入力します。
 
@@ -94,8 +94,8 @@ Aliases: smetrics.example.com
 
 証明書が正しく動作することを検証したら、これらの値を使用するようにAdobe実装を更新できます。
 
-* Adobe Analytics AppMeasurement実装の場合は、を更新します [`trackingServer`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserver) 設定変数。 既存の実装がある場合は、を参照してください。 [訪問者の移行](https://experienceleague.adobe.com/en/docs/analytics/technotes/visitor-migration) 既存の訪問者が新規訪問者としてカウントされないようにする方法に関する追加手順について説明します。
-* Web SDK 実装の場合は、を更新します [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain) 内のプロパティ [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) コマンド。
+* Adobe Analytics AppMeasurement実装の場合、[`trackingServer`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserver) 設定変数を更新します。 既存の実装がある場合、既存の訪問者が新規訪問者としてカウントされないようにする方法について詳しくは、[ 訪問者の移行 ](https://experienceleague.adobe.com/en/docs/analytics/technotes/visitor-migration) を参照してください。
+* Web SDK 実装の場合、[`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) コマンド内の [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain) プロパティを更新します。
 
 ## 保守および更新
 
@@ -139,17 +139,17 @@ Adobeは DigiCert と連携して SHA-2 証明書を発行します。
 
 +++Adobeでは、どのような暗号セキュリティレベルを提供していますか？
 
-アドビでは、2 種類の暗号セキュリティレベルを提供し、ファーストパーティのデータ収集におけるセキュリティに関するお客様の様々なニーズに対応しています。これらのレベルにより、Adobeサーバーを使用した HTTPS 接続に対してサポートされる暗号化アルゴリズムが決まります。 Adobeは、現在のセキュリティ対策に基づいて、サポートされるアルゴリズムのセットを定期的にレビューおよび更新しています。 暗号セキュリティ設定を変更したい場合は、カスタマーケアへのお問い合わせ。
+Adobeでは、2 種類の暗号セキュリティレベルを提供し、ファーストパーティのデータ収集におけるセキュリティに関するお客様の様々なニーズに対応しています。 これらのレベルにより、Adobeサーバーを使用した HTTPS 接続に対してサポートされる暗号化アルゴリズムが決まります。 Adobeは、現在のセキュリティ対策に基づいて、サポートされるアルゴリズムのセットを定期的にレビューおよび更新しています。 暗号セキュリティ設定を変更したい場合は、カスタマーケアへのお問い合わせ。
 
-* **標準** tls 1.2 以降および少なくとも 128 ビットの暗号化が必要です。 安全な暗号化を維持しながら、最も広いデバイス互換性を提供するように設計されています。
+* **標準** には、TLS 1.2 以降および少なくとも 128 ビットの暗号化が必要です。 安全な暗号化を維持しながら、最も広いデバイス互換性を提供するように設計されています。
 * **高** 暗号セキュリティレベルには TLS 1.2 以降が必要で、より弱い暗号のサポートが削除されます。 最も強力な暗号化を求め、古いデバイスのサポートを気にしないお客様向けに設計されています。
 
-次のクライアントは、に設定された暗号セキュリティで接続できないことがわかっています。 **高**:
+次のクライアントは、暗号セキュリティを **高** に設定すると接続できないことがわかっています。
 
-* Windows 8.1 以前（最終更新は 2018年）
-* Windows Phone 8.1 以前（最終更新は 2016年）
-* OS X 10.10 以前（最終更新は 2017年）
-* iOS 8.4 以前（最終更新は 2015年）
+* Windows 8.1 以前（最終更新は 2018 年）
+* Windows Phone 8.1 以前（最終更新は 2016 年）
+* OS X 10.10 以前（最終更新は 2017 年）
+* iOS 8.4 以前（最終更新は 2015 年）
 
 +++
 
@@ -158,9 +158,9 @@ Adobeは DigiCert と連携して SHA-2 証明書を発行します。
 Adobeは、RSA 証明書と ECC 証明書の両方をサポートし、お客様の多様なニーズに対応します。 RSA 証明書はクライアントに対してより広くサポートされていますが、ECC 証明書はサーバ側とクライアント側の両方で処理が少なくて済みます。 Adobeが管理する証明書の場合は、RSA と ECC の両方が提供されます。 顧客が管理する証明書の場合は、RSA が必要であり、ECC が推奨されます。 最新のクライアントは、RSA と ECC の両方をサポートしています。 次のクライアントは、通常、RSA 証明書のみをサポートします。
 
 * Windows Vista 以前（最終更新は 2012 年）
-* Windows Phone 8.0 以前（最終更新は 2014年）
-* OS X 10.8 以前（最終更新は 2013年）
-* iOS 5.1 以前（最終更新は 2012年）
+* Windows Phone 8.0 以前（最終更新は 2014 年）
+* OS X 10.8 以前（最終更新は 2013 年）
+* iOS 5.1 以前（最終更新は 2012 年）
 * Android 4.3 以前（最終更新は 2013 年）
 
 +++

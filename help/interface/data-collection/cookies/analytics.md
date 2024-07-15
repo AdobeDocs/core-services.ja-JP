@@ -23,15 +23,15 @@ Analytics では、新しい訪問者を匿名で定義する手段、クリッ�
 
 | cookie 名 | 有効期限 | サイズ | ロケーション | 説明 |
 | --- | --- | --- | --- | --- |
-| **`s_ecid`** | 2 年。 | 45 バイト。 | ファーストパーティ | Experience CloudID （ECID）または MID を格納します。 HTTP 応答で設定します。 MID は、に保存されます。 `s_ecid=MCMID` 形式。 クライアントが AMCV cookie を設定した後にを設定します。 これにより、永続的なファーストパーティ ID のトラッキングが可能になり、AMCV cookie の有効期限が切れた場合に参照 ID として使用されます。 この cookie は、サードパーティ cookie 実装には適用されません。 `SameSite` は「Lax」に設定されています。 |
-| **`s_cc`** | Session | 4 バイト。 | ファーストパーティ | Cookie が有効かどうかを判断します。 JavaScript で設定。 |
-| **`s_sq`** | Session | 100～200 バイト | ファーストパーティ | Activity Mapが使用します。 訪問者がクリックした前のリンクに関する情報が含まれます。 JavaScript で設定。 |
-| **`s_vi`** | 2 年。 | 44 バイト。 | ファーストパーティ `*.omtrdc.net` （サードパーティ） | ユニーク訪問者 ID とタイムスタンプを格納します。 HTTP 応答で設定します。 各訪問者 ID は、Adobeサーバーの訪問者プロファイルに関連付けられます。 訪問者プロファイルは、訪問者 ID cookie の有効期限に関係なく、1 年間無操作状態が続くと削除されます。 この `Secure` フラグが設定されるのは、 `SameSite` は「なし」、接続は HTTPS です。 `SameSite` は、ファーストパーティ cookie の場合、デフォルトでは「Lax」です。 `SameSite` 次に示すようなサードパーティ cookie を使用している場合は「なし」になります `omtrdc.net` または `2o7.net`. を設定 `SameSite` 1 つの CNAME を使用して複数のドメインまたはプロパティを追跡する場合は、「なし」に設定します。 |
-| **`s_fid`** | 2 年。 | 33 バイト。 | ファーストパーティ | フォールバックユニーク訪問者 ID とタイムスタンプを格納します。 規格が次の場合は JavaScript で設定 `s_vi` サードパーティ cookie の制限により、cookie を設定できない。 ファーストパーティ cookie の実装には使用されません。 |
-| **`s_ac`** | 即時 | 1 バイト | ファーストパーティ | AppMeasurement Cookie を設定する適切なドメインを判断するのに役立ちます。 静的な値を含む `"1"`. この cookie は、設定されると直ちに削除されます。 |
+| **`s_ecid`** | 2 年。 | 45 バイト。 | ファーストパーティ | Experience CloudID （ECID）または MID を格納します。 HTTP 応答で設定します。 MID は `s_ecid=MCMID` 形式で保存されます。 クライアントが AMCV cookie を設定した後にを設定します。 これにより、永続的なファーストパーティ ID のトラッキングが可能になり、AMCV cookie の有効期限が切れた場合に参照 ID として使用されます。 この cookie は、サードパーティ cookie 実装には適用されません。 `SameSite` は「Lax」に設定されています。 |
+| **`s_cc`** | Session | 4 バイト。 | ファーストパーティ | Cookie が有効かどうかを判断します。 JavaScriptで設定。 |
+| **`s_sq`** | Session | 100～200 バイト | ファーストパーティ | Activity Mapが使用します。 訪問者がクリックした前のリンクに関する情報が含まれます。 JavaScriptで設定。 |
+| **`s_vi`** | 2 年。 | 44 バイト。 | ファーストパーティまたは `*.omtrdc.net` （サードパーティ） | ユニーク訪問者 ID とタイムスタンプを格納します。 HTTP 応答で設定します。 各訪問者 ID は、Adobeサーバーの訪問者プロファイルに関連付けられます。 訪問者プロファイルは、訪問者 ID cookie の有効期限に関係なく、1 年間無操作状態が続くと削除されます。 `Secure` フラグは、`SameSite` が「なし」で、接続が HTTPS の場合に設定されます。 フ `SameSite` ーストパーティ cookie の場合、デフォルトは「Lax」です。 `omtrdc.net` や `2o7.net` など、サードパーティ Cookie を使用する場合、`SameSite` れは「なし」です。 単一の CNAME を使用して複数のドメインまたはプロパティを追跡する場合は、「`SameSite`」を「なし」に設定します。 |
+| **`s_fid`** | 2 年。 | 33 バイト。 | ファーストパーティ | フォールバックユニーク訪問者 ID とタイムスタンプを格納します。 サードパーティ cookie の制限により標準 `s_vi` cookie を設定できない場合は、JavaScriptによって設定されます。 ファーストパーティ cookie の実装には使用されません。 |
+| **`s_ac`** | 即時 | 1 バイト | ファーストパーティ | AppMeasurement Cookie を設定する適切なドメインを判断するのに役立ちます。 静的な値 `"1"` が含まれます。 この cookie は、設定されると直ちに削除されます。 |
 
 {style="table-layout:auto"}
 
 ## プラグインで設定される cookie
 
-一部の実装ではプラグインを利用します。プラグインは、Analytics に追加機能を提供するコードのスニペットです。 これらのプラグインは、上記に記載されていない Cookie を設定できます。 参照： [Analytics プラグインの概要](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins) 使用可能なプラグインのリストと、そのプラグインで設定されている cookie について説明します。
+一部の実装ではプラグインを利用します。プラグインは、Analytics に追加機能を提供するコードのスニペットです。 これらのプラグインは、上記に記載されていない Cookie を設定できます。 使用可能なプラグインのリストと設定対象の Cookie については、[Analytics プラグインの概要 ](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins) を参照してください。

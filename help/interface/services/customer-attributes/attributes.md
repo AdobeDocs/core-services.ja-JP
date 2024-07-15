@@ -28,7 +28,7 @@ Experience Cloud で [!DNL Customer Attributes] を使用すると、顧客関�
 
 ## [!DNL Customer Attributes] をアップロードするための前提条件 {#section_BD38693AFBF34926BA28E964963B4EA0}
 
-* **グループのメンバーシップ：** 顧客属性データをアップロードするには、ユーザーは顧客属性グループのメンバーである必要があります。 また、Adobe Analytics グループまたは Adobe Target グループのいずれかに属している必要もあります。
+* **グループメンバーシップ：** 顧客属性データをアップロードするには、ユーザーが顧客属性グループのメンバーである必要があります。 また、Adobe Analytics グループまたは Adobe Target グループのいずれかに属している必要もあります。
 
   自社が顧客属性にアクセスできるかどうかを知るには、[!DNL Experience Cloud] 管理者が、[Experience Cloud](https://experience.adobe.com) にログインする必要があります。**[!UICONTROL 管理]**／**[!UICONTROL Admin Console]**／**[!UICONTROL グループ]**&#x200B;に移動します。*[!DNL Customer Attributes]* が[!UICONTROL 製品プロファイル]の 1 つとして表示されている場合は、開始する準備が整っています。
 

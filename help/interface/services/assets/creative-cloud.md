@@ -1,7 +1,7 @@
 ---
 description: Experience Cloud と Creative Cloud の間でフォルダーとアセットを共有する方法を説明します。
 solution: Experience Cloud
-title: Experience CloudフォルダーとアセットのCreative Cloudとの共有
+title: Creative CloudとのExperience CloudフォルダーおよびAssetsの共有
 feature: Assets
 topic: Administration
 role: Admin
@@ -10,7 +10,7 @@ exl-id: 41290ea3-86ce-4e9d-8c3c-bbe30c337c4c
 source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 76%
+ht-degree: 75%
 
 ---
 
@@ -32,4 +32,4 @@ Creative Cloudユーザーがアセットにアクセスする前に、Experienc
 
 [!DNL Adobe Target] でアクティビティを作成すると、[!UICONTROL オファーライブラリ]内の画像の指定時に共有画像アセットを使用できるようになります。
 
-[!DNL Target] ヘルプの[オファーライブラリ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=ja)を参照してください。
+[!DNL Target] ヘルプの[オファーライブラリ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html)を参照してください。

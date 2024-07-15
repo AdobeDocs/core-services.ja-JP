@@ -1,7 +1,7 @@
 ---
 description: 顧客属性ソースを作成して、Adobe Experience Cloudにアップロードします。
 solution: Experience Cloud
-title: 顧客属性ソースの作成とデータファイルのアップロード
+title: 顧客属性Sourceの作成とデータファイルのアップロード
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
@@ -25,7 +25,7 @@ ht-degree: 84%
 
 >[!IMPORTANT]
 >
->この機能にアクセスするには、ユーザーを顧客属性製品プロファイル（顧客属性 – デフォルトアクセス）に割り当てる必要があります。 **[!UICONTROL 管理]**／**[!UICONTROL Admin Console]**／**[!UICONTROL グループ]**&#x200B;に移動します。次の場合 *顧客属性* 次のいずれかとして表示： [!UICONTROL 製品プロファイル]、開始する準備が整いました。 顧客属性グループに追加されたユーザーには、Experience Cloud インターフェイスの左側に「[!UICONTROL 顧客属性]」メニューが表示されます。
+>この機能にアクセスするには、ユーザーを顧客属性製品プロファイル（顧客属性 – デフォルトアクセス）に割り当てる必要があります。 **[!UICONTROL 管理]**／**[!UICONTROL Admin Console]**／**[!UICONTROL グループ]**&#x200B;に移動します。*顧客属性* が [!UICONTROL  製品プロファイル ] の 1 つとして表示されたら、開始する準備が整います。 顧客属性グループに追加されたユーザーには、Experience Cloud インターフェイスの左側に「[!UICONTROL 顧客属性]」メニューが表示されます。
 >
 >また、顧客属性機能を使用するには、ユーザーがアプリケーションレベルのグループ（Analytics または [!DNL Target]）に属している必要があります。
 
@@ -48,13 +48,13 @@ ht-degree: 84%
 
 ## 属性ソースの作成とデータファイルのアップロード {#task_09DAC0F2B76141E491721C1E679AABC8}
 
-Experience Cloudの新しい顧客属性ソースを作成ページでこれらの手順を実行します。
+Experience Cloudの新しい顧客属性Sourceを作成ページでこれらの手順を実行します。
 
 >[!IMPORTANT]
 >
 >顧客属性ソースを作成、変更または削除する場合、ID が新しいデータソースと同期され始めるまで、最大 1 時間の遅延があります。顧客属性ソースを作成または変更するには、Audience Manager の管理者権限が必要です。Audience Manager カスタマーケアまたはコンサルティングに問い合わせて、管理者権限を取得してください。
 
-1. が含まれる [!DNL Experience Cloud]で、「メニュー」を選択します  ![メニュー](assets/menu-icon.png) アイコン。
+1. [!DNL Experience Cloud] で、メニュー ![ メニュー ](assets/menu-icon.png) アイコンを選択します。
 1. **[!DNL Experience Platform]** で、**[!UICONTROL People]**／**[!UICONTROL 顧客属性]**&#x200B;を選択します。
 
    [!UICONTROL 顧客属性]ページでは、既存の属性データソースを管理したり、編集したりできます。
@@ -71,13 +71,13 @@ Experience Cloudの新しい顧客属性ソースを作成ページでこれら�
 
    * **[!UICONTROL 説明：]**（オプション）データ属性ソースの説明。
 
-   * **[!UICONTROL エイリアス ID：]**&#x200B;特定の CRM システムなど、顧客属性データのソースを表します。[!UICONTROL エイリアス ID] は、顧客属性ソースのコードで使用される一意の ID です。ID は一意で、スペースを含まないアルファベットおよびアンダースコアの組み合わせにしてください。に入力される値 [!UICONTROL エイリアス ID] Experience Cloudの顧客属性ソースのフィールドは、実装から（Platform データ収集または Mobile SDK の JavaScript を使用して）渡されている値と一致する必要があります。
+   * **[!UICONTROL エイリアス ID：]**&#x200B;特定の CRM システムなど、顧客属性データのソースを表します。[!UICONTROL エイリアス ID] は、顧客属性ソースのコードで使用される一意の ID です。ID は一意で、スペースを含まないアルファベットおよびアンダースコアの組み合わせにしてください。Experience Cloudで顧客属性ソースの [!UICONTROL  エイリアス ID] フィールドに入力する値は、実装から（Platform データ収集または Mobile SDK のJavaScriptを使用して）渡されている値と一致させる必要があります。
 
      エイリアス ID は、追加の顧客 ID 値を設定する方法に対応しています。以下に例を示します。
 
       * **Dynamic Tag Management：**&#x200B;エイリアス ID は、[Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)ツールの「[!UICONTROL 顧客設定]」の「*統合コード*」の値に対応しています。
 
-      * **訪問者 API：**&#x200B;エイリアス ID は、各訪問者と関連付けることができる追加の[顧客 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja) に対応しています。
+      * **訪問者 API：**&#x200B;エイリアス ID は、各訪問者と関連付けることができる追加の[顧客 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) に対応しています。
 
         例：*crm_id* の場合：
 
@@ -110,7 +110,7 @@ Experience Cloudの新しい顧客属性ソースを作成ページでこれら�
 
      **ファイルのアップロードのグラフ**
 
-     ![属性](assets/file_upload_attributes.png)
+     ![ 属性 ](assets/file_upload_attributes.png)
 
    * **[!UICONTROL 一意の顧客 ID：]**&#x200B;この属性ソースにアップロードした重複を除く一意の ID の数を表示します。
 
@@ -141,7 +141,7 @@ Experience Cloudの新しい顧客属性ソースを作成ページでこれら�
 
 **属性ソースを有効化するには**
 
-日 [!UICONTROL 顧客属性ソースを新規作成または編集] ページで、を見つけます。 [!UICONTROL Activate] 見出し、次に選択 **[!UICONTROL アクティブ]**.
+[!UICONTROL  新規を作成または顧客属性Sourceを編集 ] ページで、[!UICONTROL  アクティブ化 ] 見出しを探し、「**[!UICONTROL アクティブ]**」を選択します。
 
 ![手順の結果](assets/activate_attribute_source.png)
 
@@ -161,4 +161,4 @@ Adobe Analytics などのアプリケーションで利用できるデータを�
 
 ![Adobe Target での顧客属性の使用](assets/crs-add-attribute-target.png)
 
-[!DNL Target] ヘルプの[新しいオーディエンスの作成](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=ja)を参照してください。
+[!DNL Target] ヘルプの[新しいオーディエンスの作成](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)を参照してください。

@@ -68,12 +68,12 @@ Experience Cloud アプリケーションでのオーディエンスの使用方
 | 新規 | [オーディエンスを作成](create.md)します。 |
 | タイトルと説明 | オーディエンスを識別および説明する列見出し。 |
 | 作成者 | オーディエンスセグメントを作成したユーザー。 |
-| ソース | オーディエンスが作成された場所を示します。<ul><li>**Analytics:** Adobe Analyticsで作成され、その後Experience Cloudに公開されたセグメント。</li><li>**Experience Cloud：**[Experience Cloud Audiences で作成された](create.md)新しいオーディエンス。</li><li>**Audience Manager：** Audience Manager で作成されたオーディエンスは Experience Cloud オーディエンスに自動的に表示されます。</li></ul> |
+| ソース | オーディエンスが作成された場所を示します。<ul><li>**Analytics:** Adobe Analyticsで作成され、Experience Cloudに公開されたセグメント。</li><li>**Experience Cloud：**[Experience Cloud Audiences で作成された](create.md)新しいオーディエンス。</li><li>**Audience Manager：** Audience Manager で作成されたオーディエンスは Experience Cloud オーディエンスに自動的に表示されます。</li></ul> |
 | 現在のサイズ | 現在のオーディエンスのサイズ。 |
 | アクティブ | セグメントのアクティブステータス。 |
 
 {style="table-layout:auto"}
 
-## Adobe Analyticsからのオーディエンスの公開
+## Adobe AnalyticsのPublish オーディエンス
 
-参照： [Experience Cloudへのセグメントの公開](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) 詳しくは、Adobe Analytics ドキュメントを参照してください。
+詳しくは、Adobe Analytics ドキュメントの [Experience CloudするPublish セグメント ](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) を参照してください。

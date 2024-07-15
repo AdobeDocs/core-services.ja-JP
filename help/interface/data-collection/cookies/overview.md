@@ -2,13 +2,13 @@
 description: Adobe Experience Cloud のソリューションとサービスで Cookie を使用する方法について説明します。
 title: Experience Cloudでの Cookie の使用方法
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
+source-git-commit: b4d7cc357393798f2265e09885dd4ea2f80ab31e
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 58%
 
 ---
-
 
 # Experience Cloudーで使用される Cookie
 
@@ -22,10 +22,10 @@ cookie の使用目的は、その Web サイトにアクセスして一連の�
 
 Adobe Experience Cloud サービスは、イメージリクエストとブラウザーセッション間で保持されない変数およびコンポーネントに関する情報を提供するために cookie を使用します。 可能な限り、Adobeはファーストパーティ cookie を使用してサイト上のアクティビティを記録します。 所有している他のドメインなど、異なるサイトでのアクティビティを記録するには、サードパーティ cookieが必要です。
 
-多くのブラウザーやスパイウェア駆除アプリケーションは、サードパーティ Cookie を拒否し、削除するように設計されています。Adobeを使用すると、サードパーティ cookie がブロックされた場合でも、cookie を常に設定できます。 具体的な動作は、Experience Platform ID サービス（ECID サービス）と Analytics の従来の識別子（など `s_vi` cookie）:
+多くのブラウザーやスパイウェア駆除アプリケーションは、サードパーティ Cookie を拒否し、削除するように設計されています。Adobeを使用すると、サードパーティ cookie がブロックされた場合でも、cookie を常に設定できます。 具体的な動作は、Experience Platform ID サービス（ECID サービス）と Analytics の従来の識別子（`s_vi` Cookie など）のどちらを使用しているかによって異なります。
 
-* この [Experience Platform ID サービス（ECID サービス）](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ja) は、収集ドメインがサイトドメインと一致するかどうかに関係なく、ファーストパーティ cookie を自動的に設定します。 一致しない場合、ID サービスは JavaScript を使用してサイトのドメインに Cookie を設定します。
-* を使用する場合 [Analytics の従来の識別子](analytics.md) （例： `s_vi` cookie を使用する場合）は、データ収集サーバーの設定方法によって異なります。 データ収集サーバーがサイトのドメインと一致する場合、Cookie はファーストパーティとして設定されます。収集サーバーが現在のドメインと一致しない場合、cookie はサードパーティとして設定されます。 この場合、サードパーティ Cookie がブロックされていると、Analytics はファーストパーティ フォールバック ID （`s_fid`）を使用します `s_vi` cookie。
+* [Experience Platform ID サービス （ECID サービス） ](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ja) は、収集ドメインがサイト ドメインと一致するかどうかに関係なく、自動的にファーストパーティ Cookie を設定します。 一致しない場合、ID サービスはJavaScriptを使用してサイトのドメインに Cookie を設定します。
+* [Analytics の従来の識別子 ](analytics.md) （`s_vi` cookie など）を使用する場合、データ収集サーバーの設定方法によってどちらを使用するかは異なります。 データ収集サーバーがサイトのドメインと一致する場合、Cookie はファーストパーティとして設定されます。収集サーバーが現在のドメインと一致しない場合、cookie はサードパーティとして設定されます。 この場合、サードパーティ Cookie がブロックされていると、Analytics は、標準の `s_vi` Cookie ではなく、ファーストパーティ フォールバック ID （`s_fid`）を設定します。
 
 コレクションサーバーがサイトのドメインと一致するようにする場合は、CNAME 実装を使用して、CNAME 実装で指定されたカスタムドメインからAdobeのコレクションサーバーへの転送を有効にできます。 このタスクでは、会社の DNS 設定を変更し、Adobeでホストされるドメインを指すよう CNAME エイリアスを設定します。 各種のアドビ製品では CNAME の使用をサポートしていますが、どの場合でも、CNAME は、特定の顧客用の信頼できるファーストパーティエンドポイントを作成するために使用され、その顧客に所有されることに注意してください。複数のドメインを制御する場合、1 つの CNAME エンドポイントを使用して複数のドメインをまたいだユーザーを追跡できます。ただし、サイトドメインが CNAME と一致しない場合は、ドメイン cookie はサードパーティとして設定されます。
 

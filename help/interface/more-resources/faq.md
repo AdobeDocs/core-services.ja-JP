@@ -23,7 +23,7 @@ Experience Cloud 管理者向けのブラウザーサポート、よくある質
 
 Adobeでは、次のブラウザーの現在および以前の 2 つのバージョンをサポートしています。
 
-* Microsoft® Edge
+* Edge®Microsoft
 * Google Chrome
 * Mozilla Firefox
 * Safari

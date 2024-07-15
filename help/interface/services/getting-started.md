@@ -124,7 +124,7 @@ Experience Cloud サービス（Experience Cloud ID サービスや [!UICONTROL 
 
 ## Analytics の AppMeasurement コードを更新する {#section_1798D9D0F05C47E29816AC4EEB9A0913}
 
-ファーストパーティ Cookie を使用している場合、データ収集 CNAME とクロスドメイン追跡については、[CNAME と Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html)を参照してください。
+ファーストパーティ Cookie を使用している場合、データ収集 CNAME とクロスドメイン追跡については、[CNAME と Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=ja)を参照してください。
 
 訪問者 API など JavaScript ライブラリを更新して Analytics の実装を最新化することが推奨されます。これを行う最も簡単な方法は、Experience Platform データ収集に [Adobe Analytics 拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html)を追加することです。
 
@@ -185,13 +185,13 @@ Experience Cloud ID サービスをデプロイすると、新しい訪問者は
 
 エンタープライズ顧客データを顧客関係管理（CRM）データベースに取り込んでいる場合は、そのデータを Experience Cloud の顧客属性データソースにアップロードできます。アップロード後は、データを [!DNL Adobe Analytics] と [!DNL Adobe Target] で利用できます。
 
-参照： [顧客属性](customer-attributes/attributes.md) を参照してください。
+詳しくは、[ 顧客属性 ](customer-attributes/attributes.md) を参照してください。
 
 ### [!UICONTROL People]／[!UICONTROL オーディエンスライブラリ]
 
 Experience Cloud [!UICONTROL オーディエンス]は、オーディエンスを作成したり、既存のオーディエンスを組み合わせて複合オーディエンスを作成したり、共有しているすべてのオーディエンスを表示したりできるインターフェイスです。
 
-参照： [オーディエンス](audiences/overview.md) を参照してください。
+詳しくは、[ オーディエンス ](audiences/overview.md) を参照してください。
 
 ## データストレージおよびプライバシー開示
 
