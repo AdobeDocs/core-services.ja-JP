@@ -1,16 +1,16 @@
 ---
 title: アカウントの環境設定と通知
-description: Experience Cloudのユーザープロファイルとアカウントの環境設定について説明します。 製品通知を購読し、製品アラートを取得します。
+description: Experience Cloudのユーザープロファイルとアカウントの環境設定について説明します。 製品通知を購読し、製品アラートを取得します。 ブラウザーと言語サポートについて説明します。
 solution: Experience Cloud
 feature: Account Preferences,Notifications,Alerts
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 2d65d40c462bd031939c0a8efc1631540dd96ec1
+source-git-commit: 99b611d1418174ce27fe6a7b231f84bab9e12468
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 79%
+source-wordcount: '448'
+ht-degree: 81%
 
 ---
 
@@ -46,6 +46,22 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 「**[!UICONTROL 通知]**」を選択すると、製品リリース、メンテナンス通知、共有項目、承認リクエストなど、関連性の高い実用的な更新に関する警告が表示されます。
 
 ![通知とお知らせ](../assets/notifications-menu-small.png)
+
+## Experience Cloud でのブラウザーのサポート {#browser}
+
+最高のパフォーマンスを実現するために、Experience Cloud は、一番人気のブラウザー（最新バージョンに加えて 2 つ前までのバージョンを含む）に合わせて最適化されています。
+
+* Chrome
+* Edge
+* Firefox
+* Opera
+* Safari
+
+ブラウザーがリストに表示されない場合でも、サポートされている可能性はありますが、リストに表示されたブラウザーの いずれかを使用することをお勧めします。
+
+>[!NOTE]
+>
+>Experience Cloud ドメインで実行されているすべてのアプリケーションがすべてのブラウザーをサポートしているわけではありません。不明な場合は、特定のアプリケーションのドキュメントを確認してください。
 
 ## Experience Cloud での言語サポート {#languages}
 
