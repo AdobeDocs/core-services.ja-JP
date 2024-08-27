@@ -1,7 +1,7 @@
 ---
 description: Adobe Experience Cloud ファーストパーティ cookie で使用するセキュア証明書を設定する方法について説明します。
 solution: Experience Cloud,Analytics
-title: アドビの管理による証明書プログラム
+title: Adobe 管理証明書プログラム
 index: y
 snippet: y
 feature: Cookies
@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 028b11dfbcfc0c5c9f6fd1c69350574f81f2846b
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 4%

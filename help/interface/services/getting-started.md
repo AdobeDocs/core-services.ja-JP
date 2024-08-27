@@ -1,21 +1,21 @@
 ---
 description: クロスアプリケーションサービス用 Adobe Analytics および Adobe Target のアプリケーションを最新化します。Experience Cloud サービスの使用を開始する方法について説明します。
 solution: Experience Cloud
-title: Experience Cloudサービスの概要
+title: Experience Cloudサービスの基本を学ぶ
 index: true
 feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: cdb969ba98f023162297efbd1be320b509c74c32
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
 source-wordcount: '1970'
 ht-degree: 98%
 
 ---
 
-# Experience Cloudサービスの概要
+# Experience Cloudサービスの基本を学ぶ
 
 Experience Platform タグを使用して Experience Cloud を最近実装した場合、顧客属性と Experience Cloud オーディエンスは既に設定されています。また、Admin Console でユーザーや製品を管理することもできます。
 

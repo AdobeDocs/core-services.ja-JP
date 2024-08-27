@@ -1,16 +1,16 @@
 ---
 description: 広告エンゲージメントイベントをコンバージョンイベントにマッピングするためのAdobe Advertising Cookie について説明します。その情報を使用して広告入札を最適化する場合もあります。
-title: Adobe Advertising の cookie
+title: Adobe Advertisingーの Cookie
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 feature: Cookies
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: 4d2dc1e6126e26f61475efbd33efe98bd47153d5
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 13%
+ht-degree: 12%
 
 ---
 

@@ -9,14 +9,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ab6de845-99ea-4cd8-b7cd-012fb641403f
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 99%
 
 ---
 
-# Audience Manager の cookie {#audience-manager-cookies}
+# Audience Manager の cookie{#audience-manager-cookies}
 
 Audience Manager はいくつかのシンプルな cookie を利用して様々な機能を実行します。これらの機能には、ID の割り当て、データ呼び出しの記録、エラーの追跡、cookie を設定できるかどうかのテストなどがあります。この節では、Audience Manager によって設定される各種の cookie について説明します。
 

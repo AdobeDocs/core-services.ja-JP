@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 99b611d1418174ce27fe6a7b231f84bab9e12468
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 81%
@@ -39,14 +39,40 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 | [!UICONTROL アラート] | ブラウザーにアラートを表示する通知を選択します。アラートは、ウィンドウの右上隅に数秒間表示されます。 |
 | メール | 通知メールの受信頻度を指定します。（送信しない、即時、毎日または毎週） |
 
-{style="table-layout:auto"}
-
-## 通知とお知らせ {#notifications}
+## [!UICONTROL  通知 ] 及び [!UICONTROL  お知らせ ] {#notifications}
 
 「**[!UICONTROL 通知]**」を選択すると、製品リリース、メンテナンス通知、共有項目、承認リクエストなど、関連性の高い実用的な更新に関する警告が表示されます。
 
 ![通知とお知らせ](../assets/notifications-menu-small.png)
 
+<!-- ## [!DNL Slack] notifications
+
+Releasing: **September 2, 2024**
+
+You can configure your account preferences to send Experience Cloud notifications to Slack.
+
+**Prerequisites**
+
+* You must have an Experience Cloud account
+* You must have a [!DNL Slack] account
+* You must be a part of at least one [!DNL Slack] workspace
+
+### To configure Slack notifications
+
+1. Sign in to Experience Cloud.
+
+1. Click your account icon, then click **[!UICONTROL Preferences]**.
+
+1. Under [!DNL Slack], click **[!UICONTROL Add to Slack]**.
+
+1. When [!DNL Slack] opens, click **[!UICONTROL Allow]**.
+
+1. In Experience Cloud Preferences, navigate to **[!UICONTROL Notifications]**.
+
+   [Slack notifications](../assets/slack.png)
+
+1. Enable [!DNL Slack] notifications for your desired products and categories.
+ -->
 ## Experience Cloud でのブラウザーのサポート {#browser}
 
 最高のパフォーマンスを実現するために、Experience Cloud は、一番人気のブラウザー（最新バージョンに加えて 2 つ前までのバージョンを含む）に合わせて最適化されています。

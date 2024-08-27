@@ -1,15 +1,15 @@
 ---
-title: Adobe Experience Cloudで使用される IP アドレス
+title: Experience Cloudが使用する IP アドレス
 description: 組織のファイアウォールで、ファイアウォールから派生する IP アドレスがブロックされている場合は、この一覧を使用してAdobe設定を更新してください。
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-source-git-commit: d76af0f0f98b28ad1ac7b539743b722464fe98fa
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '373'
 ht-degree: 6%
 
 ---
 
-# Adobe Experience Cloudで使用される IP アドレス
+# Experience Cloudが使用する IP アドレス
 
 一部のファイアウォール構成では、Adobeのデータ収集サーバまたはデータにアクセスするためのサーバの IP アドレスをブロックする場合があります。 この範囲リストを使用して、組織のファイアウォール設定を変更し、組織内からのアクセスを許可したり、データを送信したりできます。 このページには、Adobeで使用される受信システム（データ収集など）と送信システム（Adobe Analyticsのデータフィードなど）の両方が含まれます。
 
