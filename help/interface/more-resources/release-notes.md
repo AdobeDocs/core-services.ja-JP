@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: e2227bc64f5f294692df5c3c1419a5e376f0d136
+source-git-commit: 05ba40e4ef28c6d244446cc862a0320048f4b219
 workflow-type: tm+mt
-source-wordcount: '5078'
+source-wordcount: '5109'
 ht-degree: 96%
 
 ---
@@ -24,9 +24,13 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 
 すべてのアプリケーションをカバーするリリースノートについては、[Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)を参照してください。
 
-<!-- ## September 2024
+## 2024 年 9 月 2 日（Pt）
 
-You can configure Slack notifications for Experience Cloud. -->
+| 機能 | 説明 |
+| -----------| ---------- |
+| Slackの通知 | アカウントの環境設定を行い、SlackにExperience Cloud通知を送信できます。 詳しくは、{Preferences _ヘルプの [0}Slack通知 ](../features/account-preferences.md) を参照してください。_ |
+
+[Experience Cloud管理ツールを参照してください ](../administration/admin-tool-experience-cloud.md)
 
 <!-- ## July - August 2023
 

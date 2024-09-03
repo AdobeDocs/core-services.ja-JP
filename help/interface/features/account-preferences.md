@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: d541fd7522e7333b1e5163f61d97f2fcea164877
+source-git-commit: 05ba40e4ef28c6d244446cc862a0320048f4b219
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 81%
+source-wordcount: '529'
+ht-degree: 69%
 
 ---
 
@@ -45,34 +45,33 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 
 ![通知とお知らせ](../assets/notifications-menu-small.png)
 
-<!-- ## [!DNL Slack] notifications
+## [!DNL Slack] 通知
 
-Releasing: **September 2, 2024**
+リリース：**2024 年 9 月 2 日**
 
-You can configure your account preferences to send Experience Cloud notifications to Slack.
+アカウントの環境設定を行い、SlackにExperience Cloud通知を送信できます。
 
-**Prerequisites**
+**前提条件**
 
-* You must have an Experience Cloud account
-* You must have a [!DNL Slack] account
-* You must be a part of at least one [!DNL Slack] workspace
+* Experience Cloudアカウントが必要です
+* [!DNL Slack] アカウントが必要です
+* 少なくとも 1 つの [!DNL Slack] ワークスペースに属している必要があります
 
-### To configure Slack notifications
+### Slack通知を設定するには
 
-1. Sign in to Experience Cloud.
+1. Experience Cloud にログインします。
 
-1. Click your account icon, then click **[!UICONTROL Preferences]**.
+1. アカウントアイコンをクリックしてから、**[!UICONTROL 環境設定]** をクリックします。
 
-1. Under [!DNL Slack], click **[!UICONTROL Add to Slack]**.
+1. [!DNL Slack] の下の **[!UICONTROL Slackに追加]** をクリックします。
 
-1. When [!DNL Slack] opens, click **[!UICONTROL Allow]**.
+1. [!DNL Slack] が開いたら、「**[!UICONTROL 許可]**」をクリックします。
 
-1. In Experience Cloud Preferences, navigate to **[!UICONTROL Notifications]**.
+1. Experience Cloudの環境設定で、「**[!UICONTROL 通知]**」に移動します。
 
-   [Slack notifications](../assets/slack.png)
+[Slackの通知](../assets/slack.png)
 
-1. Enable [!DNL Slack] notifications for your desired products and categories.
- -->
+1. 目的 [!DNL Slack] 製品およびカテゴリの通知を有効にします。
 
 ## Experience Cloud でのブラウザーのサポート {#browser}
 
