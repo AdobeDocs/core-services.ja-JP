@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
+source-git-commit: 2e2e26e262a7e56ddaaf8b4bfa453b041c832548
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 22%
+source-wordcount: '677'
+ht-degree: 21%
 
 ---
 
@@ -73,27 +73,15 @@ Experience Cloud[ 環境設定 ](https://experience.adobe.com/preferences) に�
 
 **Slackのお知らせを受け取る**
 
-1. Experience Cloudに移動 [ 環境設定 ](https://experience.adobe.com/preferences)
+1. Experience Cloud[ 環境設定 ](https://experience.adobe.com/preferences) に移動します。
 
 1. [!DNL Slack] を見つけ、「**[!UICONTROL Slackに追加]**」をクリックします。
 
    ![Slackに追加 ](../assets/add-to-slack.png)
 
-   [!DNL Slack] がインストールされている場合は、アプリケーションが開き、権限要求メッセージが表示されます。
+   [!DNL Slack] がインストールされている場合は、アプリケーションが開き、権限要求メッセージが表示されます。 Slackがインストールされていない場合は、[ 権限をリクエスト ](#slack-troubleshoot) する必要があります。
 
-   * **[!UICONTROL 許可]** をクリックします。
-
-   [!DNL Slack] がインストールされていない場合は、_インストールをリクエスト_ メッセージが表示されます。
-
-   ![ リクエストSlackの統合 ](../assets/slack-request.png)
-
-   * Slackで、アプリケーションの右上隅にあるワークスペースを選択します。
-
-   * Slack Workspace Manager のアプリケーションの承認をリクエストするには、「**[!UICONTROL 送信]**」をクリックします。
-
-   * 申請リクエストが承認されると、[!DNL Slack] に通知が届きます。
-
-   * 承認 [!DNL Slack] 受け取ったら、Experience Cloud **[!UICONTROL 通知]** に戻り、「**[!UICONTROL Slackに追加]**」をクリックします。
+1. **[!UICONTROL 許可]** をクリックします。
 
 1. **[!UICONTROL 通知]** で、目的の製品 [!DNL Slack] カテゴリの通知を有効にします。
 
@@ -101,9 +89,25 @@ Experience Cloud[ 環境設定 ](https://experience.adobe.com/preferences) に�
 
    通知に対する更新は自動的に保存されます。
 
+### Slackで権限をリクエスト {#slack-troubleshoot}
+
+[!DNL Slack] がインストールされていない場合、「_Slackに追加&#x200B;]**」をクリックした後にSlackが開くと、**[!UICONTROL インストールをリクエスト_ メッセージが表示されます。
+
+![ リクエストSlackの統合 ](../assets/slack-request.png)
+
+**Slackで権限をリクエストするには**
+
+1. Slackで、アプリケーションの右上隅にあるワークスペースを選択します。
+
+1. Slack Workspace Manager のアプリケーションの承認をリクエストするには、「**[!UICONTROL 送信]**」をクリックします。
+
+1. 申請リクエストが承認されると、[!DNL Slack] に通知が届きます。
+
+1. 承認 [!DNL Slack] 受け取ったら、Experience Cloud **[!UICONTROL 通知]** および [Slackを購読 ](#slack-notifications) に戻ります（前述）。
+
 ### [!DNL Slack] に表示される内容
 
-Slack通知には、次の情報が表示されます。
+Slackの統合が成功すると、Slack通知に次の情報が表示されます。
 
 * 個人用メッセージは、アプリ名 _Adobe Experience Cloud_ から受信されます。
 * メッセージには、Adobe Experience Platform、Adobe Experience Managerなど、特定のアプリケーションの製品ロゴが含まれます。
