@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: b79d6c6fb7bb165fdd5d47061da16f65f6fc7579
+source-git-commit: 0b2cae6b7aec7e91ac4b46de4d844dd2269095a9
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '664'
 ht-degree: 21%
 
 ---
@@ -22,7 +22,7 @@ Experience Cloud[ 環境設定 ](https://experience.adobe.com/preferences) に�
 
 * [組織](../administration/organizations.md)を検索する
 * ダークテーマを指定します（このテーマに対応していないアプリケーションもあります）。
-* ユーザーの環境設定、通知、サブスクリプションを設定します。
+* ユーザーのアカウント環境設定、通知、サブスクリプションを設定します。
 * Experience Cloudからサインアウトします。
 
 ## 環境設定を管理
@@ -58,20 +58,15 @@ Experience Cloud[ 環境設定 ](https://experience.adobe.com/preferences) に�
 
 ### [!DNL Slack] 通知のサブスクライブ {#slack}
 
->[!NOTE]
->
->Slack通知は、次のリリースを予定しています **2024 年 9 月 11 日**。
-
-
 アカウントの環境設定を行い、[!DNL Slack] チャンネルにExperience Cloud通知を送信できます。
 
 **前提条件**
 
 * Experience Cloudアカウントが必要です。
-* [!DNL Slack] アカウントが必要です。 Slack管理者が、SlackとのExperience Cloud統合を有効にします。
+* [!DNL Slack] アカウントが必要です。 [!DNL Slack] 管理者は、[!DNL Slack] とのExperience Cloud統合を有効にします。
 * 少なくとも 1 つの [!DNL Slack] ワークスペースに属している必要があります。
 
-**Slackのお知らせを受け取る**
+**[!DNL Slack] 通知の配信登録**
 
 1. Experience Cloud[ 環境設定 ](https://experience.adobe.com/preferences) に移動します。
 
@@ -89,34 +84,34 @@ Experience Cloud[ 環境設定 ](https://experience.adobe.com/preferences) に�
 
    通知に対する更新は自動的に保存されます。
 
-### Slackで権限をリクエスト {#slack-troubleshoot}
+### [!DNL Slack] でのリクエスト権限（トラブルシューティング） {#slack-troubleshoot}
 
-[!DNL Slack] がインストールされていない場合、「_[!UICONTROL Slackに追加&#x200B;]**」をクリックした後にSlackが開くと、**[!UICONTROL インストールをリクエスト]_ メッセージが表示されます。
+[!DNL Slack] がインストールされていない場合、「_[!UICONTROL Slackに追加&#x200B;]**」をクリックした後にSlackが開くと、**[!UICONTROL インストールをリクエスト]_ メッセージが表示されます。 例：
 
-![ リクエストSlackの統合 ](../assets/slack-request.png)
+![ リクエストSlackの統合 ](../assets/slack-workspace.png)
 
 **Slackで権限をリクエストするには**
 
-1. Slackで、アプリケーションの右上隅にあるワークスペースを選択します。
+1. [!DNL Slack] で、**[!UICONTROL Workspace]** メニュー（右上隅）からワークスペースを選択します。
 
-1. Slack Workspace Manager のアプリケーションの承認をリクエストするには、「**[!UICONTROL 送信]**」をクリックします。
+1. [!DNL Slack] Workspace Manager のアプリケーションの承認をリクエストするには、「**[!UICONTROL 送信]**」をクリックします。
 
 1. 申請リクエストが承認されると、[!DNL Slack] に通知が届きます。
 
-1. 承認 [!DNL Slack] 受け取ったら、Experience Cloud **[!UICONTROL 通知]** および [Slackを購読 ](#slack-notifications) に戻ります（前述）。
+1. 承認 [!DNL Slack] 受け取ったら、Experience Cloud **[!UICONTROL 通知]** に戻り、手順に従って [Slackを購読 ](#slack-notifications) します（上記）。
 
 ### [!DNL Slack] に表示される内容
 
-Slackの統合が成功すると、Slack通知に次の情報が表示されます。
+[!DNL Slack] の統合が成功すると、[!DNL Slack] の通知に次の情報が表示されます。
 
-* 個人用メッセージは、アプリ名 _Adobe Experience Cloud_ から受信されます。
-* メッセージには、Adobe Experience Platform、Adobe Experience Managerなど、特定のアプリケーションの製品ロゴが含まれます。
+* 個人用メッセージはアプリケーション名 _のAdobe[!DNL Experience Cloud]_ から受信されます。
+* メッセージには、Adobe[!DNL Experience Platform]、Adobe[!DNL Experience Manager] など、特定のアプリケーションの製品ロゴが含まれます。
 * Experience Cloud時のすべての通知を表示するためのリンク。
 * Experience Cloudの通知設定を管理するためのリンクです。
 
 ## Experience Cloudで [!UICONTROL  通知 ] とお知らせを表示する {#view-notifications}
 
-Experience Cloudヘッダーでは、自分が [ 購読 ](#notifications) している通知を表示したり、お知らせを表示したりできます。
+[!DNL Experience Cloud] ヘッダーでは、自分が [ 購読 ](#notifications) している通知を表示したり、お知らせを表示したりできます。
 
 1. ヘッダーのベルアイコンをクリックします。 ![通知とお知らせ](../assets/bell-icon.png)
 

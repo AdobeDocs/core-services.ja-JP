@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: e9f6283e6ecd52be12f97f031785e24c2a15c9e9
+source-git-commit: 27d656b3cfe614f0a5b47d8987343a4c36d9ed33
 workflow-type: tm+mt
 source-wordcount: '5104'
 ht-degree: 96%
@@ -24,7 +24,7 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 
 すべてのアプリケーションをカバーするリリースノートについては、[Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)を参照してください。
 
-## 2024 年 9 月 2 日（Pt）
+## 2024 年 9 月 10 日（Pt）
 
 | 機能 | 説明 |
 | -----------| ---------- |
