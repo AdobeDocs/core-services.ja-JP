@@ -7,16 +7,18 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: cd5d4978f2dcaf79030022cbc0fe67c4c8099775
+source-git-commit: 9a6833139a0fb8eed8a10daeda34f354a7133f17
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '636'
 ht-degree: 8%
 
 ---
 
 # アカウントの環境設定と通知 {#preferences}
 
-Experience Cloudの環境設定を検索するには、**[!UICONTROL ユーザーアカウント]**![ 環境設定 ](../assets/preferences-icon-sm.png) アイコンをクリックし、「**[!UICONTROL 環境設定]** をクリックします。
+Experience Cloudの環境設定を見つけるには、ヘッダーの **[!UICONTROL ユーザーアカウント]**![ 環境設定 ](../assets/preferences-icon-sm.png) アイコンをクリックし、「**[!UICONTROL 環境設定]**」をクリックします。
+
+![ 環境設定 ](../assets/preferences-navigation.png){width="100" zoomable="yes"}
 
 [!UICONTROL Experience Cloud環境設定 ] ページでは、次のアカウント機能を管理できます。
 
