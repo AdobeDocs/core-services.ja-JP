@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
-workflow-type: ht
-source-wordcount: '714'
-ht-degree: 100%
+source-git-commit: cd5d4978f2dcaf79030022cbc0fe67c4c8099775
+workflow-type: tm+mt
+source-wordcount: '544'
+ht-degree: 85%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 100%
 
 Experience Cloud のヘッダーから、次の操作を実行できます。
 
-* アプリケーションとサービスへのアクセス
+* すべてのExperience Cloudアプリケーションおよびサービスへのアクセス
 * ヘルプメニューから、製品ドキュメント、チュートリアル、コミュニティへの投稿を検索します。Experience League で結果を表示します。
 * 「検索」フィールドのグローバル検索を使用したビジネスオブジェクトの検索（Experience Platform ユーザーのみ）。
-* アカウント設定（アラート、通知、サブスクリプション）の管理
+* アカウントの管理 [ 環境設定 ](features/account-preferences.md) （アラート、通知、購読）
 
 ## Experience Cloud にサインインする {#signin}
 
@@ -68,35 +68,21 @@ Experience Cloud にログインすると、統合ヘッダーからすべての
 * **[!UICONTROL ステータス]：** に移動して、製品の `https://status.adobe.com/experience_cloud` 運用状況と[!UICONTROL サブスクリプションの管理]を確認します。
 * **[!UICONTROL Developer Connection]：** `adobe.io` に移動して、開発者向けドキュメントを見つけます。
 
-## ユーザープロファイルとアカウントの環境設定 {#preferences}
+## ユーザープロファイルの管理
 
-Experience Cloud の環境設定には、通知、購読、アラートが含まれます。アカウントの環境設定メニューで、次の操作を実行できます。
+ユーザープロファイル メニューでは、次の操作を実行できます。
 
 * ダークテーマを指定する（このテーマに対応していないアプリケーションもあります）
-* [組織](administration/organizations.md)を検索する
+* Experience Cloud の[環境設定](features/account-preferences.md)を管理する
+* [ 組織 ](administration/organizations.md) を選択または検索
+* 表示 [!UICONTROL  法律上の注意 ]
 * ログアウト
 * アカウントの環境設定、通知、サブスクリプションを設定する
 
-環境設定を管理するには、アカウントメニュー ![環境設定](assets/preferences-icon-sm.png) から「**[!UICONTROL 環境設定]**」を選択します。
+## 製品内通知とお知らせの表示 {#notifications}
 
-![ユーザープロファイルとアカウントの環境設定](assets/preferences-page.png)
-
-[!UICONTROL Experience Cloud の環境設定]では、次の機能を設定できます。
-
-| 機能 | 説明 |
-|--- |--- |
-| デフォルトの[組織](administration/organizations.md) | Experience Cloud の起動時に表示する組織を選択します。 |
-| [!UICONTROL 製品データ収集] | アドビ製品の使用方法に関するデータを収集するためにアドビが使用できるテクノロジーを選択します。 |
-| [!UICONTROL パーソナライズされたラーニングのレコメンデーションとプロモーション] | アドビ製品のパーソナライズされたヘルプを受ける場所を選択します。このヘルプは、メール、製品内および Experience League コミュニティから利用できます。[詳細情報](features/personalized-learning.md)。 |
-| [!UICONTROL サブスクリプション] | 購入する製品とカテゴリを選択します。[!UICONTROL 通知]ポップオーバーとメール内の通知。 |
-| [!UICONTROL 優先度] | 優先度が高いと見なすカテゴリを選択します。これらのカテゴリには「高」タグが付き、アラートんなどの配信用に設定できます。 |
-| [!UICONTROL アラート] | ブラウザーにアラートを表示する通知を選択します。アラートは、ウィンドウの右上隅に数秒間表示されます。 |
-| メール | 通知メールの受信頻度を指定します。（送信しない、即時、毎日または毎週） |
-
-{style="table-layout:auto"}
-
-## 通知とお知らせ {#notifications}
-
-「**[!UICONTROL 通知]**」を選択すると、製品リリース、メンテナンス通知、共有項目、承認リクエストなど、関連性の高い実用的な更新に関する警告が表示されます。
+ベルアイコンをクリックして、通知とお知らせを表示します。 お知らせは、製品リリース、メンテナンス通知、共有項目、承認リクエストなど、関連性の高い実用的な更新にすることができます。
 
 ![通知とお知らせ](assets/notifications-menu-small.png)
+
+通知とアラートを管理するには、[ アカウント設定と通知 ](features/account-preferences.md) を参照してください。

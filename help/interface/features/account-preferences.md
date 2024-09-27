@@ -7,40 +7,26 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 0b2cae6b7aec7e91ac4b46de4d844dd2269095a9
+source-git-commit: cd5d4978f2dcaf79030022cbc0fe67c4c8099775
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 21%
+source-wordcount: '632'
+ht-degree: 8%
 
 ---
 
 # アカウントの環境設定と通知 {#preferences}
 
-Experience Cloud[ 環境設定 ](https://experience.adobe.com/preferences) には、通知（アプリ内、メール、[!DNL Slack]）、購読、アラートが含まれます。
+Experience Cloudの環境設定を検索するには、**[!UICONTROL ユーザーアカウント]**![ 環境設定 ](../assets/preferences-icon-sm.png) アイコンをクリックし、「**[!UICONTROL 環境設定]** をクリックします。
 
-環境設定では、次の操作を実行できます。
-
-* [組織](../administration/organizations.md)を検索する
-* ダークテーマを指定します（このテーマに対応していないアプリケーションもあります）。
-* ユーザーのアカウント環境設定、通知、サブスクリプションを設定します。
-* Experience Cloudからサインアウトします。
-
-## 環境設定を管理
-
-環境設定を管理するには、アカウントメニュー ![環境設定](../assets/preferences-icon-sm.png) から「**[!UICONTROL 環境設定]**」を選択します。
-
-[!UICONTROL Experience Cloud の環境設定]では、次の機能を設定できます。
+[!UICONTROL Experience Cloud環境設定 ] ページでは、次のアカウント機能を管理できます。
 
 | 機能 | 説明 |
 |--- |--- |
-| デフォルトの[組織](../administration/organizations.md) | Experience Cloud の起動時に表示する組織を選択します。 |
+| プロファイル | [Adobeアカウントプロファイル ](https://account.adobe.com/profile) を更新します。 <p>プロファイルの写真と名前は、Adobe.comやAdobeの製品およびサービスにログインしたときに表示されます。また、[!DNL Behance] のような公開サイトにも表示されます。 |
+| 全般 | [ 組織 ](../administration/organizations.md) を選択します。<p>Experience Cloudにログインした際に使用されるデフォルトの組織です。 |
 | [!UICONTROL 製品データ収集] | アドビ製品の使用方法に関するデータを収集するためにアドビが使用できるテクノロジーを選択します。 |
-| [ 通知 ](#notifications-and-announcements) | [!UICONTROL  アプリ内 ]、{ 電子メール ] または [!UICONTROL 4}Slack](#slack-notifications) 通知を有効にします。[ |
+| 通知 | 製品 [ 通知 ](#subscribe-to-notifications-in-experience-cloud) およびアラートを希望する方法とタイミングを設定します。 <ul><li>アラートを登録する製品を選択します</li><li>通知のタイプ （[!UICONTROL  アプリ内 ]、[!UICONTROL  メール ] または [Slack](#slack-notifications)）を設定</li><li>通知メールの受信頻度を指定します。（送信しない、即時、毎日または毎週）</li><li>アラートの優先度を決定します。 アプリ内アラートは、ウィンドウの右上隅に数秒間表示されます。 または、解除するまでアラートを表示するかどうかを指定できます。</li></ul> |
 | [!UICONTROL パーソナライズされたラーニングのレコメンデーションとプロモーション] | Adobeの商品に関する [ パーソナライズされたヘルプ ](personalized-learning.md) を受け取る場所を選択します。 このヘルプは、メール、製品内およびExperience Leagueコミュニティから利用できます。 |
-| [!UICONTROL サブスクリプション] | 購入する製品とカテゴリを選択します。[!UICONTROL  通知 ] ポップオーバーおよびメール内の通知。 |
-| [!UICONTROL 優先度] | 優先度が高いと見なすカテゴリを選択します。これらのカテゴリには [!UICONTROL  高 ] タグが付き、アラートなどの配信用に設定できます。 |
-| [!UICONTROL アラート] | ブラウザーにアラートを表示する通知を選択します。アラートは、ウィンドウの右上隅に数秒間表示されます。 |
-| メール | 通知メールの受信頻度を指定します。（送信しない、即時、毎日または毎週） |
 
 ## Experience Cloudでの通知のサブスクライブ {#notifications}
 
