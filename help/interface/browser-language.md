@@ -6,9 +6,10 @@ feature: Account Preferences
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
+exl-id: cc44008e-8b8a-4afb-b692-0ef9b87d5b21
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '193'
 ht-degree: 43%
 
 ---
@@ -35,9 +36,9 @@ Experience Cloudは、各ユーザーの優先言語とサブ言語をサポー�
 
 サポートされている言語を表示するには：
 
-1. Experience Cloudーで、**[!UICONTROL プロファイル]**/[ 環境設定 ](https://experience.adobe.com/preferences) に移動します。
+1. Experience Cloudで、**[!UICONTROL プロファイル]**/[ 環境設定 ](https://experience.adobe.com/preferences) をクリックします。
 
-1. [!UICONTROL  プロファイル ] で、言語リンクをクリックします。
+1. **[!UICONTROL プロファイル]** の下で、言語リンクをクリックします。
 
 1. **[!UICONTROL 言語を選択]** で **[!UICONTROL 第 1 言語]** メニューから言語を選択します。
 

@@ -6,10 +6,10 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 1ca98d86c3559bf82c33c4fa3c7ec04bde26f1d8
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 96%
+source-wordcount: '724'
+ht-degree: 91%
 
 ---
 
@@ -64,7 +64,7 @@ Experience Cloud は、アドビユーザーアカウントの環境設定で設
 
    ![組織の検証](assets/organizations-menu.png)
 
-   正しい [組織](organizations.md) にログインしていることを確認するには、プロファイルのアバターをクリックして組織名を表示します。複数の組織にアクセスできる場合は、ヘッダーバーで別の組織を表示して切り替えることもできます。
+   正しい [ 組織 ](organizations.md) にログインしていることを確認するには、「**[!UICONTROL プロファイル]**」をクリックして組織名を表示します。 複数の組織にアクセスできる場合は、「組織 **[!UICONTROL セレクターを使用して、別の組織を表示して切り替えることもでき]** す。
 
    組織が Federated ID を使用している場合、Experience Cloud を使用すると、自身のメールアドレスとパスワードを入力しなくても、組織のシングルサインオンでログインできます。`#/sso:@domain` を Experience Cloud URL（`https://experience.adobe.com`）に追加して、このタスクを完成します。
 
