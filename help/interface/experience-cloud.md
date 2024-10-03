@@ -10,7 +10,7 @@ exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 77%
+ht-degree: 91%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 77%
 
 Experience Cloud のヘッダーから、次の操作を実行できます。
 
-* すべてのExperience Cloudアプリケーションおよびサービスへのアクセス
+* すべての Experience Cloud アプリケーションとサービスにアクセスします
 * ヘルプメニューから、製品ドキュメント、チュートリアル、コミュニティへの投稿を検索します。Experience League で結果を表示します。
 * 「検索」フィールドのグローバル検索を使用したビジネスオブジェクトの検索（Experience Platform ユーザーのみ）。
-* アカウントの管理 [ 環境設定 ](features/account-preferences.md) （アラート、通知、購読）
+* アカウントの[環境設定](features/account-preferences.md)（アラート、通知、サブスクリプション）を管理します
 
 ## Experience Cloud にサインインする {#signin}
 
@@ -74,15 +74,15 @@ Experience Cloud にログインすると、統合ヘッダーからすべての
 
 * ダークテーマを指定する（このテーマに対応していないアプリケーションもあります）
 * Experience Cloud の[環境設定](features/account-preferences.md)を管理する
-* [ 組織 ](administration/organizations.md) を選択または検索
-* 表示 [!UICONTROL  法律上の注意 ]
+* [組織](administration/organizations.md)を選択または検索する
+* [!UICONTROL 法律上の注意]を表示する
 * ログアウト
 * アカウントの環境設定、通知、サブスクリプションを設定する
 
 ## 製品内通知とお知らせの表示 {#notifications}
 
-ベルアイコンをクリックして、通知とお知らせを表示します。 お知らせは、製品リリース、メンテナンス通知、共有項目、承認リクエストなど、関連性の高い実用的な更新にすることができます。
+ベルアイコンをクリックすると、通知とお知らせが表示されます。お知らせには、製品リリース、メンテナンス通知、共有項目、承認リクエストなど、関連性の高い実用的な更新が含まれる場合があります。
 
 ![通知とお知らせ](assets/notifications-menu-small.png)
 
-通知とアラートを管理するには、[ アカウント設定と通知 ](features/account-preferences.md) を参照してください。
+通知とアラートを管理するには、[アカウントの環境設定と通知](features/account-preferences.md)を参照してください
