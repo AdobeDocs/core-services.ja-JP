@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Experience Cloud のヘッダーから、次の操作を実行できます。
 
    **組織の検証**
 
-   [ 組織 ](administration/organizations.md) がインターフェイスヘッダーに表示されます。
+   [組織](administration/organizations.md)は、インターフェイスヘッダーに表示されます。
 
    組織が Federated ID を使用している場合、Experience Cloud を使用すると、自身のメールアドレスとパスワードを入力しなくても、組織のシングルサインオンでログインできます。`#/sso:@domain` を Experience Cloud URL（`https://experience.adobe.com`）に追加して、このタスクを完成します。
 
@@ -57,7 +57,7 @@ Experience Cloud にログインすると、統合ヘッダーからすべての
 
 ## お問い合わせとサポート {#support}
 
-[Experience League **[!UICONTROL のヘルプコンテンツ（ドキュメント、チュートリアル、コース）および個々のアプリケーションの追加リソースなど、ヘッダーの ](https://experienceleague.adobe.com/?lang=ja#home) ヘルプセンター]** （![asset](assets/help-icon.png)）を使用して、学習やヘルプにアクセスします。 自由形式のフィードバックを送信して、優先度の高いサポートチケットを作成することもできます。
+[Experience League](https://experienceleague.adobe.com/?lang=ja#home) のヘルプコンテンツ（ドキュメント、チュートリアル、コース）および個々のアプリケーションの追加リソースなど、ヘッダーの&#x200B;**[!UICONTROL ヘルプセンター]**（![アセット](assets/help-icon.png)）を使用して、ラーニングとヘルプにアクセスします。自由形式のフィードバックを送信して、優先度の高いサポートチケットを作成することもできます。
 
 ![お問い合わせとサポート](assets/search-menu.png)
 
@@ -70,7 +70,7 @@ Experience Cloud にログインすると、統合ヘッダーからすべての
 
 ## ユーザープロファイルの管理
 
-[!UICONTROL  プロファイル ] メニューでは、次の操作を実行できます。
+[!UICONTROL プロファイル]メニューで、次の操作を実行できます。
 
 * ダークテーマを指定する（このテーマに対応していないアプリケーションもあります）
 * Experience Cloud の[環境設定](features/account-preferences.md)を管理する
