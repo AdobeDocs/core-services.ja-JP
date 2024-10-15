@@ -3,12 +3,12 @@ role: User,Admin
 user-guide-title: Experience Cloud インターフェイスと管理ガイド
 breadcrumb-title: Experience Cloud インターフェイスと管理ガイド
 title: Experience Cloud インターフェイスと管理ガイド
-description: Experience Cloudインターフェイス、Cookie およびアカウント設定について説明します。 製品を管理し、顧客属性やオーディエンスライブラリなどの People サービスを設定します。 Experience CloudAssetsを共有します。
+description: Experience Cloud インターフェイス、Cookie、アカウントの環境設定について説明します。製品を管理し、顧客属性やオーディエンスライブラリなどの People サービスを設定します。Experience Cloud Assets の共有。
 index: true
 source-git-commit: 009c387189d928d3807326939fa56461325011f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '229'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
