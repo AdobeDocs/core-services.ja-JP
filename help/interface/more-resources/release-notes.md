@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 27d656b3cfe614f0a5b47d8987343a4c36d9ed33
+source-git-commit: f21e82e53a835d723bfd070cd99157c60c5f3eb7
 workflow-type: tm+mt
-source-wordcount: '5104'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,11 +24,17 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 
 すべてのアプリケーションをカバーするリリースノートについては、[Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)を参照してください。
 
+## 2024 年 10 月 2 日（Pt）
+
+| 機能 | 説明 |
+| -----------| ---------- |
+| カスタマイズ可能ホーム | Experience Cloudランディングページで、「**[!UICONTROL 編集]**」をクリックします。 [!UICONTROL  編集 ] モードを使用すると、ウィジェットライブラリとカスタム背景にアクセスして、Experience Cloudのホームページをパーソナライズできます。 [!UICONTROL  編集 ] モードは、ウィジェットの移動、サイズ変更、管理のためのシームレスで直感的なコントロールを提供します。バルクアクションやレイアウト調整などが含まれ、より美しくカスタマイズされたエクスペリエンスを提供します。 |
+
 ## 2024 年 9 月 10 日（Pt）
 
 | 機能 | 説明 |
 | -----------| ---------- |
-| Slackの通知 | アカウントの環境設定を行い、SlackにExperience Cloud通知を送信できます。 詳しくは、{Preferences _ヘルプの [0}Slack通知 ](../features/account-preferences.md) を参照してください。_ |
+| Slack 通知 | アカウントの環境設定を行い、Slack に Experience Cloud 通知を送信できます。詳しくは、{Preferences _ヘルプの [0}Slack通知 ](../features/account-preferences.md) を参照してください。_ |
 
 <!-- ## July - August 2023
 
