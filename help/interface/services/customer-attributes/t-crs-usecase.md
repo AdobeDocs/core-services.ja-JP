@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 9171da93ad234c98c06a5ace2435f7d476151f51
+source-git-commit: 65d77199580a85e3be3e82c06cb215f980d159fd
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 77%
@@ -108,7 +108,6 @@ Experience Cloudの新しい顧客属性Sourceを作成ページでこれらの�
      >[!IMPORTANT]
      >
      >特定のデータファイル要件が存在します。詳しくは、[データファイル要件](crs-data-file.md)を参照してください。
-
 
      ファイルをアップロードすると、このページの「[!UICONTROL ファイルのアップロード]」見出しの下に、表データが表示されます。スキーマを検証したり、購読を設定したり、FTP を設定したりできます。
 
