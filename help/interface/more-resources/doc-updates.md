@@ -1,5 +1,5 @@
 ---
-description: Experience Cloud ヘルプの更新に関する情報です。
+description: Experience Cloudの一般的なインターフェイスコンポーネントに対してドキュメントが更新される場所について説明します。
 solution: Experience Cloud
 title: ドキュメントの更新
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
@@ -7,16 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 468375c0435e5cffc92db5b737eb55fa92454b99
+source-git-commit: 855853be8397350bb93f3c9cf02bb73f5e75326f
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 77%
+source-wordcount: '580'
+ht-degree: 73%
 
 ---
 
-# ドキュメントの更新 - Experience Cloud
+# Experience Cloudに関するドキュメントの更新
 
-Experience Cloud製品ドキュメントのアップデートに関する情報です。
+Experience Cloudの主要なインターフェイスと管理に対してドキュメントのアップデートが行われる場所について説明します。
+
+**2024年11月**
+
+[ 製品使用状況データ ](../features/account-preferences.md) および [ パーソナライズされたラーニング ](../features/personalized-learning.md) が更新されました。
 
 **2024 年 9 月**
 

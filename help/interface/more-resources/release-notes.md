@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: f21e82e53a835d723bfd070cd99157c60c5f3eb7
+source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '5209'
+ht-degree: 94%
 
 ---
 
@@ -24,11 +24,15 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 
 すべてのアプリケーションをカバーするリリースノートについては、[Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)を参照してください。
 
+## 2024年11月
+
+Experience Cloud商品の利用状況データの設定を管理しやすくするため、Experience Cloud設定ページを合理化し、重複するオプションを排除しました。 このシンプル化により、現在のユーザーの環境設定が保持されました。お客様は、[Experience Cloudの環境設定 ](https://experience.adobe.com/preferences) でいつでも環境設定を更新できます。
+
 ## 2024 年 10 月 2 日（Pt）
 
 | 機能 | 説明 |
 | -----------| ---------- |
-| カスタマイズ可能ホーム | Experience Cloudランディングページで、「**[!UICONTROL 編集]**」をクリックします。 [!UICONTROL  編集 ] モードを使用すると、ウィジェットライブラリとカスタム背景にアクセスして、Experience Cloudのホームページをパーソナライズできます。 [!UICONTROL  編集 ] モードは、ウィジェットの移動、サイズ変更、管理のためのシームレスで直感的なコントロールを提供します。バルクアクションやレイアウト調整などが含まれ、より美しくカスタマイズされたエクスペリエンスを提供します。 |
+| カスタマイズ可能なホーム | Experience Cloud ランディングページで、「**[!UICONTROL 編集]**」をクリックします。[!UICONTROL 編集]モードを使用すると、ウィジェットライブラリとカスタム背景にアクセスして、Experience Cloud ホームページをパーソナライズできます。[!UICONTROL  編集 ] モードは、ウィジェットの移動、サイズ変更、管理のためのシームレスで直感的なコントロールを提供します。バルクアクションやレイアウト調整などが含まれ、より美しくカスタマイズされたエクスペリエンスを提供します。 |
 
 ## 2024 年 9 月 10 日（Pt）
 
@@ -259,7 +263,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 | 機能 | 説明 |
 |--- |--- |
 | レポートスイートの一括マッピング | 管理／レポートスイートのマッピングで、複数のレポートスイートを選択して、1 つの組織にマッピングできるようになりました（以前は、個別にマッピングする必要がありました）。<br> レポートスイートを 1 つの組織にマッピングすると、Experience Cloudのクロスアプリケーション機能とサービスを有効にするのに役立ちます。 |
-| Experience Cloud オーディエンスの更新 | **レポートスイートの適用**<br>&#x200B;すべての[オーディエンスルール](../services/audiences/create.md)にレポートスイートを適用できるようになりました（以前は、ルール定義ごとにレポートスイートを指定する必要がありました）。<br>**Prop と変数**<br>（eVar およびイベント変数に加えて）リアルタイムオーディエンスに Analytics の prop およびデフォルト変数を含めることができるようになりました。 |
+| Experience Cloud オーディエンスの更新 | **レポートスイートの適用**<br>&#x200B;すべての[オーディエンスルール](../services/audiences/create.md)にレポートスイートを適用できるようになりました（以前は、各ルール定義でレポートスイートを指定する必要がありました。） <br>**prop と変数**<br> リアルタイムオーディエンスに、（eVar とイベントに加えて） Analytics prop とデフォルト変数を含めることができるようになりました。 |
 
 {style="table-layout:auto"}
 
