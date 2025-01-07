@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
+source-git-commit: 6d6631c466ce28662f130cdd0fc2f9d6ba2d07b3
 workflow-type: tm+mt
-source-wordcount: '5209'
-ht-degree: 94%
+source-wordcount: '5286'
+ht-degree: 93%
 
 ---
 
@@ -24,9 +24,12 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 
 すべてのアプリケーションをカバーするリリースノートについては、[Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)を参照してください。
 
-## 2024年11月
+## 2025年1月
 
-Experience Cloud商品の利用状況データの設定を管理しやすくするため、Experience Cloud設定ページを合理化し、重複するオプションを排除しました。 このシンプル化により、現在のユーザーの環境設定が保持されました。お客様は、[Experience Cloudの環境設定 ](https://experience.adobe.com/preferences) でいつでも環境設定を更新できます。
+| 日付 | 機能 | 説明 |
+| -----------| -----------| ---------- |
+| 9年1月 | 製品の使用状況データ | Experience Cloudの商品の利用状況データの環境設定を簡単に制御できるように、Experience Cloudの [ 環境設定 ](../features/account-preferences.md#product-usage-data) ページを合理化し、重複するオプションを削除しました。 この簡略化により、現在のExperience Cloud設定が保持されました。[ ユーザー設定 ](https://experience.adobe.com/preferences) でいつでも設定を更新できます。 |
+| 1 月 30 日（予定リリース日） | スペクトル 2 | ヘッダーバーとヘッダーバーからアクセスするコンポーネントを含むExperience Cloudアプリケーションのフレームと、特定のアプリケーションの左側のナビゲーションレールは、Adobeの最新のデザインシステムである Spectrum 2 に更新されます。 この新しいデザインには、更新された図像が含まれていますが、同じ機能が含まれています。 ただし、ヘッダー内の複数の要素は、他のAdobeサイトやアプリケーションと整合するように再配置されます。 |
 
 ## 2024 年 10 月 2 日（Pt）
 
