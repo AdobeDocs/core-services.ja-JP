@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: b122f71a8bffeaaeb20c974c618bacc5a40c2cd9
+source-git-commit: e06568253b81742912b99bdf6e94c282abe2d429
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 [Experience Cloud](https://experience.adobe.com) には、アドビが提供するデジタルマーケティングアプリケーション、製品およびサービスが統合されています。直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。
 
-![Experience Cloud](assets/landing.png)
+![Experience Cloud](assets/landing.png){width="100" zoomable="yes"}
 
 Experience Cloud のヘッダーから、次の操作を実行できます。
 
@@ -37,7 +37,7 @@ Experience Cloud のヘッダーから、次の操作を実行できます。
 1. パスワードを入力します。
 1. 自分が適切な組織に属していることを確認します。
 
-   ![自身が適切な組織に所属していることを確認](assets/organizations-menu.png)
+   ![自身が適切な組織に所属していることを確認](assets/organizations-menu.png){width="100" zoomable="yes"}
 
    **組織の検証**
 
@@ -53,13 +53,13 @@ Experience Cloud にログインすると、統合ヘッダーからすべての
 
 組織内でプロビジョニングされた Experience Cloud のアプリケーションおよびサービスにアクセスするには、アプリケーションセレクター ![メニュー](assets/apps-icon.png) に移動します。
 
-![Experience Cloud アプリケーションへのアクセス](assets/platform-core-services.png)
+![Experience Cloud アプリケーションへのアクセス](assets/platform-core-services.png){width="100" zoomable="yes"}
 
 ## お問い合わせとサポート {#support}
 
 [Experience League](https://experienceleague.adobe.com/?lang=ja#home) のヘルプコンテンツ（ドキュメント、チュートリアル、コース）および個々のアプリケーションの追加リソースなど、ヘッダーの&#x200B;**[!UICONTROL ヘルプセンター]**（![アセット](assets/help-icon.png)）を使用して、ラーニングとヘルプにアクセスします。自由形式のフィードバックを送信して、優先度の高いサポートチケットを作成することもできます。
 
-![お問い合わせとサポート](assets/search-menu.png)
+![お問い合わせとサポート](assets/search-menu.png){width="100" zoomable="yes"}
 
 [!UICONTROL ヘルプ]メニューからも、次の項目にアクセスできます。
 
@@ -83,6 +83,6 @@ Experience Cloud にログインすると、統合ヘッダーからすべての
 
 ベルアイコンをクリックすると、通知とお知らせが表示されます。お知らせには、製品リリース、メンテナンス通知、共有項目、承認リクエストなど、関連性の高い実用的な更新が含まれる場合があります。
 
-![通知とお知らせ](assets/notifications-menu-small.png)
+![通知とお知らせ](assets/notifications-menu-small.png){width="100" zoomable="yes"}
 
 通知とアラートを管理するには、[アカウントの環境設定と通知](features/account-preferences.md)を参照してください
