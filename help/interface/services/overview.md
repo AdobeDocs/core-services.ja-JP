@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: b3484afe7ed1e015030f73ea0a25b921c32d81dd
+source-git-commit: fcebe4c0c356ef1f8d8756203f9ff7348b91f2b1
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 90%
@@ -19,7 +19,7 @@ ht-degree: 90%
 このドキュメントは、[!DNL People] サービス（[!DNL Audience Library] と [!DNL Customer Attributes]）、Experience Cloud のユーザーおよび製品管理、Cookie、アカウント設定、通知など、Experience Cloud 統合ヘッダーの機能に適用されます。
 
 Experience Cloud のこれらのサービスにアクセスするには、**[!UICONTROL アプリケーションセレクター]**
-![サービスセレクター](../assets/menu-icon.png)を選択します。
+![サービスセレクター](../assets/apps-icon.png)を選択します。
 
 ![Experience Cloud サービス](../assets/platform-core-services.png)
 
