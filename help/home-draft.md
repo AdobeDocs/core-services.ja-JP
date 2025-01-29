@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 5df8104d3d148cc7bda823b27bf96429ddb6018d
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 80%
+ht-degree: 94%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 80%
 
 Experience Cloud のヘッダーから、次の操作を実行できます。
 
-* すべてのExperience Cloudアプリケーションおよびサービスへのアクセス
+* すべての Experience Cloud アプリケーションとサービスにアクセスします
 * ヘルプメニューから、製品ドキュメント、チュートリアル、コミュニティへの投稿を検索します。Experience League で結果を表示します。
 * 「検索」フィールドのグローバル検索を使用したビジネスオブジェクトの検索（Experience Platform ユーザーのみ）。
-* アカウントの管理 [ 環境設定 ](features/account-preferences.md) （アラート、通知、購読）
+* アカウントの[環境設定](features/account-preferences.md)（アラート、通知、サブスクリプション）を管理します
 
 ## Experience Cloud にサインインする {#signin}
 
 ログインし、自分が適切な[組織](administration/organizations.md)に属していることを確認します。
 
 1. [Adobe Experience Cloud](https://experience.adobe.com) に移動します。
-1. アドビのメールアドレスを入力し、「**[!UICONTROL 続行]**」を選択します。
+1. Adobeのメールアドレスを入力し、「**[!UICONTROL 続行]**」をクリックします。
 1. アカウントを選択します。
 1. パスワードを入力します。
 1. 自分が適切な組織に属していることを確認します。
@@ -41,7 +41,7 @@ Experience Cloud のヘッダーから、次の操作を実行できます。
 
    **組織の検証**
 
-   [ 組織 ](administration/organizations.md) がインターフェイスヘッダーに表示されます。
+   [組織](administration/organizations.md)は、インターフェイスヘッダーに表示されます。
 
    組織が Federated ID を使用している場合、Experience Cloud を使用すると、自身のメールアドレスとパスワードを入力しなくても、組織のシングルサインオンでログインできます。`#/sso:@domain` を Experience Cloud URL（`https://experience.adobe.com`）に追加して、このタスクを完成します。
 
@@ -57,7 +57,7 @@ Experience Cloud にログインすると、統合ヘッダーからすべての
 
 ## お問い合わせとサポート {#support}
 
-[Experience League **[!UICONTROL のヘルプコンテンツ（ドキュメント、チュートリアル、コース）および個々のアプリケーションの追加リソースなど、ヘッダーの ](https://experienceleague.adobe.com/?lang=ja#home) ヘルプセンター]** （![asset](assets/help-icon.png)）を使用して、学習やヘルプにアクセスします。 自由形式のフィードバックを送信して、優先度の高いサポートチケットを作成することもできます。
+[Experience League](https://experienceleague.adobe.com/?lang=ja#home) のヘルプコンテンツ（ドキュメント、チュートリアル、コース）および個々のアプリケーションの追加リソースなど、ヘッダーの&#x200B;**[!UICONTROL ヘルプセンター]**（![アセット](assets/help-icon.png)）を使用して、ラーニングとヘルプにアクセスします。自由形式のフィードバックを送信して、優先度の高いサポートチケットを作成することもできます。
 
 ![お問い合わせとサポート](assets/search-menu.png)
 
@@ -70,22 +70,22 @@ Experience Cloud にログインすると、統合ヘッダーからすべての
 
 ## ユーザープロファイルの管理
 
-[!UICONTROL  プロファイル ] メニューでは、次の操作を実行できます。
+[!UICONTROL プロファイル]メニューで、次の操作を実行できます。
 
 * ダークテーマを指定する（このテーマに対応していないアプリケーションもあります）
 * Experience Cloud の[環境設定](features/account-preferences.md)を管理する
-* [ 組織 ](administration/organizations.md) を選択または検索
-* 表示 [!UICONTROL  法律上の注意 ]
+* [組織](administration/organizations.md)を選択または検索する
+* [!UICONTROL 法律上の注意]を表示する
 * ログアウト
 * アカウントの環境設定、通知、サブスクリプションを設定する
 
 ## 製品内通知とお知らせの表示 {#notifications}
 
-ベルアイコンをクリックして、通知とお知らせを表示します。 お知らせは、製品リリース、メンテナンス通知、共有項目、承認リクエストなど、関連性の高い実用的な更新にすることができます。
+ベルアイコンをクリックすると、通知とお知らせが表示されます。お知らせには、製品リリース、メンテナンス通知、共有項目、承認リクエストなど、関連性の高い実用的な更新が含まれる場合があります。
 
 ![通知とお知らせ](assets/notifications-menu-small.png)
 
-通知とアラートを管理するには、[ アカウント設定と通知 ](features/account-preferences.md) を参照してください。
+通知とアラートを管理するには、[アカウントの環境設定と通知](features/account-preferences.md)を参照してください
 
 
 ## 最新情報
@@ -181,7 +181,7 @@ Experience Cloud中央インターフェイスコンポーネントに対する�
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
     <br/>
-      <strong> 開発者リソース </strong><br/><a href="dev/datamodel.md">Campaign v8 データモデル </a> - <a href="dev/schemas.md"> スキーマ </a> - <a href="dev/api.md">API</a>
+      <strong>開発者リソース</strong><br/><a href="dev/datamodel.md">Campaign v8 データモデル</a> - <a href="dev/schemas.md">スキーマ</a> - <a href="dev/api.md">API</a>
     </td>
   </tr>
 </table>

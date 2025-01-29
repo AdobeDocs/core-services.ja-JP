@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 65d77199580a85e3be3e82c06cb215f980d159fd
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 77%
@@ -55,13 +55,13 @@ Experience Cloudの新しい顧客属性Sourceを作成ページでこれらの�
 >顧客属性ソースを作成、変更または削除する場合、ID が新しいデータソースと同期され始めるまで、最大 1 時間の遅延があります。顧客属性ソースを作成または変更するには、Audience Manager の管理者権限が必要です。Audience Manager カスタマーケアまたはコンサルティングに問い合わせて、管理者権限を取得してください。
 
 1. [!DNL Experience Cloud] で、メニュー ![ メニュー ](assets/menu-icon.png) アイコンを選択します。
-1. **[!DNL Experience Platform]** で、**[!UICONTROL People]**／**[!UICONTROL 顧客属性]**&#x200B;を選択します。
+1. **[!DNL Experience Platform]** で、**[!UICONTROL People]**／**[!UICONTROL 顧客属性]**&#x200B;をクリックします。
 
    [!UICONTROL 顧客属性]ページでは、既存の属性データソースを管理したり、編集したりできます。
 
    ![手順の結果](assets/03_crs_usecase.png)
 
-1. 「**[!UICONTROL 新規]**」を選択します。
+1. 「**[!UICONTROL 新規]**」をクリックします。
 
    ![手順の結果](assets/04_crs_usecase.png)
 
@@ -71,7 +71,7 @@ Experience Cloudの新しい顧客属性Sourceを作成ページでこれらの�
 
    * **[!UICONTROL 説明：]**（オプション）データ属性ソースの説明。
 
-   * **[!UICONTROL エイリアス ID：]**&#x200B;特定の CRM システムなど、顧客属性データのソースを表します。[!UICONTROL  エイリアス ID] は、[!UICONTROL  顧客属性Source] コードで使用される一意の ID です。 ID は一意で、スペースを含まないアルファベットおよびアンダースコアの組み合わせにしてください。Experience Cloudで顧客属性ソースの [!UICONTROL  エイリアス ID] フィールドに入力する値は、実装から（Platform データ収集または Mobile SDK のJavaScriptを使用して）渡されている値と一致させる必要があります。
+   * **[!UICONTROL エイリアス ID：]**&#x200B;特定の CRM システムなど、顧客属性データのソースを表します。[!UICONTROL  エイリアス ID] は、[!UICONTROL  顧客属性Source] コードで使用される一意の ID です。 ID は一意で、スペースを含まないアルファベットおよびアンダースコアの組み合わせにしてください。Experience Cloudで顧客属性ソースの [!UICONTROL  エイリアス ID] フィールドに入力する値は、実装から（Platform データ収集または Mobile SDKのJavaScriptを使用して）渡されている値と一致させる必要があります。
 
      >[!IMPORTANT]
      >
@@ -144,7 +144,7 @@ Experience Cloudの新しい顧客属性Sourceを作成ページでこれらの�
 
 **属性ソースを有効化するには**
 
-[!UICONTROL  新規を作成または顧客属性Sourceを編集 ] ページで、[!UICONTROL  アクティブ化 ] 見出しを探し、「**[!UICONTROL アクティブ]**」を選択します。
+[!UICONTROL  新規を作成または顧客属性Sourceを編集 ] ページで、「[!UICONTROL  アクティブ化 ] 見出しを探し、「**[!UICONTROL アクティブ]**」をクリックします。
 
 ![手順の結果](assets/activate_attribute_source.png)
 

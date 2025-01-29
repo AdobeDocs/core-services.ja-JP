@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 76%
@@ -35,7 +35,7 @@ Experience Cloudで顧客属性ソースと FTP アカウントを作成した�
 
    FTP サイトにログインしていることを `ftp.adobe.com/<sftpname>`.
 
-1. **[!UICONTROL アクション]**／**[!UICONTROL ファイルのアップロード]**&#x200B;を選択します。
+1. **[!UICONTROL アクション]**／**[!UICONTROL ファイルのアップロード]**&#x200B;をクリックします。
 
 1. ファイルを取得できるように、`.fin` ファイルをアップロードします。
 

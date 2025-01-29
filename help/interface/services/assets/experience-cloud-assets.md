@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 100%
@@ -37,7 +37,7 @@ Experience Cloud Assets は、複数のアプリケーション間で共有で�
 
 ## ツールバーへのアクセス {#section_EC2E401D225148818F3753248556BE6B}
 
-アセット（またはアセットディレクトリ）に移動し、「**[!UICONTROL 選択]**」を選択します。
+アセット（またはアセットディレクトリ）に移動し、「**[!UICONTROL 選択]**」をクリックします。
 
 ツールバーから、検索、タイムライン、レンディション、編集、注釈、ダウンロードなどの機能にすばやくアクセスできます。
 
@@ -65,13 +65,13 @@ Experience Cloud Assets は、複数のアプリケーション間で共有で�
 
 ## アセットへの注釈の付加 {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
 
-画像の上に円や矢印を描いて「**[!UICONTROL 注釈]**」を選択し、共同作業者に確認を求める注釈をアセットに付けます。
+画像の上に円や矢印を描いて「**[!UICONTROL 注釈]**」をクリックし、共同作業者に確認を求める注釈をアセットに付けます。
 
 ![アセットへの注釈の付加](../../assets/assets-annotate.png)
 
 ## アセットのフルスクリーン表示とズーム {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-**[!UICONTROL ビュー]**／**[!UICONTROL 画像]**&#x200B;を選択して、アセット画像全体を表示し、ズームを有効にします。
+**[!UICONTROL ビュー]**／**[!UICONTROL 画像]**&#x200B;をクリックして、アセット画像全体を表示し、ズームを有効にします。
 
 ![アセットのフルスクリーン表示](../../assets/asset-zoom.png)
 
@@ -79,7 +79,7 @@ Experience Cloud Assets は、複数のアプリケーション間で共有で�
 
 プロパティ付きのカードビュー、リスト表示および列ビューのいずれかを選択して、アセットをより容易に見つけることができます。
 
-**[!UICONTROL ビュー]**／**[!UICONTROL プロパティ]**&#x200B;を選択して、アセットのプロパティを表示します。
+**[!UICONTROL ビュー]**／**[!UICONTROL プロパティ]**&#x200B;をクリックして、アセットのプロパティを表示します。
 
 ![アセットプロパティの表示](../../assets/asset-properties.png)
 
@@ -87,6 +87,6 @@ Experience Cloud Assets は、複数のアプリケーション間で共有で�
 
 ユーザー数、使用されているストレージおよびアセット合計数を表示します。
 
-**[!UICONTROL ツール]**／**[!UICONTROL レポート]**／**[!UICONTROL 使用状況レポート]**&#x200B;を選択します。
+**[!UICONTROL ツール]**／**[!UICONTROL レポート]**／**[!UICONTROL 使用状況レポート]**&#x200B;をクリックします。
 
 ![使用状況レポートの実行](../../assets/assets-usage-report.png)

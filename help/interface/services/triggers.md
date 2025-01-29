@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 95%
@@ -49,9 +49,9 @@ Experience Cloud の[!UICONTROL Triggers]を使用すると、主要な消費者
 >
 >現在、100 トリガーまでという技術的な制限があります。
 
-1. Experience Cloudで「![menu](../assets/menu-icon.png)」を選択し、「**[!UICONTROL Data Collection/Launch]**」を選択します。
-2. [!UICONTROL トリガー] カード上で、「**[!UICONTROL トリガーを管理]**」を選択します。
-3. 「**[!UICONTROL 新しいトリガー]**」を選択して、トリガーのタイプを指定します。
+1. Experience Cloudで ![menu](../assets/menu-icon.png) をクリックし、**[!UICONTROL Data Collection/Launch]** をクリックします。
+2. [!UICONTROL Triggers] カード上で、「**[!UICONTROL Triggers を管理]**」をクリックします。
+3. 「**[!UICONTROL 新しいトリガー]**」をクリックして、トリガーのタイプを指定します。
 
    ![手順の結果](../assets/add-trigger.png)
 
@@ -68,7 +68,7 @@ Experience Cloud の[!UICONTROL Triggers]を使用すると、主要な消費者
 
    {style="table-layout:auto"}
 
-5. 「**[!UICONTROL 保存]**」を選択します。
+5. 「**[!UICONTROL 保存]**」をクリックします。
 6. [!DNL Adobe Campaign] でトリガーを[リアルタイムリマーケティング](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=ja)に使用します。
 
 ### トリガーの例
