@@ -2,10 +2,10 @@
 title: Experience Cloudが使用する IP アドレス
 description: 組織のファイアウォールで、ファイアウォールから派生する IP アドレスがブロックされている場合は、この一覧を使用してAdobe設定を更新してください。
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: faa9b8067a85f86cc0b559bdeeaed80df2339c7d
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 6%
+source-wordcount: '374'
+ht-degree: 12%
 
 ---
 
@@ -78,6 +78,7 @@ ht-degree: 6%
 | シンガポール | `172.82.240.88/29` |
 | バージニア | `63.140.38.0/23` |
 | バージニア | `63.140.54.0/24` |
+| バージニア | `67.202.5.244` |
 
 {style="table-layout:auto"}
 
