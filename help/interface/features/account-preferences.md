@@ -1,6 +1,6 @@
 ---
 title: アカウントの環境設定と通知
-description: Experience Cloudのユーザープロファイル、アカウント環境設定、製品使用状況データについて説明します。 メールおよび  [!DNL Slack] の製品通知を購読し、製品アラートを設定します。
+description: Experience Cloud のユーザープロファイル、アカウントの環境設定、製品使用状況データについて説明します。メールおよび  [!DNL Slack] の製品通知を購読し、製品アラートを設定します。
 solution: Experience Cloud
 feature: Account Preferences, Notifications, Alerts
 topic: Administration
@@ -10,7 +10,7 @@ exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
 source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
