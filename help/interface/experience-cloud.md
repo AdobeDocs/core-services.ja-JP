@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Experience Cloud のヘッダーから、次の操作を実行できます。
 ログインし、自分が適切な[組織](administration/organizations.md)に属していることを確認します。
 
 1. [Adobe Experience Cloud](https://experience.adobe.com) に移動します。
-1. Adobeのメールアドレスを入力し、「**[!UICONTROL 続行]**」をクリックします。
+1. アドビのメールアドレスを入力し、「**[!UICONTROL 続行]**」をクリックします。
 1. アカウントをクリックします。
 1. パスワードを入力します。
 1. 自分が適切な組織に属していることを確認します。
