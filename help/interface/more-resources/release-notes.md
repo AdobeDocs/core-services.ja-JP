@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: b44a57082f65be8f9957d48ee50adcc1b6f72ce5
 workflow-type: tm+mt
-source-wordcount: '1195'
-ht-degree: 86%
+source-wordcount: '1200'
+ht-degree: 90%
 
 ---
 
@@ -24,12 +24,17 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 
 すべてのアプリケーションをカバーするリリースノートについては、[Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)を参照してください。
 
+## 2025年2月
+
+| 日付 | 機能 | 説明 |
+| -----------| -----------| ---------- |
+| 2月13日（PT）（予定リリース日） | Spectrum 2 | ヘッダーバーとヘッダーバーからアクセスするコンポーネントを含むExperience Cloud アプリケーションフレーム、および特定のアプリケーションの左側のナビゲーションレールは、Adobeの最新のデザインシステムである Spectrum 2 に更新されます。 この新しいデザインには、更新された図像が含まれていますが、同じ機能が含まれています。 ただし、ヘッダー内の複数の要素は、他のアドビのサイトやアプリケーションに合わせて再配置されます。 |
+
 ## 2025年1月
 
 | 日付 | 機能 | 説明 |
 | -----------| -----------| ---------- |
-| 9年1月 | 製品の使用状況データ | Experience Cloudの商品の利用状況データの環境設定を簡単に制御できるように、Experience Cloudの [ 環境設定 ](../features/account-preferences.md#product-usage-data) ページを合理化し、重複するオプションを削除しました。 この簡略化により、現在のExperience Cloud設定が保持されました。[ ユーザー設定 ](https://experience.adobe.com/preferences) でいつでも設定を更新できます。 |
-| 2 月 5 日（予定リリース日） | スペクトル 2 | ヘッダーバーとヘッダーバーからアクセスするコンポーネントを含むExperience Cloudアプリケーションフレーム、および特定のアプリケーションの左側のナビゲーションレールは、Adobeの最新のデザインシステムである Spectrum 2 に更新されます。 この新しいデザインには、更新された図像が含まれていますが、同じ機能が含まれています。 ただし、ヘッダー内の複数の要素は、他のAdobeサイトやアプリケーションと整合するように再配置されます。 |
+| 1月9日（PT） | 製品の使用状況データ | Experience Cloudの製品の使用状況データの環境設定を簡単に制御できるように、Experience Cloud[ 環境設定 ](../features/account-preferences.md#product-usage-data) ページを合理化し、重複するオプションを排除しました。 簡素化を目的に、現在のユーザーの環境設定は保持され、[Experience Cloud の環境設定](https://experience.adobe.com/preferences)でいつでも環境設定を更新できます。 |
 
 ## 2024 年 10 月 2 日（Pt）
 
@@ -41,7 +46,7 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 
 | 機能 | 説明 |
 | -----------| ---------- |
-| Slack 通知 | アカウントの環境設定を行い、Slack に Experience Cloud 通知を送信できます。詳しくは、{Preferences _ヘルプの [0}Slack通知 ](../features/account-preferences.md) を参照してください。_ |
+| Slack 通知 | アカウントの環境設定を行い、Slack に Experience Cloud 通知を送信できます。詳しくは、{ 環境設定 _ヘルプの [0}Slack通知 ](../features/account-preferences.md) を参照してください。_ |
 
 <!-- ## July - August 2023
 
