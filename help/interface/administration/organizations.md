@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: 1e0206286d4ac0f1987ee053bcbfce8649902ccd
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 55%
@@ -17,7 +17,7 @@ ht-degree: 55%
 
 # Experience Cloud の組織
 
-*組織* （組織 ID）は、管理者がグループおよびユーザーを設定し、シングルサインオンのExperience Cloudを制御するために使用するエンティティです。
+*組織* （組織 ID）とは、管理者がグループおよびユーザーを設定し、Experience Cloudでのシングルサインオンを制御するために使用するエンティティです。
 
 この組織は、Experience Cloud のすべての製品とアプリケーションにまたがるログイン会社のように機能します。ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。
 
@@ -65,7 +65,7 @@ ht-degree: 55%
 
 1. Adobe ID または Enterprise ID を使用してログインします。
 
-1. **[!UICONTROL アプリケーションセレクター]** をクリックします。 （![ メニュー ](../assets/menu-icon.png)）。
+1. **[!UICONTROL アプリケーションセレクター]** をクリックします。 （![ メニュー ](../assets/apps-icon.png)）。
 
    ![アプリケーションアカウントを Adobe ID にリンクする](../assets/solutions-active.png)
 
