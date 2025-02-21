@@ -7,24 +7,28 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 855853be8397350bb93f3c9cf02bb73f5e75326f
+source-git-commit: e0b8281058b44012bdd7befa6ce26355a35bcf11
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 73%
+source-wordcount: '605'
+ht-degree: 70%
 
 ---
 
-# Experience Cloudに関するドキュメントの更新
+# Experience Cloudのドキュメントの更新
 
-Experience Cloudの主要なインターフェイスと管理に対してドキュメントのアップデートが行われる場所について説明します。
+Experience Cloudの主要なインターフェイスと管理に関するドキュメントのアップデートをおこなう場所を説明します。
 
-**2024年11月**
+**2025 年 2 月**
+
+[Experience Cloudでユーザーと製品を管理 ](../administration/admin-console.md) を追加しました。 このページは、管理者がすべてのアプリケーションのユーザーおよび製品管理（Admin Console）ヘルプを見つけるのに役立ちます。
+
+**2024 年 11 月**
 
 [ 製品使用状況データ ](../features/account-preferences.md) および [ パーソナライズされたラーニング ](../features/personalized-learning.md) が更新されました。
 
 **2024 年 9 月**
 
-[Slack通知の購読 ](../features/account-preferences.md#subscribe-to-slack-notifications) に関するヘルプを追加しました。
+[Slack通知の登録 ](../features/account-preferences.md#subscribe-to-slack-notifications) に関するヘルプを追加しました。
 
 [ ユーザー環境設定 ](../features/account-preferences.md) を更新しました。
 
