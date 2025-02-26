@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 1e0206286d4ac0f1987ee053bcbfce8649902ccd
+source-git-commit: f83ddfe82a55c6b88cf35a14b030d9b82c17f16d
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 55%
+source-wordcount: '585'
+ht-degree: 50%
 
 ---
 
@@ -24,6 +24,10 @@ ht-degree: 55%
 ![Experience Cloud組織 ](../assets/organizations-menu.png)
 
 正しい組織にログインしていることを確認するには、「**[!UICONTROL プロファイル]**」をクリックしてデフォルトの組織名を表示します。 複数の組織にアクセスできる場合は、ヘッダーバーで別の組織を表示して切り替えることもできます。
+
+>[!NOTE]
+>
+>組織間を切り替えると、その特定の組織のAdmin Consoleにアクセスできます。 目的の組織がリストに表示されない場合は、その組織の管理者にアクセス権をリクエストする必要がある場合があります。 （複数の Admin Console を統合する必要がある場合は、Adobe カスタマーサポートにお問い合わせください。）
 
 ## 連合 ID
 
