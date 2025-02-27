@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: d39d8a26a6870edd4d1674da12f24ab5ac5d05bc
+source-git-commit: 91f06f12c9c9ec8df19f513f2a09de0b871137cb
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '728'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 4%
 
 Admin Consoleには、3 つの主要な管理者の役割が用意されており、それぞれに固有のアクセスレベルと責務レベルがあります。
 
-| ヘルプリンク | 説明 |
+| 役割 | 説明 |
 | ------- | ------- |
 | システム管理者 | フルアクセス – コンソールのすべての側面を管理します。 <br> 主な責務：<br><ul><li>ユーザーを追加、削除、管理します。</li><li>製品ライセンスの割り当てと失効。</li><li>ID および認証設定の指定</li><li>請求情報を表示および管理します。</li><li>追加の管理者とデリゲート役割を設定します。</li></ul> **最適：** IT 管理者またはチームリードが、組織のAdobe環境全体を監視します。 |
 | 製品管理者 | 製品固有の管理 – 特定のAdobe製品のアクセスと権限を制御します。<br> 主な責任：<ul><li>特定の製品のライセンスを割り当てて管理します。</li><li>製品プロファイルを作成および管理します。</li><li>割り当てられた製品内のユーザーを追加または削除します。</li></ul>   **最適：** Marketo EngageやAdobe Creative Cloudなど、特定のソフトウェアを管理するチームまたはユーザー。 |
@@ -37,7 +37,7 @@ Experience Cloud アプリケーションの ID および製品ライセンス�
 
 Admin Consoleの管理者として作業を開始する際に必要になる可能性のあるリソースを次に示します。
 
-### タスクを設定
+### リソースの設定
 
 | ヘルプリンク | 説明 |
 | ------- | ------- |
