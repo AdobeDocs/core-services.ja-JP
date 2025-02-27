@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: 9932f21e4aa4d4a5bf08d7f1617b4c25d4fb14bb
+source-git-commit: d39d8a26a6870edd4d1674da12f24ab5ac5d05bc
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 3%
+source-wordcount: '729'
+ht-degree: 4%
 
 ---
 
@@ -21,78 +21,46 @@ ht-degree: 3%
 
 すべてのAdobe アプリケーションに適用される一般的な ID 管理ヘルプについては、『 [ エンタープライズおよびチーム管理者ガイド ](https://helpx.adobe.com/jp/enterprise/admin-guide.html) 』を参照してください。
 
-次の節では、Admin Console ヘルプ内のリソースへのリンクを示します。
-
 ## Admin Consoleの管理者の役割
 
 Admin Consoleには、3 つの主要な管理者の役割が用意されており、それぞれに固有のアクセスレベルと責務レベルがあります。
 
-**システム管理者：** フルアクセス – コンソールのすべての側面を管理します。
+| ヘルプリンク | 説明 |
+| ------- | ------- |
+| システム管理者 | フルアクセス – コンソールのすべての側面を管理します。 <br> 主な責務：<br><ul><li>ユーザーを追加、削除、管理します。</li><li>製品ライセンスの割り当てと失効。</li><li>ID および認証設定の指定</li><li>請求情報を表示および管理します。</li><li>追加の管理者とデリゲート役割を設定します。</li></ul> **最適：** IT 管理者またはチームリードが、組織のAdobe環境全体を監視します。 |
+| 製品管理者 | 製品固有の管理 – 特定のAdobe製品のアクセスと権限を制御します。<br> 主な責任：<ul><li>特定の製品のライセンスを割り当てて管理します。</li><li>製品プロファイルを作成および管理します。</li><li>割り当てられた製品内のユーザーを追加または削除します。</li></ul>   **最適：** Marketo EngageやAdobe Creative Cloudなど、特定のソフトウェアを管理するチームまたはユーザー。 |
+| 製品プロファイル管理者 | 詳細な役割管理 – 製品内のユーザーグループと権限の管理に重点を置いています。<br> 主な責務：<ul><li>製品プロファイルを作成および管理します。</li><li>プロファイル内に権限と機能アクセス権を割り当てます。</li><li>プロファイル内のユーザーの追加または削除。</li></ul> **最適な対象：** 部門のリーダーやチームマネージャーが、特殊なニーズを持つ小規模なグループを監督します。 <br> 管理者は、組織の要件に応じて、役割を組み合わせて柔軟性を高めることができます。 |
 
-主な責務：
-
-* ユーザーを追加、削除、管理します。
-* 製品ライセンスの割り当てと失効。
-* ID と認証の設定を行います。
-* 請求情報を表示および管理します。
-* 追加の管理者とデリゲート役割を設定します。
-
-  **最適：** IT 管理者またはチームリードが、組織のAdobe環境全体を監視します。
-
-**製品管理者：** 製品固有の管理 – 特定のAdobe製品のアクセスと権限を制御します。
-
-主な責務：
-
-* 特定の製品のライセンスを割り当てて管理します。
-* 製品プロファイルを作成および管理します。
-* 割り当てられた製品内のユーザーを追加または削除します。
-
-  **最適：** Marketo EngageやAdobe Creative Cloudなど、特定のソフトウェアを管理するチームまたはユーザー。
-
-**製品プロファイル管理者：** 詳細な役割管理 – 製品内のユーザーグループと権限の管理に重点を置いています。
-
-* 主な責務：
-* 製品プロファイルを作成および管理します。
-* プロファイル内に権限と機能アクセス権を割り当てます。
-* プロファイル内のユーザーの追加または削除。
-
-  **最適な対象：** 部門のリーダーやチームマネージャーが、特殊なニーズを持つ小規模なグループを監督
-
-  管理者は、組織の要件に応じて、役割を組み合わせて柔軟性を高めることができます。
-
-## Admin Consoleの設定
+## Experience CloudのAdmin Console
 
 Experience Cloud アプリケーションの ID および製品ライセンスを管理するには、[Admin Console](https://adminconsole.adobe.com/enterprise/) に移動します。
 
-* [ID とシングルサインオンの設定 ](https://helpx.adobe.com/jp/enterprise/using/set-up-identity.html) - シングルサインオン（SSO）の有無にかかわらず、様々な ID タイプのユーザーのアカウントを設定する方法を説明します。 Adobe ソフトウェア用に SSO を設定し、SAML を設定して、最も一般的な質問とエラーを調べます。
+Admin Consoleの管理者として作業を開始する際に必要になる可能性のあるリソースを次に示します。
 
-* [ ディレクトリの信頼を使用した組織の設定 ](https://helpx.adobe.com/enterprise/using/directory-trust.html) - ディレクトリの信頼を使用して、別の組織が既に要求しているドメインに対してユーザーを認証します。
+### タスクを設定
 
-  組織について詳しくは、[Experience Cloudの組織 ](organizations.md) を参照してください。
+| ヘルプリンク | 説明 |
+| ------- | ------- |
+| [ID とシングルサインオンの設定 ](https://helpx.adobe.com/jp/enterprise/using/set-up-identity.html) | **[!UICONTROL Admin Console]**/**[!UICONTROL 設定]**<br> シングルサインオン（SSO）の有無にかかわらず、様々な ID タイプのユーザーアカウントを設定する方法を説明します。 Adobe ソフトウェア用に SSO を設定し、SAML を設定して、最も一般的な質問とエラーを調べます。 |
+| [ ディレクトリ信頼を使用した組織の設定 ](https://helpx.adobe.com/enterprise/using/directory-trust.html) | 別の組織が既に要求しているドメインに対してユーザーを認証します。 組織の検索と切り替えについて詳しくは、[Experience Cloudの組織 ](organizations.md) を参照してください。 |
+| [ 認証設定（エンタープライズ） ](https://helpx.adobe.com/enterprise/using/authentication-settings.html) | Admin Consoleでは、安全性とセキュリティを確保するために、複数のパスワード保護レベルおよびポリシーをサポートしています。 パスワード保護レベルを使用して、組織全体のすべてのユーザーに適用するように指定できます。 |
+| [ プライバシーおよびセキュリティに関する連絡先 ](https://helpx.adobe.com/enterprise/using/security-contacts.html) | 組織およびユーザーのデータを保護します。 当社のソフトウェアソリューションに関するセキュリティインシデントが発生した場合、適切なコンプライアンス担当者に通知が送信されます。 企業には、データ保護、整合性、その他のコンプライアンスに関する事項に固有の役割を持つスタッフがいます。 したがって、セキュリティインシデントが発生した場合に迅速に通知を受けられるようにするために、これらの担当者の連絡先情報が重要になります。 |
 
-* [Authentication settings （enterprise） ](https://helpx.adobe.com/enterprise/using/authentication-settings.html) - Admin Consoleでは、安全性とセキュリティを確保するために、複数のパスワード保護レベルおよびポリシーをサポートしています。 パスワード保護レベルを使用して、組織全体のすべてのユーザーに適用するように指定できます。 Adobe カスタマーケアには 3 つのレベルのセキュリティがあります。
+### ユーザー管理
 
-* [ プライバシーとセキュリティの連絡先 ](https://helpx.adobe.com/enterprise/using/security-contacts.html) - Adobeでは、組織およびユーザーのデータの保護に重点を置いています。 当社のソフトウェアソリューションに関するセキュリティインシデントが発生した場合、適切なコンプライアンス担当者に通知が送信されます。
+| ヘルプリンク | 説明 |
+| ------- | ------- |
+| [ 複数ユーザーの管理 ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL ユーザー]** <br>Admin Consoleへの CSV 一括アップロードを使用して複数のユーザーを管理する方法を説明します。 |
+| [ID タイプ ](https://helpx.adobe.com/jp/enterprise/using/identity.html) | ID タイプを使用すると、組織は、ユーザーのアカウントとデータを様々なレベルで制御できます。 ID モデルの選択は、組織のアセットの保存および共有方法に影響します。 Federated ID モデルとEnterprise ID モデルは組織で作成および管理されますが、Adobe ID は個人で作成および管理されます。 |
+| [ ユーザー同期ツール ](https://helpx.adobe.com/enterprise/using/user-sync.html) （UST） | Adobe ユーザー同期ツールは、組織の ID 管理システム（Active Directory など）とAdobe Admin Consoleの間でユーザーデータを自動的に同期するために使用されるデスクトップアプリケーションです。 このツールを使用すると、管理者は、Adobe製品全体でユーザーのプロビジョニング、更新、アクティベート解除を合理化できます。 |
+| [ ユーザーの詳細の表示（管理ツール） ](admin-tool-experience-cloud.md) | [!UICONTROL  管理ツール ] に、すべてのExperience Cloud ユーザーとポリシーの並べ替え可能でフィルタリング可能なリストと詳細が表示されます。 |
 
-  企業には、データ保護、整合性、その他のコンプライアンスに関する事項に固有の役割を持つスタッフがいます。 したがって、セキュリティインシデントが発生した場合に迅速に通知を受けられるようにするために、これらの担当者の連絡先情報が重要になります。
+### レポートとログ
 
-## ユーザー管理
+| ヘルプリンク | 説明 |
+| ------- |------- |
+| [ 監査ログ ](https://helpx.adobe.com/enterprise/using/audit-logs.html) | **[!UICONTROL インサイト]**/**[!UICONTROL ログ]**/**[!UICONTROL 監査ログ]** <br> Admin Consoleで行われたすべての変更を追跡します。 |
 
-* [ 複数のユーザーの管理 ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)CSV の一括アップロード - Adobe Admin Consoleで CSV の一括アップロードを使用して複数のユーザーを管理する方法について説明します。
-
-* [ID タイプ ](https://helpx.adobe.com/jp/enterprise/using/identity.html) - ID タイプを使用すると、組織は、ユーザーのアカウントとデータを様々なレベルで制御できます。 ID モデルの選択は、組織のアセットの保存および共有方法に影響します。 Federated ID モデルとEnterprise ID モデルは組織で作成および管理されますが、Adobe ID は個人で作成および管理されます。
-
-* [User Sync Tool](https://helpx.adobe.com/enterprise/using/user-sync.html) （UST） – Adobe User Sync Tool は、組織の ID 管理システム（Active Directory など）とAdobe Adobe Admin Consoleの間でユーザーデータを同期するプロセスを自動化するデスクトップアプリケーションです。 このツールを使用すると、管理者は、Adobe製品全体でユーザーのプロビジョニング、更新、アクティベート解除を合理化できます。
-
-  ユーザー同期ツールを使用すると、ディレクトリサービスとAdobe システムの間でユーザーデータ（ロール、グループ、アクセス権限など）を自動的に同期することで、ユーザーアカウントとライセンスの管理を簡略化できます。 このツールは、特に大規模なチームを持つ企業で役立ちます。 これにより、一貫性とセキュリティを維持しながら、ユーザーが権利を持つ製品やサービスにのみアクセスできるようにします。
-
-* [ ユーザーの詳細の表示（管理ツール） ](admin-tool-experience-cloud.md) – 管理者は、[!UICONTROL  管理ツール ] で、詳細を含むすべてのExperience Cloud ユーザーとポリシーの並べ替え可能でフィルタリング可能なリストを表示できます。
-
-## レポートとログ
-
-* [ 監査ログ ](https://helpx.adobe.com/enterprise/using/audit-logs.html) Admin Consoleで行われたすべての変更を追跡します。
-
-上記の場所に記載されていないヘルプについては、[ エンタープライズおよびチーム管理者ガイド ](https://helpx.adobe.com/jp/enterprise/admin-guide.html) を参照してください。
 
 ## アプリケーション固有のリソース
 
@@ -140,3 +108,5 @@ Experience Cloud アプリケーションの ID および製品ライセンス�
 * [Adobe Pass](https://experienceleague.adobe.com/en/docs/pass/aiq-help/get-started)
 * [Target](https://experienceleague.adobe.com/en/docs/target/using/administer/start-target)
 * [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/admin-console)
+
+すべてのAdobe アプリケーションに関する Admin Console ヘルプの大部分は、[ エンタープライズおよびチーム管理ガイド ](https://helpx.adobe.com/jp/enterprise/admin-guide.html) に記載されています。
