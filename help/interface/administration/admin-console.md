@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: 91f06f12c9c9ec8df19f513f2a09de0b871137cb
+source-git-commit: 4b9318849f76941cb59ab5e9ca08045705c8ec46
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 4%
@@ -41,7 +41,7 @@ Admin Consoleの管理者として作業を開始する際に必要になる可�
 
 | ヘルプリンク | 説明 |
 | ------- | ------- |
-| [ID とシングルサインオンの設定 ](https://helpx.adobe.com/jp/enterprise/using/set-up-identity.html) | **[!UICONTROL Admin Console]**/**[!UICONTROL 設定]**<br> シングルサインオン（SSO）の有無にかかわらず、様々な ID タイプのユーザーアカウントを設定する方法を説明します。 Adobe ソフトウェア用に SSO を設定し、SAML を設定して、最も一般的な質問とエラーを調べます。 |
+| [ID とシングルサインオンの設定 ](https://helpx.adobe.com/jp/enterprise/using/set-up-identity.html) | Admin Console ]**/**[!UICONTROL  設定 ]**<br> を**[!UICONTROL  リックして、シングルサインオン（SSO）の有無にかかわらず、様々な ID タイプのユーザーのアカウントを設定する方法を説明します。 Adobe ソフトウェア用に SSO を設定し、SAML を設定して、最も一般的な質問とエラーを調べます。 |
 | [ ディレクトリ信頼を使用した組織の設定 ](https://helpx.adobe.com/enterprise/using/directory-trust.html) | 別の組織が既に要求しているドメインに対してユーザーを認証します。 組織の検索と切り替えについて詳しくは、[Experience Cloudの組織 ](organizations.md) を参照してください。 |
 | [ 認証設定（エンタープライズ） ](https://helpx.adobe.com/enterprise/using/authentication-settings.html) | Admin Consoleでは、安全性とセキュリティを確保するために、複数のパスワード保護レベルおよびポリシーをサポートしています。 パスワード保護レベルを使用して、組織全体のすべてのユーザーに適用するように指定できます。 |
 | [ プライバシーおよびセキュリティに関する連絡先 ](https://helpx.adobe.com/enterprise/using/security-contacts.html) | 組織およびユーザーのデータを保護します。 当社のソフトウェアソリューションに関するセキュリティインシデントが発生した場合、適切なコンプライアンス担当者に通知が送信されます。 企業には、データ保護、整合性、その他のコンプライアンスに関する事項に固有の役割を持つスタッフがいます。 したがって、セキュリティインシデントが発生した場合に迅速に通知を受けられるようにするために、これらの担当者の連絡先情報が重要になります。 |
