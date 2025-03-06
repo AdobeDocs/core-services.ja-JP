@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: f563e49a1650dd82a219b3fbaf931afb9373a1f4
+source-git-commit: c9226cb71fdda9a04c4b8d3d25f348746af62865
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1232'
 ht-degree: 88%
 
 ---
@@ -28,7 +28,7 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 
 | 日付 | 更新 | 説明 |
 | -----------| -----------| ---------- |
-| 2025 年 3 月 6 日（Pt） | 右クリックメニューオプション | ブラウザーの右クリックドロップダウンメニュー機能を使用できるようにする、ヘッダーナビゲーションタブのExperience Cloud アプリケーションフレームの修正。 これは、Spectrum 2 設計システムの 2 月のリリースで導入された問題を修正します。 |
+| 2025 年 3 月 6 日（Pt） | 右クリック メニューオプション修正 | Experience Cloudのヘッダーナビゲーションタブで、右クリックやブラウザードロップダウンメニューの機能が可能になりました。 これは、Spectrum 2 設計システムの 2 月のリリースで導入された問題を修正します。 |
 
 ## 2025年2月
 
