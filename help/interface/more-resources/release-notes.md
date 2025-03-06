@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: b44a57082f65be8f9957d48ee50adcc1b6f72ce5
+source-git-commit: f563e49a1650dd82a219b3fbaf931afb9373a1f4
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 90%
+source-wordcount: '1235'
+ht-degree: 88%
 
 ---
 
@@ -24,11 +24,17 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 
 すべてのアプリケーションをカバーするリリースノートについては、[Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)を参照してください。
 
+## 2025年3月
+
+| 日付 | 更新 | 説明 |
+| -----------| -----------| ---------- |
+| 2025 年 3 月 6 日（Pt） | 右クリックメニューオプション | ブラウザーの右クリックドロップダウンメニュー機能を使用できるようにする、ヘッダーナビゲーションタブのExperience Cloud アプリケーションフレームの修正。 これは、Spectrum 2 設計システムの 2 月のリリースで導入された問題を修正します。 |
+
 ## 2025年2月
 
 | 日付 | 機能 | 説明 |
 | -----------| -----------| ---------- |
-| 2月13日（PT）（予定リリース日） | Spectrum 2 | ヘッダーバーとヘッダーバーからアクセスするコンポーネントを含むExperience Cloud アプリケーションフレーム、および特定のアプリケーションの左側のナビゲーションレールは、Adobeの最新のデザインシステムである Spectrum 2 に更新されます。 この新しいデザインには、更新された図像が含まれていますが、同じ機能が含まれています。 ただし、ヘッダー内の複数の要素は、他のアドビのサイトやアプリケーションに合わせて再配置されます。 |
+| 2月13日 | Spectrum 2 | ヘッダーバーとヘッダーバーからアクセスするコンポーネントを含むExperience Cloud アプリケーションフレーム、および特定のアプリケーションの左側のナビゲーションレールは、Adobeの最新のデザインシステムである Spectrum 2 に更新されます。 この新しいデザインには、更新された図像が含まれていますが、同じ機能が含まれています。 ただし、ヘッダー内の複数の要素は、他のアドビのサイトやアプリケーションに合わせて再配置されます。 |
 
 ## 2025年1月
 
