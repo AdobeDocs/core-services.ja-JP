@@ -5,17 +5,17 @@ breadcrumb-title: Experience Cloud インターフェイスと管理ガイド
 title: Experience Cloud インターフェイスと管理ガイド
 description: Experience Cloud インターフェイス、Cookie、アカウントの環境設定について説明します。製品を管理し、顧客属性やオーディエンスライブラリなどの People サービスを設定します。Experience Cloud Assets の共有。
 index: true
-source-git-commit: e2e6c0daf8f765fe76f9c7bd44042d91dce142f2
-workflow-type: ht
-source-wordcount: '234'
+source-git-commit: e88d23143e29040a8baf49108be35f8f766aed5e
+workflow-type: tm+mt
+source-wordcount: '232'
 ht-degree: 100%
 
 ---
 
 
-# Experience Cloud インターフェイスと管理ガイド {#interface}
+# Experience Cloud インターフェイスおよび管理 {#interface}
 
-+ [Experience Cloud の主要なインターフェイスコンポーネントガイド](experience-cloud.md)
++ [Experience Cloud インターフェイスおよび管理](experience-cloud.md)
 
 + サービス {#services}
    + [概要](services/overview.md)
