@@ -8,18 +8,18 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: daebfdac5f3e97cf97353d34ca7be90f29a1e1ef
+source-git-commit: ce65c5292caaa4a24945e2119e78fd97a7d84109
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '749'
 ht-degree: 7%
 
 ---
 
 # ユーザー管理および製品ライセンス
 
-このページでは、一般的なユーザーおよび製品管理ドキュメントへのリンクを含め、Experience Cloud管理者向けの情報を提供します。
+Adobe [Admin Console](https://adminconsole.adobe.com/enterprise/) でユーザーおよび製品ライセンスを管理できます。 すべてのAdobe アプリケーションに適用される一般的な ID 管理ヘルプについては、『 [ エンタープライズおよびチーム管理者ガイド ](https://helpx.adobe.com/jp/enterprise/admin-guide.html) 』を参照してください。
 
-すべてのAdobe アプリケーションに適用される一般的な ID 管理ヘルプについては、『 [ エンタープライズおよびチーム管理者ガイド ](https://helpx.adobe.com/jp/enterprise/admin-guide.html) 』を参照してください。
+このページでは、Experience Cloud管理者に特に役立つ情報を提供します。また、ロールの定義や、エンタープライズ・ガイドの一般的なユーザーおよび製品管理に関するトピックへのリンクも示します。
 
 ## Admin Consoleの管理者の役割
 
