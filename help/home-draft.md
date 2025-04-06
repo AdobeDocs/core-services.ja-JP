@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 0740361094aac0e63207e5e60aa666a1613d0e94
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 94%
+source-wordcount: '911'
+ht-degree: 82%
 
 ---
 
@@ -27,12 +27,134 @@ Experience Cloud のヘッダーから、次の操作を実行できます。
 * 「検索」フィールドのグローバル検索を使用したビジネスオブジェクトの検索（Experience Platform ユーザーのみ）。
 * アカウントの[環境設定](features/account-preferences.md)（アラート、通知、サブスクリプション）を管理します
 
+
+GSPM から取得：
+
+## 機能の調査
+
+<table style="table-layout:fixed">
+<tr style="border: 0;">
+   <td valign="top">
+      <a href="../user-guide/effective-prompts.md">
+      <img alt="右の山形" src="../assets/icons/icon-chevronRight.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/effective-prompts.md">
+         <strong> 有効なプロンプトの作成 </strong>
+         </a>
+      </div>
+      <p>
+         <em> オンブランドのデジタルエクスペリエンスを生成する説明的なプロンプトを作成します。</em>
+      </p>
+   </td>
+   <td valign="top">
+      <a href="../user-guide/create/overview.md">
+      <img alt="絵筆" src="../assets/icons/icon-create.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/create/overview.md">
+         <strong> エクスペリエンスの作成 </strong>
+         </a>
+      </div>
+      <p>
+         <em> パフォーマンスの高いオンブランドのメールとメタ広告を作成します </em>。
+      </p>
+   </td>
+   <td valign="top">
+      <a href="../user-guide/approvals/overview.md">
+      <img alt="チェックマーク" src="../assets/icons/icon-checkmarkCircle.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/approvals/overview.md">
+         <strong> レビューと承認 </strong>
+         </a>
+      </div>
+      <p>
+         <em> マーケティングアセットの合理化されたレビューと承認の調整 </em>
+      </p>
+   </td>
+   <td valign="top">
+      <a href="../user-guide/content/overview.md">
+      <img alt="グリッド" src="../assets/icons/icon-images.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/content/overview.md">
+         <strong> コンテンツの管理 </strong>
+         </a>
+      </div>
+      <p>
+         <em> ブランドガイドラインを維持しながら、コンテンツを検索、管理、再利用します </em>。
+      </p>
+   </td>
+   <td valign="top">
+      <a href="../user-guide/insights/overview.md">
+      <img alt="グラフ" src="../assets/icons/icon-dataAnalytics.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/insights/overview.md">
+         <strong> インサイトの表示 </strong>
+         </a>
+      </div>
+      <p>
+         <em> 有料メディアチャネルのコンテンツの有効性を分析します。</em>
+      </p>
+   </td>
+</tr>
+</table>
+
+## 方法を学ぶ
+
+<table style="table-layout:fixed">
+<td valign="top">
+   <div>
+      <a href="/help/user-guide/guidelines/add-guidelines.md">
+      <img alt="ガイドラインの追加" src="../assets/card-guidelines.png">
+      <strong> ガイドラインの追加 </strong>
+      </a>
+   </div>
+   <p>
+      <em>GenStudio for Performance Marketingにガイドライン（ブランド、製品、ペルソナ）を追加する方法を説明します。</em>
+   </p>
+</td>
+<td valign="top">
+   <div>
+      <a href="/help/user-guide/create/create-email-experience.md">
+      <img alt="アイデア，本，鉛筆，コンピューター" src="../assets/card-create-assets.png">
+      <strong> メールエクスペリエンスの作成 </strong>
+      </a>
+   </div>
+   <p>
+      <em> オンブランドのメールエクスペリエンスを作成する方法を説明します </em>。
+   </p>
+</td>
+<td valign="top">
+   <div>
+      <a href="/help/user-guide/create/create-meta-ad.md">
+      <img alt="フォルダーにファイルを移動する人物" src="../assets/card-manage-content.png">
+      <strong> メタ広告エクスペリエンスの作成 </strong>
+      </a>
+   </div>
+   <p>
+      <em> ブランドに合わせたメタ広告エクスペリエンスを作成する方法を説明します </em>。
+   </p>
+</td>
+</table>
+
+
+（GSPM の終了）
+
+
+
+
+
+
+
 ## Experience Cloud にサインインする {#signin}
 
 ログインし、自分が適切な[組織](administration/organizations.md)に属していることを確認します。
 
 1. [Adobe Experience Cloud](https://experience.adobe.com) に移動します。
-1. Adobeのメールアドレスを入力し、「**[!UICONTROL 続行]**」をクリックします。
+1. アドビのメールアドレスを入力し、「**[!UICONTROL 続行]**」をクリックします。
 1. アカウントを選択します。
 1. パスワードを入力します。
 1. 自分が適切な組織に属していることを確認します。
@@ -90,15 +212,15 @@ Experience Cloud にログインすると、統合ヘッダーからすべての
 
 ## 最新情報
 
-Experience Cloud中央インターフェイスコンポーネントに対する最新の機能強化について説明します。
+Experience Cloud中央インターフェイスコンポーネントの最新の機能強化について説明します。
 
 >[!BEGINTABS]
 
->[!TAB Experience CloudとのSlackの統合 ]
+>[!TAB SlackとExperience Cloudの統合 ]
 
-アカウントの環境設定を行い、[!DNL Slack] チャンネルにExperience Cloud通知を送信できます。
+アカウントの環境設定を行い、Experience Cloud通知を [!DNL Slack] チャンネルに送信できます。
 
-[!BADGE Beta]{type=Informative url="https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#notifications" tooltip="Slackについて学ぶ"}
+[!BADGE Beta]{type=Informative url="https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#notifications" tooltip="Slackについて"}
 
 
 >[!TAB 新しい Campaign web ユーザーインターフェイス]
