@@ -9,13 +9,13 @@ level: Intermediate
 hide: false
 hidefromtoc: true
 index: n
-source-git-commit: 7f852f0f3b4943cad28c2db2bb65f438a3f5a54a
+exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
+source-git-commit: 3f1065affe2665bb0867de02e4aef4c755c5f201
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1808'
 ht-degree: 5%
 
 ---
-
 
 # Experience Cloud アプリケーションにおける AI
 
@@ -83,6 +83,26 @@ AEM Sitesでは [ バリエーションの生成 ](https://experienceleague.adob
 [ 画像の生成 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#generate-image) を参照してください。
 
 **Adobe Fireflyとの互換性：** はい
+
+## Adobe Journey Optimizer
+
+Journey Optimizerでは、[AI アシスタント ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home) を次の 2 つのクラスの質問と共に使用します。
+
+**製品知識** – 製品insight用のAdobe データストア（Experience League製品ドキュメントなど）をクエリします。 この出力は、顧客に依存しません。 例：
+
+* 1 つの Adobe Journey Optimizer サンドボックスにライブアクティビティをいくつ含めることができますか？
+
+**オペレーショナルインサイト（Beta）** - ジャーニーに関する一元的なオペレーショナルデータを含み、顧客のサンドボックスでパーティション化された、顧客固有のオペレーショナルインサイトデータストアをクエリします。 ビジネスオブジェクトからメタデータのみを取り込み、サンドボックス内のデータにはアクセスしません。
+
+* 過去 7 日間に作成されたジャーニーの数
+
+オペレーショナルインサイトの出力は、顧客のビジネスオブジェクトから取り込まれたメタデータに依存します。
+
+ジャーニーはJourney Optimizerの AI アシスタントで使用できる唯一のオブジェクトであり、メタデータは現在のサンドボックスから取り込まれます。
+
+詳しくは [AI アシスタントの操作 ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant) および [ フィールド対応 ](https://fieldreadiness-adobe.highspot.com/items/6661f1c132683fd5e6a8adf4?lfrm=srp.1#11) を参照してください。
+
+**Adobe Fireflyとの互換性：** いいえ
 
 
 
