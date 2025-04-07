@@ -9,9 +9,9 @@ level: Intermediate
 hide: false
 hidefromtoc: true
 index: n
-source-git-commit: bc1f602df5a4b6f2d6eb9a3b00f2756a09d97e2b
+source-git-commit: 7f852f0f3b4943cad28c2db2bb65f438a3f5a54a
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1664'
 ht-degree: 5%
 
 ---
@@ -39,7 +39,10 @@ ht-degree: 5%
 
 ## AI を使用するExperience Cloud アプリケーション
 
-サブヘッドバージョン （未完了）...
+>[!TIP]
+>
+>Subhead バージョン （開始のみ）...
+
 
 * [パフォーマンスマーケティング用の GenStudio](#gspm)
 * [Experience Manager Sites（Cloud Service）](#aem-sites)
@@ -83,9 +86,12 @@ AEM Sitesでは [ バリエーションの生成 ](https://experienceleague.adob
 
 
 
-テーブル バージョン…
-
 ## AI を使用するExperience Cloud アプリケーション
+
+>[!TIP]
+>
+>テーブル バージョン…
+
 
 Experience Cloud アプリケーションでジェネレーティブ AI または AI アシスタントを使用する方法と、Adobe Fireflyがサポートされているかどうかを説明します。
 
