@@ -8,7 +8,7 @@ index: true
 source-git-commit: 34b02683979c36728cddf8cf6d152d84c910f735
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 + サービス {#services}
    + [概要](services/overview.md)
    + [はじめに](services/getting-started.md)
-   + Assets {#assets}
+   + アセット {#assets}
       + [概要](services/assets/experience-cloud-assets.md)
       + [フォルダーおよびアセットの Creative Cloud との共有](services/assets/creative-cloud.md)
       + [Creative Cloud ユーザーの管理](services/assets/manage-cc-users.md)
@@ -48,7 +48,7 @@ ht-degree: 97%
 
 + 機能 {#features}
    + [アカウントの環境設定と通知](features/account-preferences.md)
-   + [Experience Cloud アプリケーションにおける AI](features/generative-ai.md)
+   + [Experience Cloud アプリケーションの AI](features/generative-ai.md)
    + [統合検索](features/search.md)
    + [パーソナライズされたラーニング](features/personalized-learning.md)
    + [ブラウザーと言語のサポート](browser-language.md)
