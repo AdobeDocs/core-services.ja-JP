@@ -10,10 +10,10 @@ hide: false
 hidefromtoc: true
 index: n
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: fb9d3c45beca38e1ca372b24565946bf1a1da839
+source-git-commit: d54af09033b1a0727e9b7aa3dbf4a9be6003a8ea
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 4%
+source-wordcount: '1371'
+ht-degree: 3%
 
 ---
 
@@ -44,12 +44,20 @@ Experience Leagueからの商品のナレッジレスポンスは、検証可能
 * [Journey Optimizer の AI アシスタント](#journey-optimizer)
 * [Adobe Journey Optimizer PrimeとUltimate](#ajo-prime-ultimate)
 * [Journey Optimizer B2B エディション](#ajo-b2b)
+* [Journey Optimizer PrimeおよびUltimateの AI アシスタント](#ajo-prime-ultimate)
+* [Journey Optimizer B2B editionの AI アシスタント](#ajo-b2b)
+* [Campaign Managed Cloud Services の AI アシスタント](#campaign-cs)
+* [Customer Journey Analyticsの AI アシスタント](#cja)
+* [Customer Journey Analyticsのインテリジェントキャプション](#cja-captions)
+* [Real-Time CDPの AI アシスタント](#rtcdp)
+* [MarketoのDynamic Chat](#marketo)
+* [Workfrontの AI アシスタント](#workfront)
 
 ### パフォーマンスマーケティング用の GenStudio {#gspm}
 
-[GenStudio for Performance Marketing](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home) は、キャンペーンアセットの作成、配信および最適化を可能にするジェネレーティブ AI 駆動プラットフォームです。 そのジェネレーティブ AI 機能は、マーケティングコンテンツの作成、レビュー、共有、分析の方法を変えます。
+[GenStudio for Performance Marketing](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home) は機能ではなく、ジェネレーティブな AI 駆動型プラットフォームです。 そのジェネレーティブ AI 機能は、マーケティングコンテンツの作成、レビュー、共有、分析の方法を変えます。
 
-マーケターや分散型チームは、機能 _GenStudio for Performance Marketing作成_ （または、単に _作成_）を使用して、パフォーマンスの高いオンブランドエクスペリエンスを作成できます。 次のコンテンツを生成できます。
+[ 作成 ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/overview) ホームでは、パフォーマンスの高いオンブランドのエクスペリエンスを作成できます。 コンテンツ生成対象：
 
 * メール
 * メタ広告
@@ -93,7 +101,7 @@ Journey Optimizerでは、AI アシスタントを使用すると、製品に関
 
 * _1 つのAdobe Journey Optimizer サンドボックスに含めることができるライブアクティビティの数_
 
-**オペレーショナルインサイト（Beta）** – 顧客のサンドボックスでパーティション化された、ジャーニーに関する一元化されたオペレーショナルデータを含む、顧客固有のオペレーショナルインサイトデータストアをクエリします。 この機能は、ビジネスオブジェクトからメタデータのみを取り込み、サンドボックス内のデータにはアクセスしません。
+**オペレーショナルインサイト（Beta）** - AI アシスタントは、顧客のサンドボックスで分割された、ジャーニーに関する一元化されたオペレーショナルデータを含む、顧客固有のオペレーショナルインサイトデータストアに対してクエリを実行します。 この機能は、ビジネスオブジェクトからメタデータのみを取り込み、サンドボックス内のデータにはアクセスしません。
 
 プロンプトの例：
 
@@ -105,7 +113,7 @@ _ジャーニー_ はJourney Optimizerの AI アシスタントで使用でき�
 
 **Adobe Firefly対応：** いいえ
 
-## Journey Optimizer PrimeとUltimate {#ajo-prime-ultimate}
+## Journey Optimizer PrimeおよびUltimateの AI アシスタント {#ajo-prime-ultimate}
 
 Journey Optimizer PrimeとUltimateでは、[ コンテンツアクセラレーターの AI アシスタント ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative) を使用して、テキストや画像に対するプロアクティブなコンテンツバリエーションの提案を行います。
 
@@ -117,33 +125,27 @@ Journey Optimizer PrimeとUltimateでは、[ コンテンツアクセラレー�
 
 ## Journey Optimizer B2B editionの AI アシスタント {#ajo-b2b}
 
-Journey Optimizer B2B editionでは、製品ナレッジプロンプトに基づいて、[AI アシスタント ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant) を使用して製品のナレッジサポートを提供します。
+Journey Optimizer B2B editionでは、製品ナレッジプロンプトに基づいて、[AI アシスタント ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview) を使用して製品のナレッジサポートを提供します。
 
 **製品知識** – 製品insight用のAdobe データストア（Experience League製品ドキュメントなど）をクエリします。 この出力は、顧客に依存しません。
 
 * **入力：** アカウントジャーニーでメールを送信するにはどうすればよいですか？
 
-* **出力：** Experience League（公開ドキュメント）から製品知識を取り込みます。 [詳細情報...](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant)
+* **出力：** Experience League（公開ドキュメント）から製品知識を取り込みます。 [詳細情報...](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/question-guidance)
 
 **Adobe Firefly対応：** いいえ
 
-## Campaign Managed Cloud Services
+## Campaign Managed Cloud Services の AI アシスタント {#campaign-cs}
 
-Campaign Managed Cloud Services では、[AI Assistant for Content Accelerator](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs) を使用して、マーケティング目標に基づいてパーソナライズされた魅力的で効果的なコンテンツを自動生成し、メール、SMS、プッシュなど、あらゆるチャネルで、ブランドの概要を示すスタイル、レイアウト、トーンなどに最適化されます。
-
-* **メール** – 完全なメール、テキストのみ、または画像のみを生成します。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-content)
-
-* **SMS** – 完全な SMS またはテキストのみを生成します。 [詳細情報...](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-sms)
-
-* **プッシュ** – 魅力的なメッセージを作成し、コンテンツを生成します。 [詳細情報...](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-push)
+Campaign Managed Cloud Services では、[ コンテンツアクセラレーター用 AI アシスタント ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs) を使用します。 この機能を使用すると、ブランドの概要を示すスタイル、レイアウト、トーンなどに最適化されたコンテンツを使用して、マーケティング目標に基づいてパーソナライズされた魅力的で効果的なコンテンツを自動生成できます。 [ メール ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-content)、[SMS](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-sms)、[ プッシュ ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-push) など複数のチャネルで使用できます。
 
 **メモ：** Campaign Managed Cloud Services のコンテンツアクセラレーターからの出力は除外されます。
 
 **Adobe Firefly対応：** はい
 
-## Customer Journey Analytics - AI アシスタント
+## Customer Journey Analyticsの AI アシスタント {#cja}
 
-CJAでは、[AI アシスタント ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/ai-assistant) を使用して、Experience Leagueから製品知識やインサイトを発見できます。
+Customer Journey Analyticsでは、[AI アシスタント ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/ai-assistant) を使用して、Experience Leagueから製品知識やインサイトを発見できます。
 
 **プロンプトの例：** 計算指標を作成するにはどうすればよいですか？
 
@@ -153,29 +155,17 @@ CJAでは、[AI アシスタント ](https://experienceleague.adobe.com/en/docs/
 
 **Adobe Firefly対応：** いいえ
 
-## Customer Journey Analytics - インテリジェントキャプション
+## Customer Journey Analyticsのインテリジェントキャプション {#cja-captions}
 
-[ インテリジェントキャプション ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions) は、Workspaceのビジュアライゼーションで折れ線グラフのビジュアライゼーションに自然言語のインサイトを提供します。
-
-**入力例：折れ線グラフのビジュアライゼーション** キャプションは、「**インテリジェントキャプション**」をクリックすると、このような折れ線グラフのビジュアライゼーションに基づいて自動生成されます。
-
-**出力：** 自動生成された自然言語キャプション。
+Customer Journey Analyticsの [ インテリジェントキャプション ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions) では、最も頻繁に使用されるWorkspaceのビジュアライゼーションに対して自然言語のインサイトが提供されます。
 
 **Adobe Firefly対応：** いいえ
 
-## Real-Time CDP
+## Real-Time CDPの AI アシスタント {#rtcdp}
 
-Real-Time CDPでは、[AI アシスタント ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home) を使用して、Experience Leagueから製品知識やインサイトを発見できます。 データベースにクエリを実行し、データベースのデータを人間が読み取れる回答に変換します。
+Real-Time CDPでは、[AI アシスタント ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home) を使用して、Experience Leagueから製品知識やインサイトを発見できます。 質問する際の [ ヒントを得る ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions)。
 
-次の 2 つのクラスの質問を使用できます。
-
-**製品知識** – 製品insight用のAdobe データストア（Experience League製品ドキュメントなど）をクエリします。 この出力は、顧客に依存しません。
-
-例：
-
-* _プロファイル充実度はどのように計算されますか？_
-
-**オペレーショナルインサイト（Beta）** – お客様のAEP サンドボックスでパーティション化された、一元化されたオペレーショナルデータを含む、お客様固有のオペレーショナルインサイトデータストアをクエリします。 属性、オーディエンス、データフロー、データセット、宛先、スキーマおよびソースからのみメタデータを取り込み、サンドボックス内のデータにはアクセスしません。
+また、運用に関するインサイト（ベータ版）も提供します。 AI アシスタントが、顧客のAEP サンドボックスで分割された、一元化された運用データを含む、顧客固有の運用インサイトデータストアに対してクエリを実行します。 属性、オーディエンス、データフロー、データセット、宛先、スキーマおよびソースからのみメタデータを取り込み、サンドボックス内のデータにはアクセスしません。
 
 例えば、オーディエンスに関するクエリの場 [!DNL AI Assistant]、オーディエンスの名前および他の関連メタデータにアクセスできますが、そのオーディエンス内のプロファイルにはアクセスできません。
 
@@ -189,12 +179,11 @@ Real-Time CDPでは、[AI アシスタント ](https://experienceleague.adobe.co
 
 **Fireflyとの互換性：** いいえ
 
-
-## Marketo
+## MarketoのDynamic Chat {#marketo}
 
 [Dynamic Chat](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/dynamic-chat-overview) は、カスタマイズされた承認済みの質問と回答、および会話の概要を使用して、AI による会話を作成します |<ul><li> **質問の生成：** コンテンツを抽出して質問/回答の生成に使用する URL を指定します。 </li><li> **会話の概要：** チャット会話の概要を生成します。 </li></ul> [ 詳細情報…](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/response-library)  |いいえ |
 
-## Workfront
+## Workfrontの AI アシスタント {#workfront}
 
 Workfrontの [AI アシスタント ](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview) を使用すると、自然言語での会話でアプリ内の情報や提案を提供することで、作業を完了できます。 AI アシスタントは次の機能を提供します：プロジェクト/タスク/イシュー/ドキュメントをまとめ、Experience LeagueのWorkfront ドキュメントから取り込んだ手順や参照情報を提供し、計算カスタムフィールドの式を生成または絞り込みます。  | <ul><li>**プロジェクト入力の要約：** このプロジェクトの要約 </li><li> **プロジェクト出力の要約：** プロジェクトの目的と状態に関する簡単な説明を返し、完了したタスクとまだ保留中のタスクの例を示し、追加の詳細とメモも提供します。</li><li> **数式の入力を生成/調整：** 「この式を書き換えて、無効な式エラーを削除します。」 </li><li> **フォーミュラの生成/調整の出力：** 生成または調整されたフォーミュラ </li></ul>**メモ：** AI アシスタントでは、式のサイズと複雑さに応じて、改訂された式を生成するのに数分かかる場合があります。 |いいえ  |
 
