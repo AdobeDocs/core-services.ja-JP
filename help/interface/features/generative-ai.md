@@ -10,10 +10,10 @@ hide: false
 hidefromtoc: true
 index: n
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: d54af09033b1a0727e9b7aa3dbf4a9be6003a8ea
+source-git-commit: 4c0e9ef974ab31a7d82a61c3a69f7d76389774f9
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 3%
+source-wordcount: '1314'
+ht-degree: 4%
 
 ---
 
@@ -77,7 +77,7 @@ AEM Sitesの [ バリエーションを生成 ](https://experienceleague.adobe.c
 
 ### 入力フィールドと出力フィールド
 
-**入力：** 入力フィールドは次のとおりです。
+入力フィールドは次のとおりです。
 
 * 生成するバリエーションの数
 * オーディエンス Source
@@ -85,9 +85,9 @@ AEM Sitesの [ バリエーションを生成 ](https://experienceleague.adobe.c
 * 追加のコンテキスト
 * 顧客主導のプロンプト
 
-**出力：** 生成されたコンテンツ/市場コピー。 また、Fireflyの生成 AI 機能を使用して、Adobe Expressで画像を生成することもできます。
+出力は、生成されたコンテンツや市場コピーです。
 
-詳しくは、[ 画像の生成 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#generate-image) を参照してください。
+また、Fireflyの生成 AI 機能を使用して、Adobe Expressで画像を生成することもできます。 [詳細情報...](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#generate-image)
 
 **Adobe Firefly対応：** はい
 
@@ -145,7 +145,7 @@ Campaign Managed Cloud Services では、[ コンテンツアクセラレータ�
 
 ## Customer Journey Analyticsの AI アシスタント {#cja}
 
-Customer Journey Analyticsでは、[AI アシスタント ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/ai-assistant) を使用して、Experience Leagueから製品知識やインサイトを発見できます。
+Customer Journey Analyticsでは、[AI アシスタント ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) を使用して、Experience Leagueから製品知識やインサイトを発見できます。
 
 **プロンプトの例：** 計算指標を作成するにはどうすればよいですか？
 
@@ -173,7 +173,7 @@ Real-Time CDPでは、[AI アシスタント ](https://experienceleague.adobe.co
 
 * 入力：_持っているデータセットの数は？_
 
-* 応答：_オペレーショナルインサイトの出力は、顧客のビジネスオブジェクト（属性、オーディエンス、データフロー、データセット、宛先、スキーマ、ソース）から取り込まれたメタデータに依存し、クエリされたデータを含む特定の UI ページへのリンクを含みます。_
+* 応答：オペレーショナルインサイトの出力は、顧客のビジネスオブジェクト（属性、オーディエンス、データフロー、データセット、宛先、スキーマ、ソース）から取り込まれたメタデータに依存し、クエリされたデータを含む特定の UI ページへのリンクが含まれます。
 
 その他の例については、Experience Platformの _AI アシスタントの_ Product Knowledge _および [Operational Insights_ 入力テーブルを参照してください ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home)
 
@@ -181,12 +181,22 @@ Real-Time CDPでは、[AI アシスタント ](https://experienceleague.adobe.co
 
 ## MarketoのDynamic Chat {#marketo}
 
-[Dynamic Chat](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/dynamic-chat-overview) は、カスタマイズされた承認済みの質問と回答、および会話の概要を使用して、AI による会話を作成します |<ul><li> **質問の生成：** コンテンツを抽出して質問/回答の生成に使用する URL を指定します。 </li><li> **会話の概要：** チャット会話の概要を生成します。 </li></ul> [ 詳細情報…](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/response-library)  |いいえ |
+Adobe Dynamic Chatのジェネレーティブ AI を活用した機能により、営業担当者の生産性を最適化し、Web サイトの訪問者の意図に関するインサイトを得て、訪問者の質問に安全な方法で対応できます。 質問、回答および会話の概要を事前承認できます。 [詳細情報...](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview)
+
+**Fireflyとの互換性：** いいえ
 
 ## Workfrontの AI アシスタント {#workfront}
 
-Workfrontの [AI アシスタント ](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview) を使用すると、自然言語での会話でアプリ内の情報や提案を提供することで、作業を完了できます。 AI アシスタントは次の機能を提供します：プロジェクト/タスク/イシュー/ドキュメントをまとめ、Experience LeagueのWorkfront ドキュメントから取り込んだ手順や参照情報を提供し、計算カスタムフィールドの式を生成または絞り込みます。  | <ul><li>**プロジェクト入力の要約：** このプロジェクトの要約 </li><li> **プロジェクト出力の要約：** プロジェクトの目的と状態に関する簡単な説明を返し、完了したタスクとまだ保留中のタスクの例を示し、追加の詳細とメモも提供します。</li><li> **数式の入力を生成/調整：** 「この式を書き換えて、無効な式エラーを削除します。」 </li><li> **フォーミュラの生成/調整の出力：** 生成または調整されたフォーミュラ </li></ul>**メモ：** AI アシスタントでは、式のサイズと複雑さに応じて、改訂された式を生成するのに数分かかる場合があります。 |いいえ  |
+Workfrontの AI アシスタントは、アプリ内の情報や提案を提供することで、作業を達成するのに役立ちます。 実行できる操作は、次のとおりです。
 
+* 一部のオブジェクトの概要を取得して、オブジェクトの意図や詳細の概要を表示します。
+* Experience Leagueに関する質問や回答の検索 [!DNL AI Assistant] 行います。
+* プロンプトに基づいて生成された式を取得します。 また、計算フィールドでの無効なカスタム式のエラーを解決することもできます。
+* プロジェクト、タスクおよび問題を見つけます。
+
+[詳細情報...](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)
+
+**Fireflyとの互換性：** いいえ
 
 <!-- ## Experience Cloud applications that use AI
 
