@@ -1,34 +1,38 @@
 ---
 title: Experience Cloud アプリケーションの AI
-description: ジェネレーティブ AI と、Experience Cloud アプリケーションで genAI および AI アシスタントがどのように使用されるかについて説明します。
+description: ジェネレーティブ AI と、Experience Cloud アプリケーションで genAI および  [!DNL AI Assistant] がどのように使用されるかについて説明します。
 solution: Experience Cloud
 feature: AI Assistant, Generative AI
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: a5d595fc8ee9b76ee1bf4a24364674a3af447b2a
+source-git-commit: 4676c606f132ab835e0d1f8cdbc81d932e358028
 workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 4%
+source-wordcount: '1041'
+ht-degree: 3%
 
 ---
 
 # Experience Cloud製品における AI
 
-ジェネレーティブ AI は、単に質問に答えるだけでなく、それを実現する人工知能の一種です。 コンテンツを _作成_ し、_プロンプト_ （質問とステートメント _に対して_ 応答」します。
+このページでは、生成 AI や [!DNL AI Assistant] をサポートする製品と、Adobe Fireflyに互換性があるかどうかを確認します。 また、Experience Cloudでの AI の使用方法に関する製品固有のヘルプリソースへのリンクもあります。
 
-* **作成：** トレーニングと入力プロンプトに基づいて、新しいコンテンツ（テキスト、画像、音楽、ビデオ）をゼロから生成する AI 機能を指します。 この機能は、生成 AI の _生成_ 側面です。
+**生成 AI について**
 
-* **回答：** 特定のプロンプトに対して回答や反応を提供する AI を指し、通常は知識や推論機能を利用します。
+ジェネレーティブ AI は、単に質問に答えるだけでなく、それを実現する人工知能の一種です。 _作成_ コンテンツおよび _応答_ を、質問やステートメント（「_プロンプト_」と呼ばれます）に対して実行できます。
 
-Experience Cloudを初めて使用する場合は、ジェネレーティブ AI を使用して、商品に関する知識をすばやく得ることができます。 経験豊富なユーザーであれば、数時間ではなく数秒で運用インサイトを見つけることができます。
+* **作成：** トレーニングと入力プロンプトに基づいて、新しいコンテンツ（テキスト、画像、音楽、ビデオ）をゼロから生成する AI 機能。 この機能は、生成 AI の _生成_ 側面です。
 
-**AI アシスタントについて**
+* **回答：** AI は、通常、知識や推論能力を活用して、プロンプトに対する回答や反応を提供します。
 
-AI アシスタントは、Experience Platformおよび関連するアプリケーションでサポートされる対話型ツールです。 ワークフローの迅速化、製品知識の向上、問題のトラブルシューティング、情報検索に使用できます。 特定のアプリケーションでは、AI アシスタントを使用すると、運用上のインサイトをすぐに見つけることができます。
+ジェネレーティブ AI を使用すると、Experience Cloudを初めて使用する場合でも、製品に関する知識をすばやく得ることができます。 熟練したユーザーが、数時間ではなく数秒でオペレーショナルインサイトを見つけることができます。
 
-Experience Leagueからの商品のナレッジレスポンスは、検証可能であり、リンクで引用されています。 AI アシスタントを最大限に活用するための [ 目標ベースのプロンプト ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home) のタイプについて説明します。
+**[!DNL AI Assistant] とは？**
+
+[!DNL AI Assistant] は、Experience Platformおよび関連アプリケーションでサポートされる対話型ツールです。 これらのアプリケーションは同様に使用しますが、製品固有の利点があります。 ワークフローの迅速化、製品知識の向上、問題のトラブルシューティング、情報検索に使用できます。 特定のアプリケーションでは、[!DNL AI Assistant] を使用すると、運用に関するインサイトを即座に見つけることができます。
+
+Experience Leagueからの商品のナレッジレスポンスは、検証可能であり、リンクで引用されています。 [!DNL AI Assistant] を最大限に活用するための [ 目標ベースのプロンプト ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home) のタイプについて説明します。
 
 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
 
@@ -44,23 +48,23 @@ In AI Assistant, security is the priority:
 
 ## Experience Cloud製品での AI の可用性
 
-Experience Cloud製品でのジェネレーティブ AI または AI アシスタントのサポートと、Adobe Fireflyがサポートされているかどうかを説明します。
+Experience Cloud製品でのジェネレーティブ AI または [!DNL AI Assistant] のサポートと、Adobe Fireflyがサポートされているかどうかを説明します。
 
-* [パフォーマンスマーケティング用の GenStudio](#gspm)
-* [Experience Manager Sitesでのバリエーションの生成](#aem-sites)
-* [Journey Optimizer の AI アシスタント](#journey-optimizer)
-* [Journey Optimizer PrimeおよびUltimateの AI アシスタント](#ajo-prime-ultimate)
-* [Journey Optimizer B2B editionの AI アシスタント](#ajo-b2b)
-* [Campaign v8 web ユーザーインターフェイスの AI アシスタント](#campaign-cs)
-* [Customer Journey Analyticsの AI アシスタント](#cja)
-* [Customer Journey Analyticsのインテリジェントキャプション](#cja-captions)
-* [Real-Time CDPの AI アシスタント](#rtcdp)
-* [MarketoのDynamic Chat](#marketo)
-* [Workfrontの AI アシスタント](#workfront)
+* [[!DNL GenStudio for Performance Marketing]](#gspm)
+* [バリエーションを生成  [!DNL Experience Manager Sites]](#aem-sites)
+* [[!DNL AI Assistant] in [!DNL Journey Optimizer]](#journey-optimizer)
+* [ [!DNL Journey Optimizer] PrimeおよびUltimateの [!DNL AI Assistant]](#ajo-prime-ultimate)
+* [ [!DNL Journey Optimizer] B2B editionの [!DNL AI Assistant]](#ajo-b2b)
+* [[!DNL AI Assistant] in [!DNL Campaign] v8 Web ユーザーインターフェイス](#campaign-cs)
+* [[!DNL AI Assistant] in [!DNL Customer Journey Analytics]](#cja)
+* [ [!DNL Customer Journey Analytics] のインテリジェントキャプション](#cja-captions)
+* [[!DNL AI Assistant] in [!DNL Real-Time CDP]](#rtcdp)
+* [Dynamic Chat [!DNL Marketo]](#marketo)
+* [[!DNL AI Assistant] in [!DNL Workfront]](#workfront)
 
 ## パフォーマンスマーケティング用の GenStudio {#gspm}
 
-GenStudio for Performance Marketingは、ブランド標準に準拠し、エンタープライズポリシーに準拠したマーケティングコンテンツを生成および管理できるようにする AI 駆動型プラットフォームです。 メール、メタ広告、LinkedIn 広告、ディスプレイ広告およびバナーのコンテンツを生成します。
+[!DNL GenStudio for Performance Marketing] は、ブランド標準に準拠し、企業ポリシーに準拠したマーケティングコンテンツを生成および管理できるようにする AI 駆動型プラットフォームです。 メール、メタ広告、LinkedIn 広告、ディスプレイ広告およびバナーのコンテンツを生成します。
 
 また、例、お客様のペルソナや商品の説明、ブランドガイドラインを使用して、ブランドに関するGenStudio for Performance Marketingのトレーニングを行うこともできます。
 
@@ -68,9 +72,9 @@ GenStudio for Performance Marketingは、ブランド標準に準拠し、エン
 
 Adobe Fireflyとの互換性：**予定**
 
-## Experience Manager Sitesでのバリエーションの生成 {#aem-sites}
+## [!DNL Experience Manager Sites] でのバリエーションの生成 {#aem-sites}
 
-AEM Sitesのバリエーションを生成では、生成 AI を使用して、プロンプトに基づくコンテンツのバリエーションを作成します。 これらのプロンプトは、Adobeから提供されるか、ユーザーが作成および管理します。
+AEM Sitesの [!UICONTROL  バリエーションを生成 ] では、生成 AI を使用して、プロンプトに基づくコンテンツのバリエーションを作成します。 これらのプロンプトは、Adobeから提供されるか、ユーザーが作成および管理します。
 
 バリエーションを作成した後、Web サイトでコンテンツを使用し、Edge Delivery Servicesの実験機能を使用して、その成功を測定できます。 また、Fireflyの生成 AI 機能を使用して、Adobe Expressで画像を生成することもできます。
 
@@ -78,21 +82,21 @@ AEM Sitesのバリエーションを生成では、生成 AI を使用して、�
 
 Adobe Fireflyとの互換性：**はい**
 
-## Journey Optimizer の AI アシスタント {#journey-optimizer}
+## [!DNL Journey Optimizer] の AI アシスタント {#journey-optimizer}
 
-Journey Optimizerでは、AI アシスタントを使用して、製品に関する知識と運用に関するインサイトを得ます。 例えば、_1 つのJourney Optimizer サンドボックスにいくつのライブアクティビティを持つことができますか？_ Experience Leagueや他のAdobe データストアからすぐに回答が得られます。
+[!DNL Journey Optimizer] では、[!DNL AI Assistant] を使用して、製品に関する知識や運用に関するインサイトを得ます。 例えば、_1 つのJourney Optimizer サンドボックスにいくつのライブアクティビティを持つことができますか？_ Experience Leagueや他のAdobe データストアからすぐに回答が得られます。
 
-また、AI アシスタントは、運用インサイト（ベータ版）にも役立ちます。 例えば、過去 7 日間に作成されたジャーニーの数をすばやく把握できます。
+また、[!DNL AI Assistant] はオペレーショナルインサイト（ベータ版）にも役立ちます。 例えば、過去 7 日間に作成されたジャーニーの数をすばやく把握できます。
 
-運用上のインサイトを得るために、AI アシスタントは顧客固有のデータ ストアに対してクエリを実行します。 データストアには、[!UICONTROL ジャーニー] に関する一元化された運用データが含まれています。 この機能は顧客に依存せず、ビジネスオブジェクトからのみメタデータを取り込みます。 サンドボックス内のデータにはアクセスしません。
+運用インサイトの場合、[!DNL AI Assistant] は顧客固有のデータストアをクエリします。 データストアには、[!UICONTROL ジャーニー] に関する一元化された運用データが含まれています。 この機能は顧客に依存せず、ビジネスオブジェクトからのみメタデータを取り込みます。 サンドボックス内のデータにはアクセスしません。
 
 [詳細情報](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant)
 
 Adobe Fireflyとの互換性：**いいえ**
 
-## Journey Optimizer PrimeおよびUltimateの AI アシスタント {#ajo-prime-ultimate}
+## PrimeおよびUltimate[!DNL Journey Optimizer]AI アシスタント {#ajo-prime-ultimate}
 
-Journey Optimizer PrimeおよびUltimateでは、コンテンツアクセラレーター用の AI アシスタントを使用して、テキストおよび画像に対するプロアクティブなコンテンツバリエーションの提案を行います。
+PrimeとUltimateで [!DNL Journey Optimizer]、[!DNL AI Assistant] for Content Accelerator を使用して、テキストや画像に対するプロアクティブなコンテンツバリエーションの提案を提供します。
 
 この機能は、メール、プッシュ通知、web ページ、コンテンツおよび SMS チャネルで使用できます。 プロンプトベースのテキストと画像を生成できます。 AJO PrimeおよびUltimateのコンテンツアクセラレーターの出力は保証されません
 
@@ -100,17 +104,17 @@ Journey Optimizer PrimeおよびUltimateでは、コンテンツアクセラレ�
 
 Adobe Fireflyとの互換性：**はい**
 
-## Journey Optimizer B2B editionの AI アシスタント {#ajo-b2b}
+## [!DNL Journey Optimizer B2B Edition] の AI アシスタント {#ajo-b2b}
 
-Journey Optimizer B2B editionでは、AI アシスタントを使用して、商品の知識を支援します。
+Journey Optimizer B2B editionでは、[!DNL AI Assistant] を使用して商品の知識を支援します。
 
 [詳細情報](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview)
 
 Adobe Fireflyとの互換性：**いいえ**
 
-## Campaign v8 Web UI の AI アシスタント  {#campaign-cs}
+## [!DNL Campaign] v8 Web UI の AI アシスタント {#campaign-cs}
 
-Campaign Managed Cloud Services では、コンテンツアクセラレーターに AI アシスタントを使用します。 この機能を使用すると、ブランドの概要を示すスタイル、レイアウト、トーンなどに最適化されたコンテンツを使用して、マーケティング目標に基づいてパーソナライズされた魅力的で効果的なコンテンツを自動生成できます。 メール、SMS、プッシュなど、様々なチャネルで使用できます。
+Campaign Managed Cloud Services は、コンテンツアクセラレーターに [!DNL AI Assistant] を使用します。 この機能を使用すると、ブランドの概要を示すスタイル、レイアウト、トーンなどに最適化されたコンテンツを使用して、マーケティング目標に基づいてパーソナライズされた魅力的で効果的なコンテンツを自動生成できます。 メール、SMS、プッシュなど、様々なチャネルで使用できます。
 
 **メモ：** Campaign Managed Cloud Services のコンテンツアクセラレーターからの出力は除外されます。
 
@@ -118,9 +122,9 @@ Campaign Managed Cloud Services では、コンテンツアクセラレーター
 
 Adobe Fireflyとの互換性：**はい**
 
-## Customer Journey Analyticsの AI アシスタント {#cja}
+## [!DNL Customer Journey Analytics] の AI アシスタント {#cja}
 
-Customer Journey Analyticsでは、AI アシスタントを使用して、Experience Leagueから製品に関する知識やインサイトを得ることができます。 初めて使用する場合は、Customer Journey Analyticsの概念を素早く理解し、製品や機能のオンボーディングをおこないます。
+Customer Journey Analyticsでは、[!DNL AI Assistant] を使用して、Experience Leagueから商品に関する知識やインサイトを得ることができます。 初めて使用する場合は、Customer Journey Analyticsの概念を素早く理解し、製品や機能のオンボーディングをおこないます。
 
 経験豊富なユーザーが高度なユースケースを取得したり、タスクを迅速に実行するための戦略を学んだりします。 概念の理解、問題のトラブルシューティング、情報の検索。
 
@@ -128,17 +132,17 @@ Customer Journey Analyticsでは、AI アシスタントを使用して、Experi
 
 Adobe Fireflyとの互換性：**いいえ**
 
-## Customer Journey Analyticsのインテリジェントキャプション {#cja-captions}
+## [!DNL Customer Journey Analytics] のインテリジェントキャプション {#cja-captions}
 
-Customer Journey Analyticsのインテリジェントキャプションは、最も頻繁に使用されるWorkspace ビジュアライゼーションに対して自然言語のインサイトを提供します。 インテリジェントキャプションは、他のユーザーと共有するためにストーリーとコンテキストを必要とするアナリストに最適です。 ビジネスユーザーは、これを使用して、大まかな留意点をすばやく見つけることができます。
+[!DNL Customer Journey Analytics] のインテリジェントキャプションは、最も頻繁に使用されるWorkspaceのビジュアライゼーションに対して自然言語のインサイトを提供します。 インテリジェントキャプションは、他のユーザーと共有するためにストーリーとコンテキストを必要とするアナリストに最適です。 ビジネスユーザーは、これを使用して、大まかな留意点をすばやく見つけることができます。
 
 [詳細情報](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
 
 Adobe Fireflyとの互換性：**いいえ**
 
-## Real-Time CDPの AI アシスタント {#rtcdp}
+## [!DNL Real-Time CDP] の AI アシスタント {#rtcdp}
 
-Real-Time CDPでは、AI アシスタントを使用して、Experience Leagueの製品知識を提供します。 また、運用に関するインサイト（ベータ版）も提供します。 AI アシスタントが、AEP サンドボックス内にパーティション化された、一元化された運用データを含む、顧客固有の運用インサイトデータストアに対してクエリを実行します。 システムは、属性、オーディエンス、データフロー、データセット、宛先、スキーマおよびソースからのみメタデータを取り込み、サンドボックス内のデータにはアクセスしません。
+Real-Time CDPでは、Experience Leagueの製品知識の取得を支援するために [!DNL AI Assistant] を使用しています。 また、運用に関するインサイト（ベータ版）も提供します。 [!DNL AI Assistant] は、AEP サンドボックス内にパーティション化された、一元化された運用データを含む、顧客固有の運用インサイトデータストアをクエリします。 システムは、属性、オーディエンス、データフロー、データセット、宛先、スキーマおよびソースからのみメタデータを取り込み、サンドボックス内のデータにはアクセスしません。
 
 例えば、オーディエンスに関するクエリを実行する場 [!DNL AI Assistant]、オーディエンスの名前および他の関連メタデータにアクセスできますが、そのオーディエンス内のプロファイルにはアクセスできません。
 
@@ -146,7 +150,7 @@ Real-Time CDPでは、AI アシスタントを使用して、Experience League�
 
 Adobe Fireflyとの互換性：**いいえ**
 
-## MarketoのDynamic Chat {#marketo}
+## [!DNL Marketo] のDynamic Chat {#marketo}
 
 Adobe Dynamic Chatのジェネレーティブ AI を活用した機能により、営業担当者の生産性を最適化し、Web サイトの訪問者の意図に関するインサイトを得て、訪問者の質問に安全な方法で対応できます。 質問、回答および会話の概要を事前承認できます。
 
@@ -154,9 +158,9 @@ Adobe Dynamic Chatのジェネレーティブ AI を活用した機能により�
 
 Adobe Fireflyとの互換性：**いいえ**
 
-## Workfrontの AI アシスタント {#workfront}
+## [!DNL Workfront] における [!DNL AI Assistant] {#workfront}
 
-Workfrontの AI アシスタントは、アプリ内の情報や提案を提供することで、作業を達成するのに役立ちます。 実行できる操作は、次のとおりです。
+[!DNL Workfront] の [!DNL AI Assistant] は、アプリ内情報や提案を提供することで、作業を完了するのに役立ちます。 実行できる操作は、次のとおりです。
 
 * 一部のオブジェクトの概要を取得して、オブジェクトの意図や詳細の概要を表示します。
 * Experience Leagueに関する質問や回答の検索 [!DNL AI Assistant] 行います。
