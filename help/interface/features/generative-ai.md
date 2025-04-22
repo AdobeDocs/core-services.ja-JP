@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: b94bf94368312b3ed64a559da946a1be8ccb3c18
+source-git-commit: a5d595fc8ee9b76ee1bf4a24364674a3af447b2a
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 5%
+source-wordcount: '1109'
+ht-degree: 4%
 
 ---
 
@@ -47,20 +47,18 @@ In AI Assistant, security is the priority:
 Experience Cloud製品でのジェネレーティブ AI または AI アシスタントのサポートと、Adobe Fireflyがサポートされているかどうかを説明します。
 
 * [パフォーマンスマーケティング用の GenStudio](#gspm)
-* [AEM Sites（Cloud Service）でのバリエーションの生成](#aem-sites)
+* [Experience Manager Sitesでのバリエーションの生成](#aem-sites)
 * [Journey Optimizer の AI アシスタント](#journey-optimizer)
-* [Adobe Journey Optimizer PrimeとUltimate](#ajo-prime-ultimate)
-* [Journey Optimizer B2B エディション](#ajo-b2b)
 * [Journey Optimizer PrimeおよびUltimateの AI アシスタント](#ajo-prime-ultimate)
 * [Journey Optimizer B2B editionの AI アシスタント](#ajo-b2b)
-* [Campaign Managed Cloud Services の AI アシスタント](#campaign-cs)
+* [Campaign v8 web ユーザーインターフェイスの AI アシスタント](#campaign-cs)
 * [Customer Journey Analyticsの AI アシスタント](#cja)
 * [Customer Journey Analyticsのインテリジェントキャプション](#cja-captions)
 * [Real-Time CDPの AI アシスタント](#rtcdp)
 * [MarketoのDynamic Chat](#marketo)
 * [Workfrontの AI アシスタント](#workfront)
 
-### パフォーマンスマーケティング用の GenStudio {#gspm}
+## パフォーマンスマーケティング用の GenStudio {#gspm}
 
 GenStudio for Performance Marketingは、ブランド標準に準拠し、エンタープライズポリシーに準拠したマーケティングコンテンツを生成および管理できるようにする AI 駆動型プラットフォームです。 メール、メタ広告、LinkedIn 広告、ディスプレイ広告およびバナーのコンテンツを生成します。
 
@@ -70,7 +68,7 @@ GenStudio for Performance Marketingは、ブランド標準に準拠し、エン
 
 Adobe Fireflyとの互換性：**予定**
 
-### Experience Manager Sitesでのバリエーションの生成 {#aem-sites}
+## Experience Manager Sitesでのバリエーションの生成 {#aem-sites}
 
 AEM Sitesのバリエーションを生成では、生成 AI を使用して、プロンプトに基づくコンテンツのバリエーションを作成します。 これらのプロンプトは、Adobeから提供されるか、ユーザーが作成および管理します。
 
@@ -110,7 +108,7 @@ Journey Optimizer B2B editionでは、AI アシスタントを使用して、商
 
 Adobe Fireflyとの互換性：**いいえ**
 
-## Campaign Managed Cloud Services の AI アシスタント {#campaign-cs}
+## Campaign v8 Web UI の AI アシスタント  {#campaign-cs}
 
 Campaign Managed Cloud Services では、コンテンツアクセラレーターに AI アシスタントを使用します。 この機能を使用すると、ブランドの概要を示すスタイル、レイアウト、トーンなどに最適化されたコンテンツを使用して、マーケティング目標に基づいてパーソナライズされた魅力的で効果的なコンテンツを自動生成できます。 メール、SMS、プッシュなど、様々なチャネルで使用できます。
 
