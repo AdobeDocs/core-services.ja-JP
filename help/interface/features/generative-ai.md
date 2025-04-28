@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 835bcd684384d1c8809fba062c9e9d8edd4de535
+source-git-commit: c97ace2c192517a49a01c4247d9f6b4220e0514d
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1103'
 ht-degree: 3%
 
 ---
@@ -136,7 +136,13 @@ Adobe Fireflyとの互換性：**いいえ**
 
 ## [!DNL Customer Journey Analytics] {#cja-captions}
 
-[!DNL Customer Journey Analytics] のインテリジェントキャプションは、最も頻繁に使用されるWorkspaceのビジュアライゼーションに対して自然言語のインサイトを提供します。 インテリジェントキャプションは、他のユーザーと共有するためにストーリーとコンテキストを必要とするアナリストに最適です。 ビジネスユーザーは、これを使用して、大まかな留意点をすばやく見つけることができます。
+[!DNL Customer Journey Analytics] で _インテリジェントキャプション_ を使用して、最も頻繁に使用されるWorkspaceのビジュアライゼーションに関する自然言語のインサイトを取得できます。 インテリジェントキャプションは、他のユーザーと共有するためにストーリーとコンテキストを必要とするアナリストに最適です。 ビジネスユーザーは、これを使用して、大まかな留意点をすばやく見つけることができます。
+
+例：
+
+* **入力：** CJAで、サポートされているビジュアライゼーション（折れ線グラフ、面グラフ、棒グラフ、フロー、フォールアウトなど）を実行し、**[!UICONTROL インテリジェントキャプション]** をクリックします。
+
+* **出力：** コンテキストと重要な留意点を示す、自動生成された自然言語キャプションの表示。 その後、生成されたデータに対して、レビュー、コピー、組織との共有などのアクションを実行できます。 [ 方法を参照 ](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on#_blank)
 
 [詳細情報](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
 
