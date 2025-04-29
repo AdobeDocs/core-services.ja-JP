@@ -7,14 +7,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 8f342544483dbd42f034fffd2e1c2b25833d5866
+source-git-commit: 182ac8ce357e232d0149272151e4647080b005b8
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1158'
 ht-degree: 3%
 
 ---
 
-# Experience Cloud製品における AI
+# Experience Cloud製品のジェネレーティブ AI
 
 このページでは、生成 AI や [!DNL AI Assistant] をサポートする製品と、Adobe Fireflyに互換性があるかどうかを確認します。 また、Experience Cloud アプリケーションで AI をどのように使用できるかについての情報へのリンクもあります。
 
@@ -57,7 +57,6 @@ In AI Assistant, security is the priority:
 * [[!DNL Journey Optimizer] B2B edition](#ajo-b2b)
 * [[!DNL Campaign] Managed Cloud Services](#campaign-cs)
 * [[!DNL Customer Journey Analytics]](#cja)
-* [[!DNL Customer Journey Analytics]](#cja-captions)
 * [[!DNL Real-Time CDP]](#rtcdp)
 * [[!DNL Marketo]](#marketo)
 * [[!DNL Workfront]](#workfront)
@@ -153,9 +152,11 @@ Adobe Fireflyとの互換性：**はい**
 
 ## [!DNL Customer Journey Analytics] {#cja}
 
-Customer Journey Analyticsでは、[!DNL AI Assistant] を使用して、Experience Leagueから商品に関する知識やインサイトを得ることができます。
+Customer Journey Analyticsは、Workspaceのビジュアライゼーションで、製品の知識やインサイト、および [!UICONTROL  インテリジェントキャプション ] の [!DNL AI Assistant] を提供します。
 
-初めて使用する場合は、Customer Journey Analyticsの概念を素早く理解し、製品や機能のオンボーディングをおこないます。 例：
+**AI アシスタント**
+
+Experience Leagueの製品知識とインサイトを確認します。 初めて使用する場合は、Customer Journey Analyticsの概念を素早く理解し、製品や機能のオンボーディングをおこないます。 例：
 
 * _アカウントジャーニーでメールを送信するにはどうすればよいですか？_
 
@@ -163,9 +164,7 @@ Customer Journey Analyticsでは、[!DNL AI Assistant] を使用して、Experie
 
 [詳細情報](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)
 
-Adobe Fireflyとの互換性：**いいえ**
-
-## [!DNL Customer Journey Analytics] {#cja-captions}
+**インテリジェントキャプション**
 
 [!DNL Customer Journey Analytics] で _インテリジェントキャプション_ を使用して、最も頻繁に使用されるWorkspaceのビジュアライゼーションに関する自然言語のインサイトを取得できます。 インテリジェントキャプションは、他のユーザーと共有するためにストーリーとコンテキストを必要とするアナリストに最適です。 ビジネスユーザーは、これを使用して、大まかな留意点をすばやく見つけることができます。
 
