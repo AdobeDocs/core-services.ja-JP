@@ -7,16 +7,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: d84fcf64b7019f0146340a423e8e20a932cd7874
+source-git-commit: 8f342544483dbd42f034fffd2e1c2b25833d5866
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1149'
 ht-degree: 3%
 
 ---
 
 # Experience Cloud製品における AI
 
-このページでは、生成 AI や [!DNL AI Assistant] をサポートする製品と、Adobe Fireflyに互換性があるかどうかを確認します。 また、Experience Cloudでの AI の使用方法に関する製品固有のヘルプリソースへのリンクもあります。
+このページでは、生成 AI や [!DNL AI Assistant] をサポートする製品と、Adobe Fireflyに互換性があるかどうかを確認します。 また、Experience Cloud アプリケーションで AI をどのように使用できるかについての情報へのリンクもあります。
 
 **生成 AI について**
 
@@ -28,11 +28,11 @@ ht-degree: 3%
 
 **[!DNL AI Assistant] とは？**
 
-[!DNL AI Assistant] は、Experience Platformおよび関連アプリケーションでサポートされる対話型ツールです。 これを使用すると、_製品の知識_ を素早く得ることができ、サポートされているアプリケーションでは、ほぼ即座に _運用上のインサイト_ を得ることができます。
+[!DNL AI Assistant] は、Experience Platformおよび関連アプリケーションでサポートされる対話型ツールです。 これを使用すると、_製品の知識_ や、サポート対象の製品に関する _運用に関するインサイト_ をほぼ即座に得ることができます。
 
-* **商品知識：** 商品知識とは、Experience Leagueのドキュメントに基づいた概念やトピックを指します。 Experience Leagueからの回答は検証可能であり、リンクで引用されています。 [!DNL AI Assistant] を最大限に活用するための [ 目標ベースのプロンプト ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home) のタイプについて説明します。
+* **商品知識：** 商品知識とは、Experience Leagueのドキュメントに基づいた概念やトピックを指します。 [!DNL AI Assistant] を最大限に活用するために、効果的な [ 目標ベースのプロンプト ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home) を作成する方法を説明します。 Experience Leagueからの回答はすべて検証可能で、リンク付きで引用されます。
 
-* **運用インサイト：** 運用インサイトとは、カウント、ルックアップ、系列の影響を含む、メタデータオブジェクト（属性、オーディエンス、データフロー、データセット、宛先、ジャーニー、スキーマ、ソース）に関して AI Assistant が生成する回答を指します。 AI アシスタントを使用すると、数時間ではなく数秒で運用インサイトを見つけることができます。
+* **オペレーショナルインサイト：**[ オペレーショナルインサイト ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions) メタデータオブジェクト（属性、オーディエンス、データフロー、データセットなど）に関して生成される応答を参照します。 AI アシスタントを使用すると、他の方法では数時間または数日かかる可能性がある作業を数秒で完了できます。
 
 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
 
@@ -49,7 +49,7 @@ In AI Assistant, security is the priority:
 
 ## Experience Cloud製品での AI の可用性
 
-Experience Cloud製品でのジェネレーティブ AI または [!DNL AI Assistant] のサポートについて説明します。 Adobe Fireflyのサポートも示されます。
+次のExperience Cloud アプリケーションがジェネレーティブ AI または [!DNL AI Assistant] をサポートする方法について説明します。 Adobe Fireflyのサポートも示されます。
 
 * [[!DNL GenStudio for Performance Marketing]](#gspm)
 * [[!DNL Experience Manager Sites]](#aem-sites)
@@ -90,9 +90,10 @@ AEM Sitesでは、「バリエーションを生成 _[!UICONTROL を使用でき
 
 出力は、生成されたコンテンツや市場コピーです。
 
+Adobe Fireflyとの互換性：**はい**
+
 [ 詳しくは、バリエーションの生成を参照してください ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)
 
-Adobe Fireflyとの互換性：**はい**
 
 ## Adobe [!DNL Journey Optimizer] {#journey-optimizer}
 
