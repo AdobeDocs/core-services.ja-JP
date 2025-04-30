@@ -1,22 +1,22 @@
 ---
 title: Experience Cloud アプリケーションの AI
-description: ジェネレーティブ AI と、Experience Cloud アプリケーションで genAI および  [!DNL AI Assistant] がどのように使用されるかについて説明します。
+description: ジェネレーティブ AI （GenAI）と、Experience Cloud アプリケーションで GenAI および  [!DNL AI Assistant] がどのように使用されるかについて説明します。
 solution: Experience Cloud
 feature: AI Assistant, Generative AI
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 182ac8ce357e232d0149272151e4647080b005b8
+source-git-commit: 47d3a948511714ea0ce682c205eb29118d36ce62
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1421'
 ht-degree: 3%
 
 ---
 
 # Experience Cloud製品のジェネレーティブ AI
 
-このページでは、生成 AI や [!DNL AI Assistant] をサポートする製品と、Adobe Fireflyに互換性があるかどうかを確認します。 また、Experience Cloud アプリケーションで AI をどのように使用できるかについての情報へのリンクもあります。
+このページでは、生成 AI （GenAI）をサポートする製品と [!DNL AI Assistant]、Adobe Fireflyに互換性があるかどうかを確認します。 また、Experience Cloud アプリケーションで AI を使用する様々な方法に関する情報へのリンクもあります。
 
 **生成 AI について**
 
@@ -34,7 +34,7 @@ ht-degree: 3%
 
 * **オペレーショナルインサイト：**[ オペレーショナルインサイト ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions) メタデータオブジェクト（属性、オーディエンス、データフロー、データセットなど）に関して生成される応答を参照します。 AI アシスタントを使用すると、他の方法では数時間または数日かかる可能性がある作業を数秒で完了できます。
 
-[詳細情報](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
+[AI アシスタントの詳細 ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
 
 <!-- **Your data remains yours**
 
@@ -52,7 +52,7 @@ In AI Assistant, security is the priority:
 次のExperience Cloud アプリケーションがジェネレーティブ AI または [!DNL AI Assistant] をサポートする方法について説明します。 Adobe Fireflyのサポートも示されます。
 
 * [[!DNL GenStudio for Performance Marketing]](#gspm)
-* [[!DNL Experience Manager Sites]](#aem-sites)
+* [[!DNL Experience Manager]](#aem)
 * [[!DNL Journey Optimizer]](#journey-optimizer)
 * [[!DNL Journey Optimizer] B2B edition](#ajo-b2b)
 * [[!DNL Campaign] Managed Cloud Services](#campaign-cs)
@@ -71,7 +71,11 @@ In AI Assistant, security is the priority:
 
 Adobe Fireflyとの互換性：**はい**
 
-## Adobe [!DNL Experience Manager Sites] {#aem-sites}
+## Adobe [!DNL Experience Manager] {#aem}
+
+次の節では、AEM アプリケーションのジェネレーティブ AI について簡単に説明します。
+
+### Experience Manager Sites
 
 AEM Sitesでは、「バリエーションを生成 _[!UICONTROL を使用でき]_ す。 この機能は、ジェネレーティブな人工知能を使用して、入力プロンプトに基づくコンテンツのバリエーションを作成します。 プロンプトは、Adobeから提供されるか、ユーザーが作成および管理します。
 
@@ -93,6 +97,15 @@ Adobe Fireflyとの互換性：**はい**
 
 [ 詳しくは、バリエーションの生成を参照してください ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)
 
+### Experience Manager Assets
+
+[!UICONTROL Content Hub] は、組織やビジネスパートナーがブランド上のコンテンツにアクセスすることを民主化するための [!DNL Experience Manager Assets as a Cloud Service] の一部として利用できます。 大規模なアクティベーション用のアセットの配布と、マーケティングの俊敏性を向上させるためのオンブランドコンテンツバリアントの作成に重点を置いています。
+
+Content Hubでは、Adobe Expressを使用してコンテンツを作成できます（Adobe Expressの使用権限がある場合）。 シンプルなツールで既存のコンテンツを編集し、テンプレートやブランド要素を使用してオンブランドのバリエーションを作成し、[!DNL Adobe Firefly] から最新の GenAI 機能を使用してコンテンツを作成できます。
+
+[詳細情報](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)
+
+Adobe Fireflyとの互換性：**はい**
 
 ## Adobe [!DNL Journey Optimizer] {#journey-optimizer}
 
@@ -152,7 +165,11 @@ Adobe Fireflyとの互換性：**はい**
 
 ## [!DNL Customer Journey Analytics] {#cja}
 
-Customer Journey Analyticsは、Workspaceのビジュアライゼーションで、製品の知識やインサイト、および [!UICONTROL  インテリジェントキャプション ] の [!DNL AI Assistant] を提供します。
+Customer Journey Analyticsでは、生成 AI を次のように使用できます。
+
+* 製品に関する知識とインサイトの [!DNL AI Assistant]
+* Workspaceのビジュアライゼーションでの [!UICONTROL  インテリジェントキャプション ]
+* [!DNL Content Analytics] で各アセットメタデータを自動的に割り当てる AI および GenAI
 
 **AI アシスタント**
 
@@ -176,6 +193,12 @@ Experience Leagueの製品知識とインサイトを確認します。 初め�
 
 [詳細情報](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
 
+**Content Analytics**
+
+Content Analyticsでは、AI と GenAI を使用して、サブジェクト、シーン、前景色などのすべてのアセットメタデータを自動的に割り当てます。 属性は、アセットまたはエクスペリエンスの内容を説明する、AI によって割り当てられたメタデータタグです。
+
+例：前景 `color: red` は、自動的に割り当てられる属性です。 ビジュアライゼーションは、アセットのどの属性がコンバージョンに最も貢献しているかを特定するのに役立ちます。 [詳細情報](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/report/report#template)
+
 Adobe Fireflyとの互換性：**いいえ**
 
 ## [!DNL Real-Time CDP] {#rtcdp}
@@ -189,6 +212,21 @@ Real-Time CDPでは、Experience Leagueの製品知識の取得を支援する�
 Adobe Fireflyとの互換性：**いいえ**
 
 ## [!DNL Marketo] {#marketo}
+
+Marketoでは、インタラクティブ Web セミナーやDynamic Chatでジェネレーティブ AI を利用できます。
+
+**インタラクティブウェビナー**
+
+録画したウェビナーのチャプターと概要を自動的に生成し、オーディエンスがアクセスしやすく、簡単に移動できるようにします。 次のような機能があります。
+
+* チャプターの自動生成
+* AI 生成テキストの概要
+* 編集可能なコンテンツ – 生成されたチャプターと概要を変更
+* 簡単な統合 – 選択した web ページエディターにHTML コードをコピーして、ランディングページに章や概要を追加できます
+
+[詳細情報](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai)
+
+**Dynamic Chat**
 
 Adobe Dynamic Chatのジェネレーティブ AI を活用した機能により、営業担当者の生産性を最適化し、Web サイトの訪問者の意図に関するインサイトを得て、訪問者の質問に安全な方法で対応できます。 質問、回答および会話の概要を事前承認できます。
 
