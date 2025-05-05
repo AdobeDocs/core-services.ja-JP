@@ -20,16 +20,16 @@ Experience Cloudの環境設定を見つけるには、ヘッダーの **[!UICON
 
 ![ 環境設定 ](../assets/preferences-navigation.png){width="100" zoomable="yes"}
 
-[!UICONTROL Experience Cloud環境設定 ] ページでは、次のアカウント機能を管理できます。
+[!UICONTROL Experience Cloud環境設定 &#x200B;] ページでは、次のアカウント機能を管理できます。
 
 | 機能 | 説明 |
 |--- |--- |
 | [!UICONTROL プロファイル] | [Adobeアカウントプロファイル ](https://account.adobe.com/profile) を更新します。 <p>プロファイルの写真と名前は、Adobe.comやAdobeの製品およびサービスにログインしたときに表示されます。また、[!DNL Behance] のような公開サイトにも表示されます。 |
-| [!UICONTROL  一般 ] | [ 組織 ](../administration/organizations.md) を選択します。<p>Experience Cloudにログインした際に使用されるデフォルトの組織です。 |
-| [!UICONTROL  製品の使用状況データ ] | Experience Cloudアプリケーションを使用する際に、Adobeと共有する製品使用状況データを制御できます。 これは、お客様の組織のコンテンツやデータそのものではなく、お客様の製品の使用方法に関するデータです。 Adobeでは、この情報を使用して、商品の品質向上、強化された製品内サポートの提供、お客様のエクスペリエンスとアドビからのお知らせのパーソナライズを行います。 <p>詳しくは、[ 製品の使用状況データ ](#product-usage-data) （このページ）を参照してください。 |
-| [!UICONTROL  通知 ] | 製品 [ 通知 ](#subscribe-to-notifications-in-experience-cloud) およびアラートを希望する方法とタイミングを設定します。 <ul><li>アラートを登録する製品を選択します</li><li>通知のタイプ （[!UICONTROL  アプリ内 ]、[!UICONTROL  メール ] または [Slack](#slack-notifications)）を設定</li><li>通知メールの受信頻度を指定します。（送信しない、即時、毎日または毎週）</li><li>アラートの優先度を決定します。 アプリ内アラートは、ウィンドウの右上隅に数秒間表示されます。 または、解除するまでアラートを表示するかどうかを指定できます。</li></ul> |
+| [!UICONTROL &#x200B; 一般 &#x200B;] | [ 組織 ](../administration/organizations.md) を選択します。<p>Experience Cloudにログインした際に使用されるデフォルトの組織です。 |
+| [!UICONTROL &#x200B; 製品の使用状況データ &#x200B;] | Experience Cloudアプリケーションを使用する際に、Adobeと共有する製品使用状況データを制御できます。 これは、お客様の組織のコンテンツやデータそのものではなく、お客様の製品の使用方法に関するデータです。 Adobeでは、この情報を使用して、商品の品質向上、強化された製品内サポートの提供、お客様のエクスペリエンスとアドビからのお知らせのパーソナライズを行います。 <p>詳しくは、[ 製品の使用状況データ ](#product-usage-data) （このページ）を参照してください。 |
+| [!UICONTROL &#x200B; 通知 &#x200B;] | 製品 [ 通知 ](#subscribe-to-notifications-in-experience-cloud) およびアラートを希望する方法とタイミングを設定します。 <ul><li>アラートを登録する製品を選択します</li><li>通知のタイプ （[!UICONTROL &#x200B; アプリ内 &#x200B;]、[!UICONTROL &#x200B; メール &#x200B;] または [Slack](#slack-notifications)）を設定</li><li>通知メールの受信頻度を指定します。（送信しない、即時、毎日または毎週）</li><li>アラートの優先度を決定します。 アプリ内アラートは、ウィンドウの右上隅に数秒間表示されます。 または、解除するまでアラートを表示するかどうかを指定できます。</li></ul> |
 
-## [!UICONTROL  製品の使用状況データ ] {#product-usage-data}
+## [!UICONTROL &#x200B; 製品の使用状況データ &#x200B;] {#product-usage-data}
 
 Adobeと共有する製品の使用状況データには、Adobeアプリケーションの使用方法と操作方法に関する次の種類の情報が含まれます。
 
@@ -44,7 +44,7 @@ Adobeは、この情報を使用して、商品の改善、製品内およびカ
 
 ## Experience Cloudでの通知のサブスクライブ {#notifications}
 
-購読する製品とカテゴリを選択できます。 通知は、（購読に応じて） [!UICONTROL  通知 ] ポップオーバー（アプリ内）、メールまたは [Slack](#slack-notifications) に表示されます。
+購読する製品とカテゴリを選択できます。 通知は、（購読に応じて） [!UICONTROL &#x200B; 通知 &#x200B;] ポップオーバー（アプリ内）、メールまたは [Slack](#slack-notifications) に表示されます。
 
 メール通知とSlack通知は、Experience Cloudにログインしていない場合に役立ちます。
 
@@ -86,7 +86,7 @@ Adobeは、この情報を使用して、商品の改善、製品内およびカ
 
 ### [!DNL Slack] でのリクエスト権限（トラブルシューティング） {#slack-troubleshoot}
 
-[!DNL Slack] がインストールされていない場合、「_[!UICONTROL Slackに追加&#x200B;]**」をクリックした後にSlackが開くと、**[!UICONTROL インストールをリクエスト]_ メッセージが表示されます。 例：
+[!DNL Slack] がインストールされていない場合、「_[!UICONTROL Slackに追加&#x200B;]&#x200B;**」をクリックした後にSlackが開くと、**&#x200B;[!UICONTROL インストールをリクエスト]_ メッセージが表示されます。 例：
 
 ![ リクエストSlackの統合 ](../assets/slack-workspace.png)
 
@@ -109,7 +109,7 @@ Adobeは、この情報を使用して、商品の改善、製品内およびカ
 * Experience Cloud時のすべての通知を表示するためのリンク。
 * Experience Cloudの通知設定を管理するためのリンクです。
 
-## Experience Cloudで [!UICONTROL  通知 ] とお知らせを表示する {#view-notifications}
+## Experience Cloudで [!UICONTROL &#x200B; 通知 &#x200B;] とお知らせを表示する {#view-notifications}
 
 [!DNL Experience Cloud] ヘッダーでは、自分が [ 購読 ](#notifications) している通知を表示したり、お知らせを表示したりできます。
 

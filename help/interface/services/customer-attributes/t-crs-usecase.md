@@ -25,7 +25,7 @@ ht-degree: 77%
 
 >[!IMPORTANT]
 >
->この機能にアクセスするには、ユーザーを顧客属性製品プロファイル（顧客属性 – デフォルトアクセス）に割り当てる必要があります。 **[!UICONTROL 管理]**／**[!UICONTROL Admin Console]**／**[!UICONTROL グループ]**&#x200B;に移動します。*顧客属性* が [!UICONTROL  製品プロファイル ] の 1 つとして表示されたら、開始する準備が整います。 顧客属性グループに追加されたユーザーには、Experience Cloud インターフェイスの左側に「[!UICONTROL 顧客属性]」メニューが表示されます。
+>この機能にアクセスするには、ユーザーを顧客属性製品プロファイル（顧客属性 – デフォルトアクセス）に割り当てる必要があります。 **[!UICONTROL 管理]**／**[!UICONTROL Admin Console]**／**[!UICONTROL グループ]**&#x200B;に移動します。*顧客属性* が [!UICONTROL &#x200B; 製品プロファイル &#x200B;] の 1 つとして表示されたら、開始する準備が整います。 顧客属性グループに追加されたユーザーには、Experience Cloud インターフェイスの左側に「[!UICONTROL 顧客属性]」メニューが表示されます。
 >
 >また、顧客属性機能を使用するには、ユーザーがアプリケーションレベルのグループ（Analytics または [!DNL Target]）に属している必要があります。
 
@@ -71,7 +71,7 @@ Experience Cloudの新しい顧客属性Sourceを作成ページでこれらの�
 
    * **[!UICONTROL 説明：]**（オプション）データ属性ソースの説明。
 
-   * **[!UICONTROL エイリアス ID：]**&#x200B;特定の CRM システムなど、顧客属性データのソースを表します。[!UICONTROL  エイリアス ID] は、[!UICONTROL  顧客属性Source] コードで使用される一意の ID です。 ID は一意で、スペースを含まないアルファベットおよびアンダースコアの組み合わせにしてください。Experience Cloudで顧客属性ソースの [!UICONTROL  エイリアス ID] フィールドに入力する値は、実装から（Platform データ収集または Mobile SDKのJavaScriptを使用して）渡されている値と一致させる必要があります。
+   * **[!UICONTROL エイリアス ID：]**&#x200B;特定の CRM システムなど、顧客属性データのソースを表します。[!UICONTROL &#x200B; エイリアス ID] は、[!UICONTROL &#x200B; 顧客属性Source] コードで使用される一意の ID です。 ID は一意で、スペースを含まないアルファベットおよびアンダースコアの組み合わせにしてください。Experience Cloudで顧客属性ソースの [!UICONTROL &#x200B; エイリアス ID] フィールドに入力する値は、実装から（Platform データ収集または Mobile SDKのJavaScriptを使用して）渡されている値と一致させる必要があります。
 
      >[!IMPORTANT]
      >
@@ -79,7 +79,7 @@ Experience Cloudの新しい顧客属性Sourceを作成ページでこれらの�
 
      エイリアス ID は、追加の顧客 ID 値を設定する方法に対応しています。以下に例を示します。
 
-      * **タグ：** エイリアス ID は、[Experience CloudID サービス *ツールの [!UICONTROL  顧客設定 ] の下にある ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)Integration Code* 値に対応しています。
+      * **タグ：** エイリアス ID は、[Experience CloudID サービス *ツールの [!UICONTROL &#x200B; 顧客設定 &#x200B;] の下にある ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)Integration Code* 値に対応しています。
 
       * **訪問者 API：**&#x200B;エイリアス ID は、各訪問者と関連付けることができる追加の[顧客 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) に対応しています。
 
@@ -144,7 +144,7 @@ Experience Cloudの新しい顧客属性Sourceを作成ページでこれらの�
 
 **属性ソースを有効化するには**
 
-[!UICONTROL  新規を作成または顧客属性Sourceを編集 ] ページで、「[!UICONTROL  アクティブ化 ] 見出しを探し、「**[!UICONTROL アクティブ]**」をクリックします。
+[!UICONTROL &#x200B; 新規を作成または顧客属性Sourceを編集 &#x200B;] ページで、「[!UICONTROL &#x200B; アクティブ化 &#x200B;] 見出しを探し、「**[!UICONTROL アクティブ]**」をクリックします。
 
 ![手順の結果](assets/activate_attribute_source.png)
 

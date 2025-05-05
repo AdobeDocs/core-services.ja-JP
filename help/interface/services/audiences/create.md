@@ -45,7 +45,7 @@ ht-degree: 94%
 **オーディエンスを作成するには、以下を実行します。**
 
 1. [!DNL Experience Cloud] の [!DNL Experience Platform] で、**[!UICONTROL People]**／**[!UICONTROL オーディエンスライブラリ]をクリックします。**
-1. [!UICONTROL  オーディエンス ] ページで、「新規 **[!UICONTROL をクリックし]** す。 ![ 追加 ](assets/add_icon_small.png)
+1. [!UICONTROL &#x200B; オーディエンス &#x200B;] ページで、「新規 **[!UICONTROL をクリックし]** す。 ![ 追加 ](assets/add_icon_small.png)
 
    ![手順の結果](assets/audience_create_new.png)
 
@@ -53,6 +53,7 @@ ht-degree: 94%
 1. 「[!UICONTROL ルール]」で、属性のソースを選択します。
 
    * **[!UICONTROL Real-Time Analytics データ：]**（Raw データ）Real-Time Analytics イメージリクエストから得られる属性データであり、eVar やイベントなどのデータが含まれます。この属性ソースを使用する場合は、レポートスイートを選択し、含めるディメンションまたはイベントを定義する必要があります。このレポートスイートの選択により、レポートスイートで使用された変数構造が提供されます。
+
    >[!NOTE]
    >
    >キャッシュにより、Analytics で削除されたレポートスイートがExperience Cloudに表示されるまでに 12 時間かかります。
