@@ -34,4 +34,4 @@ Analytics では、新しい訪問者を匿名で定義する手段、クリッ�
 
 ## プラグインで設定される cookie
 
-一部の実装ではプラグインを利用します。プラグインは、Analytics に追加機能を提供するコードのスニペットです。 これらのプラグインは、上記に記載されていない Cookie を設定できます。 使用可能なプラグインのリストと設定対象の Cookie については、[Analytics プラグインの概要 ](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins) を参照してください。
+一部の実装ではプラグインを利用します。プラグインは、Analytics に追加機能を提供するコードのスニペットです。 これらのプラグインは、上記に記載されていない Cookie を設定できます。 使用可能なプラグインのリストと設定対象の Cookie については、[Analytics プラグインの概要 ](https://experienceleague.adobe.com/ja/docs/analytics/implementation/vars/plugins/impl-plugins) を参照してください。

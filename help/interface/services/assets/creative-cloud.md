@@ -32,4 +32,4 @@ Creative Cloudユーザーがアセットにアクセスする前に、Experienc
 
 [!DNL Adobe Target] でアクティビティを作成すると、[!UICONTROL オファーライブラリ]内の画像の指定時に共有画像アセットを使用できるようになります。
 
-[!DNL Target] ヘルプの[オファーライブラリ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html)を参照してください。
+[!DNL Target] ヘルプの[オファーライブラリ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=ja)を参照してください。

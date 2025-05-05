@@ -81,7 +81,7 @@ Experience Cloudの新しい顧客属性Sourceを作成ページでこれらの�
 
       * **タグ：** エイリアス ID は、[Experience CloudID サービス *ツールの [!UICONTROL &#x200B; 顧客設定 &#x200B;] の下にある ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)Integration Code* 値に対応しています。
 
-      * **訪問者 API：**&#x200B;エイリアス ID は、各訪問者と関連付けることができる追加の[顧客 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) に対応しています。
+      * **訪問者 API：**&#x200B;エイリアス ID は、各訪問者と関連付けることができる追加の[顧客 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja) に対応しています。
 
         例：*crm_id* の場合：
 
@@ -164,4 +164,4 @@ Adobe Analytics などのアプリケーションで利用できるデータを�
 
 ![Adobe Target での顧客属性の使用](assets/crs-add-attribute-target.png)
 
-[!DNL Target] ヘルプの[新しいオーディエンスの作成](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)を参照してください。
+[!DNL Target] ヘルプの[新しいオーディエンスの作成](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=ja)を参照してください。

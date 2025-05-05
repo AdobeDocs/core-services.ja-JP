@@ -77,4 +77,4 @@ Experience Cloud アプリケーションでのオーディエンスの使用方
 
 ## Adobe AnalyticsのPublish オーディエンス
 
-詳しくは、Adobe Analytics ドキュメントの [Experience CloudするPublish セグメント ](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) を参照してください。
+詳しくは、Adobe Analytics ドキュメントの [Experience CloudするPublish セグメント ](https://experienceleague.adobe.com/ja/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) を参照してください。

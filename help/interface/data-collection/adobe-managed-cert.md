@@ -94,8 +94,8 @@ Aliases: smetrics.example.com
 
 証明書が正しく動作することを検証したら、これらの値を使用するようにAdobe実装を更新できます。
 
-* Adobe Analytics AppMeasurement実装の場合、[`trackingServer`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserver) 設定変数を更新します。 既存の実装がある場合、既存の訪問者が新規訪問者としてカウントされないようにする方法について詳しくは、[ 訪問者の移行 ](https://experienceleague.adobe.com/en/docs/analytics/technotes/visitor-migration) を参照してください。
-* Web SDK 実装の場合、[`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) コマンド内の [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain) プロパティを更新します。
+* Adobe Analytics AppMeasurement実装の場合、[`trackingServer`](https://experienceleague.adobe.com/ja/docs/analytics/implementation/vars/config-vars/trackingserver) 設定変数を更新します。 既存の実装がある場合、既存の訪問者が新規訪問者としてカウントされないようにする方法について詳しくは、[ 訪問者の移行 ](https://experienceleague.adobe.com/ja/docs/analytics/technotes/visitor-migration) を参照してください。
+* Web SDK 実装の場合、[`configure`](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/overview) コマンド内の [`edgeDomain`](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/edgedomain) プロパティを更新します。
 
 ## 保守および更新
 

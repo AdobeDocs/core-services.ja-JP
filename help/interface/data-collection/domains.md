@@ -19,9 +19,9 @@ Experience Cloudでは、以下のホストを使用して、アプリケーシ�
 
 以下に示すドメインに加えて、個々のAdobe Experience Cloud製品には、使用する独自のドメインがあります。
 
-* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/domains)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/domains)
-* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
+* [Adobe Analytics](https://experienceleague.adobe.com/ja/docs/analytics/technotes/domains)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/technotes/domains)
+* [Marketo Engage](https://experienceleague.adobe.com/ja/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
 
 | 技術 | ドメイン |
 | --- | --- |
