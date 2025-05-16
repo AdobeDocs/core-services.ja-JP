@@ -6,9 +6,9 @@ title: Experience Cloud インターフェイスおよび管理
 description: Experience Cloud インターフェイス、Cookie、アカウントの環境設定について説明します。製品を管理し、顧客属性やオーディエンスライブラリなどの People サービスを設定します。Experience Cloud Assets の共有。
 index: true
 source-git-commit: 82153937f2fbc9b14d76d9ba52b77c41f0a138db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
