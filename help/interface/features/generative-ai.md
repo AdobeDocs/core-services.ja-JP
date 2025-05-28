@@ -32,7 +32,7 @@ ht-degree: 3%
 
 * **商品知識：** 商品知識とは、Experience Leagueのドキュメントに基づいた概念やトピックを指します。 [!DNL AI Assistant] を最大限に活用するために、効果的な [ 目標ベースのプロンプト ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home) を作成する方法を説明します。 Experience Leagueからの回答はすべて検証可能で、リンク付きで引用されます。
 
-* **オペレーショナルインサイト：**[ オペレーショナルインサイト ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions) メタデータオブジェクト（属性、オーディエンス、データフロー、データセットなど）に関して生成される応答を参照します。 [!DNL AI Assistant] を使用すると、他の方法では数時間や数日かかることがある作業を、数秒で完了できます。
+* **オペレーショナルインサイト：**&#x200B;[ オペレーショナルインサイト ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions) メタデータオブジェクト（属性、オーディエンス、データフロー、データセットなど）に関して生成される応答を参照します。 [!DNL AI Assistant] を使用すると、他の方法では数時間や数日かかることがある作業を、数秒で完了できます。
 
 * **製品サポートエージェント** （Alpha）: [ 製品サポートエージェント ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) は、Experience Platformの機能とアプリケーションに使用できる、[!DNL AI Assistant] のセルフサービスデバッグ機能とトラブルシューティング機能です。 ワークフローを離れることなくサポートの問題をトラブルシューティングしたり、カスタマーサポートチケットを作成したり、AI アシスタントを使用してケースの進行状況を追跡したりできます。
 
@@ -185,7 +185,7 @@ Adobe Fireflyとの互換性：**はい**
 Customer Journey Analyticsでは、生成 AI を次のように使用できます。
 
 * 製品に関する知識とインサイトの [!DNL AI Assistant]
-* Workspaceのビジュアライゼーションでの [!UICONTROL  インテリジェントキャプション ]
+* Workspaceのビジュアライゼーションでの [!UICONTROL &#x200B; インテリジェントキャプション &#x200B;]
 * [!DNL Content Analytics] で各アセットメタデータを自動的に割り当てる AI および GenAI
 
 **AI アシスタント**
