@@ -1,6 +1,6 @@
 ---
 title: Experience Cloud アプリケーションのジェネレーティブ AI
-description: ジェネレーティブ AI （GenAI）と、Experience Cloud アプリケーションで GenAI および [!UICONTROL AI アシスタント ] がどのように使用されるかについて説明します。
+description: ジェネレーティブ AI （GenAI）と、Experience Cloud アプリケーションで GenAI および [!UICONTROL AI アシスタント &#x200B;] がどのように使用されるかについて説明します。
 solution: Experience Cloud
 feature: AI Assistant, Generative AI
 topic: Administration
@@ -26,25 +26,25 @@ Experience Cloudのジェネレーティブ AI （genAI）は、クリエイテ�
 
 * **応答を生成：** AI は、通常、使用可能なデータとナレッジリポジトリを利用して、プロンプトに対する回答や反応を提供します。
 
-**[!UICONTROL AI アシスタント ] とは**
+**[!UICONTROL AI アシスタント &#x200B;] とは**
 
-[!UICONTROL AI アシスタント ] は、Experience Platformおよび関連アプリケーションでサポートされる対話型ツールです。 これを使用すると、サポート対象の製品で _製品の知識_ および _運用に関するインサイト_ を迅速に得ることができます。
+[!UICONTROL AI アシスタント &#x200B;] は、Experience Platformおよび関連アプリケーションでサポートされる対話型ツールです。 これを使用すると、サポート対象の製品で _製品の知識_ および _運用に関するインサイト_ を迅速に得ることができます。
 
-* **商品知識：** 商品知識とは、Experience Leagueのドキュメントに基づいた概念やトピックを指します。 [!UICONTROL AI アシスタント ] を最大限に活用するために、効果的な [ 目標ベースのプロンプト ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home) を作成する方法を説明します。 Experience Leagueからの回答はすべて検証可能で、リンク付きで引用されます。
+* **商品知識：** 商品知識とは、Experience Leagueのドキュメントに基づいた概念やトピックを指します。 [!UICONTROL AI アシスタント &#x200B;] を最大限に活用するために、効果的な [ 目標ベースのプロンプト ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home) を作成する方法を説明します。 Experience Leagueからの回答はすべて検証可能で、リンク付きで引用されます。
 
-* **オペレーショナルインサイト：**[ オペレーショナルインサイト ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions) メタデータオブジェクト（属性、オーディエンス、データフロー、データセットなど）に関して生成される応答を参照します。 [!UICONTROL AI アシスタント ] を使用すると、他の方法では数時間または数日かかる可能性がある作業を、数秒で完了できます。
+* **オペレーショナルインサイト：**&#x200B;[ オペレーショナルインサイト ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions) メタデータオブジェクト（属性、オーディエンス、データフロー、データセットなど）に関して生成される応答を参照します。 [!UICONTROL AI アシスタント &#x200B;] を使用すると、他の方法では数時間または数日かかる可能性がある作業を、数秒で完了できます。
 
 AI アシスタントには、サポート対象のアプリケーションに会話エージェント AI 機能（_エージェント AI_ と呼ばれます）も含まれています。
 
-* **製品サポート：**[ 製品サポートエージェント ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) は、[!UICONTROL AI アシスタント ] のセルフサービスデバッグおよびトラブルシューティング機能で、Experience Platformの機能や用途に使用できます。 ワークフローを離れることなくサポートの問題をトラブルシューティングしたり、カスタマーサポートチケットを作成したり、AI アシスタントを使用してケースの進行状況を追跡したりできます。
+* **製品サポート：**&#x200B;[ 製品サポートエージェント ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) は、[!UICONTROL AI アシスタント &#x200B;] のセルフサービスデバッグおよびトラブルシューティング機能で、Experience Platformの機能や用途に使用できます。 ワークフローを離れることなくサポートの問題をトラブルシューティングしたり、カスタマーサポートチケットを作成したり、AI アシスタントを使用してケースの進行状況を追跡したりできます。
 
-* **Data Insights Agent:** [Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) は、[!DNL Customer Journey Analytics] の AI アシスタントからアクセスでき、データに関する質問に迅速かつ効率的に回答するジェネレーティブ AI コンバージョンエージェントです。 データビューのコンポーネントと実際のデータを使用して ] 関連するビジュアライゼーションを [!UICONTROL Analysis Workspace} に作成します。
+* **Data Insights Agent:** [Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) は、[!DNL Customer Journey Analytics] の AI アシスタントからアクセスでき、データに関する質問に迅速かつ効率的に回答するジェネレーティブ AI コンバージョンエージェントです。 データビューのコンポーネントと実際のデータを使用して  関連するビジュアライゼーションを Analysis Workspace&rbrace; に作成します。
 
 [AI アシスタントの詳細 ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
 
 ## Experience Cloud製品での GenAI の可用性 {#products}
 
-次のExperience Cloud アプリケーションは、ジェネレーティブ AI または [!UICONTROL AI アシスタント ] をサポートしています。 Adobe Fireflyのサポートも製品ごとに示されます。
+次のExperience Cloud アプリケーションは、ジェネレーティブ AI または [!UICONTROL AI アシスタント &#x200B;] をサポートしています。 Adobe Fireflyのサポートも製品ごとに示されます。
 
 更新日：**2025 年 6 月 5 日**
 
@@ -150,7 +150,7 @@ Adobe Fireflyとの互換性：**はい**
 
 ## [!DNL Journey Optimizer B2B Edition] {#ajo-b2b}
 
-Journey Optimizer B2B editionでは、[!UICONTROL AI アシスタント ] を使用して、商品の知識を支援します。
+Journey Optimizer B2B editionでは、[!UICONTROL AI アシスタント &#x200B;] を使用して、商品の知識を支援します。
 
 入力例：
 
@@ -164,7 +164,7 @@ Adobe Fireflyとの互換性：**いいえ**
 
 ## [!DNL Campaign] Managed Cloud Services {#campaign-cs}
 
-Campaign Managed Cloud Services では、コンテンツの生成に [!UICONTROL AI アシスタント ] を使用します。 この機能を使用すると、ブランドの概要を示すスタイル、レイアウト、トーンなどに最適化されたコンテンツを使用して、マーケティング目標に基づいてパーソナライズされた魅力的で効果的なコンテンツを自動生成できます。 メール、SMS、プッシュなど、様々なチャネルで使用できます。
+Campaign Managed Cloud Services では、コンテンツの生成に [!UICONTROL AI アシスタント &#x200B;] を使用します。 この機能を使用すると、ブランドの概要を示すスタイル、レイアウト、トーンなどに最適化されたコンテンツを使用して、マーケティング目標に基づいてパーソナライズされた魅力的で効果的なコンテンツを自動生成できます。 メール、SMS、プッシュなど、様々なチャネルで使用できます。
 
 **メモ：** Campaign Managed Cloud Services のコンテンツ生成からの出力は除外されます。
 
@@ -178,7 +178,7 @@ Customer Journey Analyticsでは、ジェネレーティブ AI または AI ア�
 
 * 製品の知識のための [AI アシスタント ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)
 * AI アシスタントの [ 製品サポートエージェント ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support)
-* AI アシスタントの ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai)0}Data Insights Agent}[
+* AI アシスタントの [&#128279;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai)0&rbrace;Data Insights Agent&rbrace;
 * Workspaceのビジュアライゼーションでの [ インテリジェントキャプション ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
 * [Content Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/report/report#template)：すべてのアセットのメタデータを自動的に割り当てます
 
@@ -214,9 +214,9 @@ Content Analyticsでは、AI と GenAI を使用して、サブジェクト、�
 
 ## [!DNL Real-Time CDP] {#rtcdp}
 
-Real-Time CDPでは、[!UICONTROL AI アシスタント ] を使用して、Experience Leagueの製品情報を提供します。 また、運用に関するインサイト（ベータ版）も提供します。 [!UICONTROL AI アシスタント ] は、AEP サンドボックス内にパーティション化された一元化された運用データを含む、顧客固有の運用インサイトデータストアをクエリします。 システムは、属性、オーディエンス、データフロー、データセット、宛先、スキーマおよびソースからのみメタデータを取り込み、サンドボックス内のデータにはアクセスしません。
+Real-Time CDPでは、[!UICONTROL AI アシスタント &#x200B;] を使用して、Experience Leagueの製品情報を提供します。 また、運用に関するインサイト（ベータ版）も提供します。 [!UICONTROL AI アシスタント &#x200B;] は、AEP サンドボックス内にパーティション化された一元化された運用データを含む、顧客固有の運用インサイトデータストアをクエリします。 システムは、属性、オーディエンス、データフロー、データセット、宛先、スキーマおよびソースからのみメタデータを取り込み、サンドボックス内のデータにはアクセスしません。
 
-例えば、オーディエンスに関するクエリを実行する場合、[!UICONTROL AI アシスタント ] は、オーディエンスの名前および他の関連メタデータにアクセスできますが、そのオーディエンス内のプロファイルにはアクセスできません。
+例えば、オーディエンスに関するクエリを実行する場合、[!UICONTROL AI アシスタント &#x200B;] は、オーディエンスの名前および他の関連メタデータにアクセスできますが、そのオーディエンス内のプロファイルにはアクセスできません。
 
 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home)
 
@@ -247,10 +247,10 @@ Adobe Fireflyとの互換性：**いいえ**
 
 ## [!DNL Workfront] {#workfront}
 
-[!DNL Workfront] の [!UICONTROL AI アシスタント ] は、アプリ内の情報や提案を提供することで、作業を達成するのに役立ちます。 実行できる操作は、次のとおりです。
+[!DNL Workfront] の [!UICONTROL AI アシスタント &#x200B;] は、アプリ内の情報や提案を提供することで、作業を達成するのに役立ちます。 実行できる操作は、次のとおりです。
 
 * 一部のオブジェクトの概要を取得して、オブジェクトの意図や詳細の概要を表示します。
-* 質問をしたり、[!UICONTROL AI アシスタント ] にExperience Leagueで回答を見つけさせたりします。
+* 質問をしたり、[!UICONTROL AI アシスタント &#x200B;] にExperience Leagueで回答を見つけさせたりします。
 * プロンプトに基づいて生成された式を取得します。 また、計算フィールドでの無効なカスタム式のエラーを解決することもできます。
 * プロジェクト、タスクおよび問題を見つけます。
 
