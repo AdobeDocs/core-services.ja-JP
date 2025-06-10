@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
-source-git-commit: cb928a0398699b966a0f0dacc569c7958dac12d1
+source-git-commit: 2073400a04933226bd036c1fcd729df70f101df3
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 91%
+source-wordcount: '352'
+ht-degree: 88%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Experience Cloudは、cookie を使用して、Experience Cloud アプリ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> 有効期限 </p> </td> 
-   <td colname="col2"> <p>2 年。 </p> </td> 
+   <td colname="col2"> <p>最新のブラウザーのほとんどは 13 か月に切り捨てられますが、2 年です</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 用途 </p> </td> 
@@ -60,7 +60,7 @@ Adobe Experience Cloudは、cookie を使用して、Experience Cloud アプリ�
 
 [Experience Platform ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)では、JavaScript を使用して現在の Web サイトのドメインの `AMCV_###@AdobeOrg` cookie に一意の訪問者 ID を保存します（`###` には `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.` などのランダムな文字列が入ります）。
 
-詳しくは、[Cookie と ID サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja)を参照してください。
+詳しくは、[Cookie と ID サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)を参照してください。
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
