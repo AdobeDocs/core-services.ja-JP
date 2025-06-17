@@ -34,9 +34,9 @@ Experience Cloudのジェネレーティブ AI （genAI）は、クリエイテ�
 
 * **商品知識：** 商品知識とは、Experience Leagueのドキュメントに基づいた概念やトピックを指します。 [!UICONTROL AI アシスタント &#x200B;] を最大限に活用するために、効果的な [ 目標ベースのプロンプト ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home) を作成する方法を説明します。 Experience Leagueからの回答はすべて検証可能で、リンク付きで引用されます。
 
-* **オペレーショナルインサイト：**&#x200B;[ オペレーショナルインサイト ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions) メタデータオブジェクト（属性、オーディエンス、データフロー、データセットなど）に関して生成される応答を参照します。 [!UICONTROL AI アシスタント &#x200B;] を使用すると、他の方法では数時間または数日かかる可能性がある作業を、数秒で完了できます。
+* **オペレーショナルインサイト：**&#x200B;[ オペレーショナルインサイト ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/questions#objects-questions) メタデータオブジェクト（属性、オーディエンス、データフロー、データセットなど）に関して生成される応答を参照します。 [!UICONTROL AI アシスタント &#x200B;] を使用すると、他の方法では数時間または数日かかる可能性がある作業を、数秒で完了できます。
 
-[AI アシスタントの詳細 ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
+[AI アシスタントの詳細 ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/landing)
 
 ## Experience Cloud製品での AI の可用性
 
@@ -45,17 +45,17 @@ GenAI、AI アシスタント、または Agentic AI を使用するExperience C
 | **製品名** | **ジェネレーティブ AI** | **AI アシスタント** | **Fireflyの互換性** |
 |------------------|-------------------------|------------------|---------------------------|
 | [Adobe GenStudio for Performance Marketing](#gspm) | はい。<br> マーケティングチームやクリエイティブチームが、パーソナライズされたオンブランドコンテンツを作成するのに役立ちます。 | 該当なし | ○ |
-| [Adobe Experience Manager Sites](#aem) | はい。<br> バリエーションを生成 [ で使用でき、入力に基づいてコンテンツのバリエーションを作成できます ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor?lang=en)。 | 該当なし | ○ |
+| [Adobe Experience Manager Sites](#aem) | はい。<br> バリエーションを生成 [ で使用でき、入力に基づいてコンテンツのバリエーションを作成できます ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor?lang=en)。 | 該当なし | ○ |
 | [Sites Optimizer](#aem) | はい。<br> Web エクスペリエンスのパフォーマンスと有効性を分析し、向上させるのに役立ちます。 | 該当なし | × |
-| [Adobe Experience Manager Assets](#aem) | はい。<br> は、[Content Hub](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview?lang=en) および AI 生成 [ スマートタグ ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/smart-tags?lang=en#ai-smart-tags) で使用できます。 | 該当なし | ○ |
+| [Adobe Experience Manager Assets](#aem) | はい。<br> は、[Content Hub](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview?lang=en) および AI 生成 [ スマートタグ ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/smart-tags?lang=en#ai-smart-tags) で使用できます。 | 該当なし | ○ |
 | [Adobe Journey Optimizer](#journey-optimizer) | 該当なし | はい。<br> 製品に関する知識や運用に関するインサイトに利用できます。 | × |
-| | | AJO PrimeおよびUltimateでは、テキストや画像に対してプロアクティブなコンテンツバリエーションの提案を行う [ コンテンツ生成 ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en) を提供しています。 | ○ |
+| | | AJO PrimeおよびUltimateでは、テキストや画像に対してプロアクティブなコンテンツバリエーションの提案を行う [ コンテンツ生成 ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en) を提供しています。 | ○ |
 | [[!DNL Adobe Journey Optimizer] B2B edition](#ajo-b2b) | 該当なし | はい。<br> 製品に関する知識の向上に役立ちます。 | × |
 | [[!DNL Campaign] Managed Cloud Services](#campaign-cs) | 該当なし | はい。<br> コンテンツアクセラレーターに AI アシスタントを使用して、メール、SMS、プッシュなどのあらゆるチャネルにわたるマーケティング目標に基づいて、パーソナライズされた魅力的で効果的なコンテンツを自動生成します | ○ |
-| [[!DNL Customer Journey Analytics]](#cja) | はい。GenAI<br> 次の場所で使用されます。<ul><li> [ インテリジェントキャプション ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en)：最も頻繁に使用されるWorkspaceのビジュアライゼーションに関するインサイト。</li><li>[Content Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/report/report?lang=en#template): アセットのメタデータを自動的に割り当てます。</li></ul> | はい。<br>AI アシスタントは、次の操作に役立ちます。<ul><li>[ 商品に関する知識 ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) （Experience League）</li><li>[ 製品サポート担当者 ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support?lang=en) </li><li>[Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai)</li></ul> | × |
+| [[!DNL Customer Journey Analytics]](#cja) | はい。GenAI<br> 次の場所で使用されます。<ul><li> [ インテリジェントキャプション ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en)：最も頻繁に使用されるWorkspaceのビジュアライゼーションに関するインサイト。</li><li>[Content Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/content-analytics/report/report?lang=en#template): アセットのメタデータを自動的に割り当てます。</li></ul> | はい。<br>AI アシスタントは、次の操作に役立ちます。<ul><li>[ 商品に関する知識 ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) （Experience League）</li><li>[ 製品サポート担当者 ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/new-features/customer-support?lang=en) </li><li>[Data Insights Agent](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai)</li></ul> | × |
 | [[!DNL Real-Time CDP]](#rtcdp) | 該当なし | はい。<br>Experience Leagueの商品に関する知識。 また、運用に関するインサイト（ベータ版）も提供します。 | × |
-| [[!DNL Marketo]](#marketo) | はい。<br>[Dynamic Chatで利用可能 ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview?lang=en) および [ インタラクティブウェビナー ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai?lang=en)。 | 該当なし | × |
-| [[!DNL Workfront]](#workfront) | はい。アプリ内の情報と提案を <br> します。 [詳細情報](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview?lang=en) | 該当なし | ○ |
+| [[!DNL Marketo]](#marketo) | はい。<br>[Dynamic Chatで利用可能 ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview?lang=en) および [ インタラクティブウェビナー ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai?lang=en)。 | 該当なし | × |
+| [[!DNL Workfront]](#workfront) | はい。アプリ内の情報と提案を <br> します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/ai-assistant/ai-assistant-overview?lang=en) | 該当なし | ○ |
 
 ## Experience Cloudでの GenAI の使用例 {#products}
 
@@ -101,11 +101,11 @@ AEM Sitesでは、「バリエーションを生成 _[!UICONTROL を使用でき
 
 出力は、生成されたコンテンツや市場コピーです。
 
-[詳細情報](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)
+[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)
 
 ### Sites Optimizer {#sites-optimizer}
 
-AEM Sites Optimizerでは、ジェネレーティブ AI を使用して、web エクスペリエンスのパフォーマンスと効果を分析および向上させます。 これらのインサイトは、エンゲージメント、トラフィック獲得、セキュリティ態勢、サイトの正常性などの主要な商談領域にグループ化されます。 各カテゴリでは、訪問者とのやり取りを強化したり、検出性を向上させたり、セキュリティを強化したり、サイトの安定性を維持したりして、サイトを強化する特定の方法に焦点を当てます。 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/opportunity-types/overview)
+AEM Sites Optimizerでは、ジェネレーティブ AI を使用して、web エクスペリエンスのパフォーマンスと効果を分析および向上させます。 これらのインサイトは、エンゲージメント、トラフィック獲得、セキュリティ態勢、サイトの正常性などの主要な商談領域にグループ化されます。 各カテゴリでは、訪問者とのやり取りを強化したり、検出性を向上させたり、セキュリティを強化したり、サイトの安定性を維持したりして、サイトを強化する特定の方法に焦点を当てます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-manager-sites-optimizer/content/opportunity-types/overview)
 
 ### Experience Manager Assets {#aem-assets}
 
@@ -115,17 +115,17 @@ AEM Assetsでは、**Content Hub** および **AI によって生成されたス
 
 [!UICONTROL Content Hub] は、組織やビジネスパートナーがブランド上のコンテンツにアクセスすることを民主化するための [!DNL Experience Manager Assets as a Cloud Service] の一部として利用できます。 大規模なアクティベーション用のアセットの配布と、マーケティングの俊敏性を向上させるためのオンブランドコンテンツバリアントの作成に重点を置いています。
 
-Content Hubでは、Adobe Expressを使用してコンテンツを作成できます（Adobe Expressの使用権限がある場合）。 シンプルなツールで既存のコンテンツを編集し、テンプレートやブランド要素を使用してオンブランドのバリエーションを作成し、[!DNL Adobe Firefly] から最新の GenAI 機能を使用してコンテンツを作成できます。 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)
+Content Hubでは、Adobe Expressを使用してコンテンツを作成できます（Adobe Expressの使用権限がある場合）。 シンプルなツールで既存のコンテンツを編集し、テンプレートやブランド要素を使用してオンブランドのバリエーションを作成し、[!DNL Adobe Firefly] から最新の GenAI 機能を使用してコンテンツを作成できます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)
 
 **スマートタグ**
 
 AI では、手動入力に依存するのではなく、デジタルアセットに説明的なタグを自動的に割り当てることができます。 これらの AI で生成されるタグは、メタデータの品質を向上させ、アセットの検索、分類およびレコメンデーションを容易にします。
 
-例えば、アセットが画像の場合、AI はオブジェクト、シーン、感情、さらにはブランドロゴを識別できます。 _sunset_、_beach_、_vacation_、_smiling_ などの関連するタグを生成できます。 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/smart-tags#ai-smart-tags)
+例えば、アセットが画像の場合、AI はオブジェクト、シーン、感情、さらにはブランドロゴを識別できます。 _sunset_、_beach_、_vacation_、_smiling_ などの関連するタグを生成できます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/smart-tags#ai-smart-tags)
 
 ## Adobe [!DNL Journey Optimizer] {#journey-optimizer}
 
-[!DNL Journey Optimizer] （AJO）では、[AI アシスタント ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant) を使用して _製品に関する知識_ および _運用に関するインサイト_ （ベータ版）を取得できます。
+[!DNL Journey Optimizer] （AJO）では、[AI アシスタント ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/ai-assistant) を使用して _製品に関する知識_ および _運用に関するインサイト_ （ベータ版）を取得できます。
 
 ### AJOでの AI アシスタントの使用例
 
@@ -141,15 +141,15 @@ AI では、手動入力に依存するのではなく、デジタルアセッ�
 
   出力用に、AI アシスタントが顧客固有のデータ ストアに対してクエリを実行します。 データストアには、[!UICONTROL ジャーニー] に関する一元化された運用データが含まれています。 この機能は顧客に依存せず、ビジネスオブジェクトからのみメタデータを取り込みます。 サンドボックス内のデータにはアクセスしません。
 
-[詳細情報](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant)
+[詳細情報](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/ai-assistant)
 
 ### コンテンツ生成用 AI アシスタント（AJOPrimeおよびUltimate） {#ajo-prime}
 
-AJO _Prime_ および _Ultimate_ では、[ コンテンツ生成 ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative) をコンテンツ生成に使用して、テキストや画像に対するプロアクティブなコンテンツバリエーションの提案を行うことができます。
+AJO _Prime_ および _Ultimate_ では、[ コンテンツ生成 ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative) をコンテンツ生成に使用して、テキストや画像に対するプロアクティブなコンテンツバリエーションの提案を行うことができます。
 
 この機能は、メール、プッシュ通知、web ページ、コンテンツおよび SMS チャネルで使用できます。 プロンプトベースのテキストと画像を生成できます。 AJO PrimeおよびUltimateでのコンテンツ生成からの出力は除外されます。
 
-[詳細情報](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)
+[詳細情報](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)
 
 ## [!DNL Journey Optimizer B2B Edition] {#ajo-b2b}
 
@@ -161,7 +161,7 @@ Journey Optimizer B2B editionでは、[!UICONTROL AI アシスタント &#x200B;
 
   製品ナレッジ出力はExperience Leagueから取り込まれます。
 
-[詳細情報](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview)
+[詳細情報](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview)
 
 ## [!DNL Campaign] Managed Cloud Services {#campaign-cs}
 
@@ -169,15 +169,15 @@ Campaign Managed Cloud Services では、コンテンツの生成に [!UICONTROL
 
 **メモ：** Campaign Managed Cloud Services のコンテンツ生成からの出力は除外されます。
 
-[詳細情報](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs)
+[詳細情報](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/content/ai-assistant/generative-gs)
 
 ## [!DNL Customer Journey Analytics] {#cja}
 
 Customer Journey Analyticsでは、ジェネレーティブ AI または AI アシスタントを次のように使用できます。
 
-* 製品に関する知識の [AI アシスタント ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)。
-* [ インテリジェントキャプション ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)：自然言語で最も頻繁に使用されるWorkspaceのビジュアライゼーションに対して重要なインサイトを提供します。
-* [Content Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/report/report#template)：すべてのアセットのメタデータを自動的に割り当てます。
+* 製品に関する知識の [AI アシスタント ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)。
+* [ インテリジェントキャプション ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)：自然言語で最も頻繁に使用されるWorkspaceのビジュアライゼーションに対して重要なインサイトを提供します。
+* [Content Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/content-analytics/report/report#template)：すべてのアセットのメタデータを自動的に割り当てます。
 
 **AI アシスタント**
 
@@ -187,7 +187,7 @@ Experience Leagueの製品に関する知識を確認します。 初めて使�
 
 経験豊富なユーザーが高度なユースケースを取得したり、タスクを迅速に実行するための戦略を学んだりします。 概念の理解、問題のトラブルシューティング、情報の検索をすばやく行うことができます。
 
-[詳細情報](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)
+[詳細情報](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)
 
 **インテリジェントキャプション**
 
@@ -199,13 +199,13 @@ Experience Leagueの製品に関する知識を確認します。 初めて使�
 
 * **出力：** コンテキストと重要な留意点を示す、自動生成された自然言語キャプションの表示。 その後、生成されたデータに対して、レビュー、コピー、組織との共有などのアクションを実行できます。 [ 方法を参照 ](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on#_blank)
 
-[詳細情報](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
+[詳細情報](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
 
 **Content Analytics**
 
 Content Analyticsでは、AI と GenAI を使用して、サブジェクト、シーン、前景色などのすべてのアセットメタデータを自動的に割り当てます。 属性は、アセットまたはエクスペリエンスの内容を説明する、AI によって割り当てられたメタデータタグです。
 
-例：前景 `color: red` は、自動的に割り当てられる属性です。 ビジュアライゼーションは、アセットのどの属性がコンバージョンに最も貢献しているかを特定するのに役立ちます。 [詳細情報](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/report/report#template)
+例：前景 `color: red` は、自動的に割り当てられる属性です。 ビジュアライゼーションは、アセットのどの属性がコンバージョンに最も貢献しているかを特定するのに役立ちます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/content-analytics/report/report#template)
 
 ## [!DNL Real-Time CDP] {#rtcdp}
 
@@ -228,13 +228,13 @@ Marketoでは、インタラクティブ Web セミナーやDynamic Chatでジ�
 * 編集可能なコンテンツ – 生成されたチャプターと概要を変更
 * 簡単な統合 – 選択した web ページエディターにHTML コードをコピーして、ランディングページに章や概要を追加できます
 
-[詳細情報](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai)
+[詳細情報](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai)
 
 **Dynamic Chat**
 
 Adobe Dynamic Chatのジェネレーティブ AI を活用した機能により、営業担当者の生産性を最適化し、Web サイトの訪問者の意図に関するインサイトを得て、訪問者の質問に安全な方法で対応できます。 質問、回答および会話の概要を事前承認できます。 Dynamic Chatには、無料版とプレミアム版の両方が含まれています。
 
-[詳細情報](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview)
+[詳細情報](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview)
 
 ## [!DNL Workfront] {#workfront}
 
@@ -245,7 +245,7 @@ Adobe Dynamic Chatのジェネレーティブ AI を活用した機能により�
 * プロンプトに基づいて生成された式を取得します。 また、計算フィールドでの無効なカスタム式のエラーを解決することもできます。
 * プロジェクト、タスクおよび問題を見つけます。
 
-([詳細情報](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview))
+([詳細情報](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/ai-assistant/ai-assistant-overview))
 
 ## その他のリソース
 
