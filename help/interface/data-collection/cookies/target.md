@@ -21,7 +21,7 @@ Adobe Target では、オンラインコンテンツのテスト機能を実現�
 
 >[!NOTE]
 >
->この記事の情報は、[Adobe Target JavaScript ライブラリ ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} （`at.js`）にのみ適用されます。 Web SDKを使用した Target 実装について詳しくは ](web-sdk.md)[Adobe Experience Platform Web SDKの Cookie} を参照してください。
+>この記事の情報は、[Adobe Target JavaScript ライブラリ ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} （`at.js`）にのみ適用されます。 Web SDKを使用した Target 実装について詳しくは [&#128279;](web-sdk.md)Adobe Experience Platform Web SDKの Cookie&rbrace; を参照してください。
 >
 >cookie の期間を除き、必要に応じて、この記事で説明する設定を変更できます。 cookie の設定を変更する場合は [ アカウント担当者にお問い合わせください ](https://experienceleague.adobe.com/docs/target/using/cmp-resources-and-contact-information.html){target=_blank}。
 
