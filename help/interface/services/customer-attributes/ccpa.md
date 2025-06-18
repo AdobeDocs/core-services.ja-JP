@@ -1,21 +1,21 @@
 ---
-title: カリフォルニア州消費者プライバシー法に対する顧客属性のサポート
-description: カリフォルニア州消費者プライバシー法に対する顧客属性のサポートについて
+title: カリフォルニア消費者プライバシー法に対する顧客属性のサポート
+description: カリフォルニア消費者プライバシー法に対する顧客属性のサポートについて説明します
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 82%
+ht-degree: 57%
 
 ---
 
-# カリフォルニア州消費者プライバシー法に対する顧客属性のサポート
+# カリフォルニア消費者プライバシー法に対する顧客属性のサポート
 
-このページでは、カリフォルニア州消費者プライバシー法（CCPA）に対する [!UICONTROL &#x200B; 顧客属性 &#x200B;]」のサポートについて説明します。
+このページでは、カリフォルニア州消費者プライバシー法 ]CCPA）の [!UICONTROL  顧客属性）のサポートについて説明します。
 
 >[!IMPORTANT]
 >
@@ -27,13 +27,13 @@ CCPA は、2020 年 1 月 1 日に施行されるカリフォルニア州の新�
 
 Adobe Experience Cloud はお客様のサービスプロバイダーとして、Experience Cloud の製品とサービスの使用に適用される、CCPA におけるお客様の義務をお客様が果たせるようサポートを提供します。このサポートには、個人情報へのアクセスおよび削除要求の管理が含まれます。
 
-このドキュメントでは、[!UICONTROL 顧客属性]が、Adobe Experience Platform Privacy Service API と Privacy Service UI を使用して、データ主体の CCPA データアクセスおよび削除権をどのようにサポートするかについて説明します。
+このドキュメントでは、[!UICONTROL  顧客属性 ] が、Adobe Experience Platform Privacy Service API とPrivacy Service UI を使用して、データ主体の CCPA データアクセスおよび削除権をどのようにサポートするかについて説明します。
 
 CCPA のアドビプライバシーサービスについて詳しくは、[アドビプライバシーセンター](https://www.adobe.com/privacy/ccpa.html)を参照してください。
 
-## [!UICONTROL 顧客属性]のリクエストを送信するために必要な設定
+## [!UICONTROL  顧客属性 ] のリクエストを送信するために必要な設定
 
-[!UICONTROL 顧客属性]のデータへのアクセスおよび削除をリクエストするには、次の操作が必要です。
+[!UICONTROL  顧客属性 ] のデータへのアクセスおよび削除をリクエストするには、次の操作が必要です。
 
 1. 以下を特定します。
 
@@ -43,9 +43,9 @@ CCPA のアドビプライバシーサービスについて詳しくは、[ア�
 
    組織 ID は、24 文字の英数字から成る文字列の後に@AdobeOrg が付いたものです。 Privacy API にリクエストを送信するには、組織の ID が必要です。ID が見つからない場合は、アドビカスタマーケア（`gdprsupport@adobe.com`）にお問い合わせください。
 
-1. [!UICONTROL プライバシーサービス]で、顧客属性にアクセスおよび削除のリクエストを送信し、既存のリクエストのステータスを確認できます。
+1. [!UICONTROL Privacy Service] では、顧客属性に対してアクセスリクエストおよび削除リクエストを送信したり、既存のリクエストのステータスを確認したりできます。
 
-## [!UICONTROL 顧客属性] JSON リクエストの必須フィールド値
+## [!UICONTROL  顧客属性 ] JSON リクエストの必須フィールド値
 
 &quot;company context&quot;：
 

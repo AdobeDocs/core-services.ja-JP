@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: 74c584e657e02fdebcaa52cffb6778f8ce5f350c
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 67%
+source-wordcount: '697'
+ht-degree: 65%
 
 ---
 
@@ -21,7 +21,7 @@ Experience Cloud 管理者向けのブラウザーサポート、よくある質
 
 +++Experience Cloudでは、どのブラウザーがサポートされていますか？
 
-Adobeでは、次のブラウザーの現在および以前の 2 つのバージョンをサポートしています。
+Adobeは、次のブラウザーの現在および以前の 2 つのバージョンをサポートしています。
 
 * Edge®Microsoft
 * Google Chrome
@@ -62,15 +62,15 @@ Experience Cloud は、アドビユーザーアカウントの環境設定で設
 
 +++
 
-+++会社がExperience Cloudインターフェイスを使用してログインする必要があるのはなぜですか？
++++会社がExperience Cloud インターフェイスを使用してログインする必要があるのはなぜですか？
 
 Experience Cloud インターフェイスが提供する機能は、ビジネスに新しい価値をもたらします。これは、今後アプリケーションにアクセスするための標準パスでもあり、最終的には他の個々のアプリケーションのログインフローに取って代わります。Experience Cloud を利用してログインすると、今後の移行をよりスムーズにおこなうことができます。
 
 +++
 
-+++Adobeは、Adobeクラウド環境にアクセスして問題のトラブルシューティングを行うにはどうすればよいですか？
++++Adobeはどのようにして、Adobe Cloud Environment にアクセスして問題のトラブルシューティングを行いますか？
 
-Adobeカスタマーケアは、なりすましリクエストを送信し、明示的な認証を求めるAdobeブランドのメール（以下の例）が届く場合があります。 アクセス権は、限られた期間に対して付与されます。付与したアクセス権は、いつでも取り消すことができます。アドビは、アドビ担当者が実行したすべてのアクションを記録します。
+Adobe カスタマーケアは、なりすましリクエストを送信し、明示的な認証を求めるAdobe ブランドのメール（以下の例）が届く場合があります。 アクセス権は、限られた期間に対して付与されます。付与したアクセス権は、いつでも取り消すことができます。アドビは、アドビ担当者が実行したすべてのアクションを記録します。
 
 ![アドビサポートケース](../assets/support-email.png)
 
@@ -81,7 +81,7 @@ Adobeカスタマーケアは、なりすましリクエストを送信し、明
 Experience Cloud でのプロビジョニングは、次のことを意味します。
 
 * ユーザーは、Experience Cloudへのログインとアプリケーションのリンクを開始できます。
-* People など、Experience Cloud で利用できる機能の使用を開始できます。
+* Experience Cloudで利用できる機能を使い始めることができます。
 * アプリケーション固有のログインプロセスを終了する準備ができます。
 * アプリケーションへのアクセス制御を保持できます。
 
@@ -99,7 +99,7 @@ Experience Cloud でのプロビジョニングは、次のことを意味しま
 
 * ユーザーの使用権限と製品の管理は [Adobe Admin Console](https://adminconsole.adobe.com/enterprise)（製品リンク）でおこないます。
 
-* **重要：** Analytics 管理ツールから Admin Console へのユーザー ID の移行に関する Analytics 管理者向けの情報について詳しくは、[Admin Console での Analytics ユーザーの管理](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=ja)を参照してください。
+* **重要：** Analytics 管理ツールから Admin Console へのユーザー ID の移行に関する Analytics 管理者向けの情報について詳しくは、[Admin Console での Analytics ユーザーの管理](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html)を参照してください。
 
 +++
 
@@ -107,7 +107,7 @@ Experience Cloud でのプロビジョニングは、次のことを意味しま
 
 Admin Console 管理者はユーザーにアクセス権を付与できます。ユーザーにはログイン手順が記載された電子メールが送信されます。
 
-会社としてのプロビジョニングが完了していることを確認するために、[アドビサポートへの問い合わせ](https://experienceleague.adobe.com/ja?support-solution=General&amp;lang=ja#support)が必要になる場合もあります。
+会社としてのプロビジョニングが完了していることを確認するために、[アドビサポートへの問い合わせ](https://experienceleague.adobe.com/?support-solution=General&lang=ja#support)が必要になる場合もあります。
 
 +++
 

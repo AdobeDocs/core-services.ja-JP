@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: e0b8281058b44012bdd7befa6ce26355a35bcf11
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 70%
@@ -106,7 +106,7 @@ Experience Cloudの主要なインターフェイスと管理に関するドキ�
 
 [Experience Cloud ユーザーの詳細の表示（管理ツール）](../administration/admin-tool-experience-cloud.md)を追加しました。
 
-**更新：2018年9月5日（PT）**
+**更新：2018 年 9 月 5 日（PT）**
 
 顧客属性の削除方法を追加しました。[（オプション）スキーマの更新（属性の削除）](../services/customer-attributes/t-crs-usecase.md)を参照してください。
 

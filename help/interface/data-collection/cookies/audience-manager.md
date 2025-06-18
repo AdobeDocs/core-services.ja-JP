@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ab6de845-99ea-4cd8-b7cd-012fb641403f
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
 source-wordcount: '626'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -39,7 +39,7 @@ Audience Manager はいくつかのシンプルな cookie を利用して様々�
    <td colname="col2"> <p><span class="wintitle">demdex</span> cookie には次のような形式で一意のユーザー ID（UUID）が書き込まれます。 </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=ja" format="https" scope="external">Audience Manager の ID のインデックス</a>も参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>その他の属性</b> </p> </td> 
+   <td colname="col1"> <p> <b> その他の属性 </b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_11291DA87C5045E880034E06C863BCDA"> 
       <li id="li_40C30A06A12449A4A8748621223CA71B">有効期間：<span class="wintitle">demdex</span> cookie の有効期間（TTL）は 180 日に設定されます。この有効期間はパートナー Web サイトでユーザーインタラクションが発生するたびに 180 日にリセットされます。有効期間内にユーザーの再訪問が発生しなかった場合、この cookie は有効期限切れになります。 </li> 
@@ -72,7 +72,7 @@ Audience Manager はいくつかのシンプルな cookie を利用して様々�
      </ul> </p> <p>後述の dextp データ構文の節も参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>その他の属性</b> </p> </td> 
+   <td colname="col1"> <p> <b> その他の属性 </b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_4922AC2CD55D4C888A6FBEB22F8B889B"> 
       <li id="li_91A68C44E53840379C2ACDED25468735">有効期間：<span class="wintitle">dextp</span> cookie の有効期間（TTL）は 180 日に設定されます。 </li> 
@@ -129,7 +129,7 @@ dextp cookie のデータ構文：
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>目的</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword">Audience Manager</span> は、<a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=ja" format="https" scope="external">宛先</a>へのデータ送信中にエラーが発生すると、この cookie を設定します。 </p> </td> 
+   <td colname="col2"> <p> <span class="keyword">Audience Manager</span> は、<a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html" format="https" scope="external">宛先</a>へのデータ送信中にエラーが発生すると、この cookie を設定します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>コンテンツ</b> </p> </td> 
@@ -140,7 +140,7 @@ dextp cookie のデータ構文：
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>その他の属性</b> </p> </td> 
+   <td colname="col1"> <p> <b> その他の属性 </b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_5D13DD701B484B51BF2808A69A919106"> 
       <li id="li_4E665114C63246FBA32A4E19984D2693">有効期間：<span class="wintitle">dst</span> cookie の有効期間（TTL）は 180 日に設定されます。 </li> 

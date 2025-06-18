@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 76%
+ht-degree: 71%
 
 ---
 
@@ -24,14 +24,14 @@ Experience Cloudで顧客属性ソースと FTP アカウントを作成した�
 >
 >[顧客属性をアップロードするためのデータファイル要件](crs-data-file.md)を確認してください。
 
-顧客属性 FTP サイトへのファイルアップロードは、FTP または SFTP を介して実行できます。
+顧客属性 FTP サイトへのファイルアップロードは、FTP または SFTP を使用して実行できます。
 
 * SFTP 接続をサポートしているクライアントが必要です。
-* [こちら](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=ja)で説明しているように、ユーザー名／パスワードを使用して、またはパスワードを使用せずに、SFTP で接続できます。
+* [こちら](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html)で説明しているように、ユーザー名／パスワードを使用して、またはパスワードを使用せずに、SFTP で接続できます。
 
 **FTP を使用してデータファイルをアップロードするには**
 
-1. [顧客属性ソースの作成とデータファイルのアップロード...](t-crs-usecase.md).
+1. [顧客属性ソースを作成し、データファイルをアップロードします](t-crs-usecase.md)。
 
    FTP サイトにログインしていることを `ftp.adobe.com/<sftpname>`.
 
