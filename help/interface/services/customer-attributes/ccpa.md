@@ -15,7 +15,7 @@ ht-degree: 57%
 
 # カリフォルニア消費者プライバシー法に対する顧客属性のサポート
 
-このページでは、カリフォルニア州消費者プライバシー法 ]CCPA）の [!UICONTROL  顧客属性）のサポートについて説明します。
+このページでは、カリフォルニア州消費者プライバシー法 CCPA）の  顧客属性）のサポートについて説明します。
 
 >[!IMPORTANT]
 >
@@ -27,13 +27,13 @@ CCPA は、2020 年 1 月 1 日に施行されるカリフォルニア州の新�
 
 Adobe Experience Cloud はお客様のサービスプロバイダーとして、Experience Cloud の製品とサービスの使用に適用される、CCPA におけるお客様の義務をお客様が果たせるようサポートを提供します。このサポートには、個人情報へのアクセスおよび削除要求の管理が含まれます。
 
-このドキュメントでは、[!UICONTROL  顧客属性 ] が、Adobe Experience Platform Privacy Service API とPrivacy Service UI を使用して、データ主体の CCPA データアクセスおよび削除権をどのようにサポートするかについて説明します。
+このドキュメントでは、[!UICONTROL &#x200B; 顧客属性 &#x200B;] が、Adobe Experience Platform Privacy Service API とPrivacy Service UI を使用して、データ主体の CCPA データアクセスおよび削除権をどのようにサポートするかについて説明します。
 
 CCPA のアドビプライバシーサービスについて詳しくは、[アドビプライバシーセンター](https://www.adobe.com/privacy/ccpa.html)を参照してください。
 
-## [!UICONTROL  顧客属性 ] のリクエストを送信するために必要な設定
+## [!UICONTROL &#x200B; 顧客属性 &#x200B;] のリクエストを送信するために必要な設定
 
-[!UICONTROL  顧客属性 ] のデータへのアクセスおよび削除をリクエストするには、次の操作が必要です。
+[!UICONTROL &#x200B; 顧客属性 &#x200B;] のデータへのアクセスおよび削除をリクエストするには、次の操作が必要です。
 
 1. 以下を特定します。
 
@@ -45,7 +45,7 @@ CCPA のアドビプライバシーサービスについて詳しくは、[ア�
 
 1. [!UICONTROL Privacy Service] では、顧客属性に対してアクセスリクエストおよび削除リクエストを送信したり、既存のリクエストのステータスを確認したりできます。
 
-## [!UICONTROL  顧客属性 ] JSON リクエストの必須フィールド値
+## [!UICONTROL &#x200B; 顧客属性 &#x200B;] JSON リクエストの必須フィールド値
 
 &quot;company context&quot;：
 

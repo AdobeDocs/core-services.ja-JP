@@ -17,5 +17,5 @@ ht-degree: 62%
 
 スキーマの属性を削除して置換する方法。
 
-1. [!UICONTROL  顧客属性Sourceを編集 ] ページで、**[!UICONTROL Target]** または **[!UICONTROL Analytics]** サブスクリプション（「**[!UICONTROL サブスクリプションの設定]**」の下）を削除します。
+1. [!UICONTROL &#x200B; 顧客属性Sourceを編集 &#x200B;] ページで、**[!UICONTROL Target]** または **[!UICONTROL Analytics]** サブスクリプション（「**[!UICONTROL サブスクリプションの設定]**」の下）を削除します。
 1. [更新されたフィールドを含む新しいデータファイルをアップロードします](t-crs-usecase.md)。

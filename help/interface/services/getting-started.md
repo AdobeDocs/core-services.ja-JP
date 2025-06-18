@@ -34,7 +34,7 @@ Experience Cloud に参加するのに必要なことを次に示します。
    >
    >[!DNL Target] の場合は、`mbox.js` から at.js に移行します。詳しくは、[at.js 1. x から at.js 2 へのアップグレードを参照してください。x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=ja)。
 
-1.  [!UICONTROL Admin Console] でユーザーと製品を管理する。
+1. [!UICONTROL Admin Console] でユーザーと製品を管理する。
 
 ### 管理者ログイン
 
@@ -67,7 +67,7 @@ Experience Cloud にログインするには、次のことが必要です。
 
 ## [!UICONTROL Experience Cloud ID サービス]を実装します。 {#section_3C9F6DF37C654D939625BB4D485E4354}
 
-[!UICONTROL Experience Cloud ID サービス]は、アプリケーション間の統合に使用する共通の ID を提供します。クロスドメインの訪問者 ID と、[!UICONTROL  顧客属性 ] を介してアップロードされた CRM データに基づくクロスデバイス/ブラウザーのターゲティングおよびパーソナライゼーションのためのパスを提供します。
+[!UICONTROL Experience Cloud ID サービス]は、アプリケーション間の統合に使用する共通の ID を提供します。クロスドメインの訪問者 ID と、[!UICONTROL &#x200B; 顧客属性 &#x200B;] を介してアップロードされた CRM データに基づくクロスデバイス/ブラウザーのターゲティングおよびパーソナライゼーションのためのパスを提供します。
 
 Experience Cloud コアサービスを有効にする方法としては、 [!UICONTROL Experience Platform Launch] の [Experience Cloud ID サービス拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)を使用して、Analytics や Adobe Target に対してコアサービスを自動的にアクティブにするのが最も簡単です。
 
@@ -175,7 +175,7 @@ Experience Cloud ID サービスをデプロイすると、新しい訪問者は
 
 ### 顧客属性
 
-[!UICONTROL  顧客属性 ] グループに追加されたユーザーには、Experience Cloudの左側に [!UICONTROL  顧客属性 ] メニュー項目が表示されます。
+[!UICONTROL &#x200B; 顧客属性 &#x200B;] グループに追加されたユーザーには、Experience Cloudの左側に [!UICONTROL &#x200B; 顧客属性 &#x200B;] メニュー項目が表示されます。
 
 ## 属性とオーディエンスデータの共有を開始する {#section_960C06093623462E8EA247B3E97274A1}
 

@@ -25,7 +25,7 @@ ht-degree: 50%
 
 >[!IMPORTANT]
 >
->この機能にアクセスするには、ユーザーを顧客属性製品プロファイル（顧客属性 – デフォルトアクセス）に割り当てる必要があります。 **[!UICONTROL Admin Console]** / **[!UICONTROL 製品]** に移動します。 *顧客属性* が [!UICONTROL  製品プロファイル ] の 1 つとして表示されたら、開始する準備が整います。 顧客属性グループに追加されたユーザーには、Experience Cloud インターフェイスの左側に [!UICONTROL  顧客属性 ] メニューが表示されます。
+>この機能にアクセスするには、ユーザーを顧客属性製品プロファイル（顧客属性 – デフォルトアクセス）に割り当てる必要があります。 **[!UICONTROL Admin Console]** / **[!UICONTROL 製品]** に移動します。 *顧客属性* が [!UICONTROL &#x200B; 製品プロファイル &#x200B;] の 1 つとして表示されたら、開始する準備が整います。 顧客属性グループに追加されたユーザーには、Experience Cloud インターフェイスの左側に [!UICONTROL &#x200B; 顧客属性 &#x200B;] メニューが表示されます。
 >
 >また、顧客属性機能を使用するには、ユーザーがアプリケーションレベルのグループ（Adobe Analyticsまたは [!DNL Target]）に属している必要があります。
 
@@ -57,7 +57,7 @@ Experience Cloudの新しい顧客属性ソースを作成ページでこれら�
 1. [!DNL Experience Cloud] で、メニュー ![ メニュー ](assets/menu-icon.png) アイコンを選択します。
 1. **[!UICONTROL 顧客属性]** を選択します。
 
-   [!UICONTROL  顧客属性 ] ページでは、既存の属性データソースを管理および編集できます。
+   [!UICONTROL &#x200B; 顧客属性 &#x200B;] ページでは、既存の属性データソースを管理および編集できます。
 
    ![ 顧客属性のメイン画面 ](assets/cust-attr.png)
 
@@ -65,13 +65,13 @@ Experience Cloudの新しい顧客属性ソースを作成ページでこれら�
 
    ![手順の結果](assets/04_crs_usecase.png)
 
-1. [!UICONTROL  顧客属性Sourceを作成 ] ページで、次のフィールドを設定します。
+1. [!UICONTROL &#x200B; 顧客属性Sourceを作成 &#x200B;] ページで、次のフィールドを設定します。
 
    * **[!UICONTROL 名前：]**&#x200B;データ属性ソースのわかりやすい名前。[!DNL Adobe Target] の場合、属性名にスペースを含めることはできません。スペースを含む属性が渡された場合、[!DNL Target] はその属性を無視します。次の文字もサポートされていません。`< , >, ', "`
 
    * **[!UICONTROL 説明：]**（オプション）データ属性ソースの説明。
 
-   * **[!UICONTROL エイリアス ID：]**&#x200B;特定の CRM システムなど、顧客属性データのソースを表します。[!UICONTROL  エイリアス ID] は、[!UICONTROL  顧客属性Source] コードで使用される一意の ID です。 ID は一意で、スペースを含まないアルファベットおよびアンダースコアの組み合わせにしてください。Experience Cloudで顧客属性ソースの [!UICONTROL  エイリアス ID] フィールドに入力する値は、実装から（Platform データ収集または Mobile SDKのJavaScriptを使用して）渡されている値と一致させる必要があります。
+   * **[!UICONTROL エイリアス ID：]**&#x200B;特定の CRM システムなど、顧客属性データのソースを表します。[!UICONTROL &#x200B; エイリアス ID] は、[!UICONTROL &#x200B; 顧客属性Source] コードで使用される一意の ID です。 ID は一意で、スペースを含まないアルファベットおよびアンダースコアの組み合わせにしてください。Experience Cloudで顧客属性ソースの [!UICONTROL &#x200B; エイリアス ID] フィールドに入力する値は、実装から（Platform データ収集または Mobile SDKのJavaScriptを使用して）渡されている値と一致させる必要があります。
 
      >[!IMPORTANT]
      >
@@ -79,7 +79,7 @@ Experience Cloudの新しい顧客属性ソースを作成ページでこれら�
 
      エイリアス ID は、追加の顧客 ID 値を設定する特定の領域に対応します。 例：
 
-      * **タグ：** エイリアス ID は、[Experience Cloud ID サービス *ツールの [!UICONTROL  顧客設定 ] の下にある ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)Integration Code* 値に対応しています。
+      * **タグ：** エイリアス ID は、[Experience Cloud ID サービス *ツールの [!UICONTROL &#x200B; 顧客設定 &#x200B;] の下にある ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)Integration Code* 値に対応しています。
 
       * **訪問者 API:** エイリアス ID は、各訪問者に関連付けることができる追加の [ 顧客 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) に対応します。
 
@@ -139,7 +139,7 @@ Experience Cloudの新しい顧客属性ソースを作成ページでこれら�
 
 スキーマの属性を削除したり属性を置換したりする方法。
 
-1. [!UICONTROL  顧客属性Sourceを編集 ] ページで、**[!UICONTROL Target]** または **[!UICONTROL Analytics]** サブスクリプション（「[!UICONTROL  サブスクリプションの設定 ]」の下）を削除します。
+1. [!UICONTROL &#x200B; 顧客属性Sourceを編集 &#x200B;] ページで、**[!UICONTROL Target]** または **[!UICONTROL Analytics]** サブスクリプション（「[!UICONTROL &#x200B; サブスクリプションの設定 &#x200B;]」の下）を削除します。
 1. [更新されたフィールドを含む新しいデータファイルをアップロードします](t-crs-usecase.md)。
 
 ## 購読の設定と属性ソースの有効化 {#task_1ACA21198F0E46A897A320C244DFF6EA}
@@ -150,7 +150,7 @@ Experience Cloudの新しい顧客属性ソースを作成ページでこれら�
 
 **属性ソースを有効化するには**
 
-[!UICONTROL  新規を作成または顧客属性Sourceを編集 ] ページで、「[!UICONTROL  アクティブ化 ] 見出しを探し、「**[!UICONTROL アクティブ]**」をクリックします。
+[!UICONTROL &#x200B; 新規を作成または顧客属性Sourceを編集 &#x200B;] ページで、「[!UICONTROL &#x200B; アクティブ化 &#x200B;] 見出しを探し、「**[!UICONTROL アクティブ]**」をクリックします。
 
 ![手順の結果](assets/activate_attribute_source.png)
 

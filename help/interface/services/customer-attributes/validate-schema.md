@@ -34,7 +34,7 @@ ht-degree: 72%
 
 * **[!UICONTROL スキーマを表示 / 編集：]**&#x200B;次の手順で説明するように、表示名を属性データにマッピングします。
 
-* **[!UICONTROL FTP のセットアップ：]**[FTP を使用してデータをアップロードします](t-upload-attributes-ftp.md)。
+* **[!UICONTROL FTP のセットアップ：]**&#x200B;[FTP を使用してデータをアップロードします](t-upload-attributes-ftp.md)。
 
 * **[!UICONTROL ID 参照：]** `.csv` ーザーの顧客 ID （CID）を入力して、ID のExperience Cloud情報を検索します。 この機能は、訪問者に対して属性データが表示されない理由をトラブルシューティングするのに役立ちます。
 
