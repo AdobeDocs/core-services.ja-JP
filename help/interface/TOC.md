@@ -8,7 +8,7 @@ index: true
 source-git-commit: cee634cd4f64bac4e06d25e1872a0f84772c46ed
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -48,8 +48,8 @@ ht-degree: 88%
 
 + 機能 {#features}
    + [アカウントの環境設定と通知](features/account-preferences.md)
-   + [ジェネレーティブ AI](features/generative-ai.md)
-   + [Agentic AI](features/agentic-ai.md)
+   + [生成 AI](features/generative-ai.md)
+   + [エージェント型 AI](features/agentic-ai.md)
    + [統合検索](features/search.md)
    + [パーソナライズされたラーニング](features/personalized-learning.md)
    + [ブラウザーと言語のサポート](browser-language.md)
