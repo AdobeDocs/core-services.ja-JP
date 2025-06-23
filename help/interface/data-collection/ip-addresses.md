@@ -2,9 +2,9 @@
 title: Experience Cloudで使用される IP アドレス
 description: 組織のファイアウォールで、Adobeから派生する IP アドレスがブロックされている場合は、このリストを使用してファイアウォール設定を更新してください。
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-source-git-commit: 92f041f11cfa33c2e08e90c45e6fa46729447ac5
+source-git-commit: a18b61cb32286680cb1ab2a296df33509fd95a00
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '378'
 ht-degree: 12%
 
 ---
@@ -19,9 +19,10 @@ ht-degree: 12%
 
 以下に示す IP アドレスブロックに加えて、個々のAdobe Experience Cloud製品には、使用する独自の IP アドレスが割り当てられています。
 
-* [Adobe Analytics](https://experienceleague.adobe.com/ja/docs/analytics/technotes/ip-addresses)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/technotes/ip-addresses)
-* [Marketo Engage](https://experienceleague.adobe.com/ja/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
 
 ## すべてのAdobe IP アドレスブロック
 
