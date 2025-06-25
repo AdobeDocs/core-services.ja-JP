@@ -30,13 +30,13 @@ Experience Cloudのジェネレーティブ AI （genAI）は、クリエイテ�
 
 [!BADGE 詳細情報]{type=Informative url="https://business.adobe.com/ai/adobe-genai.html" tooltip="Adobeの GenAI"}
 
-**[!UICONTROL AI アシスタント ] とは**
+**[!UICONTROL AI アシスタント &#x200B;] とは**
 
-[!UICONTROL AI アシスタント ] は、Experience Platformおよび関連アプリケーションでサポートされる対話型ツールです。 これを使用すると、サポート対象の製品で _製品の知識_ および _運用に関するインサイト_ を迅速に得ることができます。
+[!UICONTROL AI アシスタント &#x200B;] は、Experience Platformおよび関連アプリケーションでサポートされる対話型ツールです。 これを使用すると、サポート対象の製品で _製品の知識_ および _運用に関するインサイト_ を迅速に得ることができます。
 
-* **商品知識：** 商品知識とは、Experience Leagueのドキュメントに基づいた概念やトピックを指します。 [!UICONTROL AI アシスタント ] を最大限に活用するために、効果的な [ 目標ベースのプロンプト ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home) を作成する方法を説明します。 Experience Leagueからの回答はすべて検証可能で、リンク付きで引用されます。
+* **商品知識：** 商品知識とは、Experience Leagueのドキュメントに基づいた概念やトピックを指します。 [!UICONTROL AI アシスタント &#x200B;] を最大限に活用するために、効果的な [ 目標ベースのプロンプト ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home) を作成する方法を説明します。 Experience Leagueからの回答はすべて検証可能で、リンク付きで引用されます。
 
-* **オペレーショナルインサイト：**[ オペレーショナルインサイト ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions) メタデータオブジェクト（属性、オーディエンス、データフロー、データセットなど）に関して生成される応答を参照します。 [!UICONTROL AI アシスタント ] を使用すると、他の方法では数時間または数日かかる可能性がある作業を、数秒で完了できます。
+* **オペレーショナルインサイト：**&#x200B;[ オペレーショナルインサイト ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions) メタデータオブジェクト（属性、オーディエンス、データフロー、データセットなど）に関して生成される応答を参照します。 [!UICONTROL AI アシスタント &#x200B;] を使用すると、他の方法では数時間または数日かかる可能性がある作業を、数秒で完了できます。
 
 [!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing" tooltip="AI アシスタントに移動"}
 
@@ -165,7 +165,7 @@ AJO _Prime_ および _Ultimate_ では、[ コンテンツ生成 ](https://expe
 
 +++詳細
 
-Journey Optimizer B2B editionでは、[!UICONTROL AI アシスタント ] を使用して、商品の知識を支援します。
+Journey Optimizer B2B editionでは、[!UICONTROL AI アシスタント &#x200B;] を使用して、商品の知識を支援します。
 
 入力例：
 
@@ -181,7 +181,7 @@ Journey Optimizer B2B editionでは、[!UICONTROL AI アシスタント ] を使
 
 +++詳細
 
-Campaign Managed Cloud Services では、コンテンツの生成に [!UICONTROL AI アシスタント ] を使用します。 この機能を使用すると、ブランドの概要を示すスタイル、レイアウト、トーンなどに最適化されたコンテンツを使用して、マーケティング目標に基づいてパーソナライズされた魅力的で効果的なコンテンツを自動生成できます。 メール、SMS、プッシュなど、様々なチャネルで使用できます。
+Campaign Managed Cloud Services では、コンテンツの生成に [!UICONTROL AI アシスタント &#x200B;] を使用します。 この機能を使用すると、ブランドの概要を示すスタイル、レイアウト、トーンなどに最適化されたコンテンツを使用して、マーケティング目標に基づいてパーソナライズされた魅力的で効果的なコンテンツを自動生成できます。 メール、SMS、プッシュなど、様々なチャネルで使用できます。
 
 **メモ：** Campaign Managed Cloud Services のコンテンツ生成からの出力は除外されます。
 
@@ -234,9 +234,9 @@ Content Analyticsでは、AI と GenAI を使用して、サブジェクト、�
 
 +++詳細
 
-Real-Time CDPでは、[!UICONTROL AI アシスタント ] を使用して、Experience Leagueの製品情報を提供します。 また、運用に関するインサイト（ベータ版）も提供します。 [!UICONTROL AI アシスタント ] は、AEP サンドボックス内にパーティション化された一元化された運用データを含む、顧客固有の運用インサイトデータストアをクエリします。 システムは、属性、オーディエンス、データフロー、データセット、宛先、スキーマおよびソースからのみメタデータを取り込み、サンドボックス内のデータにはアクセスしません。
+Real-Time CDPでは、[!UICONTROL AI アシスタント &#x200B;] を使用して、Experience Leagueの製品情報を提供します。 また、運用に関するインサイト（ベータ版）も提供します。 [!UICONTROL AI アシスタント &#x200B;] は、AEP サンドボックス内にパーティション化された一元化された運用データを含む、顧客固有の運用インサイトデータストアをクエリします。 システムは、属性、オーディエンス、データフロー、データセット、宛先、スキーマおよびソースからのみメタデータを取り込み、サンドボックス内のデータにはアクセスしません。
 
-例えば、オーディエンスに関するクエリを実行する場合、[!UICONTROL AI アシスタント ] は、オーディエンスの名前および他の関連メタデータにアクセスできますが、そのオーディエンス内のプロファイルにはアクセスできません。
+例えば、オーディエンスに関するクエリを実行する場合、[!UICONTROL AI アシスタント &#x200B;] は、オーディエンスの名前および他の関連メタデータにアクセスできますが、そのオーディエンス内のプロファイルにはアクセスできません。
 
 [!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home" tooltip="Real-Time CDPについて"}
 
@@ -271,10 +271,10 @@ Adobe Dynamic Chatのジェネレーティブ AI を活用した機能により�
 
 +++詳細
 
-[!DNL Workfront] の [!UICONTROL AI アシスタント ] は、アプリ内の情報や提案を提供することで、作業を達成するのに役立ちます。 実行できる操作は、次のとおりです。
+[!DNL Workfront] の [!UICONTROL AI アシスタント &#x200B;] は、アプリ内の情報や提案を提供することで、作業を達成するのに役立ちます。 実行できる操作は、次のとおりです。
 
 * 一部のオブジェクトの概要を取得して、オブジェクトの意図や詳細の概要を表示します。
-* 質問をしたり、[!UICONTROL AI アシスタント ] にExperience Leagueで回答を見つけさせたりします。
+* 質問をしたり、[!UICONTROL AI アシスタント &#x200B;] にExperience Leagueで回答を見つけさせたりします。
 * プロンプトに基づいて生成された式を取得します。 また、計算フィールドでの無効なカスタム式のエラーを解決することもできます。
 * プロジェクト、タスクおよび問題を見つけます。
 
