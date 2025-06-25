@@ -6,21 +6,21 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 44aae5b8ccfa7f385ba3867d5090efffafda691b
+exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
+source-git-commit: 9884d4d2baa817838042bb2955a1f3217025955f
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '156'
 ht-degree: 1%
 
 ---
 
 # Experience Cloud製品の Agentic AI
 
-エージェント AI とは、自律型エージェントとして機能するシステムを指します。 これらの担当者は、自分で決定を下し、適応し、主導権を握ることができます。 このタイプの AI は、入力プロンプトにのみ応答する [ 生成 AI](generative-ai.md) と対照的です。
+Adobeの Agentic Framework は、クリエイティビティ、コネ、イノベーションというチーム独自の人間性と AI を組み合わせて、チームの能力を強化し、より迅速かつ大きな影響を与えるエクスペリエンスを提供します。
 
-Adobe Agentic Framework を使用すると、クリエイティビティ、関連性、革新性を高め、より迅速に、より大きな影響を与えるエクスペリエンスを提供できます。
+Experience Cloudでは、次の Agentic AI 機能を使用できます。
 
-* [ 製品サポートエージェント ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/new-features/customer-support) は、Experience Platformの機能や用途に使用できる [!UICONTROL AI アシスタント &#x200B;] のセルフサービスデバッグ機能とトラブルシューティング機能です。 ワークフローを離れることなくサポートの問題をトラブルシューティングしたり、カスタマーサポートチケットを作成したり、AI アシスタントを使用してケースの進行状況を追跡したりできます。
-* [Data Insights Agent](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) は、Customer Journey Analyticsの AI アシスタントからアクセスできます。 これは、データに関する質問に迅速かつ効率的に回答するジェネレーティブ AI 会話エージェントです。 データビューのコンポーネントと実際のデータを使用して、Analysis Workspaceで関連するビジュアライゼーションを作成します。
+* [ 製品サポートエージェント ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) は、Experience Platformの機能や用途に使用できる [!UICONTROL AI アシスタント ] のセルフサービスデバッグ機能とトラブルシューティング機能です。 ワークフローを離れることなくサポートの問題をトラブルシューティングしたり、カスタマーサポートチケットを作成したり、AI アシスタントを使用してケースの進行状況を追跡したりできます。
+* [Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) は、Customer Journey Analyticsの AI アシスタントからアクセスできます。 これは、データに関する質問に迅速かつ効率的に回答するジェネレーティブ AI 会話エージェントです。 データビューのコンポーネントと実際のデータを使用して、Analysis Workspaceで関連するビジュアライゼーションを作成します。
 
 [!BADGE 詳細情報]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="Business.adobe.comに移動します"}
-
