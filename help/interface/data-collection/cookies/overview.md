@@ -22,7 +22,7 @@ Adobe Experience Cloudでは、ページビュー間やブラウザーセッシ�
 
 一部のブラウザーおよびスパイウェア駆除ツールでは、サードパーティ cookie がブロックされます。 Adobeには、Cookie がブロックされた場合でも Cookie が引き続き機能することを確認する方法があります。 これがどのように機能するかは、Experience Platform ID サービス（ECID）を使用するか、以前の Analytics Cookie （`s_vi` Cookie など）を使用するかによって異なります。
 
-* [Experience Cloud ID サービス ](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview): ECID サービスは、収集ドメインがサイトドメインと一致するかどうかに関係なく、常にファーストパーティ Cookie を設定します。 JavaScriptを使用して、サイトのドメインに cookie を配置します。
+* [Experience Cloud ID サービス ](https://experienceleague.adobe.com/ja/docs/id-service/using/intro/overview): ECID サービスは、収集ドメインがサイトドメインと一致するかどうかに関係なく、常にファーストパーティ Cookie を設定します。 JavaScriptを使用して、サイトのドメインに cookie を配置します。
 
 * [Analytics の従来の識別子 ](analytics.md) （`s_vi` cookie など）:cookie がファーストパーティかサードパーティかは、設定によって異なります。
 
