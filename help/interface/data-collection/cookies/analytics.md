@@ -32,13 +32,13 @@ Analytics では、新しい訪問者を匿名で定義する手段、クリッ�
 
 ## プラグインで設定される cookie
 
-一部の実装ではプラグインを利用します。プラグインは、Analytics に追加機能を提供するコードのスニペットです。 これらのプラグインは、上記に記載されていない Cookie を設定できます。 使用可能なプラグインのリストと設定対象の Cookie については、[Analytics プラグインの概要 ](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins) を参照してください。
+一部の実装ではプラグインを利用します。プラグインは、Analytics に追加機能を提供するコードのスニペットです。 これらのプラグインは、上記に記載されていない Cookie を設定できます。 使用可能なプラグインのリストと設定対象の Cookie については、[Analytics プラグインの概要 ](https://experienceleague.adobe.com/ja/docs/analytics/implementation/vars/plugins/impl-plugins) を参照してください。
 
 ## Analytics cookie 削除の結果
 
 訪問者が Analytics の Cookie を削除する場合は、次の点を考慮してください。
 
-* **訪問者の識別が失われます：** Cookie が削除されると、Adobe Analyticsは再訪問者を認識できません。 次回ユーザーがサイトを訪問すると、新規訪問者としてカウントされます。 [ クロスデバイス分析 ](https://experienceleague.adobe.com/en/docs/analytics/components/cda/overview) を使用すると、この影響を軽減できます。
+* **訪問者の識別が失われます：** Cookie が削除されると、Adobe Analyticsは再訪問者を認識できません。 次回ユーザーがサイトを訪問すると、新規訪問者としてカウントされます。 [ クロスデバイス分析 ](https://experienceleague.adobe.com/ja/docs/analytics/components/cda/overview) を使用すると、この影響を軽減できます。
 * **セッションの連続性が失われます：** セッションベースまたは複数訪問の分析（アトリビューションやコンバージョントラッキングなど）が中断されます。 Cookie の削除後に発生するイベントと変換は、同じユーザーが以前のアクティビティに結び付けることはできません。
 * **Personalizationとセグメント化が影響を受けます：** 以前のデータが現在の訪問と関連付けられなくなるため、訪問者の履歴や行動に基づいてセグメントやパーソナライズされたエクスペリエンスがリセットされます。
 * **クロスドメイントラッキングが中断される：** サードパーティ Cookie の場合、それらを削除すると、Adobe Analyticsは所有する複数のドメイン間でユーザーアクティビティをリンクできなくなります。
