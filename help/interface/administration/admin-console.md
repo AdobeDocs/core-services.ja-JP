@@ -53,7 +53,7 @@ Admin Consoleの管理者として作業を開始する際に必要になる可�
 | [ 複数ユーザーの管理 ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL ユーザー]** <br>Admin Consoleへの CSV 一括アップロードを使用して複数のユーザーを管理する方法を説明します。 |
 | [ID タイプ ](https://helpx.adobe.com/jp/enterprise/using/identity.html) | ID タイプを使用すると、組織は、ユーザーのアカウントとデータを様々なレベルで制御できます。 ID モデルの選択は、組織のアセットの保存および共有方法に影響します。 Federated ID モデルとEnterprise ID モデルは組織で作成および管理されますが、Adobe ID は個人で作成および管理されます。 |
 | [ ユーザー同期ツール ](https://helpx.adobe.com/enterprise/using/user-sync.html) （UST） | Adobe ユーザー同期ツールは、組織の ID 管理システム（Active Directory など）とAdobe Admin Consoleの間でユーザーデータを自動的に同期するために使用されるデスクトップアプリケーションです。 このツールを使用すると、管理者は、Adobe製品全体でユーザーのプロビジョニング、更新、アクティベート解除を合理化できます。 |
-| [ ユーザーの詳細の表示（管理ツール） ](admin-tool-experience-cloud.md) | [!UICONTROL  管理ツール ] に、すべてのExperience Cloud ユーザーとポリシーの並べ替え可能でフィルタリング可能なリストと詳細が表示されます。 |
+| [ ユーザーの詳細の表示（管理ツール） ](admin-tool-experience-cloud.md) | [!UICONTROL &#x200B; 管理ツール &#x200B;] に、すべてのExperience Cloud ユーザーとポリシーの並べ替え可能でフィルタリング可能なリストと詳細が表示されます。 |
 
 ### レポートとログ
 
