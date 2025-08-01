@@ -7,16 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: 6caf1edc5cead3e937f919ac2bb6c829a758d8fd
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 70%
+source-wordcount: '614'
+ht-degree: 69%
 
 ---
 
 # Experience Cloudのドキュメントの更新
 
 Experience Cloudの主要なインターフェイスと管理に関するドキュメントのアップデートをおこなう場所を説明します。
+
+**2025年8月**
+
+[Adobe IDのリセット ](../features/account-preferences.md) に関する情報を追加しました。
 
 **2025 年 2 月**
 
