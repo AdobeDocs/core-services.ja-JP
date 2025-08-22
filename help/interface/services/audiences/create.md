@@ -1,23 +1,23 @@
 ---
-description: Adobe Experience Cloud で属性ルールを使用して、オーディエンスの作成や複合オーディエンスの定義をおこなう方法について説明します。
+title: オーディエンスライブラリでのオーディエンスの作成方法
+description: オーディエンスライブラリで共有可能なオーディエンスを作成するために属性ルールを使用する方法について説明します。 ルールの設定と複合オーディエンスの定義について説明します。
 solution: Experience Cloud
-title: オーディエンスの作成
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 92%
+source-wordcount: '534'
+ht-degree: 66%
 
 ---
 
 # オーディエンスの作成
 
- Experience Cloud で属性ルールを使用して、オーディエンスの作成や複合オーディエンスの定義をおこなう方法について説明します。
+[!UICONTROL  オーディエンスライブラリ ] では、属性ルールを使用してオーディエンスを作成し、Experience Cloud アプリケーションで共有するための複合オーディエンスを定義できます。
 
 この記事では、以下の方法について説明します。
 
@@ -38,27 +38,28 @@ ht-degree: 92%
 次に、複合オーディエンスのルールを作成する方法の例を示します。このオーディエンスは、次のもので構成されます。
 
 * ページデータまたは Analytics の生データから得られる Home &amp; Garden セクション。
-* [!DNL Experience Cloud] に[公開](overview.md)された [!DNL Adobe Analytics] セグメントから得られる Chrome ユーザーと Safari ユーザー。
+* [!DNL Adobe Analytics] セグメントから派生したChromeおよび Safari のユーザー [ 公開済み ](overview.md) を [!DNL Experience Cloud] に対して行う。
 
   ![複合オーディエンスのルールの作成](assets/audience_create.png)
 
 **オーディエンスを作成するには、以下を実行します。**
 
-1. [!DNL Experience Cloud] の [!DNL Experience Platform] で、**[!UICONTROL People]**／**[!UICONTROL オーディエンスライブラリ]をクリックします。**
-1. [!UICONTROL &#x200B; オーディエンス &#x200B;] ページで、「新規 **[!UICONTROL をクリックし]** す。 ![ 追加 ](assets/add_icon_small.png)
+1. [!DNL Experience Cloud] アプリ（![ アプリアイコン ](assets/apps-icon.png)）をクリックし、**[!UICONTROL 人物]**/**[!UICONTROL オーディエンスライブラリ ].** をクリックします
 
-   ![手順の結果](assets/audience_create_new.png)
+1. [!UICONTROL  オーディエンス ] ページで、「新規 **[!UICONTROL をクリックし]** す。 ![ 新しいオーディエンス ](assets/add_icon_small.png)
 
-1. [!UICONTROL 新しいオーディエンスを作成]ページで、タイトルと説明を指定します。
-1. 「[!UICONTROL ルール]」で、属性のソースを選択します。
+   ![オーディエンスの作成](assets/audience_create_new.png)
 
-   * **[!UICONTROL Real-Time Analytics データ：]**（Raw データ）Real-Time Analytics イメージリクエストから得られる属性データであり、eVar やイベントなどのデータが含まれます。この属性ソースを使用する場合は、レポートスイートを選択し、含めるディメンションまたはイベントを定義する必要があります。このレポートスイートの選択により、レポートスイートで使用された変数構造が提供されます。
+1. [!UICONTROL  新しいオーディエンスを作成 ] ページで、「**[!UICONTROL タイトル]**」および「**[!UICONTROL 説明]** フィールドに入力します。
+1. [!UICONTROL  ルール ] で、参照レポートスイートを選択し、次に属性ソースを選択します。
+
+   * **[!UICONTROL Real-Time Analytics データ：]** （Raw データ）これは、Real-Time Analytics イメージリクエストから派生した属性データです。 eVar とイベントが含まれます。 この属性ソースを使用する場合は、レポートスイートを選択し、含めるディメンションまたはイベントを定義する必要があります。このレポートスイートの選択により、レポートスイートで使用された変数構造が提供されます。
 
    >[!NOTE]
    >
    >キャッシュのため、Analytics で削除されたレポートスイートがExperience Cloudに表示されるまでに 12 時間かかります。
 
-   * **[!UICONTROL Experience Cloud:[!DNL Experience Cloud] ソースから派生した]** 属性データ。 例えば、[!DNL Analytics] で作成したオーディエンスセグメントからのデータや、[!DNL Audience Manager] からのデータです。
+   * **[!UICONTROL Experience Cloud:]** ソースから派生した [!DNL Experience Cloud] 属性データ。 例えば、[!DNL Analytics] で作成したオーディエンスセグメントからのデータや、[!DNL Audience Manager] からのデータです。
 
 1. オーディエンスルールを定義したあと、「**[!UICONTROL 保存]**」をクリックします。
 
@@ -94,4 +95,4 @@ ht-degree: 92%
 
 特定期間のデータ収集が終了すると、円は結合されて、定義されたオーディエンスを表示します。
 
-オーディエンスを保存した後は、他のソリューションでも使用できるようになります。例えば、Adobe Target のアクティビティに共有オーディエンスを含めることができます。
+オーディエンスを保存した後は、他のExperience Cloud アプリケーションでも使用できるようになります。 例えば、Adobe Target[ アクティビティ ](https://experienceleague.adobe.com/en/docs/target/using/activities/activities) に共有オーディエンスを含めることができます。
