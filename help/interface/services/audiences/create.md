@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
+source-git-commit: c98084e3960e40ae28e55050ce0727abce94ba0c
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 66%
+source-wordcount: '540'
+ht-degree: 65%
 
 ---
 
 # オーディエンスの作成
 
-[!UICONTROL &#x200B; オーディエンスライブラリ &#x200B;] では、属性ルールを使用してオーディエンスを作成し、Experience Cloud アプリケーションで共有するための複合オーディエンスを定義できます。
+[!UICONTROL  オーディエンスライブラリ ] では、属性ルールを使用してオーディエンスを作成し、Experience Cloud アプリケーションで共有するための複合オーディエンスを定義できます。
 
 この記事では、以下の方法について説明します。
 
@@ -44,14 +44,14 @@ ht-degree: 66%
 
 **オーディエンスを作成するには、以下を実行します。**
 
-1. [!DNL Experience Cloud] アプリ（![ アプリアイコン ](assets/apps-icon.png)）をクリックし、**[!UICONTROL 人物]**/**[!UICONTROL オーディエンスライブラリ &#x200B;].** をクリックします
+1. [!DNL Experience Cloud] アプリ（![ アプリアイコン ](assets/apps-icon.png)）をクリックし、**[!UICONTROL 人物]**/**[!UICONTROL オーディエンスライブラリ ].** をクリックします
 
-1. [!UICONTROL &#x200B; オーディエンス &#x200B;] ページで、「新規 **[!UICONTROL をクリックし]** す。 ![ 新しいオーディエンス ](assets/add_icon_small.png)
+1. [!UICONTROL  オーディエンス ] ページで、「新規 **[!UICONTROL をクリックし]** す。 ![ 新しいオーディエンス ](assets/add_icon_small.png)
 
    ![オーディエンスの作成](assets/audience_create_new.png)
 
-1. [!UICONTROL &#x200B; 新しいオーディエンスを作成 &#x200B;] ページで、「**[!UICONTROL タイトル]**」および「**[!UICONTROL 説明]** フィールドに入力します。
-1. [!UICONTROL &#x200B; ルール &#x200B;] で、参照レポートスイートを選択し、次に属性ソースを選択します。
+1. [!UICONTROL  新しいオーディエンスを作成 ] ページで、「**[!UICONTROL タイトル]**」および「**[!UICONTROL 説明]** フィールドに入力します。
+1. [!UICONTROL  ルール ] で、参照レポートスイートを選択し、次に属性ソースを選択します。
 
    * **[!UICONTROL Real-Time Analytics データ：]** （Raw データ）これは、Real-Time Analytics イメージリクエストから派生した属性データです。 eVar とイベントが含まれます。 この属性ソースを使用する場合は、レポートスイートを選択し、含めるディメンションまたはイベントを定義する必要があります。このレポートスイートの選択により、レポートスイートで使用された変数構造が提供されます。
 
@@ -62,6 +62,8 @@ ht-degree: 66%
    * **[!UICONTROL Experience Cloud:]** ソースから派生した [!DNL Experience Cloud] 属性データ。 例えば、[!DNL Analytics] で作成したオーディエンスセグメントからのデータや、[!DNL Audience Manager] からのデータです。
 
 1. オーディエンスルールを定義したあと、「**[!UICONTROL 保存]**」をクリックします。
+
+**例：複合オーディエンスのルールの定義**
 
 >[!NOTE]
 >
@@ -95,4 +97,4 @@ ht-degree: 66%
 
 特定期間のデータ収集が終了すると、円は結合されて、定義されたオーディエンスを表示します。
 
-オーディエンスを保存した後は、他のExperience Cloud アプリケーションでも使用できるようになります。 例えば、Adobe Target[ アクティビティ ](https://experienceleague.adobe.com/ja/docs/target/using/activities/activities) に共有オーディエンスを含めることができます。
+オーディエンスを保存した後は、他のExperience Cloud アプリケーションでも使用できるようになります。 例えば、Adobe Target[ アクティビティ ](https://experienceleague.adobe.com/en/docs/target/using/activities/activities) に共有オーディエンスを含めることができます。
