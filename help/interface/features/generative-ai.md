@@ -57,7 +57,7 @@ GenAI、AI アシスタント、または Agentic AI を使用するExperience C
 | **[!DNL Customer Journey Analytics]** | GenAI は以下で使用されます。<ul><li> [ インテリジェントキャプション ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en)：最も頻繁に使用されるWorkspaceのビジュアライゼーションに関するインサイト。</li><li>[Content Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/content-analytics/report/report?lang=en#template): アセットのメタデータを自動的に割り当てます。</li></ul> | 次のユーザーが利用できます。<ul><li>[ 商品に関する知識 ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) （Experience League）</li><li>[ 製品サポート担当者 ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/new-features/customer-support?lang=en) </li><li>[Data Insights Agent](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai)</li></ul> | × | [!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions" tooltip="インテリジェントキャプションについて"} |
 | **Real-Time CDP** | 該当なし | Experience Leagueの製品サポート情報で利用できます。 また、運用に関するインサイト（ベータ版）も提供します。 | × | [!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home" tooltip="Real-Time CDPについて"} |
 | **[!DNL Marketo]** | GenAI は、電子メールDesigner（Fireflyを使用）、[Dynamic Chat](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview?lang=en)、（インタラクティブウェビナー [ で利用 ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai?lang=en) きます。 | Marketo Engageで使用可能 [ メールDesigner](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/email-marketing/email-designer/ai-assistant) | ○ | [!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai?lang=en" tooltip="Marketoの AI について学ぶ"} |
-| **[!DNL Workfront]** | GenAI は、[ アプリ内 ](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview?lang=en) の情報と提案で使用されます。 | 該当なし | ○ | [!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview" tooltip="Workfrontの AI アシスタントについて説明します"} |
+| **[!DNL Workfront]** | GenAI は、[ アプリ内 ](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/ai-assistant/ai-assistant-overview?lang=en) の情報と提案で使用されます。 | 該当なし | ○ | [!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/ja/docs/workfront/using/basics/ai-assistant/ai-assistant-overview" tooltip="Workfrontの AI アシスタントについて説明します"} |
 
 ## Experience Cloudでの GenAI の使用方法 {#products}
 
@@ -288,7 +288,7 @@ MarketoとGenStudio for Performance Marketingの統合
 * プロンプトに基づいて生成された式を取得します。 また、計算フィールドでの無効なカスタム式のエラーを解決することもできます。
 * プロジェクト、タスクおよび問題を見つけます。
 
-([!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview" tooltip="Workfrontの AI アシスタントについて説明します"})
+([!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/ja/docs/workfront/using/basics/ai-assistant/ai-assistant-overview" tooltip="Workfrontの AI アシスタントについて説明します"})
 
 +++
 
