@@ -37,7 +37,7 @@ ht-degree: 50%
 
 * 顧客属性には、**Adobe Target** `at.js`（任意のバージョン）または `mbox.js` バージョン 58 以降が必要です。
 
-  [at.js のデプロイ方法](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html)を参照してください。
+  [at.js のデプロイ方法](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=ja)を参照してください。
 
 ## データファイルの作成 {#create-data}
 
@@ -88,7 +88,7 @@ Experience Cloudの [!UICONTROL &#x200B; 顧客属性Sourceを作成 &#x200B;] �
 
       * **タグ：** エイリアス ID は、*Experience Cloud ID サービス* ツールの [!UICONTROL &#x200B; 顧客設定 &#x200B;] の下にある [Integration Code](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja) 値に対応しています。
 
-      * **訪問者 API:** エイリアス ID は、各訪問者に関連付けることができる追加の [ 顧客 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) に対応します。
+      * **訪問者 API:** エイリアス ID は、各訪問者に関連付けることができる追加の [ 顧客 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja) に対応します。
 
         例：*crm_id* の場合：
 
@@ -110,7 +110,7 @@ Experience Cloudの [!UICONTROL &#x200B; 顧客属性Sourceを作成 &#x200B;] �
 
         エイリアス ID フィールドと顧客 ID に関するデータ処理について詳しくは、[ 複数のデータソースの活用 ](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) を参照してください。
 
-   * **[!UICONTROL 名前空間コード：]** この値を使用して、AEP WebSDK 実装の一環として [IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview) を使用する際に顧客属性ソースを識別します。
+   * **[!UICONTROL 名前空間コード：]** この値を使用して、AEP WebSDK 実装の一環として [IdentityMap](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/identity/overview) を使用する際に顧客属性ソースを識別します。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -178,4 +178,4 @@ Adobe Analytics などのアプリケーションで利用できるデータを�
 
 ![Adobe Target での顧客属性の使用](assets/crs-add-attribute-target.png)
 
-ヘルプの [ オーディエンスの作成 ](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html) を参照 [!DNL Target] てください。
+ヘルプの [ オーディエンスの作成 ](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=ja) を参照 [!DNL Target] てください。
