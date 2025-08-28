@@ -1,5 +1,5 @@
 ---
-description: Experience Cloudにアップロードするためのデータファイル要件および複数のデータソ  [!DNL customer attributes]  スについて説明します。
+description: 顧客属性をExperience Cloudにアップロードするためのデータファイル要件および複数のデータソースについて説明します。
 solution: Experience Cloud
 title: データファイルとデータソース
 feature: Customer Attributes
@@ -7,20 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
+source-git-commit: 106ad989c5eef60dabbe4b82deaed9d87b09d795
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1148'
 ht-degree: 64%
 
 ---
 
-# [!DNL customer attributes] のデータファイルとデータソースについて
+# [!DNL Customer Attributes] のデータファイルとデータソースについて
 
-Experience Cloudに [!DNL customer attributes] ータをアップロードするためのデータファイル要件および複数のデータソースに関する情報です。
+顧客属性データをExperience Cloudにアップロードするためのデータファイル要件および複数のデータソース。
 
 企業内の CRM データや同様のデータにアクセスする必要があります。Experience Cloudにアップロードするデータは、`.csv` ファイルにする必要があります。 FTP や sFTP を利用してアップロードする場合は、`.fin` ファイルもアップロードします。
 
-[!DNL customer attributes] は、1 日に数個のファイルを処理するように設計されています。 小さなファイルを多数処理することで発生する処理の遅延を軽減するために、同じ組織から以前のバッチ後 30 分以内に送信されたファイルは、優先順位の低いキューにルーティングされます。
+[!DNL Customer Attributes] は、1 日に数個のファイルを処理するように設計されています。 小さなファイルを多数処理することで発生する処理の遅延を軽減するために、同じ組織から以前のバッチ後 30 分以内に送信されたファイルは、優先順位の低いキューにルーティングされます。
 
 ## 許可されるファイルタイプと命名規則 {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
 
@@ -59,7 +59,7 @@ CSV ファイルは次の形式に準拠する必要があります。
   </tr> 
   <tr> 
    <td colname="col1"> <p>顧客 ID 列 </p> </td> 
-   <td colname="col2"> <p> 1 列目は一意の顧客 ID でなければなりません。使用する ID は、Experience Cloud ID サービスに渡される ID に対応している必要があります。 </p> <p>Analytics の場合は、prop または eVar に格納されている ID です。 </p> <p>Target の場合、setcustomerID 値。 </p> <p> この顧客 ID は、データベース内の各ユーザーを表すために CRM で使用する一意の ID です。残りの列は CRM から取得される属性です。アップロードする属性の数を選択します。 </p> <p>列の見出しには読みやすく、わかりやすい名前を使用することが推奨されますが、必須ではありません。アップロード後におこなうスキーマの検証の際に、アップロードされた行と列にわかりやすい名前をマッピングできます。 </p> <p> <b> 顧客 ID について </b> </p> <p>通常、企業は、CRM システムからの顧客 ID を使用します。この ID は、ユーザーがログインしたときに <span class="codeph"> setcustomerIDs </span> 呼び出しを使用して設定されます。 この ID は、Experience Cloudにアップロードされる CRM ファイルでもキーとして使用されます。 <a href="t-crs-usecase.md" format="dita" scope="local">エイリアス ID</a> は、エイリアスデータが格納される Audience Manager のデータストアの識別子です。システムはこのデータストアに（setcustomerIDs を介して）エイリアスを送信します。 CRM ファイルは、このデータストアのデータに適用されます。 </p> <p>setcustomerID</span> 詳細 <span class="codeph"> ついては、顧客 ID<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja" format="https" scope="external"> 認証状態の </a> を参照してください。 </p> </td> 
+   <td colname="col2"> <p> 1 列目は一意の顧客 ID でなければなりません。使用する ID は、Experience Cloud ID サービスに渡される ID に対応している必要があります。 </p> <p>Analytics の場合は、prop または eVar に格納されている ID です。 </p> <p>Target の場合、setcustomerID 値。 </p> <p> この顧客 ID は、データベース内の各ユーザーを表すために CRM で使用する一意の ID です。残りの列は CRM から取得される属性です。アップロードする属性の数を選択します。 </p> <p>列の見出しには読みやすく、わかりやすい名前を使用することが推奨されますが、必須ではありません。アップロード後におこなうスキーマの検証の際に、アップロードされた行と列にわかりやすい名前をマッピングできます。 </p> <p> <b> 顧客 ID について </b> </p> <p>通常、企業は、CRM システムからの顧客 ID を使用します。この ID は、ユーザーがログインしたときに <span class="codeph"> setcustomerIDs </span> 呼び出しを使用して設定されます。 この ID は、Experience Cloudにアップロードされる CRM ファイルでもキーとして使用されます。 <a href="t-crs-usecase.md" format="dita" scope="local">エイリアス ID</a> は、エイリアスデータが格納される Audience Manager のデータストアの識別子です。システムはこのデータストアに（setcustomerIDs を介して）エイリアスを送信します。 CRM ファイルは、このデータストアのデータに適用されます。 </p> <p>setcustomerID<span class="codeph"> 詳細 </span> ついては、顧客 ID<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external"> 認証状態の </a> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2 列目以降の見出しと列 </p> </td> 
@@ -67,7 +67,7 @@ CSV ファイルは次の形式に準拠する必要があります。
   </tr> 
   <tr> 
    <td colname="col1"> <p>属性の制限 </p> </td> 
-   <td colname="col2"> <p>数百の.csv</span> 列 <span class="filepath">Experience Cloudの顧客属性サービスにアップロードできます。 ただし、サブスクリプションを設定して属性を選択する場合、所有するアプリケーションに応じて、次の制限が適用されます。 </p> <p> 
+   <td colname="col2"> <p>数百の.csv<span class="filepath"> 列 </span>Experience Cloudの顧客属性サービスにアップロードできます。 ただし、サブスクリプションを設定して属性を選択する場合、所有するアプリケーションに応じて、次の制限が適用されます。 </p> <p> 
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
       <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard：</b>合計 3 件 </li> 
       <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium：</b>レポートスイートあたり 200 件 </li> 
@@ -99,11 +99,11 @@ CSV ファイルは次の形式に準拠する必要があります。
   </tr> 
   <tr> 
    <td colname="col1"> <p>ファイル要件 </p> </td> 
-   <td colname="col2"> <p> 各属性ソースには、コンマで区切った同数のフィールドが含まれる必要があります。 </p> <p> 改行、二重引用符またはコンマを含むフィールドは引用符で囲む必要があります。 </p> <p> フィールド内の二重引用符文字は、バックスラッシュ（\）を使用してエスケープする必要があります。 </p> <p> 空白の列は null</span> として保存 <span class="term"> れます。 </p> </td> 
+   <td colname="col2"> <p> 各属性ソースには、コンマで区切った同数のフィールドが含まれる必要があります。 </p> <p> 改行、二重引用符またはコンマを含むフィールドは引用符で囲む必要があります。 </p> <p> フィールド内の二重引用符文字は、バックスラッシュ（\）を使用してエスケープする必要があります。 </p> <p> 空白の列は null<span class="term"> として保存 </span> れます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>複数のファイル </p> </td> 
-   <td colname="col2"> <p>顧客属性データをアップロードする際、連続してアップロードする複数のファイルがある場合（特にファイルが大きい場合）は、前のファイルが処理されていることを確認してから次のファイルをアップロードするようにしてください。これを監視するには、前のファイルが [!UICONTROL 顧客属性 &#x200B;] FTP アカウント内の処理済みフォルダーまたは失敗フォルダーに移動したタイミングを確認します。 </p> <p> 大きなファイルを小さなファイルに分割し、それらを短時間で連続して送信すると、次のファイルを送信する前に各ファイルが処理されない限り、処理速度が低下する可能性があります。 </p> </td> 
+   <td colname="col2"> <p>顧客属性データをアップロードする際、連続してアップロードする複数のファイルがある場合（特にファイルが大きい場合）は、前のファイルが処理されていることを確認してから次のファイルをアップロードするようにしてください。これを監視するには、前のファイルが [!DNL Customer Attributes] の FTP アカウント内の処理済みフォルダーまたは失敗フォルダーに移動したタイミングを確認します。 </p> <p> 大きなファイルを小さなファイルに分割し、それらを短時間で連続して送信すると、次のファイルを送信する前に各ファイルが処理されない限り、処理速度が低下する可能性があります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>文字エンコーディング </p> </td> 
@@ -111,7 +111,7 @@ CSV ファイルは次の形式に準拠する必要があります。
   </tr> 
    <tr> 
    <td colname="col1"> <p>履歴データ </p> </td> 
-   <td colname="col2"> <p> 顧客属性は、基になる [!DNL Analytics] の訪問者プロファイルに関連付けられています。 そのため、[!UICONTROL 顧客属性 &#x200B;] は、[!DNL Analytics] の訪問者のプロファイルの全期間にわたって訪問者と関連付けられます。 このプロファイルには、顧客が最初にログインする前の行動が含まれます。 </p> <p> Data Warehouse のバックフィル手法を使用している場合、データは Analytics ID（AID）に基づく post_visid_high/low に関連付けられます。Experience Cloud ID サービスを使用している場合、データは Experience Cloud ID（MID）に基づく post_visid_high/low に結び付けられます。 </p> <p> なお、Data Warehouseのバックフィルは、2022 年 10 月以降、使用できなくなります。 </td> 
+   <td colname="col2"> <p> 顧客属性は、基になる [!DNL Analytics] の訪問者プロファイルに関連付けられています。 そのため、[!DNL Customer Attributes] は [!DNL Analytics] での訪問者のプロファイルの全期間にわたって訪問者と関連付けられます。 このプロファイルには、顧客が最初にログインする前の行動が含まれます。 </p> <p> Data Warehouse のバックフィル手法を使用している場合、データは Analytics ID（AID）に基づく post_visid_high/low に関連付けられます。Experience Cloud ID サービスを使用している場合、データは Experience Cloud ID（MID）に基づく post_visid_high/low に結び付けられます。 </p> <p> なお、Data Warehouseのバックフィルは、2022 年 10 月以降、使用できなくなります。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>データフィード </p> </td> 
@@ -137,8 +137,8 @@ Visitor.setcustomerIDs({
 });
 ```
 
-（詳しくは、[ 顧客 ID と認証状態 ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja) を参照してください。）
+（詳しくは、[ 顧客 ID と認証状態 ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) を参照してください。）
 
-**[!UICONTROL Experience Cloud]** / **[!UICONTROL 顧客属性]**:
+**[!DNL Experience Cloud]** > **[!DNL Customer Attributes]** で以下を実行します。
 
 上記の顧客 ID に対応する一意のエイリアス ID を使用して、2 つの顧客属性ソースを作成します。この手法を使用すると、同じ参照 ID を複数の顧客属性ソースに送信できます。

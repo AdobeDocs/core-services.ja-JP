@@ -5,10 +5,10 @@ breadcrumb-title: Experience Cloud インターフェイスおよび管理
 title: Experience Cloud インターフェイスおよび管理
 description: Experience Cloud インターフェイス、Cookie、アカウントの環境設定について説明します。製品を管理し、顧客属性やオーディエンスライブラリなどの People サービスを設定します。Experience Cloud Assets の共有。
 index: true
-source-git-commit: cee634cd4f64bac4e06d25e1872a0f84772c46ed
-workflow-type: ht
-source-wordcount: '235'
-ht-degree: 100%
+source-git-commit: 84e5d971dadd2281ff7a225d860400d1807c5d46
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 97%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 100%
       + [顧客属性ソースの作成とデータファイルのアップロード](services/customer-attributes/t-crs-usecase.md)
       + [オプション - FTP を使用したデータファイルのアップロード](services/customer-attributes/t-upload-attributes-ftp.md)
       + [スキーマの検証](services/customer-attributes/validate-schema.md)
-      + [サブスクリプションの設定](services/customer-attributes/subscription.md)
+      + [購読の設定とデータソースのアクティブ化](services/customer-attributes/subscription.md)
       + [スキーマの更新](services/customer-attributes/t-update-schema.md)
       + [EU 一般データ保護規則のサポート](services/customer-attributes/gdpr.md)
       + [カリフォルニア消費者プライバシー法のサポート](services/customer-attributes/ccpa.md)
