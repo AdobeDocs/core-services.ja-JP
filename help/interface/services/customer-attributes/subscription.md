@@ -1,32 +1,32 @@
 ---
-description: Analytics と Target に対して顧客属性サブスクリプションを設定する方法と、データソースをアクティブ化する方法について説明します。
+description: Analytics と Target のサブスクリプションを設定する方法  [!DNL Customer Attributes] 、データソースをアクティブ化する方法について説明します。
 solution: Experience Cloud
-title: サブスクリプションの設定方法
+title: でサブスクリプションを設定する方法  [!DNL Customer Attributes]
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
-source-git-commit: fc60b49af0839769fdd8d18fd61863c8b28bbd57
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 65%
+source-wordcount: '428'
+ht-degree: 61%
 
 ---
 
 # 購読の設定とデータソースのアクティベート
 
-サブスクリプションを設定すると、Experience Cloudとアプリケーション（[!DNL Analytics] と [!DNL Target]）の間で顧客属性データをやり取りできるようになります。
+[!DNL Customer Attributes] サブスクリプションを設定すると、Experience Cloudとアプリケーション（[!DNL Analytics] と [!DNL Target]）の間で顧客属性データをやり取りできるようになります。
 
-例えば、Adobe Analytics を購読すると、レポート内で属性データが有効になります。Adobe Target を使用している場合は、ターゲティングとセグメント化用に顧客属性をアップロードできます。
+例えば、Adobe Analytics を購読すると、レポート内で属性データが有効になります。[!DNL Adobe Target] を使用する場合、ターゲティングおよびセグメント化のために顧客属性をアップロードできます。
 
 **サブスクリプションを設定し、データソースをアクティベートするには**
 
-1. 編集する顧客属性ソースを見つけます。
+1. 編集用に [!DNL Customer Attributes] でデータソースを見つけます。
 
    [!DNL Experience Cloud] で、**[!UICONTROL アプリ]**![ メニュー ](assets/menu-icon.png)/**[!DNL Customer Attributes]** をクリックします。
 
-1. [!UICONTROL &#x200B; 顧客属性Sourceを編集 &#x200B;] で、「**[!UICONTROL ファイルのアップロード]**」をクリックします。
+1. [!UICONTROL  顧客属性Sourceを編集 ] で、「**[!UICONTROL ファイルのアップロード]**」をクリックします。
 
 1. 「**[!UICONTROL 購読を設定]**」をクリックします。
 

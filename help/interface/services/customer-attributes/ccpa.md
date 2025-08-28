@@ -1,19 +1,19 @@
 ---
-title: カリフォルニア消費者プライバシー法に対する顧客属性のサポート
-description: カリフォルニア消費者プライバシー法に対する顧客属性のサポートについて説明します
+title: カリフォルニア消費者プライバシー法の [!DNL Customer Attributes] サポート
+description: カリフォルニア州消費者プライバシ  [!DNL Customer Attributes]  法のサポートについて
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-source-git-commit: 106ad989c5eef60dabbe4b82deaed9d87b09d795
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 63%
+source-wordcount: '399'
+ht-degree: 64%
 
 ---
 
-# カリフォルニア消費者プライバシー法に対する顧客属性のサポート
+# カリフォルニア消費者プライバシー法の [!DNL Customer Attributes] サポート
 
 このページでは [!DNL Customer Attributes] カリフォルニア州消費者プライバシー法（CCPA）のサポートについて説明します。
 

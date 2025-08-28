@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Customer Attributes]'
+title: ' [!DNL Customer Attributes] について'
 description: Experience Cloud の  [!DNL Customer Attributes]  について説明します。Adobe Analytics と Adobe Target で使用する顧客属性データのアップロード方法について説明します。
 solution: Experience Cloud,Target,Analytics
 feature: Customer Attributes
@@ -7,9 +7,9 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: fc60b49af0839769fdd8d18fd61863c8b28bbd57
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '434'
 ht-degree: 73%
 
 ---
@@ -36,7 +36,7 @@ Experience Cloud で [!DNL Customer Attributes] を使用すると、顧客関�
 
 * 顧客属性には、**Adobe Target** `at.js`（任意のバージョン）または `mbox.js` バージョン 58 以降が必要です。
 
-  [at.js のデプロイ方法](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=ja)を参照してください。
+  [at.js のデプロイ方法](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html)を参照してください。
 
 ## 企業顧客データとは  {#enterprise_data}
 

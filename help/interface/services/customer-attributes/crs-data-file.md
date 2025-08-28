@@ -1,15 +1,15 @@
 ---
-description: 顧客属性をExperience Cloudにアップロードするためのデータファイル要件および複数のデータソースについて説明します。
+description: Experience Cloudにデータをアップロードするためのデータファイル要件および複数のデータソ  [!DNL Customer Attributes]  スについて説明します。
 solution: Experience Cloud
-title: データファイルとデータソース
+title: 顧客属性データファイルとデータソース
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: 106ad989c5eef60dabbe4b82deaed9d87b09d795
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1150'
 ht-degree: 64%
 
 ---
@@ -59,7 +59,7 @@ CSV ファイルは次の形式に準拠する必要があります。
   </tr> 
   <tr> 
    <td colname="col1"> <p>顧客 ID 列 </p> </td> 
-   <td colname="col2"> <p> 1 列目は一意の顧客 ID でなければなりません。使用する ID は、Experience Cloud ID サービスに渡される ID に対応している必要があります。 </p> <p>Analytics の場合は、prop または eVar に格納されている ID です。 </p> <p>Target の場合、setcustomerID 値。 </p> <p> この顧客 ID は、データベース内の各ユーザーを表すために CRM で使用する一意の ID です。残りの列は CRM から取得される属性です。アップロードする属性の数を選択します。 </p> <p>列の見出しには読みやすく、わかりやすい名前を使用することが推奨されますが、必須ではありません。アップロード後におこなうスキーマの検証の際に、アップロードされた行と列にわかりやすい名前をマッピングできます。 </p> <p> <b> 顧客 ID について </b> </p> <p>通常、企業は、CRM システムからの顧客 ID を使用します。この ID は、ユーザーがログインしたときに <span class="codeph"> setcustomerIDs </span> 呼び出しを使用して設定されます。 この ID は、Experience Cloudにアップロードされる CRM ファイルでもキーとして使用されます。 <a href="t-crs-usecase.md" format="dita" scope="local">エイリアス ID</a> は、エイリアスデータが格納される Audience Manager のデータストアの識別子です。システムはこのデータストアに（setcustomerIDs を介して）エイリアスを送信します。 CRM ファイルは、このデータストアのデータに適用されます。 </p> <p>setcustomerID<span class="codeph"> 詳細 </span> ついては、顧客 ID<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja" format="https" scope="external"> 認証状態の </a> を参照してください。 </p> </td> 
+   <td colname="col2"> <p> 1 列目は一意の顧客 ID でなければなりません。使用する ID は、Experience Cloud ID サービスに渡される ID に対応している必要があります。 </p> <p>Analytics の場合は、prop または eVar に格納されている ID です。 </p> <p>Target の場合、setcustomerID 値。 </p> <p> この顧客 ID は、データベース内の各ユーザーを表すために CRM で使用する一意の ID です。残りの列は CRM から取得される属性です。アップロードする属性の数を選択します。 </p> <p>列の見出しには読みやすく、わかりやすい名前を使用することが推奨されますが、必須ではありません。アップロード後におこなうスキーマの検証の際に、アップロードされた行と列にわかりやすい名前をマッピングできます。 </p> <p> <b> 顧客 ID について </b> </p> <p>通常、企業は、CRM システムからの顧客 ID を使用します。この ID は、ユーザーがログインしたときに <span class="codeph"> setcustomerIDs </span> 呼び出しを使用して設定されます。 この ID は、Experience Cloudにアップロードされる CRM ファイルでもキーとして使用されます。 <a href="t-crs-usecase.md" format="dita" scope="local">エイリアス ID</a> は、エイリアスデータが格納される Audience Manager のデータストアの識別子です。システムはこのデータストアに（setcustomerIDs を介して）エイリアスを送信します。 CRM ファイルは、このデータストアのデータに適用されます。 </p> <p>setcustomerID<span class="codeph"> 詳細 </span> ついては、顧客 ID<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external"> 認証状態の </a> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2 列目以降の見出しと列 </p> </td> 
@@ -137,7 +137,7 @@ Visitor.setcustomerIDs({
 });
 ```
 
-（詳しくは、[ 顧客 ID と認証状態 ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja) を参照してください。）
+（詳しくは、[ 顧客 ID と認証状態 ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) を参照してください。）
 
 **[!DNL Experience Cloud]** > **[!DNL Customer Attributes]** で以下を実行します。
 
