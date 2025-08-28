@@ -26,7 +26,7 @@ ht-degree: 68%
 * Experience Cloudで会社をプロビジョニングします。
 * 管理者になれるようにする。
 * [Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を実装する。
-* [!DNL Analytics]Platform データ収集 [!DNL Target] を使用して、[!UICONTROL  および ] の実装を最新化する。
+* [!DNL Analytics]Platform データ収集 [!DNL Target] を使用して、[!UICONTROL &#x200B; および &#x200B;] の実装を最新化する。
 * [ 顧客属性 ](../services/customer-attributes/attributes.md) や [ オーディエンスライブラリ ](../services/audiences/overview.md) などのExperience Cloud サービスの使用を開始します。
 
 ソリューションまたはサービス：
@@ -51,7 +51,7 @@ ID サービスは、Experience Cloudのすべてのアプリケーションで�
 
 ヘルプ：[Audiences](/help/interface/services/audiences/overview.md)
 
-Experience Cloud [!UICONTROL  オーディエンスライブラリ ] でオーディエンスを作成および管理します。 オーディエンスは、次のような各種ソースから作成または取得できます。
+Experience Cloud [!UICONTROL &#x200B; オーディエンスライブラリ &#x200B;] でオーディエンスを作成および管理します。 オーディエンスは、次のような各種ソースから作成または取得できます。
 
 * [!DNL Experience Cloud] で新しく作成されました。
 * [!DNL Analytics] セグメントから [!DNL Experience Cloud] に公開します。

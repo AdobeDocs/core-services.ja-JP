@@ -26,7 +26,7 @@ ht-degree: 65%
 
    [!DNL Experience Cloud] で、**[!UICONTROL アプリ]**![ メニュー ](assets/menu-icon.png)/**[!DNL Customer Attributes]** をクリックします。
 
-1. [!UICONTROL  顧客属性Sourceを編集 ] で、「**[!UICONTROL ファイルのアップロード]**」をクリックします。
+1. [!UICONTROL &#x200B; 顧客属性Sourceを編集 &#x200B;] で、「**[!UICONTROL ファイルのアップロード]**」をクリックします。
 
 1. 「**[!UICONTROL 購読を設定]**」をクリックします。
 

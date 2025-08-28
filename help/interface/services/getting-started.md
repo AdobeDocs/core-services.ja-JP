@@ -34,7 +34,7 @@ Experience Cloud に参加するのに必要なことを次に示します。
    >
    >[!DNL Target] の場合は、`mbox.js` から at.js に移行します。詳しくは、[at.js 1. x から at.js 2 へのアップグレードを参照してください。x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=ja)。
 
-1.  [!UICONTROL Admin Console] でユーザーと製品を管理する。
+1. [!UICONTROL Admin Console] でユーザーと製品を管理する。
 
 ### 管理者ログイン
 
