@@ -15,13 +15,13 @@ ht-degree: 99%
 
 ## アドビのコンテンツへのコントリビューションについて
 
-[アドビドキュメントのコントリビューターガイド](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)を参照してください。
+[アドビドキュメントのコントリビューターガイド](https://experienceleague.adobe.com/ja/docs/contributor/contributor-guide/introduction)を参照してください。
 
 コントリビューションの方法は、誰がどのような変更をコントリビューションするかに応じて異なります。
 
 ### 軽微な変更
 
-細部の変更を善意で行っていただける場合は、記事にアクセスし、その記事の **編集** リンクを選択して記事の GitHub ソースに移動します。その後、GitHub UI を使用して更新を行います。詳しくは、全般的な事項について説明した[アドビドキュメントのコントリビューターガイド](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)を参照してください。
+細部の変更を善意で行っていただける場合は、記事にアクセスし、その記事の **編集** リンクを選択して記事の GitHub ソースに移動します。その後、GitHub UI を使用して更新を行います。詳しくは、全般的な事項について説明した[アドビドキュメントのコントリビューターガイド](https://experienceleague.adobe.com/ja/docs/contributor/contributor-guide/introduction)を参照してください。
 
 このリポジトリー内のドキュメントやコード例に対して提案される軽微な変更や補足説明には、アドビの利用規約が適用されます。
 
@@ -43,7 +43,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 コミュニティのコントリビューターは、基本的な編集をするときには GitHub の UI を使用し、大きな変更を加えるときにはリポジトリーをフォークします。
 
-詳しくは、[アドビドキュメントのコントリビューターガイド](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)を参照してください。
+詳しくは、[アドビドキュメントのコントリビューターガイド](https://experienceleague.adobe.com/ja/docs/contributor/contributor-guide/introduction)を参照してください。
 
 ## Markdown を使用してトピックをフォーマットする方法
 
