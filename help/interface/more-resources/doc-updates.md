@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 6caf1edc5cead3e937f919ac2bb6c829a758d8fd
+source-git-commit: 85a5c5c33a8eb5f34f174cf5aa1da56e8e2e5065
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 69%
@@ -144,7 +144,7 @@ Experience Cloudの主要なインターフェイスと管理に関するドキ�
 
 **2015 年 1 月 15 日**
 
-「Experience Cloud のユーザーは、Creative Cloud とフォルダーを共有して、アセットとコメントを相互に同期できるようになりました。」という記述を追加しました。[アセットの共有](../services/assets/creative-cloud.md)を参照してください。
+「Experience Cloud のユーザーは、Creative Cloud とフォルダーを共有して、アセットとコメントを相互に同期できるようになりました。」という記述を追加しました。[アセットの共有](../services/assets/share.md)を参照してください。
 
 **2014 年 7 月 17 日**
 
