@@ -5,10 +5,10 @@ breadcrumb-title: Experience Cloud インターフェイスおよび管理
 title: Experience Cloud インターフェイスおよび管理
 description: Experience Cloud インターフェイス、Cookie、アカウントの環境設定について説明します。製品を管理し、顧客属性やオーディエンスライブラリなどの People サービスを設定します。Experience Cloud Assets の共有。
 index: true
-source-git-commit: 751ac6de0df2956fc91aa8a19a1fc54c1a7c29b1
+source-git-commit: 51f87269d7d475b958b3b853484d94073bd64d3e
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 100%
+source-wordcount: '205'
+ht-degree: 88%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 + サービス {#services}
    + [概要](services/overview.md)
-   + [はじめに](services/getting-started.md)
+   + [基本を学ぶ](services/getting-started.md)
    + アセット {#assets}
       + [概要](services/assets/experience-cloud-assets.md)
       + [Creative Cloud ユーザーの管理](services/assets/manage-cc-users.md)
@@ -33,16 +33,16 @@ ht-degree: 100%
    + [Exchange](services/exchange.md)
    + 顧客属性 {#customer-attributes}
       + [概要](services/customer-attributes/attributes.md)
-      + [顧客属性に関するよくある質問（FAQ）](services/customer-attributes/faq-crs.md)
-      + [顧客属性のデータファイルおよびデータソースについて](services/customer-attributes/crs-data-file.md)
-      + [顧客属性ソースの作成とデータファイルのアップロード](services/customer-attributes/t-crs-usecase.md)
-      + [オプション - FTP を使用したデータファイルのアップロード](services/customer-attributes/t-upload-attributes-ftp.md)
+      + [FAQ](services/customer-attributes/faq-crs.md)
+      + [データファイルとデータソースについて](services/customer-attributes/crs-data-file.md)
+      + [データファイルの作成とアップロード](services/customer-attributes/t-crs-usecase.md)
+      + [オプション - FTP を使用したアップロード](services/customer-attributes/t-upload-attributes-ftp.md)
       + [スキーマの検証](services/customer-attributes/validate-schema.md)
       + [購読の設定とデータソースのアクティベート](services/customer-attributes/subscription.md)
       + [スキーマの更新](services/customer-attributes/t-update-schema.md)
-      + [EU 一般データ保護規則のサポート](services/customer-attributes/gdpr.md)
-      + [カリフォルニア消費者プライバシー法のサポート](services/customer-attributes/ccpa.md)
-      + [顧客属性のプライバシーに関する考慮事項](services/customer-attributes/privacy-mac.md)
+      + [GDPR のサポート](services/customer-attributes/gdpr.md)
+      + [CCPA のサポート](services/customer-attributes/ccpa.md)
+      + [プライバシーの考慮事項](services/customer-attributes/privacy-mac.md)
    + [トリガー](services/triggers.md)
 
 + 機能 {#features}
@@ -56,7 +56,7 @@ ht-degree: 100%
 + 管理 {#administration}
    + [ユーザー管理および製品ライセンス](administration/admin-console.md)
    + [ユーザーの詳細の表示（管理ツール）](administration/admin-tool-experience-cloud.md)
-   + [組織とアカウントのリンク](administration/organizations.md)
+   + [組織](administration/organizations.md)
    + [Experience Cloud の統合](administration/integrations.md)
 
 + データ収集 {#data-collection}
