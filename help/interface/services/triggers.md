@@ -1,5 +1,5 @@
 ---
-description: Experience Cloudトリガーを設定する方法を説明します。
+description: Experience Cloudのトリガー方法について説明します。
 solution: Experience Cloud
 title: Triggers の概要
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
@@ -8,20 +8,18 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 0de22f02b4063a54d0b09b6abc1aa16221f42f4b
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 95%
+source-wordcount: '675'
+ht-degree: 90%
 
 ---
 
 # Experience Cloud Triggers
 
-Experience Cloud の[!UICONTROL Triggers]を使用すると、主要な消費者行動を識別、定義、監視し、アプリケーション間の通信を生成して、訪問者を再び引き付けることができます。
+Experience Cloudの [!UICONTROL トリガー] を使用すると、主なコンシューマーの行動を特定、定義、監視し、アプリケーション間のコミュニケーションを生み出して、訪問者を再び引き付けることができます。 リアルタイムでの意思決定とパーソナライゼーションに Triggers を使用できます。
 
-## Triggers の概要 {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
-
-リアルタイムでの意思決定とパーソナライゼーションに Triggers を使用できます。以下に例を示します。
+以下に例を示します。
 
 * 買い物かごに製品を追加後に放棄、または製品を削除して買い物かごを放棄した利用者への迅速なリマーケティングの設定
 * 入力に不備のあるフォームや申請
@@ -31,9 +29,9 @@ Experience Cloud の[!UICONTROL Triggers]を使用すると、主要な消費者
 
 >[!NOTE]
 >
->[!UICONTROL Triggers] の使用について詳しくは、[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=ja)を参照してください。
+>[!UICONTROL Triggers] の使用について詳しくは、[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html)を参照してください。
 
-### Triggers のタイプ
+## トリガーのタイプ
 
 一般に、トリガーがマーケティングキャンペーンを起動するには 15～90 分かかることがあります。このディレイは、データ収集の実装、パイプラインへの読み込み、定義済みトリガーのカスタム設定、Adobe Campaign のワークフローによって異なります。
 
@@ -49,7 +47,7 @@ Experience Cloud の[!UICONTROL Triggers]を使用すると、主要な消費者
 >
 >現在、100 トリガーまでという技術的な制限があります。
 
-1. Experience Cloudで ![menu](../assets/menu-icon.png) をクリックし、**[!UICONTROL Data Collection/Launch]** をクリックします。
+1. Experience Cloudで「![menu](../assets/menu-icon.png)」をクリックし、「**[!UICONTROL Data Collection/Launch]**」をクリックします。
 2. [!UICONTROL Triggers] カード上で、「**[!UICONTROL Triggers を管理]**」をクリックします。
 3. 「**[!UICONTROL 新しいトリガー]**」をクリックして、トリガーのタイプを指定します。
 
@@ -71,17 +69,17 @@ Experience Cloud の[!UICONTROL Triggers]を使用すると、主要な消費者
 5. 「**[!UICONTROL 保存]**」をクリックします。
 6. [!DNL Adobe Campaign] でトリガーを[リアルタイムリマーケティング](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=ja)に使用します。
 
-### トリガーの例
+## トリガーの例
 
 Experience Cloud Triggers の例を以下に示します。
 
-#### 買い物かごの放棄トリガー
+### 買い物かご放棄トリガー
 
 例えば次のページは、訪問中に表示された製品に基づいて、[!UICONTROL 買い物かごの放棄]トリガーに使用する可能性のあるルールを示しています。
 
 ![買い物かご放棄トリガー](../assets/abandonment-trigger.png)
 
-#### リファラートリガー
+### リファラートリガー
 
 次のトリガーは、ヒットがメンズブーツの製品および Facebook のリファラーで発生すると実行されます。2 つの条件（*製品*&#x200B;と&#x200B;*リファラー*）が同じヒットで評価されるためには、両方を同じコンテナに追加する必要があります。
 
