@@ -29,7 +29,7 @@ Experience Cloudの [!UICONTROL トリガー] を使用すると、主なコン�
 
 >[!NOTE]
 >
->[!UICONTROL Triggers] の使用について詳しくは、[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html)を参照してください。
+>[!UICONTROL Triggers] の使用について詳しくは、[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=ja)を参照してください。
 
 ## トリガーのタイプ
 
