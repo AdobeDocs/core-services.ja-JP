@@ -34,7 +34,7 @@ ht-degree: 13%
 | **Journey Agent** | 準備中 | <ul><li>Adobe Journey Optimizer</li></ul> | カスタマージャーニーを大規模に作成、分析および最適化します。 |
 | [ 製品サポート担当者 ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) | 利用可能 | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey OptimizerB2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> | AI アシスタントを使用して、問題のトラブルシューティング、サポートチケットの作成、進捗の追跡を行います。 |
 
-[!BADGE  詳しくは、Adobe for Businessを参照してください ]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="Business.adobe.comに移動します"}
+[!BADGE &#x200B; 詳しくは、Adobe for Businessを参照してください &#x200B;]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="Business.adobe.comに移動します"}
 
 <!-- 
 * [Product Support Agent](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) is a self-serve debugging and troubleshooting capability of [!UICONTROL AI Assistant] that you can use for Experience Platform features and applications. Troubleshoot support issues without leaving your workflows, create customer support tickets, and track case progress using AI Assistant.
