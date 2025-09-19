@@ -6,9 +6,9 @@ title: Experience Cloud インターフェイスおよび管理
 description: Experience Cloud インターフェイス、Cookie、アカウントの環境設定について説明します。製品を管理し、顧客属性やオーディエンスライブラリなどの People サービスを設定します。Experience Cloud Assets の共有。
 index: true
 source-git-commit: 51f87269d7d475b958b3b853484d94073bd64d3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '205'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 88%
       + [スキーマの更新](services/customer-attributes/t-update-schema.md)
       + [GDPR のサポート](services/customer-attributes/gdpr.md)
       + [CCPA のサポート](services/customer-attributes/ccpa.md)
-      + [プライバシーの考慮事項](services/customer-attributes/privacy-mac.md)
+      + [プライバシーの配慮](services/customer-attributes/privacy-mac.md)
    + [トリガー](services/triggers.md)
 
 + 機能 {#features}
@@ -55,7 +55,7 @@ ht-degree: 88%
 
 + 管理 {#administration}
    + [ユーザー管理および製品ライセンス](administration/admin-console.md)
-   + [ユーザーの詳細の表示（管理ツール）](administration/admin-tool-experience-cloud.md)
+   + [ユーザー詳細の表示（管理ツール）](administration/admin-tool-experience-cloud.md)
    + [組織](administration/organizations.md)
    + [Experience Cloud の統合](administration/integrations.md)
 
