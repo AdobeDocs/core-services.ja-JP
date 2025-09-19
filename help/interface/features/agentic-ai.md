@@ -35,7 +35,7 @@ Adobe Experience Platform Agent Orchestratorと Platform エージェントは�
 | **試験事業者** <b>*</b> | 準備中 | <ul><li>AJO Experimentation Accelerator</li></ul> | 分析を自動化して、実験と成長の機会を特定します。 |
 | **Journey Agent** | 準備中 | <ul><li>Adobe Journey Optimizer</li></ul> | カスタマージャーニーを大規模に作成、分析および最適化します。 |
 
-[!BADGE  詳しくは、Adobe for Businessを参照してください ]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="Business.adobe.comに移動します"}
+[!BADGE &#x200B; 詳しくは、Adobe for Businessを参照してください &#x200B;]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="Business.adobe.comに移動します"}
 
 
 
