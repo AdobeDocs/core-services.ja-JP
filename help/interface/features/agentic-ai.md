@@ -37,7 +37,7 @@ Adobe Experience Platform Agent Orchestratorと Platform エージェントは�
 
 
 
-[!BADGE  詳しくは、Adobe for Businessを参照してください ]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="Business.adobe.comに移動します"}
+[!BADGE &#x200B; 詳しくは、Adobe for Businessを参照してください &#x200B;]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="Business.adobe.comに移動します"}
 
 <!-- 
 * [Product Support Agent](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) is a self-serve debugging and troubleshooting capability of [!UICONTROL AI Assistant] that you can use for Experience Platform features and applications. Troubleshoot support issues without leaving your workflows, create customer support tickets, and track case progress using AI Assistant.
