@@ -80,7 +80,7 @@ Experience Cloud にログインすると、統合ヘッダーからすべての
 
 ## Experience Cloud での検索とサポート {#search-support}
 
-Experience Cloud の検索では、[Experience League](https://experienceleague.adobe.com/?lang=ja#home) 上のヘルプ（ドキュメント、チュートリアル、コース）を検索できます。
+Experience Cloud の検索では、[Experience League](https://experienceleague.adobe.com/ja?lang=ja#home) 上のヘルプ（ドキュメント、チュートリアル、コース）を検索できます。
 
 ![Experience Cloud での検索とサポート](assets/search-menu.png)
 

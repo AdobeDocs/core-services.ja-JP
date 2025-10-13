@@ -57,7 +57,7 @@ Experience Cloud にログインすると、統合ヘッダーからすべての
 
 ## お問い合わせとサポート {#support}
 
-[Experience League](https://experienceleague.adobe.com/?lang=ja#home) のヘルプコンテンツ（ドキュメント、チュートリアル、コース）および個々のアプリケーションの追加リソースなど、ヘッダーの&#x200B;**[!UICONTROL ヘルプセンター]**（![アセット](assets/help-icon.png)）を使用して、ラーニングとヘルプにアクセスします。自由形式のフィードバックを送信して、優先度の高いサポートチケットを作成することもできます。
+[Experience League](https://experienceleague.adobe.com/ja?lang=ja#home) のヘルプコンテンツ（ドキュメント、チュートリアル、コース）および個々のアプリケーションの追加リソースなど、ヘッダーの&#x200B;**[!UICONTROL ヘルプセンター]**（![アセット](assets/help-icon.png)）を使用して、ラーニングとヘルプにアクセスします。自由形式のフィードバックを送信して、優先度の高いサポートチケットを作成することもできます。
 
 ![お問い合わせとサポート](assets/search-menu.png)
 
