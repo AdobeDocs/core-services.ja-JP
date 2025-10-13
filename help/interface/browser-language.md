@@ -55,7 +55,7 @@ Experience Cloud ユーザーインターフェイスは、次の言語で使用
 
 **デフォルト言語を指定するには**
 
-1. Experience Cloudで、**[!UICONTROL プロファイル]**/[ 環境設定 ](https://experience.adobe.com/preferences) をクリックします。
+1. Experience Cloudで、**[!UICONTROL プロファイル]**/[&#x200B; 環境設定 &#x200B;](https://experience.adobe.com/preferences) をクリックします。
 
 1. **[!UICONTROL プロファイル]** の下で、言語リンクをクリックします。
 

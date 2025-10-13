@@ -64,7 +64,7 @@ Experience Cloud は、アドビユーザーアカウントの環境設定で設
 
    ![組織の検証](assets/organizations-menu.png)
 
-   正しい [ 組織 ](organizations.md) にログインしていることを確認するには、「**[!UICONTROL プロファイル]**」をクリックして組織名を表示します。 複数の組織にアクセスできる場合は、「組織 **[!UICONTROL セレクターを使用して、別の組織を表示して切り替えることもでき]** す。
+   正しい [&#x200B; 組織 &#x200B;](organizations.md) にログインしていることを確認するには、「**[!UICONTROL プロファイル]**」をクリックして組織名を表示します。 複数の組織にアクセスできる場合は、「組織 **[!UICONTROL セレクターを使用して、別の組織を表示して切り替えることもでき]** す。
 
    組織が Federated ID を使用している場合、Experience Cloud を使用すると、自身のメールアドレスとパスワードを入力しなくても、組織のシングルサインオンでログインできます。`#/sso:@domain` を Experience Cloud URL（`https://experience.adobe.com`）に追加して、このタスクを完成します。
 
@@ -74,7 +74,7 @@ Experience Cloud は、アドビユーザーアカウントの環境設定で設
 
 Experience Cloud にログインすると、統合ヘッダーからすべてのアプリケーション、サービスおよび組織にすばやくアクセスできます。
 
-自身が所有しているExperience Cloud サービスにアクセスするには、アプリケーションセレクター ![ メニュー ](assets/menu-icon.png) をクリックします。
+自身が所有しているExperience Cloud サービスにアクセスするには、アプリケーションセレクター ![&#x200B; メニュー &#x200B;](assets/menu-icon.png) をクリックします。
 
 ![Experience Cloud アプリケーションへのアクセス](assets/platform-core-services.png)
 
@@ -104,7 +104,7 @@ Experience Cloud の検索では、[Experience League](https://experienceleague.
 
 Experience Cloud の環境設定には、通知、購読、アラートが含まれます。
 
-* アカウントメニュー **[!UICONTROL 環境設定]** から ![ 環境設定 ](assets/preferences-icon-sm.png) をクリックして、環境設定を管理します。
+* アカウントメニュー **[!UICONTROL 環境設定]** から ![&#x200B; 環境設定 &#x200B;](assets/preferences-icon-sm.png) をクリックして、環境設定を管理します。
 
 ![Experience Cloud の管理](assets/preferences-page.png)
 

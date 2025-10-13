@@ -17,7 +17,7 @@ ht-degree: 38%
 
 スキーマの属性を削除して置換する方法。
 
-1. [!UICONTROL  顧客属性Sourceを編集 ] ページで、「購読を設定」をクリックします。
+1. [!UICONTROL &#x200B; 顧客属性Sourceを編集 &#x200B;] ページで、「購読を設定」をクリックします。
 
 1. **[!UICONTROL Target]** または **[!UICONTROL Analytics]** のマッピングされた値を削除します。
 

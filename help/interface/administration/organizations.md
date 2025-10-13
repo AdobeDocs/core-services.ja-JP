@@ -21,7 +21,7 @@ ht-degree: 50%
 
 この組織は、Experience Cloud のすべての製品とアプリケーションにまたがるログイン会社のように機能します。ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。
 
-![Experience Cloud組織 ](../assets/organizations-menu.png)
+![Experience Cloud組織 &#x200B;](../assets/organizations-menu.png)
 
 正しい組織にログインしていることを確認するには、「**[!UICONTROL プロファイル]**」をクリックしてデフォルトの組織名を表示します。 複数の組織にアクセスできる場合は、ヘッダーバーで別の組織を表示して切り替えることもできます。
 
@@ -69,7 +69,7 @@ ht-degree: 50%
 
 1. Adobe ID または Enterprise ID を使用してログインします。
 
-1. **[!UICONTROL アプリケーションセレクター]** をクリックします。 （![ メニュー ](../assets/apps-icon.png)）。
+1. **[!UICONTROL アプリケーションセレクター]** をクリックします。 （![&#x200B; メニュー &#x200B;](../assets/apps-icon.png)）。
 
    ![アプリケーションアカウントを Adobe ID にリンクする](../assets/solutions-active.png)
 
@@ -77,7 +77,7 @@ ht-degree: 50%
 
 1. 目的のアプリケーションをクリックします。
 
-   ![ アプリケーションをクリックします ](../assets/analytics-link-accounts.png)。
+   ![&#x200B; アプリケーションをクリックします &#x200B;](../assets/analytics-link-accounts.png)。
 
    このタイプのメッセージは、ユーザーが適切なグループに属している（かつアプリケーションに対する権限を持っている）が、そのアカウントの資格情報をまだ Adobe ID にリンクしていない場合に表示されます。
 
@@ -89,7 +89,7 @@ ht-degree: 50%
 
 1. ヘッダーで「**[!UICONTROL プロファイル]**」をクリックし、「環境設定」をクリックします。
 
-1. 「[!UICONTROL  一般 ]」で、デフォルトの組織を選択します。
+1. 「[!UICONTROL &#x200B; 一般 &#x200B;]」で、デフォルトの組織を選択します。
 
 
 ![プロファイルを編集](../assets/edit-profile.png)

@@ -34,7 +34,7 @@ Experience Cloud に参加するのに必要なことを次に示します。
    >
    >[!DNL Target] の場合は、`mbox.js` から at.js に移行します。詳しくは、[at.js 1. x から at.js 2 へのアップグレードを参照してください。x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=ja)。
 
-1.  [!UICONTROL Admin Console] でユーザーと製品を管理する。
+1. [!UICONTROL Admin Console] でユーザーと製品を管理する。
 
 ### 管理者ログイン
 
@@ -88,7 +88,7 @@ Experience Cloud ID サービス（以前の訪問者 ID）について詳しく
 
 Analytics と [!DNL Target] については、Experience Cloud ID サービスを設定する際に[顧客 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) を Experience Cloud に同期させることを推奨します。
 
-Adobe Target では、 `mbox3rdpartyid` は顧客 ID を取得して、それを [!DNL Target] に送信する必要があります。（[ の ](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) 顧客属性の操作 [!DNL Target] を参照してください）。
+Adobe Target では、 `mbox3rdpartyid` は顧客 ID を取得して、それを [!DNL Target] に送信する必要があります。（[&#x200B; の &#x200B;](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) 顧客属性の操作 [!DNL Target] を参照してください）。
 
 訪問者が web サイトで認証をおこなうとき、または別の方法で本人確認をおこなうとき、実装では、その人物の CRM 顧客 ID をページまたはアプリに公開する必要があります。その後、適切な機能呼び出しを使用して、顧客 ID と Experience Cloud を同期できます。この同期によって、訪問者の CRM 顧客 ID が Experience Cloud に格納され、その顧客属性が Experience Cloud で使用できるようになります。
 
@@ -185,13 +185,13 @@ Experience Cloud ID サービスをデプロイすると、新しい訪問者は
 
 大規模法人の顧客データを顧客関係管理（CRM）データベースに取り込んでいる場合は、そのデータをExperience Cloudの顧客属性データソースにアップロードできます。 アップロード後は、データを [!DNL Adobe Analytics] と [!DNL Adobe Target] で利用できます。
 
-詳しくは、[ 顧客属性 ](customer-attributes/attributes.md) を参照してください。
+詳しくは、[&#x200B; 顧客属性 &#x200B;](customer-attributes/attributes.md) を参照してください。
 
 ### [!UICONTROL People]／[!UICONTROL オーディエンスライブラリ]
 
 Experience Cloud [!UICONTROL オーディエンス]は、オーディエンスを作成したり、既存のオーディエンスを組み合わせて複合オーディエンスを作成したり、共有しているすべてのオーディエンスを表示したりできるインターフェイスです。
 
-詳しくは、[ オーディエンス ](audiences/overview.md) を参照してください。
+詳しくは、[&#x200B; オーディエンス &#x200B;](audiences/overview.md) を参照してください。
 
 ## データストレージおよびプライバシー開示
 

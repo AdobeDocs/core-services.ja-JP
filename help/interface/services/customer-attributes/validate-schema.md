@@ -30,13 +30,13 @@ ht-degree: 49%
 
 1. **[!UICONTROL 顧客属性Sourceを編集]** で、「**[!UICONTROL ファイルのアップロード]**」をクリックします。
 
-1. [!UICONTROL  ファイルのアップロードとスキーマの検証 ] ページで、**[!UICONTROL アクション]**/**[!UICONTROL スキーマの表示/編集]** をクリックします
+1. [!UICONTROL &#x200B; ファイルのアップロードとスキーマの検証 &#x200B;] ページで、**[!UICONTROL アクション]**/**[!UICONTROL スキーマの表示/編集]** をクリックします
 
    ![スキーマの編集](assets/actions.png)
 
-   [!UICONTROL  スキーマを編集 ] ページでは、スキーマの各行は、アップロードされた CSV ファイルの列を表しています。
+   [!UICONTROL &#x200B; スキーマを編集 &#x200B;] ページでは、スキーマの各行は、アップロードされた CSV ファイルの列を表しています。
 
-   ![Experience Cloudのスキーマページを編集 ](assets/schema-edit.png)
+   ![Experience Cloudのスキーマページを編集 &#x200B;](assets/schema-edit.png)
 
 **アクション**
 
@@ -44,7 +44,7 @@ ht-degree: 49%
 
 * **[!UICONTROL スキーマを表示 / 編集：]**&#x200B;次の手順で説明するように、表示名を属性データにマッピングします。
 
-* **[!UICONTROL FTP のセットアップ：]** FTP アカウントを作成して [FTP を使用してデータをアップロード ](t-upload-attributes-ftp.md) します（オプション）。
+* **[!UICONTROL FTP のセットアップ：]** FTP アカウントを作成して [FTP を使用してデータをアップロード &#x200B;](t-upload-attributes-ftp.md) します（オプション）。
 
 * **[!UICONTROL ID 参照：]** `.csv` ーザーの顧客 ID （CID）を入力して、ID のExperience Cloud情報を検索します。 この機能は、訪問者に対して属性データが表示されない理由をトラブルシューティングするのに役立ちます。
 
