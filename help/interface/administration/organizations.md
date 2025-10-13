@@ -41,7 +41,7 @@ ht-degree: 50%
 
 組織 ID は、プロビジョニングされている Experience Cloud の会社に関連付けられた ID です。この ID は 24 文字の英数字から成る文字列の後に `@AdobeOrg`（必須）を付けたものです。
 
-`https://experience.adobe.com` の任意のページからキーボードショートカット **Ctrl+i** を使用して、組織 ID を他のアカウント情報と共に表示できます。
+**の任意のページからキーボードショートカット** Ctrl+i`https://experience.adobe.com` を使用して、組織 ID を他のアカウント情報と共に表示できます。
 
 **組織 ID を表示するには**
 
@@ -89,7 +89,7 @@ ht-degree: 50%
 
 1. ヘッダーで「**[!UICONTROL プロファイル]**」をクリックし、「環境設定」をクリックします。
 
-1. 「[!UICONTROL &#x200B; 一般 &#x200B;]」で、デフォルトの組織を選択します。
+1. 「[!UICONTROL  一般 ]」で、デフォルトの組織を選択します。
 
 
 ![プロファイルを編集](../assets/edit-profile.png)
@@ -100,5 +100,5 @@ ht-degree: 50%
 
 一般的に、アカウントのリンクは、Adobe ID が以前のユーザーにリンクされていることが原因で失敗します。アカウントのリンクに失敗した場合は、
 
-* [アドビサポートにお問い合わせ](https://experienceleague.adobe.com/ja?support-solution=General&amp;lang=ja#support)ください。
+* [アドビサポートにお問い合わせ](https://experienceleague.adobe.com/?support-solution=General&lang=ja#support)ください。
 * 問題が解決するまでの間、標準のログインを使用してアプリケーションにアクセスします。

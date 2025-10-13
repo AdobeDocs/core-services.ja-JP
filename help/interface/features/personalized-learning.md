@@ -1,5 +1,5 @@
 ---
-description: お客様の使用状況データに基づいて、Experience Cloud製品やExperience Leagueコミュニティ内で、パーソナライズされたヘルプやプロモーションを電子メールで受け取ります。
+description: Experience Cloud製品やExperience League Communities 内の使用状況データに基づいて、パーソナライズされたヘルプやプロモーションを電子メールで受け取ります。
 solution: Experience Cloud
 title: Experience Cloud のパーソナライズされたラーニング環境設定
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
@@ -12,7 +12,7 @@ ht-degree: 23%
 
 # パーソナライズされたラーニングのレコメンデーションとプロモーション
 
-Adobeでは、Adobe製品の使用状況に基づいてカスタマイズされた役立つコンテンツを提供します。 製品使用状況データは、このコンテキストをユーザーに合わせて調整する方法を示します。 [Experience Cloud環境設定 ](https://experience.adobe.com/preferences) ページで、商品の使用状況データの共有をオプトインまたはオプトアウトできます。
+Adobeには、Adobe製品の使用状況に基づいてカスタマイズされた役立つコンテンツが用意されています。 製品使用状況データは、このコンテキストをユーザーに合わせて調整する方法を示します。 [Experience Cloud環境設定 ](https://experience.adobe.com/preferences) ページで、製品の使用状況データの共有をオプトインまたはオプトアウトできます。
 
 <!-- ## Personalized training and support recommendations for your Adobe products and services
 

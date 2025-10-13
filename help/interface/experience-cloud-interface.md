@@ -74,13 +74,13 @@ Experience Cloud は、アドビユーザーアカウントの環境設定で設
 
 Experience Cloud にログインすると、統合ヘッダーからすべてのアプリケーション、サービスおよび組織にすばやくアクセスできます。
 
-所有しているアプリケーション・サービスにアクセスするには、Experience Cloud・セレクタ ![ メニュー ](assets/menu-icon.png) をクリックします。
+自身が所有しているExperience Cloud サービスにアクセスするには、アプリケーションセレクター ![ メニュー ](assets/menu-icon.png) をクリックします。
 
 ![Experience Cloud アプリケーションへのアクセス](assets/platform-core-services.png)
 
 ## Experience Cloud での検索とサポート {#search-support}
 
-Experience Cloud の検索では、[Experience League](https://experienceleague.adobe.com/ja?lang=ja#home) 上のヘルプ（ドキュメント、チュートリアル、コース）を検索できます。
+Experience Cloud の検索では、[Experience League](https://experienceleague.adobe.com/?lang=ja#home) 上のヘルプ（ドキュメント、チュートリアル、コース）を検索できます。
 
 ![Experience Cloud での検索とサポート](assets/search-menu.png)
 

@@ -11,8 +11,8 @@ level: Experienced
 exl-id: 5ddcb2f0-b491-466d-b357-aeacbfcf0b8e
 source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 99%
+source-wordcount: '627'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->共有されている Experience Cloud フォルダーとアセットは、Creative Cloud デスクトップに 1 対 1 関係で複製されます。Experience Cloud ユーザーがフォルダーを変更（削除、追加、または共有の削除）すると、そのアクションは Creative Cloud デスクトップと web に反映されます。 したがって、フォルダーが非共有の場合、フォルダーとアセットはローカルマシンから削除されます。 共有が削除されると、フォルダーとその内容はローカルコンピューター上のごみ箱に移動します。ごみ箱に移動したフォルダーとその内容は、手動でお使いのコンピューターに復元できます。
+>共有Experience Cloudのフォルダーとアセットは、1:1 関係でCreative Cloud デスクトップにミラーリングされます。 Experience Cloud ユーザーがフォルダーを変更（削除、追加、または共有の削除）すると、そのアクションは Creative Cloud デスクトップと web に反映されます。 したがって、フォルダーが非共有の場合、フォルダーとアセットはローカルマシンから削除されます。 共有が削除されると、フォルダーとその内容はローカルコンピューター上のごみ箱に移動します。ごみ箱に移動したフォルダーとその内容は、手動でお使いのコンピューターに復元できます。
 
 ## 非共有フォルダーを共有フォルダーに移動 {#section_A9BAC1A244A246A984AC62660E61E0C0}
 

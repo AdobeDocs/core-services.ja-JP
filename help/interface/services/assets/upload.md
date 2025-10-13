@@ -1,5 +1,5 @@
 ---
-description: Creative CloudブラウザーまたはCreative Cloudデスクトップから共有フォルダーにアセットをアップロードします。
+description: Creative Cloud ブラウザーまたはCreative Cloud デスクトップからアセットを共有フォルダーにアップロードします。
 title: 共有フォルダーへのアセットのアップロード
 feature: Assets
 topic: Administration
@@ -15,7 +15,7 @@ ht-degree: 70%
 
 # 共有フォルダーへのアセットのアップロード
 
-Creative CloudデスクトップまたはCreative Cloudブラウザーを使用して、アセットをアップロードできます。
+Creative Cloud Desktop またはCreative Cloud ブラウザーを使用して、アセットをアップロードできます。
 
 ## Creative Cloud ブラウザーから共有フォルダーにアセットをアップロード
 

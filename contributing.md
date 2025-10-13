@@ -1,7 +1,7 @@
 ---
 source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
-workflow-type: ht
-source-wordcount: '277'
+workflow-type: tm+mt
+source-wordcount: '268'
 ht-degree: 100%
 
 ---
@@ -38,4 +38,4 @@ submitting a pull request!
 
 ## セキュリティ上の問題
 
-セキュリティ上の問題は、このイシュートラッカーに報告せずに、[セキュリティ専門家に報告](https://helpx.adobe.com/jp/security/alertus.html)
+セキュリティ上の問題は、このイシュートラッカーに報告せずに、代わりに、[アドビのセキュリティの専門家](https://helpx.adobe.com/jp/security/alertus.html)に問題を提出します。
