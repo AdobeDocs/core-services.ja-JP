@@ -68,7 +68,7 @@ ht-degree: 100%
       + [Advertising の cookie](data-collection/cookies/advertising.md)
       + [Analytics の cookie](data-collection/cookies/analytics.md)
       + [Audience Manager の cookie](data-collection/cookies/audience-manager.md)
-      + [Experience Cloud の cookie ](data-collection/cookies/experience-cloud.md)
+      + [Experience Cloud の cookie](data-collection/cookies/experience-cloud.md)
       + [Target の Cookie](data-collection/cookies/target.md)
       + [Web SDK の cookie](data-collection/cookies/web-sdk.md)
    + [地域データ収集](data-collection/rdc.md)
