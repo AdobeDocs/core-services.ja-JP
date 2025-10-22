@@ -6,10 +6,10 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 76d14913c00e2924f65ebada353ba94760227691
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 91%
+source-wordcount: '697'
+ht-degree: 79%
 
 ---
 
@@ -56,15 +56,15 @@ Experience Cloud は、アドビユーザーアカウントの環境設定で設
 
 ## Experience Cloud にサインインする {#signin}
 
-ログインし、自分が適切な[組織](organizations.md)に属していることを確認します。
+ログインし、自分が適切な組織に属していることを確認します。
 
 1. [Adobe Experience Cloud](https://experience.adobe.com) に移動します。
-1. 「**[!UICONTROL Adobe ID でログイン]**」をクリックします。
+1. 「**[!UICONTROL Sign in with an Adobe ID]**」をクリックします。
 1. 自分が適切な組織に属していることを確認します。
 
    ![組織の検証](assets/organizations-menu.png)
 
-   正しい [&#x200B; 組織 &#x200B;](organizations.md) にログインしていることを確認するには、「**[!UICONTROL プロファイル]**」をクリックして組織名を表示します。 複数の組織にアクセスできる場合は、「組織 **[!UICONTROL セレクターを使用して、別の組織を表示して切り替えることもでき]** す。
+   正しい組織にログインしていることを確認するには、「**[!UICONTROL Profile]**」をクリックして組織名を表示します。 複数の組織にアクセスできる場合は、**[!UICONTROL Organization]** セレクターを使用して別の組織を表示して切り替えることもできます。
 
    組織が Federated ID を使用している場合、Experience Cloud を使用すると、自身のメールアドレスとパスワードを入力しなくても、組織のシングルサインオンでログインできます。`#/sso:@domain` を Experience Cloud URL（`https://experience.adobe.com`）に追加して、このタスクを完成します。
 
@@ -74,55 +74,55 @@ Experience Cloud は、アドビユーザーアカウントの環境設定で設
 
 Experience Cloud にログインすると、統合ヘッダーからすべてのアプリケーション、サービスおよび組織にすばやくアクセスできます。
 
-自身が所有しているExperience Cloud サービスにアクセスするには、アプリケーションセレクター ![&#x200B; メニュー &#x200B;](assets/menu-icon.png) をクリックします。
+自身が所有しているExperience Cloud サービスにアクセスするには、アプリケーションセレクター ![ メニュー ](assets/menu-icon.png) をクリックします。
 
 ![Experience Cloud アプリケーションへのアクセス](assets/platform-core-services.png)
 
 ## Experience Cloud での検索とサポート {#search-support}
 
-Experience Cloud の検索では、[Experience League](https://experienceleague.adobe.com/ja?lang=ja#home) 上のヘルプ（ドキュメント、チュートリアル、コース）を検索できます。
+Experience Cloud の検索では、[Experience League](https://experienceleague.adobe.com/?lang=ja#home) 上のヘルプ（ドキュメント、チュートリアル、コース）を検索できます。
 
 ![Experience Cloud での検索とサポート](assets/search-menu.png)
 
-[!UICONTROL ヘルプ]メニューからも、次の項目にアクセスできます。
+[!UICONTROL Help] メニューからも、次の項目にアクセスできます。
 
-* **[!UICONTROL サポート]：** サポートチケットを作成するか、Twitter を使用して[!UICONTROL サポート]にお問い合わせください。
-* **[!UICONTROL フィードバック]：**&#x200B;フィードバックを使用してアドビに連絡し、ご意見をお聞かせください。
-* **[!UICONTROL ステータス]：** に移動して、製品の `https://status.adobe.com/experience_cloud` 運用状況と[!UICONTROL サブスクリプションの管理]を確認します。
-* **[!UICONTROL Developer Connection]：** `adobe.io` に移動して、開発者向けドキュメントを見つけます。
+* **[!UICONTROL Support]:** サポートチケットを作成するか、Twitter を使用して [!UICONTROL Support] に連絡します。
+* **[!UICONTROL Feedback]:** フィードバックを使用してAdobeに連絡し、ご意見をお聞かせください。
+* **[!UICONTROL Status]:** `https://status.adobe.com/experience_cloud` に移動して、製品の動作ステータスと [!UICONTROL Manage Subscriptions] を確認します。
+* **[!UICONTROL Developer Connection]:** `adobe.io` に移動して、開発者向けドキュメントを見つけます。
 
 ## アカウント設定 {#account-menu}
 
 アカウントの環境設定メニューで、次の操作を実行できます。
 
 * ダークテーマを指定する（このテーマに対応していないアプリケーションもあります）
-* [組織](organizations.md)を検索する
+* 組織の検索
 * ログアウト
 * アカウントの[環境設定、通知、サブスクリプション](#preferences)を設定する
 
-### Experience Cloud の[!UICONTROL 環境設定]を管理する {#preferences}
+### Experience Cloud [!UICONTROL Preferences] の管理 {#preferences}
 
 Experience Cloud の環境設定には、通知、購読、アラートが含まれます。
 
-* アカウントメニュー **[!UICONTROL 環境設定]** から ![&#x200B; 環境設定 &#x200B;](assets/preferences-icon-sm.png) をクリックして、環境設定を管理します。
+* アカウントメニュー **[!UICONTROL Preferences]** 環境設定 ![ から「](assets/preferences-icon-sm.png)」をクリックして、環境設定を管理します。
 
 ![Experience Cloud の管理](assets/preferences-page.png)
 
-[!UICONTROL Experience Cloud の環境設定]では、次の機能を設定できます。
+[!UICONTROL Experience Cloud preferences] では、次の機能を設定できます。
 
 | 機能 | 説明 |
 |--- |--- |
-| デフォルトの[組織](organizations.md) | Experience Cloud の起動時に表示する組織を選択します。 |
-| [!UICONTROL サブスクリプション] | 購入する製品とカテゴリを選択します。[!UICONTROL 通知]ポップオーバーとメール内の通知。 |
-| [!UICONTROL 優先度] | 優先度が高いと見なすカテゴリを選択します。これらのカテゴリには「高」タグが付き、アラートんなどの配信用に設定できます。 |
-| [!UICONTROL アラート] | ブラウザーにアラートを表示する通知を選択します。アラートは、ウィンドウの右上隅に数秒間表示されます。 |
+| デフォルトの組織 | Experience Cloud の起動時に表示する組織を選択します。 |
+| [!UICONTROL Subscriptions] | 購入する製品とカテゴリを選択します。[!UICONTROL Notifications] ポップオーバーとメール内の通知。 |
+| [!UICONTROL Priority] | 優先度が高いと見なすカテゴリを選択します。これらのカテゴリには「高」タグが付き、アラートんなどの配信用に設定できます。 |
+| [!UICONTROL Alerts] | ブラウザーにアラートを表示する通知を選択します。アラートは、ウィンドウの右上隅に数秒間表示されます。 |
 | メール | 通知メールの受信頻度を指定します。（送信しない、即時、毎日または毎週） |
 
 {style="table-layout:auto"}
 
 ## 通知とお知らせ {#notifications}
 
-「**[!UICONTROL 通知]**」をクリックすると、重要な通知や、アドビからのお知らせを表示できます。
+「**[!UICONTROL Notifications]**」をクリックすると、重要な通知や、Adobeからのお知らせを表示できます。
 
 ![通知とお知らせ](assets/notifications-menu-small.png)
 

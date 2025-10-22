@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: e31b3e591a9342230f0f2a9287aedf715423fd60
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 4%
+source-wordcount: '1106'
+ht-degree: 3%
 
 ---
 
@@ -26,12 +26,9 @@ Adobeで管理される証明書プログラムは、CNAME 実装に必要なフ
 
 次の手順に従って、ファーストパーティデータ収集用の新しい証明書を実装します。
 
-1. [&#x200B; ファーストパーティドメインリクエストフォーム &#x200B;](cookies/assets/First_Party_Domain_Request_Form.xlsx) をダウンロードして入力します。
-
+1. [ ファーストパーティドメインリクエストフォーム ](cookies/assets/First_Party_Domain_Request_Form.xlsx) をダウンロードして入力します。
 1. Adobe カスタマーケアに対して、Adobeの管理証明書プログラムでファーストパーティデータ収集の設定をリクエストするチケットを開きます。
-
 1. チケットを受け取ると、Adobe担当者は CNAME レコードを提供します。 これらのレコードは、アドビが代理で証明書を購入する前に、会社の DNS サーバーで設定される必要があります。例えば、ホスト名 `data.example.com` は `hiodsibxvip01.data.adobedc.net` を指します。
-
 1. CNAME レコードが組織のサーバーに配置されている場合、Adobeは DigiCert と連携して証明書を購入し、Adobe Data Collection Server にインストールします。
 
 ## ホスト名転送の検証 {#validate}
@@ -94,8 +91,12 @@ Aliases: smetrics.example.com
 
 証明書が正しく動作することを検証したら、これらの値を使用するようにAdobeを更新できます。
 
-* Adobe Analytics AppMeasurement実装の場合、[`trackingServer`](https://experienceleague.adobe.com/ja/docs/analytics/implementation/vars/config-vars/trackingserver) 設定変数を更新します。 既存の実装がある場合、既存の訪問者が新規訪問者としてカウントされないようにする方法について詳しくは、[&#x200B; 訪問者の移行 &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics/technotes/visitor-migration) を参照してください。
-* Web SDK実装の場合は、[`edgeDomain`](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/edgedomain) コマンド内の [`configure`](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/overview) プロパティを更新します。
+* **Web SDK タグ拡張機能**：拡張機能の設定時に、「[[!UICONTROL Edge domain]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)」フィールドを更新します。
+* **Web SDK（alloy）**:[`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain) コマンド内の [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) プロパティを更新します。
+* **Adobe Analytics拡張機能**：拡張機能の設定時に「[[!UICONTROL SSL Tracking Server]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview)」フィールドを更新します。 [ 訪問者 ID サービスタグ拡張機能 ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview) もインストールされていることを確認します。 詳しくは [Analytics タグ拡張機能を使用した訪問者の識別 ](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension) を参照してください。
+* **AppMeasurement**: [`trackingServerSecure`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserversecure) 設定変数を更新します。 [ を使用して ](https://experienceleague.adobe.com/ja/docs/id-service/using/home) 訪問者 ID サービス `VisitorAPI.js` も実装されていることを確認します。 詳しくは [AppMeasurementを使用した訪問者の識別 ](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension) を参照してください。
+
+サイトで複数の実装方法を使用していて、すべてを同時に更新できない場合は、猶予期間を設定することを検討してください。 サイト全体で訪問者が新規訪問者としてカウントされないようにする方法について詳しくは、[ 訪問者 ID サービスの移行に関する考慮事項 ](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration) を参照してください。
 
 ## 保守および更新
 
@@ -163,4 +164,9 @@ Adobeは、RSA 証明書と ECC 証明書の両方をサポートしており、
 * iOS 5.1 以前（最終更新は 2012 年）
 * Android 4.3 以前（最終更新は 2013 年）
 
++++
+
++++代わりに独自の証明書を管理できますか？
+
+はい。ただし、独自の証明書を管理する場合、証明書を更新するたびに証明書を更新し、Adobeに提供する責任はユーザーにあります。 このプロセスは安全性が低く、組織が証明書を時間内に更新し忘れると、データが失われる可能性があります。 Adobeでは、特に TLS 証明書の最長有効期間が短くなるため、証明書を自分で管理する代わりに、管理証明書プログラムを使用することをお勧めします。 詳しくは、『 CA/Browser Forum Server Certificate Baseline Requirements 』の [6.3.1 Public key archival](https://cabforum.org/working-groups/server/baseline-requirements/requirements/#632-certificate-operational-periods-and-key-pair-usage-periods) を参照してください。
 +++
