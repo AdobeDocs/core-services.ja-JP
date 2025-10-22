@@ -74,7 +74,7 @@ Experience Cloud は、アドビユーザーアカウントの環境設定で設
 
 Experience Cloud にログインすると、統合ヘッダーからすべてのアプリケーション、サービスおよび組織にすばやくアクセスできます。
 
-自身が所有しているExperience Cloud サービスにアクセスするには、アプリケーションセレクター ![ メニュー ](assets/menu-icon.png) をクリックします。
+自身が所有しているExperience Cloud サービスにアクセスするには、アプリケーションセレクター ![&#x200B; メニュー &#x200B;](assets/menu-icon.png) をクリックします。
 
 ![Experience Cloud アプリケーションへのアクセス](assets/platform-core-services.png)
 
@@ -104,7 +104,7 @@ Experience Cloud の検索では、[Experience League](https://experienceleague.
 
 Experience Cloud の環境設定には、通知、購読、アラートが含まれます。
 
-* アカウントメニュー **[!UICONTROL Preferences]** 環境設定 ![ から「](assets/preferences-icon-sm.png)」をクリックして、環境設定を管理します。
+* アカウントメニュー **[!UICONTROL Preferences]** 環境設定 ![&#x200B; から「](assets/preferences-icon-sm.png)」をクリックして、環境設定を管理します。
 
 ![Experience Cloud の管理](assets/preferences-page.png)
 
