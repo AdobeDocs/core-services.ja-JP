@@ -34,7 +34,7 @@ Adobe Analyticsで Cookie を使用して訪問者を識別する方法につい
 
 ## プラグインで設定される cookie
 
-一部の実装ではプラグインを利用します。プラグインは、Analytics に追加機能を提供するコードのスニペットです。 これらのプラグインは、上記に記載されていない Cookie を設定できます。 使用可能なプラグインのリストと設定対象の Cookie については、[Analytics プラグインの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins) を参照してください。
+一部の実装ではプラグインを利用します。プラグインは、Analytics に追加機能を提供するコードのスニペットです。 これらのプラグインは、上記に記載されていない Cookie を設定できます。 使用可能なプラグインのリストと設定対象の Cookie については、[Analytics プラグインの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics/implementation/vars/plugins/impl-plugins) を参照してください。
 
 ## Analytics cookie 削除の結果
 
