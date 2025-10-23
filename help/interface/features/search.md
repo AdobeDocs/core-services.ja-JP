@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Beginner
 exl-id: 70586f18-6f84-4308-bab3-1da7fab823d6
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 100%
+source-wordcount: '644'
+ht-degree: 91%
 
 ---
 
-# オブジェクトとエンティティの[!UICONTROL 統合検索] {#globally-search}
+# オブジェクトとエンティティの [!UICONTROL Unified Search]
 
-[!UICONTROL 統合検索]を使用すると、一貫性のあるシームレスなワンクリックエクスペリエンスで、検索可能なビジネスオブジェクトやエンティティを見つけることができます。この検索では、最近アクセスしたオブジェクトも表示されます。
+[!UICONTROL Unified Search] 検索を使用すると、一貫性のあるシームレスなワンクリックエクスペリエンスで、検索可能なビジネスオブジェクトやエンティティを見つけることができます。 この検索では、最近アクセスしたオブジェクトも表示されます。
 
 ![オブジェクトとエンティティのグローバル検索](../assets/platform-search.png)
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 
 ヘルプ記事は、Experience League と Communities からも確認できます。自然言語のクエリがサポートされています。
 
-例： _スキーマの作成方法_&#x200B;の結果は、_[!UICONTROL ラーニング]_&#x200B;の下の Experience League から生成されます。
+例：_How to create a schema_ では、_[!UICONTROL Learning]_の下にExperience Leagueから結果が生成されます。
 
 ![Experience Cloud の統合検索のヘルプ](../assets/unified-search-learning.png)
 
@@ -70,12 +70,12 @@ ht-degree: 100%
 * オブジェクトにアクセスするためのユーザー権限
 * 一致率
 * 完全一致
-* この「_[!UICONTROL 上位の結果]_」セクションには、上位 30 件の結果が表示されます。
+* _[!UICONTROL Top Results]_のセクションには、上位 30 件の結果が表示されます。
 
 検索を絞り込むには、次のいずれかをクリックします。
 
-* **[!UICONTROL すべてのラーニング]**：検索を Experience League で開きます。
-* **[!UICONTROL すべて表示…]**：結果をさらに絞り込んだりフィルターしたりできます。
+* **[!UICONTROL All Learning]**：検索をExperience Leagueで開きます。
+* **[!UICONTROL Show all...]**：結果をさらに絞り込んだりフィルターしたりできます。
 
 ## 統合検索機能
 

@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 61bc8f52-a77e-4e85-939b-6f29963334a1
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 95%
@@ -19,11 +19,11 @@ ht-degree: 95%
 
 Experience Cloud と Creative Cloud の間でアセットを共有する際に使用できるファイルタイプとサイズ制限。
 
-## アップロードが許可されているファイルタイプ {#section_52B6A40BB00B45BC944C01C49B4BB590}
+## アップロードが許可されているファイルタイプ
 
-アップロード可能なファイルタイプには、ほとんどの画像、ドキュメント、マルチメディアなどがあります。[!DNL Experience Cloud] アセット内のファイル形式について詳しくは、「[&#x200B; サポートされる形式 &#x200B;](https://helpx.adobe.com/jp/experience-manager/brand-portal/using/brand-portal-supported-formats.html)」を参照してください。
+アップロード可能なファイルタイプには、ほとんどの画像、ドキュメント、マルチメディアなどがあります。[!DNL Experience Cloud] アセット内のファイル形式について詳しくは、「[ サポートされる形式 ](https://helpx.adobe.com/jp/experience-manager/brand-portal/using/brand-portal-supported-formats.html)」を参照してください。
 
-## ファイルサイズの制限 {#section_410ED8E24DBD4136830AE679C6B10D88}
+## ファイルサイズの制限
 
 ファイルサイズの制限はブラウザーに起因し、ブラウザーによって異なる場合があります。
 

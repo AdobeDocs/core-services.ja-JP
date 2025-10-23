@@ -6,7 +6,7 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 76d14913c00e2924f65ebada353ba94760227691
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 79%
@@ -21,7 +21,7 @@ Experience Cloud の中央インターフェイスコンポーネントには、
 * グローバル検索を使用して製品ヘルプとビジネスオブジェクトを検索する
 * アカウント設定（アラート、通知、サブスクリプション）の管理
 
-## Experience Cloud でのブラウザーのサポート {#browser}
+## Experience Cloud でのブラウザーのサポート
 
 最高のパフォーマンスを実現するために、Experience Cloud は、一番人気のブラウザー（最新バージョンに加えて 2 つ前までのバージョンを含む）に合わせて最適化されています。
 
@@ -37,7 +37,7 @@ Experience Cloud の中央インターフェイスコンポーネントには、
 >
 >Experience Cloud ドメインで実行されているすべてのアプリケーションがすべてのブラウザーをサポートしているわけではありません。不明な場合は、特定のアプリケーションのドキュメントを確認してください。
 
-## Experience Cloud での言語サポート {#languages}
+## Experience Cloud での言語サポート
 
 Experience Cloud は、アドビユーザーアカウントの環境設定で設定された各ユーザーの優先言語をサポートしています。現在サポートされている言語は次のとおりです。
 
@@ -54,7 +54,7 @@ Experience Cloud は、アドビユーザーアカウントの環境設定で設
 
 すべてのアプリケーションチームはグローバルな言語サポートに取り組んでいますが、一部のアプリケーションは、上記のすべての言語では提供されていません。プライマリ言語が Experience Cloud アプリケーションでサポートされていない場合、利用可能であればセカンダリ言語をデフォルトに設定することもできます。 これは、[Experience Cloud のユーザーの環境設定](https://experience.adobe.com/preferences) で実行できます。
 
-## Experience Cloud にサインインする {#signin}
+## Experience Cloud にサインインする
 
 ログインし、自分が適切な組織に属していることを確認します。
 
@@ -70,17 +70,17 @@ Experience Cloud は、アドビユーザーアカウントの環境設定で設
 
    例えば、Federated ID を持ち、ドメインが `adobecustomer.com` の組織の場合、URL リンクを `https://experience.adobe.com/#/sso:@adobecustomer.com` に設定します。 また、この URL にアプリケーションパスを付けてブックマークに追加することで、特定のアプリケーションに直接移動することもできます。 （例えば、Adobe Analytics の場合は `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。）
 
-## Experience Cloud アプリケーションへのアクセス {#navigation}
+## Experience Cloud アプリケーションへのアクセス
 
 Experience Cloud にログインすると、統合ヘッダーからすべてのアプリケーション、サービスおよび組織にすばやくアクセスできます。
 
-自身が所有しているExperience Cloud サービスにアクセスするには、アプリケーションセレクター ![&#x200B; メニュー &#x200B;](assets/menu-icon.png) をクリックします。
+自身が所有しているExperience Cloud サービスにアクセスするには、アプリケーションセレクター ![ メニュー ](assets/menu-icon.png) をクリックします。
 
 ![Experience Cloud アプリケーションへのアクセス](assets/platform-core-services.png)
 
-## Experience Cloud での検索とサポート {#search-support}
+## Experience Cloud での検索とサポート
 
-Experience Cloud の検索では、[Experience League](https://experienceleague.adobe.com/ja?lang=ja#home) 上のヘルプ（ドキュメント、チュートリアル、コース）を検索できます。
+Experience Cloud の検索では、[Experience League](https://experienceleague.adobe.com/?lang=ja#home) 上のヘルプ（ドキュメント、チュートリアル、コース）を検索できます。
 
 ![Experience Cloud での検索とサポート](assets/search-menu.png)
 
@@ -91,7 +91,7 @@ Experience Cloud の検索では、[Experience League](https://experienceleague.
 * **[!UICONTROL Status]:** `https://status.adobe.com/experience_cloud` に移動して、製品の動作ステータスと [!UICONTROL Manage Subscriptions] を確認します。
 * **[!UICONTROL Developer Connection]:** `adobe.io` に移動して、開発者向けドキュメントを見つけます。
 
-## アカウント設定 {#account-menu}
+## アカウント設定
 
 アカウントの環境設定メニューで、次の操作を実行できます。
 
@@ -100,11 +100,11 @@ Experience Cloud の検索では、[Experience League](https://experienceleague.
 * ログアウト
 * アカウントの[環境設定、通知、サブスクリプション](#preferences)を設定する
 
-### Experience Cloud [!UICONTROL Preferences] の管理 {#preferences}
+### Experience Cloud [!UICONTROL Preferences] の管理
 
 Experience Cloud の環境設定には、通知、購読、アラートが含まれます。
 
-* アカウントメニュー **[!UICONTROL Preferences]** 環境設定 ![&#x200B; から「](assets/preferences-icon-sm.png)」をクリックして、環境設定を管理します。
+* アカウントメニュー **[!UICONTROL Preferences]** 環境設定 ![ から「](assets/preferences-icon-sm.png)」をクリックして、環境設定を管理します。
 
 ![Experience Cloud の管理](assets/preferences-page.png)
 
@@ -120,7 +120,7 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 
 {style="table-layout:auto"}
 
-## 通知とお知らせ {#notifications}
+## 通知とお知らせ
 
 「**[!UICONTROL Notifications]**」をクリックすると、重要な通知や、Adobeからのお知らせを表示できます。
 

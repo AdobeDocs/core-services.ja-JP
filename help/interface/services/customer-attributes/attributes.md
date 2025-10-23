@@ -7,34 +7,34 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: bd718358c6db1ea4a6150d019773072418b629f9
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 80%
+source-wordcount: '304'
+ht-degree: 81%
 
 ---
 
 # Experience Cloud の [!DNL Customer Attributes]
 
-**[!UICONTROL アプリ]** ![&#x200B; メニュー &#x200B;](assets/menu-icon.png) > **[!DNL Customer Attributes]**
+**[!UICONTROL Apps]** ![ メニュー ](assets/menu-icon.png) > **[!DNL Customer Attributes]**
 
-Experience Cloud で [!DNL Customer Attributes] を使用すると、顧客関係管理（CRM）データベースから取り込んだ企業データをアップロードできます。Experience Cloud内の [&#x200B; データソースに &#x200B;](t-crs-usecase.md) データをアップロード [!DNL Customer Attributes] した後、[!DNL Adobe Analytics] および [!DNL Adobe Target] でそのデータを使用できます。
+Experience Cloud で [!DNL Customer Attributes] を使用すると、顧客関係管理（CRM）データベースから取り込んだ企業データをアップロードできます。Experience Cloud内の [ データソースに ](t-crs-usecase.md) データをアップロード [!DNL Customer Attributes] した後、[!DNL Adobe Analytics] および [!DNL Adobe Target] でそのデータを使用できます。
 
 ![顧客属性の概要](assets/custom_reports.png)
 
-## 企業顧客データとは  {#enterprise_data}
+## 企業顧客データとは 
 
 企業データは様々なシステムに分散されています。企業データは複雑で、そのデータが持つ意味は人によって異なることがあります。このデータには、メンバーシップ、ロイヤルティ、年齢、性別、所有する製品、興味、ライフタイム値などの情報が含まれます。
 
 次に示すのは、製品の購読者データを示すデータファイルの例です。このデータには、メンバー ID、権利が付与されている製品、市場で最も多く発売されている製品などの情報が含まれています。
 
-![企業顧客データとは &#x200B;](assets/01_crs_usecase.png)
+![企業顧客データとは ](assets/01_crs_usecase.png)
 
-データファイルを作成したら、**[!UICONTROL Experience Cloud]**/**[!UICONTROL 顧客属性]** で作成する顧客属性ソースにアップロードできます。
+データファイルを作成したら、**[!UICONTROL Experience Cloud]**/**[!UICONTROL Customer attributes]** で作成する顧客属性ソースにアップロードできます。
 
-このワークフローについては、[&#x200B; 顧客属性データのアップロード &#x200B;](t-crs-usecase.md) を参照してください。
+このワークフローについては、[ 顧客属性データのアップロード ](t-crs-usecase.md) を参照してください。
 
-## Analytics と Target における顧客属性の例 {#examples}
+## Analytics と Target における顧客属性の例
 
 データを Experience Cloud にアップロードした後は、そのデータをカスタマイズし、レポート、セグメント化、アクティビティおよびキャンペーンで利用するソリューションで共有できます。
 

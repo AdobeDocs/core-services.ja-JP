@@ -7,14 +7,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cc44008e-8b8a-4afb-b692-0ef9b87d5b21
-source-git-commit: fb5ea051385932fbb2c762d4a887c089fcec706e
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '237'
 ht-degree: 56%
 
 ---
 
-# Experience Cloud でのブラウザーのサポート {#browser}
+# Experience Cloud でのブラウザーのサポート
 
 最高のパフォーマンスを実現するために、Experience Cloud は、一番人気のブラウザー（最新バージョンに加えて 2 つ前までのバージョンを含む）に合わせて最適化されています。
 
@@ -30,7 +30,7 @@ ht-degree: 56%
 >
 >Experience Cloud ドメインで実行されているすべてのアプリケーションがすべてのブラウザーをサポートしているわけではありません。不明な場合は、特定のアプリケーションのドキュメントを確認してください。
 
-## Experience Cloud での言語サポート {#languages}
+## Experience Cloud での言語サポート
 
 Experience Cloud ユーザーインターフェイスは、次の言語で使用できます。
 
@@ -55,12 +55,12 @@ Experience Cloud ユーザーインターフェイスは、次の言語で使用
 
 **デフォルト言語を指定するには**
 
-1. Experience Cloudで、**[!UICONTROL プロファイル]**/[&#x200B; 環境設定 &#x200B;](https://experience.adobe.com/preferences) をクリックします。
+1. Experience Cloudで、**[!UICONTROL Profile]**/[ 環境設定 ](https://experience.adobe.com/preferences) をクリックします。
 
-1. **[!UICONTROL プロファイル]** の下で、言語リンクをクリックします。
+1. 「**[!UICONTROL Profile]**」の下の「言語」リンクをクリックします。
 
-1. **[!UICONTROL 言語を選択]** で **[!UICONTROL 第 1 言語]** メニューから言語を選択します。
+1. **[!UICONTROL Select language]** で、**[!UICONTROL First language]** のメニューから言語を選択します。
 
    すべてのアプリケーションチームはグローバルな言語サポートに取り組んでいますが、すべてのアプリケーションがインターフェイスに表示されるすべての言語で提供されるわけではありません。 プライマリ言語がExperience Cloud アプリケーションでサポートされていない場合は、必要に応じてセカンダリのデフォルト言語を設定できます。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。

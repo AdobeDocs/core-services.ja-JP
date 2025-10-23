@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: ab65ddb3bf6887db4fa0b2ffbbef89fc198b191a
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 100%
+source-wordcount: '494'
+ht-degree: 84%
 
 ---
 
@@ -27,12 +27,12 @@ Experience Cloud のヘッダーから、次の操作を実行できます。
 * 「検索」フィールドのグローバル検索を使用したビジネスオブジェクトの検索（Experience Platform ユーザーのみ）。
 * アカウントの[環境設定](features/account-preferences.md)（アラート、通知、サブスクリプション）を管理します
 
-## Experience Cloud にサインインする {#signin}
+## Experience Cloud にサインインする
 
 ログインし、自分が適切な[組織](administration/organizations.md)に属していることを確認します。
 
 1. [Adobe Experience Cloud](https://experience.adobe.com) に移動します。
-1. アドビのメールアドレスを入力し、「**[!UICONTROL 続行]**」をクリックします。
+1. Adobe メールアドレスを入力し、「**[!UICONTROL Continue]**」をクリックします。
 1. アカウントをクリックします。
 1. パスワードを入力します。
 1. 自分が適切な組織に属していることを確認します。
@@ -47,7 +47,7 @@ Experience Cloud のヘッダーから、次の操作を実行できます。
 
    例えば、Federated ID を持ち、ドメインが `adobecustomer.com` の組織の場合、URL リンクを `https://experience.adobe.com/#/sso:@adobecustomer.com` に設定します。 また、この URL にアプリケーションパスを付けてブックマークに追加することで、特定のアプリケーションに直接移動することもできます。 （例えば、Adobe Analytics の場合は `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。）
 
-## Experience Cloud アプリケーションへのアクセス {#navigation}
+## Experience Cloud アプリケーションへのアクセス
 
 Experience Cloud にログインすると、統合ヘッダーからすべてのアプリケーション、サービスおよび組織にすばやくアクセスできます。
 
@@ -55,31 +55,31 @@ Experience Cloud にログインすると、統合ヘッダーからすべての
 
 ![Experience Cloud アプリケーションへのアクセス](assets/platform-core-services.png)
 
-## お問い合わせとサポート {#support}
+## お問い合わせとサポート
 
-[Experience League](https://experienceleague.adobe.com/ja?lang=ja#home) のヘルプコンテンツ（ドキュメント、チュートリアル、コース）および個々のアプリケーションの追加リソースなど、ヘッダーの&#x200B;**[!UICONTROL ヘルプセンター]**（![アセット](assets/help-icon.png)）を使用して、ラーニングとヘルプにアクセスします。自由形式のフィードバックを送信して、優先度の高いサポートチケットを作成することもできます。
+**[!UICONTROL Help center]** Experience League![ のヘルプコンテンツ（ドキュメント、チュートリアル、コース）および個々のアプリケーションの追加リソースなど、ヘッダーの ](assets/help-icon.png) ール（[asset](https://experienceleague.adobe.com/?lang=ja#home)）を使用して、学習やヘルプにアクセスします。 自由形式のフィードバックを送信して、優先度の高いサポートチケットを作成することもできます。
 
 ![お問い合わせとサポート](assets/search-menu.png)
 
-[!UICONTROL ヘルプ]メニューからも、次の項目にアクセスできます。
+[!UICONTROL Help] メニューからも、次の項目にアクセスできます。
 
-* **[!UICONTROL サポート]：** サポートチケットを作成するか、Twitter を使用して[!UICONTROL サポート]にお問い合わせください。
-* **[!UICONTROL フィードバック]：** Experience Cloud のエクスペリエンスに関するフィードバックをお寄せください。フィードバックは、アドビの製品およびサービスを改善するために使用されます。
-* **[!UICONTROL ステータス]：** に移動して、製品の `https://status.adobe.com/experience_cloud` 運用状況と[!UICONTROL サブスクリプションの管理]を確認します。
-* **[!UICONTROL Developer Connection]：** `adobe.io` に移動して、開発者向けドキュメントを見つけます。
+* **[!UICONTROL Support]:** サポートチケットを作成するか、Twitter を使用して [!UICONTROL Support] に連絡します。
+* **[!UICONTROL Feedback]:** Experience Cloudのエクスペリエンスに関するフィードバックをお寄せください。 フィードバックは、アドビの製品およびサービスを改善するために使用されます。
+* **[!UICONTROL Status]:** `https://status.adobe.com/experience_cloud` に移動して、製品の動作ステータスと [!UICONTROL Manage Subscriptions] を確認します。
+* **[!UICONTROL Developer Connection]:** `adobe.io` に移動して、開発者向けドキュメントを見つけます。
 
 ## ユーザープロファイルの管理
 
-[!UICONTROL プロファイル]メニューで、次の操作を実行できます。
+[!UICONTROL Profile] メニューでは、次の操作を実行できます。
 
 * ダークテーマを指定する（このテーマに対応していないアプリケーションもあります）
 * Experience Cloud の[環境設定](features/account-preferences.md)を管理する
 * [組織](administration/organizations.md)を選択または検索する
-* [!UICONTROL 法律上の注意]を表示する
+* [!UICONTROL Legal Notices] を表示
 * ログアウト
 * アカウントの環境設定、通知、サブスクリプションを設定する
 
-## 製品内通知とお知らせの表示 {#notifications}
+## 製品内通知とお知らせの表示
 
 ベルアイコンをクリックすると、通知とお知らせが表示されます。お知らせには、製品リリース、メンテナンス通知、共有項目、承認リクエストなど、関連性の高い実用的な更新が含まれる場合があります。
 
