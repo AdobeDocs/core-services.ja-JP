@@ -91,12 +91,12 @@ Aliases: smetrics.example.com
 
 証明書が正しく動作することを検証したら、これらの値を使用するようにAdobeを更新できます。
 
-* **Web SDK タグ拡張機能**：拡張機能の設定時に、「[[!UICONTROL Edge domain]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)」フィールドを更新します。
-* **Web SDK（alloy）**:[`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain) コマンド内の [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) プロパティを更新します。
-* **Adobe Analytics拡張機能**：拡張機能の設定時に「[[!UICONTROL SSL Tracking Server]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview)」フィールドを更新します。 [&#x200B; 訪問者 ID サービスタグ拡張機能 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview) もインストールされていることを確認します。 詳しくは [Analytics タグ拡張機能を使用した訪問者の識別 &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension) を参照してください。
-* **AppMeasurement**: [`trackingServerSecure`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserversecure) 設定変数を更新します。 [&#x200B; を使用して &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home) 訪問者 ID サービス `VisitorAPI.js` も実装されていることを確認します。 詳しくは [AppMeasurementを使用した訪問者の識別 &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension) を参照してください。
+* **Web SDK タグ拡張機能**：拡張機能の設定時に、「[[!UICONTROL Edge domain]](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)」フィールドを更新します。
+* **Web SDK（alloy）**:[`edgeDomain`](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/edgedomain) コマンド内の [`configure`](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/overview) プロパティを更新します。
+* **Adobe Analytics拡張機能**：拡張機能の設定時に「[[!UICONTROL SSL Tracking Server]](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/analytics/overview)」フィールドを更新します。 [&#x200B; 訪問者 ID サービスタグ拡張機能 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/id-service/overview) もインストールされていることを確認します。 詳しくは [Analytics タグ拡張機能を使用した訪問者の識別 &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics/implementation/id/analytics-extension) を参照してください。
+* **AppMeasurement**: [`trackingServerSecure`](https://experienceleague.adobe.com/ja/docs/analytics/implementation/vars/config-vars/trackingserversecure) 設定変数を更新します。 [&#x200B; を使用して &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home) 訪問者 ID サービス `VisitorAPI.js` も実装されていることを確認します。 詳しくは [AppMeasurementを使用した訪問者の識別 &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics/implementation/id/analytics-extension) を参照してください。
 
-サイトで複数の実装方法を使用していて、すべてを同時に更新できない場合は、猶予期間を設定することを検討してください。 サイト全体で訪問者が新規訪問者としてカウントされないようにする方法について詳しくは、[&#x200B; 訪問者 ID サービスの移行に関する考慮事項 &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration) を参照してください。
+サイトで複数の実装方法を使用していて、すべてを同時に更新できない場合は、猶予期間を設定することを検討してください。 サイト全体で訪問者が新規訪問者としてカウントされないようにする方法について詳しくは、[&#x200B; 訪問者 ID サービスの移行に関する考慮事項 &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics/implementation/id/migration) を参照してください。
 
 ## 保守および更新
 
