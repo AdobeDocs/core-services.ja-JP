@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 95%
+source-wordcount: '392'
+ht-degree: 91%
 
 ---
 
@@ -41,7 +41,7 @@ GDPR がお客様のビジネスに与える影響について詳しくは、[GD
 
    [組織 ID](../../administration/organizations.md) は、24 文字の英数字から成る文字列の後に @AdobeOrg が付いたものです。Privacy API にリクエストを送信するには、組織の ID が必要です。ID が見つからない場合は、アドビカスタマーケア（`gdprsupport@adobe.com`）にお問い合わせください。
 
-1. [!UICONTROL プライバシーサービス]で、[!DNL Customer Attributes] にアクセスおよび削除のリクエストを送信し、既存のリクエストのステータスを確認できます。
+1. [!UICONTROL Privacy Service] では、[!DNL Customer Attributes] にアクセスリクエストと削除リクエストを送信し、既存のリクエストのステータスを確認できます。
 
 ## [!DNL Customer Attributes] JSON リクエストの必須フィールド値
 
@@ -103,3 +103,4 @@ attributes:
 "displayName": "<*displayName*>"
 }
 ```
+

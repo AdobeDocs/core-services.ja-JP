@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 61%
+source-wordcount: '415'
+ht-degree: 63%
 
 ---
 
@@ -24,17 +24,17 @@ ht-degree: 61%
 
 1. 編集用に [!DNL Customer Attributes] でデータソースを見つけます。
 
-   [!DNL Experience Cloud] で、**[!UICONTROL アプリ]**![&#x200B; メニュー &#x200B;](assets/menu-icon.png)/**[!DNL Customer Attributes]** をクリックします。
+   [!DNL Experience Cloud] で、**[!UICONTROL Apps]** メニュー ![/](assets/menu-icon.png)**[!DNL Customer Attributes]** クリックします。
 
-1. [!UICONTROL &#x200B; 顧客属性Sourceを編集 &#x200B;] で、「**[!UICONTROL ファイルのアップロード]**」をクリックします。
+1. [!UICONTROL Edit Customer Attribute Source] で、「**[!UICONTROL File Upload]**」をクリックします。
 
-1. 「**[!UICONTROL 購読を設定]**」をクリックします。
+1. 「**[!UICONTROL Configure Subscriptions]**」をクリックします。
 
    ![Experience Cloud でのサブスクリプション設定](assets/configure-subscriptions.png)
 
-1. 顧客属性ソースをアクティブにするには、「**[!UICONTROL アクティブ]**」をクリックし、「**[!UICONTROL 保存]**」をクリックします。
+1. 顧客属性ソースをアクティブにするには、「**[!UICONTROL Active]**」をクリックし、「**[!UICONTROL Save]**」をクリックします。
 
-1. [!DNL Analytics] または [!DNL Target] のサブスクリプションを構成するには、[**[!UICONTROL 構成]**] をクリックします。
+1. [!DNL Analytics] または [!DNL Target] のサブスクリプションを構成するには、[**[!UICONTROL Configure]**] をクリックします。
 
    次に、[!DNL Target] サブスクリプションの例を示します。
 
@@ -46,4 +46,5 @@ ht-degree: 61%
    | レポートスイート（Adobe Analytics） | Analytics のレポートスイート。<br>1 つの属性ソース内で Analytics の購読に追加できるレポートスイートの合計は最大 10 です。含めるレポートスイートを選択する際は、以下のアドバイスを考慮してください。<ul><li>認証済みの共通の顧客セットを持つレポートスイートを選択する。あるレポートスイートの認証済み顧客が別のレポートスイートの認証済み顧客と重ならない場合は、これらのレポートスイートを異なる属性ソースに分けてください。</li><li>可能であれば、1 つの属性ソースに含まれるレポートスイートのトラフィック量は同じにする。</li></ul><br>認証済みの共通の顧客セットを持つレポートスイートが 10 以上ある場合は、追加の顧客属性ソースを設定して、それぞれを最大 10 レポートスイートにすることができます。 |
    | 含める属性（Analytics と [!DNL Target]） | アプリケーションに送信する属性。<br>サブスクリプションを設定し属性を選択する場合、_所有するソリューションに応じて、_&#x200B;レポートスイートごとに次の制限が適用されます。<ul><li>Foundation：0 件</li><li>Select：3 件</li><li>Prime：15 件</li><li>Ultimate：200 件</li><li>Standard：合計 3 件</li><li>Premium：レポートスイートあたり 200 件</li><li>[!DNL Target] Standard：5 件</li><li>[!DNL Target] Premium：200 件</li></ul><br>**注意：** Analytics Premium にアップグレードすると、追加の属性を使用できるようになるまでに 24 時間の遅延が生じます。この遅延の間に、属性サブスクリプションの上限に関連するエラーが発生することがあります。 |
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
+

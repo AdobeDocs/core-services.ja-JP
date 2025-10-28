@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 2cc76688e37afa0a0f68e3066fede18b8d3918e6
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 79%
+source-wordcount: '184'
+ht-degree: 67%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 79%
 
 このドキュメントは、[!DNL People] サービス（[!DNL Audience Library] と [!DNL Customer Attributes]）、Experience Cloud のユーザーおよび製品管理、Cookie、アカウント設定、通知など、Experience Cloud 統合ヘッダーの機能に適用されます。
 
-Experience Cloud のこれらのサービスにアクセスするには、**[!UICONTROL アプリケーションセレクター]**
-![サービスセレクター](../assets/apps-icon.png)を選択します。
+Experience Cloudのこれらのサービスにアクセスするには、**[!UICONTROL Application Selector]** を選択します
+![ サービスセレクター ](../assets/apps-icon.png)。
 
 ![Experience Cloud サービス](../assets/platform-core-services.png)
 
@@ -37,4 +37,3 @@ Experience Cloud のこれらのサービスにアクセスするには、**[!UI
 >[!NOTE]
 >
 >[Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja) の製品ドキュメントが利用できます。 [!UICONTROL Experience Platform] 開発者向けの技術ドキュメントは、[Adobe Developer](https://developer.adobe.com/apis) にあります。
-

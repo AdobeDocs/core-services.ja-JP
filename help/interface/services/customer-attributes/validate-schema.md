@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-source-git-commit: d2244e249c7af27bc1b4fc7bfe628bc25b37f4d4
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 49%
+source-wordcount: '310'
+ht-degree: 37%
 
 ---
 
@@ -28,28 +28,29 @@ ht-degree: 49%
 
 1. [!DNL Customer Attributes] で、編集する属性ソースをクリックします。
 
-1. **[!UICONTROL 顧客属性Sourceを編集]** で、「**[!UICONTROL ファイルのアップロード]**」をクリックします。
+1. **[!UICONTROL Edit Customer Attribute Source]** の [**[!UICONTROL File Upload]**] をクリックします。
 
-1. [!UICONTROL &#x200B; ファイルのアップロードとスキーマの検証 &#x200B;] ページで、**[!UICONTROL アクション]**/**[!UICONTROL スキーマの表示/編集]** をクリックします
+1. [!UICONTROL File Upload and Schema Validation] ページで、**[!UICONTROL Actions]**/**[!UICONTROL View/Edit Schema]** をクリックします。
 
    ![スキーマの編集](assets/actions.png)
 
-   [!UICONTROL &#x200B; スキーマを編集 &#x200B;] ページでは、スキーマの各行は、アップロードされた CSV ファイルの列を表しています。
+   [!UICONTROL Edit Schema] ページでは、スキーマの各行は、アップロードされた CSV ファイルの列を表しています。
 
-   ![Experience Cloudのスキーマページを編集 &#x200B;](assets/schema-edit.png)
+   ![Experience Cloudのスキーマページを編集 ](assets/schema-edit.png)
 
 **アクション**
 
-* **[!UICONTROL データの追加：]**&#x200B;新しい属性データをこのデータソースにアップロードできます。
+* **[!UICONTROL Add Data:]** このデータソースに新しい属性データをアップロードします。
 
-* **[!UICONTROL スキーマを表示 / 編集：]**&#x200B;次の手順で説明するように、表示名を属性データにマッピングします。
+* **[!UICONTROL View/Edit Schema:]** 次の手順で説明するように、表示名を属性データにマップします。
 
-* **[!UICONTROL FTP のセットアップ：]** FTP アカウントを作成して [FTP を使用してデータをアップロード &#x200B;](t-upload-attributes-ftp.md) します（オプション）。
+* **[!UICONTROL FTP Setup:]** FTP アカウントを作成して [FTP を使用してデータをアップロード ](t-upload-attributes-ftp.md) します（オプション）。
 
-* **[!UICONTROL ID 参照：]** `.csv` ーザーの顧客 ID （CID）を入力して、ID のExperience Cloud情報を検索します。 この機能は、訪問者に対して属性データが表示されない理由をトラブルシューティングするのに役立ちます。
+* **[!UICONTROL ID Lookup:]** `.csv` から顧客 ID （CID）を入力し、ID のExperience Cloud情報を検索します。 この機能は、訪問者に対して属性データが表示されない理由をトラブルシューティングするのに役立ちます。
 
-   * **[!UICONTROL ECID（Experience Cloud ID）：]**&#x200B;最新の Experience Cloud ID サービスを使用している場合に表示されます。MCID サービスを使用しているが、ここに ID がリストされていない場合、Experience Cloudはその CID のエイリアスを受信していません。 つまり、その訪問者がログインしていないか、実装がその ID を渡していません。
+   * 最新のExperience Cloud ID サービスを使用している場合は、「**[!UICONTROL ECID (Experience Cloud ID):]**」と表示されます。 MCID サービスを使用しているが、ここに ID がリストされていない場合、Experience Cloudはその CID のエイリアスを受信していません。 つまり、その訪問者がログインしていないか、実装がその ID を渡していません。
 
-   * **[!UICONTROL CID （顧客 ID）:]** この CID に関連付けられた属性。 prop または eVar を使用して CID（AVID）をアップロードし、属性は表示されるが AVID は表示されない場合は、訪問者がサイトにログインしていないことを意味します。
+   * **[!UICONTROL CID (customer ID):]** この CID に関連付けられている属性。 prop または eVar を使用して CID（AVID）をアップロードし、属性は表示されるが AVID は表示されない場合は、訪問者がサイトにログインしていないことを意味します。
 
-   * **[!UICONTROL AVID（Analytics 訪問者 ID）：]** prop または eVar を使用して CID をアップロードする場合に表示されます。これらの ID がExperience Cloudに渡される場合、入力した CID に関連付けられているすべての訪問者 ID がここに表示されます。
+   * **[!UICONTROL AVID (Analytics visitor ID):]** prop またはeVarを使用して CID をアップロードすると表示されます。 これらの ID がExperience Cloudに渡される場合、入力した CID に関連付けられているすべての訪問者 ID がここに表示されます。
+
