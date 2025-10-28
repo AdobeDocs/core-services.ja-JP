@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: d1d4fe5c9fafb03e407ab220d9b39be4ffc71ea4
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 67%
+source-wordcount: '188'
+ht-degree: 68%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 67%
 このドキュメントは、[!DNL People] サービス（[!DNL Audience Library] と [!DNL Customer Attributes]）、Experience Cloud のユーザーおよび製品管理、Cookie、アカウント設定、通知など、Experience Cloud 統合ヘッダーの機能に適用されます。
 
 Experience Cloudのこれらのサービスにアクセスするには、**[!UICONTROL Application Selector]** を選択します
-![&#x200B; サービスセレクター &#x200B;](../assets/apps-icon.png)。
+![ サービスセレクター ](../assets/apps-icon.png)。
 
 ![Experience Cloud サービス](../assets/platform-core-services.png)
 
@@ -27,10 +27,10 @@ Experience Cloudのこれらのサービスにアクセスするには、**[!UIC
 
 | コアサービス | 説明 |
 |--- |--- |
-| [中央インターフェイスコンポーネント](../experience-cloud.md) | アカウント設定にアクセスし、製品ヘルプを検索して、アプリケーションとサービスにアクセスします。 |
-| [オーディエンスライブラリ](audiences/overview.md) | オーディエンスは、訪問者の集合（訪問者 ID のリスト）です。Adobe [!DNL Audience Library] を使用すると、訪問者データからオーディエンスのセグメント化への変換を管理できます。 |
-| [顧客属性](customer-attributes/attributes.md) | イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築できます。[!UICONTROL Journey Orchestration] は、Experience Platform と統合されたアプリケーションサービスです。 |
-| [Assets](assets/experience-cloud-assets.md) | Experience Cloud Assets は、複数のアプリケーション間で共有できるマーケティング用アセットの単一の集中リポジトリを提供します。 |
+| [中央インターフェイスコンポーネント](https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud) | アカウント設定にアクセスし、製品ヘルプを検索して、アプリケーションとサービスにアクセスします。 |
+| [オーディエンスライブラリ](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/audiences/overview) | オーディエンスは、訪問者の集合（訪問者 ID のリスト）です。Adobe [!DNL Audience Library] を使用すると、訪問者データからオーディエンスのセグメント化への変換を管理できます。 |
+| [顧客属性](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes) | イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築できます。[!UICONTROL Journey Orchestration] は、Experience Platform と統合されたアプリケーションサービスです。 |
+| [Assets](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/assets/experience-cloud-assets) | Experience Cloud Assets は、複数のアプリケーション間で共有できるマーケティング用アセットの単一の集中リポジトリを提供します。 |
 
 {style="table-layout:auto"}
 
