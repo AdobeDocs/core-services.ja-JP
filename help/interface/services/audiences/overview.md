@@ -42,7 +42,7 @@ Experience Cloud アプリケーションでのオーディエンスの使用方
 | ソリューション | 説明 |
 |--- |--- |
 | Experience Cloud Audiences | オーディエンスライブラリを使用して、オーディエンスをネイティブに作成、管理および共有します。 実行できる操作は、次のとおりです。<ul><li>生の分析属性を使用してリアルタイムオーディエンスを使用します。</li><li>オーディエンスを組み合わせて複合オーディエンスを作成し、リアルタイムのデータと履歴データを結合します。</li><li>推定オーディエンスサイズのグラフィカルビューを参照してください。</li></ul><br>作成するオーディエンスのタイプの提案について詳しくは、[オーディエンス作成オプション](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ja)を参照してください。 |
-| Analytics | セグメント化では、セグメントを作成してレポートスイートと組み合わせ、そのセグメントを Experience Cloud に公開します。セグメントを公開すると、Experience Cloud の [!DNL Audience Library] ページに表示されます。（詳しくは、[ のヘルプの ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)Experience Cloudへのセグメントの公開 [!DNL Analytics] を参照してください。） オーディエンスは、[!DNL Adobe Target] によって配信されるキャンペーンエクスペリエンスのターゲットオーディエンスとして、また [!DNL Audience Manager] で使用することもできます。 [!DNL Adobe Analytics] からオーディエンスを共有し、アクティブなキャンペーンで使用するために選択すると、過去 90 日間にセグメント定義条件を満たした訪問者プロファイルが [!UICONTROL Audience Services] に送信されます。 共有オーディエンス数の上限は 75 に増えました。[!DNL Analytics] から Experience Cloud に共有するオーディエンスのユニークメンバー数が 2,000 万を超えてはなりません。キャッシュの影響で、Analytics で削除したレポートスイートが Experience Cloud に反映されるまで 12 時間かかります。 |
+| Analytics | セグメント化では、セグメントを作成してレポートスイートと組み合わせ、そのセグメントを Experience Cloud に公開します。セグメントを公開すると、Experience Cloud の [!DNL Audience Library] ページに表示されます。（詳しくは、[&#x200B; のヘルプの &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)Experience Cloudへのセグメントの公開 [!DNL Analytics] を参照してください。） オーディエンスは、[!DNL Adobe Target] によって配信されるキャンペーンエクスペリエンスのターゲットオーディエンスとして、また [!DNL Audience Manager] で使用することもできます。 [!DNL Adobe Analytics] からオーディエンスを共有し、アクティブなキャンペーンで使用するために選択すると、過去 90 日間にセグメント定義条件を満たした訪問者プロファイルが [!UICONTROL Audience Services] に送信されます。 共有オーディエンス数の上限は 75 に増えました。[!DNL Analytics] から Experience Cloud に共有するオーディエンスのユニークメンバー数が 2,000 万を超えてはなりません。キャッシュの影響で、Analytics で削除したレポートスイートが Experience Cloud に反映されるまで 12 時間かかります。 |
 | Mobile Services | [!UICONTROL Device Types] レポートのサンバースト ビジュアライゼーションを使用してモバイルトラフィックを分析します。 |
 | [!DNL Target] | [ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)は、訪問者 ID とデータを、アプリケーションをまたいで使用するための、アクションにつながる単一のプロファイルに統合します。Adobe Analyticsでセグメントを作成する際に、「[!UICONTROL Publish to Experience Cloud]」チェックボックスをオンにすると、Adobe Targetのカスタムオーディエンスライブラリ内でセグメントを使用できるようになります。 [!DNL Analytics] または [!DNL Audience Manager] で作成されたセグメントは、[!DNL Target] のアクティビティで使用できます。例えば、[!DNL Analytics] コンバージョン指標および [!DNL Analytics] で作成されたオーディエンスセグメントに基づいてキャンペーンアクティビティを作成できます。 |
 | [!DNL Audience Manager] | 共有オーディエンスは、[!DNL Audience Manager] でのセグメント化に使用できます。Experience Cloud オーディエンスはすべて、[!DNL Audience Manager] でネイティブに使用でき、次に対応しています。<ul><li>アプリケーションワークフローでの共有および利用に関するビルトインの自動処理</li><li>他ツールとのデータ連携</li><li>類似モデリング</li></ul> |
@@ -69,7 +69,7 @@ Experience Cloud アプリケーションでのオーディエンスの使用方
 | 新規 | [オーディエンスを作成](create.md)します。 |
 | タイトルと説明 | オーディエンスを識別および説明する列見出し。 |
 | 作成者 | オーディエンスセグメントを作成したユーザー。 |
-| ソース | オーディエンスが作成された場所を示します。<ul><li>**Analytics:** Adobe Analyticsで作成され、Experience Cloudに公開されたセグメント。</li><li>**Experience Cloud：**[Experience Cloud Audiences で作成された](create.md)新しいオーディエンス。</li><li>**Audience Manager：** Audience Manager で作成されたオーディエンスは Experience Cloud オーディエンスに自動的に表示されます。</li></ul> |
+| ソース | オーディエンスが作成された場所を示します。<ul><li>**Analytics:** Adobe Analyticsで作成され、Experience Cloudに公開されたセグメント。</li><li>**Experience Cloud：**&#x200B;[Experience Cloud Audiences で作成された](create.md)新しいオーディエンス。</li><li>**Audience Manager：** Audience Manager で作成されたオーディエンスは Experience Cloud オーディエンスに自動的に表示されます。</li></ul> |
 | 現在のサイズ | 現在のオーディエンスのサイズ。 |
 | アクティブ | セグメントのアクティブステータス。 |
 
@@ -77,5 +77,5 @@ Experience Cloud アプリケーションでのオーディエンスの使用方
 
 ## Adobe Analyticsからのオーディエンスの公開
 
-詳しくは、Adobe Analytics ドキュメントの [Experience Cloudへのセグメントの公開 ](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) を参照してください。
+詳しくは、Adobe Analytics ドキュメントの [Experience Cloudへのセグメントの公開 &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) を参照してください。
 

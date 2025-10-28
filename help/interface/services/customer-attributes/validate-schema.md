@@ -36,7 +36,7 @@ ht-degree: 37%
 
    [!UICONTROL Edit Schema] ページでは、スキーマの各行は、アップロードされた CSV ファイルの列を表しています。
 
-   ![Experience Cloudのスキーマページを編集 ](assets/schema-edit.png)
+   ![Experience Cloudのスキーマページを編集 &#x200B;](assets/schema-edit.png)
 
 **アクション**
 
@@ -44,7 +44,7 @@ ht-degree: 37%
 
 * **[!UICONTROL View/Edit Schema:]** 次の手順で説明するように、表示名を属性データにマップします。
 
-* **[!UICONTROL FTP Setup:]** FTP アカウントを作成して [FTP を使用してデータをアップロード ](t-upload-attributes-ftp.md) します（オプション）。
+* **[!UICONTROL FTP Setup:]** FTP アカウントを作成して [FTP を使用してデータをアップロード &#x200B;](t-upload-attributes-ftp.md) します（オプション）。
 
 * **[!UICONTROL ID Lookup:]** `.csv` から顧客 ID （CID）を入力し、ID のExperience Cloud情報を検索します。 この機能は、訪問者に対して属性データが表示されない理由をトラブルシューティングするのに役立ちます。
 
