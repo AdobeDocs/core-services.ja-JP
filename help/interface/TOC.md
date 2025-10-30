@@ -5,10 +5,10 @@ breadcrumb-title: Experience Cloud インターフェイスおよび管理
 title: Experience Cloud インターフェイスおよび管理
 description: Experience Cloud インターフェイス、Cookie、アカウントの環境設定について説明します。製品を管理し、顧客属性やオーディエンスライブラリなどの People サービスを設定します。Experience Cloud Assets の共有。
 index: true
-source-git-commit: 40d6a57d13e9cc1e85d2980ea193880885e32088
+source-git-commit: 609eaf1819189cb4eac76b2b58703b246dfb843b
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 100%
+source-wordcount: '212'
+ht-degree: 96%
 
 ---
 
@@ -16,9 +16,12 @@ ht-degree: 100%
 # Experience Cloud インターフェイスおよび管理 {#interface}
 
 + [Experience Cloud インターフェイスおよび管理](experience-cloud.md)
++ [非表示のホーム](hidden-experience-cloud.md)
 + サービス {#services}
    + [概要](services/overview.md)
    + [基本を学ぶ](services/getting-started.md)
+   + [非表示の概要](services/hidden-overview.md)
+   + [非表示の基本を学ぶ](services/hidden-getting-started.md)
    + アセット {#assets}
       + [概要](services/assets/experience-cloud-assets.md)
       + [Creative Cloud ユーザーの管理](services/assets/manage-cc-users.md)
