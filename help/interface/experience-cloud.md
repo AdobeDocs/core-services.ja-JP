@@ -49,7 +49,7 @@ Experience Cloud のヘッダーから、次の操作を実行できます。
 
    >[!NOTE]
    >
-   >Adobe商品へのアクセスは社内の管理者が IP アドレスで制限する場合があります。 これを有効にしてExperience Cloudにログインしたり、組織に切り替えたりすると、エラーが発生する場合があります。 詳しくは、[IP アドレスで製品へのアクセスを制限する &#x200B;](https://helpx.adobe.com/enterprise/using/ip-based-access.html) を参照してください。
+   >Adobe商品へのアクセスは社内の管理者が IP アドレスで制限する場合があります。 これを有効にしてExperience Cloudにログインしたり、組織に切り替えたりすると、エラーが発生する場合があります。 詳しくは、[IP アドレスで製品へのアクセスを制限する &#x200B;](https://helpx.adobe.com/jp/enterprise/using/ip-based-access.html) を参照してください。
 
 
 ## Experience Cloud アプリケーションへのアクセス
