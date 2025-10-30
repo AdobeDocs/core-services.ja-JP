@@ -49,7 +49,7 @@ Experience Cloud のヘッダーから、次の操作を実行できます。
 
    >[!NOTE]
    >
-   >Adobe商品へのアクセスは社内の管理者が IP アドレスで制限する場合があります。 これを有効にしてExperience Cloudにログインしたり、組織に切り替えたりすると、エラーが発生する場合があります。 詳しくは、[IP アドレスで製品へのアクセスを制限する ](https://helpx.adobe.com/enterprise/using/ip-based-access.html) を参照してください。
+   >Adobe商品へのアクセスは社内の管理者が IP アドレスで制限する場合があります。 これを有効にしてExperience Cloudにログインしたり、組織に切り替えたりすると、エラーが発生する場合があります。 詳しくは、[IP アドレスで製品へのアクセスを制限する &#x200B;](https://helpx.adobe.com/enterprise/using/ip-based-access.html) を参照してください。
 
 
 ## Experience Cloud アプリケーションへのアクセス
@@ -62,7 +62,7 @@ Experience Cloud にログインすると、統合ヘッダーからすべての
 
 ## お問い合わせとサポート
 
-**[!UICONTROL Help center]** Experience League![ のヘルプコンテンツ（ドキュメント、チュートリアル、コース）および個々のアプリケーションの追加リソースなど、ヘッダーの ](assets/help-icon.png) ール（[asset](https://experienceleague.adobe.com/ja#home)）を使用して、学習やヘルプにアクセスします。 自由形式のフィードバックを送信して、優先度の高いサポートチケットを作成することもできます。
+**[!UICONTROL Help center]** Experience League![&#x200B; のヘルプコンテンツ（ドキュメント、チュートリアル、コース）および個々のアプリケーションの追加リソースなど、ヘッダーの &#x200B;](assets/help-icon.png) ール（[asset](https://experienceleague.adobe.com/ja#home)）を使用して、学習やヘルプにアクセスします。 自由形式のフィードバックを送信して、優先度の高いサポートチケットを作成することもできます。
 
 ![お問い合わせとサポート](assets/search-menu.png)
 
