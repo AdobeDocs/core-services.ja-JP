@@ -47,7 +47,7 @@ Experience Cloud のヘッダーから、次の操作を実行できます。
 
    例えば、Federated ID を持ち、ドメインが `adobecustomer.com` の組織の場合、URL リンクを `https://experience.adobe.com/#/sso:@adobecustomer.com` に設定します。 また、この URL にアプリケーションパスを付けてブックマークに追加することで、特定のアプリケーションに直接移動することもできます。 （例えば、Adobe Analytics の場合は `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。）
 
-   **注意：** 貴社の管理者は、IP アドレスによってAdobe製品へのアクセスを制限する場合があります。 これを有効にしてExperience Cloudにログインしたり、組織に切り替えたりすると、エラーが発生する場合があります。 詳しくは、[IP アドレスで製品へのアクセスを制限する &#x200B;](https://helpx.adobe.com/enterprise/using/ip-based-access.html) を参照してください。
+   **注意：** 貴社の管理者は、IP アドレスによってAdobe製品へのアクセスを制限する場合があります。 これを有効にしてExperience Cloudにログインしたり、組織に切り替えたりすると、エラーが発生する場合があります。 詳しくは、[IP アドレスで製品へのアクセスを制限する &#x200B;](https://helpx.adobe.com/jp/enterprise/using/ip-based-access.html) を参照してください。
 
 
 ## Experience Cloud アプリケーションへのアクセス
