@@ -8,19 +8,21 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 4c37fc3ec156abfd26ac33066795cf043a9eda2d
+source-git-commit: fcd75504a043289c44d13d3f356af3741ac0e6a6
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '185'
 ht-degree: 67%
 
 ---
 
 # Experience Cloud サービス {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
+例
+
 このドキュメントは、[!DNL People] サービス（[!DNL Audience Library] と [!DNL Customer Attributes]）、Experience Cloud のユーザーおよび製品管理、Cookie、アカウント設定、通知など、Experience Cloud 統合ヘッダーの機能に適用されます。
 
 Experience Cloudのこれらのサービスにアクセスするには、**[!UICONTROL Application Selector]** を選択します
-![&#x200B; サービスセレクター &#x200B;](../assets/apps-icon.png)。
+![ サービスセレクター ](../assets/apps-icon.png)。
 
 ![Experience Cloud サービス](../assets/platform-core-services.png)
 
