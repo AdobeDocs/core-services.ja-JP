@@ -20,7 +20,7 @@ ht-degree: 5%
 
 更新日：**2025 年 11 月 17 日**
 
-Adobe [!DNL Experience Platform] [Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home) およびAdobe Experience Platform エージェントは、Experience Cloud アプリケーション内で高度な機能を有効にします。
+Adobe [!DNL Experience Platform] [Agent Orchestrator](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/home) およびAdobe Experience Platform エージェントは、Experience Cloud アプリケーション内で高度な機能を有効にします。
 
 これらの高度な機能には、次のいずれかの方法でアクセスできます。
 
@@ -34,10 +34,10 @@ Adobe [!DNL Experience Platform] [Agent Orchestrator](https://experienceleague.a
 
 | エージェント名 | 対象 | 機能 | サポートされるアプリケーション |
 |---|----------|----------|----------|
-| [Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience) | 利用可能 | 自然言語プロンプトを使用してオーディエンスを作成、管理および最適化し、より簡単で効率の高い、市場投入までの時間を短縮する権限をチームに与えます。 | <ul><li>Real-Time CDP（B2B および B2C の追加）</li><li>Adobe Journey Optimizer（B2B および B2C の追加）</li></ul> |
-| [Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | 利用可能 | データに関するデータの質問にすばやく回答します。 データビューのコンポーネントと実際のデータを使用して、Analysis Workspace で関連するビジュアライゼーションを作成します。 | <ul><li>Customer Journey Analytics</li></ul> |
+| [Audience Agent](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/audience) | 利用可能 | 自然言語プロンプトを使用してオーディエンスを作成、管理および最適化し、より簡単で効率の高い、市場投入までの時間を短縮する権限をチームに与えます。 | <ul><li>Real-Time CDP（B2B および B2C の追加）</li><li>Adobe Journey Optimizer（B2B および B2C の追加）</li></ul> |
+| [Data Insights Agent](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | 利用可能 | データに関するデータの質問にすばやく回答します。 データビューのコンポーネントと実際のデータを使用して、Analysis Workspace で関連するビジュアライゼーションを作成します。 | <ul><li>Customer Journey Analytics</li></ul> |
 | [Journey Agent](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze) | 利用可能 | チームがマルチタッチのカスタマージャーニーを大規模にすばやく作成、分析、最適化できるようにします。 | <ul><li>Adobe Journey Optimizer（B2B および B2C の追加）</li></ul> |
-| [&#x200B; 製品サポート担当者 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) | 利用可能 | ワークフローを離れることなくサポートの問題をトラブルシューティングしたり、カスタマーサポートチケットを作成したり、AI アシスタントを使用してケースの進行状況を追跡したりできます。 | <ul><li>Real-Time CDP（B2B および B2C の追加）</li><li>Adobe Journey Optimizer（B2B および B2C の追加）</li><li>Adobe Journey OptimizerB2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
+| [&#x200B; 製品サポート担当者 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/new-features/customer-support) | 利用可能 | ワークフローを離れることなくサポートの問題をトラブルシューティングしたり、カスタマーサポートチケットを作成したり、AI アシスタントを使用してケースの進行状況を追跡したりできます。 | <ul><li>Real-Time CDP（B2B および B2C の追加）</li><li>Adobe Journey Optimizer（B2B および B2C の追加）</li><li>Adobe Journey OptimizerB2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
 
 <!-- Product Advisor Agent: Troubleshoot issues, create support tickets, and track progress with AI Assistant. 
 
@@ -69,7 +69,7 @@ Development Agent
 | [LLM 最適化エージェント &#x200B;](https://experienceleague.adobe.com/ja/docs/llm-optimizer/using/home) | 利用可能 | AI 駆動型検索環境での可視性、精度、影響力を強化し、AI で生成された回答でブランドプレゼンスに関するインサイトを提供し、規範的なコンテンツのレコメンデーションを提供し、最適化の修正を自動化します。 | <ul><li>Adobe LLM Optimizer</li></ul> |
 | [Site Optimization Agent](https://experienceleague.adobe.com/ja/docs/experience-manager-sites-optimizer/content/home) | 利用可能 | Web サイトの機能強化を自動的に検出およびデプロイすることで、ビジネスへの影響を最大限に高めます。 生成 AI と複数の監視テクノロジーを使用すると、サイトトラフィックの獲得やエンゲージメントなどを増やすことができます | <ul><li>AEM Sites Optimizer</li></ul> |
 
-<!-- **Content Optimization Agent**  November 20, 2025  Simplify creating visual content variants from source assets using natural language prompts.  <ul><li>Adobe Experience Manager (with [Dynamic Media with OpenAPI](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview))</li></ul> 
+<!-- **Content Optimization Agent**  November 20, 2025  Simplify creating visual content variants from source assets using natural language prompts.  <ul><li>Adobe Experience Manager (with [Dynamic Media with OpenAPI](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview))</li></ul> 
 
 Development Agent: Targeting AEM Cloud Service developers and technical administrators, the Development Agent helps troubleshoot Cloud Manager pipeline build step failures by analyzing the root cause and suggesting fixes.
 
@@ -90,7 +90,7 @@ Supported Apps: Adobe Experience Manager Cloud Services and Edge Delivery Servic
 
 * Experience Cloudでの [AI](https://experienceleague.adobe.com/ja/docs/ai) ドキュメントホーム
 
-[!BADGE &#x200B; 詳しくは、Adobe for Businessを参照してください &#x200B;]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="Business.adobe.comに移動します"}
+[!BADGE &#x200B; 詳しくは、Adobe for Businessを参照してください &#x200B;]{type=Informative url="https://business.adobe.com/jp/products/experience-platform/agent-orchestrator.html" tooltip="Business.adobe.comに移動します"}
 
 
 
