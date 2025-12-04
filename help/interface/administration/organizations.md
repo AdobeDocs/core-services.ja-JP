@@ -100,6 +100,6 @@ ht-degree: 50%
 
 一般的に、アカウントのリンクは、Adobe ID が以前のユーザーにリンクされていることが原因で失敗します。アカウントのリンクに失敗した場合は、
 
-* [アドビサポートにお問い合わせ](https://experienceleague.adobe.com/?support-solution=General&lang=ja#support)ください。
+* [アドビサポートにお問い合わせ](https://experienceleague.adobe.com/ja?support-solution=General&lang=ja#support)ください。
 * 問題が解決するまでの間、標準のログインを使用してアプリケーションにアクセスします。
 

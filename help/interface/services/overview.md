@@ -29,7 +29,7 @@ Experience Cloudのこれらのサービスにアクセスするには、**[!UIC
 |--- |--- |
 | [中央インターフェイスコンポーネント](https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud) | アカウント設定にアクセスし、製品ヘルプを検索して、アプリケーションとサービスにアクセスします。 |
 | [オーディエンスライブラリ](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/audiences/overview) | オーディエンスは、訪問者の集合（訪問者 ID のリスト）です。Adobe [!DNL Audience Library] を使用すると、訪問者データからオーディエンスのセグメント化への変換を管理できます。 |
-| [顧客属性](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes) | イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築できます。[!UICONTROL Journey Orchestration] は、Experience Platform と統合されたアプリケーションサービスです。 |
+| [顧客属性](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/customer-attributes/attributes) | イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築できます。[!UICONTROL Journey Orchestration] は、Experience Platform と統合されたアプリケーションサービスです。 |
 | [Assets](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/assets/experience-cloud-assets) | Experience Cloud Assets は、複数のアプリケーション間で共有できるマーケティング用アセットの単一の集中リポジトリを提供します。 |
 
 {style="table-layout:auto"}
