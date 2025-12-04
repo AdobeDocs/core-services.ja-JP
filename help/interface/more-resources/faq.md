@@ -89,7 +89,7 @@ Experience Cloud でのプロビジョニングは、次のことを意味しま
 
 +++ユーザーの環境設定、通知、アラートを管理するには
 
-* [ アカウント設定と通知 ](/help/interface/features/account-preferences.md) を参照してください。
+* [&#x200B; アカウント設定と通知 &#x200B;](/help/interface/features/account-preferences.md) を参照してください。
 
 +++
 

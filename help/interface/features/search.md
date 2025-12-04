@@ -61,7 +61,7 @@ ht-degree: 91%
 
 ヘルプ記事は、Experience League と Communities からも確認できます。自然言語のクエリがサポートされています。
 
-例：_How to create a schema_ では、_[!UICONTROL Learning]_の下にExperience Leagueから結果が生成されます。
+例：_How to create a schema_ では、_[!UICONTROL Learning]_&#x200B;の下にExperience Leagueから結果が生成されます。
 
 ![Experience Cloud の統合検索のヘルプ](../assets/unified-search-learning.png)
 
@@ -70,7 +70,7 @@ ht-degree: 91%
 * オブジェクトにアクセスするためのユーザー権限
 * 一致率
 * 完全一致
-* _[!UICONTROL Top Results]_のセクションには、上位 30 件の結果が表示されます。
+* _[!UICONTROL Top Results]_&#x200B;のセクションには、上位 30 件の結果が表示されます。
 
 検索を絞り込むには、次のいずれかをクリックします。
 
