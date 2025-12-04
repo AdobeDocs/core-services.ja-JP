@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-source-git-commit: 05c1155bb551568ecbedafb00ea190f00fd52427
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 92%
@@ -52,4 +52,5 @@ DNS プリフェッチは、ページ上に埋め込まれた静的リンクに�
 
 >[!MORELIKETHIS]
 >
->* Chromium での [DNS プリフェッチ &#x200B;](https://www.chromium.org/developers/design-documents/dns-prefetching)
+>* Chromium での [DNS プリフェッチ ](https://www.chromium.org/developers/design-documents/dns-prefetching)
+

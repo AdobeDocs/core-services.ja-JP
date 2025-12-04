@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 99%
@@ -44,4 +44,3 @@ PII を Adobe Analytics または Adobe Target にアップロードするとき
 1. あらかじめ消費者に明示する
 
 これらを念頭に置いた上で、広告主が閲覧アクティビティを PII に関連付ける場合は、消費者を特定していることを示す通知またはパーソナライズを提供することをお勧めします。Web サイトのヘッダーに断り書きを含めることは、この一例です。また、PII に関連付ける閲覧情報の種類と、閲覧情報を PII に関連付ける状況について、プライバシーポリシーに明記することをお勧めします。最後に、アドビは、広告主が消費者に提供するオプトアウトの選択肢を確認し、オプトアウト後に認証されていないプロファイル情報を使用できるかどうか、またどのように使用するかを理解することを強く推奨します。
-

@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 51%
@@ -58,13 +58,13 @@ Creative Cloud ユーザーがアセットにアクセスするには、Experien
 
    ![画像にコメントを追加](../../assets/asset_comment_mac.png)
 
-1. フォルダーの共有を解除するには、「**[!UICONTROL Share Using Creative Cloud]**」をクリックし（[&#x200B; 手順 3](share.md) と同様）、「X」を選択してユーザーを削除して、「**[!UICONTROL Share]**」をクリックします。
+1. フォルダーの共有を解除するには、「**[!UICONTROL Share Using Creative Cloud]**」をクリックし（[ 手順 3](share.md) と同様）、「X」を選択してユーザーを削除して、「**[!UICONTROL Share]**」をクリックします。
 
    ![フォルダーの共有を解除する](../../assets/asset_remove_user.png)
 
    Creative Cloud ユーザーをすべて削除すると、そのフォルダーの共有が解除され、Creative Cloud ユーザーはそれらにアクセスできなくなります。
 
-共有アセットを使用するその他の方法としては、アクティビティ内の画像用にAdobe Targetの [&#x200B; オファーライブラリ &#x200B;](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=ja) でアセットを読み込んだり入れ替えたりすることが挙げられます。
+共有アセットを使用するその他の方法としては、アクティビティ内の画像用にAdobe Targetの [ オファーライブラリ ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) でアセットを読み込んだり入れ替えたりすることが挙げられます。
 
 Creative Cloud にフォルダーを共有すると、フォルダー上に Creative Cloud のロゴが表示されます。
 
@@ -80,4 +80,5 @@ Creative Cloud にフォルダーを共有すると、フォルダー上に Crea
 
 [!DNL Adobe Target] でアクティビティを作成する場合、[!UICONTROL Offers Library] で画像を入れ替える際に、共有画像アセットを使用できます。
 
-[!DNL Target] ヘルプの[オファーライブラリ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=ja)を参照してください。
+[!DNL Target] ヘルプの[オファーライブラリ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html)を参照してください。
+

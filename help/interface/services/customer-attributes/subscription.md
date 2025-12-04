@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 63%
@@ -47,4 +47,3 @@ ht-degree: 63%
    | 含める属性（Analytics と [!DNL Target]） | アプリケーションに送信する属性。<br>サブスクリプションを設定し属性を選択する場合、_所有するソリューションに応じて、_&#x200B;レポートスイートごとに次の制限が適用されます。<ul><li>Foundation：0 件</li><li>Select：3 件</li><li>Prime：15 件</li><li>Ultimate：200 件</li><li>Standard：合計 3 件</li><li>Premium：レポートスイートあたり 200 件</li><li>[!DNL Target] Standard：5 件</li><li>[!DNL Target] Premium：200 件</li></ul><br>**注意：** Analytics Premium にアップグレードすると、追加の属性を使用できるようになるまでに 24 時間の遅延が生じます。この遅延の間に、属性サブスクリプションの上限に関連するエラーが発生することがあります。 |
 
 1. 「**[!UICONTROL Save]**」をクリックします。
-

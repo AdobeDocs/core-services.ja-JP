@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 5ddcb2f0-b491-466d-b357-aeacbfcf0b8e
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 96%
@@ -105,4 +105,3 @@ ht-degree: 96%
 ![アーカイブから復元されたコンテンツ](../../assets/12_assets_move.png)
 
 **結果：**&#x200B;内容は共有フォルダーに復元され、すべての共同作業者が再びアクセスできるようになります。 共有フォルダーが存在しなくなった場合、内容は元の親フォルダーの非共有コピーに配置されます。
-

@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 12%
@@ -20,7 +20,7 @@ Adobe Advertising（旧称 Adobe Advertising Cloud）では、広告エンゲー
 
 >[!NOTE]
 >
->[Adobe Experience Cloud ID （ECID） サービスを使用するベータ版Adobe Advertising JavaScript タグは &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ja)Adobe Advertising Cookie ではなく、[Experience Cloud](experience-cloud.md) `s_ecid` Cookie を作成します。
+>[Adobe Experience Cloud ID （ECID） サービスを使用するベータ版Adobe Advertising JavaScript タグは ](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ja)Adobe Advertising Cookie ではなく、[Experience Cloud](experience-cloud.md) `s_ecid` Cookie を作成します。
 
 | cookie 名 | 有効期限 | サイズ | ロケーション | 説明 |
 | --- | --- | --- | --- | --- |
@@ -34,3 +34,4 @@ Adobe Advertising（旧称 Adobe Advertising Cloud）では、広告エンゲー
 | **`id_adcloud`** | 91 日 | 16 バイト | ファーストパーティ | 訪問者 ID を格納します。 |
 
 {style="table-layout:auto"}
+

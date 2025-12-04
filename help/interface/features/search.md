@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Beginner
 exl-id: 70586f18-6f84-4308-bab3-1da7fab823d6
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 91%
@@ -61,7 +61,7 @@ ht-degree: 91%
 
 ヘルプ記事は、Experience League と Communities からも確認できます。自然言語のクエリがサポートされています。
 
-例：_How to create a schema_ では、_[!UICONTROL Learning]_&#x200B;の下にExperience Leagueから結果が生成されます。
+例：_How to create a schema_ では、_[!UICONTROL Learning]_の下にExperience Leagueから結果が生成されます。
 
 ![Experience Cloud の統合検索のヘルプ](../assets/unified-search-learning.png)
 
@@ -70,7 +70,7 @@ ht-degree: 91%
 * オブジェクトにアクセスするためのユーザー権限
 * 一致率
 * 完全一致
-* _[!UICONTROL Top Results]_&#x200B;のセクションには、上位 30 件の結果が表示されます。
+* _[!UICONTROL Top Results]_のセクションには、上位 30 件の結果が表示されます。
 
 検索を絞り込むには、次のいずれかをクリックします。
 
@@ -102,3 +102,4 @@ ht-degree: 91%
 * スペルを確認する
 * 検索語句全体を記述してみる
 * 検索するオブジェクトへの権限があることを確認する
+

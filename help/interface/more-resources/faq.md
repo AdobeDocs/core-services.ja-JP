@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 74c584e657e02fdebcaa52cffb6778f8ce5f350c
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 76%
@@ -89,7 +89,7 @@ Experience Cloud でのプロビジョニングは、次のことを意味しま
 
 +++ユーザーの環境設定、通知、アラートを管理するには
 
-* [&#x200B; アカウント設定と通知 &#x200B;](/help/interface/features/account-preferences.md) を参照してください。
+* [ アカウント設定と通知 ](/help/interface/features/account-preferences.md) を参照してください。
 
 +++
 
@@ -99,7 +99,7 @@ Experience Cloud でのプロビジョニングは、次のことを意味しま
 
 * ユーザーの使用権限と製品の管理は [Adobe Admin Console](https://adminconsole.adobe.com/enterprise)（製品リンク）でおこないます。
 
-* **重要：** Analytics 管理ツールから Admin Console へのユーザー ID の移行に関する Analytics 管理者向けの情報について詳しくは、[Admin Console での Analytics ユーザーの管理](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=ja)を参照してください。
+* **重要：** Analytics 管理ツールから Admin Console へのユーザー ID の移行に関する Analytics 管理者向けの情報について詳しくは、[Admin Console での Analytics ユーザーの管理](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html)を参照してください。
 
 +++
 
@@ -107,7 +107,7 @@ Experience Cloud でのプロビジョニングは、次のことを意味しま
 
 Admin Console 管理者はユーザーにアクセス権を付与できます。ユーザーにはログイン手順が記載された電子メールが送信されます。
 
-会社としてのプロビジョニングが完了していることを確認するために、[アドビサポートへの問い合わせ](https://experienceleague.adobe.com/ja?support-solution=General&lang=ja#support)が必要になる場合もあります。
+会社としてのプロビジョニングが完了していることを確認するために、[アドビサポートへの問い合わせ](https://experienceleague.adobe.com/?support-solution=General&lang=ja#support)が必要になる場合もあります。
 
 +++
 
@@ -154,3 +154,4 @@ Admin Console 管理者はユーザーにアクセス権を付与できます。
 いいえ。ユーザーは、自分のアプリケーションを自分のユーザー名とパスワードでリンクさせる必要があります。
 
 +++
+

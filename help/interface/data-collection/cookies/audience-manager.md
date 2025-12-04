@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ab6de845-99ea-4cd8-b7cd-012fb641403f
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 98%
@@ -129,7 +129,7 @@ dextp cookie のデータ構文：
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>目的</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword">Audience Manager</span> は、<a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=ja" format="https" scope="external">宛先</a>へのデータ送信中にエラーが発生すると、この cookie を設定します。 </p> </td> 
+   <td colname="col2"> <p> <span class="keyword">Audience Manager</span> は、<a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html" format="https" scope="external">宛先</a>へのデータ送信中にエラーが発生すると、この cookie を設定します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>コンテンツ</b> </p> </td> 
@@ -153,3 +153,4 @@ dextp cookie のデータ構文：
 **_dp cookie**
 
 この Cookie は一時的なものです。 [!DNL Audience Manager] は、demdex.net ドメインにサードパーティのコンテキストで他の cookie を設定できるかどうかを確認することを目的として `_dp` cookie の設定を試みます。設定に成功した場合は、`_dp` に値 1 が書き込まれます。[!DNL Audience Manager] はこの値を読み取ると、即座にこの cookie を削除します。`_dp` cookie が存在しない場合、[!DNL Audience Manager] は cookie を設定できないものと判断します。
+

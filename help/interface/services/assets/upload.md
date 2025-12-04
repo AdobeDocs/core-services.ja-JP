@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e26fb61f-4a7f-4c02-ba80-87a9c0edea86
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 61%
@@ -32,4 +32,3 @@ Creative Cloud のヘルプについては、[https://helpx.adobe.com/jp/creativ
 1. [!DNL Creative Cloud] デスクトップを起動して、「[!UICONTROL **アセット**]」に移動します。
 1. 「**[!UICONTROL Open Folder].**」をクリックします。
 1. オペレーティングシステムのファイル参照機能を使用して、アセットを選択または移動します。
-

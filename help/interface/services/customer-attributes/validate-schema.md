@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 37%
@@ -36,7 +36,7 @@ ht-degree: 37%
 
    [!UICONTROL Edit Schema] ページでは、スキーマの各行は、アップロードされた CSV ファイルの列を表しています。
 
-   ![Experience Cloudのスキーマページを編集 &#x200B;](assets/schema-edit.png)
+   ![Experience Cloudのスキーマページを編集 ](assets/schema-edit.png)
 
 **アクション**
 
@@ -44,7 +44,7 @@ ht-degree: 37%
 
 * **[!UICONTROL View/Edit Schema:]** 次の手順で説明するように、表示名を属性データにマップします。
 
-* **[!UICONTROL FTP Setup:]** FTP アカウントを作成して [FTP を使用してデータをアップロード &#x200B;](t-upload-attributes-ftp.md) します（オプション）。
+* **[!UICONTROL FTP Setup:]** FTP アカウントを作成して [FTP を使用してデータをアップロード ](t-upload-attributes-ftp.md) します（オプション）。
 
 * **[!UICONTROL ID Lookup:]** `.csv` から顧客 ID （CID）を入力し、ID のExperience Cloud情報を検索します。 この機能は、訪問者に対して属性データが表示されない理由をトラブルシューティングするのに役立ちます。
 
@@ -53,4 +53,3 @@ ht-degree: 37%
    * **[!UICONTROL CID (customer ID):]** この CID に関連付けられている属性。 prop または eVar を使用して CID（AVID）をアップロードし、属性は表示されるが AVID は表示されない場合は、訪問者がサイトにログインしていないことを意味します。
 
    * **[!UICONTROL AVID (Analytics visitor ID):]** prop またはeVarを使用して CID をアップロードすると表示されます。 これらの ID がExperience Cloudに渡される場合、入力した CID に関連付けられているすべての訪問者 ID がここに表示されます。
-
