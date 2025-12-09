@@ -3,16 +3,16 @@ description: Experience Cloud製品やExperience League Communities 内の使用
 solution: Experience Cloud
 title: Experience Cloud のパーソナライズされたラーニング環境設定
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 23%
+source-wordcount: '103'
+ht-degree: 19%
 
 ---
 
-# パーソナライズされたラーニングのレコメンデーションとプロモーション
+# パーソナライズされたラーニング環境設定
 
-Adobeには、Adobe製品の使用状況に基づいてカスタマイズされた役立つコンテンツが用意されています。 製品使用状況データは、このコンテキストをユーザーに合わせて調整する方法を示します。 [Experience Cloud環境設定 &#x200B;](https://experience.adobe.com/preferences) ページで、製品の使用状況データの共有をオプトインまたはオプトアウトできます。
+Adobeには、Adobe製品の使用状況に基づいてカスタマイズされた役立つコンテンツが用意されています。 製品使用状況データは、このコンテキストをユーザーに合わせて調整する方法を示します。 [Experience Cloud環境設定 ](https://experience.adobe.com/preferences) ページで、製品の使用状況データの共有をオプトインまたはオプトアウトできます。
 
 <!-- ## Personalized training and support recommendations for your Adobe products and services
 

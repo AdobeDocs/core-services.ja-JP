@@ -7,14 +7,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1149'
 ht-degree: 64%
 
 ---
 
-# [!DNL Customer Attributes] のデータファイルとデータソースについて
+# 顧客属性データファイルとソース
 
 顧客属性データをExperience Cloudにアップロードするためのデータファイル要件および複数のデータソース。
 
@@ -137,7 +137,7 @@ Visitor.setcustomerIDs({
 });
 ```
 
-（詳しくは、[&#x200B; 顧客 ID と認証状態 &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja) を参照してください。）
+（詳しくは、[ 顧客 ID と認証状態 ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja) を参照してください。）
 
 **[!DNL Experience Cloud]** > **[!DNL Customer Attributes]** で以下を実行します。
 

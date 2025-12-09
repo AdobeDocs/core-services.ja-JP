@@ -8,22 +8,22 @@ topic: Administration
 role: Admin
 level: Beginner
 exl-id: 70586f18-6f84-4308-bab3-1da7fab823d6
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 91%
+source-wordcount: '633'
+ht-degree: 88%
 
 ---
 
-# オブジェクトとエンティティの [!UICONTROL Unified Search]
+# Experience Cloud の [!UICONTROL Unified Search]
 
 [!UICONTROL Unified Search] 検索を使用すると、一貫性のあるシームレスなワンクリックエクスペリエンスで、検索可能なビジネスオブジェクトやエンティティを見つけることができます。 この検索では、最近アクセスしたオブジェクトも表示されます。
 
 ![オブジェクトとエンティティのグローバル検索](../assets/platform-search.png)
 
-## 統合検索へのアクセス
+## [!UICONTROL Unified Search] へのアクセス
 
-統合検索は、ページ上部の Experience Cloud ヘッダーのすべてのページで利用できます。 キーボードショートカット（`command /` または `ctrl /`）を使用して検索にアクセスすることもできます。
+[!UICONTROL Unified Search] は、ページ上部のExperience Cloud ヘッダーのすべてのページで使用できます。 キーボードショートカット（`command /` または `ctrl /`）を使用して検索にアクセスすることもできます。
 
 現在この機能は、次のサポート対象製品でのみ使用できます。
 
@@ -42,7 +42,7 @@ ht-degree: 91%
 一致率
 完全一致があるかどうか
 
-![Experience Cloud の統合検索](../assets/unified-search-results.png)
+Experience Cloudで ![[!UICONTROL Unified Search] う ](../assets/unified-search-results.png)
 
 検索可能なビジネスオブジェクトには、次のものが含まれます。
 
@@ -61,23 +61,23 @@ ht-degree: 91%
 
 ヘルプ記事は、Experience League と Communities からも確認できます。自然言語のクエリがサポートされています。
 
-例：_How to create a schema_ では、_[!UICONTROL Learning]_&#x200B;の下にExperience Leagueから結果が生成されます。
+例：_How to create a schema_ では、_[!UICONTROL Learning]_の下にExperience Leagueから結果が生成されます。
 
-![Experience Cloud の統合検索のヘルプ](../assets/unified-search-learning.png)
+Experience Cloud ヘルプの ![[!UICONTROL Unified Search] を参照してください ](../assets/unified-search-learning.png)
 
 検索アルゴリズムは、最も関連性の高いレコードを最初に表示します。結果の順序は、次のような複数の要因によって異なります。
 
 * オブジェクトにアクセスするためのユーザー権限
 * 一致率
 * 完全一致
-* _[!UICONTROL Top Results]_&#x200B;のセクションには、上位 30 件の結果が表示されます。
+* _[!UICONTROL Top Results]_のセクションには、上位 30 件の結果が表示されます。
 
 検索を絞り込むには、次のいずれかをクリックします。
 
 * **[!UICONTROL All Learning]**：検索をExperience Leagueで開きます。
 * **[!UICONTROL Show all...]**：結果をさらに絞り込んだりフィルターしたりできます。
 
-## 統合検索機能
+## [!UICONTROL Unified Search] の機能
 
 統合検索では、次の機能を利用できます。
 

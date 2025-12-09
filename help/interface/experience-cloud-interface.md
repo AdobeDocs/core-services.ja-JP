@@ -6,14 +6,14 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 79%
+source-wordcount: '698'
+ht-degree: 78%
 
 ---
 
-# Experience Cloud インターフェイスヘルプ
+# Experience Cloud中央インターフェイスコンポーネント
 
 Experience Cloud の中央インターフェイスコンポーネントには、次の機能が含まれます。
 
@@ -74,13 +74,13 @@ Experience Cloud は、アドビユーザーアカウントの環境設定で設
 
 Experience Cloud にログインすると、統合ヘッダーからすべてのアプリケーション、サービスおよび組織にすばやくアクセスできます。
 
-自身が所有しているExperience Cloud サービスにアクセスするには、アプリケーションセレクター ![&#x200B; メニュー &#x200B;](assets/menu-icon.png) をクリックします。
+自身が所有しているExperience Cloud サービスにアクセスするには、アプリケーションセレクター ![ メニュー ](assets/menu-icon.png) をクリックします。
 
 ![Experience Cloud アプリケーションへのアクセス](assets/platform-core-services.png)
 
 ## Experience Cloud での検索とサポート
 
-Experience Cloud の検索では、[Experience League](https://experienceleague.adobe.com/ja?lang=ja#home) 上のヘルプ（ドキュメント、チュートリアル、コース）を検索できます。
+Experience Cloud の検索では、[Experience League](https://experienceleague.adobe.com/?lang=ja#home) 上のヘルプ（ドキュメント、チュートリアル、コース）を検索できます。
 
 ![Experience Cloud での検索とサポート](assets/search-menu.png)
 
@@ -104,7 +104,7 @@ Experience Cloud の検索では、[Experience League](https://experienceleague.
 
 Experience Cloud の環境設定には、通知、購読、アラートが含まれます。
 
-* アカウントメニュー **[!UICONTROL Preferences]** 環境設定 ![&#x200B; から「](assets/preferences-icon-sm.png)」をクリックして、環境設定を管理します。
+* アカウントメニュー **[!UICONTROL Preferences]** 環境設定 ![ から「](assets/preferences-icon-sm.png)」をクリックして、環境設定を管理します。
 
 ![Experience Cloud の管理](assets/preferences-page.png)
 

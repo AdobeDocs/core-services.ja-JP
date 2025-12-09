@@ -7,14 +7,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 63%
+source-wordcount: '412'
+ht-degree: 64%
 
 ---
 
-# 購読の設定とデータソースのアクティベート
+# 顧客属性サブスクリプションの設定
 
 [!DNL Customer Attributes] サブスクリプションを設定すると、Experience Cloudとアプリケーション（[!DNL Analytics] と [!DNL Target]）の間で顧客属性データをやり取りできるようになります。
 
