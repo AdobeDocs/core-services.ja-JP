@@ -42,7 +42,7 @@ ht-degree: 88%
 一致率
 完全一致があるかどうか
 
-Experience Cloudで ![[!UICONTROL Unified Search] う ](../assets/unified-search-results.png)
+Experience Cloudで ![[!UICONTROL Unified Search] う &#x200B;](../assets/unified-search-results.png)
 
 検索可能なビジネスオブジェクトには、次のものが含まれます。
 
@@ -61,16 +61,16 @@ Experience Cloudで ![[!UICONTROL Unified Search] う ](../assets/unified-search
 
 ヘルプ記事は、Experience League と Communities からも確認できます。自然言語のクエリがサポートされています。
 
-例：_How to create a schema_ では、_[!UICONTROL Learning]_の下にExperience Leagueから結果が生成されます。
+例：_How to create a schema_ では、_[!UICONTROL Learning]_&#x200B;の下にExperience Leagueから結果が生成されます。
 
-Experience Cloud ヘルプの ![[!UICONTROL Unified Search] を参照してください ](../assets/unified-search-learning.png)
+Experience Cloud ヘルプの ![[!UICONTROL Unified Search] を参照してください &#x200B;](../assets/unified-search-learning.png)
 
 検索アルゴリズムは、最も関連性の高いレコードを最初に表示します。結果の順序は、次のような複数の要因によって異なります。
 
 * オブジェクトにアクセスするためのユーザー権限
 * 一致率
 * 完全一致
-* _[!UICONTROL Top Results]_のセクションには、上位 30 件の結果が表示されます。
+* _[!UICONTROL Top Results]_&#x200B;のセクションには、上位 30 件の結果が表示されます。
 
 検索を絞り込むには、次のいずれかをクリックします。
 

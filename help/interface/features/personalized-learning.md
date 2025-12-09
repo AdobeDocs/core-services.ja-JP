@@ -12,7 +12,7 @@ ht-degree: 19%
 
 # パーソナライズされたラーニング環境設定
 
-Adobeには、Adobe製品の使用状況に基づいてカスタマイズされた役立つコンテンツが用意されています。 製品使用状況データは、このコンテキストをユーザーに合わせて調整する方法を示します。 [Experience Cloud環境設定 ](https://experience.adobe.com/preferences) ページで、製品の使用状況データの共有をオプトインまたはオプトアウトできます。
+Adobeには、Adobe製品の使用状況に基づいてカスタマイズされた役立つコンテンツが用意されています。 製品使用状況データは、このコンテキストをユーザーに合わせて調整する方法を示します。 [Experience Cloud環境設定 &#x200B;](https://experience.adobe.com/preferences) ページで、製品の使用状況データの共有をオプトインまたはオプトアウトできます。
 
 <!-- ## Personalized training and support recommendations for your Adobe products and services
 

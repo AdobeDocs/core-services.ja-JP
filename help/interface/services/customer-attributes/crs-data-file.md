@@ -137,7 +137,7 @@ Visitor.setcustomerIDs({
 });
 ```
 
-（詳しくは、[ 顧客 ID と認証状態 ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja) を参照してください。）
+（詳しくは、[&#x200B; 顧客 ID と認証状態 &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja) を参照してください。）
 
 **[!DNL Experience Cloud]** > **[!DNL Customer Attributes]** で以下を実行します。
 
