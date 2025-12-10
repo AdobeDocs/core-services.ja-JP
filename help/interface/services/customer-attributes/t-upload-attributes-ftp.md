@@ -27,7 +27,7 @@ Experience Cloudで顧客属性ソースと FTP アカウントを作成した�
 顧客属性 FTP サイトへのファイルアップロードは、FTP または SFTP を使用して実行できます。
 
 * SFTP 接続をサポートしているクライアントが必要です。
-* [こちら](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html)で説明しているように、ユーザー名／パスワードを使用して、またはパスワードを使用せずに、SFTP で接続できます。
+* [こちら](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=ja)で説明しているように、ユーザー名／パスワードを使用して、またはパスワードを使用せずに、SFTP で接続できます。
 
 **FTP を使用してデータファイルをアップロードするには**
 
