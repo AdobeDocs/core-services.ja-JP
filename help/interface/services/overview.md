@@ -7,30 +7,36 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 68%
+source-wordcount: '278'
+ht-degree: 47%
 
 ---
 
-# Experience Cloud サービス
+# Experience Cloud インターフェイスの概要
 
-このドキュメントは、[!DNL People] サービス（[!DNL Audience Library] と [!DNL Customer Attributes]）、Experience Cloud のユーザーおよび製品管理、Cookie、アカウント設定、通知など、Experience Cloud 統合ヘッダーの機能に適用されます。
+Experience Cloudのインターフェイス機能は、_コアサービス_ と呼ばれることもあります。 [!DNL People] サービス（[!DNL Audience Library] と [!DNL Customer Attributes]）を含む、統合されたヘッダー機能です。
 
-Experience Cloudのこれらのサービスにアクセスするには、**[!UICONTROL Application Selector]** を選択します
-![&#x200B; サービスセレクター &#x200B;](../assets/apps-icon.png)。
+その他の共有機能には、Experience Cloudの管理（ユーザーおよび製品の管理）、cookie、アカウント設定、通知などがあります。
+
+Experience Cloudの Shared Services およびアプリケーションにアクセスするには、**[!UICONTROL Application Selector]** をクリックします
+![ サービスセレクター ](../assets/apps-icon.png)。
+
+**アプリケーションセレクター**
 
 ![Experience Cloud サービス](../assets/platform-core-services.png)
 
-このヘルプでは、次の製品およびサービスについて説明します。
+このガイドのサービスページでは、次の製品およびサービスについて説明します。
 
 | コアサービス | 説明 |
 |--- |--- |
 | [中央インターフェイスコンポーネント](https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud) | アカウント設定にアクセスし、製品ヘルプを検索して、アプリケーションとサービスにアクセスします。 |
 | [オーディエンスライブラリ](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/audiences/overview) | オーディエンスは、訪問者の集合（訪問者 ID のリスト）です。Adobe [!DNL Audience Library] を使用すると、訪問者データからオーディエンスのセグメント化への変換を管理できます。 |
-| [顧客属性](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/customer-attributes/attributes) | イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築できます。[!UICONTROL Journey Orchestration] は、Experience Platform と統合されたアプリケーションサービスです。 |
+| [顧客属性](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes) | イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築できます。[!UICONTROL Journey Orchestration] は、Experience Platform と統合されたアプリケーションサービスです。 |
 | [Assets](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/assets/experience-cloud-assets) | Experience Cloud Assets は、複数のアプリケーション間で共有できるマーケティング用アセットの単一の集中リポジトリを提供します。 |
+| [トリガー](https://experienceleague.adobe.com/en/docs/core-services/interface/services/triggers) | Experience Cloudのトリガーを使用すると、主要なコンシューマーの行動を特定、定義、監視し、アプリケーション間のコミュニケーションを生み出して、訪問者を再び引き付けることができます。 リアルタイムでの意思決定とパーソナライゼーションに Triggers を使用できます。 |
+| [Adobe Exchange Marketplace](https://experienceleague.adobe.com/en/docs/core-services/interface/services/exchange) | Exchange Marketplace にアクセスすると、各種の連携ツールの検索、参照、選択、支払いおよびダウンロードをおこなえます。アプリには、Data Connectors、アドビのコア製品のカスタム設定、サードパーティアプリケーション、レポートなどが含まれます。 |
 
 {style="table-layout:auto"}
 

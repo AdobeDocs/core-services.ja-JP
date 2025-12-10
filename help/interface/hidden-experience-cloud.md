@@ -1,5 +1,5 @@
 ---
-description: Experience Cloud 用の中央インターフェイスコンポーネントについて説明します。Admin Console でユーザーと製品の管理に関するヘルプを取得し、Experience Cloud サービス用のアプリケーションを有効にします。オーディエンスライブラリ、顧客属性、Experience Cloud Assets などに関するヘルプを取得します。
+description: Experience Cloud 用の中央インターフェイスコンポーネントについて説明します。Admin Console でユーザーと製品の管理に関するヘルプを取得し、Experience Cloud サービス用のアプリケーションを有効にします。オーディエンスライブラリ、顧客属性、Experience Cloud アセットなどに関するヘルプを取得します。
 title: Experience Cloud インターフェイスおよび管理
 hide: true
 hidefromtoc: true
@@ -7,7 +7,7 @@ feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
-source-git-commit: 25c11da1284bccf033f3bb7adf109be7bdf8d55a
+source-git-commit: 7e6fb9d8e87ec1cbec0b60dd773f157cb52e66ea
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 83%
@@ -59,7 +59,7 @@ Experience Cloud にログインすると、統合ヘッダーからすべての
 
 ## お問い合わせとサポート {#support}
 
-**[!UICONTROL Help center]** Experience League![&#x200B; のヘルプコンテンツ（ドキュメント、チュートリアル、コース）および個々のアプリケーションの追加リソースなど、ヘッダーの &#x200B;](assets/help-icon.png) ール（[asset](https://experienceleague.adobe.com/ja?lang=ja#home)）を使用して、学習やヘルプにアクセスします。 自由形式のフィードバックを送信して、優先度の高いサポートチケットを作成することもできます。
+**[!UICONTROL Help center]** Experience League![ のヘルプコンテンツ（ドキュメント、チュートリアル、コース）および個々のアプリケーションの追加リソースなど、ヘッダーの ](assets/help-icon.png) ール（[asset](https://experienceleague.adobe.com/?lang=ja#home)）を使用して、学習やヘルプにアクセスします。 自由形式のフィードバックを送信して、優先度の高いサポートチケットを作成することもできます。
 
 ![お問い合わせとサポート](assets/search-menu.png)
 
