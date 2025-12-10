@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
+source-git-commit: 25c11da1284bccf033f3bb7adf109be7bdf8d55a
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 50%
@@ -21,7 +21,7 @@ ht-degree: 50%
 
 この組織は、Experience Cloud のすべての製品とアプリケーションにまたがるログイン会社のように機能します。ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。
 
-![Experience Cloud組織 &#x200B;](../assets/organizations-menu.png)
+![Experience Cloud組織 ](../assets/organizations-menu.png)
 
 正しい組織にログインしていることを確認するには、「**[!UICONTROL Profile]**」をクリックしてデフォルトの組織名を表示します。 複数の組織にアクセスできる場合は、ヘッダーバーで別の組織を表示して切り替えることもできます。
 
@@ -33,7 +33,7 @@ ht-degree: 50%
 
 組織が Federated ID を使用している場合、Experience Cloud を使用すると、自身のメールアドレスとパスワードを入力しなくても、組織のシングルサインオンでログインできます。`#/sso:@domain` を Experience Cloud URL（`https://experience.adobe.com`）に追加して、このタスクを完成します。
 
-例えば、Federated ID を持ち、ドメインが `adobecustomer.com` の組織の場合、URL リンクを `https://experience.adobe.com/#/sso:@adobecustomer.com` に設定します。 また、この URL にアプリケーションパスを付けてブックマークに追加することで、特定のアプリケーションに直接移動することもできます。 （例えば、Adobe Analytics の場合は `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。）
+例えば、Federated ID を持ち、ドメインが `example.com` の組織の場合、URL リンクを `https://experience.adobe.com/#/sso:@example.com` に設定します。 また、この URL にアプリケーションパスを付けてブックマークに追加することで、特定のアプリケーションに直接移動することもできます。 （例えば、Adobe Analytics の場合は `https://experience.adobe.com/#/sso:@example.com/analytics`。）
 
 ## 組織 ID を表示
 
@@ -69,7 +69,7 @@ ht-degree: 50%
 
 1. Adobe ID または Enterprise ID を使用してログインします。
 
-1. **[!UICONTROL Application selector]** をクリックします。 （![&#x200B; メニュー &#x200B;](../assets/apps-icon.png)）。
+1. **[!UICONTROL Application selector]** をクリックします。 （![ メニュー ](../assets/apps-icon.png)）。
 
    ![アプリケーションアカウントを Adobe ID にリンクする](../assets/solutions-active.png)
 
@@ -77,7 +77,7 @@ ht-degree: 50%
 
 1. 目的のアプリケーションをクリックします。
 
-   ![&#x200B; アプリケーションをクリックします &#x200B;](../assets/analytics-link-accounts.png)。
+   ![ アプリケーションをクリックします ](../assets/analytics-link-accounts.png)。
 
    このタイプのメッセージは、ユーザーが適切なグループに属している（かつアプリケーションに対する権限を持っている）が、そのアカウントの資格情報をまだ Adobe ID にリンクしていない場合に表示されます。
 
@@ -100,6 +100,6 @@ ht-degree: 50%
 
 一般的に、アカウントのリンクは、Adobe ID が以前のユーザーにリンクされていることが原因で失敗します。アカウントのリンクに失敗した場合は、
 
-* [アドビサポートにお問い合わせ](https://experienceleague.adobe.com/ja?support-solution=General&lang=ja#support)ください。
+* [アドビサポートにお問い合わせ](https://experienceleague.adobe.com/?support-solution=General&lang=ja#support)ください。
 * 問題が解決するまでの間、標準のログインを使用してアプリケーションにアクセスします。
 

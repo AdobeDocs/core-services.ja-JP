@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 25c11da1284bccf033f3bb7adf109be7bdf8d55a
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 77%
@@ -45,9 +45,9 @@ Experience Cloud のヘッダーから、次の操作を実行できます。
 
    組織が Federated ID を使用している場合、Experience Cloud を使用すると、自身のメールアドレスとパスワードを入力しなくても、組織のシングルサインオンでログインできます。`#/sso:@domain` を Experience Cloud URL（`https://experience.adobe.com`）に追加して、このタスクを完成します。
 
-   例えば、Federated ID を持ち、ドメインが `adobecustomer.com` の組織の場合、URL リンクを `https://experience.adobe.com/#/sso:@adobecustomer.com` に設定します。 また、この URL にアプリケーションパスを付けてブックマークに追加することで、特定のアプリケーションに直接移動することもできます。 （例えば、Adobe Analytics の場合は `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。）
+   例えば、Federated ID を持ち、ドメインが `example.com` の組織の場合、URL リンクを `https://experience.adobe.com/#/sso:@example.com` に設定します。 また、この URL にアプリケーションパスを付けてブックマークに追加することで、特定のアプリケーションに直接移動することもできます。 （例えば、Adobe Analytics の場合は `https://experience.adobe.com/#/sso:@example.com/analytics`。）
 
-   **注意：** 貴社の管理者は、IP アドレスによってAdobe製品へのアクセスを制限する場合があります。 これを有効にしてExperience Cloudにログインしたり、組織に切り替えたりすると、エラーが発生する場合があります。 詳しくは、[IP アドレスで製品へのアクセスを制限する &#x200B;](https://helpx.adobe.com/jp/enterprise/using/ip-based-access.html) を参照してください。
+   **注意：** 貴社の管理者は、IP アドレスによってAdobe製品へのアクセスを制限する場合があります。 これを有効にしてExperience Cloudにログインしたり、組織に切り替えたりすると、エラーが発生する場合があります。 詳しくは、[IP アドレスで製品へのアクセスを制限する ](https://helpx.adobe.com/enterprise/using/ip-based-access.html) を参照してください。
 
 
 ## Experience Cloud アプリケーションへのアクセス
@@ -60,7 +60,7 @@ Experience Cloud にログインすると、統合ヘッダーからすべての
 
 ## お問い合わせとサポート
 
-**[!UICONTROL Help center]** Experience League![&#x200B; のヘルプコンテンツ（ドキュメント、チュートリアル、コース）および個々のアプリケーションの追加リソースなど、ヘッダーの &#x200B;](assets/help-icon.png) ール（[asset](https://experienceleague.adobe.com/ja#home)）を使用して、学習やヘルプにアクセスします。 自由形式のフィードバックを送信して、優先度の高いサポートチケットを作成することもできます。
+**[!UICONTROL Help center]** Experience League![ のヘルプコンテンツ（ドキュメント、チュートリアル、コース）および個々のアプリケーションの追加リソースなど、ヘッダーの ](assets/help-icon.png) ール（[asset](https://experienceleague.adobe.com/ja#home)）を使用して、学習やヘルプにアクセスします。 自由形式のフィードバックを送信して、優先度の高いサポートチケットを作成することもできます。
 
 ![お問い合わせとサポート](assets/search-menu.png)
 

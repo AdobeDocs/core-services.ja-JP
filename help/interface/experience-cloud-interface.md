@@ -6,7 +6,7 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
+source-git-commit: 25c11da1284bccf033f3bb7adf109be7bdf8d55a
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 78%
@@ -68,19 +68,19 @@ Experience Cloud は、アドビユーザーアカウントの環境設定で設
 
    組織が Federated ID を使用している場合、Experience Cloud を使用すると、自身のメールアドレスとパスワードを入力しなくても、組織のシングルサインオンでログインできます。`#/sso:@domain` を Experience Cloud URL（`https://experience.adobe.com`）に追加して、このタスクを完成します。
 
-   例えば、Federated ID を持ち、ドメインが `adobecustomer.com` の組織の場合、URL リンクを `https://experience.adobe.com/#/sso:@adobecustomer.com` に設定します。 また、この URL にアプリケーションパスを付けてブックマークに追加することで、特定のアプリケーションに直接移動することもできます。 （例えば、Adobe Analytics の場合は `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。）
+   例えば、Federated ID を持ち、ドメインが `example.com` の組織の場合、URL リンクを `https://experience.adobe.com/#/sso:@example.com` に設定します。 また、この URL にアプリケーションパスを付けてブックマークに追加することで、特定のアプリケーションに直接移動することもできます。 （例えば、Adobe Analytics の場合は `https://experience.adobe.com/#/sso:@example.com/analytics`。）
 
 ## Experience Cloud アプリケーションへのアクセス
 
 Experience Cloud にログインすると、統合ヘッダーからすべてのアプリケーション、サービスおよび組織にすばやくアクセスできます。
 
-自身が所有しているExperience Cloud サービスにアクセスするには、アプリケーションセレクター ![&#x200B; メニュー &#x200B;](assets/menu-icon.png) をクリックします。
+自身が所有しているExperience Cloud サービスにアクセスするには、アプリケーションセレクター ![ メニュー ](assets/menu-icon.png) をクリックします。
 
 ![Experience Cloud アプリケーションへのアクセス](assets/platform-core-services.png)
 
 ## Experience Cloud での検索とサポート
 
-Experience Cloud の検索では、[Experience League](https://experienceleague.adobe.com/ja?lang=ja#home) 上のヘルプ（ドキュメント、チュートリアル、コース）を検索できます。
+Experience Cloud の検索では、[Experience League](https://experienceleague.adobe.com/?lang=ja#home) 上のヘルプ（ドキュメント、チュートリアル、コース）を検索できます。
 
 ![Experience Cloud での検索とサポート](assets/search-menu.png)
 
@@ -104,7 +104,7 @@ Experience Cloud の検索では、[Experience League](https://experienceleague.
 
 Experience Cloud の環境設定には、通知、購読、アラートが含まれます。
 
-* アカウントメニュー **[!UICONTROL Preferences]** 環境設定 ![&#x200B; から「](assets/preferences-icon-sm.png)」をクリックして、環境設定を管理します。
+* アカウントメニュー **[!UICONTROL Preferences]** 環境設定 ![ から「](assets/preferences-icon-sm.png)」をクリックして、環境設定を管理します。
 
 ![Experience Cloud の管理](assets/preferences-page.png)
 
