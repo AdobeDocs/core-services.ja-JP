@@ -47,7 +47,7 @@ Experience Cloud のヘッダーから、次の操作を実行できます。
 
    例えば、Federated ID を持ち、ドメインが `example.com` の組織の場合、URL リンクを `https://experience.adobe.com/#/sso:@example.com` に設定します。 また、この URL にアプリケーションパスを付けてブックマークに追加することで、特定のアプリケーションに直接移動することもできます。 （例えば、Adobe Analytics の場合は `https://experience.adobe.com/#/sso:@example.com/analytics`。）
 
-   **注意：** 貴社の管理者は、IP アドレスによってAdobe製品へのアクセスを制限する場合があります。 これを有効にしてExperience Cloudにログインしたり、組織に切り替えたりすると、エラーが発生する場合があります。 詳しくは、[IP アドレスで製品へのアクセスを制限する ](https://helpx.adobe.com/enterprise/using/ip-based-access.html) を参照してください。
+   **注意：** 貴社の管理者は、IP アドレスによってAdobe製品へのアクセスを制限する場合があります。 これを有効にしてExperience Cloudにログインしたり、組織に切り替えたりすると、エラーが発生する場合があります。 詳しくは、[IP アドレスで製品へのアクセスを制限する &#x200B;](https://helpx.adobe.com/enterprise/using/ip-based-access.html) を参照してください。
 
 
 ## Experience Cloud アプリケーションへのアクセス
@@ -60,7 +60,7 @@ Experience Cloud にログインすると、統合ヘッダーからすべての
 
 ## お問い合わせとサポート
 
-**[!UICONTROL Help center]** Experience League![ のヘルプコンテンツ（ドキュメント、チュートリアル、コース）および個々のアプリケーションの追加リソースなど、ヘッダーの ](assets/help-icon.png) ール（[asset](https://experienceleague.adobe.com/ja#home)）を使用して、学習やヘルプにアクセスします。 自由形式のフィードバックを送信して、優先度の高いサポートチケットを作成することもできます。
+**[!UICONTROL Help center]** Experience League![&#x200B; のヘルプコンテンツ（ドキュメント、チュートリアル、コース）および個々のアプリケーションの追加リソースなど、ヘッダーの &#x200B;](assets/help-icon.png) ール（[asset](https://experienceleague.adobe.com/ja#home)）を使用して、学習やヘルプにアクセスします。 自由形式のフィードバックを送信して、優先度の高いサポートチケットを作成することもできます。
 
 ![お問い合わせとサポート](assets/search-menu.png)
 
