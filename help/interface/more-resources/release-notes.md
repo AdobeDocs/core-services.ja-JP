@@ -20,7 +20,7 @@ ht-degree: 76%
 
 Experience Cloud の主要なインターフェイスコンポーネントの機能、リリースノートおよび既知の問題です。
 
-ドキュメントの更新のリストについては、[ ドキュメントの更新 ](doc-updates.md) を参照してください。
+ドキュメントの更新のリストについては、[&#x200B; ドキュメントの更新 &#x200B;](doc-updates.md) を参照してください。
 
 すべてのアプリケーションをカバーするリリースノートについては、[Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)を参照してください。
 
@@ -46,7 +46,7 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 
 | 日付 | 機能 | 説明 |
 | -----------| -----------| ---------- |
-| 1月9日（PT） | 製品の使用状況データ | Experience Cloudの製品の使用状況データの環境設定を簡単に制御できるように、Experience Cloud[ 環境設定 ](../features/account-preferences.md#product-usage-data) ページを合理化し、重複するオプションを排除しました。 簡素化を目的に、現在のユーザーの環境設定は保持され、[Experience Cloud の環境設定](https://experience.adobe.com/preferences)でいつでも環境設定を更新できます。 |
+| 1月9日（PT） | 製品の使用状況データ | Experience Cloudの製品の使用状況データの環境設定を簡単に制御できるように、Experience Cloud[&#x200B; 環境設定 &#x200B;](../features/account-preferences.md#product-usage-data) ページを合理化し、重複するオプションを排除しました。 簡素化を目的に、現在のユーザーの環境設定は保持され、[Experience Cloud の環境設定](https://experience.adobe.com/preferences)でいつでも環境設定を更新できます。 |
 
 ## 2024 年 10 月 2 日（Pt）
 
@@ -58,7 +58,7 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 
 | 機能 | 説明 |
 | -----------| ---------- |
-| Slack 通知 | アカウントの環境設定を行い、Slack に Experience Cloud 通知を送信できます。詳しくは、{ 環境設定 _ヘルプの_ 0}Slack通知 [ を参照してください。](../features/account-preferences.md) |
+| Slack 通知 | アカウントの環境設定を行い、Slack に Experience Cloud 通知を送信できます。詳しくは、{ 環境設定 _ヘルプの_ 0}Slack通知 [&#x200B; を参照してください。](../features/account-preferences.md) |
 
 <!-- ## July - August 2023
 
