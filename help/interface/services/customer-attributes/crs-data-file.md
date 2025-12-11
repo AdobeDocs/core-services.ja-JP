@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
+source-git-commit: 27b9b789e0d4c448105f5acec3aa05c9404443bf
 workflow-type: tm+mt
 source-wordcount: '1149'
 ht-degree: 64%
@@ -29,7 +29,6 @@ ht-degree: 64%
 | `.csv` | 値をコンマで区切って入力したファイル（Excel で作成するファイルなど）。このファイルには、顧客属性データが含まれます。   命名要件：ファイル名拡張子に空白が含まれていないことを確認します。 |
 | `.fin` | （必須） `.fin` ファイルは、データのアップロードが完了したことをシステムに伝えます。 `.fin` ファイルの名前は、`.csv` ファイルの名前と一致する必要があります。  Adobeでは、`.fin` の拡張子を持つ空のテキストファイルを作成することをお勧めします。 空のファイルを使用すると、領域を節約でき、アップロード時間も短縮されます。 **メモ：** アップロード後に `.fin` ファイルの名前を変更することはできません。 `.fin` ファイルは個別にアップロードする必要があり、以前にアップロードしたファイルの名前を変更することはできません。 顧客属性 FTP に `.fin` ファイルをアップロードすると、システムによって（1 分以内に）データが迅速に取得されます。 これは、データの取得頻度が低い（1 時間に 1 回程度）他のAdobe FTP ベースシステムとは異なります。 ドラッグ&amp;ドロップによるアップロード方法を使用する場合、`.fin` ファイルは必要ありません。 |
 | `.gz` または `.zip` | `.gz` （gzip）または `.zip` – 圧縮ファイルの場合。 `.zip` ファイルには、アーカイブ内に複数のファイルを含めることはできません。 命名要件：`.zip` または `.gz` の名前は、`.csv` ファイルの名前と一致する必要があります。 例えば、`.csv` ファイルが `crm_small.csv` の場合、`.zip` ファイルは `crm_small.csv.zip` である必要があります。 `.fin` ファイルは `.csv` と一致する必要があります。 |
-
 
 ## 属性データファイルの要件
 
@@ -137,7 +136,7 @@ Visitor.setcustomerIDs({
 });
 ```
 
-（詳しくは、[&#x200B; 顧客 ID と認証状態 &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja) を参照してください。）
+（詳しくは、[ 顧客 ID と認証状態 ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja) を参照してください。）
 
 **[!DNL Experience Cloud]** > **[!DNL Customer Attributes]** で以下を実行します。
 

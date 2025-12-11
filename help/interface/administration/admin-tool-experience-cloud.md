@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
+source-git-commit: 27b9b789e0d4c448105f5acec3aa05c9404443bf
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 76%
+source-wordcount: '1182'
+ht-degree: 75%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 76%
 
 ## ユーザーページ
 
-このページには、組織の Experience Cloud にアクセスできるユーザーの完全なリストが表示されます。アプリケーションの使用権限と最終ログインに関する情報が提供されます。検索、並べ替え、フィルタリングによるユーザーリストのカスタム表示が可能です。
+このページには、組織の Experience Cloud にアクセスできるユーザーの完全なリストが表示されます。アプリケーションの使用権限と最終ログインに関する情報が提供されます。 検索、並べ替え、フィルタリングによるユーザーリストのカスタム表示が可能です。
 
 ![Admin Console ユーザーページ](../assets/admin-tool-users.png)
 
@@ -41,7 +41,7 @@ ht-degree: 76%
 | [!UICONTROL Email] | ユーザーに関連付けられている電子メールアドレスです。この列は A から Z、Z から A の順に並べ替えることができます。 |
 | [!UICONTROL ID Type] | ユーザーのアカウントの ID タイプです。フィルターを適用して、特定の ID タイプのみを表示できます。詳しくは、[ID タイプの管理](https://helpx.adobe.com/jp/enterprise/using/identity.html)を参照してください。 |
 | [!UICONTROL Solutions] | ユーザーがアクセスできる Experience Cloud アプリケーションの概要です。フィルターを適用して、特定のアプリケーションにアクセスできるユーザーのリストのみに絞り込むことができます。 |
-| [!UICONTROL Last Login] | Experience Cloudに最後にユーザーログインした日時。 この列は、昇順または降順に並べ替えることができます。<br> **重要：** 2020 年 1 月 13 日（PT）現在、ユーザーの最後のログインデータは 365 日間保持されます。 この情報は、Experience Cloudの現在のログインアクティビティを示すためのものであり、2020 年 1 月 13 日より前に非アクティブになったアカウントに対して何らかのアクションを実行することを推奨するものではありません。 |
+| [!UICONTROL Last Login] | Experience Cloudへの最新のユーザーログインの日時。 この列は、昇順または降順に並べ替えることができます。<br> **重要：** 2020 年 1 月 13 日（PT）をもって、ユーザーの最後のログインデータは 365 日間保持されます。 この情報は、Experience Cloudの現在のログインアクティビティを示すためのものであり、2020 年 1 月 13 日より前に非アクティブになったアカウントに対して何らかのアクションを実行することを推奨するものではありません。 |
 
 ## ユーザーリスト表示のカスタマイズ
 
@@ -162,4 +162,4 @@ ht-degree: 76%
 
 ## 関連情報
 
-* [&#x200B; での &#x200B;](https://helpx.adobe.com/jp/enterprise/using/users.html) ユーザーの管理 [!DNL Admin Console]
+* [ での ](https://helpx.adobe.com/jp/enterprise/using/users.html) ユーザーの管理 [!DNL Admin Console]

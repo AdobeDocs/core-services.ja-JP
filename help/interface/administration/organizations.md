@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 25c11da1284bccf033f3bb7adf109be7bdf8d55a
+source-git-commit: 27b9b789e0d4c448105f5acec3aa05c9404443bf
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 50%
+source-wordcount: '573'
+ht-degree: 48%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 50%
 
 この組織は、Experience Cloud のすべての製品とアプリケーションにまたがるログイン会社のように機能します。ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。
 
-![Experience Cloud組織 &#x200B;](../assets/organizations-menu.png)
+![Experience Cloud組織 ](../assets/organizations-menu.png)
 
 正しい組織にログインしていることを確認するには、「**[!UICONTROL Profile]**」をクリックしてデフォルトの組織名を表示します。 複数の組織にアクセスできる場合は、ヘッダーバーで別の組織を表示して切り替えることもできます。
 
@@ -69,7 +69,7 @@ ht-degree: 50%
 
 1. Adobe ID または Enterprise ID を使用してログインします。
 
-1. **[!UICONTROL Application selector]** をクリックします。 （![&#x200B; メニュー &#x200B;](../assets/apps-icon.png)）。
+1. **[!UICONTROL Application selector]** をクリックします。 （![ メニュー ](../assets/apps-icon.png)）。
 
    ![アプリケーションアカウントを Adobe ID にリンクする](../assets/solutions-active.png)
 
@@ -77,7 +77,7 @@ ht-degree: 50%
 
 1. 目的のアプリケーションをクリックします。
 
-   ![&#x200B; アプリケーションをクリックします &#x200B;](../assets/analytics-link-accounts.png)。
+   ![ アプリケーションをクリックします ](../assets/analytics-link-accounts.png)。
 
    このタイプのメッセージは、ユーザーが適切なグループに属している（かつアプリケーションに対する権限を持っている）が、そのアカウントの資格情報をまだ Adobe ID にリンクしていない場合に表示されます。
 
@@ -100,6 +100,6 @@ ht-degree: 50%
 
 一般的に、アカウントのリンクは、Adobe ID が以前のユーザーにリンクされていることが原因で失敗します。アカウントのリンクに失敗した場合は、
 
-* [アドビサポートにお問い合わせ](https://experienceleague.adobe.com/ja?support-solution=General&lang=ja#support)ください。
+* [アドビサポートにお問い合わせ](https://experienceleague.adobe.com/?support-solution=General&lang=ja#support)ください。
 * 問題が解決するまでの間、標準のログインを使用してアプリケーションにアクセスします。
 
