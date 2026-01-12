@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 7e6fb9d8e87ec1cbec0b60dd773f157cb52e66ea
+source-git-commit: f6e1b7bd86548f3f435738463d2ab764f801b077
 workflow-type: tm+mt
-source-wordcount: '1273'
-ht-degree: 79%
+source-wordcount: '1333'
+ht-degree: 76%
 
 ---
 
@@ -23,6 +23,12 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 ドキュメントの更新のリストについては、[&#x200B; ドキュメントの更新 &#x200B;](doc-updates.md) を参照してください。
 
 すべてのアプリケーションをカバーするリリースノートについては、[Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)を参照してください。
+
+## 2026年1月
+
+| 日付 | 更新 | 説明 |
+| -----------| -----------| ---------- |
+| **2026年1月15日（PT）** | カスタマイズ可能な左側のナビゲーション | Experience Cloudの統合シェルの左側のナビゲーションをカスタマイズできるようになりました。 ナビゲーション項目を並べ替えて、最も重要な機能にすばやくアクセスできます。 この更新により、ワークフローが合理化され、認知負荷が軽減され、完全なキーボードアクセシビリティがサポートされるようになり、効率が向上します。 アプリケーション全体で一貫性のある最新のデザインを保持し、将来のパーソナライゼーションを可能にします。 |
 
 ## 2025年9月
 
@@ -40,13 +46,13 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 
 | 日付 | 機能 | 説明 |
 | -----------| -----------| ---------- |
-| 2月13日 | Spectrum 2 | ヘッダーバーとヘッダーバーからアクセスするコンポーネントを含むExperience Cloud アプリケーションフレーム、および特定のアプリケーションの左側のナビゲーションレールは、Adobeの最新のデザインシステムである Spectrum 2 に更新されます。 この新しいデザインには、更新された図像が含まれていますが、同じ機能が含まれています。 ただし、ヘッダー内の複数の要素は、他のアドビのサイトやアプリケーションに合わせて再配置されます。 |
+| 13年2月 | Spectrum 2 | ヘッダーバーとヘッダーバーからアクセスするコンポーネントを含むExperience Cloud アプリケーションフレーム、および特定のアプリケーションの左側のナビゲーションレールは、Adobeの最新のデザインシステムである Spectrum 2 に更新されます。 この新しいデザインには、更新された図像が含まれていますが、同じ機能が含まれています。 ただし、ヘッダー内の複数の要素は、他のアドビのサイトやアプリケーションに合わせて再配置されます。 |
 
 ## 2025年1月
 
 | 日付 | 機能 | 説明 |
 | -----------| -----------| ---------- |
-| 1月9日（PT） | 製品の使用状況データ | Experience Cloudの製品の使用状況データの環境設定を簡単に制御できるように、Experience Cloud[&#x200B; 環境設定 &#x200B;](../features/account-preferences.md#product-usage-data) ページを合理化し、重複するオプションを排除しました。 簡素化を目的に、現在のユーザーの環境設定は保持され、[Experience Cloud の環境設定](https://experience.adobe.com/preferences)でいつでも環境設定を更新できます。 |
+| 9年1月 | 製品の使用状況データ | Experience Cloudの製品の使用状況データの環境設定を簡単に制御できるように、Experience Cloud[&#x200B; 環境設定 &#x200B;](../features/account-preferences.md#product-usage-data) ページを合理化し、重複するオプションを排除しました。 簡素化を目的に、現在のユーザーの環境設定は保持され、[Experience Cloud の環境設定](https://experience.adobe.com/preferences)でいつでも環境設定を更新できます。 |
 
 ## 2024 年 10 月 2 日（Pt）
 
@@ -144,7 +150,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 ## 2021年7月
 
-統合検索機能が Journey Optimizer、オファーおよび Experience League でも使用できるようになりました。これは、以前、Experience Platform でしか使用できなかった機能です。
+統合検索機能がアップデートし、Journey Optimizer、オファーおよび Experience League でも使用できるようになりました。これは、以前、Experience Platform でしか使用できなかった機能です。
 
 ## 2021年6月
 
