@@ -9,7 +9,7 @@ topic: Artificial Intelligence
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 9052fdf44146b17d00338c9823882c9eb254c6d7
 workflow-type: tm+mt
 source-wordcount: '2476'
 ht-degree: 9%
@@ -367,7 +367,7 @@ MarketoとGenStudio for Performance Marketingの統合
 * プロンプトに基づいて生成された式を取得します。 また、計算フィールドでの無効なカスタム式のエラーを解決することもできます。
 * プロジェクト、タスクおよび問題を見つけます。
 
-([!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/ja/docs/workfront/using/basics/ai-assistant/ai-assistant-overview" tooltip="Workfrontの AI アシスタントについて説明します"})
+[!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/ja/docs/workfront/using/basics/ai-assistant/ai-assistant-overview" tooltip="Workfrontの AI アシスタントについて説明します"}
 
 +++
 
@@ -383,4 +383,4 @@ MarketoとGenStudio for Performance Marketingの統合
 
 * [AI in Experience Cloud](https://experienceleague.adobe.com/en/docs/ai) documentation home -->
 
-**免責事項：** このページの情報は、一般的な情報提供のみを目的としています。 情報が正確で最新の状態を保つように尽力する一方で、ソフトウェアやジェネレーティブ AI の機能は頻繁に変更される可能性があります。 従って、当社は常に情報の完全性、正確性、信頼性を保証するものではありません。 このコンテンツに基づいて決定を下す前に、重要な詳細を確認してください。
+**免責事項：** このページの情報は、一般的な情報提供のみを目的としています。 情報が正確で最新の状態を保つように尽力する一方で、ソフトウェアやジェネレーティブ AI の機能は頻繁に変更される可能性があります。 したがって、Adobeは、その完全性、正確性または信頼性を常に保証するものではありません。 このコンテンツに基づいて決定を下す前に、重要な詳細を確認してください。
