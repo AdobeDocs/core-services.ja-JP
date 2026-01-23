@@ -7,10 +7,10 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: a5afed30f142601d44fd9f10ce1cfde683c6da1f
+source-git-commit: e7f83c8b302a98e6677fb53018738b3b654ab695
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 61%
+source-wordcount: '306'
+ht-degree: 55%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 61%
 
 **[!UICONTROL Apps]** ![&#x200B; メニュー &#x200B;](assets/menu-icon.png) > **[!DNL Customer Attributes]**
 
-Experience Cloud で [!DNL Customer Attributes] を使用すると、顧客関係管理（CRM）データベースから取り込んだ企業データをアップロードできます。Experience Cloud内の [&#x200B; データソースに &#x200B;](t-crs-usecase.md) データをアップロード [!DNL Customer Attributes] した後、[!DNL Adobe Analytics] および [!DNL Adobe Target] でそのデータを使用できます。
+Adobe Experience Cloudの [!DNL Customer Attributes] を使用すると、顧客関係管理（CRM）データベースから取り込んだ大規模法人データをアップロードできます。 Experience Cloud内の [&#x200B; データソースに &#x200B;](t-crs-usecase.md) データをアップロード [!DNL Customer Attributes] した後、[!DNL Adobe Analytics] および [!DNL Adobe Target] でそのデータを使用できます。
 
 ![顧客属性の概要](assets/custom_reports.png)
 
