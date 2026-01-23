@@ -16,9 +16,9 @@ ht-degree: 55%
 
 # Experience Cloud の [!DNL Customer Attributes]
 
-**[!UICONTROL Apps]** ![ メニュー ](assets/menu-icon.png) > **[!DNL Customer Attributes]**
+**[!UICONTROL Apps]** ![&#x200B; メニュー &#x200B;](assets/menu-icon.png) > **[!DNL Customer Attributes]**
 
-Adobe Experience Cloudの [!DNL Customer Attributes] を使用すると、顧客関係管理（CRM）データベースから取り込んだ大規模法人データをアップロードできます。 Experience Cloud内の [ データソースに ](t-crs-usecase.md) データをアップロード [!DNL Customer Attributes] した後、[!DNL Adobe Analytics] および [!DNL Adobe Target] でそのデータを使用できます。
+Adobe Experience Cloudの [!DNL Customer Attributes] を使用すると、顧客関係管理（CRM）データベースから取り込んだ大規模法人データをアップロードできます。 Experience Cloud内の [&#x200B; データソースに &#x200B;](t-crs-usecase.md) データをアップロード [!DNL Customer Attributes] した後、[!DNL Adobe Analytics] および [!DNL Adobe Target] でそのデータを使用できます。
 
 ![顧客属性の概要](assets/custom_reports.png)
 
@@ -28,11 +28,11 @@ Adobe Experience Cloudの [!DNL Customer Attributes] を使用すると、顧客
 
 次の図は、メンバー ID、資格のある製品、最も売り上げの多い製品など、製品の購読者データを表示する _データファイル_ の例です。
 
-![企業顧客データとは ](assets/01_crs_usecase.png)
+![企業顧客データとは &#x200B;](assets/01_crs_usecase.png)
 
 データファイルを作成したら、**[!UICONTROL Experience Cloud]**/**[!UICONTROL Customer Attributes]** で作成する顧客属性ソースにアップロードできます。
 
-このワークフローについては、[ 顧客属性データのアップロード ](t-crs-usecase.md) を参照してください。
+このワークフローについては、[&#x200B; 顧客属性データのアップロード &#x200B;](t-crs-usecase.md) を参照してください。
 
 ## Analytics と Target における顧客属性の例
 
