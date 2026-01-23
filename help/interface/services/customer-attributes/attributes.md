@@ -1,16 +1,16 @@
 ---
 title: ' [!DNL Customer Attributes] について'
-description: Experience Cloud の  [!DNL Customer Attributes]  について説明します。Adobe Analytics と Adobe Target で使用する顧客属性データのアップロード方法について説明します。
+description: Adobe Experience Cloud [!DNL Customer Attributes]  詳細を説明します。 Adobe Analytics と Adobe Target で使用する顧客属性データのアップロード方法について説明します。
 solution: Analytics
 feature: Customer Attributes
 role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: fc80e5fbbfc542a981f333413b648011f7057b58
+source-git-commit: a5afed30f142601d44fd9f10ce1cfde683c6da1f
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 63%
+source-wordcount: '305'
+ht-degree: 61%
 
 ---
 
