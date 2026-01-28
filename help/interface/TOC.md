@@ -5,10 +5,10 @@ breadcrumb-title: Experience Cloud インターフェイスおよび管理
 title: Experience Cloud インターフェイスおよび管理
 description: Experience Cloud インターフェイス、Cookie、アカウントの環境設定について説明します。製品を管理し、顧客属性やオーディエンスライブラリなどの People サービスを設定します。Experience Cloud Assets の共有。
 index: true
-source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
+source-git-commit: d30ce2e18e40d774ff2af1a9e6739e9d20f7b4d7
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 88%
+source-wordcount: '205'
+ht-degree: 86%
 
 ---
 
@@ -47,6 +47,7 @@ ht-degree: 88%
    + [アカウントの環境設定と通知](features/account-preferences.md)
    + [生成 AI](features/generative-ai.md)
    + [エージェント型 AI](features/agentic-ai.md)
+      + [エージェントジョブと AI クレジット消費](features/ai-credit-consumption.md)
    + [統合検索](features/search.md)
    + [パーソナライズされたラーニング環境設定](features/personalized-learning.md)
    + [ブラウザーと言語のサポート](browser-language.md)
@@ -71,6 +72,6 @@ ht-degree: 88%
    + [DNS プリフェッチの使用](data-collection/dns-prefetch.md)
 + リリースノートとリソース {#more-resources}
    + [リリースノート](more-resources/release-notes.md)
-   + [ドキュメントのアップデート](more-resources/doc-updates.md)
-   + [FAQ](more-resources/faq.md)
+   + [ドキュメントの更新](more-resources/doc-updates.md)
+   + [よくある質問](more-resources/faq.md)
    + [用語](more-resources/terms.md)
