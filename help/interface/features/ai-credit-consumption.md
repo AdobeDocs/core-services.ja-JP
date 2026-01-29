@@ -1,23 +1,21 @@
 ---
 title: エージェントジョブと AI クレジット消費
-description: Experience Cloud アプリケーションでのエージェントジョブと AI クレジット消費について説明します。
+description: Experience Cloud アプリケーションでのエージェントジョブと AI クレジット消費率について説明します。
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-hidefromtoc: true
-index: false
-source-git-commit: 4f738324ee18bbb63ae8c1d45907ecaf05230b34
+source-git-commit: 608e1685b6ca531da73d2df138b11537097716ce
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 11%
+source-wordcount: '388'
+ht-degree: 10%
 
 ---
 
 # エージェントジョブと AI クレジット消費
 
-Experience Cloud アプリケーションでの Agentic AI ジョブと AI クレジットの使用について説明します。
+Experience Cloud アプリケーションでの Agentic AI ジョブと AI クレジットの使用について説明します。 既存のExperience Cloud アプリケーションで Agentic AI 機能を有効にする方法については、[Experience Cloudの Agentic AI](agentic-ai.md#existing-apps) を参照してください。
 
 ## エージェントジョブ
 
