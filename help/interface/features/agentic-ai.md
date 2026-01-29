@@ -11,9 +11,9 @@ level: Intermediate
 hidefromtoc: true
 index: false
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
-source-git-commit: da7a2a9e9aa8365288fa6e05afb6485e4c33ccb2
+source-git-commit: 7c01f555359c2993e3d4da077882073a1e8b839a
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '876'
 ht-degree: 3%
 
 ---
@@ -31,7 +31,7 @@ Experience Cloudの AI エージェントには、次のいずれかでアクセ
 * [既存のExperience Cloud アプリケーション](#existing-apps)
 * [AI ファーストのExperience Cloudアプリケーション](#ai-first-apps)
 
-次の節では、Experience Cloudで Agentic AI を有効にする方法について説明します。
+以下の節では、Experience Cloudで Agentic AI を有効にする 2 つの方法について説明します。
 
 ## 既存のExperience Cloud アプリケーション {#existing-apps}
 
@@ -39,11 +39,11 @@ Experience Cloudの AI エージェントには、次のいずれかでアクセ
 
 次のいずれかのカテゴリに属するお客様は、既存のExperience Cloud アプリでエージェントを有効にすることができます。
 
-* Adobe Experience Platform Agents AI クレジットライセンスの購入
-* 使用量に制限された体験版に含まれる（AI クレジットは限定的に提供）
-* Agent Orchestrator プロモ SKU のトランザクション（時間限定トライアルライセンス）
+* Adobe Experience Platform Agents AI クレジットライセンスを購入した
+* 使用量に制限された体験版に含まれています（AI クレジットは限定的です）
+* Agent Orchestrator プロモ SKU （時間限定トライアルライセンス）をトランザクションしました
 
-AI エージェントを使用して _エージェントジョブ_ を実行する場合は、AI クレジットを使用します。 [&#x200B; エージェントジョブと AI クレジット消費 &#x200B;](/help/interface/features/ai-credit-consumption.md) で説明します。
+AI エージェントを使用して _エージェントジョブ_ を実行すると、AI クレジットが消費されます。 エージェントジョブと AI クレジットについて詳しくは、_[エージェントジョブと AI クレジットの消費](/help/interface/features/ai-credit-consumption.md)_ を参照してください。
 
 AI エージェントは _あなたの_ 入力、監督に従い、製品レベルのアクセス制御を尊重します。 ジョブの実行や、基になるExperience Cloud製品での使用が許可されているデータへのアクセスのみ可能です。
 
