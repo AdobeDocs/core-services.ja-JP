@@ -5,9 +5,9 @@ breadcrumb-title: Experience Cloud インターフェイスおよび管理
 title: Experience Cloud インターフェイスおよび管理
 description: Experience Cloud インターフェイス、Cookie、アカウントの環境設定について説明します。製品を管理し、顧客属性やオーディエンスライブラリなどの People サービスを設定します。Experience Cloud Assets の共有。
 index: true
-source-git-commit: 8c8e85c0c5f19191adfd72e20cfb1edd258179f6
+source-git-commit: 94aaba86801096ae5d638ff56e241d6a8b1ef317
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '208'
 ht-degree: 86%
 
 ---
@@ -16,6 +16,19 @@ ht-degree: 86%
 # Experience Cloud インターフェイスおよび管理 {#interface}
 
 + [Experience Cloud インターフェイスおよび管理](/help/interface/experience-cloud.md)
++ Experience Cloud の AI {#features}
+   + [生成 AI](/help/interface/features/generative-ai.md)
+   + [エージェント型 AI](/help/interface/features/agentic-ai.md)
+   + [エージェントジョブと AI クレジット消費](/help/interface/features/ai-credit-consumption.md)
++ 管理 {#administration}
+   + [アカウントの環境設定と通知](/help/interface/features/account-preferences.md)
+   + [ブラウザーと言語のサポート](/help/interface/browser-language.md)
+   + [ユーザーおよび製品の管理](/help/interface/administration/admin-console.md)
+   + [管理ツール](/help/interface/administration/admin-tool-experience-cloud.md)
+   + [組織とアカウントのリンク](/help/interface/administration/organizations.md)
+   + [統合](/help/interface/administration/integrations.md)
+   + [統合検索](/help/interface/features/search.md)
+   + [パーソナライズされたラーニング環境設定](/help/interface/features/personalized-learning.md)
 + インターフェイスサービス {#services}
    + [インターフェイスの概要](/help/interface/services/overview.md)
    + [基本を学ぶ](/help/interface/services/getting-started.md)
@@ -29,7 +42,6 @@ ht-degree: 86%
    + オーディエンスライブラリ {#audiences}
       + [オーディエンスの概要](/help/interface/services/audiences/overview.md)
       + [オーディエンスの作成](/help/interface/services/audiences/create.md)
-   + [Adobe Exchange](/help/interface/services/exchange.md)
    + 顧客属性 {#customer-attributes}
       + [顧客属性の概要](/help/interface/services/customer-attributes/attributes.md)
       + [よくある質問](/help/interface/services/customer-attributes/faq-crs.md)
@@ -43,19 +55,7 @@ ht-degree: 86%
       + [CCPA のサポート](/help/interface/services/customer-attributes/ccpa.md)
       + [プライバシーの配慮](/help/interface/services/customer-attributes/privacy-mac.md)
    + [トリガー](/help/interface/services/triggers.md)
-+ 機能 {#features}
-   + [アカウントの環境設定と通知](/help/interface/features/account-preferences.md)
-   + [生成 AI](/help/interface/features/generative-ai.md)
-   + [エージェント型 AI](/help/interface/features/agentic-ai.md)
-   + [エージェントジョブと AI クレジット消費](/help/interface/features/ai-credit-consumption.md)
-   + [統合検索](/help/interface/features/search.md)
-   + [パーソナライズされたラーニング環境設定](/help/interface/features/personalized-learning.md)
-   + [ブラウザーと言語のサポート](/help/interface/browser-language.md)
-+ 管理 {#administration}
-   + [ユーザーおよび製品の管理](/help/interface/administration/admin-console.md)
-   + [管理ツール](/help/interface/administration/admin-tool-experience-cloud.md)
-   + [組織とアカウントのリンク](/help/interface/administration/organizations.md)
-   + [統合](/help/interface/administration/integrations.md)
+   + [Adobe Exchange](/help/interface/services/exchange.md)
 + データ収集 {#data-collection}
    + [アドビの管理による証明書プログラム](/help/interface/data-collection/adobe-managed-cert.md)
    + [IP アドレス](/help/interface/data-collection/ip-addresses.md)
