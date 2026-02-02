@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 404d76931c8d315efba202536f032ddac223c530
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 62%
@@ -55,9 +55,9 @@ ht-degree: 62%
 
    * **[!UICONTROL Real-Time Analytics Data:]** （Raw データ）これは、Real-Time Analytics イメージリクエストから派生した属性データです。 eVar とイベントが含まれます。 この属性ソースを使用する場合は、レポートスイートを選択し、含めるディメンションまたはイベントを定義する必要があります。このレポートスイートの選択により、レポートスイートで使用された変数構造が提供されます。
 
-   >[!NOTE]
-   >
-   >キャッシュのため、Analytics で削除されたレポートスイートがExperience Cloudに表示されるまでに 12 時間かかります。
+     >[!NOTE]
+     >
+     >キャッシュのため、Analytics で削除されたレポートスイートがExperience Cloudに表示されるまでに 12 時間かかります。
 
    * **[!UICONTROL Experience Cloud:]** ソ [!DNL Experience Cloud] スから派生した属性データ。 例えば、[!DNL Analytics] で作成したオーディエンスセグメントからのデータや、[!DNL Audience Manager] からのデータです。
 
