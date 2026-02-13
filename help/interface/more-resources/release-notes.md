@@ -9,10 +9,28 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: f04dc50d480befa9c9f94711871ce2ecea51f9c8
+TQID: https://experienceleague.adobe.com/LHiM5ewnknE-NdZ5oEJ4ZhBDL4x-jChzSQBIZOK15Hw
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: dab36b01-8bfa-48f3-8392-626455a058e6
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+  - id: d27b1945-f442-4607-91bd-537a0b16e687
+  - id: e53834d3-a86e-47ae-8257-15f5f3639855
+  - id: ecb4a972-6786-444c-a014-abc528b9407a
+  - id: f1299f18-ec4b-4531-b2a2-df3b94ff9a68
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 76%
+source-wordcount: 1337
+ht-degree: 80%
 
 ---
 
@@ -26,9 +44,9 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 
 ## 2026年1月
 
-| 日付 | 更新 | 説明 | 対象製品 |
+| 日付 | 更新 | 説明 | 該当する製品 |
 | -----------| -----------| ---------- | ---------- |
-| **2026年1月14日（PT）** | カスタマイズ可能な左側のナビゲーションメニュー | Experience Cloudでアプリケーションの左側のナビゲーションメニューをカスタマイズできるようになりました。 ナビゲーション項目を並べ替えて表示を制御し、最も重要な機能にすばやくアクセスします。 この更新は、ワークフローを合理化し、認知負荷を軽減し、完全なキーボードアクセシビリティをサポートするのに役立ちます。 | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer B2B エディション</li><li>Dynamic Chat</li></ul> |
+| **2026年1月14日（PT）** | カスタマイズ可能な左側のナビゲーションメニュー | Experience Cloud でアプリケーションの左側のナビゲーションメニューをカスタマイズできるようになりました。 最も重要な機能にすばやくアクセスできるよう、ナビゲーション項目を並べ替えて、その表示を制御します。 このアップデートにより、ワークフローが効率化され、認知負荷が軽減され、完全なキーボードアクセシビリティがサポートされます。 | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer B2B エディション</li><li>Dynamic Chat</li></ul> |
 
 ## 2025年9月
 
@@ -54,7 +72,7 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 | -----------| -----------| ---------- |
 | 9年1月 | 製品の使用状況データ | Experience Cloudの製品の使用状況データの環境設定を簡単に制御できるように、Experience Cloud[&#x200B; 環境設定 &#x200B;](../features/account-preferences.md#product-usage-data) ページを合理化し、重複するオプションを排除しました。 簡素化を目的に、現在のユーザーの環境設定は保持され、[Experience Cloud の環境設定](https://experience.adobe.com/preferences)でいつでも環境設定を更新できます。 |
 
-## 2024 年 10 月 2 日（Pt）
+## 2024年10月2日（PT）
 
 | 機能 | 説明 |
 | -----------| ---------- |

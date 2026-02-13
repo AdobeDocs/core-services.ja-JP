@@ -7,9 +7,21 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: 27b9b789e0d4c448105f5acec3aa05c9404443bf
+TQID: https://experienceleague.adobe.com/v3ssxsKeUGWeikG4GxFRp8WgRRwCZIOILShX73blwPU
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: 1149
 ht-degree: 64%
 
 ---
@@ -61,8 +73,8 @@ CSV ファイルは次の形式に準拠する必要があります。
    <td colname="col2"> <p> 1 列目は一意の顧客 ID でなければなりません。使用する ID は、Experience Cloud ID サービスに渡される ID に対応している必要があります。 </p> <p>Analytics の場合は、prop または eVar に格納されている ID です。 </p> <p>Target の場合、setcustomerID 値。 </p> <p> この顧客 ID は、データベース内の各ユーザーを表すために CRM で使用する一意の ID です。残りの列は CRM から取得される属性です。アップロードする属性の数を選択します。 </p> <p>列の見出しには読みやすく、わかりやすい名前を使用することが推奨されますが、必須ではありません。アップロード後におこなうスキーマの検証の際に、アップロードされた行と列にわかりやすい名前をマッピングできます。 </p> <p> <b> 顧客 ID について </b> </p> <p>通常、企業は、CRM システムからの顧客 ID を使用します。この ID は、ユーザーがログインしたときに <span class="codeph"> setcustomerIDs </span> 呼び出しを使用して設定されます。 この ID は、Experience Cloudにアップロードされる CRM ファイルでもキーとして使用されます。 <a href="t-crs-usecase.md" format="dita" scope="local">エイリアス ID</a> は、エイリアスデータが格納される Audience Manager のデータストアの識別子です。システムはこのデータストアに（setcustomerIDs を介して）エイリアスを送信します。 CRM ファイルは、このデータストアのデータに適用されます。 </p> <p>setcustomerID<span class="codeph"> 詳細 </span> ついては、顧客 ID<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja" format="https" scope="external"> 認証状態の </a> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2 列目以降の見出しと列 </p> </td> 
-   <td colname="col2"> <p>2 列目以降の見出しは、各属性の名前を表す必要があります。 </p> <p> これらの列は、CRM から取得される顧客属性を含んでいる必要があります。 </p> </td> 
+   <td colname="col1"> <p>2 列目以降のヘッダーと列 </p> </td> 
+   <td colname="col2"> <p>2 列目以降のヘッダーは、各属性の名前を表す必要があります。 </p> <p> これらの列は、CRM から取得される顧客属性を含んでいる必要があります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>属性の制限 </p> </td> 
