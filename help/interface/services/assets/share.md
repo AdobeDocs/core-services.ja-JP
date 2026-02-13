@@ -77,7 +77,7 @@ Creative Cloud ユーザーがアセットにアクセスするには、Experien
 
    Creative Cloud ユーザーをすべて削除すると、そのフォルダーの共有が解除され、Creative Cloud ユーザーはそれらにアクセスできなくなります。
 
-共有アセットを使用するその他の方法としては、アクティビティ内の画像用にAdobe Targetの [&#x200B; オファーライブラリ &#x200B;](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) でアセットを読み込んだり入れ替えたりすることが挙げられます。
+共有アセットを使用するその他の方法としては、アクティビティ内の画像用にAdobe Targetの [&#x200B; オファーライブラリ &#x200B;](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=ja) でアセットを読み込んだり入れ替えたりすることが挙げられます。
 
 Creative Cloud にフォルダーを共有すると、フォルダー上に Creative Cloud のロゴが表示されます。
 
@@ -93,5 +93,5 @@ Creative Cloud にフォルダーを共有すると、フォルダー上に Crea
 
 [!DNL Adobe Target] でアクティビティを作成する場合、[!UICONTROL Offers Library] で画像を入れ替える際に、共有画像アセットを使用できます。
 
-[!DNL Target] ヘルプの[オファーライブラリ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html)を参照してください。
+[!DNL Target] ヘルプの[オファーライブラリ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=ja)を参照してください。
 
