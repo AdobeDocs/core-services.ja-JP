@@ -2,15 +2,19 @@
 title: ユーザーとユーザーの詳細の表示
 description: Experience Cloud の管理ツールについて説明します。 すべての Experience Cloud ユーザーとポリシーの並べ替えおよびフィルタリング可能なリストを表示します。
 application: Experience Cloud
-index: true
+index: yes
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: 27b9b789e0d4c448105f5acec3aa05c9404443bf
+TQID: https://experienceleague.adobe.com/zq5NfbuRlyx2Y0e-u-B8CErQPhfn4Re8-6z3sN9QGE0
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: 1182
 ht-degree: 75%
 
 ---
@@ -71,7 +75,7 @@ ht-degree: 75%
 
 * ユーザーアバターとシステム管理者バッジ（該当する場合）
 * 名前
-* 電子メール
+* メール
 * ユーザー名（Federated ID アカウントには、メールアドレスとは異なるユーザー名を使用できます）
 * [ID タイプ](https://helpx.adobe.com/jp/enterprise/using/identity.html)
 * 国
@@ -162,4 +166,4 @@ ht-degree: 75%
 
 ## 関連情報
 
-* [&#x200B; での &#x200B;](https://helpx.adobe.com/jp/enterprise/using/users.html) ユーザーの管理 [!DNL Admin Console]
+* [ での ](https://helpx.adobe.com/jp/enterprise/using/users.html) ユーザーの管理 [!DNL Admin Console]

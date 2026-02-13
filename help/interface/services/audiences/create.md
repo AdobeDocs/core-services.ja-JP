@@ -8,9 +8,15 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: 404d76931c8d315efba202536f032ddac223c530
+TQID: https://experienceleague.adobe.com/xXhiBeGGEVpvdjZdpL2Q9-3eDn-gN58dynb56daQcig
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: 507
 ht-degree: 62%
 
 ---
@@ -38,15 +44,15 @@ ht-degree: 62%
 次に、複合オーディエンスのルールを作成する方法の例を示します。このオーディエンスは、次のもので構成されます。
 
 * ページデータまたは Analytics の生データから得られる Home &amp; Garden セクション。
-* [!DNL Adobe Analytics] セグメントから派生したChromeおよび Safari のユーザー [&#x200B; 公開済み &#x200B;](overview.md) を [!DNL Experience Cloud] に対して行う。
+* [!DNL Adobe Analytics] セグメントから派生したChromeおよび Safari のユーザー [ 公開済み ](overview.md) を [!DNL Experience Cloud] に対して行う。
 
   ![複合オーディエンスのルールの作成](assets/audience_create.png)
 
 **オーディエンスを作成するには、以下を実行します。**
 
-1. [!DNL Experience Cloud] アプリ（![&#x200B; アプリアイコン &#x200B;](assets/apps-icon.png)）をクリックし、**[!UICONTROL People]**/**[!UICONTROL Audience Library].** をクリックします。
+1. [!DNL Experience Cloud] アプリ（![ アプリアイコン ](assets/apps-icon.png)）をクリックし、**[!UICONTROL People]**/**[!UICONTROL Audience Library].** をクリックします。
 
-1. [!UICONTROL Audiences] ページで「**[!UICONTROL New]**」をクリックします。 ![&#x200B; 新しいオーディエンス &#x200B;](assets/add_icon_small.png)
+1. [!UICONTROL Audiences] ページで「**[!UICONTROL New]**」をクリックします。 ![ 新しいオーディエンス ](assets/add_icon_small.png)
 
    ![オーディエンスの作成](assets/audience_create_new.png)
 
@@ -97,4 +103,4 @@ ht-degree: 62%
 
 特定期間のデータ収集が終了すると、円は結合されて、定義されたオーディエンスを表示します。
 
-オーディエンスを保存した後は、他のExperience Cloud アプリケーションでも使用できるようになります。 例えば、Adobe Target[&#x200B; アクティビティ &#x200B;](https://experienceleague.adobe.com/ja/docs/target/using/activities/activities) に共有オーディエンスを含めることができます。
+オーディエンスを保存した後は、他のExperience Cloud アプリケーションでも使用できるようになります。 例えば、Adobe Target[ アクティビティ ](https://experienceleague.adobe.com/en/docs/target/using/activities/activities) に共有オーディエンスを含めることができます。
