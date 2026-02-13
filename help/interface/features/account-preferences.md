@@ -8,12 +8,25 @@ role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
 TQID: https://experienceleague.adobe.com/2IL6hUlA1oNxJIFMwbVQUbxEGkJoghVUTyMi5wSRBsE
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: e1eba07e-ab89-466f-9ab5-ceb891d7a67did: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: dc42f745-24d2-44a4-99c3-dece518fa4bcid: eaef3029-0844-43fe-9e1c-7666a24f4d03id: eb1ae5c4-ef16-4998-851c-73cc9f0b7f06id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: e1eba07e-ab89-466f-9ab5-ceb891d7a67d
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+  - id: dc42f745-24d2-44a4-99c3-dece518fa4bc
+  - id: eaef3029-0844-43fe-9e1c-7666a24f4d03
+  - id: eb1ae5c4-ef16-4998-851c-73cc9f0b7f06
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
 source-wordcount: 788
@@ -23,18 +36,18 @@ ht-degree: 6%
 
 # アカウントの環境設定と通知
 
-Experience Cloudの環境設定を見つけるには、ヘッダーの **[!UICONTROL Profile]**![ 環境設定 ](../assets/preferences-icon-sm.png)」をクリックし、「**[!UICONTROL Preferences]**」をクリックします。
+Experience Cloudの環境設定を見つけるには、ヘッダーの **[!UICONTROL Profile]**![&#x200B; 環境設定 &#x200B;](../assets/preferences-icon-sm.png)」をクリックし、「**[!UICONTROL Preferences]**」をクリックします。
 
-![ 環境設定 ](../assets/preferences-navigation.png){width="100" zoomable="yes"}
+![&#x200B; 環境設定 &#x200B;](../assets/preferences-navigation.png){width="100" zoomable="yes"}
 
 [!UICONTROL Experience Cloud preferences] ページでは、次のアカウント機能を管理できます。
 
 | 機能 | 説明 |
 |--- |--- |
-| [!UICONTROL Profile] | [Adobe アカウントプロファイル ](https://account.adobe.com/profile) を更新します。 <p>プロファイルの写真と名前は、Adobe.comやAdobeの製品とサービスにログインしたときに表示されます。また、[!DNL Behance] のような公開サイトにも表示されます。 |
-| [!UICONTROL General] | [ 組織 ](../administration/organizations.md) を選択します。<p>この組織は、Experience Cloudにログインする際に使用されるデフォルトの組織です。 |
-| [!UICONTROL Product usage data] | Experience Cloud アプリケーションを使用するときに、Adobeで共有される製品の使用状況データを制御できます。 これは、お客様の組織のコンテンツやデータそのものではなく、お客様の製品の使用方法に関するデータです。 Adobeでは、この情報を使用して、商品の品質向上、強化された製品内サポートの提供、お客様のアドビからのエクスペリエンスやお知らせのパーソナライズを行います。 <p>詳しくは、[ 製品の使用状況データ ](#product-usage-data) （このページ）を参照してください。 |
-| [!UICONTROL Notifications] | 製品 [ 通知 ](#subscribe-to-notifications-in-experience-cloud) およびアラートを希望する方法とタイミングを設定します。 <ul><li>アラートを登録する製品を選択します</li><li>通知のタイプ （[!UICONTROL in-app]、[!UICONTROL email] または [Slack](#slack-notifications)）を設定</li><li>通知メールの受信頻度を指定します。（送信しない、即時、毎日または毎週）</li><li>アラートの優先度を決定します。 アプリ内アラートは、ウィンドウの右上隅に数秒間表示されます。 または、解除するまでアラートを表示するかどうかを指定できます。</li></ul> |
+| [!UICONTROL Profile] | [Adobe アカウントプロファイル &#x200B;](https://account.adobe.com/profile) を更新します。 <p>プロファイルの写真と名前は、Adobe.comやAdobeの製品とサービスにログインしたときに表示されます。また、[!DNL Behance] のような公開サイトにも表示されます。 |
+| [!UICONTROL General] | [&#x200B; 組織 &#x200B;](../administration/organizations.md) を選択します。<p>この組織は、Experience Cloudにログインする際に使用されるデフォルトの組織です。 |
+| [!UICONTROL Product usage data] | Experience Cloud アプリケーションを使用するときに、Adobeで共有される製品の使用状況データを制御できます。 これは、お客様の組織のコンテンツやデータそのものではなく、お客様の製品の使用方法に関するデータです。 Adobeでは、この情報を使用して、商品の品質向上、強化された製品内サポートの提供、お客様のアドビからのエクスペリエンスやお知らせのパーソナライズを行います。 <p>詳しくは、[&#x200B; 製品の使用状況データ &#x200B;](#product-usage-data) （このページ）を参照してください。 |
+| [!UICONTROL Notifications] | 製品 [&#x200B; 通知 &#x200B;](#subscribe-to-notifications-in-experience-cloud) およびアラートを希望する方法とタイミングを設定します。 <ul><li>アラートを登録する製品を選択します</li><li>通知のタイプ （[!UICONTROL in-app]、[!UICONTROL email] または [Slack](#slack-notifications)）を設定</li><li>通知メールの受信頻度を指定します。（送信しない、即時、毎日または毎週）</li><li>アラートの優先度を決定します。 アプリ内アラートは、ウィンドウの右上隅に数秒間表示されます。 または、解除するまでアラートを表示するかどうかを指定できます。</li></ul> |
 
 ## [!UICONTROL Product usage data]
 
@@ -47,7 +60,7 @@ Adobeと共有する製品の使用状況データには、Adobe アプリケー
 * コンテンツの使用状況情報（コンテンツへのアクセス回数、アプリ内のコンテンツの操作方法など）。
 * クラッシュ ログとエラーログ。
 
-Adobeは、この情報を商品の品質向上、製品内およびカスタマーケア経由の両方でのサポートの提供、お客様の体験やお客様からのお知らせのパーソナライズに活用します。 詳しくは、[ パーソナライズされたエクスペリエンス ](personalized-learning.md) を参照してください。
+Adobeは、この情報を商品の品質向上、製品内およびカスタマーケア経由の両方でのサポートの提供、お客様の体験やお客様からのお知らせのパーソナライズに活用します。 詳しくは、[&#x200B; パーソナライズされたエクスペリエンス &#x200B;](personalized-learning.md) を参照してください。
 
 ## Experience Cloudの通知の購読
 
@@ -57,7 +70,7 @@ Adobeは、この情報を商品の品質向上、製品内およびカスタマ
 
 ### アプリ内通知およびメール通知のサブスクライブ
 
-1. Experience Cloud[ 環境設定 ](https://experience.adobe.com/preferences) に移動します。
+1. Experience Cloud[&#x200B; 環境設定 &#x200B;](https://experience.adobe.com/preferences) に移動します。
 
 1. 「**[!UICONTROL Notifications]**」で、「**[!UICONTROL In-app]**」または「**[!UICONTROL Email]**」を有効にします。
 
@@ -75,27 +88,27 @@ Adobeは、この情報を商品の品質向上、製品内およびカスタマ
 
 **[!DNL Slack] 通知の配信登録**
 
-1. Experience Cloud[ 環境設定 ](https://experience.adobe.com/preferences) に移動します。
+1. Experience Cloud[&#x200B; 環境設定 &#x200B;](https://experience.adobe.com/preferences) に移動します。
 
 1. [!DNL Slack] を見つけ、「**[!UICONTROL Add to Slack]**」をクリックします。
 
-   ![Slackに追加 ](../assets/add-to-slack.png)
+   ![Slackに追加 &#x200B;](../assets/add-to-slack.png)
 
-   [!DNL Slack] がインストールされている場合は、アプリケーションが開き、権限要求メッセージが表示されます。 Slackがインストールされていない場合は、[ 権限をリクエスト ](#slack-troubleshoot) する必要があります。
+   [!DNL Slack] がインストールされている場合は、アプリケーションが開き、権限要求メッセージが表示されます。 Slackがインストールされていない場合は、[&#x200B; 権限をリクエスト &#x200B;](#slack-troubleshoot) する必要があります。
 
 1. 「**[!UICONTROL Allow]**」をクリックします。
 
 1. **[!UICONTROL Notifications]** の下で、目的の製品およびカテゴリの [!DNL Slack] 通知を有効にします。
 
-   ![Slackの通知 ](../assets/slack.png)
+   ![Slackの通知 &#x200B;](../assets/slack.png)
 
    通知に対する更新は自動的に保存されます。
 
 ### [!DNL Slack] でのリクエスト権限（トラブルシューティング）
 
-[!DNL Slack] がインストールされていない場合、「_[!UICONTROL Request to install]_」をクリックした後にSlackを開くと、**[!UICONTROL Add to Slack]**のメッセージが表示されます。 例：
+[!DNL Slack] がインストールされていない場合、「_[!UICONTROL Request to install]_」をクリックした後にSlackを開くと、**[!UICONTROL Add to Slack]**&#x200B;のメッセージが表示されます。 例：
 
-![Slack統合のリクエスト ](../assets/slack-workspace.png)
+![Slack統合のリクエスト &#x200B;](../assets/slack-workspace.png)
 
 **Slackで権限をリクエストするには**
 
@@ -105,7 +118,7 @@ Adobeは、この情報を商品の品質向上、製品内およびカスタマ
 
 1. 申請リクエストが承認されると、[!DNL Slack] に通知が届きます。
 
-1. 承認 [!DNL Slack] 受け取ったら、Experience Cloud **[!UICONTROL Notifications]** に戻り、手順に従って [Slackに登録 ](#slack-notifications) します（上記）。
+1. 承認 [!DNL Slack] 受け取ったら、Experience Cloud **[!UICONTROL Notifications]** に戻り、手順に従って [Slackに登録 &#x200B;](#slack-notifications) します（上記）。
 
 ### [!DNL Slack] に表示される内容
 
@@ -118,7 +131,7 @@ Adobeは、この情報を商品の品質向上、製品内およびカスタマ
 
 ## Experience Cloudで [!UICONTROL notifications] ファーとお知らせを表示する
 
-[!DNL Experience Cloud] ヘッダーでは、自分が [ 購読 ](#notifications) している通知を表示したり、お知らせを表示したりできます。
+[!DNL Experience Cloud] ヘッダーでは、自分が [&#x200B; 購読 &#x200B;](#notifications) している通知を表示したり、お知らせを表示したりできます。
 
 1. ヘッダーのベルアイコンをクリックします。 ![通知とお知らせ](../assets/bell-icon.png)
 

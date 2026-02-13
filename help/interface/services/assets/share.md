@@ -9,11 +9,18 @@ role: Admin
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
 TQID: https://experienceleague.adobe.com/RC2C4CKPhWEO3O4k7baoAqknTj3qj-23Ic1bXtv2zP4
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
 source-wordcount: 413
@@ -64,13 +71,13 @@ Creative Cloud ユーザーがアセットにアクセスするには、Experien
 
    ![画像にコメントを追加](../../assets/asset_comment_mac.png)
 
-1. フォルダーの共有を解除するには、「**[!UICONTROL Share Using Creative Cloud]**」をクリックし（[ 手順 3](share.md) と同様）、「X」を選択してユーザーを削除して、「**[!UICONTROL Share]**」をクリックします。
+1. フォルダーの共有を解除するには、「**[!UICONTROL Share Using Creative Cloud]**」をクリックし（[&#x200B; 手順 3](share.md) と同様）、「X」を選択してユーザーを削除して、「**[!UICONTROL Share]**」をクリックします。
 
    ![フォルダーの共有を解除する](../../assets/asset_remove_user.png)
 
    Creative Cloud ユーザーをすべて削除すると、そのフォルダーの共有が解除され、Creative Cloud ユーザーはそれらにアクセスできなくなります。
 
-共有アセットを使用するその他の方法としては、アクティビティ内の画像用にAdobe Targetの [ オファーライブラリ ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) でアセットを読み込んだり入れ替えたりすることが挙げられます。
+共有アセットを使用するその他の方法としては、アクティビティ内の画像用にAdobe Targetの [&#x200B; オファーライブラリ &#x200B;](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) でアセットを読み込んだり入れ替えたりすることが挙げられます。
 
 Creative Cloud にフォルダーを共有すると、フォルダー上に Creative Cloud のロゴが表示されます。
 

@@ -8,9 +8,12 @@ role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
 TQID: https://experienceleague.adobe.com/lbDHQNLf--xowxe4ZVZsGptwKyEzvT1wQV0QTFJyKpk
-product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
 source-wordcount: 298
@@ -24,7 +27,7 @@ Adobe Advertising（旧称 Adobe Advertising Cloud）では、広告エンゲー
 
 >[!NOTE]
 >
->[Adobe Experience Cloud ID （ECID） サービスを使用するベータ版Adobe Advertising JavaScript タグは ](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ja)Adobe Advertising Cookie ではなく、[Experience Cloud](experience-cloud.md) `s_ecid` Cookie を作成します。
+>[Adobe Experience Cloud ID （ECID） サービスを使用するベータ版Adobe Advertising JavaScript タグは &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ja)Adobe Advertising Cookie ではなく、[Experience Cloud](experience-cloud.md) `s_ecid` Cookie を作成します。
 
 | cookie 名 | 有効期限 | サイズ | ロケーション | 説明 |
 | --- | --- | --- | --- | --- |
