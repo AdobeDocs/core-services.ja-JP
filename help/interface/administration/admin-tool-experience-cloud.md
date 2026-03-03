@@ -9,13 +9,10 @@ role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
 TQID: https://experienceleague.adobe.com/zq5NfbuRlyx2Y0e-u-B8CErQPhfn4Re8-6z3sN9QGE0
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1182
 ht-degree: 75%
@@ -43,7 +40,7 @@ ht-degree: 75%
 ![Admin Console ユーザーページ](../assets/admin-tool-users.png)
 
 | 要素 | 説明 |
-|---|---|
+| --- | ---|
 | [!UICONTROL Name] | ユーザーの姓名です。この列は A から Z、Z から A の順に並べ替えることができます。ユーザー名をクリックすると、そのユーザーの詳細が表示されます。 |
 | [!UICONTROL Email] | ユーザーに関連付けられている電子メールアドレスです。この列は A から Z、Z から A の順に並べ替えることができます。 |
 | [!UICONTROL ID Type] | ユーザーのアカウントの ID タイプです。フィルターを適用して、特定の ID タイプのみを表示できます。詳しくは、[ID タイプの管理](https://helpx.adobe.com/jp/enterprise/using/identity.html)を参照してください。 |
@@ -59,7 +56,7 @@ ht-degree: 75%
 * 複数のフィルターを適用して特定の条件を持つユーザーをリストするには、「**[!UICONTROL Filter By]**」をクリックします。 複数のフィルターカテゴリを適用する場合、「メールドメイン」 `AND` 「ID タイプ」 `AND` 「ソリューション」の条件に一致する結果が検索されます。
 
 | 要素 | 説明 |
-|---------|----------|
+| ---------| ----------|
 | [!UICONTROL Email Domain] フィルター | 「メール」列で文字列を検索し、結果を 1 つまたは複数のドメインに絞り込みます。複数のフィルターを追加するには、各検索語句の後で Enter キーを押します。 |
 | [!UICONTROL ID Type] フィルター | 使用可能な ID タイプから選択します。複数の ID タイプをフィルターとして使用できます。 |
 | [!UICONTROL Solution] フィルター | 使用可能なアプリケーションから選択します。複数のアプリケーションフィルターが、ソリューション 1 `OR` ソリューション 2 を含む結果を検索します。 |
@@ -93,7 +90,7 @@ ht-degree: 75%
 このセクションには、ユーザーのすべての製品プロファイルメンバーシップの完全なリストが表示されます。
 
 | 要素 | 説明 |
-|---------|----------|
+| ---------| ----------|
 | [!UICONTROL Product] | 製品プロファイルに関連付けられている製品の名前です。 |
 | [!UICONTROL Instance] | 製品と製品プロファイルに関連付けられているインスタンス（ログイン会社やテナントなど）の名前です。 |
 | [!UICONTROL Product profile] | 製品プロファイルの一意の名前です。 |
@@ -107,7 +104,7 @@ ht-degree: 75%
 ![Admin Console のポリシーページ](../assets/admin-tool-policies.png)
 
 | 要素 | 説明 |
-|---|---|
+| ---| ---|
 | [!UICONTROL Product rofile] | 製品プロファイルの名前です。列は、A->Z、Z->Aの順に並べ替えることができます。ポリシーの詳細を確認するには、製品プロファイルの名前を選択します。 |
 | [!UICONTROL Product] | 製品プロファイルに関連付けられている製品です。この列は A から Z、Z から A の順に並べ替えることができます。 |
 | [!UICONTROL Instance] | 製品プロファイルに関連付けられたインスタンス（テナント、ログイン会社など）です。一意のインスタンスまたはテナントを持たない製品では、その値に「 - 」が表示されます。この列は A から Z、Z から A の順に並べ替えることができます。 |
@@ -123,7 +120,7 @@ ht-degree: 75%
 * 複数のフィルターを適用して、特定の条件に一致する製品プロファイルをリストするには、「**[!UICONTROL Filter By]**」アイコンをクリックします。 複数のフィルターカテゴリが適用されている場合、検索にはグループ関連の `AND` インスタンス `AND` ソリューションが含まれます。
 
 | 要素 | 説明 |
-|---------|----------|
+| ---------| ----------|
 | [!UICONTROL Instance] フィルター | インスタンス列で文字列を検索し、結果を 1 つまたは複数のインスタンスに絞り込みます。複数のフィルターを追加するには、各検索語句の後で Enter キーを押します。 |
 | [!UICONTROL Solution] フィルター | 使用可能なアプリケーションから選択します。複数のアプリケーションフィルターが、ソリューション 1 `OR` ソリューション 2 を含む結果を検索します。 |
 
@@ -156,7 +153,7 @@ ht-degree: 75%
 このセクションには、製品プロファイルに割り当てられているすべてのユーザー、ユーザーグループ、デベロッパー、統合および管理者の完全なリストが表示されます。
 
 | タブ | 説明 |
-|---------|----------|
+| ---------| ----------|
 | [!UICONTROL Users] | 製品プロファイルに含まれるユーザーのリスト。ユーザーグループの関連付けが [!UICONTROL Assigned by group] の列に表示されます。 |
 | [!UICONTROL User Groups] | 製品プロファイルに関連付けられているユーザーグループのリスト。 |
 | [!UICONTROL Developers] | 製品プロファイルに関連付けられているデベロッパーのリスト。 |
@@ -169,4 +166,4 @@ ht-degree: 75%
 
 ## 関連情報
 
-* [&#x200B; での &#x200B;](https://helpx.adobe.com/jp/enterprise/using/users.html) ユーザーの管理 [!DNL Admin Console]
+* [ での ](https://helpx.adobe.com/jp/enterprise/using/users.html) ユーザーの管理 [!DNL Admin Console]

@@ -8,18 +8,12 @@ role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
 TQID: https://experienceleague.adobe.com/v3ssxsKeUGWeikG4GxFRp8WgRRwCZIOILShX73blwPU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1149
 ht-degree: 64%
@@ -37,7 +31,7 @@ ht-degree: 64%
 ## 許可されるファイルタイプと命名規則
 
 | ファイルタイプ | 説明 |
-|--- |--- |
+| --- | --- |
 | `.csv` | 値をコンマで区切って入力したファイル（Excel で作成するファイルなど）。このファイルには、顧客属性データが含まれます。   命名要件：ファイル名拡張子に空白が含まれていないことを確認します。 |
 | `.fin` | （必須） `.fin` ファイルは、データのアップロードが完了したことをシステムに伝えます。 `.fin` ファイルの名前は、`.csv` ファイルの名前と一致する必要があります。  Adobeでは、`.fin` の拡張子を持つ空のテキストファイルを作成することをお勧めします。 空のファイルを使用すると、領域を節約でき、アップロード時間も短縮されます。 **メモ：** アップロード後に `.fin` ファイルの名前を変更することはできません。 `.fin` ファイルは個別にアップロードする必要があり、以前にアップロードしたファイルの名前を変更することはできません。 顧客属性 FTP に `.fin` ファイルをアップロードすると、システムによって（1 分以内に）データが迅速に取得されます。 これは、データの取得頻度が低い（1 時間に 1 回程度）他のAdobe FTP ベースシステムとは異なります。 ドラッグ&amp;ドロップによるアップロード方法を使用する場合、`.fin` ファイルは必要ありません。 |
 | `.gz` または `.zip` | `.gz` （gzip）または `.zip` – 圧縮ファイルの場合。 `.zip` ファイルには、アーカイブ内に複数のファイルを含めることはできません。 命名要件：`.zip` または `.gz` の名前は、`.csv` ファイルの名前と一致する必要があります。 例えば、`.csv` ファイルが `crm_small.csv` の場合、`.zip` ファイルは `crm_small.csv.zip` である必要があります。 `.fin` ファイルは `.csv` と一致する必要があります。 |
@@ -148,7 +142,7 @@ Visitor.setcustomerIDs({
 });
 ```
 
-（詳しくは、[&#x200B; 顧客 ID と認証状態 &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja) を参照してください。）
+（詳しくは、[ 顧客 ID と認証状態 ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja) を参照してください。）
 
 **[!DNL Experience Cloud]** > **[!DNL Customer Attributes]** で以下を実行します。
 
