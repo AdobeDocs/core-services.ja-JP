@@ -6,7 +6,7 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 25c11da1284bccf033f3bb7adf109be7bdf8d55a
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 78%
@@ -111,7 +111,7 @@ Experience Cloud の環境設定には、通知、購読、アラートが含ま
 [!UICONTROL Experience Cloud preferences] では、次の機能を設定できます。
 
 | 機能 | 説明 |
-|--- |--- |
+| --- | --- |
 | デフォルトの組織 | Experience Cloud の起動時に表示する組織を選択します。 |
 | [!UICONTROL Subscriptions] | 購入する製品とカテゴリを選択します。[!UICONTROL Notifications] ポップオーバーとメール内の通知。 |
 | [!UICONTROL Priority] | 優先度が高いと見なすカテゴリを選択します。これらのカテゴリには「高」タグが付き、アラートんなどの配信用に設定できます。 |

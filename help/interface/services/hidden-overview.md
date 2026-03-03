@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 67%
@@ -29,7 +29,7 @@ Experience Cloudのこれらのサービスにアクセスするには、**[!UIC
 このヘルプでは、次の製品およびサービスについて説明します。
 
 | コアサービス | 説明 |
-|--- |--- |
+| --- | --- |
 | [中央インターフェイスコンポーネント](../experience-cloud.md) | アカウント設定にアクセスし、製品ヘルプを検索して、アプリケーションとサービスにアクセスします。 |
 | [オーディエンスライブラリ](audiences/overview.md) | オーディエンスは、訪問者の集合（訪問者 ID のリスト）です。Adobe [!DNL Audience Library] を使用すると、訪問者データからオーディエンスのセグメント化への変換を管理できます。 |
 | [顧客属性](customer-attributes/attributes.md) | イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築できます。[!UICONTROL Journey Orchestration] は、Experience Platform と統合されたアプリケーションサービスです。 |

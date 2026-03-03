@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 788
 ht-degree: 6%
@@ -43,7 +43,7 @@ Experience Cloudの環境設定を見つけるには、ヘッダーの **[!UICON
 [!UICONTROL Experience Cloud preferences] ページでは、次のアカウント機能を管理できます。
 
 | 機能 | 説明 |
-|--- |--- |
+| --- | --- |
 | [!UICONTROL Profile] | [Adobe アカウントプロファイル &#x200B;](https://account.adobe.com/profile) を更新します。 <p>プロファイルの写真と名前は、Adobe.comやAdobeの製品とサービスにログインしたときに表示されます。また、[!DNL Behance] のような公開サイトにも表示されます。 |
 | [!UICONTROL General] | [&#x200B; 組織 &#x200B;](../administration/organizations.md) を選択します。<p>この組織は、Experience Cloudにログインする際に使用されるデフォルトの組織です。 |
 | [!UICONTROL Product usage data] | Experience Cloud アプリケーションを使用するときに、Adobeで共有される製品の使用状況データを制御できます。 これは、お客様の組織のコンテンツやデータそのものではなく、お客様の製品の使用方法に関するデータです。 Adobeでは、この情報を使用して、商品の品質向上、強化された製品内サポートの提供、お客様のアドビからのエクスペリエンスやお知らせのパーソナライズを行います。 <p>詳しくは、[&#x200B; 製品の使用状況データ &#x200B;](#product-usage-data) （このページ）を参照してください。 |

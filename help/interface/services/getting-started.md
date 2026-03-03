@@ -31,7 +31,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1942
 ht-degree: 76%
@@ -106,7 +106,7 @@ Experience Cloud コアサービスを有効にする方法としては、[&#x20
 [!UICONTROL Experience Platform tags] を使用しない場合は、次のように、JavaScript デプロイメント（`VisitorAPI.js`）を介して ID サービスを手動で実装します。
 
 | タスク | 説明 |
-|--- |--- |
+| --- | --- |
 | [Experience Cloud ID サービスの Analytics への実装](https://experienceleague.adobe.com/ja/docs/analytics/implementation/id/overview) | また、追加の[顧客 ID](https://experienceleague.adobe.com/ja/docs/id-service/using/reference/authenticated-state) を設定することを推奨します。これらの ID は各訪問者に関連付けられ、Experience Cloud の現在および将来の機能を有効にします。 |
 | 既存の `s_code` をバージョン H.27.3 以降に更新、または既存の `AppMeasurement.js` をバージョン 1.4 以降に更新 | これらのファイルは、Analytics 管理ツールの[コードマネージャー](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=ja)でダウンロードして入手できます（`AppMeasurement.js` について詳しくは、[JavaScript の実装](https://experienceleague.adobe.com/ja/docs/analytics/implementation/js/overview#js)を参照してください）。 |
 

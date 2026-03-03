@@ -20,7 +20,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 396
 ht-degree: 1%
@@ -32,7 +32,7 @@ ht-degree: 1%
 Adobe Experience Platform Web SDKでは、実装に固有の値を保存するために Cookie を使用します。
 
 | 名前 | 最大経過年数 | サイズ | 説明 |
-|---|---|---|---|
+| ---| ---| ---| ---|
 | **`AMCV_###@AdobeOrg`** | 34128000 （395 日） | 100～120 バイト（可変） | [`idMigrationEnabled`](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/js/commands/configure/idmigrationenabled) が有効な場合に表示されます。 これは、サイトの一部がまだ `visitor.js` を使用している場合に web SDKに移行するのに役立ちます。 Web SDKは、移行中にこの cookie の読み取りと書き込みを行います。 |
 | **`demdex`** | 15552000 （180 日間） | 可変 | Audience Manager ID の同期が有効な場合に存在します。 Audience Managerは、一意の ID を割り当て、ID 同期、セグメント化、モデリング、レポートをサポートするために、この cookie を設定します。 `demdex`Audience Managerの Cookie[&#x200B; の &#x200B;](audience-manager.md) を参照してください。 |
 | **`kndctr_<orgId>_identity`** | 34128000 （395 日） | 100～120 バイト（可変） | そのデバイスの ECID およびその他の関連情報を格納します。 |

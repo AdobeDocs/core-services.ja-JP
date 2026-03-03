@@ -22,7 +22,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 684
 ht-degree: 71%
@@ -53,7 +53,7 @@ ht-degree: 71%
 Experience Cloud アプリケーションでのオーディエンスの使用方法を次の表に示します。
 
 | ソリューション | 説明 |
-|--- |--- |
+| --- | --- |
 | Experience Cloud Audiences | オーディエンスライブラリを使用して、オーディエンスをネイティブに作成、管理および共有します。 実行できる操作は、次のとおりです。<ul><li>生の分析属性を使用してリアルタイムオーディエンスを使用します。</li><li>オーディエンスを組み合わせて複合オーディエンスを作成し、リアルタイムのデータと履歴データを結合します。</li><li>推定オーディエンスサイズのグラフィカルビューを参照してください。</li></ul><br>作成するオーディエンスのタイプの提案について詳しくは、[オーディエンス作成オプション](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ja)を参照してください。 |
 | Analytics | セグメント化では、セグメントを作成してレポートスイートと組み合わせ、そのセグメントを Experience Cloud に公開します。セグメントを公開すると、Experience Cloud の [!DNL Audience Library] ページに表示されます。（詳しくは、[&#x200B; のヘルプの &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)Experience Cloudへのセグメントの公開 [!DNL Analytics] を参照してください。） オーディエンスは、[!DNL Adobe Target] によって配信されるキャンペーンエクスペリエンスのターゲットオーディエンスとして、また [!DNL Audience Manager] で使用することもできます。 [!DNL Adobe Analytics] からオーディエンスを共有し、アクティブなキャンペーンで使用するために選択すると、過去 90 日間にセグメント定義条件を満たした訪問者プロファイルが [!UICONTROL Audience Services] に送信されます。 共有オーディエンス数の上限は 75 に増えました。[!DNL Analytics] から Experience Cloud に共有するオーディエンスのユニークメンバー数が 2,000 万を超えてはなりません。キャッシュの影響で、Analytics で削除したレポートスイートが Experience Cloud に反映されるまで 12 時間かかります。 |
 | Mobile Services | [!UICONTROL Device Types] レポートのサンバースト ビジュアライゼーションを使用してモバイルトラフィックを分析します。 |
@@ -78,7 +78,7 @@ Experience Cloud アプリケーションでのオーディエンスの使用方
 
 
 | 要素 | 説明 |
-|--- |--- |
+| --- | --- |
 | 新規 | [オーディエンスを作成](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/audiences/create)します。 |
 | タイトルと説明 | オーディエンスを識別および説明する列見出し。 |
 | 作成者 | オーディエンスセグメントを作成したユーザー。 |

@@ -27,7 +27,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1337
 ht-degree: 80%
@@ -117,7 +117,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 ## 2022年4月
 
 | 機能 | 説明 |
-| ------- |-------|
+| ------- | -------|
 | 自然言語検索 | 統合検索を使用すると、単一のインターフェイスから、すべてのヘルプ質問に対する回答が即座に得られます。 この機能は、[!DNL Experience Platform] および [!DNL Journey Optimizer] のすべてのページで常に利用することができます。 |
 
 {style="table-layout:auto"}
@@ -125,7 +125,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 ## 2022年3月
 
 | 機能 | 説明 |
-| ------- |-------|
+| ------- | -------|
 | 検索バーからExperience PlatformとJourney Optimizerをまたいだ [!UICONTROL Recents] ールにアクセス | 統合検索バーを使用して、AEP および AJO の各ページから最近アクセスしたオブジェクトにアクセスできるようになりました。 |
 
 {style="table-layout:auto"}
@@ -133,7 +133,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 ## 2022年2月
 
 | 機能 | 説明 |
-| ------- |-------|
+| ------- | -------|
 | ショートカット （**[!UICONTROL Recents]**）が [Experience Cloud](https://experience.adobe.com/home?lang=ja) ホームに追加されました | ランディングページの新しい&#x200B;_最近_&#x200B;見出しの下から、最新の Journey Optimizer と Experience Platform の操作へのショートカットにアクセスできます。この更新には、一般的なレイアウトと応答性の改善も含まれています。 |
 | **[!UICONTROL Sandboxes]** ヘッダーバーに移動しました | サンドボックスインジケーターが、すべての Experience Platform インターフェイスアプリケーションのヘッダー内に統合されるようになりました。詳しくは、Experience Platform の[サンドボックス](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja)を参照してください。 |
 
@@ -264,7 +264,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 ## May 2018
 
 | Feature | Description |
-|--- |--- |
+| --- | --- |
 |New administration landing page|When you sign in to Experience Cloud and navigate to the Administration page, a new intuitive interface is available to help you quickly access your Experience Cloud applications and Core Services.|
 
 {style="table-layout:auto"}
@@ -281,7 +281,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 ## August 2017
 
 | Feature | Description |
-|--- |--- |
+| --- | --- |
 |Notifications - Granular settings|You can enable notifications for product and application events and activities, including notifications about [Customer Attributes](../services/customer-attributes/attributes.md) upload activity.|
 |Notifications - Maintenance notifications|In Notification settings, you can enable maintenance notifications for products and applications.|
 |Admin Console for Experience Cloud Solutions|New Experience Cloud customers can begin using the Admin Console, a central location for managing your Adobe entitlements across your entire organization.<br>The migration to the Admin Console for user management will proceed in waves. Adobe contacts you (system administrators) when it is time to migrate.<br>Analytics administrators, see  [Analytics Migration](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=ja).|
@@ -291,7 +291,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 ## May 2017
 
 | Feature | Description |
-|--- |--- |
+| --- | --- |
 |Bulk Report Suite Mapping|In Administration > Report Suite Mapping, you can now select multiple report suites, then map them to an organization. (Previously, you had to map them individually.)  <br>Mapping report suites to a single organization helps enable cross-application features and services in Experience Cloud.|
 |Updates to Experience Cloud Audiences|**Applying Report Suites**<br>You can now apply a report suite to all your [audience rules](../services/audiences/create.md). (Previously, you had to specify a report suite in each rule definition.) <br>**Props and Variables**<br>You can now include Analytics props and default variables (in addition to eVars and events) in real-time audiences.|
 
@@ -300,7 +300,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 ## November 2016
 
 | Feature | Description |
-|--- |--- |
+| --- | --- |
 |Update to Profile & Passwords|Users can no longer edit IMS user profile information under  Personal Details In  Edit Profile >  Profile & Passwords. Instead users are redirected to `accounts.adobe.com`. This update applies to all identity types (Adobe ID, Enterprise, and Federated).|
 
 {style="table-layout:auto"}

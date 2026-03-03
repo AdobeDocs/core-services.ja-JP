@@ -23,7 +23,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1218
 ht-degree: 97%
@@ -35,7 +35,7 @@ ht-degree: 97%
 Experience Cloud ユーザー向けの用語リファレンスと、これらの用語の Creative Cloud での用法について説明します（該当する場合）。
 
 | 用語 | Creative Cloud | Experience Cloud |
-|--- |----- |---- |
+| --- | ----- | ---- |
 | **アセット** | Creative Cloud では通常、アセットは画像ファイルです。<br>Photoshop ファイルのレイヤー、PowerPoint ファイルのスライド、PDF のページおよび ZIP 内のファイルがアセットになることもあります。 | Experience Cloud では、アセットは、デジタルドキュメント、画像、ビデオまたはオーディオで、複数のレンディションを持つことができ、サブアセットを持つことができます。以下に例を示します。<ul><li>ファイル</li><li>ドキュメント</li><li>画像</li><li>ビデオ</li><li>オーディオクリップ</li><li>プレゼンテーション</li><li>画像テンプレート</li><li>ビデオテンプレート</li></ul> |
 | **属性** | | [セグメント](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ja)に適合する顧客の共通点です（Audience Manager の[特性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-glossary.html?lang=ja)と似ています）。 |
 | **オーディエンス** | Creative Cloud では、オーディエンスはビデオを閲覧するユーザーとすることができます。 | Experience Cloud では、オーディエンスとは、キャンペーンアクティビティのターゲットとなり得る人の集まりです。<br>オーディエンスのメンバーかどうかは、訪問者のコンテキストに影響を与える一連のルールまたは固定リストに基づいて判断できます。例えば、電子メール登録者のリストや、Facebook グループのメンバーなどです。<br>[Experience Cloud Audiences](../services/audiences/overview.md) では、Audiences の作成と管理はセグメントの作成と使用と似ていますが、さらに Experience Cloud で共有することができます。<br>**Adobe Target**<br> Adobe Target では、オーディエンスは、以前はセグメントと呼ばれていました。<br>**Adobe Analytics**<br> Analytics では、オーディエンスは web サイトの訪問者と考えることができます。オーディエンスセグメントを作成し、オーディエンスを Experience Cloud に公開できます。 |
