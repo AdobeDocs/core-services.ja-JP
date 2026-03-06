@@ -2,27 +2,20 @@
 description: Experience Cloud の特定のアプリケーション向け統合検索機能について説明します。
 solution: Experience Cloud
 title: Experience Cloud 統合検索
-index: yes
+index: true
 feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Beginner
 exl-id: 70586f18-6f84-4308-bab3-1da7fab823d6
 TQID: https://experienceleague.adobe.com/xE4H6kdjbKSwVygCsOV4zTBqPoBHAVMHfJMyYOummg0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
 workflow-type: tm+mt
 source-wordcount: 633
 ht-degree: 88%
@@ -56,7 +49,7 @@ ht-degree: 88%
 一致率
 完全一致があるかどうか
 
-Experience Cloudで ![[!UICONTROL Unified Search] う &#x200B;](../assets/unified-search-results.png)
+Experience Cloudで ![[!UICONTROL Unified Search] う ](../assets/unified-search-results.png)
 
 検索可能なビジネスオブジェクトには、次のものが含まれます。
 
@@ -75,16 +68,16 @@ Experience Cloudで ![[!UICONTROL Unified Search] う &#x200B;](../assets/unifie
 
 ヘルプ記事は、Experience League と Communities からも確認できます。自然言語のクエリがサポートされています。
 
-例：_How to create a schema_ では、_[!UICONTROL Learning]_&#x200B;の下にExperience Leagueから結果が生成されます。
+例：_How to create a schema_ では、_[!UICONTROL Learning]_の下にExperience Leagueから結果が生成されます。
 
-Experience Cloud ヘルプの ![[!UICONTROL Unified Search] を参照してください &#x200B;](../assets/unified-search-learning.png)
+Experience Cloud ヘルプの ![[!UICONTROL Unified Search] を参照してください ](../assets/unified-search-learning.png)
 
 検索アルゴリズムは、最も関連性の高いレコードを最初に表示します。結果の順序は、次のような複数の要因によって異なります。
 
 * オブジェクトにアクセスするためのユーザー権限
 * 一致率
 * 完全一致
-* _[!UICONTROL Top Results]_&#x200B;のセクションには、上位 30 件の結果が表示されます。
+* _[!UICONTROL Top Results]_のセクションには、上位 30 件の結果が表示されます。
 
 検索を絞り込むには、次のいずれかをクリックします。
 
