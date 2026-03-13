@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 06923be2a98a9301a3d3e16c47c50cd34f7a05e9
 workflow-type: tm+mt
 source-wordcount: 103
 ht-degree: 19%
@@ -27,7 +27,8 @@ ht-degree: 19%
 
 Adobeには、Adobe製品の使用状況に基づいてカスタマイズされた役立つコンテンツが用意されています。 製品使用状況データは、このコンテキストをユーザーに合わせて調整する方法を示します。 [Experience Cloud環境設定 &#x200B;](https://experience.adobe.com/preferences) ページで、製品の使用状況データの共有をオプトインまたはオプトアウトできます。
 
-<!-- ## Personalized training and support recommendations for your Adobe products and services
+<!--
+## Personalized training and support recommendations for your Adobe products and services
 
 Receive relevant best practices, tips & tricks, helpful walk throughs, and more based on your use of your Adobe products in each of these three ways...
 
@@ -80,9 +81,11 @@ Receive tailored opportunities for learning events, research sessions, and integ
 </tbody>
 </table>
 
- -->
+-->
 
-<!-- [![](../assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"} -->
+<!-- 
+[![](../assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"} 
+-->
 
 ## カスタマイズされた学習情報の表示例
 

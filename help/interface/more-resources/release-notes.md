@@ -27,7 +27,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: a6211a5d3da519b12bac352dcce532a02d9cbd5e
 workflow-type: tm+mt
 source-wordcount: 1337
 ht-degree: 80%
@@ -52,7 +52,7 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 
 | 日付 | 更新 | 説明 |
 | -----------| -----------| ---------- |
-| **2025年9月25日（PT）** | IP アクセスリストのサポート | Admin Console の IP アクセスリストを使用可能および有効にしている組織の場合、Experience Cloud はこれらの IP 制限に従って、`https://experience.adobe.com` ドメイン上のアプリケーションにアクセスます。このアップデートは、そのドメインを介してアクセスされるすべての web アプリケーションに影響し、その組織内でのログイン時および新規ページの読み込み時にチェックが行われます。 |
+| **2025年9月25日（PT）** | IP アクセスリストのサポート | Admin Console の IP アクセスリストを使用可能および有効にしている組織の場合、Experience Cloud はこれらの IP 制限に従って、`https://experience.adobe.com` ドメイン上のアプリケーションにアクセスます。 このアップデートは、そのドメインを介してアクセスされるすべての web アプリケーションに影響し、その組織内でのログイン時および新規ページの読み込み時にチェックが行われます。 |
 
 ## 2025年3月
 
@@ -84,7 +84,8 @@ Experience Cloud の主要なインターフェイスコンポーネントの機
 | -----------| ---------- |
 | Slack 通知 | アカウントの環境設定を行い、Slack に Experience Cloud 通知を送信できます。詳しくは、{ 環境設定 _ヘルプの_ 0}Slack通知 [&#x200B; を参照してください。](../features/account-preferences.md) |
 
-<!-- ## July - August 2023
+<!--
+## July - August 2023
 
 NA - released July 2022
 
@@ -100,7 +101,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 
   * For organizations currently using [!DNL Experience Platform], [!UICONTROL Places] will be consolidated into the [!DNL Experience Platform] card.
 
-* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=ja) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities -->
+* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=ja) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities
+-->
 
 ## 2023年5月
 
@@ -219,7 +221,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 * フィードページは 2019年12月に非推奨（廃止予定）になりました。製品内の廃止のお知らせを探してください。（MCUI-10039）
 
-<!-- ## August 2019
+<!--
+## August 2019
 
 * Fixed a critical issue in Experience Cloud login that led to session logout for some users. (MCUI-6908)
 * Updated Experience Cloud login to improve performance and reduce latency. (MCUI-6854, MCUI-6869, MCUI-6883)
