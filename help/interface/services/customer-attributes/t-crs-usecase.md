@@ -9,11 +9,19 @@ role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
 TQID: https://experienceleague.adobe.com/tnqjX4iY7OQx4XW9MjHNg8LaXB1Of6MrtLX-7efyz-E
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 757f43593466360a1b0e0d6fca725fba4dc8f5d4
 workflow-type: tm+mt
 source-wordcount: 1117
@@ -60,15 +68,15 @@ ht-degree: 48%
 
 ## 属性ソースの作成とデータファイルのアップロード
 
-Experience Cloudの&#x200B;_[!UICONTROL Create Customer Attribute Source]_ページでこれらの手順を実行します。
+Experience Cloudの&#x200B;_[!UICONTROL Create Customer Attribute Source]_&#x200B;ページでこれらの手順を実行します。
 
 >[!IMPORTANT]
 >
 >顧客属性ソースを作成、変更または削除する場合、ID が新しいデータソースと同期され始めるまで、最大 1 時間の遅延があります。 顧客属性ソースを作成または変更するには、Audience Manager の管理者権限が必要です。 Audience Manager カスタマーサポートまたはコンサルティングに連絡して、管理者権限を取得します。
 
-1. [!UICONTROL Customer Attributes]を開くには、**[!UICONTROL Apps]** ![ メニュー](assets/menu-icon.png) > **[!DNL Customer Attributes]**&#x200B;をクリックします。
+1. [!UICONTROL Customer Attributes]を開くには、**[!UICONTROL Apps]** ![&#x200B; メニュー](assets/menu-icon.png) > **[!DNL Customer Attributes]**&#x200B;をクリックします。
 
-   ![顧客属性ページ ](assets/cust-attr.png)
+   ![顧客属性ページ &#x200B;](assets/cust-attr.png)
 
 1. 「**[!UICONTROL New]**」をクリックします。
 
@@ -88,7 +96,7 @@ Experience Cloudの&#x200B;_[!UICONTROL Create Customer Attribute Source]_ペー
 
      エイリアス IDは、追加の顧客ID値を設定する特定の領域に対応します。 例：
 
-      * **Tags:** エイリアス IDは、[Experience Cloud ID サービス ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja) ツールの[!UICONTROL customer Settings]の&#x200B;*統合コード*&#x200B;の値に対応しています。
+      * **Tags:** エイリアス IDは、[Experience Cloud ID サービス &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja) ツールの[!UICONTROL customer Settings]の&#x200B;*統合コード*&#x200B;の値に対応しています。
 
       * **訪問者API:** エイリアス IDは、各訪問者に関連付けることができる追加の[顧客ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja)に対応します。
 
@@ -124,7 +132,7 @@ Experience Cloudの&#x200B;_[!UICONTROL Create Customer Attribute Source]_ペー
 
 1. [!UICONTROL Edit Customer Data Source] ページで、**[!UICONTROL File Upload]**&#x200B;をクリックします。
 
-   ![ ファイルのアップロードとスキーマの検証](assets/file-upload-schema-validation.png)
+   ![&#x200B; ファイルのアップロードとスキーマの検証](assets/file-upload-schema-validation.png)
 
 1. `.csv`または`.zip`または`.gzip` データファイルをドラッグ&amp;ドロップ ウィンドウにドラッグ&amp;ドロップします。
 
@@ -162,7 +170,7 @@ Experience Cloudの&#x200B;_[!UICONTROL Create Customer Attribute Source]_ペー
 
 サブスクリプションを設定すると、Experience Cloudとアプリケーション間のデータフローが設定されます。 属性ソースを有効化すると、購読しているアプリケーションでデータが利用できるようになります。 アップロードした顧客レコードは、Web サイトまたはアプリケーションから入ってくる ID 信号と照合されます。
 
-[ サブスクリプションの設定とデータソースのアクティブ化](subscription.md)を参照してください。
+[&#x200B; サブスクリプションの設定とデータソースのアクティブ化](subscription.md)を参照してください。
 
 ## Adobe Analyticsでの[!DNL Customer Attributes] データの使用
 
@@ -180,4 +188,4 @@ Experience Cloudにセグメントを公開すると、Experience Cloud Audience
 
 ![Adobe Target での顧客属性の使用](assets/crs-add-attribute-target.png)
 
-[!DNL Target]のヘルプの「[ オーディエンスを作成](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=ja)」を参照してください。
+[!DNL Target]のヘルプの「[&#x200B; オーディエンスを作成](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=ja)」を参照してください。
