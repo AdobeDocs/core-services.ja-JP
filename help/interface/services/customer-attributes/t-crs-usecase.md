@@ -47,7 +47,7 @@ ht-degree: 48%
 
 * 顧客属性には、**Adobe Target** `at.js`（任意のバージョン）または `mbox.js` バージョン 58 以降が必要です。
 
-  [at.js のデプロイ方法](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html)を参照してください。
+  [at.js のデプロイ方法](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=ja)を参照してください。
 
 ## データファイルの作成
 
@@ -120,7 +120,7 @@ Experience Cloudの&#x200B;_[!UICONTROL Create Customer Attribute Source]_&#x200
 
         エイリアス ID フィールドと顧客IDに関するデータ処理の詳細については、[複数のデータソースの活用](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)を参照してください。
 
-   * **[!UICONTROL Namespace Code:]**&#x200B;この値を使用して、AEP WebSDK実装の一部として[IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview)を使用する際に、顧客属性ソースを識別します。
+   * **[!UICONTROL Namespace Code:]**&#x200B;この値を使用して、AEP WebSDK実装の一部として[IdentityMap](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/identity/overview)を使用する際に、顧客属性ソースを識別します。
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
