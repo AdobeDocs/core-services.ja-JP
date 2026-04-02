@@ -22,9 +22,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 757f43593466360a1b0e0d6fca725fba4dc8f5d4
+source-git-commit: d57b222077b83d52344a31c8a6b4ccf165843147
 workflow-type: tm+mt
-source-wordcount: 1117
+source-wordcount: 1118
 ht-degree: 48%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 48%
 
 * 顧客属性には、**Adobe Target** `at.js`（任意のバージョン）または `mbox.js` バージョン 58 以降が必要です。
 
-  [at.js のデプロイ方法](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=ja)を参照してください。
+  [at.js のデプロイ方法](https://experienceleague.adobe.com/ja/docs/target-dev/developer/client-side/overview)を参照してください。
 
 ## データファイルの作成
 
@@ -146,9 +146,9 @@ Experience Cloudの&#x200B;_[!UICONTROL Create Customer Attribute Source]_&#x200
 
 * **[!UICONTROL Unique customer ID:]**&#x200B;この属性ソースにアップロードした一意のIDの数を表示します。
 
-* **[!UICONTROL customer-Provided IDs Aliased to Experience Cloud Visitor IDs:]** Experience Cloudの訪問者IDにエイリアスされたIDの数を表示します。
+* **[!UICONTROL Customer-Provided IDs Aliased to Experience Cloud Visitor IDs:]** Experience Cloudの訪問者IDにエイリアスされたIDの数を表示します。
 
-* **[!UICONTROL customer-Provided IDs with High Alias Counts:]** 500以上のエイリアスされたExperience Cloud訪問者IDを持つお客様が提供したIDの数を表示します。 このような顧客提供 ID は、個人ではなくある種の共有ログインを表している可能性が最も高くなります。 これらの ID に関連付けられた属性は、エイリアス数が 10,000 に達するまで、直近にエイリアスされた 500 個の Experience Cloud 訪問者 ID に振り分けられます。 その後、システムは顧客指定IDを無効にし、関連する属性を配布しなくなります。 -->
+* **[!UICONTROL Customer-Provided IDs with High Alias Counts:]** 500以上のエイリアスされたExperience Cloud訪問者IDを持つお客様が提供したIDの数を表示します。 このような顧客提供 ID は、個人ではなくある種の共有ログインを表している可能性が最も高くなります。 これらの ID に関連付けられた属性は、エイリアス数が 10,000 に達するまで、直近にエイリアスされた 500 個の Experience Cloud 訪問者 ID に振り分けられます。 その後、システムは顧客指定IDを無効にし、関連する属性を配布しなくなります。
 
 ## スキーマの検証 {#validate-schema}
 
