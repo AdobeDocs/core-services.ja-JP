@@ -3,12 +3,12 @@ role: User,Admin
 user-guide-title: Experience Cloud インターフェイスおよび管理
 breadcrumb-title: Experience Cloud インターフェイスおよび管理
 title: Experience Cloud インターフェイスおよび管理
-description: Experience Cloud インターフェイス、Cookie、アカウントの環境設定について説明します。製品を管理し、顧客属性やオーディエンスライブラリなどの People サービスを設定します。Experience Cloud Assets の共有。
+description: Experience Cloud インターフェイス、Cookie、アカウントの環境設定について説明します。 製品を管理し、顧客属性やオーディエンスライブラリなどの People サービスを設定します。 Experience Cloud Assets の共有。
 index: true
-source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
+source-git-commit: 763b52c8d49073f08c01191634008bdca19746d1
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 86%
+source-wordcount: '211'
+ht-degree: 85%
 
 ---
 
@@ -19,7 +19,8 @@ ht-degree: 86%
 + Experience Cloud の AI {#features}
    + [生成 AI](/help/interface/features/generative-ai.md)
    + [エージェント型 AI](features/agentic-ai.md)
-   + [エージェントジョブと AI クレジット消費](/help/interface/features/ai-credit-consumption.md)
+   + {hide-from-toc}[AI監視](/help/interface/features/ai-monitoring.md)
+   + [担当者の業務とAIのクレジット消費](/help/interface/features/ai-credit-consumption.md)
 + 管理 {#administration}
    + [アカウントの環境設定と通知](/help/interface/features/account-preferences.md)
    + [ブラウザーと言語のサポート](/help/interface/browser-language.md)
@@ -28,7 +29,7 @@ ht-degree: 86%
    + [組織とアカウントのリンク](/help/interface/administration/organizations.md)
    + [統合](/help/interface/administration/integrations.md)
    + [統合検索](/help/interface/features/search.md)
-   + [パーソナライズされたラーニング環境設定](/help/interface/features/personalized-learning.md)
+   + [パーソナライズされた学習設定](/help/interface/features/personalized-learning.md)
 + インターフェイスサービス {#services}
    + [インターフェイスの概要](/help/interface/services/overview.md)
    + [基本を学ぶ](/help/interface/services/getting-started.md)
