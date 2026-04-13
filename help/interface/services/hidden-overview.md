@@ -22,7 +22,7 @@ ht-degree: 69%
 このドキュメントは、[!DNL People] サービス（[!DNL Audience Library] と [!DNL Customer Attributes]）、Experience Cloud のユーザーおよび製品管理、Cookie、アカウント設定、通知など、Experience Cloud 統合ヘッダーの機能に適用されます。
 
 Experience Cloudでこれらのサービスにアクセスするには、 **[!UICONTROL Application Selector]**
-![ サービスセレクター](../assets/apps-icon.png)。
+![&#x200B; サービスセレクター](../assets/apps-icon.png)。
 
 ![Experience Cloud サービス](../assets/platform-core-services.png)
 
