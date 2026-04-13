@@ -67,7 +67,7 @@ Experience Cloud にログインすると、統合ヘッダーからすべての
 
 * **[!UICONTROL Support]:** サポートチケットを作成するか、Twitterを使用して[!UICONTROL Support]にお問い合わせください。
 * **[!UICONTROL Feedback]:** Experience Cloud エクスペリエンスに関するフィードバックを共有します。 フィードバックは、アドビの製品およびサービスを改善するために使用されます。
-* **[!UICONTROL Status]:** `https://status.adobe.com/experience_cloud`に移動し、製品操作の状態と[!UICONTROL Manage Subscriptions]を確認します。
+* **[!UICONTROL Status]:** `https://status.adobe.com/ja-jp/experience_cloud`に移動し、製品操作の状態と[!UICONTROL Manage Subscriptions]を確認します。
 * **[!UICONTROL Developer Connection]:** `adobe.io`に移動して、開発者ドキュメントを見つけます。
 
 ## ユーザープロファイルの管理
