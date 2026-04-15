@@ -8,11 +8,21 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 TQID: https://experienceleague.adobe.com/xGxvSSHR43wPti8xyaS96BZDrXtA4CcQ8EoE0V7MLEU
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 88b0f47bc8270f3dc60d1acea68130baff9d97b4
 workflow-type: tm+mt
 source-wordcount: 656
@@ -38,25 +48,25 @@ Experience Cloudの[Agentic AIの更新](../features/agentic-ai.md)
 
 **2025年8月**
 
-Adobe ID](../features/account-preferences.md)のリセットに関する情報を[追加しました。
+Adobe ID[&#128279;](../features/account-preferences.md)のリセットに関する情報を追加しました。
 
 **2025年2月**
 
-Experience Cloud](../administration/admin-console.md)で[ ユーザーと製品の管理を追加しました。 このページでは、管理者がすべてのアプリケーションのユーザーおよび製品管理（Admin Console）ヘルプを見つけるのに役立ちます。
+Experience Cloud[&#128279;](../administration/admin-console.md)で ユーザーと製品の管理を追加しました。 このページでは、管理者がすべてのアプリケーションのユーザーおよび製品管理（Admin Console）ヘルプを見つけるのに役立ちます。
 
 **2024年11月**
 
-[製品使用状況データ ](../features/account-preferences.md)および[ パーソナライズされた学習](../features/personalized-learning.md)を更新しました。
+[製品使用状況データ &#x200B;](../features/account-preferences.md)および[&#x200B; パーソナライズされた学習](../features/personalized-learning.md)を更新しました。
 
 **2024年9月**
 
-Slack通知](../features/account-preferences.md#subscribe-to-slack-notifications)の購読に関するヘルプを追加しました。[
+Slack通知[&#128279;](../features/account-preferences.md#subscribe-to-slack-notifications)の購読に関するヘルプを追加しました。
 
-[ ユーザー設定](../features/account-preferences.md)を更新しました。
+[&#x200B; ユーザー設定](../features/account-preferences.md)を更新しました。
 
 **26 2024年4月**
 
-ドキュメントアーキテクチャの完全刷新。 [Adobe Experience Cloud IP アドレス ](../data-collection/ip-addresses.md)と[地域データ収集](../data-collection/rdc.md)も追加されました。
+ドキュメントアーキテクチャの完全刷新。 [Adobe Experience Cloud IP アドレス &#x200B;](../data-collection/ip-addresses.md)と[地域データ収集](../data-collection/rdc.md)も追加されました。
 
 **2024年4月9日**
 
