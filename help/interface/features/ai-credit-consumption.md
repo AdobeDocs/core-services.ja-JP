@@ -67,4 +67,4 @@ AIによるクレジットの使用状況は、実行されるジョブの複雑
 
 * [CX Enterpriseの生成AI](/help/interface/features/generative-ai.md)
 * [CX EnterpriseのAgentic AI](/help/interface/features/agentic-ai.md)
-* [Adobe Experience Platform Agents利用制限トライアル](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Adobe Experience Platform Agents利用制限トライアル](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
