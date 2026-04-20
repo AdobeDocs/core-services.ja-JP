@@ -1,6 +1,6 @@
 ---
 title: アカウントの環境設定と通知
-description: Experience Cloud のユーザープロファイル、アカウントの環境設定、製品使用状況データについて説明します。メールおよび  [!DNL Slack] の製品通知を購読し、製品アラートを設定します。
+description: CX Enterpriseのユーザープロファイル、アカウント設定、製品使用状況データの詳細をご確認ください。 メールおよび [!DNL Slack]の製品通知を購読し、製品アラートを設定します。
 solution: Experience Cloud
 feature: Account Preferences, Notifications, Alerts
 topic: Administration
@@ -27,115 +27,115 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 788
-ht-degree: 6%
+source-wordcount: 802
+ht-degree: 5%
 
 ---
 
 # アカウントの環境設定と通知
 
-Experience Cloudの環境設定を見つけるには、ヘッダーの **[!UICONTROL Profile]**![&#x200B; 環境設定 &#x200B;](../assets/preferences-icon-sm.png)」をクリックし、「**[!UICONTROL Preferences]**」をクリックします。
+CX Enterpriseの環境設定を検索するには、ヘッダーの「**[!UICONTROL Profile]** ![環境設定](../assets/preferences-icon-sm.png)」をクリックし、「**[!UICONTROL Preferences]**」をクリックします。
 
-![&#x200B; 環境設定 &#x200B;](../assets/preferences-navigation.png){width="100" zoomable="yes"}
+![環境設定](../assets/preferences-navigation.png){width="100" zoomable="yes"}
 
-[!UICONTROL Experience Cloud preferences] ページでは、次のアカウント機能を管理できます。
+[!UICONTROL CX Enterprise preferences] ページでは、次のアカウント機能を管理できます。
 
 | 機能 | 説明 |
 | --- | --- |
-| [!UICONTROL Profile] | [Adobe アカウントプロファイル &#x200B;](https://account.adobe.com/profile) を更新します。 <p>プロファイルの写真と名前は、Adobe.comやAdobeの製品とサービスにログインしたときに表示されます。また、[!DNL Behance] のような公開サイトにも表示されます。 |
-| [!UICONTROL General] | [&#x200B; 組織 &#x200B;](../administration/organizations.md) を選択します。<p>この組織は、Experience Cloudにログインする際に使用されるデフォルトの組織です。 |
-| [!UICONTROL Product usage data] | Experience Cloud アプリケーションを使用するときに、Adobeで共有される製品の使用状況データを制御できます。 これは、お客様の組織のコンテンツやデータそのものではなく、お客様の製品の使用方法に関するデータです。 Adobeでは、この情報を使用して、商品の品質向上、強化された製品内サポートの提供、お客様のアドビからのエクスペリエンスやお知らせのパーソナライズを行います。 <p>詳しくは、[&#x200B; 製品の使用状況データ &#x200B;](#product-usage-data) （このページ）を参照してください。 |
-| [!UICONTROL Notifications] | 製品 [&#x200B; 通知 &#x200B;](#subscribe-to-notifications-in-experience-cloud) およびアラートを希望する方法とタイミングを設定します。 <ul><li>アラートを登録する製品を選択します</li><li>通知のタイプ （[!UICONTROL in-app]、[!UICONTROL email] または [Slack](#slack-notifications)）を設定</li><li>通知メールの受信頻度を指定します。（送信しない、即時、毎日または毎週）</li><li>アラートの優先度を決定します。 アプリ内アラートは、ウィンドウの右上隅に数秒間表示されます。 または、解除するまでアラートを表示するかどうかを指定できます。</li></ul> |
+| [!UICONTROL Profile] | [Adobe アカウントプロファイル &#x200B;](https://account.adobe.com/profile)を更新します。 <p>プロフィール写真と名前は、Adobe.com、Adobeの製品とサービス、および[!DNL Behance]などの公開サイトにログインすると表示されます。 |
+| [!UICONTROL General] | [組織](../administration/organizations.md)を選択します。<p>この組織は、CX Enterpriseへのログイン時に使用されるデフォルトの組織です。 |
+| [!UICONTROL Product usage data] | CX Enterprise アプリケーションを使用する際に、Adobeと共有される製品使用データを制御できます。 これは、組織のコンテンツやデータ自体ではなく、製品の利用方法に関するデータです。 Adobeでは、この情報を利用して、製品の改善、製品サポートの強化、お客様の体験とコミュニケーションのパーソナライズを図ります。 <p>詳しくは、[製品使用状況データ &#x200B;](#product-usage-data) （このページ）を参照してください。 |
+| [!UICONTROL Notifications] | 製品[通知](#subscribe-to-notifications-in-experience-cloud)とアラートを希望する方法とタイミングを設定します。 <ul><li>アラートを購読する製品を選択します</li><li>通知の種類（[!UICONTROL in-app]、[!UICONTROL email]または[Slack](#slack-notifications)）を設定します</li><li>通知メールの受信頻度を指定します。 （送信しない、即時、毎日または毎週）</li><li>アラートの優先順位の決定： アプリ内アラートは、ウィンドウの右上隅に数秒間表示されます。 または、アラートを閉じるまで表示するかどうかを指定できます。</li></ul> |
 
 ## [!UICONTROL Product usage data]
 
-Adobeと共有する製品の使用状況データには、Adobe アプリケーションの使用方法と操作方法に関する次の種類の情報が含まれます。
+Adobeとの間で共有する製品使用状況データには、Adobe アプリケーションの使用と操作に関する次の種類の情報が含まれます。
 
-* ブラウザーおよびデバイス情報（デバイスモデルおよびオペレーティングシステム、ソフトウェアおよびハードウェア情報、ブラウザーおよびデバイスの設定、一意の識別子（IP アドレス、cookie ID、デバイス ID など）、インストールされたメモリの量、言語設定、画面の解像度など）
-* 使用する機能や選択するオプションなど、Adobe Experience Cloud アプリとのやり取り。
-* Adobe商品情報（バージョン番号など）
-* ページ数と一意の ID など、コンテンツとドキュメントに関する情報（コンテンツ自体に関する情報ではありません）。
-* コンテンツの使用状況情報（コンテンツへのアクセス回数、アプリ内のコンテンツの操作方法など）。
-* クラッシュ ログとエラーログ。
+* デバイスモデルとオペレーティングシステム、ソフトウェアとハードウェア情報、ブラウザーとデバイスの設定、一意の識別子（IP アドレス、Cookie ID、デバイス IDなど）、インストールされたメモリ量、言語設定、画面解像度などのブラウザーとデバイス情報。
+* 使用する機能や選択したオプションなど、Adobe CX Enterprise アプリの操作方法。
+* Adobe製品情報（バージョン番号など）
+* ページ数や一意のIDなど、コンテンツとドキュメントに関する情報。コンテンツ自体は含まれません。
+* コンテンツへのアクセス回数や、アプリ内でのコンテンツの利用方法など、コンテンツの利用情報。
+* クラッシュログとエラーログ。
 
-Adobeは、この情報を商品の品質向上、製品内およびカスタマーケア経由の両方でのサポートの提供、お客様の体験やお客様からのお知らせのパーソナライズに活用します。 詳しくは、[&#x200B; パーソナライズされたエクスペリエンス &#x200B;](personalized-learning.md) を参照してください。
+Adobeでは、この情報を当社の製品向上に役立て、製品内およびカスタマーケアを通じてサポートを提供し、お客様の体験とコミュニケーションをパーソナライズするために使用します。 [&#x200B; パーソナライズされたエクスペリエンス &#x200B;](personalized-learning.md)の詳細をご覧ください。
 
-## Experience Cloudの通知の購読
+## CX Enterpriseの通知の購読
 
-購読する製品とカテゴリを選択できます。 通知は、[!UICONTROL Notifications] ポップオーバー（アプリ内）、メールまたは [Slack](#slack-notifications) （購読に応じて）に表示されます。
+購読したい商品やカテゴリーを選択できます。 通知は、[!UICONTROL Notifications] ポップオーバー（アプリ内）、メール、または[Slack](#slack-notifications)に表示されます（サブスクリプションによって異なります）。
 
-メール通知とSlack通知は、Experience Cloudにログインしていない場合に役立ちます。
+電子メールとSlackの通知は、CX Enterpriseにログインしていない場合に役立ちます。
 
-### アプリ内通知およびメール通知のサブスクライブ
+### アプリ内およびメール通知の購読
 
-1. Experience Cloud[&#x200B; 環境設定 &#x200B;](https://experience.adobe.com/preferences) に移動します。
+1. CX Enterprise [preferences](https://experience.adobe.com/preferences)に移動します。
 
-1. 「**[!UICONTROL Notifications]**」で、「**[!UICONTROL In-app]**」または「**[!UICONTROL Email]**」を有効にします。
+1. **[!UICONTROL Notifications]**&#x200B;で、**[!UICONTROL In-app]**&#x200B;または&#x200B;**[!UICONTROL Email]**&#x200B;を有効にします。
 
-   通知に対する変更は自動的に保存されます。
+   通知の変更は自動的に保存されます。
 
-### [!DNL Slack] 通知のサブスクライブ
+### [!DNL Slack]通知を購読
 
-アカウントの環境設定を行い、Experience Cloud通知を [!DNL Slack] チャンネルに送信できます。
+CX Enterprise通知を[!DNL Slack] チャネルに送信するようにアカウント設定を行うことができます。
 
 **前提条件**
 
-* Experience Cloud アカウントが必要です。
-* [!DNL Slack] アカウントが必要です。 [!DNL Slack] 管理者は、Experience Cloudと [!DNL Slack] の統合を有効にします。
-* 少なくとも 1 つの [!DNL Slack] ワークスペースに属している必要があります。
+* CX Enterprise アカウントが必要です。
+* [!DNL Slack] アカウントが必要です。 [!DNL Slack]管理者は、[!DNL Slack]とのCX Enterprise統合を有効にします。
+* 少なくとも1つの[!DNL Slack] ワークスペースに参加している必要があります。
 
-**[!DNL Slack] 通知の配信登録**
+**通知[!DNL Slack]を購読するには**
 
-1. Experience Cloud[&#x200B; 環境設定 &#x200B;](https://experience.adobe.com/preferences) に移動します。
+1. CX Enterprise [環境設定](https://experience.adobe.com/preferences)に移動します。
 
-1. [!DNL Slack] を見つけ、「**[!UICONTROL Add to Slack]**」をクリックします。
+1. [!DNL Slack]を探し、**[!UICONTROL Add to Slack]**&#x200B;をクリックします。
 
-   ![Slackに追加 &#x200B;](../assets/add-to-slack.png)
+   ![Slackに追加](../assets/add-to-slack.png)
 
-   [!DNL Slack] がインストールされている場合は、アプリケーションが開き、権限要求メッセージが表示されます。 Slackがインストールされていない場合は、[&#x200B; 権限をリクエスト &#x200B;](#slack-troubleshoot) する必要があります。
+   [!DNL Slack]がインストールされている場合、アプリケーションが開き、権限の要求メッセージが表示されます。 Slackがインストールされていない場合は、[権限をリクエスト &#x200B;](#slack-troubleshoot)する必要があります。
 
 1. 「**[!UICONTROL Allow]**」をクリックします。
 
-1. **[!UICONTROL Notifications]** の下で、目的の製品およびカテゴリの [!DNL Slack] 通知を有効にします。
+1. **[!UICONTROL Notifications]**&#x200B;で、目的の製品とカテゴリに対して[!DNL Slack]通知を有効にします。
 
-   ![Slackの通知 &#x200B;](../assets/slack.png)
+   ![Slack通知](../assets/slack.png)
 
-   通知に対する更新は自動的に保存されます。
+   通知の更新は自動的に保存されます。
 
-### [!DNL Slack] でのリクエスト権限（トラブルシューティング）
+### [!DNL Slack]で権限を要求する（トラブルシューティング）
 
-[!DNL Slack] がインストールされていない場合、「_[!UICONTROL Request to install]_」をクリックした後にSlackを開くと、**[!UICONTROL Add to Slack]**&#x200B;のメッセージが表示されます。 例：
+[!DNL Slack]がインストールされていない場合、**[!UICONTROL Add to Slack]**&#x200B;をクリックした後にSlackが開くと、_[!UICONTROL Request to install]_&#x200B;メッセージが表示されます。 例：
 
-![Slack統合のリクエスト &#x200B;](../assets/slack-workspace.png)
+![Slack統合をリクエスト &#x200B;](../assets/slack-workspace.png)
 
 **Slackで権限をリクエストするには**
 
-1. [!DNL Slack] の場合、ワークス **[!UICONTROL Workspace]** ーメニュー（右上隅）からワークスペースを選択します。
+1. [!DNL Slack]で、**[!UICONTROL Workspace]** メニュー（右上隅）からワークスペースを選択します。
 
-1. [!DNL Slack] Workspace Manager のアプリケーションの承認をリクエストするには、「**[!UICONTROL Submit]**」をクリックします。
+1. [!DNL Slack] ワークスペース マネージャーのアプリケーションの承認を要求するには、**[!UICONTROL Submit]**&#x200B;をクリックします。
 
-1. 申請リクエストが承認されると、[!DNL Slack] に通知が届きます。
+1. 申請リクエストが承認されると、[!DNL Slack]に通知が届きます。
 
-1. 承認 [!DNL Slack] 受け取ったら、Experience Cloud **[!UICONTROL Notifications]** に戻り、手順に従って [Slackに登録 &#x200B;](#slack-notifications) します（上記）。
+1. [!DNL Slack]の承認を受けた後、CX Enterprise **[!UICONTROL Notifications]**&#x200B;に戻り、手順に従って[Slack &#x200B;](#slack-notifications)を購入します（前述）。
 
-### [!DNL Slack] に表示される内容
+### [!DNL Slack]に表示される内容
 
-[!DNL Slack] の統合が成功すると、[!DNL Slack] の通知に次の情報が表示されます。
+[!DNL Slack]を正常に統合すると、[!DNL Slack]通知に次の情報が表示されます。
 
-* 個人用メッセージはアプリケーション名 _Adobe[!DNL Experience Cloud]_ から受信されます。
-* メッセージには、Adobe [!DNL Experience Platform]、Adobe [!DNL Experience Manager] など、特定のアプリケーションの製品ロゴが含まれます。
-* Experience Cloudのすべての通知を表示するためのリンクです。
-* Experience Cloudの通知環境設定を管理するためのリンクです。
+* 個人用メッセージは、アプリケーション名&#x200B;_Adobe[!DNL CX Enterprise]_&#x200B;から受信されます。
+* メッセージには、Adobe [!DNL Experience Platform]、Adobe [!DNL Experience Manager]など、特定のアプリケーションの製品ロゴが含まれています。
+* CX Enterpriseのすべての通知を表示するリンク。
+* CX Enterpriseで通知の環境設定を管理するためのリンク。
 
-## Experience Cloudで [!UICONTROL notifications] ファーとお知らせを表示する
+## CX Enterpriseでの[!UICONTROL notifications]と通知の表示
 
-[!DNL Experience Cloud] ヘッダーでは、自分が [&#x200B; 購読 &#x200B;](#notifications) している通知を表示したり、お知らせを表示したりできます。
+[!DNL CX Enterprise] ヘッダーでは、[購読](#notifications)の通知を表示したり、通知を表示したりできます。
 
 1. ヘッダーのベルアイコンをクリックします。 ![通知とお知らせ](../assets/bell-icon.png)
 
 1. 「**[!UICONTROL Notifications]**」または「**[!UICONTROL Announcements]**」をクリックします。
 
-   この場所では、製品、他のユーザーとの共同作業、その他の関連する更新に関する重要な情報を受け取ることができます。 アップデートには、製品リリース、メンテナンス通知、共有項目、承認リクエストが含まれます。
+   この場所では、製品、同僚のユーザーとの共同作業、その他の関連する更新に関する重要な情報を受け取ることができます。 アップデートには、製品リリース、メンテナンス通知、共有アイテム、承認リクエストなどが含まれます。
 

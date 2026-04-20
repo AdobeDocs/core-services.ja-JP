@@ -1,5 +1,5 @@
 ---
-description: Experience Cloud で共有フォルダーが移動、削除、および復元されるときの動作方法のルールについて説明します。
+description: CX Enterpriseで共有フォルダーを移動、削除、復元する際の動作のルールについて説明します。
 keywords: アセットの共有;Creative Cloud;コアサービス
 solution: Experience Cloud
 title: 共有フォルダーの動作
@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: 627
-ht-degree: 96%
+ht-degree: 90%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->共有Experience Cloudのフォルダーとアセットは、1:1 関係でCreative Cloud デスクトップにミラーリングされます。 Experience Cloud ユーザーがフォルダーを変更（削除、追加、または共有の削除）すると、そのアクションは Creative Cloud デスクトップと web に反映されます。 したがって、フォルダーが非共有の場合、フォルダーとアセットはローカルマシンから削除されます。 共有が削除されると、フォルダーとその内容はローカルコンピューター上のごみ箱に移動します。ごみ箱に移動したフォルダーとその内容は、手動でお使いのコンピューターに復元できます。
+>共有されたCX Enterprise フォルダーとアセットは、1:1のリレーションシップでCreative Cloud デスクトップにミラーリングされます。 CX Enterprise ユーザーがフォルダーを変更（削除、追加、削除）すると、操作はCreative Cloud デスクトップとwebに反映されます。 したがって、フォルダーが非共有の場合、フォルダーとアセットはローカルマシンから削除されます。 共有が削除されると、フォルダーとその内容はローカルコンピューター上のごみ箱に移動します。ごみ箱に移動したフォルダーとその内容は、手動でお使いのコンピューターに復元できます。
 
 ## 非共有フォルダーを共有フォルダーに移動
 

@@ -1,6 +1,6 @@
 ---
 title: ' [!DNL Customer Attributes] について'
-description: Adobe Experience Cloud [!DNL Customer Attributes]  詳細を説明します。 Adobe Analytics と Adobe Target で使用する顧客属性データのアップロード方法について説明します。
+description: Adobe CX Enterpriseの [!DNL Customer Attributes] について説明します。 Adobe Analytics と Adobe Target で使用する顧客属性データのアップロード方法について説明します。
 solution: Analytics
 feature: Customer Attributes
 role: Admin
@@ -23,36 +23,36 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 306
-ht-degree: 55%
+source-wordcount: 313
+ht-degree: 47%
 
 ---
 
-# Experience Cloud の [!DNL Customer Attributes]
+# CX Enterpriseの[!DNL Customer Attributes]
 
-**[!UICONTROL Apps]** ![&#x200B; メニュー &#x200B;](assets/menu-icon.png) > **[!DNL Customer Attributes]**
+**[!UICONTROL Apps]** ![&#x200B; メニュー](assets/menu-icon.png) > **[!DNL Customer Attributes]**
 
-Adobe Experience Cloudの [!DNL Customer Attributes] を使用すると、顧客関係管理（CRM）データベースから取り込んだ大規模法人データをアップロードできます。 Experience Cloud内の [&#x200B; データソースに &#x200B;](t-crs-usecase.md) データをアップロード [!DNL Customer Attributes] した後、[!DNL Adobe Analytics] および [!DNL Adobe Target] でそのデータを使用できます。
+Adobe CX Enterpriseの[!DNL Customer Attributes]を使用すると、取り込んだエンタープライズ データをCRM （顧客関係管理）データベースからアップロードできます。 データ [&#128279;](t-crs-usecase.md)をCX Enterpriseの[!DNL Customer Attributes] データソースにアップロードしてから、[!DNL Adobe Analytics]および[!DNL Adobe Target]でデータを使用できます。
 
 ![顧客属性の概要](assets/custom_reports.png)
 
-## 企業顧客データについて {#customer-data}
+## エンタープライズ顧客データについて {#customer-data}
 
-企業顧客データは、顧客、見込み客、パートナーに関して収集された組織全体の情報セットを指します。他のシステムに存在し、メンバーシップ、ロイヤルティレベル、年齢、性別、所有されている製品、興味、生涯価値などの情報を含めることができます。
+エンタープライズ顧客データとは、顧客、見込み顧客、パートナーについて収集された、組織全体の情報セットのことです。他のシステム上に存在し、メンバーシップ、ロイヤルティレベル、年齢、性別、所有している製品、興味、生涯価値などの情報を含めることができます。
 
-次の図は、メンバー ID、資格のある製品、最も売り上げの多い製品など、製品の購読者データを表示する _データファイル_ の例です。
+次の画像は、_データファイル_&#x200B;の例で、メンバーID、使用権限のある製品、最も起動数の多い製品など、製品の購読者データを示しています。
 
 ![企業顧客データとは &#x200B;](assets/01_crs_usecase.png)
 
-データファイルを作成したら、**[!UICONTROL Experience Cloud]**/**[!UICONTROL Customer Attributes]** で作成する顧客属性ソースにアップロードできます。
+データファイルを作成した後、**[!UICONTROL CX Enterprise]** > **[!UICONTROL Customer Attributes]**&#x200B;で作成した顧客属性ソースにデータファイルをアップロードできます。
 
-このワークフローについては、[&#x200B; 顧客属性データのアップロード &#x200B;](t-crs-usecase.md) を参照してください。
+このワークフローについて詳しくは、[顧客属性データのアップロード &#x200B;](t-crs-usecase.md)を参照してください。
 
 ## Analytics と Target における顧客属性の例
 
-データを Experience Cloud にアップロードした後は、そのデータをカスタマイズし、レポート、セグメント化、アクティビティおよびキャンペーンで利用するソリューションで共有できます。
+データをCX Enterpriseに保管した後は、それをカスタマイズして、レポート、セグメンテーション、アクティビティ、キャンペーン用のソリューションと共有できます。
 
 例：
 
