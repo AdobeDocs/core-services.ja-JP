@@ -9,11 +9,20 @@ role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
 TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR---BnMM7lJgN0HZDsk
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: 1273
@@ -46,7 +55,7 @@ CX Enterprise ユーザー向けの用語リファレンスと、これらの用
 | **Portfolio** | 複数のファイルやアセットの集合です。 | キャンペーンのコンテナです。 |
 | **製品プロファイル** | [製品およびプロファイルの管理](https://helpx.adobe.com/jp/enterprise/using/manage-products.html)を参照してください。 | 製品またはサービスを利用する資格をユーザーに付与するには、そのユーザーを製品プロファイルに追加する必要があります。 製品管理者は、製品プロファイルを購入したプランに関連付けて、製品プロファイルにライセンスを割り当てます。<br> ユーザーは複数の製品プロファイルに属することができ、それぞれが異なるライセンスをユーザーに提供します。 ユーザーの最終的な実施要件は、そのユーザーに割り当てられた各製品プロファイルで付与されているライセンスをすべて合わせたものとなります。 |
 | **スケジュール** | Adobe Story の一連のシーンや、ColdFusion でスケジュールされたタスクを指すことがあります。 | CX Enterpriseでは、スケジュールは、キャンペーン、チャネル、アクティビティをアクティブ化するための開始日（年、月、日）と終了日です。 アクティビティのスケジュールは、分単位の精度があります。 スケジュールを変更すると、カードが作成されます。<br> 以下に例を示します。<ul><li>キャンペーンスケジュール</li><li>チャネルスケジュール</li><li>アクティビティスケジュール</li></ul> |
-| **セグメント** | 該当なし | オーディエンスの適合性を評価する一連のルールの出力です。 Analyticsでは、[ セグメント ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)をオプションで使用して、CX Enterpriseに渡すことができるオーディエンスを定義できます。 <br>Audience Manager では、セグメントは[特性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html)と、訪問者がそのセグメントのメンバーとして含まれるかどうかを評価するすべての条件の集まりです。 また、これらの共通の属性を共有する人々の集まりでもあります。 |
+| **セグメント** | 該当なし | オーディエンスの適合性を評価する一連のルールの出力です。 Analyticsでは、[&#x200B; セグメント &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)をオプションで使用して、CX Enterpriseに渡すことができるオーディエンスを定義できます。 <br>Audience Manager では、セグメントは[特性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html)と、訪問者がそのセグメントのメンバーとして含まれるかどうかを評価するすべての条件の集まりです。 また、これらの共通の属性を共有する人々の集まりでもあります。 |
 | **共有** | Creative Cloud では、ファイルを外部の様々なプラットフォーム（ソーシャル、コミュニティ、電子メールなど）にまたがって共有できます。 | CX Enterpriseでは、インターフェイス内のボード内で、アセットをカードとしてのみ共有できます。 共有は、サイトにログインしているユーザーのみが利用できます。 |
 | **ソリューション** | 特別な用法はありません。 | CX Enterpriseでは、アプリケーションはAdobe AnalyticsやAdobe Targetなどの製品として知られています。 |
 | **特性** | なし | キーと値のペア（例：color=blue）。 Audience Manager では、[特性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html)を使用してセグメントを作成します。 |
