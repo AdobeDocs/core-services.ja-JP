@@ -1,31 +1,24 @@
 ---
-description: Experience Cloud製品やExperience League Communities 内の使用状況データに基づいて、パーソナライズされたヘルプやプロモーションを電子メールで受け取ります。
+description: 電子メール、CX Enterprise製品、Experience League Communities内で、使用状況データに基づいてパーソナライズされたヘルプやプロモーションを受け取ることができます。
 solution: Experience Cloud
 title: Experience Cloud のパーソナライズされたラーニング環境設定
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
 TQID: https://experienceleague.adobe.com/XL454ZwYb9liDNLbDcA7ZYRG-8OHpwuQEmvHCo0q-j4
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 06923be2a98a9301a3d3e16c47c50cd34f7a05e9
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 103
-ht-degree: 19%
+source-wordcount: 105
+ht-degree: 20%
 
 ---
 
-# パーソナライズされたラーニング環境設定
+# パーソナライズされた学習設定
 
-Adobeには、Adobe製品の使用状況に基づいてカスタマイズされた役立つコンテンツが用意されています。 製品使用状況データは、このコンテキストをユーザーに合わせて調整する方法を示します。 [Experience Cloud環境設定 &#x200B;](https://experience.adobe.com/preferences) ページで、製品の使用状況データの共有をオプトインまたはオプトアウトできます。
+Adobeでは、Adobe製品での作業に基づいてカスタマイズされた有益なコンテンツを提供します。 このコンテキストを調整する方法は、製品使用データに基づいています。 [CX Enterpriseの環境設定](https://experience.adobe.com/preferences) ページで、製品使用状況データの共有をオプトインまたはオプトアウトできます。
 
 <!--
 ## Personalized training and support recommendations for your Adobe products and services
@@ -87,7 +80,7 @@ Receive tailored opportunities for learning events, research sessions, and integ
 [![](../assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"} 
 -->
 
-## カスタマイズされた学習情報の表示例
+## カスタマイズされた学習情報の例
 
 ### アドビ製品の内容
 

@@ -1,23 +1,19 @@
 ---
-title: EU 一般データ保護規則の [!DNL Customer Attributes] サポート
-description: EU 一般データ保護規則に対する顧客属性のサポートについて説明します
+title: 一般データ保護規則の[!DNL Customer Attributes] サポート
+description: 一般データ保護規則の顧客属性サポートについて説明します
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
 TQID: https://experienceleague.adobe.com/wU6Y5XK5Fs9-w7Jl7THXjturzTVrsB7eh7GdExsS2TQ
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
 workflow-type: tm+mt
-source-wordcount: 392
-ht-degree: 91%
+source-wordcount: 407
+ht-degree: 82%
 
 ---
 
@@ -27,11 +23,11 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->このドキュメントの内容は法的な助言ではなく、その代用になるものでもありません。GDPR に関するアドバイスについては、弁護士に相談してください。
+>このドキュメントの内容は法的な助言ではなく、その代用になるものでもありません。 GDPR に関するアドバイスについては、弁護士に相談してください。
 
-2018 年 5 月 25 日（PT）施行の法律である [EU 一般データ保護規則](https://business.adobe.com/jp/privacy/general-data-protection-regulation.html)は、欧州連合（EU）圏内にあるすべての個人（データ主体）に対して、自身の個人データを制御する権利を付与します。また、国際ビジネスの規制環境も簡素化します。この法律は、データ管理者の事業拠点に関係なく、個人データが処理される時点において、EU 圏内のユーザーに製品やサービスを提供、それらのユーザーの代理で監視、またはそれらのユーザーの個人データを収集するすべての事業者（データ管理者）に適用されます。
+2018 年 5 月 25 日（PT）施行の法律である [EU 一般データ保護規則](https://business.adobe.com/jp/privacy/general-data-protection-regulation.html)は、欧州連合（EU）圏内にあるすべての個人（データ主体）に対して、自身の個人データを制御する権利を付与します。 また、国際ビジネスの規制環境も簡素化します。 この法律は、データ管理者の事業拠点に関係なく、個人データが処理される時点において、EU 圏内のユーザーに製品やサービスを提供、それらのユーザーの代理で監視、またはそれらのユーザーの個人データを収集するすべての事業者（データ管理者）に適用されます。
 
-Adobe Experience Cloud は、顧客に代わって受信および保存する個人データのデータ処理者としての役割を果たします。データ管理者であるお客様は、Adobe Experience Cloud に処理および保管を委任する個人データを決めます。
+Adobe CX Enterpriseは、顧客のために収集、保存する個人データのデータ処理者として機能します。 データ管理者は、Adobe CX Enterpriseがユーザーの代わりに処理および保存する個人データを決定します。
 
 このドキュメントでは、[!DNL Customer Attributes] が Adobe Experience Platform Privacy Service API と Privacy Service UI を使用して、データ主体の GDPR データアクセスおよび削除権をどのようにサポートするかについて説明します。
 
@@ -47,9 +43,9 @@ GDPR がお客様のビジネスに与える影響について詳しくは、[GD
    * 操作する CRS データソースのエイリアス ID
    * アクションを実行するプロファイルの CRM ID
 
-   [組織 ID](../../administration/organizations.md) は、24 文字の英数字から成る文字列の後に @AdobeOrg が付いたものです。Privacy API にリクエストを送信するには、組織の ID が必要です。ID が見つからない場合は、アドビカスタマーケア（`gdprsupport@adobe.com`）にお問い合わせください。
+   [組織 ID](../../administration/organizations.md) は、24 文字の英数字から成る文字列の後に @AdobeOrg が付いたものです。 Privacy API にリクエストを送信するには、組織の ID が必要です。 ID が見つからない場合は、アドビカスタマーケア（`gdprsupport@adobe.com`）にお問い合わせください。
 
-1. [!UICONTROL Privacy Service] では、[!DNL Customer Attributes] にアクセスリクエストと削除リクエストを送信し、既存のリクエストのステータスを確認できます。
+1. [!UICONTROL Privacy Service]では、アクセス要求と削除要求を[!DNL Customer Attributes]に送信し、既存の要求のステータスを確認できます。
 
 ## [!DNL Customer Attributes] JSON リクエストの必須フィールド値
 

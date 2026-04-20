@@ -1,45 +1,45 @@
 ---
 title: Experience Cloud UI コンポーネントとサービス
-description: UI コンポーネント、ユーザーと製品の管理（Adobe Admin Console、オーディエンスライブラリ、顧客属性、Experience Cloud アセットなど）について説明します。
+description: Adobe Admin Console、Audience Library、顧客属性、CX Enterprise AssetsなどのUI コンポーネント、ユーザーと製品の管理について説明します。
 cloud: Experience Cloud
 product: experience cloud
 solution: Experience Cloud Services
 feature-set: Experience Cloud Services,Experience Cloud
 solution-title: Experience Platform
-solution-hub-url: https://helpx.adobe.com/jp/support/experience-cloud/core-services.html
+solution-hub-url: https://helpx.adobe.com/support/experience-cloud/core-services.html
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/jp/experience-cloud-core-services/get-started.html
+getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
-git-repo: https://github.com/AdobeDocs/core-services.ja-JP
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+git-repo: https://github.com/AdobeDocs/core-services.en
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 100%
+source-wordcount: '200'
+ht-degree: 66%
 
 ---
 
 
-# 社内用のメタデータ
+# 内部使用のメタデータ
 
-metadata.md ファイルには、リポジトリー内にあるユーザーガイドの TOC.md ファイルにパススルーされる、リポジトリーレベルのメタデータが含まれています。任意のユーザーガイドの metadata.md コンテンツを変更したい場合は、任意の TOC.md ファイル内でおこないます。
+metadata.md ファイルには、リポジトリ内のユーザーガイドの TOC.md ファイルに渡されるリポジトリレベルのメタデータが含まれています。 任意のユーザーガイドの metadata.md コンテンツを変更する場合は、任意の TOC.md ファイルで変更します。
 
-| メタデータ | 説明 |
+| メタデータ | それはどう機能しますか。 |
 | --- | --- |
-| solution-title | 記事ヘッダーでリンクとして使用します |
-| solution-hub-url | Helpx ハブページを開きます |
-| solution-icon | ソリューションタイトルの横にソリューションアイコンを表示します。未実装 |
-| getting-started-title | チュートリアルが適切でない場合はほとんど使用されません |
-| getting-started-url | Helpx 開始ページへのリンク |
-| tutorials-title | チュートリアルが適切でない場合はほとんど使用されません |
-| tutorials-url | ビデオチュートリアル（ヘルプチュートリアルまたは KT チュートリアル）へのリンク |
-| mini-toc-levels | 右パネルに表示される見出しレベルの数を指定します。デフォルトは 2 です |
-| git-repo | コラボレーションリポジトリの場所を指定します。公開ドキュメントに github.com のミラーを使用 |
+| solution-title | 記事ヘッダーにリンクとして使用 |
+| solution-hub-url | helpx ハブページを開きます |
+| solution-icon | ソリューションタイトルの横にソリューションアイコンを表示します。 まだ実装されていません |
+| getting-started-title | チュートリアルが適切でない場合はめったに使用されません |
+| getting-started-url | Helpx 入門ページへのリンク |
+| tutorials-title | チュートリアルが適切でない場合はめったに使用されません |
+| tutorials-url | ビデオチュートリアルへのリンク - helpx チュートリアルまたは KT チュートリアル |
+| mini-toc-levels | 右側のパネルに表示される見出しレベルの数を指定します。 デフォルトは 2 です |
+| git-repo | コラボレーションリポジトリの場所を指定します。 公開ドキュメントにgithub.com ミラーを使用する |
 
 TOC.md ファイル内
 
-| メタデータ | 説明 |
+| メタデータ | それはどう機能しますか。 |
 | --- | --- |
-| user-guide-title | 記事ヘッダーでリンクとして使用します |
-| user-guide-url | Helpx ハブページを開きます |
+| user-guide-title | 記事ヘッダーにリンクとして使用 |
+| user-guide-url | helpx ハブページを開きます |

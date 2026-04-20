@@ -1,5 +1,5 @@
 ---
-description: Experience Cloud 用の中央インターフェイスコンポーネントについて説明します。 Admin Console でユーザーと製品の管理に関するヘルプを取得し、Experience Cloud サービス用のアプリケーションを有効にします。 オーディエンスライブラリ、顧客属性、Experience Cloud アセットなどに関するヘルプを取得します。
+description: CX Enterpriseの一元的なインターフェイスコンポーネントについて説明します。 Admin Consoleのユーザーおよび製品管理に関するヘルプを参照して、CX Enterprise サービスのアプリケーションを有効にします。 オーディエンスライブラリ、顧客属性、CX Enterprise Assetsなどのヘルプを利用できます。
 title: Experience Cloud インターフェイスおよび管理
 hide: true
 hidefromtoc: true
@@ -7,33 +7,33 @@ feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
-source-git-commit: 3571e84cb237a478d8a9bce3485bef0737d4043c
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 84%
+ht-degree: 50%
 
 ---
 
-# Experience Cloud インターフェイスおよび管理
+# CX Enterpriseのインターフェイスと管理
 
-[Experience Cloud](https://experience.adobe.com) には、アドビが提供するデジタルマーケティングアプリケーション、製品およびサービスが統合されています。 直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。
+[CX Enterprise](https://experience.adobe.com)は、Adobeの統合デジタルマーケティングアプリケーション、製品、サービスのファミリーです。 直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。
 
 10月30日隠し
 
-![Experience Cloud](assets/landing.png)
+![CX Enterprise](assets/landing.png)
 
-Experience Cloud のヘッダーから、次の操作を実行できます。
+CX Enterpriseのヘッダーから、次の操作を実行できます。
 
-* すべての Experience Cloud アプリケーションとサービスにアクセスします
+* CX Enterpriseのあらゆるアプリケーションとサービスにアクセス
 * ヘルプメニューから、製品ドキュメント、チュートリアル、コミュニティへの投稿を検索します。 Experience League で結果を表示します。
 * 「検索」フィールドのグローバル検索を使用したビジネスオブジェクトの検索（Experience Platform ユーザーのみ）。
 * アカウントの[環境設定](features/account-preferences.md)（アラート、通知、サブスクリプション）を管理します
 
-## Experience Cloud にサインインする {#signin}
+## CX Enterpriseにログイン {#signin}
 
 ログインし、自分が適切な[組織](administration/organizations.md)に属していることを確認します。
 
-1. [Adobe Experience Cloud](https://experience.adobe.com) に移動します。
+1. [Adobe CX Enterprise](https://experience.adobe.com)に移動します。
 1. Adobeの電子メールアドレスを入力し、**[!UICONTROL Continue]**&#x200B;をクリックします。
 1. アカウントをクリックします。
 1. パスワードを入力します。
@@ -45,17 +45,17 @@ Experience Cloud のヘッダーから、次の操作を実行できます。
 
    [組織](administration/organizations.md)は、インターフェイスヘッダーに表示されます。
 
-   組織が Federated ID を使用している場合、Experience Cloud を使用すると、自身のメールアドレスとパスワードを入力しなくても、組織のシングルサインオンでログインできます。 `#/sso:@domain` を Experience Cloud URL（`https://experience.adobe.com`）に追加して、このタスクを完成します。
+   組織でFederated IDを使用している場合は、CX Enterpriseを使用すると、メールアドレスとパスワードを入力しなくても、組織のシングルサインオンでログインできます。 CX Enterprise URL （`https://experience.adobe.com`）に`#/sso:@domain`を追加して、このタスクを実行します。
 
    例えば、Federated ID を持ち、ドメインが `example.com` の組織の場合、URL リンクを `https://experience.adobe.com/#/sso:@example.com` に設定します。 また、この URL にアプリケーションパスを付けてブックマークに追加することで、特定のアプリケーションに直接移動することもできます。 （例えば、Adobe Analytics の場合は `https://experience.adobe.com/#/sso:@example.com/analytics`。）
 
-## Experience Cloud アプリケーションへのアクセス {#navigation}
+## CX Enterpriseアプリケーションへのアクセス {#navigation}
 
-Experience Cloud にログインすると、統合ヘッダーからすべてのアプリケーション、サービスおよび組織にすばやくアクセスできます。
+CX Enterpriseにログインすると、統合ヘッダーからすべてのアプリケーション、サービス、組織にすばやくアクセスできます。
 
-組織内でプロビジョニングされた Experience Cloud のアプリケーションおよびサービスにアクセスするには、アプリケーションセレクター ![メニュー](assets/apps-icon.png) に移動します。
+組織内でプロビジョニングされたCX Enterprise アプリケーションとサービスにアクセスするには、アプリケーションセレクター![menu](assets/apps-icon.png)に移動します。
 
-![Experience Cloud アプリケーションへのアクセス](assets/platform-core-services.png)
+![CX Enterprise アプリケーションへのアクセス ](assets/platform-core-services.png)
 
 ## お問い合わせとサポート {#support}
 
@@ -66,8 +66,8 @@ Experience Cloud にログインすると、統合ヘッダーからすべての
 [!UICONTROL Help] メニューでは、次のアクセス権も使用できます。
 
 * **[!UICONTROL Support]:** サポートチケットを作成するか、Twitterを使用して[!UICONTROL Support]にお問い合わせください。
-* **[!UICONTROL Feedback]:** Experience Cloud エクスペリエンスに関するフィードバックを共有します。 フィードバックは、アドビの製品およびサービスを改善するために使用されます。
-* **[!UICONTROL Status]:** `https://status.adobe.com/ja-jp/experience_cloud`に移動し、製品操作の状態と[!UICONTROL Manage Subscriptions]を確認します。
+* **[!UICONTROL Feedback]:** CX Enterprise エクスペリエンスに関するフィードバックを共有します。 フィードバックは、アドビの製品およびサービスを改善するために使用されます。
+* **[!UICONTROL Status]:** `https://status.adobe.com/experience_cloud`に移動し、製品操作の状態と[!UICONTROL Manage Subscriptions]を確認します。
 * **[!UICONTROL Developer Connection]:** `adobe.io`に移動して、開発者ドキュメントを見つけます。
 
 ## ユーザープロファイルの管理
@@ -75,7 +75,7 @@ Experience Cloud にログインすると、統合ヘッダーからすべての
 [!UICONTROL Profile] メニューでは、次の操作を行うことができます。
 
 * ダークテーマを指定する（このテーマに対応していないアプリケーションもあります）
-* Experience Cloud の[環境設定](features/account-preferences.md)を管理する
+* CX Enterprise [環境設定](features/account-preferences.md)の管理
 * [組織](administration/organizations.md)を選択または検索する
 * [!UICONTROL Legal Notices]を表示
 * ログアウト
