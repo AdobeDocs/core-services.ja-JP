@@ -1,5 +1,5 @@
 ---
-title: Experience Cloud UI コンポーネントとサービス
+title: CX Enterprise Central UIと管理
 description: Adobe Admin Console、Audience Library、顧客属性、CX Enterprise AssetsなどのUI コンポーネント、ユーザーと製品の管理について説明します。
 cloud: Experience Cloud
 product: experience cloud
@@ -13,7 +13,7 @@ getting-started-url: https://helpx.adobe.com/jp/experience-cloud-core-services/g
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/core-services.ja-JP
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 904e2603fc9f40bca8317881fc3b0b4e34e04300
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 66%
