@@ -27,62 +27,62 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 62d66c526ac0e88f4748437b8a6ff1225894a39e
 workflow-type: tm+mt
-source-wordcount: 1426
+source-wordcount: 1429
 ht-degree: 52%
 
 ---
 
 # 累積リリースノート
 
-CX Enterprise中央インターフェイスコンポーネントの機能、リリースノート、既知の問題。
+CX Enterprise Central Interface Componentsの機能、リリースノート、既知の問題。
 
 ドキュメントの更新の一覧については、[&#x200B; ドキュメントの更新](doc-updates.md)を参照してください。
 
-すべてのアプリケーションに関するリリースノートについては、[CX Enterprise リリースノート &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)を参照してください。
+すべてのアプリケーションに関するリリースノートについては、[CX エンタープライズ版リリースノート &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)を参照してください。
 
 ## 2026年4月
 
 | 日付 | 更新 | 説明 |
 | ------- | ------- | ------- |
-| 2026年4月20日（PT） | 更新されたホームページ | `https://experience.adobe.com/home`のホームページの新しいルックアンドフィール。 このリリースでは、すべての機能が同じままになり、更新されたUIで、完全な&#x200B;_ダークモード_&#x200B;のサポートとアクセシビリティの向上が行われました。 |
+| 2026年4月20日（PT） | Adobe CX Enterprise インターフェイスの更新 | `https://experience.adobe.com/home`のホームページの新しいルックアンドフィール。 このリブランディングされたリリースでは、すべての機能が同じままになり、更新されたUI、完全な&#x200B;_ダークモード_&#x200B;のサポート、およびアクセシビリティの向上が行われました。 |
 
 ## 2026年1月
 
 | 日付 | 更新 | 説明 | 該当する製品 |
 | -----------| -----------| ---------- | ---------- |
-| 2026年1月14日（PT） | カスタマイズ可能な左側のナビゲーションメニュー | CX Enterpriseで、アプリケーションの左ナビゲーションメニューをカスタマイズできるようになりました。 最も重要な機能にすばやくアクセスできるよう、ナビゲーション項目を並べ替えて、その表示を制御します。 このアップデートにより、ワークフローが効率化され、認知負荷が軽減され、完全なキーボードアクセシビリティがサポートされます。 | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer B2B エディション</li><li>Dynamic Chat</li></ul> |
+| 2026年1月14日（PT） | カスタマイズ可能な左側のナビゲーションメニュー | CX Enterpriseのアプリケーションの左側のナビゲーションメニューをカスタマイズできるようになりました。 最も重要な機能にすばやくアクセスできるよう、ナビゲーション項目を並べ替えて、その表示を制御します。 このアップデートにより、ワークフローが効率化され、認知負荷が軽減され、完全なキーボードアクセシビリティがサポートされます。 | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer B2B エディション</li><li>Dynamic Chat</li></ul> |
 
 ## 2025年9月
 
 | 日付 | 更新 | 説明 |
 | -----------| -----------| ---------- |
-| 2025年9月25日（PT） | IP アクセスリストのサポート | Admin ConsoleでIP アクセス リストが利用可能で有効になっている組織の場合、CX Enterpriseは、それらのIP制限を尊重し、`https://experience.adobe.com` ドメイン上のアプリケーションにアクセスします。 このアップデートは、そのドメインを介してアクセスされるすべての web アプリケーションに影響し、その組織内でのログイン時および新規ページの読み込み時にチェックが行われます。 |
+| 2025年9月25日（PT） | IP アクセスリストのサポート | Admin ConsoleでIP アクセス リストを利用でき、有効にしている組織では、CX Enterpriseは`https://experience.adobe.com` ドメイン上のアプリケーションへのアクセスに対するIP制限を尊重します。 このアップデートは、そのドメインを介してアクセスされるすべての web アプリケーションに影響し、その組織内でのログイン時および新規ページの読み込み時にチェックが行われます。 |
 
 ## 2025年3月
 
 | 日付 | 更新 | 説明 |
 | -----------| -----------| ---------- |
-| 2025年3月6日（PT） | 右クリックメニューオプションの修正 | CX Enterpriseのヘッダーナビゲーションタブで、右クリックのドロップダウンメニュー機能が使用できるようになりました。 これにより、Spectrum 2 デザインシステムの 2月のリリースで発生した問題が修正されます。 |
+| 2025年3月6日（PT） | 右クリックメニューオプションの修正 | CX エンタープライズヘッダーナビゲーションタブで、右クリック、ブラウザーのドロップダウンメニュー機能が可能になりました。 これにより、Spectrum 2 デザインシステムの 2月のリリースで発生した問題が修正されます。 |
 
 ## 2025年2月
 
 | 日付 | 機能 | 説明 |
 | -----------| -----------| ---------- |
-| 13年2月 | Spectrum 2 | CX Enterpriseのアプリケーションフレームは、ヘッダーバーとヘッダーバーからアクセスされるコンポーネント、および特定のアプリケーションの左側のナビゲーションレールを含み、Adobeの最新のデザインシステムであるSpectrum 2に更新されます。 このリフレッシュされたデザインには、更新されたアイコンが含まれていますが、同じ機能が含まれています。 ただし、ヘッダー内の複数の要素は、他のアドビのサイトやアプリケーションに合わせて再配置されます。 |
+| 13年2月 | Spectrum 2 | ヘッドバーとヘッダーバーからアクセスされるコンポーネント、および特定のアプリケーションの左側のナビゲーションパネルを含むCX Enterprise アプリケーションフレームは、Adobeの最新のデザインシステムであるSpectrum 2に更新されます。 このリフレッシュされたデザインには、更新されたアイコンが含まれていますが、同じ機能が含まれています。 ただし、ヘッダー内の複数の要素は、他のアドビのサイトやアプリケーションに合わせて再配置されます。 |
 
 ## 2025年1月
 
 | 日付 | 機能 | 説明 |
 | -----------| -----------| ---------- |
-| 9年1月 | 製品の使用状況データ | CX Enterprise製品の使用状況データの環境設定を簡単に制御できるように、CX Enterprise [環境設定](../features/account-preferences.md#product-usage-data) ページを合理化して、重複するオプションを削除しました。 この簡素化により、現在のユーザー設定が保持され、[CX Enterpriseの環境設定](https://experience.adobe.com/preferences)でいつでも環境設定を更新できます。 |
+| 9年1月 | 製品の使用状況データ | CX エンタープライズ製品の使用状況データ設定を簡単に制御できるように、CX エンタープライズ [環境設定](../features/account-preferences.md#product-usage-data) ページを合理化して、重複するオプションを削除しました。 この簡素化により、現在のユーザー設定が保持され、[CX エンタープライズ設定](https://experience.adobe.com/preferences)でいつでも環境設定を更新できます。 |
 
 ## 2024年10月2日（PT）
 
 | 機能 | 説明 |
 | -----------| ---------- |
-| カスタマイズ可能なホーム | CX Enterprise ランディングページで、**[!UICONTROL Edit]**&#x200B;をクリックします。 [!UICONTROL Edit] モードでは、ウィジェットライブラリとカスタム背景にアクセスして、CX Enterprise ホームページをパーソナライズできます。 [!UICONTROL Edit] モードでは、一括操作やレイアウト調整など、ウィジェットの移動、サイズ変更、管理をシームレスかつ直感的に行うことができ、より美しくカスタマイズされたエクスペリエンスを提供します。 |
+| カスタマイズ可能なホーム | CX Enterprise ランディングページで、**[!UICONTROL Edit]**&#x200B;をクリックします。 [!UICONTROL Edit] モードでは、ウィジェットライブラリとカスタム背景にアクセスして、CX エンタープライズのホームページをパーソナライズできます。 [!UICONTROL Edit] モードでは、一括操作やレイアウト調整など、ウィジェットの移動、サイズ変更、管理をシームレスかつ直感的に行うことができ、より美しくカスタマイズされたエクスペリエンスを提供します。 |
 
 ## 2024年9月10日（PT）
 
@@ -151,7 +151,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 機能 | 説明 |
 | ------- | ------- |
-| ホームページ | CX Enterpriseのホームフッター情報は、環境設定の「法的通知」や「言語の選択」など、ユーザープロファイルカードに移動されました。 |
+| ホームページ | CX エンタープライズ版のホームフッター情報が、法律上の注意や環境設定の言語の選択など、ユーザープロファイルカードに移動されました。 |
 | AEP ダッシュボード | [!DNL Helios Lite] は、Experience Platform ウィジェット作成ワークフロー内におけるグラフのレコメンデーションを提供します。 データ選択（現在は単一の変数データ選択）が指定されている場合、[!DNL Helios] では、データの選択に伴う適切なビジュアライゼーションが推奨されます。 |
 | AEP ダッシュボード | [!DNL Instory] は、グラフに ML ベースの書き込みナレーションとキャプションを提供します。 AEP ダッシュボードページのグラフに、データの大きな変更点やインシデントを示す箇条書きを追加します。 |
 
@@ -162,7 +162,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 | 機能 | 説明 |
 | ------- | ------- |
 | 統合検索 | 統合検索では、引き続き検索インデックスにオブジェクトタイプが追加されます。 この更新では、グローバル検索で、Experience League コンテンツ全体と次の Journey Optimizer オブジェクトタイプが検索されるようになりました。 <ul><li>データセット</li><li>宛先</li><li>クエリ</li><li>スキーマ</li><li>セグメント</li><li>ソース</li><li>オファー</li><li>コンポーネント</li><li>メッセージ</li><li>ジャーニー</li></ul> |
-| 製品の使用状況データへの同意 | 初回ログイン時に、CX Enterpriseの使用状況データに基づいて、Adobeがチュートリアル、ガイド、クイックヒント、レコメンデーション、学習ビデオなど、役立つパーソナライズされたコンテンツを提供する方法に関する環境設定を送信するように求められます。 このリクエストでは、これらのデータの収集と使用に関する環境設定を <https://experience.adobe.com/preferences> で更新することも求められます。 |
+| 製品の使用状況データへの同意 | 初回ログイン時に、CX Enterprise製品の使用状況データに基づいて、Adobeが、チュートリアル、ガイド、クイックヒント、レコメンデーション、学習ビデオなど、役立つパーソナライズされたコンテンツを提供する方法に関する環境設定を送信するように求められます。 このリクエストでは、これらのデータの収集と使用に関する環境設定を <https://experience.adobe.com/preferences> で更新することも求められます。 |
 
 {style="table-layout:auto"}
 
@@ -182,7 +182,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 機能 | 日付 | 説明 |
 | ------- | ------- | ------- |
-| Adobe Federated ID のシングルサインオンサポート | 2021年6月17日 | Federated IDを使用している場合は、メールアドレスやパスワードを入力しなくてもCX Enterpriseにログインできます。 この機能を使用するには、CX Enterprise URLに`#/sso:@domain`を追加します。 <br>例えば、ドメイン `example.com` を所有し、Adobe Analytics にログインするとします。 URL は「`https://experience.adobe.com/#/sso:@example.com/analytics`」となります。 |
+| Adobe Federated ID のシングルサインオンサポート | 2021年6月17日 | Federated IDを使用する場合は、電子メールアドレスやパスワードを入力せずにCX Enterpriseにログインできます。 この機能を使用するには、CX Enterprise URLに`#/sso:@domain`を追加します。 <br>例えば、ドメイン `example.com` を所有し、Adobe Analytics にログインするとします。 URL は「`https://experience.adobe.com/#/sso:@example.com/analytics`」となります。 |
 | Experience League 検索 | 2021年6月1日 | Experience League ドキュメントの検索が改善されました。 [Experience League](https://experienceleague.adobe.com/docs/?lang=ja)に移動し、**[!UICONTROL Search]** フィールドを使用して、チュートリアル、ドキュメント、コースなどを検索します。 |
 
 {style="table-layout:auto"}
@@ -191,9 +191,9 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 機能 | 説明 |
 | ------- | ------- |
-| CX Enterprise ヘッダーとナビゲーション | Adobe CX Enterpriseのアップデートには、ヘッダーのライトテーマへの変更が含まれており、ダークテーマに簡単に切り替えたり、CX Enterprise ヘッダーのユーザーアバターから追加の環境設定を制御したりするためのリンクを設定したりできます。 CX Enterpriseのすべてのアプリケーションがテーマ設定をサポートしているわけではありませんが、この機能を使用すると、将来のテーマのサポートを利用できます。 |
-| CX Enterprise グローバル検索 | このリリースでは、CX Enterprise グローバル検索を使用して、[Experience League](https://experienceleague.adobe.com/ja?lang=ja#home)のドキュメント、コース、チュートリアルのいずれかを検索できます。 （現在、グローバル検索は、Experience Platform ユーザーのみが使用できます。 [!UICONTROL Platform]のグローバル検索を使用すると、セグメント、データセット、スキーマなど、CX Enterprise内の任意のビジネスオブジェクトを検索できます。） |
-| CX Enterprise言語設定 | このアップデートには、CX Enterprise [環境設定](https://experience.adobe.com/preferences)で希望する言語を設定する機能が含まれています。 |
+| CX エンタープライズヘッダーとナビゲーション | Adobe CX Enterpriseのアップデートには、ヘッダーのライトテーマへの変更が含まれており、ダークテーマに簡単に切り替え、CX Enterpriseのヘッダーのユーザーアバターから追加の環境設定を制御するためのリンクを設定できます。 CX Enterpriseのすべてのアプリケーションがテーマをサポートしているわけではありませんが、この機能は将来のテーマのサポートを可能にします。 |
+| CX Enterprise Global Search | このリリースでは、CX Enterprise グローバル検索を使用して、[Experience League](https://experienceleague.adobe.com/ja?lang=ja#home)のドキュメント、コース、チュートリアルのいずれかを検索できます。 （現在、グローバル検索は、Experience Platform ユーザーのみが使用できます。 「[!UICONTROL Platform]」のグローバル検索を使用すると、セグメント、データセット、スキーマなど、CX Enterprise内の任意のビジネスオブジェクトを検索できます。） |
+| CX エンタープライズ版の言語設定 | このアップデートには、CX Enterprise [環境設定](https://experience.adobe.com/preferences)で好みの言語を設定する機能が含まれています。 |
 
 {style="table-layout:auto"}
 
@@ -201,20 +201,20 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 機能 | 説明 |
 | -----------| ---------- |
-| 管理ツール — ポリシー | このページには、組織内のCX Enterprise ポリシーの一覧が表示されます。 製品、インスタンス、ユーザー、デベロッパーに関する情報を提供します。 検索、並べ替え、フィルタリングによるポリシーリストのカスタム表示が可能です。 詳しくは、[CX Enterprise Admin Tool](../administration/admin-tool-experience-cloud.md) ヘルプを参照してください。 |
+| 管理ツール — ポリシー | このページには、組織内のCX Enterprise ポリシーの完全なリストが表示されます。 製品、インスタンス、ユーザー、デベロッパーに関する情報を提供します。 検索、並べ替え、フィルタリングによるポリシーリストのカスタム表示が可能です。 詳しくは、[CX Enterprise Admin Tool](../administration/admin-tool-experience-cloud.md) ヘルプを参照してください。 |
 
 {style="table-layout:auto"}
 
 ## 2020年4月
 
-* CX Enterprise [!UICONTROL Feed] ページは非推奨（廃止予定）になりました。 （EXC-8505）
-* CX Enterpriseのログインページが更新され、新しいブランディング要素が反映されました。 （EXC-10747）
+* CX エンタープライズ [!UICONTROL Feed] ページは非推奨（廃止予定）になりました。 （EXC-8505）
+* CX Enterpriseのログインページが更新され、新しいブランド要素が反映されました。 （EXC-10747）
 
 ## 2020年2月
 
 | 機能 | 説明 |
 | -----------| ---------- |
-| 管理ツール - ユーザーの詳細を表示 | 管理者は、新しい管理ツールで、すべてのCX Enterprise ユーザーとその詳細の並べ替え可能でフィルター可能なリストを表示できます。 ユーザーの詳細には、ユーザーの製品アクセス、役割、前回アクセスした情報が含まれます。 詳しくは、[CX Enterprise Admin Tool](../administration/admin-tool-experience-cloud.md) ヘルプを参照してください。 |
+| 管理ツール - ユーザーの詳細を表示 | 管理者は、新しい管理ツールで、すべてのCX Enterprise ユーザーとその詳細の並べ替え可能でフィルタリング可能なリストを表示できます。 ユーザーの詳細には、ユーザーの製品アクセス、役割、前回アクセスした情報が含まれます。 詳しくは、[CX Enterprise Admin Tool](../administration/admin-tool-experience-cloud.md) ヘルプを参照してください。 |
 
 {style="table-layout:auto"}
 
