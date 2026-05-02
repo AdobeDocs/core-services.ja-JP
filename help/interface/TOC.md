@@ -1,21 +1,21 @@
 ---
 role: User,Admin
-user-guide-title: Experience Cloud インターフェイスおよび管理
-breadcrumb-title: Experience Cloud インターフェイスおよび管理
-title: Experience Cloud インターフェイスおよび管理
-description: CX Enterpriseのインターフェイス、Cookie、アカウント設定について説明します。 製品を管理し、顧客属性やオーディエンスライブラリなどの People サービスを設定します。 CX Enterprise Assetsを共有します。
+user-guide-title: CX エンタープライズ中央インターフェイスおよび管理ガイド
+breadcrumb-title: CX エンタープライズインターフェイスと管理
+title: CX エンタープライズインターフェイスおよび管理ガイド
+description: CX エンタープライズインターフェイスと管理についてご確認ください。 AI、管理、共有サービス、データ収集、Cookie、リリースノート、FAQに関するトピックを参照できます。
 index: true
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: d136979999619b0858f1e797a6b71d27799e2e66
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 71%
+source-wordcount: '217'
+ht-degree: 56%
 
 ---
 
-# CX Enterpriseのインターフェイスと管理 {#interface}
+# CX エンタープライズインターフェイスと管理 {#interface}
 
-+ [CX Enterpriseのインターフェイスと管理](/help/interface/experience-cloud.md)
-+ CX ENTERPRISEのAI {#features}
++ [CX エンタープライズインターフェイスと管理](/help/interface/experience-cloud.md)
++ CX エンタープライズにおけるAI {#features}
    + [生成 AI](/help/interface/features/generative-ai.md)
    + [エージェント型 AI](features/agentic-ai.md)
    + {hide-from-toc}[AI監視](/help/interface/features/ai-monitoring.md)
@@ -65,7 +65,7 @@ ht-degree: 71%
       + [Advertising の cookie](/help/interface/data-collection/cookies/advertising.md)
       + [Analytics の cookie](/help/interface/data-collection/cookies/analytics.md)
       + [Audience Manager の cookie](/help/interface/data-collection/cookies/audience-manager.md)
-      + [CX Enterprise cookie](/help/interface/data-collection/cookies/experience-cloud.md)
+      + [CX エンタープライズ Cookie](/help/interface/data-collection/cookies/experience-cloud.md)
       + [Target の Cookie](/help/interface/data-collection/cookies/target.md)
       + [Web SDK の cookie](/help/interface/data-collection/cookies/web-sdk.md)
    + [地域データ収集](/help/interface/data-collection/rdc.md)
