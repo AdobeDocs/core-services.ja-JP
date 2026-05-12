@@ -8,21 +8,13 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-TQID: https://experienceleague.adobe.com/xXhiBeGGEVpvdjZdpL2Q9-3eDn-gN58dynb56daQcig
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+TQID: 'https://experienceleague.adobe.com/-zJW08nRR0XHxI8ink2lZt-R44irL2pMyWdqHsZQoUg'
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id:id:
+role_v2: id:
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 515
 ht-degree: 60%
@@ -58,9 +50,9 @@ ht-degree: 60%
 
 **オーディエンスを作成するには、以下を実行します。**
 
-1. [!DNL CX Enterprise]個のアプリ （![個のアプリアイコン &#x200B;](assets/apps-icon.png)）をクリックし、**[!UICONTROL People]** > **[!UICONTROL Audience Library]をクリックします。**
+1. [!DNL CX Enterprise]個のアプリ （![個のアプリアイコン ](assets/apps-icon.png)）をクリックし、**[!UICONTROL People]** > **[!UICONTROL Audience Library]をクリックします。**
 
-1. [!UICONTROL Audiences] ページで、**[!UICONTROL New]**&#x200B;をクリックします。 ![新しいオーディエンス &#x200B;](assets/add_icon_small.png)
+1. [!UICONTROL Audiences] ページで、**[!UICONTROL New]**&#x200B;をクリックします。 ![新しいオーディエンス ](assets/add_icon_small.png)
 
    ![オーディエンスの作成](assets/audience_create_new.png)
 
@@ -71,7 +63,7 @@ ht-degree: 60%
 
      >[!NOTE]
      >
-     >キャッシュのため、Analyticsで削除されたレポートスイートは、CX Enterpriseで削除が表示されるまでに12時間を要します。
+     >Analyticsで削除されたレポートスイートは、キャッシュが原因で、CX Enterpriseに削除が表示されるまでに12時間かかる。
 
    * [!DNL CX Enterprise] ソースから派生した&#x200B;**[!UICONTROL CX Enterprise:]**&#x200B;属性データ。 例えば、[!DNL Analytics] で作成したオーディエンスセグメントからのデータや、[!DNL Audience Manager] からのデータです。
 
@@ -93,7 +85,7 @@ ht-degree: 60%
 
 *Chrome および Safari の訪問者*&#x200B;は、Analytics から共有されたオーディエンスセグメントです。
 
-* **[!UICONTROL Attribute Source:]** CX Enterprise
+* **[!UICONTROL Attribute Source:]** CX エンタープライズ
 * **[!UICONTROL Dimension:]**&#x200B;人のChromeとSafari訪問者
 
 ![Chrome および Safari の訪問者](assets/chrome_safari.png)
@@ -104,11 +96,11 @@ ht-degree: 60%
 
 このルールの結果として得られるのは、Home &amp; Garden を訪問した Chrome および Safari ユーザーで構成される、定義されたオーディエンスです。 「Patio &amp; Furniture」セグメントにより、このサイトセクションに訪問するすべての訪問者に対する追加のインサイトが得られます。
 
-![CX Enterpriseでオーディエンスを定義](assets/defined_audience.png)
+![CX Enterpriseで定義されたオーディエンス ](assets/defined_audience.png)
 
 * **履歴による予測：**（点線の円）[!DNL Analytics] データに基づいて作成されたルールを表しています。
 * **実際のオーディエンス：**（実線の円）Audience Manager からの 30 日間のデータで作成されたルールです。 Audience Manager データが 30 日に達すると、線が実線になり、実際の数を表します。
 
 特定期間のデータ収集が終了すると、円は結合されて、定義されたオーディエンスを表示します。
 
-オーディエンスが保存されると、他のCX Enterprise アプリケーションで使用できるようになります。 例えば、Adobe Target [&#x200B; アクティビティ &#x200B;](https://experienceleague.adobe.com/ja/docs/target/using/activities/activities)に共有オーディエンスを含めることができます。
+オーディエンスが保存されると、他のCX Enterprise アプリケーションで使用できるようになります。 例えば、Adobe Target [ アクティビティ ](https://experienceleague.adobe.com/en/docs/target/using/activities/activities)に共有オーディエンスを含めることができます。

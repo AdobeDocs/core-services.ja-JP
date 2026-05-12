@@ -1,14 +1,17 @@
 ---
 title: エージェントのジョブとAI クレジット消費
-description: CX Enterprise アプリケーションのエージェントのジョブとAI クレジットの使用率について説明します。
+description: CX エンタープライズアプリケーションにおける担当者の業務とAI クレジットの消費率について説明します。
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+TQID: 'https://experienceleague.adobe.com/REonDh6tRlMxB3iAryxC0BLXeVTTaUuwCu98DXyESVQ'
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: 1055
 ht-degree: 3%
 
 ---
@@ -17,17 +20,17 @@ ht-degree: 3%
 
 更新日：**2026年3月5日**
 
-CX Enterpriseアプリケーションにおけるエージェント型AIのジョブとAI クレジットの使用について説明します。 既存のCX Enterprise アプリケーションでAgentic AI機能を有効にする方法について詳しくは、[CX EnterpriseのAgentic AI](agentic-ai.md#existing-apps)を参照してください。
+CX エンタープライズアプリケーションにおけるエージェント型AIのジョブとAI クレジット消費について説明します。 既存のCX Enterprise アプリケーションでAgentic AI機能を有効にする方法について詳しくは、[CX EnterpriseでのAgentic AI](agentic-ai.md#existing-apps)を参照してください。
 
 ## エージェントジョブ
 
 _エージェントジョブ_&#x200B;は、顧客の入力によって指示されるように、エージェントが特定の結果を達成するために実行する一連のタスクとアクションです。
 
-AI アシスタントによる自然言語プロンプトを使用し、エージェントに特定のジョブの実行を依頼できます。 これらの入力にもとづいて、Agent Orchestratorは適切な担当者を調整し、関連するCX Enterpriseアプリケーション内で各ステップを実行します。
+AI アシスタントによる自然言語プロンプトを使用し、エージェントに特定のジョブの実行を依頼できます。 これらのデータに基づいて、Agent Orchestratorは適切な担当者を調整し、関連するCX Enterprise アプリケーション内の各ステップを実行します。
 
 ## AI クレジット
 
-_AI クレジット_&#x200B;は、エージェント ジョブの実行を定量化する使用状況ベースの指標です。 AI クレジットは、[AI ファーストのアプリケーション &#x200B;](/help/interface/features/agentic-ai.md)には適用されません。
+_AI クレジット_&#x200B;は、エージェント ジョブの実行を定量化する使用状況ベースの指標です。 AI クレジットは、[AI ファーストのアプリケーション ](/help/interface/features/agentic-ai.md)には適用されません。
 
 ## AI クレジット消費
 
@@ -65,6 +68,6 @@ AIによるクレジットの使用状況は、実行されるジョブの複雑
 
 ## このトピックの詳細ヘルプ
 
-* [CX Enterpriseの生成AI](/help/interface/features/generative-ai.md)
-* [CX EnterpriseのAgentic AI](/help/interface/features/agentic-ai.md)
-* [Adobe Experience Platform Agents利用制限トライアル](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [CX エンタープライズにおける生成AI](/help/interface/features/generative-ai.md)
+* [CX エンタープライズにおけるAgentic AI](/help/interface/features/agentic-ai.md)
+* [Adobe Experience Platform Agents利用制限トライアル](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)

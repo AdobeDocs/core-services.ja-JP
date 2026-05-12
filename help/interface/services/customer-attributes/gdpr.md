@@ -6,15 +6,11 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-TQID: https://experienceleague.adobe.com/wU6Y5XK5Fs9-w7Jl7THXjturzTVrsB7eh7GdExsS2TQ
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+TQID: 'https://experienceleague.adobe.com/eKqqNOKxc2QE4mAzsp1y6FT724ccJDtpmA1ydYLD0Fk'
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id:
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 407
 ht-degree: 82%
@@ -31,7 +27,7 @@ ht-degree: 82%
 
 2018 年 5 月 25 日（PT）施行の法律である [EU 一般データ保護規則](https://business.adobe.com/jp/privacy/general-data-protection-regulation.html)は、欧州連合（EU）圏内にあるすべての個人（データ主体）に対して、自身の個人データを制御する権利を付与します。 また、国際ビジネスの規制環境も簡素化します。 この法律は、データ管理者の事業拠点に関係なく、個人データが処理される時点において、EU 圏内のユーザーに製品やサービスを提供、それらのユーザーの代理で監視、またはそれらのユーザーの個人データを収集するすべての事業者（データ管理者）に適用されます。
 
-Adobe CX Enterpriseは、顧客のために収集、保存する個人データのデータ処理者として機能します。 データ管理者は、Adobe CX Enterpriseがユーザーの代わりに処理および保存する個人データを決定します。
+Adobe CX Enterpriseは、顧客のために受信および保存される個人データのデータ処理者として機能します。 データ管理者は、Adobe CX Enterpriseがユーザーに代わって処理および保存する個人データを決定します。
 
 このドキュメントでは、[!DNL Customer Attributes] が Adobe Experience Platform Privacy Service API と Privacy Service UI を使用して、データ主体の GDPR データアクセスおよび削除権をどのようにサポートするかについて説明します。
 

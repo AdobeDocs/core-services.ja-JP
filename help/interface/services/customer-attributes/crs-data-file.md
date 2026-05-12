@@ -7,19 +7,13 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-TQID: https://experienceleague.adobe.com/v3ssxsKeUGWeikG4GxFRp8WgRRwCZIOILShX73blwPU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+TQID: 'https://experienceleague.adobe.com/wBLSauDJYGMVepp7uN8uTXZHu4pUiXSmGkggSViA4nQ'
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id:id:
+role_v2: id:
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 1182
 ht-degree: 60%
@@ -30,7 +24,7 @@ ht-degree: 60%
 
 顧客属性データをCX Enterpriseにアップロードするためのデータファイル要件と複数のデータソース。
 
-企業内の CRM データや同様のデータにアクセスする必要があります。 CX Enterpriseにアップロードするデータは、`.csv` ファイルである必要があります。 FTP や sFTP を利用してアップロードする場合は、`.fin` ファイルもアップロードします。
+企業内の CRM データや同様のデータにアクセスする必要があります。 CX Enterpriseにアップロードするデータは`.csv` ファイルである必要があります。 FTP や sFTP を利用してアップロードする場合は、`.fin` ファイルもアップロードします。
 
 [!DNL Customer Attributes]は、1日に数個のファイルを処理するように設計されています。 小さなファイルを多数処理することで発生する処理の遅延を軽減するために、同じ組織から以前のバッチ後 30 分以内に送信されたファイルは、優先順位の低いキューにルーティングされます。
 
@@ -70,7 +64,7 @@ CSV ファイルは次の形式に準拠する必要があります。
   </tr> 
   <tr> 
    <td colname="col1"> <p>顧客ID列 </p> </td> 
-   <td colname="col2"> <p> 1 列目は一意の顧客 ID でなければなりません。 使用するIDは、CX Enterprise ID サービスに渡されるIDに対応する必要があります。 </p> <p>Analytics の場合は、prop または eVar に格納されている ID です。 </p> <p>Targetの場合は、setcustomerID値。 </p> <p> この顧客 ID は、データベース内の各ユーザーを表すために CRM で使用する一意の ID です。 残りの列は CRM から取得される属性です。 アップロードする属性の数を選択します。 </p> <p>列の見出しには読みやすく、わかりやすい名前を使用することが推奨されますが、必須ではありません。 アップロード後におこなうスキーマの検証の際に、アップロードされた行と列にわかりやすい名前をマッピングできます。 </p> <p> <b>顧客IDについて</b> </p> <p>通常、企業は、CRM システムからの顧客 ID を使用します。 このIDは、ユーザーがログインしたときに<span class="codeph"> setcustomerID </span>呼び出しを使用して設定されます。 このIDは、CX EnterpriseにアップロードされるCRM ファイルのキーとしても使用されます。 <a href="t-crs-usecase.md" format="dita" scope="local">エイリアス ID</a> は、エイリアスデータが格納される Audience Manager のデータストアの識別子です。 システムは、このデータストアに（setcustomerIDを介して）エイリアスを送信します。 CRM ファイルは、このデータストアのデータに適用されます。 </p> <p><span class="codeph">個のsetcustomerID </span>について詳しくは、<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja" format="https" scope="external">個の顧客IDと認証状態</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> 1 列目は一意の顧客 ID でなければなりません。 使用されるIDは、CX Enterprise ID サービスに渡されるIDに対応する必要があります。 </p> <p>Analytics の場合は、prop または eVar に格納されている ID です。 </p> <p>Targetの場合は、setcustomerID値。 </p> <p> この顧客 ID は、データベース内の各ユーザーを表すために CRM で使用する一意の ID です。 残りの列は CRM から取得される属性です。 アップロードする属性の数を選択します。 </p> <p>列の見出しには読みやすく、わかりやすい名前を使用することが推奨されますが、必須ではありません。 アップロード後におこなうスキーマの検証の際に、アップロードされた行と列にわかりやすい名前をマッピングできます。 </p> <p> <b>顧客IDについて</b> </p> <p>通常、企業は、CRM システムからの顧客 ID を使用します。 このIDは、ユーザーがログインしたときに<span class="codeph"> setcustomerID </span>呼び出しを使用して設定されます。 このIDは、CX EnterpriseにアップロードされるCRM ファイルのキーとしても使用されます。 <a href="t-crs-usecase.md" format="dita" scope="local">エイリアス ID</a> は、エイリアスデータが格納される Audience Manager のデータストアの識別子です。 システムは、このデータストアに（setcustomerIDを介して）エイリアスを送信します。 CRM ファイルは、このデータストアのデータに適用されます。 </p> <p><span class="codeph">個のsetcustomerID </span>について詳しくは、<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja" format="https" scope="external">個の顧客IDと認証状態</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2 列目以降のヘッダーと列 </p> </td> 
@@ -78,7 +72,7 @@ CSV ファイルは次の形式に準拠する必要があります。
   </tr> 
   <tr> 
    <td colname="col1"> <p>属性の制限 </p> </td> 
-   <td colname="col2"> <p>数百の<span class="filepath"> .csv </span>列をCX Enterpriseの顧客属性サービスにアップロードできます。 ただし、サブスクリプションを設定して属性を選択する場合、所有するアプリケーションに応じて、次の制限が適用されます。 </p> <p> 
+   <td colname="col2"> <p>CX Enterpriseの顧客属性サービスには、何百もの<span class="filepath"> .csv </span>列をアップロードできます。 ただし、サブスクリプションを設定して属性を選択する場合、所有するアプリケーションに応じて、次の制限が適用されます。 </p> <p> 
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
       <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard：</b>合計 3 件 </li> 
       <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium：</b>レポートスイートあたり 200 件 </li> 
@@ -122,7 +116,7 @@ CSV ファイルは次の形式に準拠する必要があります。
   </tr> 
    <tr> 
    <td colname="col1"> <p>履歴データ </p> </td> 
-   <td colname="col2"> <p> 顧客属性は、[!DNL Analytics]の基になる訪問者プロファイルに関連付けられます。 このように、[!DNL Customer Attributes]は[!DNL Analytics]の訪問者プロファイルの全期間にわたって訪問者に関連付けられます。 このプロファイルには、顧客が最初にログインする前の行動が含まれます。 </p> <p> Data Warehouse のバックフィル手法を使用している場合、データは Analytics ID（AID）に基づく post_visid_high/low に関連付けられます。 CX Enterprise ID サービスを使用している場合、データはCX Enterprise ID （MID）に基づくpost_visid_high/lowに関連付けられます。 </p> <p> Data Warehouseのバックフィル方式は、2022年10月からは使用できなくなります。 </td> 
+   <td colname="col2"> <p> 顧客属性は、[!DNL Analytics]の基になる訪問者プロファイルに関連付けられます。 このように、[!DNL Customer Attributes]は[!DNL Analytics]の訪問者プロファイルの全期間にわたって訪問者に関連付けられます。 このプロファイルには、顧客が最初にログインする前の行動が含まれます。 </p> <p> Data Warehouse のバックフィル手法を使用している場合、データは Analytics ID（AID）に基づく post_visid_high/low に関連付けられます。 CX Enterprise ID サービスを使用している場合、データはCX Enterprise ID（MID）に基づくpost_visid_high/lowに関連付けられます。 </p> <p> Data Warehouseのバックフィル方式は、2022年10月からは使用できなくなります。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>データフィード </p> </td> 

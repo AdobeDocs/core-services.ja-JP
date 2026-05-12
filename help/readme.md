@@ -1,10 +1,13 @@
 ---
 title: 手順
-description: 説明の readme ファイル
-source-git-commit: 7392d95436664364e32f3e78f2ea3292ce8fb7e9
+description: 命令のreadme ファイル
+TQID: 'https://experienceleague.adobe.com/z4MJRrCMhJAxqPEaXTxwdamuNb1WPgbJyhHV-A5SHx4'
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 98%
+source-wordcount: 342
+ht-degree: 97%
 
 ---
 
@@ -26,11 +29,11 @@ ht-degree: 98%
    + トピックが *Implementation* という名前のガイドにある場合、対応するディレクトリは `/implementation` となります。
 + すべての画像アセットは、ユーザーガイドのルートにある `/assets` に保存されます。
    + `/assets` ディレクトリ内の画像はすべてローカライズされます。
-   + `/no-localize` ディレクトリ内の画像はローカライズされません。特定のアセットが必要以上に再現されないように、loc バージョンで使用できます。
+   + `/no-localize` ディレクトリ内の画像はローカライズされません。 特定のアセットが必要以上に再現されないように、loc バージョンで使用できます。
 
 ## ユーザーガイドレベルのメタデータ
 
-+ ユーザーガイドを説明するメタデータは、`TOC.md` に保存されています。これには以下が含まれます。
++ ユーザーガイドを説明するメタデータは、`TOC.md` に保存されています。 これには以下が含まれます。
    + product - 製品／機能の名前。
    + cloud - この製品が属するクラウド。
    + audience - ガイドをターゲットとするオーディエンスまたはアーキタイプ。
@@ -38,7 +41,7 @@ ht-degree: 98%
 
 ## ページレベルのメタデータ
 
-+ ドキュメントを記述するために必要なメタデータは、個々のページの一部として保存されます。これには以下が含まれます。
++ ドキュメントを記述するために必要なメタデータは、個々のページの一部として保存されます。 これには以下が含まれます。
    + title - ページのタイトル。
    + description - ページの説明。
    + seo-title - seo 代替タイトル。

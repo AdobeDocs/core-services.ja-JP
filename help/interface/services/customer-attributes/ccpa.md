@@ -6,15 +6,11 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-TQID: https://experienceleague.adobe.com/YPl1rlZRciwN6GM7mtkqMKjPsW-H1ueMG4zqbH8auho
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+TQID: 'https://experienceleague.adobe.com/fYyNdzAck5ZfOW3hvh-5ABflyHBvBAm5M2jlz-3ynTI'
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id:
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 402
 ht-degree: 52%
@@ -31,9 +27,9 @@ ht-degree: 52%
 
 CCPAは、2020年1月1日に施行されるカリフォルニア州の新しいプライバシー法です。 CCPA は、カリフォルニア州の住民に対して個人情報に関する新しい権利を提供し、カリフォルニア州で事業をおこなう特定の法人に対してはデータ保護の責任を課します。 CCPAは、消費者が自身の個人情報にアクセスして削除する権利と、個人情報を第三者に「販売」すると認定される特定の活動をオプトアウトする権利を提供します。
 
-企業は、Adobe CX Enterpriseが処理および保存する個人データを自身の代わりに決定します。
+企業は、Adobe CX Enterpriseが代理で処理および保存する個人データを決定します。
 
-Adobe CX Enterpriseは、サービスプロバイダーとして、CX Enterpriseの製品とサービスの使用に適用されるCCPAに基づく義務を果たすためのサポートを提供します。 このサポートには、個人情報へのアクセスおよび削除要求の管理が含まれます。
+お客様のサービスプロバイダーとして、Adobe CX Enterpriseは、CX Enterprise製品およびサービスの使用に適用されるCCPAに基づく義務を果たすため、お客様のビジネスをサポートします。 このサポートには、個人情報へのアクセスおよび削除要求の管理が含まれます。
 
 このドキュメントでは、[!DNL Customer Attributes]がAdobe Experience Platform Privacy Service APIとPrivacy Service UIを使用して、データ主体のCCPA データへのアクセス権と削除権をどのようにサポートしているかを説明します。
 

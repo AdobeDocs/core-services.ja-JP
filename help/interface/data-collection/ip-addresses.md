@@ -2,23 +2,18 @@
 title: EXPERIENCE CLOUDで使用されるIP アドレス
 description: 組織のファイアウォールがAdobeから送信されたIP アドレスをブロックする場合は、このリストを使用してファイアウォールの設定を更新します。
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-TQID: https://experienceleague.adobe.com/EPoerIJdL9FVBFB32WRB9zBMdXJarSu90hJIsn7Vpps
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+TQID: 'https://experienceleague.adobe.com/mLKbBo-fy-T6uGfx9kmGdosB0Syk-5poT87s3ps-B00'
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id:id:
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 426
 ht-degree: 9%
 
 ---
 
-# CX ENTERPRISEで使用されるIP アドレス
+# CX Enterpriseが使用するIP アドレス
 
 一部のファイアウォール設定では、Adobeのデータ収集サーバーまたはデータへのアクセスを担当するサーバーからのIP アドレスをブロックします。 この範囲リストを使用して、組織のファイアウォール設定を変更し、アクセスを許可したり、組織内からデータを送信したりできます。 このページには、Adobeが使用するインバウンドシステム（データ収集など）とアウトバウンドシステム（Adobe Analyticsのデータフィードなど）の両方が含まれます。
 
@@ -28,10 +23,10 @@ ht-degree: 9%
 
 以下に示すIP アドレスブロックに加えて、個々のAdobe CX Enterprise製品には、使用する独自のIP アドレスがあります。
 
-* [Adobe Analytics](https://experienceleague.adobe.com/ja/docs/analytics/technotes/ip-addresses)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/technotes/ip-addresses)
-* [Marketo Engage](https://experienceleague.adobe.com/ja/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
-* [Adobe Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
 
 ## すべてのAdobe IP アドレスブロック
 
@@ -54,7 +49,7 @@ ht-degree: 9%
 組織が特定のIP アドレス範囲を許可することを好む場合は、次の表を参照できます。 次のものがあります。
 
 * すべてのCX Enterprise製品のデータ収集サーバー
-* すべてのCX Enterprise製品のFTP サーバー
+* すべてのCX エンタープライズ製品のFTP サーバー
 
 このセクションのすべてのIP範囲は、上記の表に含まれています。
 
@@ -92,7 +87,7 @@ ht-degree: 9%
 
 {style="table-layout:auto"}
 
-Adobe CX Enterpriseは、限られた容量のIPv6もサポートしています。 これらのIP ブロックは、上記のIPv4と同様のデータ収集の目的を果たしますが、FTPは含まれていません。
+Adobe CX Enterpriseは、限られたキャパシティのIPv6もサポートしています。 これらのIP ブロックは、上記のIPv4と同様のデータ収集の目的を果たしますが、FTPは含まれていません。
 
 | ロケーション | ホスト |
 | --- | --- |
