@@ -9,12 +9,16 @@ role: Admin
 level: Beginner
 exl-id: 70586f18-6f84-4308-bab3-1da7fab823d6
 TQID: 'https://experienceleague.adobe.com/gMxoCIKGEqZIN-DwgvSVfh36iiYLFqB58dRBfsgamBc'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 subfeature_v2: id:id:
 role_v2: id:
 level_v2: id:
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 639
@@ -49,7 +53,7 @@ ht-degree: 84%
 一致率
 完全に一致するものがあるかどうかを確認します
 
-CX Enterprise](../assets/unified-search-results.png)の![[!UICONTROL Unified Search]
+CX Enterprise![&#128279;](../assets/unified-search-results.png)の[!UICONTROL Unified Search]
 
 検索可能なビジネスオブジェクトには、次のものが含まれます。
 
@@ -68,16 +72,16 @@ CX Enterprise](../assets/unified-search-results.png)の![[!UICONTROL Unified Sea
 
 ヘルプ記事は、Experience League と Communities からも確認できます。 自然言語のクエリがサポートされています。
 
-例えば、_How to create a schema_&#x200B;は、_[!UICONTROL Learning]_の下のExperience Leagueから結果を生成します。
+例えば、_How to create a schema_&#x200B;は、_[!UICONTROL Learning]_&#x200B;の下のExperience Leagueから結果を生成します。
 
-CX エンタープライズ ヘルプ ](../assets/unified-search-learning.png)の![[!UICONTROL Unified Search]
+CX エンタープライズ ヘルプ ![&#128279;](../assets/unified-search-learning.png)の[!UICONTROL Unified Search]
 
 検索アルゴリズムは、最も関連性の高いレコードを最初に表示します。 結果の順序は、次のような複数の要因によって異なります。
 
 * オブジェクトにアクセスするためのユーザー権限
 * 一致率
 * 完全一致
-* _[!UICONTROL Top Results]_セクションには、上位30件の結果が表示されます。
+* _[!UICONTROL Top Results]_&#x200B;セクションには、上位30件の結果が表示されます。
 
 検索を絞り込むには、次のいずれかをクリックします。
 

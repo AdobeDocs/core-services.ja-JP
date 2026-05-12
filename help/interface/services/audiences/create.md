@@ -9,11 +9,18 @@ role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
 TQID: 'https://experienceleague.adobe.com/-zJW08nRR0XHxI8ink2lZt-R44irL2pMyWdqHsZQoUg'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 subfeature_v2: id:id:
 role_v2: id:
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 515
@@ -50,9 +57,9 @@ ht-degree: 60%
 
 **オーディエンスを作成するには、以下を実行します。**
 
-1. [!DNL CX Enterprise]個のアプリ （![個のアプリアイコン ](assets/apps-icon.png)）をクリックし、**[!UICONTROL People]** > **[!UICONTROL Audience Library]をクリックします。**
+1. [!DNL CX Enterprise]個のアプリ （![個のアプリアイコン &#x200B;](assets/apps-icon.png)）をクリックし、**[!UICONTROL People]** > **[!UICONTROL Audience Library]をクリックします。**
 
-1. [!UICONTROL Audiences] ページで、**[!UICONTROL New]**&#x200B;をクリックします。 ![新しいオーディエンス ](assets/add_icon_small.png)
+1. [!UICONTROL Audiences] ページで、**[!UICONTROL New]**&#x200B;をクリックします。 ![新しいオーディエンス &#x200B;](assets/add_icon_small.png)
 
    ![オーディエンスの作成](assets/audience_create_new.png)
 
@@ -96,11 +103,11 @@ ht-degree: 60%
 
 このルールの結果として得られるのは、Home &amp; Garden を訪問した Chrome および Safari ユーザーで構成される、定義されたオーディエンスです。 「Patio &amp; Furniture」セグメントにより、このサイトセクションに訪問するすべての訪問者に対する追加のインサイトが得られます。
 
-![CX Enterpriseで定義されたオーディエンス ](assets/defined_audience.png)
+![CX Enterpriseで定義されたオーディエンス &#x200B;](assets/defined_audience.png)
 
 * **履歴による予測：**（点線の円）[!DNL Analytics] データに基づいて作成されたルールを表しています。
 * **実際のオーディエンス：**（実線の円）Audience Manager からの 30 日間のデータで作成されたルールです。 Audience Manager データが 30 日に達すると、線が実線になり、実際の数を表します。
 
 特定期間のデータ収集が終了すると、円は結合されて、定義されたオーディエンスを表示します。
 
-オーディエンスが保存されると、他のCX Enterprise アプリケーションで使用できるようになります。 例えば、Adobe Target [ アクティビティ ](https://experienceleague.adobe.com/en/docs/target/using/activities/activities)に共有オーディエンスを含めることができます。
+オーディエンスが保存されると、他のCX Enterprise アプリケーションで使用できるようになります。 例えば、Adobe Target [&#x200B; アクティビティ &#x200B;](https://experienceleague.adobe.com/en/docs/target/using/activities/activities)に共有オーディエンスを含めることができます。

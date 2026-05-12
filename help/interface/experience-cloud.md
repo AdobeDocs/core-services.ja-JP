@@ -8,9 +8,12 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 TQID: 'https://experienceleague.adobe.com/abkUuVeMwvEfGzXNvFGtEwJwim8AAEqD8PWWONdp64s'
-product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+product_v2:
+  - id: e1971122-7081-4556-9222-8a31bd71800c
 role_v2: id:
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 579
@@ -58,9 +61,9 @@ CX Enterprise ヘッダーから、次の操作を実行できます。
 
 CX Enterpriseにログインすると、統合ヘッダーからすべてのアプリケーション、サービス、組織にすばやくアクセスできます。
 
-組織内でプロビジョニングされたCX エンタープライズ アプリケーションおよびサービスにアクセスするには、アプリケーション セレクター![ メニュー](assets/apps-icon.png)に移動します。
+組織内でプロビジョニングされたCX エンタープライズ アプリケーションおよびサービスにアクセスするには、アプリケーション セレクター![&#x200B; メニュー](assets/apps-icon.png)に移動します。
 
-![CX エンタープライズ アプリケーションへのアクセス ](assets/platform-core-services.png)
+![CX エンタープライズ アプリケーションへのアクセス &#x200B;](assets/platform-core-services.png)
 
 ## お問い合わせとサポート
 

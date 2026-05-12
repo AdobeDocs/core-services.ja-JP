@@ -9,8 +9,12 @@ level: Experienced
 hide: true
 hidefromtoc: 'yes'
 TQID: 'https://experienceleague.adobe.com/21m3iDart0n7174J53mZHsFznsi3nserYSpBW1LlIng'
-product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2:
+  - id: e1971122-7081-4556-9222-8a31bd71800c
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 195
@@ -25,9 +29,9 @@ ht-degree: 41%
 このドキュメントは、[!DNL People] サービス （[!DNL Audience Library]および[!DNL Customer Attributes]）、CX Enterpriseのユーザーおよび製品管理、Cookie、アカウント設定、通知など、CX Enterpriseの統合ヘッダーの機能に適用されます。
 
 CX Enterpriseでこれらのサービスにアクセスするには、 **[!UICONTROL Application Selector]**
-![ サービスセレクター](../assets/apps-icon.png)。
+![&#x200B; サービスセレクター](../assets/apps-icon.png)。
 
-![CX エンタープライズ サービス ](../assets/platform-core-services.png)
+![CX エンタープライズ サービス &#x200B;](../assets/platform-core-services.png)
 
 このヘルプでは、次の製品およびサービスについて説明します。
 
