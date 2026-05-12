@@ -29,9 +29,9 @@ ht-degree: 17%
 >
 >この記事に記載されている情報は、[[!DNL Target] at.js JavaScript ライブラリ &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=ja){target=_blank}にのみ適用されます。
 >
->[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja){target=_blank}を使用する[!DNL Target]実装で使用されるCookieについて詳しくは、「[!DNL Adobe Experience Platform Web SDK]はCookieを使用しますか？」を参照してください。 その場合、どのクッキーを使用しますか？」 dnl Platform Web SDKの概要ガイド [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html){target=_blank}のよくある質問をご覧ください。
+>[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja){target=_blank}を使用する[!DNL Target]実装で使用されるCookieについて詳しくは、「[!DNL Adobe Experience Platform Web SDK]はCookieを使用しますか？」を参照してください。 その場合、どのクッキーを使用しますか？」 dnl Platform Web SDKの概要ガイド [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=ja){target=_blank}のよくある質問をご覧ください。
 >
->Cookieの期間を除き、必要に応じてこの記事で説明する設定を変更できます。 Cookie設定を変更する場合は、[&#x200B; アカウント担当者](https://experienceleague.adobe.com/docs/target/using/cmp-resources-and-contact-information.html){target=_blank}にご相談ください。
+>Cookieの期間を除き、必要に応じてこの記事で説明する設定を変更できます。 Cookie設定を変更する場合は、[&#x200B; アカウント担当者](https://experienceleague.adobe.com/docs/target/using/cmp-resources-and-contact-information.html?lang=ja){target=_blank}にご相談ください。
 >
 >[!DNL Target]人のユーザーは、カスタマイズされたサードパーティ Cookieを作成することもできます。
 
