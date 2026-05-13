@@ -1,5 +1,5 @@
 ---
-description: 電子メール、CX Enterprise製品、Experience League Communities内で、使用状況データに基づいてパーソナライズされたヘルプやプロモーションを受け取ることができます。
+description: 電子メール、CX エンタープライズ製品、利用状況データにもとづいてExperience League Communities内で、パーソナライズされたヘルプとプロモーションを受け取ることができます。
 solution: Experience Cloud
 title: Experience Cloud のパーソナライズされたラーニング環境設定
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 105
 ht-degree: 20%
@@ -25,7 +25,7 @@ ht-degree: 20%
 
 # パーソナライズされた学習設定
 
-Adobeでは、Adobe製品での作業に基づいてカスタマイズされた有益なコンテンツを提供します。 このコンテキストを調整する方法は、製品使用データに基づいています。 [CX Enterpriseの環境設定](https://experience.adobe.com/preferences) ページで、製品使用状況データの共有をオプトインまたはオプトアウトできます。
+Adobeでは、Adobe製品での作業に基づいてカスタマイズされた有益なコンテンツを提供します。 このコンテキストを調整する方法は、製品使用データに基づいています。 [CX エンタープライズ環境設定](https://experience.adobe.com/preferences) ページで、製品使用状況データの共有をオプトインまたはオプトアウトできます。
 
 <!--
 ## Personalized training and support recommendations for your Adobe products and services

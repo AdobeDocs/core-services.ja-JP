@@ -1,15 +1,15 @@
 ---
 title: エージェントのジョブとAI クレジット消費
-description: CX Enterprise アプリケーションのエージェントのジョブとAI クレジットの使用率について説明します。
+description: CX Enterprise アプリケーションでのエージェントジョブと AI クレジット消費率について説明します。
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: '1055'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 3%
 
 更新日：**2026年3月5日**
 
-CX Enterpriseアプリケーションにおけるエージェント型AIのジョブとAI クレジットの使用について説明します。 既存のCX Enterprise アプリケーションでAgentic AI機能を有効にする方法について詳しくは、[CX EnterpriseのAgentic AI](agentic-ai.md#existing-apps)を参照してください。
+CX エンタープライズアプリケーションにおけるエージェント型AIのジョブとAI クレジット消費について説明します。 既存のCX Enterprise アプリケーションでAgentic AI機能を有効にする方法について詳しくは、[CX EnterpriseでのAgentic AI](agentic-ai.md#existing-apps)を参照してください。
 
 ## エージェントジョブ
 
 _エージェントジョブ_&#x200B;は、顧客の入力によって指示されるように、エージェントが特定の結果を達成するために実行する一連のタスクとアクションです。
 
-AI アシスタントによる自然言語プロンプトを使用し、エージェントに特定のジョブの実行を依頼できます。 これらの入力にもとづいて、Agent Orchestratorは適切な担当者を調整し、関連するCX Enterpriseアプリケーション内で各ステップを実行します。
+AI アシスタントによる自然言語プロンプトを使用し、エージェントに特定のジョブの実行を依頼できます。 これらのデータに基づいて、Agent Orchestratorは適切な担当者を調整し、関連するCX Enterprise アプリケーション内の各ステップを実行します。
 
 ## AI クレジット
 
@@ -65,6 +65,6 @@ AIによるクレジットの使用状況は、実行されるジョブの複雑
 
 ## このトピックの詳細ヘルプ
 
-* [CX Enterpriseの生成AI](/help/interface/features/generative-ai.md)
-* [CX EnterpriseのAgentic AI](/help/interface/features/agentic-ai.md)
+* [CX エンタープライズにおける生成AI](/help/interface/features/generative-ai.md)
+* [CX エンタープライズにおけるAgentic AI](/help/interface/features/agentic-ai.md)
 * [Adobe Experience Platform Agents利用制限トライアル](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)

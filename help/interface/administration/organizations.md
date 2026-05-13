@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 585
 ht-degree: 33%
@@ -32,9 +32,9 @@ ht-degree: 33%
 
 *組織* （組織ID）は、管理者がグループとユーザーを設定し、CX Enterpriseでのシングルサインオンを制御できるようにするエンティティです。
 
-同社は、あらゆるCX Enterprise製品とアプリケーションに対応するログイン企業のような役割を果たします。 ほとんどの場合、組織は勤務先の会社名です。 ただし、1 つの会社が多くの組織を持つことができます。
+CXMは、あらゆるCX エンタープライズ製品とアプリケーションに対応するログイン企業のような役割を果たします。 ほとんどの場合、組織は勤務先の会社名です。 ただし、1 つの会社が多くの組織を持つことができます。
 
-![CX Enterprise組織](../assets/organizations-menu.png)
+![CX エンタープライズ組織](../assets/organizations-menu.png)
 
 正しい組織にログインしていることを確認するには、**[!UICONTROL Profile]**&#x200B;をクリックしてデフォルトの組織名を表示します。 複数の組織にアクセスできる場合は、ヘッダーバーで別の組織を表示して切り替えることもできます。
 
@@ -44,7 +44,7 @@ ht-degree: 33%
 
 ## Federated ID
 
-組織でFederated IDを使用している場合は、CX Enterpriseを使用すると、メールアドレスとパスワードを入力しなくても、組織のシングルサインオンでログインできます。 CX Enterprise URL （`https://experience.adobe.com`）に`#/sso:@domain`を追加して、このタスクを実行します。
+組織でFederated IDを使用している場合は、電子メールアドレスとパスワードを入力しなくても、組織のシングルサインオンでログインできます。 CX エンタープライズ URL （`https://experience.adobe.com`）に`#/sso:@domain`を追加して、このタスクを実行します。
 
 例えば、Federated ID を持ち、ドメインが `example.com` の組織の場合、URL リンクを `https://experience.adobe.com/#/sso:@example.com` に設定します。 また、この URL にアプリケーションパスを付けてブックマークに追加することで、特定のアプリケーションに直接移動することもできます。 （例えば、Adobe Analytics の場合は `https://experience.adobe.com/#/sso:@example.com/analytics`。）
 
@@ -76,7 +76,7 @@ ht-degree: 33%
 
 ## アプリケーションアカウントを Adobe ID にリンクする
 
-通常、CX Enterprise管理者はアプリケーションとサービスへのアクセス権を付与します。 まれに、アプリケーションの資格情報をAdobe IDにリンクできます。
+通常、CX エンタープライズ管理者は、アプリケーションとサービスへのアクセス権を付与します。 まれに、アプリケーションの資格情報をAdobe IDにリンクできます。
 
 1. CX Enterpriseへのメール招待状の手順に従います。
 

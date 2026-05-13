@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 320
 ht-degree: 69%
@@ -35,7 +35,7 @@ CX Enterprise Assetsは、アプリケーション間で共有できる、マー
 アセットサービスには次のものが含まれます。
 
 * アセットストレージ、管理インターフェイス、（アプリケーション経由でアクセスする）組み込みの選択インターフェイス。
-* Creative Cloud、CX Enterprise collaboration、CX Enterpriseアプリケーションとの統合。
+* Creative Cloud、CX Enterprise Collaboration、CX Enterprise アプリケーションとの統合。
 
 アセットを使用すると、一貫性とブランドコンプライアンスが向上し、市場投入までの時間が短縮されます。 アプリケーションのワークフローを効率化できます。
 
@@ -44,7 +44,7 @@ CX Enterprise Assetsは、アプリケーション間で共有できる、マー
 * **[!DNL Adobe Campaign]**：アセットを電子メールニュースレターとキャンペーンに配置します。
 
 
-## CX Enterprise Assetsへの移動
+## CX Enterprise Assetsに移動します
 
 ![CX Enterprise Assetsに移動](../../assets/asset-nav.png)
 

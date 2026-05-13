@@ -1,6 +1,6 @@
 ---
 title: アカウントの環境設定と通知
-description: CX Enterpriseのユーザープロファイル、アカウント設定、製品使用状況データの詳細をご確認ください。 メールおよび [!DNL Slack]の製品通知を購読し、製品アラートを設定します。
+description: CX Enterpriseのユーザープロファイル、アカウント設定、製品使用データについて説明します。 メールおよび [!DNL Slack]の製品通知を購読し、製品アラートを設定します。
 solution: Experience Cloud
 feature: Account Preferences, Notifications, Alerts
 topic: Administration
@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 802
 ht-degree: 5%
@@ -36,7 +36,7 @@ ht-degree: 5%
 
 # アカウントの環境設定と通知
 
-CX Enterpriseの環境設定を検索するには、ヘッダーの「**[!UICONTROL Profile]** ![環境設定](../assets/preferences-icon-sm.png)」をクリックし、「**[!UICONTROL Preferences]**」をクリックします。
+CX エンタープライズ環境設定を検索するには、ヘッダーの&#x200B;**[!UICONTROL Profile]** ![環境設定](../assets/preferences-icon-sm.png)をクリックし、**[!UICONTROL Preferences]**&#x200B;をクリックします。
 
 ![環境設定](../assets/preferences-navigation.png){width="100" zoomable="yes"}
 
@@ -54,7 +54,7 @@ CX Enterpriseの環境設定を検索するには、ヘッダーの「**[!UICONT
 Adobeとの間で共有する製品使用状況データには、Adobe アプリケーションの使用と操作に関する次の種類の情報が含まれます。
 
 * デバイスモデルとオペレーティングシステム、ソフトウェアとハードウェア情報、ブラウザーとデバイスの設定、一意の識別子（IP アドレス、Cookie ID、デバイス IDなど）、インストールされたメモリ量、言語設定、画面解像度などのブラウザーとデバイス情報。
-* 使用する機能や選択したオプションなど、Adobe CX Enterprise アプリの操作方法。
+* 使用する機能や選択したオプションなど、Adobe CX エンタープライズアプリの利用方法。
 * Adobe製品情報（バージョン番号など）
 * ページ数や一意のIDなど、コンテンツとドキュメントに関する情報。コンテンツ自体は含まれません。
 * コンテンツへのアクセス回数や、アプリ内でのコンテンツの利用方法など、コンテンツの利用情報。
@@ -66,7 +66,7 @@ Adobeでは、この情報を当社の製品向上に役立て、製品内およ
 
 購読したい商品やカテゴリーを選択できます。 通知は、[!UICONTROL Notifications] ポップオーバー（アプリ内）、メール、または[Slack](#slack-notifications)に表示されます（サブスクリプションによって異なります）。
 
-電子メールとSlackの通知は、CX Enterpriseにログインしていない場合に役立ちます。
+メールおよびSlackの通知は、CX Enterpriseにログインしていない場合に役立ちます。
 
 ### アプリ内およびメール通知の購読
 
@@ -78,7 +78,7 @@ Adobeでは、この情報を当社の製品向上に役立て、製品内およ
 
 ### [!DNL Slack]通知を購読
 
-CX Enterprise通知を[!DNL Slack] チャネルに送信するようにアカウント設定を行うことができます。
+CX エンタープライズ通知を[!DNL Slack] チャネルに送信するように、アカウント設定を設定できます。
 
 **前提条件**
 
@@ -88,7 +88,7 @@ CX Enterprise通知を[!DNL Slack] チャネルに送信するようにアカウ
 
 **通知[!DNL Slack]を購読するには**
 
-1. CX Enterprise [環境設定](https://experience.adobe.com/preferences)に移動します。
+1. CX Enterprise [Preferences](https://experience.adobe.com/preferences)に移動します。
 
 1. [!DNL Slack]を探し、**[!UICONTROL Add to Slack]**&#x200B;をクリックします。
 
@@ -118,7 +118,7 @@ CX Enterprise通知を[!DNL Slack] チャネルに送信するようにアカウ
 
 1. 申請リクエストが承認されると、[!DNL Slack]に通知が届きます。
 
-1. [!DNL Slack]の承認を受けた後、CX Enterprise **[!UICONTROL Notifications]**&#x200B;に戻り、手順に従って[Slack &#x200B;](#slack-notifications)を購入します（前述）。
+1. [!DNL Slack]の承認を受けた後、CX Enterprise **[!UICONTROL Notifications]**&#x200B;に戻り、手順に従って[Slack](#slack-notifications)を購入します（上記）。
 
 ### [!DNL Slack]に表示される内容
 
@@ -127,7 +127,7 @@ CX Enterprise通知を[!DNL Slack] チャネルに送信するようにアカウ
 * 個人用メッセージは、アプリケーション名&#x200B;_Adobe[!DNL CX Enterprise]_&#x200B;から受信されます。
 * メッセージには、Adobe [!DNL Experience Platform]、Adobe [!DNL Experience Manager]など、特定のアプリケーションの製品ロゴが含まれています。
 * CX Enterpriseのすべての通知を表示するリンク。
-* CX Enterpriseで通知の環境設定を管理するためのリンク。
+* CX Enterpriseの通知の環境設定を管理するためのリンク。
 
 ## CX Enterpriseでの[!UICONTROL notifications]と通知の表示
 

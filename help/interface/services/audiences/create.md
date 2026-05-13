@@ -22,7 +22,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 515
 ht-degree: 60%
@@ -71,7 +71,7 @@ ht-degree: 60%
 
      >[!NOTE]
      >
-     >キャッシュのため、Analyticsで削除されたレポートスイートは、CX Enterpriseで削除が表示されるまでに12時間を要します。
+     >Analyticsで削除されたレポートスイートは、キャッシュが原因で、CX Enterpriseに削除が表示されるまでに12時間かかる。
 
    * [!DNL CX Enterprise] ソースから派生した&#x200B;**[!UICONTROL CX Enterprise:]**&#x200B;属性データ。 例えば、[!DNL Analytics] で作成したオーディエンスセグメントからのデータや、[!DNL Audience Manager] からのデータです。
 
@@ -93,7 +93,7 @@ ht-degree: 60%
 
 *Chrome および Safari の訪問者*&#x200B;は、Analytics から共有されたオーディエンスセグメントです。
 
-* **[!UICONTROL Attribute Source:]** CX Enterprise
+* **[!UICONTROL Attribute Source:]** CX エンタープライズ
 * **[!UICONTROL Dimension:]**&#x200B;人のChromeとSafari訪問者
 
 ![Chrome および Safari の訪問者](assets/chrome_safari.png)
@@ -104,7 +104,7 @@ ht-degree: 60%
 
 このルールの結果として得られるのは、Home &amp; Garden を訪問した Chrome および Safari ユーザーで構成される、定義されたオーディエンスです。 「Patio &amp; Furniture」セグメントにより、このサイトセクションに訪問するすべての訪問者に対する追加のインサイトが得られます。
 
-![CX Enterpriseでオーディエンスを定義](assets/defined_audience.png)
+![CX Enterpriseで定義されたオーディエンス &#x200B;](assets/defined_audience.png)
 
 * **履歴による予測：**（点線の円）[!DNL Analytics] データに基づいて作成されたルールを表しています。
 * **実際のオーディエンス：**（実線の円）Audience Manager からの 30 日間のデータで作成されたルールです。 Audience Manager データが 30 日に達すると、線が実線になり、実際の数を表します。

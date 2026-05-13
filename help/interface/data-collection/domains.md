@@ -14,7 +14,7 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 129
 ht-degree: 15%
@@ -23,7 +23,7 @@ ht-degree: 15%
 
 # CX Enterpriseで使用されるドメイン
 
-CX Enterpriseでは、次のホストを使用して、アプリケーションの配信、パフォーマンスの向上、製品体験の向上を図ります。 Adobeでは、最適なエクスペリエンスを実現するために、組織のネットワークまたはファイアウォールを通じてこれらのドメインを許可することをお勧めします。
+CX Enterpriseでは、次のホストを使用して、アプリケーションの配信、パフォーマンスの向上、製品体験の向上を実現します。 Adobeでは、最適なエクスペリエンスを実現するために、組織のネットワークまたはファイアウォールを通じてこれらのドメインを許可することをお勧めします。
 
 以下に示すドメインに加えて、個々のAdobe CX Enterprise製品には、使用する独自のドメインがあります。
 

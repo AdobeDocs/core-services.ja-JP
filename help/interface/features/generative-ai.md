@@ -1,6 +1,6 @@
 ---
 title: Experience Cloudアプリケーションで利用できる生成AI
-description: CX EnterpriseアプリケーションのAIを活用した機能をどこで活用できるか、その概要をご確認ください。
+description: CX エンタープライズアプリケーションのAIを活用した機能をどこで活用できるか、概要ページをご覧ください。
 solution: Experience Cloud
 landing-page-name: ai
 landing-page-breadcrumb-title: AI Documentation
@@ -9,10 +9,12 @@ topic: Artificial Intelligence
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-TQID: https://experienceleague.adobe.com/7mRkCgAhCWLxUZHj6zGC698TZPEPeetFChWoRfx5iac
+autotag-review: '2026-05-11T23:21:25.443Z'
+TQID: 'https://experienceleague.adobe.com/c6o7NcoqRE6juwlyq-SbBk43i9JXNsi6UhXHJOPfPNE'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 feature_v2:
+  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
@@ -28,23 +30,27 @@ topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 24583e75dd85c719b8f9eb14a948f58d714c2aa6
 workflow-type: tm+mt
 source-wordcount: 3165
 ht-degree: 8%
 
 ---
 
-# CX Enterpriseの生成AI
+# CX エンタープライズにおける生成AI
 
-CX Enterpriseのジェネレーティブ AI （ジェネレーティブ AI）は、クリエイティブやコグニティブな作業を自動化し、生産性を向上させるのに役立ちます。 このページでは、CX Enterprise アプリケーションが生成AIとAI アシスタントをサポートする場所を理解するのに役立ち、これらの機能の詳細に関するリンクを提供します。
+CX Enterpriseの生成AI （genAI）は、クリエイティブや認知に関する作業を自動化し、生産性を向上させるのに役立ちます。 このページでは、CX エンタープライズ アプリケーションが生成AIとAI アシスタントをサポートする場所を理解するのに役立ち、これらの機能の詳細に関するリンクを提供します。
 
 >[!IMPORTANT]
 >
@@ -64,13 +70,13 @@ CX Enterpriseのジェネレーティブ AI （ジェネレーティブ AI）は
 
 [!UICONTROL AI Assistant]は、多くのCX Enterprise アプリケーションでサポートされている会話型の生成AI ツールです。 使用しているアプリケーションに応じて、_製品知識_&#x200B;と&#x200B;_運用上のインサイト_&#x200B;を素早く得るために使用します。
 
-* **製品情報：**&#x200B;製品情報とは、Experience LeagueのCX Enterprise製品ドキュメントに基づいたコンセプトとトピックを指します。 例えば、[目標ベースのプロンプト &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home)を使用して、Experience Platformについて素早く学習できます。 Experience Leagueからの回答はすべて検証可能で、リンクとともに引用されています。
+* **製品知識：**&#x200B;製品知識とは、Experience LeagueのCX Enterprise製品ドキュメントに基づく概念とトピックを指します。 例えば、[目標ベースのプロンプト &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home)を使用して、Experience Platformについて素早く学習できます。 Experience Leagueからの回答はすべて検証可能で、リンクとともに引用されています。
 
 * **運用上のインサイト：**&#x200B;例えば、Experience Platformの[運用上のインサイト &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/questions#objects-questions)は、メタデータオブジェクト（属性、オーディエンス、データフロー、データセットなど）に関して生成された応答を参照します。 [!UICONTROL AI Assistant]を使用すると、時間や数日かかっていた作業を数秒で完了できます。
 
 >[!NOTE]
 >
->多くのCX Enterprise アプリケーションでは、_AI アシスタント_&#x200B;を機能名として使用しています（以下を参照）。 ただし、この機能は、使用している特定のアプリケーションの情報のみを引き出します。 たとえば、AEMのAI アシスタントは、AEMの活用に役立つ関連情報を提供します。
+>多くのCX エンタープライズ版アプリケーションでは、機能名として&#x200B;_AI アシスタント_&#x200B;を使用しています（以下を参照）。 ただし、この機能は、使用している特定のアプリケーションの情報のみを引き出します。 たとえば、AEMのAI アシスタントは、AEMの活用に役立つ関連情報を提供します。
 
 [!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/landing" tooltip="AI アシスタントを見る"}
 
@@ -117,7 +123,7 @@ CX Enterpriseのジェネレーティブ AI （ジェネレーティブ AI）は
 | [Adobe Target](https://experienceleague.adobe.com/ja/docs/target/using/introduction/assistant-ai/ai-assistant) | 製品知識のためのAI アシスタント： | × |
 | [Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/ai-assistant/ai-assistant-overview) | アプリ内の情報や提案にAI アシスタントを活用します。 | ○ |
 
-**注：** [!DNL Experience Platform Agents]については、CX Enterpriseの[AI エージェント &#x200B;](agentic-ai.md)で説明しています。
+**注：** [!DNL Experience Platform Agents]については、CX Enterprise[&#128279;](agentic-ai.md)のAI エージェントに記載されています。
 
 ## CX Enterpriseで生成AIを使用するにはどうすればよいですか？
 
@@ -273,7 +279,7 @@ AJO _Prime_&#x200B;および&#x200B;_Ultimate_&#x200B;では、[content generati
 
 +++詳細
 
-Journey Optimizer B2B Editionでは、[!UICONTROL AI Assistant]を使用して製品情報を提供します。
+Journey Optimizer B2B editionでは、[!UICONTROL AI Assistant]を使用して製品情報の収集に役立てています。
 
 入力例：
 

@@ -21,7 +21,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 308
 ht-degree: 43%
@@ -50,7 +50,7 @@ ht-degree: 43%
 
    [!UICONTROL Edit Schema] ページでは、スキーマの各行が、アップロードされたCSV ファイルの列を表します。
 
-   ![CX Enterpriseでスキーマページを編集](assets/schema-edit.png)
+   ![CX Enterpriseのスキーマページを編集](assets/schema-edit.png)
 
 **アクション**
 
@@ -60,9 +60,9 @@ ht-degree: 43%
 
 * **[!UICONTROL FTP Setup:]** FTP アカウントを作成して[FTP](t-upload-attributes-ftp.md)経由でデータをアップロードします（オプション）。
 
-* **[!UICONTROL ID Lookup:]** `.csv`から顧客ID （CID）を入力して、IDのCX Enterprise情報を検索します。 この機能は、訪問者に対して属性データが表示されない理由をトラブルシューティングするのに役立ちます。
+* **[!UICONTROL ID Lookup:]** `.csv`から顧客ID （CID）を入力して、そのIDのCX Enterprise情報を検索します。 この機能は、訪問者に対して属性データが表示されない理由をトラブルシューティングするのに役立ちます。
 
-   * **[!UICONTROL ECID (CX Enterprise ID):]**&#x200B;最新のCX Enterprise ID サービスを使用している場合に表示されます。 MCID サービスを利用していても、ここにリストされているIDがない場合、CX EnterpriseはそのCIDのエイリアスを受け取っていません。 つまり、その訪問者がログインしていないか、実装がその ID を渡していません。
+   * **[!UICONTROL ECID (CX Enterprise ID):]**&#x200B;最新のCX Enterprise ID サービスを使用している場合に表示されます。 MCID サービスを利用していても、ここにリストされているIDがない場合、CX EnterpriseはそのCIDのエイリアスを受信していません。 つまり、その訪問者がログインしていないか、実装がその ID を渡していません。
 
    * **[!UICONTROL CID (customer ID):]**&#x200B;このCIDに関連付けられている属性。 prop または eVar を使用して CID（AVID）をアップロードし、属性は表示されるが AVID は表示されない場合は、訪問者がサイトにログインしていないことを意味します。
 

@@ -22,7 +22,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 639
 ht-degree: 84%
@@ -56,7 +56,7 @@ ht-degree: 84%
 一致率
 完全に一致するものがあるかどうかを確認します
 
-CX Enterpriseの![[!UICONTROL Unified Search]](../assets/unified-search-results.png)
+CX Enterprise![&#128279;](../assets/unified-search-results.png)の[!UICONTROL Unified Search]
 
 検索可能なビジネスオブジェクトには、次のものが含まれます。
 
@@ -77,7 +77,7 @@ CX Enterpriseの![[!UICONTROL Unified Search]](../assets/unified-search-results.
 
 例えば、_How to create a schema_&#x200B;は、_[!UICONTROL Learning]_&#x200B;の下のExperience Leagueから結果を生成します。
 
-CX Enterprise ヘルプ ![&#128279;](../assets/unified-search-learning.png)の[!UICONTROL Unified Search]
+CX エンタープライズ ヘルプ ![&#128279;](../assets/unified-search-learning.png)の[!UICONTROL Unified Search]
 
 検索アルゴリズムは、最も関連性の高いレコードを最初に表示します。 結果の順序は、次のような複数の要因によって異なります。
 

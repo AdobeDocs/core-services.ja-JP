@@ -1,5 +1,5 @@
 ---
-description: CX Enterprise Asset フォルダーをCreative Cloud ユーザーと共有する方法について説明します。
+description: CX Enterprise アセットフォルダーをCreative Cloud ユーザーと共有する方法について説明します。
 solution: Experience Cloud
 title: Experience Cloud Asset フォルダーの共有
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 451
 ht-degree: 39%
@@ -30,7 +30,7 @@ ht-degree: 39%
 
 # CX Enterprise アセットフォルダーの共有
 
-CX EnterpriseとCreative Cloud間でフォルダーとアセットを共有します。 共有アセットに注釈を付けて共同作業をおこない、Adobe TargetなどのCX Enterpriseアプリケーションで使用できます。 共有フォルダーはCX Enterpriseから作成する必要があります。
+CX EnterpriseとCreative Cloud間でフォルダーとアセットを共有します。 Adobe Adobe Targetなどの顧客体験管理システム向けアプリケーションでは、共有アセットの共同作業、注釈付け、使用できます。 共有フォルダーはCX Enterpriseから作成する必要があります。
 
 **共有の利点**
 
@@ -67,7 +67,7 @@ Creative Cloud ユーザーがアセットにアクセスする前に、CX Enter
 
    ![画像にコメントを追加](../../assets/asset_comment_cc.png)
 
-   CX Enterpriseで、画像を選択し、タイムラインアイコンを選択して画像にコメントを追加します。 コメントは、Creative CloudとCX Enterpriseのアセットで同期されます。
+   CX Enterpriseで、画像を選択してからタイムラインアイコンを選択し、画像にコメントを追加します。 コメントは、Creative CloudおよびCX Enterpriseのアセットで同期されます。
 
    ![画像にコメントを追加](../../assets/asset_comment_mac.png)
 

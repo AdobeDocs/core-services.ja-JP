@@ -8,14 +8,14 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 41%
 
 ---
 
-# CX Enterprise services {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
+# CX エンタープライズサービス {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
 例
 
@@ -24,7 +24,7 @@ ht-degree: 41%
 CX Enterpriseでこれらのサービスにアクセスするには、 **[!UICONTROL Application Selector]**
 ![&#x200B; サービスセレクター](../assets/apps-icon.png)。
 
-![CX Enterprise サービス &#x200B;](../assets/platform-core-services.png)
+![CX エンタープライズ サービス &#x200B;](../assets/platform-core-services.png)
 
 このヘルプでは、次の製品およびサービスについて説明します。
 
