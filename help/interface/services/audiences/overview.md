@@ -9,18 +9,13 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-TQID: 'https://experienceleague.adobe.com/OJzZ78fOe0VjKvuYToUHiXIGBFL6lbs4Xp5O3nZvLKM'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id:id:
-role_v2: id:
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
+TQID: https://experienceleague.adobe.com/QEAfCWPNI-JhDw-HjZwBGv0TlqyctIqSwz8eVQqS6Gg
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 745
 ht-degree: 48%
@@ -31,7 +26,7 @@ ht-degree: 48%
 
 [!DNL Audience Library]はCX Enterpriseのオーディエンスを表示します。 オーディエンスは、訪問者の集合（[!DNL CX Enterprise] ID のリスト）です。 ユーザーは、訪問者データからオーディエンスセグメントへの変換を管理できます。 このように、オーディエンスの作成と管理は、セグメントの作成と使用に似ています。 オーディエンスセグメントは、[!DNL CX Enterprise] の製品やサービスと共有することもできます。
 
-![CX エンタープライズ版オーディエンス &#x200B;](assets/audiences.png)
+![CX エンタープライズ版オーディエンス ](assets/audiences.png)
 
 オーディエンスは、次のような各種ソースから作成または取得できます。
 
@@ -80,7 +75,7 @@ ht-degree: 48%
 | 新規 | [オーディエンスを作成](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/audiences/create)します。 |
 | タイトルと説明 | オーディエンスを識別および説明する列見出し。 |
 | 作成者 | オーディエンスセグメントを作成したユーザー。 |
-| ソース | オーディエンスが作成された場所を示します。<ul><li>**Analytics:** Adobe Analyticsで作成されたセグメントは、CX Enterpriseに公開されます。</li><li>**CX Enterprise:** CX Enterprise Audiences[&#128279;](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/audiences/create)で新しいオーディエンス が作成されました。</li><li>Audience Managerを作成した&#x200B;**Audience Manager:**&#x200B;個のオーディエンスは、CX Enterprise Audiencesに自動的に表示されます。</li></ul> |
+| ソース | オーディエンスが作成された場所を示します。<ul><li>**Analytics:** Adobe Analyticsで作成されたセグメントは、CX Enterpriseに公開されます。</li><li>**CX Enterprise:** CX Enterprise Audiences](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/audiences/create)で新しいオーディエンス [が作成されました。</li><li>Audience Managerを作成した&#x200B;**Audience Manager:**&#x200B;個のオーディエンスは、CX Enterprise Audiencesに自動的に表示されます。</li></ul> |
 | 現在のサイズ | 現在のオーディエンスのサイズ。 |
 | アクティブ | セグメントのアクティブステータス。 |
 
@@ -88,4 +83,4 @@ ht-degree: 48%
 
 ## Adobe Analyticsからのオーディエンスの公開
 
-詳しくは、Adobe Analytics ドキュメントの「[CX Enterpriseへのセグメントの公開](https://experienceleague.adobe.com/ja/docs/analytics/components/segmentation/segmentation-workflow/seg-publish)」を参照してください。
+詳しくは、Adobe Analytics ドキュメントの「[CX Enterpriseへのセグメントの公開](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish)」を参照してください。

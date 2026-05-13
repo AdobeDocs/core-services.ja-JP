@@ -8,18 +8,13 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
-TQID: 'https://experienceleague.adobe.com/u4bE-pB3bbruDdnsJy-ZhXZT7kj20Od2Qg0fwVK242A'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id:id:
-role_v2: id:
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
+TQID: https://experienceleague.adobe.com/RC2C4CKPhWEO3O4k7baoAqknTj3qj-23Ic1bXtv2zP4
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 451
 ht-degree: 39%
@@ -75,7 +70,7 @@ Creative Cloud ユーザーがアセットにアクセスする前に、CX Enter
 
    Creative Cloud ユーザーをすべて削除すると、そのフォルダーの共有が解除され、Creative Cloud ユーザーはそれらにアクセスできなくなります。
 
-共有アセットを使用する他の方法には、アクティビティの画像に対して、Adobe Targetの[&#x200B; オファーライブラリ &#x200B;](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=ja)でアセットを読み込んだり入れ替えたりすることが含まれます。
+共有アセットを使用する他の方法には、アクティビティの画像に対して、Adobe Targetの[ オファーライブラリ ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html)でアセットを読み込んだり入れ替えたりすることが含まれます。
 
 Creative Cloud にフォルダーを共有すると、フォルダー上に Creative Cloud のロゴが表示されます。
 
@@ -91,5 +86,5 @@ Creative Cloud にフォルダーを共有すると、フォルダー上に Crea
 
 [!DNL Adobe Target]でアクティビティを作成する場合、[!UICONTROL Offers Library]で画像を入れ替える際に、共有の画像アセットを使用できます。
 
-[!DNL Target] ヘルプの[オファーライブラリ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=ja)を参照してください。
+[!DNL Target] ヘルプの[オファーライブラリ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html)を参照してください。
 

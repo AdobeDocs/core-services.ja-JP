@@ -8,18 +8,13 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-TQID: 'https://experienceleague.adobe.com/UPPlaj8UOGygam8nRfGKE-c-Q-l8qtfaUWzPmXqBLJM'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: e1eba07e-ab89-466f-9ab5-ceb891d7a67d
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id:id:id:id:
-role_v2: id:
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
+TQID: https://experienceleague.adobe.com/-uw6vdjg2n7wEREmEzir2-2WSL8slWi8vBRg4oXYJlo
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: eb7e29b9-c5e9-4ed0-8e4b-6465dabb3cb1id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 730
 ht-degree: 47%
@@ -100,7 +95,7 @@ CX Enterpriseでのプロビジョニングは次のことを意味します。
 
 +++ユーザーの環境設定、通知、アラートを管理するにはどうすればよいですか？
 
-* [&#x200B; アカウントの環境設定と通知](/help/interface/features/account-preferences.md)を参照
+* [ アカウントの環境設定と通知](/help/interface/features/account-preferences.md)を参照
 
 +++
 
@@ -110,7 +105,7 @@ CX Enterpriseでのプロビジョニングは次のことを意味します。
 
 * ユーザーの使用権限と製品の管理は [Adobe Admin Console](https://adminconsole.adobe.com/enterprise)（製品リンク）でおこないます。
 
-* **重要：** Analytics 管理ツールから Admin Console へのユーザー ID の移行に関する Analytics 管理者向けの情報について詳しくは、[Admin Console での Analytics ユーザーの管理](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=ja)を参照してください。
+* **重要：** Analytics 管理ツールから Admin Console へのユーザー ID の移行に関する Analytics 管理者向けの情報について詳しくは、[Admin Console での Analytics ユーザーの管理](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html)を参照してください。
 
 +++
 
@@ -118,7 +113,7 @@ CX Enterpriseでのプロビジョニングは次のことを意味します。
 
 Admin Console 管理者はユーザーにアクセス権を付与できます。 ユーザーにはログイン手順が記載された電子メールが送信されます。
 
-会社としてのプロビジョニングが完了していることを確認するために、[アドビサポートへの問い合わせ](https://experienceleague.adobe.com/ja?support-solution=General&lang=ja#support)が必要になる場合もあります。
+会社としてのプロビジョニングが完了していることを確認するために、[アドビサポートへの問い合わせ](https://experienceleague.adobe.com/?support-solution=General&lang=ja#support)が必要になる場合もあります。
 
 +++
 
