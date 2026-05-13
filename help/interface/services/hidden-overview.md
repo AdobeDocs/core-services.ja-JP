@@ -22,9 +22,9 @@ ht-degree: 41%
 このドキュメントは、[!DNL People] サービス （[!DNL Audience Library]および[!DNL Customer Attributes]）、CX Enterpriseのユーザーおよび製品管理、Cookie、アカウント設定、通知など、CX Enterpriseの統合ヘッダーの機能に適用されます。
 
 CX Enterpriseでこれらのサービスにアクセスするには、 **[!UICONTROL Application Selector]**
-![ サービスセレクター](../assets/apps-icon.png)。
+![&#x200B; サービスセレクター](../assets/apps-icon.png)。
 
-![CX エンタープライズ サービス ](../assets/platform-core-services.png)
+![CX エンタープライズ サービス &#x200B;](../assets/platform-core-services.png)
 
 このヘルプでは、次の製品およびサービスについて説明します。
 
