@@ -111,4 +111,4 @@ ht-degree: 60%
 
 特定期間のデータ収集が終了すると、円は結合されて、定義されたオーディエンスを表示します。
 
-オーディエンスが保存されると、他のCX Enterprise アプリケーションで使用できるようになります。 例えば、Adobe Target [&#x200B; アクティビティ &#x200B;](https://experienceleague.adobe.com/en/docs/target/using/activities/activities)に共有オーディエンスを含めることができます。
+オーディエンスが保存されると、他のCX Enterprise アプリケーションで使用できるようになります。 例えば、Adobe Target [&#x200B; アクティビティ &#x200B;](https://experienceleague.adobe.com/ja/docs/target/using/activities/activities)に共有オーディエンスを含めることができます。

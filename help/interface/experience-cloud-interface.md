@@ -88,7 +88,7 @@ CX Enterprise検索を使用すると、[Experience League](https://experiencele
 
 * **[!UICONTROL Support]:** サポートチケットを作成するか、Twitterを使用して[!UICONTROL Support]にお問い合わせください。
 * **[!UICONTROL Feedback]:** フィードバックを使用してAdobeにお問い合わせください。ご意見をお聞かせください。
-* **[!UICONTROL Status]:** `https://status.adobe.com/experience_cloud`に移動し、製品操作の状態と[!UICONTROL Manage Subscriptions]を確認します。
+* **[!UICONTROL Status]:** `https://status.adobe.com/ja-jp/experience_cloud`に移動し、製品操作の状態と[!UICONTROL Manage Subscriptions]を確認します。
 * **[!UICONTROL Developer Connection]:** `adobe.io`に移動して、開発者ドキュメントを見つけます。
 
 ## アカウント設定

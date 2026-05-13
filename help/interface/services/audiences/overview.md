@@ -90,4 +90,4 @@ ht-degree: 48%
 
 ## Adobe Analyticsからのオーディエンスの公開
 
-詳しくは、Adobe Analytics ドキュメントの「[CX Enterpriseへのセグメントの公開](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish)」を参照してください。
+詳しくは、Adobe Analytics ドキュメントの「[CX Enterpriseへのセグメントの公開](https://experienceleague.adobe.com/ja/docs/analytics/components/segmentation/segmentation-workflow/seg-publish)」を参照してください。
