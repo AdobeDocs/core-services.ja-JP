@@ -6,16 +6,15 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+last-update: '2026-05-21T00:00:00.000Z'
+source-git-commit: 5b2b81c029b81b9f0689a012cb2a9ca8714c0b40
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '935'
 ht-degree: 5%
 
 ---
 
 # Adobe Experience PlatformのエージェントのジョブとAI クレジットの使用
-
-更新日：**2026年3月5日**
 
 CX エンタープライズアプリケーションにおけるエージェント型AIのジョブとAI クレジット消費について説明します。 既存のCX Enterprise アプリケーションでAgentic AI機能を有効にする方法について詳しくは、[CX EnterpriseでのAgentic AI](agentic-ai.md#existing-apps)を参照してください。
 
@@ -42,13 +41,11 @@ AIによるクレジットの使用状況は、実行されるジョブの複雑
 | エージェント | ジョブ | サポートされているアプリケーション | 推定AI クレジット | サンプルプロンプト |
 | ------ | ----- | ------------------------ | ----------------------- | ----------------- |
 | Audience Agent | オーディエンス/アカウントのアイデア立案 | <ul><li>Real-Time CDP（B2B、B2C、B2P エディション）</li><li>Adobe Journey Optimizer（B2C Edition）</li></ul> | 50 | <ul><li><em>富裕層の購入者のフィールドを表示</em></li><li><em>顧客の環境設定に関連するすべてのフィールドを検索</em></li></ul> |
-| Audience Agent | ナレッジベースのオーディエンス/アカウント作成 | <ul><li>Real-Time CDP（B2B、B2C、B2P エディション）</li><li>Adobe Journey Optimizer（B2C Edition）</li></ul> | 150 | <ul><li><em> カリフォルニア在住のユーザーで構成されるオーディエンスを作成</em></li><li><em>今四半期に1000 ドル以上を費やしたVIP メンバーのオーディエンスを生成</em></li><li><em>衣料品を購入したが、過去60日間に購入していないユーザーのオーディエンスを作成する</em></li></ul> |
 | Audience Agent | オーディエンス/アカウント管理 | <ul><li>Real-Time CDP（B2B、B2C、B2P エディション）</li><li>Adobe Journey Optimizer（B2C Edition）</li></ul> | 25 | <ul><li><em>重複するオーディエンスがありますか？</em></li><li><em>最大5人のオーディエンスを表示します。</em></li><li><em>どの宛先にもアクティブ化されていないオーディエンスを表示</em></li><li><em> ライブジャーニーで使用されているすべてのオーディエンスを一覧表示</em></li></ul> |
 | Audience Agent | オーディエンス/アカウント分析 | <ul><li>Real-Time CDP（B2B、B2C、B2P エディション）</li><li>Adobe Journey Optimizer（B2C Edition）</li></ul> | 25 | <ul><li><em>先週20%以上増加したオーディエンスはどれですか？</em></li><li><em>30日前の値と比較して、オーディエンス「ロイヤルプラチナ」はどの程度変化していますか？</em></li><li><em>最も急成長しているオーディエンスは何ですか？</em></li></ul> |
 | Audience Agent | 購買グループのアイデア創出 | <ul><li>Adobe Journey Optimizer（B2B edition）</li></ul> | 25 | <ul><li><em>これらの製品の意図を示しているアカウントはどれですか？</em></li><li><em>XYZの製品インテント別の上位の人物を表示します。</em></li><li><em>5人以上のメンバーがいる購買グループはどれですか？</em></li></ul> |
 | Data Insights Agent | データ分析と可視化 | <ul><li>Customer Journey Analytics（B2CおよびB2B エディション）</li></ul> | 25 | <ul><li><em>7月のトレンド注文</em></li><li><em>地域別の収益を表示します。</em></li><li><em>3月から6月までの性別で注文を表示します。</em></li><li><em>6月の利益別の上位10のSKUは何ですか</em></li><li><em>月別の購入割合</em></li><li><em>製品カテゴリ別の収益の割合</em></li></ul> |
 | Journey Agent | ジャーニーの構想 | <ul><li>Adobe Journey Optimizer（B2B edition）</li></ul> | 25 | <ul><li><em>Web サイト上のコンテンツでエンゲージしているユーザーに焦点を当て、ソリューションの意図を持って空白アカウントのジャーニーを作成します</em></li></ul> |
-| Journey Agent | ジャーニー制作 | <ul><li>Adobe Journey Optimizer（B2BおよびB2C エディション）</li></ul> | 30 | <ul><li><em>過去7日間に最初の購入を完了していないユーザーにリマインダーを送信するジャーニーを生成</em></li><li><em> ユーザーが最初の購入を完了したら、3日後にSMS確認とフォローアップ特典の説明をメールで送信します</em></li></ul> |
 | Journey Agent | ジャーニー分析 | <ul><li>Adobe Journey Optimizer（B2BおよびB2C エディション）</li></ul> | 50 | <ul><li><em>7月4日のキャンペーンのジャーニーのノード別のフォールアウトを分析します。</em></li><li><em> ジャーニーX</em>のスケジュールに競合があります</li><li><em> ジャーニーX</em>のオーディエンス重複の競合を表示する</li></ul> |
 | Journey Agent | ジャーニー管理 | <ul><li>Adobe Journey Optimizer（B2BおよびB2C エディション）</li></ul> | 25 | <ul><li><em> ライブジャーニーはいくつありますか？</em></li><li><em> オーディエンス X.</em>を使用するすべてのジャーニーを一覧表示する</li><li><em>現在テストモードにあるすべてのジャーニーを一覧表示</em></li></ul> |
 | 製品サポート担当者 | ナレッジベースのトラブルシューティング | <ul><li>Real-Time CDP（B2B、B2C、B2P エディション）</li><li>Adobe Journey Optimizer（B2CおよびB2B エディション）</li><li>Customer Journey Analytics（B2CおよびB2B エディション）</li></ul> | 0 | <ul><li><em> ライセンス使用状況ダッシュボードとExperience Platform ホームページでプロファイル数が異なるのはなぜですか？</em></li><li><em> ジャーニーがトリガーされない理由は何ですか？</em></li><li><em>Adobe Experience Platformでは、リアルタイムのエクスペリエンスをどのように構築できますか？</em></li><li><em>Adobe Experience Platformでアラートを設定および使用する方法は？</em></li><li><em>Adobe Experience Platform アクティベーションの平均プロファイルリッチネス制限は何ですか？</em></li></ul> |
