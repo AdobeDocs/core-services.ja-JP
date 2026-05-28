@@ -20,7 +20,7 @@ ht-degree: 50%
 
 10月30日隠し
 
-![CX エンタープライズ ](assets/landing.png)
+![CX エンタープライズ &#x200B;](assets/landing.png)
 
 CX Enterpriseのヘッダーから、次のことができます。
 
@@ -53,9 +53,9 @@ CX Enterpriseのヘッダーから、次のことができます。
 
 CX Enterpriseにログインすると、統合ヘッダーからすべてのアプリケーション、サービス、組織にすばやくアクセスできます。
 
-組織内でプロビジョニングされたCX エンタープライズ アプリケーションおよびサービスにアクセスするには、アプリケーション セレクター![ メニュー](assets/apps-icon.png)に移動します。
+組織内でプロビジョニングされたCX エンタープライズ アプリケーションおよびサービスにアクセスするには、アプリケーション セレクター![&#x200B; メニュー](assets/apps-icon.png)に移動します。
 
-![CX エンタープライズ アプリケーションへのアクセス ](assets/platform-core-services.png)
+![CX エンタープライズ アプリケーションへのアクセス &#x200B;](assets/platform-core-services.png)
 
 ## お問い合わせとサポート {#support}
 
