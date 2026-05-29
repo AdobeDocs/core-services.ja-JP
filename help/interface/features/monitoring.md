@@ -8,10 +8,15 @@ role: Admin, User
 level: Intermediate
 autotag-review: '2026-05-27T16:30:16.764Z'
 TQID: 'https://experienceleague.adobe.com/J74yr0gGkFu1bzTmMvhrQ8TNaRX6nRjWY9WAwd3uydk'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e1971122-7081-4556-9222-8a31bd71800c
-feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
-subfeature_v2: id: cda95149-19e1-4cfa-a57e-751283a32378
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: e1971122-7081-4556-9222-8a31bd71800c
+feature_v2:
+  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
+subfeature_v2:
+  - id: cda95149-19e1-4cfa-a57e-751283a32378
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
 source-git-commit: 5fdb68aa750cd4c31b2e28cbd89e37e3e029cacb
 workflow-type: tm+mt
 source-wordcount: 948
@@ -23,13 +28,13 @@ ht-degree: 2%
 
 CX Enterpriseには、既存のCX Enterprise アプリケーションにおけるAgentic AIの使用を監視するための2つのダッシュボードが用意されています。 これらのダッシュボードは、ユーザーが[!DNL AI Assistant]およびその他の会話型サーフェスを通じてアクセスする[!DNL Experience Platform Agents]の導入、エンゲージメント、フィードバック品質、およびAI クレジット消費を理解するのに役立ちます。
 
-使用状況モニタリングの対象となるエージェントは、既存のCX Enterprise アプリの[AI エージェント ](agentic-ai.md#existing-apps-table)に記載されています。詳しくは、[Agentic AI in Adobe CX Enterprise](agentic-ai.md)のドキュメントを参照してください。
+使用状況モニタリングの対象となるエージェントは、既存のCX Enterprise アプリの[AI エージェント &#x200B;](agentic-ai.md#existing-apps-table)に記載されています。詳しくは、[Agentic AI in Adobe CX Enterprise](agentic-ai.md)のドキュメントを参照してください。
 
 ## ライセンス使用状況ダッシュボード
 
 [!DNL Adobe Experience Platform] ライセンス使用状況ダッシュボードには、組織のライセンス済みAI クレジットの使用権限と、ユーザーが[!DNL Experience Platform Agents]を実行したときに使用されたAI クレジットの合計数が表示されます。
 
-管理者は、このダッシュボードを使用して、使用権限に対するライセンス消費を追跡します。 ダッシュボードにアクセスするには、[!DNL Experience Platform] ドキュメントの[ ライセンス使用状況ダッシュボード ](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)を参照してください。
+管理者は、このダッシュボードを使用して、使用権限に対するライセンス消費を追跡します。 ダッシュボードにアクセスするには、[!DNL Experience Platform] ドキュメントの[&#x200B; ライセンス使用状況ダッシュボード &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)を参照してください。
 
 ## Agentic AI モニタリングダッシュボード
 
@@ -115,7 +120,7 @@ AI クレジット ダッシュボードは、組織での[!DNL Experience Platf
 
 1. 更新する製品プロファイルまたは役割を開きます。
 
-   ![ ダッシュボード権限を有効にする](../features/assets/dashboards-permissions.png)
+   ![&#x200B; ダッシュボード権限を有効にする](../features/assets/dashboards-permissions.png)
 
 1. **[!UICONTROL AI Assistant]**&#x200B;権限で「**[!UICONTROL Add Resource]**」をクリックし、「**[!UICONTROL View AI Assistant usage dashboard]**」を有効にします。
 
@@ -123,7 +128,7 @@ AI クレジット ダッシュボードは、組織での[!DNL Experience Platf
 
 1. **[!UICONTROL Dashboards]**&#x200B;権限で、各ユーザーの責任に基づいてダッシュボードアクセスを設定します。
 
-   ![ ダッシュボード権限を有効にする](../features/assets/dashboards-add-resource.png)
+   ![&#x200B; ダッシュボード権限を有効にする](../features/assets/dashboards-add-resource.png)
 
    承認済みガバナンスユーザーに推奨される権限：
 
@@ -141,4 +146,4 @@ AI クレジット ダッシュボードは、組織での[!DNL Experience Platf
 
 * [Adobe CX EnterpriseのAgentic AI](agentic-ai.md)
 * [担当者の業務とAIのクレジット消費](ai-credit-consumption.md)
-* [ ライセンス使用状況ダッシュボード ](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) （Experience Platform）
+* [&#x200B; ライセンス使用状況ダッシュボード &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) （Experience Platform）
