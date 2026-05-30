@@ -1,6 +1,6 @@
 ---
 title: Agentic AI利用状況モニタリング
-description: 顧客体験エンタープライズにおけるAIの利用状況モニタリングについてご確認ください。 導入の追跡、会話とフィードバックの確認、利用状況、品質、コストの可視化に対するAI クレジットの管理。
+description: CX EnterpriseのAI利用状況モニタリング用ダッシュボードについて説明します。 導入の追跡、会話とフィードバックの確認、利用状況、品質、コストの可視化に対するAI クレジットの管理。
 solution: Experience Cloud, Experience Platform
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
@@ -17,14 +17,14 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 5fdb68aa750cd4c31b2e28cbd89e37e3e029cacb
+source-git-commit: c3e850d9398b5439a45fd493036776b729bec7e9
 workflow-type: tm+mt
 source-wordcount: 948
 ht-degree: 2%
 
 ---
 
-# Agentic AI利用状況モニタリングダッシュボード
+# エージェント型AI モニタリング
 
 CX Enterpriseには、既存のCX Enterprise アプリケーションにおけるAgentic AIの使用を監視するための2つのダッシュボードが用意されています。 これらのダッシュボードは、ユーザーが[!DNL AI Assistant]およびその他の会話型サーフェスを通じてアクセスする[!DNL Experience Platform Agents]の導入、エンゲージメント、フィードバック品質、およびAI クレジット消費を理解するのに役立ちます。
 
