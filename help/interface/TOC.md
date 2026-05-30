@@ -18,7 +18,7 @@ ht-degree: 60%
 + CX Enterprise の AI {#features}
    + [生成 AI](/help/interface/features/generative-ai.md)
    + [エージェント型 AI](features/agentic-ai.md)
-   + {hide-from-toc}[ エージェンティック AI モニタリング ](/help/interface/features/monitoring.md)
+   + {hide-from-toc}[&#x200B; エージェンティック AI モニタリング &#x200B;](/help/interface/features/monitoring.md)
    + [担当者の業務とAIのクレジット消費](/help/interface/features/ai-credit-consumption.md)
 + 管理 {#administration}
    + [アカウントの環境設定と通知](/help/interface/features/account-preferences.md)
