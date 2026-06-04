@@ -17,9 +17,9 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 9c847f904b899fbe1273b91bd776083d0b4a71a1
+source-git-commit: ae47fb846467d50b57764f525a359dfcf78cf597
 workflow-type: tm+mt
-source-wordcount: 881
+source-wordcount: 866
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 エージェンティック AI モニタリングダッシュボードは、センターオブエクセレンス（COE）メンバーやその他のガバナンス関係者に、エージェンティック AIの利用や導入に関する可視性を提供します。 7日間または30日間の期間の傾向を確認して、[!DNL AI Assistant]またはその他の会話型サーフェス（[Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)など）を使用して[!DNL Experience Platform Agents]とやり取りするユーザー、それらのインタラクションでのユーザーの行動、およびユーザーが受け取る価値を確認できます。 これらのビューを組み合わせることで、エージェントの導入を仮定ではなくデータで導くことができます。
 
-Agentic AI モニタリングダッシュボードには、次のビューが含まれます。
+[!UICONTROL 監視] ダッシュボードには、次のビューが含まれます。
 
 | ダッシュボード | 目的 |
 | --- | --- |
@@ -39,7 +39,7 @@ Agentic AI モニタリングダッシュボードには、次のビューが含
 
 使用状況モニタリングの対象となるエージェントは、既存のCX Enterprise アプリの[AI エージェント &#x200B;](agentic-ai.md#existing-apps-table)に記載されています。詳しくは、[Agentic AI in Adobe CX Enterprise](agentic-ai.md)のドキュメントを参照してください。
 
-[概要ビデオを見る](https://video.tv.adobe.com/v/3491864?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491864?learn=on)
 
 ## ダッシュボード権限の有効化 {#permissions}
 
@@ -86,7 +86,7 @@ Agentic AI モニタリングダッシュボードには、次のビューが含
 * **会話あたりの平均プロンプト：**&#x200B;会話あたりのエンゲージメントの深さ。
 * **フィードバック：** ユーザーからの親指の上下フィードバックの配布（[!DNL AI Assistant]件のインタラクションのみ）。
 
-[動画を見る](https://video.tv.adobe.com/v/3491865?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491865?learn=on)
 
 ### 会話の再生
 
@@ -95,7 +95,7 @@ Agentic AI モニタリングダッシュボードには、次のビューが含
 * **プロンプトと応答の履歴：** ユーザーのプロンプトと応答が配信されました。
 * **フィードバックシグナル：** ユーザーが親指を上または下に置いたインタラクションを行い、ユーザーがつまずきやすい箇所、ブロッカー、またはイネーブルメントのニーズを特定します。 これらの情報は、プロンプトの関連性を高め、Adobeが応答の質を向上させるのに役立ちます。
 
-[動画を見る](https://video.tv.adobe.com/v/3491866?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491866?learn=on)
 
 ## ユーザーダッシュボード
 
@@ -112,7 +112,7 @@ Agentic AI モニタリングダッシュボードには、次のビューが含
 * **会話アクティビティ：** ユーザーあたりの会話とプロンプトの数。
 * **上位のアクティブユーザー：** エージェントの導入を促進するエンゲージメントの高いユーザーとチーム。
 
-[動画を見る](https://video.tv.adobe.com/v/3491868?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491868?learn=on)
 
 ## フィードバックダッシュボード
 
@@ -126,7 +126,7 @@ Agentic AI モニタリングダッシュボードには、次のビューが含
 * **プロンプトと応答の履歴：** ユーザーのプロンプトと、送信されたフィードバックに関連付けられた応答。
 * **フィードバックの詳細とメモ：** フィードバック送信時のユーザーからの追加のコンテキストとコメント。
 
-[動画を見る](https://video.tv.adobe.com/v/3491878?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491878?learn=on)
 
 ## AI クレジットダッシュボード
 
@@ -138,7 +138,7 @@ AI クレジット ダッシュボードは、組織での[!DNL Experience Platf
 * **日次および月次のトレンド：**&#x200B;消費パターンの急増、急減、および変化。
 * **AI クレジット残り：**&#x200B;残り残高。先見的に計画して超過を回避できます。
 
-[動画を見る](https://video.tv.adobe.com/v/3491867?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491867?learn=on)
 
 ## このトピックの詳細ヘルプ
 
