@@ -8,10 +8,15 @@ role: Admin, User
 level: Intermediate
 autotag-review: '2026-05-27T16:30:16.764Z'
 TQID: 'https://experienceleague.adobe.com/J74yr0gGkFu1bzTmMvhrQ8TNaRX6nRjWY9WAwd3uydk'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e1971122-7081-4556-9222-8a31bd71800c
-feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
-subfeature_v2: id: cda95149-19e1-4cfa-a57e-751283a32378
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: e1971122-7081-4556-9222-8a31bd71800c
+feature_v2:
+  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
+subfeature_v2:
+  - id: cda95149-19e1-4cfa-a57e-751283a32378
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
 source-git-commit: ae47fb846467d50b57764f525a359dfcf78cf597
 workflow-type: tm+mt
 source-wordcount: 866
@@ -32,7 +37,7 @@ ht-degree: 2%
 | **フィードバック** | レスポンスの質とユーザー満足度に関するシグナル |
 | **AI クレジット** | クレジット消費の動向と残高バランス |
 
-使用状況モニタリングの対象となるエージェントは、既存のCX Enterprise アプリの[AI エージェント ](agentic-ai.md#existing-apps-table)に記載されています。詳しくは、[Agentic AI in Adobe CX Enterprise](agentic-ai.md)のドキュメントを参照してください。
+使用状況モニタリングの対象となるエージェントは、既存のCX Enterprise アプリの[AI エージェント &#x200B;](agentic-ai.md#existing-apps-table)に記載されています。詳しくは、[Agentic AI in Adobe CX Enterprise](agentic-ai.md)のドキュメントを参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491864?learn=on)
 
@@ -44,7 +49,7 @@ ht-degree: 2%
 
 1. 更新する製品プロファイルまたは役割を開きます。
 
-   ![ ダッシュボード権限を有効にする](../features/assets/dashboards-permissions.png)
+   ![&#x200B; ダッシュボード権限を有効にする](../features/assets/dashboards-permissions.png)
 
 1. **[!UICONTROL AI アシスタント]**&#x200B;権限で、**[!UICONTROL リソースを追加]**&#x200B;をクリックし、**[!UICONTROL AI アシスタントの使用状況ダッシュボードの表示]**&#x200B;を有効にします。
 
@@ -52,7 +57,7 @@ ht-degree: 2%
 
 1. **[!UICONTROL ダッシュボード]**&#x200B;権限で、各ユーザーの責任に基づいてダッシュボードアクセスを設定します。
 
-   ![ ダッシュボード権限を有効にする](../features/assets/dashboards-add-resource.png)
+   ![&#x200B; ダッシュボード権限を有効にする](../features/assets/dashboards-add-resource.png)
 
    承認済みガバナンスユーザーに推奨される権限：
 
@@ -68,7 +73,7 @@ ht-degree: 2%
 
 1. ダッシュボードを表示するには、CX Enterprise ホームに戻り、**[!UICONTROL 監視]**&#x200B;をクリックします。
 
-   ![Agentic AI監視ダッシュボード ](../features/assets/monitoring.png)
+   ![Agentic AI監視ダッシュボード &#x200B;](../features/assets/monitoring.png)
 
 ## 概要ダッシュボード
 
@@ -137,7 +142,7 @@ AI クレジット ダッシュボードは、組織での[!DNL Experience Platf
 
 ## このトピックの詳細ヘルプ
 
-* [!DNL Experience Platform]の[ ライセンス使用状況ダッシュボード ](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)
+* [!DNL Experience Platform]の[&#x200B; ライセンス使用状況ダッシュボード &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)
 * [Adobe CX EnterpriseのAgentic AI](agentic-ai.md)
 * [担当者の業務とAIのクレジット消費](ai-credit-consumption.md)
-* [ ライセンス使用状況ダッシュボード ](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) （Experience Platform）
+* [&#x200B; ライセンス使用状況ダッシュボード &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) （Experience Platform）
