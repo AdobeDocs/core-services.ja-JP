@@ -17,9 +17,9 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: ae47fb846467d50b57764f525a359dfcf78cf597
+source-git-commit: 0c5f2ec6554118a19e4cfc82901eb76468fdceff
 workflow-type: tm+mt
-source-wordcount: 866
+source-wordcount: 917
 ht-degree: 2%
 
 ---
@@ -27,6 +27,11 @@ ht-degree: 2%
 # Agentic AI モニタリングダッシュボード
 
 エージェンティック AI モニタリングダッシュボードは、センターオブエクセレンス（COE）メンバーやその他のガバナンス関係者に、エージェンティック AIの利用や導入に関する可視性を提供します。 7日間または30日間の期間の傾向を確認して、[!DNL AI Assistant]またはその他の会話型サーフェス（[Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)など）を使用して[!DNL Experience Platform Agents]とやり取りするユーザー、それらのインタラクションでのユーザーの行動、およびユーザーが受け取る価値を確認できます。 これらのビューを組み合わせることで、エージェントの導入を仮定ではなくデータで導くことができます。
+
+**対象**
+
+* 現在、少なくとも1つのExperience Platform ネイティブアプリケーション（Customer Journey Analytics、Journey Optimizer、Real-Time CDP）のライセンスを持つアカウントは、このダッシュボードにアクセスできます
+* Experimentation Accelerator、LLM Optimizer、Sites Optimizerなどの[AI ファースト アプリケーション &#x200B;](agentic-ai.md#ai-first-cx-enterprise-applications)の使用状況と導入率は、このダッシュボードには含まれません
 
 [!UICONTROL 監視] ダッシュボードには、次のビューが含まれます。
 
