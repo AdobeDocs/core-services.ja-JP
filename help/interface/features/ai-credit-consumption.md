@@ -7,9 +7,9 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 last-update: '2026-05-21T00:00:00.000Z'
-source-git-commit: 5b2b81c029b81b9f0689a012cb2a9ca8714c0b40
+source-git-commit: e88ba99174bf84de9b58a61ae8c22c0bbd7ed9bf
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '993'
 ht-degree: 5%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 5%
 # Adobe Experience PlatformのエージェントのジョブとAI クレジットの使用
 
 CX エンタープライズアプリケーションにおけるエージェント型AIのジョブとAI クレジット消費について説明します。 既存のCX Enterprise アプリケーションでAgentic AI機能を有効にする方法について詳しくは、[CX EnterpriseでのAgentic AI](agentic-ai.md#existing-apps)を参照してください。
+
+## 最新情報
+
+| 機能 | 説明 |
+| --- | --- |
+| [CX Enterprise Agentic AI機能カタログ &#x200B;](https://agentic-capability-explorer.entapp.adproto.com/) | ライセンスを取得済みのCX Enterprise アプリで利用できるエージェント型AI ジョブを確認します。 |
 
 ## エージェントジョブ
 
@@ -35,6 +41,8 @@ AIによるクレジットの使用状況は、実行されるジョブの複雑
 * 単純な（多くの場合シングルステップ）タスクでは、クレジットの消費が少なくなります
 * 複雑な（多くの場合マルチステップ）タスクでは、より多くのクレジットが消費されます
 * 高度な推論、検証、マルチエージェントの調整、または統合を伴うタスクは、より多くのクレジットを消費します
+
+**注：** [CX Enterprise Agentic AI機能カタログ &#x200B;](https://agentic-capability-explorer.entapp.adproto.com/)も、ライセンス済みのCX Enterprise アプリで利用できるAgentic AI ジョブを見つけるのに役立ちます。
 
 ### 予測AI クレジット消費量
 
