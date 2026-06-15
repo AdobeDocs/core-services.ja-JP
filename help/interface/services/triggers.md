@@ -45,7 +45,7 @@ CX Enterpriseの[!UICONTROL トリガー]を使用すると、主要な消費者
 
 >[!NOTE]
 >
->[!UICONTROL トリガー]の使用について詳しくは、[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html)を参照してください。
+>[!UICONTROL トリガー]の使用について詳しくは、[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=ja)を参照してください。
 
 ## トリガーの種類
 
