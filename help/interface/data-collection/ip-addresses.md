@@ -1,16 +1,11 @@
 ---
-title: EXPERIENCE CLOUDで使用されるIP アドレス
+title: Experience Cloudで使用されるIP アドレス
 description: 組織のファイアウォールがAdobeから送信されたIP アドレスをブロックする場合は、このリストを使用してファイアウォールの設定を更新します。
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
 TQID: https://experienceleague.adobe.com/EPoerIJdL9FVBFB32WRB9zBMdXJarSu90hJIsn7Vpps
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 426
@@ -28,10 +23,10 @@ ht-degree: 9%
 
 以下に示すIP アドレスブロックに加えて、個々のAdobe CX Enterprise製品には、使用する独自のIP アドレスがあります。
 
-* [Adobe Analytics](https://experienceleague.adobe.com/ja/docs/analytics/technotes/ip-addresses)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/technotes/ip-addresses)
-* [Marketo Engage](https://experienceleague.adobe.com/ja/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
-* [Adobe Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
 
 ## すべてのAdobe IP アドレスブロック
 

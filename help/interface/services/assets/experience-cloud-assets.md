@@ -9,22 +9,15 @@ role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
 TQID: https://experienceleague.adobe.com/XJqrWBg6tscTfgoA02FlqgxaziNOb0fL1LvEdUv0Ot0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 320
-ht-degree: 69%
+source-wordcount: 330
+ht-degree: 67%
 
 ---
 
@@ -50,7 +43,7 @@ CX Enterprise Assetsは、アプリケーション間で共有できる、マー
 
 ## ツールバーへのアクセス
 
-アセット （またはアセットディレクトリ）に移動し、**[!UICONTROL Select]**&#x200B;をクリックします。
+アセット（またはアセットディレクトリ）に移動し、**[!UICONTROL 選択]**&#x200B;をクリックします。
 
 ツールバーから、検索、タイムライン、レンディション、編集、注釈、ダウンロードなどの機能にすばやくアクセスできます。
 
@@ -78,13 +71,13 @@ CX Enterprise Assetsは、アプリケーション間で共有できる、マー
 
 ## アセットへの注釈の付加
 
-画像上に円または矢印を描画して&#x200B;**[!UICONTROL Annotate]**&#x200B;をクリックし、同僚がレビューするアセットに注釈を付けます。
+画像上に円または矢印を描画して&#x200B;**[!UICONTROL 注釈]**&#x200B;をクリックし、共同作業者によるレビュー用にアセットに注釈を付けます。
 
 ![アセットへの注釈の付加](../../assets/assets-annotate.png)
 
 ## アセットのフルスクリーン表示とズーム
 
-**[!UICONTROL Views]** > **[!UICONTROL Image]**&#x200B;をクリックして、完全なアセット画像を表示し、ズームを有効にします。
+**[!UICONTROL 表示回数]** > **[!UICONTROL 画像]**&#x200B;をクリックして、アセット全体の画像を表示し、ズームを有効にします。
 
 ![アセットのフルスクリーン表示](../../assets/asset-zoom.png)
 
@@ -92,7 +85,7 @@ CX Enterprise Assetsは、アプリケーション間で共有できる、マー
 
 プロパティ付きのカードビュー、リスト表示および列ビューのいずれかを選択して、アセットをより容易に見つけることができます。
 
-**[!UICONTROL Views]** > **[!UICONTROL Properties]**&#x200B;をクリックして、アセットのプロパティを表示します。
+アセットのプロパティを表示するには、**[!UICONTROL ビュー]**/**[!UICONTROL プロパティ]**&#x200B;をクリックします。
 
 ![アセットプロパティの表示](../../assets/asset-properties.png)
 
@@ -100,6 +93,6 @@ CX Enterprise Assetsは、アプリケーション間で共有できる、マー
 
 ユーザー数、使用されているストレージおよびアセット合計数を表示します。
 
-**[!UICONTROL Tools]** > **[!UICONTROL Reports]** > **[!UICONTROL Usage Report]**&#x200B;をクリックします
+**[!UICONTROL ツール]**/**[!UICONTROL レポート]**/**[!UICONTROL 使用状況レポート]**&#x200B;をクリックします
 
 ![使用状況レポートの実行](../../assets/assets-usage-report.png)

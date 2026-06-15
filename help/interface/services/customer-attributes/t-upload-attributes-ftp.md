@@ -8,21 +8,15 @@ role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
 TQID: https://experienceleague.adobe.com/jI2dWXMmrrWxceVi-sZtzF5cTF11iy4d7QKkx71vF-I
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 379
-ht-degree: 53%
+source-wordcount: 394
+ht-degree: 51%
 
 ---
 
@@ -34,12 +28,12 @@ CX Enterpriseで顧客属性ソースとFTP アカウントを作成した後、
 
 >[!IMPORTANT]
 >
->ファイルをアップロードする前に、[顧客属性データファイルとソース &#x200B;](crs-data-file.md)を確認してください。
+>ファイルをアップロードする前に、[顧客属性データファイルとソース ](crs-data-file.md)を確認してください。
 
 顧客属性FTP サイトへのファイルのアップロードは、FTPまたはSFTPを使用して実行できます。
 
 * SFTP 接続をサポートしているクライアントが必要です。
-* [こちら](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=ja)で説明しているように、ユーザー名／パスワードを使用して、またはパスワードを使用せずに、SFTP で接続できます。
+* [こちら](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html)で説明しているように、ユーザー名／パスワードを使用して、またはパスワードを使用せずに、SFTP で接続できます。
 
 **FTP を使用してデータファイルをアップロードするには**
 
@@ -47,7 +41,7 @@ CX Enterpriseで顧客属性ソースとFTP アカウントを作成した後、
 
    FTP サイトにログインしていることを `ftp.adobe.com/<sftpname>`.
 
-1. **[!UICONTROL Actions]**／**[!UICONTROL File Upload]**&#x200B;をクリックします。
+1. **[!UICONTROL アクション]**/**[!UICONTROL ファイルアップロード]**&#x200B;をクリックします。
 
 1. ファイルを取得できるように、`.fin` ファイルをアップロードします。
 
@@ -55,13 +49,13 @@ CX Enterpriseで顧客属性ソースとFTP アカウントを作成した後、
 
    アップロードが正常に完了すると、どちらのファイルも **processed** というフォルダーに移動されます。
 
-   ファイル名と構造に関する重要な情報については、[顧客属性データファイルとソース &#x200B;](crs-data-file.md)を参照してください。
+   ファイル名と構造に関する重要な情報については、[顧客属性データファイルとソース ](crs-data-file.md)を参照してください。
 
 ## FTP アカウントの設定
 
 属性ソースごとに1つのFTP アカウントを設定します。
 
-[!UICONTROL File Upload and Schema Validation] ページで、**[!UICONTROL FTP Setup]**&#x200B;をクリックします。
+[!UICONTROL  ファイルのアップロードとスキーマ検証] ページで、**[!UICONTROL FTP セットアップ]**&#x200B;をクリックします。
 
 ![スキーマの編集](assets/ftp-account.png)
 
@@ -69,9 +63,9 @@ CX Enterpriseで顧客属性ソースとFTP アカウントを作成した後、
 
 文字列、整数および数値に適用する名前は、[!DNL Analytics] 指標の作成に使用されます。
 
-* アップロードされた`.csv` ファイルから&#x200B;**[!UICONTROL attribute:]**&#x200B;属性データを読み取りました。
+* アップロードされた`.csv` ファイルから&#x200B;**[!UICONTROL 属性：]**&#x200B;属性データを読み取りました。
 
-* **[!UICONTROL Type:]** データ型。例：
+* **[!UICONTROL 種類：]** データ型（例：
 
    * **文字列：**&#x200B;一連の文字。
 
@@ -79,7 +73,7 @@ CX Enterpriseで顧客属性ソースとFTP アカウントを作成した後、
 
    * **数値：**&#x200B;小数第 2 位まで取ることができます。
 
-* **[!UICONTROL Display Name:]**&#x200B;属性のわかりやすい名前。 例えば、属性&#x200B;*customer age*&#x200B;を&#x200B;*customer Since*&#x200B;に変更できます。
+* **[!UICONTROL 表示名：]**&#x200B;属性のわかりやすい名前。 例えば、属性&#x200B;*customer age*&#x200B;を&#x200B;*customer Since*&#x200B;に変更できます。
 
-* **[!UICONTROL Description:]**&#x200B;属性のわかりやすい説明。
+* **[!UICONTROL 説明：]**&#x200B;属性のわかりやすい説明。
 

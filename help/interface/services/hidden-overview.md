@@ -10,8 +10,8 @@ hide: true
 hidefromtoc: true
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 41%
+source-wordcount: '201'
+ht-degree: 35%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 41%
 
 このドキュメントは、[!DNL People] サービス （[!DNL Audience Library]および[!DNL Customer Attributes]）、CX Enterpriseのユーザーおよび製品管理、Cookie、アカウント設定、通知など、CX Enterpriseの統合ヘッダーの機能に適用されます。
 
-CX Enterpriseでこれらのサービスにアクセスするには、 **[!UICONTROL Application Selector]**
-![&#x200B; サービスセレクター](../assets/apps-icon.png)。
+CX Enterpriseでこれらのサービスにアクセスするには、**[!UICONTROL アプリケーションセレクターを選択します]**
+![ サービスセレクター](../assets/apps-icon.png)。
 
-![CX エンタープライズ サービス &#x200B;](../assets/platform-core-services.png)
+![CX エンタープライズ サービス ](../assets/platform-core-services.png)
 
 このヘルプでは、次の製品およびサービスについて説明します。
 
@@ -32,12 +32,12 @@ CX Enterpriseでこれらのサービスにアクセスするには、 **[!UICON
 | --- | --- |
 | [中央インターフェイスコンポーネント](../experience-cloud.md) | アカウント設定にアクセスし、製品ヘルプを検索して、アプリケーションとサービスにアクセスします。 |
 | [オーディエンスライブラリ](audiences/overview.md) | オーディエンスは、訪問者の集合（訪問者 ID のリスト）です。 Adobeの[!DNL Audience Library]では、訪問者データをオーディエンスセグメンテーションに変換できます。 |
-| [顧客属性](customer-attributes/attributes.md) | イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築できます。 [!UICONTROL Journey Orchestration] は、Experience Platform と統合されたアプリケーションサービスです。 |
+| [顧客属性](customer-attributes/attributes.md) | イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築できます。 [!UICONTROL Journey Orchestration]は、Experience Platformと統合されたアプリケーションサービスです。 |
 | [Assets](assets/experience-cloud-assets.md) | CX Enterprise Assetsは、アプリケーション間で共有できる、マーケティングに適したアセットの一元的なリポジトリを提供します。 |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->[Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja)の製品ドキュメントを利用できます。 [!UICONTROL Experience Platform]の開発者向け技術ドキュメントは、[Adobe Developer](https://developer.adobe.com/apis)に記載されています。
+>[Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja)の製品ドキュメントを利用できます。 [!UICONTROL Experience Platform]開発者向けの技術ドキュメントは、[Adobe Developer](https://developer.adobe.com/apis)に記載されています。
 

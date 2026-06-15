@@ -8,15 +8,10 @@ role: Admin, User
 level: Intermediate
 autotag-review: '2026-05-27T16:30:16.764Z'
 TQID: 'https://experienceleague.adobe.com/J74yr0gGkFu1bzTmMvhrQ8TNaRX6nRjWY9WAwd3uydk'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-feature_v2:
-  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-subfeature_v2:
-  - id: cda95149-19e1-4cfa-a57e-751283a32378
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e1971122-7081-4556-9222-8a31bd71800c
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+subfeature_v2: id: cda95149-19e1-4cfa-a57e-751283a32378
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
 source-git-commit: 0c5f2ec6554118a19e4cfc82901eb76468fdceff
 workflow-type: tm+mt
 source-wordcount: 917
@@ -31,7 +26,7 @@ ht-degree: 2%
 **対象**
 
 * 現在、少なくとも1つのExperience Platform ネイティブアプリケーション（Customer Journey Analytics、Journey Optimizer、Real-Time CDP）のライセンスを持つアカウントは、このダッシュボードにアクセスできます
-* Experimentation Accelerator、LLM Optimizer、Sites Optimizerなどの[AI ファースト アプリケーション &#x200B;](agentic-ai.md#ai-first-cx-enterprise-applications)の使用状況と導入率は、このダッシュボードには含まれません
+* Experimentation Accelerator、LLM Optimizer、Sites Optimizerなどの[AI ファースト アプリケーション ](agentic-ai.md#ai-first-cx-enterprise-applications)の使用状況と導入率は、このダッシュボードには含まれません
 
 [!UICONTROL 監視] ダッシュボードには、次のビューが含まれます。
 
@@ -42,9 +37,9 @@ ht-degree: 2%
 | **フィードバック** | レスポンスの質とユーザー満足度に関するシグナル |
 | **AI クレジット** | クレジット消費の動向と残高バランス |
 
-使用状況モニタリングの対象となるエージェントは、既存のCX Enterprise アプリの[AI エージェント &#x200B;](agentic-ai.md#existing-apps-table)に記載されています。詳しくは、[Agentic AI in Adobe CX Enterprise](agentic-ai.md)のドキュメントを参照してください。
+使用状況モニタリングの対象となるエージェントは、既存のCX Enterprise アプリの[AI エージェント ](agentic-ai.md#existing-apps-table)に記載されています。詳しくは、[Agentic AI in Adobe CX Enterprise](agentic-ai.md)のドキュメントを参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491869?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491864?learn=on)
 
 ## ダッシュボード権限の有効化 {#permissions}
 
@@ -54,7 +49,7 @@ ht-degree: 2%
 
 1. 更新する製品プロファイルまたは役割を開きます。
 
-   ![&#x200B; ダッシュボード権限を有効にする](../features/assets/dashboards-permissions.png)
+   ![ ダッシュボード権限を有効にする](../features/assets/dashboards-permissions.png)
 
 1. **[!UICONTROL AI アシスタント]**&#x200B;権限で、**[!UICONTROL リソースを追加]**&#x200B;をクリックし、**[!UICONTROL AI アシスタントの使用状況ダッシュボードの表示]**&#x200B;を有効にします。
 
@@ -62,7 +57,7 @@ ht-degree: 2%
 
 1. **[!UICONTROL ダッシュボード]**&#x200B;権限で、各ユーザーの責任に基づいてダッシュボードアクセスを設定します。
 
-   ![&#x200B; ダッシュボード権限を有効にする](../features/assets/dashboards-add-resource.png)
+   ![ ダッシュボード権限を有効にする](../features/assets/dashboards-add-resource.png)
 
    承認済みガバナンスユーザーに推奨される権限：
 
@@ -78,7 +73,7 @@ ht-degree: 2%
 
 1. ダッシュボードを表示するには、CX Enterprise ホームに戻り、**[!UICONTROL 監視]**&#x200B;をクリックします。
 
-   ![Agentic AI監視ダッシュボード &#x200B;](../features/assets/monitoring.png)
+   ![Agentic AI監視ダッシュボード ](../features/assets/monitoring.png)
 
 ## 概要ダッシュボード
 
@@ -91,7 +86,7 @@ ht-degree: 2%
 * **会話あたりの平均プロンプト：**&#x200B;会話あたりのエンゲージメントの深さ。
 * **フィードバック：** ユーザーからの親指の上下フィードバックの配布（[!DNL AI Assistant]件のインタラクションのみ）。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491879?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491865?learn=on)
 
 ### 会話の再生
 
@@ -100,7 +95,7 @@ ht-degree: 2%
 * **プロンプトと応答の履歴：** ユーザーのプロンプトと応答が配信されました。
 * **フィードバックシグナル：** ユーザーが親指を上または下に置いたインタラクションを行い、ユーザーがつまずきやすい箇所、ブロッカー、またはイネーブルメントのニーズを特定します。 これらの情報は、プロンプトの関連性を高め、Adobeが応答の質を向上させるのに役立ちます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491888?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491866?learn=on)
 
 ## ユーザーダッシュボード
 
@@ -117,7 +112,7 @@ ht-degree: 2%
 * **会話アクティビティ：** ユーザーあたりの会話とプロンプトの数。
 * **上位のアクティブユーザー：** エージェントの導入を促進するエンゲージメントの高いユーザーとチーム。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491921?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491868?learn=on)
 
 ## フィードバックダッシュボード
 
@@ -131,7 +126,7 @@ ht-degree: 2%
 * **プロンプトと応答の履歴：** ユーザーのプロンプトと、送信されたフィードバックに関連付けられた応答。
 * **フィードバックの詳細とメモ：** フィードバック送信時のユーザーからの追加のコンテキストとコメント。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491912?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491878?learn=on)
 
 ## AI クレジットダッシュボード
 
@@ -143,11 +138,11 @@ AI クレジット ダッシュボードは、組織での[!DNL Experience Platf
 * **日次および月次のトレンド：**&#x200B;消費パターンの急増、急減、および変化。
 * **AI クレジット残り：**&#x200B;残り残高。先見的に計画して超過を回避できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491903?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491867?learn=on)
 
 ## このトピックの詳細ヘルプ
 
-* [!DNL Experience Platform]の[&#x200B; ライセンス使用状況ダッシュボード &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/dashboards/guides/license-usage)
+* [!DNL Experience Platform]の[ ライセンス使用状況ダッシュボード ](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)
 * [Adobe CX EnterpriseのAgentic AI](agentic-ai.md)
 * [担当者の業務とAIのクレジット消費](ai-credit-consumption.md)
-* [&#x200B; ライセンス使用状況ダッシュボード &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/dashboards/guides/license-usage) （Experience Platform）
+* [ ライセンス使用状況ダッシュボード ](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) （Experience Platform）
