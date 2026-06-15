@@ -23,8 +23,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 308
-ht-degree: 43%
+source-wordcount: 345
+ht-degree: 39%
 
 ---
 
@@ -42,28 +42,28 @@ ht-degree: 43%
 
 1. [!DNL Customer Attributes]で、編集する属性ソースをクリックします。
 
-1. **[!UICONTROL Edit Customer Attribute Source]**&#x200B;で、**[!UICONTROL File Upload]**&#x200B;をクリックします。
+1. **[!UICONTROL 顧客属性を編集Source]**&#x200B;で、**[!UICONTROL ファイルアップロード]**&#x200B;をクリックします。
 
-1. [!UICONTROL File Upload and Schema Validation] ページで、**[!UICONTROL Actions]** > **[!UICONTROL View/Edit Schema]**&#x200B;をクリックします
+1. [!UICONTROL &#x200B; ファイルのアップロードとスキーマ検証] ページで、**[!UICONTROL アクション]** > **[!UICONTROL スキーマの表示/編集]**&#x200B;をクリックします
 
    ![スキーマの編集](assets/actions.png)
 
-   [!UICONTROL Edit Schema] ページでは、スキーマの各行が、アップロードされたCSV ファイルの列を表します。
+   [!UICONTROL &#x200B; スキーマの編集] ページでは、スキーマの各行が、アップロードされたCSV ファイルの列を表します。
 
    ![CX Enterpriseのスキーマページを編集](assets/schema-edit.png)
 
 **アクション**
 
-* **[!UICONTROL Add Data:]**&#x200B;このデータソースに新しい属性データをアップロードします。
+* **[!UICONTROL データを追加：]**&#x200B;このデータソースに新しい属性データをアップロードします。
 
-* **[!UICONTROL View/Edit Schema:]**&#x200B;次の手順で説明するように、表示名を属性データにマッピングします。
+* **[!UICONTROL スキーマの表示/編集：]**&#x200B;次の手順で説明するように、表示名を属性データにマッピングします。
 
-* **[!UICONTROL FTP Setup:]** FTP アカウントを作成して[FTP](t-upload-attributes-ftp.md)経由でデータをアップロードします（オプション）。
+* **[!UICONTROL FTP セットアップ：]** FTP アカウントを作成して[FTP](t-upload-attributes-ftp.md)経由でデータをアップロードします（オプション）。
 
-* **[!UICONTROL ID Lookup:]** `.csv`から顧客ID （CID）を入力して、そのIDのCX Enterprise情報を検索します。 この機能は、訪問者に対して属性データが表示されない理由をトラブルシューティングするのに役立ちます。
+* **[!UICONTROL ID検索：]** `.csv`から顧客ID （CID）を入力して、IDのCX Enterprise情報を検索します。 この機能は、訪問者に対して属性データが表示されない理由をトラブルシューティングするのに役立ちます。
 
-   * **[!UICONTROL ECID (CX Enterprise ID):]**&#x200B;最新のCX Enterprise ID サービスを使用している場合に表示されます。 MCID サービスを利用していても、ここにリストされているIDがない場合、CX EnterpriseはそのCIDのエイリアスを受信していません。 つまり、その訪問者がログインしていないか、実装がその ID を渡していません。
+   * **[!UICONTROL ECID （CX Enterprise ID）:]**&#x200B;最新のCX Enterprise ID サービスを使用している場合に表示されます。 MCID サービスを利用していても、ここにリストされているIDがない場合、CX EnterpriseはそのCIDのエイリアスを受信していません。 つまり、その訪問者がログインしていないか、実装がその ID を渡していません。
 
-   * **[!UICONTROL CID (customer ID):]**&#x200B;このCIDに関連付けられている属性。 prop または eVar を使用して CID（AVID）をアップロードし、属性は表示されるが AVID は表示されない場合は、訪問者がサイトにログインしていないことを意味します。
+   * **[!UICONTROL CID （顧客ID）:]**&#x200B;このCIDに関連付けられている属性。 prop または eVar を使用して CID（AVID）をアップロードし、属性は表示されるが AVID は表示されない場合は、訪問者がサイトにログインしていないことを意味します。
 
-   * **[!UICONTROL AVID (Analytics visitor ID):]** PropまたはeVarを使用してCIDをアップロードする場合に表示されます。 これらのIDがCX Enterpriseに渡されている場合、入力したCIDに関連付けられている訪問者IDがここに表示されます。
+   * **[!UICONTROL AVID （Analytics訪問者ID）:]** PropまたはeVarを使用してCIDをアップロードする場合に表示されます。 これらのIDがCX Enterpriseに渡されている場合、入力したCIDに関連付けられている訪問者IDがここに表示されます。

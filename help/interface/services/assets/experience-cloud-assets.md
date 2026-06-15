@@ -23,8 +23,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 320
-ht-degree: 69%
+source-wordcount: 330
+ht-degree: 67%
 
 ---
 
@@ -50,7 +50,7 @@ CX Enterprise Assetsは、アプリケーション間で共有できる、マー
 
 ## ツールバーへのアクセス
 
-アセット （またはアセットディレクトリ）に移動し、**[!UICONTROL Select]**&#x200B;をクリックします。
+アセット（またはアセットディレクトリ）に移動し、**[!UICONTROL 選択]**&#x200B;をクリックします。
 
 ツールバーから、検索、タイムライン、レンディション、編集、注釈、ダウンロードなどの機能にすばやくアクセスできます。
 
@@ -78,13 +78,13 @@ CX Enterprise Assetsは、アプリケーション間で共有できる、マー
 
 ## アセットへの注釈の付加
 
-画像上に円または矢印を描画して&#x200B;**[!UICONTROL Annotate]**&#x200B;をクリックし、同僚がレビューするアセットに注釈を付けます。
+画像上に円または矢印を描画して&#x200B;**[!UICONTROL 注釈]**&#x200B;をクリックし、共同作業者によるレビュー用にアセットに注釈を付けます。
 
 ![アセットへの注釈の付加](../../assets/assets-annotate.png)
 
 ## アセットのフルスクリーン表示とズーム
 
-**[!UICONTROL Views]** > **[!UICONTROL Image]**&#x200B;をクリックして、完全なアセット画像を表示し、ズームを有効にします。
+**[!UICONTROL 表示回数]** > **[!UICONTROL 画像]**&#x200B;をクリックして、アセット全体の画像を表示し、ズームを有効にします。
 
 ![アセットのフルスクリーン表示](../../assets/asset-zoom.png)
 
@@ -92,7 +92,7 @@ CX Enterprise Assetsは、アプリケーション間で共有できる、マー
 
 プロパティ付きのカードビュー、リスト表示および列ビューのいずれかを選択して、アセットをより容易に見つけることができます。
 
-**[!UICONTROL Views]** > **[!UICONTROL Properties]**&#x200B;をクリックして、アセットのプロパティを表示します。
+アセットのプロパティを表示するには、**[!UICONTROL ビュー]**/**[!UICONTROL プロパティ]**&#x200B;をクリックします。
 
 ![アセットプロパティの表示](../../assets/asset-properties.png)
 
@@ -100,6 +100,6 @@ CX Enterprise Assetsは、アプリケーション間で共有できる、マー
 
 ユーザー数、使用されているストレージおよびアセット合計数を表示します。
 
-**[!UICONTROL Tools]** > **[!UICONTROL Reports]** > **[!UICONTROL Usage Report]**&#x200B;をクリックします
+**[!UICONTROL ツール]**/**[!UICONTROL レポート]**/**[!UICONTROL 使用状況レポート]**&#x200B;をクリックします
 
 ![使用状況レポートの実行](../../assets/assets-usage-report.png)

@@ -24,14 +24,14 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 515
-ht-degree: 60%
+source-wordcount: 549
+ht-degree: 56%
 
 ---
 
 # オーディエンスの作成
 
-[!UICONTROL Audience Library]では、属性ルールを使用してオーディエンスを作成し、CX Enterprise アプリケーションで共有するための複合オーディエンスを定義できます。
+[!UICONTROL &#x200B; オーディエンスライブラリ &#x200B;]では、属性ルールを使用してオーディエンスを作成し、CX Enterprise アプリケーションで共有するための複合オーディエンスを定義できます。
 
 この記事では、以下の方法について説明します。
 
@@ -58,24 +58,24 @@ ht-degree: 60%
 
 **オーディエンスを作成するには、以下を実行します。**
 
-1. [!DNL CX Enterprise]個のアプリ （![個のアプリアイコン &#x200B;](assets/apps-icon.png)）をクリックし、**[!UICONTROL People]** > **[!UICONTROL Audience Library]をクリックします。**
+1. [!DNL CX Enterprise]個のアプリ（![個のアプリアイコン &#x200B;](assets/apps-icon.png)）をクリックし、**[!UICONTROL 人物]** > **[!UICONTROL オーディエンスライブラリ &#x200B;]をクリックします。**
 
-1. [!UICONTROL Audiences] ページで、**[!UICONTROL New]**&#x200B;をクリックします。 ![新しいオーディエンス &#x200B;](assets/add_icon_small.png)
+1. [!UICONTROL &#x200B; オーディエンス &#x200B;] ページで、**[!UICONTROL 新規]**&#x200B;をクリックします。 ![新しいオーディエンス &#x200B;](assets/add_icon_small.png)
 
    ![オーディエンスの作成](assets/audience_create_new.png)
 
-1. [!UICONTROL Create New Audience] ページで、**[!UICONTROL Title]**&#x200B;および&#x200B;**[!UICONTROL Description]** フィールドに入力します。
-1. [!UICONTROL Rules]で、参照レポートスイートを選択し、属性ソースを選択します。
+1. [!UICONTROL 新しいオーディエンスの作成] ページで、**[!UICONTROL タイトル]**&#x200B;および&#x200B;**[!UICONTROL 説明]** フィールドに入力します。
+1. [!UICONTROL &#x200B; ルール &#x200B;]で、参照レポートスイートを選択してから、属性ソースを選択します。
 
-   * **[!UICONTROL Real-Time Analytics Data:]** （またはRaw データ）これは、Real-Time Analytics イメージリクエストから派生した属性データです。 eVarやイベントも含まれます。 この属性ソースを使用する場合は、レポートスイートを選択し、含めるディメンションまたはイベントを定義する必要があります。 このレポートスイートの選択により、レポートスイートで使用された変数構造が提供されます。
+   * **[!UICONTROL Real-Time Analytics データ：]** （またはRaw データ）これは、Real-Time Analytics イメージリクエストから派生した属性データです。 eVarやイベントも含まれます。 この属性ソースを使用する場合は、レポートスイートを選択し、含めるディメンションまたはイベントを定義する必要があります。 このレポートスイートの選択により、レポートスイートで使用された変数構造が提供されます。
 
      >[!NOTE]
      >
      >Analyticsで削除されたレポートスイートは、キャッシュが原因で、CX Enterpriseに削除が表示されるまでに12時間かかる。
 
-   * [!DNL CX Enterprise] ソースから派生した&#x200B;**[!UICONTROL CX Enterprise:]**&#x200B;属性データ。 例えば、[!DNL Analytics] で作成したオーディエンスセグメントからのデータや、[!DNL Audience Manager] からのデータです。
+   * **[!UICONTROL CX Enterprise:]**&#x200B;属性データが[!DNL CX Enterprise] ソースから派生しました。 例えば、[!DNL Analytics] で作成したオーディエンスセグメントからのデータや、[!DNL Audience Manager] からのデータです。
 
-1. オーディエンスルールを定義し、**[!UICONTROL Save].**&#x200B;をクリックします
+1. オーディエンスルールを定義し、**[!UICONTROL 保存].**&#x200B;をクリックします
 
 **例：複合オーディエンスのルールを定義**
 
@@ -83,18 +83,18 @@ ht-degree: 60%
 >
 >オーディエンスルールを定義する場合は、実装変数について理解している必要があります。
 
-[!UICONTROL Rules]で、*`Home & Garden`*&#x200B;属性の選択を定義します。
+[!UICONTROL &#x200B; ルール &#x200B;]で、*`Home & Garden`*&#x200B;属性の選択を定義します。
 
-* **[!UICONTROL Attribute Source:]**&#x200B;個の生の分析データ
-* **[!UICONTROL Report Suite:]** レポートスイート 31
-* Dimension = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Equals]** > **[!UICONTROL Home & Garden]**
+* **[!UICONTROL 属性Source:]**&#x200B;生のAnalytics データ
+* **[!UICONTROL レポートスイート：]** レポートスイート 31
+* Dimension = **[!UICONTROL Store （Merch） （v6）]** > **[!UICONTROL Equals]** > **[!UICONTROL Home &amp; Garden]**
 
 ![オーディエンスライブラリでの属性の選択](assets/home_garden.png)
 
 *Chrome および Safari の訪問者*&#x200B;は、Analytics から共有されたオーディエンスセグメントです。
 
-* **[!UICONTROL Attribute Source:]** CX エンタープライズ
-* **[!UICONTROL Dimension:]**&#x200B;人のChromeとSafari訪問者
+* **[!UICONTROL Attribute Source:]** CX Enterprise
+* **[!UICONTROL Dimension:]** ChromeとSafariの訪問者
 
 ![Chrome および Safari の訪問者](assets/chrome_safari.png)
 

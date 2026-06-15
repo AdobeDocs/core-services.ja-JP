@@ -34,7 +34,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 1243
+source-wordcount: 1248
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ Adobeが証明書をインストールしたら、次のいずれかの方法を
 
 +++**ブラウザーの検証**
 
-任意のブラウザーを使用して、証明書が正しくインストールされていることを検証できます。 アドレスバーへのパスとして`_check`を含むCNAMEを入力します。 例：
+任意のブラウザーを使用して、証明書が正しくインストールされていることを検証できます。 アドレスバーへのパスとして`_check`を含むCNAMEを入力します。 次に例を示します。
 
 `data.example.com/_check`
 

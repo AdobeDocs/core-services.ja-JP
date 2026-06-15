@@ -1,5 +1,5 @@
 ---
-title: Experience CloudアプリケーションのAgentic AI
+title: Experience Cloud アプリケーションのAgentic AI
 description: Agentic AIをCX Enterprise アプリケーションで利用できる場所について説明します。
 solution: Experience Cloud
 landing-page-name: ai

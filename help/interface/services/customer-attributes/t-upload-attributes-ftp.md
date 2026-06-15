@@ -21,8 +21,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 379
-ht-degree: 53%
+source-wordcount: 394
+ht-degree: 51%
 
 ---
 
@@ -47,7 +47,7 @@ CX Enterpriseで顧客属性ソースとFTP アカウントを作成した後、
 
    FTP サイトにログインしていることを `ftp.adobe.com/<sftpname>`.
 
-1. **[!UICONTROL Actions]**／**[!UICONTROL File Upload]**&#x200B;をクリックします。
+1. **[!UICONTROL アクション]**/**[!UICONTROL ファイルアップロード]**&#x200B;をクリックします。
 
 1. ファイルを取得できるように、`.fin` ファイルをアップロードします。
 
@@ -61,7 +61,7 @@ CX Enterpriseで顧客属性ソースとFTP アカウントを作成した後、
 
 属性ソースごとに1つのFTP アカウントを設定します。
 
-[!UICONTROL File Upload and Schema Validation] ページで、**[!UICONTROL FTP Setup]**&#x200B;をクリックします。
+[!UICONTROL &#x200B; ファイルのアップロードとスキーマ検証] ページで、**[!UICONTROL FTP セットアップ]**&#x200B;をクリックします。
 
 ![スキーマの編集](assets/ftp-account.png)
 
@@ -69,9 +69,9 @@ CX Enterpriseで顧客属性ソースとFTP アカウントを作成した後、
 
 文字列、整数および数値に適用する名前は、[!DNL Analytics] 指標の作成に使用されます。
 
-* アップロードされた`.csv` ファイルから&#x200B;**[!UICONTROL attribute:]**&#x200B;属性データを読み取りました。
+* アップロードされた`.csv` ファイルから&#x200B;**[!UICONTROL 属性：]**&#x200B;属性データを読み取りました。
 
-* **[!UICONTROL Type:]** データ型。例：
+* **[!UICONTROL 種類：]** データ型（例：
 
    * **文字列：**&#x200B;一連の文字。
 
@@ -79,7 +79,7 @@ CX Enterpriseで顧客属性ソースとFTP アカウントを作成した後、
 
    * **数値：**&#x200B;小数第 2 位まで取ることができます。
 
-* **[!UICONTROL Display Name:]**&#x200B;属性のわかりやすい名前。 例えば、属性&#x200B;*customer age*&#x200B;を&#x200B;*customer Since*&#x200B;に変更できます。
+* **[!UICONTROL 表示名：]**&#x200B;属性のわかりやすい名前。 例えば、属性&#x200B;*customer age*&#x200B;を&#x200B;*customer Since*&#x200B;に変更できます。
 
-* **[!UICONTROL Description:]**&#x200B;属性のわかりやすい説明。
+* **[!UICONTROL 説明：]**&#x200B;属性のわかりやすい説明。
 

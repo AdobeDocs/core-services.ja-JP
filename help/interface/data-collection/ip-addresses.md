@@ -1,5 +1,5 @@
 ---
-title: EXPERIENCE CLOUDで使用されるIP アドレス
+title: Experience Cloudで使用されるIP アドレス
 description: 組織のファイアウォールがAdobeから送信されたIP アドレスをブロックする場合は、このリストを使用してファイアウォールの設定を更新します。
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
 TQID: https://experienceleague.adobe.com/EPoerIJdL9FVBFB32WRB9zBMdXJarSu90hJIsn7Vpps

@@ -1,7 +1,7 @@
 ---
 description: CX Enterprise アセットフォルダーをCreative Cloud ユーザーと共有する方法について説明します。
 solution: Experience Cloud
-title: Experience Cloud Asset フォルダーの共有
+title: Experience Cloud アセットフォルダーの共有
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 feature: Assets
 topic: Administration
@@ -23,8 +23,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 451
-ht-degree: 39%
+source-wordcount: 474
+ht-degree: 37%
 
 ---
 
@@ -44,26 +44,26 @@ Creative Cloud ユーザーがアセットにアクセスする前に、CX Enter
 
 **CX Enterprise アセットフォルダーを共有するには**
 
-1. アセットフォルダーで、**[!UICONTROL Share to Creative Cloud]**&#x200B;をクリックします。
+1. アセットフォルダーで、**[!UICONTROL Creative Cloudに共有]**&#x200B;をクリックします。
 
    ![Creative Cloud で共有](../../assets/asset-share-cc.png)
-1. 「Creative Cloudに共有」ページで、ユーザーを検索し、「**[!UICONTROL Add]**」をクリックします。
+1. 「Creative Cloudに共有」ページで、ユーザーを検索し、「**[!UICONTROL 追加]**」をクリックします。
 
    ![Creative Cloud ユーザーを追加](../../assets/asset-share-cc-page.png)
 
-1. 「**[!UICONTROL Share]**」をクリックします。
-1. [!DNL Creative Cloud] デスクトップを起動し（またはブラウザーで[!UICONTROL Creative Cloud Files] ページに移動）、リクエスト通知を探します。
+1. 「**[!UICONTROL 共有]**」をクリックします。
+1. [!DNL Creative Cloud] デスクトップを起動し（またはブラウザーで[!UICONTROL Creative Cloud ファイル &#x200B;] ページに移動）、リクエスト通知を探します。
 
    ![リクエスト通知](../../assets/cc_share_request.png)
-1. リクエストを開き、**[!UICONTROL Accept]**&#x200B;をクリックします。
+1. リクエストを開き、**[!UICONTROL 同意]**&#x200B;をクリックします。
 
    ![リクエストを承認](../../assets/cc_share_accept.png)
-1. フォルダーの内容にアクセスするには、**[!UICONTROL Open Folder]** （または&#x200B;**[!UICONTROL View on Web]**）をクリックします。
+1. フォルダーの内容にアクセスするには、**[!UICONTROL フォルダーを開く]** （または&#x200B;**[!UICONTROL Web]**&#x200B;で表示）をクリックします。
 
    ![Web で表示](../../assets/creative_cloud_open_folder.png)
 1. 共有アセットにコメントを追加して続行します。
 
-   Creative Cloudで、画像を選択し、**[!UICONTROL Activity]**&#x200B;をクリックして画像にコメントを追加できます。 コメントは、[!DNL Creative Cloud] と [!DNL CX Enterprise] のアセットで同期されます。
+   Creative Cloudで、画像を選択し、**[!UICONTROL アクティビティ]**&#x200B;をクリックして、画像にコメントを追加できます。 コメントは、[!DNL Creative Cloud] と [!DNL CX Enterprise] のアセットで同期されます。
 
    ![画像にコメントを追加](../../assets/asset_comment_cc.png)
 
@@ -71,7 +71,7 @@ Creative Cloud ユーザーがアセットにアクセスする前に、CX Enter
 
    ![画像にコメントを追加](../../assets/asset_comment_mac.png)
 
-1. フォルダーの共有を解除するには、**[!UICONTROL Share Using Creative Cloud]** （[手順3](share.md)と同様）をクリックし、「X」を選択してユーザーを削除してから「**[!UICONTROL Share]**」をクリックします。
+1. フォルダーの共有を解除するには、「**[!UICONTROL Share Using Creative Cloud]**」（[手順3](share.md)と同様）をクリックし、「X」を選択してユーザーを削除してから、「**[!UICONTROL Share]**」をクリックします。
 
    ![フォルダーの共有を解除する](../../assets/asset_remove_user.png)
 
@@ -91,7 +91,7 @@ Creative Cloud にフォルダーを共有すると、フォルダー上に Crea
 
 ## Adobe Target とのアセットの共有について
 
-[!DNL Adobe Target]でアクティビティを作成する場合、[!UICONTROL Offers Library]で画像を入れ替える際に、共有の画像アセットを使用できます。
+[!DNL Adobe Target]でアクティビティを作成する場合、[!UICONTROL &#x200B; オファーライブラリ &#x200B;]で画像を入れ替える際に、共有の画像アセットを使用できます。
 
 [!DNL Target] ヘルプの[オファーライブラリ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=ja)を参照してください。
 

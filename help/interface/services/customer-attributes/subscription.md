@@ -21,8 +21,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 408
-ht-degree: 47%
+source-wordcount: 421
+ht-degree: 46%
 
 ---
 
@@ -36,15 +36,15 @@ ht-degree: 47%
 
 1. 編集用に[!DNL Customer Attributes]でデータソースを見つけます。
 
-   [!DNL CX Enterprise]で、**[!UICONTROL Apps]** ![&#x200B; メニュー](assets/menu-icon.png) > **[!DNL Customer Attributes]**&#x200B;をクリックします。
+   [!DNL CX Enterprise]で、**[!UICONTROL アプリ]** ![&#x200B; メニュー](assets/menu-icon.png) > **[!DNL Customer Attributes]**&#x200B;をクリックします。
 
-1. [!UICONTROL Edit Customer Attribute Source]で、**[!UICONTROL File Upload]**&#x200B;をクリックします。
+1. [!UICONTROL 顧客属性を編集Source]で、**[!UICONTROL ファイルアップロード]**&#x200B;をクリックします。
 
-1. 「**[!UICONTROL Configure Subscriptions]**」をクリックします。
+1. 「**[!UICONTROL 購読の設定]**」をクリックします。
 
    ![CX Enterpriseでのサブスクリプションの設定](assets/configure-subscriptions.png)
 
-1. 顧客属性ソースをアクティブにするには、**[!UICONTROL Active]**&#x200B;をクリックし、**[!UICONTROL Save]**&#x200B;をクリックします。
+1. 顧客属性ソースをアクティブにするには、**[!UICONTROL アクティブ]**&#x200B;をクリックし、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
 1. サブスクリプションを[!DNL Analytics]または[!DNL Target]に設定するには、**[!UICONTROL Configure]**&#x200B;をクリックします。
 
@@ -58,4 +58,4 @@ ht-degree: 47%
    | レポートスイート（Adobe Analytics） | Analyticsのレポートスイート。<br>1つの属性ソース内のAnalytics サブスクリプションに、合計10個を超えるレポートスイートを追加することはできません。 含めるレポートスイートを選択する際は、以下のアドバイスを考慮してください。<ul><li>認証済みの共通の顧客セットを持つレポートスイートを選択する。 あるレポートスイートの認証済み顧客が別のレポートスイートの認証済み顧客と重ならない場合は、これらのレポートスイートを異なる属性ソースに分けてください。</li><li>可能であれば、1 つの属性ソースに含まれるレポートスイートのトラフィック量は同じにする。</li></ul><br>認証済みの共通の顧客セットを持つレポートスイートが 10 以上ある場合は、追加の顧客属性ソースを設定して、それぞれを最大 10 レポートスイートにすることができます。 |
    | 含める属性（Analytics と [!DNL Target]） | アプリケーションに送信する属性。 <br>サブスクリプションを設定し属性を選択する場合、_所有するソリューションに応じて、_&#x200B;レポートスイートごとに次の制限が適用されます。<ul><li>Foundation：0 件</li><li>Select：3 件</li><li>Prime：15 件</li><li>Ultimate：200 件</li><li>Standard：合計 3 件</li><li>Premium：レポートスイートあたり 200 件</li><li>[!DNL Target] Standard：5 件</li><li>[!DNL Target] Premium：200 件</li></ul><br>**注意：** Analytics Premium にアップグレードすると、追加の属性を使用できるようになるまでに 24 時間の遅延が生じます。 この遅延の間に発行された属性サブスクリプションの最大エラーが表示される場合があります。 |
 
-1. 「**[!UICONTROL Save]**」をクリックします。
+1. 「**[!UICONTROL 保存]**」をクリックします。
