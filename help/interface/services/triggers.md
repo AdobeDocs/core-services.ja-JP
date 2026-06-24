@@ -24,16 +24,16 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: e56a5463246fe74bd7393de446687b6464760db1
 workflow-type: tm+mt
-source-wordcount: 726
-ht-degree: 71%
+source-wordcount: 817
+ht-degree: 63%
 
 ---
 
 # 顧客体験に関する大規模なトリガー
 
-CX Enterpriseの[!UICONTROL トリガー]を使用すると、主要な消費者行動を特定、定義、モニターしてから、アプリケーション間のコミュニケーションを生成して訪問者を再エンゲージできます。 リアルタイムでの意思決定とパーソナライゼーションに Triggers を使用できます。
+CX Enterpriseの[!UICONTROL トリガー]を使用すると、主要な消費者行動を特定、定義、モニターしてから、アプリケーション間のコミュニケーションを生成して訪問者を再エンゲージできます。 リアルタイムでの意思決定とパーソナライゼーションに Triggers を使用できます。 Adobe Campaignで[!UICONTROL トリガー]を使用する方法について詳しくは、[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=ja)を参照してください。
 
 次に例を示します。
 
@@ -45,7 +45,7 @@ CX Enterpriseの[!UICONTROL トリガー]を使用すると、主要な消費者
 
 >[!NOTE]
 >
->[!UICONTROL トリガー]の使用について詳しくは、[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=ja)を参照してください。
+>トリガーは本質的には決定論的ではない。 複数のユーザーが1つのブラウザーやデバイス（共有デバイスや公開デバイスなど）を共有している場合、トリガーを正しい訪問者IDにマッピングできない可能性があります。
 
 ## トリガーの種類
 
@@ -101,3 +101,6 @@ CX企業トリガーの例：
 
 ![リファラートリガー](../assets/fb-boots-promo.png)
 
+## トリガーのアクティビティを検証しています
+
+トリガーが実行されたことを確認するには、[!UICONTROL トリガー] インターフェイスを使用して、トリガーの最近のアクティビティを確認します。 このインターフェイスには、最近のトリガーイベントの数が限られているため、データ量が多い実装では、すべてのトリガーアクティビティが表示されない場合があります。 APIによるプログラマティック検証は現在サポートされていません。
