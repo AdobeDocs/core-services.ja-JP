@@ -9,31 +9,21 @@ role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
 TQID: https://experienceleague.adobe.com/1R70ZEmKiP9VhhSRVCXHjGoJbOb7Mh8spKRm4FgNRPc
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e56a5463246fe74bd7393de446687b6464760db1
 workflow-type: tm+mt
-source-wordcount: 726
-ht-degree: 71%
+source-wordcount: 817
+ht-degree: 63%
 
 ---
 
 # 顧客体験に関する大規模なトリガー
 
-CX Enterpriseの[!UICONTROL トリガー]を使用すると、主要な消費者行動を特定、定義、モニターしてから、アプリケーション間のコミュニケーションを生成して訪問者を再エンゲージできます。 リアルタイムでの意思決定とパーソナライゼーションに Triggers を使用できます。
+CX Enterpriseの[!UICONTROL トリガー]を使用すると、主要な消費者行動を特定、定義、モニターしてから、アプリケーション間のコミュニケーションを生成して訪問者を再エンゲージできます。 リアルタイムでの意思決定とパーソナライゼーションに Triggers を使用できます。 Adobe Campaignで[!UICONTROL トリガー]を使用する方法について詳しくは、[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html)を参照してください。
 
 次に例を示します。
 
@@ -45,7 +35,7 @@ CX Enterpriseの[!UICONTROL トリガー]を使用すると、主要な消費者
 
 >[!NOTE]
 >
->[!UICONTROL トリガー]の使用について詳しくは、[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=ja)を参照してください。
+>トリガーは本質的には決定論的ではない。 複数のユーザーが1つのブラウザーやデバイス（共有デバイスや公開デバイスなど）を共有している場合、トリガーを正しい訪問者IDにマッピングできない可能性があります。
 
 ## トリガーの種類
 
@@ -63,7 +53,7 @@ CX Enterpriseの[!UICONTROL トリガー]を使用すると、主要な消費者
 >
 >現在、100 トリガーまでという技術的な制限があります。
 
-1. CX エンタープライズで、![&#x200B; メニュー](../assets/menu-icon.png)をクリックし、**[!UICONTROL データ収集/起動]**&#x200B;をクリックします。
+1. CX エンタープライズで、![ メニュー](../assets/menu-icon.png)をクリックし、**[!UICONTROL データ収集/起動]**&#x200B;をクリックします。
 1. [!UICONTROL トリガー] カードで、**[!UICONTROL トリガーの管理]**&#x200B;をクリックします。
 1. 「**[!UICONTROL 新規トリガー]**」をクリックし、トリガーの種類を指定します。
 
@@ -76,8 +66,8 @@ CX Enterpriseの[!UICONTROL トリガー]を使用すると、主要な消費者
    | [!UICONTROL 名前] | このトリガーのわかりやすい名前。 |
    | [!UICONTROL 説明] | このトリガーの説明、使い方など。 |
    | [!UICONTROL レポートスイート] | このトリガーに使用する Analytics [レポートスイート](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=ja)。 この設定は、使用するレポートデータを特定します。 |
-   | 訪問には<br>訪問を含める必要があります<br>操作を行わない後のトリガー<br> メタデータを含める | 条件または発生してほしい訪問者の行動、および発生してほしくない行動を定義できます。 例えば、シンプルな買い物かご放棄トリガーのルールは、次のようになります。<ul><li>訪問には、[!UICONTROL 買い物かごの追加] （指標）と[!UICONTROL 存在]が含まれている必要があります。 （特定の製品の表示またはブラウザータイプなどのディメンションでルールをさらに洗練させることができます）。</li><li>訪問に次を含めることはできません：[!UICONTROL &#x200B; チェックアウト &#x200B;]。</li><li>次のアクションがなかった後のトリガー：10 分。</li><li>[!UICONTROL Meta データを含める]：訪問者の行動に関連する特定の[!DNL Campaign] ディメンションまたは変数を追加できます。 このフィールドは、Adobe Campaign で適切なリマーケティング電子メールを構築するのに便利です。</li></ul><br> ルールにとって重要であると判断した条件に応じて、コンテナ内またはコンテナ間の[!UICONTROL Any]、[!UICONTROL And]または[!UICONTROL Or] ロジックを指定できます。 |
-   | [!UICONTROL &#x200B; コンテナ &#x200B;] | [!UICONTROL Containers]は、トリガーを定義するルール、条件、フィルターを設定して保存する場所です。 同時にイベントを発生させたい場合、イベントを同じコンテナに配置します。 つまり、各コンテナは、ヒットレベルで別々に処理されます。 例えば、2 つのコンテナが AND 演算子で結合されている場合、2 つのヒットが要件を満たすタイミングを満たすルールを期待できます。 |
+   | 訪問には<br>訪問を含める必要があります<br>操作を行わない後のトリガー<br> メタデータを含める | 条件または発生してほしい訪問者の行動、および発生してほしくない行動を定義できます。 例えば、シンプルな買い物かご放棄トリガーのルールは、次のようになります。<ul><li>訪問には、[!UICONTROL 買い物かごの追加] （指標）と[!UICONTROL 存在]が含まれている必要があります。 （特定の製品の表示またはブラウザータイプなどのディメンションでルールをさらに洗練させることができます）。</li><li>訪問に次を含めることはできません：[!UICONTROL  チェックアウト ]。</li><li>次のアクションがなかった後のトリガー：10 分。</li><li>[!UICONTROL Meta データを含める]：訪問者の行動に関連する特定の[!DNL Campaign] ディメンションまたは変数を追加できます。 このフィールドは、Adobe Campaign で適切なリマーケティング電子メールを構築するのに便利です。</li></ul><br> ルールにとって重要であると判断した条件に応じて、コンテナ内またはコンテナ間の[!UICONTROL Any]、[!UICONTROL And]または[!UICONTROL Or] ロジックを指定できます。 |
+   | [!UICONTROL  コンテナ ] | [!UICONTROL Containers]は、トリガーを定義するルール、条件、フィルターを設定して保存する場所です。 同時にイベントを発生させたい場合、イベントを同じコンテナに配置します。 つまり、各コンテナは、ヒットレベルで別々に処理されます。 例えば、2 つのコンテナが AND 演算子で結合されている場合、2 つのヒットが要件を満たすタイミングを満たすルールを期待できます。 |
    | この次に新しいセッションを開始 | セッション開始およびセッション終了イベントのトリガーを作成します。 |
 
    {style="table-layout:auto"}
@@ -101,3 +91,6 @@ CX企業トリガーの例：
 
 ![リファラートリガー](../assets/fb-boots-promo.png)
 
+## トリガーのアクティビティを検証しています
+
+トリガーが実行されたことを確認するには、[!UICONTROL トリガー] インターフェイスを使用して、トリガーの最近のアクティビティを確認します。 このインターフェイスには、最近のトリガーイベントの数が限られているため、データ量が多い実装では、すべてのトリガーアクティビティが表示されない場合があります。 APIによるプログラマティック検証は現在サポートされていません。
