@@ -77,7 +77,7 @@ AI ファーストのアプリケーションは、生成AIまたはエージェ
 ## このトピックの詳細ヘルプ
 
 * [担当者の業務とAIのクレジット消費](/help/interface/features/ai-credit-consumption.md)
-* CX Enterpriseの[AI](https://experienceleague.adobe.com/en/docs/ai) ドキュメント ホーム
+* CX Enterpriseの[AI](https://experienceleague.adobe.com/ja/docs/ai) ドキュメント ホーム
 * [AEMのAgentsの概要](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agents/overview)
 
 [!BADGE Adobe for Businessについて詳しく見る]{type=Informative url="https://business.adobe.com/jp/products/experience-platform/agent-orchestrator.html" tooltip="Business.adobe.comにアクセスします。"}
