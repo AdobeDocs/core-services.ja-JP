@@ -33,7 +33,7 @@ ht-degree: 63%
 
 # 顧客体験に関する大規模なトリガー
 
-CX Enterpriseの[!UICONTROL トリガー]を使用すると、主要な消費者行動を特定、定義、モニターしてから、アプリケーション間のコミュニケーションを生成して訪問者を再エンゲージできます。 リアルタイムでの意思決定とパーソナライゼーションに Triggers を使用できます。 Adobe Campaignで[!UICONTROL トリガー]を使用する方法について詳しくは、[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html)を参照してください。
+CX Enterpriseの[!UICONTROL トリガー]を使用すると、主要な消費者行動を特定、定義、モニターしてから、アプリケーション間のコミュニケーションを生成して訪問者を再エンゲージできます。 リアルタイムでの意思決定とパーソナライゼーションに Triggers を使用できます。 Adobe Campaignで[!UICONTROL トリガー]を使用する方法について詳しくは、[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=ja)を参照してください。
 
 次に例を示します。
 
