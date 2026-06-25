@@ -44,7 +44,7 @@ ht-degree: 2%
 
 使用状況モニタリングの対象となるエージェントは、既存のCX Enterprise アプリの[AI エージェント &#x200B;](agentic-ai.md#existing-apps-table)に記載されています。詳しくは、[Agentic AI in Adobe CX Enterprise](agentic-ai.md)のドキュメントを参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491864?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491869?captions=jpn&learn=on)
 
 ## ダッシュボード権限の有効化 {#permissions}
 
@@ -91,7 +91,7 @@ ht-degree: 2%
 * **会話あたりの平均プロンプト：**&#x200B;会話あたりのエンゲージメントの深さ。
 * **フィードバック：** ユーザーからの親指の上下フィードバックの配布（[!DNL AI Assistant]件のインタラクションのみ）。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491865?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491879?captions=jpn&learn=on)
 
 ### 会話の再生
 
@@ -100,7 +100,7 @@ ht-degree: 2%
 * **プロンプトと応答の履歴：** ユーザーのプロンプトと応答が配信されました。
 * **フィードバックシグナル：** ユーザーが親指を上または下に置いたインタラクションを行い、ユーザーがつまずきやすい箇所、ブロッカー、またはイネーブルメントのニーズを特定します。 これらの情報は、プロンプトの関連性を高め、Adobeが応答の質を向上させるのに役立ちます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491866?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491888?captions=jpn&learn=on)
 
 ## ユーザーダッシュボード
 
@@ -117,7 +117,7 @@ ht-degree: 2%
 * **会話アクティビティ：** ユーザーあたりの会話とプロンプトの数。
 * **上位のアクティブユーザー：** エージェントの導入を促進するエンゲージメントの高いユーザーとチーム。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491868?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491921?captions=jpn&learn=on)
 
 ## フィードバックダッシュボード
 
@@ -131,7 +131,7 @@ ht-degree: 2%
 * **プロンプトと応答の履歴：** ユーザーのプロンプトと、送信されたフィードバックに関連付けられた応答。
 * **フィードバックの詳細とメモ：** フィードバック送信時のユーザーからの追加のコンテキストとコメント。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491878?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491912?captions=jpn&learn=on)
 
 ## AI クレジットダッシュボード
 
@@ -143,7 +143,7 @@ AI クレジット ダッシュボードは、組織での[!DNL Experience Platf
 * **日次および月次のトレンド：**&#x200B;消費パターンの急増、急減、および変化。
 * **AI クレジット残り：**&#x200B;残り残高。先見的に計画して超過を回避できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491867?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491903?captions=jpn&learn=on)
 
 ## このトピックの詳細ヘルプ
 
