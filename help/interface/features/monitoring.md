@@ -1,6 +1,6 @@
 ---
 title: Agentic AI利用状況モニタリング
-description: CX EnterpriseのAI利用状況モニタリング用ダッシュボードについて説明します。 導入の追跡、会話とフィードバックの確認、利用状況、品質、コストの可視化に対するAI クレジットの管理。
+description: CX Enterprise の AI 使用状況モニタリング用ダッシュボードについて説明します。 導入の追跡、会話とフィードバックの確認、利用状況、品質、コストの可視化に対するAI クレジットの管理。
 solution: Experience Cloud, Experience Platform
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
@@ -17,10 +17,10 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 5c3f20052f8c0a847cd0c56f02697c1d749c040c
+source-git-commit: 79c2a309c7df2d6afd36b38134609a144a40a482
 workflow-type: tm+mt
-source-wordcount: 917
-ht-degree: 2%
+source-wordcount: 1009
+ht-degree: 3%
 
 ---
 
@@ -49,6 +49,14 @@ ht-degree: 2%
 ## ダッシュボード権限の有効化 {#permissions}
 
 承認済みの各ユーザーの製品プロファイルまたは役割を更新して、[!DNL Adobe Experience Platform]でのダッシュボードへのアクセス権を付与します。 [!UICONTROL 監視]機能は、権限が有効になった後、CX エンタープライズ ホームページのユーザーに表示されます。
+
+>[!IMPORTANT]
+>
+>監視データは、デフォルトの実稼動サンドボックスでのみ使用できます。 開発サンドボックスは、監視データの表示ではサポートされていません。 ユーザーは、デフォルトの実稼動サンドボックスに対する必要な監視権限を持ち、そのサンドボックスに切り替えて監視データを表示する必要があります。
+>
+>混乱を防ぐために、Adobeでは、デフォルトの実稼動サンドボックスを含むすべてのサンドボックスに対してMonitoring権限を付与することをお勧めします。 これにより、現在選択されているサンドボックスに関係なく、ユーザーが監視ダッシュボードにアクセスできるようにし、サポートされていないサンドボックスを空のダッシュボードまたは機能しないダッシュボードと間違える可能性を減らすことができます。
+
+**ダッシュボードの権限を有効にするには**
 
 1. [!DNL Experience Platform] **管理** > **権限**&#x200B;に移動します。
 
