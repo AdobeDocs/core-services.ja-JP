@@ -20,7 +20,7 @@ ht-degree: 57%
    + [エージェント型 AI](features/agentic-ai.md)
    + [エージェント型AI モニタリング](/help/interface/features/monitoring.md)
    + [担当者の業務とAIのクレジット消費](/help/interface/features/ai-credit-consumption.md)
-   + [エージェント型ツール](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
+   + [エージェント型ツール](https://experienceleague.adobe.com/ja/docs/cx-enterprise-agentic-tools/using/overview)
 + 管理 {#administration}
    + [アカウントの環境設定と通知](/help/interface/features/account-preferences.md)
    + [ブラウザーと言語のサポート](/help/interface/browser-language.md)
