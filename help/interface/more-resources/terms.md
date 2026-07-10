@@ -22,9 +22,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 692
+source-wordcount: 687
 ht-degree: 5%
 
 ---
@@ -47,7 +47,7 @@ TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR---BnMM7lJgN0H
 | **Admin Console** | ユーザー、製品プロファイル、IDの`adminconsole.adobe.com`のエンタープライズ コントロール プレーン。CX Enterprise **管理** トピックからリンクされています。 [&#x200B; ユーザーと製品管理](../administration/admin-console.md)を参照してください。 | 各アプリ内の&#x200B;**製品内の管理者**&#x200B;とは異なります（Analytics管理ツールやJourney Optimizer権限画面など）。 |
 | **製品プロファイル** | 製品または機能へのアクセス権を付与するAdmin Consoleのライセンスバンドル。権限を付与するには、ユーザーがプロファイルに属している必要があります。 [製品およびプロファイルの管理](https://helpx.adobe.com/jp/enterprise/using/manage-products.html)を参照してください。 | 製品内のすべての「ワークスペース」、「コンテナ」、「プロパティ」の名前と互換性がありません。ソリューションによって異なります。 |
 | **アカウントリンク** | サービスが1人のユーザーを認識できるように、アプリケーションのログイン（AnalyticsやTargetの資格情報など）をAdobe IDに接続します。 [組織とアカウントリンク &#x200B;](../administration/organizations.md)を参照してください。 | **ディレクトリ同期**、**SSO**、または&#x200B;**フェデレーション**&#x200B;のセットアップと同じではありません（これらはAdmin Consoleの組織全体のID決定です）。 |
-| **Experience Cloud ID サービス / ECID** | 複数のソリューションで使用される永続的な訪問者識別子。多くの場合、タグまたはWeb SDKと共にデプロイされます。 古いAnalyticsの議論では、依然として&#x200B;**Experience Cloud ID**&#x200B;または&#x200B;**MID**&#x200B;として一般的に参照されています。 [ID サービスの概要](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を参照してください。 | 1つのアプリの従来のcookie名または&#x200B;**Experience Platform** ID グラフの概念とは異なりますが、実装に関連する場合があります。 |
+| **訪問者ID サービス / ECID** | 複数のソリューションで使用される永続的な訪問者識別子。多くの場合、タグまたはWeb SDKと共にデプロイされます。 以前のAnalytics ディスカッションでは、一般的に&#x200B;**MID**&#x200B;と呼ばれます。 [訪問者ID サービスの概要](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を参照してください。 | 1つのアプリの従来のCookie名または&#x200B;**Experience Platform Identity Service**&#x200B;のコンセプトとは異なりますが、実装に関連する可能性があります。 |
 | **顧客属性** | People サービスを介してAnalytics、Target、および関連ワークフローで使用するためにアップロードしてマッピングするCRMまたはエンタープライズ属性。 [顧客属性](../services/customer-attributes/attributes.md)のトピックを参照してください。 | 商品の境界線を確認せずに、**Audience Manager特性**&#x200B;のみまたは&#x200B;**Real-Time CDP** プロファイルフィールドごとに等価にしないでください。 |
 | **オーディエンスライブラリ** | 統合アプリケーションをまたいでオーディエンスを構成および共有できる、顧客体験管理のエンタープライズ UI。 | **Audience Manager**&#x200B;と&#x200B;**Target**&#x200B;も「オーディエンス」を使用していますが、セグメント化ルールと宛先は商品によって異なります。 |
 | **セグメント** （Analytics） | ルールベースのオーディエンス定義をAdobe Analyticsで作成し、サポートされている場合は共有オーディエンスに向けて公開できます。 | **Audience Manager**&#x200B;では、セグメントは&#x200B;**特性**&#x200B;を組み合わせています。名前は重複していますが、実装が同じではありません。 **Target**&#x200B;では、多くの場所で「オーディエンス」が古い「セグメント」ラベルに置き換わりました。 |

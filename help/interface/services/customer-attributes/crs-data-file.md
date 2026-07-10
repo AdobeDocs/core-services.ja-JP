@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 1182
+source-wordcount: 1176
 ht-degree: 60%
 
 ---
@@ -70,7 +70,7 @@ CSV ファイルは次の形式に準拠する必要があります。
   </tr> 
   <tr> 
    <td colname="col1"> <p>顧客ID列 </p> </td> 
-   <td colname="col2"> <p> 1 列目は一意の顧客 ID でなければなりません。 使用されるIDは、CX Enterprise ID サービスに渡されるIDに対応する必要があります。 </p> <p>Analytics の場合は、prop または eVar に格納されている ID です。 </p> <p>Targetの場合は、setcustomerID値。 </p> <p> この顧客 ID は、データベース内の各ユーザーを表すために CRM で使用する一意の ID です。 残りの列は CRM から取得される属性です。 アップロードする属性の数を選択します。 </p> <p>列の見出しには読みやすく、わかりやすい名前を使用することが推奨されますが、必須ではありません。 アップロード後におこなうスキーマの検証の際に、アップロードされた行と列にわかりやすい名前をマッピングできます。 </p> <p> <b>顧客IDについて</b> </p> <p>通常、企業は、CRM システムからの顧客 ID を使用します。 このIDは、ユーザーがログインしたときに<span class="codeph"> setcustomerID </span>呼び出しを使用して設定されます。 このIDは、CX EnterpriseにアップロードされるCRM ファイルのキーとしても使用されます。 <a href="t-crs-usecase.md" format="dita" scope="local">エイリアス ID</a> は、エイリアスデータが格納される Audience Manager のデータストアの識別子です。 システムは、このデータストアに（setcustomerIDを介して）エイリアスを送信します。 CRM ファイルは、このデータストアのデータに適用されます。 </p> <p><span class="codeph">個のsetcustomerID </span>について詳しくは、<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja" format="https" scope="external">個の顧客IDと認証状態</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> 1 列目は一意の顧客 ID でなければなりません。 使用するIDは、訪問者ID サービスに渡されるIDに対応する必要があります。 </p> <p>Analytics の場合は、prop または eVar に格納されている ID です。 </p> <p>Targetの場合は、setcustomerID値。 </p> <p> この顧客 ID は、データベース内の各ユーザーを表すために CRM で使用する一意の ID です。 残りの列は CRM から取得される属性です。 アップロードする属性の数を選択します。 </p> <p>列の見出しには読みやすく、わかりやすい名前を使用することが推奨されますが、必須ではありません。 アップロード後におこなうスキーマの検証の際に、アップロードされた行と列にわかりやすい名前をマッピングできます。 </p> <p> <b>顧客IDについて</b> </p> <p>通常、企業は、CRM システムからの顧客 ID を使用します。 このIDは、ユーザーがログインしたときに<span class="codeph"> setcustomerID </span>呼び出しを使用して設定されます。 このIDは、CX EnterpriseにアップロードされるCRM ファイルのキーとしても使用されます。 <a href="t-crs-usecase.md" format="dita" scope="local">エイリアス ID</a> は、エイリアスデータが格納される Audience Manager のデータストアの識別子です。 システムは、このデータストアに（setcustomerIDを介して）エイリアスを送信します。 CRM ファイルは、このデータストアのデータに適用されます。 </p> <p><span class="codeph">個のsetcustomerID </span>について詳しくは、<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja" format="https" scope="external">個の顧客IDと認証状態</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2 列目以降のヘッダーと列 </p> </td> 
@@ -122,7 +122,7 @@ CSV ファイルは次の形式に準拠する必要があります。
   </tr> 
    <tr> 
    <td colname="col1"> <p>履歴データ </p> </td> 
-   <td colname="col2"> <p> 顧客属性は、[!DNL Analytics]の基になる訪問者プロファイルに関連付けられます。 このように、[!DNL Customer Attributes]は[!DNL Analytics]の訪問者プロファイルの全期間にわたって訪問者に関連付けられます。 このプロファイルには、顧客が最初にログインする前の行動が含まれます。 </p> <p> Data Warehouse のバックフィル手法を使用している場合、データは Analytics ID（AID）に基づく post_visid_high/low に関連付けられます。 CX Enterprise ID サービスを使用している場合、データはCX Enterprise ID（MID）に基づくpost_visid_high/lowに関連付けられます。 </p> <p> Data Warehouseのバックフィル方式は、2022年10月からは使用できなくなります。 </td> 
+   <td colname="col2"> <p> 顧客属性は、[!DNL Analytics]の基になる訪問者プロファイルに関連付けられます。 このように、[!DNL Customer Attributes]は[!DNL Analytics]の訪問者プロファイルの全期間にわたって訪問者に関連付けられます。 このプロファイルには、顧客が最初にログインする前の行動が含まれます。 </p> <p> Data Warehouse のバックフィル手法を使用している場合、データは Analytics ID（AID）に基づく post_visid_high/low に関連付けられます。 訪問者ID サービスを使用している場合、データはECID （MID）に基づくpost_visid_high/lowに関連付けられます。 </p> <p> Data Warehouseのバックフィル方式は、2022年10月からは使用できなくなります。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>データフィード </p> </td> 
@@ -137,7 +137,7 @@ CSV ファイルは次の形式に準拠する必要があります。
 
 各顧客属性ソースのエイリアス ID は、一意である必要があります。 同じ ID を活用する複数のデータソースがある場合、次のように設定します。
 
-**VisitorAPI.jsまたはDynamic Tag ManagementのCX Enterprise ID ツールで：**
+**`VisitorAPI.js`または[!UICONTROL Experience Cloud ID サービス &#x200B;] タグ拡張機能：**
 
 適切なデータソースに対応する 2 つの顧客 ID を設定します。
 

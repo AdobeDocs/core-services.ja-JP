@@ -30,10 +30,10 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 1116
-ht-degree: 31%
+source-wordcount: 1113
+ht-degree: 32%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 31%
 
 * CX Enterpriseで自社をプロビジョニングする。
 * 管理者になれるようにする。
-* [CX Enterprise ID サービスを実装](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)。
+* [訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を実装します。
 * [!UICONTROL Platform データ収集]を使用して、[!DNL Analytics]および[!DNL Target]の実装を最新化します。
 * [顧客属性](../services/customer-attributes/attributes.md)や[&#x200B; オーディエンスライブラリ &#x200B;](../services/audiences/overview.md)などのCX エンタープライズサービスの使用を開始します。
 
@@ -56,13 +56,13 @@ ht-degree: 31%
 * [[!DNL Experience Platform Data Collection]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
 * [[!DNL Analytics]](https://experienceleague.adobe.com/docs/analytics.html?lang=ja)
 * [[!DNL Target]](https://experienceleague.adobe.com/docs/target.html?lang=ja)
-* [CX Enterprise ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)
+* [訪問者 ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)
 
-## CX Enterprise ID Service
+## 訪問者 ID サービス
 
-ID サービスは、CX Enterpriseのすべてのアプリケーションをまたいで訪問者を識別する、ユニバーサルで永続的なIDを提供します。 Adobe Analytics、Audience Manager、Adobe Target、動画ハートビート、CX Enterprise アプリケーションなどのサービスや製品のID生成コードを置き換えることができます。
+訪問者ID サービスは、CX Enterpriseのすべてのアプリケーションをまたいで訪問者を識別する、ユニバーサルで永続的なIDを提供します。 Adobe Analytics、Audience Manager、Adobe Target、動画ハートビート、CX Enterprise アプリケーションなどのサービスや製品のID生成コードを置き換えることができます。
 
-[CX Enterprise ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を参照してください
+[訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を参照してください
 
 **適用可能なアプリケーションまたはサービス**
 
