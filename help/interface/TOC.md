@@ -5,10 +5,10 @@ breadcrumb-title: CX エンタープライズインターフェイスと管理
 title: CX エンタープライズインターフェイスおよび管理ガイド
 description: CX エンタープライズインターフェイスと管理についてご確認ください。 AI、管理、共有サービス、データ収集、Cookie、リリースノート、FAQに関するトピックを参照できます。
 index: true
-source-git-commit: cb57ca633a2b72cab93edbbb06cbd3bb7199eec7
+source-git-commit: 88f8ee46073227afb5a9691155a70bd43f01a188
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 60%
+source-wordcount: '222'
+ht-degree: 57%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 60%
    + [エージェント型 AI](features/agentic-ai.md)
    + [エージェント型AI モニタリング](/help/interface/features/monitoring.md)
    + [担当者の業務とAIのクレジット消費](/help/interface/features/ai-credit-consumption.md)
+   + [エージェント型ツール](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
 + 管理 {#administration}
    + [アカウントの環境設定と通知](/help/interface/features/account-preferences.md)
    + [ブラウザーと言語のサポート](/help/interface/browser-language.md)
