@@ -101,7 +101,7 @@ Admin Consoleで管理者として作業を開始する際に必要になる可�
 | [!DNL Experience Platform] <p>[!DNL Data Collection] | [Access control UI overview](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/ui/overview) <p>[Permission management for data collection in Experience Platform](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/permissions)|
 | [!DNL GenStudio for Performance Marketing] | [Provision Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/product-provisioning) |
 | [!DNL Journey Optimizer] | [Manage users and roles](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/access-control/permissions) |
-| [!DNL Journey Optimizer B2B Edition] | [User management](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management) |
+| [!DNL Journey Optimizer B2B Edition] | [User management](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/admin/user-management) |
 |[!DNL  Journey Orchestration] | [Access management](https://experienceleague.adobe.com/ja/docs/journeys/using/starting-with-journeys/access-management) |
 | [!DNL Marketo Engage] | [Understanding Marketo Subscription and User Migration to the Adobe Admin Console](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/administration/marketo-with-adobe-identity/subscription-and-user-migration/understanding-marketo-subscription-and-user-migration-to-the-adobe-admin-console) |
 | [!DNL Marketo Measure] | [Adobe Admin Console Setup](https://experienceleague.adobe.com/ja/docs/marketo-measure/using/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup) |
@@ -124,7 +124,7 @@ Admin Consoleで管理者として作業を開始する際に必要になる可�
 * [Experience Platform](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/ui/overview)および[Data Collection](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/permissions)
 * [GenStudio for Performance Marketing](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/product-provisioning)
 * [Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/access-control/permissions)
-* [Journey Optimizer B2B edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management)
+* [Journey Optimizer B2B edition](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/admin/user-management)
 * [Journey Orchestration](https://experienceleague.adobe.com/ja/docs/journeys/using/starting-with-journeys/access-management)
 * [Marketo Engage](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/administration/marketo-with-adobe-identity/subscription-and-user-migration/understanding-marketo-subscription-and-user-migration-to-the-adobe-admin-console)
 * [Marketo Measure](https://experienceleague.adobe.com/ja/docs/marketo-measure/using/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup)
