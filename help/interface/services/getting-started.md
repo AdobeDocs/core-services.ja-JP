@@ -40,7 +40,7 @@ ht-degree: 40%
 
 # 顧客体験エンタープライズの導入方法
 
-最近[Experience Platform タグ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)を使用してCX Enterpriseを実装した場合、[顧客属性](../services/overview.md)およびCX Enterprise [&#x200B; オーディエンス &#x200B;](../services/audiences/overview.md)用に既に設定されています。 [Admin Console](../administration/admin-console.md)のユーザーと製品を管理することもできます。
+最近[Experience Platform タグ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/home)を使用してCX Enterpriseを実装した場合、[顧客属性](../services/overview.md)およびCX Enterprise [&#x200B; オーディエンス &#x200B;](../services/audiences/overview.md)用に既に設定されています。 [Admin Console](../administration/admin-console.md)のユーザーと製品を管理することもできます。
 
 既存顧客は、アプリケーション実装を近代化し、CX Enterpriseを導入できます。 これにより、Adobe Analytics、Audience Manager、Adobe Target全体で顧客属性とオーディエンス機能を使用できます。
 
@@ -94,9 +94,9 @@ CX Enterpriseを使用するための[!DNL Analytics]および[!DNL Adobe Target
 
 訪問者ID サービスは、アプリケーション間の統合に共通のIDを提供します。 [!DNL Customer Attributes]経由でアップロードされたCRM データに基づいて、クロスドメインの訪問者の識別と、クロスデバイス/ブラウザーのターゲティングおよびパーソナライゼーションのパスを提供します。
 
-CX Enterprise コアサービスを有効にする最も簡単な方法は、訪問者ID サービスを実装する[[!UICONTROL Experience Cloud ID サービス &#x200B;] タグ拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)を介して、AnalyticsとAdobe Targetに対して自動的にアクティベートすることです。
+CX Enterprise コアサービスを有効にする最も簡単な方法は、訪問者ID サービスを実装する[[!UICONTROL Experience Cloud ID サービス &#x200B;] タグ拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=ja)を介して、AnalyticsとAdobe Targetに対して自動的にアクティベートすることです。
 
-訪問者ID サービスの完全なヘルプについては、[訪問者ID サービスの概要](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html#intro)を参照してください。
+訪問者ID サービスの完全なヘルプについては、[訪問者ID サービスの概要](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ja#intro)を参照してください。
 
 
 **[!UICONTROL Experience Platform タグを使用していません]?**
@@ -105,8 +105,8 @@ CX Enterprise コアサービスを有効にする最も簡単な方法は、訪
 
 | タスク | 説明 |
 | --- | --- |
-| [Analytics用の訪問者ID サービス （`VisitorAPI.js`）を実装](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview) | また、追加の[顧客 ID](https://experienceleague.adobe.com/en/docs/id-service/using/reference/authenticated-state) を設定することを推奨します。 これらのIDは各訪問者に関連付けられ、CX Enterpriseの現在および将来の機能を有効にします。 |
-| 既存の `s_code` をバージョン H.27.3 以降に更新、または既存の `AppMeasurement.js` をバージョン 1.4 以降に更新 | これらのファイルは、Analytics 管理ツールの[コードマネージャー](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html)でダウンロードして入手できます （`AppMeasurement.js` について詳しくは、[JavaScript の実装](https://experienceleague.adobe.com/en/docs/analytics/implementation/js/overview#js)を参照してください）。 |
+| [Analytics用の訪問者ID サービス （`VisitorAPI.js`）を実装](https://experienceleague.adobe.com/ja/docs/analytics/implementation/id/overview) | また、追加の[顧客 ID](https://experienceleague.adobe.com/ja/docs/id-service/using/reference/authenticated-state) を設定することを推奨します。 これらのIDは各訪問者に関連付けられ、CX Enterpriseの現在および将来の機能を有効にします。 |
+| 既存の `s_code` をバージョン H.27.3 以降に更新、または既存の `AppMeasurement.js` をバージョン 1.4 以降に更新 | これらのファイルは、Analytics 管理ツールの[コードマネージャー](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=ja)でダウンロードして入手できます （`AppMeasurement.js` について詳しくは、[JavaScript の実装](https://experienceleague.adobe.com/ja/docs/analytics/implementation/js/overview#js)を参照してください）。 |
 
 ### AnalyticsとAdobe Target – 顧客IDの同期 {#sync-ids}
 
@@ -141,13 +141,13 @@ Adobe Target では、 `mbox3rdpartyid` は顧客 ID を取得して、それを
 
 ファーストパーティ Cookieを使用している場合は、データ収集CNAMEとクロスドメイン トラッキングについて詳しくは、[Adobeで管理される証明書プログラム &#x200B;](/help/interface/data-collection/adobe-managed-cert.md)を参照してください。
 
-訪問者 API など JavaScript ライブラリを更新して Analytics の実装を最新化することが推奨されます。 これを行う最も簡単な方法は、Experience Platform データ収集に [Adobe Analytics 拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html)を追加することです。
+訪問者 API など JavaScript ライブラリを更新して Analytics の実装を最新化することが推奨されます。 これを行う最も簡単な方法は、Experience Platform データ収集に [Adobe Analytics 拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=ja)を追加することです。
 
 ## Adobe Target 実装のアップデート
 
-* ライブラリの取得が自動的に行われるように、[Adobe Target拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html)を[!UICONTROL Experience Platform] タグに追加することをお勧めします。 また、[[!UICONTROL Experience Cloud ID サービス &#x200B;] タグ拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)を設定して、タグを使用してAdobe Target（およびその他のアプリケーション）のVisitor ID サービスを実装することもできます。 このタグ拡張機能は、Adobe TargetでPeople サービスを使用するには&#x200B;**必須**&#x200B;です。
-* [!UICONTROL Experience Platform] タグを使用していない場合は、[mbox ライブラリ &#x200B;](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html)を手動で更新してください。
-* [!DNL Adobe Target] のレポートソースとして Adobe Analytics を使用するためのアクセスをリクエストします。 [!DNL Target] と [!DNL Analytics] のデータは、処理中に同じサーバー呼び出しで結合されるため、訪問者は 2 つのアプリケーション間で接続されます。 [Analytics for Target の実装](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)を参照してください。
+* ライブラリの取得が自動的に行われるように、[Adobe Target拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=ja)を[!UICONTROL Experience Platform] タグに追加することをお勧めします。 また、[[!UICONTROL Experience Cloud ID サービス &#x200B;] タグ拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=ja)を設定して、タグを使用してAdobe Target（およびその他のアプリケーション）のVisitor ID サービスを実装することもできます。 このタグ拡張機能は、Adobe TargetでPeople サービスを使用するには&#x200B;**必須**&#x200B;です。
+* [!UICONTROL Experience Platform] タグを使用していない場合は、[mbox ライブラリ &#x200B;](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=ja)を手動で更新してください。
+* [!DNL Adobe Target] のレポートソースとして Adobe Analytics を使用するためのアクセスをリクエストします。 [!DNL Target] と [!DNL Analytics] のデータは、処理中に同じサーバー呼び出しで結合されるため、訪問者は 2 つのアプリケーション間で接続されます。 [Analytics for Target の実装](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja)を参照してください。
 
   >[!IMPORTANT]
   >
@@ -200,7 +200,7 @@ mbox リクエストの![ECID](../assets/mbox_request.png)
 
 顧客関係管理（CRM）データベースで企業顧客データを取得する場合は、CX Enterpriseの顧客属性データソースにデータをアップロードできます。 アップロード後は、データを [!DNL Adobe Analytics] と [!DNL Adobe Target] で利用できます。
 
-詳しくは、[顧客属性](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes)を参照してください。
+詳しくは、[顧客属性](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/customer-attributes/attributes)を参照してください。
 
 ### [!UICONTROL &#x200B; ユーザー] > [!UICONTROL &#x200B; オーディエンスライブラリ &#x200B;]
 
