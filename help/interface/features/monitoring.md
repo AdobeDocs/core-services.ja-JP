@@ -17,21 +17,21 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 79c2a309c7df2d6afd36b38134609a144a40a482
+source-git-commit: 85c9350ea17e02e72354db5abbbf898829e338ae
 workflow-type: tm+mt
-source-wordcount: 1009
+source-wordcount: 994
 ht-degree: 3%
 
 ---
 
 # Agentic AI モニタリングダッシュボード
 
-エージェンティック AI モニタリングダッシュボードは、センターオブエクセレンス（COE）メンバーやその他のガバナンス関係者に、エージェンティック AIの利用や導入に関する可視性を提供します。 7日間または30日間の期間の傾向を確認して、[!DNL AI Assistant]またはその他の会話型サーフェス（[Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)など）を使用して[!DNL Experience Platform Agents]とやり取りするユーザー、それらのインタラクションでのユーザーの行動、およびユーザーが受け取る価値を確認できます。 これらのビューを組み合わせることで、エージェントの導入を仮定ではなくデータで導くことができます。
+エージェンティック AI モニタリングダッシュボードは、センターオブエクセレンス（COE）メンバーやその他のガバナンス関係者に、エージェンティック AIの利用や導入に関する可視性を提供します。 7日間または30日間のトレンドを表示して、[!DNL AI Assistant]またはその他のサーフェス（[Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)など）を使用して[!DNL Experience Platform Agents]とインタラクションするユーザーとそのユーザーが受け取る値を確認します。 これらのビューを組み合わせることで、エージェントの導入を仮定ではなくデータで導くことができます。
 
 **対象**
 
 * 現在、少なくとも1つのExperience Platform ネイティブアプリケーション（Customer Journey Analytics、Journey Optimizer、Real-Time CDP）のライセンスを持つアカウントは、このダッシュボードにアクセスできます
-* Experimentation Accelerator、LLM Optimizer、Sites Optimizerなどの[AI ファースト アプリケーション &#x200B;](agentic-ai.md#ai-first-cx-enterprise-applications)の使用状況と導入率は、このダッシュボードには含まれません
+* Experimentation Accelerator、LLM Optimizer、Sites Optimizerなどの[AI ファースト アプリケーション &#x200B;](agentic-ai.md#ai-first-cx-enterprise-applications)の使用状況と導入状況に関する指標は、このダッシュボードには含まれません。
 
 [!UICONTROL 監視] ダッシュボードには、次のビューが含まれます。
 
@@ -42,7 +42,7 @@ ht-degree: 3%
 | **フィードバック** | レスポンスの質とユーザー満足度に関するシグナル |
 | **AI クレジット** | クレジット消費の動向と残高バランス |
 
-使用状況モニタリングの対象となるエージェントは、既存のCX Enterprise アプリの[AI エージェント &#x200B;](agentic-ai.md#existing-apps-table)に記載されています。詳しくは、[Agentic AI in Adobe CX Enterprise](agentic-ai.md)のドキュメントを参照してください。
+Adobe CX Enterprise[&#128279;](agentic-ai.md)の[Agentic AI ドキュメントには、既存のCX Enterprise アプリ &#x200B;](agentic-ai.md#existing-apps-table)のAI エージェントで使用状況を監視する対象のエージェントが一覧表示されています。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491869?captions=jpn&learn=on)
 
@@ -90,7 +90,7 @@ ht-degree: 3%
 
 ## 概要ダッシュボード
 
-概要ダッシュボードは、組織全体での導入とエンゲージメントの指標を一元化する場所です。 上位レベルのトレンドをより詳細な分析に結びつける。 任意の指標から、個々の会話をドリルダウンして、数字を動かしたものを確認できます。
+概要ダッシュボードは、組織全体での導入とエンゲージメントの指標を一元化する場所です。 上位レベルのトレンドをより詳細な分析に結びつける。 数字を動かすものを確認するには、任意の指標から個々の会話をドリルダウンします。
 
 ### 概要ダッシュボードの指標
 
@@ -129,7 +129,7 @@ ht-degree: 3%
 
 ## フィードバックダッシュボード
 
-フィードバックダッシュボードには、エージェントとのやり取りに対して送信されたユーザーフィードバックが表示されます。 利用者が肯定的または否定的にマークした会話を確認し、フィードバックの背後にあるインタラクションを調査することができます。 フィードバックの要約から、個々の会話をドリルダウンして、プロンプト、回答、推論の詳細、フィードバックノートを確認できます。
+フィードバックダッシュボードには、エージェントとのやり取りに対して送信されたユーザーフィードバックが表示されます。 利用者が肯定的または否定的にマークした会話を確認し、フィードバックの背後にあるインタラクションを調査することができます。 プロンプト、回答、推論の詳細、フィードバックノートを確認するには、フィードバックの概要から個々の会話を掘り下げます。
 
 ### フィードバックダッシュボードの指標
 
