@@ -6,18 +6,13 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: a15918f0-c03b-4d32-a254-47f46023b127
-TQID: https://experienceleague.adobe.com/ULsmTOkKlh0XCTxITC7OdSC6cDT4aCty4bilg04EV4w
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+TQID: 'https://experienceleague.adobe.com/ULsmTOkKlh0XCTxITC7OdSC6cDT4aCty4bilg04EV4w'
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9c2010694b8bb32c3922dd65f846375e43b2caac
 workflow-type: tm+mt
-source-wordcount: 129
-ht-degree: 15%
+source-wordcount: 135
+ht-degree: 19%
 
 ---
 
@@ -27,9 +22,9 @@ CX Enterpriseでは、次のホストを使用して、アプリケーション�
 
 以下に示すドメインに加えて、個々のAdobe CX Enterprise製品には、使用する独自のドメインがあります。
 
-* [Adobe Analytics](https://experienceleague.adobe.com/ja/docs/analytics/technotes/domains)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/technotes/domains)
-* [Marketo Engage](https://experienceleague.adobe.com/ja/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/domains)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/domains)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
 
 | 技術 | ドメイン |
 | --- | --- |
