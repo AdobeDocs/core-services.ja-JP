@@ -303,7 +303,7 @@ Experience Leagueの製品情報をご覧ください。 初めての方は、Cu
 
 * **入力：** CJAで、サポートされているビジュアライゼーション（折れ線、領域、棒グラフ、フロー、フォールアウトを含む）を実行し、**[!UICONTROL インテリジェント キャプション]**&#x200B;をクリックします。
 
-* **出力：** コンテキストと重要なポイントを示す、自動生成された自然言語のキャプションを表示します。 その後、生成されたデータの確認、コピー、組織との共有などのアクションを実行できます。 [詳細を見る](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on#_blank)
+* **出力：** コンテキストと重要なポイントを示す、自動生成された自然言語のキャプションを表示します。 その後、生成されたデータの確認、コピー、組織との共有などのアクションを実行できます。 [詳細を見る](https://video.tv.adobe.com/v/3443139/?captions=jpn&quality=12&learn=on#_blank)
 
 [!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions" tooltip="インテリジェントなキャプションについて学ぶ"}
 
