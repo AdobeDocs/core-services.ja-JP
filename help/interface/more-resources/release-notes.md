@@ -53,7 +53,7 @@ CX Enterprise Central Interface Componentsの機能、リリースノート、�
 | 日付 | 更新 | 説明 |
 | ------- | ------- | ------- |
 | 2026年6月11日（PT） | [!DNL CX Enterprise Coworker] | [[!DNL CX Enterprise Coworker]](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)は、エンドツーエンドの顧客体験ワークフローを自動化するエージェント型AI アプリケーションです。 [!DNL Coworker]は、組み込みのガバナンスを数時間で使用して、シグナルを検出し、オーディエンスを構築し、キャンペーンを開始します。 ドキュメントは近日リリース予定です。 |
-| 2026年6月1日（PT） | [!UICONTROL 監視] | CX Enterprise は、既存のアプリケーションでのエージェント型 AI の使用状況を監視するダッシュボードを提供するようになりました。 AI アシスタントやその他の会話型サーフェスを通じてアクセスされる Experience Platform エージェントの導入を追跡し、会話やフィードバックを確認し、AI クレジットの消費を管理します。 概要、ユーザー、フィードバック、AI クレジットの各ビューは、ガバナンス関係者がデータを使用して導入をガイドするのに役立ちます。 ダッシュボードへのアクセスと権限については、[Agentic AI monitoring](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring)を参照してください。 |
+| 2026年6月1日（PT） | [!UICONTROL 監視] | CX Enterprise は、既存のアプリケーションでのエージェント型 AI の使用状況を監視するダッシュボードを提供するようになりました。 AI アシスタントやその他の会話型サーフェスを通じてアクセスされる Experience Platform エージェントの導入を追跡し、会話やフィードバックを確認し、AI クレジットの消費を管理します。 概要、ユーザー、フィードバック、AI クレジットの各ビューは、ガバナンス関係者がデータを使用して導入をガイドするのに役立ちます。 ダッシュボードへのアクセスと権限については、[Agentic AI monitoring](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring)を参照してください。 |
 
 ## 2026年4月
 
