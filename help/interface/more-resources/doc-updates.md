@@ -40,7 +40,7 @@ CX Enterpriseの一元的なインターフェイスと管理に関するドキ�
 
 ## 2026年6月
 
-* 概要、ユーザー、フィードバック、AI クレジットの表示、会話の再生、ガバナンスユーザーの権限など、ライセンス使用状況とAgentic AI監視ダッシュボードに対応した[Agentic AI monitoring](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring)を公開しました。
+* 概要、ユーザー、フィードバック、AI クレジットの表示、会話の再生、ガバナンスユーザーの権限など、ライセンス使用状況とAgentic AI監視ダッシュボードに対応した[Agentic AI monitoring](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring)を公開しました。
 * エージェント型AI使用状況モニタリング用に[2026年6月のリリースノート &#x200B;](release-notes.md)を追加しました。
 
 ## 2026年5月
@@ -49,16 +49,16 @@ CX Enterpriseの一元的なインターフェイスと管理に関するドキ�
 
 * 説明、リンクテキスト、自動タグ付けメタデータなど、Adobe Experience Cloudからガイド全体で&#x200B;**CX Enterprise**&#x200B;へのリブランドされたドキュメント。
 * `https://experience.adobe.com/home`に更新されたホームページの[2026年4月のリリースノート &#x200B;](release-notes.md)を追加しました（UIの更新、ダークモード、アクセシビリティの改善）。
-* CX Enterprise[&#128279;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)のAgentic AIを更新しました：Adobe Marketing Agent for Microsoft 365 Copilot、修正されたエージェント機能、およびexisting-apps エージェントテーブルの&#x200B;**Health Data / HIPAA対応**&#x200B;列。
+* CX Enterprise[&#128279;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)のAgentic AIを更新しました：Adobe Marketing Agent for Microsoft 365 Copilot、修正されたエージェント機能、およびexisting-apps エージェントテーブルの&#x200B;**Health Data / HIPAA対応**&#x200B;列。
 * [地域データ収集](../data-collection/rdc.md)、[&#x200B; ホスト名転送](../data-collection/adobe-managed-cert.md)および[用語](terms.md)のマイナーアップデート。
 
 ## 2026 年 3 月
 
-[AI ジョブとクレジットの消費を追加しました](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/ai-credit-consumption)
+[AI ジョブとクレジットの消費を追加しました](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/overview/ai-credit-consumption)
 
 ## 2025年11月
 
-CX Enterpriseの[Agentic AIの更新](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)
+CX Enterpriseの[Agentic AIの更新](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)
 
 ## 2025年10月
 
