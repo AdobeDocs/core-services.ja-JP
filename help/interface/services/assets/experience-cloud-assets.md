@@ -1,5 +1,5 @@
 ---
-description: アプリケーション間で共有できるCX Enterprise Assetsについて説明します。
+description: アプリケーションをまたいで共有できる CX Enterprise Assets について説明します。
 solution: Experience Cloud
 title: Assets の概要
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 330
-ht-degree: 67%
+ht-degree: 70%
 
 ---
 
