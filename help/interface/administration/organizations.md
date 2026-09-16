@@ -62,7 +62,7 @@ CXMは、あらゆるCX エンタープライズ製品とアプリケーショ�
 
 ## フェデレーションゲストアカウント
 
-[&#x200B; フェデレーションゲストアクセス &#x200B;](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html)を有効にして、自分のドメインでゲストユーザーを安全に認証できます。 有効にすると、組織メニューが変更され、これらのユーザーが任意のCX Enterprise ページの既存の組織内のアカウントを切り替えられるようになります。
+[&#x200B; フェデレーションゲストアクセス &#x200B;](https://helpx.adobe.com/jp/business/enterprise/using/federated-guest-access.html)を有効にして、自分のドメインでゲストユーザーを安全に認証できます。 有効にすると、組織メニューが変更され、これらのユーザーが任意のCX Enterprise ページの既存の組織内のアカウントを切り替えられるようになります。
 
 フェデレーションゲストアカウントに切り替えるには、任意の[CX Enterprise](https://experience.adobe.com) ページの&#x200B;**[!UICONTROL 組織]** メニューで&#x200B;**[!UICONTROL その他のアカウント]**&#x200B;を見つけます。
 

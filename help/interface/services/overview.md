@@ -62,8 +62,8 @@ CX Enterpriseの共有サービスとアプリケーションにアクセスす�
 | [オーディエンスライブラリ](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/audiences/overview) | オーディエンスは、訪問者の集合（訪問者 ID のリスト）です。 Adobeの[!DNL Audience Library]では、訪問者データをオーディエンスセグメンテーションに変換できます。 |
 | [顧客属性](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/customer-attributes/attributes) | イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築できます。 [!UICONTROL Journey Orchestration]は、Experience Platformと統合されたアプリケーションサービスです。 |
 | [Assets](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/assets/experience-cloud-assets) | CX Enterprise Assetsは、アプリケーション間で共有できる、マーケティングに適したアセットの一元的なリポジトリを提供します。 |
-| [トリガー](https://experienceleague.adobe.com/en/docs/core-services/interface/services/triggers) | Adobe Experience Manager Sitesのトリガーを利用すれば、主要な消費者行動を特定、定義および監視して、アプリケーションをまたいだコミュニケーションを構築し、訪問者に再アピールできます。 リアルタイムでの意思決定とパーソナライゼーションに Triggers を使用できます。 |
-| [Adobe Exchange Marketplace](https://experienceleague.adobe.com/en/docs/core-services/interface/services/exchange) | Exchange Marketplace にアクセスすると、各種の連携ツールの検索、参照、選択、支払いおよびダウンロードをおこなえます。 アプリには、Data Connectors、アドビのコア製品のカスタム設定、サードパーティアプリケーション、レポートなどが含まれます。 |
+| [トリガー](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/triggers) | Adobe Experience Manager Sitesのトリガーを利用すれば、主要な消費者行動を特定、定義および監視して、アプリケーションをまたいだコミュニケーションを構築し、訪問者に再アピールできます。 リアルタイムでの意思決定とパーソナライゼーションに Triggers を使用できます。 |
+| [Adobe Exchange Marketplace](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/exchange) | Exchange Marketplace にアクセスすると、各種の連携ツールの検索、参照、選択、支払いおよびダウンロードをおこなえます。 アプリには、Data Connectors、アドビのコア製品のカスタム設定、サードパーティアプリケーション、レポートなどが含まれます。 |
 
 {style="table-layout:auto"}
 

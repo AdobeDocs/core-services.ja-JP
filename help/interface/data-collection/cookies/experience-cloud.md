@@ -83,7 +83,7 @@ Adobe CX Enterpriseでは、CX Enterprise アプリケーション全体で使�
 
 [訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)は、JavaScriptを使用して、現在のWeb サイトのドメイン上の`AMCV_###@AdobeOrg` Cookieに一意の訪問者IDを保存します。ここで、`###`は`AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`などのランダムな文字列を表します
 
-[Cookieと訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)も参照してください。
+[Cookieと訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja)も参照してください。
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 

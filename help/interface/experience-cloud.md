@@ -58,7 +58,7 @@ CX Enterprise ヘッダーから、次の操作を実行できます。
 
    例えば、Federated ID を持ち、ドメインが `example.com` の組織の場合、URL リンクを `https://experience.adobe.com/#/sso:@example.com` に設定します。 また、この URL にアプリケーションパスを付けてブックマークに追加することで、特定のアプリケーションに直接移動することもできます。 （例えば、Adobe Analytics の場合は `https://experience.adobe.com/#/sso:@example.com/analytics`。）
 
-   **注：**&#x200B;お客様の組織の管理者は、IP アドレスによってAdobe製品へのアクセスを制限することができます。 その場合、CX Enterpriseにログインするか、これを有効にした組織に切り替えた後にエラーが発生する可能性があります。 詳細については、[IP アドレスによる製品アクセスの制限](https://helpx.adobe.com/enterprise/using/ip-based-access.html)を参照してください。
+   **注：**&#x200B;お客様の組織の管理者は、IP アドレスによってAdobe製品へのアクセスを制限することができます。 その場合、CX Enterpriseにログインするか、これを有効にした組織に切り替えた後にエラーが発生する可能性があります。 詳細については、[IP アドレスによる製品アクセスの制限](https://helpx.adobe.com/jp/enterprise/using/ip-based-access.html)を参照してください。
 
 
 ## CX Enterprise アプリケーションへのアクセス
@@ -79,7 +79,7 @@ CX Enterpriseにログインすると、統合ヘッダーからすべてのア�
 
 * **[!UICONTROL サポート &#x200B;]:** サポートチケットを作成するか、Twitterを使用して[!UICONTROL &#x200B; サポート &#x200B;]にお問い合わせください。
 * **[!UICONTROL フィードバック &#x200B;]:** CX Enterprise エクスペリエンスに関するフィードバックを共有します。 フィードバックは、アドビの製品およびサービスを改善するために使用されます。
-* **[!UICONTROL ステータス &#x200B;]:**&#x200B;に移動して、`https://status.adobe.com/experience_cloud`製品の運用状態と[!UICONTROL &#x200B; サブスクリプションの管理]を確認します。
+* **[!UICONTROL ステータス &#x200B;]:**&#x200B;に移動して、`https://status.adobe.com/ja-jp/experience_cloud`製品の運用状態と[!UICONTROL &#x200B; サブスクリプションの管理]を確認します。
 * **[!UICONTROL Developer Connection]:** `adobe.io`に移動して、開発者向けドキュメントを見つけます。
 
 ## ユーザープロファイルの管理

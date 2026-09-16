@@ -50,11 +50,11 @@ Adobe Analyticsでは、Cookieを使用して新規訪問者を匿名で定義�
 | **`s_fid`** | 2 年。 | 33 バイト。 | ファーストパーティ | フォールバックの一意の訪問者IDとタイムスタンプを保存します。 サードパーティ Cookieの制限により、標準の`s_vi` Cookieを設定できない場合は、JavaScriptで設定します。 1st パーティ Cookieの実装には使用されません。 |
 | **`s_ac`** | 即時 | 1 バイト | ファーストパーティ | AppMeasurement Cookieを設定するための正しいドメインを特定するのに役立ちます。 静的値`"1"`が含まれます。 このCookieが設定されると、すぐに削除されます。 |
 
-Adobe AnalyticsがCookieを使用して訪問者を識別する方法について詳しくは、[Adobe Analyticsでの訪問者特定](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview)を参照してください。
+Adobe AnalyticsがCookieを使用して訪問者を識別する方法について詳しくは、[Adobe Analyticsでの訪問者特定](https://experienceleague.adobe.com/ja/docs/analytics/implementation/id/overview)を参照してください。
 
 ## プラグインで設定される cookie
 
-一部の実装では、Analyticsの追加機能を提供するコードのスニペットであるプラグインを使用します。 これらのプラグインは、上記に記載されていないCookieを設定できます。 使用可能なプラグインのリストと、それらが設定するCookieについては、[Analytics プラグインの概要](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins)を参照してください。
+一部の実装では、Analyticsの追加機能を提供するコードのスニペットであるプラグインを使用します。 これらのプラグインは、上記に記載されていないCookieを設定できます。 使用可能なプラグインのリストと、それらが設定するCookieについては、[Analytics プラグインの概要](https://experienceleague.adobe.com/ja/docs/analytics/implementation/vars/plugins/impl-plugins)を参照してください。
 
 ## Analytics Cookieの削除による影響
 

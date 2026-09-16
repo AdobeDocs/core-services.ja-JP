@@ -74,7 +74,7 @@ ht-degree: 32%
 
 * [[!DNL Experience Platform Data Collection]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
 * [[!DNL Analytics]](https://experienceleague.adobe.com/docs/analytics.html?lang=ja)
-* [[!DNL Target]](https://experienceleague.adobe.com/docs/target.html)
+* [[!DNL Target]](https://experienceleague.adobe.com/docs/target.html?lang=ja)
 * [訪問者 ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)
 
 ## 訪問者 ID サービス
@@ -85,8 +85,8 @@ ht-degree: 32%
 
 **適用可能なアプリケーションまたはサービス**
 
-* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview)
-* [Adobe Target](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/setup-target)
+* [Adobe Analytics](https://experienceleague.adobe.com/ja/docs/analytics/implementation/id/overview)
+* [Adobe Target](https://experienceleague.adobe.com/ja/docs/id-service/using/implementation/setup-target)
 
 ## オーディエンス
 
@@ -100,8 +100,8 @@ CX Enterprise [!UICONTROL &#x200B; オーディエンスライブラリ &#x200B;
 
 **適用可能なソリューションまたはサービス**
 
-* [Adobe Target のアクティビティ](https://experienceleague.adobe.com/docs/target/using/activities/activities.html)
-* Audience Manager の[セグメント化](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)
+* [Adobe Target のアクティビティ](https://experienceleague.adobe.com/docs/target/using/activities/activities.html?lang=ja)
+* Audience Manager の[セグメント化](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=ja)
 * [Advertising Cloud](https://enterprise.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D&ticket=JrciD7q2bF1y2mDWFHmEyibmxtHqnZFSOMml-n993zOBc-ovZGNZkX5vgePWqKNMoMmPSqf9PkzFeYF4UN6GqSXDVNDvwgnvv9KT8PvVxk8%3D) （ログインが必要）
 
 ## 顧客属性
@@ -129,7 +129,7 @@ CX EnterpriseとCreative Cloud間でフォルダーとアセットを共有し�
 
 ## Analytics - Analytics での AEM Assets レポート
 
-ヘルプ：[Analytics での AEM Assets レポート](https://experienceleague.adobe.com/docs/analytics/integration/aem-assets-reporting.html)
+ヘルプ：[Analytics での AEM Assets レポート](https://experienceleague.adobe.com/docs/analytics/integration/aem-assets-reporting.html?lang=ja)
 
 Analytics が、AEM Assets Insights から提供されるアセットのインプレッション数とクリック数を収集できるようになります。
 
@@ -140,15 +140,15 @@ Analytics が、AEM Assets Insights から提供されるアセットのイン�
 
 ## Audience Manager 統合
 
-[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implementation-and-integration.html)
+[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implementation-and-integration.html?lang=ja)
 
 CX Enterprise アプリケーションやAudience Manager内の他の外部システムからのデータを扱えます。
 
 **適用可能なアプリケーションまたはサービス**
 
 * [Analytics サーバーサイド転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ja)
-* [AnalyticsへのAudience Manager セグメントの送信](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
-* [Adobe Targetとの連携](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-applications/aam-target-integration.html)
+* [AnalyticsへのAudience Manager セグメントの送信](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=ja)
+* [Adobe Targetとの連携](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-applications/aam-target-integration.html?lang=ja)
 
 ## Adobe Target
 
@@ -160,13 +160,13 @@ Adobe TargetをAdobe Analyticsやその他のCX Enterprise アプリケーショ
 
 * 顧客属性：顧客属性に対する Adobe Target の[サブスクリプション](/help/interface/services/customer-attributes/subscription.md)の設定
 * CX エンタープライズオーディエンス：[CX エンタープライズオーディエンスライブラリ &#x200B;](/help/interface/services/audiences/overview.md)
-* Analytics：[Adobe Target のレポートソースとしての Adobe Analytics](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)
-* Audience Manager：[Adobe Audience Manager との Adobe Target データの統合](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
+* Analytics：[Adobe Target のレポートソースとしての Adobe Analytics](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja)
+* Audience Manager：[Adobe Audience Manager との Adobe Target データの統合](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=ja)
 * Campaign：[Adobe Target と Campaign の統合](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=ja)
 
 ## Adobe Experience Manager の統合
 
-* ビデオチュートリアル：[Experience Managerとの統合](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/integrations-between-applications/overview.html)
+* ビデオチュートリアル：[Experience Managerとの統合](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/integrations-between-applications/overview.html?lang=ja)
 
 * 製品ドキュメント：[Experience Manager ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=ja)
 
@@ -186,7 +186,7 @@ Adobe Experience Manager（AEM）Assets 内のアセットを Adobe Creative Clo
 
 * ヘルプ（ログインが必要）: [Adobe CX Enterprise Solutions and Servicesとの統合](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
 
-* Experience Leagueの[Adobe Advertising ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/advertising.html)
+* Experience Leagueの[Adobe Advertising ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/advertising.html?lang=ja)
 
 **適用可能なアプリケーションまたはサービス**
 
