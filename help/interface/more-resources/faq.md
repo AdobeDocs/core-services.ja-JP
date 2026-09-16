@@ -112,7 +112,7 @@ CX Enterpriseでのプロビジョニングは次のことを意味します。
 
 +++ユーザーの環境設定、通知、アラートを管理するにはどうすればよいですか？
 
-* [ アカウントの環境設定と通知](/help/interface/features/account-preferences.md)を参照
+* [&#x200B; アカウントの環境設定と通知](/help/interface/features/account-preferences.md)を参照
 
 +++
 

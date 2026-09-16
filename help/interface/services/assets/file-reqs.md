@@ -40,7 +40,7 @@ CX EnterpriseとCreative Cloud間でアセットを共有する際に許可さ�
 
 ## アップロードが許可されているファイルタイプ
 
-アップロード可能なファイルタイプには、ほとんどの画像、ドキュメント、マルチメディアなどがあります。 [!DNL CX Enterprise] アセット内のファイル形式について詳しくは、「[ サポートされる形式 ](https://helpx.adobe.com/jp/experience-manager/brand-portal/using/brand-portal-supported-formats.html)」を参照してください。
+アップロード可能なファイルタイプには、ほとんどの画像、ドキュメント、マルチメディアなどがあります。 [!DNL CX Enterprise] アセット内のファイル形式について詳しくは、「[&#x200B; サポートされる形式 &#x200B;](https://helpx.adobe.com/jp/experience-manager/brand-portal/using/brand-portal-supported-formats.html)」を参照してください。
 
 ## ファイルサイズの制限
 

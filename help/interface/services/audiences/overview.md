@@ -41,7 +41,7 @@ ht-degree: 48%
 
 [!DNL Audience Library]はCX Enterpriseのオーディエンスを表示します。 オーディエンスは、訪問者の集合（[!DNL CX Enterprise] ID のリスト）です。 ユーザーは、訪問者データからオーディエンスセグメントへの変換を管理できます。 このように、オーディエンスの作成と管理は、セグメントの作成と使用に似ています。 オーディエンスセグメントは、[!DNL CX Enterprise] の製品やサービスと共有することもできます。
 
-![CX エンタープライズ版オーディエンス ](assets/audiences.png)
+![CX エンタープライズ版オーディエンス &#x200B;](assets/audiences.png)
 
 オーディエンスは、次のような各種ソースから作成または取得できます。
 
@@ -63,8 +63,8 @@ ht-degree: 48%
 | ソリューション | 説明 |
 | --- | --- |
 | CX Enterprise オーディエンス | オーディエンスライブラリを使用して、ネイティブにオーディエンスを作成、管理、共有できます。 実行できる操作は、次のとおりです。<ul><li>生の分析属性を使用してリアルタイムのオーディエンスを活用。</li><li>オーディエンスを組み合わせて合成し、リアルタイムおよび過去のデータを結合します。</li><li>推定オーディエンスサイズのグラフィカルビューを参照してください。</li></ul><br>作成するオーディエンスのタイプの提案について詳しくは、[オーディエンス作成オプション](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ja)を参照してください。 |
-| Analytics | セグメント化では、セグメントを作成し、レポートスイートと組み合わせて、セグメントをCX Enterpriseに公開できます。 セグメントを公開すると、CX Enterpriseの[!DNL Audience Library] ページに表示されます。 （詳しくは、[!DNL Analytics] ヘルプの「[CX Enterprise](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)へのセグメントの公開」を参照してください）。 このオーディエンスは、[!DNL Adobe Target]様および[!DNL Audience Manager]様が配信したキャンペーンエクスペリエンスのターゲットオーディエンスとしても利用できます。 [!DNL Adobe Analytics]からオーディエンスを共有し、アクティブなキャンペーンで使用するために選択すると、過去90日間のセグメント定義条件を満たした訪問者プロファイルが[!UICONTROL  オーディエンスサービス ]に送信されます。 共有オーディエンス数の上限は 75 に増えました。 [!DNL Analytics]からCX Enterpriseに共有されるオーディエンスは、2,000万人の一意のメンバーを超えることはできません。 また、キャッシュが原因で、Analyticsで削除されたレポートスイートは、CX Enterpriseで削除が表示されるまでに12時間かかる場合があります。 |
-| Mobile Services | [!UICONTROL  デバイスタイプ ] レポートのsunburst ビジュアライゼーションを使用して、モバイルトラフィックを分析します。 |
+| Analytics | セグメント化では、セグメントを作成し、レポートスイートと組み合わせて、セグメントをCX Enterpriseに公開できます。 セグメントを公開すると、CX Enterpriseの[!DNL Audience Library] ページに表示されます。 （詳しくは、[!DNL Analytics] ヘルプの「[CX Enterprise](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)へのセグメントの公開」を参照してください）。 このオーディエンスは、[!DNL Adobe Target]様および[!DNL Audience Manager]様が配信したキャンペーンエクスペリエンスのターゲットオーディエンスとしても利用できます。 [!DNL Adobe Analytics]からオーディエンスを共有し、アクティブなキャンペーンで使用するために選択すると、過去90日間のセグメント定義条件を満たした訪問者プロファイルが[!UICONTROL &#x200B; オーディエンスサービス &#x200B;]に送信されます。 共有オーディエンス数の上限は 75 に増えました。 [!DNL Analytics]からCX Enterpriseに共有されるオーディエンスは、2,000万人の一意のメンバーを超えることはできません。 また、キャッシュが原因で、Analyticsで削除されたレポートスイートは、CX Enterpriseで削除が表示されるまでに12時間かかる場合があります。 |
+| Mobile Services | [!UICONTROL &#x200B; デバイスタイプ &#x200B;] レポートのsunburst ビジュアライゼーションを使用して、モバイルトラフィックを分析します。 |
 | [!DNL Target] | [ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)は、訪問者 ID とデータを、アプリケーションをまたいで使用するための、アクションにつながる単一のプロファイルに統合します。 Adobe Analyticsのセグメント作成プロセス中の「[!UICONTROL CX Enterpriseに公開]」チェックボックスを使用すると、セグメントをAdobe Targetのカスタムオーディエンスライブラリ内で利用できます。 [!DNL Analytics] または [!DNL Audience Manager] で作成されたセグメントは、[!DNL Target] のアクティビティで使用できます。 例えば、[!DNL Analytics] コンバージョン指標および [!DNL Analytics] で作成されたオーディエンスセグメントに基づいてキャンペーンアクティビティを作成できます。 |
 | [!DNL Audience Manager] | 共有オーディエンスは、[!DNL Audience Manager] でのセグメント化に使用できます。 すべてのCX Enterprise オーディエンスは、[!DNL Audience Manager]でネイティブに利用できます。これにより、次の機能が提供されます。<ul><li>アプリケーションワークフローでの共有および利用に関するビルトインの自動処理</li><li>他ツールとのデータ連携</li><li>類似モデリング</li></ul> |
 | Campaign | <ul><li>様々なAdobe CX Enterprise アプリケーションからAdobe Campaignに共有オーディエンスを読み込みます。</li><li>共有オーディエンスの形式で受信者リストを書き出す。 これらの共有オーディエンスは、お使いの様々なAdobe CX Enterprise アプリケーションで使用できます。</li></ul> |
@@ -90,7 +90,7 @@ ht-degree: 48%
 | 新規 | [オーディエンスを作成](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/audiences/create)します。 |
 | タイトルと説明 | オーディエンスを識別および説明する列見出し。 |
 | 作成者 | オーディエンスセグメントを作成したユーザー。 |
-| ソース | オーディエンスが作成された場所を示します。<ul><li>**Analytics:** Adobe Analyticsで作成されたセグメントは、CX Enterpriseに公開されます。</li><li>**CX Enterprise:** CX Enterprise Audiences](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/audiences/create)で新しいオーディエンス [が作成されました。</li><li>Audience Managerを作成した&#x200B;**Audience Manager:**&#x200B;個のオーディエンスは、CX Enterprise Audiencesに自動的に表示されます。</li></ul> |
+| ソース | オーディエンスが作成された場所を示します。<ul><li>**Analytics:** Adobe Analyticsで作成されたセグメントは、CX Enterpriseに公開されます。</li><li>**CX Enterprise:** CX Enterprise Audiences[&#128279;](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/audiences/create)で新しいオーディエンス が作成されました。</li><li>Audience Managerを作成した&#x200B;**Audience Manager:**&#x200B;個のオーディエンスは、CX Enterprise Audiencesに自動的に表示されます。</li></ul> |
 | 現在のサイズ | 現在のオーディエンスのサイズ。 |
 | アクティブ | セグメントのアクティブステータス。 |
 

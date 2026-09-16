@@ -24,7 +24,7 @@ ht-degree: 48%
 
 10月30日隠し
 
-![CX エンタープライズ ](assets/landing.png)
+![CX エンタープライズ &#x200B;](assets/landing.png)
 
 CX Enterpriseのヘッダーから、次のことができます。
 
@@ -57,9 +57,9 @@ CX Enterpriseのヘッダーから、次のことができます。
 
 CX Enterpriseにログインすると、統合ヘッダーからすべてのアプリケーション、サービス、組織にすばやくアクセスできます。
 
-組織内でプロビジョニングされたCX エンタープライズ アプリケーションおよびサービスにアクセスするには、アプリケーション セレクター![ メニュー](assets/apps-icon.png)に移動します。
+組織内でプロビジョニングされたCX エンタープライズ アプリケーションおよびサービスにアクセスするには、アプリケーション セレクター![&#x200B; メニュー](assets/apps-icon.png)に移動します。
 
-![CX エンタープライズ アプリケーションへのアクセス ](assets/platform-core-services.png)
+![CX エンタープライズ アプリケーションへのアクセス &#x200B;](assets/platform-core-services.png)
 
 ## お問い合わせとサポート {#support}
 
@@ -67,16 +67,16 @@ CX Enterpriseにログインすると、統合ヘッダーからすべてのア�
 
 ![お問い合わせとサポート](assets/search-menu.png)
 
-[!UICONTROL  ヘルプ ] メニューでは、次のアクセス権も使用できます。
+[!UICONTROL &#x200B; ヘルプ &#x200B;] メニューでは、次のアクセス権も使用できます。
 
-* **[!UICONTROL サポート ]:** サポートチケットを作成するか、Twitterを使用して[!UICONTROL  サポート ]にお問い合わせください。
-* **[!UICONTROL フィードバック ]:** CX Enterprise エクスペリエンスに関するフィードバックを共有します。 フィードバックは、アドビの製品およびサービスを改善するために使用されます。
-* **[!UICONTROL ステータス ]:**&#x200B;に移動して、`https://status.adobe.com/experience_cloud`製品の運用状態と[!UICONTROL  サブスクリプションの管理]を確認します。
+* **[!UICONTROL サポート &#x200B;]:** サポートチケットを作成するか、Twitterを使用して[!UICONTROL &#x200B; サポート &#x200B;]にお問い合わせください。
+* **[!UICONTROL フィードバック &#x200B;]:** CX Enterprise エクスペリエンスに関するフィードバックを共有します。 フィードバックは、アドビの製品およびサービスを改善するために使用されます。
+* **[!UICONTROL ステータス &#x200B;]:**&#x200B;に移動して、`https://status.adobe.com/experience_cloud`製品の運用状態と[!UICONTROL &#x200B; サブスクリプションの管理]を確認します。
 * **[!UICONTROL Developer Connection]:** `adobe.io`に移動して、開発者向けドキュメントを見つけます。
 
 ## ユーザープロファイルの管理
 
-[!UICONTROL  プロファイル ] メニューでは、次の操作を実行できます。
+[!UICONTROL &#x200B; プロファイル &#x200B;] メニューでは、次の操作を実行できます。
 
 * ダークテーマを指定する（このテーマに対応していないアプリケーションもあります）
 * CX エンタープライズ管理[環境設定](features/account-preferences.md)

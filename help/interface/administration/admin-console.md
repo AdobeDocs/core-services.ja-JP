@@ -43,7 +43,7 @@ ht-degree: 8%
 ---
 # ユーザーおよび製品の管理
 
-Adobe [Admin Console](https://adminconsole.adobe.com/enterprise/)では、ユーザーと製品ライセンスを管理できます。 すべてのAdobe アプリケーションに適用される一般的なID管理に関するヘルプについては、[ エンタープライズ版およびグループ版の管理者ガイド ](https://helpx.adobe.com/jp/enterprise/admin-guide.html)を参照してください。
+Adobe [Admin Console](https://adminconsole.adobe.com/enterprise/)では、ユーザーと製品ライセンスを管理できます。 すべてのAdobe アプリケーションに適用される一般的なID管理に関するヘルプについては、[&#x200B; エンタープライズ版およびグループ版の管理者ガイド &#x200B;](https://helpx.adobe.com/jp/enterprise/admin-guide.html)を参照してください。
 
 このページでは、CX Enterprise管理者に特に役立つ情報を提供し、役割を定義し、エンタープライズガイドの一般的なユーザーおよび製品管理のトピックへのリンクを提供します。
 
@@ -68,25 +68,25 @@ Admin Consoleで管理者として作業を開始する際に必要になる可�
 | ヘルプリンク | 説明 |
 | ------- | ------ |
 | [IDとシングルサインオンを設定](https://helpx.adobe.com/jp/enterprise/using/set-up-identity.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL Settings]** <br> シングルサインオン（SSO）の有無にかかわらず、異なるID タイプを持つユーザーアカウントを設定する方法について説明します。 Adobe ソフトウェアのSSOを設定し、SAML設定を行い、最も一般的な質問とエラーを確認します。 |
-| [ ディレクトリ信頼経由で組織を設定](https://helpx.adobe.com/enterprise/using/directory-trust.html) | 別の組織が既に要求しているドメインに対して、ユーザーを認証します。 組織の検索と切り替えについて詳しくは、[CX Enterpriseの組織](organizations.md)を参照してください。 |
-| [認証設定（エンタープライズ） ](https://helpx.adobe.com/enterprise/using/authentication-settings.html) | Admin Consoleでは、安全性とセキュリティを確保するために、いくつかのパスワード保護レベルとポリシーをサポートしています。 パスワード保護レベルを使用して、組織のすべてのユーザーに適用するように指定できます。 |
-| [ プライバシーとセキュリティの連絡先](https://helpx.adobe.com/enterprise/using/security-contacts.html) | 組織とユーザーのデータを保護。 当社のソフトウェアソリューションに関するセキュリティインシデントが発生した場合、適切なコンプライアンス担当者に通知が送信されます。 企業には、データ保護、完全性、その他のコンプライアンス事項に特化した役割を持つ人材が揃っています。 したがって、セキュリティ上の問題が発生した場合に迅速に通知を行うために、このような担当者の連絡先情報が重要です。 |
+| [&#x200B; ディレクトリ信頼経由で組織を設定](https://helpx.adobe.com/enterprise/using/directory-trust.html) | 別の組織が既に要求しているドメインに対して、ユーザーを認証します。 組織の検索と切り替えについて詳しくは、[CX Enterpriseの組織](organizations.md)を参照してください。 |
+| [認証設定（エンタープライズ） &#x200B;](https://helpx.adobe.com/enterprise/using/authentication-settings.html) | Admin Consoleでは、安全性とセキュリティを確保するために、いくつかのパスワード保護レベルとポリシーをサポートしています。 パスワード保護レベルを使用して、組織のすべてのユーザーに適用するように指定できます。 |
+| [&#x200B; プライバシーとセキュリティの連絡先](https://helpx.adobe.com/enterprise/using/security-contacts.html) | 組織とユーザーのデータを保護。 当社のソフトウェアソリューションに関するセキュリティインシデントが発生した場合、適切なコンプライアンス担当者に通知が送信されます。 企業には、データ保護、完全性、その他のコンプライアンス事項に特化した役割を持つ人材が揃っています。 したがって、セキュリティ上の問題が発生した場合に迅速に通知を行うために、このような担当者の連絡先情報が重要です。 |
 
 ### ユーザー管理
 
 | ヘルプリンク | 説明 |
 | ------- | ------- |
-| [Adobe IDをリセット ](https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/cant-sign-in-to-adobe-account.html) | ログアウトし、**[!UICONTROL ヘルプのログインを取得]**/**[!UICONTROL パスワードをリセット]**&#x200B;をクリックします。 |
+| [Adobe IDをリセット &#x200B;](https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/cant-sign-in-to-adobe-account.html) | ログアウトし、**[!UICONTROL ヘルプのログインを取得]**/**[!UICONTROL パスワードをリセット]**&#x200B;をクリックします。 |
 | [複数のユーザーを管理](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL ユーザー]** <br>CSVの一括アップロードを使用して複数のユーザーをAdmin Consoleに管理する方法について説明します。 |
-| [ID タイプ ](https://helpx.adobe.com/jp/enterprise/using/identity.html) | ID タイプにより、組織はユーザーのアカウントとデータをさまざまなレベルで制御できます。 ID モデルの選択は、組織がアセットを保存および共有する方法に影響します。 Federated IDとEnterprise ID モデルは組織で作成および管理されますが、Adobe IDは個人で作成および管理されます。 |
-| [ ユーザー同期ツール ](https://helpx.adobe.com/enterprise/using/user-sync.html) （UST） | Adobe User Sync Toolは、組織のID管理システム（Active Directoryなど）とAdobe Admin Console間でユーザーデータを自動的に同期するために使用されるデスクトップアプリケーションです。 管理者は、このツールを使用することで、Adobe製品全体でユーザーのプロビジョニング、更新、非アクティブ化を合理化できます。 |
-| [ ユーザーの詳細を表示（管理ツール） ](admin-tool-experience-cloud.md) | [!UICONTROL 管理ツール ]の詳細を含む、すべてのCX Enterprise ユーザーとポリシーの並べ替え可能でフィルター可能なリストを表示します。 |
+| [ID タイプ &#x200B;](https://helpx.adobe.com/jp/enterprise/using/identity.html) | ID タイプにより、組織はユーザーのアカウントとデータをさまざまなレベルで制御できます。 ID モデルの選択は、組織がアセットを保存および共有する方法に影響します。 Federated IDとEnterprise ID モデルは組織で作成および管理されますが、Adobe IDは個人で作成および管理されます。 |
+| [&#x200B; ユーザー同期ツール &#x200B;](https://helpx.adobe.com/enterprise/using/user-sync.html) （UST） | Adobe User Sync Toolは、組織のID管理システム（Active Directoryなど）とAdobe Admin Console間でユーザーデータを自動的に同期するために使用されるデスクトップアプリケーションです。 管理者は、このツールを使用することで、Adobe製品全体でユーザーのプロビジョニング、更新、非アクティブ化を合理化できます。 |
+| [&#x200B; ユーザーの詳細を表示（管理ツール） &#x200B;](admin-tool-experience-cloud.md) | [!UICONTROL 管理ツール &#x200B;]の詳細を含む、すべてのCX Enterprise ユーザーとポリシーの並べ替え可能でフィルター可能なリストを表示します。 |
 
 ### レポートとログ
 
 | ヘルプリンク | 説明 |
 | ------- | ------- |
-| [監査ログ ](https://helpx.adobe.com/enterprise/using/audit-logs.html) | **[!UICONTROL インサイト]** > **[!UICONTROL ログ]** > **[!UICONTROL 監査ログ]** <br> Admin Consoleで行われたすべての変更を追跡します。 |
+| [監査ログ &#x200B;](https://helpx.adobe.com/enterprise/using/audit-logs.html) | **[!UICONTROL インサイト]** > **[!UICONTROL ログ]** > **[!UICONTROL 監査ログ]** <br> Admin Consoleで行われたすべての変更を追跡します。 |
 
 
 ## アプリケーションに特化したリソース
@@ -137,5 +137,5 @@ Admin Consoleで管理者として作業を開始する際に必要になる可�
 * [ターゲット](https://experienceleague.adobe.com/en/docs/target/using/administer/start-target)
 * [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/admin-console)
 
-すべてのAdobe アプリケーションのAdmin Console ヘルプの大部分は、[ エンタープライズ版およびグループ版の管理ガイド ](https://helpx.adobe.com/jp/enterprise/admin-guide.html)に記載されています。
+すべてのAdobe アプリケーションのAdmin Console ヘルプの大部分は、[&#x200B; エンタープライズ版およびグループ版の管理ガイド &#x200B;](https://helpx.adobe.com/jp/enterprise/admin-guide.html)に記載されています。
 

@@ -84,21 +84,21 @@ CX Enterpriseでは、Adobe ユーザーアカウントの環境設定で設定�
 
 CX Enterpriseにログインすると、統合ヘッダーからすべてのアプリケーション、サービス、組織にすばやくアクセスできます。
 
-所有しているCX Enterprise サービスにアクセスするには、アプリケーション セレクター![ メニュー](assets/menu-icon.png)をクリックします。
+所有しているCX Enterprise サービスにアクセスするには、アプリケーション セレクター![&#x200B; メニュー](assets/menu-icon.png)をクリックします。
 
-![CX エンタープライズ アプリケーションへのアクセス ](assets/platform-core-services.png)
+![CX エンタープライズ アプリケーションへのアクセス &#x200B;](assets/platform-core-services.png)
 
 ## CX Enterpriseの検索とサポート
 
 CX Enterprise検索を使用すると、[Experience League](https://experienceleague.adobe.com/ja#home)でヘルプ（ドキュメント、チュートリアル、コース）を検索できます。
 
-![CX Enterpriseでの検索とサポート ](assets/search-menu.png)
+![CX Enterpriseでの検索とサポート &#x200B;](assets/search-menu.png)
 
-[!UICONTROL  ヘルプ ] メニューでは、次のアクセス権も使用できます。
+[!UICONTROL &#x200B; ヘルプ &#x200B;] メニューでは、次のアクセス権も使用できます。
 
-* **[!UICONTROL サポート ]:** サポートチケットを作成するか、Twitterを使用して[!UICONTROL  サポート ]にお問い合わせください。
-* **[!UICONTROL フィードバック ]:** フィードバックを使用してAdobeにお問い合わせください。ご意見をお聞かせください。
-* **[!UICONTROL ステータス ]:**&#x200B;に移動して、`https://status.adobe.com/experience_cloud`製品の運用状態と[!UICONTROL  サブスクリプションの管理]を確認します。
+* **[!UICONTROL サポート &#x200B;]:** サポートチケットを作成するか、Twitterを使用して[!UICONTROL &#x200B; サポート &#x200B;]にお問い合わせください。
+* **[!UICONTROL フィードバック &#x200B;]:** フィードバックを使用してAdobeにお問い合わせください。ご意見をお聞かせください。
+* **[!UICONTROL ステータス &#x200B;]:**&#x200B;に移動して、`https://status.adobe.com/experience_cloud`製品の運用状態と[!UICONTROL &#x200B; サブスクリプションの管理]を確認します。
 * **[!UICONTROL Developer Connection]:** `adobe.io`に移動して、開発者向けドキュメントを見つけます。
 
 ## アカウント設定

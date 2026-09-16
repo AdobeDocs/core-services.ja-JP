@@ -60,7 +60,7 @@ Creative Cloud ユーザーがアセットにアクセスする前に、CX Enter
    ![Creative Cloud ユーザーを追加](../../assets/asset-share-cc-page.png)
 
 1. 「**[!UICONTROL 共有]**」をクリックします。
-1. [!DNL Creative Cloud] デスクトップを起動し（またはブラウザーで[!UICONTROL Creative Cloud ファイル ] ページに移動）、リクエスト通知を探します。
+1. [!DNL Creative Cloud] デスクトップを起動し（またはブラウザーで[!UICONTROL Creative Cloud ファイル &#x200B;] ページに移動）、リクエスト通知を探します。
 
    ![リクエスト通知](../../assets/cc_share_request.png)
 1. リクエストを開き、**[!UICONTROL 同意]**&#x200B;をクリックします。
@@ -85,7 +85,7 @@ Creative Cloud ユーザーがアセットにアクセスする前に、CX Enter
 
    Creative Cloud ユーザーをすべて削除すると、そのフォルダーの共有が解除され、Creative Cloud ユーザーはそれらにアクセスできなくなります。
 
-共有アセットを使用する他の方法には、アクティビティの画像に対して、Adobe Targetの[ オファーライブラリ ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html)でアセットを読み込んだり入れ替えたりすることが含まれます。
+共有アセットを使用する他の方法には、アクティビティの画像に対して、Adobe Targetの[&#x200B; オファーライブラリ &#x200B;](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html)でアセットを読み込んだり入れ替えたりすることが含まれます。
 
 Creative Cloud にフォルダーを共有すると、フォルダー上に Creative Cloud のロゴが表示されます。
 
@@ -99,7 +99,7 @@ Creative Cloud にフォルダーを共有すると、フォルダー上に Crea
 
 ## Adobe Target とのアセットの共有について
 
-[!DNL Adobe Target]でアクティビティを作成する場合、[!UICONTROL  オファーライブラリ ]で画像を入れ替える際に、共有の画像アセットを使用できます。
+[!DNL Adobe Target]でアクティビティを作成する場合、[!UICONTROL &#x200B; オファーライブラリ &#x200B;]で画像を入れ替える際に、共有の画像アセットを使用できます。
 
 [!DNL Target] ヘルプの[オファーライブラリ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html)を参照してください。
 

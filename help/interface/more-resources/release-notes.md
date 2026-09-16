@@ -51,15 +51,15 @@ ht-degree: 57%
 
 CX Enterprise Central Interface Componentsの機能、リリースノート、既知の問題。
 
-ドキュメントの更新の一覧については、[ ドキュメントの更新](doc-updates.md)を参照してください。
+ドキュメントの更新の一覧については、[&#x200B; ドキュメントの更新](doc-updates.md)を参照してください。
 
-すべてのアプリケーションに関するリリースノートについては、[CX エンタープライズ版リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)を参照してください。
+すべてのアプリケーションに関するリリースノートについては、[CX エンタープライズ版リリースノート &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)を参照してください。
 
 ## 2026年7月
 
 | 日付 | 更新 | 説明 |
 | ------- | ------- | ------- |
-| 2026年7月10日（PT） | Federated Guest AccessのCX Enterprise サポート | 自分のドメインでゲストユーザーを安全に認証するために[ フェデレーションゲストアクセス ](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html)を有効にしている場合、CX エンタープライズでは、これらのユーザーがアカウントを切り替えることができます。 アカウントの切り替えは、[CX Enterprise](https://experience.adobe.com) ページの組織スイッチャーから利用できます。 |
+| 2026年7月10日（PT） | Federated Guest AccessのCX Enterprise サポート | 自分のドメインでゲストユーザーを安全に認証するために[&#x200B; フェデレーションゲストアクセス &#x200B;](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html)を有効にしている場合、CX エンタープライズでは、これらのユーザーがアカウントを切り替えることができます。 アカウントの切り替えは、[CX Enterprise](https://experience.adobe.com) ページの組織スイッチャーから利用できます。 |
 
 ## 2026年6月
 
@@ -233,7 +233,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 ## 2020年4月
 
-* CX エンタープライズ [!UICONTROL  フィード ] ページは非推奨（廃止予定）になりました。 （EXC-8505）
+* CX エンタープライズ [!UICONTROL &#x200B; フィード &#x200B;] ページは非推奨（廃止予定）になりました。 （EXC-8505）
 * CX Enterpriseのログインページが更新され、新しいブランド要素が反映されました。 （EXC-10747）
 
 ## 2020年2月

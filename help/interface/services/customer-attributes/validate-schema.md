@@ -53,11 +53,11 @@ ht-degree: 39%
 
 1. **[!UICONTROL 顧客属性を編集Source]**&#x200B;で、**[!UICONTROL ファイルアップロード]**&#x200B;をクリックします。
 
-1. [!UICONTROL  ファイルのアップロードとスキーマ検証] ページで、**[!UICONTROL アクション]** > **[!UICONTROL スキーマの表示/編集]**&#x200B;をクリックします
+1. [!UICONTROL &#x200B; ファイルのアップロードとスキーマ検証] ページで、**[!UICONTROL アクション]** > **[!UICONTROL スキーマの表示/編集]**&#x200B;をクリックします
 
    ![スキーマの編集](assets/actions.png)
 
-   [!UICONTROL  スキーマの編集] ページでは、スキーマの各行が、アップロードされたCSV ファイルの列を表します。
+   [!UICONTROL &#x200B; スキーマの編集] ページでは、スキーマの各行が、アップロードされたCSV ファイルの列を表します。
 
    ![CX Enterpriseのスキーマページを編集](assets/schema-edit.png)
 

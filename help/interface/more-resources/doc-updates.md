@@ -47,21 +47,21 @@ CX Enterpriseの一元的なインターフェイスと管理に関するドキ�
 
 ## 2026年7月
 
-* 組織スイッチャーからのゲストユーザーのアカウント切り替えを含む、[Federated Guest Access](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html)のCX エンタープライズサポート用に[2026年7月リリースノート ](release-notes.md)を追加しました。
+* 組織スイッチャーからのゲストユーザーのアカウント切り替えを含む、[Federated Guest Access](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html)のCX エンタープライズサポート用に[2026年7月リリースノート &#x200B;](release-notes.md)を追加しました。
 
 ## 2026年6月
 
 * 概要、ユーザー、フィードバック、AI クレジットの表示、会話の再生、ガバナンスユーザーの権限など、ライセンス使用状況とAgentic AI監視ダッシュボードに対応した[Agentic AI monitoring](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring)を公開しました。
-* エージェント型AI使用状況モニタリング用に[2026年6月のリリースノート ](release-notes.md)を追加しました。
+* エージェント型AI使用状況モニタリング用に[2026年6月のリリースノート &#x200B;](release-notes.md)を追加しました。
 
 ## 2026年5月
 
 4月と5月のCX Enterprise Central インターフェイスガイドのアップデート：
 
 * 説明、リンクテキスト、自動タグ付けメタデータなど、Adobe Experience Cloudからガイド全体で&#x200B;**CX Enterprise**&#x200B;へのリブランドされたドキュメント。
-* `https://experience.adobe.com/home`に更新されたホームページの[2026年4月のリリースノート ](release-notes.md)を追加しました（UIの更新、ダークモード、アクセシビリティの改善）。
-* CX Enterprise](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)の[Agentic AIを更新しました：Adobe Marketing Agent for Microsoft 365 Copilot、修正されたエージェント機能、およびexisting-apps エージェントテーブルの&#x200B;**Health Data / HIPAA対応**&#x200B;列。
-* [地域データ収集](../data-collection/rdc.md)、[ ホスト名転送](../data-collection/adobe-managed-cert.md)および[用語](terms.md)のマイナーアップデート。
+* `https://experience.adobe.com/home`に更新されたホームページの[2026年4月のリリースノート &#x200B;](release-notes.md)を追加しました（UIの更新、ダークモード、アクセシビリティの改善）。
+* CX Enterprise[&#128279;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)のAgentic AIを更新しました：Adobe Marketing Agent for Microsoft 365 Copilot、修正されたエージェント機能、およびexisting-apps エージェントテーブルの&#x200B;**Health Data / HIPAA対応**&#x200B;列。
+* [地域データ収集](../data-collection/rdc.md)、[&#x200B; ホスト名転送](../data-collection/adobe-managed-cert.md)および[用語](terms.md)のマイナーアップデート。
 
 ## 2026 年 3 月
 
@@ -77,25 +77,25 @@ CX Enterpriseの[Agentic AIの更新](https://experienceleague.adobe.com/en/docs
 
 ## 2025年8月
 
-Adobe ID](../features/account-preferences.md)のリセットに関する情報を[追加しました。
+Adobe ID[&#128279;](../features/account-preferences.md)のリセットに関する情報を追加しました。
 
 ## 2025年2月
 
-CX Enterprise](../administration/admin-console.md)に[ ユーザーと製品の管理を追加しました。 このページでは、管理者がすべてのアプリケーションのユーザーおよび製品管理（Admin Console）ヘルプを見つけるのに役立ちます。
+CX Enterprise[&#128279;](../administration/admin-console.md)に ユーザーと製品の管理を追加しました。 このページでは、管理者がすべてのアプリケーションのユーザーおよび製品管理（Admin Console）ヘルプを見つけるのに役立ちます。
 
 ## 2024年11月
 
-[製品使用状況データ ](../features/account-preferences.md)および[ パーソナライズされた学習](../features/personalized-learning.md)を更新しました。
+[製品使用状況データ &#x200B;](../features/account-preferences.md)および[&#x200B; パーソナライズされた学習](../features/personalized-learning.md)を更新しました。
 
 ## 2024年9月
 
-Slack通知](../features/account-preferences.md#subscribe-to-slack-notifications)の購読に関するヘルプを追加しました。[
+Slack通知[&#128279;](../features/account-preferences.md#subscribe-to-slack-notifications)の購読に関するヘルプを追加しました。
 
-[ ユーザー設定](../features/account-preferences.md)を更新しました。
+[&#x200B; ユーザー設定](../features/account-preferences.md)を更新しました。
 
 ## 2024年4月26日（PT）
 
-ドキュメントアーキテクチャの完全刷新。 [Adobe CX Enterprise IP アドレス ](../data-collection/ip-addresses.md)および[Regional data collection](../data-collection/rdc.md)も追加されました。
+ドキュメントアーキテクチャの完全刷新。 [Adobe CX Enterprise IP アドレス &#x200B;](../data-collection/ip-addresses.md)および[Regional data collection](../data-collection/rdc.md)も追加されました。
 
 ## 2024年4月9日（PT）
 
@@ -142,11 +142,11 @@ Slack通知](../features/account-preferences.md#subscribe-to-slack-notifications
 
 ## 2021年6月1日（PT）
 
-CX Enterpriseへのアクセス、グローバル検索、環境設定、通知に関する新しいヘルプを使用して、[ ランディングページ ](../experience-cloud.md)を更新しました。
+CX Enterpriseへのアクセス、グローバル検索、環境設定、通知に関する新しいヘルプを使用して、[&#x200B; ランディングページ &#x200B;](../experience-cloud.md)を更新しました。
 
 ## 2020年8月19日（PT）
 
-ポリシー情報を含む[CX エンタープライズ ユーザーの詳細の表示（管理ツール） ](../administration/admin-tool-experience-cloud.md)を更新しました。
+ポリシー情報を含む[CX エンタープライズ ユーザーの詳細の表示（管理ツール） &#x200B;](../administration/admin-tool-experience-cloud.md)を更新しました。
 
 ## 2020年5月19日（PT）
 
@@ -165,7 +165,7 @@ CX Enterpriseへのアクセス、グローバル検索、環境設定、通知�
 
 ## 2020年2月20日（PT）
 
-[View CX Enterprise ユーザーの詳細（管理ツール） ](../administration/admin-tool-experience-cloud.md)を追加しました。
+[View CX Enterprise ユーザーの詳細（管理ツール） &#x200B;](../administration/admin-tool-experience-cloud.md)を追加しました。
 
 ## 更新日：2018年9月5日（PT）
 

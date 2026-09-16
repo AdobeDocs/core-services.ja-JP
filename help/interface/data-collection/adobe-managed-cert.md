@@ -70,8 +70,8 @@ Adobeで管理される証明書プログラムは、CNAMEの実装に必要な�
 
 ファーストパーティデータ収集用の新しい証明書を実装するには、次の手順に従います。
 
-1. [ ファーストパーティのドメイン要求フォームをダウンロードして入力します](cookies/assets/First_Party_Domain_Request_Form.xlsx)
-1. Adobe カスタマーケアでチケットを開き、Adobeが管理する証明書プログラムでファーストパーティデータの収集を設定するようにリクエストします。 組織にデータレジデンシーまたはコンプライアンス要件がある場合は、リクエストに目的の[RDC タイプ ](rdc.md)を指定します。
+1. [&#x200B; ファーストパーティのドメイン要求フォームをダウンロードして入力します](cookies/assets/First_Party_Domain_Request_Form.xlsx)
+1. Adobe カスタマーケアでチケットを開き、Adobeが管理する証明書プログラムでファーストパーティデータの収集を設定するようにリクエストします。 組織にデータレジデンシーまたはコンプライアンス要件がある場合は、リクエストに目的の[RDC タイプ &#x200B;](rdc.md)を指定します。
 1. チケットを受け取ると、Adobeの担当者がCNAME レコードを提供します。 このレコードは、Adobeが証明書を購入する前に、会社のDNS サーバーで設定する必要があります。 例えば、ホスト名`data.example.com`は`hiodsibxvip01.data.adobedc.net`を指しています。
 1. 組織のサーバーにCNAME レコードが配置されている場合、AdobeはDigiCertと連携して、Adobe データ収集サーバーに証明書を購入してインストールします。
 1. Adobe CNAMEがファーストパーティの目的でホストしているときに`robots.txt` ファイルの更新が必要な場合は、カスタマーケアにお問い合わせください。 このようなリクエストは、Googleがサブドメインをクロールできないように`robots.txt` ファイルを更新する場合に関連します。
@@ -139,7 +139,7 @@ Aliases: data.example.com
 * **Web SDK タグ拡張機能**：拡張機能の設定時に[[!UICONTROL Edge domain]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/general) フィールドを更新します。
 * **Web SDK （alloy）**: `configure` コマンド内の[`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/edgedomain) プロパティを更新します。
 * **Adobe Analytics拡張機能**：拡張機能の設定時に[[!UICONTROL SSL Tracking Server]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview) フィールドを更新します。 [訪問者ID サービスタグ拡張機能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview)もインストールされていることを確認してください。 詳しくは、[Analytics タグ拡張機能を使用した訪問者の識別](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension)を参照してください。
-* **AppMeasurement**: [`trackingServerSecure`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserversecure)構成変数を更新します。 [訪問者ID サービス ](https://experienceleague.adobe.com/ja/docs/id-service/using/home)が`VisitorAPI.js`を使用して実装されていることも確認してください。 詳しくは、[AppMeasurementを使用した訪問者特定](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/appmeasurement)を参照してください。
+* **AppMeasurement**: [`trackingServerSecure`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserversecure)構成変数を更新します。 [訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home)が`VisitorAPI.js`を使用して実装されていることも確認してください。 詳しくは、[AppMeasurementを使用した訪問者特定](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/appmeasurement)を参照してください。
 
 サイトで複数の実装方法を使用しており、すべての実装方法を同時に更新できない場合は、猶予期間の設定を検討してください。 サイト全体で訪問者が新規訪問者としてカウントされないようにする方法について詳しくは、[訪問者ID サービスの移行に関する考慮事項](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration)を参照してください。
 

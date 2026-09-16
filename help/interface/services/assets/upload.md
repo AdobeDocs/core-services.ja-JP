@@ -32,7 +32,7 @@ Creative Cloud デスクトップまたはCreative Cloud ブラウザーから�
 
 Creative Cloud のヘルプについては、[https://helpx.adobe.com/jp/creative-cloud/help/sync-creative-cloud-files.html](https://helpx.adobe.com/jp/creative-cloud/help/sync-creative-cloud-files.html) を参照してください。
 
-1. [!DNL Creative Cloud] ブラウザーを起動し、[!UICONTROL Creative Cloud ファイル ]に移動します。
+1. [!DNL Creative Cloud] ブラウザーを起動し、[!UICONTROL Creative Cloud ファイル &#x200B;]に移動します。
 1. 共有フォルダーを開きます。
 1. **[!UICONTROL アクション]**/**[!UICONTROL アップロード]**&#x200B;をクリックします。
 1. オペレーティングシステムのファイル参照機能を使用して、アセットを選択または移動します。

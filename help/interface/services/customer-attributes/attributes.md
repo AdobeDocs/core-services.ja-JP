@@ -43,9 +43,9 @@ ht-degree: 46%
 ---
 # CX Enterpriseの[!DNL Customer Attributes]
 
-**[!UICONTROL アプリ]** ![ メニュー](assets/menu-icon.png) > **[!DNL Customer Attributes]**
+**[!UICONTROL アプリ]** ![&#x200B; メニュー](assets/menu-icon.png) > **[!DNL Customer Attributes]**
 
-Adobe CX Enterpriseの[!DNL Customer Attributes]では、取り込んだエンタープライズ データをCRM （顧客関係管理）データベースからアップロードできます。 データ ](t-crs-usecase.md)を[CX Enterpriseの[!DNL Customer Attributes] データソースにアップロードしてから、[!DNL Adobe Analytics]および[!DNL Adobe Target]でデータを使用できます。
+Adobe CX Enterpriseの[!DNL Customer Attributes]では、取り込んだエンタープライズ データをCRM （顧客関係管理）データベースからアップロードできます。 データ [&#128279;](t-crs-usecase.md)をCX Enterpriseの[!DNL Customer Attributes] データソースにアップロードしてから、[!DNL Adobe Analytics]および[!DNL Adobe Target]でデータを使用できます。
 
 ![顧客属性の概要](assets/custom_reports.png)
 
@@ -55,11 +55,11 @@ Adobe CX Enterpriseの[!DNL Customer Attributes]では、取り込んだエン�
 
 次の画像は、_データファイル_&#x200B;の例で、メンバーID、使用権限のある製品、最も起動数の多い製品など、製品の購読者データを示しています。
 
-![企業顧客データとは ](assets/01_crs_usecase.png)
+![企業顧客データとは &#x200B;](assets/01_crs_usecase.png)
 
 データファイルを作成したら、**[!UICONTROL CX Enterprise]** > **[!UICONTROL 顧客属性]**&#x200B;で作成した顧客属性ソースにアップロードできます。
 
-このワークフローについて詳しくは、[顧客属性データのアップロード ](t-crs-usecase.md)を参照してください。
+このワークフローについて詳しくは、[顧客属性データのアップロード &#x200B;](t-crs-usecase.md)を参照してください。
 
 ## Analytics と Target における顧客属性の例
 
