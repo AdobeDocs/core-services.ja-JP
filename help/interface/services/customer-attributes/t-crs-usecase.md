@@ -1,34 +1,43 @@
 ---
-description: ' [!DNL Customer Attributes]  データソースを作成してCX Enterpriseにアップロードする方法を説明します。'
+description: '[!DNL Customer Attributes] データソースを作成してCX Enterpriseにアップロードする方法を説明します。'
 solution: Experience Cloud
-title: 'Data Source ファイルを作成してアップロードする [!DNL Customer Attributes] '
+title: '[!DNL Customer Attributes] Data Source ファイルの作成とアップロード'
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-TQID: https://experienceleague.adobe.com/tnqjX4iY7OQx4XW9MjHNg8LaXB1Of6MrtLX-7efyz-E
+TQID: 'https://experienceleague.adobe.com/tnqjX4iY7OQx4XW9MjHNg8LaXB1Of6MrtLX-7efyz-E'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 1181
+source-wordcount: '1183'
 ht-degree: 42%
-
 ---
-
 # 顧客属性データの作成とアップロード
 
 顧客属性ソース （`.csv`および`.fin` ファイル）を作成し、データをアップロードします。 準備できたら、データソースをアクティブ化できます。 データソースがアクティブになったら、属性データを[!DNL Analytics]と[!DNL Target]に共有します。
@@ -41,13 +50,13 @@ ht-degree: 42%
 
 * **グループメンバーシップ：** データをアップロードするには、ユーザーが[!DNL Customer Attributes] グループのメンバーである必要があります。 また、Adobe Analytics グループまたは Adobe Target グループのいずれかに属している必要もあります。
 
-  会社が顧客属性にアクセスできるかどうかを確認するには、[!DNL CX Enterprise]管理者が[CX Enterprise](https://experience.adobe.com)にログインする必要があります。 **[!UICONTROL Admin Console]** > **[!UICONTROL 製品]**&#x200B;に移動します。 *[!DNL Customer Attributes]*&#x200B;が[!UICONTROL 製品プロファイル &#x200B;]の1つとして表示される場合は、開始する準備ができています。
+  会社が顧客属性にアクセスできるかどうかを確認するには、[!DNL CX Enterprise]管理者が[CX Enterprise](https://experience.adobe.com)にログインする必要があります。 **[!UICONTROL Admin Console]** > **[!UICONTROL 製品]**&#x200B;に移動します。 *[!DNL Customer Attributes]*&#x200B;が[!UICONTROL 製品プロファイル ]の1つとして表示される場合は、開始する準備ができています。
 
   [!DNL Customer Attributes]に追加されたユーザーには、CX Enterprise インターフェイスの左側に[!DNL Customer Attributes] メニュー項目が表示されます。
 
 * 顧客属性には、**Adobe Target** `at.js`（任意のバージョン）または `mbox.js` バージョン 58 以降が必要です。
 
-  [at.js のデプロイ方法](https://experienceleague.adobe.com/ja/docs/target-dev/developer/client-side/overview)を参照してください。
+  [at.js のデプロイ方法](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/overview)を参照してください。
 
 ## データファイルの作成
 
@@ -74,9 +83,9 @@ CX Enterpriseの&#x200B;_[!UICONTROL 顧客属性の作成Source]_ ページで�
 >
 >顧客属性ソースを作成、変更または削除する場合、ID が新しいデータソースと同期され始めるまで、最大 1 時間の遅延があります。 顧客属性ソースを作成または変更するには、Audience Manager の管理者権限が必要です。 Audience Manager カスタマーサポートまたはコンサルティングに連絡して、管理者権限を取得します。
 
-1. [!UICONTROL 顧客属性]を開くには、**[!UICONTROL アプリ]** ![&#x200B; メニュー](assets/menu-icon.png) > **[!DNL Customer Attributes]**&#x200B;をクリックします。
+1. [!UICONTROL 顧客属性]を開くには、**[!UICONTROL アプリ]** ![ メニュー](assets/menu-icon.png) > **[!DNL Customer Attributes]**&#x200B;をクリックします。
 
-   ![顧客属性ページ &#x200B;](assets/cust-attr.png)
+   ![顧客属性ページ ](assets/cust-attr.png)
 
 1. 「**[!UICONTROL 新規]**」をクリックします。
 
@@ -88,7 +97,7 @@ CX Enterpriseの&#x200B;_[!UICONTROL 顧客属性の作成Source]_ ページで�
 
    * **[!UICONTROL 説明：]** （オプション） データ属性ソースの説明。
 
-   * **[!UICONTROL エイリアス ID:]**&#x200B;特定のCRM システムなどの顧客属性データのソースを表します。 [!UICONTROL &#x200B; エイリアス ID]は、[!UICONTROL 顧客属性Source] コードで使用される一意のIDです。 ID は一意で、スペースを含まないアルファベットおよびアンダースコアの組み合わせにしてください。 CX Enterpriseの顧客属性ソースの[!UICONTROL Alias ID] フィールドに入力される値は、実装から渡される値と一致する必要があります（Platform Data CollectionまたはMobile SDKのJavaScriptを介して）。
+   * **[!UICONTROL エイリアス ID:]**&#x200B;特定のCRM システムなどの顧客属性データのソースを表します。 [!UICONTROL  エイリアス ID]は、[!UICONTROL 顧客属性Source] コードで使用される一意のIDです。 ID は一意で、スペースを含まないアルファベットおよびアンダースコアの組み合わせにしてください。 CX Enterpriseの顧客属性ソースの[!UICONTROL Alias ID] フィールドに入力される値は、実装から渡される値と一致する必要があります（Platform Data CollectionまたはMobile SDKのJavaScriptを介して）。
 
      >[!IMPORTANT]
      >
@@ -96,31 +105,31 @@ CX Enterpriseの&#x200B;_[!UICONTROL 顧客属性の作成Source]_ ページで�
 
      エイリアス IDは、追加の顧客ID値を設定する特定の領域に対応します。 次に例を示します。
 
-      * **タグ：** エイリアス IDは、[[!UICONTROL Experience Cloud ID サービス &#x200B;]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja) タグ拡張機能の[!UICONTROL 顧客設定]の&#x200B;*統合コード*&#x200B;の値に対応しています。
+     * **タグ：** エイリアス IDは、[[!UICONTROL Experience Cloud ID サービス ]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja) タグ拡張機能の[!UICONTROL 顧客設定]の&#x200B;*統合コード*&#x200B;の値に対応しています。
 
-      * **訪問者ID サービス：** エイリアス IDは、各訪問者に関連付けることができる追加の[顧客ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja)に対応します。
+     * **訪問者ID サービス：** エイリアス IDは、各訪問者に関連付けることができる追加の[顧客ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja)に対応します。
 
-        例：*crm_id* の場合：
+       例：*crm_id* の場合：
 
-        ```
-        "crm_id":"67312378756723456"
-        ```
+       ```
+       "crm_id":"67312378756723456"
+       ```
 
-      * **iOS:** エイリアス IDは、[visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=ja)の&#x200B;*&quot;idType&quot;*&#x200B;に対応しています。
+     * **iOS:** エイリアス IDは、[visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=ja)の&#x200B;*&quot;idType&quot;*&#x200B;に対応しています。
 
-        次に例を示します。
+       次に例を示します。
 
-        `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
+       `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android™：**&#x200B;エイリアス ID は [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=ja) の *&quot;idType&quot;*&#x200B;に対応しています。
+     * **Android™：**&#x200B;エイリアス ID は [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=ja) の *&quot;idType&quot;*&#x200B;に対応しています。
 
-        次に例を示します。
+       次に例を示します。
 
-        `identifiers.put(`**`"idType"`**`, "idValue");`
+       `identifiers.put(`**`"idType"`**`, "idValue");`
 
-        エイリアス ID フィールドと顧客IDに関するデータ処理の詳細については、[複数のデータソースの活用](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)を参照してください。
+       エイリアス ID フィールドと顧客IDに関するデータ処理の詳細については、[複数のデータソースの活用](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)を参照してください。
 
-   * **[!UICONTROL 名前空間コード：]**&#x200B;この値を使用して、AEP WebSDK実装の一部として[IdentityMap](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/identity/overview)を使用する場合に、顧客属性ソースを特定します。
+   * **[!UICONTROL 名前空間コード：]**&#x200B;この値を使用して、AEP WebSDK実装の一部として[IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview)を使用する場合に、顧客属性ソースを特定します。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -132,7 +141,7 @@ CX Enterpriseの&#x200B;_[!UICONTROL 顧客属性の作成Source]_ ページで�
 
 1. [!UICONTROL お客様データの編集Source] ページで、**[!UICONTROL ファイルのアップロード]**&#x200B;をクリックします。
 
-   ![&#x200B; ファイルのアップロードとスキーマの検証](assets/file-upload-schema-validation.png)
+   ![ ファイルのアップロードとスキーマの検証](assets/file-upload-schema-validation.png)
 
 1. `.csv`または`.zip`または`.gzip` データファイルをドラッグ&amp;ドロップ ウィンドウにドラッグ&amp;ドロップします。
 
@@ -140,7 +149,7 @@ CX Enterpriseの&#x200B;_[!UICONTROL 顧客属性の作成Source]_ ページで�
 >
 >特定のデータファイル要件が存在します。 詳しくは、[データファイル要件](crs-data-file.md)を参照してください。
 
-ファイルをアップロードすると、このページの「[!UICONTROL &#x200B; ファイルアップロード &#x200B;]」見出しの下にテーブルデータが表示されます。 スキーマを検証したり、購読を設定したり、FTP を設定したりできます。
+ファイルをアップロードすると、このページの「[!UICONTROL  ファイルアップロード ]」見出しの下にテーブルデータが表示されます。 スキーマを検証したり、購読を設定したり、FTP を設定したりできます。
 
 ![属性](assets/file_upload_attributes.png)
 
@@ -170,7 +179,7 @@ CX Enterpriseの&#x200B;_[!UICONTROL 顧客属性の作成Source]_ ページで�
 
 サブスクリプションの設定では、CX Enterpriseとアプリケーション間のデータフローを設定します。 属性ソースを有効化すると、購読しているアプリケーションでデータが利用できるようになります。 アップロードした顧客レコードは、Web サイトまたはアプリケーションから入ってくる ID 信号と照合されます。
 
-[&#x200B; サブスクリプションの設定とデータソースのアクティブ化](subscription.md)を参照してください。
+[ サブスクリプションの設定とデータソースのアクティブ化](subscription.md)を参照してください。
 
 ## Adobe Analyticsでの[!DNL Customer Attributes] データの使用
 
@@ -184,8 +193,8 @@ Adobe Analytics などのアプリケーションで利用できるデータを�
 
 ## Adobe Targetでの[!DNL Customer Attributes] データの使用
 
-[!DNL Target]では、オーディエンスの作成時に、[!UICONTROL 訪問者プロファイル &#x200B;] セクションから顧客属性を選択できます。 すべての顧客属性には、リスト内に接頭辞`crs.`が付いています。 これらの属性を、必要に応じて他のデータ属性と組み合わせることで、オーディエンスを構築します。
+[!DNL Target]では、オーディエンスの作成時に、[!UICONTROL 訪問者プロファイル ] セクションから顧客属性を選択できます。 すべての顧客属性には、リスト内に接頭辞`crs.`が付いています。 これらの属性を、必要に応じて他のデータ属性と組み合わせることで、オーディエンスを構築します。
 
 ![Adobe Target での顧客属性の使用](assets/crs-add-attribute-target.png)
 
-[!DNL Target]のヘルプの「[&#x200B; オーディエンスを作成](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=ja)」を参照してください。
+[!DNL Target]のヘルプの「[ オーディエンスを作成](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=ja)」を参照してください。

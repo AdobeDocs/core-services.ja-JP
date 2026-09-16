@@ -8,25 +8,33 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-TQID: https://experienceleague.adobe.com/H-N88ygcQUcUIej1Kkwlv9UmIe1qPDYwo-qF3TdDqHg
+TQID: 'https://experienceleague.adobe.com/H-N88ygcQUcUIej1Kkwlv9UmIe1qPDYwo-qF3TdDqHg'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 582
+source-wordcount: '582'
 ht-degree: 10%
-
 ---
-
 # Adobe Analytics cookie
 
 Adobe Analytics では、異なるブラウザーからのリクエストを区別する目的と、アプリケーションによって後で使用されることがある有用な情報を保存する目的で cookie を使用します。 また、閲覧情報を顧客レコードに関連付けることもできます。
@@ -42,11 +50,11 @@ Adobe Analyticsでは、Cookieを使用して新規訪問者を匿名で定義�
 | **`s_fid`** | 2 年。 | 33 バイト。 | ファーストパーティ | フォールバックの一意の訪問者IDとタイムスタンプを保存します。 サードパーティ Cookieの制限により、標準の`s_vi` Cookieを設定できない場合は、JavaScriptで設定します。 1st パーティ Cookieの実装には使用されません。 |
 | **`s_ac`** | 即時 | 1 バイト | ファーストパーティ | AppMeasurement Cookieを設定するための正しいドメインを特定するのに役立ちます。 静的値`"1"`が含まれます。 このCookieが設定されると、すぐに削除されます。 |
 
-Adobe AnalyticsがCookieを使用して訪問者を識別する方法について詳しくは、[Adobe Analyticsでの訪問者特定](https://experienceleague.adobe.com/ja/docs/analytics/implementation/id/overview)を参照してください。
+Adobe AnalyticsがCookieを使用して訪問者を識別する方法について詳しくは、[Adobe Analyticsでの訪問者特定](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview)を参照してください。
 
 ## プラグインで設定される cookie
 
-一部の実装では、Analyticsの追加機能を提供するコードのスニペットであるプラグインを使用します。 これらのプラグインは、上記に記載されていないCookieを設定できます。 使用可能なプラグインのリストと、それらが設定するCookieについては、[Analytics プラグインの概要](https://experienceleague.adobe.com/ja/docs/analytics/implementation/vars/plugins/impl-plugins)を参照してください。
+一部の実装では、Analyticsの追加機能を提供するコードのスニペットであるプラグインを使用します。 これらのプラグインは、上記に記載されていないCookieを設定できます。 使用可能なプラグインのリストと、それらが設定するCookieについては、[Analytics プラグインの概要](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins)を参照してください。
 
 ## Analytics Cookieの削除による影響
 

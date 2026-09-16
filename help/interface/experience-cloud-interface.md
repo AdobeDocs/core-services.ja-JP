@@ -6,13 +6,23 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 41%
-
 ---
-
 # CX エンタープライズ中央インターフェイスコンポーネント
 
 CX Enterpriseの中央インターフェイスコンポーネントには、次のような機能が搭載されています。
@@ -74,21 +84,21 @@ CX Enterpriseでは、Adobe ユーザーアカウントの環境設定で設定�
 
 CX Enterpriseにログインすると、統合ヘッダーからすべてのアプリケーション、サービス、組織にすばやくアクセスできます。
 
-所有しているCX Enterprise サービスにアクセスするには、アプリケーション セレクター![&#x200B; メニュー](assets/menu-icon.png)をクリックします。
+所有しているCX Enterprise サービスにアクセスするには、アプリケーション セレクター![ メニュー](assets/menu-icon.png)をクリックします。
 
-![CX エンタープライズ アプリケーションへのアクセス &#x200B;](assets/platform-core-services.png)
+![CX エンタープライズ アプリケーションへのアクセス ](assets/platform-core-services.png)
 
 ## CX Enterpriseの検索とサポート
 
 CX Enterprise検索を使用すると、[Experience League](https://experienceleague.adobe.com/ja#home)でヘルプ（ドキュメント、チュートリアル、コース）を検索できます。
 
-![CX Enterpriseでの検索とサポート &#x200B;](assets/search-menu.png)
+![CX Enterpriseでの検索とサポート ](assets/search-menu.png)
 
-[!UICONTROL &#x200B; ヘルプ &#x200B;] メニューでは、次のアクセス権も使用できます。
+[!UICONTROL  ヘルプ ] メニューでは、次のアクセス権も使用できます。
 
-* **[!UICONTROL サポート &#x200B;]:** サポートチケットを作成するか、Twitterを使用して[!UICONTROL &#x200B; サポート &#x200B;]にお問い合わせください。
-* **[!UICONTROL フィードバック &#x200B;]:** フィードバックを使用してAdobeにお問い合わせください。ご意見をお聞かせください。
-* **[!UICONTROL ステータス &#x200B;]:**&#x200B;に移動して、`https://status.adobe.com/ja-jp/experience_cloud`製品の運用状態と[!UICONTROL &#x200B; サブスクリプションの管理]を確認します。
+* **[!UICONTROL サポート ]:** サポートチケットを作成するか、Twitterを使用して[!UICONTROL  サポート ]にお問い合わせください。
+* **[!UICONTROL フィードバック ]:** フィードバックを使用してAdobeにお問い合わせください。ご意見をお聞かせください。
+* **[!UICONTROL ステータス ]:**&#x200B;に移動して、`https://status.adobe.com/experience_cloud`製品の運用状態と[!UICONTROL  サブスクリプションの管理]を確認します。
 * **[!UICONTROL Developer Connection]:** `adobe.io`に移動して、開発者向けドキュメントを見つけます。
 
 ## アカウント設定
@@ -115,7 +125,7 @@ CX Enterprise検索を使用すると、[Experience League](https://experiencele
 | 既定の組織 | CX Enterpriseの起動時に表示する組織を選択します。 |
 | [!UICONTROL サブスクリプション] | 購入する製品とカテゴリを選択します。 [!UICONTROL 通知] ポップオーバーおよびメール内の通知。 |
 | [!UICONTROL 優先度] | 優先度が高いと見なすカテゴリを選択します。 これらのカテゴリには「高」タグが付き、アラートんなどの配信用に設定できます。 |
-| [!UICONTROL &#x200B; アラート &#x200B;] | ブラウザーにアラートを表示する通知を選択します。 アラートは、ウィンドウの右上隅に数秒間表示されます。 |
+| [!UICONTROL アラート] | ブラウザーにアラートを表示する通知を選択します。 アラートは、ウィンドウの右上隅に数秒間表示されます。 |
 | メール | 通知メールの受信頻度を指定します。 （送信しない、即時、毎日または毎週） |
 
 {style="table-layout:auto"}

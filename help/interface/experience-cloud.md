@@ -7,20 +7,24 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-TQID: https://experienceleague.adobe.com/7vFfu0DyoTnsrlrWVApm0LLW4jsC0LoXb55jJ3jdxeY
+TQID: 'https://experienceleague.adobe.com/7vFfu0DyoTnsrlrWVApm0LLW4jsC0LoXb55jJ3jdxeY'
 product_v2:
   - id: e1971122-7081-4556-9222-8a31bd71800c
+    internal-label: Experience Cloud Services
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 25446910430bf15dcfa0fc70e25e0681f9faeb95
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 563
+source-wordcount: '563'
 ht-degree: 44%
-
 ---
-
 # Adobe CX エンタープライズインターフェイスおよび管理ガイド
 
 [Adobe CX Enterprise](https://experience.adobe.com) （Customer Experience Enterprise）は、Adobeの統合デジタルマーケティングアプリケーション、製品、サービスのファミリーです。 直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。
@@ -54,16 +58,16 @@ CX Enterprise ヘッダーから、次の操作を実行できます。
 
    例えば、Federated ID を持ち、ドメインが `example.com` の組織の場合、URL リンクを `https://experience.adobe.com/#/sso:@example.com` に設定します。 また、この URL にアプリケーションパスを付けてブックマークに追加することで、特定のアプリケーションに直接移動することもできます。 （例えば、Adobe Analytics の場合は `https://experience.adobe.com/#/sso:@example.com/analytics`。）
 
-   **注：**&#x200B;お客様の組織の管理者は、IP アドレスによってAdobe製品へのアクセスを制限することができます。 その場合、CX Enterpriseにログインするか、これを有効にした組織に切り替えた後にエラーが発生する可能性があります。 詳細については、[IP アドレスによる製品アクセスの制限](https://helpx.adobe.com/jp/enterprise/using/ip-based-access.html)を参照してください。
+   **注：**&#x200B;お客様の組織の管理者は、IP アドレスによってAdobe製品へのアクセスを制限することができます。 その場合、CX Enterpriseにログインするか、これを有効にした組織に切り替えた後にエラーが発生する可能性があります。 詳細については、[IP アドレスによる製品アクセスの制限](https://helpx.adobe.com/enterprise/using/ip-based-access.html)を参照してください。
 
 
 ## CX Enterprise アプリケーションへのアクセス
 
 CX Enterpriseにログインすると、統合ヘッダーからすべてのアプリケーション、サービス、組織にすばやくアクセスできます。
 
-組織内でプロビジョニングされたCX エンタープライズ アプリケーションおよびサービスにアクセスするには、アプリケーション セレクター![&#x200B; メニュー](assets/apps-icon.png)に移動します。
+組織内でプロビジョニングされたCX エンタープライズ アプリケーションおよびサービスにアクセスするには、アプリケーション セレクター![ メニュー](assets/apps-icon.png)に移動します。
 
-![CX エンタープライズ アプリケーションへのアクセス &#x200B;](assets/platform-core-services.png)
+![CX エンタープライズ アプリケーションへのアクセス ](assets/platform-core-services.png)
 
 ## お問い合わせとサポート
 
@@ -71,16 +75,16 @@ CX Enterpriseにログインすると、統合ヘッダーからすべてのア�
 
 ![お問い合わせとサポート](assets/search-menu.png)
 
-[!UICONTROL &#x200B; ヘルプ &#x200B;] メニューでは、次のアクセス権も使用できます。
+[!UICONTROL  ヘルプ ] メニューでは、次のアクセス権も使用できます。
 
-* **[!UICONTROL サポート &#x200B;]:** サポートチケットを作成するか、Twitterを使用して[!UICONTROL &#x200B; サポート &#x200B;]にお問い合わせください。
-* **[!UICONTROL フィードバック &#x200B;]:** CX Enterprise エクスペリエンスに関するフィードバックを共有します。 フィードバックは、アドビの製品およびサービスを改善するために使用されます。
-* **[!UICONTROL ステータス &#x200B;]:**&#x200B;に移動して、`https://status.adobe.com/ja-jp/experience_cloud`製品の運用状態と[!UICONTROL &#x200B; サブスクリプションの管理]を確認します。
+* **[!UICONTROL サポート ]:** サポートチケットを作成するか、Twitterを使用して[!UICONTROL  サポート ]にお問い合わせください。
+* **[!UICONTROL フィードバック ]:** CX Enterprise エクスペリエンスに関するフィードバックを共有します。 フィードバックは、アドビの製品およびサービスを改善するために使用されます。
+* **[!UICONTROL ステータス ]:**&#x200B;に移動して、`https://status.adobe.com/experience_cloud`製品の運用状態と[!UICONTROL  サブスクリプションの管理]を確認します。
 * **[!UICONTROL Developer Connection]:** `adobe.io`に移動して、開発者向けドキュメントを見つけます。
 
 ## ユーザープロファイルの管理
 
-[!UICONTROL &#x200B; プロファイル &#x200B;] メニューでは、次の操作を実行できます。
+[!UICONTROL  プロファイル ] メニューでは、次の操作を実行できます。
 
 * ダークテーマを指定する（このテーマに対応していないアプリケーションもあります）
 * CX エンタープライズ管理[環境設定](features/account-preferences.md)

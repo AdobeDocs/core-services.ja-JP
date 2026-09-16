@@ -1,40 +1,51 @@
 ---
-title: ' [!DNL Customer Attributes] について'
-description: Adobe CX Enterpriseの [!DNL Customer Attributes] について説明します。 Adobe Analytics と Adobe Target で使用する顧客属性データのアップロード方法について説明します。
+title: '[!DNL Customer Attributes] について'
+description: Adobe CX Enterpriseの[!DNL Customer Attributes]について説明します。 Adobe Analytics と Adobe Target で使用する顧客属性データのアップロード方法について説明します。
 solution: Analytics
 feature: Customer Attributes
 role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-TQID: https://experienceleague.adobe.com/yFspG9mP9PG9KTYJF4V52t15siqJb7a2-eAxU1T60G4
+TQID: 'https://experienceleague.adobe.com/yFspG9mP9PG9KTYJF4V52t15siqJb7a2-eAxU1T60G4'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 318
+source-wordcount: '319'
 ht-degree: 46%
-
 ---
-
 # CX Enterpriseの[!DNL Customer Attributes]
 
-**[!UICONTROL アプリ]** ![&#x200B; メニュー](assets/menu-icon.png) > **[!DNL Customer Attributes]**
+**[!UICONTROL アプリ]** ![ メニュー](assets/menu-icon.png) > **[!DNL Customer Attributes]**
 
-Adobe CX Enterpriseの[!DNL Customer Attributes]では、取り込んだエンタープライズ データをCRM （顧客関係管理）データベースからアップロードできます。 データ [&#128279;](t-crs-usecase.md)をCX Enterpriseの[!DNL Customer Attributes] データソースにアップロードしてから、[!DNL Adobe Analytics]および[!DNL Adobe Target]でデータを使用できます。
+Adobe CX Enterpriseの[!DNL Customer Attributes]では、取り込んだエンタープライズ データをCRM （顧客関係管理）データベースからアップロードできます。 データ ](t-crs-usecase.md)を[CX Enterpriseの[!DNL Customer Attributes] データソースにアップロードしてから、[!DNL Adobe Analytics]および[!DNL Adobe Target]でデータを使用できます。
 
 ![顧客属性の概要](assets/custom_reports.png)
 
@@ -44,11 +55,11 @@ Adobe CX Enterpriseの[!DNL Customer Attributes]では、取り込んだエン�
 
 次の画像は、_データファイル_&#x200B;の例で、メンバーID、使用権限のある製品、最も起動数の多い製品など、製品の購読者データを示しています。
 
-![企業顧客データとは &#x200B;](assets/01_crs_usecase.png)
+![企業顧客データとは ](assets/01_crs_usecase.png)
 
 データファイルを作成したら、**[!UICONTROL CX Enterprise]** > **[!UICONTROL 顧客属性]**&#x200B;で作成した顧客属性ソースにアップロードできます。
 
-このワークフローについて詳しくは、[顧客属性データのアップロード &#x200B;](t-crs-usecase.md)を参照してください。
+このワークフローについて詳しくは、[顧客属性データのアップロード ](t-crs-usecase.md)を参照してください。
 
 ## Analytics と Target における顧客属性の例
 
