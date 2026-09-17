@@ -1,34 +1,43 @@
 ---
-description: ' [!DNL Customer Attributes]  データソースを作成してCX Enterpriseにアップロードする方法を説明します。'
+description: '[!DNL Customer Attributes] データソースを作成してCX Enterpriseにアップロードする方法を説明します。'
 solution: Experience Cloud
-title: 'Data Source ファイルを作成してアップロードする [!DNL Customer Attributes] '
+title: '[!DNL Customer Attributes] Data Source ファイルの作成とアップロード'
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-TQID: https://experienceleague.adobe.com/tnqjX4iY7OQx4XW9MjHNg8LaXB1Of6MrtLX-7efyz-E
+TQID: 'https://experienceleague.adobe.com/tnqjX4iY7OQx4XW9MjHNg8LaXB1Of6MrtLX-7efyz-E'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 1181
+source-wordcount: '1183'
 ht-degree: 42%
-
 ---
-
 # 顧客属性データの作成とアップロード
 
 顧客属性ソース （`.csv`および`.fin` ファイル）を作成し、データをアップロードします。 準備できたら、データソースをアクティブ化できます。 データソースがアクティブになったら、属性データを[!DNL Analytics]と[!DNL Target]に共有します。
@@ -96,29 +105,29 @@ CX Enterpriseの&#x200B;_[!UICONTROL 顧客属性の作成Source]_ ページで�
 
      エイリアス IDは、追加の顧客ID値を設定する特定の領域に対応します。 次に例を示します。
 
-      * **タグ：** エイリアス IDは、[[!UICONTROL Experience Cloud ID サービス &#x200B;]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja) タグ拡張機能の[!UICONTROL 顧客設定]の&#x200B;*統合コード*&#x200B;の値に対応しています。
+     * **タグ：** エイリアス IDは、[[!UICONTROL Experience Cloud ID サービス &#x200B;]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja) タグ拡張機能の[!UICONTROL 顧客設定]の&#x200B;*統合コード*&#x200B;の値に対応しています。
 
-      * **訪問者ID サービス：** エイリアス IDは、各訪問者に関連付けることができる追加の[顧客ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja)に対応します。
+     * **訪問者ID サービス：** エイリアス IDは、各訪問者に関連付けることができる追加の[顧客ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja)に対応します。
 
-        例：*crm_id* の場合：
+       例：*crm_id* の場合：
 
-        ```
-        "crm_id":"67312378756723456"
-        ```
+       ```
+       "crm_id":"67312378756723456"
+       ```
 
-      * **iOS:** エイリアス IDは、[visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=ja)の&#x200B;*&quot;idType&quot;*&#x200B;に対応しています。
+     * **iOS:** エイリアス IDは、[visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=ja)の&#x200B;*&quot;idType&quot;*&#x200B;に対応しています。
 
-        次に例を示します。
+       次に例を示します。
 
-        `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
+       `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android™：**&#x200B;エイリアス ID は [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=ja) の *&quot;idType&quot;*&#x200B;に対応しています。
+     * **Android™：**&#x200B;エイリアス ID は [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=ja) の *&quot;idType&quot;*&#x200B;に対応しています。
 
-        次に例を示します。
+       次に例を示します。
 
-        `identifiers.put(`**`"idType"`**`, "idValue");`
+       `identifiers.put(`**`"idType"`**`, "idValue");`
 
-        エイリアス ID フィールドと顧客IDに関するデータ処理の詳細については、[複数のデータソースの活用](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)を参照してください。
+       エイリアス ID フィールドと顧客IDに関するデータ処理の詳細については、[複数のデータソースの活用](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)を参照してください。
 
    * **[!UICONTROL 名前空間コード：]**&#x200B;この値を使用して、AEP WebSDK実装の一部として[IdentityMap](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/identity/overview)を使用する場合に、顧客属性ソースを特定します。
 

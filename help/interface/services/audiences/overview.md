@@ -9,26 +9,34 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-TQID: https://experienceleague.adobe.com/QEAfCWPNI-JhDw-HjZwBGv0TlqyctIqSwz8eVQqS6Gg
+TQID: 'https://experienceleague.adobe.com/QEAfCWPNI-JhDw-HjZwBGv0TlqyctIqSwz8eVQqS6Gg'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+    internal-label: Audience segmentation
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 760
-ht-degree: 47%
-
+source-wordcount: '760'
+ht-degree: 48%
 ---
-
 # 顧客体験向けオーディエンス
 
 [!DNL Audience Library]はCX Enterpriseのオーディエンスを表示します。 オーディエンスは、訪問者の集合（[!DNL CX Enterprise] ID のリスト）です。 ユーザーは、訪問者データからオーディエンスセグメントへの変換を管理できます。 このように、オーディエンスの作成と管理は、セグメントの作成と使用に似ています。 オーディエンスセグメントは、[!DNL CX Enterprise] の製品やサービスと共有することもできます。
@@ -54,7 +62,7 @@ ht-degree: 47%
 
 | ソリューション | 説明 |
 | --- | --- |
-| 顧客体験向けオーディエンス | オーディエンスライブラリを使用して、ネイティブにオーディエンスを作成、管理、共有できます。 実行できる操作は、次のとおりです。<ul><li>生の分析属性を使用してリアルタイムのオーディエンスを活用。</li><li>オーディエンスを組み合わせて合成し、リアルタイムおよび過去のデータを結合します。</li><li>推定オーディエンスサイズのグラフィカルビューを参照してください。</li></ul><br>作成するオーディエンスのタイプの提案について詳しくは、[オーディエンス作成オプション](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ja)を参照してください。 |
+| CX Enterprise オーディエンス | オーディエンスライブラリを使用して、ネイティブにオーディエンスを作成、管理、共有できます。 実行できる操作は、次のとおりです。<ul><li>生の分析属性を使用してリアルタイムのオーディエンスを活用。</li><li>オーディエンスを組み合わせて合成し、リアルタイムおよび過去のデータを結合します。</li><li>推定オーディエンスサイズのグラフィカルビューを参照してください。</li></ul><br>作成するオーディエンスのタイプの提案について詳しくは、[オーディエンス作成オプション](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ja)を参照してください。 |
 | Analytics | セグメント化では、セグメントを作成し、レポートスイートと組み合わせて、セグメントをCX Enterpriseに公開できます。 セグメントを公開すると、CX Enterpriseの[!DNL Audience Library] ページに表示されます。 （詳しくは、[!DNL Analytics] ヘルプの「[CX Enterprise](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)へのセグメントの公開」を参照してください）。 このオーディエンスは、[!DNL Adobe Target]様および[!DNL Audience Manager]様が配信したキャンペーンエクスペリエンスのターゲットオーディエンスとしても利用できます。 [!DNL Adobe Analytics]からオーディエンスを共有し、アクティブなキャンペーンで使用するために選択すると、過去90日間のセグメント定義条件を満たした訪問者プロファイルが[!UICONTROL &#x200B; オーディエンスサービス &#x200B;]に送信されます。 共有オーディエンス数の上限は 75 に増えました。 [!DNL Analytics]からCX Enterpriseに共有されるオーディエンスは、2,000万人の一意のメンバーを超えることはできません。 また、キャッシュが原因で、Analyticsで削除されたレポートスイートは、CX Enterpriseで削除が表示されるまでに12時間かかる場合があります。 |
 | Mobile Services | [!UICONTROL &#x200B; デバイスタイプ &#x200B;] レポートのsunburst ビジュアライゼーションを使用して、モバイルトラフィックを分析します。 |
 | [!DNL Target] | [ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)は、訪問者 ID とデータを、アプリケーションをまたいで使用するための、アクションにつながる単一のプロファイルに統合します。 Adobe Analyticsのセグメント作成プロセス中の「[!UICONTROL CX Enterpriseに公開]」チェックボックスを使用すると、セグメントをAdobe Targetのカスタムオーディエンスライブラリ内で利用できます。 [!DNL Analytics] または [!DNL Audience Manager] で作成されたセグメントは、[!DNL Target] のアクティビティで使用できます。 例えば、[!DNL Analytics] コンバージョン指標および [!DNL Analytics] で作成されたオーディエンスセグメントに基づいてキャンペーンアクティビティを作成できます。 |
