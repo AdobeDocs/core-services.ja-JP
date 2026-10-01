@@ -61,7 +61,7 @@ ht-degree: 81%
 一致率
 完全に一致するものがあるかどうかを確認します
 
-CX Enterprise](../assets/unified-search-results.png)の![[!UICONTROL 統合検索]
+CX Enterprise![&#128279;](../assets/unified-search-results.png)の[!UICONTROL 統合検索]
 
 検索可能なビジネスオブジェクトには、次のものが含まれます。
 
@@ -82,7 +82,7 @@ CX Enterprise](../assets/unified-search-results.png)の![[!UICONTROL 統合検�
 
 例えば、_How to create a schema_&#x200B;は、_[!UICONTROL Learning]_&#x200B;の下のExperience Leagueから結果を生成します。
 
-CX Enterprise ヘルプ ](../assets/unified-search-learning.png)の![[!UICONTROL 統合検索]
+CX Enterprise ヘルプ ![&#128279;](../assets/unified-search-learning.png)の[!UICONTROL 統合検索]
 
 検索アルゴリズムは、最も関連性の高いレコードを最初に表示します。 結果の順序は、次のような複数の要因によって異なります。
 

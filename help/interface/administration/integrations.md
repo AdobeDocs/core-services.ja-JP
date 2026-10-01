@@ -58,7 +58,7 @@ ht-degree: 32%
 ---
 # CX Enterpriseとの連携
 
-ここでは、CX Enterprise アプリケーションの統合を開始するための複数の方法について説明します。 詳しくは、Experience Leagueの[統合ビデオチュートリアル ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)のライブラリを参照してください。
+ここでは、CX Enterprise アプリケーションの統合を開始するための複数の方法について説明します。 詳しくは、Experience Leagueの[統合ビデオチュートリアル &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)のライブラリを参照してください。
 
 ## Platform サービス用にCX Enterprise アプリケーションを有効にする
 
@@ -66,7 +66,7 @@ ht-degree: 32%
 
 * CX Enterpriseで会社をプロビジョニングします。
 * 管理者になれるようにする。
-* [訪問者ID サービス ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を実装します。
+* [訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を実装します。
 * [!UICONTROL Platform データ収集]を使用して、[!DNL Analytics]および[!DNL Target]の実装を最新化します。
 * [顧客属性](../services/customer-attributes/attributes.md)や[Audience Library](../services/audiences/overview.md)などのCX Enterprise サービスを使い始めます。
 
@@ -81,7 +81,7 @@ ht-degree: 32%
 
 訪問者ID サービスは、CX Enterpriseのすべてのアプリケーションをまたいで訪問者を識別する、永続的なユニバーサル IDを提供します。 Adobe Analytics、Audience Manager、Adobe Target、動画ハートビート、その他のCX Enterpriseアプリケーションや製品などのサービスのID生成コードを置き換えることができます。
 
-[訪問者ID サービス ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を参照してください
+[訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を参照してください
 
 **適用可能なアプリケーションまたはサービス**
 
@@ -113,7 +113,7 @@ CRM （顧客関係管理）データベースで企業顧客データを取得�
 **適用可能なソリューションまたはサービス**
 
 * Adobe Analytics：顧客属性レポート
-* Adobe Target：顧客属性を使用するようにAdobe Targetの[ サブスクリプション ](/help/interface/services/customer-attributes/subscription.md)を設定します
+* Adobe Target：顧客属性を使用するようにAdobe Targetの[&#x200B; サブスクリプション &#x200B;](/help/interface/services/customer-attributes/subscription.md)を設定します
 
 ## CX Enterprise Assets
 
@@ -168,7 +168,7 @@ Adobe TargetをAdobe Analyticsやその他のCX Enterpriseアプリケーショ�
 
 * ビデオチュートリアル：[Experience Managerとの統合](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/integrations-between-applications/overview.html)
 
-* 製品ドキュメント：[Experience Manager ドキュメント ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=ja)
+* 製品ドキュメント：[Experience Manager ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=ja)
 
 ## Adobe Experience Manager - Assets
 
@@ -186,19 +186,19 @@ Adobe Experience Manager（AEM）Assets 内のアセットを Adobe Creative Clo
 
 * ヘルプ（ログインが必要）: [Adobe CX Enterprise ソリューションおよびサービスとの統合](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
 
-* Experience Leagueの[Adobe Advertising ドキュメント ](https://experienceleague.adobe.com/docs/advertising.html)
+* Experience Leagueの[Adobe Advertising ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/advertising.html)
 
 **適用可能なアプリケーションまたはサービス**
 
 **Analytics：**&#x200B;サイトエンゲージメントおよびコンバージョンデータを毎日 [!DNL Adobe Advertising] に送信できます（データは広告の最適化とレポート作成に使用されます）。 また、[!DNL Advertising] は、検索エンジンおよびソーシャルネットワークのトラフィックデータを毎日 Analytics に送信できます（Analytics では、Reports &amp; Analytics、Report Builder および Ad Hoc Analysis の各機能でデータを利用できます）。
 
-**タグ：** [Experience Platform タグを使用して、検索、ソーシャル、ディスプレイ広告のランディングページ用に、Advertising ピクセルベースのコンバージョントラッキングタグ ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)およびサードパーティのトラッキングタグを作成できます。 （[!DNL Advertising] タグを [!DNL Advertising] 内に直接作成することもできます。）
+**タグ：** [Experience Platform タグを使用して、検索、ソーシャル、ディスプレイ広告のランディングページ用に、Advertising ピクセルベースのコンバージョントラッキングタグ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)およびサードパーティのトラッキングタグを作成できます。 （[!DNL Advertising] タグを [!DNL Advertising] 内に直接作成することもできます。）
 
 **CX Enterprise Audiences:** （ディスプレイ管理機能を持つ広告主）ディスプレイ広告のターゲットとして[Adobe CX Enterprise Audiences](../services/audiences/overview.md)のいずれかを使用できます。 CX Enterpriseで作成したオーディエンスと、CX Enterpriseに公開したAnalyticsのオーディエンスを自動的に使用できます。 [!DNL Adobe Advertising] アカウントが許可するように設定されている場合は、Audience Managerのオーディエンスを使用することもできます。
 
 Adobe CX Enterpriseおよびプロファイルとオーディエンスへのアクセスについて、および[!DNL Adobe Advertising]とAdobe CX Enterprise オーディエンスの間の初期設定について詳しくは、アカウントマネージャーにお問い合わせください。 **メモ：** Adobe Targetも使用している場合、Adobe CX Enterpriseに公開したオーディエンスは、Adobe Targetのアクティビティでも使用できます。
 
-**CX Enterprise Assets:** （ディスプレイ管理付き広告主）新しいディスプレイ Beta ビューを使用すると、Adobe CX Enterprise アセットをディスプレイ広告のクリエイティブとして使用できます。 Adobe CX Enterprise アセットにアクセスするには、Adobe CX Enterprise](https://enterprise.efrontier.com/CMDashboard)を介して[Adobe Advertisingにログインする必要があります。 Adobe CX Enterpriseへのアクセスについて詳しくは、アカウントマネージャーにお問い合わせください。
+**CX Enterprise Assets:** （ディスプレイ管理付き広告主）新しいディスプレイ Beta ビューを使用すると、Adobe CX Enterprise アセットをディスプレイ広告のクリエイティブとして使用できます。 Adobe CX Enterprise アセットにアクセスするには、Adobe CX Enterprise[&#128279;](https://enterprise.efrontier.com/CMDashboard)を介してAdobe Advertisingにログインする必要があります。 Adobe CX Enterpriseへのアクセスについて詳しくは、アカウントマネージャーにお問い合わせください。
 
-**CX Enterpriseのお知らせ：**&#x200B;各ページの上部にある「お知らせ」リンクから、検索ベータ版のアラートテンプレートから生成されたすべてのアラートを表示できます。 また、CX Enterpriseのシステムのアップデート、投稿、メンション、アセットを共有することもできます。 通知にアクセスするには、Adobe CX Enterprise](https://enterprise.efrontier.com/CMDashboard)を介してAdobe Advertisingに[ ログインしている必要があります。 Adobe CX Enterpriseへのアクセスについて詳しくは、アカウントマネージャーにお問い合わせください。
+**CX Enterpriseのお知らせ：**&#x200B;各ページの上部にある「お知らせ」リンクから、検索ベータ版のアラートテンプレートから生成されたすべてのアラートを表示できます。 また、CX Enterpriseのシステムのアップデート、投稿、メンション、アセットを共有することもできます。 通知にアクセスするには、Adobe CX Enterprise[&#128279;](https://enterprise.efrontier.com/CMDashboard)を介してAdobe Advertisingに ログインしている必要があります。 Adobe CX Enterpriseへのアクセスについて詳しくは、アカウントマネージャーにお問い合わせください。
 
