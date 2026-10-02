@@ -11,24 +11,29 @@ exl-id: 70586f18-6f84-4308-bab3-1da7fab823d6
 TQID: https://experienceleague.adobe.com/xE4H6kdjbKSwVygCsOV4zTBqPoBHAVMHfJMyYOummg0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+    internal-label: Administration
+source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
 workflow-type: tm+mt
-source-wordcount: 660
+source-wordcount: '660'
 ht-degree: 81%
-
 ---
-
 # CX Enterpriseの[!UICONTROL 統合検索]
 
 [!UICONTROL 統合検索]検索を使用すると、シームレスで一貫性のあるワンクリック操作で、検索可能なビジネスオブジェクトまたはエンティティを見つけることができます。 この検索では、最近アクセスしたオブジェクトも表示されます。
@@ -77,7 +82,7 @@ CX Enterprise![&#128279;](../assets/unified-search-results.png)の[!UICONTROL �
 
 例えば、_How to create a schema_&#x200B;は、_[!UICONTROL Learning]_&#x200B;の下のExperience Leagueから結果を生成します。
 
-CX エンタープライズ ヘルプ ![&#128279;](../assets/unified-search-learning.png)の[!UICONTROL 統合検索]
+CX Enterprise ヘルプ ![&#128279;](../assets/unified-search-learning.png)の[!UICONTROL 統合検索]
 
 検索アルゴリズムは、最も関連性の高いレコードを最初に表示します。 結果の順序は、次のような複数の要因によって異なります。
 

@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 42%
@@ -52,7 +52,7 @@ ht-degree: 42%
 
   会社が顧客属性にアクセスできるかどうかを確認するには、[!DNL CX Enterprise]管理者が[CX Enterprise](https://experience.adobe.com)にログインする必要があります。 **[!UICONTROL Admin Console]** > **[!UICONTROL 製品]**&#x200B;に移動します。 *[!DNL Customer Attributes]*&#x200B;が[!UICONTROL 製品プロファイル &#x200B;]の1つとして表示される場合は、開始する準備ができています。
 
-  [!DNL Customer Attributes]に追加されたユーザーには、CX Enterprise インターフェイスの左側に[!DNL Customer Attributes] メニュー項目が表示されます。
+  [!DNL Customer Attributes]に追加されたユーザーには、CX Enterprise インターフェイスの左側に「[!DNL Customer Attributes]」メニュー項目が表示されます。
 
 * 顧客属性には、**Adobe Target** `at.js`（任意のバージョン）または `mbox.js` バージョン 58 以降が必要です。
 
@@ -97,7 +97,7 @@ CX Enterpriseの&#x200B;_[!UICONTROL 顧客属性の作成Source]_ ページで�
 
    * **[!UICONTROL 説明：]** （オプション） データ属性ソースの説明。
 
-   * **[!UICONTROL エイリアス ID:]**&#x200B;特定のCRM システムなどの顧客属性データのソースを表します。 [!UICONTROL &#x200B; エイリアス ID]は、[!UICONTROL 顧客属性Source] コードで使用される一意のIDです。 ID は一意で、スペースを含まないアルファベットおよびアンダースコアの組み合わせにしてください。 CX Enterpriseの顧客属性ソースの[!UICONTROL Alias ID] フィールドに入力される値は、実装から渡される値と一致する必要があります（Platform Data CollectionまたはMobile SDKのJavaScriptを介して）。
+   * **[!UICONTROL エイリアス ID:]**&#x200B;特定のCRM システムなどの顧客属性データのソースを表します。 [!UICONTROL &#x200B; エイリアス ID]は、[!UICONTROL 顧客属性Source] コードで使用される一意のIDです。 ID は一意で、スペースを含まないアルファベットおよびアンダースコアの組み合わせにしてください。 CX Enterpriseの顧客属性ソースの[!UICONTROL &#x200B; エイリアス ID] フィールドに入力される値は、実装から渡される値と一致する必要があります（Platform Data CollectionまたはMobile SDKのJavaScriptを介して）。
 
      >[!IMPORTANT]
      >
@@ -145,13 +145,13 @@ CX Enterpriseの&#x200B;_[!UICONTROL 顧客属性の作成Source]_ ページで�
 
 1. `.csv`または`.zip`または`.gzip` データファイルをドラッグ&amp;ドロップ ウィンドウにドラッグ&amp;ドロップします。
 
->[!IMPORTANT]
->
->特定のデータファイル要件が存在します。 詳しくは、[データファイル要件](crs-data-file.md)を参照してください。
+   >[!IMPORTANT]
+   >
+   >特定のデータファイル要件が存在します。 詳しくは、[データファイル要件](crs-data-file.md)を参照してください。
 
-ファイルをアップロードすると、このページの「[!UICONTROL &#x200B; ファイルアップロード &#x200B;]」見出しの下にテーブルデータが表示されます。 スキーマを検証したり、購読を設定したり、FTP を設定したりできます。
+   ファイルをアップロードすると、このページの「[!UICONTROL &#x200B; ファイルアップロード &#x200B;]」見出しの下にテーブルデータが表示されます。 スキーマを検証したり、購読を設定したり、FTP を設定したりできます。
 
-![属性](assets/file_upload_attributes.png)
+   ![属性](assets/file_upload_attributes.png)
 
 * **[!UICONTROL 一意の顧客ID:]**&#x200B;この属性ソースにアップロードした一意のIDの数を表示します。
 
@@ -177,7 +177,7 @@ CX Enterpriseの&#x200B;_[!UICONTROL 顧客属性の作成Source]_ ページで�
 
 ## 購読の設定と属性ソースの有効化
 
-サブスクリプションの設定では、CX Enterpriseとアプリケーション間のデータフローを設定します。 属性ソースを有効化すると、購読しているアプリケーションでデータが利用できるようになります。 アップロードした顧客レコードは、Web サイトまたはアプリケーションから入ってくる ID 信号と照合されます。
+サブスクリプションを設定すると、CX Enterpriseとアプリケーション間のデータフローが設定されます。 属性ソースを有効化すると、購読しているアプリケーションでデータが利用できるようになります。 アップロードした顧客レコードは、Web サイトまたはアプリケーションから入ってくる ID 信号と照合されます。
 
 [&#x200B; サブスクリプションの設定とデータソースのアクティブ化](subscription.md)を参照してください。
 
@@ -189,7 +189,7 @@ Adobe Analytics などのアプリケーションで利用できるデータを�
 
 ![アップロードされた属性に基づく Analytics セグメント](assets/08_crs_usecase.png)
 
-セグメントをCX Enterpriseに公開すると、CX Enterprise AudiencesおよびAudience Managerで利用できるようになります。
+CX Enterpriseにセグメントを公開すると、CX Enterprise AudiencesおよびAudience Managerでセグメントを利用できるようになります。
 
 ## Adobe Targetでの[!DNL Customer Attributes] データの使用
 
