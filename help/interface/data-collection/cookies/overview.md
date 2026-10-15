@@ -40,7 +40,7 @@ Adobe CX Enterpriseでは、ページビューとブラウザーセッション�
 
 一部のブラウザーはサードパーティ Cookieをブロックしています。 Adobeには、Cookieがブロックされていても、Cookieが引き続き機能することを確認する方法があります。 このプロセスの仕組みは、訪問者ID サービス（`VisitorAPI.js`）を使用するか、古いAnalytics Cookie （`s_vi` Cookieなど）を使用するかによって異なります。
 
-* [訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview)：訪問者ID サービスは、コレクションドメインがサイトドメインと一致するかどうかにかかわらず、常にファーストパーティ Cookieを設定します。 JavaScriptを使用して、サイトのドメインにCookieを配置します。
+* [訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/intro/overview)：訪問者ID サービスは、コレクションドメインがサイトドメインと一致するかどうかにかかわらず、常にファーストパーティ Cookieを設定します。 JavaScriptを使用して、サイトのドメインにCookieを配置します。
 
 * [Analytics レガシー識別子](analytics.md) （`s_vi` Cookieなど）: Cookieがファーストパーティであるかサードパーティであるかは、設定によって異なります。
 

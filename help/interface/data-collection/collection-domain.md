@@ -56,12 +56,12 @@ ht-degree: 3%
 
 データ収集ドメインを変更する場合は、Adobeにデータを送信するすべての実装を更新します。
 
-* **Web SDK タグ拡張機能**：拡張機能の設定時に[[!UICONTROL Edge domain]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/general) フィールドを更新します。
-* **Web SDK （alloy）**: `configure` コマンド内の[`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/edgedomain) プロパティを更新します。
-* **Adobe Analytics拡張機能**：拡張機能の設定時に[[!UICONTROL SSL Tracking Server]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview) フィールドを更新します。 [訪問者ID サービスタグ拡張機能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview)もインストールされていることを確認してください。 詳しくは、[Analytics タグ拡張機能を使用した訪問者の識別](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension)を参照してください。
-* **AppMeasurement**: [`trackingServerSecure`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserversecure)構成変数を更新します。 [訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home)が`VisitorAPI.js`を使用して実装されていることも確認してください。 詳しくは、[AppMeasurementを使用した訪問者特定](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/appmeasurement)を参照してください。
+* **Web SDK タグ拡張機能**：拡張機能の設定時に[[!UICONTROL Edge domain]](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/web-sdk/configure/general) フィールドを更新します。
+* **Web SDK （alloy）**: `configure` コマンド内の[`edgeDomain`](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/js/commands/configure/edgedomain) プロパティを更新します。
+* **Adobe Analytics拡張機能**：拡張機能の設定時に[[!UICONTROL SSL Tracking Server]](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/analytics/overview) フィールドを更新します。 [訪問者ID サービスタグ拡張機能](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/id-service/overview)もインストールされていることを確認してください。 詳しくは、[Analytics タグ拡張機能を使用した訪問者の識別](https://experienceleague.adobe.com/ja/docs/analytics/implementation/id/analytics-extension)を参照してください。
+* **AppMeasurement**: [`trackingServerSecure`](https://experienceleague.adobe.com/ja/docs/analytics/implementation/vars/config-vars/trackingserversecure)構成変数を更新します。 [訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home)が`VisitorAPI.js`を使用して実装されていることも確認してください。 詳しくは、[AppMeasurementを使用した訪問者特定](https://experienceleague.adobe.com/ja/docs/analytics/implementation/id/appmeasurement)を参照してください。
 * **その他の実装**: モバイルアプリやサーバーサイド実装など、Adobeにデータを送信するその他の実装で、データ収集ドメインを更新します。
 
 実装で訪問者ID サービスまたはWeb SDKを使用しない場合、データ収集ドメインを変更すると、訪問者Cookieのドメインが変更され、再訪問者は新規訪問者としてカウントされます。
 
-サイトで複数の実装方法を使用しており、すべての実装方法を同時に更新できない場合は、猶予期間の設定を検討してください。 サイト全体で訪問者が新規訪問者としてカウントされないようにする方法について詳しくは、[訪問者ID サービスの移行に関する考慮事項](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration)を参照してください。
+サイトで複数の実装方法を使用しており、すべての実装方法を同時に更新できない場合は、猶予期間の設定を検討してください。 サイト全体で訪問者が新規訪問者としてカウントされないようにする方法について詳しくは、[訪問者ID サービスの移行に関する考慮事項](https://experienceleague.adobe.com/ja/docs/analytics/implementation/id/migration)を参照してください。
