@@ -36,7 +36,7 @@ Adobe CX Enterpriseでは、Regional Data Collection （RDC）を使用して、
 
 ## ファーストパーティデータの収集
 
-1st パーティデータの収集は、CNAMEを実装して、独自のドメインを介してデータをAdobeに転送します。 お使いのRDC タイプは、[Adobe管理証明書プログラム ](adobe-managed-cert.md)のセットアップ プロセスの一部として選択されています。 RDC タイプを確認または更新するには、Adobe アカウントチームにお問い合わせください。 次のRDC タイプと関連するデータセンターを使用できます。
+1st パーティデータの収集は、CNAMEを実装して、独自のドメインを介してデータをAdobeに転送します。 お使いのRDC タイプは、[Adobe管理証明書プログラム &#x200B;](adobe-managed-cert.md)のセットアップ プロセスの一部として選択されています。 RDC タイプを確認または更新するには、Adobe アカウントチームにお問い合わせください。 次のRDC タイプと関連するデータセンターを使用できます。
 
 | RDC タイプ | データ収集センター |
 | --- | --- |
@@ -62,4 +62,4 @@ _*China RDCにはChina Performance Optimization アドオンパッケージが�
 
 _*China Performance Optimization アドオンパッケージが必要です。 詳しくは、上記の1st パーティデータ収集の節を参照してください。_
 
-CDNを介して[ サードパーティのオリジン ](cdn.md#third-party-origin)にルーティングされたデータは、常にデフォルトのRDC タイプを使用します。
+CDNを介して[&#x200B; サードパーティのオリジン &#x200B;](cdn.md#third-party-origin)にルーティングされたデータは、常にデフォルトのRDC タイプを使用します。
