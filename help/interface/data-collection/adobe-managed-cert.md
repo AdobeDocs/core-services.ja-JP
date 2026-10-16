@@ -55,16 +55,16 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 18fd590d6f0fd1800e3d5c62851453aa91d9db5f
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1055'
 ht-degree: 2%
 ---
 # アドビの管理による証明書プログラム
 
 Adobeで管理される証明書プログラムは、CNAMEの実装に必要なファーストパーティ証明書を設定する際にお勧めのプロセスです。 設定したらプログラムは完全に自動化されます。 有効期限が切れた証明書によるデータ収集への影響がないように、証明書をタイムリーに更新します。 このプログラムは、最初の100個のCNAMEに対して無料です。
 
-現在、独自の証明書を管理している場合は、1st パーティ Cookieの使用のためにAdobeに証明書を購入、管理、提供する責任があります。 Adobeが管理する証明書プログラムへの移行について詳しくは、Adobe カスタマーケアにお問い合わせください。
+Adobeで管理されている証明書プログラムでは、コンテンツ配信ネットワーク（CDN）を介したデータ収集のルーティングはサポートされていません。 CDNを使用する場合は、「[CDNを介してデータ収集をルーティングする](cdn.md)」を参照してください。 独自の証明書を管理する必要がある組織は、代わりに[顧客管理の証明書](customer-managed-cert.md)を使用できます。 現在、独自の証明書を管理しており、Adobeが管理する証明書プログラムに移行する場合は、Adobe カスタマーケアにお問い合わせください。
 
 ## 実装
 
@@ -72,7 +72,7 @@ Adobeで管理される証明書プログラムは、CNAMEの実装に必要な�
 
 1. [&#x200B; ファーストパーティのドメイン要求フォームをダウンロードして入力します](cookies/assets/First_Party_Domain_Request_Form.xlsx)
 1. Adobe カスタマーケアでチケットを開き、Adobeが管理する証明書プログラムでファーストパーティデータの収集を設定するようにリクエストします。 組織にデータレジデンシーまたはコンプライアンス要件がある場合は、リクエストに目的の[RDC タイプ &#x200B;](rdc.md)を指定します。
-1. チケットを受け取ると、Adobeの担当者がCNAME レコードを提供します。 このレコードは、Adobeが証明書を購入する前に、会社のDNS サーバーで設定する必要があります。 例えば、ホスト名`data.example.com`は`hiodsibxvip01.data.adobedc.net`を指しています。
+1. チケットを受け取ると、Adobeの担当者がCNAME レコードを提供します。 このレコードは、Adobeが証明書を購入する前に、会社のDNS サーバーで設定する必要があります。 例えば、ホスト名`data.example.com`は`hiodsibxvip01.data.adobedc.net`を指しています。 組織でDNS認証局認証（CAA） レコードを使用している場合は、CAA レコードでDigiCertが証明書を発行できることを確認してください。 [&#x200B; メンテナンスと更新](#renewals)を参照してください。
 1. 組織のサーバーにCNAME レコードが配置されている場合、AdobeはDigiCertと連携して、Adobe データ収集サーバーに証明書を購入してインストールします。
 1. Adobe CNAMEがファーストパーティの目的でホストしているときに`robots.txt` ファイルの更新が必要な場合は、カスタマーケアにお問い合わせください。 このようなリクエストは、Googleがサブドメインをクロールできないように`robots.txt` ファイルを更新する場合に関連します。
 
@@ -82,7 +82,7 @@ Adobeが証明書をインストールしたら、次のいずれかの方法を
 
 +++**ブラウザーの検証**
 
-任意のブラウザーを使用して、証明書が正しくインストールされていることを検証できます。 アドレスバーへのパスとして`_check`を含むCNAMEを入力します。 次に例を示します。
+任意のブラウザーを使用して、証明書が正しくインストールされていることを検証できます。 アドレスバーへのパスとして`_check`を含むCNAMEを入力します。 例：
 
 `data.example.com/_check`
 
@@ -134,28 +134,25 @@ Aliases: data.example.com
 
 ## 実装コードの更新
 
-新しいCNAME ホスト名を使用するには、証明書が正しく動作することを検証したら、Adobeの実装を更新します。
+新しいCNAME ホスト名を使用するには、証明書が正しく動作することを検証したら、Adobeの実装を更新します。 [実装の更新](collection-domain.md#update-implementation)を参照してください。
 
-* **Web SDK タグ拡張機能**：拡張機能の設定時に[[!UICONTROL Edge domain]](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/web-sdk/configure/general) フィールドを更新します。
-* **Web SDK （alloy）**: `configure` コマンド内の[`edgeDomain`](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/js/commands/configure/edgedomain) プロパティを更新します。
-* **Adobe Analytics拡張機能**：拡張機能の設定時に[[!UICONTROL SSL Tracking Server]](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/analytics/overview) フィールドを更新します。 [訪問者ID サービスタグ拡張機能](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/id-service/overview)もインストールされていることを確認してください。 詳しくは、[Analytics タグ拡張機能を使用した訪問者の識別](https://experienceleague.adobe.com/ja/docs/analytics/implementation/id/analytics-extension)を参照してください。
-* **AppMeasurement**: [`trackingServerSecure`](https://experienceleague.adobe.com/ja/docs/analytics/implementation/vars/config-vars/trackingserversecure)構成変数を更新します。 [訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home)が`VisitorAPI.js`を使用して実装されていることも確認してください。 詳しくは、[AppMeasurementを使用した訪問者特定](https://experienceleague.adobe.com/ja/docs/analytics/implementation/id/appmeasurement)を参照してください。
+## メンテナンスと更新 {#renewals}
 
-サイトで複数の実装方法を使用しており、すべての実装方法を同時に更新できない場合は、猶予期間の設定を検討してください。 サイト全体で訪問者が新規訪問者としてカウントされないようにする方法について詳しくは、[訪問者ID サービスの移行に関する考慮事項](https://experienceleague.adobe.com/ja/docs/analytics/implementation/id/migration)を参照してください。
+Adobeは、証明書を自動的に更新します。 証明書の有効期限が切れる30日前に、AdobeはCNAMEがまだ有効で使用中であることを検証し、代わりに証明書を更新します。 更新を維持するには、次のDNSの変更を避けます。
 
-## メンテナンスと更新
-
-ファーストパーティ証明書の有効期限が切れる30日前に、AdobeはCNAMEがまだ有効で使用中かどうかを検証します。 その場合、Adobeは、サービスを引き続き使用することを想定し、代わりに証明書を自動的に更新します。
+* **CNAME レコードの削除または再指定**: CNAME レコードが削除されたか、Adobeのセキュアホスト名を指さなくなった場合、Adobeは証明書を更新できません。 この条件には、CNAME レコードをコンテンツ配信ネットワーク（CDN）に指定することが含まれます。 CDNを使用する場合は、DNS レコードを変更する前に、[既存のファーストパーティ実装をCDN](cdn.md#migrate)に移動するを参照してください。
+* **DigiCertを認証しないCAA レコードを追加しています**：認証局は、ホスト名とその親ドメインの認証局認証（CAA）レコードを確認します。 CAA レコードを使用する場合は、`digicert.com`を承認済み発行者として含めます。 例：`example.com. IN CAA 0 issue "digicert.com"`。
+* **特定のアカウントへのDigiCert発行の制限**: DigiCertのドメインロック機能により、`example.com. IN CAA 0 issue "digicert.com; account=<token>"`などのCAA レコードに`account=` パラメーターが追加されます。 このパラメーターは、`digicert.com`が許可されている場合でも、組織のDigiCert アカウントへの発行を制限し、Adobeが証明書を取得できないようにします。 組織でDigiCert ドメインのロックが必要な場合は、代わりに[顧客管理の証明書](customer-managed-cert.md)を使用してください。 ドメインレジストラで設定されたドメインロック（転送ロックとも呼ばれます）は関連がなく、Adobeで管理される証明書には影響しません。
 
 >[!IMPORTANT]
 >
->組織のCNAME レコードが削除されたか、指定されたAdobe セキュアホスト名にマッピングされなくなった場合、Adobeは証明書を更新できません。 Adobeのシステム内のエントリは、それ以上の通信なしで削除するようにマークされています。
+>CNAME レコードがAdobe セキュアホスト名を指さなくなった場合、Adobe システム内のエントリは、それ以上の通信を行わずに削除するようにマークされます。
 
 ## よくある質問
 
 +++このプロセスは安全ですか？
 
-はい。 Adobeで管理される証明書プログラムは、Adobeに証明書を提供する組織よりも安全です。 Adobeおよび発行証明機関の外部に証明書または秘密鍵が転送されることはありません。
+はい。 Adobeで管理されている証明書プログラムは、[お客様が管理する証明書](customer-managed-cert.md)よりも安全です。 Adobeおよび発行証明機関の外部に証明書または秘密鍵が転送されることはありません。
 
 +++
 
@@ -179,7 +176,7 @@ AdobeはDigiCertと連携してSHA-2証明書を発行します。
 
 +++このプログラムには追加費用がかかりますか？
 
-いいえ。 Adobeでは、Adobe CX Enterpriseをご利用のお客様に追加費用なしでサービスを提供しています。
+Adobeでは、最初の100 CNAMEの追加費用なしで、すべてのAdobe CX Enterpriseのお客様にこのプログラムを提供しています。
 
 +++
 
@@ -188,31 +185,13 @@ AdobeはDigiCertと連携してSHA-2証明書を発行します。
 Adobeは、1st パーティデータの収集に対するセキュリティに対するお客様のさまざまなニーズを満たすために、2つの暗号セキュリティレベルを提供します。 これらのレベルにより、Adobe サーバーとのHTTPS接続でサポートされる暗号化アルゴリズムが決まります。 Adobeでは、現在のセキュリティ対策にもとづいて、サポートされているアルゴリズムのセットを定期的に確認および更新しています。 暗号のセキュリティ設定を変更するには、カスタマーケアにお問い合わせください。
 
 * **Standard**&#x200B;では、TLS 1.2以降と少なくとも128 ビットの暗号化が必要です。 安全な暗号化を維持しながら、最も幅広いデバイス互換性を提供するように設計されています。
-* **High**&#x200B;では、TLS 1.2以降が必要で、より弱い暗号のサポートが削除されます。 これは、最も強力な暗号化を望み、古いデバイスのサポートを心配しない顧客向けに設計されています。
-
-次のクライアントは、**High**&#x200B;に設定された暗号セキュリティに接続できないことが判明しています。
-
-* Windows 8.1以前（最終更新日：2018年）
-* Windows Phone 8.1以前（最終更新日：2016年）
-* OS X 10.10以前（最終更新日：2017年）
-* iOS 8.4以前（最終更新は2015年）
+* **High**&#x200B;では、TLS 1.2以降が必要で、より弱い暗号のサポートが削除されます。 これは、最も強力な暗号化を必要とするお客様向けに設計されています。 2015年以前にリリースされたクライアントは、通常、暗号セキュリティが&#x200B;**High**&#x200B;に設定されている場合は接続できません。
 
 +++
 
 +++どのHTTPS証明書タイプがサポートされていますか？
 
-Adobeでは、様々なお客様のニーズに対応するために、RSAとECCの両方の証明書タイプをサポートしています。 RSA証明書はクライアントにとってより広くサポートされていますが、ECC証明書はサーバーサイドとクライアントサイドの両方でより少ない処理を使用します。 Adobeで管理される証明書の場合は、RSAとECCの両方が提供されます。 顧客が管理する証明書の場合は、RSAが必要であり、ECCが推奨されます。 最新のクライアントは、RSAとECCの両方をサポートしています。 次のクライアントはRSA証明書のみをサポートしています。
+AdobeはRSAとECCの両方の証明書をサポートし、最新のクライアントは両方の証明書タイプをサポートしています。 ECC証明書は、サーバーとクライアントの両方での処理が少なくて済みます。 Adobeで管理される証明書の場合、AdobeはRSA証明書とECC証明書の両方を提供します。 [顧客が管理する証明書](customer-managed-cert.md)の場合、RSAが必要であり、ECCが推奨されます。
 
-* Windows Vista以前（最終更新日：2012年）
-* Windows Phone 8.0以前（最終更新日：2014年）
-* OS X 10.8以前（最終更新日：2013年）
-* iOS 5.1以前（最終更新は2012年）
-* Android 4.3以前（最終更新は2013年）
-
-+++
-
-+++代わりに自分の証明書を管理できますか？
-
-はい。 ただし、独自の証明書を管理する場合は、証明書を更新し、更新するたびにAdobeに提供する責任があります。 このプロセスは安全性が低く、組織が証明書の更新を期限内に忘れた場合、データ収集にギャップが生じる可能性があります。 Adobeでは、特にTLS証明書の最大有効期間が短縮されたため、自分で証明書を管理する代わりにマネージド証明書プログラムを使用することをお勧めします。 詳しくは、「CA/Browser Forum Server Certificate Baseline Requirements」の「[6.3.2証明書の運用期間とキーペアの使用期間](https://cabforum.org/working-groups/server/baseline-requirements/requirements/#632-certificate-operational-periods-and-key-pair-usage-periods)」を参照してください。
 +++
 

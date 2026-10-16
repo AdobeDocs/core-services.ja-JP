@@ -1,20 +1,18 @@
 ---
 role: User,Admin
-user-guide-title: CX エンタープライズ中央インターフェイスおよび管理ガイド
-breadcrumb-title: CX エンタープライズインターフェイスと管理
-title: CX エンタープライズインターフェイスおよび管理ガイド
-description: CX エンタープライズインターフェイスと管理についてご確認ください。 AI、管理、共有サービス、データ収集、Cookie、リリースノート、FAQに関するトピックを参照できます。
+user-guide-title: CX Enterprise中央インターフェイスおよび管理ガイド
+breadcrumb-title: CX Enterpriseのインターフェイスと管理
+title: CX Enterprise インターフェイスおよび管理ガイド
+description: CX Enterpriseのインターフェイスと管理の詳細。 AI、管理、共有サービス、データ収集、Cookie、リリースノート、FAQに関するトピックを参照できます。
 index: true
-source-git-commit: 90efd37625c8ca89bc3ec7fc3f8df20d8c5e331b
+source-git-commit: a714343bc3e17145e51fd99f64690e7d69ab4d9d
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 61%
-
+source-wordcount: '207'
+ht-degree: 57%
 ---
+# CX Enterpriseのインターフェイスと管理 {#interface}
 
-# CX エンタープライズインターフェイスと管理 {#interface}
-
-+ [CX エンタープライズインターフェイスと管理](/help/interface/experience-cloud.md)
++ [CX Enterpriseのインターフェイスと管理](/help/interface/experience-cloud.md)
 + 管理 {#administration}
   + [アカウントの環境設定と通知](/help/interface/features/account-preferences.md)
   + [ブラウザーと言語のサポート](/help/interface/browser-language.md)
@@ -52,7 +50,10 @@ ht-degree: 61%
   + [トリガー](/help/interface/services/triggers.md)
   + [Adobe Exchange](/help/interface/services/exchange.md)
 + データ収集 {#data-collection}
+  + [データ収集ドメインの選択](/help/interface/data-collection/collection-domain.md)
   + [アドビの管理による証明書プログラム](/help/interface/data-collection/adobe-managed-cert.md)
+  + [顧客管理の証明書](/help/interface/data-collection/customer-managed-cert.md)
+  + [CDNを介したデータ収集のルーティング](/help/interface/data-collection/cdn.md)
   + [IP アドレス](/help/interface/data-collection/ip-addresses.md)
   + [ドメイン](/help/interface/data-collection/domains.md)
   + Cookie {#cookies}
@@ -60,7 +61,7 @@ ht-degree: 61%
     + [Advertising の cookie](/help/interface/data-collection/cookies/advertising.md)
     + [Analytics の cookie](/help/interface/data-collection/cookies/analytics.md)
     + [Audience Manager の cookie](/help/interface/data-collection/cookies/audience-manager.md)
-    + [CX エンタープライズ Cookie](/help/interface/data-collection/cookies/experience-cloud.md)
+    + [CX Enterprise cookie](/help/interface/data-collection/cookies/experience-cloud.md)
     + [Target の Cookie](/help/interface/data-collection/cookies/target.md)
     + [Web SDK の cookie](/help/interface/data-collection/cookies/web-sdk.md)
   + [地域データ収集](/help/interface/data-collection/rdc.md)

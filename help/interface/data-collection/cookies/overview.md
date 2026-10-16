@@ -6,22 +6,28 @@ exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
 TQID: https://experienceleague.adobe.com/GH5WHcI9440NKYpUzizHlhOMlBSf-Y0WQ5GDBaSvqNI
 product_v2:
   - id: e1971122-7081-4556-9222-8a31bd71800c
+    internal-label: Experience Cloud Services
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
+    internal-label: Privacy
+source-git-commit: 18fd590d6f0fd1800e3d5c62851453aa91d9db5f
 workflow-type: tm+mt
-source-wordcount: 622
+source-wordcount: '644'
 ht-degree: 8%
-
 ---
-
 # CX EnterpriseでのCookieの使用方法
 
 Adobe CX EnterpriseはCookieを使用します。 Cookieとは、web サイトがブラウザーに送信するデータの小さな断片のことで、後で使用するために保存されます。 Cookieは、再訪問したり、ページ間を移動したりしたときに、web サイトが何かを覚えるのに役立ちます。 Cookieは訪問を追跡し、あるデバイスを別のデバイスと区別するのに役立ちます。
@@ -32,16 +38,16 @@ Adobe CX EnterpriseはCookieを使用します。 Cookieとは、web サイト�
 
 Adobe CX Enterpriseでは、ページビューとブラウザーセッションの間で保持されない情報を追跡するためにCookieを使用します。 可能であれば、Adobeはファーストパーティ Cookie （お客様のweb サイトに関連付けられている）を使用します。 複数のサイトやドメインをまたいでアクティビティを追跡するには、サードパーティ Cookieが必要です。
 
-一部のブラウザーやスパイウェア対策ツールは、サードパーティ Cookieをブロックします。 Adobeには、Cookieがブロックされていても、Cookieが引き続き機能することを確認する方法があります。 この動作は、訪問者ID サービス （`VisitorAPI.js`）を使用するか、古いAnalytics Cookie （`s_vi` Cookieなど）を使用するかによって異なります。
+一部のブラウザーはサードパーティ Cookieをブロックしています。 Adobeには、Cookieがブロックされていても、Cookieが引き続き機能することを確認する方法があります。 このプロセスの仕組みは、訪問者ID サービス（`VisitorAPI.js`）を使用するか、古いAnalytics Cookie （`s_vi` Cookieなど）を使用するかによって異なります。
 
 * [訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/intro/overview)：訪問者ID サービスは、コレクションドメインがサイトドメインと一致するかどうかにかかわらず、常にファーストパーティ Cookieを設定します。 JavaScriptを使用して、サイトのドメインにCookieを配置します。
 
 * [Analytics レガシー識別子](analytics.md) （`s_vi` Cookieなど）: Cookieがファーストパーティであるかサードパーティであるかは、設定によって異なります。
 
-   * データ収集サーバーがサイトのドメインと一致した場合、Cookieは1st パーティとなります。
-   * 一致しない場合、Cookieはサードパーティです。 サードパーティ Cookieがブロックされている場合、Adobeは通常のCookieの代わりにフォールバック Cookie （`s_fid`）を設定します。
+  * データ収集サーバーがサイトのドメインと一致した場合、Cookieは1st パーティとなります。
+  * 一致しない場合、Cookieはサードパーティです。 サードパーティ Cookieがブロックされている場合、Adobeは通常のCookieの代わりにフォールバック Cookie （`s_fid`）を設定します。
 
-コレクションサーバーがサイトのドメインと一致することを確認するには、**CNAME設定**&#x200B;を使用します。 これには、カスタムドメイン（自分が所有する）をAdobe サーバーにポイントするようにDNS設定を更新することが含まれます。 これにより、トラッキング Cookieが1st パーティとして表示されます。 1つのCNAMEは複数のドメインで動作できますが、CNAMEと一致しないドメインは、引き続きサードパーティ Cookieを設定します。
+コレクションサーバーがサイトのドメインと一致することを確認するには、**CNAME設定**&#x200B;を使用します。 この設定では、カスタムドメイン（自分が所有する）をAdobe サーバーにポイントするようにDNS設定を更新します。 この設定により、トラッキング Cookieが1st パーティとして表示されます。 1つのCNAMEは複数のドメインで動作できますが、CNAMEと一致しないドメインは、引き続きサードパーティ Cookieを設定します。 独自のドメインを使用するCDN[&#128279;](../cdn.md)を通じてデータ収集を ルーティングすることもできます。 すべてのオプションについては、[&#x200B; データ収集ドメインの選択](../collection-domain.md)を参照してください。
 
 >[!NOTE]
 >
@@ -53,7 +59,7 @@ Adobe CX Enterpriseでは、ページビューとブラウザーセッション�
 
 Adobeは、プライバシーとデータセキュリティに真剣に取り組んでいます。 プライバシー機関、規制当局、AdChoicesなどのプログラムと連携し、データの使用方法について関係者が制御できるようにします。
 
-Adobe CX EnterpriseのCookieの多くは、個人情報を保存しません。 セキュリティが確保され、レポート、コンテンツ、広告などに使用できるのは企業だけです。 Adobeは、業界全体の匿名レポート（デジタルマーケティングInsightレポートなど）を除き、このデータを他のお客様やサードパーティと共有することはありません。
+Adobe CX EnterpriseのほとんどのCookieは、個人情報を保存しません。 セキュリティが確保され、レポート、コンテンツ、広告などに使用できるのは企業だけです。 Adobeは、業界全体の匿名レポート（デジタルマーケティングInsightレポートなど）を除き、このデータを他のお客様やサードパーティと共有することはありません。
 
 Adobeは、複数の企業のブラウザーデータを統合していません。 Adobeの一部のツールでは、プライバシーを保護するために、各web サイトで独自のCookie セットを使用できます。 一部のツールでは、Cookieに独自のドメインを使用することができるため、ファーストパーティでより安全な方法で使用できます。
 
