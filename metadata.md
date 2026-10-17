@@ -1,5 +1,5 @@
 ---
-title: CX Enterprise Central UIと管理
+title: CX Enterpriseの中央UIと管理
 description: Adobe Admin Console、Audience Library、顧客属性、CX Enterprise AssetsなどのUI コンポーネント、ユーザーと製品の管理について説明します。
 cloud: Experience Cloud
 product: experience cloud
@@ -7,20 +7,19 @@ solution: CX Enterprise
 solution-title: Experience Platform
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/jp/experience-cloud-core-services/get-started.html
+getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
-git-repo: https://github.com/Adobe-Enterprise-Docs/core-services.ja-JP
+git-repo: https://github.com/Adobe-Enterprise-Docs/core-services.en
 usetq: true
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 source-git-commit: cedbdaa0a783bd9777c169b1257ca5ebf6b48c08
 workflow-type: tm+mt
-source-wordcount: 202
-ht-degree: 65%
-
+source-wordcount: '195'
+ht-degree: 68%
 ---
-
 
 # 内部使用のメタデータ
 
