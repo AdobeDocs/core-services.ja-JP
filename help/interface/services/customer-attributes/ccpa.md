@@ -39,7 +39,7 @@ CCPAは、2020年1月1日に施行されるカリフォルニア州の新しい�
 
 このドキュメントでは、[!DNL Customer Attributes]がAdobe Experience Platform Privacy Service APIとPrivacy Service UIを使用して、データ主体のCCPA データへのアクセス権と削除権をどのようにサポートしているかを説明します。
 
-CCPA のアドビプライバシーサービスについて詳しくは、[アドビプライバシーセンター](https://www.adobe.com/privacy/ccpa.html)を参照してください。
+CCPA のアドビプライバシーサービスについて詳しくは、[アドビプライバシーセンター](https://www.adobe.com/jp/privacy/ccpa.html)を参照してください。
 
 ## [!DNL Customer Attributes] のリクエスト送信に必要な設定
 
