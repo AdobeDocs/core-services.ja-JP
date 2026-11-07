@@ -41,7 +41,7 @@ Adobe Advertising（旧Adobe Advertising Cloud）は、Cookieを使用して広�
 
 >[!NOTE]
 >
->[訪問者ID サービス ](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ja)を使用するベータ版Adobe Advertising Javascript タグは、Adobe Advertising Cookieではなく、ファーストパーティ [CX Enterprise](experience-cloud.md) `s_ecid`Cookieを作成します。
+>[訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ja)を使用するベータ版Adobe Advertising Javascript タグは、Adobe Advertising Cookieではなく、ファーストパーティ [CX Enterprise](experience-cloud.md) `s_ecid`Cookieを作成します。
 
 | cookie 名 | 有効期限 | サイズ | ロケーション | 説明 |
 | --- | --- | --- | --- | --- |
