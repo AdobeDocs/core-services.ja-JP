@@ -1,7 +1,7 @@
 ---
 description: CX Enterpriseで承認済みCreative Cloud ユーザーを管理するための管理ツールについて説明します。
 solution: Experience Cloud
-title: Experience CloudでのCreative Cloud ユーザーの管理
+title: CX EnterpriseでのCreative Cloud ユーザーの管理
 feature: Assets
 topic: Administration
 role: Admin
@@ -28,14 +28,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 46%
 ---
 # Creative Cloud ユーザーの管理
 
-CX Enterpriseには、承認済みのCreative Cloud ユーザーを管理するための管理ツールが用意されています。 これらのユーザーは、Campaign フォルダーにアドホックで招待できます。 キャンペーンに招待できるのは、管理者がリストに追加したユーザーだけです。 追加されたユーザーは、CX Enterpriseのオートコンプリートユーザーリストに表示されます。
+CX Enterpriseには、承認済みCreative Cloud ユーザーを管理するための管理ツールが用意されています。 これらのユーザーは、Campaign フォルダーにアドホックで招待できます。 キャンペーンに招待できるのは、管理者がリストに追加したユーザーだけです。 追加されたユーザーは、CX Enterpriseのオートコンプリートユーザーリストに表示されます。
 
 >[!NOTE]
 >

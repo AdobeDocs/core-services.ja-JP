@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7b12d5debfccd62ab7b416e9a6fe278d251a4ca5
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '981'
 ht-degree: 0%
 ---
 # Adobe Experience Platform Web SDKのCookie
@@ -53,7 +53,7 @@ Adobe Experience Platform Web SDKでは、実装に固有の値を保存する�
 | **`kndctr_<orgId>_bc_session_id`** | なし（セッション Cookie） | | Brand Concierge コンポーネント（ベータ版）を使用する場合に表示されます。 Brand Concierge チャットセッション IDを保存します。 Web SDKは、[`stickyConversationSession`](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/js/commands/configure/conversation)が有効になっている場合にのみ、このCookieを読み取るので、チャットセッションはページ読み込み全体で保持されます。 |
 | **`mbox`** | 63072000 （2年間） | | [`targetMigrationEnabled`](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/js/commands/configure/targetmigrationenabled)が有効になっている場合に表示されます。 Web SDKでTarget [mbox cookie](https://developer.adobe.com/target/implement/client-side/atjs/atjs-cookies/)を設定できます。 |
 | **`mboxEdgeCluster`** | 1800 （30分） | | [`targetMigrationEnabled`](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/js/commands/configure/targetmigrationenabled)が有効になっている場合に表示されます。 これにより、Web SDKは適切なエッジクラスターを`at.js`に通信できるので、ユーザーがサイトを移動してもTarget プロファイルを同期させることができます。 `kndctr_<orgId>_cluster` Cookieが存在しない場合、Web SDKはこのCookieも読み取り、リクエストを一致するEdge Network リージョンにルーティングします。 |
-| **`s_ecid`** | 63115200 （2年間） | ～ 45 バイト | CX Enterprise ID （ECID/MID）のコピーを`s_ecid=MCMID\|<ECID>`形式で含みます。 ECIDのファーストパーティバックアップとして機能し、主にCNAME （ファーストパーティ）シナリオに対して機能します。 [`idMigrationEnabled`](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/js/commands/configure/idmigrationenabled)が有効になっている場合、Web SDKはこのCookieを読み取り、既存のECIDを再利用します。 |
+| **`s_ecid`** | 63115200 （2年間） | ～ 45 バイト | ECID/MIDのコピーを`s_ecid=MCMID\|<ECID>`形式で含みます。 ECIDのファーストパーティバックアップとして機能し、主にCNAME （ファーストパーティ）シナリオに対して機能します。 [`idMigrationEnabled`](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/js/commands/configure/idmigrationenabled)が有効になっている場合、Web SDKはこのCookieを読み取り、既存のECIDを再利用します。 |
 | **Audience Manager cookieの宛先** （名前は異なります） | 宛先が別のライフタイムを指定しない限り、864000 （10日間）です | 可変 | Edge Networkが訪問者のAudience Manager [cookieの宛先](https://experienceleague.adobe.com/ja/docs/audience-manager/user-guide/features/destinations/custom-destinations/create-cookie-destination)を返したときに表示されます。 Web SDKは、宛先で定義されたCookie名、値、ドメインを使用して、ファーストパーティ Cookieを書き込みます。 値は、Audience Manager Data Integration Library（DIL）と一致するURL エンコードされます。 |
 
 Edge Networkは、すべてのCookieを`secure`および`sameSite="none"`属性で設定します。 現在、web サイトに安全なセクションと安全でないセクションの両方がある場合、ユーザー識別が不正確になる可能性があります。 ユーザーがサイトの安全なセクションから安全でないセクションに移動すると、Edge Networkはリクエストとともに新しい`ECID`を生成します。

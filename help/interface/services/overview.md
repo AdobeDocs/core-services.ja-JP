@@ -1,7 +1,7 @@
 ---
 description: CX Enterpriseのユーザーと製品の管理、オーディエンス、顧客属性、Journey Orchestration、オファー、場所、Experience Platform、モバイルサービスについて説明します。
 solution: Experience Cloud
-title: Experience Cloud サービスの概要
+title: CX Enterprise サービスの概要
 feature: Central Interface Components
 topic: Administration
 role: Admin
@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: f9b96c953d928dd65fd40fab96d64dd4f814c685
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 43%
+ht-degree: 41%
 ---
 # CX Enterprise インターフェイスの概要
 

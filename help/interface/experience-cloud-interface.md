@@ -1,7 +1,7 @@
 ---
-description: ログイン方法と、CX Enterpriseの中央インターフェイス コンポーネントについて説明します。 グローバル検索、アカウント設定、インターフェイスの操作方法およびヘルプの入手方法について説明します。
+description: CX Enterpriseの一元的なインターフェイスコンポーネントにログインする方法と概要について説明します。 グローバル検索、アカウント設定、インターフェイスの操作方法およびヘルプの入手方法について説明します。
 solution: Experience Cloud
-title: Experience Cloud Central の UI コンポーネント
+title: CX Enterpriseの中央UI コンポーネント
 feature: Central Interface Components
 topic: Administration
 role: Admin, User
@@ -18,20 +18,20 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '733'
-ht-degree: 41%
+ht-degree: 40%
 ---
-# CX エンタープライズ中央インターフェイスコンポーネント
+# CX Enterpriseの中央インターフェイスのコンポーネント
 
-CX Enterpriseの中央インターフェイスコンポーネントには、次のような機能が搭載されています。
+CX Enterpriseの中央インターフェイスコンポーネントには、次の機能が含まれています。
 
 * ログインしてアプリケーションとサービスにアクセスする
 * グローバル検索を使用して製品ヘルプとビジネスオブジェクトを検索する
 * アカウント設定（アラート、通知、サブスクリプション）の管理
 
-## CX Enterpriseでのブラウザーサポート
+## CX Enterpriseでのブラウザーのサポート
 
 最高のパフォーマンスを実現するために、CX Enterpriseは、最新バージョンと以前の2つのバージョンを含む、最も人気のあるブラウザーに最適化されています。
 
@@ -62,7 +62,7 @@ CX Enterpriseでは、Adobe ユーザーアカウントの環境設定で設定�
 * スペイン語
 * 台湾語
 
-すべてのアプリケーションチームはグローバルな言語サポートに取り組んでいますが、一部のアプリケーションは、上記のすべての言語では提供されていません。 お客様のプライマリ言語がCX Enterprise アプリケーションでサポートされていない場合は、セカンダリ言語をデフォルトに設定することもできます。 これは、[CX Enterprise ユーザー環境設定](https://experience.adobe.com/preferences)で実行できます。
+すべてのアプリケーションチームはグローバルな言語サポートに取り組んでいますが、一部のアプリケーションは、上記のすべての言語では提供されていません。 CX Enterprise アプリケーションで主要言語がサポートされていない場合は、セカンダリ言語をデフォルトの言語に設定することもできます。 これは、[CX Enterpriseのユーザー設定](https://experience.adobe.com/preferences)で実行できます。
 
 ## CX Enterpriseにログイン
 
@@ -76,19 +76,19 @@ CX Enterpriseでは、Adobe ユーザーアカウントの環境設定で設定�
 
    正しい組織にログインしていることを確認するには、**[!UICONTROL プロファイル]**&#x200B;をクリックして組織名を表示します。 複数の組織にアクセスできる場合は、**[!UICONTROL 組織]** セレクターを使用して、別の組織を表示して切り替えることもできます。
 
-   組織でFederated IDを使用している場合は、電子メールアドレスとパスワードを入力しなくても、組織のシングルサインオンでログインできます。 CX エンタープライズ URL （`https://experience.adobe.com`）に`#/sso:@domain`を追加して、このタスクを実行します。
+   組織でFederated IDを使用している場合は、CX Enterpriseを使用すると、メールアドレスとパスワードを入力しなくても、組織のシングルサインオンでログインできます。 CX Enterprise URL （`https://experience.adobe.com`）に`#/sso:@domain`を追加して、このタスクを実行します。
 
    例えば、Federated ID を持ち、ドメインが `example.com` の組織の場合、URL リンクを `https://experience.adobe.com/#/sso:@example.com` に設定します。 また、この URL にアプリケーションパスを付けてブックマークに追加することで、特定のアプリケーションに直接移動することもできます。 （例えば、Adobe Analytics の場合は `https://experience.adobe.com/#/sso:@example.com/analytics`。）
 
-## CX Enterprise アプリケーションへのアクセス
+## CX Enterpriseアプリケーションへのアクセス
 
 CX Enterpriseにログインすると、統合ヘッダーからすべてのアプリケーション、サービス、組織にすばやくアクセスできます。
 
-所有しているCX Enterprise サービスにアクセスするには、アプリケーション セレクター![&#x200B; メニュー](assets/menu-icon.png)をクリックします。
+アプリケーションセレクター![menu](assets/menu-icon.png)をクリックして、所有しているCX Enterprise サービスにアクセスします。
 
-![CX エンタープライズ アプリケーションへのアクセス &#x200B;](assets/platform-core-services.png)
+![CX Enterprise アプリケーションへのアクセス &#x200B;](assets/platform-core-services.png)
 
-## CX Enterpriseの検索とサポート
+## CX Enterpriseでの検索とサポート
 
 CX Enterprise検索を使用すると、[Experience League](https://experienceleague.adobe.com/ja#home)でヘルプ（ドキュメント、チュートリアル、コース）を検索できます。
 
@@ -110,21 +110,21 @@ CX Enterprise検索を使用すると、[Experience League](https://experiencele
 * ログアウト
 * アカウントの[環境設定、通知、サブスクリプション](#preferences)を設定する
 
-### CX エンタープライズ管理[!UICONTROL 環境設定]
+### CX Enterprise [!UICONTROL 環境設定]の管理
 
-企業バイヤーズの環境設定には、通知、サブスクリプション、アラートなどが含まれます。
+CX Enterpriseの環境設定には、通知、サブスクリプション、アラートが含まれます。
 
 * アカウントメニュー![環境設定](assets/preferences-icon-sm.png)の&#x200B;**[!UICONTROL 環境設定]**&#x200B;をクリックして、環境設定を管理します。
 
 ![CX Enterpriseの管理](assets/preferences-page.png)
 
-[!UICONTROL CX エンタープライズ環境設定]では、次の機能を設定できます。
+[!UICONTROL CX Enterpriseの環境設定]では、次の機能を設定できます。
 
 | 機能 | 説明 |
 | --- | --- |
 | 既定の組織 | CX Enterpriseの起動時に表示する組織を選択します。 |
-| [!UICONTROL サブスクリプション] | 購入する製品とカテゴリを選択します。 [!UICONTROL 通知] ポップオーバーおよびメール内の通知。 |
-| [!UICONTROL 優先度] | 優先度が高いと見なすカテゴリを選択します。 これらのカテゴリには「高」タグが付き、アラートんなどの配信用に設定できます。 |
+| [!UICONTROL サブスクリプション] | 購読する製品とカテゴリを選択します。 [!UICONTROL 通知] ポップオーバーおよびメール内の通知。 |
+| [!UICONTROL 優先度] | 優先度が高いと見なすカテゴリを選択します。 これらのカテゴリには「高」タグが付き、アラートと同様に配信を設定できます。 |
 | [!UICONTROL アラート] | ブラウザーにアラートを表示する通知を選択します。 アラートは、ウィンドウの右上隅に数秒間表示されます。 |
 | メール | 通知メールの受信頻度を指定します。 （送信しない、即時、毎日または毎週） |
 
@@ -136,4 +136,4 @@ CX Enterprise検索を使用すると、[Experience League](https://experiencele
 
 ![通知とお知らせ](assets/notifications-menu-small.png)
 
-[CX エンタープライズ環境設定](#preferences)で通知を設定できます。
+[CX Enterpriseの環境設定](#preferences)で通知を設定できます。

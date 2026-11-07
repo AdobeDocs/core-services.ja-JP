@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '579'
 ht-degree: 10%
 ---
 # Adobe Analytics cookie
@@ -43,7 +43,7 @@ Adobe Analyticsでは、Cookieを使用して新規訪問者を匿名で定義�
 
 | cookie 名 | 有効期限 | サイズ | ロケーション | 説明 |
 | --- | --- | --- | --- | --- |
-| **`s_ecid`** | 13 か月 | 45 バイト。 | ファーストパーティ | CX Enterprise ID（ECID）またはMIDを格納します。 HTTP レスポンスで設定します。 MIDは`s_ecid=MCMID`形式で保存されます。 クライアントがAMCV Cookieを設定した後に設定します。 永続的なファーストパーティ ID トラッキングを許可し、AMCV Cookieの有効期限が切れた場合は参照IDとして使用されます。 `SameSite`は「Lax」に設定されています。 Web SDKを使用してAdobe Analyticsを実装する場合、Cookieの有効期限は2年に設定されますが、ほとんどの最新のブラウザーでは、有効期限は13か月に切り捨てられます。 |
+| **`s_ecid`** | 13 か月 | 45 バイト。 | ファーストパーティ | ECIDまたはMIDを格納します。 HTTP レスポンスで設定します。 MIDは`s_ecid=MCMID`形式で保存されます。 クライアントがAMCV Cookieを設定した後に設定します。 永続的なファーストパーティ ID トラッキングを許可し、AMCV Cookieの有効期限が切れた場合は参照IDとして使用されます。 `SameSite`は「Lax」に設定されています。 Web SDKを使用してAdobe Analyticsを実装する場合、Cookieの有効期限は2年に設定されますが、ほとんどの最新のブラウザーでは、有効期限は13か月に切り捨てられます。 |
 | **`s_cc`** | Session | 4 バイト。 | ファーストパーティ | Cookieが有効かどうかを指定します。 JavaScriptによる設定。 |
 | **`s_sq`** | Session | 100 ～ 200 バイト | ファーストパーティ | Activity Mapで使用。 訪問者がクリックした前のリンクに関する情報が含まれます。 JavaScriptによる設定。 |
 | **`s_vi`** | 2 年。 | 44 バイト。 | ファーストパーティ、または`*.omtrdc.net` （サードパーティ） | 一意の訪問者IDとタイムスタンプを保存します。 HTTP レスポンスで設定します。 各訪問者IDは、Adobe サーバー上の訪問者プロファイルに関連付けられます。 訪問者プロファイルは、訪問者ID Cookieの有効期限にかかわらず、非アクティブ状態が1年後に削除されます。 `SameSite`が「なし」で、接続がHTTPSの場合、`Secure` フラグが設定されます。 `SameSite`は、ファーストパーティ Cookieのデフォルトでは「Lax」です。 `SameSite`は、`omtrdc.net`や`2o7.net`などのサードパーティ Cookieを使用する場合、「なし」です。 単一のCNAMEを使用して複数のドメインまたはプロパティを追跡する場合は、`SameSite`を「なし」に設定します。 |

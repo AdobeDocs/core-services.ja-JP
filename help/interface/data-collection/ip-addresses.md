@@ -1,5 +1,5 @@
 ---
-title: Experience Cloudで使用されるIP アドレス
+title: CX ENTERPRISEで使用されるIP アドレス
 description: 組織のファイアウォールがAdobeから送信されたIP アドレスをブロックする場合は、このリストを使用してファイアウォールの設定を更新します。
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
 TQID: https://experienceleague.adobe.com/EPoerIJdL9FVBFB32WRB9zBMdXJarSu90hJIsn7Vpps
@@ -16,14 +16,12 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
-source-wordcount: 426
+source-wordcount: '426'
 ht-degree: 9%
-
 ---
-
-# CX Enterpriseが使用するIP アドレス
+# CX ENTERPRISEで使用されるIP アドレス
 
 一部のファイアウォール設定では、Adobeのデータ収集サーバーまたはデータへのアクセスを担当するサーバーからのIP アドレスをブロックします。 この範囲リストを使用して、組織のファイアウォール設定を変更し、アクセスを許可したり、組織内からデータを送信したりできます。 このページには、Adobeが使用するインバウンドシステム（データ収集など）とアウトバウンドシステム（Adobe Analyticsのデータフィードなど）の両方が含まれます。
 
@@ -59,7 +57,7 @@ ht-degree: 9%
 組織が特定のIP アドレス範囲を許可することを好む場合は、次の表を参照できます。 次のものがあります。
 
 * すべてのCX Enterprise製品のデータ収集サーバー
-* すべてのCX エンタープライズ製品のFTP サーバー
+* すべてのCX Enterprise製品のFTP サーバー
 
 このセクションのすべてのIP範囲は、上記の表に含まれています。
 
@@ -97,7 +95,7 @@ ht-degree: 9%
 
 {style="table-layout:auto"}
 
-Adobe CX Enterpriseは、限られたキャパシティのIPv6もサポートしています。 これらのIP ブロックは、上記のIPv4と同様のデータ収集の目的を果たしますが、FTPは含まれていません。
+Adobe CX Enterpriseは、限られた容量のIPv6もサポートしています。 これらのIP ブロックは、上記のIPv4と同様のデータ収集の目的を果たしますが、FTPは含まれていません。
 
 | ロケーション | ホスト |
 | --- | --- |
