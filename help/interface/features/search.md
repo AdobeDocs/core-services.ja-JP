@@ -1,7 +1,7 @@
 ---
 description: CX Enterpriseの特定のアプリケーションの統合検索機能について説明します。
 solution: Experience Cloud
-title: Experience Cloud 統合検索
+title: CX Enterprise Unified Search
 index: true
 feature: Central Interface Components
 topic: Administration
@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '660'
-ht-degree: 81%
+ht-degree: 80%
 ---
 # CX Enterpriseの[!UICONTROL 統合検索]
 
@@ -49,7 +49,7 @@ ht-degree: 81%
 * Experience Platform（AEP）
 * Journey Optimizer（AJO）
 
-さらに多くのコンテンツにインデックスを作成すると、この機能は関連するアプリケーションに追加されます。
+さらに多くのコンテンツにインデックスが作成されると、この機能は関連するアプリケーションに追加されます。
 
 ## 検索可能なオブジェクトおよびフィールド
 
@@ -61,7 +61,7 @@ ht-degree: 81%
 一致率
 完全に一致するものがあるかどうかを確認します
 
-CX Enterprise![&#128279;](../assets/unified-search-results.png)の[!UICONTROL 統合検索]
+CX Enterprise](../assets/unified-search-results.png)の![[!UICONTROL 統合検索]
 
 検索可能なビジネスオブジェクトには、次のものが含まれます。
 
@@ -82,11 +82,11 @@ CX Enterprise![&#128279;](../assets/unified-search-results.png)の[!UICONTROL �
 
 例えば、_How to create a schema_&#x200B;は、_[!UICONTROL Learning]_&#x200B;の下のExperience Leagueから結果を生成します。
 
-CX Enterprise ヘルプ ![&#128279;](../assets/unified-search-learning.png)の[!UICONTROL 統合検索]
+CX Enterprise ヘルプ ](../assets/unified-search-learning.png)の![[!UICONTROL 統合検索]
 
 検索アルゴリズムは、最も関連性の高いレコードを最初に表示します。 結果の順序は、次のような複数の要因によって異なります。
 
-* オブジェクトにアクセスするためのユーザー権限
+* オブジェクトにアクセスするためのユーザ権限
 * 一致率
 * 完全一致
 * _[!UICONTROL 上位の結果]_ セクションには、上位30件の結果が表示されます。
@@ -109,7 +109,7 @@ CX Enterprise ヘルプ ![&#128279;](../assets/unified-search-learning.png)の[!
 | ストップワード | 英語でよく使用する単語の一部は、_ストップワード_&#x200B;として定義されています。 ストップワードが検索クエリに含まれる場合は、それらに与えられる重み付けは低くなります。 <br>ストップワードの対象語： _a、an、and、are、as、at、be、but、by、for、if、in、into、is、it、no、not、of、on、or、such、that、the、their、then、there、these、they、this、to、was、will、 with_。 <br>ストップワードは、他のグローバル言語ではサポートされていません。 |
 | 自然言語クエリ | Experience League コミュニティでヘルプ記事やディスカッションを検索する際に、自然言語を使用して質問を入力し、回答を得ることができます。 検索例：「スキーマを作成するにはどうすればよいですか？」 |
 | 引用符で囲まれた完全一致検索 | クエリで引用符を使用して、完全一致検索を実行できます。 完全一致クエリに対しては、誤字修正は行われません。 例：「Luma ジャーニー 2022」。 |
-| フィルター | _オブジェクトタイプ_&#x200B;などのフィルターや、その他のオブジェクト固有のフィルターを完全な検索結果のポップアップに適用できます。 検索クエリを入力した後に Enter キーを押すと、フルページのポップアップが開き、そのフィルターもポップアップに含まれます。 |
+| フィルター | _オブジェクトタイプ_&#x200B;などのフィルターや、その他のオブジェクト固有のフィルターを完全な検索結果のポップアップに適用できます。 検索クエリを入力した後に Enter キーを押すと、フィルターを含むフルページのポップアップが開きます。 |
 
 {style="table-layout:auto"}
 

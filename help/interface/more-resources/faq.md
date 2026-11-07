@@ -1,7 +1,7 @@
 ---
 description: ブラウザーのサポートについて学び、Adobe CX Enterpriseの管理者に対する一般的な質問に回答します。
 solution: Experience Cloud
-title: Experience Cloud に関するよくある質問
+title: CX Enterpriseに関するよくある質問
 index: true
 feature: Admin Console
 topic: Administration
@@ -33,10 +33,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 47%
+ht-degree: 46%
 ---
 # CX Enterpriseに関するよくある質問
 
@@ -75,11 +75,11 @@ CX Enterpriseでは、Adobe ユーザーアカウントの環境設定で設定�
 * スペイン語
 * 台湾語
 
-アプリケーションチームはグローバルな言語サポートに取り組んでいますが、上記のすべての言語ですべてのアプリケーションが提供されているわけではありません。 お客様のプライマリ言語がCX Enterprise アプリケーションでサポートされていない場合は、セカンダリ言語をデフォルトに設定することもできます。 これは、[CX Enterprise ユーザー環境設定](https://experience.adobe.com/preferences)で実行できます。
+アプリケーションチームはグローバルな言語サポートに取り組んでいますが、上記のすべての言語ですべてのアプリケーションが提供されているわけではありません。 CX Enterprise アプリケーションで主要言語がサポートされていない場合は、セカンダリ言語をデフォルトの言語に設定することもできます。 これは、[CX Enterpriseのユーザー設定](https://experience.adobe.com/preferences)で実行できます。
 
 +++
 
-+++Adobeは、Adobe CX Enterpriseへのアクセスに対して会社に課金されますか？
++++AdobeはAdobe CX Enterpriseへのアクセスに対して会社に課金されますか？
 
 いいえ。 Adobe CX Enterpriseは追加料金なしで含まれています。 ただし、コアサービスによっては追加コストがかかる場合があります。
 
@@ -87,7 +87,7 @@ CX Enterpriseでは、Adobe ユーザーアカウントの環境設定で設定�
 
 +++CX Enterprise インターフェイスを使用してログインする必要があるのはなぜですか？
 
-CX Enterprise インターフェイスが提供する機能は、ビジネスに新しい価値をもたらします。 これは、今後アプリケーションにアクセスするための標準パスでもあり、最終的には他の個々のアプリケーションのログインフローに取って代わります。 CX Enterpriseからログインすると、後でスムーズに移行できます。
+CX Enterpriseのインターフェイスが提供する機能は、ビジネスに新しい価値をもたらします。 これは、今後アプリケーションにアクセスするための標準パスでもあり、最終的には他の個々のアプリケーションのログインフローに取って代わります。 CX Enterpriseからログインすると、後でスムーズに移行できます。
 
 +++
 
@@ -101,10 +101,10 @@ Adobe カスタマーケアは、明示的な認証を求めるAdobe ブラン�
 
 +++「プロビジョニング」とは
 
-CX Enterpriseでのプロビジョニングは次のことを意味します。
+CX Enterpriseでのプロビジョニングは、次のことを意味します。
 
-* ユーザーは、CX Enterpriseへのログインとアプリケーションのリンクを開始できます。
-* マーケターは、CX Enterpriseで利用できる機能を使用し始めることができます。
+* CX Enterpriseへのログインとアプリケーションのリンクを開始できます。
+* CX Enterpriseの機能を利用し始めることができます。
 * アプリケーション固有のログインプロセスを終了する準備ができます。
 * アプリケーションへのアクセス制御を保持できます。
 
@@ -112,7 +112,7 @@ CX Enterpriseでのプロビジョニングは次のことを意味します。
 
 +++ユーザーの環境設定、通知、アラートを管理するにはどうすればよいですか？
 
-* [&#x200B; アカウントの環境設定と通知](/help/interface/features/account-preferences.md)を参照
+* [ アカウントの環境設定と通知](/help/interface/features/account-preferences.md)を参照
 
 +++
 
@@ -122,15 +122,15 @@ CX Enterpriseでのプロビジョニングは次のことを意味します。
 
 * ユーザーの使用権限と製品の管理は [Adobe Admin Console](https://adminconsole.adobe.com/enterprise)（製品リンク）でおこないます。
 
-* **重要：** Analytics 管理ツールから Admin Console へのユーザー ID の移行に関する Analytics 管理者向けの情報について詳しくは、[Admin Console での Analytics ユーザーの管理](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=ja)を参照してください。
+* **重要：** Analytics 管理ツールから Admin Console へのユーザー ID の移行に関する Analytics 管理者向けの情報について詳しくは、[Admin Console での Analytics ユーザーの管理](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html)を参照してください。
 
 +++
 
-+++誰かがCX Enterpriseにログインできない場合はどうすればよいですか？
++++CX Enterpriseにログインできない場合はどうすればよいですか？
 
-Admin Console 管理者はユーザーにアクセス権を付与できます。 ユーザーにはログイン手順が記載された電子メールが送信されます。
+Admin Console 管理者はユーザーにアクセス権を付与できます。 ユーザーにはログイン手順が記載されたメールが送信されます。
 
-会社としてのプロビジョニングが完了していることを確認するために、[アドビサポートへの問い合わせ](https://experienceleague.adobe.com/ja?support-solution=General&lang=ja#support)が必要になる場合もあります。
+会社としてのプロビジョニングが完了していることを確認するために、[アドビサポートへの問い合わせ](https://experienceleague.adobe.com/?support-solution=General&lang=ja#support)が必要になる場合もあります。
 
 +++
 
@@ -150,7 +150,7 @@ Admin Console 管理者はユーザーにアクセス権を付与できます。
 
 +++組織とは
 
-[組織](../administration/organizations.md)は、管理者がグループとユーザーを設定し、CX Enterpriseでのシングルサインオンを制御できるようにするエンティティです。 CXMは、あらゆるCX エンタープライズ製品とアプリケーションに対応するログイン企業のような役割を果たします。 ほとんどの場合、組織は勤務先の会社名です。 ただし、1 つの会社が多くの組織を持つことができます。
+[組織](../administration/organizations.md)は、管理者がグループとユーザーを設定し、CX Enterpriseでのシングルサインオンを制御できるようにするエンティティです。 同社は、あらゆるCX Enterprise製品とアプリケーションに対応するログイン企業のような役割を果たします。 ほとんどの場合、組織は会社名です。 ただし、1 つの会社が多くの組織を持つことができます。
 
 +++
 
@@ -162,7 +162,7 @@ Admin Console 管理者はユーザーにアクセス権を付与できます。
 
 +++ユーザーの 1 人が会社を辞めた場合はどうすればよいですか？
 
-そのユーザーのアクセスは、アプリケーション自体から削除する必要があります。 CX Enterpriseから、または直接ログインを通じて製品にアクセスすることはできません。 CX企業レベルでも削除する必要があります。
+そのユーザーのアクセスは、アプリケーション自体から削除する必要があります。 CX Enterpriseから、またはダイレクトログインを通じて、製品にアクセスすることはできません。 CX Enterpriseレベルでも削除する必要があります。
 
 +++
 

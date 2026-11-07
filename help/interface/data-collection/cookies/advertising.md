@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f9b96c953d928dd65fd40fab96d64dd4f814c685
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '306'
 ht-degree: 15%
 ---
 # Adobe Advertising の cookie
@@ -41,7 +41,7 @@ Adobe Advertising（旧Adobe Advertising Cloud）は、Cookieを使用して広�
 
 >[!NOTE]
 >
->[Adobe CX Enterprise ID （ECID） サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ja)を使用するベータ版Adobe Advertising Javascript タグは、Adobe Advertising Cookieではなく、ファーストパーティ [CX Enterprise](experience-cloud.md) `s_ecid` Cookieを作成します。
+>[訪問者ID サービス ](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ja)を使用するベータ版Adobe Advertising Javascript タグは、Adobe Advertising Cookieではなく、ファーストパーティ [CX Enterprise](experience-cloud.md) `s_ecid`Cookieを作成します。
 
 | cookie 名 | 有効期限 | サイズ | ロケーション | 説明 |
 | --- | --- | --- | --- | --- |

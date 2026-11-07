@@ -1,7 +1,7 @@
 ---
-description: CX Enterprise アセットフォルダーをCreative Cloud ユーザーと共有する方法について説明します。
+description: CX Enterprise Asset フォルダーをCreative Cloud ユーザーと共有する方法について説明します。
 solution: Experience Cloud
-title: Experience Cloud アセットフォルダーの共有
+title: CX Enterprise Asset フォルダーの共有
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 feature: Assets
 topic: Administration
@@ -31,14 +31,14 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 37%
 ---
 # CX Enterprise アセットフォルダーの共有
 
-CX EnterpriseとCreative Cloud間でフォルダーとアセットを共有します。 Adobe Adobe Targetなどの顧客体験管理システム向けアプリケーションでは、共有アセットの共同作業、注釈付け、使用できます。 共有フォルダーはCX Enterpriseから作成する必要があります。
+CX EnterpriseとCreative Cloud間でフォルダーとアセットを共有します。 共有アセットに注釈を付けて共同作業をおこない、Adobe TargetなどのCX Enterpriseアプリケーションで使用できます。 共有フォルダーはCX Enterpriseから作成する必要があります。
 
 **共有の利点**
 
@@ -60,7 +60,7 @@ Creative Cloud ユーザーがアセットにアクセスする前に、CX Enter
    ![Creative Cloud ユーザーを追加](../../assets/asset-share-cc-page.png)
 
 1. 「**[!UICONTROL 共有]**」をクリックします。
-1. [!DNL Creative Cloud] デスクトップを起動し（またはブラウザーで[!UICONTROL Creative Cloud ファイル &#x200B;] ページに移動）、リクエスト通知を探します。
+1. [!DNL Creative Cloud] デスクトップを起動し（またはブラウザーで[!UICONTROL Creative Cloud ファイル ] ページに移動）、リクエスト通知を探します。
 
    ![リクエスト通知](../../assets/cc_share_request.png)
 1. リクエストを開き、**[!UICONTROL 同意]**&#x200B;をクリックします。
@@ -75,7 +75,7 @@ Creative Cloud ユーザーがアセットにアクセスする前に、CX Enter
 
    ![画像にコメントを追加](../../assets/asset_comment_cc.png)
 
-   CX Enterpriseで、画像を選択してからタイムラインアイコンを選択し、画像にコメントを追加します。 コメントは、Creative CloudおよびCX Enterpriseのアセットで同期されます。
+   CX Enterpriseで、画像を選択し、タイムラインアイコンを選択して画像にコメントを追加します。 コメントは、Creative CloudとCX Enterpriseのアセットで同期されます。
 
    ![画像にコメントを追加](../../assets/asset_comment_mac.png)
 
@@ -83,9 +83,9 @@ Creative Cloud ユーザーがアセットにアクセスする前に、CX Enter
 
    ![フォルダーの共有を解除する](../../assets/asset_remove_user.png)
 
-   Creative Cloud ユーザーをすべて削除すると、そのフォルダーの共有が解除され、Creative Cloud ユーザーはそれらにアクセスできなくなります。
+   Creative Cloud ユーザーをすべて削除すると、そのフォルダーの共有が解除され、Creative Cloud ユーザーはそのフォルダーにアクセスできなくなります。
 
-共有アセットを使用する他の方法には、アクティビティの画像に対して、Adobe Targetの[&#x200B; オファーライブラリ &#x200B;](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=ja)でアセットを読み込んだり入れ替えたりすることが含まれます。
+共有アセットを使用する他の方法には、アクティビティの画像に対して、Adobe Targetの[ オファーライブラリ ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html)でアセットを読み込んだり入れ替えたりすることが含まれます。
 
 Creative Cloud にフォルダーを共有すると、フォルダー上に Creative Cloud のロゴが表示されます。
 
@@ -99,7 +99,7 @@ Creative Cloud にフォルダーを共有すると、フォルダー上に Crea
 
 ## Adobe Target とのアセットの共有について
 
-[!DNL Adobe Target]でアクティビティを作成する場合、[!UICONTROL &#x200B; オファーライブラリ &#x200B;]で画像を入れ替える際に、共有の画像アセットを使用できます。
+[!DNL Adobe Target]でアクティビティを作成する場合、[!UICONTROL  オファーライブラリ ]で画像を入れ替える際に、共有の画像アセットを使用できます。
 
-[!DNL Target] ヘルプの[オファーライブラリ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=ja)を参照してください。
+[!DNL Target] ヘルプの[オファーライブラリ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html)を参照してください。
 

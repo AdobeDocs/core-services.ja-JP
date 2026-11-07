@@ -1,7 +1,7 @@
 ---
-description: 訪問者ID サービスがCX エンタープライズ アプリケーション全体で保存および使用される方法について説明します。
+description: CX Enterprise アプリケーション全体でVisitor ID サービスを保存および使用する方法について説明します。
 solution: Experience Cloud,Analytics,Target
-title: Experience Cloud の cookie
+title: CX Enterprise Cookie
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 feature: Cookies
 topic: Administration
@@ -33,12 +33,12 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '366'
 ht-degree: 67%
 ---
-# CX エンタープライズ Cookie
+# CX Enterprise cookie
 
 Adobe CX Enterpriseでは、CX Enterprise アプリケーション全体で使用される訪問者IDを保存するためにCookieを使用します。 これらのCookieは、[experience.adobe.com](https://experience.adobe.com)でAdobe CX Enterprise アプリケーションにアクセスする場合に特に適用されます。
 
@@ -54,7 +54,7 @@ Adobe CX Enterpriseでは、CX Enterprise アプリケーション全体で使�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>保存される情報 </p> </td> 
-   <td colname="col2"> <p> CX Enterprise ID（ECID）またはMIDのコピーが含まれます。 MID は、s_ecid=MCMID|&lt;ECID&gt; という構文に従うキーと値のペアとして保存されます。 </p> </td> 
+   <td colname="col2"> <p> ECIDまたはMIDのコピーが含まれます。 MID は、s_ecid=MCMID|&lt;ECID&gt; という構文に従うキーと値のペアとして保存されます。 </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> 有効期限 </p> </td> 
@@ -62,7 +62,7 @@ Adobe CX Enterpriseでは、CX Enterprise アプリケーション全体で使�
   </tr> 
   <tr> 
    <td colname="col1"> <p> 用途 </p> </td> 
-   <td colname="col2"> <p>この cookie は、AMCV cookie がクライアントで設定された後に、お客様のドメインで設定されます。 この cookie の目的は、ファーストパーティ状態の永続的 ID トラッキングを許可し、AMCV cookie の有効期限が切れた場合に参照 IDとして使用することです。 詳しくは、こちらの AMCV cookie を参照してください。 </p> </td> 
+   <td colname="col2"> <p>この cookie は、AMCV cookie がクライアントで設定された後に、顧客のドメインで設定されます。 この cookie の目的は、ファーストパーティ状態の永続的 ID トラッキングを許可し、AMCV cookie の有効期限が切れた場合に参照 IDとして使用することです。 詳しくは、こちらの AMCV cookie を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 場所 </p> </td> 
@@ -81,9 +81,9 @@ Adobe CX Enterpriseでは、CX Enterprise アプリケーション全体で使�
 
 **cookie 名：AMCV_###@AdobeOrg**
 
-[訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)は、JavaScriptを使用して、現在のWeb サイトのドメイン上の`AMCV_###@AdobeOrg` Cookieに一意の訪問者IDを保存します。ここで、`###`は`AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`などのランダムな文字列を表します
+[訪問者ID サービス ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)は、JavaScriptを使用して、現在のWeb サイトのドメイン上の`AMCV_###@AdobeOrg` CookieにECIDを保存します。ここで、`###`は`AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`などのランダムな文字列を表します
 
-[Cookieと訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja)も参照してください。
+[Cookieと訪問者ID サービス ](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)も参照してください。
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 

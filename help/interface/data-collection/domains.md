@@ -1,6 +1,6 @@
 ---
 description: CX Enterpriseで使用されるドメインについて説明します。
-title: Experience Cloudで使用されるドメイン
+title: CX Enterpriseで使用されるドメイン
 feature: Central Interface Components
 topic: Administration
 role: Admin
@@ -18,25 +18,25 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 19%
 ---
 # CX Enterpriseで使用されるドメイン
 
-CX Enterpriseでは、次のホストを使用して、アプリケーションの配信、パフォーマンスの向上、製品体験の向上を実現します。 Adobeでは、最適なエクスペリエンスを実現するために、組織のネットワークまたはファイアウォールを通じてこれらのドメインを許可することをお勧めします。
+CX Enterpriseでは、次のホストを使用して、アプリケーションの配信、パフォーマンスの向上、製品体験の向上を図ります。 Adobeでは、最適なエクスペリエンスを実現するために、組織のネットワークまたはファイアウォールを通じてこれらのドメインを許可することをお勧めします。
 
 以下に示すドメインに加えて、個々のAdobe CX Enterprise製品には、使用する独自のドメインがあります。
 
-* [Adobe Analytics](https://experienceleague.adobe.com/ja/docs/analytics/technotes/domains)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/technotes/domains)
-* [Marketo Engage](https://experienceleague.adobe.com/ja/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/domains)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/domains)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
 
 | 技術 | ドメイン |
 | --- | --- |
 | Adobe ドメイン | `adobe.com`、`adobe.net`、`adobe.io` |
-| Adobe Identity Management サービス（IMS） | `adobelogin.com` |
+| Adobe Identity Management Service（IMS） | `adobelogin.com` |
 | フォント | `typekit.net` |
 | データ収集（製品のパフォーマンスと使用のために） | `adobedtm.com` |
 | Gainsight（製品ガイダンスおよびヘルプ用） | `esp.aptrinsic.com`, `esp-m.aptrinsic.com` |

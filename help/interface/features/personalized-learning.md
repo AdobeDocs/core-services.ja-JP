@@ -1,7 +1,7 @@
 ---
 description: 電子メール、CX Enterprise製品、Experience League Communities内で、使用状況データに基づいてパーソナライズされたヘルプやプロモーションを受け取ることができます。
 solution: Experience Cloud
-title: Experience Cloud のパーソナライズされたラーニング環境設定
+title: CX Enterpriseのパーソナライズされた学習環境
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
 TQID: https://experienceleague.adobe.com/XL454ZwYb9liDNLbDcA7ZYRG-8OHpwuQEmvHCo0q-j4
 product_v2:
@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 20%
+ht-degree: 16%
 ---
 # パーソナライズされた学習設定
 
@@ -94,7 +94,7 @@ Receive tailored opportunities for learning events, research sessions, and integ
 
 ## カスタマイズされた学習情報の例
 
-### アドビ製品の内容
+### アドビ製品内
 
 ![](../assets/personalized-learning-in-product.gif){width="800"}
 

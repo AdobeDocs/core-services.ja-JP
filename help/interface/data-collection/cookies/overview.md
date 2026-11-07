@@ -1,6 +1,6 @@
 ---
 description: Adobe CX EnterpriseのソリューションやサービスがCookieをどのように使用するかをご確認ください。
-title: Experience CloudでのCookieの使用方法
+title: CX EnterpriseでのCookieの使用方法
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
 TQID: https://experienceleague.adobe.com/GH5WHcI9440NKYpUzizHlhOMlBSf-Y0WQ5GDBaSvqNI
@@ -23,7 +23,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 18fd590d6f0fd1800e3d5c62851453aa91d9db5f
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 8%
@@ -40,14 +40,14 @@ Adobe CX Enterpriseでは、ページビューとブラウザーセッション�
 
 一部のブラウザーはサードパーティ Cookieをブロックしています。 Adobeには、Cookieがブロックされていても、Cookieが引き続き機能することを確認する方法があります。 このプロセスの仕組みは、訪問者ID サービス（`VisitorAPI.js`）を使用するか、古いAnalytics Cookie （`s_vi` Cookieなど）を使用するかによって異なります。
 
-* [訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/intro/overview)：訪問者ID サービスは、コレクションドメインがサイトドメインと一致するかどうかにかかわらず、常にファーストパーティ Cookieを設定します。 JavaScriptを使用して、サイトのドメインにCookieを配置します。
+* [訪問者ID サービス ](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview)：訪問者ID サービスは、コレクションドメインがサイトドメインと一致するかどうかにかかわらず、常にファーストパーティ Cookieを設定します。 JavaScriptを使用して、サイトのドメインにCookieを配置します。
 
 * [Analytics レガシー識別子](analytics.md) （`s_vi` Cookieなど）: Cookieがファーストパーティであるかサードパーティであるかは、設定によって異なります。
 
   * データ収集サーバーがサイトのドメインと一致した場合、Cookieは1st パーティとなります。
   * 一致しない場合、Cookieはサードパーティです。 サードパーティ Cookieがブロックされている場合、Adobeは通常のCookieの代わりにフォールバック Cookie （`s_fid`）を設定します。
 
-コレクションサーバーがサイトのドメインと一致することを確認するには、**CNAME設定**&#x200B;を使用します。 この設定では、カスタムドメイン（自分が所有する）をAdobe サーバーにポイントするようにDNS設定を更新します。 この設定により、トラッキング Cookieが1st パーティとして表示されます。 1つのCNAMEは複数のドメインで動作できますが、CNAMEと一致しないドメインは、引き続きサードパーティ Cookieを設定します。 独自のドメインを使用するCDN[&#128279;](../cdn.md)を通じてデータ収集を ルーティングすることもできます。 すべてのオプションについては、[&#x200B; データ収集ドメインの選択](../collection-domain.md)を参照してください。
+コレクションサーバーがサイトのドメインと一致することを確認するには、**CNAME設定**&#x200B;を使用します。 この設定では、カスタムドメイン（自分が所有する）をAdobe サーバーにポイントするようにDNS設定を更新します。 この設定により、トラッキング Cookieが1st パーティとして表示されます。 1つのCNAMEは複数のドメインで動作できますが、CNAMEと一致しないドメインは、引き続きサードパーティ Cookieを設定します。 独自のドメインを使用するCDN](../cdn.md)を通じてデータ収集を[ ルーティングすることもできます。 すべてのオプションについては、[ データ収集ドメインの選択](../collection-domain.md)を参照してください。
 
 >[!NOTE]
 >
