@@ -1,6 +1,6 @@
 ---
 description: '[!DNL Customer Attributes]のデータをCX Enterpriseにアップロードするためのデータファイルの要件と複数のデータソースについて説明します。'
-solution: Experience Cloud
+solution: CX Enterprise
 title: 顧客属性データファイルとデータソース
 feature: Customer Attributes
 topic: Administration
@@ -28,7 +28,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '1177'
 ht-degree: 60%
@@ -37,15 +37,15 @@ ht-degree: 60%
 
 顧客属性データをCX Enterpriseにアップロードするためのデータファイル要件と複数のデータソース。
 
-企業内の CRM データや同様のデータにアクセスする必要があります。 CX Enterpriseにアップロードするデータは`.csv` ファイルである必要があります。 FTP や sFTP を利用してアップロードする場合は、`.fin` ファイルもアップロードします。
+企業内の CRM データや同様のデータにアクセスする必要があります。 CX Enterpriseにアップロードするデータは、`.csv` ファイルである必要があります。 FTP や sFTP を利用してアップロードする場合は、`.fin` ファイルもアップロードします。
 
-[!DNL Customer Attributes]は、1日に数個のファイルを処理するように設計されています。 小さなファイルを多数処理することで発生する処理の遅延を軽減するために、同じ組織から以前のバッチ後 30 分以内に送信されたファイルは、優先順位の低いキューにルーティングされます。
+[!DNL Customer Attributes]は、1日に数個のファイルを処理するように設計されています。 多数の小さなファイルが処理の遅延を引き起こす問題を軽減するために、同じ組織から以前のバッチ後 30 分以内に送信されたファイルは、優先順位の低いキューにルーティングされます。
 
 ## 許可されるファイルタイプと命名規則
 
 | ファイルタイプ | 説明 |
 | --- | --- |
-| `.csv` | 値をコンマで区切って入力したファイル（Excel で作成するファイルなど）。 このファイルには、顧客属性データが含まれます。   命名要件：ファイル名の拡張子に空白が含まれていないことを確認します。 |
+| `.csv` | 値をコンマで区切ったファイル（Excel で作成するファイルなど）。 このファイルには、顧客属性データが含まれます。   命名要件：ファイル名の拡張子に空白が含まれていないことを確認します。 |
 | `.fin` | （必須） `.fin` ファイルは、データのアップロードが完了したことをシステムに通知します。 `.fin` ファイルの名前は、`.csv` ファイルの名前と一致する必要があります。  Adobeでは、`.fin`拡張子を持つ空のテキストファイルを作成することをお勧めします。 空のファイルは、スペースとアップロード時間を節約します。 **注：** `.fin` ファイルの名前を変更することは、アップロード後に許可されません。 `.fin` ファイルは個別にアップロードする必要があり、以前にアップロードしたファイルの名前を変更することはできません。 顧客属性FTPに`.fin` ファイルをアップロードすると、システムはデータを迅速に（1分以内に）取得します。 これは、データの取得頻度が低い（1時間に1回程度）他のAdobe FTP ベースのシステムとは異なります。 ドラッグ&amp;ドロップ アップロード方式を使用する場合、`.fin` ファイルは必要ありません。 |
 | `.gz` または `.zip` | `.gz` （gzip）または`.zip` – 圧縮ファイル用。 `.zip` ファイルに複数のファイルを含めることはできません。 命名要件：`.zip`または`.gz`の名前は、`.csv` ファイルの名前と一致する必要があります。 例えば、`.csv` ファイルが`crm_small.csv`の場合、`.zip` ファイルは`crm_small.csv.zip`になります。 `.fin` ファイルは`.csv`と一致する必要があります。 |
 
@@ -80,12 +80,12 @@ CSV ファイルは次の形式に準拠する必要があります。
    <td colname="col2"> <p> 1 列目は一意の顧客 ID でなければなりません。 使用するIDは、訪問者ID サービスに渡されるIDに対応する必要があります。 </p> <p>Analytics の場合は、prop または eVar に格納されている ID です。 </p> <p>Targetの場合は、setcustomerID値。 </p> <p> この顧客 ID は、データベース内の各ユーザーを表すために CRM で使用する一意の ID です。 残りの列は CRM から取得される属性です。 アップロードする属性の数を選択します。 </p> <p>列の見出しには読みやすく、わかりやすい名前を使用することが推奨されますが、必須ではありません。 アップロード後におこなうスキーマの検証の際に、アップロードされた行と列にわかりやすい名前をマッピングできます。 </p> <p> <b>顧客IDについて</b> </p> <p>通常、企業は、CRM システムからの顧客 ID を使用します。 このIDは、ユーザーがログインしたときに<span class="codeph"> setcustomerID </span>呼び出しを使用して設定されます。 このIDは、CX EnterpriseにアップロードされるCRM ファイルのキーとしても使用されます。 <a href="t-crs-usecase.md" format="dita" scope="local">エイリアス ID</a> は、エイリアスデータが格納される Audience Manager のデータストアの識別子です。 システムは、このデータストアに（setcustomerIDを介して）エイリアスを送信します。 CRM ファイルは、このデータストアのデータに適用されます。 </p> <p><span class="codeph">個のsetcustomerID </span>について詳しくは、<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja" format="https" scope="external">個の顧客IDと認証状態</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2 列目以降のヘッダーと列 </p> </td> 
+   <td colname="col1"> <p>後続のヘッダーと列 </p> </td> 
    <td colname="col2"> <p>2 列目以降のヘッダーは、各属性の名前を表す必要があります。 </p> <p> これらの列は、CRM から取得される顧客属性を含んでいる必要があります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>属性の制限 </p> </td> 
-   <td colname="col2"> <p>CX Enterpriseの顧客属性サービスには、何百もの<span class="filepath"> .csv </span>列をアップロードできます。 ただし、サブスクリプションを設定して属性を選択する場合、所有するアプリケーションに応じて、次の制限が適用されます。 </p> <p> 
+   <td colname="col2"> <p>数百の<span class="filepath"> .csv </span>列をCX Enterpriseの顧客属性サービスにアップロードできます。 ただし、サブスクリプションを設定して属性を選択する場合、所有するアプリケーションに応じて、次の制限が適用されます。 </p> <p> 
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
       <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard：</b>合計 3 件 </li> 
       <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium：</b>レポートスイートあたり 200 件 </li> 
@@ -103,7 +103,7 @@ CSV ファイルは次の形式に準拠する必要があります。
   </tr> 
   <tr> 
    <td colname="col1"> <p>文字制限 </p> </td> 
-   <td colname="col2"> <p>Analytics サブスクリプションの作成時には、アップロードするファイルのフィールド長が 255 文字以下になるように切り詰められます。 </p> </td> 
+   <td colname="col2"> <p>Analytics サブスクリプションの作成時には、アップロードするファイルのフィールド長は 255 文字に切り詰められます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>FTP に関するガイドラインとサイズ制限 </p> </td> 
@@ -113,7 +113,7 @@ CSV ファイルは次の形式に準拠する必要があります。
       <li>ファイルサイズの下限は、各アップロードで 10 MB です。 </li>
       <li>30 分ごとに 1 つのファイルをアップロードできます。 </li>
       <li id="li_B69A20C51D824727AA99C1F6F78537A4"> <span class="filepath">.csv</span>（および <span class="filepath">.fin</span>）ファイルを FTP サイトのルートフォルダーにアップロードする必要があります。 </li> 
-     </ul> </p> <p> <p>重要：FTP アカウントの合計許容量は 40 GB です。 処理されたデータを削除するのは、ユーザーの責任です。 </p> </p> </td> 
+     </ul> </p> <p> <p>重要：FTP アカウントの合計許容量は 40 GB です。 処理されたファイルを削除するのは、ユーザーの責任です。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ファイル要件 </p> </td> 
@@ -125,7 +125,7 @@ CSV ファイルは次の形式に準拠する必要があります。
   </tr> 
   <tr> 
    <td colname="col1"> <p>文字エンコーディング </p> </td> 
-   <td colname="col2"> <p>日本では UTF-8 にする必要があります。 </p> </td> 
+   <td colname="col2"> <p>日本では UTF-8 の使用が必須です。 </p> </td> 
   </tr> 
    <tr> 
    <td colname="col1"> <p>履歴データ </p> </td> 
@@ -144,7 +144,7 @@ CSV ファイルは次の形式に準拠する必要があります。
 
 各顧客属性ソースのエイリアス ID は、一意である必要があります。 同じ ID を活用する複数のデータソースがある場合、次のように設定します。
 
-**`VisitorAPI.js`または[!UICONTROL Experience Cloud ID サービス &#x200B;] タグ拡張機能：**
+**`VisitorAPI.js`または[!UICONTROL Experience Cloud ID サービス ] タグ拡張機能：**
 
 適切なデータソースに対応する 2 つの顧客 ID を設定します。
 

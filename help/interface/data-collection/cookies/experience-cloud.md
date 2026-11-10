@@ -1,6 +1,6 @@
 ---
 description: CX Enterprise アプリケーション全体でVisitor ID サービスを保存および使用する方法について説明します。
-solution: Experience Cloud,Analytics,Target
+solution: CX Enterprise,Analytics,Target
 title: CX Enterprise Cookie
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 feature: Cookies
@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 67%
@@ -81,9 +81,9 @@ Adobe CX Enterpriseでは、CX Enterprise アプリケーション全体で使�
 
 **cookie 名：AMCV_###@AdobeOrg**
 
-[訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)は、JavaScriptを使用して、現在のWeb サイトのドメイン上の`AMCV_###@AdobeOrg` CookieにECIDを保存します。ここで、`###`は`AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`などのランダムな文字列を表します
+[訪問者ID サービス ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)は、JavaScriptを使用して、現在のWeb サイトのドメイン上の`AMCV_###@AdobeOrg` CookieにECIDを保存します。ここで、`###`は`AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`などのランダムな文字列を表します
 
-[Cookieと訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja)も参照してください。
+[Cookieと訪問者ID サービス ](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)も参照してください。
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 

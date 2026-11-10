@@ -1,6 +1,6 @@
 ---
-description: CX Enterpriseの一般的なインターフェイスコンポーネントに関するドキュメントの更新が発生する場所について説明します。
-solution: Experience Cloud
+description: CX Enterpriseの一般的なインターフェイスコンポーネントに関するドキュメントの更新が発生する場所を説明します。
+solution: CX Enterprise
 title: ドキュメントの更新
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 topic: Administration
@@ -36,40 +36,40 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 35%
 ---
 # ドキュメントの更新
 
-CX Enterpriseの一元的なインターフェイスと管理に関するドキュメントの更新が発生する場所について説明します。
+CX Enterpriseの一元的なインターフェイスと管理用にドキュメントの更新が行われる場所について説明します。
 
 ## 2026年7月
 
-* 組織スイッチャーからのゲストユーザーのアカウント切り替えを含む、[Federated Guest Access](https://helpx.adobe.com/jp/business/enterprise/using/federated-guest-access.html)のCX エンタープライズサポート用に[2026年7月リリースノート &#x200B;](release-notes.md)を追加しました。
+* [Federated Guest Access](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html)のCX Enterprise サポートに関する[2026年7月のリリースノート ](release-notes.md)を追加しました。これには、組織スイッチャーからのゲストユーザーのアカウント切り替えが含まれます。
 
 ## 2026年6月
 
-* 概要、ユーザー、フィードバック、AI クレジットの表示、会話の再生、ガバナンスユーザーの権限など、ライセンス使用状況とAgentic AI監視ダッシュボードに対応した[Agentic AI monitoring](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring)を公開しました。
-* エージェント型AI使用状況モニタリング用に[2026年6月のリリースノート &#x200B;](release-notes.md)を追加しました。
+* 概要、ユーザー、フィードバック、AI クレジットの表示、会話の再生、ガバナンスユーザーの権限など、ライセンス使用状況とAgentic AI監視ダッシュボードに対応した[Agentic AI monitoring](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring)を公開しました。
+* エージェント型AI使用状況モニタリング用に[2026年6月のリリースノート ](release-notes.md)を追加しました。
 
 ## 2026年5月
 
-4月と5月のCX Enterprise Central インターフェイスガイドのアップデート：
+CX Enterprise中央インターフェイスガイドの4月と5月のアップデート：
 
 * 説明、リンクテキスト、自動タグ付けメタデータなど、Adobe Experience Cloudからガイド全体で&#x200B;**CX Enterprise**&#x200B;へのリブランドされたドキュメント。
-* `https://experience.adobe.com/home`に更新されたホームページの[2026年4月のリリースノート &#x200B;](release-notes.md)を追加しました（UIの更新、ダークモード、アクセシビリティの改善）。
-* CX Enterprise[&#128279;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)のAgentic AIを更新しました：Adobe Marketing Agent for Microsoft 365 Copilot、修正されたエージェント機能、およびexisting-apps エージェントテーブルの&#x200B;**Health Data / HIPAA対応**&#x200B;列。
-* [地域データ収集](../data-collection/rdc.md)、[&#x200B; ホスト名転送](../data-collection/adobe-managed-cert.md)および[用語](terms.md)のマイナーアップデート。
+* `https://experience.adobe.com/home`に更新されたホームページの[2026年4月のリリースノート ](release-notes.md)を追加しました（UIの更新、ダークモード、アクセシビリティの改善）。
+* CX Enterprise](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)の[Agentic AIを更新しました：Adobe Marketing Agent for Microsoft 365 Copilot、修正されたエージェント機能、およびexisting-apps エージェントテーブルの&#x200B;**ヘルスデータ / HIPAA対応**&#x200B;列。
+* [地域データ収集](../data-collection/rdc.md)、[ ホスト名転送](../data-collection/adobe-managed-cert.md)および[用語](terms.md)のマイナーアップデート。
 
 ## 2026 年 3 月
 
-[AI ジョブとクレジットの消費を追加しました](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/overview/ai-credit-consumption)
+[AI ジョブとクレジットの消費を追加しました](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/ai-credit-consumption)
 
 ## 2025年11月
 
-CX Enterpriseの[Agentic AIの更新](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)
+CX Enterpriseの[Agentic AIの更新](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)
 
 ## 2025年10月
 
@@ -77,25 +77,25 @@ CX Enterpriseの[Agentic AIの更新](https://experienceleague.adobe.com/ja/docs
 
 ## 2025年8月
 
-Adobe ID[&#128279;](../features/account-preferences.md)のリセットに関する情報を追加しました。
+Adobe ID](../features/account-preferences.md)のリセットに関する情報を[追加しました。
 
 ## 2025年2月
 
-CX Enterprise[&#128279;](../administration/admin-console.md)に ユーザーと製品の管理を追加しました。 このページでは、管理者がすべてのアプリケーションのユーザーおよび製品管理（Admin Console）ヘルプを見つけるのに役立ちます。
+CX Enterprise](../administration/admin-console.md)で[ ユーザーと製品の管理を追加しました。 このページでは、管理者がすべてのアプリケーションのユーザーおよび製品管理（Admin Console）ヘルプを見つけるのに役立ちます。
 
 ## 2024年11月
 
-[製品使用状況データ &#x200B;](../features/account-preferences.md)および[&#x200B; パーソナライズされた学習](../features/personalized-learning.md)を更新しました。
+[製品使用状況データ ](../features/account-preferences.md)および[ パーソナライズされた学習](../features/personalized-learning.md)を更新しました。
 
 ## 2024年9月
 
-Slack通知[&#128279;](../features/account-preferences.md#subscribe-to-slack-notifications)の購読に関するヘルプを追加しました。
+Slack通知](../features/account-preferences.md#subscribe-to-slack-notifications)の購読に関するヘルプを追加しました。[
 
-[&#x200B; ユーザー設定](../features/account-preferences.md)を更新しました。
+[ ユーザー設定](../features/account-preferences.md)を更新しました。
 
 ## 2024年4月26日（PT）
 
-ドキュメントアーキテクチャの完全刷新。 [Adobe CX Enterprise IP アドレス &#x200B;](../data-collection/ip-addresses.md)および[Regional data collection](../data-collection/rdc.md)も追加されました。
+ドキュメントアーキテクチャの完全刷新。 [Adobe CX Enterprise IP アドレス ](../data-collection/ip-addresses.md)と[地域データ収集](../data-collection/rdc.md)も追加されました。
 
 ## 2024年4月9日（PT）
 
@@ -117,7 +117,7 @@ Slack通知[&#128279;](../features/account-preferences.md#subscribe-to-slack-not
 
 | 機能 | 説明 |
 | ------- | ------- |
-| ホームページ | CX エンタープライズ版のホームフッター情報が、法律上の注意や環境設定の言語の選択など、ユーザープロファイルカードに移動されました。 |
+| ホームページ | CX Enterpriseのホームフッター情報は、環境設定の「法的通知」や「言語の選択」など、ユーザープロファイルカードに移動されました。 |
 | AEP ダッシュボード | [!DNL Helios Lite] は、Experience Platform ウィジェット作成ワークフロー内におけるグラフのレコメンデーションを提供します。 データ選択（現在は単一変数データ選択）を指定した場合、helios はそのデータ選択に伴う適切なビジュアライゼーションを推奨します。 |
 | AEP ダッシュボード | [!DNL Instory] は、グラフに ML ベースの書き込みナレーションとキャプションを提供します。 AEP ダッシュボードページのグラフに、データの大きな変更点やインシデントを示す箇条書きを追加します。 |
 
@@ -125,8 +125,8 @@ Slack通知[&#128279;](../features/account-preferences.md#subscribe-to-slack-not
 
 | 機能 | 説明 |
 | ------- | ------- |
-| 統合検索 | 統合検索では、引き続き検索インデックスにオブジェクトタイプが追加されます。 この更新では、グローバル検索で、Experience League コンテンツ全体と次の Journey Optimizer オブジェクトタイプが検索されるようになりました。 <ul><li>データセット</li><li>宛先</li><li>クエリ</li><li>スキーマ</li><li>セグメント</li><li>ソース</li><li>オファー</li><li>コンポーネント</li><li>メッセージ</li><li>ジャーニー</li></ul> |
-| 製品の使用状況データへの同意 | 初回ログイン時に、CX Enterprise製品の使用状況データに基づいて、Adobeが、チュートリアル、ガイド、クイックヒント、レコメンデーション、学習ビデオなど、役立つパーソナライズされたコンテンツを提供する方法に関する環境設定を送信するように求められます。 このリクエストでは、これらのデータの収集と使用に関する環境設定を <https://experience.adobe.com/preferences> で更新することも求められます。 |
+| 統合検索 | 統合検索では、引き続き検索インデックスにオブジェクトタイプが追加されます。 この更新では、グローバル検索で、Experience League コンテンツ全体および次の Journey Optimizer オブジェクトタイプを横断して検索できるようになりました。 <ul><li>データセット</li><li>宛先</li><li>クエリ</li><li>スキーマ</li><li>セグメント</li><li>ソース</li><li>オファー</li><li>コンポーネント</li><li>メッセージ</li><li>ジャーニー</li></ul> |
+| 製品の使用状況データへの同意 | 初回ログイン時に、CX Enterpriseの使用状況データに基づいて、Adobeがチュートリアル、ガイド、クイックヒント、レコメンデーション、学習ビデオなど、役立つパーソナライズされたコンテンツを提供する方法に関する環境設定を送信するように求められます。 このリクエストでは、これらのデータの収集と使用に関する環境設定を <https://experience.adobe.com/preferences> で更新することも求められます。 |
 
 ## 2021年8月24日（PT）
 
@@ -142,11 +142,11 @@ Slack通知[&#128279;](../features/account-preferences.md#subscribe-to-slack-not
 
 ## 2021年6月1日（PT）
 
-CX Enterpriseへのアクセス、グローバル検索、環境設定、通知に関する新しいヘルプを使用して、[&#x200B; ランディングページ &#x200B;](../experience-cloud.md)を更新しました。
+CX Enterpriseへのアクセス、グローバル検索、環境設定、通知に関する新しいヘルプで、[ ランディングページ ](../experience-cloud.md)を更新しました。
 
 ## 2020年8月19日（PT）
 
-ポリシー情報を含む[CX エンタープライズ ユーザーの詳細の表示（管理ツール） &#x200B;](../administration/admin-tool-experience-cloud.md)を更新しました。
+ポリシー情報を含む[CX Enterprise ユーザーの詳細を表示（管理ツール） ](../administration/admin-tool-experience-cloud.md)に更新しました。
 
 ## 2020年5月19日（PT）
 
@@ -165,7 +165,7 @@ CX Enterpriseへのアクセス、グローバル検索、環境設定、通知�
 
 ## 2020年2月20日（PT）
 
-[View CX Enterprise ユーザーの詳細（管理ツール） &#x200B;](../administration/admin-tool-experience-cloud.md)を追加しました。
+[CX Enterprise ユーザーの詳細を表示（管理ツール） ](../administration/admin-tool-experience-cloud.md)を追加しました。
 
 ## 更新日：2018年9月5日（PT）
 
@@ -193,7 +193,7 @@ CX Enterpriseへのアクセス、グローバル検索、環境設定、通知�
 
 ## 2016年5月9日（PT）
 
-統合ドキュメントをまとめた[CX Enterprise Integrations](../administration/integrations.md)を追加しました。
+統合ドキュメントをまとめた[CX Enterprise統合](../administration/integrations.md)を追加しました。
 
 ## 2016年2月11日（PT）
 

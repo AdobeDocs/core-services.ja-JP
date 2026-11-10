@@ -1,6 +1,6 @@
 ---
-description: FTPを介して顧客属性データをCX Enterpriseにアップロードする方法について説明します。
-solution: Experience Cloud
+description: FTPを介してCX Enterpriseに顧客属性データをアップロードする方法を説明します。
+solution: CX Enterprise
 title: FTP経由での顧客属性データファイルのアップロード
 feature: Customer Attributes
 topic: Administration
@@ -28,25 +28,25 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 51%
 ---
 # FTP経由でデータファイルをアップロードします（オプション）
 
-ドラッグ&amp;ドロップを使用してアップロードしない場合は、FTP経由で顧客属性データをCX Enterpriseにアップロードできます。
+ドラッグ&amp;ドロップを使用してアップロードしない場合は、FTP経由でCX Enterpriseに顧客属性データをアップロードできます。
 
-CX Enterpriseで顧客属性ソースとFTP アカウントを作成した後、データをアップロードできます。 属性ソースごとに 1 つの FTP アカウントを作成できます。 アップロードしたファイルは、そのアカウントのルートフォルダーに保存されます。 データは `.csv` 形式にする必要があります。2 つ目の `.fin` ファイルは、アップロードが完了したことを示します。
+CX Enterpriseで顧客属性ソースとFTP アカウントを作成した後、データをアップロードできます。 属性ソースごとに 1 つの FTP アカウントを作成します。 アップロードしたファイルは、そのアカウントのルートフォルダーに保存されます。 データは `.csv` 形式にする必要があります。2 つ目の `.fin` ファイルは、アップロードが完了したことを示します。
 
 >[!IMPORTANT]
 >
->ファイルをアップロードする前に、[顧客属性データファイルとソース &#x200B;](crs-data-file.md)を確認してください。
+>ファイルをアップロードする前に、[顧客属性データファイルとソース ](crs-data-file.md)を確認してください。
 
 顧客属性FTP サイトへのファイルのアップロードは、FTPまたはSFTPを使用して実行できます。
 
 * SFTP 接続をサポートしているクライアントが必要です。
-* [こちら](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=ja)で説明しているように、ユーザー名／パスワードを使用して、またはパスワードを使用せずに、SFTP で接続できます。
+* [こちら](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html)で説明しているように、ユーザー名／パスワードを使用して、またはパスワードを使用せずに、SFTP で接続できます。
 
 **FTP を使用してデータファイルをアップロードするには**
 
@@ -62,13 +62,13 @@ CX Enterpriseで顧客属性ソースとFTP アカウントを作成した後、
 
    アップロードが正常に完了すると、どちらのファイルも **processed** というフォルダーに移動されます。
 
-   ファイル名と構造に関する重要な情報については、[顧客属性データファイルとソース &#x200B;](crs-data-file.md)を参照してください。
+   ファイル名と構造に関する重要な情報については、[顧客属性データファイルとソース ](crs-data-file.md)を参照してください。
 
 ## FTP アカウントの設定
 
 属性ソースごとに1つのFTP アカウントを設定します。
 
-[!UICONTROL &#x200B; ファイルのアップロードとスキーマ検証] ページで、**[!UICONTROL FTP セットアップ]**&#x200B;をクリックします。
+[!UICONTROL  ファイルのアップロードとスキーマ検証] ページで、**[!UICONTROL FTP セットアップ]**&#x200B;をクリックします。
 
 ![スキーマの編集](assets/ftp-account.png)
 

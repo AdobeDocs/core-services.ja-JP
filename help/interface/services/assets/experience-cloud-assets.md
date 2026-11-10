@@ -1,7 +1,7 @@
 ---
 description: アプリケーションをまたいで共有できる CX Enterprise Assets について説明します。
-solution: Experience Cloud
-title: Assets の概要
+solution: CX Enterprise
+title: アセットの概要
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 feature: Assets
 topic: Administration
@@ -31,7 +31,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 70%
@@ -43,16 +43,16 @@ CX Enterprise Assetsは、アプリケーション間で共有できる、マー
 アセットサービスには次のものが含まれます。
 
 * アセットストレージ、管理インターフェイス、（アプリケーション経由でアクセスする）組み込みの選択インターフェイス。
-* Creative Cloud、CX Enterprise Collaboration、CX Enterprise アプリケーションとの統合。
+* Creative Cloud、CX Enterprise collaboration、CX Enterpriseアプリケーションとの統合。
 
-アセットを使用すると、一貫性とブランドコンプライアンスが向上し、市場投入までの時間が短縮されます。 アプリケーションのワークフローを効率化できます。
+アセットを使用すると、一貫性とブランドコンプライアンスが向上し、市場投入までの時間が短縮されます。 アプリケーションでワークフローを効率化できます。
 
 * **[!DNL Adobe Target]**：A/B テストと多変量分析テストを設定できます。
 * **[!DNL Ad Cloud]**：様々なチャネルとキャンペーン全体で広告ユニットを作成できます。
 * **[!DNL Adobe Campaign]**：アセットを電子メールニュースレターとキャンペーンに配置します。
 
 
-## CX Enterprise Assetsに移動します
+## CX Enterprise Assetsへの移動
 
 ![CX Enterprise Assetsに移動](../../assets/asset-nav.png)
 
@@ -70,7 +70,7 @@ CX Enterprise Assetsは、アプリケーション間で共有できる、マー
 
 ## アセットの編集
 
-アセットの編集機能には次のものが含まれます。
+アセットを編集すると、次の機能を使用できます。
 
 * 切り抜き
 * 回転

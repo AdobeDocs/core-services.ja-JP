@@ -1,6 +1,6 @@
 ---
 description: アプリを介してデジタルマーケティングエクステンションを検索、参照、選択、支払い、およびダウンロードできる単一の宛先である Exchange Marketplace について説明します。
-solution: Experience Cloud
+solution: CX Enterprise
 title: Adobe Exchange
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
 feature: Customer Attributes
@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 85%
@@ -46,7 +46,7 @@ Exchange Marketplace にアクセスすると、各種の連携ツールの検�
 
 * 管理者は、ダウンロードされたアプリケーションを設定できます。
 
-* 開発者の提出物をレビューし、アプリケーションをブラウズして、各アプリケーションにコメントしたりレーティングを設定したりします。
+* 開発者の提出物をレビューし、アプリケーションを参照して、各アプリケーションにコメントしたりレーティングを設定したりします。
 
 * アプリケーションを却下または承認します。
 

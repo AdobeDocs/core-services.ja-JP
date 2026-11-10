@@ -1,7 +1,7 @@
 ---
 description: Adobe CX Enterpriseのファーストパーティ Cookieで使用する安全な証明書を設定する方法について説明します。
-solution: Experience Cloud,Analytics
-title: Adobe 管理証明書プログラム
+solution: CX Enterprise,Analytics
+title: アドビ管理証明書プログラム
 index: true
 snippet: 'y'
 feature: Cookies
@@ -55,7 +55,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 18fd590d6f0fd1800e3d5c62851453aa91d9db5f
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 2%
@@ -70,9 +70,9 @@ Adobeで管理されている証明書プログラムでは、コンテンツ配
 
 ファーストパーティデータ収集用の新しい証明書を実装するには、次の手順に従います。
 
-1. [&#x200B; ファーストパーティのドメイン要求フォームをダウンロードして入力します](cookies/assets/First_Party_Domain_Request_Form.xlsx)
-1. Adobe カスタマーケアでチケットを開き、Adobeが管理する証明書プログラムでファーストパーティデータの収集を設定するようにリクエストします。 組織にデータレジデンシーまたはコンプライアンス要件がある場合は、リクエストに目的の[RDC タイプ &#x200B;](rdc.md)を指定します。
-1. チケットを受け取ると、Adobeの担当者がCNAME レコードを提供します。 このレコードは、Adobeが証明書を購入する前に、会社のDNS サーバーで設定する必要があります。 例えば、ホスト名`data.example.com`は`hiodsibxvip01.data.adobedc.net`を指しています。 組織でDNS認証局認証（CAA） レコードを使用している場合は、CAA レコードでDigiCertが証明書を発行できることを確認してください。 [&#x200B; メンテナンスと更新](#renewals)を参照してください。
+1. [ ファーストパーティのドメイン要求フォームをダウンロードして入力します](cookies/assets/First_Party_Domain_Request_Form.xlsx)
+1. Adobe カスタマーケアでチケットを開き、Adobeが管理する証明書プログラムでファーストパーティデータの収集を設定するようにリクエストします。 組織にデータレジデンシーまたはコンプライアンス要件がある場合は、リクエストに目的の[RDC タイプ ](rdc.md)を指定します。
+1. チケットを受け取ると、Adobeの担当者がCNAME レコードを提供します。 このレコードは、Adobeが証明書を購入する前に、会社のDNS サーバーで設定する必要があります。 例えば、ホスト名`data.example.com`は`hiodsibxvip01.data.adobedc.net`を指しています。 組織でDNS認証局認証（CAA） レコードを使用している場合は、CAA レコードでDigiCertが証明書を発行できることを確認してください。 [ メンテナンスと更新](#renewals)を参照してください。
 1. 組織のサーバーにCNAME レコードが配置されている場合、AdobeはDigiCertと連携して、Adobe データ収集サーバーに証明書を購入してインストールします。
 1. Adobe CNAMEがファーストパーティの目的でホストしているときに`robots.txt` ファイルの更新が必要な場合は、カスタマーケアにお問い合わせください。 このようなリクエストは、Googleがサブドメインをクロールできないように`robots.txt` ファイルを更新する場合に関連します。
 

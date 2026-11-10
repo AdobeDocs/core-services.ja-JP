@@ -1,7 +1,7 @@
 ---
 title: オーディエンスライブラリでのオーディエンスの作成方法
 description: 属性ルールを使用して、オーディエンスライブラリで共有可能なオーディエンスを作成する方法を説明します。 ルールを設定し、複合オーディエンスを定義する方法を説明します。
-solution: Experience Cloud
+solution: CX Enterprise
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
 topic: Administration
@@ -33,14 +33,14 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 56%
 ---
 # オーディエンスの作成
 
-[!UICONTROL &#x200B; オーディエンスライブラリ &#x200B;]では、属性ルールを使用してオーディエンスを作成し、CX Enterprise アプリケーションで共有するための複合オーディエンスを定義できます。
+[!UICONTROL Audience Library]では、属性ルールを使用してオーディエンスを作成し、CX Enterprise アプリケーションで共有するための複合オーディエンスを定義できます。
 
 この記事では、以下の方法について説明します。
 
@@ -52,7 +52,7 @@ ht-degree: 56%
 
 ![複合オーディエンスの 2 つのルール](assets/audience_sharing.png)
 
-それぞれの円が、オーディエンスのメンバーシップを定義するルールを表します。 重なっている両方のオーディエンスルールのメンバーと認定される訪問者が、複合オーディエンスとして定義されます。
+それぞれの円が、オーディエンスのメンバーシップを定義するルールを表します。 両方のオーディエンスルールでメンバーに該当する訪問者が重なり合って、定義された複合オーディエンスになります。
 
 >[!NOTE]
 >
@@ -67,20 +67,20 @@ ht-degree: 56%
 
 **オーディエンスを作成するには、以下を実行します。**
 
-1. [!DNL CX Enterprise]個のアプリ（![個のアプリアイコン &#x200B;](assets/apps-icon.png)）をクリックし、**[!UICONTROL 人物]** > **[!UICONTROL オーディエンスライブラリ &#x200B;]をクリックします。**
+1. [!DNL CX Enterprise]個のアプリ（![個のアプリアイコン ](assets/apps-icon.png)）をクリックし、**[!UICONTROL 人物]** > **[!UICONTROL オーディエンスライブラリ ]をクリックします。**
 
-1. [!UICONTROL &#x200B; オーディエンス &#x200B;] ページで、**[!UICONTROL 新規]**&#x200B;をクリックします。 ![新しいオーディエンス &#x200B;](assets/add_icon_small.png)
+1. [!UICONTROL  オーディエンス ] ページで、**[!UICONTROL 新規]**&#x200B;をクリックします。 ![新しいオーディエンス ](assets/add_icon_small.png)
 
    ![オーディエンスの作成](assets/audience_create_new.png)
 
 1. [!UICONTROL 新しいオーディエンスの作成] ページで、**[!UICONTROL タイトル]**&#x200B;および&#x200B;**[!UICONTROL 説明]** フィールドに入力します。
-1. [!UICONTROL &#x200B; ルール &#x200B;]で、参照レポートスイートを選択してから、属性ソースを選択します。
+1. [!UICONTROL  ルール ]で、参照レポートスイートを選択してから、属性ソースを選択します。
 
-   * **[!UICONTROL Real-Time Analytics データ：]** （またはRaw データ）これは、Real-Time Analytics イメージリクエストから派生した属性データです。 eVarやイベントも含まれます。 この属性ソースを使用する場合は、レポートスイートを選択し、含めるディメンションまたはイベントを定義する必要があります。 このレポートスイートの選択により、レポートスイートで使用された変数構造が提供されます。
+   * **[!UICONTROL Real-Time Analytics データ：]** （またはRaw データ）これは、Real-Time Analytics イメージリクエストから派生した属性データです。 eVarやイベントも含まれます。 この属性ソースを使用する場合は、レポートスイートを選択し、含めるディメンションまたはイベントを定義する必要があります。 このレポートスイートの選択により、レポートスイートで使用される変数構造が提供されます。
 
      >[!NOTE]
      >
-     >Analyticsで削除されたレポートスイートは、キャッシュが原因で、CX Enterpriseに削除が表示されるまでに12時間かかる。
+     >キャッシュのため、Analyticsで削除されたレポートスイートは、CX Enterpriseで削除が表示されるまでに12時間を要します。
 
    * **[!UICONTROL CX Enterprise:]**&#x200B;属性データが[!DNL CX Enterprise] ソースから派生しました。 例えば、[!DNL Analytics] で作成したオーディエンスセグメントからのデータや、[!DNL Audience Manager] からのデータです。
 
@@ -92,7 +92,7 @@ ht-degree: 56%
 >
 >オーディエンスルールを定義する場合は、実装変数について理解している必要があります。
 
-[!UICONTROL &#x200B; ルール &#x200B;]で、*`Home & Garden`*&#x200B;属性の選択を定義します。
+[!UICONTROL  ルール ]で、*`Home & Garden`*&#x200B;属性の選択を定義します。
 
 * **[!UICONTROL 属性Source:]**&#x200B;生のAnalytics データ
 * **[!UICONTROL レポートスイート：]** レポートスイート 31
@@ -102,7 +102,7 @@ ht-degree: 56%
 
 *Chrome および Safari の訪問者*&#x200B;は、Analytics から共有されたオーディエンスセグメントです。
 
-* **[!UICONTROL Attribute Source:]** CX Enterprise
+* **[!UICONTROL 属性Source:]** CX Enterprise
 * **[!UICONTROL Dimension:]** ChromeとSafariの訪問者
 
 ![Chrome および Safari の訪問者](assets/chrome_safari.png)
@@ -113,11 +113,11 @@ ht-degree: 56%
 
 このルールの結果として得られるのは、Home &amp; Garden を訪問した Chrome および Safari ユーザーで構成される、定義されたオーディエンスです。 「Patio &amp; Furniture」セグメントにより、このサイトセクションに訪問するすべての訪問者に対する追加のインサイトが得られます。
 
-![CX Enterpriseで定義されたオーディエンス &#x200B;](assets/defined_audience.png)
+![CX Enterpriseでオーディエンスを定義](assets/defined_audience.png)
 
 * **履歴による予測：**（点線の円）[!DNL Analytics] データに基づいて作成されたルールを表しています。
 * **実際のオーディエンス：**（実線の円）Audience Manager からの 30 日間のデータで作成されたルールです。 Audience Manager データが 30 日に達すると、線が実線になり、実際の数を表します。
 
 特定期間のデータ収集が終了すると、円は結合されて、定義されたオーディエンスを表示します。
 
-オーディエンスが保存されると、他のCX Enterprise アプリケーションで使用できるようになります。 例えば、Adobe Target [&#x200B; アクティビティ &#x200B;](https://experienceleague.adobe.com/ja/docs/target/using/activities/activities)に共有オーディエンスを含めることができます。
+オーディエンスが保存されると、他のCX Enterprise アプリケーションで使用できるようになります。 例えば、Adobe Target [ アクティビティ ](https://experienceleague.adobe.com/en/docs/target/using/activities/activities)に共有オーディエンスを含めることができます。

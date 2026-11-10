@@ -1,6 +1,6 @@
 ---
 description: CX Enterpriseの特定のアプリケーションの統合検索機能について説明します。
-solution: Experience Cloud
+solution: CX Enterprise
 title: CX Enterprise Unified Search
 index: true
 feature: Central Interface Components
@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 80%
@@ -61,7 +61,7 @@ ht-degree: 80%
 一致率
 完全に一致するものがあるかどうかを確認します
 
-CX Enterprise![&#128279;](../assets/unified-search-results.png)の[!UICONTROL 統合検索]
+CX Enterprise](../assets/unified-search-results.png)の![[!UICONTROL 統合検索]
 
 検索可能なビジネスオブジェクトには、次のものが含まれます。
 
@@ -82,7 +82,7 @@ CX Enterprise![&#128279;](../assets/unified-search-results.png)の[!UICONTROL �
 
 例えば、_How to create a schema_&#x200B;は、_[!UICONTROL Learning]_&#x200B;の下のExperience Leagueから結果を生成します。
 
-CX Enterprise ヘルプ ![&#128279;](../assets/unified-search-learning.png)の[!UICONTROL 統合検索]
+CX Enterprise ヘルプ ](../assets/unified-search-learning.png)の![[!UICONTROL 統合検索]
 
 検索アルゴリズムは、最も関連性の高いレコードを最初に表示します。 結果の順序は、次のような複数の要因によって異なります。
 

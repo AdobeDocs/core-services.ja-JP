@@ -1,6 +1,6 @@
 ---
 description: Adobe CX Enterpriseで利用可能なアプリケーション統合を検索します。
-solution: Experience Cloud
+solution: CX Enterprise
 title: CX Enterpriseとの連携
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 feature: Admin Console
@@ -51,14 +51,14 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 32%
 ---
 # CX Enterpriseとの連携
 
-ここでは、CX Enterprise アプリケーションの統合を開始するための複数の方法について説明します。 詳しくは、Experience Leagueの[統合ビデオチュートリアル &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)のライブラリを参照してください。
+ここでは、CX Enterprise アプリケーションの統合を開始するための複数の方法について説明します。 詳しくは、Experience Leagueの[統合ビデオチュートリアル ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)のライブラリを参照してください。
 
 ## Platform サービス用にCX Enterprise アプリケーションを有効にする
 
@@ -66,7 +66,7 @@ ht-degree: 32%
 
 * CX Enterpriseで会社をプロビジョニングします。
 * 管理者になれるようにする。
-* [訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を実装します。
+* [訪問者ID サービス ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を実装します。
 * [!UICONTROL Platform データ収集]を使用して、[!DNL Analytics]および[!DNL Target]の実装を最新化します。
 * [顧客属性](../services/customer-attributes/attributes.md)や[Audience Library](../services/audiences/overview.md)などのCX Enterprise サービスを使い始めます。
 
@@ -74,19 +74,19 @@ ht-degree: 32%
 
 * [[!DNL Experience Platform Data Collection]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
 * [[!DNL Analytics]](https://experienceleague.adobe.com/docs/analytics.html?lang=ja)
-* [[!DNL Target]](https://experienceleague.adobe.com/docs/target.html?lang=ja)
+* [[!DNL Target]](https://experienceleague.adobe.com/docs/target.html)
 * [訪問者 ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)
 
 ## 訪問者 ID サービス
 
 訪問者ID サービスは、CX Enterpriseのすべてのアプリケーションをまたいで訪問者を識別する、永続的なユニバーサル IDを提供します。 Adobe Analytics、Audience Manager、Adobe Target、動画ハートビート、その他のCX Enterpriseアプリケーションや製品などのサービスのID生成コードを置き換えることができます。
 
-[訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を参照してください
+[訪問者ID サービス ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を参照してください
 
 **適用可能なアプリケーションまたはサービス**
 
-* [Adobe Analytics](https://experienceleague.adobe.com/ja/docs/analytics/implementation/id/overview)
-* [Adobe Target](https://experienceleague.adobe.com/ja/docs/id-service/using/implementation/setup-target)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview)
+* [Adobe Target](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/setup-target)
 
 ## オーディエンス
 
@@ -100,8 +100,8 @@ CX Enterprise [!UICONTROL Audience Library]でオーディエンスを作成お�
 
 **適用可能なソリューションまたはサービス**
 
-* [Adobe Target のアクティビティ](https://experienceleague.adobe.com/docs/target/using/activities/activities.html?lang=ja)
-* Audience Manager の[セグメント化](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=ja)
+* [Adobe Target のアクティビティ](https://experienceleague.adobe.com/docs/target/using/activities/activities.html)
+* Audience Manager の[セグメント化](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)
 * [Advertising Cloud](https://enterprise.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D&ticket=JrciD7q2bF1y2mDWFHmEyibmxtHqnZFSOMml-n993zOBc-ovZGNZkX5vgePWqKNMoMmPSqf9PkzFeYF4UN6GqSXDVNDvwgnvv9KT8PvVxk8%3D) （ログインが必要）
 
 ## 顧客属性
@@ -113,7 +113,7 @@ CRM （顧客関係管理）データベースで企業顧客データを取得�
 **適用可能なソリューションまたはサービス**
 
 * Adobe Analytics：顧客属性レポート
-* Adobe Target：顧客属性を使用するようにAdobe Targetの[&#x200B; サブスクリプション &#x200B;](/help/interface/services/customer-attributes/subscription.md)を設定します
+* Adobe Target：顧客属性を使用するようにAdobe Targetの[ サブスクリプション ](/help/interface/services/customer-attributes/subscription.md)を設定します
 
 ## CX Enterprise Assets
 
@@ -129,7 +129,7 @@ CX EnterpriseとCreative Cloud間でフォルダーとアセットを共有し�
 
 ## Analytics - Analytics での AEM Assets レポート
 
-ヘルプ：[Analytics での AEM Assets レポート](https://experienceleague.adobe.com/docs/analytics/integration/aem-assets-reporting.html?lang=ja)
+ヘルプ：[Analytics での AEM Assets レポート](https://experienceleague.adobe.com/docs/analytics/integration/aem-assets-reporting.html)
 
 Analytics が、AEM Asset Insights から提供されるアセットのインプレッション数とクリック数を収集できるようになります。
 
@@ -140,15 +140,15 @@ Analytics が、AEM Asset Insights から提供されるアセットのインプ
 
 ## Audience Manager 統合
 
-[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implementation-and-integration.html?lang=ja)
+[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implementation-and-integration.html)
 
 CX EnterpriseアプリケーションやAudience Manager内の他の外部システムからのデータを扱えます。
 
 **適用可能なアプリケーションまたはサービス**
 
 * [Analytics サーバーサイド転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ja)
-* [AnalyticsへのAudience Manager セグメントの送信](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=ja)
-* [Adobe Targetとの連携](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-applications/aam-target-integration.html?lang=ja)
+* [AnalyticsへのAudience Manager セグメントの送信](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
+* [Adobe Targetとの連携](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-applications/aam-target-integration.html)
 
 ## Adobe Target
 
@@ -160,15 +160,15 @@ Adobe TargetをAdobe Analyticsやその他のCX Enterpriseアプリケーショ�
 
 * 顧客属性：顧客属性に対する Adobe Target の[サブスクリプション](/help/interface/services/customer-attributes/subscription.md)の設定
 * CX Enterprise Audiences: [CX Enterprise Audience Library](/help/interface/services/audiences/overview.md)
-* Analytics：[Adobe Target のレポートソースとしての Adobe Analytics](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja)
-* Audience Manager：[Adobe Audience Manager との Adobe Target データの統合](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=ja)
+* Analytics：[Adobe Target のレポートソースとしての Adobe Analytics](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)
+* Audience Manager：[Adobe Audience Manager との Adobe Target データの統合](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
 * Campaign：[Adobe Target と Campaign の統合](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=ja)
 
 ## Adobe Experience Manager の統合
 
-* ビデオチュートリアル：[Experience Managerとの統合](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/integrations-between-applications/overview.html?lang=ja)
+* ビデオチュートリアル：[Experience Managerとの統合](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/integrations-between-applications/overview.html)
 
-* 製品ドキュメント：[Experience Manager ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=ja)
+* 製品ドキュメント：[Experience Manager ドキュメント ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=ja)
 
 ## Adobe Experience Manager - Assets
 
@@ -186,19 +186,19 @@ Adobe Experience Manager（AEM）Assets 内のアセットを Adobe Creative Clo
 
 * ヘルプ（ログインが必要）: [Adobe CX Enterprise ソリューションおよびサービスとの統合](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
 
-* Experience Leagueの[Adobe Advertising ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/advertising.html?lang=ja)
+* Experience Leagueの[Adobe Advertising ドキュメント ](https://experienceleague.adobe.com/docs/advertising.html)
 
 **適用可能なアプリケーションまたはサービス**
 
 **Analytics：**&#x200B;サイトエンゲージメントおよびコンバージョンデータを毎日 [!DNL Adobe Advertising] に送信できます（データは広告の最適化とレポート作成に使用されます）。 また、[!DNL Advertising] は、検索エンジンおよびソーシャルネットワークのトラフィックデータを毎日 Analytics に送信できます（Analytics では、Reports &amp; Analytics、Report Builder および Ad Hoc Analysis の各機能でデータを利用できます）。
 
-**タグ：** [Experience Platform タグを使用して、検索、ソーシャル、ディスプレイ広告のランディングページ用に、Advertising ピクセルベースのコンバージョントラッキングタグ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)およびサードパーティのトラッキングタグを作成できます。 （[!DNL Advertising] タグを [!DNL Advertising] 内に直接作成することもできます。）
+**タグ：** [Experience Platform タグを使用して、検索、ソーシャル、ディスプレイ広告のランディングページ用に、Advertising ピクセルベースのコンバージョントラッキングタグ ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)およびサードパーティのトラッキングタグを作成できます。 （[!DNL Advertising] タグを [!DNL Advertising] 内に直接作成することもできます。）
 
 **CX Enterprise Audiences:** （ディスプレイ管理機能を持つ広告主）ディスプレイ広告のターゲットとして[Adobe CX Enterprise Audiences](../services/audiences/overview.md)のいずれかを使用できます。 CX Enterpriseで作成したオーディエンスと、CX Enterpriseに公開したAnalyticsのオーディエンスを自動的に使用できます。 [!DNL Adobe Advertising] アカウントが許可するように設定されている場合は、Audience Managerのオーディエンスを使用することもできます。
 
 Adobe CX Enterpriseおよびプロファイルとオーディエンスへのアクセスについて、および[!DNL Adobe Advertising]とAdobe CX Enterprise オーディエンスの間の初期設定について詳しくは、アカウントマネージャーにお問い合わせください。 **メモ：** Adobe Targetも使用している場合、Adobe CX Enterpriseに公開したオーディエンスは、Adobe Targetのアクティビティでも使用できます。
 
-**CX Enterprise Assets:** （ディスプレイ管理付き広告主）新しいディスプレイ Beta ビューを使用すると、Adobe CX Enterprise アセットをディスプレイ広告のクリエイティブとして使用できます。 Adobe CX Enterprise アセットにアクセスするには、Adobe CX Enterprise[&#128279;](https://enterprise.efrontier.com/CMDashboard)を介してAdobe Advertisingにログインする必要があります。 Adobe CX Enterpriseへのアクセスについて詳しくは、アカウントマネージャーにお問い合わせください。
+**CX Enterprise Assets:** （ディスプレイ管理付き広告主）新しいディスプレイ Beta ビューを使用すると、Adobe CX Enterprise アセットをディスプレイ広告のクリエイティブとして使用できます。 Adobe CX Enterprise アセットにアクセスするには、Adobe CX Enterprise](https://enterprise.efrontier.com/CMDashboard)を介して[Adobe Advertisingにログインする必要があります。 Adobe CX Enterpriseへのアクセスについて詳しくは、アカウントマネージャーにお問い合わせください。
 
-**CX Enterpriseのお知らせ：**&#x200B;各ページの上部にある「お知らせ」リンクから、検索ベータ版のアラートテンプレートから生成されたすべてのアラートを表示できます。 また、CX Enterpriseのシステムのアップデート、投稿、メンション、アセットを共有することもできます。 通知にアクセスするには、Adobe CX Enterprise[&#128279;](https://enterprise.efrontier.com/CMDashboard)を介してAdobe Advertisingに ログインしている必要があります。 Adobe CX Enterpriseへのアクセスについて詳しくは、アカウントマネージャーにお問い合わせください。
+**CX Enterpriseのお知らせ：**&#x200B;各ページの上部にある「お知らせ」リンクから、検索ベータ版のアラートテンプレートから生成されたすべてのアラートを表示できます。 また、CX Enterpriseのシステムのアップデート、投稿、メンション、アセットを共有することもできます。 通知にアクセスするには、Adobe CX Enterprise](https://enterprise.efrontier.com/CMDashboard)を介してAdobe Advertisingに[ ログインしている必要があります。 Adobe CX Enterpriseへのアクセスについて詳しくは、アカウントマネージャーにお問い合わせください。
 

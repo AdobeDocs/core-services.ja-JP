@@ -1,6 +1,6 @@
 ---
 description: Adobe CX Enterpriseで[!DNL Customer Attributes] スキーマを検証する方法について説明します。
-solution: Experience Cloud
+solution: CX Enterprise
 title: '[!DNL Customer Attributes] スキーマの検証方法'
 feature: Customer Attributes
 topic: Administration
@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 39%
@@ -53,13 +53,13 @@ ht-degree: 39%
 
 1. **[!UICONTROL 顧客属性を編集Source]**&#x200B;で、**[!UICONTROL ファイルアップロード]**&#x200B;をクリックします。
 
-1. [!UICONTROL &#x200B; ファイルのアップロードとスキーマ検証] ページで、**[!UICONTROL アクション]** > **[!UICONTROL スキーマの表示/編集]**&#x200B;をクリックします
+1. [!UICONTROL  ファイルのアップロードとスキーマ検証] ページで、**[!UICONTROL アクション]** > **[!UICONTROL スキーマの表示/編集]**&#x200B;をクリックします
 
    ![スキーマの編集](assets/actions.png)
 
-   [!UICONTROL &#x200B; スキーマの編集] ページでは、スキーマの各行が、アップロードされたCSV ファイルの列を表します。
+   [!UICONTROL  スキーマの編集] ページでは、スキーマの各行が、アップロードされたCSV ファイルの列を表します。
 
-   ![CX Enterpriseのスキーマページを編集](assets/schema-edit.png)
+   ![CX Enterpriseでスキーマページを編集](assets/schema-edit.png)
 
 **アクション**
 
@@ -71,7 +71,7 @@ ht-degree: 39%
 
 * **[!UICONTROL ID検索：]** `.csv`から顧客ID （CID）を入力して、IDのCX Enterprise情報を検索します。 この機能は、訪問者に対して属性データが表示されない理由をトラブルシューティングするのに役立ちます。
 
-  * **[!UICONTROL ECID:]**&#x200B;訪問者ID サービスを使用している場合に表示されます。 訪問者ID サービスを利用しているが、ここにリストされているIDがない場合、CX EnterpriseはそのCIDのエイリアスを受信していません。 つまり、その訪問者がログインしていないか、実装がその ID を渡していません。
+  * **[!UICONTROL ECID:]**&#x200B;訪問者ID サービスを使用している場合に表示されます。 ユーザーがVisitor ID サービスを利用していても、ここにリストされているIDがない場合、CX EnterpriseはそのCIDのエイリアスを受け取っていません。 つまり、その訪問者がログインしていないか、実装がその ID を渡していません。
 
   * **[!UICONTROL CID （顧客ID）:]**&#x200B;このCIDに関連付けられている属性。 prop または eVar を使用して CID（AVID）をアップロードし、属性は表示されるが AVID は表示されない場合は、訪問者がサイトにログインしていないことを意味します。
 
