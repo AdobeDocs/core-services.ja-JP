@@ -62,7 +62,7 @@ ht-degree: 17%
 
 ## フェデレーションゲストアカウント
 
-[&#x200B; フェデレーションゲストアクセス &#x200B;](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html)を有効にして、自分のドメインでゲストユーザーを安全に認証できます。 有効にすると、CX Enterprise ページの既存の組織内のアカウントを切り替えられるように、「組織」メニューが変更されます。
+[&#x200B; フェデレーションゲストアクセス &#x200B;](https://helpx.adobe.com/jp/business/enterprise/using/federated-guest-access.html)を有効にして、自分のドメインでゲストユーザーを安全に認証できます。 有効にすると、CX Enterprise ページの既存の組織内のアカウントを切り替えられるように、「組織」メニューが変更されます。
 
 フェデレーションゲストアカウントに切り替えるには、[CX Enterprise](https://experience.adobe.com) ページの&#x200B;**[!UICONTROL 組織]** メニューで&#x200B;**[!UICONTROL その他のアカウント]**&#x200B;を見つけます。
 
