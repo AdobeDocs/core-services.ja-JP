@@ -1,7 +1,7 @@
 ---
 description: Adobe CX EnterpriseのAudience Manager Cookieについて説明します。
 keywords: Cookie
-solution: Experience Cloud, Audience Manager
+solution: CX Enterprise, Audience Manager
 title: Audience Manager の cookie
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 feature: Cookies
@@ -44,7 +44,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 96%
@@ -75,7 +75,7 @@ Audience Manager はいくつかのシンプルな cookie を利用して様々�
    <td colname="col1"> <p> <b>その他の属性</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_11291DA87C5045E880034E06C863BCDA"> 
-      <li id="li_40C30A06A12449A4A8748621223CA71B">有効期間：<span class="wintitle">demdex</span> cookie の有効期間（TTL）は 180 日に設定されます。 この有効期間はパートナー Web サイトでユーザーインタラクションが発生するたびに 180 日にリセットされます。 有効期間内にユーザーがサイトに再訪問しなかった場合、この cookie は有効期限切れになります。 </li> 
+      <li id="li_40C30A06A12449A4A8748621223CA71B">有効期間：<span class="wintitle">demdex</span> cookie の有効期間（TTL）は 180 日に設定されます。 この有効期間はパートナー Web サイトでユーザーインタラクションが発生するたびに 180 日にリセットされます。 TTL の期間内にユーザーがサイトに再訪問しなかった場合、この cookie は有効期限切れになります。 </li> 
       <li id="li_A589EDA2198249829207A183872EF1FF">オプトアウト：ユーザーがデータ収集をオプトアウトすると、<span class="keyword">Audience Manager</span> は <span class="codeph">Do Not Adobe Target</span> という文字列でこの cookie をリセットします。 この場合、cookie の TTL は 10 年に設定されます。 </li> 
      </ul> </p> </td> 
   </tr> 
@@ -140,12 +140,12 @@ dextp cookie のデータ構文：
      </ul> </p> <p>新しい形式の cookie： </p> <p> 
      <ul id="ul_F05A91A455FA44C7A71186C0C9E31630"> 
       <li id="li_A8C9638173684359BABC4207845A4F48">判読可能なデータプロバイダー名が数値形式の ID に置き換えられます。 </li> 
-      <li id="li_28F1E2DB24904E53BE9718AD788CE61E">呼び出しの種類は ID 1 または ID 2 で識別されます。 ID 1 は ID 同期呼び出しを表します。 ID 2 は現在使用されていない廃止済みの呼び出しを表します。 ID 2 の dextp cookie が設定されることはほとんど（あるいはまったく）ありません。 </li> 
+      <li id="li_28F1E2DB24904E53BE9718AD788CE61E">呼び出しの種類は ID 1 または ID 2 で識別されます。 ID 1 は ID 同期呼び出しを表します。 ID 2 は現在使用されていない廃止済みの呼び出しを表します。 ID 2 の dextp cookie は、ほとんど（あるいはまったく）見られないはずです。 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>最後</b> </p> </td> 
-   <td colname="col2"> <p>最後の位置には UNIX UTC タイムスタンプが書き込まれます。 </p> </td> 
+   <td colname="col2"> <p>最後の位置には UNIX UTC タイムスタンプが含まれます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

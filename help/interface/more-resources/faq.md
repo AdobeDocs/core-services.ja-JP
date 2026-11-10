@@ -1,6 +1,6 @@
 ---
 description: ブラウザーのサポートについて学び、Adobe CX Enterpriseの管理者に対する一般的な質問に回答します。
-solution: Experience Cloud
+solution: CX Enterprise
 title: CX Enterpriseに関するよくある質問
 index: true
 feature: Admin Console
@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 46%

@@ -1,6 +1,6 @@
 ---
 description: CX Enterpriseの一元的なインターフェイスコンポーネントにログインする方法と概要について説明します。 グローバル検索、アカウント設定、インターフェイスの操作方法およびヘルプの入手方法について説明します。
-solution: Experience Cloud
+solution: CX Enterprise
 title: CX Enterpriseの中央UI コンポーネント
 feature: Central Interface Components
 topic: Administration
@@ -18,7 +18,7 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 40%

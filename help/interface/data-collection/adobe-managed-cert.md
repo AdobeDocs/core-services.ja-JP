@@ -1,7 +1,7 @@
 ---
 description: Adobe CX Enterpriseのファーストパーティ Cookieで使用する安全な証明書を設定する方法について説明します。
-solution: Experience Cloud,Analytics
-title: Adobe 管理証明書プログラム
+solution: CX Enterprise,Analytics
+title: アドビ管理証明書プログラム
 index: true
 snippet: 'y'
 feature: Cookies
@@ -55,7 +55,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 18fd590d6f0fd1800e3d5c62851453aa91d9db5f
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 2%

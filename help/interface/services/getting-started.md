@@ -1,6 +1,6 @@
 ---
 description: クロスアプリケーションサービスに対応できるように、Adobe Analytics および Adobe Target のアプリケーションを最新化します。 CX Enterpriseのサービス利用方法をご覧ください。
-solution: Experience Cloud
+solution: CX Enterprise
 title: CX Enterprise入門
 index: true
 feature: Central Interface Components
@@ -51,7 +51,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: f9b96c953d928dd65fd40fab96d64dd4f814c685
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '2082'
 ht-degree: 41%
@@ -78,7 +78,7 @@ CX Enterpriseの[Link アカウントを参照](https://experienceleague.adobe.c
 
 >[!NOTE]
 >
->エンタープライズグループとソリューショングループのマッピング後、新しいユーザーは自動的にリンクされます。 （ソリューションの資格情報が自動的に作成されて Adobe ID にリンクされます）。
+>エンタープライズグループとアプリケーショングループのマッピング後、新しいユーザーは自動的にリンクされます。 （ソリューションの資格情報が自動的に作成されて Adobe ID にリンクされます）。
 
 以下の節では、実装を最新化する方法を説明します。 導入を最新化することで、CX Enterpriseのコアサービスが可能になります。
 

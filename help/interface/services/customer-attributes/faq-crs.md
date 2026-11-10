@@ -1,6 +1,6 @@
 ---
-description: Adobe AnalyticsおよびAdobe Target向けのAdobe CX Enterpriseの[!DNL Customer Attributes]に関するよくある質問に対する回答です。
-solution: Experience Cloud
+description: Adobe AnalyticsとAdobe TargetのAdobe CX Enterpriseの[!DNL Customer Attributes]に関するよくある質問への回答を表示します。
+solution: CX Enterprise
 title: '[!DNL Customer Attributes]に関するよくある質問'
 feature: Customer Attributes
 topic: Administration
@@ -36,7 +36,7 @@ topic_v2:
     internal-label: Administration
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 59%
@@ -64,14 +64,14 @@ Adobe Analytics と Adobe Target の [!DNL Customer Attributes] に関するよ�
 | 質問 | 回答 |
 | --- | --- |
 | [!DNL Customer Attributes] のアップロードステータスに関する通知を受け取ることはできますか。 | はい。 |
-| [!DNL Customer Attributes] の使用を開始するために何を行う必要がありますか。 | <ol><li>プロビジョニングを受けます。 Adobe Analyticsのお客様の場合は、Adobeで[!DNL Customer Attributes]のプロビジョニングを行います。 Adobe Targetのみを使用し、Analyticsを持っていない場合は、コアサービスのプロビジョニングをリクエストするには、カスタマーケアにお問い合わせください。</li> <li>CRM チームに連絡します。 Adobe AnalyticsやCX Enterprise全体で、どのような顧客データを利用できるのかを確認します。</li><li>コアサービスの実装。</li></ol> ユーザーがこの機能を使用できるようにする方法については、データをアップロードする前に、[前提条件](t-crs-usecase.md#prerequisites-for-using-customer-attributes)を参照してください。 |
+| [!DNL Customer Attributes] の使用を開始するために何を行う必要がありますか。 | <ol><li>プロビジョニングを受けます。 Adobe Analyticsのお客様の場合は、Adobeで[!DNL Customer Attributes]のプロビジョニングを行います。 Adobe Targetのみを使用し、Analyticsを持っていない場合は、コアサービスのプロビジョニングをリクエストするには、カスタマーケアにお問い合わせください。</li> <li>CRM チームに連絡します。 Adobe AnalyticsやCX Enterpriseで利用できる顧客データの種類を確認します。</li><li>コアサービスの実装。</li></ol> ユーザーがこの機能を使用できるようにする方法については、データをアップロードする前に、[前提条件](t-crs-usecase.md#prerequisites-for-using-customer-attributes)を参照してください。 |
 | 使用できる顧客属性はいくつありますか。 | 数百の `.csv` 列を顧客属性サービスにアップロードできます。 ただし、サブスクリプションを設定して属性を選択する場合、所有するアプリケーションに応じて、（レポートスイートごとに）次の制限が適用されます。  <ul><li>Foundation：0 件</li><li>Select：3 件</li><li>Prime：15 件</li><li>Ultimate：200 件</li><li>Standard：合計 3 件</li><li>Premium：200 件</li><li>Adobe Target Standard：5 件</li><li>Adobe Target Premium：200 件</li></ul> |
-| 訪問者ID サービスへの移行は必要ですか？ | 移行は、使用するアプリケーションによって異なります。 <ul><li>Adobe Analytics：強くお勧めします。 </li><li>Adobe Target：必要です。 </li></ul>訪問者ID サービスを使用すると、リアルタイムオーディエンス、Adobe Targetの最新化、Analyticsとの統合、ビデオハートビートトラッキングなど、最新のCX Enterprise機能が可能になります。 |
-| 顧客属性機能と Adobe Audience Manager にはどのような関係がありますか。 | Audience Manager は、データを受け取ってオーディエンスの識別を実行することはできますが、属性を履歴行動データに結び付ける分析機能は実行できません。 また、Adobe Analytics で使用できるレポート、分析、セグメント化機能も提供していません。 [!DNL Customer Attributes]を使用すると、複数のアプリケーションからの豊富なデータを統合し、CX Enterprise全体で使用するために単一のIDに関連付けることができます。 <br>Adobe Target の場合、顧客属性は、他のルールと統合してオーディエンスを構築できる個人属性として表示されます。 [!UICONTROL People] サービスに共有されたオーディエンスは、変更できない完全なオーディエンスです。 |
+| 訪問者ID サービスへの移行は必要ですか？ | 移行は、使用するアプリケーションによって異なります。 <ul><li>Adobe Analytics：強く推奨 </li><li>Adobe Target：必要です。 </li></ul>Visitor ID サービスを使用すると、リアルタイム オーディエンス、CX Enterpriseの最新化、Analyticsの統合、ビデオ ハートビートトラッキングなど、最新のAdobe Target機能が有効になります。 |
+| 顧客属性機能と Adobe Audience Manager にはどのような関係がありますか。 | Audience Manager は、データを受け取ってオーディエンスの識別を実行することはできますが、属性を過去の行動データに結び付ける分析機能は実行できません。 また、Adobe Analytics で使用できるレポート、分析、セグメント化機能も提供していません。 [!DNL Customer Attributes]を使用すると、複数のアプリケーションからのリッチ データを結合し、1つのIDに関連付けてCX Enterprise全体で使用できます。 <br>Adobe Target の場合、顧客属性は、他のルールと統合してオーディエンスを構築できる個人属性として表示されます。 [!UICONTROL People] サービスに共有されたオーディエンスは、変更できない完全なオーディエンスです。 |
 | **（Adobe Analyticsのみ）**&#x200B;この機能は、Analytics Premiumで提供されるものとどのように異なりますか？ | 以前は、顧客属性データとAdobe Analytics データを組み合わせたいと考えているお客様は、この機能はData Workbenchツールに大きく依存していました。 [!DNL Customer Attributes]は、Report Builderで顧客属性をディメンションおよび指標として提供することで、この機能をより多くのユーザーに公開します。 Analytics 標準ユーザーは [!DNL Customer Attributes] にアクセスできますが、使用できる機能には制限があります。 Analytics Premium のユーザーは、すべての機能を使用できます。 |
 | **（Adobe Target のみ）**&#x200B;これまで Adobe Target で扱っていない顧客のデータをプリロードまたはアップロードできますか。 | はい。 訪問者が Adobe Target に対して最初のリクエストを行うと、システムは、その訪問者に関してアドビが持つ既存の情報を [!DNL Customer Attributes] から取得し、そのデータをターゲティング用に使用します。 **注意：**&#x200B;このデータの取得には、訪問者が最初に Adobe Target とやり取りしてから最大で 20 分かかります。 |
 | **（Adobe Target のみ）**&#x200B;顧客属性データと共有オーディエンスデータを組み合わせて、スーパーオーディエンスを作成することはできますか。 | いいえ。 共有オーディエンスデータは、完了したオーディエンスです。 |
-| **（Adobe Targetのみ）** [!DNL Customer Attributes]とAdobe Targetの一括プロファイル APIの比較はどうなりますか？ | 一括プロファイル API を使用すると、API を介して、Adobe Target プロファイルを個別または一括で直接更新できます。 この機能は [!DNL Customer Attributes] に似ていますが、次のような大きな違いもあります。<ul><li>プロファイル API は REST API 呼び出しで、[!DNL Customer Attributes] は FTP を使用します。</li><li>Adobe Targetのプロファイル APIは、CX Enterprise全体ではなく、Adobe Targetにのみデータを送信します。</li><li>[!DNL Customer Attributes] は、この外部データを作成および管理するシンプルなインターフェイスを提供します。</li></ul> |
+| **（Adobe Targetのみ）** [!DNL Customer Attributes]とAdobe Targetの一括プロファイル APIの比較はどうなりますか？ | 一括プロファイル API を使用すると、API を介して、Adobe Target プロファイルを個別または一括で直接更新できます。 この機能は [!DNL Customer Attributes] に似ていますが、次のような大きな違いもあります。<ul><li>プロファイル API は REST API 呼び出しで、[!DNL Customer Attributes] は FTP を使用します。</li><li>Adobe Targetのプロファイル APIは、CX Enterprise全体ではなくAdobe Targetにのみデータを送信します。</li><li>[!DNL Customer Attributes] は、この外部データを作成および管理するシンプルなインターフェイスを提供します。</li></ul> |
 | **（Adobe Target のみ）** [!DNL Customer Attributes] から Adobe Target にデータをアップロードすると、Adobe Target の訪問者プロファイルの有効期間が延びますか。 | はい。 Adobe Target ヘルプの[訪問者プロファイルの有効期間](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/visitor-profile.html?lang=ja)を参照してください。 |
 | **（Adobe Target のみ）** 訪問者が顧客 ID によって特定された後すぐ、[!DNL Customer Attributes] にアップロードされたデータをターゲットにできますか。 | はい。 mbox サードパーティ IDを含むAdobe Targetへのサーバー呼び出しでは、すべての顧客属性データを使用できます。 |
 | **（Adobe Targetのみ）**&#x200B;お客様の属性ソースにアップロードされたファイルの&#x200B;**[!UICONTROL Sync Status]**&#x200B;列は何を表していますか？ | Adobe Target で公開および同期されたレコードの数は、特定の属性ファイルに対して、同期ステータスアイコンを選択すると表示できます。 `Sync %` は、Adobe Target で同期されたプロファイルの割合（%）を示すリアルタイム指標です。<br> **メモ：**&#x200B;属性が Adobe Target と同期するまでに最大 24 時間かかる場合があります。 |

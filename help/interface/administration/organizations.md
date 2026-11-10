@@ -1,6 +1,6 @@
 ---
 description: 組織（IMS組織ID）、アカウントの切り替え、ソリューション アカウントのリンクについて説明します。
-solution: Experience Cloud
+solution: CX Enterprise
 title: 組織とアカウント
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 feature: Organizations
@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 17%
@@ -42,11 +42,11 @@ ht-degree: 17%
 
 *組織* （組織ID）は、管理者がグループとユーザーを設定し、CX Enterpriseでのシングルサインオンを制御できるようにするエンティティです。
 
-CXMは、あらゆるCX エンタープライズ製品とアプリケーションに対応するログイン企業のような役割を果たします。 ほとんどの場合、組織は勤務先の会社名です。 ただし、1 つの会社が多くの組織を持つことができます。
+同社は、あらゆるCX Enterprise製品とアプリケーションに対応するログイン企業のような役割を果たします。 ほとんどの場合、組織は会社名です。 ただし、1 つの会社が多くの組織を持つことができます。
 
 **組織メニュー**
 
-![CX エンタープライズ組織](../assets/organizations-menu.png)
+![CX Enterprise組織](../assets/organizations-menu.png)
 
 正しい組織にログインしていることを確認するには、**[!UICONTROL プロファイル]**&#x200B;をクリックして、デフォルトの組織名を表示します。 複数の組織にアクセスできる場合は、ヘッダーバーで別の組織を表示して切り替えることもできます。
 
@@ -56,15 +56,15 @@ CXMは、あらゆるCX エンタープライズ製品とアプリケーショ�
 
 ## Federated ID
 
-組織でFederated IDを使用している場合は、電子メールアドレスとパスワードを入力しなくても、組織のシングルサインオンでログインできます。 CX エンタープライズ URL （`https://experience.adobe.com`）に`#/sso:@domain`を追加して、このタスクを実行します。
+組織でFederated IDを使用している場合は、CX Enterpriseを使用すると、メールアドレスとパスワードを入力しなくても、組織のシングルサインオンでログインできます。 CX Enterprise URL （`https://experience.adobe.com`）に`#/sso:@domain`を追加して、このタスクを実行します。
 
 例えば、Federated ID を持ち、ドメインが `example.com` の組織の場合、URL リンクを `https://experience.adobe.com/#/sso:@example.com` に設定します。 また、この URL にアプリケーションパスを付けてブックマークに追加することで、特定のアプリケーションに直接移動することもできます。 （例えば、Adobe Analytics の場合は `https://experience.adobe.com/#/sso:@example.com/analytics`。）
 
 ## フェデレーションゲストアカウント
 
-[&#x200B; フェデレーションゲストアクセス &#x200B;](https://helpx.adobe.com/jp/business/enterprise/using/federated-guest-access.html)を有効にして、自分のドメインでゲストユーザーを安全に認証できます。 有効にすると、組織メニューが変更され、これらのユーザーが任意のCX Enterprise ページの既存の組織内のアカウントを切り替えられるようになります。
+[&#x200B; フェデレーションゲストアクセス &#x200B;](https://helpx.adobe.com/jp/business/enterprise/using/federated-guest-access.html)を有効にして、自分のドメインでゲストユーザーを安全に認証できます。 有効にすると、CX Enterprise ページの既存の組織内のアカウントを切り替えられるように、「組織」メニューが変更されます。
 
-フェデレーションゲストアカウントに切り替えるには、任意の[CX Enterprise](https://experience.adobe.com) ページの&#x200B;**[!UICONTROL 組織]** メニューで&#x200B;**[!UICONTROL その他のアカウント]**&#x200B;を見つけます。
+フェデレーションゲストアカウントに切り替えるには、[CX Enterprise](https://experience.adobe.com) ページの&#x200B;**[!UICONTROL 組織]** メニューで&#x200B;**[!UICONTROL その他のアカウント]**&#x200B;を見つけます。
 
 **フェデレーションゲストアカウントの組織メニュー**
 

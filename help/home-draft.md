@@ -1,6 +1,6 @@
 ---
-description: CX エンタープライズ向けの一元的なインターフェイスコンポーネントについて説明します。 Admin Consoleのユーザーおよび製品管理に関するヘルプを参照して、CX Enterprise サービスのアプリケーションを有効にします。 オーディエンスライブラリ、顧客属性、CX Enterprise Assetsなどのヘルプを利用できます。
-title: Experience Cloud インターフェイスのドキュメント
+description: CX Enterpriseの一元的なインターフェイスコンポーネントについて説明します。 Admin Consoleのユーザーおよび製品管理に関するヘルプを参照して、CX Enterprise サービスのアプリケーションを有効にします。 オーディエンスライブラリ、顧客属性、CX Enterprise Assetsなどのヘルプを利用できます。
+title: CX Enterprise インターフェイスドキュメント
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: Central Interface Components
 topic: Administration
@@ -13,12 +13,12 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '140'
-ht-degree: 60%
+ht-degree: 57%
 ---
-# CX エンタープライズ中央インターフェイスの概要
+# CX Enterpriseの中央インターフェイスの概要
 
 [CX Enterprise](https://experience.adobe.com)は、Adobeの統合デジタルマーケティングアプリケーション、製品、サービスのファミリーです。 直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。
 <!--

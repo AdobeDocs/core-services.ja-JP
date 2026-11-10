@@ -1,6 +1,6 @@
 ---
-description: FTPを介して顧客属性データをCX Enterpriseにアップロードする方法について説明します。
-solution: Experience Cloud
+description: FTPを介してCX Enterpriseに顧客属性データをアップロードする方法を説明します。
+solution: CX Enterprise
 title: FTP経由での顧客属性データファイルのアップロード
 feature: Customer Attributes
 topic: Administration
@@ -28,16 +28,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 51%
 ---
 # FTP経由でデータファイルをアップロードします（オプション）
 
-ドラッグ&amp;ドロップを使用してアップロードしない場合は、FTP経由で顧客属性データをCX Enterpriseにアップロードできます。
+ドラッグ&amp;ドロップを使用してアップロードしない場合は、FTP経由でCX Enterpriseに顧客属性データをアップロードできます。
 
-CX Enterpriseで顧客属性ソースとFTP アカウントを作成した後、データをアップロードできます。 属性ソースごとに 1 つの FTP アカウントを作成できます。 アップロードしたファイルは、そのアカウントのルートフォルダーに保存されます。 データは `.csv` 形式にする必要があります。2 つ目の `.fin` ファイルは、アップロードが完了したことを示します。
+CX Enterpriseで顧客属性ソースとFTP アカウントを作成した後、データをアップロードできます。 属性ソースごとに 1 つの FTP アカウントを作成します。 アップロードしたファイルは、そのアカウントのルートフォルダーに保存されます。 データは `.csv` 形式にする必要があります。2 つ目の `.fin` ファイルは、アップロードが完了したことを示します。
 
 >[!IMPORTANT]
 >

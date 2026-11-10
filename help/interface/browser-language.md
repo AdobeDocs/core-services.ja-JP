@@ -1,7 +1,7 @@
 ---
 title: ブラウザーと言語のサポート
 description: CX Enterprise アプリケーションのブラウザーと言語のサポートについて説明します。 アカウントプロファイルでプライマリ言語とセカンダリ言語を選択します。
-solution: Experience Cloud
+solution: CX Enterprise
 feature: Account Preferences
 topic: Administration
 role: Admin
@@ -30,12 +30,12 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 39%
 ---
-# CX Enterpriseにおけるブラウザーと言語のサポート
+# CX Enterpriseでのブラウザーと言語のサポート
 
 最高のパフォーマンスを実現するために、CX Enterpriseは、最新バージョンと以前の2つのバージョンを含む、最も人気のあるブラウザーに最適化されています。
 
@@ -76,13 +76,13 @@ CX Enterpriseのユーザーインターフェイスは、次の言語で利用�
 
 **既定の言語を指定するには**
 
-1. CX エンタープライズで、**[!UICONTROL プロファイル]**/[環境設定](https://experience.adobe.com/preferences)をクリックします。
+1. CX Enterpriseで、**[!UICONTROL プロファイル]**/[環境設定](https://experience.adobe.com/preferences)をクリックします。
 
 1. **[!UICONTROL プロファイル]**&#x200B;で、言語リンクをクリックします。
 
 1. **[!UICONTROL 言語を選択]**&#x200B;で、**[!UICONTROL 最初の言語]** メニューから言語を選択します。
 
-   すべてのアプリケーションチームがグローバル言語サポートに取り組んでいますが、すべてのアプリケーションがインターフェイスに記載されているすべての言語で提供されるわけではありません。 お客様のプライマリ言語がCX Enterprise アプリケーションでサポートされていない場合は、該当する場合にセカンダリデフォルト言語を設定できます。
+   すべてのアプリケーションチームがグローバル言語サポートに取り組んでいますが、すべてのアプリケーションがインターフェイスに記載されているすべての言語で提供されるわけではありません。 CX Enterprise アプリケーションで主要言語がサポートされていない場合は、該当する場合にセカンダリデフォルト言語を設定できます。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 

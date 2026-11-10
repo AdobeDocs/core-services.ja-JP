@@ -1,6 +1,6 @@
 ---
 description: '[!DNL Customer Attributes] データソースを作成してCX Enterpriseにアップロードする方法を説明します。'
-solution: Experience Cloud
+solution: CX Enterprise
 title: '[!DNL Customer Attributes] Data Source ファイルの作成とアップロード'
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 42%
@@ -97,7 +97,7 @@ CX Enterpriseの&#x200B;_[!UICONTROL 顧客属性の作成Source]_ ページで�
 
    * **[!UICONTROL 説明：]** （オプション） データ属性ソースの説明。
 
-   * **[!UICONTROL エイリアス ID:]**&#x200B;特定のCRM システムなどの顧客属性データのソースを表します。 [!UICONTROL &#x200B; エイリアス ID]は、[!UICONTROL 顧客属性Source] コードで使用される一意のIDです。 ID は一意で、スペースを含まないアルファベットおよびアンダースコアの組み合わせにしてください。 CX Enterpriseの顧客属性ソースの[!UICONTROL &#x200B; エイリアス ID] フィールドに入力される値は、実装から渡される値と一致する必要があります（Platform Data CollectionまたはMobile SDKのJavaScriptを介して）。
+   * **[!UICONTROL エイリアス ID:]**&#x200B;特定のCRM システムなどの顧客属性データのソースを表します。 [!UICONTROL &#x200B; エイリアス ID]は、[!UICONTROL 顧客属性Source] コードで使用される一意のIDです。 ID は一意で、小文字を使用し、スペースを含まないようにしてください。 CX Enterpriseの顧客属性ソースの[!UICONTROL &#x200B; エイリアス ID] フィールドに入力される値は、実装から渡される値と一致する必要があります（Platform Data CollectionまたはMobile SDKのJavaScriptを介して）。
 
      >[!IMPORTANT]
      >
@@ -117,13 +117,13 @@ CX Enterpriseの&#x200B;_[!UICONTROL 顧客属性の作成Source]_ ページで�
 
      * **iOS:** エイリアス IDは、[visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=ja)の&#x200B;*&quot;idType&quot;*&#x200B;に対応しています。
 
-       次に例を示します。
+       例：
 
        `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
      * **Android™：**&#x200B;エイリアス ID は [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=ja) の *&quot;idType&quot;*&#x200B;に対応しています。
 
-       次に例を示します。
+       例：
 
        `identifiers.put(`**`"idType"`**`, "idValue");`
 
@@ -193,7 +193,7 @@ CX Enterpriseにセグメントを公開すると、CX Enterprise Audiencesお�
 
 ## Adobe Targetでの[!DNL Customer Attributes] データの使用
 
-[!DNL Target]では、オーディエンスの作成時に、[!UICONTROL 訪問者プロファイル &#x200B;] セクションから顧客属性を選択できます。 すべての顧客属性には、リスト内に接頭辞`crs.`が付いています。 これらの属性を、必要に応じて他のデータ属性と組み合わせることで、オーディエンスを構築します。
+[!DNL Target]では、オーディエンスの作成時に、[!UICONTROL 訪問者プロファイル &#x200B;] セクションから顧客属性を選択できます。 すべての顧客属性には、リスト内に接頭辞`crs.`が付いています。 これらの属性を、必要に応じて他のデータ属性と組み合わせることで、オーディエンスを作成します。
 
 ![Adobe Target での顧客属性の使用](assets/crs-add-attribute-target.png)
 
