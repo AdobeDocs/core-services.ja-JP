@@ -48,11 +48,11 @@ CX Enterpriseのインターフェイス機能は、_コアサービス_&#x200B;
 その他の共有機能には、CX Enterpriseの管理（ユーザー管理および製品管理）、Cookie、アカウント設定、通知などがあります。
 
 CX Enterpriseの共有サービスとアプリケーションにアクセスするには、**[!UICONTROL アプリケーションセレクターをクリックします]**
-![ サービスセレクター](../assets/apps-icon.png)。
+![&#x200B; サービスセレクター](../assets/apps-icon.png)。
 
 **アプリケーションセレクター**
 
-![CX Enterprise サービス ](../assets/platform-core-services.png)
+![CX Enterprise サービス &#x200B;](../assets/platform-core-services.png)
 
 このガイドのサービスページでは、次の製品とサービスについて説明します。
 

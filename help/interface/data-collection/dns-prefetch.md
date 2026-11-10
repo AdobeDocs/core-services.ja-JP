@@ -71,5 +71,5 @@ DNS プリフェッチは、ページ上に埋め込まれた静的リンクに�
 
 >[!MORELIKETHIS]
 >
->* Chromiumで[DNS プリフェッチ ](https://www.chromium.org/developers/design-documents/dns-prefetching)
+>* Chromiumで[DNS プリフェッチ &#x200B;](https://www.chromium.org/developers/design-documents/dns-prefetching)
 

@@ -51,11 +51,11 @@ Adobe Analytics と Adobe Target の [!DNL Customer Attributes] に関するよ�
 
 | 問題 | 説明 |
 | --- | --- |
-| [!DNL Customer Attributes] [ サブスクリプション ](subscription.md)の制限 | Analytics Premium にアップグレードすると、追加の属性を使用できるようになるまでに 24 時間の遅延が生じます。 この遅延中に[!UICONTROL attribute Subscription Max] エラーが発生する場合があります。 |
+| [!DNL Customer Attributes] [&#x200B; サブスクリプション &#x200B;](subscription.md)の制限 | Analytics Premium にアップグレードすると、追加の属性を使用できるようになるまでに 24 時間の遅延が生じます。 この遅延中に[!UICONTROL attribute Subscription Max] エラーが発生する場合があります。 |
 | 同じデバイスでの複数のログイン | [!DNL Customer Attributes]を使用して顧客プロファイルをデータソースにアップロードする場合、Adobeでは、ユーザーがデバイスを共有する場合（つまり、同じECID）に対して推奨されます。 ECIDはデバイスに保持されます。 デバイスを共有すると、ECID によって複数のユーザーが同じ ECID にリンクされ、[!DNL Target] で予期しない結果が生じる場合があります。 **メモ：** Mobileの場合、ECIDはモバイルアプリのインストール後に永続的になります。 アプリを再インストールして、新しいECIDを生成します。 Web の場合は、ブラウザーの cookie がクリアされた後で新しい ECID が生成されます。 |
 | 毎日のアップロード頻度の制限 | [!DNL Customer Attributes] の更新は、1 日に 1 回のみにすることをお勧めします。 同じプロファイルセットに対して別の顧客プロファイルデータファイルをアップロードする場合は、24 時間以上待つ必要があります。 |
 | カスタム Analytics ID（`s.visitorID`） | `s.visitorID`を使用して顧客IDを設定することは、Adobe Analyticsでユーザーを識別する方法です。 ただし、`s.visitorID.`<br>を使用して訪問者を識別する場合、[!DNL Analytics] データがVisitor ID サービスを使用してエクスポートまたはインポートされる統合は機能しません。これには、共有オーディエンス、[!DNL Analytics]のAdobe Target（A4T）および[!DNL Customer Attributes]が含まれますが、これらに限定されません。<br>これらの統合では、カスタム Analytics IDの設定はサポートされていません。 |
-| での文字の長さの制限[!DNL Analytics] | [!DNL Analytics] [ サブスクリプション ](subscription.md)を作成する場合、アップロードされたファイルのフィールド長は255に切り捨てられます。 |
+| での文字の長さの制限[!DNL Analytics] | [!DNL Analytics] [&#x200B; サブスクリプション &#x200B;](subscription.md)を作成する場合、アップロードされたファイルのフィールド長は255に切り捨てられます。 |
 
 {style="table-layout:auto"}
 

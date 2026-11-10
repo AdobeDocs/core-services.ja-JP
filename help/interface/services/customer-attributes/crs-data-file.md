@@ -144,7 +144,7 @@ CSV ファイルは次の形式に準拠する必要があります。
 
 各顧客属性ソースのエイリアス ID は、一意である必要があります。 同じ ID を活用する複数のデータソースがある場合、次のように設定します。
 
-**`VisitorAPI.js`または[!UICONTROL Experience Cloud ID サービス ] タグ拡張機能：**
+**`VisitorAPI.js`または[!UICONTROL Experience Cloud ID サービス &#x200B;] タグ拡張機能：**
 
 適切なデータソースに対応する 2 つの顧客 ID を設定します。
 
