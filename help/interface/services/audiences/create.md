@@ -33,20 +33,16 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: 3292f78ff6778df2ca1aecb752cf1aa24c043ef3
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 56%
+source-wordcount: '548'
+ht-degree: 52%
 ---
-# オーディエンスの作成
+# オーディエンスの作成 {#create-audience}
 
-[!UICONTROL Audience Library]では、属性ルールを使用してオーディエンスを作成し、CX Enterprise アプリケーションで共有するための複合オーディエンスを定義できます。
+[!UICONTROL Audience Library]では、属性ルールを使用してオーディエンスを作成し、個々のルールを作成し、ルールを組み合わせて複合オーディエンスにすることができ、CX Enterprise アプリケーション間で共有できます。
 
-この記事では、以下の方法について説明します。
-
-* オーディエンスの作成
-* ルールの作成
-* ルールを使用した複合オーディエンスの定義
+## 複合オーディエンス {#composite-audiences}
 
 次の図は、複合オーディエンスの 2 つのルールを表しています。
 
@@ -58,23 +54,18 @@ ht-degree: 56%
 >
 >オーディエンスが完全に定義されるのは、指定されたデータ収集期間の終了後です。
 
-次に、複合オーディエンスのルールを作成する方法の例を示します。 このオーディエンスは、次のもので構成されます。
+## オーディエンスルールの作成 {#build-audience-rules}
 
-* ページデータまたは Analytics の生データから得られる Home &amp; Garden セクション。
-* [!DNL Adobe Analytics] セグメント [公開済み](overview.md) ～ [!DNL CX Enterprise]から派生したChromeおよびSafari ユーザー。
+次の手順を使用して、オーディエンスを作成し、[!UICONTROL  オーディエンスライブラリ ]でルールを定義します。
 
-  ![複合オーディエンスのルールの作成](assets/audience_create.png)
+1. [!DNL CX Enterprise]個のアプリ（![個のアプリアイコン ](assets/apps-icon.png)）をクリックし、**[!UICONTROL 人物]** > **[!UICONTROL オーディエンスライブラリ ]をクリックします。**
 
-**オーディエンスを作成するには、以下を実行します。**
-
-1. [!DNL CX Enterprise]個のアプリ（![個のアプリアイコン &#x200B;](assets/apps-icon.png)）をクリックし、**[!UICONTROL 人物]** > **[!UICONTROL オーディエンスライブラリ &#x200B;]をクリックします。**
-
-1. [!UICONTROL &#x200B; オーディエンス &#x200B;] ページで、**[!UICONTROL 新規]**&#x200B;をクリックします。 ![新しいオーディエンス &#x200B;](assets/add_icon_small.png)
+1. [!UICONTROL  オーディエンス ] ページで、**[!UICONTROL 新規]**&#x200B;をクリックします。 ![新しいオーディエンス ](assets/add_icon_small.png)
 
    ![オーディエンスの作成](assets/audience_create_new.png)
 
 1. [!UICONTROL 新しいオーディエンスの作成] ページで、**[!UICONTROL タイトル]**&#x200B;および&#x200B;**[!UICONTROL 説明]** フィールドに入力します。
-1. [!UICONTROL &#x200B; ルール &#x200B;]で、参照レポートスイートを選択してから、属性ソースを選択します。
+1. [!UICONTROL  ルール ]で、参照レポートスイートを選択してから、属性ソースを選択します。
 
    * **[!UICONTROL Real-Time Analytics データ：]** （またはRaw データ）これは、Real-Time Analytics イメージリクエストから派生した属性データです。 eVarやイベントも含まれます。 この属性ソースを使用する場合は、レポートスイートを選択し、含めるディメンションまたはイベントを定義する必要があります。 このレポートスイートの選択により、レポートスイートで使用される変数構造が提供されます。
 
@@ -86,13 +77,20 @@ ht-degree: 56%
 
 1. オーディエンスルールを定義し、**[!UICONTROL 保存].**&#x200B;をクリックします
 
-**例：複合オーディエンスのルールを定義**
+## 複合オーディエンスの例 {#example-composite-audience}
+
+次に、複合オーディエンスのルールを作成する方法の例を示します。 このオーディエンスは、次のもので構成されます。
+
+* ページデータまたは Analytics の生データから得られる Home &amp; Garden セクション。
+* [!DNL Adobe Analytics] セグメント [公開済み](overview.md) ～ [!DNL CX Enterprise]から派生したChromeおよびSafari ユーザー。
+
+  ![複合オーディエンスのルールの作成](assets/audience_create.png)
 
 >[!NOTE]
 >
 >オーディエンスルールを定義する場合は、実装変数について理解している必要があります。
 
-[!UICONTROL &#x200B; ルール &#x200B;]で、*`Home & Garden`*&#x200B;属性の選択を定義します。
+[!UICONTROL  ルール ]で、*`Home & Garden`*&#x200B;属性の選択を定義します。
 
 * **[!UICONTROL 属性Source:]**&#x200B;生のAnalytics データ
 * **[!UICONTROL レポートスイート：]** レポートスイート 31
@@ -120,4 +118,4 @@ ht-degree: 56%
 
 特定期間のデータ収集が終了すると、円は結合されて、定義されたオーディエンスを表示します。
 
-オーディエンスが保存されると、他のCX Enterprise アプリケーションで使用できるようになります。 例えば、Adobe Target [&#x200B; アクティビティ &#x200B;](https://experienceleague.adobe.com/ja/docs/target/using/activities/activities)に共有オーディエンスを含めることができます。
+オーディエンスが保存されると、他のCX Enterprise アプリケーションで使用できるようになります。 例えば、Adobe Target [ アクティビティ ](https://experienceleague.adobe.com/en/docs/target/using/activities/activities)に共有オーディエンスを含めることができます。
