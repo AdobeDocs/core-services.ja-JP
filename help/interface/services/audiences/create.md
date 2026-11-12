@@ -33,20 +33,16 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: 3292f78ff6778df2ca1aecb752cf1aa24c043ef3
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 56%
+source-wordcount: '548'
+ht-degree: 52%
 ---
-# オーディエンスの作成
+# オーディエンスの作成 {#create-audience}
 
-[!UICONTROL Audience Library]では、属性ルールを使用してオーディエンスを作成し、CX Enterprise アプリケーションで共有するための複合オーディエンスを定義できます。
+[!UICONTROL Audience Library]では、属性ルールを使用してオーディエンスを作成し、個々のルールを作成し、ルールを組み合わせて複合オーディエンスにすることができ、CX Enterprise アプリケーション間で共有できます。
 
-この記事では、以下の方法について説明します。
-
-* オーディエンスの作成
-* ルールの作成
-* ルールを使用した複合オーディエンスの定義
+## 複合オーディエンス {#composite-audiences}
 
 次の図は、複合オーディエンスの 2 つのルールを表しています。
 
@@ -58,14 +54,9 @@ ht-degree: 56%
 >
 >オーディエンスが完全に定義されるのは、指定されたデータ収集期間の終了後です。
 
-次に、複合オーディエンスのルールを作成する方法の例を示します。 このオーディエンスは、次のもので構成されます。
+## オーディエンスルールの作成 {#build-audience-rules}
 
-* ページデータまたは Analytics の生データから得られる Home &amp; Garden セクション。
-* [!DNL Adobe Analytics] セグメント [公開済み](overview.md) ～ [!DNL CX Enterprise]から派生したChromeおよびSafari ユーザー。
-
-  ![複合オーディエンスのルールの作成](assets/audience_create.png)
-
-**オーディエンスを作成するには、以下を実行します。**
+次の手順を使用して、オーディエンスを作成し、[!UICONTROL &#x200B; オーディエンスライブラリ &#x200B;]でルールを定義します。
 
 1. [!DNL CX Enterprise]個のアプリ（![個のアプリアイコン &#x200B;](assets/apps-icon.png)）をクリックし、**[!UICONTROL 人物]** > **[!UICONTROL オーディエンスライブラリ &#x200B;]をクリックします。**
 
@@ -86,7 +77,14 @@ ht-degree: 56%
 
 1. オーディエンスルールを定義し、**[!UICONTROL 保存].**&#x200B;をクリックします
 
-**例：複合オーディエンスのルールを定義**
+## 複合オーディエンスの例 {#example-composite-audience}
+
+次に、複合オーディエンスのルールを作成する方法の例を示します。 このオーディエンスは、次のもので構成されます。
+
+* ページデータまたは Analytics の生データから得られる Home &amp; Garden セクション。
+* [!DNL Adobe Analytics] セグメント [公開済み](overview.md) ～ [!DNL CX Enterprise]から派生したChromeおよびSafari ユーザー。
+
+  ![複合オーディエンスのルールの作成](assets/audience_create.png)
 
 >[!NOTE]
 >
