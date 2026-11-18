@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 5%
@@ -61,7 +61,7 @@ TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR%2D%2D%2DBnMM7
 | **顧客属性** | People サービスを介してAnalytics、Target、および関連ワークフローで使用するためにアップロードしてマッピングするCRMまたはエンタープライズ属性。 [顧客属性](../services/customer-attributes/attributes.md)のトピックを参照してください。 | 商品の境界線を確認せずに、**Audience Manager特性**&#x200B;のみまたは&#x200B;**Real-Time CDP** プロファイルフィールドごとに等価にしないでください。 |
 | **オーディエンスライブラリ** | 統合アプリケーションをまたいでオーディエンスを構成および共有するためのCX Enterprise UI。 | **Audience Manager**&#x200B;と&#x200B;**Target**&#x200B;も「オーディエンス」を使用していますが、セグメント化ルールと宛先は商品によって異なります。 |
 | **セグメント** （Analytics） | ルールベースのオーディエンス定義をAdobe Analyticsで作成し、サポートされている場合は共有オーディエンスに向けて公開できます。 | **Audience Manager**&#x200B;では、セグメントは&#x200B;**特性**&#x200B;を組み合わせています。名前は重複していますが、実装が同じではありません。 **Target**&#x200B;では、多くの場所で「オーディエンス」が古い「セグメント」ラベルに置き換わりました。 |
-| **Assets （Experience Cloud Assets）** | CX Enterprise マーケティングワークフローと承認済み&#x200B;**Creative Cloud** ユーザーの間で共同作業を行うための共有フォルダーとファイル。 [Assetsの概要](../services/assets/experience-cloud-assets.md)を参照してください。 | **Creative Cloud**&#x200B;では、「assets」とは通常、デザインファイル（PSD、AI、INDD）を意味します。 同じ単語、異なる共有、ガバナンスモデル。 |
+| **Assets （Experience Cloud Assets）** | CX Enterprise マーケティングワークフローと承認済み&#x200B;**Creative Cloud** ユーザーの間で共同作業を行うための共有フォルダーとファイル。 [Assetsの概要](../services/assets/overview-assets.md)を参照してください。 | **Creative Cloud**&#x200B;では、「assets」とは通常、デザインファイル（PSD、AI、INDD）を意味します。 同じ単語、異なる共有、ガバナンスモデル。 |
 
 {style="table-layout:auto"}
 

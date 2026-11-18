@@ -36,36 +36,29 @@ topic_v2:
     internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 41%
+source-wordcount: '261'
+ht-degree: 24%
 ---
-# CX Enterprise インターフェイスの概要
+# 共有機能とサービスについて
 
-CX Enterpriseのインターフェイス機能は、_コアサービス_&#x200B;と呼ばれることもあります。 これらは、[!DNL People] サービス （[!DNL Audience Library]および[!DNL Customer Attributes]）を含む統合ヘッダー機能です。
+CX Enterpriseの一部の共有機能は、_コアサービス_&#x200B;とも呼ばれます。 これらの機能には、[!DNL People] サービス （[!DNL Audience Library]および[!DNL Customer Attributes]）と[!DNL Assets]が含まれます。
 
-その他の共有機能には、CX Enterpriseの管理（ユーザー管理および製品管理）、Cookie、アカウント設定、通知などがあります。
+>[!NOTE]
+>
+>People サービスを使用するには、特定の実装手順に従う必要がある場合があります。 詳細については、[People サービスの使用を開始する](getting-started.md)を参照してください。
 
 CX Enterpriseの共有サービスとアプリケーションにアクセスするには、**[!UICONTROL アプリケーションセレクターをクリックします]**
 ![&#x200B; サービスセレクター](../assets/apps-icon.png)。
 
-**アプリケーションセレクター**
-
-![CX Enterprise サービス &#x200B;](../assets/platform-core-services.png)
-
-このガイドのサービスページでは、次の製品とサービスについて説明します。
-
 | コアサービス | 説明 |
 | --- | --- |
-| [中央インターフェイスコンポーネント](https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud) | アカウント設定にアクセスし、製品ヘルプを検索して、アプリケーションとサービスにアクセスします。 |
-| [オーディエンスライブラリ](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/audiences/overview) | オーディエンスは、訪問者の集合（訪問者 ID のリスト）です。 Adobeの[!DNL Audience Library]では、訪問者データをオーディエンスセグメンテーションに変換できます。 |
-| [顧客属性](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/customer-attributes/attributes) | イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築できます。 [!UICONTROL Journey Orchestration]は、Experience Platformと統合されたアプリケーションサービスです。 |
-| [Assets](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/assets/experience-cloud-assets) | CX Enterprise Assetsは、アプリケーション間で共有できる、マーケティングに適したアセットの一元的なリポジトリを提供します。 |
-| [トリガー](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/triggers) | CX Enterpriseのトリガーを利用すれば、主要な消費者行動を特定、定義および監視して、アプリケーションをまたいだコミュニケーションを構築し、訪問者に再アピールできます。 リアルタイムでの意思決定とパーソナライゼーションに Triggers を使用できます。 |
-| [Adobe Exchange Marketplace](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/exchange) | Exchange Marketplace にアクセスすると、各種の連携ツールの検索、参照、選択、支払いおよびダウンロードをおこなえます。 アプリには、Data Connectors、アドビのコア製品のカスタム設定、サードパーティアプリケーション、レポートなどが含まれます。 |
-
-{style="table-layout:auto"}
+| [人物> オーディエンスライブラリ &#x200B;](audiences/overview.md) | オーディエンスは、訪問者の集合（訪問者 ID のリスト）です。 Adobeの[!DNL Audience Library]では、訪問者データをオーディエンスセグメンテーションに変換できます。 |
+| [人物>顧客属性](customer-attributes/attributes.md) | イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築できます。 [!UICONTROL Journey Orchestration]は、Experience Platformと統合されたアプリケーションサービスです。 |
+| [Assets](assets/overview-assets.md) | CX Enterprise Assetsは、アプリケーション間で共有できる、マーケティングに適したアセットの一元的なリポジトリを提供します。 |
+| [トリガー](triggers.md) | CX Enterpriseのトリガーを利用すれば、主要な消費者行動を特定、定義および監視して、アプリケーションをまたいだコミュニケーションを構築し、訪問者に再アピールできます。 リアルタイムでの意思決定とパーソナライゼーションに Triggers を使用できます。 |
+| [Adobe Exchange](exchange.md) | Adobe Exchangeは、アプリ経由でデジタルマーケティング拡張機能を検索、参照、選択、支払い、ダウンロードできる1つの場所です。 アプリには、Data Connectors、アドビのコア製品のカスタム設定、サードパーティアプリケーション、レポートなどが含まれます。 |
 
 >[!NOTE]
 >

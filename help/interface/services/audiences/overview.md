@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 45%
+source-wordcount: '741'
+ht-degree: 44%
 ---
 # CX Enterprise audiences
 
@@ -87,10 +87,10 @@ ht-degree: 45%
 
 | 要素 | 説明 |
 | --- | --- |
-| 新規 | [オーディエンスを作成](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/audiences/create)します。 |
+| 新規 | [オーディエンスを作成](create.md)します。 |
 | タイトルと説明 | オーディエンスを識別および説明する列見出し。 |
 | 作成者 | オーディエンスセグメントを作成したユーザー。 |
-| ソース | オーディエンスが作成された場所を示します。<ul><li>**Analytics:** Adobe Analyticsで作成されたセグメントが、CX Enterpriseに公開されます。</li><li>**CX Enterprise:**&#x200B;新しいオーディエンス [がCX Enterprise Audiences](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/audiences/create)で作成されました。</li><li>Audience Managerを作成した&#x200B;**Audience Manager:**&#x200B;個のオーディエンスは、CX Enterprise Audiencesに自動的に表示されます。</li></ul> |
+| ソース | オーディエンスが作成された場所を示します。<ul><li>**Analytics:** Adobe Analyticsで作成されたセグメントが、CX Enterpriseに公開されます。</li><li>**CX Enterprise:**&#x200B;新しいオーディエンス [がCX Enterprise Audiences](create.md)で作成されました。</li><li>Audience Managerを作成した&#x200B;**Audience Manager:**&#x200B;個のオーディエンスは、CX Enterprise Audiencesに自動的に表示されます。</li></ul> |
 | 現在のサイズ | 現在のオーディエンスのサイズ。 |
 | アクティブ | セグメントのアクティブステータス。 |
 

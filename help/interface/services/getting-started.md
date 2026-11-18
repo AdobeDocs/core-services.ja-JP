@@ -1,5 +1,5 @@
 ---
-description: クロスアプリケーションサービスに対応できるように、Adobe Analytics および Adobe Target のアプリケーションを最新化します。 CX Enterpriseのサービス利用方法をご覧ください。
+description: クロスアプリケーションサービス用 Adobe Analytics および Adobe Target のアプリケーションを最新化します。 CX Enterprise People Serviceの使用方法を説明します。
 solution: CX Enterprise
 title: CX Enterprise入門
 index: true
@@ -22,14 +22,16 @@ subfeature_v2:
     internal-label: Support
   - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
     internal-label: Organizations
-  - id: d27b1945-f442-4607-91bd-537a0b16e687
-    internal-label: Assets
   - id: eb7e29b9-c5e9-4ed0-8e4b-6465dabb3cb1
     internal-label: Admin tools
   - id: ecb4a972-6786-444c-a014-abc528b9407a
     internal-label: Customer attributes
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
     internal-label: Getting started
+  - id: e8b6b7ca-4f3c-4275-9b65-e43912bf78bf
+    internal-label: People Audience Library
+  - id: fe560ac6-1b84-42b7-9eee-bb033a8850d6
+    internal-label: People Customer Attributes
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -51,16 +53,16 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
-source-wordcount: '2082'
-ht-degree: 41%
+source-wordcount: '2055'
+ht-degree: 39%
 ---
-# CX Enterpriseの導入方法
+# People サービスの使用を開始
 
-最近[Experience Platform タグ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/home)を使用してCX Enterpriseを実装した場合、[顧客属性](../services/overview.md)およびCX Enterprise [&#x200B; オーディエンス &#x200B;](../services/audiences/overview.md)用に既に設定されています。 [Admin Console](../administration/admin-console.md)のユーザーと製品を管理することもできます。
+最近[Experience Platform タグ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/home)を使用してCX Enterpriseを実装した場合、[顧客属性](../services/customer-attributes/attributes.md)およびCX Enterprise [&#x200B; オーディエンス &#x200B;](../services/audiences/overview.md)用に既に設定されています。 [Admin Console](../administration/admin-console.md)のユーザーと製品を管理することもできます。
 
-既存のお客様は、アプリケーション実装を最新化し、CX Enterpriseを実装できます。 これにより、Adobe Analytics、Audience Manager、Adobe Target全体で顧客属性とオーディエンス機能を使用できます。
+既存のお客様は、アプリケーション実装を最新化し、CX Enterpriseを実装できます。 これにより、[!UICONTROL 顧客属性]および[!UICONTROL Audience]機能をAdobe Analytics、Audience Manager、およびAdobe Targetで使用できます。
 
 ## 管理者としてログイン {#admin-sign-in}
 
@@ -74,7 +76,7 @@ ht-degree: 41%
 
 これらのグループをCX Enterprise エンタープライズグループにマッピングする場合、それらのユーザーはアプリケーションアカウントの資格情報を手動でAdobe IDにリンクする必要があります。
 
-CX Enterpriseの[Link アカウントを参照](https://experienceleague.adobe.com/ja/docs/core-services/interface/administration/organizations)
+CX Enterpriseの[Link アカウントを参照](../administration/organizations.md)
 
 >[!NOTE]
 >
@@ -141,7 +143,7 @@ Adobe Target では、 `mbox3rdpartyid` は顧客 ID を取得して、それを
 
 この顧客 ID を、顧客 ID が認識される個々の [!DNL Analytics] サーバー呼び出しに対して設定する必要があります。
 
-#### Analytics：顧客 ID とデータウェアハウスのバックフィルメソッドとの同期
+#### [!DNL Analytics]：お客様IDをData Warehouse バックフィル方式と同期しています
 
 顧客属性が最初に使用可能になったとき、一部の顧客は訪問者ID サービスをまだ実装しておらず、顧客属性を簡単に利用できませんでした。 この問題を軽減するために、アドビでは、Adobe Analytics データウェアハウスを使用して ID 同期のバックフィルを行う手段を作成しました。 この機能は、データウェアハウスのバックフィルと呼ばれます。 データウェアハウスのバックフィルは通常は必要ないため、2022年10月以降は使用できなくなります。
 
@@ -192,7 +194,7 @@ mbox リクエストのECID:
 
 mbox リクエストの![ECID](../assets/mbox_request.png)
 
-### 猶予期間とは
+### 猶予期間とは何ですか？
 
 訪問者ID サービスをデプロイすると、新しい訪問者はAnalytics ID （`aid`）を受け取らなくなります。 サイトのセクションがまだ訪問者ID サービスを実装していない場合、訪問者がこれらのセクションを参照すると、ECID （`mid`）が認識されず、訪問者には従来のAnalytics ID （`aid`）が割り当てられます。 この設定は、重複した訪問や誤ったアトリビューションなどの潜在的な問題を引き起こす可能性があります。
 
@@ -206,7 +208,7 @@ mbox リクエストの![ECID](../assets/mbox_request.png)
 
 ![Admin Console へのアクセス](../assets/menu-administration-shell.png)
 
-### 顧客属性
+### 顧客属性グループ
 
 [!DNL Customer Attributes] グループに追加されたユーザーは、CX Enterpriseの左側に「[!DNL Customer Attributes]」メニュー項目を表示できます。
 
@@ -214,17 +216,17 @@ mbox リクエストの![ECID](../assets/mbox_request.png)
 
 次の機能を利用します。
 
-### [!UICONTROL 顧客属性]
+### [!UICONTROL 人] > [!UICONTROL 顧客属性]
 
 CRM （顧客関係管理）データベースで企業顧客データを取得する場合は、CX Enterpriseの顧客属性データソースにデータをアップロードできます。 アップロード後は、データを [!DNL Adobe Analytics] と [!DNL Adobe Target] で利用できます。
 
-詳しくは、[顧客属性](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/customer-attributes/attributes)を参照してください。
+詳しくは、[顧客属性](../services/customer-attributes/attributes.md)を参照してください。
 
 ### [!UICONTROL &#x200B; ユーザー] > [!UICONTROL &#x200B; オーディエンスライブラリ &#x200B;]
 
 CX Enterprise [!UICONTROL Audiences]は、オーディエンスを作成し、既存のオーディエンスを組み合わせて複合オーディエンスを作成し、すべての共有オーディエンスを表示できるインターフェイスです。
 
-詳しくは、[&#x200B; オーディエンス &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/audiences/overview)を参照してください。
+詳しくは、[&#x200B; オーディエンス &#x200B;](../services/audiences/overview.md)を参照してください。
 
 ## データストレージおよびプライバシー開示
 

@@ -36,7 +36,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 35%
@@ -73,7 +73,7 @@ CX Enterpriseの[Agentic AIの更新](https://experienceleague.adobe.com/ja/docs
 
 ## 2025年10月
 
-管理者がIP アドレスによるAdobe製品へのアクセスを制限する場合に発生するエラーメッセージを含むメモを含めて、[組織を確認](../experience-cloud.md)しました。
+管理者がIP アドレスによるAdobe製品へのアクセスを制限する場合に発生するエラーメッセージを含むメモを含めて、[組織を確認](../home.md)しました。
 
 ## 2025年8月
 
@@ -130,7 +130,7 @@ Slack通知[&#128279;](../features/account-preferences.md#subscribe-to-slack-not
 
 ## 2021年8月24日（PT）
 
-[中央コンポーネント](../experience-cloud.md) ページ（このガイドのランディングページ）を更新しました。 ブラウザーと言語のサポート、組織の更新、ログイン、ドメインに関する情報の追加がおこなわれました。
+[中央コンポーネント](../home.md) ページ（このガイドのランディングページ）を更新しました。 ブラウザーと言語のサポート、組織の更新、ログイン、ドメインに関する情報の追加がおこなわれました。
 
 ## 2021年8月6日（PT）
 
@@ -142,7 +142,7 @@ Slack通知[&#128279;](../features/account-preferences.md#subscribe-to-slack-not
 
 ## 2021年6月1日（PT）
 
-CX Enterpriseへのアクセス、グローバル検索、環境設定、通知に関する新しいヘルプで、[&#x200B; ランディングページ &#x200B;](../experience-cloud.md)を更新しました。
+CX Enterpriseへのアクセス、グローバル検索、環境設定、通知に関する新しいヘルプで、[&#x200B; ランディングページ &#x200B;](../home.md)を更新しました。
 
 ## 2020年8月19日（PT）
 
@@ -197,7 +197,7 @@ CX Enterpriseへのアクセス、グローバル検索、環境設定、通知�
 
 ## 2016年2月11日（PT）
 
-[CX Enterprise Assets](../services/assets/experience-cloud-assets.md)を追加しました。
+[CX Enterprise Assets](../services/assets/overview-assets.md)を追加しました。
 
 ## 2015年1月15日（PT）
 

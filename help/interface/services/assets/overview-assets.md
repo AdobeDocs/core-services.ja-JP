@@ -31,16 +31,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 70%
+source-wordcount: '327'
+ht-degree: 65%
 ---
-# CX Enterprise Assetsの概要
+# CX Enterprise [!DNL Assets]の概要
 
-CX Enterprise Assetsは、アプリケーション間で共有できる、マーケティングに適したアセットの一元的なリポジトリを提供します。 アセットは、デジタルドキュメント、画像、ビデオ、オーディオのいずれか（またはその一部）で、複数のレンディションを持つことができ、サブアセット（例えば、[!DNL Photoshop] ファイルのレイヤー、[!DNL PowerPoint] ファイルのスライド、PDF のページ、ZIP 内のファイルなど）を持つことができます。
+CX Enterprise [!DNL Assets]は、アプリケーション間で共有できる、マーケティングに対応したアセットの一元的なリポジトリを提供します。 アセットは、デジタルドキュメント、画像、ビデオ、オーディオのいずれか（またはその一部）で、複数のレンディションを持つことができ、サブアセット（例えば、[!DNL Photoshop] ファイルのレイヤー、[!DNL PowerPoint] ファイルのスライド、PDF のページ、ZIP 内のファイルなど）を持つことができます。
 
-アセットサービスには次のものが含まれます。
+[!DNL Assets] サービスには次が含まれます。
 
 * アセットストレージ、管理インターフェイス、（アプリケーション経由でアクセスする）組み込みの選択インターフェイス。
 * Creative Cloud、CX Enterprise collaboration、CX Enterpriseアプリケーションとの統合。
@@ -48,9 +48,8 @@ CX Enterprise Assetsは、アプリケーション間で共有できる、マー
 アセットを使用すると、一貫性とブランドコンプライアンスが向上し、市場投入までの時間が短縮されます。 アプリケーションでワークフローを効率化できます。
 
 * **[!DNL Adobe Target]**：A/B テストと多変量分析テストを設定できます。
-* **[!DNL Ad Cloud]**：様々なチャネルとキャンペーン全体で広告ユニットを作成できます。
+* **[!DNL Adobe Advertising]**：様々なチャネルとキャンペーン全体で広告ユニットを作成できます。
 * **[!DNL Adobe Campaign]**：アセットを電子メールニュースレターとキャンペーンに配置します。
-
 
 ## CX Enterprise Assetsへの移動
 
@@ -60,7 +59,7 @@ CX Enterprise Assetsは、アプリケーション間で共有できる、マー
 
 アセット（またはアセットディレクトリ）に移動し、**[!UICONTROL 選択]**&#x200B;をクリックします。
 
-ツールバーから、検索、タイムライン、レンディション、編集、注釈、ダウンロードなどの機能にすばやくアクセスできます。
+ツールバーでは、[!UICONTROL 検索]、[!UICONTROL &#x200B; タイムライン &#x200B;]、[!UICONTROL &#x200B; レンディション &#x200B;]、[!UICONTROL 編集]、[!UICONTROL 注釈]および[!UICONTROL &#x200B; ダウンロード &#x200B;]などの機能にすばやくアクセスできます。
 
 ![ツールバーへのアクセス](../../assets/asset-tools.png)
 
