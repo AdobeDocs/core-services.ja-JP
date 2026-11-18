@@ -38,11 +38,11 @@ CX Enterpriseは、CX ライフサイクルの各段階で次のアプリケー�
 | 機能 | 実行できること |
 | --- | --- |
 | AI エージェントとの作業のオーケストレーション | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)を使用して、設定したガードレール内で動作するエージェントを使用して、顧客体験ワークフローとマーケティングワークフローを自動化します。 |
-| リアルタイムで顧客とエンゲージ | 顧客データを統合し、[Adobe Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ja)および[Adobe Target](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/get-started)でパーソナライズされたジャーニーをオーケストレーションし、[Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/target.html)でエクスペリエンスをテストおよびパーソナライズします。 |
-| 大規模なコンテンツの制作と管理 | [Adobe Workfront](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started)、[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=ja)、[Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/workfront/using/basics/home/home)を使用して、コンテンツを計画、制作、管理します。 |
+| リアルタイムで顧客とエンゲージ | 顧客データを統合し、[Adobe Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ja)および[Adobe Target](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/get-started)でパーソナライズされたジャーニーをオーケストレーションし、[Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/target.html?lang=ja)でエクスペリエンスをテストおよびパーソナライズします。 |
+| 大規模なコンテンツの制作と管理 | [Adobe Workfront](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/get-started)、[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=ja)、[Adobe Experience Manager](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/home/home)を使用して、コンテンツを計画、制作、管理します。 |
 | 測定と最適化 | [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=ja)を使用して、アプリケーションをまたいでエクスペリエンスデータを分析します。 |
-| オンライン販売 | [Adobe Commerce](https://experienceleague.adobe.com/docs/commerce.html)でデジタルコマースを実行します。 |
-| ブランドの可視性を保護し、成長させる | [Adobe Brand Visibility](https://experienceleague.adobe.com/en/docs/brand-visibility/using/essentials/overview)で、AIを利用した検索や会話で企業がどのように表示されるかをモニタリングし、改善します。 |
+| オンライン販売 | [Adobe Commerce](https://experienceleague.adobe.com/docs/commerce.html?lang=ja)でデジタルコマースを実行します。 |
+| ブランドの可視性を保護し、成長させる | [Adobe Brand Visibility](https://experienceleague.adobe.com/ja/docs/brand-visibility/using/essentials/overview)で、AIを利用した検索や会話で企業がどのように表示されるかをモニタリングし、改善します。 |
 | データとガバナンスの管理 | [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)で、アプリケーション間でデータを収集、管理、アクティベートします。 |
 
 {style="table-layout:auto"}
