@@ -53,7 +53,7 @@ CX Enterpriseは、CX ライフサイクルの各段階で次のアプリケー�
 
 CX Enterprise ヘッダーから、次の操作を実行できます。
 
-* [すべてのCX Enterprise アプリケーションとサービスにアクセス ](get-started-using-cxe.md#applications)する
+* [すべてのCX Enterprise アプリケーションとサービスにアクセス &#x200B;](get-started-using-cxe.md#applications)する
 * **[!UICONTROL ヘルプ]** メニューから、製品ドキュメント、チュートリアル、コミュニティ投稿を検索します。 Experience League で結果を表示します。
 * 検索フィールドでグローバル検索（Experience Platform ユーザーのみ）を使用して、ビジネスオブジェクトをグローバルに[検索](/help/interface/features/search.md)します。
 * ユーザーと製品管理のための[Admin Console](/help/interface/administration/admin-console.md)へのアクセス

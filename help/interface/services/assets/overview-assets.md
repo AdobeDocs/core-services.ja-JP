@@ -59,7 +59,7 @@ CX Enterprise [!DNL Assets]は、アプリケーション間で共有できる�
 
 アセット（またはアセットディレクトリ）に移動し、**[!UICONTROL 選択]**&#x200B;をクリックします。
 
-ツールバーでは、[!UICONTROL 検索]、[!UICONTROL  タイムライン ]、[!UICONTROL  レンディション ]、[!UICONTROL 編集]、[!UICONTROL 注釈]および[!UICONTROL  ダウンロード ]などの機能にすばやくアクセスできます。
+ツールバーでは、[!UICONTROL 検索]、[!UICONTROL &#x200B; タイムライン &#x200B;]、[!UICONTROL &#x200B; レンディション &#x200B;]、[!UICONTROL 編集]、[!UICONTROL 注釈]および[!UICONTROL &#x200B; ダウンロード &#x200B;]などの機能にすばやくアクセスできます。
 
 ![ツールバーへのアクセス](../../assets/asset-tools.png)
 

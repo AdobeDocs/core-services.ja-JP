@@ -50,11 +50,11 @@ CX Enterpriseの一部の共有機能は、_コアサービス_&#x200B;とも呼
 >People サービスを使用するには、特定の実装手順に従う必要がある場合があります。 詳細については、[People サービスの使用を開始する](getting-started.md)を参照してください。
 
 CX Enterpriseの共有サービスとアプリケーションにアクセスするには、**[!UICONTROL アプリケーションセレクターをクリックします]**
-![ サービスセレクター](../assets/apps-icon.png)。
+![&#x200B; サービスセレクター](../assets/apps-icon.png)。
 
 | コアサービス | 説明 |
 | --- | --- |
-| [人物> オーディエンスライブラリ ](audiences/overview.md) | オーディエンスは、訪問者の集合（訪問者 ID のリスト）です。 Adobeの[!DNL Audience Library]では、訪問者データをオーディエンスセグメンテーションに変換できます。 |
+| [人物> オーディエンスライブラリ &#x200B;](audiences/overview.md) | オーディエンスは、訪問者の集合（訪問者 ID のリスト）です。 Adobeの[!DNL Audience Library]では、訪問者データをオーディエンスセグメンテーションに変換できます。 |
 | [人物>顧客属性](customer-attributes/attributes.md) | イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築できます。 [!UICONTROL Journey Orchestration]は、Experience Platformと統合されたアプリケーションサービスです。 |
 | [Assets](assets/overview-assets.md) | CX Enterprise Assetsは、アプリケーション間で共有できる、マーケティングに適したアセットの一元的なリポジトリを提供します。 |
 | [トリガー](triggers.md) | CX Enterpriseのトリガーを利用すれば、主要な消費者行動を特定、定義および監視して、アプリケーションをまたいだコミュニケーションを構築し、訪問者に再アピールできます。 リアルタイムでの意思決定とパーソナライゼーションに Triggers を使用できます。 |
