@@ -5,14 +5,16 @@ breadcrumb-title: CX Enterpriseのインターフェイスと管理
 title: CX Enterprise インターフェイスおよび管理ガイド
 description: CX Enterpriseのインターフェイスと管理の詳細。 AI、管理、共有サービス、データ収集、Cookie、リリースノート、FAQに関するトピックを参照できます。
 index: true
-source-git-commit: a714343bc3e17145e51fd99f64690e7d69ab4d9d
+source-git-commit: 8a12be4ae959319068585c1593d2ddfe24ffc0c3
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '214'
 ht-degree: 57%
 ---
 # CX Enterpriseのインターフェイスと管理 {#interface}
 
-+ [CX Enterpriseのインターフェイスと管理](/help/interface/experience-cloud.md)
++ [CX Enterpriseのインターフェイスと管理](/help/interface/home.md)
++ 基本を学ぶ {#get-started}
+  + [CX Enterpriseの導入方法](/help/interface/get-started-using-cxe.md)
 + 管理 {#administration}
   + [アカウントの環境設定と通知](/help/interface/features/account-preferences.md)
   + [ブラウザーと言語のサポート](/help/interface/browser-language.md)
@@ -22,16 +24,16 @@ ht-degree: 57%
   + [統合](/help/interface/administration/integrations.md)
   + [統合検索](/help/interface/features/search.md)
   + [パーソナライズされた学習設定](/help/interface/features/personalized-learning.md)
-+ インターフェイスサービス {#services}
-  + [インターフェイスの概要](/help/interface/services/overview.md)
++ アセット {#assets}
+  + [Assetsの概要](/help/interface/services/assets/overview-assets.md)
+  + [Creative Cloud ユーザーの管理](/help/interface/services/assets/manage-cc-users.md)
+  + [アセットフォルダーの共有](/help/interface/services/assets/share.md)
+  + [共有フォルダーへのアセットのアップロード](/help/interface/services/assets/upload.md)
+  + [アセットファイルを共有するための要件](/help/interface/services/assets/file-reqs.md)
+  + [共有フォルダーの動作](/help/interface/services/assets/behavior.md)
++ 人物 {#services}
+  + [共有機能について](/help/interface/services/overview.md)
   + [基本を学ぶ](/help/interface/services/getting-started.md)
-  + アセット {#assets}
-    + [Assetsの概要](/help/interface/services/assets/experience-cloud-assets.md)
-    + [Creative Cloud ユーザーの管理](/help/interface/services/assets/manage-cc-users.md)
-    + [アセットフォルダーの共有](/help/interface/services/assets/share.md)
-    + [共有フォルダーへのアセットのアップロード](/help/interface/services/assets/upload.md)
-    + [アセットファイルを共有するための要件](/help/interface/services/assets/file-reqs.md)
-    + [共有フォルダーの動作](/help/interface/services/assets/behavior.md)
   + オーディエンスライブラリ {#audiences}
     + [オーディエンスの概要](/help/interface/services/audiences/overview.md)
     + [オーディエンスの作成](/help/interface/services/audiences/create.md)
