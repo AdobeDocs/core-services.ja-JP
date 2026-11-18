@@ -7,17 +7,17 @@ solution: CX Enterprise
 solution-title: Experience Platform
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/jp/experience-cloud-core-services/get-started.html
+getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
-git-repo: https://github.com/Adobe-Enterprise-Docs/core-services.ja-JP
+git-repo: https://github.com/AdobeDocs/core-services.en
 usetq: true
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
-source-git-commit: cedbdaa0a783bd9777c169b1257ca5ebf6b48c08
+source-git-commit: 61df034bf2b0f6bd55d1d32fe5c358771a034a55
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '179'
 ht-degree: 68%
 ---
 
@@ -31,7 +31,7 @@ metadata.md ファイルには、リポジトリ内のユーザーガイドの T
 | solution-hub-url | helpx ハブページを開きます |
 | solution-icon | ソリューションタイトルの横にソリューションアイコンを表示します。 まだ実装されていません |
 | getting-started-title | チュートリアルが適切でない場合はめったに使用されません |
-| getting-started-url | Helpx 入門ページへのリンク |
+| getting-started-url | HelpX 入門ページへのリンク |
 | tutorials-title | チュートリアルが適切でない場合はめったに使用されません |
 | tutorials-url | ビデオチュートリアルへのリンク - helpx チュートリアルまたは KT チュートリアル |
 | mini-toc-levels | 右側のパネルに表示される見出しレベルの数を指定します。 デフォルトは 2 です |
